@@ -1,0 +1,173 @@
+Category: Assault Rifle Stocks
+---
+Stock: AKM
+Stock_Effects:
+  Reload_Speed: -10% (Faster)
+  Spread: -10%
+  Recoil: +15%
+---
+Stock: M-16
+Stock_Effects:
+  Recoil: -10%
+---
+Stock: AUG
+Stock_Effects:
+  Movement_Speed: +2.5%
+  Recoil: -10%
+  Spread: -20%
+---
+Stock: As-Val
+Stock_Effects:
+  Recoil: -10%
+  Reload_Speed: -10% (Faster)
+---
+Stock: Famas F1
+Stock_Effects:
+  Recoil: -15%
+  Reload_Speed: +5% (Slower)
+---
+Stock: Fedorov Avtomat
+Stock_Effects:
+  Fire_Rate: +5%
+  Recoil: -10%
+  Reload_Speed: +20% (Slower)
+---
+Stock: Scar L
+Stock_Effects:
+  Recoil: -10%
+  Reload_Speed: -15% (Faster)
+  Spread: +10%
+---
+Stock: STG-44
+Stock_Effects:
+  Fire_Rate: +3%
+  Spread: -10%
+---
+Stock: The Chief
+Stock_Effects:
+  Reload_Speed: -10% (Faster)
+  Spread: -20%
+  Recoil: +10%
+---
+Stock: Hell-Trooper-23
+Stock_Effects:
+  Reload_Speed: -25% (Faster)
+  Recoil: +10%
+---
+
+Category: Sniper Stocks
+---
+Stock: Remington 700
+Stock_Effects:
+  Recoil: -10%
+  Spread: -20%
+---
+Stock: M1891 Carcano
+Stock_Effects:
+  Movement_Speed: +4%
+  Recoil: +15%
+---
+Stock: Arctic Warfare
+Stock_Effects:
+  Reload_Speed: -15% (Faster)
+  Spread: -35%
+  Recoil: +10%
+---
+Stock: Lee Enfield
+Stock_Effects:
+  Fire_Rate: +10%
+  Recoil: +50%
+  Spread: +100%
+---
+Stock: Hecate II
+Stock_Effects:
+  Damage: +5%
+  Reload_Speed: -10% (Faster)
+  Spread: -20%
+  Fire_Rate: -10%
+  Movement_Speed: -5%
+  Recoil: +15%
+---
+
+Category: SMG Stocks
+---
+Stock: MAC-10
+Stock_Effects:
+  Movement_Speed: +4.4%
+  Reload_Speed: -20% (Faster)
+  Recoil: +15%
+  Spread: +15%
+---
+Stock: Skorpion vz. 61
+Stock_Effects:
+  Movement_Speed: +6%
+  Reload_Speed: -10% (Faster)
+  Recoil: +20%
+  Spread: +25%
+---
+Stock: Thompson
+Stock_Effects:
+  Recoil: -10%
+  Spread: -10%
+---
+Stock: MP9
+Stock_Effects:
+  Movement_Speed: +4.6%
+  Spread: -10%
+  Recoil: +30%
+---
+Stock: MP 40
+Stock_Effects:
+  Movement_Speed: +3.2%
+  Reload_Speed: -10% (Faster)
+  Spread: -10%
+  Recoil: +15%
+---
+Stock: UMP-40
+Stock_Effects:
+  Movement_Speed: +3.8%
+  Spread: -22%
+  Recoil: +20%
+---
+Stock: PPSh-41
+Stock_Effects:
+  Reload_Speed: -25% (Faster)
+  Spread: -10%
+  Movement_Speed: -2%
+  Recoil: +10%
+---
+Stock: Kriss Vector
+Stock_Effects:
+  Fire_Rate: +7%
+  Movement_Speed: +3.3%
+  Recoil: -20%
+  Spread: +20%
+---
+
+Category: LMG Stocks
+---
+Stock: M60
+Stock_Effects:
+  Recoil: -20%
+  Reload_Speed: -5% (Faster)
+  Movement_Speed: -3%
+  Spread: +5%
+---
+Stock: DP-27
+Stock_Effects:
+  Recoil: -20%
+  Spread: -24%
+  Fire_Rate: -15%
+---
+Stock: M1919a6 Browning
+Stock_Effects:
+  Recoil: -32%
+  Movement_Speed: -7%
+  Spread: +19%
+---
+Stock: MG42
+Stock_Effects:
+  Movement_Speed: +3.5%
+  Spread: -25%
+  Reload_Speed: +20% (Slower)
+---

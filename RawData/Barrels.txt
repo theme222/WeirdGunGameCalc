@@ -1,0 +1,207 @@
+Category: Assault Rifle Barrels
+---
+Gun: AKM
+Barrel_Effects:
+  Damage: +10%
+  Recoil: +20%
+---
+Gun: M-16
+Barrel_Effects:
+  Recoil: -10%
+  Damage: -10%
+---
+Gun: AUG
+Barrel_Effects:
+  Movement_Speed: +2.5%
+  Recoil: -5%
+  Reload_Speed: -15% (Faster)
+  Spread: -10%
+  Damage: -5%
+---
+Gun: As-Val
+Barrel_Effects:
+  Fire_Rate: +10%
+  Recoil: +15%
+---
+Gun: Famas F1
+Barrel_Effects:
+  Fire_Rate: +5%
+  Spread: +15%
+---
+Gun: Fedorov Avtomat
+Barrel_Effects:
+  Damage: +15%
+  Fire_Rate: -10%
+  Spread: +30%
+---
+Gun: Scar H
+Barrel_Effects:
+  Damage: +15%
+  Spread: -25%
+  Fire_Rate: -10%
+  Recoil: +20%
+---
+Gun: Scar L
+Barrel_Effects:
+  Damage: +5%
+  Recoil: -10%
+---
+Gun: STG-44
+Barrel_Effects:
+  Damage: +10%
+  Recoil: +10%
+  Spread: +10%
+---
+Gun: The Chief
+Barrel_Effects:
+  Damage: +5%
+  Movement_Speed: +4%
+  Recoil: +10%
+---
+Gun: Hell-Trooper-23
+Barrel_Effects:
+  Damage: +12%
+  Recoil: +10%
+  Spread: +35%
+---
+
+Category: Sniper Barrels
+---
+Gun: Remington 700
+Barrel_Effects:
+  Fire_Rate: +10%
+  Recoil: -5%
+  Spread: -20%
+  Damage: -10%
+---
+Gun: M1891 Carcano
+Barrel_Effects:
+  Spread: -25%
+  Reload_Speed: +20% (Slower)
+---
+Gun: M91 Moschetto
+Barrel_Effects:
+  Movement_Speed: +4%
+  Reload_Speed: -20% (Faster)
+  Spread: +50%
+---
+Gun: Arctic Warfare
+Barrel_Effects:
+  Damage: +15%
+  Spread: -35%
+  Recoil: +50%
+---
+Gun: Lee Enfield
+Barrel_Effects:
+  Fire_Rate: +10%
+  Recoil: +100%
+  Spread: +100%
+---
+Gun: Hecate II
+Barrel_Effects:
+  Damage: +30%
+  Fire_Rate: -30%
+  Movement_Speed: -10%
+  Recoil: +100%
+  Spread: +50%
+---
+
+Category: SMG Barrels
+---
+Gun: MAC-10
+Barrel_Effects:
+  Fire_Rate: +5%
+  Movement_Speed: +4.4%
+  Damage: -5%
+---
+Gun: Skorpion vz. 61
+Barrel_Effects:
+  Movement_Speed: +9%
+  Damage: -5%
+---
+Gun: Thompson
+Barrel_Effects:
+  Damage: +7%
+  Fire_Rate: +7%
+  Movement_Speed: +3.8%
+  Recoil: +25%
+---
+Gun: MP9
+Barrel_Effects:
+  Fire_Rate: +8%
+  Movement_Speed: +3.2%
+  Reload_Speed: -15% (Faster)
+---
+Gun: MP 40
+Barrel_Effects:
+  Damage: +10%
+  Movement_Speed: +3.2%
+  Recoil: +20%
+---
+Gun: UMP-40
+Barrel_Effects:
+  Damage: +12%
+  Movement_Speed: +3.8%
+  Fire_Rate: -5%
+  Recoil: +15%
+  Spread: +15%
+---
+Gun: PPSh-41
+Barrel_Effects:
+  Fire_Rate: +15%
+  Movement_Speed: +2.3%
+  Recoil: +15%
+  Spread: +10%
+---
+Gun: Kriss Vector
+Barrel_Effects:
+  Fire_Rate: +20%
+  Movement_Speed: +3.3%
+  Recoil: -15%
+  Damage: -10%
+---
+
+Category: LMG Barrels
+---
+Gun: M60
+Barrel_Effects:
+  Damage: +5%
+  Recoil: -10%
+  Movement_Speed: -3%
+---
+Gun: DP-27
+Barrel_Effects:
+  Damage: +13%
+  Movement_Speed: -1%
+  Recoil: +15%
+  Spread: +18%
+---
+Gun: M1919a6 Browning
+Barrel_Effects:
+  Recoil: -17%
+  Spread: -20%
+  Movement_Speed: -3%
+  Reload_Speed: +12% (Slower)
+---
+Gun: M1917 Browning 
+Barrel_Effects: 
+  Fire_Rate: +20%
+  Recoil: -20%
+  Spread: -10%
+  Movement_Speed: -25%
+  Reload_Speed: +15% (Slower)
+---
+Gun: M1919 Browning
+Barrel_Effects:
+  Recoil: -30%
+  Spread: -50%
+  Movement_Speed: -30%
+  Reload_Speed: +25% (Slower)
+---
+Gun: MG42
+Barrel_Effects:
+  Fire_Rate: +20%
+  Movement_Speed: -5%
+  Recoil: +40%
+  Spread: +50%
+---

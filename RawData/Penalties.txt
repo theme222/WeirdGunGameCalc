@@ -1,0 +1,6 @@
+Attachment Penalties:
+ARs: 30% less buffs from Sniper attachments, 20% less buffs from SMG attachments, 25% less buffs from LMG attachments
+Snipers: 30% less buffs from Assault Rifle attachments, 40% less buffs from SMG attachments, 20% less buffs from LMG attachments
+SMGs: 20% less buffs from Assault Rifle attachments, 40% less buffs from Sniper attachments, 35% less buffs from LMG attachments
+LMGs: 25% less buffs from Assault Rifle attachments, 20% less buffs from Sniper attachments, 35% less buffs from SMG attachments
+All debuff strength's stay at 100% regardless of attachment category

@@ -1,0 +1,243 @@
+Category: Assault Rifle Magazines
+---
+Magazine: AKM
+Magazine_Effects:
+  Magazine_Size: 30
+  Reload_Time: 2.4s
+  Damage: +10%
+---
+Magazine: M-16
+Magazine_Effects:
+  Magazine_Size: 30
+  Reload_Time: 1.9s
+---
+Magazine: AUG
+Magazine_Effects:
+  Magazine_Size: 42
+  Reload_Time: 3s
+  Movement_Speed: +2.5%
+  Recoil: -10%
+  Damage: -15%
+---
+Magazine: As-Val
+Magazine_Effects:
+  Magazine_Size: 20
+  Reload_Time: 1.5s
+  Recoil: -10%
+  Damage: -5%
+---
+Magazine: Fedorov Avtomat
+Magazine_Effects:
+  Magazine_Size: 25
+  Reload_Time: 4s
+  Damage: +20%
+  Fire_Rate: -5%
+  Recoil: +25%
+---
+Magazine: Scar H
+Magazine_Effects:
+  Magazine_Size: 20
+  Reload_Time: 4.5s
+  Damage: +20%
+  Recoil: +25%
+---
+Magazine: Famas F1
+Magazine_Effects:
+  Magazine_Size: 25
+  Reload_Time: 2s
+  Fire_Rate: +10%
+  Damage: -5%
+  Recoil: +10%
+---
+Magazine: Scar L
+Magazine_Effects:
+  Magazine_Size: 40
+  Reload_Time: 3s
+  Recoil: -20%
+  Spread: +15%
+---
+Magazine: STG-44
+Magazine_Effects:
+  Magazine_Size: 30
+  Reload_Time: 2.5s
+  Damage: +15%
+  Fire_Rate: -10%
+---
+Magazine: The Chief
+Magazine_Effects:
+  Magazine_Size: 36
+  Reload_Time: 3.8s
+  Damage: +20%
+  Fire_Rate: -10%
+  Recoil: +25%
+  Reload_Time_Penalty: +25% (Slower)
+---
+Magazine: Scar Drum
+Magazine_Effects:
+  Magazine_Size: 50
+  Reload_Time: 6s
+  Recoil: -10%
+  Damage: -5%
+---
+Magazine: Hell-Trooper-23
+Magazine_Effects:
+  Magazine_Size: 45
+  Reload_Time: 2.3s
+  Damage: +13%
+  Recoil: +15%
+  Spread: +10%
+---
+
+Category: Sniper Magazines
+---
+Magazine: Arctic Warfare
+Magazine_Effects:
+  Magazine_Size: 5
+  Reload_Time: 5s
+  Damage: +20%
+  Spread: -50%
+  Fire_Rate: -10%
+  Recoil: +40%
+---
+Magazine: Lee Enfield
+Magazine_Effects:
+  Magazine_Size: 10
+  Reload_Time: 4s
+  Fire_Rate: +20%
+  Damage: -10%
+  Recoil: +25%
+  Spread: +50%
+---
+Magazine: Hecate II
+Magazine_Effects:
+  Magazine_Size: 5
+  Reload_Time: 5s
+  Damage: +45%
+  Fire_Rate: -40%
+  Movement_Speed: -10%
+  Recoil: +100%
+  Reload_Time_Penalty: +50% (Slower)
+  Spread: +100%
+---
+Magazine: Remington 700
+Magazine_Effects:
+  Magazine_Size: 10
+  Reload_Time: 3.5s
+  Damage: +16%
+  Recoil: -25%
+  Spread: -25%
+---
+Magazine: M1891 Carcano
+Magazine_Effects:
+  Magazine_Size: 6
+  Reload_Time: 3.5s
+  Fire_Rate: +5%
+  Spread: -15%
+  Recoil: +25%
+---
+
+Category: SMG Magazines
+---
+Magazine: MAC-10
+Magazine_Effects:
+  Magazine_Size: 30
+  Reload_Time: 2s
+  Fire_Rate: +10%
+  Movement_Speed: +4.4%
+  Damage: -5%
+---
+Magazine: Skorpion vz. 61
+Magazine_Effects:
+  Magazine_Size: 20
+  Reload_Time: 1.2s
+  Movement_Speed: +9%
+  Damage: -15%
+---
+Magazine: Thompson
+Magazine_Effects:
+  Magazine_Size: 20
+  Reload_Time: 3s
+  Damage: +15%
+  Movement_Speed: +3.8%
+  Spread: +20%
+---
+Magazine: MP9
+Magazine_Effects:
+  Magazine_Size: 30
+  Reload_Time: 2.2s
+  Fire_Rate: +5%
+  Movement_Speed: +4.6%
+  Spread: +7%
+---
+Magazine: MP 40
+Magazine_Effects:
+  Magazine_Size: 32
+  Reload_Time: 2.5s
+  Damage: +15%
+  Spread: -10%
+  Fire_Rate: -5%
+  Recoil: +15%
+---
+Magazine: UMP-40
+Magazine_Effects:
+  Magazine_Size: 30
+  Reload_Time: 2s
+  Damage: +14%
+  Movement_Speed: +1.5%
+  Spread: -10%
+  Fire_Rate: -10%
+  Recoil: +23%
+---
+Magazine: PPSh-41
+Magazine_Effects:
+  Magazine_Size: 71
+  Reload_Time: 5.5s
+  Fire_Rate: +5%
+  Movement_Speed: -1%
+  Spread: +10%
+---
+Magazine: Kriss Vector
+Magazine_Effects:
+  Magazine_Size: 30
+  Reload_Time: 2.4s
+  Fire_Rate: +25%
+  Movement_Speed: +3.3%
+  Recoil: -15%
+  Damage: -10%
+---
+
+Category: LMG Magazines
+---
+Magazine: M60
+Magazine_Effects:
+  Magazine_Size: 75
+  Reload_Time: 5s
+  Movement_Speed: +1.5%
+  Spread: -13%
+  Recoil: +11%
+---
+Magazine: DP-27
+Magazine_Effects:
+  Magazine_Size: 47
+  Reload_Time: 6s
+  Damage: +7%
+  Recoil: +12%
+---
+Magazine: M1919a6 Browning
+Magazine_Effects:
+  Magazine_Size: 100
+  Reload_Time: 9.5s
+  Damage: +20%
+  Fire_Rate: -10%
+  Movement_Speed: -12%
+  Spread: +27%
+---
+Magazine: MG42
+Magazine_Effects:
+  Magazine_Size: 50
+  Reload_Time: 5.5s
+  Fire_Rate: +11%
+  Movement_Speed: -4%
+  Recoil: +32%
+  Spread: +50%
+---
