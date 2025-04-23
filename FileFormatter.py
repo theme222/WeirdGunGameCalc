@@ -94,7 +94,7 @@ def TurnToJSON():
             # Extracting the category and type
             if key == "Category":
                 if name == "Guns.txt":
-                    currentCategory = value
+                    currentCategory = value[:-1]
                     currentType = "Cores"
                 else:
                     currentCategory = " ".join(value.strip().split(" ")[:-1])

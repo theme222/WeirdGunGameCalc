@@ -304,7 +304,7 @@
   ],
   "Cores": [
     {
-      "Category": "Assault Rifles",
+      "Category": "Assault Rifle",
       "Name": "AKM",
       "Damage": [
         18.5,
@@ -337,7 +337,7 @@
       ]
     },
     {
-      "Category": "Assault Rifles",
+      "Category": "Assault Rifle",
       "Name": "M-16",
       "Damage": [
         15.9,
@@ -370,7 +370,7 @@
       ]
     },
     {
-      "Category": "Assault Rifles",
+      "Category": "Assault Rifle",
       "Name": "AUG",
       "Damage": [
         14.5,
@@ -404,7 +404,7 @@
       ]
     },
     {
-      "Category": "Assault Rifles",
+      "Category": "Assault Rifle",
       "Name": "As-Val",
       "Damage": [
         13.8,
@@ -437,7 +437,7 @@
       ]
     },
     {
-      "Category": "Assault Rifles",
+      "Category": "Assault Rifle",
       "Name": "Famas F1",
       "Damage": [
         13,
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "Category": "Assault Rifles",
+      "Category": "Assault Rifle",
       "Name": "Fedorov Avtomat",
       "Damage": [
         22,
@@ -503,7 +503,7 @@
       ]
     },
     {
-      "Category": "Assault Rifles",
+      "Category": "Assault Rifle",
       "Name": "Scar L",
       "Damage": [
         16.5,
@@ -536,7 +536,7 @@
       ]
     },
     {
-      "Category": "Assault Rifles",
+      "Category": "Assault Rifle",
       "Name": "STG-44",
       "Damage": [
         19.7,
@@ -569,7 +569,7 @@
       ]
     },
     {
-      "Category": "Assault Rifles",
+      "Category": "Assault Rifle",
       "Name": "The Chief",
       "Damage": [
         17.5,
@@ -602,7 +602,7 @@
       ]
     },
     {
-      "Category": "Assault Rifles",
+      "Category": "Assault Rifle",
       "Name": "Hell-Trooper-23",
       "Damage": [
         18,
@@ -635,7 +635,7 @@
       ]
     },
     {
-      "Category": "Snipers",
+      "Category": "Sniper",
       "Name": "Remington 700",
       "Damage": [
         55,
@@ -669,7 +669,7 @@
       ]
     },
     {
-      "Category": "Snipers",
+      "Category": "Sniper",
       "Name": "M1891 Carcano",
       "Damage": [
         53,
@@ -702,7 +702,7 @@
       ]
     },
     {
-      "Category": "Snipers",
+      "Category": "Sniper",
       "Name": "Arctic Warfare",
       "Damage": [
         60,
@@ -736,7 +736,7 @@
       ]
     },
     {
-      "Category": "Snipers",
+      "Category": "Sniper",
       "Name": "Lee Enfield",
       "Damage": [
         52,
@@ -769,7 +769,7 @@
       ]
     },
     {
-      "Category": "Snipers",
+      "Category": "Sniper",
       "Name": "Hecate II",
       "Damage": [
         70,
@@ -803,7 +803,7 @@
       ]
     },
     {
-      "Category": "SMGs",
+      "Category": "SMG",
       "Name": "MAC-10",
       "Damage": [
         15.3,
@@ -836,7 +836,7 @@
       ]
     },
     {
-      "Category": "SMGs",
+      "Category": "SMG",
       "Name": "Skorpion vz. 61",
       "Damage": [
         16.5,
@@ -869,7 +869,7 @@
       ]
     },
     {
-      "Category": "SMGs",
+      "Category": "SMG",
       "Name": "Thompson",
       "Damage": [
         17,
@@ -902,7 +902,7 @@
       ]
     },
     {
-      "Category": "SMGs",
+      "Category": "SMG",
       "Name": "MP9",
       "Damage": [
         13.2,
@@ -935,7 +935,7 @@
       ]
     },
     {
-      "Category": "SMGs",
+      "Category": "SMG",
       "Name": "MP 40",
       "Damage": [
         24.2,
@@ -968,7 +968,7 @@
       ]
     },
     {
-      "Category": "SMGs",
+      "Category": "SMG",
       "Name": "UMP-40",
       "Damage": [
         22,
@@ -1001,7 +1001,7 @@
       ]
     },
     {
-      "Category": "SMGs",
+      "Category": "SMG",
       "Name": "PPSh-41",
       "Damage": [
         11.7,
@@ -1034,7 +1034,7 @@
       ]
     },
     {
-      "Category": "SMGs",
+      "Category": "SMG",
       "Name": "Kriss Vector",
       "Damage": [
         15.3,
@@ -1067,7 +1067,7 @@
       ]
     },
     {
-      "Category": "LMGs",
+      "Category": "LMG",
       "Name": "M60",
       "Damage": [
         19.5,
@@ -1101,7 +1101,7 @@
       ]
     },
     {
-      "Category": "LMGs",
+      "Category": "LMG",
       "Name": "DP-27",
       "Damage": [
         19,
@@ -1135,7 +1135,7 @@
       ]
     },
     {
-      "Category": "LMGs",
+      "Category": "LMG",
       "Name": "M1919a6 Browning",
       "Damage": [
         21.5,
@@ -1169,7 +1169,7 @@
       ]
     },
     {
-      "Category": "LMGs",
+      "Category": "LMG",
       "Name": "MG42",
       "Damage": [
         11,
