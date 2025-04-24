@@ -6,6 +6,8 @@
 #include <algorithm>
 #include <memory>
 #include <fstream>
+#include <queue>
+#include <vector>
 #include "include/json.hpp" // "nlohmann/json.hpp"
 
 using json = nlohmann::json;
@@ -13,6 +15,9 @@ using json = nlohmann::json;
 json emptyJSON = json::parse(R"({})");
 
 typedef std::pair<float, float> fpair;
+typedef unsigned long long uint_64_t; 
+typedef unsigned long uint_32_t; 
+
 
 std::string filepath = "Data/FullData.json";
 
@@ -58,6 +63,7 @@ std::map<std::string, bool> moreIsBetter = {
     {"recoil", false},
     {"spread", false},
 };
+
 
 class Part
 {
@@ -237,6 +243,18 @@ Grip emptyGrip;
 Stock emptyStock;
 Core emptyCore;
 
+enum MultFlags {
+    DAMAGE = 1<<0,
+    DROPOFFSTUDS = 1<<1,
+    RELOADTIME = 1<<2,
+    MAGAZINESIZE = 1<<3,
+    FIRERATE = 1<<4,
+    TIMETOAIM = 1<<5,
+    MOVEMENTSPEEDMODIFIER = 1<<6,
+    SPREAD = 1<<7,
+    RECOIL = 1<<8
+};
+
 class Gun
 {
 public:
@@ -266,10 +284,12 @@ public:
     float CalculatePenalty(const std::string &propertyName, Part *part)
     {
         float baseMult = part->GetMult(propertyName);
-        if (!moreIsBetter[propertyName])
-            return baseMult;
-        if (part->name == core->name)
+        if (part->name == core->name) // This actually evaluates first weirdly enough
             return 0;
+        if (!moreIsBetter[propertyName] && baseMult > 0)
+            return baseMult;
+        if (moreIsBetter[propertyName] && baseMult < 0)
+            return baseMult;
         if (core->category == "Weird")
             return baseMult;
         if (core->category == "Assault Rifle")
@@ -294,7 +314,59 @@ public:
         return mult;
     }
 
-    void CopyInitialValues()
+    void CopyValues(uint32_t flags)
+    {
+        if (flags & DAMAGE) damage = core->damage;
+        if (flags & DROPOFFSTUDS) dropoffStuds = core->dropoffStuds;
+        if (flags & FIRERATE) fireRate = core->fireRate;
+        if (flags & TIMETOAIM) timeToAim = core->timeToAim;
+        if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier = core->movementSpeedModifier;
+        if (flags & MAGAZINESIZE) magazineSize = magazine->magazineSize;
+        if (flags & RELOADTIME) reloadTime = magazine->reloadTime;
+        if (flags & SPREAD)
+        {
+            hipfireSpread = core->hipfireSpread;
+            adsSpread = core->adsSpread;
+        }
+        if (flags & RECOIL)
+        {
+            recoilHipHorizontal = core->recoilHipHorizontal;
+            recoilHipVertical = core->recoilHipVertical;
+            recoilAimHorizontal = core->recoilAimHorizontal;
+            recoilAimVertical = core->recoilAimVertical;
+        }
+    }
+
+    void CalculateGunStats(uint32_t flags) 
+    {
+        if (flags & DAMAGE) 
+        {
+            damage.first *= GetTotalMult("damage");
+            damage.second *= GetTotalMult("damage");
+        }
+        if (flags & FIRERATE) fireRate *= GetTotalMult("fireRate");
+        if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier *= GetTotalMult("movementSpeed");
+        if (flags & RELOADTIME) reloadTime *= GetTotalMult("reloadSpeed");
+        if (flags & SPREAD)
+        {
+            hipfireSpread *= GetTotalMult("spread");
+            adsSpread *= GetTotalMult("spread");
+        }
+        if (flags & RECOIL)
+        {
+            float recoilMult = GetTotalMult("recoil");
+            recoilHipHorizontal.first *= recoilMult;
+            recoilHipHorizontal.second *= recoilMult;
+            recoilHipVertical.first *= recoilMult;
+            recoilHipVertical.second *= recoilMult;
+            recoilAimHorizontal.first *= recoilMult;
+            recoilAimHorizontal.second *= recoilMult;
+            recoilAimVertical.first *= recoilMult;
+            recoilAimVertical.second *= recoilMult;
+        }
+    }
+
+    void CopyAllInitialValues()
     {
         // Copy values from core
         damage = core->damage;
@@ -314,7 +386,7 @@ public:
         reloadTime = magazine->reloadTime;
     }
 
-    void CalculateGunStats()
+    void CalculateAllGunStats()
     {
         damage.first *= GetTotalMult("damage");
         damage.second *= GetTotalMult("damage");
@@ -322,14 +394,15 @@ public:
         movementSpeedModifier *= GetTotalMult("movementSpeed");
         hipfireSpread *= GetTotalMult("spread");
         adsSpread *= GetTotalMult("spread");
-        recoilHipHorizontal.first *= GetTotalMult("recoil");
-        recoilHipHorizontal.second *= GetTotalMult("recoil");
-        recoilHipVertical.first *= GetTotalMult("recoil");
-        recoilHipVertical.second *= GetTotalMult("recoil");
-        recoilAimHorizontal.first *= GetTotalMult("recoil");
-        recoilAimHorizontal.second *= GetTotalMult("recoil");
-        recoilAimVertical.first *= GetTotalMult("recoil");
-        recoilAimVertical.second *= GetTotalMult("recoil");
+        float recoilMult = GetTotalMult("recoil");
+        recoilHipHorizontal.first *= recoilMult;
+        recoilHipHorizontal.second *= recoilMult;
+        recoilHipVertical.first *= recoilMult;
+        recoilHipVertical.second *= recoilMult;
+        recoilAimHorizontal.first *= recoilMult;
+        recoilAimHorizontal.second *= recoilMult;
+        recoilAimVertical.first *= recoilMult;
+        recoilAimVertical.second *= recoilMult;
         reloadTime *= GetTotalMult("reloadSpeed");
     }
 };
@@ -352,11 +425,21 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
     return os;
 }
 
+struct CompareGun {
+    bool operator()(const Gun& gun1, const Gun& gun2) const {
+        float gun1TTK = (100 / gun1.damage.first) / gun1.fireRate;
+        float gun2TTK = (100 / gun2.damage.first) / gun2.fireRate;
+        return gun1TTK > gun2TTK;
+    }
+};
+
 int barrelCount;
 int magazineCount;
 int gripCount;
 int stockCount;
 int coreCount;
+
+std::priority_queue<Gun, std::vector<Gun>, CompareGun> topGuns;
 
 int main()
 {
@@ -402,26 +485,44 @@ int main()
     }
 
     printf("Barrels detected: %d, Magazines detected: %d, Grips detected: %d, Stocks detected: %d, Cores detected: %d\n", barrelCount, magazineCount, gripCount, stockCount, coreCount);
-    puts("Starting bruteforce");
+    printf("Total of %u possibilities \n", barrelCount*magazineCount*gripCount*stockCount*coreCount);
 
-    Gun bestGun;
-    
+    puts("Starting bruteforce");
+    uint32_t flag = DAMAGE | FIRERATE | SPREAD;
     for (int c = 0; c < coreCount; c++)
     {
-        if (coreList[c].category != "Sniper") continue;
+        if (coreList[c].category == "Sniper") continue;
         for (int b = 0; b < barrelCount; b++)
+        {
+            if (barrelList[b].name == "Honk") continue;
             for (int m = 0; m < magazineCount; m++)
+            {
+                if (magazineList[m].magazineSize < 10) continue;
                 for (int g = 0; g < gripCount; g++)
+                {
                     for (int s = 0; s < stockCount; s++)
-                        {
-                            Gun currentGun = Gun(barrelList + b, magazineList + m, gripList + g, stockList + s, coreList + c);
-                            currentGun.CopyInitialValues();
-                            currentGun.CalculateGunStats();
-                            if (currentGun.damage.first > 100.0 && currentGun.fireRate > bestGun.fireRate && currentGun.adsSpread < 0.2)
-                                bestGun = currentGun;
-                        }
-
+                    {
+                        Gun currentGun = Gun(barrelList+b, magazineList+m, gripList+g, stockList+s, coreList+c);
+                        currentGun.CopyValues(flag);
+                        currentGun.CalculateGunStats(flag);
+                        if (currentGun.damage.first >= 100) continue;
+                        if (currentGun.adsSpread > 0.8) continue;
+                        topGuns.push(currentGun);
+                    }
+                }
+            }
+        }
     }
 
-    std::cout << bestGun << std::endl;
+    puts("Bruteforce completed");
+    puts("Current top guns are: ");
+    for (int i = 0; i < topGuns.size(); i++)
+    {
+        if (i == 5) break;
+        Gun g = topGuns.top(); 
+        g.CopyAllInitialValues();
+        g.CalculateAllGunStats();
+        std::cout << g << '\n';
+        topGuns.pop();
+    }
 }
