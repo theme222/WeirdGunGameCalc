@@ -24,3 +24,4 @@ I have no idea how to use cmake so...
 g++ -Iinclude Caculator.cpp -o Calculator
 ./Calculator > Results.txt
 ```
+You will have to download the json.hpp file from the github.

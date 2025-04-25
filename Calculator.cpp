@@ -92,6 +92,8 @@ public:
             fireRate = jsonObject["Fire_Rate"];
         if (jsonObject.contains("Spread"))
             spread = jsonObject["Spread"];
+        if (jsonObject.contains("Recoil"))
+            recoil = jsonObject["Recoil"];
         if (jsonObject.contains("Movement_Speed"))
             movementSpeed = jsonObject["Movement_Speed"];
         if (jsonObject.contains("Reload_Speed"))
@@ -255,6 +257,8 @@ enum MultFlags {
     RECOIL = 1<<8
 };
 
+uint_32_t ALLMULTFLAG = 4294967295;
+
 class Gun
 {
 public:
@@ -314,6 +318,16 @@ public:
         return mult;
     }
 
+    float GetTotalAdd(const std::string &propertyName) // Speed is additive (bruh)
+    {
+        float add = 0;
+        add += CalculatePenalty(propertyName, barrel);
+        add += CalculatePenalty(propertyName, magazine);
+        add += CalculatePenalty(propertyName, grip);
+        add += CalculatePenalty(propertyName, stock);
+        return add;
+    }
+
     void CopyValues(uint32_t flags)
     {
         if (flags & DAMAGE) damage = core->damage;
@@ -345,7 +359,7 @@ public:
             damage.second *= GetTotalMult("damage");
         }
         if (flags & FIRERATE) fireRate *= GetTotalMult("fireRate");
-        if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier *= GetTotalMult("movementSpeed");
+        if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier += GetTotalAdd("movementSpeed"); // Bruhhhhhhhhh
         if (flags & RELOADTIME) reloadTime *= GetTotalMult("reloadSpeed");
         if (flags & SPREAD)
         {
@@ -366,44 +380,14 @@ public:
         }
     }
 
-    void CopyAllInitialValues()
+    void CopyAllValues()
     {
-        // Copy values from core
-        damage = core->damage;
-        dropoffStuds = core->dropoffStuds;
-        fireRate = core->fireRate;
-        timeToAim = core->timeToAim;
-        movementSpeedModifier = core->movementSpeedModifier;
-        hipfireSpread = core->hipfireSpread;
-        adsSpread = core->adsSpread;
-        recoilHipHorizontal = core->recoilHipHorizontal;
-        recoilHipVertical = core->recoilHipVertical;
-        recoilAimHorizontal = core->recoilAimHorizontal;
-        recoilAimVertical = core->recoilAimVertical;
-
-        // Copy values from magazine
-        magazineSize = magazine->magazineSize;
-        reloadTime = magazine->reloadTime;
+        CopyValues(ALLMULTFLAG);
     }
 
     void CalculateAllGunStats()
     {
-        damage.first *= GetTotalMult("damage");
-        damage.second *= GetTotalMult("damage");
-        fireRate *= GetTotalMult("fireRate");
-        movementSpeedModifier *= GetTotalMult("movementSpeed");
-        hipfireSpread *= GetTotalMult("spread");
-        adsSpread *= GetTotalMult("spread");
-        float recoilMult = GetTotalMult("recoil");
-        recoilHipHorizontal.first *= recoilMult;
-        recoilHipHorizontal.second *= recoilMult;
-        recoilHipVertical.first *= recoilMult;
-        recoilHipVertical.second *= recoilMult;
-        recoilAimHorizontal.first *= recoilMult;
-        recoilAimHorizontal.second *= recoilMult;
-        recoilAimVertical.first *= recoilMult;
-        recoilAimVertical.second *= recoilMult;
-        reloadTime *= GetTotalMult("reloadSpeed");
+        CalculateGunStats(ALLMULTFLAG);
     }
 };
 
@@ -423,15 +407,22 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
        << "reloadTime: " << gun.reloadTime << "\n"
        << "magazineSize: " << gun.magazineSize << "\n"
        << "recoilAimVertical: " << gun.recoilAimVertical << "\n"
-       << "TTK" << (100 / gun.damage.first) / gun.fireRate * 60<< "Seconds";
+       << "movementSpeed: " << gun.movementSpeedModifier << "\n"
+       << "TTK " << (100 / gun.damage.first) / gun.fireRate * 60<< " Seconds\n";
     return os;
 }
 
-struct CompareGun {
+struct SortByTTK{
     bool operator()(const Gun& gun1, const Gun& gun2) const {
         float gun1TTK = (100 / gun1.damage.first) / gun1.fireRate;
         float gun2TTK = (100 / gun2.damage.first) / gun2.fireRate;
         return gun1TTK > gun2TTK;
+    }
+};
+
+struct SortByFireRate{
+    bool operator()(const Gun& gun1, const Gun& gun2) const {
+        return gun1.fireRate < gun2.fireRate;
     }
 };
 
@@ -441,7 +432,110 @@ int gripCount;
 int stockCount;
 int coreCount;
 
-std::priority_queue<Gun, std::vector<Gun>, CompareGun> topGuns;
+Barrel barrelList[50];
+Magazine magazineList[50];
+Grip gripList[50];
+Stock stockList[50];
+Core coreList[50];
+
+//std::priority_queue<Gun, std::vector<Gun>, SortByTTK> topGuns;
+std::priority_queue<Gun, std::vector<Gun>, SortByFireRate> topGuns;
+
+namespace BruteForce 
+{
+    void LowestTTK()
+    {
+        uint32_t flag = DAMAGE | FIRERATE | SPREAD | RECOIL | MOVEMENTSPEEDMODIFIER;
+        for (int c = 0; c < coreCount; c++)
+        {
+            if (coreList[c].category == "Sniper") continue;
+            for (int b = 0; b < barrelCount; b++)
+            {
+                if (barrelList[b].name == "Honk") continue;
+                for (int m = 0; m < magazineCount; m++)
+                {
+                    if (magazineList[m].magazineSize < 30) continue;
+                    for (int g = 0; g < gripCount; g++)
+                    {
+                        for (int s = 0; s < stockCount; s++)
+                        {
+                            if (stockList[s].name == "Anvil") continue;
+                            Gun currentGun = Gun(barrelList+b, magazineList+m, gripList+g, stockList+s, coreList+c);
+                            currentGun.CopyValues(flag);
+                            currentGun.CalculateGunStats(flag);
+                            if (currentGun.movementSpeedModifier < 0) continue;
+                            if (currentGun.damage.first >= 100) continue;
+                            if (currentGun.adsSpread > 0.6) continue;
+                            //if (currentGun.recoilAimVertical.second > 30) continue;
+
+                            topGuns.push(currentGun);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    void Fastest1TapSniper()
+    {
+        uint32_t flag = DAMAGE | FIRERATE | SPREAD;
+        for (int c = 0; c < coreCount; c++)
+        {
+            if (coreList[c].category != "Sniper") continue;
+            for (int b = 0; b < barrelCount; b++)
+            {
+                for (int m = 0; m < magazineCount; m++)
+                {
+                    for (int g = 0; g < gripCount; g++)
+                    {
+                        for (int s = 0; s < stockCount; s++)
+                        {
+                            if (stockList[s].name == "Anvil") continue;
+                            Gun currentGun = Gun(barrelList+b, magazineList+m, gripList+g, stockList+s, coreList+c);
+                            currentGun.CopyValues(flag);
+                            currentGun.CalculateGunStats(flag);
+                            if (currentGun.damage.first < 99.95) continue;
+                            if (currentGun.adsSpread >= 0.15) continue;
+
+                            topGuns.push(currentGun);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    void FastestHeadshotSniper()
+    {
+        uint32_t flag = DAMAGE | FIRERATE | SPREAD | MOVEMENTSPEEDMODIFIER;
+        for (int c = 0; c < coreCount; c++)
+        {
+            if (coreList[c].category != "Sniper") continue;
+            for (int b = 0; b < barrelCount; b++)
+            {
+                for (int m = 0; m < magazineCount; m++)
+                {
+                    for (int g = 0; g < gripCount; g++)
+                    {
+                        for (int s = 0; s < stockCount; s++)
+                        {
+                            if (stockList[s].name == "Anvil") continue;
+                            Gun currentGun = Gun(barrelList+b, magazineList+m, gripList+g, stockList+s, coreList+c);
+                            currentGun.CopyValues(flag);
+                            currentGun.CalculateGunStats(flag);
+                            if (currentGun.damage.first < 49.95) continue;
+                            if (currentGun.movementSpeedModifier < 0) continue;
+                            if (currentGun.adsSpread >= 0.15) continue;
+
+                            topGuns.push(currentGun);
+                        }
+                    }
+                }
+            }
+        }
+    }
+};
+
 
 int main()
 {
@@ -450,11 +544,6 @@ int main()
     json data = json::parse(f);
 
     puts("Loading parts into array");
-    Barrel barrelList[50];
-    Magazine magazineList[50];
-    Grip gripList[50];
-    Stock stockList[50];
-    Core coreList[50];
 
     for (json &element : data["Barrels"])
     {
@@ -490,42 +579,18 @@ int main()
     printf("Total of %u possibilities \n", barrelCount*magazineCount*gripCount*stockCount*coreCount);
 
     puts("Starting bruteforce");
-    uint32_t flag = DAMAGE | FIRERATE | SPREAD | RECOIL;
-    for (int c = 0; c < coreCount; c++)
-    {
-        if (coreList[c].category != "LMG") continue;
-        for (int b = 0; b < barrelCount; b++)
-        {
-            if (barrelList[b].name == "Honk") continue;
-            for (int m = 0; m < magazineCount; m++)
-            {
-                if (magazineList[m].magazineSize < 10) continue;
-                for (int g = 0; g < gripCount; g++)
-                {
-                    for (int s = 0; s < stockCount; s++)
-                    {
-                        if (stockList[s].name == "Anvil") continue;
-                        Gun currentGun = Gun(barrelList+b, magazineList+m, gripList+g, stockList+s, coreList+c);
-                        currentGun.CopyValues(flag);
-                        currentGun.CalculateGunStats(flag);
-                        if (currentGun.damage.first >= 100) continue;
-                        if (currentGun.adsSpread > 0.6) continue;
-                        if (currentGun.recoilAimVertical.second > 30) continue;
 
-                        topGuns.push(currentGun);
-                    }
-                }
-            }
-        }
-    }
+    //BruteForce::LowestTTK();
+    //BruteForce::Fastest1TapSniper();
+    BruteForce::FastestHeadshotSniper();
 
     puts("Bruteforce completed");
     puts("Current top guns are: ");
     for (int i = 0; i < topGuns.size(); i++)
     {
-        if (i == 5) break;
+        if (i == 10) break;
         Gun g = topGuns.top(); 
-        g.CopyAllInitialValues();
+        g.CopyAllValues();
         g.CalculateAllGunStats();
         std::cout << g << '\n';
         topGuns.pop();

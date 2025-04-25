@@ -1,0 +1,107 @@
+Reading json file
+Loading parts into array
+Barrels detected: 41, Magazines detected: 35, Grips detected: 30, Stocks detected: 33, Cores detected: 30
+Total of 42619500 possibilities 
+Starting bruteforce
+Bruteforce completed
+Current top guns are: 
+Gun contains[Barrel: Oil, Magazine: Hecate II, Grip: PPSh-41, Stock: Hecate II, Core: Remington 700]
+damage: 100.485 - 90.4365
+fireRate: 22.896
+adsSpread: 0.2256
+reloadTime: 5.175
+magazineSize: 5
+recoilAimVertical: 80.5 - 115
+movementSpeed: -35
+TTK 2.6079 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Hecate II, Grip: M-16, Stock: Hecate II, Core: Remington 700]
+damage: 100.485 - 90.4365
+fireRate: 21.6
+adsSpread: 0.24
+reloadTime: 4.5
+magazineSize: 5
+recoilAimVertical: 69.23 - 98.9
+movementSpeed: -35
+TTK 2.76437 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Hecate II, Grip: AUG, Stock: Hecate II, Core: Remington 700]
+damage: 100.485 - 90.4365
+fireRate: 21.6
+adsSpread: 0.22824
+reloadTime: 4.5
+magazineSize: 5
+recoilAimVertical: 77.6825 - 110.975
+movementSpeed: -33.25
+TTK 2.76437 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Hecate II, Grip: As-Val, Stock: Hecate II, Core: Remington 700]
+damage: 100.485 - 90.4365
+fireRate: 21.6
+adsSpread: 0.24
+reloadTime: 4.0275
+magazineSize: 5
+recoilAimVertical: 77.6825 - 110.975
+movementSpeed: -35
+TTK 2.76437 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Hecate II, Grip: MG42, Stock: Hecate II, Core: Remington 700]
+damage: 100.485 - 90.4365
+fireRate: 21.6
+adsSpread: 0.24
+reloadTime: 3.924
+magazineSize: 5
+recoilAimVertical: 72.128 - 103.04
+movementSpeed: -37.7
+TTK 2.76437 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Hecate II, Grip: Hecate II, Stock: Hecate II, Core: Remington 700]
+damage: 100.485 - 90.4365
+fireRate: 21.6
+adsSpread: 0.216
+reloadTime: 4.5
+magazineSize: 5
+recoilAimVertical: 56.35 - 80.5
+movementSpeed: -35
+TTK 2.76437 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Hecate II, Grip: Kriss Vector, Stock: Hecate II, Core: Remington 700]
+damage: 100.485 - 90.4365
+fireRate: 21.6
+adsSpread: 0.24
+reloadTime: 4.5
+magazineSize: 5
+recoilAimVertical: 73.255 - 104.65
+movementSpeed: -33.02
+TTK 2.76437 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Hecate II, Grip: M1919a6 Browning, Stock: Hecate II, Core: Remington 700]
+damage: 100.485 - 90.4365
+fireRate: 21.6
+adsSpread: 0.20928
+reloadTime: 3.816
+magazineSize: 5
+recoilAimVertical: 100.625 - 143.75
+movementSpeed: -37.5
+TTK 2.76437 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Hecate II, Grip: M60, Stock: Hecate II, Core: Remington 700]
+damage: 100.485 - 90.4365
+fireRate: 21.6
+adsSpread: 0.21696
+reloadTime: 4.815
+magazineSize: 5
+recoilAimVertical: 80.5 - 115
+movementSpeed: -37.5
+TTK 2.76437 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Hecate II, Grip: Thompson, Stock: Hecate II, Core: Remington 700]
+damage: 100.485 - 90.4365
+fireRate: 21.6
+adsSpread: 0.24
+reloadTime: 4.95
+magazineSize: 5
+recoilAimVertical: 73.255 - 104.65
+movementSpeed: -32.72
+TTK 2.76437 Seconds
+

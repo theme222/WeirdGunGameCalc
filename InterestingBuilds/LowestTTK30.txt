@@ -1,0 +1,107 @@
+Reading json file
+Loading parts into array
+Barrels detected: 41, Magazines detected: 35, Grips detected: 30, Stocks detected: 33, Cores detected: 30
+Total of 42619500 possibilities 
+Starting bruteforce
+Bruteforce completed
+Current top guns are: 
+Gun contains[Barrel: MP9, Magazine: MP 40, Grip: PPSh-41, Stock: AUG, Core: Kriss Vector]
+damage: 17.595 - 10.58
+fireRate: 1354.32
+adsSpread: 0.57834
+reloadTime: 2.44375
+magazineSize: 32
+recoilAimVertical: 9.522 - 28.566
+movementSpeed: 8.5
+TTK 0.251791 Seconds
+
+Gun contains[Barrel: Scar L, Magazine: Words as Weapons, Grip: PPSh-41, Stock: UMP-40, Core: Kriss Vector]
+damage: 17.5032 - 10.5248
+fireRate: 1320
+adsSpread: 0.5967
+reloadTime: 2.76
+magazineSize: 30
+recoilAimVertical: 9.936 - 29.808
+movementSpeed: 7.1
+TTK 0.259693 Seconds
+
+Gun contains[Barrel: Scar L, Magazine: MP 40, Grip: PPSh-41, Stock: AUG, Core: Kriss Vector]
+damage: 18.2988 - 11.0032
+fireRate: 1254
+adsSpread: 0.57834
+reloadTime: 2.875
+magazineSize: 32
+recoilAimVertical: 8.76024 - 26.2807
+movementSpeed: 5.3
+TTK 0.261476 Seconds
+
+Gun contains[Barrel: Scar L, Magazine: MP 40, Grip: PPSh-41, Stock: MG42, Core: Kriss Vector]
+damage: 18.2988 - 11.0032
+fireRate: 1254
+adsSpread: 0.576619
+reloadTime: 3.45
+magazineSize: 32
+recoilAimVertical: 9.522 - 28.566
+movementSpeed: 5.575
+TTK 0.261476 Seconds
+
+Gun contains[Barrel: M1891 Carcano, Magazine: MP 40, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
+damage: 17.595 - 10.58
+fireRate: 1304.16
+adsSpread: 0.585225
+reloadTime: 4.14
+magazineSize: 32
+recoilAimVertical: 9.522 - 28.566
+movementSpeed: 3.3
+TTK 0.261476 Seconds
+
+Gun contains[Barrel: M1919a6 Browning, Magazine: MP 40, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
+damage: 17.595 - 10.58
+fireRate: 1304.16
+adsSpread: 0.598995
+reloadTime: 3.864
+magazineSize: 32
+recoilAimVertical: 8.46982 - 25.4095
+movementSpeed: 0.3
+TTK 0.261476 Seconds
+
+Gun contains[Barrel: M60, Magazine: MP 40, Grip: PPSh-41, Stock: AUG, Core: Kriss Vector]
+damage: 18.1668 - 10.9238
+fireRate: 1254
+adsSpread: 0.57834
+reloadTime: 2.875
+magazineSize: 32
+recoilAimVertical: 8.90307 - 26.7092
+movementSpeed: 2.3
+TTK 0.263375 Seconds
+
+Gun contains[Barrel: M60, Magazine: MP 40, Grip: PPSh-41, Stock: MG42, Core: Kriss Vector]
+damage: 18.1668 - 10.9238
+fireRate: 1254
+adsSpread: 0.576619
+reloadTime: 3.45
+magazineSize: 32
+recoilAimVertical: 9.67725 - 29.0318
+movementSpeed: 2.575
+TTK 0.263375 Seconds
+
+Gun contains[Barrel: M1891 Carcano, Magazine: Words as Weapons, Grip: PPSh-41, Stock: STG-44, Core: Kriss Vector]
+damage: 16.83 - 10.12
+fireRate: 1351.68
+adsSpread: 0.59823
+reloadTime: 3.312
+magazineSize: 30
+recoilAimVertical: 9 - 27
+movementSpeed: 3.3
+TTK 0.26375 Seconds
+
+Gun contains[Barrel: Scar L, Magazine: AKM, Grip: PPSh-41, Stock: UMP-40, Core: Kriss Vector]
+damage: 17.185 - 10.3334
+fireRate: 1320
+adsSpread: 0.5967
+reloadTime: 2.76
+magazineSize: 30
+recoilAimVertical: 9.936 - 29.808
+movementSpeed: 7.1
+TTK 0.264502 Seconds
+
