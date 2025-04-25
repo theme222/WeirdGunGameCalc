@@ -3,7 +3,7 @@
 
 ## About
 `Updated to https://discord.com/channels/1326315584417435648/1326316188145291365/1364502735755673701`<br/>
-`Made with nholmann/json`<br/>
+`Using nholmann/json to read json files`<br/>
 `Original data from @zyadak https://discord.com/channels/1326315584417435648/1326315585046450237/1363241874701291722`<br/>
 
 Made using c++ this tool reads data from Data/FullData.json and tries out all possible combinations. 
