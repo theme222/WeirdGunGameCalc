@@ -1,0 +1,45 @@
+# <0.6 ADS Spread <100 Damage Sorted by TTK No Honk No Sniper No Anvil
+
+
+Reading json file
+Loading parts into array
+Barrels detected: 41, Magazines detected: 35, Grips detected: 30, Stocks detected: 33, Cores detected: 30
+Total of 42619500 possibilities 
+Starting bruteforce
+Bruteforce completed
+Current top guns are: 
+Gun contains[Barrel: Thompson, Magazine: Scar H, Grip: PPSh-41, Stock: UMP-40, Core: Kriss Vector]
+damage: 18.9904 - 11.419
+fireRate: 1412.4
+adsSpread: 0.5967
+reloadTime: 5.175
+recoilAimVertical: 9 - 27
+
+Gun contains[Barrel: M1917 Browning, Magazine: Scar H, Grip: PPSh-41, Stock: Arctic Warfare, Core: Kriss Vector]
+damage: 17.748 - 10.672
+fireRate: 1491.6
+adsSpread: 0.565067
+reloadTime: 5.41564
+recoilAimVertical: 9 - 27
+
+Gun contains[Barrel: M1917 Browning, Magazine: Scar H, Grip: PPSh-41, Stock: UMP-40, Core: Kriss Vector]
+damage: 17.748 - 10.672
+fireRate: 1491.6
+adsSpread: 0.557914
+reloadTime: 5.95125
+recoilAimVertical: 9 - 27
+
+Gun contains[Barrel: M1917 Browning, Magazine: Scar H, Grip: PPSh-41, Stock: MG42, Core: Kriss Vector]
+damage: 17.748 - 10.672
+fireRate: 1491.6
+adsSpread: 0.599043
+reloadTime: 7.1415
+recoilAimVertical: 9 - 27
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Scar H, Grip: PPSh-41, Stock: STG-44, Core: Kriss Vector]
+damage: 19.3453 - 11.6325
+fireRate: 1351.68
+adsSpread: 0.556002
+reloadTime: 5.175
+recoilAimVertical: 9 - 27
+

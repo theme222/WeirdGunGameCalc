@@ -1,0 +1,49 @@
+# <0.6 ADS Spread <100 Damage Sorted by TTK No Honk No Sniper No Anvil AR Only
+
+Reading json file
+Loading parts into array
+Barrels detected: 41, Magazines detected: 35, Grips detected: 30, Stocks detected: 33, Cores detected: 30
+Total of 42619500 possibilities 
+Starting bruteforce
+Bruteforce completed
+Current top guns are: 
+Gun contains[Barrel: M1917 Browning, Magazine: Scar H, Grip: PPSh-41, Stock: Kriss Vector, Core: Famas F1]
+damage: 15.6 - 12.48
+fireRate: 1180.4
+adsSpread: 0.5106
+reloadTime: 5.95125
+magazineSize: 20
+recoilAimVertical: 16 - 20
+
+Gun contains[Barrel: M1917 Browning, Magazine: Scar H, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
+damage: 15.6 - 12.48
+fireRate: 1173.69
+adsSpread: 0.4255
+reloadTime: 7.1415
+magazineSize: 20
+recoilAimVertical: 16 - 20
+
+Gun contains[Barrel: Oil, Magazine: Scar H, Grip: The Chief, Stock: Fedorov Avtomat, Core: Famas F1]
+damage: 19.2816 - 15.4253
+fireRate: 945
+adsSpread: 0.5625
+reloadTime: 5.4
+magazineSize: 20
+recoilAimVertical: 16 - 20
+
+Gun contains[Barrel: Oil, Magazine: Scar H, Grip: PPSh-41, Stock: AUG, Core: Famas F1]
+damage: 18.72 - 14.976
+fireRate: 972
+adsSpread: 0.552
+reloadTime: 5.175
+magazineSize: 20
+recoilAimVertical: 16 - 20
+
+Gun contains[Barrel: Oil, Magazine: Scar H, Grip: PPSh-41, Stock: The Chief, Core: Famas F1]
+damage: 18.72 - 14.976
+fireRate: 972
+adsSpread: 0.552
+reloadTime: 4.6575
+magazineSize: 20
+recoilAimVertical: 16 - 20
+

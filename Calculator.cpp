@@ -421,7 +421,9 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
        << "fireRate: " << gun.fireRate << "\n"
        << "adsSpread: " << gun.adsSpread << "\n"
        << "reloadTime: " << gun.reloadTime << "\n"
-       << "recoilAimVertical: " << gun.recoilAimVertical << "\n";
+       << "magazineSize: " << gun.magazineSize << "\n"
+       << "recoilAimVertical: " << gun.recoilAimVertical << "\n"
+       << "TTK" << (100 / gun.damage.first) / gun.fireRate * 60<< "Seconds";
     return os;
 }
 
@@ -488,10 +490,10 @@ int main()
     printf("Total of %u possibilities \n", barrelCount*magazineCount*gripCount*stockCount*coreCount);
 
     puts("Starting bruteforce");
-    uint32_t flag = DAMAGE | FIRERATE | SPREAD;
+    uint32_t flag = DAMAGE | FIRERATE | SPREAD | RECOIL;
     for (int c = 0; c < coreCount; c++)
     {
-        if (coreList[c].category == "Sniper") continue;
+        if (coreList[c].category != "LMG") continue;
         for (int b = 0; b < barrelCount; b++)
         {
             if (barrelList[b].name == "Honk") continue;
@@ -502,11 +504,14 @@ int main()
                 {
                     for (int s = 0; s < stockCount; s++)
                     {
+                        if (stockList[s].name == "Anvil") continue;
                         Gun currentGun = Gun(barrelList+b, magazineList+m, gripList+g, stockList+s, coreList+c);
                         currentGun.CopyValues(flag);
                         currentGun.CalculateGunStats(flag);
                         if (currentGun.damage.first >= 100) continue;
-                        if (currentGun.adsSpread > 0.8) continue;
+                        if (currentGun.adsSpread > 0.6) continue;
+                        if (currentGun.recoilAimVertical.second > 30) continue;
+
                         topGuns.push(currentGun);
                     }
                 }
