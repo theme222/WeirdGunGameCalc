@@ -8,6 +8,7 @@
 #include <fstream>
 #include <queue>
 #include <vector>
+#include <cmath>
 #include "include/json.hpp" // "nlohmann/json.hpp"
 
 using json = nlohmann::json;
@@ -391,6 +392,12 @@ public:
     }
 };
 
+float CalcTTK(const Gun &gun)
+{
+    return (ceil(100 / gun.damage.first) - 1) / gun.fireRate * 60;
+
+}
+
 std::ostream &operator<<(std::ostream &os, const fpair &fp)
 {
     os << fp.first << " - " << fp.second;
@@ -408,15 +415,13 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
        << "magazineSize: " << gun.magazineSize << "\n"
        << "recoilAimVertical: " << gun.recoilAimVertical << "\n"
        << "movementSpeed: " << gun.movementSpeedModifier << "\n"
-       << "TTK " << (100 / gun.damage.first) / gun.fireRate * 60<< " Seconds\n";
+       << "TTK " << CalcTTK(gun) << " Seconds\n";
     return os;
 }
 
 struct SortByTTK{
     bool operator()(const Gun& gun1, const Gun& gun2) const {
-        float gun1TTK = (100 / gun1.damage.first) / gun1.fireRate;
-        float gun2TTK = (100 / gun2.damage.first) / gun2.fireRate;
-        return gun1TTK > gun2TTK;
+        return CalcTTK(gun1) > CalcTTK(gun2);
     }
 };
 
@@ -438,8 +443,8 @@ Grip gripList[50];
 Stock stockList[50];
 Core coreList[50];
 
-//std::priority_queue<Gun, std::vector<Gun>, SortByTTK> topGuns;
-std::priority_queue<Gun, std::vector<Gun>, SortByFireRate> topGuns;
+std::priority_queue<Gun, std::vector<Gun>, SortByTTK> topGuns;
+//std::priority_queue<Gun, std::vector<Gun>, SortByFireRate> topGuns;
 
 namespace BruteForce 
 {
@@ -465,7 +470,7 @@ namespace BruteForce
                             currentGun.CalculateGunStats(flag);
                             if (currentGun.movementSpeedModifier < 0) continue;
                             if (currentGun.damage.first >= 100) continue;
-                            if (currentGun.adsSpread > 0.6) continue;
+                            if (currentGun.adsSpread > 1.04) continue;
                             //if (currentGun.recoilAimVertical.second > 30) continue;
 
                             topGuns.push(currentGun);
@@ -580,9 +585,9 @@ int main()
 
     puts("Starting bruteforce");
 
-    //BruteForce::LowestTTK();
+    BruteForce::LowestTTK();
     //BruteForce::Fastest1TapSniper();
-    BruteForce::FastestHeadshotSniper();
+    //BruteForce::FastestHeadshotSniper();
 
     puts("Bruteforce completed");
     puts("Current top guns are: ");

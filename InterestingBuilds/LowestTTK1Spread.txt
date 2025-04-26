@@ -1,0 +1,107 @@
+Reading json file
+Loading parts into array
+Barrels detected: 41, Magazines detected: 35, Grips detected: 30, Stocks detected: 33, Cores detected: 30
+Total of 42619500 possibilities 
+Starting bruteforce
+Bruteforce completed
+Current top guns are: 
+Gun contains[Barrel: PPSh-41, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
+damage: 16.8912 - 10.1568
+fireRate: 1578.72
+adsSpread: 0.92565
+reloadTime: 3.174
+magazineSize: 45
+recoilAimVertical: 10.9503 - 32.8509
+movementSpeed: 5.6
+TTK 0.190027 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
+damage: 16.83 - 10.12
+fireRate: 1578.72
+adsSpread: 0.8415
+reloadTime: 3.312
+magazineSize: 30
+recoilAimVertical: 9.522 - 28.566
+movementSpeed: 5.6
+TTK 0.190027 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: STG-44, Core: Kriss Vector]
+damage: 16.8912 - 10.1568
+fireRate: 1554.43
+adsSpread: 0.851598
+reloadTime: 2.645
+magazineSize: 45
+recoilAimVertical: 11.9025 - 35.7075
+movementSpeed: 5.6
+TTK 0.192997 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: STG-44, Core: Kriss Vector]
+damage: 16.83 - 10.12
+fireRate: 1554.43
+adsSpread: 0.77418
+reloadTime: 2.76
+magazineSize: 30
+recoilAimVertical: 10.35 - 31.05
+movementSpeed: 5.6
+TTK 0.192997 Seconds
+
+Gun contains[Barrel: Water Pipe, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
+damage: 20.196 - 12.144
+fireRate: 1235.52
+adsSpread: 0.95625
+reloadTime: 3.312
+magazineSize: 30
+recoilAimVertical: 8.28 - 24.84
+movementSpeed: 3.3
+TTK 0.19425 Seconds
+
+Gun contains[Barrel: Water Pipe, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: STG-44, Core: Kriss Vector]
+damage: 20.2694 - 12.1882
+fireRate: 1216.51
+adsSpread: 0.967725
+reloadTime: 2.645
+magazineSize: 45
+recoilAimVertical: 10.35 - 31.05
+movementSpeed: 3.3
+TTK 0.197285 Seconds
+
+Gun contains[Barrel: Water Pipe, Magazine: Words as Weapons, Grip: PPSh-41, Stock: STG-44, Core: Kriss Vector]
+damage: 20.196 - 12.144
+fireRate: 1216.51
+adsSpread: 0.87975
+reloadTime: 2.76
+magazineSize: 30
+recoilAimVertical: 9 - 27
+movementSpeed: 3.3
+TTK 0.197285 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: AKM, Core: Kriss Vector]
+damage: 16.8912 - 10.1568
+fireRate: 1518
+adsSpread: 0.851598
+reloadTime: 2.4334
+magazineSize: 45
+recoilAimVertical: 13.6879 - 41.0636
+movementSpeed: 5.6
+TTK 0.197628 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: M-16, Core: Kriss Vector]
+damage: 16.8912 - 10.1568
+fireRate: 1518
+adsSpread: 0.92565
+reloadTime: 2.645
+magazineSize: 45
+recoilAimVertical: 10.9503 - 32.8509
+movementSpeed: 5.6
+TTK 0.197628 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: AUG, Core: Kriss Vector]
+damage: 16.8912 - 10.1568
+fireRate: 1518
+adsSpread: 0.777546
+reloadTime: 2.645
+magazineSize: 45
+recoilAimVertical: 10.9503 - 32.8509
+movementSpeed: 7.6
+TTK 0.197628 Seconds
+
