@@ -470,7 +470,7 @@ namespace BruteForce
                             currentGun.CalculateGunStats(flag);
                             if (currentGun.movementSpeedModifier < 0) continue;
                             if (currentGun.damage.first >= 100) continue;
-                            if (currentGun.adsSpread > 1.04) continue;
+                            if (currentGun.adsSpread > 0.25) continue;
                             if (currentGun.recoilAimVertical.second > 30) continue;
 
                             topGuns.push(currentGun);
@@ -492,7 +492,7 @@ namespace BruteForce
                 if (barrelList[b].name == "Honk") continue;
                 for (int m = 0; m < magazineCount; m++)
                 {
-                    if (magazineList[m].magazineSize < 40) continue;
+                    //if (magazineList[m].magazineSize < 40) continue;
                     for (int g = 0; g < gripCount; g++)
                     {
                         for (int s = 0; s < stockCount; s++)
@@ -503,8 +503,8 @@ namespace BruteForce
                             currentGun.CalculateGunStats(flag);
                             if (currentGun.movementSpeedModifier < 0) continue;
                             if (currentGun.damage.first >= 100) continue;
-                            if (currentGun.adsSpread > 0.45) continue;
-                            if (currentGun.recoilAimVertical.second > 30) continue;
+                            if (currentGun.adsSpread > 0.15) continue;
+                            if (currentGun.recoilAimVertical.second > 15) continue;
 
                             topGuns.push(currentGun);
                         }
@@ -619,8 +619,8 @@ int main()
 
     puts("Starting bruteforce");
 
-    //BruteForce::LowestTTK();
-    BruteForce::LowestTTKAR();
+    BruteForce::LowestTTK();
+    //BruteForce::LowestTTKAR();
     //BruteForce::Fastest1TapSniper();
     //BruteForce::FastestHeadshotSniper();
 

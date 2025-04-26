@@ -1,0 +1,107 @@
+Reading json file
+Loading parts into array
+Barrels detected: 41, Magazines detected: 35, Grips detected: 30, Stocks detected: 33, Cores detected: 30
+Total of 42619500 possibilities 
+Starting bruteforce
+Bruteforce completed
+Current top guns are: 
+Gun contains[Barrel: Arctic Warfare, Magazine: AKM, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: As-Val]
+damage: 16.7739 - 13.3705
+fireRate: 850.5
+adsSpread: 0.24311
+reloadTime: 3.312
+magazineSize: 30
+recoilAimVertical: 20.25 - 27
+movementSpeed: 0
+TTK 0.352734 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: As-Val]
+damage: 16.7739 - 13.3705
+fireRate: 850.5
+adsSpread: 0.24311
+reloadTime: 3.312
+magazineSize: 30
+recoilAimVertical: 20.25 - 27
+movementSpeed: 0
+TTK 0.352734 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: AKM, Grip: PPSh-41, Stock: STG-44, Core: As-Val]
+damage: 16.7739 - 13.3705
+fireRate: 834.3
+adsSpread: 0.218799
+reloadTime: 2.76
+magazineSize: 30
+recoilAimVertical: 22.5 - 30
+movementSpeed: 0
+TTK 0.359583 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Words as Weapons, Grip: PPSh-41, Stock: STG-44, Core: As-Val]
+damage: 16.7739 - 13.3705
+fireRate: 834.3
+adsSpread: 0.218799
+reloadTime: 2.76
+magazineSize: 30
+recoilAimVertical: 22.5 - 30
+movementSpeed: 0
+TTK 0.359583 Seconds
+
+Gun contains[Barrel: Thompson, Magazine: AKM, Grip: Lee Enfield, Stock: Fedorov Avtomat, Core: AUG]
+damage: 16.8432 - 13.4746
+fireRate: 833.152
+adsSpread: 0.25
+reloadTime: 2.88
+magazineSize: 30
+recoilAimVertical: 20.25 - 25.3125
+movementSpeed: 5.54
+TTK 0.360078 Seconds
+
+Gun contains[Barrel: Thompson, Magazine: Words as Weapons, Grip: Lee Enfield, Stock: Fedorov Avtomat, Core: AUG]
+damage: 16.8432 - 13.4746
+fireRate: 833.152
+adsSpread: 0.25
+reloadTime: 2.88
+magazineSize: 30
+recoilAimVertical: 20.25 - 25.3125
+movementSpeed: 5.54
+TTK 0.360078 Seconds
+
+Gun contains[Barrel: Snake, Magazine: The Chief, Grip: PPSh-41, Stock: Kriss Vector, Core: AUG]
+damage: 20.01 - 16.008
+fireRate: 663.075
+adsSpread: 0.1932
+reloadTime: 4.37
+magazineSize: 36
+recoilAimVertical: 22.68 - 28.35
+movementSpeed: 0.14
+TTK 0.36195 Seconds
+
+Gun contains[Barrel: Shower, Magazine: Hell-Trooper-23, Grip: The Chief, Stock: Kriss Vector, Core: AUG]
+damage: 16.8766 - 13.5012
+fireRate: 825.792
+adsSpread: 0.2475
+reloadTime: 2.875
+magazineSize: 45
+recoilAimVertical: 5.86845 - 7.33556
+movementSpeed: 5.14
+TTK 0.363288 Seconds
+
+Gun contains[Barrel: Shower, Magazine: Hell-Trooper-23, Grip: The Chief, Stock: Fedorov Avtomat, Core: AUG]
+damage: 16.8766 - 13.5012
+fireRate: 821.1
+adsSpread: 0.20625
+reloadTime: 3.45
+magazineSize: 45
+recoilAimVertical: 6.28762 - 7.85953
+movementSpeed: 2.5
+TTK 0.365364 Seconds
+
+Gun contains[Barrel: Thompson, Magazine: AKM, Grip: PPSh-41, Stock: Kriss Vector, Core: AUG]
+damage: 16.8432 - 13.4746
+fireRate: 818.956
+adsSpread: 0.138
+reloadTime: 2.76
+magazineSize: 30
+recoilAimVertical: 18.9 - 23.625
+movementSpeed: 8.18
+TTK 0.36632 Seconds
+
