@@ -1,0 +1,107 @@
+Reading json file
+Loading parts into array
+Barrels detected: 41, Magazines detected: 35, Grips detected: 30, Stocks detected: 33, Cores detected: 30
+Total of 42619500 possibilities 
+Starting bruteforce
+Bruteforce completed
+Current top guns are: 
+Gun contains[Barrel: As-Val, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
+damage: 14.69 - 11.752
+fireRate: 1122.66
+adsSpread: 0.506
+reloadTime: 3.174
+magazineSize: 45
+recoilAimVertical: 19.044 - 23.805
+movementSpeed: 0
+TTK 0.320667 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: STG-44, Core: Famas F1]
+damage: 14.69 - 11.752
+fireRate: 1121.3
+adsSpread: 0.50094
+reloadTime: 2.645
+magazineSize: 45
+recoilAimVertical: 21.16 - 26.45
+movementSpeed: 1.84
+TTK 0.321056 Seconds
+
+Gun contains[Barrel: Scar H, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Kriss Vector, Core: Famas F1]
+damage: 16.8935 - 13.5148
+fireRate: 923.789
+adsSpread: 0.4554
+reloadTime: 2.645
+magazineSize: 45
+recoilAimVertical: 18.5472 - 23.184
+movementSpeed: 2.64
+TTK 0.32475 Seconds
+
+Gun contains[Barrel: Scar H, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
+damage: 16.8935 - 13.5148
+fireRate: 918.54
+adsSpread: 0.3795
+reloadTime: 3.174
+magazineSize: 45
+recoilAimVertical: 19.872 - 24.84
+movementSpeed: 0
+TTK 0.326605 Seconds
+
+Gun contains[Barrel: As-Val, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: STG-44, Core: Famas F1]
+damage: 14.69 - 11.752
+fireRate: 1101.28
+adsSpread: 0.4554
+reloadTime: 2.645
+magazineSize: 45
+recoilAimVertical: 21.16 - 26.45
+movementSpeed: 0
+TTK 0.326894 Seconds
+
+Gun contains[Barrel: Scar H, Magazine: Hell-Trooper-23, Grip: M1891 Carcano, Stock: Fedorov Avtomat, Core: Famas F1]
+damage: 16.8935 - 13.5148
+fireRate: 910.035
+adsSpread: 0.53625
+reloadTime: 3.174
+magazineSize: 45
+recoilAimVertical: 19.872 - 24.84
+movementSpeed: 2.8
+TTK 0.329658 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: AUG, Core: Famas F1]
+damage: 14.69 - 11.752
+fireRate: 1088.64
+adsSpread: 0.44528
+reloadTime: 2.645
+magazineSize: 45
+recoilAimVertical: 19.044 - 23.805
+movementSpeed: 4.34
+TTK 0.330688 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: The Chief, Core: Famas F1]
+damage: 14.69 - 11.752
+fireRate: 1088.64
+adsSpread: 0.44528
+reloadTime: 2.3805
+magazineSize: 45
+recoilAimVertical: 23.276 - 29.095
+movementSpeed: 1.84
+TTK 0.330688 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Remington 700, Core: Famas F1]
+damage: 14.69 - 11.752
+fireRate: 1088.64
+adsSpread: 0.478676
+reloadTime: 2.645
+magazineSize: 45
+recoilAimVertical: 19.6788 - 24.5985
+movementSpeed: 1.84
+TTK 0.330688 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Arctic Warfare, Core: Famas F1]
+damage: 14.69 - 11.752
+fireRate: 1088.64
+adsSpread: 0.420233
+reloadTime: 2.36727
+magazineSize: 45
+recoilAimVertical: 23.276 - 29.095
+movementSpeed: 1.84
+TTK 0.330688 Seconds
+

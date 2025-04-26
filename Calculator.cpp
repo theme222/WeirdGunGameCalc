@@ -471,7 +471,7 @@ namespace BruteForce
                             if (currentGun.movementSpeedModifier < 0) continue;
                             if (currentGun.damage.first >= 100) continue;
                             if (currentGun.adsSpread > 1.04) continue;
-                            //if (currentGun.recoilAimVertical.second > 30) continue;
+                            if (currentGun.recoilAimVertical.second > 30) continue;
 
                             topGuns.push(currentGun);
                         }
@@ -480,6 +480,40 @@ namespace BruteForce
             }
         }
     }
+
+    void LowestTTKAR()
+    {
+        uint32_t flag = DAMAGE | FIRERATE | SPREAD | RECOIL | MOVEMENTSPEEDMODIFIER;
+        for (int c = 0; c < coreCount; c++)
+        {
+            if (coreList[c].category != "Assault Rifle" && coreList[c].category != "LMG") continue;
+            for (int b = 0; b < barrelCount; b++)
+            {
+                if (barrelList[b].name == "Honk") continue;
+                for (int m = 0; m < magazineCount; m++)
+                {
+                    if (magazineList[m].magazineSize < 40) continue;
+                    for (int g = 0; g < gripCount; g++)
+                    {
+                        for (int s = 0; s < stockCount; s++)
+                        {
+                            if (stockList[s].name == "Anvil") continue;
+                            Gun currentGun = Gun(barrelList+b, magazineList+m, gripList+g, stockList+s, coreList+c);
+                            currentGun.CopyValues(flag);
+                            currentGun.CalculateGunStats(flag);
+                            if (currentGun.movementSpeedModifier < 0) continue;
+                            if (currentGun.damage.first >= 100) continue;
+                            if (currentGun.adsSpread > 0.45) continue;
+                            if (currentGun.recoilAimVertical.second > 30) continue;
+
+                            topGuns.push(currentGun);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 
     void Fastest1TapSniper()
     {
@@ -585,7 +619,8 @@ int main()
 
     puts("Starting bruteforce");
 
-    BruteForce::LowestTTK();
+    //BruteForce::LowestTTK();
+    BruteForce::LowestTTKAR();
     //BruteForce::Fastest1TapSniper();
     //BruteForce::FastestHeadshotSniper();
 
