@@ -6,6 +6,18 @@ import json
 
 filenames = ["Barrels.txt", "Grips.txt", "Guns.txt", "Magazines.txt", "Stocks.txt", "Weird.txt"]
 
+known_categories = {"Assault Rifle", "Sniper", "SMG", "LMG"}
+known_types = {"Barrels", "Cores", "Grips", "Magazines", "Stocks"}
+known_properties = {'Reload_Speed', 'Recoil_Hip_Vertical', 'Recoil', 'Magazine_Size', 'Fire_Rate', 'ADS_Spread', 'Health', 'Damage', 'Suppression', 'Dropoff_Studs', 'Category', 'Recoil_Aim_Vertical', 'Recoil_Hip_Horizontal', 'Spread', 'Time_To_Aim', 'Hipfire_Spread', 'Recoil_Aim_Horizontal', 'Movement_Speed_Modifier', 'Name', 'Reload_Time', 'Movement_Speed', 'Reload'}
+known_names = {'MAC-10', 'M1919a6 Browning', 'Type 99', 'Scar H', 'MP9', 'Honk', 'Thompson', 'Plunger', 'M1891 Carcano',
+               'Skorpion vz. 61', 'M1917 Browning', 'Improvised', 'Scar L', 'Lee Enfield', 'Arctic Warfare',
+               'Horizontal', 'Willy Fischy', 'Anvil', 'Shower', 'Stat Randomizer', 'Famas F1', 'Speed Coil',
+               'Water Pipe', 'Ketchup', 'M1919 Browning', 'UMP-40', 'MP 40', 'Type 2a Nambu', 'Banana', 'Shovel',
+               'STG-44', 'Oil', 'Fedorov Avtomat', 'Tap', 'Rice Pot', 'Scar Drum', 'M-16', 'Hecate II', 'Remington 700',
+               'M91 Moschetto', 'DP-27', 'M60', 'Quack', 'AUG', 'Restroom', 'AKM', 'XXL AKM', 'Snake', 'As-Val', 'MG42',
+               'Mustard', 'Hell-Trooper-23', 'Kriss Vector', 'Words as Weapons', 'The Chief', 'Mas-38', 'Bicycle',
+               'PPSh-41'}
+
 
 # Step 0
 def Setup():
@@ -47,29 +59,8 @@ def CleanData():
 def TurnToJSON():
     print("Running Step 2")
 
-    categories = ["Assault Rifle", "Sniper", "SMG", "LMG"]
-    types = ["Barrels", "Cores", "Grips", "Magazines", "Stocks"]
 
     finalJSON = {"Barrels": [], "Cores": [], "Grips": [], "Magazines": [], "Stocks": []}
-
-    """
-    {
-        cores: [...],
-        barrels: [...],
-        grips: [...],
-        magazines: [...],
-        stocks: [...],
-    }
-
-
-    [
-    category: AR,
-    name: blah,
-    damageMax: 69,
-    damageMin: 42,
-    ...
-    ]
-    """
 
     for name in filenames:
 
@@ -157,6 +148,27 @@ def ValueFormat():
 
     with open("Data/FullData.json", 'w') as file:
         json.dump(newJSONData, file, indent=2)
+    
+
+# Step 4
+def ValidateData():
+    print("Running step 4")
+    
+    with open("Data/FullData.json", 'r') as file:
+        JSONData = json.load(file)
+
+    for t in JSONData.keys():
+        if t not in known_types:
+            print(f"Type {t} not found")
+
+    for partList in JSONData.values():
+        for part in partList:
+            for partProperty in part.keys():
+                if partProperty not in known_properties:
+                    print(f"Property {partProperty} not found")
+
+            if part["Name"] not in known_names:
+                print(f"Name {part['Name']} not found")
 
 
 def CleanUp():
@@ -169,6 +181,7 @@ def main():
     CleanData()
     TurnToJSON()
     ValueFormat()
+    ValidateData()
     CleanUp()
 
 

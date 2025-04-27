@@ -70,7 +70,7 @@ Magazine_Effects:
   Damage: +20%
   Fire_Rate: -10%
   Recoil: +25%
-  Reload_Speed: +25% (Slower)
+  Reload_Time_Penalty: +25% (Slower)
 ---
 Magazine: Scar Drum
 Magazine_Effects:
@@ -116,7 +116,7 @@ Magazine_Effects:
   Fire_Rate: -40%
   Movement_Speed: -10%
   Recoil: +100%
-  Reload_Speed: +50% (Slower)
+  Reload_Time_Penalty: +50% (Slower)
   Spread: +100%
 ---
 Magazine: Remington 700
@@ -205,23 +205,6 @@ Magazine_Effects:
   Recoil: -15%
   Damage: -10%
 ---
-Magazine: Type 2a Nambu 
-Magazine_Effects:
-  Magazine_Size: 30
-  Reload_Time: 2.5s
-  Fire_Rate: +10%
-  Movement_Speed: +3.3%
-  Recoil: -5%
-  Damage: -5%
----
-Magazine: Mas-38 
-Magazine_Effects:
-  Magazine_Size: 32
-  Reload_Time: 2.8s
-  Damage: +5%
-  Movement_Speed: +3.5%
-  Spread: -15%
----
 
 Category: LMG Magazines
 ---
@@ -257,12 +240,4 @@ Magazine_Effects:
   Movement_Speed: -4%
   Recoil: +32%
   Spread: +50%
----
-Magazine: Type 99
-Magazine_Effects:
-  Magazine_Size: 30
-  Reload_Time: 3.5s
-  Damage: 5.5%
-  Movement_Speed: -1%
-  Spread: -17%
 ---

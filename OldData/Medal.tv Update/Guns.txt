@@ -297,7 +297,7 @@ Recoil_Aim_Horizontal: -20 - 20
 Recoil_Aim_Vertical: 24 - 48
 ---
 Gun: Kriss Vector
-Damage: 13.5 > 8.1 
+Damage: 15.3 > 9.2 
 Dropoff_Studs: 90 > 125
 Fire_Rate: 1200
 Hipfire_Spread: 2
@@ -308,32 +308,6 @@ Recoil_Hip_Horizontal: -5 - 5
 Recoil_Hip_Vertical: 10 - 30
 Recoil_Aim_Horizontal: -4.5 - 4.5
 Recoil_Aim_Vertical: 9 - 27
----
-Gun: Type 2a Nambu 
-Damage: 19.5 > 11.7 
-Dropoff_Studs: 90 > 125
-Fire_Rate: 600 
-Hipfire_Spread: 3
-ADS_Spread: 0.45
-Time_To_Aim: 0.35
-Movement_Speed_Modifier: +4%
-Recoil_Hip_Horizontal: -10 - 10
-Recoil_Hip_Vertical: 25 - 35
-Recoil_Aim_Horizontal: -6.5 - 6.5
-Recoil_Aim_Vertical: 16.2 - 22.7
----
-Gun: Mas-38
-Damage: 17.5 > 10.5 
-Dropoff_Studs: 90 > 125
-Fire_Rate: 700 
-Hipfire_Spread: 2.5
-ADS_Spread: 0.45
-Time_To_Aim: 0.35
-Movement_Speed_Modifier: +4.1%
-Recoil_Hip_Horizontal: -7.5 - 7.5 
-Recoil_Hip_Vertical: 10 - 30
-Recoil_Aim_Horizontal: -3 - 3
-Recoil_Aim_Vertical: 4 - 12
 ---
 
 Category: LMGs
@@ -393,18 +367,4 @@ Recoil_Hip_Horizontal: -15 - 15
 Recoil_Hip_Vertical: 53 - 76
 Recoil_Aim_Horizontal: -7.5 - 7.5
 Recoil_Aim_Vertical: 26.5 - 38
----
-Gun: Type 99
-Damage: 15 > 11.6 
-Dropoff_Studs: 150 > 300
-Fire_Rate: 850 
-Hipfire_Spread: 6
-ADS_Spread: 0.7 
-Time_To_Aim: 1.25
-Movement_Speed_Modifier: -5.5%
-Suppression: 0.8
-Recoil_Hip_Horizontal: -12 - 12
-Recoil_Hip_Vertical: 37 - 55
-Recoil_Aim_Horizontal: -6 - 6
-Recoil_Aim_Vertical: 18.5 - 27.5
 ---

@@ -2,7 +2,7 @@
 > A tool to bruteforce all combinations of guns in the roblox game "Weird Gun Game" 
 
 ## About
-`Updated to https://discord.com/channels/1326315584417435648/1326316188145291365/1364502735755673701`<br/>
+`Updated to The MOAR GUNS update`<br/>
 `Using nholmann/json to read json files`<br/>
 `Original data from @zyadak https://discord.com/channels/1326315584417435648/1326315585046450237/1363241874701291722`<br/>
 

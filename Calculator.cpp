@@ -9,7 +9,9 @@
 #include <queue>
 #include <vector>
 #include <cmath>
+#include <chrono>
 #include "include/json.hpp" // "nlohmann/json.hpp"
+#define chrono std::chrono
 
 using json = nlohmann::json;
 
@@ -24,9 +26,9 @@ std::string filepath = "Data/FullData.json";
 
 std::map<std::string, float> ARPenalties = {
     {"Assault Rifle", 1},
-    {"Sniper", 0.7},
-    {"SMG", 0.8},
-    {"LMG", 0.75},
+    {"Sniper", 1},
+    {"SMG", 1},
+    {"LMG", 1},
     {"Weird", 1},
 };
 
@@ -43,7 +45,7 @@ std::map<std::string, float> SMGPenalties = {
     {"Sniper", 0.6},
     {"SMG", 1},
     {"LMG", 0.65},
-    {"Weird", 1},
+    {"Weird", 1}
 };
 
 std::map<std::string, float> LMGPenalties = {
@@ -189,7 +191,9 @@ public:
     Core() {}
     Core(const json &jsonObject) : category(jsonObject["Category"]), name(jsonObject["Name"])
     {
-        if (jsonObject["Damage"].is_array())
+        if (!jsonObject.contains("Damage"))
+        {}
+        else if (jsonObject["Damage"].is_array())
         {
             damage.first = jsonObject["Damage"][0];
             damage.second = jsonObject["Damage"][1];
@@ -255,10 +259,11 @@ enum MultFlags {
     TIMETOAIM = 1<<5,
     MOVEMENTSPEEDMODIFIER = 1<<6,
     SPREAD = 1<<7,
-    RECOIL = 1<<8
+    RECOILAIM = 1<<8,
+    RECOILHIP = 1<<9,
 };
 
-uint_32_t ALLMULTFLAG = 4294967295;
+uint_32_t ALLMULTFLAG = 4294967295; // 2^32 - 1
 
 class Gun
 {
@@ -270,7 +275,7 @@ public:
     Core *core;
 
     fpair damage;
-    fpair dropoffStuds = fpair(0, 0);
+    fpair dropoffStuds;
     float reloadTime;
     float magazineSize;
     float fireRate;
@@ -343,10 +348,13 @@ public:
             hipfireSpread = core->hipfireSpread;
             adsSpread = core->adsSpread;
         }
-        if (flags & RECOIL)
+        if (flags & RECOILHIP)
         {
             recoilHipHorizontal = core->recoilHipHorizontal;
             recoilHipVertical = core->recoilHipVertical;
+        }
+        if (flags & RECOILAIM)
+        {
             recoilAimHorizontal = core->recoilAimHorizontal;
             recoilAimVertical = core->recoilAimVertical;
         }
@@ -367,13 +375,17 @@ public:
             hipfireSpread *= GetTotalMult("spread");
             adsSpread *= GetTotalMult("spread");
         }
-        if (flags & RECOIL)
+        if (flags & RECOILHIP)
         {
             float recoilMult = GetTotalMult("recoil");
             recoilHipHorizontal.first *= recoilMult;
             recoilHipHorizontal.second *= recoilMult;
             recoilHipVertical.first *= recoilMult;
             recoilHipVertical.second *= recoilMult;
+        }
+        if (flags & RECOILAIM)
+        {
+            float recoilMult = GetTotalMult("recoil");
             recoilAimHorizontal.first *= recoilMult;
             recoilAimHorizontal.second *= recoilMult;
             recoilAimVertical.first *= recoilMult;
@@ -395,7 +407,6 @@ public:
 float CalcTTK(const Gun &gun)
 {
     return (ceil(100 / gun.damage.first) - 1) / gun.fireRate * 60;
-
 }
 
 std::ostream &operator<<(std::ostream &os, const fpair &fp)
@@ -419,17 +430,27 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
     return os;
 }
 
+/*
+IMPORTANT: SORTING NEEDS TO BE THE INVERSE OF WHAT IS NORMALLY CONSIDERED GOOD
+THE CODE WILL BE POPPING THE !WORST! GUNS OUT FIRST ONLY KEEPING TOP 10
+SORTING NEEDS TO BE LIKE THIS : 
+    return gun1 < gun2 (Less is better)
+    return gun1 > gun2 (More is better)
+*/
+
 struct SortByTTK{
     bool operator()(const Gun& gun1, const Gun& gun2) const {
-        return CalcTTK(gun1) > CalcTTK(gun2);
+        return CalcTTK(gun1) < CalcTTK(gun2);
     }
 };
 
 struct SortByFireRate{
     bool operator()(const Gun& gun1, const Gun& gun2) const {
-        return gun1.fireRate < gun2.fireRate;
+        return gun1.fireRate > gun2.fireRate;
     }
 };
+
+int howManyTopGunsToDisplay = 10;
 
 int barrelCount;
 int magazineCount;
@@ -448,9 +469,26 @@ std::priority_queue<Gun, std::vector<Gun>, SortByTTK> topGuns;
 
 namespace BruteForce 
 {
+    void Wrapper(const std::function<void()> &func) // Thanks chatgpt
+    {
+        puts("Starting bruteforce");
+        auto start = chrono::steady_clock::now();
+
+        func(); 
+
+        auto end = chrono::steady_clock::now();
+        auto duration = chrono::duration_cast<chrono::seconds>(end - start);
+
+        int minutes = duration.count() / 60;
+        int seconds = duration.count() % 60;
+
+        puts("Bruteforce completed");
+        std::cout << "Elapsed time: " << minutes << " minute(s) and " << seconds << " second(s)\n";
+    }
+
     void LowestTTK()
     {
-        uint32_t flag = DAMAGE | FIRERATE | SPREAD | RECOIL | MOVEMENTSPEEDMODIFIER;
+        uint32_t flag = DAMAGE | FIRERATE | SPREAD | RECOILAIM | MOVEMENTSPEEDMODIFIER;
         for (int c = 0; c < coreCount; c++)
         {
             if (coreList[c].category == "Sniper") continue;
@@ -468,12 +506,13 @@ namespace BruteForce
                             Gun currentGun = Gun(barrelList+b, magazineList+m, gripList+g, stockList+s, coreList+c);
                             currentGun.CopyValues(flag);
                             currentGun.CalculateGunStats(flag);
-                            if (currentGun.movementSpeedModifier < 0) continue;
+                            if (currentGun.movementSpeedModifier < -5) continue;
                             if (currentGun.damage.first >= 100) continue;
-                            if (currentGun.adsSpread > 0.25) continue;
-                            if (currentGun.recoilAimVertical.second > 30) continue;
+                            if (currentGun.adsSpread >= 1.05) continue;
+                            if (currentGun.recoilAimVertical.second > 50) continue;
 
                             topGuns.push(currentGun);
+                            if (topGuns.size() > howManyTopGunsToDisplay) topGuns.pop();
                         }
                     }
                 }
@@ -481,9 +520,9 @@ namespace BruteForce
         }
     }
 
-    void LowestTTKAR()
+    void LowestTTKNonSMG()
     {
-        uint32_t flag = DAMAGE | FIRERATE | SPREAD | RECOIL | MOVEMENTSPEEDMODIFIER;
+        uint32_t flag = DAMAGE | FIRERATE | SPREAD | RECOILAIM | MOVEMENTSPEEDMODIFIER;
         for (int c = 0; c < coreCount; c++)
         {
             if (coreList[c].category != "Assault Rifle" && coreList[c].category != "LMG") continue;
@@ -503,10 +542,11 @@ namespace BruteForce
                             currentGun.CalculateGunStats(flag);
                             if (currentGun.movementSpeedModifier < 0) continue;
                             if (currentGun.damage.first >= 100) continue;
-                            if (currentGun.adsSpread > 0.15) continue;
-                            if (currentGun.recoilAimVertical.second > 15) continue;
+                            if (currentGun.adsSpread >= 0.55) continue;
+                            if (currentGun.recoilAimVertical.second > 25) continue;
 
                             topGuns.push(currentGun);
+                            if (topGuns.size() > howManyTopGunsToDisplay) topGuns.pop();
                         }
                     }
                 }
@@ -537,6 +577,7 @@ namespace BruteForce
                             if (currentGun.adsSpread >= 0.15) continue;
 
                             topGuns.push(currentGun);
+                            if (topGuns.size() > howManyTopGunsToDisplay) topGuns.pop();
                         }
                     }
                 }
@@ -567,6 +608,7 @@ namespace BruteForce
                             if (currentGun.adsSpread >= 0.15) continue;
 
                             topGuns.push(currentGun);
+                            if (topGuns.size() > howManyTopGunsToDisplay) topGuns.pop();
                         }
                     }
                 }
@@ -617,22 +659,32 @@ int main()
     printf("Barrels detected: %d, Magazines detected: %d, Grips detected: %d, Stocks detected: %d, Cores detected: %d\n", barrelCount, magazineCount, gripCount, stockCount, coreCount);
     printf("Total of %u possibilities \n", barrelCount*magazineCount*gripCount*stockCount*coreCount);
 
-    puts("Starting bruteforce");
+    BruteForce::Wrapper(
+        /* Use sort by TTK */
+        //BruteForce::LowestTTK
+        BruteForce::LowestTTKNonSMG
+        /* Use sort by firerate */
+        //BruteForce::Fastest1TapSniper
+        //BruteForce::FastestHeadshotSniper
+        );
 
-    BruteForce::LowestTTK();
-    //BruteForce::LowestTTKAR();
-    //BruteForce::Fastest1TapSniper();
-    //BruteForce::FastestHeadshotSniper();
 
-    puts("Bruteforce completed");
-    puts("Current top guns are: ");
-    for (int i = 0; i < topGuns.size(); i++)
+    // Dump the pq into a vector
+    std::vector<Gun> outputGuns;
+    int max = topGuns.size();
+    for (int i = 0; i < max; i++)
     {
-        if (i == 10) break;
-        Gun g = topGuns.top(); 
+        outputGuns.push_back(topGuns.top());
+        topGuns.pop();
+    }
+
+    puts("Current top guns are: \n");
+    // Reverse print out the answer
+    for (int i = outputGuns.size()-1; i >=0; i--)
+    {
+        Gun g = outputGuns[i];
         g.CopyAllValues();
         g.CalculateAllGunStats();
         std::cout << g << '\n';
-        topGuns.pop();
     }
 }

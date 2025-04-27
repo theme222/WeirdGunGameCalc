@@ -180,6 +180,22 @@
       "Damage": -10
     },
     {
+      "Category": "SMG",
+      "Name": "Type 2a Nambu",
+      "Damage": 13,
+      "Movement_Speed": 3,
+      "Spread": 23
+    },
+    {
+      "Category": "SMG",
+      "Name": "Mas-38",
+      "Damage": 10,
+      "Movement_Speed": 3.3,
+      "Spread": -20,
+      "Fire_Rate": -5,
+      "Recoil": 5
+    },
+    {
       "Category": "LMG",
       "Name": "M60",
       "Damage": 5,
@@ -226,6 +242,14 @@
       "Movement_Speed": -5,
       "Recoil": 40,
       "Spread": 50
+    },
+    {
+      "Category": "LMG",
+      "Name": "Type 99",
+      "Damage": 8,
+      "Spread": -15,
+      "Movement_Speed": -2,
+      "Reload_Speed": 5
     },
     {
       "Category": "Weird",
@@ -1037,8 +1061,8 @@
       "Category": "SMG",
       "Name": "Kriss Vector",
       "Damage": [
-        15.3,
-        9.2
+        13.5,
+        8.1
       ],
       "Dropoff_Studs": [
         90,
@@ -1064,6 +1088,72 @@
       "Recoil_Aim_Vertical": [
         9,
         27
+      ]
+    },
+    {
+      "Category": "SMG",
+      "Name": "Type 2a Nambu",
+      "Damage": [
+        19.5,
+        11.7
+      ],
+      "Dropoff_Studs": [
+        90,
+        125
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 3,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.35,
+      "Movement_Speed_Modifier": 4,
+      "Recoil_Hip_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Hip_Vertical": [
+        25,
+        35
+      ],
+      "Recoil_Aim_Horizontal": [
+        -6.5,
+        6.5
+      ],
+      "Recoil_Aim_Vertical": [
+        16.2,
+        22.7
+      ]
+    },
+    {
+      "Category": "SMG",
+      "Name": "Mas-38",
+      "Damage": [
+        17.5,
+        10.5
+      ],
+      "Dropoff_Studs": [
+        90,
+        125
+      ],
+      "Fire_Rate": 700,
+      "Hipfire_Spread": 2.5,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.35,
+      "Movement_Speed_Modifier": 4.1,
+      "Recoil_Hip_Horizontal": [
+        -7.5,
+        7.5
+      ],
+      "Recoil_Hip_Vertical": [
+        10,
+        30
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3,
+        3
+      ],
+      "Recoil_Aim_Vertical": [
+        4,
+        12
       ]
     },
     {
@@ -1203,6 +1293,40 @@
       ]
     },
     {
+      "Category": "LMG",
+      "Name": "Type 99",
+      "Damage": [
+        15,
+        11.6
+      ],
+      "Dropoff_Studs": [
+        150,
+        300
+      ],
+      "Fire_Rate": 850,
+      "Hipfire_Spread": 6,
+      "ADS_Spread": 0.7,
+      "Time_To_Aim": 1.25,
+      "Movement_Speed_Modifier": -5.5,
+      "Suppression": 0.8,
+      "Recoil_Hip_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Hip_Vertical": [
+        37,
+        55
+      ],
+      "Recoil_Aim_Horizontal": [
+        -6,
+        6
+      ],
+      "Recoil_Aim_Vertical": [
+        18.5,
+        27.5
+      ]
+    },
+    {
       "Category": "Weird",
       "Name": "Words as Weapons",
       "Damage": 15,
@@ -1278,6 +1402,14 @@
         7,
         9
       ]
+    },
+    {
+      "Category": "Weird",
+      "Name": "Stat Randomizer",
+      "Hipfire_Spread": 20,
+      "ADS_Spread": 1,
+      "Time_To_Aim": 0.7,
+      "Movement_Speed_Modifier": -5
     }
   ],
   "Grips": [
@@ -1437,6 +1569,19 @@
       "Recoil": -15
     },
     {
+      "Category": "SMG",
+      "Name": "Type 2a Nambu",
+      "Damage": 6,
+      "Health": -7.5,
+      "Recoil": 23
+    },
+    {
+      "Category": "SMG",
+      "Name": "Mas-38",
+      "Movement_Speed": 2,
+      "Spread": -15
+    },
+    {
       "Category": "LMG",
       "Name": "M60",
       "Spread": -12,
@@ -1461,6 +1606,13 @@
     {
       "Category": "LMG",
       "Name": "MG42",
+      "Recoil": -13,
+      "Reload_Speed": -16,
+      "Movement_Speed": -2.7
+    },
+    {
+      "Category": "LMG",
+      "Name": "Type 99",
       "Recoil": -13,
       "Reload_Speed": -16,
       "Movement_Speed": -2.7
@@ -1568,7 +1720,7 @@
       "Damage": 20,
       "Fire_Rate": -10,
       "Recoil": 25,
-      "Reload_Time_Penalty": 25
+      "Reload_Speed": 25
     },
     {
       "Category": "Assault Rifle",
@@ -1616,7 +1768,7 @@
       "Fire_Rate": -40,
       "Movement_Speed": -10,
       "Recoil": 100,
-      "Reload_Time_Penalty": 50,
+      "Reload_Speed": 50,
       "Spread": 100
     },
     {
@@ -1713,6 +1865,25 @@
       "Damage": -10
     },
     {
+      "Category": "SMG",
+      "Name": "Type 2a Nambu",
+      "Magazine_Size": 30,
+      "Reload_Time": 2.5,
+      "Fire_Rate": 10,
+      "Movement_Speed": 3.3,
+      "Recoil": -5,
+      "Damage": -5
+    },
+    {
+      "Category": "SMG",
+      "Name": "Mas-38",
+      "Magazine_Size": 32,
+      "Reload_Time": 2.8,
+      "Damage": 5,
+      "Movement_Speed": 3.5,
+      "Spread": -15
+    },
+    {
       "Category": "LMG",
       "Name": "M60",
       "Magazine_Size": 75,
@@ -1748,6 +1919,15 @@
       "Movement_Speed": -4,
       "Recoil": 32,
       "Spread": 50
+    },
+    {
+      "Category": "LMG",
+      "Name": "Type 99",
+      "Magazine_Size": 30,
+      "Reload_Time": 3.5,
+      "Damage": 5.5,
+      "Movement_Speed": -1,
+      "Spread": -17
     },
     {
       "Category": "Weird",
@@ -1965,6 +2145,20 @@
       "Spread": 20
     },
     {
+      "Category": "SMG",
+      "Name": "Type 2a Nambu",
+      "Movement_Speed": 1.5,
+      "Recoil": -10,
+      "Spread": -13
+    },
+    {
+      "Category": "SMG",
+      "Name": "Mas-38",
+      "Movement_Speed": 3.3,
+      "Recoil": -16,
+      "Reload_Speed": -10
+    },
+    {
       "Category": "LMG",
       "Name": "M60",
       "Recoil": -20,
@@ -1992,6 +2186,14 @@
       "Movement_Speed": 3.5,
       "Spread": -25,
       "Reload_Speed": 20
+    },
+    {
+      "Category": "LMG",
+      "Name": "Type 99",
+      "Fire_Rate": 5,
+      "Reload_Speed": -15,
+      "Movement_Speed": -3,
+      "Recoil": 8
     },
     {
       "Category": "Weird",

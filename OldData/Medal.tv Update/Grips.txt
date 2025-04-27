@@ -138,17 +138,6 @@ Grip_Effects:
   Movement_Speed: +3.3%
   Recoil: -15%
 ---
-Grip: Type 2a Nambu 
-Grip_Effects:
-  Damage: +6%
-  Health: -7.5%
-  Recoil: +23%
----
-Grip: Mas-38
-Grip_Effects:
-  Movement_Speed: +2%
-  Spread: -15%
----
 
 Category: LMG Grips
 ---
@@ -172,12 +161,6 @@ Grip_Effects:
   Recoil: +25%
 ---
 Grip: MG42
-Grip_Effects:
-  Recoil: -13%
-  Reload_Speed: -16% (Faster)
-  Movement_Speed: -2.7%
----
-Grip: Type 99 
 Grip_Effects:
   Recoil: -13%
   Reload_Speed: -16% (Faster)

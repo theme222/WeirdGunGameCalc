@@ -1,9 +1,31 @@
-# Moved from Guns.txt due to inconsistencies in formatting and relevance
-Attachment Penalties:
-ARs: 0% less buffs from Assault Rifle attachments 30% less buffs from Sniper attachments, 20% less buffs from SMG attachments, 25% less buffs from LMG attachments
-Snipers: 0% less buffs from Sniper attachments 30% less buffs from Assault Rifle attachments, 40% less buffs from SMG attachments, 20% less buffs from LMG attachments
-SMGs: 0% less buffs from SMG attachments 20% less buffs from Assault Rifle attachments, 40% less buffs from Sniper attachments, 35% less buffs from LMG attachments
-LMGs: 0% less buffs from LMG attachments 25% less buffs from Assault Rifle attachments, 20% less buffs from Sniper attachments, 35% less buffs from SMG attachments
-All debuff strength's stay at 100% regardless of attachment category
-Using Weird attachments does not have any buff downsides and stays at 100% strength
-Using the same attachments of the same gun does not give any buffs although but still gives debuffs (e,g AKM Gun with AKM Magazine)
+std::map<std::string, float> ARPenalties = {
+    {"Assault Rifle", 1},
+    {"Sniper", 1},
+    {"SMG", 1},
+    {"LMG", 1},
+    {"Weird", 1},
+};
+
+std::map<std::string, float> SniperPenalties = {
+    {"Sniper", 1},
+    {"Assault Rifle", 0.6},
+    {"SMG", 0.6},
+    {"LMG", 0.8},
+    {"Weird", 1},
+};
+
+std::map<std::string, float> SMGPenalties = {
+    {"Assault Rifle", 1},
+    {"Sniper", 0.6},
+    {"SMG", 1},
+    {"LMG", 0.65},
+    {"Weird", 1}
+};
+
+std::map<std::string, float> LMGPenalties = {
+    {"Assault Rifle", 0.65},
+    {"Sniper", 0.8},
+    {"SMG", 0.65},
+    {"LMG", 1},
+    {"Weird", 1},
+};

@@ -1,10 +1,12 @@
 Reading json file
 Loading parts into array
-Barrels detected: 41, Magazines detected: 35, Grips detected: 30, Stocks detected: 33, Cores detected: 30
-Total of 42619500 possibilities 
+Barrels detected: 44, Magazines detected: 38, Grips detected: 33, Stocks detected: 36, Cores detected: 34
+Total of 67535424 possibilities 
 Starting bruteforce
 Bruteforce completed
+Elapsed time: 1 minute(s) and 38 second(s)
 Current top guns are: 
+
 Gun contains[Barrel: Arctic Warfare, Magazine: Kriss Vector, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield]
 damage: 53.82 - 48.438
 fireRate: 57.5
@@ -13,7 +15,7 @@ reloadTime: 2.04
 magazineSize: 30
 recoilAimVertical: 54.054 - 72.072
 movementSpeed: 1.98
-TTK 1.93883 Seconds
+TTK 1.04348 Seconds
 
 Gun contains[Barrel: Thompson, Magazine: Lee Enfield, Grip: M1891 Carcano, Stock: Arctic Warfare, Core: Remington 700]
 damage: 51.579 - 46.4211
@@ -23,17 +25,7 @@ reloadTime: 3.91
 magazineSize: 10
 recoilAimVertical: 60.1562 - 85.9375
 movementSpeed: 1.28
-TTK 2.11435 Seconds
-
-Gun contains[Barrel: Ketchup, Magazine: Scar H, Grip: M1891 Carcano, Stock: MG42, Core: Remington 700]
-damage: 50.16 - 45.144
-fireRate: 55
-adsSpread: 0.1456
-reloadTime: 6.21
-magazineSize: 20
-recoilAimVertical: 43.75 - 62.5
-movementSpeed: 1.8
-TTK 2.17486 Seconds
+TTK 1.09056 Seconds
 
 Gun contains[Barrel: Mustard, Magazine: Thompson, Grip: M1891 Carcano, Stock: Arctic Warfare, Core: Remington 700]
 damage: 53.955 - 48.5595
@@ -43,37 +35,17 @@ reloadTime: 2.9325
 magazineSize: 20
 recoilAimVertical: 38.5 - 55
 movementSpeed: 1.28
-TTK 2.02189 Seconds
+TTK 1.09091 Seconds
 
-Gun contains[Barrel: Mustard, Magazine: Improvised, Grip: M1891 Carcano, Stock: Arctic Warfare, Core: Remington 700]
-damage: 56.925 - 51.2325
+Gun contains[Barrel: Mustard, Magazine: Mas-38, Grip: M1891 Carcano, Stock: UMP-40, Core: Remington 700]
+damage: 50.985 - 45.8865
 fireRate: 55
-adsSpread: 0.140904
-reloadTime: 0.782
-magazineSize: 10
-recoilAimVertical: 38.5 - 55
-movementSpeed: 4
-TTK 1.9164 Seconds
-
-Gun contains[Barrel: Ketchup, Magazine: Improvised, Grip: M1891 Carcano, Stock: Arctic Warfare, Core: Remington 700]
-damage: 50.6 - 45.54
-fireRate: 55
-adsSpread: 0.136045
-reloadTime: 0.782
-magazineSize: 10
-recoilAimVertical: 38.5 - 55
-movementSpeed: 4
-TTK 2.15595 Seconds
-
-Gun contains[Barrel: Remington 700, Magazine: Remington 700, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield]
-damage: 54.288 - 48.8592
-fireRate: 55
-adsSpread: 0.1365
-reloadTime: 2.975
-magazineSize: 10
-recoilAimVertical: 28.215 - 37.62
-movementSpeed: 0
-TTK 2.00949 Seconds
+adsSpread: 0.148892
+reloadTime: 3.22
+magazineSize: 32
+recoilAimVertical: 42 - 60
+movementSpeed: 3.38
+TTK 1.09091 Seconds
 
 Gun contains[Barrel: Arctic Warfare, Magazine: Horizontal, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield]
 damage: 56.81 - 51.129
@@ -83,25 +55,55 @@ reloadTime: 1.615
 magazineSize: 20
 recoilAimVertical: 50.49 - 67.32
 movementSpeed: 0
-TTK 1.92028 Seconds
+TTK 1.09091 Seconds
 
-Gun contains[Barrel: PPSh-41, Magazine: Horizontal, Grip: M1891 Carcano, Stock: Fedorov Avtomat, Core: Remington 700]
-damage: 52.25 - 47.025
-fireRate: 54.6025
-adsSpread: 0.143
-reloadTime: 2.622
-magazineSize: 20
-recoilAimVertical: 31.8176 - 45.4538
-movementSpeed: 0.38
-TTK 2.10307 Seconds
+Gun contains[Barrel: Mustard, Magazine: Mas-38, Grip: M1891 Carcano, Stock: MG42, Core: Remington 700]
+damage: 50.985 - 45.8865
+fireRate: 55
+adsSpread: 0.137228
+reloadTime: 3.864
+magazineSize: 32
+recoilAimVertical: 35 - 50
+movementSpeed: 3.9
+TTK 1.09091 Seconds
 
-Gun contains[Barrel: Thompson, Magazine: Kriss Vector, Grip: M1891 Carcano, Stock: Fedorov Avtomat, Core: Remington 700]
-damage: 51.579 - 46.4211
-fireRate: 54.5706
-adsSpread: 0.13
-reloadTime: 3.312
+Gun contains[Barrel: Mustard, Magazine: Type 99, Grip: M1891 Carcano, Stock: UMP-40, Core: Remington 700]
+damage: 51.678 - 46.5102
+fireRate: 55
+adsSpread: 0.141366
+reloadTime: 4.025
 magazineSize: 30
-recoilAimVertical: 37.0256 - 52.8937
-movementSpeed: 3.26
-TTK 2.13167 Seconds
+recoilAimVertical: 42 - 60
+movementSpeed: 0.28
+TTK 1.09091 Seconds
+
+Gun contains[Barrel: Mustard, Magazine: Improvised, Grip: M1891 Carcano, Stock: Arctic Warfare, Core: Remington 700]
+damage: 56.925 - 51.2325
+fireRate: 55
+adsSpread: 0.140904
+reloadTime: 0.782
+magazineSize: 10
+recoilAimVertical: 38.5 - 55
+movementSpeed: 4
+TTK 1.09091 Seconds
+
+Gun contains[Barrel: Mustard, Magazine: Type 99, Grip: M1891 Carcano, Stock: MG42, Core: Remington 700]
+damage: 51.678 - 46.5102
+fireRate: 55
+adsSpread: 0.130291
+reloadTime: 4.83
+magazineSize: 30
+recoilAimVertical: 35 - 50
+movementSpeed: 0.8
+TTK 1.09091 Seconds
+
+Gun contains[Barrel: Ketchup, Magazine: Improvised, Grip: M1891 Carcano, Stock: Arctic Warfare, Core: Remington 700]
+damage: 50.6 - 45.54
+fireRate: 55
+adsSpread: 0.136045
+reloadTime: 0.782
+magazineSize: 10
+recoilAimVertical: 38.5 - 55
+movementSpeed: 4
+TTK 1.09091 Seconds
 

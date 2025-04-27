@@ -143,18 +143,6 @@ Stock_Effects:
   Recoil: -20%
   Spread: +20%
 ---
-Stock: Type 2a Nambu 
-Stock_Effects:
-  Movement_Speed: +1.5%
-  Recoil: -10%
-  Spread: -13%
----
-Stock: Mas-38 
-Stock_Effects:
-  Movement_Speed: +3.3%
-  Recoil: -16%
-  Reload_Speed: -10%
----
 
 Category: LMG Stocks
 ---
@@ -182,11 +170,4 @@ Stock_Effects:
   Movement_Speed: +3.5%
   Spread: -25%
   Reload_Speed: +20% (Slower)
----
-Stock: Type 99
-Stock_Effects:
-  Fire_Rate: +5%
-  Reload_Speed: -15%
-  Movement_Speed: -3%
-  Recoil: +8%
 ---

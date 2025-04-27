@@ -35,12 +35,6 @@ Recoil_Hip_Vertical: 70 - 90
 Recoil_Aim_Horizontal: -1.2 - 1.2
 Recoil_Aim_Vertical: 7 - 9
 ---
-Gun: Stat Randomizer
-Hipfire_Spread: 20
-ADS_Spread: 1
-Time_To_Aim: 0.7
-Movement_Speed_Modifier: -5%
----
 
 Category: Weird Barrels
 ---

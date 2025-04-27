@@ -160,20 +160,6 @@ Barrel_Effects:
   Recoil: -15%
   Damage: -10%
 ---
-Gun: Type 2a Nambu 
-Barrel_Effects:
-  Damage: +13%
-  Movement_Speed: +3%
-  Spread: +23%
----
-Gun: Mas-38
-Barrel_Effects:
-  Damage: +10%
-  Movement_Speed: +3.3%
-  Spread: -20%
-  Fire_Rate: -5%
-  Recoil: +5%
----
 
 Category: LMG Barrels
 ---
@@ -218,11 +204,4 @@ Barrel_Effects:
   Movement_Speed: -5%
   Recoil: +40%
   Spread: +50%
----
-Gun: Type 99 
-Barrel_Effects:
-  Damage: +8%
-  Spread: -15%
-  Movement_Speed: -2%
-  Reload_Speed: +5%
 ---
