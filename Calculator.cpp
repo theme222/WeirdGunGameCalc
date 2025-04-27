@@ -26,9 +26,9 @@ std::string filepath = "Data/FullData.json";
 
 std::map<std::string, float> ARPenalties = {
     {"Assault Rifle", 1},
-    {"Sniper", 1},
-    {"SMG", 1},
-    {"LMG", 1},
+    {"Sniper", 0.7},
+    {"SMG", 0.8},
+    {"LMG", 0.75},
     {"Weird", 1},
 };
 
@@ -531,7 +531,7 @@ namespace BruteForce
                 if (barrelList[b].name == "Honk") continue;
                 for (int m = 0; m < magazineCount; m++)
                 {
-                    //if (magazineList[m].magazineSize < 40) continue;
+                    if (magazineList[m].magazineSize < 30) continue;
                     for (int g = 0; g < gripCount; g++)
                     {
                         for (int s = 0; s < stockCount; s++)

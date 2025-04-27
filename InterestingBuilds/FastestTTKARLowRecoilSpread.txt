@@ -4,106 +4,106 @@ Barrels detected: 44, Magazines detected: 38, Grips detected: 33, Stocks detecte
 Total of 67535424 possibilities 
 Starting bruteforce
 Bruteforce completed
-Elapsed time: 5 minute(s) and 33 second(s)
+Elapsed time: 3 minute(s) and 42 second(s)
 Current top guns are: 
 
-Gun contains[Barrel: Arctic Warfare, Magazine: Remington 700, Grip: Type 2a Nambu, Stock: Kriss Vector, Core: Hell-Trooper-23]
-damage: 25.4527 - 20.3622
-fireRate: 695.5
-adsSpread: 0.468
-reloadTime: 3.5
-magazineSize: 10
-recoilAimVertical: 2.3247 - 16.605
-movementSpeed: 3.3
-TTK 0.258807 Seconds
+Gun contains[Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
+damage: 14.3 - 11.44
+fireRate: 1143.07
+adsSpread: 0.506
+reloadTime: 3.312
+magazineSize: 30
+recoilAimVertical: 16.56 - 20.7
+movementSpeed: 1.84
+TTK 0.314941 Seconds
 
-Gun contains[Barrel: Arctic Warfare, Magazine: Remington 700, Grip: MP 40, Stock: Fedorov Avtomat, Core: Hell-Trooper-23]
-damage: 25.2126 - 20.1701
-fireRate: 682.5
-adsSpread: 0.507
-reloadTime: 4.2
-magazineSize: 10
-recoilAimVertical: 2.76412 - 19.7437
+Gun contains[Barrel: PPSh-41, Magazine: AKM, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
+damage: 14.3 - 11.44
+fireRate: 1143.07
+adsSpread: 0.506
+reloadTime: 3.312
+magazineSize: 30
+recoilAimVertical: 16.56 - 20.7
+movementSpeed: 1.84
+TTK 0.314941 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Restroom, Grip: PPSh-41, Stock: Kriss Vector, Core: Famas F1]
+damage: 14.365 - 11.492
+fireRate: 1129.08
+adsSpread: 0.541788
+reloadTime: 3.335
+magazineSize: 35
+recoilAimVertical: 16.128 - 20.16
+movementSpeed: 2.64
+TTK 0.318845 Seconds
+
+Gun contains[Barrel: As-Val, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
+damage: 14.3 - 11.44
+fireRate: 1122.66
+adsSpread: 0.46
+reloadTime: 3.312
+magazineSize: 30
+recoilAimVertical: 16.56 - 20.7
 movementSpeed: 0
-TTK 0.263736 Seconds
+TTK 0.320667 Seconds
 
-Gun contains[Barrel: Arctic Warfare, Magazine: Remington 700, Grip: Type 2a Nambu, Stock: Fedorov Avtomat, Core: Hell-Trooper-23]
-damage: 25.4527 - 20.3622
-fireRate: 682.5
-adsSpread: 0.39
-reloadTime: 4.2
-magazineSize: 10
-recoilAimVertical: 2.61529 - 18.6806
+Gun contains[Barrel: As-Val, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
+damage: 14.69 - 11.752
+fireRate: 1122.66
+adsSpread: 0.506
+reloadTime: 3.174
+magazineSize: 45
+recoilAimVertical: 19.044 - 23.805
 movementSpeed: 0
-TTK 0.263736 Seconds
+TTK 0.320667 Seconds
 
-Gun contains[Barrel: Thompson, Magazine: Scar H, Grip: PPSh-41, Stock: Kriss Vector, Core: Famas F1]
-damage: 16.692 - 13.3536
-fireRate: 1133.45
-adsSpread: 0.54
-reloadTime: 5.175
-magazineSize: 20
-recoilAimVertical: 20 - 25
-movementSpeed: 7.1
-TTK 0.264678 Seconds
-
-Gun contains[Barrel: Arctic Warfare, Magazine: Remington 700, Grip: MP 40, Stock: STG-44, Core: Hell-Trooper-23]
-damage: 25.2126 - 20.1701
-fireRate: 669.5
-adsSpread: 0.4563
-reloadTime: 3.5
-magazineSize: 10
-recoilAimVertical: 3.07125 - 21.9375
+Gun contains[Barrel: Arctic Warfare, Magazine: Restroom, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
+damage: 14.365 - 11.492
+fireRate: 1122.66
+adsSpread: 0.45149
+reloadTime: 4.002
+magazineSize: 35
+recoilAimVertical: 17.28 - 21.6
 movementSpeed: 0
-TTK 0.268857 Seconds
+TTK 0.320667 Seconds
 
-Gun contains[Barrel: Arctic Warfare, Magazine: Remington 700, Grip: Type 2a Nambu, Stock: STG-44, Core: Hell-Trooper-23]
-damage: 25.4527 - 20.3622
-fireRate: 669.5
-adsSpread: 0.351
-reloadTime: 3.5
-magazineSize: 10
-recoilAimVertical: 2.90587 - 20.7562
+Gun contains[Barrel: As-Val, Magazine: AKM, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
+damage: 14.3 - 11.44
+fireRate: 1122.66
+adsSpread: 0.46
+reloadTime: 3.312
+magazineSize: 30
+recoilAimVertical: 16.56 - 20.7
 movementSpeed: 0
-TTK 0.268857 Seconds
+TTK 0.320667 Seconds
 
-Gun contains[Barrel: Arctic Warfare, Magazine: Remington 700, Grip: Lee Enfield, Stock: Fedorov Avtomat, Core: Famas F1]
-damage: 17.342 - 13.8736
-fireRate: 1086.75
-adsSpread: 0.4875
-reloadTime: 4.2
-magazineSize: 10
-recoilAimVertical: 16.2 - 20.25
-movementSpeed: 0
-TTK 0.276052 Seconds
+Gun contains[Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: STG-44, Core: Famas F1]
+damage: 14.3 - 11.44
+fireRate: 1121.3
+adsSpread: 0.4554
+reloadTime: 2.76
+magazineSize: 30
+recoilAimVertical: 18.4 - 23
+movementSpeed: 1.84
+TTK 0.321056 Seconds
 
-Gun contains[Barrel: Arctic Warfare, Magazine: Remington 700, Grip: MP 40, Stock: Famas F1, Core: Hell-Trooper-23]
-damage: 25.2126 - 20.1701
-fireRate: 650
-adsSpread: 0.507
-reloadTime: 3.675
-magazineSize: 10
-recoilAimVertical: 2.61056 - 18.6469
-movementSpeed: 0
-TTK 0.276923 Seconds
+Gun contains[Barrel: PPSh-41, Magazine: AKM, Grip: PPSh-41, Stock: STG-44, Core: Famas F1]
+damage: 14.3 - 11.44
+fireRate: 1121.3
+adsSpread: 0.4554
+reloadTime: 2.76
+magazineSize: 30
+recoilAimVertical: 18.4 - 23
+movementSpeed: 1.84
+TTK 0.321056 Seconds
 
-Gun contains[Barrel: DP-27, Magazine: Remington 700, Grip: Type 2a Nambu, Stock: MG42, Core: Hell-Trooper-23]
-damage: 25.0101 - 20.008
-fireRate: 650
-adsSpread: 0.531
-reloadTime: 4.2
-magazineSize: 10
-recoilAimVertical: 2.22784 - 15.9131
-movementSpeed: 2.5
-TTK 0.276923 Seconds
-
-Gun contains[Barrel: Type 2a Nambu, Magazine: Remington 700, Grip: Type 2a Nambu, Stock: Arctic Warfare, Core: Hell-Trooper-23]
-damage: 25.0101 - 20.008
-fireRate: 650
-adsSpread: 0.4797
-reloadTime: 2.975
-magazineSize: 10
-recoilAimVertical: 2.13098 - 15.2213
-movementSpeed: 3
-TTK 0.276923 Seconds
+Gun contains[Barrel: Scar H, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Kriss Vector, Core: Famas F1]
+damage: 16.8935 - 13.5148
+fireRate: 923.789
+adsSpread: 0.4554
+reloadTime: 2.645
+magazineSize: 45
+recoilAimVertical: 18.5472 - 23.184
+movementSpeed: 2.64
+TTK 0.32475 Seconds
 
