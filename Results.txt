@@ -1,0 +1,110 @@
+Reading json file
+Loading parts into array
+Barrels detected: 44, Magazines detected: 38, Grips detected: 33, Stocks detected: 36, Cores detected: 34
+Total of 67535424 possibilities 
+Starting bruteforce
+Running lowest TTK config
+Bruteforce completed
+Elapsed time: 6 minute(s) and 35 second(s)
+Current top guns are: 
+
+Gun contains[Barrel: Type 2a Nambu, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
+damage: 16.8415 - 10.1049
+fireRate: 1372.8
+adsSpread: 1.03505
+reloadTime: 3.174
+magazineSize: 45
+recoilAimVertical: 9.522 - 28.566
+movementSpeed: 6.3
+TTK 0.218531 Seconds
+
+Gun contains[Barrel: Type 2a Nambu, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
+damage: 16.7805 - 10.0683
+fireRate: 1372.8
+adsSpread: 0.94095
+reloadTime: 3.312
+magazineSize: 30
+recoilAimVertical: 8.28 - 24.84
+movementSpeed: 6.3
+TTK 0.218531 Seconds
+
+Gun contains[Barrel: Type 2a Nambu, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Type 99, Core: Kriss Vector]
+damage: 16.8415 - 10.1049
+fireRate: 1362.9
+adsSpread: 1.03505
+reloadTime: 2.38711
+magazineSize: 45
+recoilAimVertical: 11.178 - 33.534
+movementSpeed: 3.3
+TTK 0.220119 Seconds
+
+Gun contains[Barrel: Type 2a Nambu, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Type 99, Core: Kriss Vector]
+damage: 16.7805 - 10.0683
+fireRate: 1362.9
+adsSpread: 0.94095
+reloadTime: 2.4909
+magazineSize: 30
+recoilAimVertical: 9.72 - 29.16
+movementSpeed: 3.3
+TTK 0.220119 Seconds
+
+Gun contains[Barrel: Type 2a Nambu, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: STG-44, Core: Kriss Vector]
+damage: 16.8415 - 10.1049
+fireRate: 1351.68
+adsSpread: 0.952241
+reloadTime: 2.645
+magazineSize: 45
+recoilAimVertical: 10.35 - 31.05
+movementSpeed: 6.3
+TTK 0.221946 Seconds
+
+Gun contains[Barrel: Type 2a Nambu, Magazine: Words as Weapons, Grip: PPSh-41, Stock: STG-44, Core: Kriss Vector]
+damage: 16.7805 - 10.0683
+fireRate: 1351.68
+adsSpread: 0.865674
+reloadTime: 2.76
+magazineSize: 30
+recoilAimVertical: 9 - 27
+movementSpeed: 6.3
+TTK 0.221946 Seconds
+
+Gun contains[Barrel: Thompson, Magazine: Restroom, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
+damage: 14.445 - 8.667
+fireRate: 1615.79
+adsSpread: 0.9945
+reloadTime: 4.002
+magazineSize: 35
+recoilAimVertical: 8.28 - 24.84
+movementSpeed: 7.1
+TTK 0.222802 Seconds
+
+Gun contains[Barrel: Thompson, Magazine: Restroom, Grip: PPSh-41, Stock: Type 99, Core: Kriss Vector]
+damage: 14.445 - 8.667
+fireRate: 1604.13
+adsSpread: 0.9945
+reloadTime: 3.00984
+magazineSize: 35
+recoilAimVertical: 9.72 - 29.16
+movementSpeed: 4.1
+TTK 0.22442 Seconds
+
+Gun contains[Barrel: Thompson, Magazine: Words as Weapons, Grip: Type 2a Nambu, Stock: Fedorov Avtomat, Core: Kriss Vector]
+damage: 16.8429 - 10.1057
+fireRate: 1335.36
+adsSpread: 0.85
+reloadTime: 2.88
+magazineSize: 30
+recoilAimVertical: 12.7305 - 38.1915
+movementSpeed: 7.1
+TTK 0.224659 Seconds
+
+Gun contains[Barrel: Thompson, Magazine: Restroom, Grip: PPSh-41, Stock: STG-44, Core: Kriss Vector]
+damage: 14.445 - 8.667
+fireRate: 1590.93
+adsSpread: 0.91494
+reloadTime: 3.335
+magazineSize: 35
+recoilAimVertical: 9 - 27
+movementSpeed: 7.1
+TTK 0.226283 Seconds
+
