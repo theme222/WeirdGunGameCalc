@@ -23,20 +23,41 @@ typedef std::pair<float, float> fpair;
 
 std::string filepath = "Data/FullData.json";
 
+// Penalty[coreCategory][partCategory]
+float penalties[6][6] = {
+    {1, 0.7, 0.8, 0.75, 1, 0.7},
+    {0.7, 1, 0.6, 0.8, 1, 0.6},
+    {0.8, 0.6, 1, 0.65, 1, 0.65},
+    {0.75, 0.8, 0.65, 1, 1, 0.75},
+    {1, 1, 1, 1, 1, 1},
+    {0.7, 0.6, 0.65, 0.75, 1, 1},
+};
+
+std::map<std::string, int> fastCategory = {
+    {"Assault Rifle", 0},
+    {"Sniper", 1},
+    {"SMG", 2},
+    {"LMG", 3},
+    {"Weird", 4},
+    {"Shotgun", 5},
+};
+
 std::map<std::string, float> ARPenalties = {
     {"Assault Rifle", 1},
     {"Sniper", 0.7},
     {"SMG", 0.8},
     {"LMG", 0.75},
     {"Weird", 1},
+    {"Shotgun", 0.7},
 };
 
 std::map<std::string, float> SniperPenalties = {
-    {"Sniper", 1},
     {"Assault Rifle", 0.7},
+    {"Sniper", 1},
     {"SMG", 0.6},
     {"LMG", 0.8},
     {"Weird", 1},
+    {"Shotgun", 0.6},
 };
 
 std::map<std::string, float> SMGPenalties = {
@@ -44,7 +65,8 @@ std::map<std::string, float> SMGPenalties = {
     {"Sniper", 0.6},
     {"SMG", 1},
     {"LMG", 0.65},
-    {"Weird", 1}
+    {"Weird", 1},
+    {"Shotgun", 0.65},
 };
 
 std::map<std::string, float> LMGPenalties = {
@@ -53,7 +75,18 @@ std::map<std::string, float> LMGPenalties = {
     {"SMG", 0.65},
     {"LMG", 1},
     {"Weird", 1},
+    {"Shotgun", 0.75},
 };
+
+std::map<std::string, float> ShotgunPenalties = {
+    {"Assault Rifle", 0.7},
+    {"Sniper", 0.6},
+    {"SMG", 0.65},
+    {"LMG", 0.75},
+    {"Weird", 1},
+    {"Shotgun", 1},
+};
+
 
 std::map<std::string, bool> moreIsBetter = {
     // Based on what Part's multipliers have
@@ -66,12 +99,27 @@ std::map<std::string, bool> moreIsBetter = {
     {"spread", false},
 };
 
+enum MultFlags {
+    DAMAGE = 1<<0,
+    DROPOFFSTUDS = 1<<1,
+    RELOADTIME = 1<<2,
+    MAGAZINESIZE = 1<<3,
+    FIRERATE = 1<<4,
+    TIMETOAIM = 1<<5,
+    MOVEMENTSPEEDMODIFIER = 1<<6,
+    SPREAD = 1<<7,
+    RECOILAIM = 1<<8,
+    RECOILHIP = 1<<9,
+};
 
 class Part
 {
 public:
     std::string category;
     std::string name;
+
+    int category_fast = 0;
+    int name_fast = 0;
 
     float damage = 0;
     float fireRate = 0;
@@ -82,12 +130,10 @@ public:
     float health = 0;
 
     Part() {}
-    Part(const json &jsonObject)
+    Part(const json &jsonObject): category(jsonObject["Category"]), name(jsonObject["Name"])
     {
-        if (jsonObject.contains("Category"))
-            category = jsonObject["Category"];
-        if (jsonObject.contains("Name"))
-            name = jsonObject["Name"];
+        category_fast = fastCategory[category];
+
         if (jsonObject.contains("Damage"))
             damage = jsonObject["Damage"];
         if (jsonObject.contains("Fire_Rate"))
@@ -175,6 +221,9 @@ public:
     std::string category;
     std::string name;
 
+    int category_fast = 0;
+    int name_fast = 0;
+
     fpair damage = fpair(0, 0);
     fpair dropoffStuds = fpair(0, 0);
     float fireRate = 0;
@@ -190,6 +239,8 @@ public:
     Core() {}
     Core(const json &jsonObject) : category(jsonObject["Category"]), name(jsonObject["Name"])
     {
+        category_fast = fastCategory[category];
+
         if (!jsonObject.contains("Damage"))
         {}
         else if (jsonObject["Damage"].is_array())
@@ -243,24 +294,6 @@ public:
     }
 };
 
-Barrel emptyBarrel;
-Magazine emptyMagazine;
-Grip emptyGrip;
-Stock emptyStock;
-Core emptyCore;
-
-enum MultFlags {
-    DAMAGE = 1<<0,
-    DROPOFFSTUDS = 1<<1,
-    RELOADTIME = 1<<2,
-    MAGAZINESIZE = 1<<3,
-    FIRERATE = 1<<4,
-    TIMETOAIM = 1<<5,
-    MOVEMENTSPEEDMODIFIER = 1<<6,
-    SPREAD = 1<<7,
-    RECOILAIM = 1<<8,
-    RECOILHIP = 1<<9,
-};
 
 uint32_t ALLMULTFLAG = 4294967295; // 2^32 - 1
 
@@ -290,6 +323,15 @@ public:
     Gun() {}
     Gun(Barrel *barrel, Magazine *magazine, Grip *grip, Stock *stock, Core *core) : barrel(barrel), magazine(magazine), grip(grip), stock(stock), core(core) {}
 
+    void ReGun(Barrel *barrel, Magazine *magazine, Grip *grip, Stock *stock, Core *core) { // Used for optimization
+        this->barrel = barrel;
+        this->magazine = magazine;
+        this->grip = grip;
+        this->stock = stock;
+        this->core = core;
+    }
+
+
     float CalculatePenalty(const std::string &propertyName, Part *part)
     {
         float baseMult = part->GetMult(propertyName);
@@ -299,17 +341,23 @@ public:
             return baseMult;
         if (moreIsBetter[propertyName] && baseMult < 0)
             return baseMult;
-        if (core->category == "Weird")
-            return baseMult;
-        if (core->category == "Assault Rifle")
-            return baseMult * ARPenalties[part->category];
-        if (core->category == "Sniper")
-            return baseMult * SniperPenalties[part->category];
-        if (core->category == "SMG")
-            return baseMult * SMGPenalties[part->category];
-        if (core->category == "LMG")
-            return baseMult * LMGPenalties[part->category];
-        throw std::invalid_argument("Category doesn't exist" + core->category + "\n");
+
+        return baseMult * penalties[core->category_fast][part->category_fast];
+
+        // if (core->category == "Weird")
+        //     return baseMult;
+        // if (core->category == "Assault Rifle")
+        //     return baseMult * ARPenalties[part->category];
+        // if (core->category == "Sniper")
+        //     return baseMult * SniperPenalties[part->category];
+        // if (core->category == "SMG")
+        //     return baseMult * SMGPenalties[part->category];
+        // if (core->category == "LMG")
+        //     return baseMult * LMGPenalties[part->category];
+        // if (core->category == "Shotgun")
+        //     return baseMult * ShotgunPenalties[part->category];
+
+        throw std::invalid_argument("Category doesn't exist " + core->category + "\n");
     }
 
     float GetTotalMult(const std::string &propertyName)
@@ -362,8 +410,9 @@ public:
     {
         if (flags & DAMAGE)
         {
-            damage.first *= GetTotalMult("damage");
-            damage.second *= GetTotalMult("damage");
+            // This is due to a random glitch giving any part connected to core a 1% boost in damage (1.01)^5 = 1.051
+            damage.first *= GetTotalMult("damage") * 1.051;
+            damage.second *= GetTotalMult("damage") * 1.051;
         }
         if (flags & FIRERATE) fireRate *= GetTotalMult("fireRate");
         if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier += GetTotalAdd("movementSpeed"); // Bruhhhhhhhhh
@@ -448,6 +497,12 @@ struct SortByFireRate{
     }
 };
 
+struct SortByADSSpread{
+    bool operator()(const Gun& gun1, const Gun& gun2) const {
+        return gun1.adsSpread < gun2.adsSpread;
+    }
+};
+
 int howManyTopGunsToDisplay = 10;
 
 int barrelCount;
@@ -456,14 +511,17 @@ int gripCount;
 int stockCount;
 int coreCount;
 
-Barrel barrelList[50];
-Magazine magazineList[50];
-Grip gripList[50];
-Stock stockList[50];
-Core coreList[50];
+Barrel barrelList[64];
+Magazine magazineList[64];
+Grip gripList[64];
+Stock stockList[64];
+Core coreList[64];
 
-std::priority_queue<Gun, std::vector<Gun>, SortByTTK> topGuns;
-//std::priority_queue<Gun, std::vector<Gun>, SortByFireRate> topGuns;
+std::priority_queue<Gun, std::vector<Gun>,
+    SortByTTK
+    // SortByFireRate
+    // SortByADSSpread
+    > topGuns;
 
 namespace BruteForce
 {
@@ -479,8 +537,8 @@ namespace BruteForce
 
         Iterator()
         {
-            if (barrelCount == 0 || magazineCount == 0 || gripCount == 0 || stockCount == 0 || coreCount == 0)
-                throw std::runtime_error("1 Or more types of parts are missing");
+            // if (barrelCount == 0 || magazineCount == 0 || gripCount == 0 || stockCount == 0 || coreCount == 0)
+            //     throw std::runtime_error("1 Or more types of parts are missing");
         }
 
         bool Step(Barrel*& b, Magazine*& m, Grip*& g, Stock*& s, Core*& c) // Returns true if another combination still exists
@@ -544,11 +602,17 @@ namespace BruteForce
         std::cout << "Elapsed time: " << minutes << " minute(s) and " << seconds << " second(s)\n";
     }
 
+    Iterator iter;
+    Barrel* b;
+    Magazine* m;
+    Grip* g;
+    Stock* s;
+    Core* c;
+
     void LowestTTK()
     {
         puts("Running lowest TTK config");
         uint32_t flag = DAMAGE | FIRERATE | SPREAD | RECOILAIM | MOVEMENTSPEEDMODIFIER;
-        Iterator iter; Barrel* b; Magazine* m; Grip* g; Stock* s; Core* c;
 
         while (iter.Step(b, m, g, s, c))
         {
@@ -556,6 +620,7 @@ namespace BruteForce
             if (b->name == "Honk") continue;
             if (m->magazineSize < 30) continue;
             if (s->name == "Anvil") continue;
+            if (m->category == "Shotgun") continue;
 
             Gun currentGun = Gun(b, m, g, s, c);
             currentGun.CopyValues(flag);
@@ -563,8 +628,9 @@ namespace BruteForce
 
             if (currentGun.movementSpeedModifier < 0) continue;
             if (currentGun.damage.first >= 100) continue;
+            // if (currentGun.damage.first < 20) continue;
             if (currentGun.adsSpread >= 1.05) continue;
-            if (currentGun.recoilAimVertical.second > 40) continue;
+            if (currentGun.recoilAimVertical.second > 35) continue;
 
             topGuns.push(currentGun);
             if (topGuns.size() > howManyTopGunsToDisplay) topGuns.pop();
@@ -574,7 +640,6 @@ namespace BruteForce
     void LowestTTKNonSMG()
     {
         uint32_t flag = DAMAGE | FIRERATE | SPREAD | RECOILAIM | MOVEMENTSPEEDMODIFIER;
-        Iterator iter; Barrel* b; Magazine* m; Grip* g; Stock* s; Core* c;
 
         while (iter.Step(b, m, g, s, c))
         {
@@ -602,7 +667,6 @@ namespace BruteForce
     void Fastest1TapSniper()
     {
         uint32_t flag = DAMAGE | FIRERATE | SPREAD;
-        Iterator iter; Barrel* b; Magazine* m; Grip* g; Stock* s; Core* c;
 
         while (iter.Step(b, m, g, s, c))
         {
@@ -624,7 +688,6 @@ namespace BruteForce
     void FastestHeadshotSniper()
     {
         uint32_t flag = DAMAGE | FIRERATE | SPREAD | MOVEMENTSPEEDMODIFIER;
-        Iterator iter; Barrel* b; Magazine* m; Grip* g; Stock* s; Core* c;
 
         while (iter.Step(b, m, g, s, c))
         {
@@ -638,6 +701,25 @@ namespace BruteForce
             if (currentGun.damage.first < 49.95) continue;
             if (currentGun.movementSpeedModifier < 0) continue;
             if (currentGun.adsSpread >= 0.15) continue;
+
+            topGuns.push(currentGun);
+            if (topGuns.size() > howManyTopGunsToDisplay) topGuns.pop();
+        }
+    }
+
+    void LowestHonkSpread()
+    {
+        uint32_t flag = DAMAGE | SPREAD | FIRERATE;
+
+        while (iter.Step(b, m, g, s, c))
+        {
+            if (b->name != "Honk") continue;
+            Gun currentGun = Gun(b, m, g, s, c);
+            currentGun.CopyValues(flag);
+            currentGun.CalculateGunStats(flag);
+
+            if (currentGun.adsSpread > 1) continue;
+            if (currentGun.damage.first < 49.95) continue;
 
             topGuns.push(currentGun);
             if (topGuns.size() > howManyTopGunsToDisplay) topGuns.pop();
@@ -690,10 +772,11 @@ int main()
     BruteForce::Wrapper(
         /* Use sort by TTK */
         BruteForce::LowestTTK
-        //BruteForce::LowestTTKNonSMG
+        // BruteForce::LowestTTKNonSMG
+        // BruteForce::LowestHonkSpread
         /* Use sort by firerate */
-        //BruteForce::Fastest1TapSniper
-        //BruteForce::FastestHeadshotSniper
+        // BruteForce::Fastest1TapSniper
+        // BruteForce::FastestHeadshotSniper
     );
 
 

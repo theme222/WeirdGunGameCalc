@@ -4,7 +4,6 @@ std::map<std::string, float> ARPenalties = {
     {"SMG", 0.8},
     {"LMG", 0.75},
     {"Weird", 1},
-    {"Shotgun", 0.7},
 };
 
 std::map<std::string, float> SniperPenalties = {
@@ -13,7 +12,6 @@ std::map<std::string, float> SniperPenalties = {
     {"SMG", 0.6},
     {"LMG", 0.8},
     {"Weird", 1},
-    {"Shotgun", 0.6},
 };
 
 std::map<std::string, float> SMGPenalties = {
@@ -21,8 +19,7 @@ std::map<std::string, float> SMGPenalties = {
     {"Sniper", 0.6},
     {"SMG", 1},
     {"LMG", 0.65},
-    {"Weird", 1},
-    {"Shotgun", 0.65},
+    {"Weird", 1}
 };
 
 std::map<std::string, float> LMGPenalties = {
@@ -30,15 +27,5 @@ std::map<std::string, float> LMGPenalties = {
     {"Sniper", 0.8},
     {"SMG", 0.65},
     {"LMG", 1},
-    {"Weird", 1},
-    {"Shotgun", 0.75},
-};
-
-std::map<std::string, float> ShotgunPenalties = {
-    {"Shotgun", 1},
-    {"Assault Rifle", 0.7},
-    {"Sniper", 0.6},
-    {"SMG", 0.65},
-    {"LMG", 0.75},
     {"Weird", 1},
 };

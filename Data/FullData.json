@@ -252,6 +252,56 @@
       "Reload_Speed": 5
     },
     {
+      "Category": "Shotgun",
+      "Name": "Spas-12",
+      "Fire_Rate": 10,
+      "Movement_Speed": -2.5,
+      "Spread": 35
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Remington 870 Wingmaster",
+      "Damage": 10,
+      "Spread": -45,
+      "Pellets": -75,
+      "Reload": 35
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "M1887",
+      "Damage": 5,
+      "Health": 5,
+      "Movement_Speed": -5.5,
+      "Spread": 35
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "M1897 Trench Shotgun",
+      "Fire_Rate": 5,
+      "Reload": -10,
+      "Spread": 10
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Remington 870 Breacher",
+      "Damage": 10,
+      "Movement_Speed": 3,
+      "Spread": 75
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Remington 870 MCS",
+      "Damage": 10,
+      "Spread": -15,
+      "Reload": 10
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Remington 870",
+      "Damage": 10,
+      "Spread": 15
+    },
+    {
       "Category": "Weird",
       "Name": "Snake",
       "Damage": 15,
@@ -629,8 +679,8 @@
       "Category": "Assault Rifle",
       "Name": "Hell-Trooper-23",
       "Damage": [
-        18,
-        14.4
+        16.5,
+        13.2
       ],
       "Dropoff_Studs": [
         175,
@@ -1061,8 +1111,8 @@
       "Category": "SMG",
       "Name": "Kriss Vector",
       "Damage": [
-        13.5,
-        8.1
+        12.5,
+        7.5
       ],
       "Dropoff_Studs": [
         90,
@@ -1324,6 +1374,143 @@
       "Recoil_Aim_Vertical": [
         18.5,
         27.5
+      ]
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "M1887",
+      "Damage": [
+        99,
+        14.9
+      ],
+      "Dropoff_Studs": [
+        50,
+        100
+      ],
+      "Pellets": 10,
+      "Fire_Rate": 60,
+      "Hipfire_Spread": 7,
+      "ADS_Spread": 1.6,
+      "Time_To_Aim": 0.7,
+      "Movement_Speed_Modifier": 2,
+      "Suppression": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        20,
+        30
+      ],
+      "Recoil_Aim_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Aim_Vertical": [
+        8,
+        12
+      ]
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "M1897 Trench Shotgun",
+      "Damage": [
+        65,
+        9.8
+      ],
+      "Dropoff_Studs": [
+        50,
+        100
+      ],
+      "Pellets": 16,
+      "Fire_Rate": 120,
+      "Hipfire_Spread": 9,
+      "ADS_Spread": 2.5,
+      "Time_To_Aim": 0.7,
+      "Suppression": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Hip_Vertical": [
+        40,
+        60
+      ],
+      "Recoil_Aim_Horizontal": [
+        -4,
+        4
+      ],
+      "Recoil_Aim_Vertical": [
+        16,
+        24
+      ]
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Remington 870",
+      "Damage": [
+        101,
+        15.2
+      ],
+      "Dropoff_Studs": [
+        50,
+        100
+      ],
+      "Pellets": 8,
+      "Fire_Rate": 90,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 1.25,
+      "Time_To_Aim": 0.7,
+      "Suppression": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        50,
+        80
+      ],
+      "Recoil_Aim_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Aim_Vertical": [
+        20,
+        32
+      ]
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Spas-12",
+      "Damage": [
+        51,
+        7.7
+      ],
+      "Dropoff_Studs": [
+        50,
+        100
+      ],
+      "Pellets": 6,
+      "Fire_Rate": 220,
+      "Hipfire_Spread": 8,
+      "ADS_Spread": 3,
+      "Time_To_Aim": 0.85,
+      "Suppression": 0.2,
+      "Recoil_Hip_Horizontal": [
+        -25,
+        25
+      ],
+      "Recoil_Hip_Vertical": [
+        50,
+        80
+      ],
+      "Recoil_Aim_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Aim_Vertical": [
+        20,
+        32
       ]
     },
     {
@@ -1616,6 +1803,35 @@
       "Recoil": -13,
       "Reload_Speed": -16,
       "Movement_Speed": -2.7
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Spas-12",
+      "Fire_Rate": 10,
+      "Movement_Speed": -2.5,
+      "Spread": 35
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "M1887",
+      "Fire_Rate": 10,
+      "Health": 5,
+      "Reload": -10,
+      "Movement_Speed": -5.5,
+      "Spread": 15
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "M1897 Trench Shotgun",
+      "Fire_Rate": 10,
+      "Reload": 10,
+      "Spread": 35
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Remington 870",
+      "Reload": -15,
+      "Spread": 20
     },
     {
       "Category": "Weird",
@@ -1930,6 +2146,70 @@
       "Spread": -17
     },
     {
+      "Category": "Shotgun",
+      "Name": "Spas-12",
+      "Magazine_Size": 12,
+      "Reload": 6,
+      "Fire_Rate": 20,
+      "Pellets": 175,
+      "Movement_Speed": -5,
+      "Recoil": 60,
+      "Spread": 100
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Remington 870 Breacher",
+      "Magazine_Size": 8,
+      "Reload": 3.2,
+      "Damage": 5,
+      "Movement_Speed": 3,
+      "Pellets": 150,
+      "Recoil": 50,
+      "Spread": 80
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "M1887",
+      "Magazine_Size": 6,
+      "Reload": 4,
+      "Fire_Rate": 5,
+      "Health": 5,
+      "Pellets": 150,
+      "Movement_Speed": -5.5,
+      "Recoil": 15,
+      "Spread": 50
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "M1897 Trench Shotgun",
+      "Magazine_Size": 6,
+      "Reload": 4.5,
+      "Fire_Rate": 15,
+      "Pellets": 200,
+      "Recoil": 25,
+      "Spread": 75
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Remington 870 MCS",
+      "Magazine_Size": 6,
+      "Reload": 3.5,
+      "Damage": 15,
+      "Pellets": 45,
+      "Recoil": 35,
+      "Spread": 15
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Remington 870",
+      "Magazine_Size": 8,
+      "Reload": 5,
+      "Damage": 10,
+      "Pellets": 100,
+      "Recoil": 25,
+      "Spread": 50
+    },
+    {
       "Category": "Weird",
       "Name": "Horizontal",
       "Magazine_Size": 20,
@@ -2194,6 +2474,59 @@
       "Reload_Speed": -15,
       "Movement_Speed": -3,
       "Recoil": 8
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Spas-12 Folded",
+      "Movement_Speed": 4,
+      "Reload": -15,
+      "Recoil": 20,
+      "Spread": 20
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Spas-12",
+      "Fire_Rate": 10,
+      "Movement_Speed": -5,
+      "Spread": 10
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Remington 870 Breacher",
+      "Movement_Speed": 3,
+      "Recoil": 15,
+      "Reload": 10,
+      "Spread": 25
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Remington 870 MCS",
+      "Recoil": -25,
+      "Spread": -30,
+      "Fire_Rate": -5,
+      "Reload": 10
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "M1887",
+      "Health": 5,
+      "Recoil": -10,
+      "Movement_Speed": -5.5,
+      "Spread": 15
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "M1897 Trench Shotgun",
+      "Fire_Rate": 10,
+      "Recoil": 15,
+      "Spread": 25
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Remington 870",
+      "Recoil": -15,
+      "Spread": -15,
+      "Reload": 5
     },
     {
       "Category": "Weird",

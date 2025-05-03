@@ -1,6 +1,6 @@
 Category: Assault Rifles
 ---
-Core: AKM
+Gun: AKM
 Damage: 18.5 > 14.8
 Dropoff_Studs: 175 > 350
 Fire_Rate: 600
@@ -13,7 +13,7 @@ Recoil_Hip_Vertical: 70 - 80
 Recoil_Aim_Horizontal: -12 - 12
 Recoil_Aim_Vertical: 56 - 64
 ---
-Core: M-16
+Gun: M-16
 Damage: 15.9 > 12.7
 Dropoff_Studs: 175 > 350
 Fire_Rate: 650
@@ -26,7 +26,7 @@ Recoil_Hip_Vertical: 50 - 60
 Recoil_Aim_Horizontal: -4 - 4
 Recoil_Aim_Vertical: 25 - 30
 ---
-Core: AUG
+Gun: AUG
 Damage: 14.5 > 11.6
 Dropoff_Studs: 175 > 350
 Fire_Rate: 680
@@ -40,7 +40,7 @@ Recoil_Hip_Vertical: 60 - 75
 Recoil_Aim_Horizontal: -0.4 - 0.4
 Recoil_Aim_Vertical: 18 - 22.5
 ---
-Core: As-Val
+Gun: As-Val
 Damage: 13.8 > 11
 Dropoff_Studs: 175 > 350
 Fire_Rate: 750
@@ -53,7 +53,7 @@ Recoil_Hip_Vertical: 30 - 40
 Recoil_Aim_Horizontal: -1.4 - 1.4
 Recoil_Aim_Vertical: 15 - 20
 ---
-Core: Famas F1
+Gun: Famas F1
 Damage: 13 > 10.4
 Dropoff_Studs: 175 > 350
 Fire_Rate: 900
@@ -66,7 +66,7 @@ Recoil_Hip_Vertical: 40 - 50
 Recoil_Aim_Horizontal: -1 - 1
 Recoil_Aim_Vertical: 16 - 20
 ---
-Core: Fedorov Avtomat
+Gun: Fedorov Avtomat
 Damage: 22 > 17.6
 Dropoff_Studs: 175 > 350
 Fire_Rate: 400
@@ -79,7 +79,7 @@ Recoil_Hip_Vertical: 70 - 100
 Recoil_Aim_Horizontal: -5.5 - 5.5
 Recoil_Aim_Vertical: 38.5 - 55
 ---
-Core: Scar L
+Gun: Scar L
 Damage: 16.5 > 13.2
 Dropoff_Studs: 175 > 350
 Fire_Rate: 625
@@ -92,7 +92,7 @@ Recoil_Hip_Vertical: 55 - 65
 Recoil_Aim_Horizontal: -4.8 - 4.8
 Recoil_Aim_Vertical: 27.5 - 32.5
 ---
-Core: STG-44
+Gun: STG-44
 Damage: 19.7 > 15.8
 Dropoff_Studs: 175 > 350
 Fire_Rate: 500
@@ -105,7 +105,7 @@ Recoil_Hip_Vertical: 50 - 60
 Recoil_Aim_Horizontal: -18 - 18
 Recoil_Aim_Vertical: 27.5 - 33
 ---
-Core: The Chief
+Gun: The Chief
 Damage: 17.5 > 14
 Dropoff_Studs: 175 > 350
 Fire_Rate: 900
@@ -118,7 +118,7 @@ Recoil_Hip_Vertical: 80 - 90
 Recoil_Aim_Horizontal: -32.5 - 32.5
 Recoil_Aim_Vertical: 104 - 117
 ---
-Core: Hell-Trooper-23
+Gun: Hell-Trooper-23
 Damage: 16.5 > 13.2
 Dropoff_Studs: 175 > 350
 Fire_Rate: 650
@@ -134,7 +134,7 @@ Recoil_Aim_Vertical: 2.1 - 15
 
 Category: Snipers
 ---
-Core: Remington 700
+Gun: Remington 700
 Damage: 55 > 49.5
 Dropoff_Studs: 400 > 700
 Fire_Rate: 40
@@ -148,7 +148,7 @@ Recoil_Hip_Vertical: 70 - 100
 Recoil_Aim_Horizontal: -7.5 - 7.5
 Recoil_Aim_Vertical: 35 - 50
 ---
-Core: M1891 Carcano
+Gun: M1891 Carcano
 Damage: 53 > 47.7
 Dropoff_Studs: 400 > 700
 Fire_Rate: 45
@@ -161,7 +161,7 @@ Recoil_Hip_Vertical: 50 - 80
 Recoil_Aim_Horizontal: -4 - 4
 Recoil_Aim_Vertical: 20 - 32
 ---
-Core: Arctic Warfare
+Gun: Arctic Warfare
 Damage: 60 > 54
 Dropoff_Studs: 400 > 700
 Fire_Rate: 30
@@ -175,7 +175,7 @@ Recoil_Hip_Vertical: 90 - 120
 Recoil_Aim_Horizontal: -10 - 10
 Recoil_Aim_Vertical: 45 - 60
 ---
-Core: Lee Enfield
+Gun: Lee Enfield
 Damage: 52 > 46.8
 Dropoff_Studs: 400 > 700
 Fire_Rate: 50
@@ -188,7 +188,7 @@ Recoil_Hip_Vertical: 90 - 120
 Recoil_Aim_Horizontal: -6 - 6
 Recoil_Aim_Vertical: 36 - 48
 ---
-Core: Hecate II
+Gun: Hecate II
 Damage: 70 > 63
 Dropoff_Studs: 400 > 700
 Fire_Rate: 15
@@ -205,7 +205,7 @@ Recoil_Aim_Vertical: 45 - 60
 
 Category: SMGs
 ---
-Core: MAC-10
+Gun: MAC-10
 Damage: 15.3 > 9.2
 Dropoff_Studs: 90 > 125
 Fire_Rate: 900
@@ -218,7 +218,7 @@ Recoil_Hip_Vertical: 40 - 60
 Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 16 - 24
 ---
-Core: Skorpion vz. 61
+Gun: Skorpion vz. 61
 Damage: 16.5 > 9.9
 Dropoff_Studs: 90 > 125
 Fire_Rate: 850
@@ -231,7 +231,7 @@ Recoil_Hip_Vertical: 60 - 80
 Recoil_Aim_Horizontal: -20 - 20
 Recoil_Aim_Vertical: 48 - 64
 ---
-Core: Thompson
+Gun: Thompson
 Damage: 17 > 10.2
 Dropoff_Studs: 90 > 125
 Fire_Rate: 800
@@ -244,7 +244,7 @@ Recoil_Hip_Vertical: 40 - 60
 Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 32 - 48
 ---
-Core: MP9
+Gun: MP9
 Damage: 13.2 > 7.9
 Dropoff_Studs: 90 > 125
 Fire_Rate: 1000
@@ -257,7 +257,7 @@ Recoil_Hip_Vertical: 40 - 60
 Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 16 - 24
 ---
-Core: MP 40
+Gun: MP 40
 Damage: 24.2 > 14.5
 Dropoff_Studs: 90 > 125
 Fire_Rate: 500
@@ -270,7 +270,7 @@ Recoil_Hip_Vertical: 70 - 80
 Recoil_Aim_Horizontal: -12 - 12
 Recoil_Aim_Vertical: 56 - 64
 ---
-Core: UMP-40
+Gun: UMP-40
 Damage: 22 > 13.2
 Dropoff_Studs: 90 > 125
 Fire_Rate: 600
@@ -283,7 +283,7 @@ Recoil_Hip_Vertical: 60 - 90
 Recoil_Aim_Horizontal: -19 - 19
 Recoil_Aim_Vertical: 57 - 85.5
 ---
-Core: PPSh-41
+Gun: PPSh-41
 Damage: 11.7 > 7
 Dropoff_Studs: 90 > 125
 Fire_Rate: 1250
@@ -296,8 +296,8 @@ Recoil_Hip_Vertical: 30 - 60
 Recoil_Aim_Horizontal: -20 - 20
 Recoil_Aim_Vertical: 24 - 48
 ---
-Core: Kriss Vector
-Damage: 12.5 > 7.5
+Gun: Kriss Vector
+Damage: 13.5 > 8.1
 Dropoff_Studs: 90 > 125
 Fire_Rate: 1200
 Hipfire_Spread: 2
@@ -309,7 +309,7 @@ Recoil_Hip_Vertical: 10 - 30
 Recoil_Aim_Horizontal: -4.5 - 4.5
 Recoil_Aim_Vertical: 9 - 27
 ---
-Core: Type 2a Nambu
+Gun: Type 2a Nambu
 Damage: 19.5 > 11.7
 Dropoff_Studs: 90 > 125
 Fire_Rate: 600
@@ -322,7 +322,7 @@ Recoil_Hip_Vertical: 25 - 35
 Recoil_Aim_Horizontal: -6.5 - 6.5
 Recoil_Aim_Vertical: 16.2 - 22.7
 ---
-Core: Mas-38
+Gun: Mas-38
 Damage: 17.5 > 10.5
 Dropoff_Studs: 90 > 125
 Fire_Rate: 700
@@ -338,7 +338,7 @@ Recoil_Aim_Vertical: 4 - 12
 
 Category: LMGs
 ---
-Core: M60
+Gun: M60
 Damage: 19.5 > 15
 Dropoff_Studs: 150 > 300
 Fire_Rate: 600
@@ -352,7 +352,7 @@ Recoil_Hip_Vertical: 55 - 67
 Recoil_Aim_Horizontal: -7.2 - 7.2
 Recoil_Aim_Vertical: 33 - 40.2
 ---
-Core: DP-27
+Gun: DP-27
 Damage: 19 > 14.6
 Dropoff_Studs: 150 > 300
 Fire_Rate: 550
@@ -366,7 +366,7 @@ Recoil_Hip_Vertical: 60 - 70
 Recoil_Aim_Horizontal: -4.2 - 4.2
 Recoil_Aim_Vertical: 36 - 42
 ---
-Core: M1919a6 Browning
+Gun: M1919a6 Browning
 Damage: 21.5 > 16.6
 Dropoff_Studs: 150 > 300
 Fire_Rate: 500
@@ -380,7 +380,7 @@ Recoil_Hip_Vertical: 44 - 55
 Recoil_Aim_Horizontal: -5 - 5
 Recoil_Aim_Vertical: 22 - 27.5
 ---
-Core: MG42
+Gun: MG42
 Damage: 11 > 8.5
 Dropoff_Studs: 150 > 300
 Fire_Rate: 1200
@@ -394,7 +394,7 @@ Recoil_Hip_Vertical: 53 - 76
 Recoil_Aim_Horizontal: -7.5 - 7.5
 Recoil_Aim_Vertical: 26.5 - 38
 ---
-Core: Type 99
+Gun: Type 99
 Damage: 15 > 11.6
 Dropoff_Studs: 150 > 300
 Fire_Rate: 850
@@ -407,64 +407,4 @@ Recoil_Hip_Horizontal: -12 - 12
 Recoil_Hip_Vertical: 37 - 55
 Recoil_Aim_Horizontal: -6 - 6
 Recoil_Aim_Vertical: 18.5 - 27.5
----
-
-Category: Shotguns
----
-Core: M1887
-Damage: 99 > 14.9
-Dropoff_Studs: 50 > 100
-Pellets: 10
-Fire_Rate: 60
-Hipfire_Spread: 7
-ADS_Spread: 1.6
-Time_To_Aim: 0.7
-Movement_Speed_Modifier: +2%
-Suppression: 0.5
-Recoil_Hip_Horizontal: -20 - 20
-Recoil_Hip_Vertical: 20 - 30
-Recoil_Aim_Horizontal: -8 - 8
-Recoil_Aim_Vertical: 8 - 12
----
-Core: M1897 Trench Shotgun
-Damage: 65 > 9.8
-Dropoff_Studs: 50 > 100
-Pellets: 16
-Fire_Rate: 120
-Hipfire_Spread: 9
-ADS_Spread: 2.5
-Time_To_Aim: 0.7
-Suppression: 0.5
-Recoil_Hip_Horizontal: -10 - 10
-Recoil_Hip_Vertical: 40 - 60
-Recoil_Aim_Horizontal: -4 - 4
-Recoil_Aim_Vertical: 16 - 24
----
-Core: Remington 870
-Damage: 101 > 15.2
-Dropoff_Studs: 50 > 100
-Pellets: 8
-Fire_Rate: 90
-Hipfire_Spread: 5
-ADS_Spread: 1.25
-Time_To_Aim: 0.7
-Suppression: 0.5
-Recoil_Hip_Horizontal: -20 - 20
-Recoil_Hip_Vertical: 50 - 80
-Recoil_Aim_Horizontal: -8 - 8
-Recoil_Aim_Vertical: 20 - 32
----
-Core: Spas-12
-Damage: 51 > 7.7
-Dropoff_Studs: 50 > 100
-Pellets: 6
-Fire_Rate: 220
-Hipfire_Spread: 8
-ADS_Spread: 3
-Time_To_Aim: 0.85
-Suppression: 0.2
-Recoil_Hip_Horizontal: -25 - 25
-Recoil_Hip_Vertical: 50 - 80
-Recoil_Aim_Horizontal: -10 - 10
-Recoil_Aim_Vertical: 20 - 32
 ---

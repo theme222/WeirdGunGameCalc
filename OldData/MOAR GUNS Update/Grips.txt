@@ -138,7 +138,7 @@ Grip_Effects:
   Movement_Speed: +3.3%
   Recoil: -15%
 ---
-Grip: Type 2a Nambu
+Grip: Type 2a Nambu 
 Grip_Effects:
   Damage: +6%
   Health: -7.5%
@@ -177,33 +177,9 @@ Grip_Effects:
   Reload_Speed: -16% (Faster)
   Movement_Speed: -2.7%
 ---
-Grip: Type 99
+Grip: Type 99 
 Grip_Effects:
   Recoil: -13%
   Reload_Speed: -16% (Faster)
   Movement_Speed: -2.7%
----
-
-Category: Shotgun Grips
----
-Grip: Spas-12
-Fire_Rate: +10%
-Movement_Speed: -2.5%
-Spread: +35%
----
-Grip: M1887
-Fire_Rate: +10%
-Health: +5%
-Reload: -10%
-Movement_Speed: -5.5%
-Spread: +15%
----
-Grip: M1897 Trench Shotgun
-Fire_Rate: +10%
-Reload: +10%
-Spread: +35%
----
-Grip: Remington 870
-Reload: -15%
-Spread: +20%
 ---

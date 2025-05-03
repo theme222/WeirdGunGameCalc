@@ -1,6 +1,6 @@
 Category: Weird Guns
 ---
-Core: Words as Weapons
+Gun: Words as Weapons
 Damage: 15
 Fire_Rate: 600
 Hipfire_Spread: 5.5
@@ -12,7 +12,7 @@ Recoil_Hip_Vertical: 70 - 80
 Recoil_Aim_Horizontal: -12 - 12
 Recoil_Aim_Vertical: 56 - 64
 ---
-Core: Bicycle
+Gun: Bicycle
 Damage: 20
 Fire_Rate: 350
 Hipfire_Spread: 7
@@ -24,7 +24,7 @@ Recoil_Hip_Vertical: 40 - 55
 Recoil_Aim_Horizontal: -12 - 12
 Recoil_Aim_Vertical: 24 - 33
 ---
-Core: Willy Fischy
+Gun: Willy Fischy
 Damage: 20
 Fire_Rate: 350
 Hipfire_Spread: 6
@@ -35,7 +35,7 @@ Recoil_Hip_Vertical: 70 - 90
 Recoil_Aim_Horizontal: -1.2 - 1.2
 Recoil_Aim_Vertical: 7 - 9
 ---
-Core: Stat Randomizer
+Gun: Stat Randomizer
 Hipfire_Spread: 20
 ADS_Spread: 1
 Time_To_Aim: 0.7

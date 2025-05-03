@@ -1,16 +1,16 @@
 Category: Assault Rifle Barrels
 ---
-Barrel: AKM
+Gun: AKM
 Barrel_Effects:
   Damage: +10%
   Recoil: +20%
 ---
-Barrel: M-16
+Gun: M-16
 Barrel_Effects:
   Recoil: -10%
   Damage: -10%
 ---
-Barrel: AUG
+Gun: AUG
 Barrel_Effects:
   Movement_Speed: +2.5%
   Recoil: -5%
@@ -18,47 +18,47 @@ Barrel_Effects:
   Spread: -10%
   Damage: -5%
 ---
-Barrel: As-Val
+Gun: As-Val
 Barrel_Effects:
   Fire_Rate: +10%
   Recoil: +15%
 ---
-Barrel: Famas F1
+Gun: Famas F1
 Barrel_Effects:
   Fire_Rate: +5%
   Spread: +15%
 ---
-Barrel: Fedorov Avtomat
+Gun: Fedorov Avtomat
 Barrel_Effects:
   Damage: +15%
   Fire_Rate: -10%
   Spread: +30%
 ---
-Barrel: Scar H
+Gun: Scar H
 Barrel_Effects:
   Damage: +15%
   Spread: -25%
   Fire_Rate: -10%
   Recoil: +20%
 ---
-Barrel: Scar L
+Gun: Scar L
 Barrel_Effects:
   Damage: +5%
   Recoil: -10%
 ---
-Barrel: STG-44
+Gun: STG-44
 Barrel_Effects:
   Damage: +10%
   Recoil: +10%
   Spread: +10%
 ---
-Barrel: The Chief
+Gun: The Chief
 Barrel_Effects:
   Damage: +5%
   Movement_Speed: +4%
   Recoil: +10%
 ---
-Barrel: Hell-Trooper-23
+Gun: Hell-Trooper-23
 Barrel_Effects:
   Damage: +12%
   Recoil: +10%
@@ -67,37 +67,37 @@ Barrel_Effects:
 
 Category: Sniper Barrels
 ---
-Barrel: Remington 700
+Gun: Remington 700
 Barrel_Effects:
   Fire_Rate: +10%
   Recoil: -5%
   Spread: -20%
   Damage: -10%
 ---
-Barrel: M1891 Carcano
+Gun: M1891 Carcano
 Barrel_Effects:
   Spread: -25%
   Reload_Speed: +20% (Slower)
 ---
-Barrel: M91 Moschetto
+Gun: M91 Moschetto
 Barrel_Effects:
   Movement_Speed: +4%
   Reload_Speed: -20% (Faster)
   Spread: +50%
 ---
-Barrel: Arctic Warfare
+Gun: Arctic Warfare
 Barrel_Effects:
   Damage: +15%
   Spread: -35%
   Recoil: +50%
 ---
-Barrel: Lee Enfield
+Gun: Lee Enfield
 Barrel_Effects:
   Fire_Rate: +10%
   Recoil: +100%
   Spread: +100%
 ---
-Barrel: Hecate II
+Gun: Hecate II
 Barrel_Effects:
   Damage: +30%
   Fire_Rate: -30%
@@ -108,37 +108,37 @@ Barrel_Effects:
 
 Category: SMG Barrels
 ---
-Barrel: MAC-10
+Gun: MAC-10
 Barrel_Effects:
   Fire_Rate: +5%
   Movement_Speed: +4.4%
   Damage: -5%
 ---
-Barrel: Skorpion vz. 61
+Gun: Skorpion vz. 61
 Barrel_Effects:
   Movement_Speed: +9%
   Damage: -5%
 ---
-Barrel: Thompson
+Gun: Thompson
 Barrel_Effects:
   Damage: +7%
   Fire_Rate: +7%
   Movement_Speed: +3.8%
   Recoil: +25%
 ---
-Barrel: MP9
+Gun: MP9
 Barrel_Effects:
   Fire_Rate: +8%
   Movement_Speed: +3.2%
   Reload_Speed: -15% (Faster)
 ---
-Barrel: MP 40
+Gun: MP 40
 Barrel_Effects:
   Damage: +10%
   Movement_Speed: +3.2%
   Recoil: +20%
 ---
-Barrel: UMP-40
+Gun: UMP-40
 Barrel_Effects:
   Damage: +12%
   Movement_Speed: +3.8%
@@ -146,27 +146,27 @@ Barrel_Effects:
   Recoil: +15%
   Spread: +15%
 ---
-Barrel: PPSh-41
+Gun: PPSh-41
 Barrel_Effects:
   Fire_Rate: +15%
   Movement_Speed: +2.3%
   Recoil: +15%
   Spread: +10%
 ---
-Barrel: Kriss Vector
+Gun: Kriss Vector
 Barrel_Effects:
   Fire_Rate: +20%
   Movement_Speed: +3.3%
   Recoil: -15%
   Damage: -10%
 ---
-Barrel: Type 2a Nambu
+Gun: Type 2a Nambu 
 Barrel_Effects:
   Damage: +13%
   Movement_Speed: +3%
   Spread: +23%
 ---
-Barrel: Mas-38
+Gun: Mas-38
 Barrel_Effects:
   Damage: +10%
   Movement_Speed: +3.3%
@@ -177,91 +177,52 @@ Barrel_Effects:
 
 Category: LMG Barrels
 ---
-Barrel: M60
+Gun: M60
 Barrel_Effects:
   Damage: +5%
   Recoil: -10%
   Movement_Speed: -3%
 ---
-Barrel: DP-27
+Gun: DP-27
 Barrel_Effects:
   Damage: +13%
   Movement_Speed: -1%
   Recoil: +15%
   Spread: +18%
 ---
-Barrel: M1919a6 Browning
+Gun: M1919a6 Browning
 Barrel_Effects:
   Recoil: -17%
   Spread: -20%
   Movement_Speed: -3%
   Reload_Speed: +12% (Slower)
 ---
-Barrel: M1917 Browning
-Barrel_Effects:
+Gun: M1917 Browning 
+Barrel_Effects: 
   Fire_Rate: +20%
   Recoil: -20%
   Spread: -10%
   Movement_Speed: -25%
   Reload_Speed: +15% (Slower)
 ---
-Barrel: M1919 Browning
+Gun: M1919 Browning
 Barrel_Effects:
   Recoil: -30%
   Spread: -50%
   Movement_Speed: -30%
   Reload_Speed: +25% (Slower)
 ---
-Barrel: MG42
+Gun: MG42
 Barrel_Effects:
   Fire_Rate: +20%
   Movement_Speed: -5%
   Recoil: +40%
   Spread: +50%
 ---
-Barrel: Type 99
+Gun: Type 99 
 Barrel_Effects:
   Damage: +8%
   Spread: -15%
   Movement_Speed: -2%
   Reload_Speed: +5%
----
-
-Category: Shotgun Barrels
----
-Barrel: Spas-12
-Fire_Rate: +10%
-Movement_Speed: -2.5%
-Spread: +35%
----
-Barrel: Remington 870 Wingmaster
-Damage: +10%
-Spread: -45%
-Pellets: -75%
-Reload: +35%
----
-Barrel: M1887
-Damage: +5%
-Health: +5%
-Movement_Speed: -5.5%
-Spread: +35%
----
-Barrel: M1897 Trench Shotgun
-Fire_Rate: +5%
-Reload: -10%
-Spread: +10%
----
-Barrel: Remington 870 Breacher
-Damage: +10%
-Movement_Speed: +3%
-Spread: +75%
----
-Barrel: Remington 870 MCS
-Damage: +10%
-Spread: -15%
-Reload: +10%
----
-Barrel: Remington 870
-Damage: +10%
-Spread: +15%
 ---

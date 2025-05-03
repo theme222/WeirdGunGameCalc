@@ -205,7 +205,7 @@ Magazine_Effects:
   Recoil: -15%
   Damage: -10%
 ---
-Magazine: Type 2a Nambu
+Magazine: Type 2a Nambu 
 Magazine_Effects:
   Magazine_Size: 30
   Reload_Time: 2.5s
@@ -214,7 +214,7 @@ Magazine_Effects:
   Recoil: -5%
   Damage: -5%
 ---
-Magazine: Mas-38
+Magazine: Mas-38 
 Magazine_Effects:
   Magazine_Size: 32
   Reload_Time: 2.8s
@@ -265,59 +265,4 @@ Magazine_Effects:
   Damage: 5.5%
   Movement_Speed: -1%
   Spread: -17%
----
-
-Category: Shotgun Magazines
----
-Magazine: Spas-12
-Magazine_Size: 12
-Reload: 6
-Fire_Rate: +20%
-Pellets: +175%
-Movement_Speed: -5%
-Recoil: +60%
-Spread: +100%
----
-Magazine: Remington 870 Breacher
-Magazine_Size: 8
-Reload: 3.2
-Damage: +5%
-Movement_Speed: +3%
-Pellets: +150%
-Recoil: +50%
-Spread: +80%
----
-Magazine: M1887
-Magazine_Size: 6
-Reload: 4
-Fire_Rate: +5%
-Health: +5%
-Pellets: +150%
-Movement_Speed: -5.5%
-Recoil: +15%
-Spread: +50%
----
-Magazine: M1897 Trench Shotgun
-Magazine_Size: 6
-Reload: 4.5
-Fire_Rate: +15%
-Pellets: +200%
-Recoil: +25%
-Spread: +75%
----
-Magazine: Remington 870 MCS
-Magazine_Size: 6
-Reload: 3.5
-Damage: +15%
-Pellets: +45%
-Recoil: +35%
-Spread: +15%
----
-Magazine: Remington 870
-Magazine_Size: 8
-Reload: 5
-Damage: +10%
-Pellets: +100%
-Recoil: +25%
-Spread: +50%
 ---

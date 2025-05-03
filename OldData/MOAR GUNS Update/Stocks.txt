@@ -143,13 +143,13 @@ Stock_Effects:
   Recoil: -20%
   Spread: +20%
 ---
-Stock: Type 2a Nambu
+Stock: Type 2a Nambu 
 Stock_Effects:
   Movement_Speed: +1.5%
   Recoil: -10%
   Spread: -13%
 ---
-Stock: Mas-38
+Stock: Mas-38 
 Stock_Effects:
   Movement_Speed: +3.3%
   Recoil: -16%
@@ -189,46 +189,4 @@ Stock_Effects:
   Reload_Speed: -15%
   Movement_Speed: -3%
   Recoil: +8%
----
-
-Category: Shotgun Stocks
----
-Stock: Spas-12 Folded
-Movement_Speed: +4%
-Reload: -15%
-Recoil: +20%
-Spread: +20%
----
-Stock: Spas-12
-Fire_Rate: +10%
-Movement_Speed: -5%
-Spread: +10%
----
-Stock: Remington 870 Breacher
-Movement_Speed: +3%
-Recoil: +15%
-Reload: +10%
-Spread: +25%
----
-Stock: Remington 870 MCS
-Recoil: -25%
-Spread: -30%
-Fire_Rate: -5%
-Reload: +10%
----
-Stock: M1887
-Health: +5%
-Recoil: -10%
-Movement_Speed: -5.5%
-Spread: +15%
----
-Stock: M1897 Trench Shotgun
-Fire_Rate: +10%
-Recoil: +15%
-Spread: +25%
----
-Stock: Remington 870
-Recoil: -15%
-Spread: -15%
-Reload: +5%
 ---
