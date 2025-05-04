@@ -13,7 +13,7 @@ Currently to use it you have to modify the source code yourself 💀, but this m
 The data it reads is the output of `FileFormatter.py` that formats the .txt files in RawData provided by @zyadak.
 
 ## Runtime
-It takes around 8 minutes to bruteforce all combinations currently but there are plans to optimize this further.
+It takes around 1 minute to bruteforce all combinations currently but there are plans to optimize this further.
 
 ## Interesting Builds
 I will try to keep this directory updated with any builds that the program spits out as interesting.
@@ -21,7 +21,7 @@ I will try to keep this directory updated with any builds that the program spits
 ## Compilation
 I have no idea how to use cmake so...
 ```sh
-g++ -Iinclude Caculator.cpp -o Calculator
+g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror
 ./Calculator > Results.txt
 ```
 You will have to download the json.hpp file from the github and add it to a directory called "include".

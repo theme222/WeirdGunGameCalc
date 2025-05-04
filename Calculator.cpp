@@ -4,8 +4,6 @@
 #include <iostream>
 #include <stdexcept>
 #include <string>
-#include <algorithm>
-#include <memory>
 #include <fstream>
 #include <queue>
 #include <vector>
@@ -23,94 +21,66 @@ typedef std::pair<float, float> fpair;
 
 std::string filepath = "Data/FullData.json";
 
-// Penalty[coreCategory][partCategory]
-float penalties[6][6] = {
-    {1, 0.7, 0.8, 0.75, 1, 0.7},
-    {0.7, 1, 0.6, 0.8, 1, 0.6},
-    {0.8, 0.6, 1, 0.65, 1, 0.65},
-    {0.75, 0.8, 0.65, 1, 1, 0.75},
-    {1, 1, 1, 1, 1, 1},
-    {0.7, 0.6, 0.65, 0.75, 1, 1},
-};
 
-std::map<std::string, int> fastCategory = {
-    {"Assault Rifle", 0},
-    {"Sniper", 1},
-    {"SMG", 2},
-    {"LMG", 3},
-    {"Weird", 4},
-    {"Shotgun", 5},
-};
+namespace Fast // Namespace to contain any indexing that uses the integer representation of categories and mults
+{
+    // penalties[coreCategory][partCategory]
+    float penalties[6][6] = {
+        {1, 0.7, 0.8, 0.75, 1, 0.7},
+        {0.7, 1, 0.6, 0.8, 1, 0.6},
+        {0.8, 0.6, 1, 0.65, 1, 0.65},
+        {0.75, 0.8, 0.65, 1, 1, 0.75},
+        {1, 1, 1, 1, 1, 1},
+        {0.7, 0.6, 0.65, 0.75, 1, 1},
+    };
 
-std::map<std::string, float> ARPenalties = {
-    {"Assault Rifle", 1},
-    {"Sniper", 0.7},
-    {"SMG", 0.8},
-    {"LMG", 0.75},
-    {"Weird", 1},
-    {"Shotgun", 0.7},
-};
+    std::map<std::string, int> fastifyCategory = {
+        {"Assault Rifle", 0},
+        {"Sniper", 1},
+        {"SMG", 2},
+        {"LMG", 3},
+        {"Weird", 4},
+        {"Shotgun", 5},
+    };
 
-std::map<std::string, float> SniperPenalties = {
-    {"Assault Rifle", 0.7},
-    {"Sniper", 1},
-    {"SMG", 0.6},
-    {"LMG", 0.8},
-    {"Weird", 1},
-    {"Shotgun", 0.6},
-};
+    enum MultFlags {
+        DAMAGE = 1<<0,
+        DROPOFFSTUDS = 1<<1,
+        RELOAD = 1<<2,
+        MAGAZINESIZE = 1<<3,
+        FIRERATE = 1<<4,
+        TIMETOAIM = 1<<5,
+        MOVEMENTSPEEDMODIFIER = 1<<6,
+        SPREAD = 1<<7,
+        RECOILAIM = 1<<8,
+        RECOILHIP = 1<<9,
+        PELLETS = 1<<10,
+        HEALTH = 1<<11,
+    };
 
-std::map<std::string, float> SMGPenalties = {
-    {"Assault Rifle", 0.8},
-    {"Sniper", 0.6},
-    {"SMG", 1},
-    {"LMG", 0.65},
-    {"Weird", 1},
-    {"Shotgun", 0.65},
-};
+    bool MoreIsBetter(MultFlags propertyFlag)
+    {
+        switch (propertyFlag)
+        {
+        case DAMAGE:
+        case MOVEMENTSPEEDMODIFIER:
+        case HEALTH:
+        case FIRERATE:
+        case PELLETS:
+            return true;
+        case RELOAD:
+        case RECOILAIM:
+        case RECOILHIP:
+        case SPREAD:
+            return false;
+        default:
+            throw std::invalid_argument("Invalid property flag");
+        }
+    }
 
-std::map<std::string, float> LMGPenalties = {
-    {"Assault Rifle", 0.75},
-    {"Sniper", 0.8},
-    {"SMG", 0.65},
-    {"LMG", 1},
-    {"Weird", 1},
-    {"Shotgun", 0.75},
-};
+    std::map<std::string, int> fastifyName = {};
+}
 
-std::map<std::string, float> ShotgunPenalties = {
-    {"Assault Rifle", 0.7},
-    {"Sniper", 0.6},
-    {"SMG", 0.65},
-    {"LMG", 0.75},
-    {"Weird", 1},
-    {"Shotgun", 1},
-};
-
-
-std::map<std::string, bool> moreIsBetter = {
-    // Based on what Part's multipliers have
-    {"damage", true},
-    {"movementSpeed", true},
-    {"health", true},
-    {"fireRate", true},
-    {"reloadSpeed", false},
-    {"recoil", false},
-    {"spread", false},
-};
-
-enum MultFlags {
-    DAMAGE = 1<<0,
-    DROPOFFSTUDS = 1<<1,
-    RELOADTIME = 1<<2,
-    MAGAZINESIZE = 1<<3,
-    FIRERATE = 1<<4,
-    TIMETOAIM = 1<<5,
-    MOVEMENTSPEEDMODIFIER = 1<<6,
-    SPREAD = 1<<7,
-    RECOILAIM = 1<<8,
-    RECOILHIP = 1<<9,
-};
 
 class Part
 {
@@ -128,11 +98,14 @@ public:
     float reloadSpeed = 0;
     float movementSpeed = 0;
     float health = 0;
+    float pellets = 0;
 
     Part() {}
     Part(const json &jsonObject): category(jsonObject["Category"]), name(jsonObject["Name"])
     {
-        category_fast = fastCategory[category];
+        category_fast = Fast::fastifyCategory[category];
+        if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
+        name_fast = Fast::fastifyName[name];
 
         if (jsonObject.contains("Damage"))
             damage = jsonObject["Damage"];
@@ -150,25 +123,32 @@ public:
             health = jsonObject["Health"];
     }
 
-    float GetMult(const std::string &propertyName)
+    float GetMult(Fast::MultFlags propertyFlag)
     {
-        // Only the multipliers
-        if (propertyName == "damage")
-            return damage;
-        if (propertyName == "fireRate")
-            return fireRate;
-        if (propertyName == "spread")
-            return spread;
-        if (propertyName == "recoil")
-            return recoil;
-        if (propertyName == "reloadSpeed")
-            return reloadSpeed;
-        if (propertyName == "movementSpeed")
-            return movementSpeed;
-        if (propertyName == "health")
-            return health;
-
-        throw std::invalid_argument("Property not found: " + propertyName);
+        using namespace Fast;
+        switch(propertyFlag)
+        {
+            case DAMAGE:
+                return damage;
+            case FIRERATE:
+                return fireRate;
+            case SPREAD:
+                return spread;
+            case RECOILAIM:
+                return recoil;
+            case RECOILHIP:
+                return recoil;
+            case RELOAD:
+                return reloadSpeed;
+            case MOVEMENTSPEEDMODIFIER:
+                return movementSpeed;
+            case HEALTH:
+                return health;
+            case PELLETS:
+                return pellets;
+            default:
+                throw std::invalid_argument("Property not found: " + std::to_string(propertyFlag));
+        }
     }
 };
 
@@ -221,8 +201,8 @@ public:
     std::string category;
     std::string name;
 
-    int category_fast = 0;
-    int name_fast = 0;
+    int category_fast;
+    int name_fast;
 
     fpair damage = fpair(0, 0);
     fpair dropoffStuds = fpair(0, 0);
@@ -231,6 +211,7 @@ public:
     float adsSpread = 0;
     float timeToAim = 0;
     float movementSpeedModifier = 0;
+    float pellets = 1;
     fpair recoilHipHorizontal = fpair(0, 0);
     fpair recoilHipVertical = fpair(0, 0);
     fpair recoilAimHorizontal = fpair(0, 0);
@@ -239,7 +220,9 @@ public:
     Core() {}
     Core(const json &jsonObject) : category(jsonObject["Category"]), name(jsonObject["Name"])
     {
-        category_fast = fastCategory[category];
+        category_fast = Fast::fastifyCategory[category];
+        if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
+        name_fast = Fast::fastifyName[name];
 
         if (!jsonObject.contains("Damage"))
         {}
@@ -271,6 +254,8 @@ public:
             timeToAim = jsonObject["Time_To_Aim"];
         if (jsonObject.contains("Movement_Speed_Modifier"))
             movementSpeedModifier = jsonObject["Movement_Speed_Modifier"];
+        if (jsonObject.contains("Pellets"))
+            pellets = jsonObject["Pellets"];
         if (jsonObject.contains("Recoil_Hip_Horizontal"))
         {
             recoilHipHorizontal.first = jsonObject["Recoil_Hip_Horizontal"][0];
@@ -291,6 +276,7 @@ public:
             recoilAimVertical.first = jsonObject["Recoil_Aim_Vertical"][0];
             recoilAimVertical.second = jsonObject["Recoil_Aim_Vertical"][1];
         }
+
     }
 };
 
@@ -332,17 +318,17 @@ public:
     }
 
 
-    float CalculatePenalty(const std::string &propertyName, Part *part)
+    float CalculatePenalty(Fast::MultFlags propertyFlag, Part *part)
     {
-        float baseMult = part->GetMult(propertyName);
-        if (part->name == core->name) // This actually evaluates first weirdly enough
+        float baseMult = part->GetMult(propertyFlag);
+        if (part->name_fast == core->name_fast) // This actually evaluates first weirdly enough (This also technically can never return due to iterator optimizations)
             return 0;
-        if (!moreIsBetter[propertyName] && baseMult > 0)
+        if (!Fast::MoreIsBetter(propertyFlag) && baseMult > 0)
             return baseMult;
-        if (moreIsBetter[propertyName] && baseMult < 0)
+        if (Fast::MoreIsBetter(propertyFlag) && baseMult < 0)
             return baseMult;
 
-        return baseMult * penalties[core->category_fast][part->category_fast];
+        return baseMult * Fast::penalties[core->category_fast][part->category_fast];
 
         // if (core->category == "Weird")
         //     return baseMult;
@@ -360,35 +346,36 @@ public:
         throw std::invalid_argument("Category doesn't exist " + core->category + "\n");
     }
 
-    float GetTotalMult(const std::string &propertyName)
+    float GetTotalMult(Fast::MultFlags propertyFlag)
     {
         float mult = 1;
-        mult *= CalculatePenalty(propertyName, barrel) / 100 + 1;
-        mult *= CalculatePenalty(propertyName, magazine) / 100 + 1;
-        mult *= CalculatePenalty(propertyName, grip) / 100 + 1;
-        mult *= CalculatePenalty(propertyName, stock) / 100 + 1;
+        mult *= CalculatePenalty(propertyFlag, barrel) / 100 + 1;
+        mult *= CalculatePenalty(propertyFlag, magazine) / 100 + 1;
+        mult *= CalculatePenalty(propertyFlag, grip) / 100 + 1;
+        mult *= CalculatePenalty(propertyFlag, stock) / 100 + 1;
         return mult;
     }
 
-    float GetTotalAdd(const std::string &propertyName) // Speed is additive (bruh)
+    float GetTotalAdd(Fast::MultFlags propertyFlag) // Speed is additive (bruh)
     {
         float add = 0;
-        add += CalculatePenalty(propertyName, barrel);
-        add += CalculatePenalty(propertyName, magazine);
-        add += CalculatePenalty(propertyName, grip);
-        add += CalculatePenalty(propertyName, stock);
+        add += CalculatePenalty(propertyFlag, barrel);
+        add += CalculatePenalty(propertyFlag, magazine);
+        add += CalculatePenalty(propertyFlag, grip);
+        add += CalculatePenalty(propertyFlag, stock);
         return add;
     }
 
     void CopyValues(uint32_t flags)
     {
+        using namespace Fast;
         if (flags & DAMAGE) damage = core->damage;
         if (flags & DROPOFFSTUDS) dropoffStuds = core->dropoffStuds;
         if (flags & FIRERATE) fireRate = core->fireRate;
         if (flags & TIMETOAIM) timeToAim = core->timeToAim;
         if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier = core->movementSpeedModifier;
         if (flags & MAGAZINESIZE) magazineSize = magazine->magazineSize;
-        if (flags & RELOADTIME) reloadTime = magazine->reloadTime;
+        if (flags & RELOAD) reloadTime = magazine->reloadTime;
         if (flags & SPREAD)
         {
             hipfireSpread = core->hipfireSpread;
@@ -408,23 +395,24 @@ public:
 
     void CalculateGunStats(uint32_t flags)
     {
+        using namespace Fast;
         if (flags & DAMAGE)
         {
             // This is due to a random glitch giving any part connected to core a 1% boost in damage (1.01)^5 = 1.051
-            damage.first *= GetTotalMult("damage") * 1.051;
-            damage.second *= GetTotalMult("damage") * 1.051;
+            damage.first *= GetTotalMult(DAMAGE) * 1.051;
+            damage.second *= GetTotalMult(DAMAGE) * 1.051;
         }
-        if (flags & FIRERATE) fireRate *= GetTotalMult("fireRate");
-        if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier += GetTotalAdd("movementSpeed"); // Bruhhhhhhhhh
-        if (flags & RELOADTIME) reloadTime *= GetTotalMult("reloadSpeed");
+        if (flags & FIRERATE) fireRate *= GetTotalMult(FIRERATE);
+        if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier += GetTotalAdd(MOVEMENTSPEEDMODIFIER); // Bruhhhhhhhhh
+        if (flags & RELOAD) reloadTime *= GetTotalMult(RELOAD);
         if (flags & SPREAD)
         {
-            hipfireSpread *= GetTotalMult("spread");
-            adsSpread *= GetTotalMult("spread");
+            hipfireSpread *= GetTotalMult(SPREAD);
+            adsSpread *= GetTotalMult(SPREAD);
         }
         if (flags & RECOILHIP)
         {
-            float recoilMult = GetTotalMult("recoil");
+            float recoilMult = GetTotalMult(RECOILHIP);
             recoilHipHorizontal.first *= recoilMult;
             recoilHipHorizontal.second *= recoilMult;
             recoilHipVertical.first *= recoilMult;
@@ -432,7 +420,7 @@ public:
         }
         if (flags & RECOILAIM)
         {
-            float recoilMult = GetTotalMult("recoil");
+            float recoilMult = GetTotalMult(RECOILAIM);
             recoilAimHorizontal.first *= recoilMult;
             recoilAimHorizontal.second *= recoilMult;
             recoilAimVertical.first *= recoilMult;
@@ -525,6 +513,7 @@ std::priority_queue<Gun, std::vector<Gun>,
 
 namespace BruteForce
 {
+    using namespace Fast;
     class Iterator
     {
     public:
@@ -549,32 +538,32 @@ namespace BruteForce
             s = stockList + stockIndex;
             c = coreList + coreIndex;
 
-            std::string coreName = coreList[coreIndex].name;
+            int coreName = coreList[coreIndex].name_fast;
 
             do {
                 barrelIndex++;
-            } while (barrelIndex < barrelCount && barrelList[barrelIndex].name == coreName);
+            } while (barrelIndex < barrelCount && barrelList[barrelIndex].name_fast == coreName);
 
             if (barrelIndex < barrelCount) return true;
 
             barrelIndex = 0;
             do {
                 magazineIndex++;
-            } while (magazineIndex < magazineCount && magazineList[magazineIndex].name == coreName);
+            } while (magazineIndex < magazineCount && magazineList[magazineIndex].name_fast == coreName);
 
             if (magazineIndex < magazineCount) return true;
 
             magazineIndex = 0;
             do {
                 gripIndex++;
-            } while (gripIndex < gripCount && gripList[gripIndex].name == coreName);
+            } while (gripIndex < gripCount && gripList[gripIndex].name_fast == coreName);
 
             if (gripIndex < gripCount) return true;
 
             gripIndex = 0;
             do {
                 stockIndex++;
-            } while (stockIndex < stockCount && stockList[stockIndex].name == coreName);
+            } while (stockIndex < stockCount && stockList[stockIndex].name_fast == coreName);
 
             if (stockIndex < stockCount) return true;
 
@@ -617,20 +606,20 @@ namespace BruteForce
         while (iter.Step(b, m, g, s, c))
         {
             if (c->category == "Sniper") continue;
-            if (b->name == "Honk") continue;
-            if (m->magazineSize < 30) continue;
-            if (s->name == "Anvil") continue;
             if (m->category == "Shotgun") continue;
+            if (b->name == "Honk") continue;
+            if (m->magazineSize < 40) continue;
+            // if (s->name == "Anvil") continue;
 
             Gun currentGun = Gun(b, m, g, s, c);
             currentGun.CopyValues(flag);
             currentGun.CalculateGunStats(flag);
 
-            if (currentGun.movementSpeedModifier < 0) continue;
+            // if (currentGun.movementSpeedModifier < 0) continue;
             if (currentGun.damage.first >= 100) continue;
             // if (currentGun.damage.first < 20) continue;
-            if (currentGun.adsSpread >= 1.05) continue;
-            if (currentGun.recoilAimVertical.second > 35) continue;
+            if (currentGun.adsSpread >= 0.35) continue;
+            if (currentGun.recoilAimVertical.second > 4) continue;
 
             topGuns.push(currentGun);
             if (topGuns.size() > howManyTopGunsToDisplay) topGuns.pop();
@@ -654,9 +643,9 @@ namespace BruteForce
 
             if (currentGun.movementSpeedModifier < 0) continue;
             if (currentGun.damage.first >= 100) continue;
-            if (currentGun.damage.first < 22.3) continue;
-            if (currentGun.adsSpread >= 0.75) continue;
-            if (currentGun.recoilAimVertical.second > 35) continue;
+            // if (currentGun.damage.first < 22.3) continue;
+            if (currentGun.adsSpread >= 0.65) continue;
+            if (currentGun.recoilAimVertical.second > 30) continue;
 
             topGuns.push(currentGun);
             if (topGuns.size() > howManyTopGunsToDisplay) topGuns.pop();
@@ -771,8 +760,8 @@ int main()
 
     BruteForce::Wrapper(
         /* Use sort by TTK */
-        BruteForce::LowestTTK
-        // BruteForce::LowestTTKNonSMG
+        // BruteForce::LowestTTK
+        BruteForce::LowestTTKNonSMG
         // BruteForce::LowestHonkSpread
         /* Use sort by firerate */
         // BruteForce::Fastest1TapSniper
