@@ -1,0 +1,112 @@
+Command: ./Calculator -o LowSpread1TapShotgun.txt -i Shotgun --damageMin 100 --sort FIRERATE --speedMin 0 --spreadMax 0.5 
+Current top 10 guns are: 
+Gun contains[Barrel: Remington 870 Wingmaster, Magazine: Kriss Vector, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Remington 870]
+damage: 114.388 - 17.2148
+fireRate: 104.625
+adsSpread: 0.445363
+reloadTime: 2.184
+magazineSize: 30
+health: 0
+recoilAimVertical: 19.855 - 31.768
+movementSpeed: 2.145
+TTK 0 Seconds
+
+Gun contains[Barrel: Remington 870 Wingmaster, Magazine: Kriss Vector, Grip: Arctic Warfare, Stock: Remington 700, Core: Remington 870]
+damage: 114.388 - 17.2148
+fireRate: 104.625
+adsSpread: 0.4961
+reloadTime: 2.4
+magazineSize: 30
+health: 0
+recoilAimVertical: 16.967 - 27.1472
+movementSpeed: 2.145
+TTK 0 Seconds
+
+Gun contains[Barrel: Remington 870 Wingmaster, Magazine: Kriss Vector, Grip: The Chief, Stock: Arctic Warfare, Core: Remington 870]
+damage: 116.79 - 17.5763
+fireRate: 104.625
+adsSpread: 0.448078
+reloadTime: 2.184
+magazineSize: 30
+health: 0
+recoilAimVertical: 26.8043 - 42.8868
+movementSpeed: 2.145
+TTK 0 Seconds
+
+Gun contains[Barrel: Remington 870 Wingmaster, Magazine: Kriss Vector, Grip: The Chief, Stock: The Chief, Core: Remington 870]
+damage: 116.79 - 17.5763
+fireRate: 104.625
+adsSpread: 0.487781
+reloadTime: 2.232
+magazineSize: 30
+health: 0
+recoilAimVertical: 26.8043 - 42.8868
+movementSpeed: 2.145
+TTK 0 Seconds
+
+Gun contains[Barrel: Remington 870 Wingmaster, Magazine: Kriss Vector, Grip: Arctic Warfare, Stock: AUG, Core: Remington 870]
+damage: 114.388 - 17.2148
+fireRate: 104.625
+adsSpread: 0.484825
+reloadTime: 2.4
+magazineSize: 30
+health: 0
+recoilAimVertical: 16.7865 - 26.8584
+movementSpeed: 3.895
+TTK 0 Seconds
+
+Gun contains[Barrel: Remington 870 Wingmaster, Magazine: Kriss Vector, Grip: The Chief, Stock: AUG, Core: Remington 870]
+damage: 116.79 - 17.5763
+fireRate: 104.625
+adsSpread: 0.487781
+reloadTime: 2.4
+magazineSize: 30
+health: 0
+recoilAimVertical: 22.6618 - 36.2588
+movementSpeed: 3.895
+TTK 0 Seconds
+
+Gun contains[Barrel: Remington 870 Wingmaster, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Remington 870 MCS, Core: Remington 870]
+damage: 114.388 - 17.2148
+fireRate: 105.854
+adsSpread: 0.449969
+reloadTime: 2.76
+magazineSize: 30
+health: 0
+recoilAimVertical: 13.5375 - 21.66
+movementSpeed: 2.145
+TTK 0 Seconds
+
+Gun contains[Barrel: Remington 870 Wingmaster, Magazine: Arctic Warfare, Grip: PPSh-41, Stock: AUG, Core: M1887]
+damage: 142.951 - 21.5149
+fireRate: 57.51
+adsSpread: 0.495326
+reloadTime: 5.75
+magazineSize: 5
+health: 0
+recoilAimVertical: 10.416 - 15.624
+movementSpeed: 3.75
+TTK 0 Seconds
+
+Gun contains[Barrel: Remington 870 Wingmaster, Magazine: Arctic Warfare, Grip: PPSh-41, Stock: Remington 870, Core: M1887]
+damage: 142.951 - 21.5149
+fireRate: 57.51
+adsSpread: 0.489566
+reloadTime: 5.75
+magazineSize: 5
+health: 0
+recoilAimVertical: 9.52 - 14.28
+movementSpeed: 2
+TTK 0 Seconds
+
+Gun contains[Barrel: Remington 870 Wingmaster, Magazine: M1891 Carcano, Grip: The Chief, Stock: Remington 870 MCS, Core: M1887]
+damage: 130.315 - 19.6131
+fireRate: 58.71
+adsSpread: 0.462462
+reloadTime: 3.5
+magazineSize: 6
+health: 0
+recoilAimVertical: 10.125 - 15.1875
+movementSpeed: 2
+TTK 0 Seconds
+

@@ -1,18 +1,12 @@
-Reading json file
-Loading parts into array
-Barrels detected: 51, Magazines detected: 44, Grips detected: 37, Stocks detected: 43, Cores detected: 38
-Total of 135667752 possibilities 
-Starting bruteforce
-Bruteforce completed
-Elapsed time: 0 minute(s) and 30 second(s)
-Current top guns are: 
-
+Command: ./Calculator -i AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadMax 0.649 --recoilMax 30 
+Current top 10 guns are: 
 Gun contains[Barrel: Words as Weapons, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Kriss Vector, Core: Famas F1]
 damage: 16.9831 - 13.5865
 fireRate: 1026.43
 adsSpread: 0.6072
 reloadTime: 2.645
 magazineSize: 45
+health: 0
 recoilAimVertical: 18.5472 - 23.184
 movementSpeed: 2.64
 TTK 0.292275 Seconds
@@ -23,17 +17,8 @@ fireRate: 1026.43
 adsSpread: 0.458436
 reloadTime: 2.645
 magazineSize: 45
+health: 0
 recoilAimVertical: 23.184 - 28.98
-movementSpeed: 2.64
-TTK 0.292275 Seconds
-
-Gun contains[Barrel: AKM, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Kriss Vector, Core: Famas F1]
-damage: 16.9831 - 13.5865
-fireRate: 1026.43
-adsSpread: 0.6072
-reloadTime: 2.645
-magazineSize: 45
-recoilAimVertical: 18.5472 - 23.184
 movementSpeed: 2.64
 TTK 0.292275 Seconds
 
@@ -43,9 +28,43 @@ fireRate: 1026.43
 adsSpread: 0.6072
 reloadTime: 2.645
 magazineSize: 45
+health: 0
 recoilAimVertical: 18.5472 - 23.184
 movementSpeed: 5.2
 TTK 0.292275 Seconds
+
+Gun contains[Barrel: AKM, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Kriss Vector, Core: Famas F1]
+damage: 16.9831 - 13.5865
+fireRate: 1026.43
+adsSpread: 0.6072
+reloadTime: 2.645
+magazineSize: 45
+health: 0
+recoilAimVertical: 18.5472 - 23.184
+movementSpeed: 2.64
+TTK 0.292275 Seconds
+
+Gun contains[Barrel: STG-44, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
+damage: 16.9831 - 13.5865
+fireRate: 1020.6
+adsSpread: 0.5566
+reloadTime: 3.174
+magazineSize: 45
+health: 0
+recoilAimVertical: 18.216 - 22.77
+movementSpeed: 0
+TTK 0.293945 Seconds
+
+Gun contains[Barrel: Type 2a Nambu, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
+damage: 17.0449 - 13.6359
+fireRate: 1020.6
+adsSpread: 0.62238
+reloadTime: 3.174
+magazineSize: 45
+health: 0
+recoilAimVertical: 16.56 - 20.7
+movementSpeed: 2.4
+TTK 0.293945 Seconds
 
 Gun contains[Barrel: Hell-Trooper-23, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
 damage: 16.8328 - 13.4663
@@ -53,6 +72,7 @@ fireRate: 1020.6
 adsSpread: 0.621
 reloadTime: 3.312
 magazineSize: 30
+health: 0
 recoilAimVertical: 15.84 - 19.8
 movementSpeed: 0
 TTK 0.293945 Seconds
@@ -63,28 +83,9 @@ fireRate: 1020.6
 adsSpread: 0.506
 reloadTime: 3.174
 magazineSize: 45
+health: 0
 recoilAimVertical: 19.872 - 24.84
 movementSpeed: 0
-TTK 0.293945 Seconds
-
-Gun contains[Barrel: Type 2a Nambu, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
-damage: 17.0449 - 13.6359
-fireRate: 1020.6
-adsSpread: 0.62238
-reloadTime: 3.174
-magazineSize: 45
-recoilAimVertical: 16.56 - 20.7
-movementSpeed: 2.4
-TTK 0.293945 Seconds
-
-Gun contains[Barrel: MP 40, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
-damage: 16.6743 - 13.3395
-fireRate: 1020.6
-adsSpread: 0.506
-reloadTime: 3.174
-magazineSize: 45
-recoilAimVertical: 19.872 - 24.84
-movementSpeed: 2.56
 TTK 0.293945 Seconds
 
 Gun contains[Barrel: AKM, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
@@ -93,6 +94,7 @@ fireRate: 1020.6
 adsSpread: 0.506
 reloadTime: 3.174
 magazineSize: 45
+health: 0
 recoilAimVertical: 19.872 - 24.84
 movementSpeed: 0
 TTK 0.293945 Seconds
@@ -103,6 +105,7 @@ fireRate: 1020.6
 adsSpread: 0.621
 reloadTime: 3.312
 magazineSize: 30
+health: 0
 recoilAimVertical: 15.84 - 19.8
 movementSpeed: 0
 TTK 0.293945 Seconds

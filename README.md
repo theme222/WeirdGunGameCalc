@@ -6,22 +6,20 @@
 `Using nholmann/json to read json files`<br/>
 `Original data from @zyadak https://discord.com/channels/1326315584417435648/1326315585046450237/1363241874701291722`<br/>
 
-Made using c++ this tool reads data from Data/FullData.json and tries out all possible combinations.
-Currently to use it you have to modify the source code yourself 💀, but this may change in the future.
+Made using c++ this tool reads data from Data/FullData.json and calculates all possible combinations.
 
 ## Data
-The data it reads is the output of `FileFormatter.py` that formats the .txt files in RawData provided by @zyadak.
+The data it reads is the output of `FileFormatter.py` that formats the .txt files in RawData scraped using a `DataScreenshotter.py` provided by @zyadak.
 
 ## Runtime
-It takes around 1 minute to bruteforce all combinations currently but there are plans to optimize this further.
-
-## Interesting Builds
-I will try to keep this directory updated with any builds that the program spits out as interesting.
+It takes around 30 seconds to bruteforce all combinations using a load of optimizations and parallel processing.
 
 ## Compilation
 I have no idea how to use cmake so...
 ```sh
 g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror
-./Calculator > Results.txt
 ```
-You will have to download the json.hpp file from the github and add it to a directory called "include".
+You will have to download the json.hpp and CLI11.hpp file from the github and add it to a directory called "include".
+
+## Usage
+Currently only supported in linux (If enough people complain I'll try to compile it to windows). Run by providing options as filters, please use `./Calculator --help` for more info

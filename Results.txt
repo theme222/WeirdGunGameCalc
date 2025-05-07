@@ -1,109 +1,112 @@
-Reading json file
-Loading parts into array
-Barrels detected: 51, Magazines detected: 44, Grips detected: 37, Stocks detected: 43, Cores detected: 38
-Total of 135667752 possibilities 
-Starting bruteforce
-Bruteforce completed
-Elapsed time: 0 minute(s) and 22 second(s)
-Current top guns are: 
+Command: ./Calculator -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadMax 1.049 --recoilMax 35 
+Current top 10 guns are: 
+Gun contains[Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Spas-12, Core: Kriss Vector]
+damage: 14.4514 - 8.67083
+fireRate: 1616.67
+adsSpread: 0.92565
+reloadTime: 2.76
+magazineSize: 30
+health: 0
+recoilAimVertical: 10.35 - 31.05
+movementSpeed: 0.6
+TTK 0.22268 Seconds
 
-Gun contains[Barrel: Words as Weapons, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Kriss Vector, Core: Famas F1]
-damage: 16.9831 - 13.5865
-fireRate: 1026.43
-adsSpread: 0.6072
-reloadTime: 2.645
-magazineSize: 45
-recoilAimVertical: 18.5472 - 23.184
-movementSpeed: 2.64
-TTK 0.292275 Seconds
+Gun contains[Barrel: Type 2a Nambu, Magazine: MP 40, Grip: PPSh-41, Stock: Spas-12, Core: Kriss Vector]
+damage: 17.0723 - 10.2434
+fireRate: 1335.51
+adsSpread: 0.93154
+reloadTime: 2.875
+magazineSize: 32
+health: 0
+recoilAimVertical: 10.35 - 31.05
+movementSpeed: 1.3
+TTK 0.224633 Seconds
 
-Gun contains[Barrel: Arctic Warfare, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Kriss Vector, Core: Famas F1]
-damage: 17.0603 - 13.6482
-fireRate: 1026.43
-adsSpread: 0.458436
-reloadTime: 2.645
-magazineSize: 45
-recoilAimVertical: 23.184 - 28.98
-movementSpeed: 2.64
-TTK 0.292275 Seconds
-
-Gun contains[Barrel: AKM, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Kriss Vector, Core: Famas F1]
-damage: 16.9831 - 13.5865
-fireRate: 1026.43
-adsSpread: 0.6072
-reloadTime: 2.645
-magazineSize: 45
-recoilAimVertical: 18.5472 - 23.184
-movementSpeed: 2.64
-TTK 0.292275 Seconds
-
-Gun contains[Barrel: MP 40, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Kriss Vector, Core: Famas F1]
-damage: 16.6743 - 13.3395
-fireRate: 1026.43
-adsSpread: 0.6072
-reloadTime: 2.645
-magazineSize: 45
-recoilAimVertical: 18.5472 - 23.184
-movementSpeed: 5.2
-TTK 0.292275 Seconds
-
-Gun contains[Barrel: Hell-Trooper-23, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
-damage: 16.8328 - 13.4663
-fireRate: 1020.6
-adsSpread: 0.621
+Gun contains[Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
+damage: 14.4514 - 8.67083
+fireRate: 1578.72
+adsSpread: 0.8415
 reloadTime: 3.312
 magazineSize: 30
-recoilAimVertical: 15.84 - 19.8
-movementSpeed: 0
-TTK 0.293945 Seconds
+health: 0
+recoilAimVertical: 9.522 - 28.566
+movementSpeed: 5.6
+TTK 0.228033 Seconds
 
-Gun contains[Barrel: Words as Weapons, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
-damage: 16.9831 - 13.5865
-fireRate: 1020.6
-adsSpread: 0.506
-reloadTime: 3.174
-magazineSize: 45
-recoilAimVertical: 19.872 - 24.84
-movementSpeed: 0
-TTK 0.293945 Seconds
-
-Gun contains[Barrel: Type 2a Nambu, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
-damage: 17.0449 - 13.6359
-fireRate: 1020.6
-adsSpread: 0.62238
-reloadTime: 3.174
-magazineSize: 45
-recoilAimVertical: 16.56 - 20.7
-movementSpeed: 2.4
-TTK 0.293945 Seconds
-
-Gun contains[Barrel: MP 40, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
-damage: 16.6743 - 13.3395
-fireRate: 1020.6
-adsSpread: 0.506
-reloadTime: 3.174
-magazineSize: 45
-recoilAimVertical: 19.872 - 24.84
-movementSpeed: 2.56
-TTK 0.293945 Seconds
-
-Gun contains[Barrel: AKM, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
-damage: 16.9831 - 13.5865
-fireRate: 1020.6
-adsSpread: 0.506
-reloadTime: 3.174
-magazineSize: 45
-recoilAimVertical: 19.872 - 24.84
-movementSpeed: 0
-TTK 0.293945 Seconds
-
-Gun contains[Barrel: Hell-Trooper-23, Magazine: AKM, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Famas F1]
-damage: 16.8328 - 13.4663
-fireRate: 1020.6
-adsSpread: 0.621
-reloadTime: 3.312
+Gun contains[Barrel: Shower, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: UMP-40]
+damage: 25.4344 - 15.2607
+fireRate: 789.36
+adsSpread: 0.99
+reloadTime: 4.14
 magazineSize: 30
-recoilAimVertical: 15.84 - 19.8
-movementSpeed: 0
-TTK 0.293945 Seconds
+health: 0
+recoilAimVertical: 13.11 - 19.665
+movementSpeed: 3.8
+TTK 0.228033 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
+damage: 14.5039 - 8.70236
+fireRate: 1578.72
+adsSpread: 0.92565
+reloadTime: 3.174
+magazineSize: 45
+health: 0
+recoilAimVertical: 10.9503 - 32.8509
+movementSpeed: 5.6
+TTK 0.228033 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Type 99, Core: Kriss Vector]
+damage: 14.4514 - 8.67083
+fireRate: 1567.34
+adsSpread: 0.8415
+reloadTime: 2.4909
+magazineSize: 30
+health: 0
+recoilAimVertical: 11.178 - 33.534
+movementSpeed: 2.6
+TTK 0.229689 Seconds
+
+Gun contains[Barrel: Shower, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Type 99, Core: UMP-40]
+damage: 25.4344 - 15.2607
+fireRate: 783.668
+adsSpread: 0.99
+reloadTime: 3.11363
+magazineSize: 30
+health: 0
+recoilAimVertical: 15.39 - 23.085
+movementSpeed: 0.8
+TTK 0.229689 Seconds
+
+Gun contains[Barrel: Type 2a Nambu, Magazine: MP 40, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
+damage: 17.0723 - 10.2434
+fireRate: 1304.16
+adsSpread: 0.846855
+reloadTime: 3.45
+magazineSize: 32
+health: 0
+recoilAimVertical: 9.522 - 28.566
+movementSpeed: 6.3
+TTK 0.230033 Seconds
+
+Gun contains[Barrel: Shower, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: STG-44, Core: UMP-40]
+damage: 25.5269 - 15.3162
+fireRate: 777.216
+adsSpread: 1.00188
+reloadTime: 3.30625
+magazineSize: 45
+health: 0
+recoilAimVertical: 16.3875 - 24.5812
+movementSpeed: 3.8
+TTK 0.231596 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: STG-44, Core: Kriss Vector]
+damage: 14.4514 - 8.67083
+fireRate: 1554.43
+adsSpread: 0.77418
+reloadTime: 2.76
+magazineSize: 30
+health: 0
+recoilAimVertical: 10.35 - 31.05
+movementSpeed: 5.6
+TTK 0.231596 Seconds
 

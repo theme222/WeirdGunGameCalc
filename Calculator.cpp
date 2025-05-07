@@ -6,20 +6,42 @@
 #include <string>
 #include <fstream>
 #include <queue>
+#include <sys/types.h>
 #include <vector>
 #include <cmath>
 #include <chrono>
 #include <cstdint>
+#include <thread>
 #include "include/json.hpp" // "nlohmann/json.hpp"
+#include "include/CLI11.hpp" // "CLIUtils"
+
 #define chrono std::chrono
-
 using json = nlohmann::json;
-
-json emptyJSON = json::parse(R"({})");
-
 typedef std::pair<float, float> fpair;
 
-std::string filepath = "Data/FullData.json";
+#define NILMIN -69420.5f
+#define NILMAX 69420.5f
+#define NILRANGE {NILMIN, NILMAX} // Hehehheheh
+
+namespace Input
+{
+    std::string filepath = "Data/FullData.json";
+    std::string outpath = "Results.txt";
+    std::string sortType = "TTK";
+
+    std::vector<std::string> includeCategories;
+
+    int threadsToMake = 4;
+    int howManyTopGunsToDisplay = 10;
+
+    fpair damageRange = NILRANGE;
+    fpair magazineRange = NILRANGE;
+    fpair spreadRange = NILRANGE;
+    fpair recoilRange = NILRANGE;
+    fpair movementSpeedRange = NILRANGE;
+    fpair fireRateRange = NILRANGE;
+    fpair healthRange = NILRANGE;
+}
 
 
 namespace Fast // Namespace to contain any indexing that uses the integer representation of categories and mults
@@ -42,6 +64,8 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         {"Weird", 4},
         {"Shotgun", 5},
     };
+
+    bool includeCategories_fast[5] = {false, false, false, false, false};
 
     enum MultFlags {
         DAMAGE = 1<<0,
@@ -135,7 +159,6 @@ public:
             case SPREAD:
                 return spread;
             case RECOILAIM:
-                return recoil;
             case RECOILHIP:
                 return recoil;
             case RELOAD:
@@ -211,6 +234,7 @@ public:
     float adsSpread = 0;
     float timeToAim = 0;
     float movementSpeedModifier = 0;
+    float health = 0;
     float pellets = 1;
     fpair recoilHipHorizontal = fpair(0, 0);
     fpair recoilHipVertical = fpair(0, 0);
@@ -294,8 +318,10 @@ public:
 
     fpair damage;
     fpair dropoffStuds;
+    float pellets;
     float reloadTime;
     float magazineSize;
+    float health;
     float fireRate;
     float timeToAim;
     float movementSpeedModifier;
@@ -329,21 +355,6 @@ public:
             return baseMult;
 
         return baseMult * Fast::penalties[core->category_fast][part->category_fast];
-
-        // if (core->category == "Weird")
-        //     return baseMult;
-        // if (core->category == "Assault Rifle")
-        //     return baseMult * ARPenalties[part->category];
-        // if (core->category == "Sniper")
-        //     return baseMult * SniperPenalties[part->category];
-        // if (core->category == "SMG")
-        //     return baseMult * SMGPenalties[part->category];
-        // if (core->category == "LMG")
-        //     return baseMult * LMGPenalties[part->category];
-        // if (core->category == "Shotgun")
-        //     return baseMult * ShotgunPenalties[part->category];
-
-        throw std::invalid_argument("Category doesn't exist " + core->category + "\n");
     }
 
     float GetTotalMult(Fast::MultFlags propertyFlag)
@@ -370,11 +381,13 @@ public:
     {
         using namespace Fast;
         if (flags & DAMAGE) damage = core->damage;
+        if (flags & PELLETS) pellets = core->pellets;
         if (flags & DROPOFFSTUDS) dropoffStuds = core->dropoffStuds;
         if (flags & FIRERATE) fireRate = core->fireRate;
         if (flags & TIMETOAIM) timeToAim = core->timeToAim;
         if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier = core->movementSpeedModifier;
         if (flags & MAGAZINESIZE) magazineSize = magazine->magazineSize;
+        if (flags & HEALTH) health = core->health;
         if (flags & RELOAD) reloadTime = magazine->reloadTime;
         if (flags & SPREAD)
         {
@@ -396,14 +409,21 @@ public:
     void CalculateGunStats(uint32_t flags)
     {
         using namespace Fast;
+        if (flags & PELLETS)
+        {
+            pellets *= GetTotalMult(PELLETS);
+            pellets = ceilf(pellets);
+        }
         if (flags & DAMAGE)
         {
-            // This is due to a random glitch giving any part connected to core a 1% boost in damage (1.01)^5 = 1.051
-            damage.first *= GetTotalMult(DAMAGE) * 1.051;
-            damage.second *= GetTotalMult(DAMAGE) * 1.051;
+            // Current best estimate for pellet damage calculation
+            float weirdAssMultThing = powf(powf(1.01, pellets) * powf(0.9925, pellets-1), 5);
+            damage.first *= GetTotalMult(DAMAGE) * weirdAssMultThing;
+            damage.second *= GetTotalMult(DAMAGE) * weirdAssMultThing;
         }
         if (flags & FIRERATE) fireRate *= GetTotalMult(FIRERATE);
         if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier += GetTotalAdd(MOVEMENTSPEEDMODIFIER); // Bruhhhhhhhhh
+        if (flags & HEALTH) health += GetTotalAdd(HEALTH);
         if (flags & RELOAD) reloadTime *= GetTotalMult(RELOAD);
         if (flags & SPREAD)
         {
@@ -459,6 +479,7 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
        << "adsSpread: " << gun.adsSpread << "\n"
        << "reloadTime: " << gun.reloadTime << "\n"
        << "magazineSize: " << gun.magazineSize << "\n"
+       << "health: " << gun.health << "\n"
        << "recoilAimVertical: " << gun.recoilAimVertical << "\n"
        << "movementSpeed: " << gun.movementSpeedModifier << "\n"
        << "TTK " << CalcTTK(gun) << " Seconds\n";
@@ -491,7 +512,6 @@ struct SortByADSSpread{
     }
 };
 
-int howManyTopGunsToDisplay = 10;
 
 int barrelCount;
 int magazineCount;
@@ -511,6 +531,127 @@ std::priority_queue<Gun, std::vector<Gun>,
     // SortByADSSpread
     > topGuns;
 
+
+namespace PQ
+{
+    enum SortingType {
+        SORTBYTTK = 0,
+        SORTBYFIRERATE = 1,
+        SORTBYSPREAD = 2
+    };
+
+    SortingType currentSortingType = SORTBYTTK;
+    typedef std::priority_queue<Gun, std::vector<Gun>, SortByTTK> TTK;
+    typedef std::priority_queue<Gun, std::vector<Gun>, SortByFireRate> FireRate;
+    typedef std::priority_queue<Gun, std::vector<Gun>, SortByADSSpread> Spread;
+    typedef std::variant< TTK, FireRate, Spread > Variant;
+
+    void SetCurrentSortingType(std::string type)
+    {
+        if (type == "TTK")
+            currentSortingType = SORTBYTTK;
+        else if (type == "FIRERATE")
+            currentSortingType = SORTBYFIRERATE;
+        else if (type == "SPREAD")
+            currentSortingType = SORTBYSPREAD;
+        else
+            throw std::runtime_error("Invalid sorting type");
+    }
+
+    bool HasMember(Variant& pq)
+    {
+        switch (PQ::currentSortingType)
+        {
+            case SORTBYTTK:
+                return std::get<TTK>(pq).size() > 0;
+            case SORTBYFIRERATE:
+                return std::get<FireRate>(pq).size() > 0;
+            case SORTBYSPREAD:
+                return std::get<Spread>(pq).size() > 0;
+            default:
+                throw std::runtime_error("Invalid sorting type");
+        }
+    }
+
+
+    Variant Create()
+    {
+        switch(currentSortingType)
+        {
+            case SORTBYTTK:
+                return TTK();
+            case SORTBYFIRERATE:
+                return FireRate();
+            case SORTBYSPREAD:
+                return Spread();
+            default:
+                throw std::runtime_error("Invalid sorting type");
+        }
+    }
+
+    Gun Pop(Variant& pq)
+    {
+        switch(currentSortingType)
+        {
+            case SORTBYTTK:
+            {
+                TTK& pqttk = std::get<TTK>(pq);
+                Gun gun = pqttk.top();
+                pqttk.pop();
+                return gun;
+            }
+            case SORTBYFIRERATE:
+            {
+                FireRate& pqfireRate = std::get<FireRate>(pq);
+                Gun gun = pqfireRate.top();
+                pqfireRate.pop();
+                return gun;
+            }
+            case SORTBYSPREAD:
+            {
+                Spread& pqspread = std::get<Spread>(pq);
+                Gun gun = pqspread.top();
+                pqspread.pop();
+                return gun;
+            }
+            default:
+                throw std::runtime_error("Invalid sorting type");
+        }
+    }
+
+
+    void Push(Variant& pq, const Gun& gun)
+    {
+        switch(currentSortingType)
+        {
+            case SORTBYTTK:
+            {
+                TTK& pqttk = std::get<TTK>(pq);
+                pqttk.push(gun);
+                if (pqttk.size() > Input::howManyTopGunsToDisplay) pqttk.pop();
+                break;
+            }
+            case SORTBYFIRERATE:
+            {
+                FireRate& pqfireRate = std::get<FireRate>(pq);
+                pqfireRate.push(gun);
+                if (pqfireRate.size() > Input::howManyTopGunsToDisplay) pqfireRate.pop();
+                break;
+            }
+            case SORTBYSPREAD:
+            {
+                Spread& pqspread = std::get<Spread>(pq);
+                pqspread.push(gun);
+                if (pqspread.size() > Input::howManyTopGunsToDisplay) pqspread.pop();
+                break;
+            }
+        }
+    }
+}
+
+PQ::Variant threadPQ[16];
+std::thread threads[16];
+
 namespace BruteForce
 {
     using namespace Fast;
@@ -523,12 +664,15 @@ namespace BruteForce
         int gripIndex = 0;
         int stockIndex = 0;
         int coreIndex = 0;
+        int threadId = 0;
 
         Iterator()
         {
             // if (barrelCount == 0 || magazineCount == 0 || gripCount == 0 || stockCount == 0 || coreCount == 0)
             //     throw std::runtime_error("1 Or more types of parts are missing");
         }
+        Iterator(int threadId): threadId(threadId)
+        { }
 
         bool Step(Barrel*& b, Magazine*& m, Grip*& g, Stock*& s, Core*& c) // Returns true if another combination still exists
         {
@@ -568,158 +712,146 @@ namespace BruteForce
             if (stockIndex < stockCount) return true;
 
             stockIndex = 0;
-            coreIndex++;
+            do {
+                coreIndex++;
+            } while (coreIndex % Input::threadsToMake != threadId);
 
+            printf("Processed core index: %d\n", coreIndex);
             return coreIndex < coreCount;
         }
     };
 
-    void Wrapper(const std::function<void()> &func) // Thanks chatgpt
+    namespace Filter
     {
-        puts("Starting bruteforce");
-        auto start = chrono::steady_clock::now();
 
-        func();
-
-        auto end = chrono::steady_clock::now();
-        auto duration = chrono::duration_cast<chrono::seconds>(end - start);
-
-        int minutes = duration.count() / 60;
-        int seconds = duration.count() % 60;
-
-        puts("Bruteforce completed");
-        std::cout << "Elapsed time: " << minutes << " minute(s) and " << seconds << " second(s)\n";
-    }
-
-    Iterator iter;
-    Barrel* b;
-    Magazine* m;
-    Grip* g;
-    Stock* s;
-    Core* c;
-
-    void LowestTTK()
-    {
-        puts("Running lowest TTK config");
-        uint32_t flag = DAMAGE | FIRERATE | SPREAD | RECOILAIM | MOVEMENTSPEEDMODIFIER;
-
-        while (iter.Step(b, m, g, s, c))
+        void InitializeIncludeCategories()
         {
-            if (c->category == "Sniper") continue;
-            if (m->category == "Shotgun") continue;
-            if (b->name == "Honk") continue;
-            if (m->magazineSize < 40) continue;
-            // if (s->name == "Anvil") continue;
-
-            Gun currentGun = Gun(b, m, g, s, c);
-            currentGun.CopyValues(flag);
-            currentGun.CalculateGunStats(flag);
-
-            // if (currentGun.movementSpeedModifier < 0) continue;
-            if (currentGun.damage.first >= 100) continue;
-            // if (currentGun.damage.first < 20) continue;
-            if (currentGun.adsSpread >= 0.35) continue;
-            if (currentGun.recoilAimVertical.second > 4) continue;
-
-            topGuns.push(currentGun);
-            if (topGuns.size() > howManyTopGunsToDisplay) topGuns.pop();
+            for (auto& category : Input::includeCategories)
+            {
+                if (category == "AR") category = "Assault Rifle";
+                Fast::includeCategories_fast[Fast::fastifyCategory[category]] = true;
+            }
         }
-    }
 
-    void LowestTTKNonSMG()
-    {
-        uint32_t flag = DAMAGE | FIRERATE | SPREAD | RECOILAIM | MOVEMENTSPEEDMODIFIER;
-
-        while (iter.Step(b, m, g, s, c))
+        uint32_t currentflags = 0;
+        void InitializeMultFlag()
         {
-            if (c->category != "Assault Rifle" && c->category != "LMG") continue;
-            if (m->magazineSize < 30) continue;
-            if (b->name == "Honk") continue;
-            if (s->name == "Anvil") continue;
-
-            Gun currentGun = Gun(b, m, g, s, c);
-            currentGun.CopyValues(flag);
-            currentGun.CalculateGunStats(flag);
-
-            if (currentGun.movementSpeedModifier < 0) continue;
-            if (currentGun.damage.first >= 100) continue;
-            // if (currentGun.damage.first < 22.3) continue;
-            if (currentGun.adsSpread >= 0.65) continue;
-            if (currentGun.recoilAimVertical.second > 30) continue;
-
-            topGuns.push(currentGun);
-            if (topGuns.size() > howManyTopGunsToDisplay) topGuns.pop();
+            fpair nilrange = NILRANGE;
+            if (Input::damageRange != nilrange) currentflags |= DAMAGE | PELLETS;
+            if (Input::magazineRange != nilrange) currentflags |= MAGAZINESIZE;
+            if (Input::movementSpeedRange != nilrange) currentflags |= MOVEMENTSPEEDMODIFIER;
+            if (Input::spreadRange != nilrange) currentflags |= SPREAD;
+            if (Input::recoilRange != nilrange) currentflags |= RECOILAIM;
+            if (Input::fireRateRange != nilrange) currentflags |= FIRERATE;
+            if (Input::healthRange != nilrange) currentflags |= HEALTH;
+            switch (PQ::currentSortingType)
+            {
+                case PQ::SORTBYTTK:
+                    currentflags |= DAMAGE | PELLETS;
+                case PQ::SORTBYFIRERATE:
+                    currentflags |= FIRERATE;
+                    break;
+                case PQ::SORTBYSPREAD:
+                    currentflags |= SPREAD;
+                    break;
+            }
         }
-    }
 
-
-    void Fastest1TapSniper()
-    {
-        uint32_t flag = DAMAGE | FIRERATE | SPREAD;
-
-        while (iter.Step(b, m, g, s, c))
+        bool RangeFilter(float value, fpair range)
         {
-            if (c->category != "Sniper") continue;
-            if (s->name == "Anvil") continue;
-
-            Gun currentGun = Gun(b, m, g, s, c);
-            currentGun.CopyValues(flag);
-            currentGun.CalculateGunStats(flag);
-
-            if (currentGun.damage.first < 99.95) continue;
-            if (currentGun.adsSpread >= 0.15) continue;
-
-            topGuns.push(currentGun);
-            if (topGuns.size() > howManyTopGunsToDisplay) topGuns.pop();
+            if (range.first != NILMIN && range.second != NILMAX) return range.first <= value && value <= range.second;
+            else if (range.first != NILMIN) return range.first <= value;
+            else if (range.second != NILMAX) return value <= range.second;
+            else return true;
         }
-    }
 
-    void FastestHeadshotSniper()
-    {
-        uint32_t flag = DAMAGE | FIRERATE | SPREAD | MOVEMENTSPEEDMODIFIER;
-
-        while (iter.Step(b, m, g, s, c))
+        bool PreFilter(Barrel* b, Magazine* m, Grip* g, Stock* s, Core* c)
         {
-            if (c->category != "Sniper") continue;
-            if (s->name == "Anvil") continue;
-
-            Gun currentGun = Gun(b, m, g, s, c);
-            currentGun.CopyValues(flag);
-            currentGun.CalculateGunStats(flag);
-
-            if (currentGun.damage.first < 49.95) continue;
-            if (currentGun.movementSpeedModifier < 0) continue;
-            if (currentGun.adsSpread >= 0.15) continue;
-
-            topGuns.push(currentGun);
-            if (topGuns.size() > howManyTopGunsToDisplay) topGuns.pop();
+            if (!Fast::includeCategories_fast[c->category_fast]) return false;
+            return RangeFilter(m->magazineSize, Input::magazineRange);
         }
+
+        bool PostFilter(Gun& gun)
+        {
+            if (!RangeFilter(gun.damage.first, Input::damageRange)) return false;
+            if (!RangeFilter(gun.adsSpread, Input::spreadRange)) return false;
+            if (!RangeFilter(gun.recoilAimVertical.second, Input::recoilRange)) return false;
+            if (!RangeFilter(gun.movementSpeedModifier, Input::movementSpeedRange)) return false;
+            if (!RangeFilter(gun.fireRate, Input::fireRateRange)) return false;
+            if (!RangeFilter(gun.health, Input::healthRange)) return false;
+            return true;
+        }
+
     }
 
-    void LowestHonkSpread()
+
+    void Run(int threadId)
     {
-        uint32_t flag = DAMAGE | SPREAD | FIRERATE;
+        Barrel* b; Magazine* m; Grip* g; Stock* s; Core* c;
+
+        printf("Starting thread: %d\n", threadId);
+
+        threadPQ[threadId] = PQ::Create();
+        Iterator iter(threadId);
+        uint32_t flag = ALLMULTFLAG;
 
         while (iter.Step(b, m, g, s, c))
         {
-            if (b->name != "Honk") continue;
+            if (!Filter::PreFilter(b, m, g, s, c)) continue;
+
             Gun currentGun = Gun(b, m, g, s, c);
-            currentGun.CopyValues(flag);
-            currentGun.CalculateGunStats(flag);
+            currentGun.CopyValues(Filter::currentflags);
+            currentGun.CalculateGunStats(Filter::currentflags);
 
-            if (currentGun.adsSpread > 1) continue;
-            if (currentGun.damage.first < 49.95) continue;
+            if (!Filter::PostFilter(currentGun)) continue;
 
-            topGuns.push(currentGun);
-            if (topGuns.size() > howManyTopGunsToDisplay) topGuns.pop();
+            PQ::Push(threadPQ[threadId], currentGun);
         }
     }
 };
 
 
-int main()
+int main(int argc, char* argv[])
 {
-    std::ifstream f(filepath);
+    CLI::App app{"A tool to bruteforce all possible stats inside of weird gun game."};
+    argv = app.ensure_utf8(argv);
+
+    app.add_option("-f,--file", Input::filepath, "Path to the json file containing the parts data (Default: Data/FullData.json)");
+    app.add_option("-o, --output", Input::outpath, "Path to the output file (Default: Results.txt");
+    app.add_option("-t,--threads", Input::threadsToMake, "Number of threads to use (MAX 16) (Default: 4)");
+    app.add_option("-s,--sort", Input::sortType, "Sorting type (TTK, FIRERATE, SPREAD)");
+    app.add_option("-n,--number", Input::howManyTopGunsToDisplay, "Number of top guns to display (Default: 10)");
+    app.add_option("-i, --include", Input::includeCategories, "Categories to include in the calculation");
+
+    app.add_option("--damage", Input::damageRange, "Damage range to filter");
+    app.add_option("--damageMin", Input::damageRange.first);
+    app.add_option("--damageMax", Input::damageRange.second);
+    app.add_option("--magazine", Input::magazineRange, "Size of magazine to filter");
+    app.add_option("--magazineMin", Input::magazineRange.first);
+    app.add_option("--magazineMax", Input::magazineRange.second);
+    app.add_option("--spread", Input::spreadRange, "Spread range to filter");
+    app.add_option("--spreadMin", Input::spreadRange.first);
+    app.add_option("--spreadMax", Input::spreadRange.second);
+    app.add_option("--recoil", Input::recoilRange, "Recoil range to filter");
+    app.add_option("--recoilMin", Input::recoilRange.first);
+    app.add_option("--recoilMax", Input::recoilRange.second);
+    app.add_option("--speed", Input::movementSpeedRange, "Movement speed range to filter");
+    app.add_option("--speedMin", Input::movementSpeedRange.first);
+    app.add_option("--speedMax", Input::movementSpeedRange.second);
+    app.add_option("--fireRate", Input::fireRateRange, "Fire rate range to filter");
+    app.add_option("--fireRateMin", Input::fireRateRange.first);
+    app.add_option("--fireRateMax", Input::fireRateRange.second);
+    app.add_option("--health", Input::healthRange, "Health range to filter");
+    app.add_option("--healthMin", Input::healthRange.first);
+    app.add_option("--healthMax", Input::healthRange.second);
+
+    CLI11_PARSE(app, argc, argv);
+
+    PQ::SetCurrentSortingType(Input::sortType);
+    BruteForce::Filter::InitializeIncludeCategories();
+    BruteForce::Filter::InitializeMultFlag();
+
+    std::ifstream f(Input::filepath);
     puts("Reading json file");
     json data = json::parse(f);
 
@@ -757,19 +889,33 @@ int main()
 
     printf("Barrels detected: %d, Magazines detected: %d, Grips detected: %d, Stocks detected: %d, Cores detected: %d\n", barrelCount, magazineCount, gripCount, stockCount, coreCount);
     printf("Total of %u possibilities \n", barrelCount*magazineCount*gripCount*stockCount*coreCount);
+    printf("Starting bruteforce with %d threads\n", Input::threadsToMake);
 
-    BruteForce::Wrapper(
-        /* Use sort by TTK */
-        // BruteForce::LowestTTK
-        BruteForce::LowestTTKNonSMG
-        // BruteForce::LowestHonkSpread
-        /* Use sort by firerate */
-        // BruteForce::Fastest1TapSniper
-        // BruteForce::FastestHeadshotSniper
-    );
+    auto start = chrono::steady_clock::now();
+
+    // Start all threads
+    for (int threadId = 0; threadId < Input::threadsToMake; threadId++)
+        threads[threadId] = std::thread(BruteForce::Run, threadId);
+
+    // Wait for all threads to finish
+    for (int threadId = 0; threadId < Input::threadsToMake; threadId++)
+        threads[threadId].join();
+
+    auto end = chrono::steady_clock::now();
+    auto duration = chrono::duration_cast<chrono::seconds>(end - start);
+
+    puts("Bruteforce completed");
+    std::cout << "Elapsed time: " << duration.count() / 60 << " minute(s) and " << duration.count() % 60 << " second(s)\n";
+
+    // Combine all thread pqs into topguns
+    for (int i = 0; i < Input::threadsToMake; i++)
+    {
+        for (int j = 0; j < Input::howManyTopGunsToDisplay && PQ::HasMember(threadPQ[i]); j++)
+            topGuns.push(PQ::Pop(threadPQ[i]));
+    }
 
 
-    // Dump the pq into a vector
+    // Dump all the pqs into a vector
     std::vector<Gun> outputGuns;
     int max = topGuns.size();
     for (int i = 0; i < max; i++)
@@ -778,15 +924,26 @@ int main()
         topGuns.pop();
     }
 
-    puts("Current top guns are: \n");
-    // Reverse print out the answer
+    std::string fullCommand;
+    for (int i = 0; i < argc; i++)
+    {
+        fullCommand += argv[i];
+        fullCommand += " ";
+    }
+
+    // Write to the file
+    std::ofstream file(Input::outpath);
+    file << "Command: " << fullCommand << "\n";
+    file << "Current top " << Input::howManyTopGunsToDisplay << " guns are: \n";
+    int endSize = outputGuns.size()-1-Input::howManyTopGunsToDisplay;
+    // Reverse out the answer
     for (int i = outputGuns.size()-1; i >=0; i--)
     {
+        if (i == endSize) break;
         Gun g = outputGuns[i];
         g.CopyAllValues();
         g.CalculateAllGunStats();
-        std::cout << g << '\n';
+        file << g << '\n';
     }
+    file.close();
 }
-
-// TODO: IF NECESSARY IMPLEMENT THREADING
