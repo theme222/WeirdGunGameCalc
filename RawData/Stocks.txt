@@ -212,7 +212,7 @@ Spread: +25%
 ---
 Stock: Remington 870 MCS
 Recoil: -25%
-Spread: -30%
+Spread: -20%
 Fire_Rate: -5%
 Reload: +10%
 ---

@@ -525,11 +525,6 @@ Grip gripList[64];
 Stock stockList[64];
 Core coreList[64];
 
-std::priority_queue<Gun, std::vector<Gun>,
-    SortByTTK
-    // SortByFireRate
-    // SortByADSSpread
-    > topGuns;
 
 
 namespace PQ
@@ -545,6 +540,8 @@ namespace PQ
     typedef std::priority_queue<Gun, std::vector<Gun>, SortByFireRate> FireRate;
     typedef std::priority_queue<Gun, std::vector<Gun>, SortByADSSpread> Spread;
     typedef std::variant< TTK, FireRate, Spread > Variant;
+
+    Variant topGuns;
 
     void SetCurrentSortingType(std::string type)
     {
@@ -645,6 +642,23 @@ namespace PQ
                 if (pqspread.size() > Input::howManyTopGunsToDisplay) pqspread.pop();
                 break;
             }
+            default:
+                throw std::runtime_error("Invalid sorting type");
+        }
+    }
+
+    int Size(Variant& pq)
+    {
+        switch(currentSortingType)
+        {
+            case SORTBYTTK:
+                return std::get<TTK>(pq).size();
+            case SORTBYFIRERATE:
+                return std::get<FireRate>(pq).size();
+            case SORTBYSPREAD:
+                return std::get<Spread>(pq).size();
+            default:
+                throw std::runtime_error("Invalid sorting type");
         }
     }
 }
@@ -907,22 +921,19 @@ int main(int argc, char* argv[])
     puts("Bruteforce completed");
     std::cout << "Elapsed time: " << duration.count() / 60 << " minute(s) and " << duration.count() % 60 << " second(s)\n";
 
+    PQ::topGuns = PQ::Create();
+
     // Combine all thread pqs into topguns
     for (int i = 0; i < Input::threadsToMake; i++)
-    {
         for (int j = 0; j < Input::howManyTopGunsToDisplay && PQ::HasMember(threadPQ[i]); j++)
-            topGuns.push(PQ::Pop(threadPQ[i]));
-    }
+            PQ::Push(PQ::topGuns, PQ::Pop(threadPQ[i]));
 
 
     // Dump all the pqs into a vector
     std::vector<Gun> outputGuns;
-    int max = topGuns.size();
+    int max = PQ::Size(PQ::topGuns);
     for (int i = 0; i < max; i++)
-    {
-        outputGuns.push_back(topGuns.top());
-        topGuns.pop();
-    }
+        outputGuns.push_back(PQ::Pop(PQ::topGuns));
 
     std::string fullCommand;
     for (int i = 0; i < argc; i++)

@@ -1,112 +1,112 @@
-Command: ./Calculator -i Sniper --speedMin 0 --damageMin 49.95 --spreadMax 0.149 
+Command: ./Calculator -i Sniper --speedMin 0 --damageMin 49.95 --spreadMax 0.149 --sort FIRERATE 
 Current top 10 guns are: 
-Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Type 2a Nambu, Stock: Speed Coil, Core: Hecate II]
-damage: 105.182 - 94.6634
-fireRate: 14.175
-adsSpread: 0.1365
-reloadTime: 4.25
-magazineSize: 5
-health: -17.5
-recoilAimVertical: 69.741 - 92.988
-movementSpeed: 0
-TTK 0 Seconds
+Gun contains[Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: AUG, Core: Remington 700]
+damage: 52.025 - 46.8225
+fireRate: 57.75
+adsSpread: 0.137794
+reloadTime: 4.025
+magazineSize: 6
+health: 0
+recoilAimVertical: 40.6875 - 58.125
+movementSpeed: 0.75
+TTK 1.03896 Seconds
 
-Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Arctic Warfare, Stock: Speed Coil, Core: Hecate II]
-damage: 101.527 - 91.3739
-fireRate: 14.175
-adsSpread: 0.09555
-reloadTime: 4.25
-magazineSize: 5
-health: -10
-recoilAimVertical: 56.7 - 75.6
-movementSpeed: 0
-TTK 0 Seconds
+Gun contains[Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: MG42, Core: Remington 700]
+damage: 52.025 - 46.8225
+fireRate: 57.75
+adsSpread: 0.12818
+reloadTime: 4.83
+magazineSize: 6
+health: 0
+recoilAimVertical: 43.75 - 62.5
+movementSpeed: 1.8
+TTK 1.03896 Seconds
 
-Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Mas-38, Stock: Speed Coil, Core: Hecate II]
-damage: 101.527 - 91.3739
-fireRate: 14.175
-adsSpread: 0.124215
-reloadTime: 4.25
-magazineSize: 5
-health: -10
-recoilAimVertical: 56.7 - 75.6
-movementSpeed: 1.2
-TTK 0 Seconds
+Gun contains[Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: UMP-40, Core: Remington 700]
+damage: 52.025 - 46.8225
+fireRate: 57.75
+adsSpread: 0.139075
+reloadTime: 4.025
+magazineSize: 6
+health: 0
+recoilAimVertical: 52.5 - 75
+movementSpeed: 1.28
+TTK 1.03896 Seconds
 
-Gun contains[Barrel: Water Pipe, Magazine: Improvised, Grip: Skorpion vz. 61, Stock: Arctic Warfare, Core: Hecate II]
-damage: 101.527 - 91.3739
-fireRate: 13.5
-adsSpread: 0.145762
-reloadTime: 0.6392
+Gun contains[Barrel: PPSh-41, Magazine: Lee Enfield, Grip: M1891 Carcano, Stock: Arctic Warfare, Core: Remington 700]
+damage: 52.025 - 46.8225
+fireRate: 57.552
+adsSpread: 0.139425
+reloadTime: 3.91
 magazineSize: 10
 health: 0
-recoilAimVertical: 61.875 - 82.5
-movementSpeed: 0.4
-TTK 0 Seconds
+recoilAimVertical: 55.3438 - 79.0625
+movementSpeed: 0.38
+TTK 1.04254 Seconds
 
-Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: AUG, Stock: Speed Coil, Core: Hecate II]
-damage: 101.527 - 91.3739
-fireRate: 14.175
-adsSpread: 0.129811
-reloadTime: 4.25
-magazineSize: 5
-health: -10
-recoilAimVertical: 54.7155 - 72.954
-movementSpeed: 1.75
-TTK 0 Seconds
-
-Gun contains[Barrel: Water Pipe, Magazine: Improvised, Grip: UMP-40, Stock: MG42, Core: Hecate II]
-damage: 101.527 - 91.3739
-fireRate: 13.5
-adsSpread: 0.12144
-reloadTime: 0.9312
-magazineSize: 10
+Gun contains[Barrel: Arctic Warfare, Magazine: Kriss Vector, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield]
+damage: 56.5654 - 50.9088
+fireRate: 57.5
+adsSpread: 0.147875
+reloadTime: 2.04
+magazineSize: 30
 health: 0
-recoilAimVertical: 56.25 - 75
-movementSpeed: 0.0799999
-TTK 0 Seconds
+recoilAimVertical: 54.054 - 72.072
+movementSpeed: 1.98
+TTK 1.04348 Seconds
 
-Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: STG-44, Stock: Speed Coil, Core: Hecate II]
-damage: 101.527 - 91.3739
-fireRate: 14.175
-adsSpread: 0.129811
-reloadTime: 3.74425
-magazineSize: 5
-health: -10
-recoilAimVertical: 63.504 - 84.672
-movementSpeed: 0
-TTK 0 Seconds
-
-Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: As-Val, Stock: Speed Coil, Core: Hecate II]
-damage: 101.527 - 91.3739
-fireRate: 14.175
-adsSpread: 0.1365
-reloadTime: 3.80375
-magazineSize: 5
-health: -10
-recoilAimVertical: 54.7155 - 72.954
-movementSpeed: 0
-TTK 0 Seconds
-
-Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: DP-27, Stock: Speed Coil, Core: Hecate II]
-damage: 101.527 - 91.3739
-fireRate: 13.4662
-adsSpread: 0.1365
-reloadTime: 3.808
-magazineSize: 5
-health: -10
-recoilAimVertical: 48.0816 - 64.1088
-movementSpeed: 0
-TTK 0 Seconds
-
-Gun contains[Barrel: Water Pipe, Magazine: Improvised, Grip: Thompson, Stock: MG42, Core: Hecate II]
-damage: 101.527 - 91.3739
-fireRate: 13.5
-adsSpread: 0.138
-reloadTime: 1.056
-magazineSize: 10
+Gun contains[Barrel: PPSh-41, Magazine: Kriss Vector, Grip: M1891 Carcano, Stock: Fedorov Avtomat, Core: Remington 700]
+damage: 52.025 - 46.8225
+fireRate: 57.0844
+adsSpread: 0.143
+reloadTime: 3.312
+magazineSize: 30
 health: 0
-recoilAimVertical: 40.95 - 54.6
-movementSpeed: 0.0799999
-TTK 0 Seconds
+recoilAimVertical: 34.0636 - 48.6622
+movementSpeed: 2.36
+TTK 1.05108 Seconds
+
+Gun contains[Barrel: Mustard, Magazine: MP9, Grip: M1891 Carcano, Stock: Arctic Warfare, Core: Remington 700]
+damage: 52.025 - 46.8225
+fireRate: 56.65
+adsSpread: 0.131102
+reloadTime: 2.1505
+magazineSize: 30
+health: 0
+recoilAimVertical: 38.5 - 55
+movementSpeed: 1.76
+TTK 1.05914 Seconds
+
+Gun contains[Barrel: Quack, Magazine: Kriss Vector, Grip: M1891 Carcano, Stock: Fedorov Avtomat, Core: Remington 700]
+damage: 52.025 - 46.8225
+fireRate: 56.5607
+adsSpread: 0.1469
+reloadTime: 3.312
+magazineSize: 30
+health: 0
+recoilAimVertical: 26.6584 - 38.0835
+movementSpeed: 0.98
+TTK 1.06081 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Kriss Vector, Grip: M1891 Carcano, Stock: STG-44, Core: Remington 700]
+damage: 52.025 - 46.8225
+fireRate: 56.3122
+adsSpread: 0.13299
+reloadTime: 2.76
+magazineSize: 30
+health: 0
+recoilAimVertical: 36.6275 - 52.325
+movementSpeed: 2.36
+TTK 1.06549 Seconds
+
+Gun contains[Barrel: As-Val, Magazine: Kriss Vector, Grip: M1891 Carcano, Stock: Fedorov Avtomat, Core: Remington 700]
+damage: 52.025 - 46.8225
+fireRate: 56.037
+adsSpread: 0.13
+reloadTime: 3.312
+magazineSize: 30
+health: 0
+recoilAimVertical: 34.0636 - 48.6622
+movementSpeed: 0.98
+TTK 1.07072 Seconds
 

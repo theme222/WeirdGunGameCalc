@@ -262,9 +262,10 @@
       "Category": "Shotgun",
       "Name": "Remington 870 Wingmaster",
       "Damage": 10,
-      "Spread": -45,
+      "Spread": -25,
+      "Fire_Rate": -10,
       "Pellets": -75,
-      "Reload": 35
+      "Reload": 10
     },
     {
       "Category": "Shotgun",
@@ -2502,7 +2503,7 @@
       "Category": "Shotgun",
       "Name": "Remington 870 MCS",
       "Recoil": -25,
-      "Spread": -30,
+      "Spread": -20,
       "Fire_Rate": -5,
       "Reload": 10
     },
