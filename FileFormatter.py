@@ -6,7 +6,7 @@ import json
 
 filenames = ["Barrels.txt", "Grips.txt", "Guns.txt", "Magazines.txt", "Stocks.txt", "Weird.txt"]
 
-known_categories = {"Assault Rifle", "Sniper", "SMG", "LMG"}
+known_categories = {"Assault Rifle", "Sniper", "SMG", "LMG", "Shotgun", "Weird"}
 known_types = {"Barrels", "Cores", "Grips", "Magazines", "Stocks"}
 known_properties = {'Reload_Speed', 'Recoil_Hip_Vertical', 'Recoil', 'Magazine_Size', 'Fire_Rate', 'ADS_Spread', 'Health', 'Damage', 'Suppression', 'Dropoff_Studs', 'Category', 'Recoil_Aim_Vertical', 'Recoil_Hip_Horizontal', 'Spread', 'Time_To_Aim', 'Hipfire_Spread', 'Recoil_Aim_Horizontal', 'Movement_Speed_Modifier', 'Name', 'Reload_Time', 'Movement_Speed', 'Reload', 'Pellets'}
 known_names = {'MAC-10', 'M1919a6 Browning', 'Type 99', 'Scar H', 'MP9', 'Honk', 'Thompson', 'Plunger', 'M1891 Carcano',
@@ -17,7 +17,7 @@ known_names = {'MAC-10', 'M1919a6 Browning', 'Type 99', 'Scar H', 'MP9', 'Honk',
                'M91 Moschetto', 'DP-27', 'M60', 'Quack', 'AUG', 'Restroom', 'AKM', 'XXL AKM', 'Snake', 'As-Val', 'MG42',
                'Mustard', 'Hell-Trooper-23', 'Kriss Vector', 'Words as Weapons', 'The Chief', 'Mas-38', 'Bicycle',
                'PPSh-41', 'Spas-12', 'Remington 870 Wingmaster', 'M1887', 'M1897 Trench Shotgun', 'Remington 870 Breacher',
-               'Remington 870 MCS', 'Remington 870', 'Spas-12 Folded'}
+               'Remington 870 MCS', 'Remington 870', 'Spas-12 Folded', 'Hex Spitter', 'PP-19 Bizon', 'M1918 BAR'}
 
 
 # Step 0
@@ -170,6 +170,9 @@ def ValidateData():
 
             if part["Name"] not in known_names:
                 print(f"Name {part['Name']} not found")
+
+            if part["Category"] not in known_categories:
+                print(f"Category {part['Category']} not found")
 
 
 def CleanUp():

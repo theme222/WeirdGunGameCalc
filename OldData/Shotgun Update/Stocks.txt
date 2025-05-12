@@ -54,11 +54,6 @@ Stock_Effects:
   Reload_Speed: -25% (Faster)
   Recoil: +10%
 ---
-Stock: Hex Spitter
-Reload: -10%
-Spread: -25%
-Movement_Speed: -5%
----
 
 Category: Sniper Stocks
 ---
@@ -160,12 +155,6 @@ Stock_Effects:
   Recoil: -16%
   Reload_Speed: -10%
 ---
-Stock: PP-19 Bizon
-Movement_Speed: +2.5%
-Reload: -12%
-Spread: -13%
-Recoil: +20%
----
 
 Category: LMG Stocks
 ---
@@ -200,11 +189,6 @@ Stock_Effects:
   Reload_Speed: -15%
   Movement_Speed: -3%
   Recoil: +8%
----
-Stock: M1918 BAR
-Recoil: -20%
-Spread: -10%
-Movement_Speed: -5%
 ---
 
 Category: Shotgun Stocks

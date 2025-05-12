@@ -1,0 +1,222 @@
+Category: Weird Guns
+---
+Core: Words as Weapons
+Damage: 15
+Fire_Rate: 600
+Hipfire_Spread: 5.5
+ADS_Spread: 0.5
+Time_To_Aim: 0.7
+Suppression: 0.3
+Recoil_Hip_Horizontal: -15 - 15
+Recoil_Hip_Vertical: 70 - 80
+Recoil_Aim_Horizontal: -12 - 12
+Recoil_Aim_Vertical: 56 - 64
+---
+Core: Bicycle
+Damage: 20
+Fire_Rate: 350
+Hipfire_Spread: 7
+ADS_Spread: 0.4
+Time_To_Aim: 0.7
+Suppression: 0.5
+Recoil_Hip_Horizontal: -20 - 20
+Recoil_Hip_Vertical: 40 - 55
+Recoil_Aim_Horizontal: -12 - 12
+Recoil_Aim_Vertical: 24 - 33
+---
+Core: Willy Fischy
+Damage: 20
+Fire_Rate: 350
+Hipfire_Spread: 6
+ADS_Spread: 6
+Time_To_Aim: 0.7
+Recoil_Hip_Horizontal: -12 - 12
+Recoil_Hip_Vertical: 70 - 90
+Recoil_Aim_Horizontal: -1.2 - 1.2
+Recoil_Aim_Vertical: 7 - 9
+---
+Core: Stat Randomizer
+Hipfire_Spread: 20
+ADS_Spread: 1
+Time_To_Aim: 0.7
+Movement_Speed_Modifier: -5%
+---
+
+Category: Weird Barrels
+---
+Barrel: Snake
+Barrel_Effects:
+  Damage: +15%
+  Fire_Rate: -5%
+  Movement_Speed: -5%
+  Recoil: +20%
+  Spread: +40%
+---
+Barrel: Water Pipe
+Barrel_Effects:
+  Damage: +20%
+  Fire_Rate: -10%
+  Spread: +25%
+---
+Barrel: Ketchup
+Barrel_Effects:
+  Fire_Rate: +25%
+  Damage: -20%
+  Spread: +40%
+---
+Barrel: Quack
+Barrel_Effects:
+  Fire_Rate: +8%
+  Recoil: -10%
+  Spread: +13%
+---
+Barrel: Oil
+Barrel_Effects:
+  Damage: +20%
+  Movement_Speed: -15%
+  Spread: +50%
+---
+Barrel: Words as Weapons
+Barrel_Effects:
+  Damage: +10%
+  Recoil: +20%
+---
+Barrel: Shower
+Barrel_Effects:
+  Fire_Rate: +15%
+  Recoil: -75%
+  Reload_Speed: +25% (Slower)
+  Spread: +100%
+---
+Barrel: Willy Fischy
+Barrel_Effects:
+  Fire_Rate: +30%
+  Damage: -15%
+  Recoil: +100%
+  Spread: +200%
+---
+Barrel: Mustard
+Barrel_Effects:
+  Fire_Rate: +25%
+  Damage: -10%
+  Spread: +45%
+---
+Barrel: Honk
+Barrel_Effects:
+  Damage: +300%
+  Fire_Rate: -90%
+  Recoil: +1000%
+  Spread: +1500%
+---
+
+Category: Weird Grips
+---
+Grip: Words as Weapons
+Grip_Effects:
+  Recoil: -10%
+  Reload_Speed: -4% (Faster)
+  Spread: +14%
+---
+Grip: Banana
+Grip_Effects:
+  Movement_Speed: +5%
+  Recoil: -20%
+  Spread: +15%
+---
+Grip: Tap
+Grip_Effects:
+  Recoil: -30%
+  Movement_Speed: -5%
+  Spread: +15%
+---
+
+Category: Weird Magazines
+---
+Magazine: Horizontal
+Magazine_Effects:
+  Magazine_Size: 20
+  Reload_Time: 1.9s
+  Fire_Rate: +10%
+  Recoil: -15%
+  Damage: -5%
+---
+Magazine: Words as Weapons
+Magazine_Effects:
+  Magazine_Size: 30
+  Reload_Time: 2.4s
+  Damage: +10%
+---
+Magazine: Restroom
+Magazine_Effects:
+  Magazine_Size: 35
+  Reload_Time: 2.9s
+  Fire_Rate: +10%
+  Recoil: -20%
+  Spread: +30%
+---
+Magazine: Improvised
+Magazine_Effects:
+  Magazine_Size: 10
+  Reload_Time: 0.8s
+  Damage: +15%
+  Movement_Speed: +5%
+  Spread: +15%
+---
+Magazine: XXL AKM
+Magazine_Effects:
+  Magazine_Size: 90
+  Reload_Time: 9s
+  Damage: +10%
+  Movement_Speed: -10%
+  Recoil: +20%
+---
+Magazine: Rice Pot
+Magazine_Effects:
+  Magazine_Size: 120
+  Reload_Time: 10s
+  Fire_Rate: +10%
+  Recoil: -10%
+  Damage: -20%
+  Movement_Speed: -15%
+---
+
+Category: Weird Stocks
+---
+Stock: Shovel
+Stock_Effects:
+  Spread: -5%
+  Recoil: +10%
+---
+Stock: Words as Weapons
+Stock_Effects:
+  Reload_Speed: -10% (Faster)
+  Spread: -10%
+  Recoil: +15%
+---
+Stock: Plunger
+Stock_Effects:
+  Recoil: -25%
+  Reload_Speed: +20% (Slower)
+  Spread: +15%
+---
+Stock: Willy Fischy
+Stock_Effects:
+  Recoil: -10%
+  Reload_Speed: -5% (Faster)
+---
+Stock: Speed Coil
+Stock_Effects:
+  Fire_Rate: +5%
+  Movement_Speed: +10%
+  Recoil: -40%
+  Reload_Speed: -15% (Faster)
+  Health: -10% (Player Health)
+  Spread: +250%
+---
+Stock: Anvil
+Stock_Effects:
+  Recoil: -90%
+  Spread: -45%
+  Movement_Speed: -40%
+  Reload_Speed: +20% (Slower)
+---

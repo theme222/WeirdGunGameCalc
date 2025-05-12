@@ -87,12 +87,6 @@ Magazine_Effects:
   Recoil: +15%
   Spread: +10%
 ---
-Magazine: Hex Spitter
-Magazine_Size: 35
-Reload: 4
-Damage: +15%
-Recoil: -10%
----
 
 Category: Sniper Magazines
 ---
@@ -228,11 +222,6 @@ Magazine_Effects:
   Movement_Speed: +3.5%
   Spread: -15%
 ---
-Magazine: PP-19 Bizon
-Magazine_Size: 64
-Reload: 4
-Damage: +10%
----
 
 Category: LMG Magazines
 ---
@@ -276,15 +265,6 @@ Magazine_Effects:
   Damage: 5.5%
   Movement_Speed: -1%
   Spread: -17%
----
-Magazine: M1918 BAR
-Magazine_Size: 20
-Reload: 4
-Damage: +25%
-Fire_Rate: -10%
-Movement_Speed: -0.5%
-Recoil: +10%
-Spread: +10%
 ---
 
 Category: Shotgun Magazines

@@ -64,11 +64,6 @@ Barrel_Effects:
   Recoil: +10%
   Spread: +35%
 ---
-Barrel: Hex Spitter
-Damage: +10%
-Recoil: -5%
-Spread: +10%
----
 
 Category: Sniper Barrels
 ---
@@ -179,12 +174,6 @@ Barrel_Effects:
   Fire_Rate: -5%
   Recoil: +5%
 ---
-Barrel: PP-19 Bizon
-Damage: +8%
-Fire_Rate: +5%
-Movement_Speed: +2.5%
-Recoil: +25%
----
 
 Category: LMG Barrels
 ---
@@ -236,13 +225,6 @@ Barrel_Effects:
   Spread: -15%
   Movement_Speed: -2%
   Reload_Speed: +5%
----
-Barrel: M1918 BAR
-Damage: +25%
-Fire_Rate: -10%
-Movement_Speed: -0.5%
-Recoil: +20%
-Spread: +20%
 ---
 
 Category: Shotgun Barrels

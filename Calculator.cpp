@@ -944,7 +944,7 @@ int main(int argc, char* argv[])
 
     // Write to the file
     std::ofstream file(Input::outpath);
-    file << "Command: " << fullCommand << "\n";
+    file << fullCommand << "\n";
     file << "Current top " << Input::howManyTopGunsToDisplay << " guns are: \n";
     int endSize = outputGuns.size()-1-Input::howManyTopGunsToDisplay;
     // Reverse out the answer

@@ -1,0 +1,112 @@
+./Calculator -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper --speedMin 0 --damageMin 99.95 --spreadMax 0.149 --sort FIRERATE 
+Current top 10 guns are: 
+Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: PPSh-41, Stock: Speed Coil, Core: Hecate II]
+damage: 101.528 - 91.3748
+fireRate: 15.0255
+adsSpread: 0.12831
+reloadTime: 4.8875
+magazineSize: 5
+health: -10
+recoilAimVertical: 56.7 - 75.6
+movementSpeed: 0
+TTK 0 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Remington 700, Stock: Speed Coil, Core: Hecate II]
+damage: 101.528 - 91.3748
+fireRate: 14.175
+adsSpread: 0.12285
+reloadTime: 3.825
+magazineSize: 5
+health: -10
+recoilAimVertical: 53.865 - 71.82
+movementSpeed: 0
+TTK 0 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Arctic Warfare, Stock: Speed Coil, Core: Hecate II]
+damage: 101.528 - 91.3748
+fireRate: 14.175
+adsSpread: 0.09555
+reloadTime: 4.25
+magazineSize: 5
+health: -10
+recoilAimVertical: 56.7 - 75.6
+movementSpeed: 0
+TTK 0 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Mas-38, Stock: Speed Coil, Core: Hecate II]
+damage: 101.528 - 91.3748
+fireRate: 14.175
+adsSpread: 0.124215
+reloadTime: 4.25
+magazineSize: 5
+health: -10
+recoilAimVertical: 56.7 - 75.6
+movementSpeed: 1.2
+TTK 0 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: As-Val, Stock: Speed Coil, Core: Hecate II]
+damage: 101.528 - 91.3748
+fireRate: 14.175
+adsSpread: 0.1365
+reloadTime: 3.80375
+magazineSize: 5
+health: -10
+recoilAimVertical: 54.7155 - 72.954
+movementSpeed: 0
+TTK 0 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Famas F1, Stock: Speed Coil, Core: Hecate II]
+damage: 101.528 - 91.3748
+fireRate: 14.175
+adsSpread: 0.1365
+reloadTime: 3.9525
+magazineSize: 5
+health: -10
+recoilAimVertical: 52.731 - 70.308
+movementSpeed: 0
+TTK 0 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: AUG, Stock: Speed Coil, Core: Hecate II]
+damage: 101.528 - 91.3748
+fireRate: 14.175
+adsSpread: 0.129811
+reloadTime: 4.25
+magazineSize: 5
+health: -10
+recoilAimVertical: 54.7155 - 72.954
+movementSpeed: 1.75
+TTK 0 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Kriss Vector, Stock: Speed Coil, Core: Hecate II]
+damage: 101.528 - 91.3748
+fireRate: 14.175
+adsSpread: 0.1365
+reloadTime: 4.25
+magazineSize: 5
+health: -10
+recoilAimVertical: 51.597 - 68.796
+movementSpeed: 1.98
+TTK 0 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Hell-Trooper-23, Stock: Speed Coil, Core: Hecate II]
+damage: 101.528 - 91.3748
+fireRate: 14.175
+adsSpread: 0.131722
+reloadTime: 4.25
+magazineSize: 5
+health: -10
+recoilAimVertical: 49.9527 - 66.6036
+movementSpeed: 0
+TTK 0 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Type 2a Nambu, Stock: Speed Coil, Core: Hecate II]
+damage: 105.183 - 94.6643
+fireRate: 14.175
+adsSpread: 0.1365
+reloadTime: 4.25
+magazineSize: 5
+health: -17.5
+recoilAimVertical: 69.741 - 92.988
+movementSpeed: 0
+TTK 0 Seconds
+
