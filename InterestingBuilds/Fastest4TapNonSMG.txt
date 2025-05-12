@@ -1,0 +1,112 @@
+./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 24.95 --speedMin 0 --magazineMin 30 --spreadMax 0.65 
+Current top 10 guns are: 
+Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: AKM]
+damage: 25.0435 - 20.0348
+fireRate: 680.4
+adsSpread: 0.621
+reloadTime: 5.52
+magazineSize: 35
+health: 0
+recoilAimVertical: 49.896 - 57.024
+movementSpeed: 0
+TTK 0.26455 Seconds
+
+Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: AKM]
+damage: 25.0435 - 20.0348
+fireRate: 680.4
+adsSpread: 0.621
+reloadTime: 5.52
+magazineSize: 35
+health: 0
+recoilAimVertical: 49.896 - 57.024
+movementSpeed: 0
+TTK 0.26455 Seconds
+
+Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: AKM]
+damage: 25.0435 - 20.0348
+fireRate: 680.4
+adsSpread: 0.621
+reloadTime: 5.52
+magazineSize: 35
+health: 0
+recoilAimVertical: 49.896 - 57.024
+movementSpeed: 0
+TTK 0.26455 Seconds
+
+Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: AKM]
+damage: 25.0435 - 20.0348
+fireRate: 680.4
+adsSpread: 0.621
+reloadTime: 5.52
+magazineSize: 35
+health: 0
+recoilAimVertical: 49.896 - 57.024
+movementSpeed: 0
+TTK 0.26455 Seconds
+
+Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: STG-44, Core: AKM]
+damage: 25.0435 - 20.0348
+fireRate: 667.44
+adsSpread: 0.5589
+reloadTime: 4.6
+magazineSize: 35
+health: 0
+recoilAimVertical: 55.44 - 63.36
+movementSpeed: 0
+TTK 0.269687 Seconds
+
+Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: STG-44, Core: AKM]
+damage: 25.0435 - 20.0348
+fireRate: 667.44
+adsSpread: 0.5589
+reloadTime: 4.6
+magazineSize: 35
+health: 0
+recoilAimVertical: 55.44 - 63.36
+movementSpeed: 0
+TTK 0.269687 Seconds
+
+Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: STG-44, Core: AKM]
+damage: 25.0435 - 20.0348
+fireRate: 667.44
+adsSpread: 0.5589
+reloadTime: 4.6
+magazineSize: 35
+health: 0
+recoilAimVertical: 55.44 - 63.36
+movementSpeed: 0
+TTK 0.269687 Seconds
+
+Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: STG-44, Core: AKM]
+damage: 25.0435 - 20.0348
+fireRate: 667.44
+adsSpread: 0.5589
+reloadTime: 4.6
+magazineSize: 35
+health: 0
+recoilAimVertical: 55.44 - 63.36
+movementSpeed: 0
+TTK 0.269687 Seconds
+
+Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Famas F1, Core: AKM]
+damage: 25.0435 - 20.0348
+fireRate: 648
+adsSpread: 0.621
+reloadTime: 4.83
+magazineSize: 35
+health: 0
+recoilAimVertical: 47.124 - 53.856
+movementSpeed: 0
+TTK 0.277778 Seconds
+
+Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: M-16, Core: AKM]
+damage: 25.0435 - 20.0348
+fireRate: 648
+adsSpread: 0.621
+reloadTime: 4.6
+magazineSize: 35
+health: 0
+recoilAimVertical: 49.896 - 57.024
+movementSpeed: 0
+TTK 0.277778 Seconds
+

@@ -1515,8 +1515,8 @@
         14.9
       ],
       "Dropoff_Studs": [
-        50,
-        100
+        55,
+        110
       ],
       "Pellets": 10,
       "Fire_Rate": 60,
@@ -1550,8 +1550,8 @@
         9.8
       ],
       "Dropoff_Studs": [
-        50,
-        100
+        55,
+        110
       ],
       "Pellets": 16,
       "Fire_Rate": 120,
@@ -1584,8 +1584,8 @@
         15.2
       ],
       "Dropoff_Studs": [
-        50,
-        100
+        55,
+        110
       ],
       "Pellets": 8,
       "Fire_Rate": 90,
@@ -1618,8 +1618,8 @@
         7.7
       ],
       "Dropoff_Studs": [
-        50,
-        100
+        55,
+        110
       ],
       "Pellets": 6,
       "Fire_Rate": 220,
@@ -2112,7 +2112,7 @@
       "Category": "Assault Rifle",
       "Name": "Hex Spitter",
       "Magazine_Size": 35,
-      "Reload": 4,
+      "Reload_Time": 4,
       "Damage": 15,
       "Recoil": -10
     },

@@ -89,7 +89,7 @@ Magazine_Effects:
 ---
 Magazine: Hex Spitter
 Magazine_Size: 35
-Reload: 4
+Reload_Time: 4
 Damage: +15%
 Recoil: -10%
 ---
