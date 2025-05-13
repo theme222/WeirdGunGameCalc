@@ -4,7 +4,7 @@ Gun contains[Barrel: PP-19 Bizon, Magazine: Hex Spitter, Grip: PPSh-41, Stock: M
 damage: 16.7182 - 13.3746
 fireRate: 1081.64
 adsSpread: 0.575
-reloadTime: 0
+reloadTime: 4.6
 magazineSize: 35
 health: 0
 recoilAimVertical: 20.7 - 25.875
@@ -15,7 +15,7 @@ Gun contains[Barrel: PP-19 Bizon, Magazine: Hex Spitter, Grip: PPSh-41, Stock: K
 damage: 16.7182 - 13.3746
 fireRate: 1067.49
 adsSpread: 0.552
-reloadTime: 0
+reloadTime: 4.6
 magazineSize: 35
 health: 0
 recoilAimVertical: 15.12 - 18.9
@@ -26,7 +26,7 @@ Gun contains[Barrel: PP-19 Bizon, Magazine: Hex Spitter, Grip: PPSh-41, Stock: F
 damage: 16.7182 - 13.3746
 fireRate: 1061.42
 adsSpread: 0.46
-reloadTime: 0
+reloadTime: 5.52
 magazineSize: 35
 health: 0
 recoilAimVertical: 16.2 - 20.25
@@ -37,7 +37,7 @@ Gun contains[Barrel: PP-19 Bizon, Magazine: Hex Spitter, Grip: PPSh-41, Stock: S
 damage: 16.7182 - 13.3746
 fireRate: 1041.21
 adsSpread: 0.414
-reloadTime: 0
+reloadTime: 4.6
 magazineSize: 35
 health: 0
 recoilAimVertical: 18 - 22.5
@@ -48,7 +48,7 @@ Gun contains[Barrel: AKM, Magazine: Hex Spitter, Grip: PPSh-41, Stock: M1897 Tre
 damage: 17.2839 - 13.8271
 fireRate: 1040.04
 adsSpread: 0.575
-reloadTime: 0
+reloadTime: 4.6
 magazineSize: 35
 health: 0
 recoilAimVertical: 19.872 - 24.84
@@ -59,7 +59,7 @@ Gun contains[Barrel: STG-44, Magazine: Hex Spitter, Grip: PPSh-41, Stock: M1897 
 damage: 17.2839 - 13.8271
 fireRate: 1040.04
 adsSpread: 0.6325
-reloadTime: 0
+reloadTime: 4.6
 magazineSize: 35
 health: 0
 recoilAimVertical: 18.216 - 22.77
@@ -70,7 +70,7 @@ Gun contains[Barrel: Remington 870 MCS, Magazine: Hex Spitter, Grip: PPSh-41, St
 damage: 16.8125 - 13.45
 fireRate: 1040.04
 adsSpread: 0.514625
-reloadTime: 0
+reloadTime: 4.6
 magazineSize: 35
 health: 0
 recoilAimVertical: 16.56 - 20.7
@@ -81,7 +81,7 @@ Gun contains[Barrel: Hex Spitter, Magazine: Hex Spitter, Grip: PPSh-41, Stock: M
 damage: 17.2839 - 13.8271
 fireRate: 1040.04
 adsSpread: 0.6325
-reloadTime: 0
+reloadTime: 4.6
 magazineSize: 35
 health: 0
 recoilAimVertical: 15.732 - 19.665
@@ -92,7 +92,7 @@ Gun contains[Barrel: Words as Weapons, Magazine: Hex Spitter, Grip: PPSh-41, Sto
 damage: 17.2839 - 13.8271
 fireRate: 1040.04
 adsSpread: 0.575
-reloadTime: 0
+reloadTime: 4.6
 magazineSize: 35
 health: 0
 recoilAimVertical: 19.872 - 24.84
@@ -103,7 +103,7 @@ Gun contains[Barrel: MP 40, Magazine: Hex Spitter, Grip: PPSh-41, Stock: M1897 T
 damage: 16.9696 - 13.5757
 fireRate: 1040.04
 adsSpread: 0.575
-reloadTime: 0
+reloadTime: 4.6
 magazineSize: 35
 health: 0
 recoilAimVertical: 19.872 - 24.84

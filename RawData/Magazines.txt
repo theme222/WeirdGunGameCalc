@@ -230,7 +230,7 @@ Magazine_Effects:
 ---
 Magazine: PP-19 Bizon
 Magazine_Size: 64
-Reload: 4
+Reload_Time: 4
 Damage: +10%
 ---
 

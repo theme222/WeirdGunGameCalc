@@ -939,12 +939,12 @@
       "Category": "SMG",
       "Name": "MAC-10",
       "Damage": [
-        15.3,
-        9.2
+        14.3,
+        8.6
       ],
       "Dropoff_Studs": [
-        90,
-        125
+        100,
+        135
       ],
       "Fire_Rate": 900,
       "Hipfire_Spread": 2.5,
@@ -972,12 +972,12 @@
       "Category": "SMG",
       "Name": "Skorpion vz. 61",
       "Damage": [
-        16.5,
-        9.9
+        15.5,
+        9.3
       ],
       "Dropoff_Studs": [
-        90,
-        125
+        100,
+        135
       ],
       "Fire_Rate": 850,
       "Hipfire_Spread": 5,
@@ -1005,12 +1005,12 @@
       "Category": "SMG",
       "Name": "Thompson",
       "Damage": [
-        17,
-        10.2
+        16,
+        9.6
       ],
       "Dropoff_Studs": [
-        90,
-        125
+        100,
+        135
       ],
       "Fire_Rate": 800,
       "Hipfire_Spread": 2,
@@ -1038,12 +1038,12 @@
       "Category": "SMG",
       "Name": "MP9",
       "Damage": [
-        13.2,
-        7.9
+        12.2,
+        7.3
       ],
       "Dropoff_Studs": [
-        90,
-        125
+        100,
+        135
       ],
       "Fire_Rate": 1000,
       "Hipfire_Spread": 2,
@@ -1071,12 +1071,12 @@
       "Category": "SMG",
       "Name": "MP 40",
       "Damage": [
-        24.2,
-        14.5
+        23.2,
+        13.9
       ],
       "Dropoff_Studs": [
-        90,
-        125
+        100,
+        135
       ],
       "Fire_Rate": 500,
       "Hipfire_Spread": 2,
@@ -1104,12 +1104,12 @@
       "Category": "SMG",
       "Name": "UMP-40",
       "Damage": [
-        22,
-        13.2
+        21,
+        12.6
       ],
       "Dropoff_Studs": [
-        90,
-        125
+        100,
+        135
       ],
       "Fire_Rate": 600,
       "Hipfire_Spread": 1.5,
@@ -1141,8 +1141,8 @@
         7
       ],
       "Dropoff_Studs": [
-        90,
-        125
+        100,
+        135
       ],
       "Fire_Rate": 1250,
       "Hipfire_Spread": 4,
@@ -1174,8 +1174,8 @@
         7.5
       ],
       "Dropoff_Studs": [
-        90,
-        125
+        100,
+        135
       ],
       "Fire_Rate": 1200,
       "Hipfire_Spread": 2,
@@ -1203,12 +1203,12 @@
       "Category": "SMG",
       "Name": "Type 2a Nambu",
       "Damage": [
-        19.5,
-        11.7
+        18.5,
+        11.1
       ],
       "Dropoff_Studs": [
-        90,
-        125
+        100,
+        135
       ],
       "Fire_Rate": 600,
       "Hipfire_Spread": 3,
@@ -1236,12 +1236,12 @@
       "Category": "SMG",
       "Name": "Mas-38",
       "Damage": [
-        17.5,
-        10.5
+        16.5,
+        9.9
       ],
       "Dropoff_Studs": [
-        90,
-        125
+        100,
+        135
       ],
       "Fire_Rate": 700,
       "Hipfire_Spread": 2.5,
@@ -1614,7 +1614,7 @@
       "Category": "Shotgun",
       "Name": "Spas-12",
       "Damage": [
-        51,
+        60,
         7.7
       ],
       "Dropoff_Studs": [
@@ -2264,7 +2264,7 @@
       "Category": "SMG",
       "Name": "PP-19 Bizon",
       "Magazine_Size": 64,
-      "Reload": 4,
+      "Reload_Time": 4,
       "Damage": 10
     },
     {

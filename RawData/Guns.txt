@@ -220,8 +220,8 @@ Recoil_Aim_Vertical: 45 - 60
 Category: SMGs
 ---
 Core: MAC-10
-Damage: 15.3 > 9.2
-Dropoff_Studs: 90 > 125
+Damage: 14.3 > 8.6
+Dropoff_Studs: 100 > 135
 Fire_Rate: 900
 Hipfire_Spread: 2.5
 ADS_Spread: 0.85
@@ -233,8 +233,8 @@ Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 16 - 24
 ---
 Core: Skorpion vz. 61
-Damage: 16.5 > 9.9
-Dropoff_Studs: 90 > 125
+Damage: 15.5 > 9.3
+Dropoff_Studs: 100 > 135
 Fire_Rate: 850
 Hipfire_Spread: 5
 ADS_Spread: 3
@@ -246,8 +246,8 @@ Recoil_Aim_Horizontal: -20 - 20
 Recoil_Aim_Vertical: 48 - 64
 ---
 Core: Thompson
-Damage: 17 > 10.2
-Dropoff_Studs: 90 > 125
+Damage: 16 > 9.6
+Dropoff_Studs: 100 > 135
 Fire_Rate: 800
 Hipfire_Spread: 2
 ADS_Spread: 0.85
@@ -259,8 +259,8 @@ Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 32 - 48
 ---
 Core: MP9
-Damage: 13.2 > 7.9
-Dropoff_Studs: 90 > 125
+Damage: 12.2 > 7.3
+Dropoff_Studs: 100 > 135
 Fire_Rate: 1000
 Hipfire_Spread: 2
 ADS_Spread: 0.65
@@ -272,8 +272,8 @@ Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 16 - 24
 ---
 Core: MP 40
-Damage: 24.2 > 14.5
-Dropoff_Studs: 90 > 125
+Damage: 23.2 > 13.9
+Dropoff_Studs: 100 > 135
 Fire_Rate: 500
 Hipfire_Spread: 2
 ADS_Spread: 0.5
@@ -285,8 +285,8 @@ Recoil_Aim_Horizontal: -12 - 12
 Recoil_Aim_Vertical: 56 - 64
 ---
 Core: UMP-40
-Damage: 22 > 13.2
-Dropoff_Studs: 90 > 125
+Damage: 21 > 12.6
+Dropoff_Studs: 100 > 135
 Fire_Rate: 600
 Hipfire_Spread: 1.5
 ADS_Spread: 0.55
@@ -299,7 +299,7 @@ Recoil_Aim_Vertical: 57 - 85.5
 ---
 Core: PPSh-41
 Damage: 11.7 > 7
-Dropoff_Studs: 90 > 125
+Dropoff_Studs: 100 > 135
 Fire_Rate: 1250
 Hipfire_Spread: 4
 ADS_Spread: 1.5
@@ -312,7 +312,7 @@ Recoil_Aim_Vertical: 24 - 48
 ---
 Core: Kriss Vector
 Damage: 12.5 > 7.5
-Dropoff_Studs: 90 > 125
+Dropoff_Studs: 100 > 135
 Fire_Rate: 1200
 Hipfire_Spread: 2
 ADS_Spread: 0.85
@@ -324,8 +324,8 @@ Recoil_Aim_Horizontal: -4.5 - 4.5
 Recoil_Aim_Vertical: 9 - 27
 ---
 Core: Type 2a Nambu
-Damage: 19.5 > 11.7
-Dropoff_Studs: 90 > 125
+Damage: 18.5 > 11.1
+Dropoff_Studs: 100 > 135
 Fire_Rate: 600
 Hipfire_Spread: 3
 ADS_Spread: 0.45
@@ -337,8 +337,8 @@ Recoil_Aim_Horizontal: -6.5 - 6.5
 Recoil_Aim_Vertical: 16.2 - 22.7
 ---
 Core: Mas-38
-Damage: 17.5 > 10.5
-Dropoff_Studs: 90 > 125
+Damage: 16.5 > 9.9
+Dropoff_Studs: 100 > 135
 Fire_Rate: 700
 Hipfire_Spread: 2.5
 ADS_Spread: 0.45
@@ -501,7 +501,7 @@ Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 20 - 32
 ---
 Core: Spas-12
-Damage: 51 > 7.7
+Damage: 60 > 7.7
 Dropoff_Studs: 55 > 110
 Pellets: 6
 Fire_Rate: 220

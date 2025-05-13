@@ -1,0 +1,112 @@
+./Calculator -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --damage 33.4 99.99 --spreadMax 0.65 --speedMin -10 
+Current top 10 guns are: 
+Gun contains[Barrel: Oil, Magazine: Hex Spitter, Grip: The Chief, Stock: M1891 Carcano, Core: MP 40]
+damage: 33.5578 - 20.1058
+fireRate: 500
+adsSpread: 0.6
+reloadTime: 4
+magazineSize: 35
+health: 0
+recoilAimVertical: 79.9848 - 91.4112
+movementSpeed: -9.4
+TTK 0.24 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Hell-Trooper-23, Grip: Type 2a Nambu, Stock: UMP-40, Core: MP 40]
+damage: 34.2414 - 20.5153
+fireRate: 500
+adsSpread: 0.6435
+reloadTime: 2.3
+magazineSize: 45
+health: -7.5
+recoilAimVertical: 95.0544 - 108.634
+movementSpeed: -8
+TTK 0.24 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Words as Weapons, Grip: Type 2a Nambu, Stock: MG42, Core: MP 40]
+damage: 34.1173 - 20.441
+fireRate: 500
+adsSpread: 0.628125
+reloadTime: 2.88
+magazineSize: 30
+health: -7.5
+recoilAimVertical: 68.88 - 78.72
+movementSpeed: -9.525
+TTK 0.24 Seconds
+
+Gun contains[Barrel: Oil, Magazine: PP-19 Bizon, Grip: Type 2a Nambu, Stock: MG42, Core: MP 40]
+damage: 34.1173 - 20.441
+fireRate: 500
+adsSpread: 0.628125
+reloadTime: 4.8
+magazineSize: 64
+health: -7.5
+recoilAimVertical: 68.88 - 78.72
+movementSpeed: -9.525
+TTK 0.24 Seconds
+
+Gun contains[Barrel: Oil, Magazine: AKM, Grip: Type 2a Nambu, Stock: AUG, Core: MP 40]
+damage: 33.497 - 20.0693
+fireRate: 500
+adsSpread: 0.63
+reloadTime: 2.4
+magazineSize: 30
+health: -7.5
+recoilAimVertical: 63.3696 - 72.4224
+movementSpeed: -9.8
+TTK 0.24 Seconds
+
+Gun contains[Barrel: Oil, Magazine: PP-19 Bizon, Grip: Type 2a Nambu, Stock: UMP-40, Core: MP 40]
+damage: 34.1173 - 20.441
+fireRate: 500
+adsSpread: 0.585
+reloadTime: 4
+magazineSize: 64
+health: -7.5
+recoilAimVertical: 82.656 - 94.464
+movementSpeed: -8
+TTK 0.24 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Words as Weapons, Grip: Type 2a Nambu, Stock: AUG, Core: MP 40]
+damage: 34.1173 - 20.441
+fireRate: 500
+adsSpread: 0.63
+reloadTime: 2.4
+magazineSize: 30
+health: -7.5
+recoilAimVertical: 63.3696 - 72.4224
+movementSpeed: -9.8
+TTK 0.24 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Hex Spitter, Grip: The Chief, Stock: MP9, Core: MP 40]
+damage: 33.5578 - 20.1058
+fireRate: 500
+adsSpread: 0.54
+reloadTime: 4
+magazineSize: 35
+health: 0
+recoilAimVertical: 90.4176 - 103.334
+movementSpeed: -7.2
+TTK 0.24 Seconds
+
+Gun contains[Barrel: Oil, Magazine: PP-19 Bizon, Grip: Type 2a Nambu, Stock: AUG, Core: MP 40]
+damage: 34.1173 - 20.441
+fireRate: 500
+adsSpread: 0.63
+reloadTime: 4
+magazineSize: 64
+health: -7.5
+recoilAimVertical: 63.3696 - 72.4224
+movementSpeed: -9.8
+TTK 0.24 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Hex Spitter, Grip: The Chief, Stock: Mas-38, Core: MP 40]
+damage: 33.5578 - 20.1058
+fireRate: 500
+adsSpread: 0.6
+reloadTime: 3.6
+magazineSize: 35
+health: 0
+recoilAimVertical: 58.4237 - 66.7699
+movementSpeed: -8.5
+TTK 0.24 Seconds
+
