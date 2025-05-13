@@ -279,7 +279,7 @@ Magazine_Effects:
 ---
 Magazine: M1918 BAR
 Magazine_Size: 20
-Reload: 4
+Reload_Time: 4
 Damage: +25%
 Fire_Rate: -10%
 Movement_Speed: -0.5%

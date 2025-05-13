@@ -672,6 +672,7 @@ namespace BruteForce
     class Iterator
     {
     public:
+        static uint64_t processedCombinations;
 
         int barrelIndex = 0;
         int magazineIndex = 0;
@@ -685,7 +686,7 @@ namespace BruteForce
             // if (barrelCount == 0 || magazineCount == 0 || gripCount == 0 || stockCount == 0 || coreCount == 0)
             //     throw std::runtime_error("1 Or more types of parts are missing");
         }
-        Iterator(int threadId): threadId(threadId)
+        Iterator(int threadId): threadId(threadId), coreIndex(threadId)
         { }
 
         bool Step(Barrel*& b, Magazine*& m, Grip*& g, Stock*& s, Core*& c) // Returns true if another combination still exists
@@ -695,6 +696,8 @@ namespace BruteForce
             g = gripList + gripIndex;
             s = stockList + stockIndex;
             c = coreList + coreIndex;
+
+            processedCombinations++;
 
             int coreName = coreList[coreIndex].name_fast;
 
@@ -726,14 +729,16 @@ namespace BruteForce
             if (stockIndex < stockCount) return true;
 
             stockIndex = 0;
+            printf("Processed core index: %d\n", coreIndex);
+
             do {
                 coreIndex++;
             } while (coreIndex % Input::threadsToMake != threadId);
 
-            printf("Processed core index: %d\n", coreIndex);
             return coreIndex < coreCount;
         }
     };
+    uint64_t Iterator::processedCombinations = 0;
 
     namespace Filter
     {
@@ -901,6 +906,7 @@ int main(int argc, char* argv[])
         coreCount++;
     }
 
+
     printf("Barrels detected: %d, Magazines detected: %d, Grips detected: %d, Stocks detected: %d, Cores detected: %d\n", barrelCount, magazineCount, gripCount, stockCount, coreCount);
     printf("Total of %u possibilities \n", barrelCount*magazineCount*gripCount*stockCount*coreCount);
     printf("Starting bruteforce with %d threads\n", Input::threadsToMake);
@@ -957,4 +963,5 @@ int main(int argc, char* argv[])
         file << g << '\n';
     }
     file.close();
+    printf("Processed total of %u combinations\n", BruteForce::Iterator::processedCombinations);
 }
