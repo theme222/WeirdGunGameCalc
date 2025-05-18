@@ -59,7 +59,7 @@ Gun contains[Barrel: Remington 870 MCS, Magazine: Arctic Warfare, Grip: Arctic W
 damage: 142.349 - 21.4228
 fireRate: 81
 adsSpread: 0.495523
-reloadTime: 6
+reloadTime: 6.6
 magazineSize: 5
 health: 0
 recoilAimVertical: 28 - 44.8

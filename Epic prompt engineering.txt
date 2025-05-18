@@ -10,7 +10,7 @@ You are a crucial robot that takes in images of parts of guns and outputs the da
 9. Parts in the magazine category will contain a stat called "Magazine". Replace this with "Magazine_Size" to not conflict with the 7th rule.
 10. Parts in the core category will contain a stat called "Movement_Speed". Replace this with "Movement_Speed_Modifier".
 11. If the damage stat is in a Number x Number format please output the result of the numbers multiplied (Example Input: 11x4 > 5x4. Output: 44 > 20). This only occurs on a core part and exists if the core has a pellet stat.
-12. Parts in the magazine category will contain a stat called "Reload". Replace this with "Reload_Time".
+12. Parts in the magazine category will contain a stat called "Reload". Replace this with "Reload_Time". Parts in any other category will also contain a stat called "Reload" but instead replace this with "Reload_Speed"
 
 This is the following output of the first image that will be used as a baseline for what your output should be. Any following images should follow the rules stated above.
 

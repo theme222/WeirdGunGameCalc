@@ -9,8 +9,7 @@
     {
       "Category": "Assault Rifle",
       "Name": "M-16",
-      "Recoil": -10,
-      "Damage": -10
+      "Recoil": -15
     },
     {
       "Category": "Assault Rifle",
@@ -81,6 +80,19 @@
       "Damage": 10,
       "Recoil": -5,
       "Spread": 10
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "G36C",
+      "Damage": 5,
+      "Reload_Time": -10
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "APS",
+      "Damage": 22,
+      "Fire_Rate": -15,
+      "Spread": 20
     },
     {
       "Category": "Sniper",
@@ -211,6 +223,15 @@
       "Recoil": 25
     },
     {
+      "Category": "SMG",
+      "Name": "MP5",
+      "Damage": 10,
+      "Movement_Speed": 2.5,
+      "Recoil": -5,
+      "Spread": -5,
+      "Fire_Rate": -5
+    },
+    {
       "Category": "LMG",
       "Name": "M60",
       "Damage": 5,
@@ -289,7 +310,7 @@
       "Spread": -25,
       "Fire_Rate": -10,
       "Pellets": -75,
-      "Reload": 10
+      "Reload_Speed": 10
     },
     {
       "Category": "Shotgun",
@@ -303,7 +324,7 @@
       "Category": "Shotgun",
       "Name": "M1897 Trench Shotgun",
       "Fire_Rate": 5,
-      "Reload": -10,
+      "Reload_Speed": -10,
       "Spread": 10
     },
     {
@@ -318,13 +339,20 @@
       "Name": "Remington 870 MCS",
       "Damage": 10,
       "Spread": -15,
-      "Reload": 10
+      "Reload_Speed": 10
     },
     {
       "Category": "Shotgun",
       "Name": "Remington 870",
       "Damage": 10,
       "Spread": 15
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Circuit Judge",
+      "Damage": 10,
+      "Reload_Speed": -15,
+      "Recoil": 15
     },
     {
       "Category": "Weird",
@@ -372,10 +400,11 @@
     {
       "Category": "Weird",
       "Name": "Shower",
-      "Fire_Rate": 15,
+      "Fire_Rate": 20,
+      "Pellets": 100,
       "Recoil": -75,
       "Reload_Speed": 25,
-      "Spread": 100
+      "Spread": 300
     },
     {
       "Category": "Weird",
@@ -765,6 +794,71 @@
       "Recoil_Aim_Vertical": [
         15,
         20
+      ]
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "APS",
+      "Damage": [
+        20,
+        16
+      ],
+      "Dropoff_Studs": [
+        180,
+        350
+      ],
+      "Fire_Rate": 600,
+      "Spread": 4,
+      "ADS_Spread": 1.9,
+      "Time_To_Aim": 0.7,
+      "Suppression": 0.3,
+      "Recoil_Hip_Horizontal": [
+        -22,
+        22
+      ],
+      "Recoil_Hip_Vertical": [
+        70,
+        100
+      ],
+      "Recoil_Aim_Horizontal": [
+        -12.1,
+        12.1
+      ],
+      "Recoil_Aim_Vertical": [
+        38.5,
+        55
+      ]
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "G36C",
+      "Damage": [
+        16.5,
+        13.2
+      ],
+      "Dropoff_Studs": [
+        180,
+        350
+      ],
+      "Fire_Rate": 750,
+      "Spread": 2,
+      "ADS_Spread": 0.35,
+      "Time_To_Aim": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Hip_Vertical": [
+        10,
+        30
+      ],
+      "Recoil_Aim_Horizontal": [
+        -9,
+        9
+      ],
+      "Recoil_Aim_Vertical": [
+        9,
+        27
       ]
     },
     {
@@ -1298,6 +1392,39 @@
       ]
     },
     {
+      "Category": "SMG",
+      "Name": "MP5",
+      "Damage": [
+        17.5,
+        10.5
+      ],
+      "Dropoff_Studs": [
+        100,
+        135
+      ],
+      "Fire_Rate": 800,
+      "Spread": 1.5,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.7,
+      "Movement_Speed_Modifier": 1,
+      "Recoil_Hip_Horizontal": [
+        -15,
+        15
+      ],
+      "Recoil_Hip_Vertical": [
+        20,
+        45
+      ],
+      "Recoil_Aim_Horizontal": [
+        -13.5,
+        13.5
+      ],
+      "Recoil_Aim_Vertical": [
+        18,
+        40.5
+      ]
+    },
+    {
       "Category": "LMG",
       "Name": "Type 99",
       "Damage": [
@@ -1645,6 +1772,40 @@
       ]
     },
     {
+      "Category": "Shotgun",
+      "Name": "Circuit Judge",
+      "Damage": [
+        144,
+        16
+      ],
+      "Dropoff_Studs": [
+        55,
+        110
+      ],
+      "Pellets": 8,
+      "Fire_Rate": 60,
+      "Spread": 5,
+      "ADS_Spread": 1.5,
+      "Time_To_Aim": 0.7,
+      "Suppression": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        50,
+        80
+      ],
+      "Recoil_Aim_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Aim_Vertical": [
+        20,
+        32
+      ]
+    },
+    {
       "Category": "Weird",
       "Name": "Words as Weapons",
       "Damage": 15,
@@ -1803,6 +1964,19 @@
       "Spread": 5
     },
     {
+      "Category": "Assault Rifle",
+      "Name": "G36C",
+      "Recoil": -15,
+      "Reload_Time": -10
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "APS",
+      "Recoil": -10,
+      "Reload_Time": -4,
+      "Spread": 14
+    },
+    {
       "Category": "Sniper",
       "Name": "Remington 700",
       "Recoil": -5,
@@ -1911,8 +2085,15 @@
       "Name": "PP-19 Bizon",
       "Movement_Speed": 2.5,
       "Recoil": -9,
-      "Reload": 3,
+      "Reload_Speed": 3,
       "Spread": 18
+    },
+    {
+      "Category": "SMG",
+      "Name": "MP5",
+      "Movement_Speed": 3.3,
+      "Recoil": -15,
+      "Reload_Speed": -10
     },
     {
       "Category": "LMG",
@@ -1953,7 +2134,7 @@
     {
       "Category": "LMG",
       "Name": "M1918 BAR",
-      "Reload": -13,
+      "Reload_Speed": -13,
       "Spread": -10,
       "Movement_Speed": -2.5
     },
@@ -1969,7 +2150,7 @@
       "Name": "M1887",
       "Fire_Rate": 10,
       "Health": 5,
-      "Reload": -10,
+      "Reload_Speed": -10,
       "Movement_Speed": -5.5,
       "Spread": 15
     },
@@ -1977,14 +2158,20 @@
       "Category": "Shotgun",
       "Name": "M1897 Trench Shotgun",
       "Fire_Rate": 10,
-      "Reload": 10,
+      "Reload_Speed": 10,
       "Spread": 35
     },
     {
       "Category": "Shotgun",
       "Name": "Remington 870",
-      "Reload": -15,
+      "Reload_Speed": -15,
       "Spread": 20
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Circuit Judge",
+      "Damage": 10,
+      "Spread": 35
     },
     {
       "Category": "Weird",
@@ -2115,6 +2302,22 @@
       "Reload_Time": 4,
       "Damage": 15,
       "Recoil": -10
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "APS",
+      "Magazine_Size": 26,
+      "Reload_Time": 7,
+      "Damage": 20,
+      "Fire_Rate": -15,
+      "Spread": 20
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "G36C",
+      "Magazine_Size": 30,
+      "Reload_Time": 2.2,
+      "Recoil": -5
     },
     {
       "Category": "Sniper",
@@ -2268,6 +2471,17 @@
       "Damage": 10
     },
     {
+      "Category": "SMG",
+      "Name": "MP5",
+      "Magazine_Size": 30,
+      "Reload_Time": 2,
+      "Fire_Rate": 15,
+      "Movement_Speed": 3.3,
+      "Recoil": -10,
+      "Spread": -5,
+      "Damage": -9
+    },
+    {
       "Category": "LMG",
       "Name": "M60",
       "Magazine_Size": 75,
@@ -2317,7 +2531,7 @@
       "Category": "LMG",
       "Name": "M1918 BAR",
       "Magazine_Size": 20,
-      "Reload": 4,
+      "Reload_Time": 4,
       "Damage": 25,
       "Fire_Rate": -10,
       "Movement_Speed": -0.5,
@@ -2328,7 +2542,7 @@
       "Category": "Shotgun",
       "Name": "Spas-12",
       "Magazine_Size": 12,
-      "Reload": 6,
+      "Reload_Time": 6,
       "Fire_Rate": 20,
       "Pellets": 175,
       "Movement_Speed": -5,
@@ -2339,7 +2553,7 @@
       "Category": "Shotgun",
       "Name": "Remington 870 Breacher",
       "Magazine_Size": 8,
-      "Reload": 3.2,
+      "Reload_Time": 3.2,
       "Damage": 5,
       "Movement_Speed": 3,
       "Pellets": 150,
@@ -2350,7 +2564,7 @@
       "Category": "Shotgun",
       "Name": "M1887",
       "Magazine_Size": 6,
-      "Reload": 4,
+      "Reload_Time": 4,
       "Fire_Rate": 5,
       "Health": 5,
       "Pellets": 150,
@@ -2362,7 +2576,7 @@
       "Category": "Shotgun",
       "Name": "M1897 Trench Shotgun",
       "Magazine_Size": 6,
-      "Reload": 4.5,
+      "Reload_Time": 4.5,
       "Fire_Rate": 15,
       "Pellets": 200,
       "Recoil": 25,
@@ -2372,7 +2586,7 @@
       "Category": "Shotgun",
       "Name": "Remington 870 MCS",
       "Magazine_Size": 6,
-      "Reload": 3.5,
+      "Reload_Time": 3.5,
       "Damage": 15,
       "Pellets": 45,
       "Recoil": 35,
@@ -2382,11 +2596,21 @@
       "Category": "Shotgun",
       "Name": "Remington 870",
       "Magazine_Size": 8,
-      "Reload": 5,
+      "Reload_Time": 5,
       "Damage": 10,
       "Pellets": 100,
       "Recoil": 25,
       "Spread": 50
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Circuit Judge",
+      "Magazine_Size": 5,
+      "Reload_Time": 4,
+      "Damage": 25,
+      "Pellets": 100,
+      "Recoil": 50,
+      "Spread": 75
     },
     {
       "Category": "Weird",
@@ -2510,9 +2734,23 @@
     {
       "Category": "Assault Rifle",
       "Name": "Hex Spitter",
-      "Reload": -10,
+      "Reload_Speed": -10,
       "Spread": -25,
       "Movement_Speed": -5
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "APS",
+      "Damage": 10,
+      "Recoil": 30,
+      "Spread": 30
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "G36C",
+      "Recoil": -5,
+      "Reload_Time": -5,
+      "Spread": -5
     },
     {
       "Category": "Sniper",
@@ -2628,9 +2866,24 @@
       "Category": "SMG",
       "Name": "PP-19 Bizon",
       "Movement_Speed": 2.5,
-      "Reload": -12,
+      "Reload_Speed": -12,
       "Spread": -13,
       "Recoil": 20
+    },
+    {
+      "Category": "SMG",
+      "Name": "MP5",
+      "Movement_Speed": 2.5,
+      "Recoil": -5,
+      "Reload_Speed": -25
+    },
+    {
+      "Category": "SMG",
+      "Name": "MP5A3",
+      "Movement_Speed": 4,
+      "Reload_Speed": -10,
+      "Recoil": 20,
+      "Spread": 20
     },
     {
       "Category": "LMG",
@@ -2680,7 +2933,7 @@
       "Category": "Shotgun",
       "Name": "Spas-12 Folded",
       "Movement_Speed": 4,
-      "Reload": -15,
+      "Reload_Speed": -15,
       "Recoil": 20,
       "Spread": 20
     },
@@ -2696,7 +2949,7 @@
       "Name": "Remington 870 Breacher",
       "Movement_Speed": 3,
       "Recoil": 15,
-      "Reload": 10,
+      "Reload_Speed": 10,
       "Spread": 25
     },
     {
@@ -2705,7 +2958,7 @@
       "Recoil": -25,
       "Spread": -20,
       "Fire_Rate": -5,
-      "Reload": 10
+      "Reload_Speed": 10
     },
     {
       "Category": "Shotgun",
@@ -2727,7 +2980,13 @@
       "Name": "Remington 870",
       "Recoil": -15,
       "Spread": -15,
-      "Reload": 5
+      "Reload_Speed": 5
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Circuit Judge",
+      "Reload_Speed": -45,
+      "Spread": 15
     },
     {
       "Category": "Weird",

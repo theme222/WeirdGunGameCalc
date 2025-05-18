@@ -145,31 +145,6 @@ Recoil_Hip_Vertical: 30 - 40
 Recoil_Aim_Horizontal: -3.2 - 3.2
 Recoil_Aim_Vertical: 15 - 20
 ---
-Core: APS
-Damage: 20 > 16
-Dropoff_Studs: 180 > 350
-Fire_Rate: 600
-Spread: 4
-ADS_Spread: 1.9
-Time_To_Aim: 0.7
-Suppression: 0.3
-Recoil_Hip_Horizontal: -22 - 22
-Recoil_Hip_Vertical: 70 - 100
-Recoil_Aim_Horizontal: -12.1 - 12.1
-Recoil_Aim_Vertical: 38.5 - 55
----
-Core: G36C
-Damage: 16.5 > 13.2
-Dropoff_Studs: 180 > 350
-Fire_Rate: 750
-Spread: 2
-ADS_Spread: 0.35
-Time_To_Aim: 0.7
-Recoil_Hip_Horizontal: -10 - 10
-Recoil_Hip_Vertical: 10 - 30
-Recoil_Aim_Horizontal: -9 - 9
-Recoil_Aim_Vertical: 9 - 27
----
 
 Category: Snipers
 ---
@@ -386,19 +361,6 @@ Recoil_Hip_Vertical: 30 - 50
 Recoil_Aim_Horizontal: -15 - 15
 Recoil_Aim_Vertical: 9 - 15
 ---
-Core: MP5
-Damage: 17.5 > 10.5
-Dropoff_Studs: 100 > 135
-Fire_Rate: 800
-Spread: 1.5
-ADS_Spread: 0.45
-Time_To_Aim: 0.7
-Movement_Speed_Modifier: +1%
-Recoil_Hip_Horizontal: -15 - 15
-Recoil_Hip_Vertical: 20 - 45
-Recoil_Aim_Horizontal: -13.5 - 13.5
-Recoil_Aim_Vertical: 18 - 40.5
----
 
 Category: LMGs
 ---
@@ -550,19 +512,5 @@ Suppression: 0.2
 Recoil_Hip_Horizontal: -25 - 25
 Recoil_Hip_Vertical: 50 - 80
 Recoil_Aim_Horizontal: -10 - 10
-Recoil_Aim_Vertical: 20 - 32
----
-Core: Circuit Judge
-Damage: 144 > 16
-Dropoff_Studs: 55 > 110
-Pellets: 8
-Fire_Rate: 60
-Spread: 5
-ADS_Spread: 1.5
-Time_To_Aim: 0.7
-Suppression: 0.5
-Recoil_Hip_Horizontal: -20 - 20
-Recoil_Hip_Vertical: 50 - 80
-Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 20 - 32
 ---

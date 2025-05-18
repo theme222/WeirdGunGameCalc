@@ -1,112 +1,112 @@
 ./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 24.95 --speedMin 0 --magazineMin 30 --spreadMax 0.65 
 Current top 10 guns are: 
-Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: AKM]
-damage: 25.0435 - 20.0348
-fireRate: 680.4
-adsSpread: 0.621
-reloadTime: 5.52
+Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: The Chief, Stock: APS, Core: G36C]
+damage: 25.3068 - 20.2454
+fireRate: 750
+adsSpread: 0.460687
+reloadTime: 4
 magazineSize: 35
 health: 0
-recoilAimVertical: 49.896 - 57.024
+recoilAimVertical: 15.637 - 46.9112
 movementSpeed: 0
-TTK 0.26455 Seconds
+TTK 0.24 Seconds
 
-Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: AKM]
-damage: 25.0435 - 20.0348
-fireRate: 680.4
-adsSpread: 0.621
-reloadTime: 5.52
+Gun contains[Barrel: Words as Weapons, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: APS, Core: G36C]
+damage: 25.8201 - 20.6561
+fireRate: 750
+adsSpread: 0.61425
+reloadTime: 4
 magazineSize: 35
 health: 0
-recoilAimVertical: 49.896 - 57.024
+recoilAimVertical: 12.636 - 37.908
 movementSpeed: 0
-TTK 0.26455 Seconds
+TTK 0.24 Seconds
 
-Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: AKM]
-damage: 25.0435 - 20.0348
-fireRate: 680.4
-adsSpread: 0.621
-reloadTime: 5.52
+Gun contains[Barrel: Hex Spitter, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: APS, Core: G36C]
+damage: 25.2892 - 20.2314
+fireRate: 750
+adsSpread: 0.5005
+reloadTime: 4
 magazineSize: 35
-health: 0
-recoilAimVertical: 49.896 - 57.024
+health: -7.5
+recoilAimVertical: 12.3043 - 36.9129
 movementSpeed: 0
-TTK 0.26455 Seconds
+TTK 0.24 Seconds
 
-Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: AKM]
-damage: 25.0435 - 20.0348
-fireRate: 680.4
-adsSpread: 0.621
-reloadTime: 5.52
+Gun contains[Barrel: STG-44, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: APS, Core: G36C]
+damage: 25.2892 - 20.2314
+fireRate: 750
+adsSpread: 0.5005
+reloadTime: 4
 magazineSize: 35
-health: 0
-recoilAimVertical: 49.896 - 57.024
+health: -7.5
+recoilAimVertical: 14.2471 - 42.7413
 movementSpeed: 0
-TTK 0.26455 Seconds
+TTK 0.24 Seconds
 
-Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: STG-44, Core: AKM]
-damage: 25.0435 - 20.0348
-fireRate: 667.44
-adsSpread: 0.5589
-reloadTime: 4.6
+Gun contains[Barrel: Arctic Warfare, Magazine: Hex Spitter, Grip: MP 40, Stock: APS, Core: G36C]
+damage: 25.2102 - 20.1682
+fireRate: 750
+adsSpread: 0.446582
+reloadTime: 4
 magazineSize: 35
 health: 0
-recoilAimVertical: 55.44 - 63.36
+recoilAimVertical: 20.5335 - 61.6005
 movementSpeed: 0
-TTK 0.269687 Seconds
+TTK 0.24 Seconds
 
-Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: STG-44, Core: AKM]
-damage: 25.0435 - 20.0348
-fireRate: 667.44
-adsSpread: 0.5589
-reloadTime: 4.6
+Gun contains[Barrel: Remington 870 MCS, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: APS, Core: G36C]
+damage: 25.1159 - 20.0927
+fireRate: 750
+adsSpread: 0.549754
+reloadTime: 4.4
 magazineSize: 35
 health: 0
-recoilAimVertical: 55.44 - 63.36
+recoilAimVertical: 10.53 - 31.59
 movementSpeed: 0
-TTK 0.269687 Seconds
+TTK 0.24 Seconds
 
-Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: STG-44, Core: AKM]
-damage: 25.0435 - 20.0348
-fireRate: 667.44
-adsSpread: 0.5589
-reloadTime: 4.6
+Gun contains[Barrel: Words as Weapons, Magazine: Hex Spitter, Grip: MP 40, Stock: APS, Core: G36C]
+damage: 25.0962 - 20.0769
+fireRate: 750
+adsSpread: 0.5915
+reloadTime: 4
 magazineSize: 35
 health: 0
-recoilAimVertical: 55.44 - 63.36
+recoilAimVertical: 16.4268 - 49.2804
 movementSpeed: 0
-TTK 0.269687 Seconds
+TTK 0.24 Seconds
 
-Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: STG-44, Core: AKM]
-damage: 25.0435 - 20.0348
-fireRate: 667.44
-adsSpread: 0.5589
-reloadTime: 4.6
+Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: APS, Core: G36C]
+damage: 25.749 - 20.5992
+fireRate: 750
+adsSpread: 0.61425
+reloadTime: 4
 magazineSize: 35
-health: 0
-recoilAimVertical: 55.44 - 63.36
+health: -7.5
+recoilAimVertical: 14.2471 - 42.7413
 movementSpeed: 0
-TTK 0.269687 Seconds
+TTK 0.24 Seconds
 
-Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Famas F1, Core: AKM]
-damage: 25.0435 - 20.0348
-fireRate: 648
-adsSpread: 0.621
-reloadTime: 4.83
+Gun contains[Barrel: MP 40, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: APS, Core: G36C]
+damage: 25.3506 - 20.2805
+fireRate: 750
+adsSpread: 0.61425
+reloadTime: 4
 magazineSize: 35
 health: 0
-recoilAimVertical: 47.124 - 53.856
-movementSpeed: 0
-TTK 0.277778 Seconds
+recoilAimVertical: 12.636 - 37.908
+movementSpeed: 2.56
+TTK 0.24 Seconds
 
-Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: PPSh-41, Stock: M-16, Core: AKM]
-damage: 25.0435 - 20.0348
-fireRate: 648
-adsSpread: 0.621
-reloadTime: 4.6
+Gun contains[Barrel: Circuit Judge, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: APS, Core: G36C]
+damage: 25.1159 - 20.0927
+fireRate: 750
+adsSpread: 0.61425
+reloadTime: 3.58
 magazineSize: 35
 health: 0
-recoilAimVertical: 49.896 - 57.024
+recoilAimVertical: 12.1095 - 36.3285
 movementSpeed: 0
-TTK 0.277778 Seconds
+TTK 0.24 Seconds
 

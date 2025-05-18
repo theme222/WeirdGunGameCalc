@@ -55,19 +55,9 @@ Stock_Effects:
   Recoil: +10%
 ---
 Stock: Hex Spitter
-Reload_Speed: -10%
+Reload: -10%
 Spread: -25%
 Movement_Speed: -5%
----
-Stock: APS
-Damage: +10%
-Recoil: +30%
-Spread: +30%
----
-Stock: G36C
-Recoil: -5%
-Reload_Time: -5%
-Spread: -5%
 ---
 
 Category: Sniper Stocks
@@ -172,20 +162,9 @@ Stock_Effects:
 ---
 Stock: PP-19 Bizon
 Movement_Speed: +2.5%
-Reload_Speed: -12%
+Reload: -12%
 Spread: -13%
 Recoil: +20%
----
-Stock: MP5
-Movement_Speed: +2.5%
-Recoil: -5%
-Reload_Speed: -25%
----
-Stock: MP5A3
-Movement_Speed: +4%
-Reload_Speed: -10%
-Recoil: +20%
-Spread: +20%
 ---
 
 Category: LMG Stocks
@@ -232,7 +211,7 @@ Category: Shotgun Stocks
 ---
 Stock: Spas-12 Folded
 Movement_Speed: +4%
-Reload_Speed: -15%
+Reload: -15%
 Recoil: +20%
 Spread: +20%
 ---
@@ -244,14 +223,14 @@ Spread: +10%
 Stock: Remington 870 Breacher
 Movement_Speed: +3%
 Recoil: +15%
-Reload_Speed: +10%
+Reload: +10%
 Spread: +25%
 ---
 Stock: Remington 870 MCS
 Recoil: -25%
 Spread: -20%
 Fire_Rate: -5%
-Reload_Speed: +10%
+Reload: +10%
 ---
 Stock: M1887
 Health: +5%
@@ -267,9 +246,5 @@ Spread: +25%
 Stock: Remington 870
 Recoil: -15%
 Spread: -15%
-Reload_Speed: +5%
----
-Stock: Circuit Judge
-Reload_Speed: -45%
-Spread: +15%
+Reload: +5%
 ---

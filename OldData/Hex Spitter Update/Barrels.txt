@@ -6,7 +6,9 @@ Barrel_Effects:
   Recoil: +20%
 ---
 Barrel: M-16
-Recoil: -15%
+Barrel_Effects:
+  Recoil: -10%
+  Damage: -10%
 ---
 Barrel: AUG
 Barrel_Effects:
@@ -66,15 +68,6 @@ Barrel: Hex Spitter
 Damage: +10%
 Recoil: -5%
 Spread: +10%
----
-Barrel: G36C
-Damage: +5%
-Reload_Time: -10%
----
-Barrel: APS
-Damage: +22%
-Fire_Rate: -15%
-Spread: +20%
 ---
 
 Category: Sniper Barrels
@@ -192,13 +185,6 @@ Fire_Rate: +5%
 Movement_Speed: +2.5%
 Recoil: +25%
 ---
-Barrel: MP5
-Damage: +10%
-Movement_Speed: +2.5%
-Recoil: -5%
-Spread: -5%
-Fire_Rate: -5%
----
 
 Category: LMG Barrels
 ---
@@ -271,7 +257,7 @@ Damage: +10%
 Spread: -25%
 Fire_Rate: -10%
 Pellets: -75%
-Reload_Speed: +10%
+Reload: +10%
 ---
 Barrel: M1887
 Damage: +5%
@@ -281,7 +267,7 @@ Spread: +35%
 ---
 Barrel: M1897 Trench Shotgun
 Fire_Rate: +5%
-Reload_Speed: -10%
+Reload: -10%
 Spread: +10%
 ---
 Barrel: Remington 870 Breacher
@@ -292,14 +278,9 @@ Spread: +75%
 Barrel: Remington 870 MCS
 Damage: +10%
 Spread: -15%
-Reload_Speed: +10%
+Reload: +10%
 ---
 Barrel: Remington 870
 Damage: +10%
 Spread: +15%
----
-Barrel: Circuit Judge
-Damage: +10%
-Reload_Speed: -15%
-Recoil: +15%
 ---

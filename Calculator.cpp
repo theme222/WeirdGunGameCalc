@@ -19,9 +19,10 @@
 using json = nlohmann::json;
 typedef std::pair<float, float> fpair;
 
+#define ALLMULTFLAG 4294967295 // 2^32 - 1
 #define NILMIN -69420.5f
 #define NILMAX 69420.5f
-#define NILRANGE {NILMIN, NILMAX} // Hehehheheh
+#define NILRANGE {NILMIN, NILMAX} // Hehehheheh who says programmers can't have fun
 
 namespace Input
 {
@@ -65,7 +66,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         {"Shotgun", 5},
     };
 
-    bool includeCategories_fast[5] = {false, false, false, false, false};
+    bool includeCategories_fast[6] = {false, false, false, false, false, false};
 
     enum MultFlags {
         DAMAGE = 1<<0,
@@ -305,8 +306,6 @@ public:
 };
 
 
-uint32_t ALLMULTFLAG = 4294967295; // 2^32 - 1
-
 class Gun
 {
 public:
@@ -342,7 +341,6 @@ public:
         this->stock = stock;
         this->core = core;
     }
-
 
     float CalculatePenalty(Fast::MultFlags propertyFlag, Part *part)
     {
@@ -672,7 +670,7 @@ namespace BruteForce
     class Iterator
     {
     public:
-        static uint64_t processedCombinations;
+        // static uint64_t processedCombinations;
 
         int barrelIndex = 0;
         int magazineIndex = 0;
@@ -696,8 +694,6 @@ namespace BruteForce
             g = gripList + gripIndex;
             s = stockList + stockIndex;
             c = coreList + coreIndex;
-
-            processedCombinations++;
 
             int coreName = coreList[coreIndex].name_fast;
 
@@ -738,7 +734,7 @@ namespace BruteForce
             return coreIndex < coreCount;
         }
     };
-    uint64_t Iterator::processedCombinations = 0;
+    // uint64_t Iterator::processedCombinations = 0;
 
     namespace Filter
     {
@@ -748,6 +744,8 @@ namespace BruteForce
             for (auto& category : Input::includeCategories)
             {
                 if (category == "AR") category = "Assault Rifle";
+                if (!Fast::fastifyCategory.contains(category))
+                    throw std::invalid_argument("Category " + category + " doesn't exist");
                 Fast::includeCategories_fast[Fast::fastifyCategory[category]] = true;
             }
         }
@@ -812,13 +810,12 @@ namespace BruteForce
 
         threadPQ[threadId] = PQ::Create();
         Iterator iter(threadId);
-        uint32_t flag = ALLMULTFLAG;
 
         while (iter.Step(b, m, g, s, c))
         {
             if (!Filter::PreFilter(b, m, g, s, c)) continue;
 
-            Gun currentGun = Gun(b, m, g, s, c);
+            Gun currentGun(b, m, g, s, c);
             currentGun.CopyValues(Filter::currentflags);
             currentGun.CalculateGunStats(Filter::currentflags);
 
@@ -838,9 +835,9 @@ int main(int argc, char* argv[])
     app.add_option("-f,--file", Input::filepath, "Path to the json file containing the parts data (Default: Data/FullData.json)");
     app.add_option("-o, --output", Input::outpath, "Path to the output file (Default: Results.txt");
     app.add_option("-t,--threads", Input::threadsToMake, "Number of threads to use (MAX 16) (Default: 4)");
-    app.add_option("-s,--sort", Input::sortType, "Sorting type (TTK, FIRERATE, SPREAD)");
+    app.add_option("-s,--sort", Input::sortType, "Sorting type (TTK, FIRERATE, SPREAD) (Default: TTK)");
     app.add_option("-n,--number", Input::howManyTopGunsToDisplay, "Number of top guns to display (Default: 10)");
-    app.add_option("-i, --include", Input::includeCategories, "Categories to include in the calculation");
+    app.add_option("-i, --include", Input::includeCategories, "Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird)")->required();
 
     app.add_option("--damage", Input::damageRange, "Damage range to filter");
     app.add_option("--damageMin", Input::damageRange.first);
@@ -963,5 +960,5 @@ int main(int argc, char* argv[])
         file << g << '\n';
     }
     file.close();
-    printf("Processed total of %u combinations\n", BruteForce::Iterator::processedCombinations);
+    // printf("Processed total of %lu combinations\n", BruteForce::Iterator::processedCombinations);
 }

@@ -82,11 +82,11 @@ Barrel_Effects:
   Recoil: +20%
 ---
 Barrel: Shower
-Fire_Rate: +20%
-Pellets: +100%
-Recoil: -75%
-Reload_Speed: +25% (Slower)
-Spread: +300%
+Barrel_Effects:
+  Fire_Rate: +15%
+  Recoil: -75%
+  Reload_Speed: +25% (Slower)
+  Spread: +100%
 ---
 Barrel: Willy Fischy
 Barrel_Effects:

@@ -2,8 +2,7 @@
 > A tool to bruteforce all combinations of guns in the roblox game "Weird Gun Game"
 
 ## About
-`Updated to Major Update`<br/>
-`Using nholmann/json to read json files`<br/>
+`Updated to Oil Rig Update`<br/>
 `Original data from @zyadak https://discord.com/channels/1326315584417435648/1326315585046450237/1363241874701291722`<br/>
 
 Made using c++ this tool reads data from Data/FullData.json and calculates all possible combinations.

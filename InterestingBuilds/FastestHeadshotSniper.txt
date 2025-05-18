@@ -1,10 +1,21 @@
 ./Calculator -o InterestingBuilds/FastestHeadshotSniper.txt -i Sniper --speedMin 0 --damageMin 49.95 --spreadMax 0.149 --sort FIRERATE 
 Current top 10 guns are: 
+Gun contains[Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: MG42, Core: Remington 700]
+damage: 52.025 - 46.8225
+fireRate: 57.75
+adsSpread: 0.12818
+reloadTime: 4.83
+magazineSize: 6
+health: 0
+recoilAimVertical: 43.75 - 62.5
+movementSpeed: 1.8
+TTK 1.03896 Seconds
+
 Gun contains[Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: PP-19 Bizon, Core: Remington 700]
 damage: 52.025 - 46.8225
 fireRate: 57.75
 adsSpread: 0.147727
-reloadTime: 4.025
+reloadTime: 3.7352
 magazineSize: 6
 health: 0
 recoilAimVertical: 52.5 - 75
@@ -20,17 +31,6 @@ magazineSize: 6
 health: 0
 recoilAimVertical: 52.5 - 75
 movementSpeed: 1.28
-TTK 1.03896 Seconds
-
-Gun contains[Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: MG42, Core: Remington 700]
-damage: 52.025 - 46.8225
-fireRate: 57.75
-adsSpread: 0.12818
-reloadTime: 4.83
-magazineSize: 6
-health: 0
-recoilAimVertical: 43.75 - 62.5
-movementSpeed: 1.8
 TTK 1.03896 Seconds
 
 Gun contains[Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: AUG, Core: Remington 700]

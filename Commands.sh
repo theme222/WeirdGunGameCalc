@@ -1,4 +1,4 @@
-python FileFormatter.py;
+python FileFormatter.py &&
 ./Calculator -o InterestingBuilds/FastestTTKSMG.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadMax 1.049 --recoilMax 35;
 ./Calculator -o InterestingBuilds/FastestTTKNonSMG.txt -i AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadMax 0.649 --recoilMax 30;
 ./Calculator -o InterestingBuilds/FastestHeadshotSniper.txt -i Sniper --speedMin 0 --damageMin 49.95 --spreadMax 0.149 --sort FIRERATE;

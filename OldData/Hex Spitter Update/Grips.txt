@@ -59,15 +59,6 @@ Recoil: -25%
 Movement_Speed: -5%
 Spread: +5%
 ---
-Grip: G36C
-Recoil: -15%
-Reload_Time: -10%
----
-Grip: APS
-Recoil: -10%
-Reload_Time: -4%
-Spread: +14%
----
 
 Category: Sniper Grips
 ---
@@ -166,13 +157,8 @@ Grip_Effects:
 Grip: PP-19 Bizon
 Movement_Speed: +2.5%
 Recoil: -9%
-Reload_Speed: +3%
+Reload: +3%
 Spread: +18%
----
-Grip: MP5
-Movement_Speed: +3.3%
-Recoil: -15%
-Reload_Speed: -10%
 ---
 
 Category: LMG Grips
@@ -209,7 +195,7 @@ Grip_Effects:
   Movement_Speed: -2.7%
 ---
 Grip: M1918 BAR
-Reload_Speed: -13%
+Reload: -13%
 Spread: -10%
 Movement_Speed: -2.5%
 ---
@@ -224,20 +210,16 @@ Spread: +35%
 Grip: M1887
 Fire_Rate: +10%
 Health: +5%
-Reload_Speed: -10%
+Reload: -10%
 Movement_Speed: -5.5%
 Spread: +15%
 ---
 Grip: M1897 Trench Shotgun
 Fire_Rate: +10%
-Reload_Speed: +10%
+Reload: +10%
 Spread: +35%
 ---
 Grip: Remington 870
-Reload_Speed: -15%
+Reload: -15%
 Spread: +20%
----
-Grip: Circuit Judge
-Damage: +10%
-Spread: +35%
 ---

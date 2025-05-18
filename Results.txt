@@ -1,0 +1,112 @@
+./Calculator -i Sniper AR SMG LMG --damageMin 99.95 -s FIRERATE 
+Current top 10 guns are: 
+Gun contains[Barrel: Honk, Magazine: Improvised, Grip: PPSh-41, Stock: Kriss Vector, Core: UMP-40]
+damage: 101.528 - 60.9165
+fireRate: 70.62
+adsSpread: 10.9296
+reloadTime: 0.92
+magazineSize: 10
+health: 0
+recoilAimVertical: 501.6 - 752.4
+movementSpeed: 12.1
+TTK 0 Seconds
+
+Gun contains[Barrel: Honk, Magazine: Thompson, Grip: PPSh-41, Stock: Kriss Vector, Core: UMP-40]
+damage: 101.528 - 60.9165
+fireRate: 70.62
+adsSpread: 11.4048
+reloadTime: 3.45
+magazineSize: 20
+health: 0
+recoilAimVertical: 501.6 - 752.4
+movementSpeed: 10.9
+TTK 0 Seconds
+
+Gun contains[Barrel: Honk, Magazine: Scar H, Grip: PPSh-41, Stock: Kriss Vector, Core: UMP-40]
+damage: 102.41 - 61.4462
+fireRate: 70.62
+adsSpread: 9.504
+reloadTime: 5.175
+magazineSize: 20
+health: 0
+recoilAimVertical: 627 - 940.5
+movementSpeed: 7.1
+TTK 0 Seconds
+
+Gun contains[Barrel: Honk, Magazine: Thompson, Grip: PPSh-41, Stock: Spas-12, Core: UMP-40]
+damage: 101.528 - 60.9165
+fireRate: 70.29
+adsSpread: 10.4544
+reloadTime: 3.45
+magazineSize: 20
+health: 0
+recoilAimVertical: 627 - 940.5
+movementSpeed: 2.6
+TTK 0 Seconds
+
+Gun contains[Barrel: Honk, Magazine: Scar H, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: UMP-40]
+damage: 102.41 - 61.4462
+fireRate: 70.29
+adsSpread: 9.9
+reloadTime: 5.175
+magazineSize: 20
+health: 0
+recoilAimVertical: 901.312 - 1351.97
+movementSpeed: 3.8
+TTK 0 Seconds
+
+Gun contains[Barrel: Honk, Magazine: Thompson, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: UMP-40]
+damage: 101.528 - 60.9165
+fireRate: 70.29
+adsSpread: 11.88
+reloadTime: 3.45
+magazineSize: 20
+health: 0
+recoilAimVertical: 721.05 - 1081.57
+movementSpeed: 7.6
+TTK 0 Seconds
+
+Gun contains[Barrel: Honk, Magazine: Improvised, Grip: PPSh-41, Stock: Spas-12, Core: UMP-40]
+damage: 101.528 - 60.9165
+fireRate: 70.29
+adsSpread: 10.0188
+reloadTime: 0.92
+magazineSize: 10
+health: 0
+recoilAimVertical: 627 - 940.5
+movementSpeed: 3.8
+TTK 0 Seconds
+
+Gun contains[Barrel: Honk, Magazine: Improvised, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: UMP-40]
+damage: 101.528 - 60.9165
+fireRate: 70.29
+adsSpread: 11.385
+reloadTime: 0.92
+magazineSize: 10
+health: 0
+recoilAimVertical: 721.05 - 1081.57
+movementSpeed: 8.8
+TTK 0 Seconds
+
+Gun contains[Barrel: Honk, Magazine: Scar H, Grip: PPSh-41, Stock: Spas-12, Core: UMP-40]
+damage: 102.41 - 61.4462
+fireRate: 70.29
+adsSpread: 8.712
+reloadTime: 5.175
+magazineSize: 20
+health: 0
+recoilAimVertical: 783.75 - 1175.62
+movementSpeed: -1.2
+TTK 0 Seconds
+
+Gun contains[Barrel: Honk, Magazine: Thompson, Grip: Lee Enfield, Stock: Kriss Vector, Core: UMP-40]
+damage: 101.528 - 60.9165
+fireRate: 69.978
+adsSpread: 25.344
+reloadTime: 3
+magazineSize: 20
+health: 0
+recoilAimVertical: 501.6 - 752.4
+movementSpeed: 10.9
+TTK 0 Seconds
+
