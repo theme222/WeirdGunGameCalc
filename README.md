@@ -16,6 +16,9 @@ It takes around 30 seconds to bruteforce all combinations using a load of optimi
 
 ## Compile from source
 ### Prerequisits
+g++ that supports c++20 onwards.
+
+### Libraries
 You will have to download the [json.hpp]('https://github.com/nlohmann/json/blob/develop/single_include/nlohmann/json.hpp') and [CLI11.hpp]('https://github.com/CLIUtils/CLI11/releases') file from the github and add it to a directory called "include".
 
 ### Run
