@@ -387,7 +387,7 @@ Recoil_Aim_Horizontal: -15 - 15
 Recoil_Aim_Vertical: 9 - 15
 ---
 Core: MP5
-Damage: 17.5 > 10.5
+Damage: 16 > 9.6
 Dropoff_Studs: 100 > 135
 Fire_Rate: 800
 Spread: 1.5
