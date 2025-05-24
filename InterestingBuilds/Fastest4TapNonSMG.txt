@@ -1,112 +1,132 @@
-./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 24.95 --speedMin 0 --magazineMin 30 --spreadMax 0.65 
+./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 24.95 --speedMin 0 --magazineMin 30 --spreadAimMax 0.65 
 Current top 10 guns are: 
-Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: The Chief, Stock: APS, Core: G36C]
-damage: 25.3068 - 20.2454
-fireRate: 750
-adsSpread: 0.460687
-reloadTime: 4
+Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: PPSh-41, Stock: APS, Core: G36C]
+damage: 25.3674 - 20.2939
+fireRate: 729
+adsSpread: 0.52325
+hipfireSpread: 2.99
+reloadTime: 4.6
 magazineSize: 35
 health: 0
-recoilAimVertical: 15.637 - 46.9112
-movementSpeed: 0
-TTK 0.24 Seconds
-
-Gun contains[Barrel: Words as Weapons, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: APS, Core: G36C]
-damage: 25.8201 - 20.6561
-fireRate: 750
-adsSpread: 0.61425
-reloadTime: 4
-magazineSize: 35
-health: 0
-recoilAimVertical: 12.636 - 37.908
-movementSpeed: 0
-TTK 0.24 Seconds
-
-Gun contains[Barrel: Hex Spitter, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: APS, Core: G36C]
-damage: 25.2892 - 20.2314
-fireRate: 750
-adsSpread: 0.5005
-reloadTime: 4
-magazineSize: 35
-health: -7.5
-recoilAimVertical: 12.3043 - 36.9129
-movementSpeed: 0
-TTK 0.24 Seconds
-
-Gun contains[Barrel: STG-44, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: APS, Core: G36C]
-damage: 25.2892 - 20.2314
-fireRate: 750
-adsSpread: 0.5005
-reloadTime: 4
-magazineSize: 35
-health: -7.5
-recoilAimVertical: 14.2471 - 42.7413
-movementSpeed: 0
-TTK 0.24 Seconds
-
-Gun contains[Barrel: Arctic Warfare, Magazine: Hex Spitter, Grip: MP 40, Stock: APS, Core: G36C]
-damage: 25.2102 - 20.1682
-fireRate: 750
-adsSpread: 0.446582
-reloadTime: 4
-magazineSize: 35
-health: 0
-recoilAimVertical: 20.5335 - 61.6005
-movementSpeed: 0
-TTK 0.24 Seconds
-
-Gun contains[Barrel: Remington 870 MCS, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: APS, Core: G36C]
-damage: 25.1159 - 20.0927
-fireRate: 750
-adsSpread: 0.549754
-reloadTime: 4.4
-magazineSize: 35
-health: 0
+recoilHipVertical: 11.7 - 35.1
 recoilAimVertical: 10.53 - 31.59
 movementSpeed: 0
-TTK 0.24 Seconds
+TTK 0.246914 Seconds
 
-Gun contains[Barrel: Words as Weapons, Magazine: Hex Spitter, Grip: MP 40, Stock: APS, Core: G36C]
-damage: 25.0962 - 20.0769
-fireRate: 750
-adsSpread: 0.5915
-reloadTime: 4
-magazineSize: 35
-health: 0
-recoilAimVertical: 16.4268 - 49.2804
-movementSpeed: 0
-TTK 0.24 Seconds
-
-Gun contains[Barrel: Hell-Trooper-23, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: APS, Core: G36C]
-damage: 25.749 - 20.5992
-fireRate: 750
-adsSpread: 0.61425
+Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: G36C]
+damage: 25.0802 - 20.0642
+fireRate: 722.25
+adsSpread: 0.546875
+hipfireSpread: 3.125
 reloadTime: 4
 magazineSize: 35
 health: -7.5
-recoilAimVertical: 14.2471 - 42.7413
+recoilHipVertical: 12.7305 - 38.1915
+recoilAimVertical: 11.4574 - 34.3723
 movementSpeed: 0
-TTK 0.24 Seconds
+TTK 0.249221 Seconds
 
-Gun contains[Barrel: MP 40, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: APS, Core: G36C]
-damage: 25.3506 - 20.2805
-fireRate: 750
+Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Kriss Vector, Core: G36C]
+damage: 25.0802 - 20.0642
+fireRate: 712.8
+adsSpread: 0.525
+hipfireSpread: 3
+reloadTime: 4
+magazineSize: 35
+health: -7.5
+recoilHipVertical: 9.2988 - 27.8964
+recoilAimVertical: 8.36892 - 25.1068
+movementSpeed: 2.64
+TTK 0.252525 Seconds
+
+Gun contains[Barrel: Water Pipe, Magazine: Hell-Trooper-23, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: G36C]
+damage: 25.1614 - 20.1291
+fireRate: 708.75
+adsSpread: 0.649688
+hipfireSpread: 3.7125
+reloadTime: 2.76
+magazineSize: 45
+health: 0
+recoilHipVertical: 10.35 - 31.05
+recoilAimVertical: 9.315 - 27.945
+movementSpeed: 0
+TTK 0.253968 Seconds
+
+Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Fedorov Avtomat, Core: G36C]
+damage: 25.0802 - 20.0642
+fireRate: 708.75
+adsSpread: 0.4375
+hipfireSpread: 2.5
+reloadTime: 4.8
+magazineSize: 35
+health: -7.5
+recoilHipVertical: 9.963 - 29.889
+recoilAimVertical: 8.9667 - 26.9001
+movementSpeed: 0
+TTK 0.253968 Seconds
+
+Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: G36C]
+damage: 25.6067 - 20.4854
+fireRate: 708.75
+adsSpread: 0.590625
+hipfireSpread: 3.375
+reloadTime: 4.8
+magazineSize: 35
+health: 0
+recoilHipVertical: 8.1 - 24.3
+recoilAimVertical: 7.29 - 21.87
+movementSpeed: 0
+TTK 0.253968 Seconds
+
+Gun contains[Barrel: PP-19 Bizon, Magazine: The Chief, Grip: Circuit Judge, Stock: APS, Core: G36C]
+damage: 25.1133 - 20.0906
+fireRate: 702
 adsSpread: 0.61425
+hipfireSpread: 3.51
+reloadTime: 4.75
+magazineSize: 36
+health: 0
+recoilHipVertical: 20.3125 - 60.9375
+recoilAimVertical: 18.2812 - 54.8438
+movementSpeed: 2
+TTK 0.25641 Seconds
+
+Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Remington 870 Breacher, Core: G36C]
+damage: 25.0802 - 20.0642
+fireRate: 698.625
+adsSpread: 0.546875
+hipfireSpread: 3.125
+reloadTime: 4.6
+magazineSize: 35
+health: -7.5
+recoilHipVertical: 9.5202 - 28.5606
+recoilAimVertical: 8.56818 - 25.7045
+movementSpeed: 3.5
+TTK 0.257649 Seconds
+
+Gun contains[Barrel: Water Pipe, Magazine: Hell-Trooper-23, Grip: Circuit Judge, Stock: STG-44, Core: G36C]
+damage: 25.1614 - 20.1291
+fireRate: 695.25
+adsSpread: 0.584719
+hipfireSpread: 3.34125
+reloadTime: 2.3
+magazineSize: 45
+health: 0
+recoilHipVertical: 11.5 - 34.5
+recoilAimVertical: 10.35 - 31.05
+movementSpeed: 0
+TTK 0.2589 Seconds
+
+Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: STG-44, Core: G36C]
+damage: 25.6067 - 20.4854
+fireRate: 695.25
+adsSpread: 0.531562
+hipfireSpread: 3.0375
 reloadTime: 4
 magazineSize: 35
 health: 0
-recoilAimVertical: 12.636 - 37.908
-movementSpeed: 2.56
-TTK 0.24 Seconds
-
-Gun contains[Barrel: Circuit Judge, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: APS, Core: G36C]
-damage: 25.1159 - 20.0927
-fireRate: 750
-adsSpread: 0.61425
-reloadTime: 3.58
-magazineSize: 35
-health: 0
-recoilAimVertical: 12.1095 - 36.3285
+recoilHipVertical: 9 - 27
+recoilAimVertical: 8.1 - 24.3
 movementSpeed: 0
-TTK 0.24 Seconds
+TTK 0.2589 Seconds
 

@@ -37,11 +37,15 @@ namespace Input
 
     fpair damageRange = NILRANGE;
     fpair magazineRange = NILRANGE;
-    fpair spreadRange = NILRANGE;
-    fpair recoilRange = NILRANGE;
+    fpair spreadHipRange = NILRANGE;
+    fpair spreadAimRange = NILRANGE;
+    fpair recoilHipRange = NILRANGE;
+    fpair recoilAimRange = NILRANGE;
     fpair movementSpeedRange = NILRANGE;
     fpair fireRateRange = NILRANGE;
     fpair healthRange = NILRANGE;
+    fpair pelletRange = NILRANGE;
+    fpair timeToAimRange = NILRANGE;
 }
 
 
@@ -76,11 +80,12 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         FIRERATE = 1<<4,
         TIMETOAIM = 1<<5,
         MOVEMENTSPEEDMODIFIER = 1<<6,
-        SPREAD = 1<<7,
-        RECOILAIM = 1<<8,
-        RECOILHIP = 1<<9,
-        PELLETS = 1<<10,
-        HEALTH = 1<<11,
+        SPREADAIM = 1<<7,
+        SPREADHIP = 1<<8,
+        RECOILAIM = 1<<9,
+        RECOILHIP = 1<<10,
+        PELLETS = 1<<11,
+        HEALTH = 1<<12,
     };
 
     bool MoreIsBetter(MultFlags propertyFlag)
@@ -96,7 +101,8 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         case RELOAD:
         case RECOILAIM:
         case RECOILHIP:
-        case SPREAD:
+        case SPREADAIM:
+        case SPREADHIP:
             return false;
         default:
             throw std::invalid_argument("Invalid property flag");
@@ -157,7 +163,8 @@ public:
                 return damage;
             case FIRERATE:
                 return fireRate;
-            case SPREAD:
+            case SPREADAIM:
+            case SPREADHIP:
                 return spread;
             case RECOILAIM:
             case RECOILHIP:
@@ -387,11 +394,8 @@ public:
         if (flags & MAGAZINESIZE) magazineSize = magazine->magazineSize;
         if (flags & HEALTH) health = core->health;
         if (flags & RELOAD) reloadTime = magazine->reloadTime;
-        if (flags & SPREAD)
-        {
-            hipfireSpread = core->hipfireSpread;
-            adsSpread = core->adsSpread;
-        }
+        if (flags & SPREADAIM) adsSpread = core->adsSpread;
+        if (flags & SPREADHIP) hipfireSpread = core->hipfireSpread;
         if (flags & RECOILHIP)
         {
             recoilHipHorizontal = core->recoilHipHorizontal;
@@ -423,11 +427,8 @@ public:
         if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier += GetTotalAdd(MOVEMENTSPEEDMODIFIER); // Bruhhhhhhhhh
         if (flags & HEALTH) health += GetTotalAdd(HEALTH);
         if (flags & RELOAD) reloadTime *= GetTotalMult(RELOAD);
-        if (flags & SPREAD)
-        {
-            hipfireSpread *= GetTotalMult(SPREAD);
-            adsSpread *= GetTotalMult(SPREAD);
-        }
+        if (flags & SPREADAIM) adsSpread *= GetTotalMult(SPREADAIM);
+        if (flags & SPREADHIP) hipfireSpread *= GetTotalMult(SPREADHIP);
         if (flags & RECOILHIP)
         {
             float recoilMult = GetTotalMult(RECOILHIP);
@@ -475,9 +476,11 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
        << "damage: " << gun.damage << "\n"
        << "fireRate: " << gun.fireRate << "\n"
        << "adsSpread: " << gun.adsSpread << "\n"
+       << "hipfireSpread: " << gun.hipfireSpread << "\n"
        << "reloadTime: " << gun.reloadTime << "\n"
        << "magazineSize: " << gun.magazineSize << "\n"
        << "health: " << gun.health << "\n"
+       << "recoilHipVertical: " << gun.recoilHipVertical << "\n"
        << "recoilAimVertical: " << gun.recoilAimVertical << "\n"
        << "movementSpeed: " << gun.movementSpeedModifier << "\n"
        << "TTK " << CalcTTK(gun) << " Seconds\n";
@@ -757,8 +760,10 @@ namespace BruteForce
             if (Input::damageRange != nilrange) currentflags |= DAMAGE | PELLETS;
             if (Input::magazineRange != nilrange) currentflags |= MAGAZINESIZE;
             if (Input::movementSpeedRange != nilrange) currentflags |= MOVEMENTSPEEDMODIFIER;
-            if (Input::spreadRange != nilrange) currentflags |= SPREAD;
-            if (Input::recoilRange != nilrange) currentflags |= RECOILAIM;
+            if (Input::spreadHipRange != nilrange) currentflags |= SPREADHIP;
+            if (Input::spreadAimRange != nilrange) currentflags |= SPREADAIM;
+            if (Input::recoilHipRange != nilrange) currentflags |= RECOILHIP;
+            if (Input::recoilAimRange != nilrange) currentflags |= RECOILAIM;
             if (Input::fireRateRange != nilrange) currentflags |= FIRERATE;
             if (Input::healthRange != nilrange) currentflags |= HEALTH;
             switch (PQ::currentSortingType)
@@ -769,7 +774,7 @@ namespace BruteForce
                     currentflags |= FIRERATE;
                     break;
                 case PQ::SORTBYSPREAD:
-                    currentflags |= SPREAD;
+                    currentflags |= SPREADAIM;
                     break;
             }
         }
@@ -785,17 +790,22 @@ namespace BruteForce
         bool PreFilter(Barrel* b, Magazine* m, Grip* g, Stock* s, Core* c)
         {
             if (!Fast::includeCategories_fast[c->category_fast]) return false;
-            return RangeFilter(m->magazineSize, Input::magazineRange);
+            if (!RangeFilter(c->timeToAim, Input::timeToAimRange)) return false;
+            if (!RangeFilter(m->magazineSize, Input::magazineRange)) return false;
+            return true;
         }
 
         bool PostFilter(Gun& gun)
         {
             if (!RangeFilter(gun.damage.first, Input::damageRange)) return false;
-            if (!RangeFilter(gun.adsSpread, Input::spreadRange)) return false;
-            if (!RangeFilter(gun.recoilAimVertical.second, Input::recoilRange)) return false;
+            if (!RangeFilter(gun.adsSpread, Input::spreadAimRange)) return false;
+            if (!RangeFilter(gun.hipfireSpread, Input::spreadHipRange)) return false;
+            if (!RangeFilter(gun.recoilAimVertical.second, Input::recoilAimRange)) return false;
+            if (!RangeFilter(gun.recoilHipVertical.second, Input::recoilHipRange)) return false;
             if (!RangeFilter(gun.movementSpeedModifier, Input::movementSpeedRange)) return false;
             if (!RangeFilter(gun.fireRate, Input::fireRateRange)) return false;
             if (!RangeFilter(gun.health, Input::healthRange)) return false;
+            if (!RangeFilter(gun.pellets, Input::pelletRange)) return false;
             return true;
         }
 
@@ -845,12 +855,18 @@ int main(int argc, char* argv[])
     app.add_option("--magazine", Input::magazineRange, "Size of magazine to filter");
     app.add_option("--magazineMin", Input::magazineRange.first);
     app.add_option("--magazineMax", Input::magazineRange.second);
-    app.add_option("--spread", Input::spreadRange, "Spread range to filter");
-    app.add_option("--spreadMin", Input::spreadRange.first);
-    app.add_option("--spreadMax", Input::spreadRange.second);
-    app.add_option("--recoil", Input::recoilRange, "Recoil range to filter");
-    app.add_option("--recoilMin", Input::recoilRange.first);
-    app.add_option("--recoilMax", Input::recoilRange.second);
+    app.add_option("--spreadHip", Input::spreadHipRange, "Spread range to filter (HIP)");
+    app.add_option("--spreadHipMin", Input::spreadHipRange.first);
+    app.add_option("--spreadHipMax", Input::spreadHipRange.second);
+    app.add_option("--spreadAim", Input::spreadAimRange, "Spread range to filter (AIM)");
+    app.add_option("--spreadAimMin", Input::spreadAimRange.first);
+    app.add_option("--spreadAimMax", Input::spreadAimRange.second);
+    app.add_option("--recoilHip", Input::recoilHipRange, "Recoil range to filter (HIP)");
+    app.add_option("--recoilHipMin", Input::recoilHipRange.first);
+    app.add_option("--recoilHipMax", Input::recoilHipRange.second);
+    app.add_option("--recoilAim", Input::recoilAimRange, "Recoil range to filter (AIM)");
+    app.add_option("--recoilAimMin", Input::recoilAimRange.first);
+    app.add_option("--recoilAimMax", Input::recoilAimRange.second);
     app.add_option("--speed", Input::movementSpeedRange, "Movement speed range to filter");
     app.add_option("--speedMin", Input::movementSpeedRange.first);
     app.add_option("--speedMax", Input::movementSpeedRange.second);
@@ -860,6 +876,12 @@ int main(int argc, char* argv[])
     app.add_option("--health", Input::healthRange, "Health range to filter");
     app.add_option("--healthMin", Input::healthRange.first);
     app.add_option("--healthMax", Input::healthRange.second);
+    app.add_option("--pellet", Input::pelletRange, "Pellet range to filter");
+    app.add_option("--pelletMin", Input::pelletRange.first);
+    app.add_option("--pelletMax", Input::pelletRange.second);
+    app.add_option("--timeToAim", Input::timeToAimRange, "Time to aim range to filter");
+    app.add_option("--timeToAimMin", Input::timeToAimRange.first);
+    app.add_option("--timeToAimMax", Input::timeToAimRange.second);
 
     CLI11_PARSE(app, argc, argv);
 

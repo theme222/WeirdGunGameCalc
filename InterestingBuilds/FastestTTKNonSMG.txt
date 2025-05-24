@@ -1,45 +1,66 @@
-./Calculator -o InterestingBuilds/FastestTTKNonSMG.txt -i AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadMax 0.649 --recoilMax 30 
+./Calculator -o InterestingBuilds/FastestTTKNonSMG.txt -i AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.649 --recoilAimMax 30 
 Current top 10 guns are: 
 Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Kriss Vector, Core: G36C]
 damage: 25.0802 - 20.0642
 fireRate: 712.8
 adsSpread: 0.525
+hipfireSpread: 3
 reloadTime: 4
 magazineSize: 35
 health: -7.5
+recoilHipVertical: 9.2988 - 27.8964
 recoilAimVertical: 8.36892 - 25.1068
 movementSpeed: 2.64
 TTK 0.252525 Seconds
-
-Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Fedorov Avtomat, Core: G36C]
-damage: 25.0802 - 20.0642
-fireRate: 708.75
-adsSpread: 0.4375
-reloadTime: 4.8
-magazineSize: 35
-health: -7.5
-recoilAimVertical: 8.9667 - 26.9001
-movementSpeed: 0
-TTK 0.253968 Seconds
 
 Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: G36C]
 damage: 25.6067 - 20.4854
 fireRate: 708.75
 adsSpread: 0.590625
+hipfireSpread: 3.375
 reloadTime: 4.8
 magazineSize: 35
 health: 0
+recoilHipVertical: 8.1 - 24.3
 recoilAimVertical: 7.29 - 21.87
 movementSpeed: 0
 TTK 0.253968 Seconds
+
+Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Fedorov Avtomat, Core: G36C]
+damage: 25.0802 - 20.0642
+fireRate: 708.75
+adsSpread: 0.4375
+hipfireSpread: 2.5
+reloadTime: 4.8
+magazineSize: 35
+health: -7.5
+recoilHipVertical: 9.963 - 29.889
+recoilAimVertical: 8.9667 - 26.9001
+movementSpeed: 0
+TTK 0.253968 Seconds
+
+Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Remington 870 Breacher, Core: G36C]
+damage: 25.0802 - 20.0642
+fireRate: 698.625
+adsSpread: 0.546875
+hipfireSpread: 3.125
+reloadTime: 4.6
+magazineSize: 35
+health: -7.5
+recoilHipVertical: 9.5202 - 28.5606
+recoilAimVertical: 8.56818 - 25.7045
+movementSpeed: 3.5
+TTK 0.257649 Seconds
 
 Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: STG-44, Core: G36C]
 damage: 25.0802 - 20.0642
 fireRate: 695.25
 adsSpread: 0.39375
+hipfireSpread: 2.25
 reloadTime: 4
 magazineSize: 35
 health: -7.5
+recoilHipVertical: 11.07 - 33.21
 recoilAimVertical: 9.963 - 29.889
 movementSpeed: 0
 TTK 0.2589 Seconds
@@ -48,31 +69,24 @@ Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Circuit Judge, Sto
 damage: 25.6067 - 20.4854
 fireRate: 695.25
 adsSpread: 0.531562
+hipfireSpread: 3.0375
 reloadTime: 4
 magazineSize: 35
 health: 0
+recoilHipVertical: 9 - 27
 recoilAimVertical: 8.1 - 24.3
 movementSpeed: 0
 TTK 0.2589 Seconds
-
-Gun contains[Barrel: Thompson, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Kriss Vector, Core: G36C]
-damage: 21.0597 - 16.8478
-fireRate: 903.26
-adsSpread: 0.3864
-reloadTime: 4.6
-magazineSize: 35
-health: 0
-recoilAimVertical: 8.505 - 25.515
-movementSpeed: 5.68
-TTK 0.265704 Seconds
 
 Gun contains[Barrel: Thompson, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Kriss Vector, Core: G36C]
 damage: 20.1441 - 16.1153
 fireRate: 903.26
 adsSpread: 0.3864
+hipfireSpread: 2.208
 reloadTime: 2.76
 magazineSize: 30
 health: 0
+recoilHipVertical: 10.5 - 31.5
 recoilAimVertical: 9.45 - 28.35
 movementSpeed: 5.68
 TTK 0.265704 Seconds
@@ -81,10 +95,25 @@ Gun contains[Barrel: Thompson, Magazine: AKM, Grip: PPSh-41, Stock: Kriss Vector
 damage: 20.1441 - 16.1153
 fireRate: 903.26
 adsSpread: 0.3864
+hipfireSpread: 2.208
 reloadTime: 2.76
 magazineSize: 30
 health: 0
+recoilHipVertical: 10.5 - 31.5
 recoilAimVertical: 9.45 - 28.35
+movementSpeed: 5.68
+TTK 0.265704 Seconds
+
+Gun contains[Barrel: Thompson, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Kriss Vector, Core: G36C]
+damage: 21.0597 - 16.8478
+fireRate: 903.26
+adsSpread: 0.3864
+hipfireSpread: 2.208
+reloadTime: 4.6
+magazineSize: 35
+health: 0
+recoilHipVertical: 9.45 - 28.35
+recoilAimVertical: 8.505 - 25.515
 movementSpeed: 5.68
 TTK 0.265704 Seconds
 
@@ -92,21 +121,12 @@ Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Circuit Judge, Sto
 damage: 25.6067 - 20.4854
 fireRate: 675
 adsSpread: 0.590625
+hipfireSpread: 3.375
 reloadTime: 3.8
 magazineSize: 35
 health: 0
+recoilHipVertical: 8.1 - 24.3
 recoilAimVertical: 7.29 - 21.87
-movementSpeed: 0
-TTK 0.266667 Seconds
-
-Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Willy Fischy, Core: G36C]
-damage: 25.0802 - 20.0642
-fireRate: 675
-adsSpread: 0.4375
-reloadTime: 3.8
-magazineSize: 35
-health: -7.5
-recoilAimVertical: 8.9667 - 26.9001
 movementSpeed: 0
 TTK 0.266667 Seconds
 
