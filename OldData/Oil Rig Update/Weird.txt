@@ -129,13 +129,6 @@ Grip_Effects:
   Movement_Speed: -5%
   Spread: +15%
 ---
-Grip: Pistol Pistol
-Grip_Effects:
-  Reload_Speed: -40%
-  Damage: -5%
-  Recoil: +10%
-  Spread: +10%
----
 
 Category: Weird Magazines
 ---

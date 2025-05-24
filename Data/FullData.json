@@ -131,6 +131,15 @@
     },
     {
       "Category": "Sniper",
+      "Name": "M200 Intervention",
+      "Damage": 25,
+      "Fire_Rate": -25,
+      "Movement_Speed": -8,
+      "Recoil": 55,
+      "Spread": 100
+    },
+    {
+      "Category": "Sniper",
       "Name": "Hecate II",
       "Damage": 30,
       "Fire_Rate": -30,
@@ -297,6 +306,13 @@
       "Spread": 20
     },
     {
+      "Category": "LMG",
+      "Name": "Negev",
+      "Fire_Rate": 15,
+      "Movement_Speed": -4.5,
+      "Spread": 25
+    },
+    {
       "Category": "Shotgun",
       "Name": "Spas-12",
       "Fire_Rate": 10,
@@ -306,7 +322,7 @@
     {
       "Category": "Shotgun",
       "Name": "Remington 870 Wingmaster",
-      "Damage": 10,
+      "Damage": 5,
       "Spread": -25,
       "Fire_Rate": -10,
       "Pellets": -75,
@@ -439,7 +455,7 @@
         14.8
       ],
       "Dropoff_Studs": [
-        175,
+        180,
         350
       ],
       "Fire_Rate": 600,
@@ -472,7 +488,7 @@
         12.7
       ],
       "Dropoff_Studs": [
-        175,
+        180,
         350
       ],
       "Fire_Rate": 650,
@@ -505,7 +521,7 @@
         11.6
       ],
       "Dropoff_Studs": [
-        175,
+        180,
         350
       ],
       "Fire_Rate": 680,
@@ -539,7 +555,7 @@
         11
       ],
       "Dropoff_Studs": [
-        175,
+        180,
         350
       ],
       "Fire_Rate": 750,
@@ -572,7 +588,7 @@
         10.4
       ],
       "Dropoff_Studs": [
-        175,
+        180,
         350
       ],
       "Fire_Rate": 900,
@@ -605,7 +621,7 @@
         17.6
       ],
       "Dropoff_Studs": [
-        175,
+        180,
         350
       ],
       "Fire_Rate": 400,
@@ -638,7 +654,7 @@
         13.2
       ],
       "Dropoff_Studs": [
-        175,
+        180,
         350
       ],
       "Fire_Rate": 625,
@@ -671,7 +687,7 @@
         15.8
       ],
       "Dropoff_Studs": [
-        175,
+        180,
         350
       ],
       "Fire_Rate": 500,
@@ -704,7 +720,7 @@
         14
       ],
       "Dropoff_Studs": [
-        175,
+        180,
         350
       ],
       "Fire_Rate": 900,
@@ -737,7 +753,7 @@
         13.2
       ],
       "Dropoff_Studs": [
-        175,
+        180,
         350
       ],
       "Fire_Rate": 650,
@@ -778,7 +794,7 @@
       "Spread": 3.5,
       "ADS_Spread": 1.5,
       "Time_To_Aim": 0.7,
-      "Suppression": 0.5,
+      "Suppression": 0.4,
       "Recoil_Hip_Horizontal": [
         -8,
         8
@@ -872,7 +888,7 @@
         400,
         700
       ],
-      "Fire_Rate": 40,
+      "Fire_Rate": 37,
       "Hipfire_Spread": 15,
       "ADS_Spread": 0.1,
       "Time_To_Aim": 0.7,
@@ -993,6 +1009,40 @@
       "Recoil_Aim_Vertical": [
         36,
         48
+      ]
+    },
+    {
+      "Category": "Sniper",
+      "Name": "M200 Intervention",
+      "Damage": [
+        65,
+        58.5
+      ],
+      "Dropoff_Studs": [
+        400,
+        700
+      ],
+      "Fire_Rate": 18,
+      "Hipfire_Spread": 15,
+      "ADS_Spread": 0.13,
+      "Time_To_Aim": 0.9,
+      "Movement_Speed_Modifier": -8,
+      "Suppression": 1,
+      "Recoil_Hip_Horizontal": [
+        -18,
+        18
+      ],
+      "Recoil_Hip_Vertical": [
+        80,
+        110
+      ],
+      "Recoil_Aim_Horizontal": [
+        -9,
+        9
+      ],
+      "Recoil_Aim_Vertical": [
+        40,
+        55
       ]
     },
     {
@@ -1297,8 +1347,8 @@
       "Category": "SMG",
       "Name": "Type 2a Nambu",
       "Damage": [
-        18.5,
-        11.1
+        19.5,
+        11.7
       ],
       "Dropoff_Studs": [
         100,
@@ -1404,9 +1454,8 @@
       ],
       "Fire_Rate": 800,
       "Spread": 1.5,
-      "ADS_Spread": 0.45,
+      "ADS_Spread": 0.6,
       "Time_To_Aim": 0.7,
-      "Movement_Speed_Modifier": 1,
       "Recoil_Hip_Horizontal": [
         -15,
         15
@@ -1577,7 +1626,7 @@
       ],
       "Fire_Rate": 500,
       "Spread": 10,
-      "ADS_Spread": 1.25,
+      "ADS_Spread": 1.1,
       "Time_To_Aim": 1.1,
       "Movement_Speed_Modifier": -5,
       "Suppression": 0.9,
@@ -1597,6 +1646,41 @@
       "Recoil_Aim_Vertical": [
         72,
         108
+      ]
+    },
+    {
+      "Category": "LMG",
+      "Name": "Negev",
+      "Damage": [
+        14,
+        11.9
+      ],
+      "Dropoff_Studs": [
+        180,
+        360
+      ],
+      "Fire_Rate": 850,
+      "Spread": 7,
+      "ADS_Spread": 1.5,
+      "Time_To_Aim": 1.25,
+      "Movement_Speed_Modifier": -5,
+      "Suppression": 0.9,
+      "Health": 7.5,
+      "Recoil_Hip_Horizontal": [
+        -16,
+        16
+      ],
+      "Recoil_Hip_Vertical": [
+        35,
+        40
+      ],
+      "Recoil_Aim_Horizontal": [
+        -9.6,
+        9.6
+      ],
+      "Recoil_Aim_Vertical": [
+        21,
+        24
       ]
     },
     {
@@ -1953,8 +2037,7 @@
     {
       "Category": "Assault Rifle",
       "Name": "Hell-Trooper-23",
-      "Recoil": -17,
-      "Spread": -5
+      "Spread": -10
     },
     {
       "Category": "Assault Rifle",
@@ -2007,6 +2090,13 @@
       "Name": "Hecate II",
       "Recoil": -30,
       "Spread": -10
+    },
+    {
+      "Category": "Sniper",
+      "Name": "M200 Intervention",
+      "Recoil": -20,
+      "Reload_Speed": -10,
+      "Spread": 10
     },
     {
       "Category": "SMG",
@@ -2085,7 +2175,7 @@
       "Name": "PP-19 Bizon",
       "Movement_Speed": 2.5,
       "Recoil": -9,
-      "Reload_Speed": 3,
+      "Reload_Speed": -3,
       "Spread": 18
     },
     {
@@ -2098,9 +2188,10 @@
     {
       "Category": "LMG",
       "Name": "M60",
-      "Spread": -12,
+      "Recoil": -15,
+      "Spread": -15,
       "Movement_Speed": -2.5,
-      "Reload_Speed": 7
+      "Reload_Speed": 5
     },
     {
       "Category": "LMG",
@@ -2137,6 +2228,14 @@
       "Reload_Speed": -13,
       "Spread": -10,
       "Movement_Speed": -2.5
+    },
+    {
+      "Category": "LMG",
+      "Name": "Negev",
+      "Fire_Rate": 8,
+      "Movement_Speed": -2.5,
+      "Reload_Speed": 15,
+      "Spread": 5
     },
     {
       "Category": "Shotgun",
@@ -2193,6 +2292,14 @@
       "Recoil": -30,
       "Movement_Speed": -5,
       "Spread": 15
+    },
+    {
+      "Category": "Weird",
+      "Name": "Pistol Pistol",
+      "Reload_Speed": -40,
+      "Damage": -5,
+      "Recoil": 10,
+      "Spread": 10
     }
   ],
   "Magazines": [
@@ -2213,10 +2320,9 @@
       "Category": "Assault Rifle",
       "Name": "AUG",
       "Magazine_Size": 42,
-      "Reload_Time": 3,
+      "Reload_Time": 3.5,
       "Movement_Speed": 2.5,
-      "Recoil": -10,
-      "Damage": -15
+      "Spread": -10
     },
     {
       "Category": "Assault Rifle",
@@ -2368,6 +2474,16 @@
       "Fire_Rate": 5,
       "Spread": -15,
       "Recoil": 25
+    },
+    {
+      "Category": "Sniper",
+      "Name": "M200 Intervention",
+      "Magazine_Size": 5,
+      "Reload_Time": 6,
+      "Damage": 25,
+      "Spread": -20,
+      "Fire_Rate": -20,
+      "Recoil": 60
     },
     {
       "Category": "SMG",
@@ -2524,8 +2640,8 @@
       "Magazine_Size": 30,
       "Reload_Time": 3.5,
       "Damage": 5.5,
-      "Movement_Speed": -1,
-      "Spread": -17
+      "Spread": -17,
+      "Movement_Speed": -1
     },
     {
       "Category": "LMG",
@@ -2537,6 +2653,15 @@
       "Movement_Speed": -0.5,
       "Recoil": 10,
       "Spread": 10
+    },
+    {
+      "Category": "LMG",
+      "Name": "Negev",
+      "Magazine_Size": 200,
+      "Reload_Time": 10,
+      "Recoil": -11,
+      "Spread": -13,
+      "Movement_Speed": -7
     },
     {
       "Category": "Shotgun",
@@ -2741,7 +2866,7 @@
     {
       "Category": "Assault Rifle",
       "Name": "APS",
-      "Damage": 10,
+      "Damage": 6,
       "Recoil": 30,
       "Spread": 30
     },
@@ -2789,6 +2914,14 @@
       "Recoil": 15
     },
     {
+      "Category": "Sniper",
+      "Name": "M200 Intervention",
+      "Recoil": -40,
+      "Spread": -40,
+      "Fire_Rate": -25,
+      "Movement_Speed": -10
+    },
+    {
       "Category": "SMG",
       "Name": "MAC-10",
       "Movement_Speed": 4.4,
@@ -2807,8 +2940,9 @@
     {
       "Category": "SMG",
       "Name": "Thompson",
+      "Movement_Speed": 1.5,
       "Recoil": -10,
-      "Spread": -10
+      "Spread": -13
     },
     {
       "Category": "SMG",
@@ -2930,6 +3064,12 @@
       "Movement_Speed": -5
     },
     {
+      "Category": "LMG",
+      "Name": "Negev",
+      "Recoil": -20,
+      "Reload_Speed": 15
+    },
+    {
       "Category": "Shotgun",
       "Name": "Spas-12 Folded",
       "Movement_Speed": 4,
@@ -2947,9 +3087,10 @@
     {
       "Category": "Shotgun",
       "Name": "Remington 870 Breacher",
-      "Movement_Speed": 3,
-      "Recoil": 15,
-      "Reload_Speed": 10,
+      "Fire_Rate": 5,
+      "Movement_Speed": 5,
+      "Recoil": -20,
+      "Reload_Speed": 15,
       "Spread": 25
     },
     {

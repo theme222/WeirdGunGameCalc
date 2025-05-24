@@ -2,7 +2,7 @@ Category: Assault Rifles
 ---
 Core: AKM
 Damage: 18.5 > 14.8
-Dropoff_Studs: 180 > 350
+Dropoff_Studs: 175 > 350
 Fire_Rate: 600
 Hipfire_Spread: 5.5
 ADS_Spread: 0.5
@@ -15,7 +15,7 @@ Recoil_Aim_Vertical: 56 - 64
 ---
 Core: M-16
 Damage: 15.9 > 12.7
-Dropoff_Studs: 180 > 350
+Dropoff_Studs: 175 > 350
 Fire_Rate: 650
 Hipfire_Spread: 2
 ADS_Spread: 0.25
@@ -28,7 +28,7 @@ Recoil_Aim_Vertical: 25 - 30
 ---
 Core: AUG
 Damage: 14.5 > 11.6
-Dropoff_Studs: 180 > 350
+Dropoff_Studs: 175 > 350
 Fire_Rate: 680
 Hipfire_Spread: 1
 ADS_Spread: 0.125
@@ -42,7 +42,7 @@ Recoil_Aim_Vertical: 18 - 22.5
 ---
 Core: As-Val
 Damage: 13.8 > 11
-Dropoff_Studs: 180 > 350
+Dropoff_Studs: 175 > 350
 Fire_Rate: 750
 Hipfire_Spread: 2
 ADS_Spread: 0.35
@@ -55,7 +55,7 @@ Recoil_Aim_Vertical: 15 - 20
 ---
 Core: Famas F1
 Damage: 13 > 10.4
-Dropoff_Studs: 180 > 350
+Dropoff_Studs: 175 > 350
 Fire_Rate: 900
 Hipfire_Spread: 3
 ADS_Spread: 0.5
@@ -68,7 +68,7 @@ Recoil_Aim_Vertical: 16 - 20
 ---
 Core: Fedorov Avtomat
 Damage: 22 > 17.6
-Dropoff_Studs: 180 > 350
+Dropoff_Studs: 175 > 350
 Fire_Rate: 400
 Hipfire_Spread: 2
 ADS_Spread: 0.25
@@ -81,7 +81,7 @@ Recoil_Aim_Vertical: 38.5 - 55
 ---
 Core: Scar L
 Damage: 16.5 > 13.2
-Dropoff_Studs: 180 > 350
+Dropoff_Studs: 175 > 350
 Fire_Rate: 625
 Hipfire_Spread: 5
 ADS_Spread: 0.65
@@ -94,7 +94,7 @@ Recoil_Aim_Vertical: 27.5 - 32.5
 ---
 Core: STG-44
 Damage: 19.7 > 15.8
-Dropoff_Studs: 180 > 350
+Dropoff_Studs: 175 > 350
 Fire_Rate: 500
 Hipfire_Spread: 5.5
 ADS_Spread: 0.5
@@ -107,7 +107,7 @@ Recoil_Aim_Vertical: 27.5 - 33
 ---
 Core: The Chief
 Damage: 17.5 > 14
-Dropoff_Studs: 180 > 350
+Dropoff_Studs: 175 > 350
 Fire_Rate: 900
 Hipfire_Spread: 5.5
 ADS_Spread: 5.5
@@ -120,7 +120,7 @@ Recoil_Aim_Vertical: 104 - 117
 ---
 Core: Hell-Trooper-23
 Damage: 16.5 > 13.2
-Dropoff_Studs: 180 > 350
+Dropoff_Studs: 175 > 350
 Fire_Rate: 650
 Hipfire_Spread: 5
 ADS_Spread: 0.8
@@ -139,7 +139,7 @@ Fire_Rate: 660
 Spread: 3.5
 ADS_Spread: 1.5
 Time_To_Aim: 0.7
-Suppression: 0.4
+Suppression: 0.5
 Recoil_Hip_Horizontal: -8 - 8
 Recoil_Hip_Vertical: 30 - 40
 Recoil_Aim_Horizontal: -3.2 - 3.2
@@ -176,7 +176,7 @@ Category: Snipers
 Core: Remington 700
 Damage: 55 > 49.5
 Dropoff_Studs: 400 > 700
-Fire_Rate: 37
+Fire_Rate: 40
 Hipfire_Spread: 15
 ADS_Spread: 0.1
 Time_To_Aim: 0.7
@@ -226,20 +226,6 @@ Recoil_Hip_Horizontal: -15 - 15
 Recoil_Hip_Vertical: 90 - 120
 Recoil_Aim_Horizontal: -6 - 6
 Recoil_Aim_Vertical: 36 - 48
----
-Core: M200 Intervention
-Damage: 65 > 58.5
-Dropoff_Studs: 400 > 700
-Fire_Rate: 18
-Hipfire_Spread: 15
-ADS_Spread: 0.13
-Time_To_Aim: 0.9
-Movement_Speed_Modifier: -8
-Suppression: 1
-Recoil_Hip_Horizontal: -18 - 18
-Recoil_Hip_Vertical: 80 - 110
-Recoil_Aim_Horizontal: -9 - 9
-Recoil_Aim_Vertical: 40 - 55
 ---
 Core: Hecate II
 Damage: 70 > 63
@@ -363,7 +349,7 @@ Recoil_Aim_Horizontal: -4.5 - 4.5
 Recoil_Aim_Vertical: 9 - 27
 ---
 Core: Type 2a Nambu
-Damage: 19.5 > 11.7
+Damage: 18.5 > 11.1
 Dropoff_Studs: 100 > 135
 Fire_Rate: 600
 Hipfire_Spread: 3
@@ -405,8 +391,9 @@ Damage: 16 > 9.6
 Dropoff_Studs: 100 > 135
 Fire_Rate: 800
 Spread: 1.5
-ADS_Spread: 0.6
+ADS_Spread: 0.45
 Time_To_Aim: 0.7
+Movement_Speed_Modifier: +1%
 Recoil_Hip_Horizontal: -15 - 15
 Recoil_Hip_Vertical: 20 - 45
 Recoil_Aim_Horizontal: -13.5 - 13.5
@@ -480,7 +467,7 @@ Damage: 23.5 > 20
 Dropoff_Studs: 180 > 360
 Fire_Rate: 500
 Spread: 10
-ADS_Spread: 1.1
+ADS_Spread: 1.25
 Time_To_Aim: 1.1
 Movement_Speed_Modifier: -5%
 Suppression: 0.9
@@ -489,21 +476,6 @@ Recoil_Hip_Horizontal: -60 - 60
 Recoil_Hip_Vertical: 80 - 120
 Recoil_Aim_Horizontal: -54 - 54
 Recoil_Aim_Vertical: 72 - 108
----
-Core: Negev
-Damage: 14 > 11.9
-Dropoff_Studs: 180 > 360
-Fire_Rate: 850
-Spread: 7
-ADS_Spread: 1.5
-Time_To_Aim: 1.25
-Movement_Speed_Modifier: -5%
-Suppression: 0.9
-Health: +7.5%
-Recoil_Hip_Horizontal: -16 - 16
-Recoil_Hip_Vertical: 35 - 40
-Recoil_Aim_Horizontal: -9.6 - 9.6
-Recoil_Aim_Vertical: 21 - 24
 ---
 Core: MG42
 Damage: 11 > 9.4

@@ -6,14 +6,13 @@ Barrel_Effects:
   Recoil: +20%
 ---
 Barrel: M-16
-Barrel_Effects:
-  Recoil: -15%
+Recoil: -15%
 ---
 Barrel: AUG
 Barrel_Effects:
   Movement_Speed: +2.5%
   Recoil: -5%
-  Reload_Speed: -15%
+  Reload_Speed: -15% (Faster)
   Spread: -10%
   Damage: -5%
 ---
@@ -64,21 +63,18 @@ Barrel_Effects:
   Spread: +35%
 ---
 Barrel: Hex Spitter
-Barrel_Effects:
-  Damage: +10%
-  Recoil: -5%
-  Spread: +10%
+Damage: +10%
+Recoil: -5%
+Spread: +10%
 ---
 Barrel: G36C
-Barrel_Effects:
-  Damage: +5%
-  Reload_Time: -10%
+Damage: +5%
+Reload_Time: -10%
 ---
 Barrel: APS
-Barrel_Effects:
-  Damage: +22%
-  Fire_Rate: -15%
-  Spread: +20%
+Damage: +22%
+Fire_Rate: -15%
+Spread: +20%
 ---
 
 Category: Sniper Barrels
@@ -93,12 +89,12 @@ Barrel_Effects:
 Barrel: M1891 Carcano
 Barrel_Effects:
   Spread: -25%
-  Reload_Speed: +20%
+  Reload_Speed: +20% (Slower)
 ---
 Barrel: M91 Moschetto
 Barrel_Effects:
   Movement_Speed: +4%
-  Reload_Speed: -20%
+  Reload_Speed: -20% (Faster)
   Spread: +50%
 ---
 Barrel: Arctic Warfare
@@ -111,14 +107,6 @@ Barrel: Lee Enfield
 Barrel_Effects:
   Fire_Rate: +10%
   Recoil: +100%
-  Spread: +100%
----
-Barrel: M200 Intervention
-Barrel_Effects:
-  Damage: +25%
-  Fire_Rate: -25%
-  Movement_Speed: -8%
-  Recoil: +55%
   Spread: +100%
 ---
 Barrel: Hecate II
@@ -154,7 +142,7 @@ Barrel: MP9
 Barrel_Effects:
   Fire_Rate: +8%
   Movement_Speed: +3.2%
-  Reload_Speed: -15%
+  Reload_Speed: -15% (Faster)
 ---
 Barrel: MP 40
 Barrel_Effects:
@@ -199,19 +187,17 @@ Barrel_Effects:
   Recoil: +5%
 ---
 Barrel: PP-19 Bizon
-Barrel_Effects:
-  Damage: +8%
-  Fire_Rate: +5%
-  Movement_Speed: +2.5%
-  Recoil: +25%
+Damage: +8%
+Fire_Rate: +5%
+Movement_Speed: +2.5%
+Recoil: +25%
 ---
 Barrel: MP5
-Barrel_Effects:
-  Damage: +10%
-  Movement_Speed: +2.5%
-  Recoil: -5%
-  Spread: -5%
-  Fire_Rate: -5%
+Damage: +10%
+Movement_Speed: +2.5%
+Recoil: -5%
+Spread: -5%
+Fire_Rate: -5%
 ---
 
 Category: LMG Barrels
@@ -234,7 +220,7 @@ Barrel_Effects:
   Recoil: -17%
   Spread: -20%
   Movement_Speed: -3%
-  Reload_Speed: +12%
+  Reload_Speed: +12% (Slower)
 ---
 Barrel: M1917 Browning
 Barrel_Effects:
@@ -242,14 +228,14 @@ Barrel_Effects:
   Recoil: -20%
   Spread: -10%
   Movement_Speed: -25%
-  Reload_Speed: +15%
+  Reload_Speed: +15% (Slower)
 ---
 Barrel: M1919 Browning
 Barrel_Effects:
   Recoil: -30%
   Spread: -50%
   Movement_Speed: -30%
-  Reload_Speed: +25%
+  Reload_Speed: +25% (Slower)
 ---
 Barrel: MG42
 Barrel_Effects:
@@ -266,69 +252,54 @@ Barrel_Effects:
   Reload_Speed: +5%
 ---
 Barrel: M1918 BAR
-Barrel_Effects:
-  Damage: +25%
-  Fire_Rate: -10%
-  Movement_Speed: -0.5%
-  Recoil: +20%
-  Spread: +20%
----
-Barrel: Negev
-Barrel_Effects:
-  Fire_Rate: +15%
-  Movement_Speed: -4.5%
-  Spread: +25%
+Damage: +25%
+Fire_Rate: -10%
+Movement_Speed: -0.5%
+Recoil: +20%
+Spread: +20%
 ---
 
 Category: Shotgun Barrels
 ---
 Barrel: Spas-12
-Barrel_Effects:
-  Fire_Rate: +10%
-  Movement_Speed: -2.5%
-  Spread: +35%
+Fire_Rate: +10%
+Movement_Speed: -2.5%
+Spread: +35%
 ---
 Barrel: Remington 870 Wingmaster
-Barrel_Effects:
-  Damage: +5%
-  Spread: -25%
-  Fire_Rate: -10%
-  Pellets: -75%
-  Reload_Speed: +10%
+Damage: +10%
+Spread: -25%
+Fire_Rate: -10%
+Pellets: -75%
+Reload_Speed: +10%
 ---
 Barrel: M1887
-Barrel_Effects:
-  Damage: +5%
-  Health: +5%
-  Movement_Speed: -5.5%
-  Spread: +35%
+Damage: +5%
+Health: +5%
+Movement_Speed: -5.5%
+Spread: +35%
 ---
 Barrel: M1897 Trench Shotgun
-Barrel_Effects:
-  Fire_Rate: +5%
-  Reload_Speed: -10%
-  Spread: +10%
+Fire_Rate: +5%
+Reload_Speed: -10%
+Spread: +10%
 ---
 Barrel: Remington 870 Breacher
-Barrel_Effects:
-  Damage: +10%
-  Movement_Speed: +3%
-  Spread: +75%
+Damage: +10%
+Movement_Speed: +3%
+Spread: +75%
 ---
 Barrel: Remington 870 MCS
-Barrel_Effects:
-  Damage: +10%
-  Spread: -15%
-  Reload_Speed: +10%
+Damage: +10%
+Spread: -15%
+Reload_Speed: +10%
 ---
 Barrel: Remington 870
-Barrel_Effects:
-  Damage: +10%
-  Spread: +15%
+Damage: +10%
+Spread: +15%
 ---
 Barrel: Circuit Judge
-Barrel_Effects:
-  Damage: +10%
-  Reload_Speed: -15%
-  Recoil: +15%
+Damage: +10%
+Reload_Speed: -15%
+Recoil: +15%
 ---

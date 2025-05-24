@@ -19,7 +19,7 @@ known_names = {
     'Mustard', 'Hell-Trooper-23', 'Kriss Vector', 'Words as Weapons', 'The Chief', 'Mas-38', 'Bicycle',
     'PPSh-41', 'Spas-12', 'Remington 870 Wingmaster', 'M1887', 'M1897 Trench Shotgun', 'Remington 870 Breacher',
     'Remington 870 MCS', 'Remington 870', 'Spas-12 Folded', 'Hex Spitter', 'PP-19 Bizon', 'M1918 BAR', 'G36C',
-    'APS', 'MP5', 'Circuit Judge', 'MP5A3'
+    'APS', 'MP5', 'Circuit Judge', 'MP5A3', 'Negev', 'M200 Intervention', 'Pistol Pistol'
 }
 
 
@@ -158,24 +158,34 @@ def ValueFormat():
 def ValidateData():
     print("Running step 4")
 
+    totalError = 0
+
     with open("Data/FullData.json", 'r') as file:
         JSONData = json.load(file)
 
     for t in JSONData.keys():
         if t not in known_types:
             print(f"Type {t} not found")
+            totalError += 1
 
     for partList in JSONData.values():
         for part in partList:
             for partProperty in part.keys():
                 if partProperty not in known_properties:
-                    print(f"Property {partProperty} not found")
+                    print(f"Property {partProperty} not found {part}")
+                    totalError += 1
 
             if part["Name"] not in known_names:
                 print(f"Name {part['Name']} not found")
+                totalError += 1
 
             if part["Category"] not in known_categories:
                 print(f"Category {part['Category']} not found")
+                totalError += 1
+
+    if totalError > 0:
+        print(f"Total errors: {totalError}")
+        exit(1)
 
 
 def CleanUp():

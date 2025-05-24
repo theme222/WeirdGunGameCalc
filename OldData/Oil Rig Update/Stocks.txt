@@ -2,7 +2,7 @@ Category: Assault Rifle Stocks
 ---
 Stock: AKM
 Stock_Effects:
-  Reload_Speed: -10%
+  Reload_Speed: -10% (Faster)
   Spread: -10%
   Recoil: +15%
 ---
@@ -19,23 +19,23 @@ Stock_Effects:
 Stock: As-Val
 Stock_Effects:
   Recoil: -10%
-  Reload_Speed: -10%
+  Reload_Speed: -10% (Faster)
 ---
 Stock: Famas F1
 Stock_Effects:
   Recoil: -15%
-  Reload_Speed: +5%
+  Reload_Speed: +5% (Slower)
 ---
 Stock: Fedorov Avtomat
 Stock_Effects:
   Fire_Rate: +5%
   Recoil: -10%
-  Reload_Speed: +20%
+  Reload_Speed: +20% (Slower)
 ---
 Stock: Scar L
 Stock_Effects:
   Recoil: -10%
-  Reload_Speed: -15%
+  Reload_Speed: -15% (Faster)
   Spread: +10%
 ---
 Stock: STG-44
@@ -45,32 +45,29 @@ Stock_Effects:
 ---
 Stock: The Chief
 Stock_Effects:
-  Reload_Speed: -10%
+  Reload_Speed: -10% (Faster)
   Spread: -20%
   Recoil: +10%
 ---
 Stock: Hell-Trooper-23
 Stock_Effects:
-  Reload_Speed: -25%
+  Reload_Speed: -25% (Faster)
   Recoil: +10%
 ---
 Stock: Hex Spitter
-Stock_Effects:
-  Reload_Speed: -10%
-  Spread: -25%
-  Movement_Speed: -5%
+Reload_Speed: -10%
+Spread: -25%
+Movement_Speed: -5%
 ---
 Stock: APS
-Stock_Effects:
-  Damage: +6%
-  Recoil: +30%
-  Spread: +30%
+Damage: +6%
+Recoil: +30%
+Spread: +30%
 ---
 Stock: G36C
-Stock_Effects:
-  Recoil: -5%
-  Reload_Time: -5%
-  Spread: -5%
+Recoil: -5%
+Reload_Time: -5%
+Spread: -5%
 ---
 
 Category: Sniper Stocks
@@ -87,7 +84,7 @@ Stock_Effects:
 ---
 Stock: Arctic Warfare
 Stock_Effects:
-  Reload_Speed: -15%
+  Reload_Speed: -15% (Faster)
   Spread: -35%
   Recoil: +10%
 ---
@@ -100,18 +97,11 @@ Stock_Effects:
 Stock: Hecate II
 Stock_Effects:
   Damage: +5%
-  Reload_Speed: -10%
+  Reload_Speed: -10% (Faster)
   Spread: -20%
   Fire_Rate: -10%
   Movement_Speed: -5%
   Recoil: +15%
----
-Stock: M200 Intervention
-Stock_Effects:
-  Recoil: -40%
-  Spread: -40%
-  Fire_Rate: -25%
-  Movement_Speed: -10%
 ---
 
 Category: SMG Stocks
@@ -119,22 +109,21 @@ Category: SMG Stocks
 Stock: MAC-10
 Stock_Effects:
   Movement_Speed: +4.4%
-  Reload_Speed: -20%
+  Reload_Speed: -20% (Faster)
   Recoil: +15%
   Spread: +15%
 ---
 Stock: Skorpion vz. 61
 Stock_Effects:
   Movement_Speed: +6%
-  Reload_Speed: -10%
+  Reload_Speed: -10% (Faster)
   Recoil: +20%
   Spread: +25%
 ---
 Stock: Thompson
 Stock_Effects:
-  Movement_Speed: +1.5%
   Recoil: -10%
-  Spread: -13%
+  Spread: -10%
 ---
 Stock: MP9
 Stock_Effects:
@@ -145,7 +134,7 @@ Stock_Effects:
 Stock: MP 40
 Stock_Effects:
   Movement_Speed: +3.2%
-  Reload_Speed: -10%
+  Reload_Speed: -10% (Faster)
   Spread: -10%
   Recoil: +15%
 ---
@@ -157,7 +146,7 @@ Stock_Effects:
 ---
 Stock: PPSh-41
 Stock_Effects:
-  Reload_Speed: -25%
+  Reload_Speed: -25% (Faster)
   Spread: -10%
   Movement_Speed: -2%
   Recoil: +10%
@@ -182,24 +171,21 @@ Stock_Effects:
   Reload_Speed: -10%
 ---
 Stock: PP-19 Bizon
-Stock_Effects:
-  Movement_Speed: +2.5%
-  Reload_Speed: -12%
-  Spread: -13%
-  Recoil: +20%
+Movement_Speed: +2.5%
+Reload_Speed: -12%
+Spread: -13%
+Recoil: +20%
 ---
 Stock: MP5
-Stock_Effects:
-  Movement_Speed: +2.5%
-  Recoil: -5%
-  Reload_Speed: -25%
+Movement_Speed: +2.5%
+Recoil: -5%
+Reload_Speed: -25%
 ---
 Stock: MP5A3
-Stock_Effects:
-  Movement_Speed: +4%
-  Reload_Speed: -10%
-  Recoil: +20%
-  Spread: +20%
+Movement_Speed: +4%
+Reload_Speed: -10%
+Recoil: +20%
+Spread: +20%
 ---
 
 Category: LMG Stocks
@@ -207,7 +193,7 @@ Category: LMG Stocks
 Stock: M60
 Stock_Effects:
   Recoil: -20%
-  Reload_Speed: -5%
+  Reload_Speed: -5% (Faster)
   Movement_Speed: -3%
   Spread: +5%
 ---
@@ -227,7 +213,7 @@ Stock: MG42
 Stock_Effects:
   Movement_Speed: +3.5%
   Spread: -25%
-  Reload_Speed: +20%
+  Reload_Speed: +20% (Slower)
 ---
 Stock: Type 99
 Stock_Effects:
@@ -237,68 +223,53 @@ Stock_Effects:
   Recoil: +8%
 ---
 Stock: M1918 BAR
-Stock_Effects:
-  Recoil: -20%
-  Spread: -10%
-  Movement_Speed: -5%
----
-Stock: Negev
-Stock_Effects:
-  Recoil: -20%
-  Reload_Speed: +15%
+Recoil: -20%
+Spread: -10%
+Movement_Speed: -5%
 ---
 
 Category: Shotgun Stocks
 ---
 Stock: Spas-12 Folded
-Stock_Effects:
-  Movement_Speed: +4%
-  Reload_Speed: -15%
-  Recoil: +20%
-  Spread: +20%
+Movement_Speed: +4%
+Reload_Speed: -15%
+Recoil: +20%
+Spread: +20%
 ---
 Stock: Spas-12
-Stock_Effects:
-  Fire_Rate: +10%
-  Movement_Speed: -5%
-  Spread: +10%
+Fire_Rate: +10%
+Movement_Speed: -5%
+Spread: +10%
 ---
 Stock: Remington 870 Breacher
-Stock_Effects:
-  Fire_Rate: +5%
-  Movement_Speed: +5%
-  Recoil: -20%
-  Reload_Speed: +15%
-  Spread: +25%
+Movement_Speed: +3%
+Recoil: +15%
+Reload_Speed: +10%
+Spread: +25%
 ---
 Stock: Remington 870 MCS
-Stock_Effects:
-  Recoil: -25%
-  Spread: -20%
-  Fire_Rate: -5%
-  Reload_Speed: +10%
+Recoil: -25%
+Spread: -20%
+Fire_Rate: -5%
+Reload_Speed: +10%
 ---
 Stock: M1887
-Stock_Effects:
-  Health: +5%
-  Recoil: -10%
-  Movement_Speed: -5.5%
-  Spread: +15%
+Health: +5%
+Recoil: -10%
+Movement_Speed: -5.5%
+Spread: +15%
 ---
 Stock: M1897 Trench Shotgun
-Stock_Effects:
-  Fire_Rate: +10%
-  Recoil: +15%
-  Spread: +25%
+Fire_Rate: +10%
+Recoil: +15%
+Spread: +25%
 ---
 Stock: Remington 870
-Stock_Effects:
-  Recoil: -15%
-  Spread: -15%
-  Reload_Speed: +5%
+Recoil: -15%
+Spread: -15%
+Reload_Speed: +5%
 ---
 Stock: Circuit Judge
-Stock_Effects:
-  Reload_Speed: -45%
-  Spread: +15%
+Reload_Speed: -45%
+Spread: +15%
 ---

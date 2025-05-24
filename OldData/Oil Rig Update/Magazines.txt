@@ -14,9 +14,10 @@ Magazine_Effects:
 Magazine: AUG
 Magazine_Effects:
   Magazine_Size: 42
-  Reload_Time: 3.5s
+  Reload_Time: 3s
   Movement_Speed: +2.5%
-  Spread: -10%
+  Recoil: -10%
+  Damage: -15%
 ---
 Magazine: As-Val
 Magazine_Effects:
@@ -69,7 +70,7 @@ Magazine_Effects:
   Damage: +20%
   Fire_Rate: -10%
   Recoil: +25%
-  Reload_Speed: +25%
+  Reload_Speed: +25% (Slower)
 ---
 Magazine: Scar Drum
 Magazine_Effects:
@@ -87,25 +88,22 @@ Magazine_Effects:
   Spread: +10%
 ---
 Magazine: Hex Spitter
-Magazine_Effects:
-  Magazine_Size: 35
-  Reload_Time: 4
-  Damage: +15%
-  Recoil: -10%
+Magazine_Size: 35
+Reload_Time: 4
+Damage: +15%
+Recoil: -10%
 ---
 Magazine: APS
-Magazine_Effects:
-  Magazine_Size: 26
-  Reload_Time: 7
-  Damage: +20%
-  Fire_Rate: -15%
-  Spread: +20%
+Magazine_Size: 26
+Reload_Time: 7
+Damage: +20%
+Fire_Rate: -15%
+Spread: +20%
 ---
 Magazine: G36C
-Magazine_Effects:
-  Magazine_Size: 30
-  Reload_Time: 2.2
-  Recoil: -5%
+Magazine_Size: 30
+Reload_Time: 2.2
+Recoil: -5%
 ---
 
 Category: Sniper Magazines
@@ -136,7 +134,7 @@ Magazine_Effects:
   Fire_Rate: -40%
   Movement_Speed: -10%
   Recoil: +100%
-  Reload_Speed: +50%
+  Reload_Speed: +50% (Slower)
   Spread: +100%
 ---
 Magazine: Remington 700
@@ -154,15 +152,6 @@ Magazine_Effects:
   Fire_Rate: +5%
   Spread: -15%
   Recoil: +25%
----
-Magazine: M200 Intervention
-Magazine_Effects:
-  Magazine_Size: 5
-  Reload_Time: 6s
-  Damage: +25%
-  Spread: -20%
-  Fire_Rate: -20%
-  Recoil: +60%
 ---
 
 Category: SMG Magazines
@@ -252,20 +241,18 @@ Magazine_Effects:
   Spread: -15%
 ---
 Magazine: PP-19 Bizon
-Magazine_Effects:
-  Magazine_Size: 64
-  Reload_Time: 4
-  Damage: +10%
+Magazine_Size: 64
+Reload_Time: 4
+Damage: +10%
 ---
 Magazine: MP5
-Magazine_Effects:
-  Magazine_Size: 30
-  Reload_Time: 2
-  Fire_Rate: +15%
-  Movement_Speed: +3.3%
-  Recoil: -10%
-  Spread: -5%
-  Damage: -9%
+Magazine_Size: 30
+Reload_Time: 2
+Fire_Rate: +15%
+Movement_Speed: +3.3%
+Recoil: -10%
+Spread: -5%
+Damage: -9%
 ---
 
 Category: LMG Magazines
@@ -307,95 +294,79 @@ Magazine: Type 99
 Magazine_Effects:
   Magazine_Size: 30
   Reload_Time: 3.5s
-  Damage: +5.5%
-  Spread: -17%
+  Damage: 5.5%
   Movement_Speed: -1%
+  Spread: -17%
 ---
 Magazine: M1918 BAR
-Magazine_Effects:
-  Magazine_Size: 20
-  Reload_Time: 4
-  Damage: +25%
-  Fire_Rate: -10%
-  Movement_Speed: -0.5%
-  Recoil: +10%
-  Spread: +10%
----
-Magazine: Negev
-Magazine_Effects:
-  Magazine_Size: 200
-  Reload_Time: 10
-  Recoil: -11%
-  Spread: -13%
-  Movement_Speed: -7%
+Magazine_Size: 20
+Reload_Time: 4
+Damage: +25%
+Fire_Rate: -10%
+Movement_Speed: -0.5%
+Recoil: +10%
+Spread: +10%
 ---
 
 Category: Shotgun Magazines
 ---
 Magazine: Spas-12
-Magazine_Effects:
-  Magazine_Size: 12
-  Reload_Time: 6
-  Fire_Rate: +20%
-  Pellets: +175%
-  Movement_Speed: -5%
-  Recoil: +60%
-  Spread: +100%
+Magazine_Size: 12
+Reload_Time: 6
+Fire_Rate: +20%
+Pellets: +175%
+Movement_Speed: -5%
+Recoil: +60%
+Spread: +100%
 ---
 Magazine: Remington 870 Breacher
-Magazine_Effects:
-  Magazine_Size: 8
-  Reload_Time: 3.2
-  Damage: +5%
-  Movement_Speed: +3%
-  Pellets: +150%
-  Recoil: +50%
-  Spread: +80%
+Magazine_Size: 8
+Reload_Time: 3.2
+Damage: +5%
+Movement_Speed: +3%
+Pellets: +150%
+Recoil: +50%
+Spread: +80%
 ---
 Magazine: M1887
-Magazine_Effects:
-  Magazine_Size: 6
-  Reload_Time: 4
-  Fire_Rate: +5%
-  Health: +5%
-  Pellets: +150%
-  Movement_Speed: -5.5%
-  Recoil: +15%
-  Spread: +50%
+Magazine_Size: 6
+Reload_Time: 4
+Fire_Rate: +5%
+Health: +5%
+Pellets: +150%
+Movement_Speed: -5.5%
+Recoil: +15%
+Spread: +50%
 ---
 Magazine: M1897 Trench Shotgun
-Magazine_Effects:
-  Magazine_Size: 6
-  Reload_Time: 4.5
-  Fire_Rate: +15%
-  Pellets: +200%
-  Recoil: +25%
-  Spread: +75%
+Magazine_Size: 6
+Reload_Time: 4.5
+Fire_Rate: +15%
+Pellets: +200%
+Recoil: +25%
+Spread: +75%
 ---
 Magazine: Remington 870 MCS
-Magazine_Effects:
-  Magazine_Size: 6
-  Reload_Time: 3.5
-  Damage: +15%
-  Pellets: +45%
-  Recoil: +35%
-  Spread: +15%
+Magazine_Size: 6
+Reload_Time: 3.5
+Damage: +15%
+Pellets: +45%
+Recoil: +35%
+Spread: +15%
 ---
 Magazine: Remington 870
-Magazine_Effects:
-  Magazine_Size: 8
-  Reload_Time: 5
-  Damage: +10%
-  Pellets: +100%
-  Recoil: +25%
-  Spread: +50%
+Magazine_Size: 8
+Reload_Time: 5
+Damage: +10%
+Pellets: +100%
+Recoil: +25%
+Spread: +50%
 ---
 Magazine: Circuit Judge
-Magazine_Effects:
-  Magazine_Size: 5
-  Reload_Time: 4
-  Damage: +25%
-  Pellets: +100%
-  Recoil: +50%
-  Spread: +75%
+Magazine_Size: 5
+Reload_Time: 4
+Damage: +25%
+Pellets: +100%
+Recoil: +50%
+Spread: +75%
 ---
