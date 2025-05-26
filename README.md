@@ -40,9 +40,9 @@ c, the total runtime of this is (c(n/5))^5 which comes to O(n^5). I am trying to
 find a way to either cache repeated calculations or implement a more efficient
 algorithm.
 
-**O(n^5)** Could be improved but I have no idea how
-**n** Definitely can be improved and there are plans to reduce this
-**c** On the brink of being fully optimized anything else that reduces the constant is negligible
+**O(n^5)** Could be improved but I have no idea how <br/>
+**n** Definitely can be improved and there are plans to reduce this <br/>
+**c** On the brink of being fully optimized anything else that reduces the constant is negligible <br/>
 
 ### Current list of optimizations
 - Parallel processing using std::thread

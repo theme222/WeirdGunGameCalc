@@ -46,6 +46,7 @@ namespace Input
     fpair healthRange = NILRANGE;
     fpair pelletRange = NILRANGE;
     fpair timeToAimRange = NILRANGE;
+    fpair reloadRange = NILRANGE;
 }
 
 
@@ -474,6 +475,7 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
     os << "Gun contains"
        << "[Barrel: " << gun.barrel->name << ", Magazine: " << gun.magazine->name << ", Grip: " << gun.grip->name << ", Stock: " << gun.stock->name << ", Core: " << gun.core->name << "]\n"
        << "damage: " << gun.damage << "\n"
+       << "pellets: " << gun.pellets << "\n"
        << "fireRate: " << gun.fireRate << "\n"
        << "adsSpread: " << gun.adsSpread << "\n"
        << "hipfireSpread: " << gun.hipfireSpread << "\n"
@@ -766,6 +768,7 @@ namespace BruteForce
             if (Input::recoilAimRange != nilrange) currentflags |= RECOILAIM;
             if (Input::fireRateRange != nilrange) currentflags |= FIRERATE;
             if (Input::healthRange != nilrange) currentflags |= HEALTH;
+            if (Input::reloadRange != nilrange) currentflags |= RELOAD;
             switch (PQ::currentSortingType)
             {
                 case PQ::SORTBYTTK:
@@ -806,6 +809,7 @@ namespace BruteForce
             if (!RangeFilter(gun.fireRate, Input::fireRateRange)) return false;
             if (!RangeFilter(gun.health, Input::healthRange)) return false;
             if (!RangeFilter(gun.pellets, Input::pelletRange)) return false;
+            if (!RangeFilter(gun.reloadTime, Input::reloadRange)) return false;
             return true;
         }
 
@@ -882,6 +886,9 @@ int main(int argc, char* argv[])
     app.add_option("--timeToAim", Input::timeToAimRange, "Time to aim range to filter");
     app.add_option("--timeToAimMin", Input::timeToAimRange.first);
     app.add_option("--timeToAimMax", Input::timeToAimRange.second);
+    app.add_option("--reload", Input::reloadRange, "Reload time to filter");
+    app.add_option("--reloadMin", Input::reloadRange.first);
+    app.add_option("--reloadMax", Input::reloadRange.second);
 
     CLI11_PARSE(app, argc, argv);
 
