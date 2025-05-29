@@ -147,6 +147,8 @@ public:
             spread = jsonObject["Spread"];
         if (jsonObject.contains("Recoil"))
             recoil = jsonObject["Recoil"];
+        if (jsonObject.contains("Pellets"))
+            pellets = jsonObject["Pellets"];
         if (jsonObject.contains("Movement_Speed"))
             movementSpeed = jsonObject["Movement_Speed"];
         if (jsonObject.contains("Reload_Speed"))
