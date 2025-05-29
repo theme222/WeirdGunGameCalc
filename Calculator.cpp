@@ -288,7 +288,11 @@ public:
         if (jsonObject.contains("Movement_Speed_Modifier"))
             movementSpeedModifier = jsonObject["Movement_Speed_Modifier"];
         if (jsonObject.contains("Pellets"))
+        {
+            printf("%d \n", (int)jsonObject["Pellets"]);
             pellets = jsonObject["Pellets"];
+        }
+
         if (jsonObject.contains("Recoil_Hip_Horizontal"))
         {
             recoilHipHorizontal.first = jsonObject["Recoil_Hip_Horizontal"][0];
@@ -1040,12 +1044,12 @@ int main(int argc, char* argv[])
     auto end = chrono::steady_clock::now();
     auto duration = chrono::duration_cast<chrono::seconds>(end - start);
 
-    /*
+
     for (int i = 0; i < magazineCount; i++)
     {
         std::cout << magazineList[i] << "\n";
     }
-    */
+
 
     puts("Bruteforce completed");
     std::cout << "Elapsed time: " << duration.count() / 60 << " minute(s) and " << duration.count() % 60 << " second(s)\n";
