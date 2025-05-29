@@ -489,6 +489,27 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
     return os;
 }
 
+std::ostream &operator<<(std::ostream &os, const Part &part)
+{
+    os << part.name << "\n"
+       << part.damage << "\n"
+       << part.fireRate << "\n"
+       << part.spread << "\n"
+       << part.recoil << "\n"
+       << part.spread << "\n"
+       << part.reloadSpeed << "\n"
+       << part.health << "\n"
+       << part.pellets << "\n";
+    return os;
+}
+
+std::ostream &operator<<(std::ostream &os, const std::pair<Part, Part> &pair)
+{
+    os << pair.first << "\n"
+       << pair.second << "\n";
+    return os;
+}
+
 /*
 IMPORTANT: SORTING NEEDS TO BE THE INVERSE OF WHAT IS NORMALLY CONSIDERED GOOD
 THE CODE WILL BE POPPING THE !WORST! GUNS OUT FIRST ONLY KEEPING TOP 10
@@ -527,7 +548,6 @@ Magazine magazineList[64];
 Grip gripList[64];
 Stock stockList[64];
 Core coreList[64];
-
 
 
 namespace PQ
@@ -840,6 +860,82 @@ namespace BruteForce
     }
 };
 
+namespace Greedy
+{
+    // Implement greedy algorithm to calculate gun stats
+    // Iteration looks like this: core -> magazine -> barrel -> grip -> stock
+
+    // Find theoretical highest and lowest multipliers for a 4 part combination all the way to a 1 part combination
+    // 4 -> 1
+    Part highestPossibleCombo[4];
+    Part lowestPossibleCombo[4];
+
+    std::pair<Part, Part> FindHighestAndLowestMultInList(Part* partList, int size)
+    {
+        Part lowestMultPart, highestMultPart;
+        for (int i = 0; i < size; i++)
+        {
+            if (partList[i].damage < lowestMultPart.damage) lowestMultPart.damage = partList[i].damage;
+            if (partList[i].fireRate < lowestMultPart.fireRate) lowestMultPart.fireRate = partList[i].fireRate;
+            if (partList[i].spread < lowestMultPart.spread) lowestMultPart.spread = partList[i].spread;
+            if (partList[i].recoil < lowestMultPart.recoil) lowestMultPart.recoil = partList[i].recoil;
+            if (partList[i].reloadSpeed < lowestMultPart.reloadSpeed) lowestMultPart.reloadSpeed = partList[i].reloadSpeed;
+            if (partList[i].movementSpeed < lowestMultPart.movementSpeed) lowestMultPart.movementSpeed = partList[i].movementSpeed;
+            if (partList[i].health < lowestMultPart.health) lowestMultPart.health = partList[i].health;
+            if (partList[i].pellets < lowestMultPart.pellets) lowestMultPart.pellets = partList[i].pellets;
+
+            if (partList[i].damage > highestMultPart.damage) highestMultPart.damage = partList[i].damage;
+            if (partList[i].fireRate > highestMultPart.fireRate) highestMultPart.fireRate = partList[i].fireRate;
+            if (partList[i].spread > highestMultPart.spread) highestMultPart.spread = partList[i].spread;
+            if (partList[i].recoil > highestMultPart.recoil) highestMultPart.recoil = partList[i].recoil;
+            if (partList[i].reloadSpeed > highestMultPart.reloadSpeed) highestMultPart.reloadSpeed = partList[i].reloadSpeed;
+            if (partList[i].movementSpeed > highestMultPart.movementSpeed) highestMultPart.movementSpeed = partList[i].movementSpeed;
+            if (partList[i].health > highestMultPart.health) highestMultPart.health = partList[i].health;
+            if (partList[i].pellets > highestMultPart.pellets) highestMultPart.pellets = partList[i].pellets;
+        }
+        return std::pair<Part, Part>(lowestMultPart, highestMultPart);
+    }
+
+    std::pair<Part, Part> FindHighestAndLowestMultInList(Magazine* partList, int size)
+    {
+        Part lowestMultPart, highestMultPart;
+        for (int i = 0; i < size; i++)
+        {
+            if (partList[i].damage < lowestMultPart.damage) lowestMultPart.damage = partList[i].damage;
+            if (partList[i].fireRate < lowestMultPart.fireRate) lowestMultPart.fireRate = partList[i].fireRate;
+            if (partList[i].spread < lowestMultPart.spread) lowestMultPart.spread = partList[i].spread;
+            if (partList[i].recoil < lowestMultPart.recoil) lowestMultPart.recoil = partList[i].recoil;
+            if (partList[i].reloadSpeed < lowestMultPart.reloadSpeed) lowestMultPart.reloadSpeed = partList[i].reloadSpeed;
+            if (partList[i].movementSpeed < lowestMultPart.movementSpeed) lowestMultPart.movementSpeed = partList[i].movementSpeed;
+            if (partList[i].health < lowestMultPart.health) lowestMultPart.health = partList[i].health;
+            if (partList[i].pellets < lowestMultPart.pellets) lowestMultPart.pellets = partList[i].pellets;
+
+            if (partList[i].damage > highestMultPart.damage) highestMultPart.damage = partList[i].damage;
+            if (partList[i].fireRate > highestMultPart.fireRate) highestMultPart.fireRate = partList[i].fireRate;
+            if (partList[i].spread > highestMultPart.spread) highestMultPart.spread = partList[i].spread;
+            if (partList[i].recoil > highestMultPart.recoil) highestMultPart.recoil = partList[i].recoil;
+            if (partList[i].reloadSpeed > highestMultPart.reloadSpeed) highestMultPart.reloadSpeed = partList[i].reloadSpeed;
+            if (partList[i].movementSpeed > highestMultPart.movementSpeed) highestMultPart.movementSpeed = partList[i].movementSpeed;
+            if (partList[i].health > highestMultPart.health) highestMultPart.health = partList[i].health;
+            if (partList[i].pellets > highestMultPart.pellets) highestMultPart.pellets = partList[i].pellets;
+        }
+        return std::pair<Part, Part>(lowestMultPart, highestMultPart);
+    }
+
+    void InitializeHighestAndLowestMultParts()
+    {
+        std::pair<Part, Part> barrelMultPair = FindHighestAndLowestMultInList(barrelList, barrelCount);
+        std::pair<Part, Part> gripMultPair = FindHighestAndLowestMultInList(gripList, gripCount);
+        std::pair<Part, Part> stockMultPair = FindHighestAndLowestMultInList(stockList, stockCount);
+        std::pair<Part, Part> magazineMultPair = FindHighestAndLowestMultInList(magazineList, magazineCount);
+
+        std::cout << "BARREL \n"
+                << barrelMultPair << "GRIP \n"
+                << gripMultPair << "STOCK \n"
+                << stockMultPair << "MAGAZINE \n"
+                << magazineMultPair << "\n";
+    }
+}
 
 int main(int argc, char* argv[])
 {
@@ -939,20 +1035,22 @@ int main(int argc, char* argv[])
 
     auto start = chrono::steady_clock::now();
 
-    // Start all threads
-    for (int threadId = 0; threadId < Input::threadsToMake; threadId++)
-        threads[threadId] = std::thread(BruteForce::Run, threadId);
-
-    // Wait for all threads to finish
-    for (int threadId = 0; threadId < Input::threadsToMake; threadId++)
-        threads[threadId].join();
+    Greedy::InitializeHighestAndLowestMultParts();
 
     auto end = chrono::steady_clock::now();
     auto duration = chrono::duration_cast<chrono::seconds>(end - start);
 
+    /*
+    for (int i = 0; i < magazineCount; i++)
+    {
+        std::cout << magazineList[i] << "\n";
+    }
+    */
+
     puts("Bruteforce completed");
     std::cout << "Elapsed time: " << duration.count() / 60 << " minute(s) and " << duration.count() % 60 << " second(s)\n";
 
+    /*
     PQ::topGuns = PQ::Create();
 
     // Combine all thread pqs into topguns
@@ -989,5 +1087,5 @@ int main(int argc, char* argv[])
         file << g << '\n';
     }
     file.close();
-    // printf("Processed total of %lu combinations\n", BruteForce::Iterator::processedCombinations);
+    */
 }
