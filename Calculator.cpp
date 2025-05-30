@@ -111,6 +111,17 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
     }
 
     std::map<std::string, int> fastifyName = {};
+
+    void InitializeIncludeCategories()
+    {
+        for (auto& category : Input::includeCategories)
+        {
+            if (category == "AR") category = "Assault Rifle";
+            if (!fastifyCategory.contains(category))
+                throw std::invalid_argument("Category " + category + " doesn't exist");
+            includeCategories_fast[fastifyCategory[category]] = true;
+        }
+    }
 }
 
 
@@ -133,6 +144,7 @@ public:
     float pellets = 0;
 
     Part() {}
+    Part(float defaultValue): damage(defaultValue), fireRate(defaultValue), spread(defaultValue), recoil(defaultValue), reloadSpeed(defaultValue), pellets(defaultValue) {}
     Part(const json &jsonObject): category(jsonObject["Category"]), name(jsonObject["Name"])
     {
         category_fast = Fast::fastifyCategory[category];
@@ -147,6 +159,8 @@ public:
             spread = jsonObject["Spread"];
         if (jsonObject.contains("Recoil"))
             recoil = jsonObject["Recoil"];
+        if (jsonObject.contains("Pellets"))
+            pellets = jsonObject["Pellets"];
         if (jsonObject.contains("Movement_Speed"))
             movementSpeed = jsonObject["Movement_Speed"];
         if (jsonObject.contains("Reload_Speed"))
@@ -182,6 +196,7 @@ public:
                 throw std::invalid_argument("Property not found: " + std::to_string(propertyFlag));
         }
     }
+
 };
 
 class Barrel : public Part
@@ -344,6 +359,7 @@ public:
     fpair recoilAimVertical;
 
     Gun() {}
+    Gun(Core *core) : core(core) {}
     Gun(Barrel *barrel, Magazine *magazine, Grip *grip, Stock *stock, Core *core) : barrel(barrel), magazine(magazine), grip(grip), stock(stock), core(core) {}
 
     void ReGun(Barrel *barrel, Magazine *magazine, Grip *grip, Stock *stock, Core *core) { // Used for optimization
@@ -495,15 +511,15 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
 
 std::ostream &operator<<(std::ostream &os, const Part &part)
 {
-    os << part.name << "\n"
-       << part.damage << "\n"
-       << part.fireRate << "\n"
-       << part.spread << "\n"
-       << part.recoil << "\n"
-       << part.spread << "\n"
-       << part.reloadSpeed << "\n"
-       << part.health << "\n"
-       << part.pellets << "\n";
+    os << "Name: " << part.name << "\n"
+       << "Damage: " << part.damage << "\n"
+       << "Fire Rate: " << part.fireRate << "\n"
+       << "Spread: " << part.spread << "\n"
+       << "Recoil: " << part.recoil << "\n"
+       << "Movement Speed: " << part.movementSpeed << "\n"
+       << "Reload Speed: " << part.reloadSpeed << "\n"
+       << "Health: " << part.health << "\n"
+       << "Pellets: " << part.pellets << "\n";
     return os;
 }
 
@@ -513,6 +529,20 @@ std::ostream &operator<<(std::ostream &os, const std::pair<Part, Part> &pair)
        << pair.second << "\n";
     return os;
 }
+
+Part operator*(Part part1, Part part2) // Used in greedy
+{
+    part1.damage *= part2.damage;
+    part1.fireRate *= part2.fireRate;
+    part1.spread *= part2.spread;
+    part1.recoil *= part2.recoil;
+    part1.movementSpeed += part2.movementSpeed;
+    part1.reloadSpeed *= part2.reloadSpeed;
+    part1.health += part2.health;
+    part1.pellets *= part2.pellets;
+    return part1;
+}
+
 
 /*
 IMPORTANT: SORTING NEEDS TO BE THE INVERSE OF WHAT IS NORMALLY CONSIDERED GOOD
@@ -546,6 +576,7 @@ int magazineCount;
 int gripCount;
 int stockCount;
 int coreCount;
+uint64_t totalCombinations;
 
 Barrel barrelList[64];
 Magazine magazineList[64];
@@ -767,18 +798,6 @@ namespace BruteForce
 
     namespace Filter
     {
-
-        void InitializeIncludeCategories()
-        {
-            for (auto& category : Input::includeCategories)
-            {
-                if (category == "AR") category = "Assault Rifle";
-                if (!Fast::fastifyCategory.contains(category))
-                    throw std::invalid_argument("Category " + category + " doesn't exist");
-                Fast::includeCategories_fast[Fast::fastifyCategory[category]] = true;
-            }
-        }
-
         uint32_t currentflags = 0;
         void InitializeMultFlag()
         {
@@ -866,79 +885,188 @@ namespace BruteForce
 
 namespace Greedy
 {
-    // Implement greedy algorithm to calculate gun stats
-    // Iteration looks like this: core -> magazine -> barrel -> grip -> stock
-
-    // Find theoretical highest and lowest multipliers for a 4 part combination all the way to a 1 part combination
-    // 4 -> 1
-    Part highestPossibleCombo[4];
-    Part lowestPossibleCombo[4];
-
-    std::pair<Part, Part> FindHighestAndLowestMultInList(Part* partList, int size)
+    namespace Filter
     {
-        Part lowestMultPart, highestMultPart;
-        for (int i = 0; i < size; i++)
+        using namespace Fast;
+        uint32_t currentflags = 0;
+        void InitializeMultFlag()
         {
-            if (partList[i].damage < lowestMultPart.damage) lowestMultPart.damage = partList[i].damage;
-            if (partList[i].fireRate < lowestMultPart.fireRate) lowestMultPart.fireRate = partList[i].fireRate;
-            if (partList[i].spread < lowestMultPart.spread) lowestMultPart.spread = partList[i].spread;
-            if (partList[i].recoil < lowestMultPart.recoil) lowestMultPart.recoil = partList[i].recoil;
-            if (partList[i].reloadSpeed < lowestMultPart.reloadSpeed) lowestMultPart.reloadSpeed = partList[i].reloadSpeed;
-            if (partList[i].movementSpeed < lowestMultPart.movementSpeed) lowestMultPart.movementSpeed = partList[i].movementSpeed;
-            if (partList[i].health < lowestMultPart.health) lowestMultPart.health = partList[i].health;
-            if (partList[i].pellets < lowestMultPart.pellets) lowestMultPart.pellets = partList[i].pellets;
-
-            if (partList[i].damage > highestMultPart.damage) highestMultPart.damage = partList[i].damage;
-            if (partList[i].fireRate > highestMultPart.fireRate) highestMultPart.fireRate = partList[i].fireRate;
-            if (partList[i].spread > highestMultPart.spread) highestMultPart.spread = partList[i].spread;
-            if (partList[i].recoil > highestMultPart.recoil) highestMultPart.recoil = partList[i].recoil;
-            if (partList[i].reloadSpeed > highestMultPart.reloadSpeed) highestMultPart.reloadSpeed = partList[i].reloadSpeed;
-            if (partList[i].movementSpeed > highestMultPart.movementSpeed) highestMultPart.movementSpeed = partList[i].movementSpeed;
-            if (partList[i].health > highestMultPart.health) highestMultPart.health = partList[i].health;
-            if (partList[i].pellets > highestMultPart.pellets) highestMultPart.pellets = partList[i].pellets;
+            fpair nilrange = NILRANGE;
+            if (Input::damageRange != nilrange) currentflags |= DAMAGE | PELLETS;
+            if (Input::magazineRange != nilrange) currentflags |= MAGAZINESIZE;
+            if (Input::movementSpeedRange != nilrange) currentflags |= MOVEMENTSPEEDMODIFIER;
+            if (Input::spreadHipRange != nilrange) currentflags |= SPREADHIP;
+            if (Input::spreadAimRange != nilrange) currentflags |= SPREADAIM;
+            if (Input::recoilHipRange != nilrange) currentflags |= RECOILHIP;
+            if (Input::recoilAimRange != nilrange) currentflags |= RECOILAIM;
+            if (Input::fireRateRange != nilrange) currentflags |= FIRERATE;
+            if (Input::healthRange != nilrange) currentflags |= HEALTH;
+            if (Input::reloadRange != nilrange) currentflags |= RELOAD;
+            switch (PQ::currentSortingType)
+            {
+                case PQ::SORTBYTTK:
+                    currentflags |= DAMAGE | PELLETS;
+                case PQ::SORTBYFIRERATE:
+                    currentflags |= FIRERATE;
+                    break;
+                case PQ::SORTBYSPREAD:
+                    currentflags |= SPREADAIM;
+                    break;
+            }
         }
-        return std::pair<Part, Part>(lowestMultPart, highestMultPart);
-    }
 
-    std::pair<Part, Part> FindHighestAndLowestMultInList(Magazine* partList, int size)
-    {
-        Part lowestMultPart, highestMultPart;
-        for (int i = 0; i < size; i++)
+
+        bool RangeFilter(float value, fpair range)
         {
-            if (partList[i].damage < lowestMultPart.damage) lowestMultPart.damage = partList[i].damage;
-            if (partList[i].fireRate < lowestMultPart.fireRate) lowestMultPart.fireRate = partList[i].fireRate;
-            if (partList[i].spread < lowestMultPart.spread) lowestMultPart.spread = partList[i].spread;
-            if (partList[i].recoil < lowestMultPart.recoil) lowestMultPart.recoil = partList[i].recoil;
-            if (partList[i].reloadSpeed < lowestMultPart.reloadSpeed) lowestMultPart.reloadSpeed = partList[i].reloadSpeed;
-            if (partList[i].movementSpeed < lowestMultPart.movementSpeed) lowestMultPart.movementSpeed = partList[i].movementSpeed;
-            if (partList[i].health < lowestMultPart.health) lowestMultPart.health = partList[i].health;
-            if (partList[i].pellets < lowestMultPart.pellets) lowestMultPart.pellets = partList[i].pellets;
-
-            if (partList[i].damage > highestMultPart.damage) highestMultPart.damage = partList[i].damage;
-            if (partList[i].fireRate > highestMultPart.fireRate) highestMultPart.fireRate = partList[i].fireRate;
-            if (partList[i].spread > highestMultPart.spread) highestMultPart.spread = partList[i].spread;
-            if (partList[i].recoil > highestMultPart.recoil) highestMultPart.recoil = partList[i].recoil;
-            if (partList[i].reloadSpeed > highestMultPart.reloadSpeed) highestMultPart.reloadSpeed = partList[i].reloadSpeed;
-            if (partList[i].movementSpeed > highestMultPart.movementSpeed) highestMultPart.movementSpeed = partList[i].movementSpeed;
-            if (partList[i].health > highestMultPart.health) highestMultPart.health = partList[i].health;
-            if (partList[i].pellets > highestMultPart.pellets) highestMultPart.pellets = partList[i].pellets;
+            if (range.first != NILMIN && range.second != NILMAX) return range.first <= value && value <= range.second;
+            else if (range.first != NILMIN) return range.first <= value;
+            else if (range.second != NILMAX) return value <= range.second;
+            else return true;
         }
-        return std::pair<Part, Part>(lowestMultPart, highestMultPart);
+
+
+        bool FilterGunStats(const Gun& gun, const Gun& bestPossibleGunMult)
+        {
+
+            if (!Fast::includeCategories_fast[gun.core->category_fast]) return false;
+            if (!RangeFilter(gun.timeToAim, Input::timeToAimRange)) return false;
+            if (!RangeFilter(gun.magazineSize, Input::magazineRange)) return false;
+            if (!RangeFilter(gun.damage.first, Input::damageRange)) return false;
+            if (!RangeFilter(gun.adsSpread, Input::spreadAimRange)) return false;
+            if (!RangeFilter(gun.hipfireSpread, Input::spreadHipRange)) return false;
+            if (!RangeFilter(gun.recoilAimVertical.second, Input::recoilAimRange)) return false;
+            if (!RangeFilter(gun.recoilHipVertical.second, Input::recoilHipRange)) return false;
+            if (!RangeFilter(gun.movementSpeedModifier, Input::movementSpeedRange)) return false;
+            if (!RangeFilter(gun.fireRate, Input::fireRateRange)) return false;
+            if (!RangeFilter(gun.health, Input::healthRange)) return false;
+            if (!RangeFilter(gun.pellets, Input::pelletRange)) return false;
+            if (!RangeFilter(gun.reloadTime, Input::reloadRange)) return false;
+            return true;
+        }
     }
 
-    void InitializeHighestAndLowestMultParts()
+    namespace HighLow
     {
-        std::pair<Part, Part> barrelMultPair = FindHighestAndLowestMultInList(barrelList, barrelCount);
-        std::pair<Part, Part> gripMultPair = FindHighestAndLowestMultInList(gripList, gripCount);
-        std::pair<Part, Part> stockMultPair = FindHighestAndLowestMultInList(stockList, stockCount);
-        std::pair<Part, Part> magazineMultPair = FindHighestAndLowestMultInList(magazineList, magazineCount);
+        // Implement greedy algorithm to calculate gun stats
+        // Iteration looks like this: core -> magazine -> barrel -> grip -> stock
 
-        std::cout << "BARREL \n"
-                << barrelMultPair << "GRIP \n"
-                << gripMultPair << "STOCK \n"
-                << stockMultPair << "MAGAZINE \n"
-                << magazineMultPair << "\n";
+        // Find theoretical highest and lowest multipliers for a 4 part combination all the way to a 1 part combination of parts for each category of core
+
+        // bestPossibleCombo[coreCategoryFast][low / high][4 -> 1]
+        Part bestPossibleCombo[6][2][4] = {
+            {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
+            {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
+            {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
+            {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
+            {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
+            {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}}
+        };
+
+        float GetFormattedMult(const Core& core, Part& part, Fast::MultFlags propertyFlag)
+        {
+            float baseMult = part.GetMult(propertyFlag);
+            if (part.name_fast == core.name_fast)
+                return 0;
+            if (!Fast::MoreIsBetter(propertyFlag) && baseMult > 0)
+                return baseMult;
+            if (Fast::MoreIsBetter(propertyFlag) && baseMult < 0)
+                return baseMult;
+
+            return baseMult * Fast::penalties[core.category_fast][part.category_fast] / 100 + 1;
+        }
+
+        float GetFormattedAdd(const Core& core, Part& part, Fast::MultFlags propertyFlag)
+        {
+            float baseMult = part.GetMult(propertyFlag);
+            if (part.name_fast == core.name_fast)
+                return 0;
+            if (!Fast::MoreIsBetter(propertyFlag) && baseMult > 0)
+                return baseMult;
+            if (Fast::MoreIsBetter(propertyFlag) && baseMult < 0)
+                return baseMult;
+
+            return baseMult * Fast::penalties[core.category_fast][part.category_fast];
+        }
+
+        void SetHighLowParts(Core& currentCore, Part& partToCheck, Part& lowestMultPart, Part& highestMultPart)
+        {
+            using namespace Fast;
+            if (GetFormattedMult(currentCore, partToCheck, DAMAGE) < lowestMultPart.damage) lowestMultPart.damage = GetFormattedMult(currentCore, partToCheck, DAMAGE);
+            if (GetFormattedMult(currentCore, partToCheck, FIRERATE) < lowestMultPart.fireRate) lowestMultPart.fireRate = GetFormattedMult(currentCore, partToCheck, FIRERATE);
+            if (GetFormattedMult(currentCore, partToCheck, SPREADAIM) < lowestMultPart.spread) lowestMultPart.spread = GetFormattedMult(currentCore, partToCheck, SPREADAIM);
+            if (GetFormattedMult(currentCore, partToCheck, RECOILAIM) < lowestMultPart.recoil) lowestMultPart.recoil = GetFormattedMult(currentCore, partToCheck, RECOILAIM);
+            if (GetFormattedMult(currentCore, partToCheck, RELOAD) < lowestMultPart.reloadSpeed) lowestMultPart.reloadSpeed = GetFormattedMult(currentCore, partToCheck, RELOAD);
+            if (GetFormattedAdd(currentCore, partToCheck, MOVEMENTSPEEDMODIFIER) < lowestMultPart.movementSpeed) lowestMultPart.movementSpeed = GetFormattedAdd(currentCore, partToCheck, MOVEMENTSPEEDMODIFIER);
+            if (GetFormattedAdd(currentCore, partToCheck, HEALTH) < lowestMultPart.health) lowestMultPart.health = GetFormattedAdd(currentCore, partToCheck, HEALTH);
+            if (GetFormattedMult(currentCore, partToCheck, PELLETS)   < lowestMultPart.pellets) lowestMultPart.pellets = GetFormattedMult(currentCore, partToCheck, PELLETS)  ;
+
+            if (GetFormattedMult(currentCore, partToCheck, DAMAGE) < highestMultPart.damage) highestMultPart.damage = GetFormattedMult(currentCore, partToCheck, DAMAGE);
+            if (GetFormattedMult(currentCore, partToCheck, FIRERATE)   < highestMultPart.fireRate) highestMultPart.fireRate = GetFormattedMult(currentCore, partToCheck, FIRERATE)  ;
+            if (GetFormattedMult(currentCore, partToCheck, SPREADAIM)   < highestMultPart.spread) highestMultPart.spread = GetFormattedMult(currentCore, partToCheck, SPREADAIM)  ;
+            if (GetFormattedMult(currentCore, partToCheck, RECOILAIM)   < highestMultPart.recoil) highestMultPart.recoil = GetFormattedMult(currentCore, partToCheck, RECOILAIM)  ;
+            if (GetFormattedMult(currentCore, partToCheck, RELOAD)   < highestMultPart.reloadSpeed) highestMultPart.reloadSpeed = GetFormattedMult(currentCore, partToCheck, RELOAD)  ;
+            if (GetFormattedAdd(currentCore, partToCheck, MOVEMENTSPEEDMODIFIER) < highestMultPart.movementSpeed) highestMultPart.movementSpeed = GetFormattedAdd(currentCore, partToCheck, MOVEMENTSPEEDMODIFIER);
+            if (GetFormattedAdd(currentCore, partToCheck, HEALTH) < highestMultPart.health) highestMultPart.health = GetFormattedAdd(currentCore, partToCheck, HEALTH);
+            if (GetFormattedMult(currentCore, partToCheck, PELLETS)   < highestMultPart.pellets) highestMultPart.pellets = GetFormattedMult(currentCore, partToCheck, PELLETS)  ;
+        }
+
+        // Polymorphism is required due to the fact that sizeof(Magazine) is more than sizeof(Part) causing pointer arithmetic to be incorrect when iterating through the array.
+        template <typename T>
+        std::pair<Part, Part> FindHighestAndLowestMultInList(Core& currentCore, T* partList, int size)
+        {
+            Part lowestMultPart(1), highestMultPart(1);
+            for (int i = 0; i < size; i++)
+                SetHighLowParts(currentCore, partList[i], lowestMultPart, highestMultPart);
+            return std::pair<Part, Part>(lowestMultPart, highestMultPart);
+        }
+
+        void InitializeHighestAndLowestMultParts() // It may not look like it but I promise you this has a Time complexity of O(n) I'M TELLING YOU PLEASE BELIEVE ME
+        {
+            Core coreCategories[6];
+            for (int i = 0; i < 6; i++) coreCategories[i].category_fast = i; // Helps with having an example "core" to check for penalties (Since name can't ever be equal but we are sharing the function GetFormattedMult and GetFormattedAdd)
+
+            for (int c = 0; c < 6; c++)
+            {
+                Core& core = coreCategories[c];
+                std::pair<Part, Part> magazineMultPair = FindHighestAndLowestMultInList(core, magazineList, magazineCount);
+                std::pair<Part, Part> barrelMultPair = FindHighestAndLowestMultInList(core, barrelList, barrelCount);
+                std::pair<Part, Part> gripMultPair = FindHighestAndLowestMultInList(core, gripList, gripCount);
+                std::pair<Part, Part> stockMultPair = FindHighestAndLowestMultInList(core, stockList, stockCount);
+
+                std::pair<Part, Part> *partPairs[4] = {&stockMultPair, &gripMultPair, &barrelMultPair, &magazineMultPair};
+                for (int i = 0; i < 4; i++)
+                {
+                    for (int j = i; j < 4; j++)
+                    {
+                        bestPossibleCombo[c][0][i] = bestPossibleCombo[c][0][i] * partPairs[j]->first;
+                        bestPossibleCombo[c][1][i] = bestPossibleCombo[c][1][i] * partPairs[j]->second;
+                    }
+                }
+            }
+        }
     }
+
+
+    bool IsValidCombination(const Gun& gun, const Gun& bestPossibleGunMult)
+    {
+
+        return true;
+    }
+
+    void Run()
+    {
+        std::vector<Gun> validGuns(coreCount * magazineCount * barrelCount * gripCount);
+        uint64_t validGunCount = 0;
+
+        for (int i = 0; i < coreCount; i++)
+        {
+            Gun currentGun(coreList + i);
+            currentGun.CopyValues(Filter::currentflags);
+
+        }
+    }
+
+
 }
 
 int main(int argc, char* argv[])
@@ -993,7 +1121,7 @@ int main(int argc, char* argv[])
     CLI11_PARSE(app, argc, argv);
 
     PQ::SetCurrentSortingType(Input::sortType);
-    BruteForce::Filter::InitializeIncludeCategories();
+    Fast::InitializeIncludeCategories();
     BruteForce::Filter::InitializeMultFlag();
 
     std::ifstream f(Input::filepath);
@@ -1033,22 +1161,24 @@ int main(int argc, char* argv[])
     }
 
 
+    totalCombinations = barrelCount * magazineCount * gripCount * stockCount * coreCount;
     printf("Barrels detected: %d, Magazines detected: %d, Grips detected: %d, Stocks detected: %d, Cores detected: %d\n", barrelCount, magazineCount, gripCount, stockCount, coreCount);
-    printf("Total of %u possibilities \n", barrelCount*magazineCount*gripCount*stockCount*coreCount);
+    printf("Total of %lu possibilities \n", totalCombinations);
     printf("Starting bruteforce with %d threads\n", Input::threadsToMake);
 
     auto start = chrono::steady_clock::now();
 
-    Greedy::InitializeHighestAndLowestMultParts();
+    Greedy::HighLow::InitializeHighestAndLowestMultParts();
 
     auto end = chrono::steady_clock::now();
     auto duration = chrono::duration_cast<chrono::seconds>(end - start);
 
-
+    /*
     for (int i = 0; i < magazineCount; i++)
     {
         std::cout << magazineList[i] << "\n";
     }
+    */
 
 
     puts("Bruteforce completed");
