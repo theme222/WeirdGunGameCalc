@@ -4,11 +4,18 @@ I Wrote this in python as it wasn't intended to be run multiple times and it sho
 import os
 import json
 
-filenames = ["Barrels.txt", "Grips.txt", "Guns.txt", "Magazines.txt", "Stocks.txt", "Weird.txt"]
+filenames = ["Barrels.txt", "Grips.txt", "Cores.txt", "Magazines.txt", "Stocks.txt"]
 
 known_categories = {"Assault Rifle", "Sniper", "SMG", "LMG", "Shotgun", "Weird"}
 known_types = {"Barrels", "Cores", "Grips", "Magazines", "Stocks"}
-known_properties = {'Reload_Speed', 'Recoil_Hip_Vertical', 'Recoil', 'Magazine_Size', 'Fire_Rate', 'ADS_Spread', 'Health', 'Damage', 'Suppression', 'Dropoff_Studs', 'Category', 'Recoil_Aim_Vertical', 'Recoil_Hip_Horizontal', 'Spread', 'Time_To_Aim', 'Hipfire_Spread', 'Recoil_Aim_Horizontal', 'Movement_Speed_Modifier', 'Name', 'Movement_Speed', 'Reload_Time', 'Pellets'}
+
+known_properties = {'Reload_Speed', 'Recoil_Hip_Vertical', 'Recoil',
+    'Magazine_Size', 'Fire_Rate', 'ADS_Spread', 'Health', 'Damage', 'Suppression',
+    'Dropoff_Studs', 'Category', 'Recoil_Aim_Vertical', 'Recoil_Hip_Horizontal',
+    'Spread', 'Time_To_Aim', 'Hipfire_Spread', 'Recoil_Aim_Horizontal',
+    'Movement_Speed_Modifier', 'Name', 'Movement_Speed', 'Reload_Time', 'Pellets'
+}
+
 known_names = {
     'MAC-10', 'M1919a6 Browning', 'Type 99', 'Scar H', 'MP9', 'Honk', 'Thompson', 'Plunger', 'M1891 Carcano',
     'Skorpion vz. 61', 'M1917 Browning', 'Improvised', 'Scar L', 'Lee Enfield', 'Arctic Warfare',
@@ -88,13 +95,12 @@ def TurnToJSON():
 
             # Extracting the category and type
             if key == "Category":
-                if name == "Guns.txt":
-                    currentCategory = value[:-1]
+                if name == "Cores.txt":
+                    currentCategory = value
                     currentType = "Cores"
                 else:
                     currentCategory = " ".join(value.strip().split(" ")[:-1])
                     currentType = value.strip().split(" ")[-1]
-                    if currentType == "Guns": currentType = "Cores"
                 continue
 
             assert currentCategory and currentType, "You fucked up bitch"

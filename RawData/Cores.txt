@@ -1,0 +1,640 @@
+Category: Assault Rifle
+---
+Core: AKM
+Damage: 18.5 > 14.8
+Dropoff_Studs: 180 > 350
+Fire_Rate: 600
+Hipfire_Spread: 5.5
+ADS_Spread: 0.5
+Time_To_Aim: 0.7
+Suppression: 0.3
+Recoil_Hip_Horizontal: -15 - 15
+Recoil_Hip_Vertical: 70 - 80
+Recoil_Aim_Horizontal: -12 - 12
+Recoil_Aim_Vertical: 56 - 64
+---
+Core: M-16
+Damage: 15.9 > 12.7
+Dropoff_Studs: 180 > 350
+Fire_Rate: 650
+Hipfire_Spread: 2
+ADS_Spread: 0.25
+Time_To_Aim: 0.7
+Suppression: 0.3
+Recoil_Hip_Horizontal: -10 - 10
+Recoil_Hip_Vertical: 50 - 60
+Recoil_Aim_Horizontal: -4 - 4
+Recoil_Aim_Vertical: 25 - 30
+---
+Core: AUG
+Damage: 14.5 > 11.6
+Dropoff_Studs: 180 > 350
+Fire_Rate: 680
+Hipfire_Spread: 1
+ADS_Spread: 0.125
+Time_To_Aim: 0.7
+Movement_Speed_Modifier: +2.5%
+Suppression: 0.3
+Recoil_Hip_Horizontal: -5 - 5
+Recoil_Hip_Vertical: 60 - 75
+Recoil_Aim_Horizontal: -0.4 - 0.4
+Recoil_Aim_Vertical: 18 - 22.5
+---
+Core: As-Val
+Damage: 13.8 > 11
+Dropoff_Studs: 180 > 350
+Fire_Rate: 750
+Hipfire_Spread: 2
+ADS_Spread: 0.35
+Time_To_Aim: 0.7
+Suppression: 0.3
+Recoil_Hip_Horizontal: -7 - 7
+Recoil_Hip_Vertical: 30 - 40
+Recoil_Aim_Horizontal: -1.4 - 1.4
+Recoil_Aim_Vertical: 15 - 20
+---
+Core: Famas F1
+Damage: 13 > 10.4
+Dropoff_Studs: 180 > 350
+Fire_Rate: 900
+Hipfire_Spread: 3
+ADS_Spread: 0.5
+Time_To_Aim: 0.7
+Suppression: 0.3
+Recoil_Hip_Horizontal: -10 - 10
+Recoil_Hip_Vertical: 40 - 50
+Recoil_Aim_Horizontal: -1 - 1
+Recoil_Aim_Vertical: 16 - 20
+---
+Core: Fedorov Avtomat
+Damage: 22 > 17.6
+Dropoff_Studs: 180 > 350
+Fire_Rate: 400
+Hipfire_Spread: 2
+ADS_Spread: 0.25
+Time_To_Aim: 0.7
+Suppression: 0.4
+Recoil_Hip_Horizontal: -10 - 10
+Recoil_Hip_Vertical: 70 - 100
+Recoil_Aim_Horizontal: -5.5 - 5.5
+Recoil_Aim_Vertical: 38.5 - 55
+---
+Core: Scar L
+Damage: 16.5 > 13.2
+Dropoff_Studs: 180 > 350
+Fire_Rate: 625
+Hipfire_Spread: 5
+ADS_Spread: 0.65
+Time_To_Aim: 0.7
+Suppression: 0.3
+Recoil_Hip_Horizontal: -12 - 12
+Recoil_Hip_Vertical: 55 - 65
+Recoil_Aim_Horizontal: -4.8 - 4.8
+Recoil_Aim_Vertical: 27.5 - 32.5
+---
+Core: STG-44
+Damage: 19.7 > 15.8
+Dropoff_Studs: 180 > 350
+Fire_Rate: 500
+Hipfire_Spread: 5.5
+ADS_Spread: 0.5
+Time_To_Aim: 0.7
+Suppression: 0.3
+Recoil_Hip_Horizontal: -30 - 30
+Recoil_Hip_Vertical: 50 - 60
+Recoil_Aim_Horizontal: -18 - 18
+Recoil_Aim_Vertical: 27.5 - 33
+---
+Core: The Chief
+Damage: 17.5 > 14
+Dropoff_Studs: 180 > 350
+Fire_Rate: 900
+Hipfire_Spread: 5.5
+ADS_Spread: 5.5
+Time_To_Aim: 0.7
+Suppression: 0.3
+Recoil_Hip_Horizontal: -25 - 25
+Recoil_Hip_Vertical: 80 - 90
+Recoil_Aim_Horizontal: -32.5 - 32.5
+Recoil_Aim_Vertical: 104 - 117
+---
+Core: Hell-Trooper-23
+Damage: 16.5 > 13.2
+Dropoff_Studs: 180 > 350
+Fire_Rate: 650
+Hipfire_Spread: 5
+ADS_Spread: 0.8
+Time_To_Aim: 0.7
+Suppression: 0.3
+Recoil_Hip_Horizontal: -7 - 7
+Recoil_Hip_Vertical: 7 - 50
+Recoil_Aim_Horizontal: -2.1 - 2.1
+Recoil_Aim_Vertical: 2.1 - 15
+---
+Core: Hex Spitter
+Damage: 16 > 12
+Dropoff_Studs: 180 > 350
+Pellets: 2
+Fire_Rate: 660
+Hipfire_Spread: 3.5
+ADS_Spread: 1.5
+Time_To_Aim: 0.7
+Suppression: 0.4
+Recoil_Hip_Horizontal: -8 - 8
+Recoil_Hip_Vertical: 30 - 40
+Recoil_Aim_Horizontal: -3.2 - 3.2
+Recoil_Aim_Vertical: 15 - 20
+---
+Core: APS
+Damage: 20 > 16
+Dropoff_Studs: 180 > 350
+Fire_Rate: 600
+Hipfire_Spread: 4
+ADS_Spread: 1.9
+Time_To_Aim: 0.7
+Suppression: 0.3
+Recoil_Hip_Horizontal: -22 - 22
+Recoil_Hip_Vertical: 70 - 100
+Recoil_Aim_Horizontal: -12.1 - 12.1
+Recoil_Aim_Vertical: 38.5 - 55
+---
+Core: G36C
+Damage: 16 > 12.8
+Dropoff_Studs: 180 > 350
+Fire_Rate: 750
+Hipfire_Spread: 2
+ADS_Spread: 0.45
+Time_To_Aim: 0.7
+Recoil_Hip_Horizontal: -10 - 10
+Recoil_Hip_Vertical: 10 - 30
+Recoil_Aim_Horizontal: -9 - 9
+Recoil_Aim_Vertical: 9 - 27
+---
+
+Category: Sniper
+---
+Core: Remington 700
+Damage: 55 > 49.5
+Dropoff_Studs: 400 > 700
+Fire_Rate: 37
+Hipfire_Spread: 15
+ADS_Spread: 0.1
+Time_To_Aim: 0.7
+Movement_Speed_Modifier: -5%
+Suppression: 1
+Recoil_Hip_Horizontal: -15 - 15
+Recoil_Hip_Vertical: 70 - 100
+Recoil_Aim_Horizontal: -7.5 - 7.5
+Recoil_Aim_Vertical: 35 - 50
+---
+Core: M1891 Carcano
+Damage: 53 > 47.7
+Dropoff_Studs: 400 > 700
+Fire_Rate: 45
+Hipfire_Spread: 3
+ADS_Spread: 0.7
+Time_To_Aim: 0.7
+Suppression: 1
+Recoil_Hip_Horizontal: -10 - 10
+Recoil_Hip_Vertical: 50 - 80
+Recoil_Aim_Horizontal: -4 - 4
+Recoil_Aim_Vertical: 20 - 32
+---
+Core: Arctic Warfare
+Damage: 60 > 54
+Dropoff_Studs: 400 > 700
+Fire_Rate: 30
+Hipfire_Spread: 15
+ADS_Spread: 0.05
+Time_To_Aim: 0.8
+Movement_Speed_Modifier: -5%
+Suppression: 1
+Recoil_Hip_Horizontal: -20 - 20
+Recoil_Hip_Vertical: 90 - 120
+Recoil_Aim_Horizontal: -10 - 10
+Recoil_Aim_Vertical: 45 - 60
+---
+Core: Lee Enfield
+Damage: 52 > 46.8
+Dropoff_Studs: 400 > 700
+Fire_Rate: 50
+Hipfire_Spread: 10
+ADS_Spread: 0.5
+Time_To_Aim: 0.6
+Suppression: 1
+Recoil_Hip_Horizontal: -15 - 15
+Recoil_Hip_Vertical: 90 - 120
+Recoil_Aim_Horizontal: -6 - 6
+Recoil_Aim_Vertical: 36 - 48
+---
+Core: M200 Intervention
+Damage: 65 > 58.5
+Dropoff_Studs: 400 > 700
+Fire_Rate: 18
+Hipfire_Spread: 15
+ADS_Spread: 0.13
+Time_To_Aim: 0.9
+Movement_Speed_Modifier: -8
+Suppression: 1
+Recoil_Hip_Horizontal: -18 - 18
+Recoil_Hip_Vertical: 80 - 110
+Recoil_Aim_Horizontal: -9 - 9
+Recoil_Aim_Vertical: 40 - 55
+---
+Core: Hecate II
+Damage: 70 > 63
+Dropoff_Studs: 400 > 700
+Fire_Rate: 15
+Hipfire_Spread: 15
+ADS_Spread: 0.12
+Time_To_Aim: 1
+Movement_Speed_Modifier: -10%
+Suppression: 1
+Recoil_Hip_Horizontal: -20 - 20
+Recoil_Hip_Vertical: 90 - 120
+Recoil_Aim_Horizontal: -10 - 10
+Recoil_Aim_Vertical: 45 - 60
+---
+
+Category: SMG
+---
+Core: MAC-10
+Damage: 14.3 > 8.6
+Dropoff_Studs: 100 > 135
+Fire_Rate: 900
+Hipfire_Spread: 2.5
+ADS_Spread: 0.85
+Time_To_Aim: 0.3
+Movement_Speed_Modifier: +4.4%
+Recoil_Hip_Horizontal: -20 - 20
+Recoil_Hip_Vertical: 40 - 60
+Recoil_Aim_Horizontal: -8 - 8
+Recoil_Aim_Vertical: 16 - 24
+---
+Core: Skorpion vz. 61
+Damage: 15.5 > 9.3
+Dropoff_Studs: 100 > 135
+Fire_Rate: 850
+Hipfire_Spread: 5
+ADS_Spread: 3
+Time_To_Aim: 0.15
+Movement_Speed_Modifier: +9%
+Recoil_Hip_Horizontal: -25 - 25
+Recoil_Hip_Vertical: 60 - 80
+Recoil_Aim_Horizontal: -20 - 20
+Recoil_Aim_Vertical: 48 - 64
+---
+Core: Thompson
+Damage: 16 > 9.6
+Dropoff_Studs: 100 > 135
+Fire_Rate: 800
+Hipfire_Spread: 2
+ADS_Spread: 0.85
+Time_To_Aim: 0.35
+Movement_Speed_Modifier: +3.8%
+Recoil_Hip_Horizontal: -10 - 10
+Recoil_Hip_Vertical: 40 - 60
+Recoil_Aim_Horizontal: -8 - 8
+Recoil_Aim_Vertical: 32 - 48
+---
+Core: MP9
+Damage: 12.2 > 7.3
+Dropoff_Studs: 100 > 135
+Fire_Rate: 1000
+Hipfire_Spread: 2
+ADS_Spread: 0.65
+Time_To_Aim: 0.3
+Movement_Speed_Modifier: +4.6%
+Recoil_Hip_Horizontal: -20 - 20
+Recoil_Hip_Vertical: 40 - 60
+Recoil_Aim_Horizontal: -8 - 8
+Recoil_Aim_Vertical: 16 - 24
+---
+Core: MP 40
+Damage: 23.2 > 13.9
+Dropoff_Studs: 100 > 135
+Fire_Rate: 500
+Hipfire_Spread: 2
+ADS_Spread: 0.5
+Time_To_Aim: 0.35
+Movement_Speed_Modifier: +3.2%
+Recoil_Hip_Horizontal: -15 - 15
+Recoil_Hip_Vertical: 70 - 80
+Recoil_Aim_Horizontal: -12 - 12
+Recoil_Aim_Vertical: 56 - 64
+---
+Core: UMP-40
+Damage: 21 > 12.6
+Dropoff_Studs: 100 > 135
+Fire_Rate: 600
+Hipfire_Spread: 1.5
+ADS_Spread: 0.55
+Time_To_Aim: 0.35
+Movement_Speed_Modifier: +3.8%
+Recoil_Hip_Horizontal: -20 - 20
+Recoil_Hip_Vertical: 60 - 90
+Recoil_Aim_Horizontal: -19 - 19
+Recoil_Aim_Vertical: 57 - 85.5
+---
+Core: PPSh-41
+Damage: 11.7 > 7
+Dropoff_Studs: 100 > 135
+Fire_Rate: 1250
+Hipfire_Spread: 4
+ADS_Spread: 1.5
+Time_To_Aim: 0.3
+Movement_Speed_Modifier: +2.3%
+Recoil_Hip_Horizontal: -25 - 25
+Recoil_Hip_Vertical: 30 - 60
+Recoil_Aim_Horizontal: -20 - 20
+Recoil_Aim_Vertical: 24 - 48
+---
+Core: Kriss Vector
+Damage: 12.5 > 7.5
+Dropoff_Studs: 100 > 135
+Fire_Rate: 1200
+Hipfire_Spread: 2
+ADS_Spread: 0.85
+Time_To_Aim: 0.35
+Movement_Speed_Modifier: +3.3%
+Recoil_Hip_Horizontal: -5 - 5
+Recoil_Hip_Vertical: 10 - 30
+Recoil_Aim_Horizontal: -4.5 - 4.5
+Recoil_Aim_Vertical: 9 - 27
+---
+Core: Type 2a Nambu
+Damage: 19.5 > 11.7
+Dropoff_Studs: 100 > 135
+Fire_Rate: 600
+Hipfire_Spread: 3
+ADS_Spread: 0.45
+Time_To_Aim: 0.35
+Movement_Speed_Modifier: +4%
+Recoil_Hip_Horizontal: -10 - 10
+Recoil_Hip_Vertical: 25 - 35
+Recoil_Aim_Horizontal: -6.5 - 6.5
+Recoil_Aim_Vertical: 16.2 - 22.7
+---
+Core: Mas-38
+Damage: 16.5 > 9.9
+Dropoff_Studs: 100 > 135
+Fire_Rate: 700
+Hipfire_Spread: 2.5
+ADS_Spread: 0.45
+Time_To_Aim: 0.35
+Movement_Speed_Modifier: +4.1%
+Recoil_Hip_Horizontal: -7.5 - 7.5
+Recoil_Hip_Vertical: 10 - 30
+Recoil_Aim_Horizontal: -3 - 3
+Recoil_Aim_Vertical: 4 - 12
+---
+Core: PP-19 Bizon
+Damage: 16.5 > 9.9
+Dropoff_Studs: 100 > 135
+Fire_Rate: 750
+Hipfire_Spread: 1.75
+ADS_Spread: 0.85
+Time_To_Aim: 0.8
+Recoil_Hip_Horizontal: -50 - 50
+Recoil_Hip_Vertical: 30 - 50
+Recoil_Aim_Horizontal: -15 - 15
+Recoil_Aim_Vertical: 9 - 15
+---
+Core: MP5
+Damage: 16 > 9.6
+Dropoff_Studs: 100 > 135
+Fire_Rate: 800
+Hipfire_Spread: 1.5
+ADS_Spread: 0.6
+Time_To_Aim: 0.7
+Recoil_Hip_Horizontal: -15 - 15
+Recoil_Hip_Vertical: 20 - 45
+Recoil_Aim_Horizontal: -13.5 - 13.5
+Recoil_Aim_Vertical: 18 - 40.5
+---
+
+Category: LMG
+---
+Core: Type 99
+Damage: 15 > 12.8
+Dropoff_Studs: 180 > 360
+Fire_Rate: 850
+Hipfire_Spread: 6
+ADS_Spread: 0.7
+Time_To_Aim: 1.25
+Movement_Speed_Modifier: -5.5%
+Suppression: 0.8
+Health: +5.5%
+Recoil_Hip_Horizontal: -12 - 12
+Recoil_Hip_Vertical: 37 - 55
+Recoil_Aim_Horizontal: -6 - 6
+Recoil_Aim_Vertical: 18.5 - 27.5
+---
+Core: M60
+Damage: 19.5 > 16.6
+Dropoff_Studs: 180 > 360
+Fire_Rate: 600
+Hipfire_Spread: 6
+ADS_Spread: 1.1
+Time_To_Aim: 1.25
+Movement_Speed_Modifier: -5%
+Suppression: 0.9
+Health: +7.5%
+Recoil_Hip_Horizontal: -12 - 12
+Recoil_Hip_Vertical: 55 - 67
+Recoil_Aim_Horizontal: -7.2 - 7.2
+Recoil_Aim_Vertical: 33 - 40.2
+---
+Core: DP-27
+Damage: 19 > 16.2
+Dropoff_Studs: 180 > 360
+Fire_Rate: 550
+Hipfire_Spread: 5
+ADS_Spread: 0.85
+Time_To_Aim: 1
+Movement_Speed_Modifier: -5%
+Suppression: 0.8
+Health: +5%
+Recoil_Hip_Horizontal: -7 - 7
+Recoil_Hip_Vertical: 60 - 70
+Recoil_Aim_Horizontal: -4.2 - 4.2
+Recoil_Aim_Vertical: 36 - 42
+---
+Core: M1919a6 Browning
+Damage: 21.5 > 18.3
+Dropoff_Studs: 180 > 360
+Fire_Rate: 500
+Hipfire_Spread: 9
+ADS_Spread: 1
+Time_To_Aim: 1.25
+Movement_Speed_Modifier: -10%
+Suppression: 0.9
+Health: +7.5%
+Recoil_Hip_Horizontal: -10 - 10
+Recoil_Hip_Vertical: 44 - 55
+Recoil_Aim_Horizontal: -5 - 5
+Recoil_Aim_Vertical: 22 - 27.5
+---
+Core: M1918 BAR
+Damage: 23.5 > 20
+Dropoff_Studs: 180 > 360
+Fire_Rate: 500
+Hipfire_Spread: 10
+ADS_Spread: 1.1
+Time_To_Aim: 1.1
+Movement_Speed_Modifier: -5%
+Suppression: 0.9
+Health: +5%
+Recoil_Hip_Horizontal: -60 - 60
+Recoil_Hip_Vertical: 80 - 120
+Recoil_Aim_Horizontal: -54 - 54
+Recoil_Aim_Vertical: 72 - 108
+---
+Core: Negev
+Damage: 14 > 11.9
+Dropoff_Studs: 180 > 360
+Fire_Rate: 850
+Hipfire_Spread: 7
+ADS_Spread: 1.5
+Time_To_Aim: 1.25
+Movement_Speed_Modifier: -5%
+Suppression: 0.9
+Health: +7.5%
+Recoil_Hip_Horizontal: -16 - 16
+Recoil_Hip_Vertical: 35 - 40
+Recoil_Aim_Horizontal: -9.6 - 9.6
+Recoil_Aim_Vertical: 21 - 24
+---
+Core: MG42
+Damage: 11 > 9.4
+Dropoff_Studs: 180 > 360
+Fire_Rate: 1200
+Hipfire_Spread: 8
+ADS_Spread: 1.3
+Time_To_Aim: 1.25
+Movement_Speed_Modifier: -7.5%
+Suppression: 0.9
+Health: +7.5%
+Recoil_Hip_Horizontal: -15 - 15
+Recoil_Hip_Vertical: 53 - 76
+Recoil_Aim_Horizontal: -7.5 - 7.5
+Recoil_Aim_Vertical: 26.5 - 38
+---
+
+Category: Shotgun
+---
+Core: M1887
+Damage: 99 > 14.9
+Dropoff_Studs: 55 > 110
+Pellets: 10
+Fire_Rate: 60
+Hipfire_Spread: 7
+ADS_Spread: 1.6
+Time_To_Aim: 0.7
+Movement_Speed_Modifier: +2%
+Suppression: 0.5
+Recoil_Hip_Horizontal: -20 - 20
+Recoil_Hip_Vertical: 20 - 30
+Recoil_Aim_Horizontal: -8 - 8
+Recoil_Aim_Vertical: 8 - 12
+---
+Core: M1897 Trench Shotgun
+Damage: 65 > 9.8
+Dropoff_Studs: 55 > 110
+Pellets: 16
+Fire_Rate: 120
+Hipfire_Spread: 9
+ADS_Spread: 2.5
+Time_To_Aim: 0.7
+Suppression: 0.5
+Recoil_Hip_Horizontal: -10 - 10
+Recoil_Hip_Vertical: 40 - 60
+Recoil_Aim_Horizontal: -4 - 4
+Recoil_Aim_Vertical: 16 - 24
+---
+Core: Remington 870
+Damage: 101 > 15.2
+Dropoff_Studs: 55 > 110
+Pellets: 8
+Fire_Rate: 90
+Hipfire_Spread: 5
+ADS_Spread: 1.25
+Time_To_Aim: 0.7
+Suppression: 0.5
+Recoil_Hip_Horizontal: -20 - 20
+Recoil_Hip_Vertical: 50 - 80
+Recoil_Aim_Horizontal: -8 - 8
+Recoil_Aim_Vertical: 20 - 32
+---
+Core: Spas-12
+Damage: 60 > 7.7
+Dropoff_Studs: 55 > 110
+Pellets: 6
+Fire_Rate: 220
+Hipfire_Spread: 8
+ADS_Spread: 3
+Time_To_Aim: 0.85
+Suppression: 0.2
+Recoil_Hip_Horizontal: -25 - 25
+Recoil_Hip_Vertical: 50 - 80
+Recoil_Aim_Horizontal: -10 - 10
+Recoil_Aim_Vertical: 20 - 32
+---
+Core: Circuit Judge
+Damage: 144 > 16
+Dropoff_Studs: 55 > 110
+Pellets: 8
+Fire_Rate: 60
+Hipfire_Spread: 5
+ADS_Spread: 1.5
+Time_To_Aim: 0.7
+Suppression: 0.5
+Recoil_Hip_Horizontal: -20 - 20
+Recoil_Hip_Vertical: 50 - 80
+Recoil_Aim_Horizontal: -8 - 8
+Recoil_Aim_Vertical: 20 - 32
+---
+
+Category: Weird
+---
+Core: Words as Weapons
+Damage: 15
+Fire_Rate: 600
+Hipfire_Spread: 5.5
+ADS_Spread: 0.5
+Time_To_Aim: 0.7
+Suppression: 0.3
+Recoil_Hip_Horizontal: -15 - 15
+Recoil_Hip_Vertical: 70 - 80
+Recoil_Aim_Horizontal: -12 - 12
+Recoil_Aim_Vertical: 56 - 64
+---
+Core: Bicycle
+Damage: 20
+Fire_Rate: 350
+Hipfire_Spread: 7
+ADS_Spread: 0.4
+Time_To_Aim: 0.7
+Suppression: 0.5
+Recoil_Hip_Horizontal: -20 - 20
+Recoil_Hip_Vertical: 40 - 55
+Recoil_Aim_Horizontal: -12 - 12
+Recoil_Aim_Vertical: 24 - 33
+---
+Core: Willy Fischy
+Damage: 20
+Fire_Rate: 350
+Hipfire_Spread: 6
+ADS_Spread: 6
+Time_To_Aim: 0.7
+Recoil_Hip_Horizontal: -12 - 12
+Recoil_Hip_Vertical: 70 - 90
+Recoil_Aim_Horizontal: -1.2 - 1.2
+Recoil_Aim_Vertical: 7 - 9
+---
+Core: Stat Randomizer
+Hipfire_Spread: 20
+ADS_Spread: 1
+Time_To_Aim: 0.7
+Movement_Speed_Modifier: -5%
+---

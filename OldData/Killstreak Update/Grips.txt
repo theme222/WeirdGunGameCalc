@@ -1,0 +1,267 @@
+Category: Assault Rifle Grips
+---
+Grip: AKM
+Grip_Effects:
+  Recoil: -10%
+  Reload_Speed: -4%
+  Spread: +14%
+---
+Grip: M-16
+Grip_Effects:
+  Recoil: -20%
+---
+Grip: AUG
+Grip_Effects:
+  Movement_Speed: +2.5%
+  Recoil: -5%
+  Spread: -7%
+---
+Grip: As-Val
+Grip_Effects:
+  Recoil: -5%
+  Reload_Speed: -15%
+---
+Grip: Famas F1
+Grip_Effects:
+  Recoil: -10%
+  Reload_Speed: -10%
+---
+Grip: Fedorov Avtomat
+Grip_Effects:
+  Recoil: -5%
+  Spread: -15%
+  Fire_Rate: -5%
+---
+Grip: Scar L
+Grip_Effects:
+  Recoil: -25%
+  Spread: +25%
+---
+Grip: STG-44
+Grip_Effects:
+  Reload_Speed: -17%
+  Spread: -7%
+  Recoil: +12%
+---
+Grip: The Chief
+Grip_Effects:
+  Damage: +3%
+  Spread: -25%
+  Recoil: +35%
+---
+Grip: Hell-Trooper-23
+Grip_Effects:
+  Spread: -10%
+---
+Grip: Hex Spitter
+Grip_Effects:
+  Recoil: -25%
+  Movement_Speed: -5%
+  Spread: +5%
+---
+Grip: G36C
+Grip_Effects:
+  Recoil: -15%
+  Reload_Time: -10%
+---
+Grip: APS
+Grip_Effects:
+  Recoil: -10%
+  Reload_Time: -4%
+  Spread: +14%
+---
+
+Category: Sniper Grips
+---
+Grip: Remington 700
+Grip_Effects:
+  Recoil: -5%
+  Reload_Speed: -10%
+  Spread: -10%
+---
+Grip: M1891 Carcano
+Grip_Effects:
+  Fire_Rate: +10%
+  Movement_Speed: +4%
+  Reload_Speed: +15%
+  Spread: +30%
+---
+Grip: Arctic Warfare
+Grip_Effects:
+  Spread: -30%
+---
+Grip: Lee Enfield
+Grip_Effects:
+  Fire_Rate: +15%
+  Spread: +100%
+---
+Grip: Hecate II
+Grip_Effects:
+  Recoil: -30%
+  Spread: -10%
+---
+Grip: M200 Intervention
+Grip_Effects:
+  Recoil: -20%
+  Reload_Speed: -10%
+  Spread: +10%
+---
+
+Category: SMG Grips
+---
+Grip: MAC-10
+Grip_Effects:
+  Movement_Speed: +4.4%
+  Reload_Speed: -25%
+  Recoil: +25%
+  Spread: +10%
+---
+Grip: Skorpion vz. 61
+Grip_Effects:
+  Movement_Speed: +9%
+  Reload_Speed: -10%
+  Recoil: +25%
+  Spread: +30%
+---
+Grip: Thompson
+Grip_Effects:
+  Movement_Speed: +3.8%
+  Recoil: -15%
+  Reload_Speed: +10%
+---
+Grip: MP9
+Grip_Effects:
+  Movement_Speed: +2%
+  Reload_Speed: -8%
+  Recoil: +10%
+  Spread: +17%
+---
+Grip: MP 40
+Grip_Effects:
+  Damage: +5%
+  Recoil: +30%
+  Spread: +30%
+---
+Grip: UMP-40
+Grip_Effects:
+  Movement_Speed: +3.8%
+  Reload_Speed: -5%
+  Spread: -20%
+  Recoil: +25%
+---
+Grip: PPSh-41
+Grip_Effects:
+  Fire_Rate: +10%
+  Spread: -10%
+  Reload_Speed: +15%
+---
+Grip: Kriss Vector
+Grip_Effects:
+  Movement_Speed: +3.3%
+  Recoil: -15%
+---
+Grip: Type 2a Nambu
+Grip_Effects:
+  Damage: +6%
+  Health: -7.5%
+  Recoil: +23%
+---
+Grip: Mas-38
+Grip_Effects:
+  Movement_Speed: +2%
+  Spread: -15%
+---
+Grip: PP-19 Bizon
+Grip_Effects:
+  Movement_Speed: +2.5%
+  Recoil: -9%
+  Reload_Speed: -3%
+  Spread: +18%
+---
+Grip: MP5
+Grip_Effects:
+  Movement_Speed: +3.3%
+  Recoil: -15%
+  Reload_Speed: -10%
+---
+
+Category: LMG Grips
+---
+Grip: M60
+Grip_Effects:
+  Recoil: -15%
+  Spread: -15%
+  Movement_Speed: -2.5%
+  Reload_Speed: +5%
+---
+Grip: DP-27
+Grip_Effects:
+  Recoil: -19%
+  Reload_Speed: -13%
+  Fire_Rate: -5%
+---
+Grip: M1919a6 Browning
+Grip_Effects:
+  Reload_Speed: -19%
+  Spread: -16%
+  Movement_Speed: -2.5%
+  Recoil: +25%
+---
+Grip: MG42
+Grip_Effects:
+  Recoil: -13%
+  Reload_Speed: -16%
+  Movement_Speed: -2.7%
+---
+Grip: Type 99
+Grip_Effects:
+  Recoil: -13%
+  Reload_Speed: -16%
+  Movement_Speed: -2.7%
+---
+Grip: M1918 BAR
+Grip_Effects:
+  Reload_Speed: -13%
+  Spread: -10%
+  Movement_Speed: -2.5%
+---
+Grip: Negev
+Grip_Effects:
+  Fire_Rate: +8%
+  Movement_Speed: -2.5%
+  Reload_Speed: +15%
+  Spread: +5%
+---
+
+Category: Shotgun Grips
+---
+Grip: Spas-12
+Grip_Effects:
+  Fire_Rate: +10%
+  Movement_Speed: -2.5%
+  Spread: +35%
+---
+Grip: M1887
+Grip_Effects:
+  Fire_Rate: +10%
+  Health: +5%
+  Reload_Speed: -10%
+  Movement_Speed: -5.5%
+  Spread: +15%
+---
+Grip: M1897 Trench Shotgun
+Grip_Effects:
+  Fire_Rate: +10%
+  Reload_Speed: +10%
+  Spread: +35%
+---
+Grip: Remington 870
+Grip_Effects:
+  Reload_Speed: -15%
+  Spread: +20%
+---
+Grip: Circuit Judge
+Grip_Effects:
+  Damage: +10%
+  Spread: +35%
+---

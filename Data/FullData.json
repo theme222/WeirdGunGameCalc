@@ -849,8 +849,8 @@
       "Category": "Assault Rifle",
       "Name": "G36C",
       "Damage": [
-        16.5,
-        13.2
+        16,
+        12.8
       ],
       "Dropoff_Studs": [
         180,
@@ -858,7 +858,7 @@
       ],
       "Fire_Rate": 750,
       "Hipfire_Spread": 2,
-      "ADS_Spread": 0.35,
+      "ADS_Spread": 0.45,
       "Time_To_Aim": 0.7,
       "Recoil_Hip_Horizontal": [
         -10,
