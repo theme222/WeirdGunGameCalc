@@ -13,7 +13,7 @@ known_properties = {'Reload_Speed', 'Recoil_Hip_Vertical', 'Recoil',
     'Magazine_Size', 'Fire_Rate', 'ADS_Spread', 'Health', 'Damage', 'Suppression',
     'Dropoff_Studs', 'Category', 'Recoil_Aim_Vertical', 'Recoil_Hip_Horizontal',
     'Spread', 'Time_To_Aim', 'Hipfire_Spread', 'Recoil_Aim_Horizontal',
-    'Movement_Speed_Modifier', 'Name', 'Movement_Speed', 'Reload_Time', 'Pellets'
+    'Movement_Speed_Modifier', 'Name', 'Movement_Speed', 'Reload_Time', 'Pellets', 'Detection_Radius'
 }
 
 known_names = {
@@ -26,7 +26,8 @@ known_names = {
     'Mustard', 'Hell-Trooper-23', 'Kriss Vector', 'Words as Weapons', 'The Chief', 'Mas-38', 'Bicycle',
     'PPSh-41', 'Spas-12', 'Remington 870 Wingmaster', 'M1887', 'M1897 Trench Shotgun', 'Remington 870 Breacher',
     'Remington 870 MCS', 'Remington 870', 'Spas-12 Folded', 'Hex Spitter', 'PP-19 Bizon', 'M1918 BAR', 'G36C',
-    'APS', 'MP5', 'Circuit Judge', 'MP5A3', 'Negev', 'M200 Intervention', 'Pistol Pistol'
+    'APS', 'MP5', 'Circuit Judge', 'MP5A3', 'Negev', 'M200 Intervention', 'Pistol Pistol', 'Auto-5', 'Croissant',
+    'Loaf', 'Taco', 'Eclair', 'Pastel'
 }
 
 

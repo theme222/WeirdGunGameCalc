@@ -3,6 +3,7 @@ Category: Assault Rifle Magazines
 Magazine: AKM
 Magazine_Size: 30
 Reload_Time: 2.4s
+Detection_Radius: 5
 Damage: +10%
 ---
 Magazine: M-16
@@ -18,6 +19,7 @@ Spread: -10%
 Magazine: As-Val
 Magazine_Size: 20
 Reload_Time: 1.5s
+Detection_Radius: -25
 Recoil: -10%
 Damage: -5%
 ---
@@ -25,6 +27,7 @@ Magazine: Fedorov Avtomat
 Magazine_Size: 25
 Reload_Time: 4s
 Damage: +20%
+Detection_Radius: 18
 Fire_Rate: -5%
 Recoil: +25%
 ---
@@ -32,6 +35,7 @@ Magazine: Scar H
 Magazine_Size: 20
 Reload_Time: 4.5s
 Damage: +20%
+Detection_Radius: 10
 Recoil: +25%
 ---
 Magazine: Famas F1
@@ -84,6 +88,7 @@ Magazine: APS
 Magazine_Size: 26
 Reload_Time: 7
 Damage: +20%
+Detection_Radius: 25
 Fire_Rate: -15%
 Spread: +20%
 ---
@@ -116,6 +121,7 @@ Magazine_Size: 5
 Reload_Time: 5s
 Damage: +45%
 Fire_Rate: -40%
+Detection_Radius: 25
 Movement_Speed: -10%
 Recoil: +100%
 Reload_Speed: +50%
@@ -254,6 +260,7 @@ Magazine: M1919a6 Browning
 Magazine_Size: 100
 Reload_Time: 9.5s
 Damage: +20%
+Detection_Radius: 20
 Fire_Rate: -10%
 Movement_Speed: -12%
 Spread: +27%
@@ -277,6 +284,7 @@ Magazine: M1918 BAR
 Magazine_Size: 20
 Reload_Time: 4
 Damage: +25%
+Detection_Radius: 20
 Fire_Rate: -10%
 Movement_Speed: -0.5%
 Recoil: +10%
@@ -352,6 +360,15 @@ Pellets: +100%
 Recoil: +50%
 Spread: +75%
 ---
+Magazine: Auto-5
+Magazine_Size: 4
+Reload_Time: 4
+Damage: +20%
+Fire_Rate: +20%
+Pellets: +175%
+Recoil: +20%
+Spread: +50%
+---
 
 Category: Weird Magazines
 ---
@@ -366,6 +383,7 @@ Magazine: Words as Weapons
 Magazine_Size: 30
 Reload_Time: 2.4s
 Damage: +10%
+Detection_Radius: 5
 ---
 Magazine: Restroom
 Magazine_Size: 35
@@ -385,6 +403,7 @@ Magazine: XXL AKM
 Magazine_Size: 90
 Reload_Time: 9s
 Damage: +10%
+Detection_Radius: 15
 Movement_Speed: -10%
 Recoil: +20%
 ---
@@ -395,4 +414,12 @@ Fire_Rate: +10%
 Recoil: -10%
 Damage: -20%
 Movement_Speed: -15%
+---
+Magazine: Pastel
+Magazine_Size: 20
+Reload_Time: 4
+Damage: +20%
+Detection_Radius: +10%
+Fire_Rate: -20%
+Recoil: +15%
 ---

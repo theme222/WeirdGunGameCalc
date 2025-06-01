@@ -255,6 +255,12 @@ Stock: Circuit Judge
 Reload_Speed: -45%
 Spread: +15%
 ---
+Stock: Auto-5
+Fire_Rate: +5%
+Movement_Speed: +5%
+Spread: -10%
+Damage: -5%
+---
 
 Category: Weird Stocks
 ---
@@ -289,4 +295,13 @@ Recoil: -90%
 Spread: -45%
 Movement_Speed: -40%
 Reload_Speed: +20% (Slower)
+---
+Stock: Taco
+Damage: +10%
+Health: +10%
+Detection_Radius: +20%
+Fire_Rate: -5%
+Recoil: +20%
+Reload_Speed: +10%
+Spread: +20%
 ---

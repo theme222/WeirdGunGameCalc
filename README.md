@@ -2,7 +2,7 @@
 > A tool to bruteforce all combinations of guns in the roblox game "Weird Gun Game"
 
 ## About
-`Updated to Killstreak Update`<br/>
+`Updated to Detection Radius Update`<br/>
 `Original data from @zyadak`<br/>
 
 Made using c++ this tool reads data from Data/FullData.json and calculates all possible combinations.

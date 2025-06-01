@@ -4,6 +4,7 @@
       "Category": "Assault Rifle",
       "Name": "AKM",
       "Damage": 10,
+      "Detection_Radius": 5,
       "Recoil": 20
     },
     {
@@ -24,6 +25,7 @@
       "Category": "Assault Rifle",
       "Name": "As-Val",
       "Fire_Rate": 10,
+      "Detection_Radius": -25,
       "Recoil": 15
     },
     {
@@ -37,6 +39,7 @@
       "Name": "Fedorov Avtomat",
       "Damage": 15,
       "Fire_Rate": -10,
+      "Detection_Radius": 13,
       "Spread": 30
     },
     {
@@ -44,6 +47,7 @@
       "Name": "Scar H",
       "Damage": 15,
       "Spread": -25,
+      "Detection_Radius": 10,
       "Fire_Rate": -10,
       "Recoil": 20
     },
@@ -91,6 +95,7 @@
       "Category": "Assault Rifle",
       "Name": "APS",
       "Damage": 22,
+      "Detection_Radius": 25,
       "Fire_Rate": -15,
       "Spread": 20
     },
@@ -136,6 +141,7 @@
       "Fire_Rate": -25,
       "Movement_Speed": -8,
       "Recoil": 55,
+      "Detection_Radius": 20,
       "Spread": 100
     },
     {
@@ -145,6 +151,7 @@
       "Fire_Rate": -30,
       "Movement_Speed": -10,
       "Recoil": 100,
+      "Detection_Radius": 25,
       "Spread": 50
     },
     {
@@ -244,6 +251,7 @@
       "Category": "LMG",
       "Name": "M60",
       "Damage": 5,
+      "Detection_Radius": 5,
       "Recoil": -10,
       "Movement_Speed": -3
     },
@@ -326,6 +334,7 @@
       "Spread": -25,
       "Fire_Rate": -10,
       "Pellets": -75,
+      "Detection_Radius": 10,
       "Reload_Speed": 10
     },
     {
@@ -371,6 +380,14 @@
       "Recoil": 15
     },
     {
+      "Category": "Shotgun",
+      "Name": "Auto-5",
+      "Fire_Rate": 10,
+      "Recoil": -10,
+      "Spread": -10,
+      "Damage": -5
+    },
+    {
       "Category": "Weird",
       "Name": "Snake",
       "Damage": 15,
@@ -384,6 +401,7 @@
       "Name": "Water Pipe",
       "Damage": 20,
       "Fire_Rate": -10,
+      "Detection_Radius": 75,
       "Spread": 25
     },
     {
@@ -404,6 +422,7 @@
       "Category": "Weird",
       "Name": "Oil",
       "Damage": 20,
+      "Detection_Radius": 25,
       "Movement_Speed": -15,
       "Spread": 50
     },
@@ -411,6 +430,7 @@
       "Category": "Weird",
       "Name": "Words as Weapons",
       "Damage": 10,
+      "Detection_Radius": 5,
       "Recoil": 20
     },
     {
@@ -442,8 +462,18 @@
       "Name": "Honk",
       "Damage": 300,
       "Fire_Rate": -90,
+      "Detection_Radius": 200,
       "Recoil": 1000,
       "Spread": 1500
+    },
+    {
+      "Category": "Weird",
+      "Name": "Eclair",
+      "Fire_Rate": 15,
+      "Damage": -20,
+      "Detection_Radius": 20,
+      "Recoil": 15,
+      "Spread": 30
     }
   ],
   "Cores": [
@@ -462,6 +492,7 @@
       "Hipfire_Spread": 5.5,
       "ADS_Spread": 0.5,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 120,
       "Suppression": 0.3,
       "Recoil_Hip_Horizontal": [
         -15,
@@ -495,6 +526,7 @@
       "Hipfire_Spread": 2,
       "ADS_Spread": 0.25,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 90,
       "Suppression": 0.3,
       "Recoil_Hip_Horizontal": [
         -10,
@@ -528,6 +560,7 @@
       "Hipfire_Spread": 1,
       "ADS_Spread": 0.125,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 75,
       "Movement_Speed_Modifier": 2.5,
       "Suppression": 0.3,
       "Recoil_Hip_Horizontal": [
@@ -562,6 +595,7 @@
       "Hipfire_Spread": 2,
       "ADS_Spread": 0.35,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 60,
       "Suppression": 0.3,
       "Recoil_Hip_Horizontal": [
         -7,
@@ -595,6 +629,7 @@
       "Hipfire_Spread": 3,
       "ADS_Spread": 0.5,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 110,
       "Suppression": 0.3,
       "Recoil_Hip_Horizontal": [
         -10,
@@ -628,6 +663,7 @@
       "Hipfire_Spread": 2,
       "ADS_Spread": 0.25,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 120,
       "Suppression": 0.4,
       "Recoil_Hip_Horizontal": [
         -10,
@@ -661,6 +697,7 @@
       "Hipfire_Spread": 5,
       "ADS_Spread": 0.65,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 100,
       "Suppression": 0.3,
       "Recoil_Hip_Horizontal": [
         -12,
@@ -694,6 +731,7 @@
       "Hipfire_Spread": 5.5,
       "ADS_Spread": 0.5,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 110,
       "Suppression": 0.3,
       "Recoil_Hip_Horizontal": [
         -30,
@@ -727,6 +765,7 @@
       "Hipfire_Spread": 5.5,
       "ADS_Spread": 5.5,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 125,
       "Suppression": 0.3,
       "Recoil_Hip_Horizontal": [
         -25,
@@ -760,6 +799,7 @@
       "Hipfire_Spread": 5,
       "ADS_Spread": 0.8,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 90,
       "Suppression": 0.3,
       "Recoil_Hip_Horizontal": [
         -7,
@@ -794,6 +834,7 @@
       "Hipfire_Spread": 3.5,
       "ADS_Spread": 1.5,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 70,
       "Suppression": 0.4,
       "Recoil_Hip_Horizontal": [
         -8,
@@ -827,6 +868,7 @@
       "Hipfire_Spread": 4,
       "ADS_Spread": 1.9,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 200,
       "Suppression": 0.3,
       "Recoil_Hip_Horizontal": [
         -22,
@@ -860,6 +902,7 @@
       "Hipfire_Spread": 2,
       "ADS_Spread": 0.45,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 95,
       "Recoil_Hip_Horizontal": [
         -10,
         10
@@ -892,6 +935,7 @@
       "Hipfire_Spread": 15,
       "ADS_Spread": 0.1,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 215,
       "Movement_Speed_Modifier": -5,
       "Suppression": 1,
       "Recoil_Hip_Horizontal": [
@@ -926,6 +970,7 @@
       "Hipfire_Spread": 3,
       "ADS_Spread": 0.7,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 215,
       "Suppression": 1,
       "Recoil_Hip_Horizontal": [
         -10,
@@ -959,6 +1004,7 @@
       "Hipfire_Spread": 15,
       "ADS_Spread": 0.05,
       "Time_To_Aim": 0.8,
+      "Detection_Radius": 250,
       "Movement_Speed_Modifier": -5,
       "Suppression": 1,
       "Recoil_Hip_Horizontal": [
@@ -993,6 +1039,7 @@
       "Hipfire_Spread": 10,
       "ADS_Spread": 0.5,
       "Time_To_Aim": 0.6,
+      "Detection_Radius": 200,
       "Suppression": 1,
       "Recoil_Hip_Horizontal": [
         -15,
@@ -1026,6 +1073,7 @@
       "Hipfire_Spread": 15,
       "ADS_Spread": 0.13,
       "Time_To_Aim": 0.9,
+      "Detection_Radius": 275,
       "Movement_Speed_Modifier": -8,
       "Suppression": 1,
       "Recoil_Hip_Horizontal": [
@@ -1060,6 +1108,7 @@
       "Hipfire_Spread": 15,
       "ADS_Spread": 0.12,
       "Time_To_Aim": 1,
+      "Detection_Radius": 300,
       "Movement_Speed_Modifier": -10,
       "Suppression": 1,
       "Recoil_Hip_Horizontal": [
@@ -1094,6 +1143,7 @@
       "Hipfire_Spread": 2.5,
       "ADS_Spread": 0.85,
       "Time_To_Aim": 0.3,
+      "Detection_Radius": 70,
       "Movement_Speed_Modifier": 4.4,
       "Recoil_Hip_Horizontal": [
         -20,
@@ -1127,6 +1177,7 @@
       "Hipfire_Spread": 5,
       "ADS_Spread": 3,
       "Time_To_Aim": 0.15,
+      "Detection_Radius": 40,
       "Movement_Speed_Modifier": 9,
       "Recoil_Hip_Horizontal": [
         -25,
@@ -1160,6 +1211,7 @@
       "Hipfire_Spread": 2,
       "ADS_Spread": 0.85,
       "Time_To_Aim": 0.35,
+      "Detection_Radius": 90,
       "Movement_Speed_Modifier": 3.8,
       "Recoil_Hip_Horizontal": [
         -10,
@@ -1193,6 +1245,7 @@
       "Hipfire_Spread": 2,
       "ADS_Spread": 0.65,
       "Time_To_Aim": 0.3,
+      "Detection_Radius": 75,
       "Movement_Speed_Modifier": 4.6,
       "Recoil_Hip_Horizontal": [
         -20,
@@ -1226,6 +1279,7 @@
       "Hipfire_Spread": 2,
       "ADS_Spread": 0.5,
       "Time_To_Aim": 0.35,
+      "Detection_Radius": 90,
       "Movement_Speed_Modifier": 3.2,
       "Recoil_Hip_Horizontal": [
         -15,
@@ -1259,6 +1313,7 @@
       "Hipfire_Spread": 1.5,
       "ADS_Spread": 0.55,
       "Time_To_Aim": 0.35,
+      "Detection_Radius": 97,
       "Movement_Speed_Modifier": 3.8,
       "Recoil_Hip_Horizontal": [
         -20,
@@ -1292,6 +1347,7 @@
       "Hipfire_Spread": 4,
       "ADS_Spread": 1.5,
       "Time_To_Aim": 0.3,
+      "Detection_Radius": 95,
       "Movement_Speed_Modifier": 2.3,
       "Recoil_Hip_Horizontal": [
         -25,
@@ -1325,6 +1381,7 @@
       "Hipfire_Spread": 2,
       "ADS_Spread": 0.85,
       "Time_To_Aim": 0.35,
+      "Detection_Radius": 90,
       "Movement_Speed_Modifier": 3.3,
       "Recoil_Hip_Horizontal": [
         -5,
@@ -1358,6 +1415,7 @@
       "Hipfire_Spread": 3,
       "ADS_Spread": 0.45,
       "Time_To_Aim": 0.35,
+      "Detection_Radius": 80,
       "Movement_Speed_Modifier": 4,
       "Recoil_Hip_Horizontal": [
         -10,
@@ -1391,6 +1449,7 @@
       "Hipfire_Spread": 2.5,
       "ADS_Spread": 0.45,
       "Time_To_Aim": 0.35,
+      "Detection_Radius": 110,
       "Movement_Speed_Modifier": 4.1,
       "Recoil_Hip_Horizontal": [
         -7.5,
@@ -1424,6 +1483,7 @@
       "Hipfire_Spread": 1.75,
       "ADS_Spread": 0.85,
       "Time_To_Aim": 0.8,
+      "Detection_Radius": 80,
       "Recoil_Hip_Horizontal": [
         -50,
         50
@@ -1456,6 +1516,7 @@
       "Hipfire_Spread": 1.5,
       "ADS_Spread": 0.6,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 70,
       "Recoil_Hip_Horizontal": [
         -15,
         15
@@ -1488,6 +1549,7 @@
       "Hipfire_Spread": 6,
       "ADS_Spread": 0.7,
       "Time_To_Aim": 1.25,
+      "Detection_Radius": 155,
       "Movement_Speed_Modifier": -5.5,
       "Suppression": 0.8,
       "Health": 5.5,
@@ -1523,6 +1585,7 @@
       "Hipfire_Spread": 6,
       "ADS_Spread": 1.1,
       "Time_To_Aim": 1.25,
+      "Detection_Radius": 155,
       "Movement_Speed_Modifier": -5,
       "Suppression": 0.9,
       "Health": 7.5,
@@ -1558,6 +1621,7 @@
       "Hipfire_Spread": 5,
       "ADS_Spread": 0.85,
       "Time_To_Aim": 1,
+      "Detection_Radius": 125,
       "Movement_Speed_Modifier": -5,
       "Suppression": 0.8,
       "Health": 5,
@@ -1593,6 +1657,7 @@
       "Hipfire_Spread": 9,
       "ADS_Spread": 1,
       "Time_To_Aim": 1.25,
+      "Detection_Radius": 165,
       "Movement_Speed_Modifier": -10,
       "Suppression": 0.9,
       "Health": 7.5,
@@ -1628,6 +1693,7 @@
       "Hipfire_Spread": 10,
       "ADS_Spread": 1.1,
       "Time_To_Aim": 1.1,
+      "Detection_Radius": 175,
       "Movement_Speed_Modifier": -5,
       "Suppression": 0.9,
       "Health": 5,
@@ -1663,6 +1729,7 @@
       "Hipfire_Spread": 7,
       "ADS_Spread": 1.5,
       "Time_To_Aim": 1.25,
+      "Detection_Radius": 125,
       "Movement_Speed_Modifier": -5,
       "Suppression": 0.9,
       "Health": 7.5,
@@ -1698,6 +1765,7 @@
       "Hipfire_Spread": 8,
       "ADS_Spread": 1.3,
       "Time_To_Aim": 1.25,
+      "Detection_Radius": 175,
       "Movement_Speed_Modifier": -7.5,
       "Suppression": 0.9,
       "Health": 7.5,
@@ -1734,6 +1802,7 @@
       "Hipfire_Spread": 7,
       "ADS_Spread": 1.6,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 100,
       "Movement_Speed_Modifier": 2,
       "Suppression": 0.5,
       "Recoil_Hip_Horizontal": [
@@ -1769,6 +1838,7 @@
       "Hipfire_Spread": 9,
       "ADS_Spread": 2.5,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 130,
       "Suppression": 0.5,
       "Recoil_Hip_Horizontal": [
         -10,
@@ -1803,6 +1873,7 @@
       "Hipfire_Spread": 5,
       "ADS_Spread": 1.25,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 100,
       "Suppression": 0.5,
       "Recoil_Hip_Horizontal": [
         -20,
@@ -1837,6 +1908,7 @@
       "Hipfire_Spread": 8,
       "ADS_Spread": 3,
       "Time_To_Aim": 0.85,
+      "Detection_Radius": 160,
       "Suppression": 0.2,
       "Recoil_Hip_Horizontal": [
         -25,
@@ -1871,6 +1943,7 @@
       "Hipfire_Spread": 5,
       "ADS_Spread": 1.5,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 160,
       "Suppression": 0.5,
       "Recoil_Hip_Horizontal": [
         -20,
@@ -1890,6 +1963,41 @@
       ]
     },
     {
+      "Category": "Shotgun",
+      "Name": "Auto-5",
+      "Damage": [
+        80,
+        8
+      ],
+      "Dropoff_Studs": [
+        55,
+        110
+      ],
+      "Pellets": 8,
+      "Fire_Rate": 190,
+      "Spread": 7,
+      "ADS_Spread": 2,
+      "Time_To_Aim": 0.75,
+      "Detection_Radius": 130,
+      "Suppression": 0.2,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        40,
+        70
+      ],
+      "Recoil_Aim_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Aim_Vertical": [
+        16,
+        28
+      ]
+    },
+    {
       "Category": "Weird",
       "Name": "Words as Weapons",
       "Damage": 15,
@@ -1897,6 +2005,7 @@
       "Hipfire_Spread": 5.5,
       "ADS_Spread": 0.5,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 120,
       "Suppression": 0.3,
       "Recoil_Hip_Horizontal": [
         -15,
@@ -1923,6 +2032,7 @@
       "Hipfire_Spread": 7,
       "ADS_Spread": 0.4,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 250,
       "Suppression": 0.5,
       "Recoil_Hip_Horizontal": [
         -20,
@@ -1949,6 +2059,7 @@
       "Hipfire_Spread": 6,
       "ADS_Spread": 6,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 30,
       "Recoil_Hip_Horizontal": [
         -12,
         12
@@ -1972,7 +2083,35 @@
       "Hipfire_Spread": 20,
       "ADS_Spread": 1,
       "Time_To_Aim": 0.7,
+      "Detection_Radius": 100,
       "Movement_Speed_Modifier": -5
+    },
+    {
+      "Category": "Weird",
+      "Name": "Loaf",
+      "Damage": 17.5,
+      "Fire_Rate": 500,
+      "Spread": 2,
+      "ADS_Spread": 0.24,
+      "Time_To_Aim": 0.6,
+      "Detection_Radius": 55,
+      "Suppression": 0.8,
+      "Recoil_Hip_Horizontal": [
+        -6,
+        6
+      ],
+      "Recoil_Hip_Vertical": [
+        38,
+        47
+      ],
+      "Recoil_Aim_Horizontal": [
+        -4.8,
+        4.8
+      ],
+      "Recoil_Aim_Vertical": [
+        30.4,
+        37.6
+      ]
     }
   ],
   "Grips": [
@@ -2273,6 +2412,14 @@
       "Spread": 35
     },
     {
+      "Category": "Shotgun",
+      "Name": "Auto-5",
+      "Fire_Rate": 5,
+      "Recoil": -10,
+      "Spread": -20,
+      "Damage": -2.5
+    },
+    {
       "Category": "Weird",
       "Name": "Words as Weapons",
       "Recoil": -10,
@@ -2300,6 +2447,14 @@
       "Damage": -5,
       "Recoil": 10,
       "Spread": 10
+    },
+    {
+      "Category": "Weird",
+      "Name": "Croissant",
+      "Detection_Radius": -10,
+      "Movement_Speed": 5,
+      "Recoil": -20,
+      "Fire_Rate": -5
     }
   ],
   "Magazines": [
@@ -2308,6 +2463,7 @@
       "Name": "AKM",
       "Magazine_Size": 30,
       "Reload_Time": 2.4,
+      "Detection_Radius": 5,
       "Damage": 10
     },
     {
@@ -2329,6 +2485,7 @@
       "Name": "As-Val",
       "Magazine_Size": 20,
       "Reload_Time": 1.5,
+      "Detection_Radius": -25,
       "Recoil": -10,
       "Damage": -5
     },
@@ -2338,6 +2495,7 @@
       "Magazine_Size": 25,
       "Reload_Time": 4,
       "Damage": 20,
+      "Detection_Radius": 18,
       "Fire_Rate": -5,
       "Recoil": 25
     },
@@ -2347,6 +2505,7 @@
       "Magazine_Size": 20,
       "Reload_Time": 4.5,
       "Damage": 20,
+      "Detection_Radius": 10,
       "Recoil": 25
     },
     {
@@ -2415,6 +2574,7 @@
       "Magazine_Size": 26,
       "Reload_Time": 7,
       "Damage": 20,
+      "Detection_Radius": 25,
       "Fire_Rate": -15,
       "Spread": 20
     },
@@ -2452,6 +2612,7 @@
       "Reload_Time": 5,
       "Damage": 45,
       "Fire_Rate": -40,
+      "Detection_Radius": 25,
       "Movement_Speed": -10,
       "Recoil": 100,
       "Reload_Speed": 50,
@@ -2620,6 +2781,7 @@
       "Magazine_Size": 100,
       "Reload_Time": 9.5,
       "Damage": 20,
+      "Detection_Radius": 20,
       "Fire_Rate": -10,
       "Movement_Speed": -12,
       "Spread": 27
@@ -2649,6 +2811,7 @@
       "Magazine_Size": 20,
       "Reload_Time": 4,
       "Damage": 25,
+      "Detection_Radius": 20,
       "Fire_Rate": -10,
       "Movement_Speed": -0.5,
       "Recoil": 10,
@@ -2738,6 +2901,17 @@
       "Spread": 75
     },
     {
+      "Category": "Shotgun",
+      "Name": "Auto-5",
+      "Magazine_Size": 4,
+      "Reload_Time": 4,
+      "Damage": 20,
+      "Fire_Rate": 20,
+      "Pellets": 175,
+      "Recoil": 20,
+      "Spread": 50
+    },
+    {
       "Category": "Weird",
       "Name": "Horizontal",
       "Magazine_Size": 20,
@@ -2751,7 +2925,8 @@
       "Name": "Words as Weapons",
       "Magazine_Size": 30,
       "Reload_Time": 2.4,
-      "Damage": 10
+      "Damage": 10,
+      "Detection_Radius": 5
     },
     {
       "Category": "Weird",
@@ -2777,6 +2952,7 @@
       "Magazine_Size": 90,
       "Reload_Time": 9,
       "Damage": 10,
+      "Detection_Radius": 15,
       "Movement_Speed": -10,
       "Recoil": 20
     },
@@ -2789,6 +2965,16 @@
       "Recoil": -10,
       "Damage": -20,
       "Movement_Speed": -15
+    },
+    {
+      "Category": "Weird",
+      "Name": "Pastel",
+      "Magazine_Size": 20,
+      "Reload_Time": 4,
+      "Damage": 20,
+      "Detection_Radius": 10,
+      "Fire_Rate": -20,
+      "Recoil": 15
     }
   ],
   "Stocks": [
@@ -3130,6 +3316,14 @@
       "Spread": 15
     },
     {
+      "Category": "Shotgun",
+      "Name": "Auto-5",
+      "Fire_Rate": 5,
+      "Movement_Speed": 5,
+      "Spread": -10,
+      "Damage": -5
+    },
+    {
       "Category": "Weird",
       "Name": "Shovel",
       "Spread": -5,
@@ -3172,6 +3366,17 @@
       "Spread": -45,
       "Movement_Speed": -40,
       "Reload_Speed": 20
+    },
+    {
+      "Category": "Weird",
+      "Name": "Taco",
+      "Damage": 10,
+      "Health": 10,
+      "Detection_Radius": 20,
+      "Fire_Rate": -5,
+      "Recoil": 20,
+      "Reload_Speed": 10,
+      "Spread": 20
     }
   ]
 }

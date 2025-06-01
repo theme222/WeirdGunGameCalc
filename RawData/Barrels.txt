@@ -2,6 +2,7 @@ Category: Assault Rifle Barrels
 ---
 Barrel: AKM
 Damage: +10%
+Detection_Radius: 5
 Recoil: +20%
 ---
 Barrel: M-16
@@ -16,6 +17,7 @@ Damage: -5%
 ---
 Barrel: As-Val
 Fire_Rate: +10%
+Detection_Radius: -25
 Recoil: +15%
 ---
 Barrel: Famas F1
@@ -25,11 +27,13 @@ Spread: +15%
 Barrel: Fedorov Avtomat
 Damage: +15%
 Fire_Rate: -10%
+Detection_Radius: 13
 Spread: +30%
 ---
 Barrel: Scar H
 Damage: +15%
 Spread: -25%
+Detection_Radius: 10
 Fire_Rate: -10%
 Recoil: +20%
 ---
@@ -63,6 +67,7 @@ Reload_Time: -10%
 ---
 Barrel: APS
 Damage: +22%
+Detection_Radius: 25
 Fire_Rate: -15%
 Spread: +20%
 ---
@@ -99,6 +104,7 @@ Damage: +25%
 Fire_Rate: -25%
 Movement_Speed: -8%
 Recoil: +55%
+Detection_Radius: 20
 Spread: +100%
 ---
 Barrel: Hecate II
@@ -106,6 +112,7 @@ Damage: +30%
 Fire_Rate: -30%
 Movement_Speed: -10%
 Recoil: +100%
+Detection_Radius: 25
 Spread: +50%
 ---
 
@@ -185,6 +192,7 @@ Category: LMG Barrels
 ---
 Barrel: M60
 Damage: +5%
+Detection_Radius: 5
 Recoil: -10%
 Movement_Speed: -3%
 ---
@@ -250,6 +258,7 @@ Damage: +5%
 Spread: -25%
 Fire_Rate: -10%
 Pellets: -75%
+Detection_Radius: 10
 Reload_Speed: +10%
 ---
 Barrel: M1887
@@ -282,6 +291,12 @@ Damage: +10%
 Reload_Speed: -15%
 Recoil: +15%
 ---
+Barrel: Auto-5
+Fire_Rate: +10%
+Recoil: -10%
+Spread: -10%
+Damage: -5%
+---
 
 Category: Weird Barrels
 ---
@@ -295,6 +310,7 @@ Spread: +40%
 Barrel: Water Pipe
 Damage: +20%
 Fire_Rate: -10%
+Detection_Radius: 75
 Spread: +25%
 ---
 Barrel: Ketchup
@@ -309,11 +325,13 @@ Spread: +13%
 ---
 Barrel: Oil
 Damage: +20%
+Detection_Radius: 25
 Movement_Speed: -15%
 Spread: +50%
 ---
 Barrel: Words as Weapons
 Damage: +10%
+Detection_Radius: 5
 Recoil: +20%
 ---
 Barrel: Shower
@@ -337,6 +355,14 @@ Spread: +45%
 Barrel: Honk
 Damage: +300%
 Fire_Rate: -90%
+Detection_Radius: 200
 Recoil: +1000%
 Spread: +1500%
+---
+Barrel: Eclair
+Fire_Rate: +15%
+Damage: -20%
+Detection_Radius: +20%
+Recoil: +15%
+Spread: +30%
 ---

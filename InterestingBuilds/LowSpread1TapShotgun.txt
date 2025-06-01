@@ -1,7 +1,50 @@
 ./Calculator -o InterestingBuilds/LowSpread1TapShotgun.txt -i Shotgun --damageMin 100 --sort FIRERATE --speedMin -10 --spreadAimMax 0.5 
 Current top 10 guns are: 
+Gun contains[Barrel: Auto-5, Magazine: Arctic Warfare, Grip: Auto-5, Stock: Arctic Warfare, Core: Remington 870]
+damage: 119.864 - 18.039
+pellets: 8
+fireRate: 93.555
+adsSpread: 0.4977
+hipfireSpread: 1.9908
+reloadTime: 4.55
+magazineSize: 5
+health: 0
+recoilHipVertical: 62.37 - 99.792
+recoilAimVertical: 24.948 - 39.9168
+movementSpeed: 0
+TTK 0 Seconds
+
+Gun contains[Barrel: Remington 700, Magazine: Arctic Warfare, Grip: Auto-5, Stock: Arctic Warfare, Core: Remington 870]
+damage: 113.556 - 17.0896
+pellets: 8
+fireRate: 90.153
+adsSpread: 0.48664
+hipfireSpread: 1.94656
+reloadTime: 4.55
+magazineSize: 5
+health: 0
+recoilHipVertical: 67.221 - 107.554
+recoilAimVertical: 26.8884 - 43.0214
+movementSpeed: 0
+TTK 0 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Auto-5, Stock: Auto-5, Core: Remington 870]
+damage: 130.652 - 19.6625
+pellets: 8
+fireRate: 89.3025
+adsSpread: 0.4977
+hipfireSpread: 1.9908
+reloadTime: 5
+magazineSize: 5
+health: 0
+recoilHipVertical: 94.5 - 151.2
+recoilAimVertical: 37.8 - 60.48
+movementSpeed: 5
+TTK 0 Seconds
+
 Gun contains[Barrel: Remington 700, Magazine: Arctic Warfare, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Remington 870]
 damage: 116.468 - 17.5278
+pellets: 8
 fireRate: 85.86
 adsSpread: 0.498806
 hipfireSpread: 1.99522
@@ -13,120 +56,87 @@ recoilAimVertical: 29.876 - 47.8016
 movementSpeed: 0
 TTK 0 Seconds
 
-Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: M60, Stock: MG42, Core: Remington 870]
-damage: 141.055 - 21.2281
-fireRate: 81
-adsSpread: 0.498456
-hipfireSpread: 1.99382
-reloadTime: 6.3
+Gun contains[Barrel: Remington 700, Magazine: Arctic Warfare, Grip: Auto-5, Stock: Remington 870 MCS, Core: Remington 870]
+damage: 113.556 - 17.0896
+pellets: 8
+fireRate: 85.6453
+adsSpread: 0.4928
+hipfireSpread: 1.9712
+reloadTime: 5.5
 magazineSize: 5
 health: 0
-recoilHipVertical: 93.1875 - 149.1
-recoilAimVertical: 37.275 - 59.64
-movementSpeed: 0.125
-TTK 0 Seconds
-
-Gun contains[Barrel: M1891 Carcano, Magazine: Arctic Warfare, Grip: The Chief, Stock: Arctic Warfare, Core: Remington 870]
-damage: 132.126 - 19.8843
-fireRate: 81
-adsSpread: 0.484739
-hipfireSpread: 1.93896
-reloadTime: 5.46
-magazineSize: 5
-health: 0
-recoilHipVertical: 103.95 - 166.32
-recoilAimVertical: 41.58 - 66.528
+recoilHipVertical: 45.8325 - 73.332
+recoilAimVertical: 18.333 - 29.3328
 movementSpeed: 0
 TTK 0 Seconds
 
-Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: M1919a6 Browning, Stock: MG42, Core: Remington 870]
-damage: 141.055 - 21.2281
-fireRate: 81
-adsSpread: 0.494244
-hipfireSpread: 1.97698
-reloadTime: 5.145
-magazineSize: 5
-health: 0
-recoilHipVertical: 131.25 - 210
-recoilAimVertical: 52.5 - 84
-movementSpeed: 0.125
-TTK 0 Seconds
-
-Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Arctic Warfare, Stock: The Chief, Core: Remington 870]
-damage: 141.055 - 21.2281
-fireRate: 81
-adsSpread: 0.48747
-hipfireSpread: 1.94988
-reloadTime: 4.65
-magazineSize: 5
-health: 0
-recoilHipVertical: 115.5 - 184.8
-recoilAimVertical: 46.2 - 73.92
-movementSpeed: 0
-TTK 0 Seconds
-
-Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: UMP-40, Stock: MG42, Core: Remington 870]
-damage: 141.055 - 21.2281
-fireRate: 81
-adsSpread: 0.488627
-hipfireSpread: 1.95451
-reloadTime: 5.805
-magazineSize: 5
-health: 0
-recoilHipVertical: 131.25 - 210
-recoilAimVertical: 52.5 - 84
-movementSpeed: 5.095
-TTK 0 Seconds
-
-Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: The Chief, Stock: AUG, Core: Remington 870]
-damage: 144.017 - 21.6739
-fireRate: 81
-adsSpread: 0.490442
-hipfireSpread: 1.96177
+Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Auto-5, Stock: AUG, Core: Remington 870]
+damage: 137.529 - 20.6974
+pellets: 8
+fireRate: 85.05
+adsSpread: 0.47558
+hipfireSpread: 1.90232
 reloadTime: 5
 magazineSize: 5
 health: 0
-recoilHipVertical: 131.827 - 210.924
-recoilAimVertical: 52.731 - 84.3696
+recoilHipVertical: 87.885 - 140.616
+recoilAimVertical: 35.154 - 56.2464
 movementSpeed: 1.75
 TTK 0 Seconds
 
-Gun contains[Barrel: Remington 870 MCS, Magazine: Arctic Warfare, Grip: Arctic Warfare, Stock: MG42, Core: Remington 870]
-damage: 142.349 - 21.4228
-fireRate: 81
-adsSpread: 0.495523
-hipfireSpread: 1.98209
-reloadTime: 6.6
-magazineSize: 5
-health: 0
-recoilHipVertical: 70 - 112
-recoilAimVertical: 28 - 44.8
-movementSpeed: 2.625
-TTK 0 Seconds
-
-Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Arctic Warfare, Stock: Remington 700, Core: Remington 870]
-damage: 141.055 - 21.2281
-fireRate: 81
-adsSpread: 0.498806
-hipfireSpread: 1.99522
+Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Auto-5, Stock: Remington 700, Core: Remington 870]
+damage: 137.529 - 20.6974
+pellets: 8
+fireRate: 85.05
+adsSpread: 0.48664
+hipfireSpread: 1.94656
 reloadTime: 5
 magazineSize: 5
 health: 0
-recoilHipVertical: 98.7 - 157.92
-recoilAimVertical: 39.48 - 63.168
+recoilHipVertical: 88.83 - 142.128
+recoilAimVertical: 35.532 - 56.8512
 movementSpeed: 0
 TTK 0 Seconds
 
-Gun contains[Barrel: M1891 Carcano, Magazine: Arctic Warfare, Grip: Arctic Warfare, Stock: MG42, Core: Remington 870]
-damage: 129.408 - 19.4753
-fireRate: 81
-adsSpread: 0.495523
-hipfireSpread: 1.98209
-reloadTime: 7.2
+Gun contains[Barrel: Remington 870 MCS, Magazine: Arctic Warfare, Grip: Auto-5, Stock: MG42, Core: Remington 870]
+damage: 138.79 - 20.8873
+pellets: 8
+fireRate: 85.05
+adsSpread: 0.483438
+hipfireSpread: 1.93375
+reloadTime: 6.6
 magazineSize: 5
 health: 0
-recoilHipVertical: 70 - 112
-recoilAimVertical: 28 - 44.8
+recoilHipVertical: 63 - 100.8
+recoilAimVertical: 25.2 - 40.32
+movementSpeed: 2.625
+TTK 0 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Auto-5, Stock: Words as Weapons, Core: Remington 870]
+damage: 137.529 - 20.6974
+pellets: 8
+fireRate: 85.05
+adsSpread: 0.4977
+hipfireSpread: 1.9908
+reloadTime: 4.5
+magazineSize: 5
+health: 0
+recoilHipVertical: 108.675 - 173.88
+recoilAimVertical: 43.47 - 69.552
+movementSpeed: 0
+TTK 0 Seconds
+
+Gun contains[Barrel: Arctic Warfare, Magazine: Arctic Warfare, Grip: Auto-5, Stock: MG42, Core: Remington 870]
+damage: 137.529 - 20.6974
+pellets: 8
+fireRate: 85.05
+adsSpread: 0.449313
+hipfireSpread: 1.79725
+reloadTime: 6
+magazineSize: 5
+health: 0
+recoilHipVertical: 94.5 - 151.2
+recoilAimVertical: 37.8 - 60.48
 movementSpeed: 2.625
 TTK 0 Seconds
 

@@ -2,6 +2,7 @@
 Current top 10 guns are: 
 Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: Plunger, Core: Fedorov Avtomat]
 damage: 34.1423 - 27.3138
+pellets: 1
 fireRate: 360
 adsSpread: 0.485156
 hipfireSpread: 3.88125
@@ -15,6 +16,7 @@ TTK 0.333333 Seconds
 
 Gun contains[Barrel: APS, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: Plunger, Core: Fedorov Avtomat]
 damage: 34.7113 - 27.769
+pellets: 1
 fireRate: 340
 adsSpread: 0.46575
 hipfireSpread: 3.726
@@ -28,6 +30,7 @@ TTK 0.352941 Seconds
 
 Gun contains[Barrel: APS, Magazine: The Chief, Grip: Scar L, Stock: Plunger, Core: Fedorov Avtomat]
 damage: 33.8509 - 27.0807
+pellets: 1
 fireRate: 306
 adsSpread: 0.43125
 hipfireSpread: 3.45

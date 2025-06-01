@@ -1,113 +1,24 @@
 ./Calculator -o InterestingBuilds/FastestTTKNonSMG.txt -i AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.649 --recoilAimMax 30 
 Current top 10 guns are: 
-Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Kriss Vector, Core: G36C]
-damage: 25.0802 - 20.0642
-fireRate: 712.8
-adsSpread: 0.525
-hipfireSpread: 3
-reloadTime: 4
+Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Taco, Core: G36C]
+damage: 25.5269 - 20.4215
+pellets: 1
+fireRate: 692.55
+adsSpread: 0.621
+hipfireSpread: 2.76
+reloadTime: 5.06
 magazineSize: 35
-health: -7.5
-recoilHipVertical: 9.2988 - 27.8964
-recoilAimVertical: 8.36892 - 25.1068
-movementSpeed: 2.64
-TTK 0.252525 Seconds
-
-Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: G36C]
-damage: 25.6067 - 20.4854
-fireRate: 708.75
-adsSpread: 0.590625
-hipfireSpread: 3.375
-reloadTime: 4.8
-magazineSize: 35
-health: 0
-recoilHipVertical: 8.1 - 24.3
-recoilAimVertical: 7.29 - 21.87
+health: 10
+recoilHipVertical: 10.8 - 32.4
+recoilAimVertical: 9.72 - 29.16
 movementSpeed: 0
-TTK 0.253968 Seconds
-
-Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Fedorov Avtomat, Core: G36C]
-damage: 25.0802 - 20.0642
-fireRate: 708.75
-adsSpread: 0.4375
-hipfireSpread: 2.5
-reloadTime: 4.8
-magazineSize: 35
-health: -7.5
-recoilHipVertical: 9.963 - 29.889
-recoilAimVertical: 8.9667 - 26.9001
-movementSpeed: 0
-TTK 0.253968 Seconds
-
-Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Remington 870 Breacher, Core: G36C]
-damage: 25.0802 - 20.0642
-fireRate: 698.625
-adsSpread: 0.546875
-hipfireSpread: 3.125
-reloadTime: 4.6
-magazineSize: 35
-health: -7.5
-recoilHipVertical: 9.5202 - 28.5606
-recoilAimVertical: 8.56818 - 25.7045
-movementSpeed: 3.5
-TTK 0.257649 Seconds
-
-Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: STG-44, Core: G36C]
-damage: 25.0802 - 20.0642
-fireRate: 695.25
-adsSpread: 0.39375
-hipfireSpread: 2.25
-reloadTime: 4
-magazineSize: 35
-health: -7.5
-recoilHipVertical: 11.07 - 33.21
-recoilAimVertical: 9.963 - 29.889
-movementSpeed: 0
-TTK 0.2589 Seconds
-
-Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: STG-44, Core: G36C]
-damage: 25.6067 - 20.4854
-fireRate: 695.25
-adsSpread: 0.531562
-hipfireSpread: 3.0375
-reloadTime: 4
-magazineSize: 35
-health: 0
-recoilHipVertical: 9 - 27
-recoilAimVertical: 8.1 - 24.3
-movementSpeed: 0
-TTK 0.2589 Seconds
-
-Gun contains[Barrel: Thompson, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Kriss Vector, Core: G36C]
-damage: 20.1441 - 16.1153
-fireRate: 903.26
-adsSpread: 0.3864
-hipfireSpread: 2.208
-reloadTime: 2.76
-magazineSize: 30
-health: 0
-recoilHipVertical: 10.5 - 31.5
-recoilAimVertical: 9.45 - 28.35
-movementSpeed: 5.68
-TTK 0.265704 Seconds
-
-Gun contains[Barrel: Thompson, Magazine: AKM, Grip: PPSh-41, Stock: Kriss Vector, Core: G36C]
-damage: 20.1441 - 16.1153
-fireRate: 903.26
-adsSpread: 0.3864
-hipfireSpread: 2.208
-reloadTime: 2.76
-magazineSize: 30
-health: 0
-recoilHipVertical: 10.5 - 31.5
-recoilAimVertical: 9.45 - 28.35
-movementSpeed: 5.68
-TTK 0.265704 Seconds
+TTK 0.259909 Seconds
 
 Gun contains[Barrel: Thompson, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Kriss Vector, Core: G36C]
-damage: 21.0597 - 16.8478
+damage: 20.4215 - 16.3372
+pellets: 1
 fireRate: 903.26
-adsSpread: 0.3864
+adsSpread: 0.4968
 hipfireSpread: 2.208
 reloadTime: 4.6
 magazineSize: 35
@@ -117,16 +28,115 @@ recoilAimVertical: 8.505 - 25.515
 movementSpeed: 5.68
 TTK 0.265704 Seconds
 
-Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: Willy Fischy, Core: G36C]
-damage: 25.6067 - 20.4854
-fireRate: 675
-adsSpread: 0.590625
-hipfireSpread: 3.375
-reloadTime: 3.8
+Gun contains[Barrel: Thompson, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: G36C]
+damage: 20.4215 - 16.3372
+pellets: 1
+fireRate: 898.128
+adsSpread: 0.414
+hipfireSpread: 1.84
+reloadTime: 5.52
 magazineSize: 35
 health: 0
-recoilHipVertical: 8.1 - 24.3
-recoilAimVertical: 7.29 - 21.87
-movementSpeed: 0
-TTK 0.266667 Seconds
+recoilHipVertical: 10.125 - 30.375
+recoilAimVertical: 9.1125 - 27.3375
+movementSpeed: 3.04
+TTK 0.267222 Seconds
+
+Gun contains[Barrel: Thompson, Magazine: Hex Spitter, Grip: M1887, Stock: Kriss Vector, Core: G36C]
+damage: 20.4215 - 16.3372
+pellets: 1
+fireRate: 894.897
+adsSpread: 0.621
+hipfireSpread: 2.76
+reloadTime: 3.72
+magazineSize: 35
+health: 3.5
+recoilHipVertical: 9.45 - 28.35
+recoilAimVertical: 8.505 - 25.515
+movementSpeed: 0.18
+TTK 0.268187 Seconds
+
+Gun contains[Barrel: Thompson, Magazine: Hex Spitter, Grip: M1891 Carcano, Stock: Fedorov Avtomat, Core: G36C]
+damage: 20.4215 - 16.3372
+pellets: 1
+fireRate: 889.812
+adsSpread: 0.585
+hipfireSpread: 2.6
+reloadTime: 5.52
+magazineSize: 35
+health: 0
+recoilHipVertical: 10.125 - 30.375
+recoilAimVertical: 9.1125 - 27.3375
+movementSpeed: 5.84
+TTK 0.26972 Seconds
+
+Gun contains[Barrel: Thompson, Magazine: Hex Spitter, Grip: M1897 Trench Shotgun, Stock: Fedorov Avtomat, Core: G36C]
+damage: 20.4215 - 16.3372
+pellets: 1
+fireRate: 889.812
+adsSpread: 0.6075
+hipfireSpread: 2.7
+reloadTime: 5.28
+magazineSize: 35
+health: 0
+recoilHipVertical: 10.125 - 30.375
+recoilAimVertical: 9.1125 - 27.3375
+movementSpeed: 3.04
+TTK 0.26972 Seconds
+
+Gun contains[Barrel: Thompson, Magazine: Hex Spitter, Grip: Spas-12, Stock: Fedorov Avtomat, Core: G36C]
+damage: 20.4215 - 16.3372
+pellets: 1
+fireRate: 889.812
+adsSpread: 0.6075
+hipfireSpread: 2.7
+reloadTime: 4.8
+magazineSize: 35
+health: 0
+recoilHipVertical: 10.125 - 30.375
+recoilAimVertical: 9.1125 - 27.3375
+movementSpeed: 0.54
+TTK 0.26972 Seconds
+
+Gun contains[Barrel: PP-19 Bizon, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Kriss Vector, Core: G36C]
+damage: 20.5763 - 16.461
+pellets: 1
+fireRate: 889.574
+adsSpread: 0.4968
+hipfireSpread: 2.208
+reloadTime: 4.6
+magazineSize: 35
+health: 0
+recoilHipVertical: 9.45 - 28.35
+recoilAimVertical: 8.505 - 25.515
+movementSpeed: 4.64
+TTK 0.269792 Seconds
+
+Gun contains[Barrel: PPSh-41, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Kriss Vector, Core: G36C]
+damage: 20.2668 - 16.2135
+pellets: 1
+fireRate: 887.04
+adsSpread: 0.594
+hipfireSpread: 2.64
+reloadTime: 4
+magazineSize: 35
+health: -7.5
+recoilHipVertical: 10.6936 - 32.0809
+recoilAimVertical: 9.62426 - 28.8728
+movementSpeed: 4.48
+TTK 0.270563 Seconds
+
+Gun contains[Barrel: Thompson, Magazine: Hex Spitter, Grip: Negev, Stock: Kriss Vector, Core: G36C]
+damage: 20.4215 - 16.3372
+pellets: 1
+fireRate: 886.533
+adsSpread: 0.567
+hipfireSpread: 2.52
+reloadTime: 4.6
+magazineSize: 35
+health: 0
+recoilHipVertical: 9.45 - 28.35
+recoilAimVertical: 8.505 - 25.515
+movementSpeed: 3.18
+TTK 0.270717 Seconds
 

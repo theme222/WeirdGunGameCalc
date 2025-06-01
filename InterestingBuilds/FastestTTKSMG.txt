@@ -1,7 +1,22 @@
 ./Calculator -o InterestingBuilds/FastestTTKSMG.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.049 --recoilAimMax 35 
 Current top 10 guns are: 
+Gun contains[Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Spas-12, Core: Kriss Vector]
+damage: 14.4514 - 8.67083
+pellets: 1
+fireRate: 1616.67
+adsSpread: 0.92565
+hipfireSpread: 2.178
+reloadTime: 2.76
+magazineSize: 30
+health: 0
+recoilHipVertical: 11.5 - 34.5
+recoilAimVertical: 10.35 - 31.05
+movementSpeed: 0.6
+TTK 0.22268 Seconds
+
 Gun contains[Barrel: PPSh-41, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Spas-12, Core: Kriss Vector]
 damage: 14.7141 - 8.82848
+pellets: 1
 fireRate: 1616.67
 adsSpread: 0.92565
 hipfireSpread: 2.178
@@ -15,6 +30,7 @@ TTK 0.22268 Seconds
 
 Gun contains[Barrel: PPSh-41, Magazine: PP-19 Bizon, Grip: PPSh-41, Stock: Spas-12, Core: Kriss Vector]
 damage: 14.4514 - 8.67083
+pellets: 1
 fireRate: 1616.67
 adsSpread: 0.92565
 hipfireSpread: 2.178
@@ -26,21 +42,9 @@ recoilAimVertical: 10.35 - 31.05
 movementSpeed: 0.6
 TTK 0.22268 Seconds
 
-Gun contains[Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Spas-12, Core: Kriss Vector]
-damage: 14.4514 - 8.67083
-fireRate: 1616.67
-adsSpread: 0.92565
-hipfireSpread: 2.178
-reloadTime: 2.76
-magazineSize: 30
-health: 0
-recoilHipVertical: 11.5 - 34.5
-recoilAimVertical: 10.35 - 31.05
-movementSpeed: 0.6
-TTK 0.22268 Seconds
-
 Gun contains[Barrel: Type 2a Nambu, Magazine: MP 40, Grip: PPSh-41, Stock: Spas-12, Core: Kriss Vector]
 damage: 17.0723 - 10.2434
+pellets: 1
 fireRate: 1335.51
 adsSpread: 0.93154
 hipfireSpread: 2.19186
@@ -54,6 +58,7 @@ TTK 0.224633 Seconds
 
 Gun contains[Barrel: PPSh-41, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
 damage: 14.5039 - 8.70236
+pellets: 1
 fireRate: 1578.72
 adsSpread: 0.92565
 hipfireSpread: 2.178
@@ -67,6 +72,7 @@ TTK 0.228033 Seconds
 
 Gun contains[Barrel: PPSh-41, Magazine: PP-19 Bizon, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
 damage: 14.4514 - 8.67083
+pellets: 1
 fireRate: 1578.72
 adsSpread: 0.8415
 hipfireSpread: 1.98
@@ -80,6 +86,7 @@ TTK 0.228033 Seconds
 
 Gun contains[Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
 damage: 14.4514 - 8.67083
+pellets: 1
 fireRate: 1578.72
 adsSpread: 0.8415
 hipfireSpread: 1.98
@@ -93,6 +100,7 @@ TTK 0.228033 Seconds
 
 Gun contains[Barrel: PPSh-41, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
 damage: 14.7141 - 8.82848
+pellets: 1
 fireRate: 1578.72
 adsSpread: 0.8415
 hipfireSpread: 1.98
@@ -106,6 +114,7 @@ TTK 0.228033 Seconds
 
 Gun contains[Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Type 99, Core: Kriss Vector]
 damage: 14.4514 - 8.67083
+pellets: 1
 fireRate: 1567.34
 adsSpread: 0.8415
 hipfireSpread: 1.98
@@ -119,6 +128,7 @@ TTK 0.229689 Seconds
 
 Gun contains[Barrel: PPSh-41, Magazine: PP-19 Bizon, Grip: PPSh-41, Stock: Type 99, Core: Kriss Vector]
 damage: 14.4514 - 8.67083
+pellets: 1
 fireRate: 1567.34
 adsSpread: 0.8415
 hipfireSpread: 1.98

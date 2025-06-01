@@ -222,6 +222,12 @@ Grip: Circuit Judge
 Damage: +10%
 Spread: +35%
 ---
+Grip: Auto-5
+Fire_Rate: +5%
+Recoil: -10%
+Spread: -20%
+Damage: -2.5%
+---
 
 Category: Weird Grips
 ---
@@ -245,4 +251,10 @@ Reload_Speed: -40%
 Damage: -5%
 Recoil: +10%
 Spread: +10%
+---
+Grip: Croissant
+Detection_Radius: -10%
+Movement_Speed: +5%
+Recoil: -20%
+Fire_Rate: -5%
 ---

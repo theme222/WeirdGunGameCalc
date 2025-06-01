@@ -1,7 +1,92 @@
 ./Calculator -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper --damageMin 99.95 --spreadAimMax 0.149 --sort FIRERATE 
 Current top 10 guns are: 
+Gun contains[Barrel: M1918 BAR, Magazine: Auto-5, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare]
+damage: 101.245 - 91.1208
+pellets: 3
+fireRate: 28.728
+adsSpread: 0.1458
+hipfireSpread: 43.74
+reloadTime: 4.4
+magazineSize: 4
+health: 10
+recoilHipVertical: 155.52 - 207.36
+recoilAimVertical: 77.76 - 103.68
+movementSpeed: -5.5
+TTK 0 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Remington 700, Grip: Type 2a Nambu, Stock: Taco, Core: Arctic Warfare]
+damage: 100.034 - 90.031
+pellets: 1
+fireRate: 28.5
+adsSpread: 0.0675
+hipfireSpread: 20.25
+reloadTime: 3.85
+magazineSize: 10
+health: 2.5
+recoilHipVertical: 99.63 - 132.84
+recoilAimVertical: 49.815 - 66.42
+movementSpeed: -20
+TTK 0 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Improvised, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare]
+damage: 101.47 - 91.3226
+pellets: 1
+fireRate: 28.5
+adsSpread: 0.139725
+hipfireSpread: 41.9175
+reloadTime: 0.88
+magazineSize: 10
+health: 10
+recoilHipVertical: 108 - 144
+recoilAimVertical: 54 - 72
+movementSpeed: -15
+TTK 0 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Remington 700, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare]
+damage: 102.352 - 92.1167
+pellets: 1
+fireRate: 28.5
+adsSpread: 0.091125
+hipfireSpread: 27.3375
+reloadTime: 3.85
+magazineSize: 10
+health: 10
+recoilHipVertical: 81 - 108
+recoilAimVertical: 40.5 - 54
+movementSpeed: -20
+TTK 0 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Scar H, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare]
+damage: 100.587 - 90.5285
+pellets: 1
+fireRate: 28.5
+adsSpread: 0.1215
+hipfireSpread: 36.45
+reloadTime: 4.95
+magazineSize: 20
+health: 10
+recoilHipVertical: 135 - 180
+recoilAimVertical: 67.5 - 90
+movementSpeed: -20
+TTK 0 Seconds
+
+Gun contains[Barrel: Oil, Magazine: Fedorov Avtomat, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare]
+damage: 100.587 - 90.5285
+pellets: 1
+fireRate: 27.075
+adsSpread: 0.1215
+hipfireSpread: 36.45
+reloadTime: 4.4
+magazineSize: 25
+health: 10
+recoilHipVertical: 135 - 180
+recoilAimVertical: 67.5 - 90
+movementSpeed: -20
+TTK 0 Seconds
+
 Gun contains[Barrel: Oil, Magazine: M1918 BAR, Grip: Circuit Judge, Stock: APS, Core: Arctic Warfare]
 damage: 100.298 - 90.2686
+pellets: 1
 fireRate: 27
 adsSpread: 0.144788
 hipfireSpread: 43.4362
@@ -13,120 +98,45 @@ recoilAimVertical: 64.35 - 85.8
 movementSpeed: -20.5
 TTK 0 Seconds
 
-Gun contains[Barrel: Oil, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Arctic Warfare]
-damage: 100.266 - 90.2397
-fireRate: 25.44
-adsSpread: 0.10125
-hipfireSpread: 30.375
-reloadTime: 6
+Gun contains[Barrel: Oil, Magazine: M200 Intervention, Grip: Lee Enfield, Stock: Taco, Core: Arctic Warfare]
+damage: 104.05 - 93.645
+pellets: 1
+fireRate: 26.22
+adsSpread: 0.144
+hipfireSpread: 43.2
+reloadTime: 6.6
 magazineSize: 5
-health: 0
-recoilHipVertical: 165.6 - 220.8
-recoilAimVertical: 82.8 - 110.4
+health: 10
+recoilHipVertical: 172.8 - 230.4
+recoilAimVertical: 86.4 - 115.2
 movementSpeed: -20
 TTK 0 Seconds
 
-Gun contains[Barrel: Oil, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: Spas-12, Core: Arctic Warfare]
-damage: 100.266 - 90.2397
-fireRate: 25.44
-adsSpread: 0.0891
-hipfireSpread: 26.73
-reloadTime: 6
-magazineSize: 5
-health: 0
-recoilHipVertical: 144 - 192
-recoilAimVertical: 72 - 96
-movementSpeed: -25
+Gun contains[Barrel: M1918 BAR, Magazine: Remington 700, Grip: Type 2a Nambu, Stock: Taco, Core: Arctic Warfare]
+damage: 100.034 - 90.031
+pellets: 1
+fireRate: 25.65
+adsSpread: 0.054
+hipfireSpread: 16.2
+reloadTime: 3.85
+magazineSize: 10
+health: 2.5
+recoilHipVertical: 119.556 - 159.408
+recoilAimVertical: 59.778 - 79.704
+movementSpeed: -5.5
 TTK 0 Seconds
 
-Gun contains[Barrel: Oil, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: Kriss Vector, Core: Arctic Warfare]
-damage: 100.266 - 90.2397
-fireRate: 25.008
-adsSpread: 0.0972
-hipfireSpread: 29.16
-reloadTime: 6
-magazineSize: 5
-health: 0
-recoilHipVertical: 126.72 - 168.96
-recoilAimVertical: 63.36 - 84.48
-movementSpeed: -18.02
-TTK 0 Seconds
-
-Gun contains[Barrel: Oil, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: Type 99, Core: Arctic Warfare]
-damage: 100.266 - 90.2397
-fireRate: 24.96
-adsSpread: 0.081
-hipfireSpread: 24.3
-reloadTime: 5.28
-magazineSize: 5
-health: 0
-recoilHipVertical: 155.52 - 207.36
-recoilAimVertical: 77.76 - 103.68
-movementSpeed: -23
-TTK 0 Seconds
-
-Gun contains[Barrel: Oil, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: Arctic Warfare]
-damage: 100.266 - 90.2397
-fireRate: 24.84
-adsSpread: 0.081
-hipfireSpread: 24.3
-reloadTime: 7.2
-magazineSize: 5
-health: 0
-recoilHipVertical: 133.92 - 178.56
-recoilAimVertical: 66.96 - 89.28
-movementSpeed: -20
-TTK 0 Seconds
-
-Gun contains[Barrel: Oil, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: Remington 870 Breacher, Core: Arctic Warfare]
-damage: 100.266 - 90.2397
-fireRate: 24.72
-adsSpread: 0.10125
-hipfireSpread: 30.375
-reloadTime: 6.9
-magazineSize: 5
-health: 0
-recoilHipVertical: 126.72 - 168.96
-recoilAimVertical: 63.36 - 84.48
-movementSpeed: -17
-TTK 0 Seconds
-
-Gun contains[Barrel: Oil, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: STG-44, Core: Arctic Warfare]
-damage: 100.266 - 90.2397
-fireRate: 24.504
-adsSpread: 0.07533
-hipfireSpread: 22.599
-reloadTime: 6
-magazineSize: 5
-health: 0
-recoilHipVertical: 144 - 192
-recoilAimVertical: 72 - 96
-movementSpeed: -20
-TTK 0 Seconds
-
-Gun contains[Barrel: Oil, Magazine: M1918 BAR, Grip: Circuit Judge, Stock: Hecate II, Core: Arctic Warfare]
-damage: 101.068 - 90.9616
-fireRate: 24.3
-adsSpread: 0.0891
-hipfireSpread: 26.73
-reloadTime: 3.6
-magazineSize: 20
-health: 0
-recoilHipVertical: 113.85 - 151.8
-recoilAimVertical: 56.925 - 75.9
-movementSpeed: -25.5
-TTK 0 Seconds
-
-Gun contains[Barrel: M1918 BAR, Magazine: M1918 BAR, Grip: Circuit Judge, Stock: APS, Core: Arctic Warfare]
-damage: 100.298 - 90.2686
-fireRate: 24.3
-adsSpread: 0.11583
-hipfireSpread: 34.749
-reloadTime: 4
-magazineSize: 20
-health: 0
-recoilHipVertical: 154.44 - 205.92
-recoilAimVertical: 77.22 - 102.96
-movementSpeed: -6
+Gun contains[Barrel: Water Pipe, Magazine: Improvised, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare]
+damage: 101.47 - 91.3226
+pellets: 1
+fireRate: 25.65
+adsSpread: 0.116438
+hipfireSpread: 34.9313
+reloadTime: 0.88
+magazineSize: 10
+health: 10
+recoilHipVertical: 108 - 144
+recoilAimVertical: 54 - 72
+movementSpeed: 0
 TTK 0 Seconds
 
