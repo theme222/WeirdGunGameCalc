@@ -401,7 +401,8 @@ public:
         return add;
     }
 
-    void CopyValues(uint32_t flags)
+    // Core and magazine copy functions are seperated for greedy algorithm
+    void CopyCoreValues(uint32_t flags)
     {
         using namespace Fast;
         if (flags & DAMAGE) damage = core->damage;
@@ -410,9 +411,7 @@ public:
         if (flags & FIRERATE) fireRate = core->fireRate;
         if (flags & TIMETOAIM) timeToAim = core->timeToAim;
         if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier = core->movementSpeedModifier;
-        if (flags & MAGAZINESIZE) magazineSize = magazine->magazineSize;
         if (flags & HEALTH) health = core->health;
-        if (flags & RELOAD) reloadTime = magazine->reloadTime;
         if (flags & SPREADAIM) adsSpread = core->adsSpread;
         if (flags & SPREADHIP) hipfireSpread = core->hipfireSpread;
         if (flags & RECOILHIP)
@@ -425,6 +424,19 @@ public:
             recoilAimHorizontal = core->recoilAimHorizontal;
             recoilAimVertical = core->recoilAimVertical;
         }
+    }
+
+    void CopyMagazineValues(uint32_t flags)
+    {
+        using namespace Fast;
+        if (flags & MAGAZINESIZE) magazineSize = magazine->magazineSize;
+        if (flags & RELOAD) reloadTime = magazine->reloadTime;
+    }
+
+    void CopyValues(uint32_t flags)
+    {
+        if (core != nullptr) CopyCoreValues(flags);
+        if (magazine != nullptr) CopyMagazineValues(flags);
     }
 
     void CalculateGunStats(uint32_t flags)
@@ -479,12 +491,12 @@ public:
     // Used by Greedy algorithm //
     float GetPartialMult(Fast::MultFlags propertyFlag, Part *part)
     {
-        return part->GetMult(propertyFlag) / 100 + 1;
+        return CalculatePenalty(propertyFlag, part) / 100 + 1;
     }
 
     float GetPartialAdd(Fast::MultFlags propertyFlag, Part *part)
     {
-        return part->GetMult(propertyFlag);
+        return CalculatePenalty(propertyFlag, part);
     }
 
     void CalculatePartialGunStats(uint32_t flags, Part *part)
@@ -497,8 +509,8 @@ public:
         }
         if (flags & DAMAGE)
         {
-            damage.first *= GetPartialMult(DAMAGE, part) * 1.01;
-            damage.second *= GetPartialMult(DAMAGE, part) * 1.01;
+            damage.first *= GetPartialMult(DAMAGE, part) * powf(1.01, 1.25);
+            damage.second *= GetPartialMult(DAMAGE, part) * powf(1.01, 1.25);
         }
         if (flags & FIRERATE) fireRate *= GetPartialMult(FIRERATE, part);
         if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier += GetPartialAdd(MOVEMENTSPEEDMODIFIER, part);
@@ -539,8 +551,14 @@ std::ostream &operator<<(std::ostream &os, const fpair &fp)
 
 std::ostream &operator<<(std::ostream &os, const Gun &gun)
 {
+    std::string barrelName = gun.barrel ? gun.barrel->name : "None";
+    std::string magazineName = gun.magazine ? gun.magazine->name : "None";
+    std::string gripName = gun.grip ? gun.grip->name : "None";
+    std::string stockName = gun.stock ? gun.stock->name : "None";
+    std::string coreName = gun.core ? gun.core->name : "None";
+
     os << "Gun contains"
-       << "[Barrel: " << gun.barrel->name << ", Magazine: " << gun.magazine->name << ", Grip: " << gun.grip->name << ", Stock: " << gun.stock->name << ", Core: " << gun.core->name << "]\n"
+       << "[Barrel: " << barrelName << ", Magazine: " << magazineName << ", Grip: " << gripName << ", Stock: " << stockName << ", Core: " << coreName << "]\n"
        << "damage: " << gun.damage << "\n"
        << "pellets: " << gun.pellets << "\n"
        << "fireRate: " << gun.fireRate << "\n"
@@ -932,6 +950,9 @@ namespace BruteForce
 
 namespace Greedy
 {
+    // Implement greedy algorithm to calculate gun stats
+    // Iteration looks like this: core -> magazine -> barrel -> grip -> stock
+
     namespace Filter
     {
         using namespace Fast;
@@ -962,7 +983,6 @@ namespace Greedy
             }
         }
 
-
         bool RangeFilter(float value, fpair range)
         {
             if (range.first != NILMIN && range.second != NILMAX) return range.first <= value && value <= range.second;
@@ -971,10 +991,21 @@ namespace Greedy
             else return true;
         }
 
-
-        bool FilterGunStats(const Gun& gun, const Gun& bestPossibleGunMult)
+        bool CoreFilter(Core *core) // These filters require no gun calculation and can be immediately checked on the part itself
         {
+            if (!Fast::includeCategories_fast[core->category_fast]) return false;
+            if (!RangeFilter(core->timeToAim, Input::timeToAimRange)) return false;
+            return true;
+        }
 
+        bool MagazineFilter(Magazine *magazine)
+        {
+            if (!RangeFilter(magazine->magazineSize, Input::magazineRange)) return false;
+            return true;
+        }
+
+        bool FilterGunStats(const Gun& gun)
+        {
             if (!Fast::includeCategories_fast[gun.core->category_fast]) return false;
             if (!RangeFilter(gun.timeToAim, Input::timeToAimRange)) return false;
             if (!RangeFilter(gun.magazineSize, Input::magazineRange)) return false;
@@ -994,13 +1025,15 @@ namespace Greedy
 
     namespace HighLow
     {
-        // Implement greedy algorithm to calculate gun stats
-        // Iteration looks like this: core -> magazine -> barrel -> grip -> stock
-
-        // Find theoretical highest and lowest multipliers for a 4 part combination all the way to a 1 part combination of parts for each category of core
+        /*
+        This namespace revolves around the key data structure used in the greedy algorithm.
+        It revolves around bestPossibleCombo which is a three-dimensional array containing
+        Part objects that contain the best multiplier combination both low and high, for
+        every core category and from a 4 part combo to a 1 part combo.
+        */
 
         // bestPossibleCombo[coreCategoryFast][low / high][4 -> 1]
-        Part bestPossibleCombo[6][2][4] = {
+        Part bestPossibleCombo[6][2][4] = { // stfu I don't wanna hear it
             {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
             {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
             {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
@@ -1009,143 +1042,126 @@ namespace Greedy
             {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}}
         };
 
-        float GetFormattedMult(const Core& core, Part& part, Fast::MultFlags propertyFlag)
-        {
-            float baseMult = part.GetMult(propertyFlag);
-            if (part.name_fast == core.name_fast)
-                return 1;
-            if (!Fast::MoreIsBetter(propertyFlag) && baseMult > 0)
-                return baseMult / 100 + 1;
-            if (Fast::MoreIsBetter(propertyFlag) && baseMult < 0)
-                return baseMult / 100 + 1;
-
-            return baseMult * Fast::penalties[core.category_fast][part.category_fast] / 100 + 1;
-        }
-
-        float GetFormattedAdd(const Core& core, Part& part, Fast::MultFlags propertyFlag)
-        {
-            float baseMult = part.GetMult(propertyFlag);
-            if (part.name_fast == core.name_fast)
-                return 0;
-            if (!Fast::MoreIsBetter(propertyFlag) && baseMult > 0)
-                return baseMult;
-            if (Fast::MoreIsBetter(propertyFlag) && baseMult < 0)
-                return baseMult;
-
-            return baseMult * Fast::penalties[core.category_fast][part.category_fast];
-        }
-
-        void SetHighLowParts(Core& currentCore, Part& partToCheck, Part& lowestMultPart, Part& highestMultPart)
+        void SetHighLowParts(Gun& gun, Part* partToCheck, Part& lowestMultPart, Part& highestMultPart)
         {
             using namespace Fast;
-            if (GetFormattedMult(currentCore, partToCheck, DAMAGE) < lowestMultPart.damage) lowestMultPart.damage = GetFormattedMult(currentCore, partToCheck, DAMAGE);
-            if (GetFormattedMult(currentCore, partToCheck, FIRERATE) < lowestMultPart.fireRate) lowestMultPart.fireRate = GetFormattedMult(currentCore, partToCheck, FIRERATE);
-            if (GetFormattedMult(currentCore, partToCheck, SPREADAIM) < lowestMultPart.spread) lowestMultPart.spread = GetFormattedMult(currentCore, partToCheck, SPREADAIM);
-            if (GetFormattedMult(currentCore, partToCheck, RECOILAIM) < lowestMultPart.recoil) lowestMultPart.recoil = GetFormattedMult(currentCore, partToCheck, RECOILAIM);
-            if (GetFormattedMult(currentCore, partToCheck, RELOAD) < lowestMultPart.reloadSpeed) lowestMultPart.reloadSpeed = GetFormattedMult(currentCore, partToCheck, RELOAD);
-            if (GetFormattedAdd(currentCore, partToCheck, MOVEMENTSPEEDMODIFIER) < lowestMultPart.movementSpeed) lowestMultPart.movementSpeed = GetFormattedAdd(currentCore, partToCheck, MOVEMENTSPEEDMODIFIER);
-            if (GetFormattedAdd(currentCore, partToCheck, HEALTH) < lowestMultPart.health) lowestMultPart.health = GetFormattedAdd(currentCore, partToCheck, HEALTH);
-            if (GetFormattedMult(currentCore, partToCheck, PELLETS)   < lowestMultPart.pellets) lowestMultPart.pellets = GetFormattedMult(currentCore, partToCheck, PELLETS);
+            if (gun.GetPartialMult(DAMAGE, partToCheck) < lowestMultPart.damage) lowestMultPart.damage = gun.GetPartialMult(DAMAGE, partToCheck);
+            if (gun.GetPartialMult(FIRERATE, partToCheck) < lowestMultPart.fireRate) lowestMultPart.fireRate = gun.GetPartialMult(FIRERATE, partToCheck);
+            if (gun.GetPartialMult(SPREADAIM, partToCheck) < lowestMultPart.spread) lowestMultPart.spread = gun.GetPartialMult(SPREADAIM, partToCheck);
+            if (gun.GetPartialMult(RECOILAIM, partToCheck) < lowestMultPart.recoil) lowestMultPart.recoil = gun.GetPartialMult(RECOILAIM, partToCheck);
+            if (gun.GetPartialMult(RELOAD, partToCheck) < lowestMultPart.reloadSpeed) lowestMultPart.reloadSpeed = gun.GetPartialMult(RELOAD, partToCheck);
+            if (gun.GetPartialAdd(MOVEMENTSPEEDMODIFIER, partToCheck) < lowestMultPart.movementSpeed) lowestMultPart.movementSpeed = gun.GetPartialAdd(MOVEMENTSPEEDMODIFIER, partToCheck);
+            if (gun.GetPartialAdd(HEALTH, partToCheck) < lowestMultPart.health) lowestMultPart.health = gun.GetPartialAdd(HEALTH, partToCheck);
+            if (gun.GetPartialMult(PELLETS, partToCheck) < lowestMultPart.pellets) lowestMultPart.pellets = gun.GetPartialMult(PELLETS, partToCheck);
 
-            if (GetFormattedMult(currentCore, partToCheck, DAMAGE) > highestMultPart.damage) highestMultPart.damage = GetFormattedMult(currentCore, partToCheck, DAMAGE);
-            if (GetFormattedMult(currentCore, partToCheck, FIRERATE) > highestMultPart.fireRate) highestMultPart.fireRate = GetFormattedMult(currentCore, partToCheck, FIRERATE);
-            if (GetFormattedMult(currentCore, partToCheck, SPREADAIM) > highestMultPart.spread) highestMultPart.spread = GetFormattedMult(currentCore, partToCheck, SPREADAIM);
-            if (GetFormattedMult(currentCore, partToCheck, RECOILAIM) > highestMultPart.recoil) highestMultPart.recoil = GetFormattedMult(currentCore, partToCheck, RECOILAIM);
-            if (GetFormattedMult(currentCore, partToCheck, RELOAD) > highestMultPart.reloadSpeed) highestMultPart.reloadSpeed = GetFormattedMult(currentCore, partToCheck, RELOAD);
-            if (GetFormattedAdd(currentCore, partToCheck, MOVEMENTSPEEDMODIFIER) > highestMultPart.movementSpeed) highestMultPart.movementSpeed = GetFormattedAdd(currentCore, partToCheck, MOVEMENTSPEEDMODIFIER);
-            if (GetFormattedAdd(currentCore, partToCheck, HEALTH) > highestMultPart.health) highestMultPart.health = GetFormattedAdd(currentCore, partToCheck, HEALTH);
-            if (GetFormattedMult(currentCore, partToCheck, PELLETS) > highestMultPart.pellets) highestMultPart.pellets = GetFormattedMult(currentCore, partToCheck, PELLETS);
+            if (gun.GetPartialMult(DAMAGE, partToCheck) > highestMultPart.damage) highestMultPart.damage = gun.GetPartialMult(DAMAGE, partToCheck);
+            if (gun.GetPartialMult(FIRERATE, partToCheck) > highestMultPart.fireRate) highestMultPart.fireRate = gun.GetPartialMult(FIRERATE, partToCheck);
+            if (gun.GetPartialMult(SPREADAIM, partToCheck) > highestMultPart.spread) highestMultPart.spread = gun.GetPartialMult(SPREADAIM, partToCheck);
+            if (gun.GetPartialMult(RECOILAIM, partToCheck) > highestMultPart.recoil) highestMultPart.recoil = gun.GetPartialMult(RECOILAIM, partToCheck);
+            if (gun.GetPartialMult(RELOAD, partToCheck) > highestMultPart.reloadSpeed) highestMultPart.reloadSpeed = gun.GetPartialMult(RELOAD, partToCheck);
+            if (gun.GetPartialAdd(MOVEMENTSPEEDMODIFIER, partToCheck) > highestMultPart.movementSpeed) highestMultPart.movementSpeed = gun.GetPartialAdd(MOVEMENTSPEEDMODIFIER, partToCheck);
+            if (gun.GetPartialAdd(HEALTH, partToCheck) > highestMultPart.health) highestMultPart.health = gun.GetPartialAdd(HEALTH, partToCheck);
+            if (gun.GetPartialMult(PELLETS, partToCheck) > highestMultPart.pellets) highestMultPart.pellets = gun.GetPartialMult(PELLETS, partToCheck);
         }
 
         // Polymorphism is required due to the fact that sizeof(Magazine) is more than sizeof(Part) causing pointer arithmetic to be incorrect when iterating through the array.
         template <typename T>
-        std::pair<Part, Part> FindHighestAndLowestMultInList(Core& currentCore, T* partList, int size)
+        std::pair<Part, Part> FindHighestAndLowestMultInList(Gun& gun, T* partList, int size)
         {
             Part lowestMultPart(1), highestMultPart(1);
             for (int i = 0; i < size; i++)
-                SetHighLowParts(currentCore, partList[i], lowestMultPart, highestMultPart);
+                SetHighLowParts(gun, partList + i, lowestMultPart, highestMultPart);
             return std::pair<Part, Part>(lowestMultPart, highestMultPart);
         }
 
         void InitializeHighestAndLowestMultParts() // It may not look like it but I promise you this has a Time complexity of O(n) I'M TELLING YOU PLEASE BELIEVE ME
         {
+            // Creation of dummyGuns to allow us to use (Gun obj).GetPartialMult and (Gun obj).GetPartialAdd for HighLow intialization
             Core coreCategories[6];
-            for (int i = 0; i < 6; i++) coreCategories[i].category_fast = i; // Helps with having an example "core" to check for penalties (Since name can't ever be equal and we are sharing the function GetFormattedMult and GetFormattedAdd)
-
-            for (int c = 0; c < 6; c++)
+            Gun dummyGuns[6];
+            for (int i = 0; i < 6; i++)
             {
-                Core& core = coreCategories[c];
-                std::pair<Part, Part> magazineMultPair = FindHighestAndLowestMultInList(core, magazineList, magazineCount);
-                std::pair<Part, Part> barrelMultPair = FindHighestAndLowestMultInList(core, barrelList, barrelCount);
-                std::pair<Part, Part> gripMultPair = FindHighestAndLowestMultInList(core, gripList, gripCount);
-                std::pair<Part, Part> stockMultPair = FindHighestAndLowestMultInList(core, stockList, stockCount);
+                coreCategories[i].category_fast = i;
+                dummyGuns[i] = Gun(coreCategories + i);
+            }
+
+            for (int g = 0; g < 6; g++)
+            {
+                Gun& dummyGun = dummyGuns[g];
+                std::pair<Part, Part> magazineMultPair = FindHighestAndLowestMultInList(dummyGun, magazineList, magazineCount);
+                std::pair<Part, Part> barrelMultPair = FindHighestAndLowestMultInList(dummyGun, barrelList, barrelCount);
+                std::pair<Part, Part> gripMultPair = FindHighestAndLowestMultInList(dummyGun, gripList, gripCount);
+                std::pair<Part, Part> stockMultPair = FindHighestAndLowestMultInList(dummyGun, stockList, stockCount);
 
                 std::pair<Part, Part> *partPairs[4] = {&stockMultPair, &gripMultPair, &barrelMultPair, &magazineMultPair};
                 for (int i = 0; i < 4; i++)
                 {
                     for (int j = i; j < 4; j++)
                     {
-                        bestPossibleCombo[c][0][j] = bestPossibleCombo[c][0][j] * partPairs[i]->first;
-                        bestPossibleCombo[c][1][j] = bestPossibleCombo[c][1][j] * partPairs[i]->second;
+                        // No *= because I said so
+                        bestPossibleCombo[g][0][j] = bestPossibleCombo[g][0][j] * partPairs[i]->first;
+                        bestPossibleCombo[g][1][j] = bestPossibleCombo[g][1][j] * partPairs[i]->second;
                     }
                 }
             }
 
+            /*
             for (int c = 0; c < 6; c++)
                 for (int i = 0; i < 2; i++)
                     for (int j = 0; j < 4; j++)
                         std::cout << bestPossibleCombo[c][i][j] << '\n';
+            */
         }
     }
 
-    bool RangeFilterMult(float valueToCompare, float highMult, float lowMult, const fpair &range)
+    bool RangeFilterMult(float valueToCompare, float lowMult, float highMult, const fpair &range)
     {
-        if (range.first == NILMIN && range.second == NILMAX) return true; // This probably can't run
+        if (range.first == NILMIN && range.second == NILMAX) return true;
         if (range.first == NILMIN && valueToCompare * lowMult <= range.second) return true;
         if (range.second == NILMAX && valueToCompare * highMult >= range.first) return true;
-        if (valueToCompare < range.first) return valueToCompare * highMult >= range.first;
-        if (valueToCompare > range.second) return valueToCompare * lowMult <= range.second;
-        return true;
+        return valueToCompare * highMult >= range.first && valueToCompare * lowMult <= range.second;
     }
 
-    bool RangeFilterAdd(float valueToCompare, float highMult, float lowMult, const fpair &range)
+    bool RangeFilterAdd(float valueToCompare, float lowAdd, float highAdd, const fpair &range)
     {
-        if (range.first == NILMIN && range.second == NILMAX) return true; // This probably can't run
-        if (range.first == NILMIN && valueToCompare + lowMult <= range.second) return true;
-        if (range.second == NILMAX && valueToCompare + highMult >= range.first) return true;
-        if (valueToCompare < range.first) return valueToCompare + highMult >= range.first;
-        if (valueToCompare > range.second) return valueToCompare + lowMult <= range.second;
-        return true;
+        if (range.first == NILMIN && range.second == NILMAX) return true;
+        if (range.first == NILMIN && valueToCompare + lowAdd <= range.second) return true;
+        if (range.second == NILMAX && valueToCompare + highAdd >= range.first) return true;
+        return valueToCompare + highAdd >= range.first && valueToCompare + lowAdd <= range.second;
     }
 
-    bool IsValidCombination(const Gun& gun, const Part& highPPC, const Part& lowPPC) // PPC Stands for PossiblePartCombo
+    bool IsValidCombination(const Gun& gun, const Part& lowPPC, const Part& highPPC) // PPC Stands for PossiblePartCombo
     {
         using namespace Fast;
-        if (Filter::currentflags & DAMAGE && !RangeFilterMult(gun.damage.first, highPPC.damage, lowPPC.damage, Input::damageRange)) return false;
-        if (Filter::currentflags & FIRERATE && !RangeFilterMult(gun.fireRate, highPPC.fireRate, lowPPC.fireRate, Input::fireRateRange)) return false;
-        if (Filter::currentflags & SPREADHIP && !RangeFilterMult(gun.hipfireSpread, highPPC.spread, lowPPC.spread, Input::spreadHipRange)) return false;
-        if (Filter::currentflags & SPREADAIM && !RangeFilterMult(gun.adsSpread, highPPC.spread, lowPPC.spread, Input::spreadAimRange)) return false;
-        if (Filter::currentflags & RECOILHIP && !RangeFilterMult(gun.recoilHipVertical.second, highPPC.recoil, lowPPC.recoil, Input::recoilHipRange)) return false;
-        if (Filter::currentflags & RECOILAIM && !RangeFilterMult(gun.recoilAimVertical.second, highPPC.recoil, lowPPC.recoil, Input::recoilAimRange)) return false;
-        if (Filter::currentflags & RELOAD && !RangeFilterMult(gun.reloadTime, highPPC.reloadSpeed, lowPPC.reloadSpeed, Input::reloadRange)) return false;
-        if (Filter::currentflags & MOVEMENTSPEEDMODIFIER && !RangeFilterAdd(gun.movementSpeedModifier, highPPC.movementSpeed, lowPPC.movementSpeed, Input::movementSpeedRange)) return false;
-        if (Filter::currentflags & HEALTH && !RangeFilterAdd(gun.health, highPPC.health, lowPPC.health, Input::healthRange)) return false;
-        if (Filter::currentflags & PELLETS && !RangeFilterAdd(gun.pellets, highPPC.pellets, lowPPC.pellets, Input::pelletRange)) return false;
+        if (!RangeFilterMult(gun.damage.first, lowPPC.damage, highPPC.damage, Input::damageRange)) return false;
+        if (!RangeFilterMult(gun.fireRate, lowPPC.fireRate, highPPC.fireRate, Input::fireRateRange)) return false;
+        if (!RangeFilterMult(gun.hipfireSpread, lowPPC.spread, highPPC.spread, Input::spreadHipRange)) return false;
+        if (!RangeFilterMult(gun.adsSpread, lowPPC.spread, highPPC.spread, Input::spreadAimRange)) return false;
+        if (!RangeFilterMult(gun.recoilHipVertical.second, lowPPC.recoil, highPPC.recoil, Input::recoilHipRange)) return false;
+        if (!RangeFilterMult(gun.recoilAimVertical.second, lowPPC.recoil, highPPC.recoil, Input::recoilAimRange)) return false;
+        if (!RangeFilterMult(gun.reloadTime, lowPPC.reloadSpeed, highPPC.reloadSpeed, Input::reloadRange)) return false;
+        if (!RangeFilterAdd(gun.movementSpeedModifier, lowPPC.movementSpeed, highPPC.movementSpeed, Input::movementSpeedRange)) return false;
+        if (!RangeFilterAdd(gun.health, lowPPC.health, highPPC.health, Input::healthRange)) return false;
+        if (!RangeFilterAdd(gun.pellets, lowPPC.pellets, highPPC.pellets, Input::pelletRange)) return false;
         return true;
     }
 
     void Run() // I'm currently attempting to make this single threaded first before trying to multi thread the fucker
     {
-        std::vector<Gun> validGuns1(coreCount * magazineCount * barrelCount * gripCount); // This is why memory scales with O(n^4)
-        std::vector<Gun> validGuns2(coreCount * magazineCount * barrelCount * gripCount); // This is why memory scales with O(n^4)
+        threadPQ[0] = PQ::Create();
+        // This is why memory scales with O(n^4)
+        std::vector<Gun> validGuns1(coreCount * magazineCount * barrelCount * gripCount);
+        std::vector<Gun> validGuns2(coreCount * magazineCount * barrelCount * gripCount);
         uint64_t validGunCount1 = 0;
         uint64_t validGunCount2 = 0;
 
         // start with validGuns1 (Parsing core)
         for (int c = 0; c < coreCount; c++)
         {
-            Gun currentGun(coreList + c);
-            currentGun.CopyValues(Filter::currentflags);
+            if (!Filter::CoreFilter(coreList + c)) continue;
+
+            Gun currentGun = Gun(coreList + c);
+            currentGun.CopyCoreValues(Filter::currentflags);
             bool validCombo = IsValidCombination(currentGun, HighLow::bestPossibleCombo[currentGun.core->category_fast][0][3], HighLow::bestPossibleCombo[currentGun.core->category_fast][1][3]);
             if (validCombo)
             {
@@ -1153,14 +1169,18 @@ namespace Greedy
                 validGunCount1++;
             }
         }
+        printf("Total valid cores: %lu / %u\n", validGunCount1, coreCount);
 
         // validGuns1 -> validGuns2 (Parsing core + magazine)
         for (int g = 0; g < validGunCount1; g++)
         {
             for (int m = 0; m < magazineCount; m++)
             {
-                Gun currentGun(validGuns1[g]); // Copies over from the old vector
+                if (!Filter::MagazineFilter(magazineList + m)) continue;
+
+                Gun currentGun = validGuns1[g]; // Copies over from the old vector
                 currentGun.magazine = magazineList + m;
+                currentGun.CopyMagazineValues(Filter::currentflags);
                 currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.magazine);
                 bool validCombo = IsValidCombination(currentGun, HighLow::bestPossibleCombo[currentGun.core->category_fast][0][2], HighLow::bestPossibleCombo[currentGun.core->category_fast][1][2]);
                 if (validCombo)
@@ -1170,6 +1190,7 @@ namespace Greedy
                 }
             }
         }
+        printf("Total valid core + mag: %lu / %u\n", validGunCount2, coreCount * magazineCount);
         validGunCount1 = 0;
 
         // validGuns2 -> validGuns1 (Parsing core + magazine + barrel)
@@ -1177,7 +1198,7 @@ namespace Greedy
         {
             for (int b = 0; b < barrelCount; b++)
             {
-                Gun currentGun(validGuns2[g]); // Copies over from the old vector
+                Gun currentGun = validGuns2[g]; // Copies over from the old vector
                 currentGun.barrel = barrelList + b;
                 currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.barrel);
                 bool validCombo = IsValidCombination(currentGun, HighLow::bestPossibleCombo[currentGun.core->category_fast][0][1], HighLow::bestPossibleCombo[currentGun.core->category_fast][1][1]);
@@ -1188,29 +1209,47 @@ namespace Greedy
                 }
             }
         }
+        printf("Total valid core + mag + barrel: %lu / %u\n", validGunCount1, coreCount * magazineCount * barrelCount);
         validGunCount2 = 0;
 
         // validGuns1 -> validGuns2 (Parsing core + magazine + barrel + grip)
         for (int g = 0; g < validGunCount1; g++)
         {
-            for (int b = 0; b < barrelCount; b++)
+            for (int gr = 0; gr < gripCount; gr++)
             {
-                Gun currentGun(validGuns1[g]); // Copies over from the old vector
-                currentGun.barrel = barrelList + b;
-                currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.barrel);
-                bool validCombo = IsValidCombination(currentGun, HighLow::bestPossibleCombo[currentGun.core->category_fast][0][1], HighLow::bestPossibleCombo[currentGun.core->category_fast][1][1]);
+                Gun currentGun = validGuns1[g]; // Copies over from the old vector
+                currentGun.grip = gripList + gr;
+                currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.grip);
+                bool validCombo = IsValidCombination(currentGun, HighLow::bestPossibleCombo[currentGun.core->category_fast][0][0], HighLow::bestPossibleCombo[currentGun.core->category_fast][1][0]);
                 if (validCombo)
                 {
-                    validGuns1[validGunCount2] = currentGun;
+                    validGuns2[validGunCount2] = currentGun;
                     validGunCount2++;
                 }
             }
         }
+        printf("Total valid core + mag + barrel + grip: %lu / %u\n", validGunCount2, coreCount * magazineCount * barrelCount * gripCount);
         validGunCount1 = 0;
 
+        for (int g = 0; g < validGunCount2; g++)
+        {
+            for (int s = 0; s < stockCount; s++)
+            {
+                Gun currentGun = validGuns2[g]; // Copies over from the old vector
+                currentGun.stock = stockList + s;
+                currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.stock);
+                bool validCombo = Filter::FilterGunStats(currentGun); // This is essentially what IsValidCombination is if you pass through Parts with identity values (1 for mult 0 for add)
+                if (validCombo)
+                {
+                    validGunCount1++;
+                    PQ::Push(threadPQ[0], currentGun);
+                    if (PQ::Size(threadPQ[0]) > Input::howManyTopGunsToDisplay)
+                        PQ::Pop(threadPQ[0]);
+                }
+            }
+        }
+        printf("Total valid core + mag + barrel + grip + stock: %lu / %u\n", validGunCount1, coreCount * magazineCount * barrelCount * gripCount * stockCount);
     }
-
-
 }
 
 int main(int argc, char* argv[])
@@ -1264,16 +1303,10 @@ int main(int argc, char* argv[])
 
     CLI11_PARSE(app, argc, argv);
 
-    PQ::SetCurrentSortingType(Input::sortType);
-    Fast::InitializeIncludeCategories();
-    BruteForce::Filter::InitializeMultFlag();
-    Greedy::Filter::InitializeMultFlag();
-
     std::ifstream f(Input::filepath);
-    puts("Reading json file");
     json data = json::parse(f);
 
-    puts("Loading parts into array");
+    printf("Loading from json file %s\n", Input::filepath.c_str());
 
     for (json &element : data["Barrels"])
     {
@@ -1305,6 +1338,12 @@ int main(int argc, char* argv[])
         coreCount++;
     }
 
+    puts("Initializing required data");
+    PQ::SetCurrentSortingType(Input::sortType);
+    Fast::InitializeIncludeCategories();
+    BruteForce::Filter::InitializeMultFlag();
+    Greedy::Filter::InitializeMultFlag();
+    Greedy::HighLow::InitializeHighestAndLowestMultParts();
 
     totalCombinations = barrelCount * magazineCount * gripCount * stockCount * coreCount;
     printf("Barrels detected: %d, Magazines detected: %d, Grips detected: %d, Stocks detected: %d, Cores detected: %d\n", barrelCount, magazineCount, gripCount, stockCount, coreCount);
@@ -1313,7 +1352,7 @@ int main(int argc, char* argv[])
 
     auto start = chrono::steady_clock::now();
 
-    Greedy::HighLow::InitializeHighestAndLowestMultParts();
+    Greedy::Run();
 
     auto end = chrono::steady_clock::now();
     auto duration = chrono::duration_cast<chrono::microseconds>(end - start);
@@ -1330,6 +1369,14 @@ int main(int argc, char* argv[])
          << seconds << " second(s), "
          << milliseconds << " millisecond(s), and "
          << microseconds << " microsecond(s)\n";
+
+    for (int i = 0; i < 10; i++)
+    {
+        Gun gun = PQ::Pop(threadPQ[0]);
+        gun.CopyAllValues();
+        gun.CalculateAllGunStats();
+        std::cout << gun << std::endl;
+    }
 
     /*
     PQ::topGuns = PQ::Create();
