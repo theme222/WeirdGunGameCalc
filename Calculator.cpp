@@ -1357,11 +1357,11 @@ int main(int argc, char* argv[])
     auto end = chrono::steady_clock::now();
     auto duration = chrono::duration_cast<chrono::microseconds>(end - start);
 
-    uint64_t total_ms = duration.count();
-    uint64_t minutes = total_ms / 60000000;
-    uint64_t seconds = (total_ms % 60000000) / 1000000;
-    uint64_t milliseconds = (total_ms % 1000000) / 1000;
-    uint64_t microseconds = total_ms % 1000;
+    uint64_t total_us = duration.count();
+    uint64_t minutes = total_us / 60000000;
+    uint64_t seconds = (total_us % 60000000) / 1000000;
+    uint64_t milliseconds = (total_us % 1000000) / 1000;
+    uint64_t microseconds = total_us % 1000;
 
     puts("Bruteforce completed");
     std::cout << "Elapsed time: "
