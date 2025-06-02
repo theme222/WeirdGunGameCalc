@@ -29,6 +29,7 @@ namespace Input
     std::string filepath = "Data/FullData.json";
     std::string outpath = "Results.txt";
     std::string sortType = "TTK";
+    std::string method = "GREEDY";
 
     std::vector<std::string> includeCategories;
 
@@ -121,6 +122,14 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
                 throw std::invalid_argument("Category " + category + " doesn't exist");
             includeCategories_fast[fastifyCategory[category]] = true;
         }
+    }
+
+    bool RangeFilter(float value, fpair range)
+    {
+        if (range.first != NILMIN && range.second != NILMAX) return range.first <= value && value <= range.second;
+        else if (range.first != NILMIN) return range.first <= value;
+        else if (range.second != NILMAX) return value <= range.second;
+        else return true;
     }
 }
 
@@ -488,7 +497,7 @@ public:
         CalculateGunStats(ALLMULTFLAG);
     }
 
-    // Used by Greedy algorithm //
+    // Used by Prune algorithm //
     float GetPartialMult(Fast::MultFlags propertyFlag, Part *part)
     {
         return CalculatePenalty(propertyFlag, part) / 100 + 1;
@@ -535,7 +544,7 @@ public:
             recoilAimVertical.second *= recoilMult;
         }
     }
-    // Used by Greedy algorithm //
+    // Used by Prune algorithm //
 };
 
 float CalcTTK(const Gun &gun)
@@ -788,6 +797,7 @@ namespace PQ
 
 PQ::Variant threadPQ[16];
 std::thread threads[16];
+int validGunInThread[16];
 
 namespace BruteForce
 {
@@ -795,7 +805,6 @@ namespace BruteForce
     class Iterator
     {
     public:
-        // static uint64_t processedCombinations;
 
         int barrelIndex = 0;
         int magazineIndex = 0;
@@ -805,10 +814,7 @@ namespace BruteForce
         int threadId = 0;
 
         Iterator()
-        {
-            // if (barrelCount == 0 || magazineCount == 0 || gripCount == 0 || stockCount == 0 || coreCount == 0)
-            //     throw std::runtime_error("1 Or more types of parts are missing");
-        }
+        { }
         Iterator(int threadId): threadId(threadId), coreIndex(threadId)
         { }
 
@@ -859,7 +865,6 @@ namespace BruteForce
             return coreIndex < coreCount;
         }
     };
-    // uint64_t Iterator::processedCombinations = 0;
 
     namespace Filter
     {
@@ -890,16 +895,9 @@ namespace BruteForce
             }
         }
 
-        bool RangeFilter(float value, fpair range)
-        {
-            if (range.first != NILMIN && range.second != NILMAX) return range.first <= value && value <= range.second;
-            else if (range.first != NILMIN) return range.first <= value;
-            else if (range.second != NILMAX) return value <= range.second;
-            else return true;
-        }
-
         bool PreFilter(Barrel* b, Magazine* m, Grip* g, Stock* s, Core* c)
         {
+            using Fast::RangeFilter;
             if (!Fast::includeCategories_fast[c->category_fast]) return false;
             if (!RangeFilter(c->timeToAim, Input::timeToAimRange)) return false;
             if (!RangeFilter(m->magazineSize, Input::magazineRange)) return false;
@@ -908,6 +906,7 @@ namespace BruteForce
 
         bool PostFilter(Gun& gun)
         {
+            using Fast::RangeFilter;
             if (!RangeFilter(gun.damage.first, Input::damageRange)) return false;
             if (!RangeFilter(gun.adsSpread, Input::spreadAimRange)) return false;
             if (!RangeFilter(gun.hipfireSpread, Input::spreadHipRange)) return false;
@@ -943,14 +942,15 @@ namespace BruteForce
 
             if (!Filter::PostFilter(currentGun)) continue;
 
+            validGunInThread[threadId]++;
             PQ::Push(threadPQ[threadId], currentGun);
         }
     }
 };
 
-namespace Greedy
+namespace Prune
 {
-    // Implement greedy algorithm to calculate gun stats
+    // Implement a new algorithm to calculate gun stats by pruning impossible combinations via the use of the highlow data structure
     // Iteration looks like this: core -> magazine -> barrel -> grip -> stock
 
     namespace Filter
@@ -983,29 +983,22 @@ namespace Greedy
             }
         }
 
-        bool RangeFilter(float value, fpair range)
-        {
-            if (range.first != NILMIN && range.second != NILMAX) return range.first <= value && value <= range.second;
-            else if (range.first != NILMIN) return range.first <= value;
-            else if (range.second != NILMAX) return value <= range.second;
-            else return true;
-        }
-
         bool CoreFilter(Core *core) // These filters require no gun calculation and can be immediately checked on the part itself
         {
             if (!Fast::includeCategories_fast[core->category_fast]) return false;
-            if (!RangeFilter(core->timeToAim, Input::timeToAimRange)) return false;
+            if (!Fast::RangeFilter(core->timeToAim, Input::timeToAimRange)) return false;
             return true;
         }
 
         bool MagazineFilter(Magazine *magazine)
         {
-            if (!RangeFilter(magazine->magazineSize, Input::magazineRange)) return false;
+            if (!Fast::RangeFilter(magazine->magazineSize, Input::magazineRange)) return false;
             return true;
         }
 
         bool FilterGunStats(const Gun& gun)
         {
+            using Fast::RangeFilter;
             if (!Fast::includeCategories_fast[gun.core->category_fast]) return false;
             if (!RangeFilter(gun.timeToAim, Input::timeToAimRange)) return false;
             if (!RangeFilter(gun.magazineSize, Input::magazineRange)) return false;
@@ -1026,7 +1019,7 @@ namespace Greedy
     namespace HighLow
     {
         /*
-        This namespace revolves around the key data structure used in the greedy algorithm.
+        This namespace revolves around the key data structure used in the Prune algorithm.
         It revolves around bestPossibleCombo which is a three-dimensional array containing
         Part objects that contain the best multiplier combination both low and high, for
         every core category and from a 4 part combo to a 1 part combo.
@@ -1146,18 +1139,22 @@ namespace Greedy
         return true;
     }
 
-    void Run() // I'm currently attempting to make this single threaded first before trying to multi thread the fucker
+    void Run(int threadId)
     {
-        threadPQ[0] = PQ::Create();
-        // This is why memory scales with O(n^4)
-        std::vector<Gun> validGuns1(coreCount * magazineCount * barrelCount * gripCount);
-        std::vector<Gun> validGuns2(coreCount * magazineCount * barrelCount * gripCount);
+        printf("Thread %d started\n", threadId);
+        threadPQ[threadId] = PQ::Create();
+
+        // This is why memory scales with O(n^4) (Hopefully not a big issue hahhah)
+        printf("%d: Allocating %lu bytes for vectors\n", threadId, sizeof(Gun) * coreCount / Input::threadsToMake * magazineCount * barrelCount * gripCount * 2);
+        std::vector<Gun> validGuns1(coreCount / Input::threadsToMake * magazineCount * barrelCount * gripCount);
+        std::vector<Gun> validGuns2(coreCount / Input::threadsToMake * magazineCount * barrelCount * gripCount);
         uint64_t validGunCount1 = 0;
         uint64_t validGunCount2 = 0;
 
         // start with validGuns1 (Parsing core)
         for (int c = 0; c < coreCount; c++)
         {
+            if (c % Input::threadsToMake != threadId) continue;
             if (!Filter::CoreFilter(coreList + c)) continue;
 
             Gun currentGun = Gun(coreList + c);
@@ -1169,7 +1166,7 @@ namespace Greedy
                 validGunCount1++;
             }
         }
-        printf("Total valid cores: %lu / %u\n", validGunCount1, coreCount);
+        printf("%d: Total valid cores: %lu / %u\n", threadId, validGunCount1, coreCount);
 
         // validGuns1 -> validGuns2 (Parsing core + magazine)
         for (int g = 0; g < validGunCount1; g++)
@@ -1190,7 +1187,7 @@ namespace Greedy
                 }
             }
         }
-        printf("Total valid core + mag: %lu / %u\n", validGunCount2, coreCount * magazineCount);
+        printf("%d: Total valid core + mag: %lu / %u\n", threadId, validGunCount2, coreCount * magazineCount);
         validGunCount1 = 0;
 
         // validGuns2 -> validGuns1 (Parsing core + magazine + barrel)
@@ -1209,7 +1206,7 @@ namespace Greedy
                 }
             }
         }
-        printf("Total valid core + mag + barrel: %lu / %u\n", validGunCount1, coreCount * magazineCount * barrelCount);
+        printf("%d: Total valid core + mag + barrel: %lu / %u\n", threadId, validGunCount1, coreCount * magazineCount * barrelCount);
         validGunCount2 = 0;
 
         // validGuns1 -> validGuns2 (Parsing core + magazine + barrel + grip)
@@ -1228,7 +1225,7 @@ namespace Greedy
                 }
             }
         }
-        printf("Total valid core + mag + barrel + grip: %lu / %u\n", validGunCount2, coreCount * magazineCount * barrelCount * gripCount);
+        printf("%d: Total valid core + mag + barrel + grip: %lu / %u\n", threadId, validGunCount2, coreCount * magazineCount * barrelCount * gripCount);
         validGunCount1 = 0;
 
         for (int g = 0; g < validGunCount2; g++)
@@ -1242,13 +1239,14 @@ namespace Greedy
                 if (validCombo)
                 {
                     validGunCount1++;
-                    PQ::Push(threadPQ[0], currentGun);
-                    if (PQ::Size(threadPQ[0]) > Input::howManyTopGunsToDisplay)
-                        PQ::Pop(threadPQ[0]);
+                    validGunInThread[threadId]++;
+                    PQ::Push(threadPQ[threadId], currentGun);
+                    if (PQ::Size(threadPQ[threadId]) > Input::howManyTopGunsToDisplay)
+                        PQ::Pop(threadPQ[threadId]);
                 }
             }
         }
-        printf("Total valid core + mag + barrel + grip + stock: %lu / %u\n", validGunCount1, coreCount * magazineCount * barrelCount * gripCount * stockCount);
+        printf("%d: Total valid core + mag + barrel + grip + stock: %lu / %u\n", threadId, validGunCount1, coreCount * magazineCount * barrelCount * gripCount * stockCount);
     }
 }
 
@@ -1257,11 +1255,12 @@ int main(int argc, char* argv[])
     CLI::App app{"A tool to bruteforce all possible stats inside of weird gun game."};
     argv = app.ensure_utf8(argv);
 
-    app.add_option("-f,--file", Input::filepath, "Path to the json file containing the parts data (Default: Data/FullData.json)");
+    app.add_option("-f, --file", Input::filepath, "Path to the json file containing the parts data (Default: Data/FullData.json)");
     app.add_option("-o, --output", Input::outpath, "Path to the output file (Default: Results.txt");
-    app.add_option("-t,--threads", Input::threadsToMake, "Number of threads to use (MAX 16) (Default: 4)");
-    app.add_option("-s,--sort", Input::sortType, "Sorting type (TTK, FIRERATE, SPREAD) (Default: TTK)");
-    app.add_option("-n,--number", Input::howManyTopGunsToDisplay, "Number of top guns to display (Default: 10)");
+    app.add_option("-t, --threads", Input::threadsToMake, "Number of threads to use (MAX 16) (Default: 4)");
+    app.add_option("-s, --sort", Input::sortType, "Sorting type (TTK, FIRERATE, SPREAD) (Default: TTK)");
+    app.add_option("-n, --number", Input::howManyTopGunsToDisplay, "Number of top guns to display (Default: 10)");
+    app.add_option("-m, --method", Input::method, "Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)");
     app.add_option("-i, --include", Input::includeCategories, "Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird)")->required();
 
     app.add_option("--damage", Input::damageRange, "Damage range to filter");
@@ -1342,8 +1341,8 @@ int main(int argc, char* argv[])
     PQ::SetCurrentSortingType(Input::sortType);
     Fast::InitializeIncludeCategories();
     BruteForce::Filter::InitializeMultFlag();
-    Greedy::Filter::InitializeMultFlag();
-    Greedy::HighLow::InitializeHighestAndLowestMultParts();
+    Prune::Filter::InitializeMultFlag();
+    Prune::HighLow::InitializeHighestAndLowestMultParts();
 
     totalCombinations = barrelCount * magazineCount * gripCount * stockCount * coreCount;
     printf("Barrels detected: %d, Magazines detected: %d, Grips detected: %d, Stocks detected: %d, Cores detected: %d\n", barrelCount, magazineCount, gripCount, stockCount, coreCount);
@@ -1352,7 +1351,24 @@ int main(int argc, char* argv[])
 
     auto start = chrono::steady_clock::now();
 
-    Greedy::Run();
+    // Start selected method
+    if (Input::method == "GREEDY")
+    {
+        for (int threadId = 0; threadId < Input::threadsToMake; threadId++)
+            threads[threadId] = std::thread(Prune::Run, threadId);
+    }
+    else if (Input::method == "BRUTEFORCE")
+    {
+        for (int threadId = 0; threadId < Input::threadsToMake; threadId++)
+            threads[threadId] = std::thread(BruteForce::Run, threadId);
+    }
+    else {
+        throw std::invalid_argument("Invalid method");
+    }
+
+    // Wait for all threads to finish
+    for (int threadId = 0; threadId < Input::threadsToMake; threadId++)
+        threads[threadId].join();
 
     auto end = chrono::steady_clock::now();
     auto duration = chrono::duration_cast<chrono::microseconds>(end - start);
@@ -1370,15 +1386,11 @@ int main(int argc, char* argv[])
          << milliseconds << " millisecond(s), and "
          << microseconds << " microsecond(s)\n";
 
-    for (int i = 0; i < 10; i++)
-    {
-        Gun gun = PQ::Pop(threadPQ[0]);
-        gun.CopyAllValues();
-        gun.CalculateAllGunStats();
-        std::cout << gun << std::endl;
-    }
+    uint totalValidGuns = 0;
+    for (int i = 0; i < Input::threadsToMake; i++)
+        totalValidGuns += validGunInThread[i];
+    printf("Total valid gun combinations based on filters: %u / %u\n", totalValidGuns, coreCount * magazineCount * barrelCount * gripCount * stockCount);
 
-    /*
     PQ::topGuns = PQ::Create();
 
     // Combine all thread pqs into topguns
@@ -1415,5 +1427,4 @@ int main(int argc, char* argv[])
         file << g << '\n';
     }
     file.close();
-    */
 }
