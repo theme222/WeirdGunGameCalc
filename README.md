@@ -12,48 +12,64 @@ If you find any gun have stats that are different from the game please notify me
 The data it reads is the output of `FileFormatter.py` that formats the .txt files in RawData scraped using a `DataScreenshotter.py` provided by @zyadak.
 
 ## Compile from source
-### Prerequisits
+### Prerequisites
 g++ that supports c++20 onwards.
 
 ### Libraries
-You will have to download the [json.hpp]('https://github.com/nlohmann/json/blob/develop/single_include/nlohmann/json.hpp') and [CLI11.hpp]('https://github.com/CLIUtils/CLI11/releases') file from the github and add it to a directory called "include".
+You will have to download 2 dependencies:
+
+1. [json.hpp](https://github.com/nlohmann/json/releases)
+2. [CLI11.hpp](https://www.github.com/CLIUtils/CLI11/releases)
+
+And add it to a new directory called `include` in the same directory as `Calculator.cpp`.
 
 ### Run
 ```sh
 g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror
 ```
-No idea how to use cmake
+No idea how to use cmake lol
 
 ## Usage
-Currently only supported on linux (If enough people complain I'll try to compile it to windows). Run by providing options as filters, please use `./Calculator --help` for more info
+Currently only supported on linux (If enough people complain I'll try
+to compile it to windows). Run by providing options as filters. Look in
+`Commands.sh` for example commands to run (Those are the ones I use for the
+`InterestingBuilds` directory.)  You can look at the full list of possible flags
+by running `./Calculator --help`.
 
-## Runtime analysis
-Current method of bruteforcing all possible combinations of WGG requires
-considering all possible combinations of cores, barrels, magazines, grips, and
-stocks (We are ignoring scopes for simplicity and the fact that there currently
-exists only one type of scope that has stats and it is completely useless).
-Assuming the amount of parts is n, and on average there are around equal amount
-of parts per category (There is a bias towards barrels), and the fact that each
-gun must take in consideration of all the bonuses and debuffs of each part by
-running float calculations on every stat which lets assume is a constant value
-c, the total runtime of this is (c(n/5))^5 which comes to O(n^5). I am trying to
-find a way to either cache repeated calculations or implement a more efficient
-algorithm.
+**TL;DR** Prune uses a lot of memory (2 GB+) for fast runtime and doesn't support shotguns. Use Bruteforce by adding `--method BRUTEFORCE` to the command if any of this is a concern.
 
-**O(n^5)** Could be improved but I have no idea how <br/>
-**n** Definitely can be improved and there are plans to reduce this <br/>
-**c** On the brink of being fully optimized anything else that reduces the constant is negligible <br/>
+## Algorithm Analysis
 
-### Current list of optimizations
-- Parallel processing using std::thread
-- String compression by translating into an integer
-- Preloading data into objects and placing them into arrays
-- Iterator doesn't go over parts that have the same name as the core (Because all of its stats get removed)
-- Only calculating required stats that are being compared using integer flags (uint32) (Only calculating the full gun when finished)
-- Sorting guns using std::priority_queue and popping any guns exceeding the number of top guns to be displayed
-- Time to aim and magazine size filters get filtered before calculations begin
-- Penalty calculation uses the values from string compression by indexing a 2 dimensional array
-- Uses sentinels to check if user has provided a specific filter of that type or not
-- All parts are reused and only references to objects get copied over to the main gun (I dare you to find a pass by value more than 8 bytes in size)
+There are currently 2 methods inside of the calculator: Bruteforce and Prune.
 
-If you have any suggestions or improvements, feel free to open an issue or submit a pull request on the GitHub repository.
+### Bruteforce
+
+`O(n^5) Time Complexity`
+`O(n) Memory Complexity`
+
+The way this method works is by iterating through all possible combinations of
+creating a gun. Each gun can have a unique barrel, magazine, grip, stock, and
+core. This is the simplest and first method I derived on solving this. It runs a
+total of (n/5)^5 times causing this method to have an O(n^5) time complexity
+although it doesn't save any extra data thus having a memory complexity of only
+O(n).
+
+### Prune (BETA)
+`O(n^5) Time Complexity`
+`O(n^4) Memory Complexity`
+
+Unlike what the Time and memory complexity suggests, this method is observed to
+deliver much faster runtimes based on how inclusive (or exclusive) the provided
+filters are. It contains a much more complex algorithm that boils down to 3 steps:
+1. It loops through each "level" of creating a gun: (core) -> (core + magazine) -> (core + magazine + barrel) -> (core + magazine + barrel + grip) -> (core + magazine + barrel + grip + stock)
+2. For each level it determines whether or not it is a *valid* combination. This is found by checking each property whether it is within range of the filters provided and whether or not the values can be corrected using the rest of the parts to be within range. The values come from checking the highest and lowest possible combination of parts for each stat. For example: The highest increase for firerate using only stocks is 1.07 while the lowest is 0.75. This check is repeated for all stats for every core type (to account for core incompatibility) and for every level. As an example level 1 (core) would use the best part combination of mag + barrel + grip + stock but for level 3 (core + magazine + barrel), it would instead use the best part combo of grip + stock.
+3. Once it determines whether or not a part is a valid combination, it saves it into a std::vector to be used as a gun basis on the next level.
+
+This method contains a much higher runtime constant than bruteforce, requiring
+both of allocating memory, initializing the best part combo, and copying and
+writing data onto the std::vector. It also has a much higher runtime formula
+being (a \* n/5) + (a \* n/5)^2 + (a \* n/5)^3 + (a \* n/5)^4 + (a \* n/5)^5
+which makes it worse than bruteforce if the a is very close to 1 (if the filters
+are not restrictive enough). It also requires a lot of memory due to the fact
+that we need to save valid combinations from previous levels. The exact amount
+is (n)^4 \* 2 \* sizeof(Gun).
