@@ -5,7 +5,8 @@
 `Updated to Detection Radius Update`<br/>
 `Original data from @zyadak`<br/>
 
-Made using c++ this tool reads data from Data/FullData.json and calculates all possible combinations.
+Made using c++ this tool reads data from Data/FullData.json and calculates all possible combinations of guns in [Weird Gun Game](https://www.roblox.com/games/94590879393563/Weird-Gun-Game-UPDATE). Please note that I am not affiliated with the [Redscape Interactive Projects](https://www.roblox.com/communities/35232296/Redscape-Interactive-Projects#!/about) group and don't have access to the source code of the game. 
+This is purely a personal project in my attempt to learn this language. Any interesting builds will be updated in the `InterestingBuilds` folder.
 If you find any gun have stats that are different from the game please notify me on discord @theme222 or open an issue here on github (Except for any parts that contain pellets. I still have no idea what dark magic formula is used to calculate that).
 
 ## Data
@@ -36,11 +37,12 @@ to compile it to windows). Run by providing options as filters. Look in
 `InterestingBuilds` directory.)  You can look at the full list of possible flags
 by running `./Calculator --help`.
 
-**TL;DR** Prune uses a lot of memory (2 GB+) for fast runtime and doesn't support shotguns. Use Bruteforce by adding `--method BRUTEFORCE` to the command if any of this is a concern.
+
 
 ## Algorithm Analysis
 
 There are currently 2 methods inside of the calculator: Bruteforce and Prune.
+**TL;DR** Prune uses a lot of memory (2 GB+) for fast runtime and doesn't support shotguns. Use Bruteforce by adding `--method BRUTEFORCE` to the command if any of this is a concern.
 
 ### Bruteforce
 
@@ -67,7 +69,7 @@ filters are. It contains a much more complex algorithm that boils down to 3 step
 
 This method contains a much higher runtime constant than bruteforce, requiring
 both of allocating memory, initializing the best part combo, and copying and
-writing data onto the std::vector. It also has a much higher runtime formula
+writing data onto the std::vector. It also has a much higher runtime formula (Although not asymptotically higher)
 being (a \* n/5) + (a \* n/5)^2 + (a \* n/5)^3 + (a \* n/5)^4 + (a \* n/5)^5
 which makes it worse than bruteforce if the a is very close to 1 (if the filters
 are not restrictive enough). It also requires a lot of memory due to the fact
