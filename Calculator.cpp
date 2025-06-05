@@ -1025,7 +1025,7 @@ namespace Prune
         every core category and from a 4 part combo to a 1 part combo.
         */
 
-        // bestPossibleCombo[coreCategoryFast][low / high][4 -> 1]
+        // bestPossibleCombo[coreCategoryFast][low / high][1 -> 4]
         Part bestPossibleCombo[6][2][4] = { // stfu I don't wanna hear it
             {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
             {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
@@ -1094,16 +1094,13 @@ namespace Prune
                         // No *= because I said so
                         bestPossibleCombo[g][0][j] = bestPossibleCombo[g][0][j] * partPairs[i]->first;
                         bestPossibleCombo[g][1][j] = bestPossibleCombo[g][1][j] * partPairs[i]->second;
+
+                        // Pellet damage compensation (ONLY WORKS FOR 1 PELLET)
+                        bestPossibleCombo[g][0][j].damage *= powf(1.01, 1.25);
+                        bestPossibleCombo[g][1][j].damage *= powf(1.01, 1.25);
                     }
                 }
             }
-
-            /*
-            for (int c = 0; c < 6; c++)
-                for (int i = 0; i < 2; i++)
-                    for (int j = 0; j < 4; j++)
-                        std::cout << bestPossibleCombo[c][i][j] << '\n';
-            */
         }
     }
 

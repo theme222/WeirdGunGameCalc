@@ -37,7 +37,11 @@ to compile it to windows). Run by providing options as filters. Look in
 `InterestingBuilds` directory.)  You can look at the full list of possible flags
 by running `./Calculator --help`.
 
+<<<<<<< HEAD
 
+=======
+**TL;DR** Prune uses a lot of memory (2 GB+) for a much faster runtime and doesn't support shotguns. Use Bruteforce by adding `--method BRUTEFORCE` to the command if any of this is a concern.
+>>>>>>> 33c93da (Prune method should now display accurate results that have pellet count = 1)
 
 ## Algorithm Analysis
 
@@ -56,7 +60,7 @@ total of (n/5)^5 times causing this method to have an O(n^5) time complexity
 although it doesn't save any extra data thus having a memory complexity of only
 O(n).
 
-### Prune (BETA)
+### Prune
 `O(n^5) Time Complexity`
 `O(n^4) Memory Complexity`
 
@@ -75,3 +79,10 @@ which makes it worse than bruteforce if the a is very close to 1 (if the filters
 are not restrictive enough). It also requires a lot of memory due to the fact
 that we need to save valid combinations from previous levels. The exact amount
 is (n)^4 \* 2 \* sizeof(Gun).
+
+Please note that Prune method doesn't work when the pellet count is more than 1.
+This means it doesn't work with shotguns and will provide an even worse damage
+estimation than bruteforce. If you want to help enable full shotgun capabillity,
+please go contact rat in the [WGG discord server](https://discord.gg/UtBfweSh)
+and ask him for pellet damage and spread calculation. He ghosted me 3 times
+already I give up.
