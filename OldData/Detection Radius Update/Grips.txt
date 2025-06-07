@@ -153,12 +153,6 @@ Movement_Speed: +3.3%
 Recoil: -15%
 Reload_Speed: -10%
 ---
-Grip: P90
-Fire_Rate: +5%
-Movement_Speed: +2.5%
-Recoil: -10%
-Spread: +20%
----
 
 Category: LMG Grips
 ---
@@ -199,12 +193,6 @@ Fire_Rate: +8%
 Movement_Speed: -2.5%
 Reload_Speed: +15%
 Spread: +5%
----
-Grip: Chauchat
-Damage: +5%
-Movement_Speed: -2.5%
-Recoil: +10%
-Spread: +15%
 ---
 
 Category: Shotgun Grips

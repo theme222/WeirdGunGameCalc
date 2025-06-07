@@ -187,13 +187,6 @@ Recoil: -5%
 Spread: -5%
 Fire_Rate: -5%
 ---
-Barrel: P90
-Fire_Rate: +15%
-Movement_Speed: +2.5%
-Damage: -7.5%
-Recoil: +20%
-Spread: +25%
----
 
 Category: LMG Barrels
 ---
@@ -251,13 +244,6 @@ Barrel: Negev
 Fire_Rate: +15%
 Movement_Speed: -4.5%
 Spread: +25%
----
-Barrel: Chauchat
-Damage: +20%
-Detection_Radius: +10%
-Fire_Rate: -15%
-Movement_Speed: -3%
-Recoil: +25%
 ---
 
 Category: Shotgun Barrels

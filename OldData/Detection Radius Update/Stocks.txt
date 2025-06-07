@@ -169,12 +169,6 @@ Reload_Speed: -10%
 Recoil: +20%
 Spread: +20%
 ---
-Stock: P90
-Fire_Rate: +2.5%
-Movement_Speed: +3%
-Recoil: -5%
-Spread: -5%
----
 
 Category: LMG Stocks
 ---
@@ -213,12 +207,6 @@ Movement_Speed: -5%
 Stock: Negev
 Recoil: -20%
 Reload_Speed: +15%
----
-Stock: Chauchat
-Recoil: -25%
-Reload_Speed: -10%
-Movement_Speed: -3%
-Spread: +10%
 ---
 
 Category: Shotgun Stocks

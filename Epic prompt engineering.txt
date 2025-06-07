@@ -34,7 +34,7 @@ Time_To_Aim: 1.25
 Detection_Radius: 165
 Movement_Speed_Modifier: -10%
 Suppression: 0.9
-Health: +7.5%
+Health: +20%
 Recoil_Hip_Horizontal: -10 - 10
 Recoil_Hip_Vertical: 44 - 55
 Recoil_Aim_Horizontal: -5 - 5

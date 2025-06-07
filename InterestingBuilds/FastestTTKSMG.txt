@@ -1,6 +1,21 @@
 ./Calculator -o InterestingBuilds/FastestTTKSMG.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.049 --recoilAimMax 35 
 Current top 10 guns are: 
-Gun contains[Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Spas-12, Core: Kriss Vector]
+Gun contains[ Barrel: PPSh-41, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Spas-12, Core: Kriss Vector ]
+damage: 14.7141 - 8.82848
+pellets: 1
+fireRate: 1616.67
+adsSpread: 0.92565
+hipfireSpread: 2.178
+reloadTime: 4.6
+magazineSize: 35
+health: 0
+recoilHipVertical: 10.58 - 31.74
+recoilAimVertical: 9.522 - 28.566
+movementSpeed: 0.6
+detectionRadius: 90
+TTK: 0.22268 Seconds
+
+Gun contains[ Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Spas-12, Core: Kriss Vector ]
 damage: 14.4514 - 8.67083
 pellets: 1
 fireRate: 1616.67
@@ -12,23 +27,10 @@ health: 0
 recoilHipVertical: 11.5 - 34.5
 recoilAimVertical: 10.35 - 31.05
 movementSpeed: 0.6
-TTK 0.22268 Seconds
+detectionRadius: 94.5
+TTK: 0.22268 Seconds
 
-Gun contains[Barrel: PPSh-41, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Spas-12, Core: Kriss Vector]
-damage: 14.7141 - 8.82848
-pellets: 1
-fireRate: 1616.67
-adsSpread: 0.92565
-hipfireSpread: 2.178
-reloadTime: 4.6
-magazineSize: 35
-health: 0
-recoilHipVertical: 10.58 - 31.74
-recoilAimVertical: 9.522 - 28.566
-movementSpeed: 0.6
-TTK 0.22268 Seconds
-
-Gun contains[Barrel: PPSh-41, Magazine: PP-19 Bizon, Grip: PPSh-41, Stock: Spas-12, Core: Kriss Vector]
+Gun contains[ Barrel: PPSh-41, Magazine: PP-19 Bizon, Grip: PPSh-41, Stock: Spas-12, Core: Kriss Vector ]
 damage: 14.4514 - 8.67083
 pellets: 1
 fireRate: 1616.67
@@ -40,9 +42,10 @@ health: 0
 recoilHipVertical: 11.5 - 34.5
 recoilAimVertical: 10.35 - 31.05
 movementSpeed: 0.6
-TTK 0.22268 Seconds
+detectionRadius: 90
+TTK: 0.22268 Seconds
 
-Gun contains[Barrel: Type 2a Nambu, Magazine: MP 40, Grip: PPSh-41, Stock: Spas-12, Core: Kriss Vector]
+Gun contains[ Barrel: Type 2a Nambu, Magazine: MP 40, Grip: PPSh-41, Stock: Spas-12, Core: Kriss Vector ]
 damage: 17.0723 - 10.2434
 pellets: 1
 fireRate: 1335.51
@@ -54,51 +57,25 @@ health: 0
 recoilHipVertical: 11.5 - 34.5
 recoilAimVertical: 10.35 - 31.05
 movementSpeed: 1.3
-TTK 0.224633 Seconds
+detectionRadius: 90
+TTK: 0.224633 Seconds
 
-Gun contains[Barrel: PPSh-41, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
-damage: 14.5039 - 8.70236
+Gun contains[ Barrel: Type 2a Nambu, Magazine: P90, Grip: PPSh-41, Stock: Arctic Warfare, Core: Kriss Vector ]
+damage: 14.4744 - 8.68463
 pellets: 1
-fireRate: 1578.72
-adsSpread: 0.92565
-hipfireSpread: 2.178
-reloadTime: 3.174
-magazineSize: 45
+fireRate: 1584
+adsSpread: 1.04069
+hipfireSpread: 2.44868
+reloadTime: 4.186
+magazineSize: 50
 health: 0
-recoilHipVertical: 12.167 - 36.501
-recoilAimVertical: 10.9503 - 32.8509
-movementSpeed: 5.6
-TTK 0.228033 Seconds
+recoilHipVertical: 12.1 - 36.3
+recoilAimVertical: 10.89 - 32.67
+movementSpeed: 6.1
+detectionRadius: 90
+TTK: 0.227273 Seconds
 
-Gun contains[Barrel: PPSh-41, Magazine: PP-19 Bizon, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
-damage: 14.4514 - 8.67083
-pellets: 1
-fireRate: 1578.72
-adsSpread: 0.8415
-hipfireSpread: 1.98
-reloadTime: 5.52
-magazineSize: 64
-health: 0
-recoilHipVertical: 10.58 - 31.74
-recoilAimVertical: 9.522 - 28.566
-movementSpeed: 5.6
-TTK 0.228033 Seconds
-
-Gun contains[Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
-damage: 14.4514 - 8.67083
-pellets: 1
-fireRate: 1578.72
-adsSpread: 0.8415
-hipfireSpread: 1.98
-reloadTime: 3.312
-magazineSize: 30
-health: 0
-recoilHipVertical: 10.58 - 31.74
-recoilAimVertical: 9.522 - 28.566
-movementSpeed: 5.6
-TTK 0.228033 Seconds
-
-Gun contains[Barrel: PPSh-41, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector]
+Gun contains[ Barrel: PPSh-41, Magazine: Hex Spitter, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector ]
 damage: 14.7141 - 8.82848
 pellets: 1
 fireRate: 1578.72
@@ -110,9 +87,55 @@ health: 0
 recoilHipVertical: 9.7336 - 29.2008
 recoilAimVertical: 8.76024 - 26.2807
 movementSpeed: 5.6
-TTK 0.228033 Seconds
+detectionRadius: 90
+TTK: 0.228033 Seconds
 
-Gun contains[Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Type 99, Core: Kriss Vector]
+Gun contains[ Barrel: PPSh-41, Magazine: PP-19 Bizon, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector ]
+damage: 14.4514 - 8.67083
+pellets: 1
+fireRate: 1578.72
+adsSpread: 0.8415
+hipfireSpread: 1.98
+reloadTime: 5.52
+magazineSize: 64
+health: 0
+recoilHipVertical: 10.58 - 31.74
+recoilAimVertical: 9.522 - 28.566
+movementSpeed: 5.6
+detectionRadius: 90
+TTK: 0.228033 Seconds
+
+Gun contains[ Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector ]
+damage: 14.4514 - 8.67083
+pellets: 1
+fireRate: 1578.72
+adsSpread: 0.8415
+hipfireSpread: 1.98
+reloadTime: 3.312
+magazineSize: 30
+health: 0
+recoilHipVertical: 10.58 - 31.74
+recoilAimVertical: 9.522 - 28.566
+movementSpeed: 5.6
+detectionRadius: 94.5
+TTK: 0.228033 Seconds
+
+Gun contains[ Barrel: PPSh-41, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Kriss Vector ]
+damage: 14.5039 - 8.70236
+pellets: 1
+fireRate: 1578.72
+adsSpread: 0.92565
+hipfireSpread: 2.178
+reloadTime: 3.174
+magazineSize: 45
+health: 0
+recoilHipVertical: 12.167 - 36.501
+recoilAimVertical: 10.9503 - 32.8509
+movementSpeed: 5.6
+detectionRadius: 90
+TTK: 0.228033 Seconds
+
+Gun contains[ Barrel: PPSh-41, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Type 99, Core: Kriss Vector ]
 damage: 14.4514 - 8.67083
 pellets: 1
 fireRate: 1567.34
@@ -124,19 +147,6 @@ health: 0
 recoilHipVertical: 12.42 - 37.26
 recoilAimVertical: 11.178 - 33.534
 movementSpeed: 2.6
-TTK 0.229689 Seconds
-
-Gun contains[Barrel: PPSh-41, Magazine: PP-19 Bizon, Grip: PPSh-41, Stock: Type 99, Core: Kriss Vector]
-damage: 14.4514 - 8.67083
-pellets: 1
-fireRate: 1567.34
-adsSpread: 0.8415
-hipfireSpread: 1.98
-reloadTime: 4.1515
-magazineSize: 64
-health: 0
-recoilHipVertical: 12.42 - 37.26
-recoilAimVertical: 11.178 - 33.534
-movementSpeed: 2.6
-TTK 0.229689 Seconds
+detectionRadius: 94.5
+TTK: 0.229689 Seconds
 

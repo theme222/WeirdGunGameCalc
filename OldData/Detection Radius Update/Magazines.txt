@@ -240,15 +240,6 @@ Recoil: -10%
 Spread: -5%
 Damage: -9%
 ---
-Magazine: P90
-Magazine_Size: 50
-Reload_Time: 4
-Fire_Rate: +20%
-Damage: -2.5%
-Movement_Speed: -0.2%
-Recoil: +10%
-Spread: +40%
----
 
 Category: LMG Magazines
 ---
@@ -305,16 +296,6 @@ Reload_Time: 10
 Recoil: -11%
 Spread: -13%
 Movement_Speed: -7%
----
-Magazine: Chauchat
-Magazine_Size: 75
-Reload_Time: 8
-Damage: +25%
-Detection_Radius: +10%
-Fire_Rate: -30%
-Movement_Speed: -5%
-Recoil: +35%
-Spread: +25%
 ---
 
 Category: Shotgun Magazines

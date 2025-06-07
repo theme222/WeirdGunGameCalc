@@ -443,20 +443,6 @@ Recoil_Hip_Vertical: 20 - 45
 Recoil_Aim_Horizontal: -13.5 - 13.5
 Recoil_Aim_Vertical: 18 - 40.5
 ---
-Core: P90
-Damage: 12.5 > 7.5
-Dropoff_Studs: 100 > 135
-Fire_Rate: 1100
-Spread: 2
-ADS_Spread: 0.7
-Time_To_Aim: 0.35
-Detection_Radius: 60
-Movement_Speed_Modifier: +2.5%
-Recoil_Hip_Horizontal: -15 - 15
-Recoil_Hip_Vertical: 60 - 90
-Recoil_Aim_Horizontal: -10.5 - 10.5
-Recoil_Aim_Vertical: 42 - 63
----
 
 Category: LMG
 ---
@@ -470,7 +456,7 @@ Time_To_Aim: 1.25
 Detection_Radius: 155
 Movement_Speed_Modifier: -5.5%
 Suppression: 0.8
-Health: +10%
+Health: +5.5%
 Recoil_Hip_Horizontal: -12 - 12
 Recoil_Hip_Vertical: 37 - 55
 Recoil_Aim_Horizontal: -6 - 6
@@ -486,7 +472,7 @@ Time_To_Aim: 1.25
 Detection_Radius: 155
 Movement_Speed_Modifier: -5%
 Suppression: 0.9
-Health: +18%
+Health: +7.5%
 Recoil_Hip_Horizontal: -12 - 12
 Recoil_Hip_Vertical: 55 - 67
 Recoil_Aim_Horizontal: -7.2 - 7.2
@@ -502,7 +488,7 @@ Time_To_Aim: 1
 Detection_Radius: 125
 Movement_Speed_Modifier: -5%
 Suppression: 0.8
-Health: +10%
+Health: +5%
 Recoil_Hip_Horizontal: -7 - 7
 Recoil_Hip_Vertical: 60 - 70
 Recoil_Aim_Horizontal: -4.2 - 4.2
@@ -518,7 +504,7 @@ Time_To_Aim: 1.25
 Detection_Radius: 165
 Movement_Speed_Modifier: -10%
 Suppression: 0.9
-Health: +20%
+Health: +7.5%
 Recoil_Hip_Horizontal: -10 - 10
 Recoil_Hip_Vertical: 44 - 55
 Recoil_Aim_Horizontal: -5 - 5
@@ -534,7 +520,7 @@ Time_To_Aim: 1.1
 Detection_Radius: 175
 Movement_Speed_Modifier: -5%
 Suppression: 0.9
-Health: +11%
+Health: +5%
 Recoil_Hip_Horizontal: -60 - 60
 Recoil_Hip_Vertical: 80 - 120
 Recoil_Aim_Horizontal: -54 - 54
@@ -550,7 +536,7 @@ Time_To_Aim: 1.25
 Detection_Radius: 125
 Movement_Speed_Modifier: -5%
 Suppression: 0.9
-Health: +15%
+Health: +7.5%
 Recoil_Hip_Horizontal: -16 - 16
 Recoil_Hip_Vertical: 35 - 40
 Recoil_Aim_Horizontal: -9.6 - 9.6
@@ -566,26 +552,11 @@ Time_To_Aim: 1.25
 Detection_Radius: 175
 Movement_Speed_Modifier: -7.5%
 Suppression: 0.9
-Health: +13%
+Health: +7.5%
 Recoil_Hip_Horizontal: -15 - 15
 Recoil_Hip_Vertical: 53 - 76
 Recoil_Aim_Horizontal: -7.5 - 7.5
 Recoil_Aim_Vertical: 26.5 - 38
----
-Core: Chauchat
-Damage: 28 > 23.8
-Dropoff_Studs: 180 > 360
-Fire_Rate: 240
-Spread: 6
-ADS_Spread: 2.5
-Time_To_Aim: 1.36
-Detection_Radius: 180
-Movement_Speed_Modifier: -7%
-Suppression: 1
-Recoil_Hip_Horizontal: -25 - 25
-Recoil_Hip_Vertical: 60 - 90
-Recoil_Aim_Horizontal: -15 - 15
-Recoil_Aim_Vertical: 36 - 54
 ---
 
 Category: Shotgun

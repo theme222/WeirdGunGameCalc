@@ -27,7 +27,7 @@ known_names = {
     'PPSh-41', 'Spas-12', 'Remington 870 Wingmaster', 'M1887', 'M1897 Trench Shotgun', 'Remington 870 Breacher',
     'Remington 870 MCS', 'Remington 870', 'Spas-12 Folded', 'Hex Spitter', 'PP-19 Bizon', 'M1918 BAR', 'G36C',
     'APS', 'MP5', 'Circuit Judge', 'MP5A3', 'Negev', 'M200 Intervention', 'Pistol Pistol', 'Auto-5', 'Croissant',
-    'Loaf', 'Taco', 'Eclair', 'Pastel'
+    'Loaf', 'Taco', 'Eclair', 'Pastel', 'P90', 'Chauchat'
 }
 
 

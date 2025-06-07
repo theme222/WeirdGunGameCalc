@@ -1,6 +1,6 @@
 ./Calculator -o InterestingBuilds/FastestHeadshotSniper.txt -i Sniper --speedMin 0 --damageMin 49.95 --spreadAimMax 0.149 --sort FIRERATE 
 Current top 10 guns are: 
-Gun contains[Barrel: Arctic Warfare, Magazine: Kriss Vector, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield]
+Gun contains[ Barrel: Arctic Warfare, Magazine: Kriss Vector, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield ]
 damage: 56.5654 - 50.9088
 pellets: 1
 fireRate: 57.5
@@ -12,9 +12,10 @@ health: 0
 recoilHipVertical: 135.135 - 180.18
 recoilAimVertical: 54.054 - 72.072
 movementSpeed: 1.98
-TTK 1.04348 Seconds
+detectionRadius: 200
+TTK: 1.04348 Seconds
 
-Gun contains[Barrel: Arctic Warfare, Magazine: Horizontal, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield]
+Gun contains[ Barrel: Arctic Warfare, Magazine: Horizontal, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield ]
 damage: 59.7079 - 53.7371
 pellets: 1
 fireRate: 55
@@ -26,9 +27,10 @@ health: 0
 recoilHipVertical: 126.225 - 168.3
 recoilAimVertical: 50.49 - 67.32
 movementSpeed: 0
-TTK 1.09091 Seconds
+detectionRadius: 200
+TTK: 1.09091 Seconds
 
-Gun contains[Barrel: Remington 700, Magazine: Remington 700, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield]
+Gun contains[ Barrel: Remington 700, Magazine: Remington 700, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield ]
 damage: 57.0572 - 51.3515
 pellets: 1
 fireRate: 55
@@ -40,9 +42,10 @@ health: 0
 recoilHipVertical: 70.5375 - 94.05
 recoilAimVertical: 28.215 - 37.62
 movementSpeed: 0
-TTK 1.09091 Seconds
+detectionRadius: 200
+TTK: 1.09091 Seconds
 
-Gun contains[Barrel: Arctic Warfare, Magazine: MP5, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield]
+Gun contains[ Barrel: Arctic Warfare, Magazine: MP5, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield ]
 damage: 57.1939 - 51.4745
 pellets: 1
 fireRate: 54.5
@@ -54,9 +57,10 @@ health: 0
 recoilHipVertical: 139.59 - 186.12
 recoilAimVertical: 55.836 - 74.448
 movementSpeed: 1.98
-TTK 1.10092 Seconds
+detectionRadius: 200
+TTK: 1.10092 Seconds
 
-Gun contains[Barrel: Arctic Warfare, Magazine: Famas F1, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield]
+Gun contains[ Barrel: Arctic Warfare, Magazine: Famas F1, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield ]
 damage: 59.7079 - 53.7371
 pellets: 1
 fireRate: 53.5
@@ -68,51 +72,10 @@ health: 0
 recoilHipVertical: 163.35 - 217.8
 recoilAimVertical: 65.34 - 87.12
 movementSpeed: 0
-TTK 1.1215 Seconds
+detectionRadius: 200
+TTK: 1.1215 Seconds
 
-Gun contains[Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: AUG, Core: Remington 700]
-damage: 52.025 - 46.8225
-pellets: 1
-fireRate: 53.4188
-adsSpread: 0.137794
-hipfireSpread: 20.669
-reloadTime: 4.025
-magazineSize: 6
-health: 0
-recoilHipVertical: 81.375 - 116.25
-recoilAimVertical: 40.6875 - 58.125
-movementSpeed: 0.75
-TTK 1.1232 Seconds
-
-Gun contains[Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: UMP-40, Core: Remington 700]
-damage: 52.025 - 46.8225
-pellets: 1
-fireRate: 53.4188
-adsSpread: 0.139075
-hipfireSpread: 20.8613
-reloadTime: 4.025
-magazineSize: 6
-health: 0
-recoilHipVertical: 105 - 150
-recoilAimVertical: 52.5 - 75
-movementSpeed: 1.28
-TTK 1.1232 Seconds
-
-Gun contains[Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: PP-19 Bizon, Core: Remington 700]
-damage: 52.025 - 46.8225
-pellets: 1
-fireRate: 53.4188
-adsSpread: 0.147727
-hipfireSpread: 22.1591
-reloadTime: 3.7352
-magazineSize: 6
-health: 0
-recoilHipVertical: 105 - 150
-recoilAimVertical: 52.5 - 75
-movementSpeed: 0.5
-TTK 1.1232 Seconds
-
-Gun contains[Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: MG42, Core: Remington 700]
+Gun contains[ Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: MG42, Core: Remington 700 ]
 damage: 52.025 - 46.8225
 pellets: 1
 fireRate: 53.4188
@@ -124,9 +87,55 @@ health: 0
 recoilHipVertical: 87.5 - 125
 recoilAimVertical: 43.75 - 62.5
 movementSpeed: 1.8
-TTK 1.1232 Seconds
+detectionRadius: 215
+TTK: 1.1232 Seconds
 
-Gun contains[Barrel: PPSh-41, Magazine: Lee Enfield, Grip: M1891 Carcano, Stock: Arctic Warfare, Core: Remington 700]
+Gun contains[ Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: UMP-40, Core: Remington 700 ]
+damage: 52.025 - 46.8225
+pellets: 1
+fireRate: 53.4188
+adsSpread: 0.139075
+hipfireSpread: 20.8613
+reloadTime: 4.025
+magazineSize: 6
+health: 0
+recoilHipVertical: 105 - 150
+recoilAimVertical: 52.5 - 75
+movementSpeed: 1.28
+detectionRadius: 215
+TTK: 1.1232 Seconds
+
+Gun contains[ Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: AUG, Core: Remington 700 ]
+damage: 52.025 - 46.8225
+pellets: 1
+fireRate: 53.4188
+adsSpread: 0.137794
+hipfireSpread: 20.669
+reloadTime: 4.025
+magazineSize: 6
+health: 0
+recoilHipVertical: 81.375 - 116.25
+recoilAimVertical: 40.6875 - 58.125
+movementSpeed: 0.75
+detectionRadius: 215
+TTK: 1.1232 Seconds
+
+Gun contains[ Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: PP-19 Bizon, Core: Remington 700 ]
+damage: 52.025 - 46.8225
+pellets: 1
+fireRate: 53.4188
+adsSpread: 0.147727
+hipfireSpread: 22.1591
+reloadTime: 3.7352
+magazineSize: 6
+health: 0
+recoilHipVertical: 105 - 150
+recoilAimVertical: 52.5 - 75
+movementSpeed: 0.5
+detectionRadius: 215
+TTK: 1.1232 Seconds
+
+Gun contains[ Barrel: PPSh-41, Magazine: Lee Enfield, Grip: M1891 Carcano, Stock: Arctic Warfare, Core: Remington 700 ]
 damage: 52.025 - 46.8225
 pellets: 1
 fireRate: 53.2356
@@ -138,5 +147,6 @@ health: 0
 recoilHipVertical: 110.688 - 158.125
 recoilAimVertical: 55.3438 - 79.0625
 movementSpeed: 0.38
-TTK 1.12707 Seconds
+detectionRadius: 215
+TTK: 1.12707 Seconds
 

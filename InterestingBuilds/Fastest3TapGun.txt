@@ -1,6 +1,6 @@
 ./Calculator -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 
 Current top 10 guns are: 
-Gun contains[Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: Plunger, Core: Fedorov Avtomat]
+Gun contains[ Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: Plunger, Core: Fedorov Avtomat ]
 damage: 34.1423 - 27.3138
 pellets: 1
 fireRate: 360
@@ -12,9 +12,10 @@ health: 0
 recoilHipVertical: 47.25 - 67.5
 recoilAimVertical: 25.9875 - 37.125
 movementSpeed: 0
-TTK 0.333333 Seconds
+detectionRadius: 210
+TTK: 0.333333 Seconds
 
-Gun contains[Barrel: APS, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: Plunger, Core: Fedorov Avtomat]
+Gun contains[ Barrel: APS, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: Plunger, Core: Fedorov Avtomat ]
 damage: 34.7113 - 27.769
 pellets: 1
 fireRate: 340
@@ -26,9 +27,10 @@ health: 0
 recoilHipVertical: 47.25 - 67.5
 recoilAimVertical: 25.9875 - 37.125
 movementSpeed: 0
-TTK 0.352941 Seconds
+detectionRadius: 150
+TTK: 0.352941 Seconds
 
-Gun contains[Barrel: APS, Magazine: The Chief, Grip: Scar L, Stock: Plunger, Core: Fedorov Avtomat]
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Scar L, Stock: Plunger, Core: Fedorov Avtomat ]
 damage: 33.8509 - 27.0807
 pellets: 1
 fireRate: 306
@@ -40,5 +42,6 @@ health: 0
 recoilHipVertical: 49.2188 - 70.3125
 recoilAimVertical: 27.0703 - 38.6719
 movementSpeed: 0
-TTK 0.392157 Seconds
+detectionRadius: 150
+TTK: 0.392157 Seconds
 

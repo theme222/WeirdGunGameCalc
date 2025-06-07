@@ -2,10 +2,10 @@
 > A tool to bruteforce all combinations of guns in the roblox game "Weird Gun Game"
 
 ## About
-`Updated to Detection Radius Update`<br/>
+`Updated to AUG P90 Chauchat Update`<br/>
 `Original data from @zyadak`<br/>
 
-Made using c++ this tool reads data from Data/FullData.json and calculates all possible combinations of guns in [Weird Gun Game](https://www.roblox.com/games/94590879393563/Weird-Gun-Game-UPDATE). Please note that I am not affiliated with the [Redscape Interactive Projects](https://www.roblox.com/communities/35232296/Redscape-Interactive-Projects#!/about) group and don't have access to the source code of the game. 
+Made using c++ this tool reads data from Data/FullData.json and calculates all possible combinations of guns in [Weird Gun Game](https://www.roblox.com/games/94590879393563/Weird-Gun-Game-UPDATE). Please note that I am not affiliated with the [Redscape Interactive Projects](https://www.roblox.com/communities/35232296/Redscape-Interactive-Projects#!/about) group and don't have access to the source code of the game.
 This is purely a personal project in my attempt to learn this language. Any interesting builds will be updated in the `InterestingBuilds` folder.
 If you find any gun have stats that are different from the game please notify me on discord @theme222 or open an issue here on github (Except for any parts that contain pellets. I still have no idea what dark magic formula is used to calculate that).
 
@@ -36,12 +36,6 @@ to compile it to windows). Run by providing options as filters. Look in
 `Commands.sh` for example commands to run (Those are the ones I use for the
 `InterestingBuilds` directory.)  You can look at the full list of possible flags
 by running `./Calculator --help`.
-
-<<<<<<< HEAD
-
-=======
-**TL;DR** Prune uses a lot of memory (2 GB+) for a much faster runtime and doesn't support shotguns. Use Bruteforce by adding `--method BRUTEFORCE` to the command if any of this is a concern.
->>>>>>> 33c93da (Prune method should now display accurate results that have pellet count = 1)
 
 ## Algorithm Analysis
 
