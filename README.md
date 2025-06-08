@@ -32,11 +32,10 @@ x86_64-w64-mingw32-g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator.exe -We
 No idea how to use cmake lol
 
 ## Usage
-Currently only supported on linux (If enough people complain I'll try
-to compile it to windows). Run by providing options as filters. Look in
+Run by providing options as filters. Look in
 `Commands.sh` for example commands to run (Those are the ones I use for the
 `InterestingBuilds` directory.)  You can look at the full list of possible flags
-by running `./Calculator --help`.
+by running `Calculator --help`.
 
 ## Algorithm Analysis
 
