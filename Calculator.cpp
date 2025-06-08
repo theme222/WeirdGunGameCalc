@@ -30,7 +30,7 @@ namespace Input
     std::string filepath = "Data/FullData.json";
     std::string outpath = "Results.txt";
     std::string sortType = "TTK";
-    std::string method = "GREEDY";
+    std::string method = "PRUNE";
 
     std::vector<std::string> includeCategories;
 
@@ -1376,12 +1376,12 @@ int main(int argc, char* argv[])
     totalCombinations = barrelCount * magazineCount * gripCount * stockCount * coreCount;
     printf("Barrels detected: %d, Magazines detected: %d, Grips detected: %d, Stocks detected: %d, Cores detected: %d\n", barrelCount, magazineCount, gripCount, stockCount, coreCount);
     printf("Total of %lu possibilities \n", totalCombinations);
-    printf("Starting bruteforce with %d threads\n", Input::threadsToMake);
+    printf("Starting %s with %d threads\n", Input::method.c_str(), Input::threadsToMake);
 
     auto start = chrono::steady_clock::now();
 
     // Start selected method
-    if (Input::method == "GREEDY")
+    if (Input::method == "PRUNE")
     {
         for (int threadId = 0; threadId < Input::threadsToMake; threadId++)
             threads[threadId] = std::thread(Prune::Run, threadId);
@@ -1415,7 +1415,7 @@ int main(int argc, char* argv[])
          << milliseconds << " millisecond(s), and "
          << microseconds << " microsecond(s)\n";
 
-    uint totalValidGuns = 0;
+    unsigned int totalValidGuns = 0;
     for (int i = 0; i < Input::threadsToMake; i++)
         totalValidGuns += validGunInThread[i];
     printf("Total valid gun combinations based on filters: %u / %u\n", totalValidGuns, coreCount * magazineCount * barrelCount * gripCount * stockCount);

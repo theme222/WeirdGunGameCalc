@@ -26,7 +26,8 @@ And add it to a new directory called `include` in the same directory as `Calcula
 
 ### Run
 ```sh
-g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror
+g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror -static # Linux 4 Linux
+x86_64-w64-mingw32-g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator.exe -Werror -static  # Linux 4 Windows
 ```
 No idea how to use cmake lol
 
