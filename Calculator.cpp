@@ -24,6 +24,13 @@ typedef std::pair<float, float> fpair;
 #define NILMIN -69420.5f
 #define NILMAX 69420.5f
 #define NILRANGE {NILMIN, NILMAX} // Hehehheheh who says programmers can't have fun
+#define NILINT -1
+
+void JoinString(const std::vector<std::string>& strings, std::string& result)
+{
+    for (int i = 0; i < strings.size(); i++)
+        result += strings[i] + (i < strings.size() - 1 ? " " : "");
+}
 
 namespace Input
 {
@@ -31,6 +38,14 @@ namespace Input
     std::string outpath = "Results.txt";
     std::string sortType = "TTK";
     std::string method = "PRUNE";
+
+    // These handle if the users force a specific part to be included
+    // std::vector<std::string> is used incase the name has spaces.
+    std::vector<std::string> forceBarrel;
+    std::vector<std::string> forceMagazine;
+    std::vector<std::string> forceCore;
+    std::vector<std::string> forceStock;
+    std::vector<std::string> forceGrip;
 
     std::vector<std::string> includeCategories;
 
@@ -75,6 +90,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
     };
 
     bool includeCategories_fast[6] = {false, false, false, false, false, false};
+    int forceParts_fast[5] = {NILINT, NILINT, NILINT, NILINT, NILINT}; // Barrel Magazine Grip Stock Core
 
     enum MultFlags {
         DAMAGE = 1<<0,
@@ -125,6 +141,52 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             if (!fastifyCategory.contains(category))
                 throw std::invalid_argument("Category " + category + " doesn't exist");
             includeCategories_fast[fastifyCategory[category]] = true;
+        }
+    }
+
+    void InitializeForceParts()
+    {
+        std::string forceBarrel = "";
+        std::string forceMagazine = "";
+        std::string forceGrip = "";
+        std::string forceStock = "";
+        std::string forceCore = "";
+
+        JoinString(Input::forceBarrel, forceBarrel);
+        JoinString(Input::forceMagazine, forceMagazine);
+        JoinString(Input::forceGrip, forceGrip);
+        JoinString(Input::forceStock, forceStock);
+        JoinString(Input::forceCore, forceCore);
+
+        if (forceBarrel != "")
+        {
+            if (!fastifyName.contains(forceBarrel))
+                throw std::invalid_argument("Barrel " + forceBarrel + " doesn't exist");
+            forceParts_fast[0] = fastifyName[forceBarrel];
+        }
+        if (forceMagazine != "")
+        {
+            if (!fastifyName.contains(forceMagazine))
+                throw std::invalid_argument("Magazine " + forceMagazine + " doesn't exist");
+            forceParts_fast[1] = fastifyName[forceMagazine];
+        }
+        if (forceGrip != "")
+        {
+            if (!fastifyName.contains(forceGrip))
+                throw std::invalid_argument("Grip " + forceGrip + " doesn't exist");
+            forceParts_fast[2] = fastifyName[forceGrip];
+        }
+        if (forceStock != "")
+        {
+            if (!fastifyName.contains(forceStock))
+                throw std::invalid_argument("Stock " + forceStock + " doesn't exist");
+            forceParts_fast[3] = fastifyName[forceStock];
+        }
+        if (forceCore != "")
+        {
+            if (!fastifyName.contains(forceCore))
+                throw std::invalid_argument("Core " + forceCore + " doesn't exist");
+            forceParts_fast[4] = fastifyName[forceCore];
         }
     }
 
@@ -919,6 +981,14 @@ namespace BruteForce
         bool PreFilter(Barrel* b, Magazine* m, Grip* g, Stock* s, Core* c)
         {
             using Fast::RangeFilter;
+
+            // Make sure the parts are the selected parts
+            if (Fast::forceParts_fast[0] != NILINT && b->name_fast != Fast::forceParts_fast[0]) return false;
+            if (Fast::forceParts_fast[1] != NILINT && m->name_fast != Fast::forceParts_fast[1]) return false;
+            if (Fast::forceParts_fast[2] != NILINT && g->name_fast != Fast::forceParts_fast[2]) return false;
+            if (Fast::forceParts_fast[3] != NILINT && s->name_fast != Fast::forceParts_fast[3]) return false;
+            if (Fast::forceParts_fast[4] != NILINT && c->name_fast != Fast::forceParts_fast[4]) return false;
+
             if (!Fast::includeCategories_fast[c->category_fast]) return false;
             if (!RangeFilter(c->timeToAim, Input::timeToAimRange)) return false;
             if (!RangeFilter(m->magazineSize, Input::magazineRange)) return false;
@@ -1009,6 +1079,7 @@ namespace Prune
 
         bool CoreFilter(Core *core) // These filters require no gun calculation and can be immediately checked on the part itself
         {
+            if (Fast::forceParts_fast[4] != NILINT && Fast::forceParts_fast[4] != core->name_fast) return false;
             if (!Fast::includeCategories_fast[core->category_fast]) return false;
             if (!Fast::RangeFilter(core->timeToAim, Input::timeToAimRange)) return false;
             return true;
@@ -1016,7 +1087,26 @@ namespace Prune
 
         bool MagazineFilter(Magazine *magazine)
         {
+            if (Fast::forceParts_fast[1] != NILINT && Fast::forceParts_fast[1] != magazine->name_fast) return false;
             if (!Fast::RangeFilter(magazine->magazineSize, Input::magazineRange)) return false;
+            return true;
+        }
+
+        bool BarrelFilter(Barrel *barrel)
+        {
+            if (Fast::forceParts_fast[0] != NILINT && Fast::forceParts_fast[0] != barrel->name_fast) return false;
+            return true;
+        }
+
+        bool GripFilter(Grip *grip)
+        {
+            if (Fast::forceParts_fast[2] != NILINT && Fast::forceParts_fast[2] != grip->name_fast) return false;
+            return true;
+        }
+
+        bool StockFilter(Stock *stock)
+        {
+            if (Fast::forceParts_fast[3] != NILINT && Fast::forceParts_fast[3] != stock->name_fast) return false;
             return true;
         }
 
@@ -1221,6 +1311,7 @@ namespace Prune
         {
             for (int b = 0; b < barrelCount; b++)
             {
+                if (!Filter::BarrelFilter(barrelList + b)) continue;
                 Gun currentGun = validGuns2[g]; // Copies over from the old vector
                 currentGun.barrel = barrelList + b;
                 currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.barrel);
@@ -1240,6 +1331,7 @@ namespace Prune
         {
             for (int gr = 0; gr < gripCount; gr++)
             {
+                if (!Filter::GripFilter(gripList + gr)) continue;
                 Gun currentGun = validGuns1[g]; // Copies over from the old vector
                 currentGun.grip = gripList + gr;
                 currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.grip);
@@ -1254,10 +1346,12 @@ namespace Prune
         printf("%d: Total valid core + mag + barrel + grip: %lu / %u\n", threadId, validGunCount2, coreCount * magazineCount * barrelCount * gripCount);
         validGunCount1 = 0;
 
+        // validGuns2 * stocks -> Outputs to PQ
         for (int g = 0; g < validGunCount2; g++)
         {
             for (int s = 0; s < stockCount; s++)
             {
+                if (!Filter::StockFilter(stockList + s)) continue;
                 Gun currentGun = validGuns2[g]; // Copies over from the old vector
                 currentGun.stock = stockList + s;
                 currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.stock);
@@ -1288,6 +1382,12 @@ int main(int argc, char* argv[])
     app.add_option("-n, --number", Input::howManyTopGunsToDisplay, "Number of top guns to display (Default: 10)");
     app.add_option("-m, --method", Input::method, "Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)");
     app.add_option("-i, --include", Input::includeCategories, "Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird)")->required();
+
+    app.add_option("--fb, --forceBarrel", Input::forceBarrel, "Force the calculator to use a specific barrel");
+    app.add_option("--fm, --forceMagazine", Input::forceMagazine, "Force the calculator to use a specific magazine");
+    app.add_option("--fg, --forceGrip", Input::forceGrip, "Force the calculator to use a specific grip");
+    app.add_option("--fs, --forceStock", Input::forceStock, "Force the calculator to use a specific stock");
+    app.add_option("--fc, --forceCore", Input::forceCore, "Force the calculator to use a specific core");
 
     app.add_option("--damage", Input::damageRange, "Damage range to filter");
     app.add_option("--damageMin", Input::damageRange.first);
@@ -1369,6 +1469,7 @@ int main(int argc, char* argv[])
     puts("Initializing required data");
     PQ::SetCurrentSortingType(Input::sortType);
     Fast::InitializeIncludeCategories();
+    Fast::InitializeForceParts();
     BruteForce::Filter::InitializeMultFlag();
     Prune::Filter::InitializeMultFlag();
     Prune::HighLow::InitializeHighestAndLowestMultParts();

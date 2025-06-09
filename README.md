@@ -26,6 +26,7 @@ And add it to a new directory called `include` in the same directory as `Calcula
 
 ### Run
 ```sh
+# If compiling locally -static is useless and will only increase binary size.
 g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror -static # Linux 4 Linux
 x86_64-w64-mingw32-g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator.exe -Werror -static  # Linux 4 Windows
 ```
@@ -58,21 +59,25 @@ O(n).
 `O(n^5) Time Complexity`
 `O(n^4) Memory Complexity`
 
-Unlike what the Time and memory complexity suggests, this method is observed to
-deliver much faster runtimes based on how inclusive (or exclusive) the provided
-filters are. It contains a much more complex algorithm that boils down to 3 steps:
+This method takes advantage of the fact that only a small portion of the
+possible combinations are remotely useful. It directly benefits from adding more
+and more precise filters to remove unnecessary calculations. Unlike what the
+Time and memory complexity suggests, this method is observed to deliver much
+faster runtimes based on how inclusive (or exclusive) the provided filters are.
+It contains a much more complex algorithm that boils down to 3 steps:
 1. It loops through each "level" of creating a gun: (core) -> (core + magazine) -> (core + magazine + barrel) -> (core + magazine + barrel + grip) -> (core + magazine + barrel + grip + stock)
 2. For each level it determines whether or not it is a *valid* combination. This is found by checking each property whether it is within range of the filters provided and whether or not the values can be corrected using the rest of the parts to be within range. The values come from checking the highest and lowest possible combination of parts for each stat. For example: The highest increase for firerate using only stocks is 1.07 while the lowest is 0.75. This check is repeated for all stats for every core type (to account for core incompatibility) and for every level. As an example level 1 (core) would use the best part combination of mag + barrel + grip + stock but for level 3 (core + magazine + barrel), it would instead use the best part combo of grip + stock.
 3. Once it determines whether or not a part is a valid combination, it saves it into a std::vector to be used as a gun basis on the next level.
 
 This method contains a much higher runtime constant than bruteforce, requiring
-both of allocating memory, initializing the best part combo, and copying and
-writing data onto the std::vector. It also has a much higher runtime formula (Although not asymptotically higher)
-being (a \* n/5) + (a \* n/5)^2 + (a \* n/5)^3 + (a \* n/5)^4 + (a \* n/5)^5
-which makes it worse than bruteforce if the a is very close to 1 (if the filters
+both of allocating memory, and copying and writing data onto the std::vector. It
+also has a much higher runtime formula (Although not asymptotically higher)
+being `(a \* n/5) + (a \* n/5)^2 + (a \* n/5)^3 + (a \* n/5)^4 + (a \* n/5)^5`
+which makes it worse than bruteforce if the `a` is very close to 1 (if the filters
 are not restrictive enough). It also requires a lot of memory due to the fact
 that we need to save valid combinations from previous levels. The exact amount
-is (n)^4 \* 2 \* sizeof(Gun).
+is `(n)^4 \* 2 \* sizeof(Gun)` bytes (I am planning on making the memory usage
+scale to the filters provided instead of allocating it all fully at the start).
 
 Please note that Prune method doesn't work when the pellet count is more than 1.
 This means it doesn't work with shotguns and will provide an even worse damage
