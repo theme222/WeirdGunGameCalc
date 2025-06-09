@@ -55,14 +55,14 @@ You can also look for some example commands that I use to fill the `InterestingB
 This is the full list of flags supported:
 ```sh
 # Result of Calculator --help (Slightly modified to look better because it's kinda ugly. Lookin at you CLI11)
--h,     --help              Print this help message and exit
--f,     --file TEXT         Path to the json file containing the parts data (Default: Data/FullData.json)
--o,     --output TEXT       Path to the output file (Default: Results.txt
--t,     --threads INT       Number of threads to use (Default: 4) (Max: 16)
--s,     --sort TEXT         Sorting type (TTK, FIRERATE, SPREAD) (Default: TTK)
--n,     --number INT        Number of top guns to display (Default: 10)
--m,     --method TEXT       Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)
--i,     --include TEXT ...  Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird) (REQUIRED)
+-h, --help              Print this help message and exit
+-f, --file TEXT         Path to the json file containing the parts data (Default: Data/FullData.json)
+-o, --output TEXT       Path to the output file (Default: Results.txt)
+-t, --threads INT       Number of threads to use (Default: 4) (Max: 16)
+-s, --sort TEXT         Sorting type (TTK, FIRERATE, SPREAD) (Default: TTK)
+-n, --number INT        Number of top guns to display (Default: 10)
+-m, --method TEXT       Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)
+-i, --include TEXT ...  Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird) (REQUIRED)
 
 # This section is case sensitive (Technically everything is lol). Please use the exact name that is shown inside of the game.
 --fb, --forceBarrel TEXT ... Force the calculator to use a specific barrel
