@@ -26,17 +26,78 @@ And add it to a new directory called `include` in the same directory as `Calcula
 
 ### Run
 ```sh
-# If compiling locally -static is useless and will only increase binary size.
-g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror -static # Linux 4 Linux
-x86_64-w64-mingw32-g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator.exe -Werror -static  # Linux 4 Windows
+# If compiling for use locally -static is useless and will only increase binary size.
+# Linux for Linux
+g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror -static
+# Linux for Windows
+x86_64-w64-mingw32-g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator.exe -Werror -static
 ```
 No idea how to use cmake lol
 
 ## Usage
-Run by providing options as filters. Look in
-`Commands.sh` for example commands to run (Those are the ones I use for the
-`InterestingBuilds` directory.)  You can look at the full list of possible flags
-by running `Calculator --help`.
+
+Download (or clone) this repository and get the [latest
+release](https://github.com/theme222/WeirdGunGameCalc/releases) that corresponds
+to your operating system (Currently only supported on Linux and Windows) and
+place it in the directory that you downloaded. Run the binary / executable on
+the command line by running `./Calculator` or `Calculator.exe` depending on your
+operating system. Provide filters as flags by adding `--<filter_name> <value>`
+to the command. To test if you installed it correctly, run it with `--help`.
+
+Filters can contain both a minimum amount and a maximum amount. They can be added in 2 ways:
+1. Using the `--<filter_name> <min value> <max value>` flag.
+2. Using the `--<filter_name><min or max> <value>` flag.
+
+You may also force a specific part type using the `--force<part type> <part name (CASE SENSITIVE)>`
+
+You can also look for some example commands that I use to fill the `InterestingBuilds` directory in the `Commands.sh` file.
+
+This is the full list of flags supported:
+```sh
+# Result of Calculator --help (Slightly modified to look better because it's kinda ugly. Lookin at you CLI11)
+-h,     --help              Print this help message and exit
+-f,     --file TEXT         Path to the json file containing the parts data (Default: Data/FullData.json)
+-o,     --output TEXT       Path to the output file (Default: Results.txt
+-t,     --threads INT       Number of threads to use (Default: 4) (Max: 16)
+-s,     --sort TEXT         Sorting type (TTK, FIRERATE, SPREAD) (Default: TTK)
+-n,     --number INT        Number of top guns to display (Default: 10)
+-m,     --method TEXT       Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)
+-i,     --include TEXT ...  Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird) (REQUIRED)
+
+# This section is case sensitive (Technically everything is lol). Please use the exact name that is shown inside of the game.
+--fb, --forceBarrel TEXT ... Force the calculator to use a specific barrel
+--fm, --forceMagazine TEXT ... Force the calculator to use a specific magazine
+--fg, --forceGrip TEXT ... Force the calculator to use a specific grip
+--fs, --forceStock TEXT ... Force the calculator to use a specific stock
+--fc, --forceCore TEXT ... Force the calculator to use a specific core
+
+--damage [FLOAT,FLOAT] Damage range to filter
+--damageMin FLOAT --damageMax FLOAT
+--magazine [FLOAT,FLOAT] Size of magazine to filter
+--magazineMin FLOAT --magazineMax FLOAT
+--spreadHip [FLOAT,FLOAT] Spread range to filter (HIP)
+--spreadHipMin FLOAT --spreadHipMax FLOAT
+--spreadAim [FLOAT,FLOAT] Spread range to filter (AIM)
+--spreadAimMin FLOAT --spreadAimMax FLOAT
+--recoilHip [FLOAT,FLOAT] Recoil range to filter (HIP)
+--recoilHipMin FLOAT --recoilHipMax FLOAT
+--recoilAim [FLOAT,FLOAT] Recoil range to filter (AIM)
+--recoilAimMin FLOAT --recoilAimMax FLOAT
+--speed [FLOAT,FLOAT] Movement speed range to filter
+--speedMin FLOAT --speedMax FLOAT
+--fireRate [FLOAT,FLOAT] Fire rate range to filter
+--fireRateMin FLOAT --fireRateMax FLOAT
+--health [FLOAT,FLOAT] Health range to filter
+--healthMin FLOAT --healthMax FLOAT
+--pellet [FLOAT,FLOAT] Pellet range to filter
+--pelletMin FLOAT --pelletMax FLOAT
+--timeToAim [FLOAT,FLOAT] Time to aim range to filter
+--timeToAimMin FLOAT --timeToAimMax FLOAT
+--reload [FLOAT,FLOAT] Reload time to filter
+--reloadMin FLOAT --reloadMax FLOAT
+--detectionRadius [FLOAT,FLOAT] Detection radius range to filter (Why would you even use this?)
+--detectionRadiusMin FLOAT --detectionRadiusMax FLOAT
+```
 
 ## Algorithm Analysis
 
