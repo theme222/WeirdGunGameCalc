@@ -1388,8 +1388,8 @@
       "Category": "SMG",
       "Name": "Kriss Vector",
       "Damage": [
-        12.5,
-        7.5
+        12,
+        7.2
       ],
       "Dropoff_Studs": [
         100,

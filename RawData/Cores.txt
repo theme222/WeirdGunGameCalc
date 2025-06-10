@@ -376,7 +376,7 @@ Recoil_Aim_Horizontal: -20 - 20
 Recoil_Aim_Vertical: 24 - 48
 ---
 Core: Kriss Vector
-Damage: 12.5 > 7.5
+Damage: 12 > 7.2
 Dropoff_Studs: 100 > 135
 Fire_Rate: 1200
 Hipfire_Spread: 2
