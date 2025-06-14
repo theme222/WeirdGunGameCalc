@@ -1,7 +1,56 @@
 ./Calculator -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper --damageMin 99.95 --spreadAimMax 0.149 --sort FIRERATE 
 Current top 10 guns are: 
+Gun contains[ Barrel: Oil, Magazine: Scar H, Grip: Chauchat, Stock: Taco, Core: Arctic Warfare ]
+damage: 101.286 - 91.1578
+dropoffStuds: 500 - 750
+pellets: 1
+fireRate: 28.5
+adsSpread: 0.1035
+hipfireSpread: 31.05
+reloadTime: 4.95
+magazineSize: 20
+health: 10
+recoilHipVertical: 148.5 - 198
+recoilAimVertical: 74.25 - 99
+movementSpeed: -22.5
+detectionRadius: 412.5
+TTK: 0 Seconds
+
+Gun contains[ Barrel: Oil, Magazine: Remington 700, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
+damage: 102.352 - 92.1167
+dropoffStuds: 750 - 1125
+pellets: 1
+fireRate: 28.5
+adsSpread: 0.091125
+hipfireSpread: 27.3375
+reloadTime: 3.85
+magazineSize: 10
+health: 10
+recoilHipVertical: 81 - 108
+recoilAimVertical: 40.5 - 54
+movementSpeed: -20
+detectionRadius: 375
+TTK: 0 Seconds
+
+Gun contains[ Barrel: Oil, Magazine: Scar H, Grip: Type 2a Nambu, Stock: Taco, Core: Arctic Warfare ]
+damage: 100.897 - 90.8072
+dropoffStuds: 500 - 750
+pellets: 1
+fireRate: 28.5
+adsSpread: 0.09
+hipfireSpread: 27
+reloadTime: 4.95
+magazineSize: 20
+health: 2.5
+recoilHipVertical: 166.05 - 221.4
+recoilAimVertical: 83.025 - 110.7
+movementSpeed: -20
+detectionRadius: 412.5
+TTK: 0 Seconds
+
 Gun contains[ Barrel: Oil, Magazine: Scar H, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
-damage: 100.587 - 90.5285
+damage: 103.234 - 92.9108
+dropoffStuds: 500 - 750
 pellets: 1
 fireRate: 28.5
 adsSpread: 0.1215
@@ -15,8 +64,41 @@ movementSpeed: -20
 detectionRadius: 412.5
 TTK: 0 Seconds
 
+Gun contains[ Barrel: Oil, Magazine: Scar H, Grip: MP 40, Stock: Taco, Core: Arctic Warfare ]
+damage: 100.313 - 90.2813
+dropoffStuds: 500 - 750
+pellets: 1
+fireRate: 28.5
+adsSpread: 0.117
+hipfireSpread: 35.1
+reloadTime: 4.95
+magazineSize: 20
+health: 10
+recoilHipVertical: 175.5 - 234
+recoilAimVertical: 87.75 - 117
+movementSpeed: -20
+detectionRadius: 412.5
+TTK: 0 Seconds
+
+Gun contains[ Barrel: Oil, Magazine: Improvised, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
+damage: 101.47 - 91.3226
+dropoffStuds: 500 - 750
+pellets: 1
+fireRate: 28.5
+adsSpread: 0.139725
+hipfireSpread: 41.9175
+reloadTime: 0.88
+magazineSize: 10
+health: 10
+recoilHipVertical: 108 - 144
+recoilAimVertical: 54 - 72
+movementSpeed: -15
+detectionRadius: 375
+TTK: 0 Seconds
+
 Gun contains[ Barrel: Oil, Magazine: Remington 700, Grip: Chauchat, Stock: Taco, Core: Arctic Warfare ]
 damage: 100.421 - 90.3786
+dropoffStuds: 750 - 1125
 pellets: 1
 fireRate: 28.5
 adsSpread: 0.077625
@@ -32,6 +114,7 @@ TTK: 0 Seconds
 
 Gun contains[ Barrel: Oil, Magazine: Remington 700, Grip: Type 2a Nambu, Stock: Taco, Core: Arctic Warfare ]
 damage: 100.034 - 90.031
+dropoffStuds: 750 - 1125
 pellets: 1
 fireRate: 28.5
 adsSpread: 0.0675
@@ -45,108 +128,35 @@ movementSpeed: -20
 detectionRadius: 375
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Oil, Magazine: Improvised, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
-damage: 101.47 - 91.3226
+Gun contains[ Barrel: Oil, Magazine: Dragunov, Grip: M1891 Carcano, Stock: Taco, Core: Arctic Warfare ]
+damage: 100.928 - 90.8356
+dropoffStuds: 555.25 - 832.875
 pellets: 1
-fireRate: 28.5
-adsSpread: 0.139725
-hipfireSpread: 41.9175
-reloadTime: 0.88
+fireRate: 27.2745
+adsSpread: 0.117
+hipfireSpread: 35.1
+reloadTime: 4.301
 magazineSize: 10
 health: 10
-recoilHipVertical: 108 - 144
-recoilAimVertical: 54 - 72
-movementSpeed: -15
-detectionRadius: 375
-TTK: 0 Seconds
-
-Gun contains[ Barrel: Oil, Magazine: Remington 700, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
-damage: 102.352 - 92.1167
-pellets: 1
-fireRate: 28.5
-adsSpread: 0.091125
-hipfireSpread: 27.3375
-reloadTime: 3.85
-magazineSize: 10
-health: 10
-recoilHipVertical: 81 - 108
-recoilAimVertical: 40.5 - 54
+recoilHipVertical: 104.328 - 139.104
+recoilAimVertical: 52.164 - 69.552
 movementSpeed: -20
-detectionRadius: 375
+detectionRadius: 450
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Oil, Magazine: Fedorov Avtomat, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
-damage: 100.587 - 90.5285
+Gun contains[ Barrel: Oil, Magazine: M1Garand, Grip: The Chief, Stock: Taco, Core: Arctic Warfare ]
+damage: 100.881 - 90.7927
+dropoffStuds: 555.25 - 832.875
 pellets: 1
 fireRate: 27.075
-adsSpread: 0.1215
-hipfireSpread: 36.45
+adsSpread: 0.0679388
+hipfireSpread: 20.3816
 reloadTime: 4.4
-magazineSize: 25
+magazineSize: 8
 health: 10
-recoilHipVertical: 135 - 180
-recoilAimVertical: 67.5 - 90
-movementSpeed: -20
-detectionRadius: 442.5
-TTK: 0 Seconds
-
-Gun contains[ Barrel: Oil, Magazine: M1918 BAR, Grip: Circuit Judge, Stock: APS, Core: Arctic Warfare ]
-damage: 100.298 - 90.2686
-pellets: 1
-fireRate: 27
-adsSpread: 0.144788
-hipfireSpread: 43.4362
-reloadTime: 4
-magazineSize: 20
-health: 0
-recoilHipVertical: 128.7 - 171.6
-recoilAimVertical: 64.35 - 85.8
-movementSpeed: -20.5
-detectionRadius: 375
-TTK: 0 Seconds
-
-Gun contains[ Barrel: Oil, Magazine: M200 Intervention, Grip: Lee Enfield, Stock: Taco, Core: Arctic Warfare ]
-damage: 104.05 - 93.645
-pellets: 1
-fireRate: 26.22
-adsSpread: 0.144
-hipfireSpread: 43.2
-reloadTime: 6.6
-magazineSize: 5
-health: 10
-recoilHipVertical: 172.8 - 230.4
-recoilAimVertical: 86.4 - 115.2
+recoilHipVertical: 145.8 - 194.4
+recoilAimVertical: 72.9 - 97.2
 movementSpeed: -20
 detectionRadius: 375
-TTK: 0 Seconds
-
-Gun contains[ Barrel: Oil, Magazine: The Chief, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
-damage: 100.587 - 90.5285
-pellets: 1
-fireRate: 25.65
-adsSpread: 0.1215
-hipfireSpread: 36.45
-reloadTime: 5.225
-magazineSize: 36
-health: 10
-recoilHipVertical: 135 - 180
-recoilAimVertical: 67.5 - 90
-movementSpeed: -20
-detectionRadius: 375
-TTK: 0 Seconds
-
-Gun contains[ Barrel: Water Pipe, Magazine: Improvised, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
-damage: 101.47 - 91.3226
-pellets: 1
-fireRate: 25.65
-adsSpread: 0.116438
-hipfireSpread: 34.9313
-reloadTime: 0.88
-magazineSize: 10
-health: 10
-recoilHipVertical: 108 - 144
-recoilAimVertical: 54 - 72
-movementSpeed: 0
-detectionRadius: 525
 TTK: 0 Seconds
 

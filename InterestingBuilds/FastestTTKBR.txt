@@ -1,0 +1,162 @@
+./Calculator -o InterestingBuilds/FastestTTKBR.txt -i BR --speedMin -10 --spreadAimMax 0.8 --recoilAimMax 30 --magazineMin 20 
+Current top 10 guns are: 
+Gun contains[ Barrel: Shower, Magazine: Scar H, Grip: M1Garand, Stock: M1897 Trench Shotgun, Core: Dragunov ]
+damage: 53.6163 - 30.8932
+dropoffStuds: 140 - 600
+pellets: 2
+fireRate: 659.405
+adsSpread: 0.75
+hipfireSpread: 0
+reloadTime: 5.625
+magazineSize: 20
+health: 0
+recoilHipVertical: 12.2188 - 15.4531
+recoilAimVertical: 7.33125 - 9.27187
+movementSpeed: -10
+detectionRadius: 132
+TTK: 0.0909911 Seconds
+
+Gun contains[ Barrel: Shower, Magazine: Fedorov Avtomat, Grip: M1Garand, Stock: M1897 Trench Shotgun, Core: Dragunov ]
+damage: 51.3823 - 29.606
+dropoffStuds: 152.6 - 654
+pellets: 2
+fireRate: 659.405
+adsSpread: 0.75
+hipfireSpread: 0
+reloadTime: 5
+magazineSize: 25
+health: 0
+recoilHipVertical: 12.0232 - 15.2059
+recoilAimVertical: 7.21395 - 9.12352
+movementSpeed: -10
+detectionRadius: 139.2
+TTK: 0.0909911 Seconds
+
+Gun contains[ Barrel: Shower, Magazine: Fedorov Avtomat, Grip: M1891 Carcano, Stock: Fedorov Avtomat, Core: Dragunov ]
+damage: 51.3823 - 29.606
+dropoffStuds: 152.6 - 654
+pellets: 2
+fireRate: 656.208
+adsSpread: 0.78
+hipfireSpread: 0
+reloadTime: 6.9
+magazineSize: 25
+health: 0
+recoilHipVertical: 9.4095 - 11.9002
+recoilAimVertical: 5.6457 - 7.14015
+movementSpeed: -3.6
+detectionRadius: 139.2
+TTK: 0.0914344 Seconds
+
+Gun contains[ Barrel: Shower, Magazine: Scar H, Grip: M1891 Carcano, Stock: Fedorov Avtomat, Core: Dragunov ]
+damage: 53.6163 - 30.8932
+dropoffStuds: 140 - 600
+pellets: 2
+fireRate: 656.208
+adsSpread: 0.78
+hipfireSpread: 0
+reloadTime: 7.7625
+magazineSize: 20
+health: 0
+recoilHipVertical: 9.5625 - 12.0938
+recoilAimVertical: 5.7375 - 7.25625
+movementSpeed: -3.6
+detectionRadius: 132
+TTK: 0.0914344 Seconds
+
+Gun contains[ Barrel: Shower, Magazine: Scar H, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Dragunov ]
+damage: 53.6163 - 30.8932
+dropoffStuds: 140 - 600
+pellets: 2
+fireRate: 653.299
+adsSpread: 0.6975
+hipfireSpread: 0
+reloadTime: 6.46875
+magazineSize: 20
+health: 0
+recoilHipVertical: 12.2188 - 15.4531
+recoilAimVertical: 7.33125 - 9.27187
+movementSpeed: -7
+detectionRadius: 132
+TTK: 0.0918415 Seconds
+
+Gun contains[ Barrel: Shower, Magazine: Fedorov Avtomat, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Dragunov ]
+damage: 51.3823 - 29.606
+dropoffStuds: 152.6 - 654
+pellets: 2
+fireRate: 653.299
+adsSpread: 0.6975
+hipfireSpread: 0
+reloadTime: 5.75
+magazineSize: 25
+health: 0
+recoilHipVertical: 12.0232 - 15.2059
+recoilAimVertical: 7.21395 - 9.12352
+movementSpeed: -7
+detectionRadius: 139.2
+TTK: 0.0918415 Seconds
+
+Gun contains[ Barrel: Shower, Magazine: Fedorov Avtomat, Grip: M1Garand, Stock: Fedorov Avtomat, Core: Dragunov ]
+damage: 51.3823 - 29.606
+dropoffStuds: 152.6 - 654
+pellets: 2
+fireRate: 653.184
+adsSpread: 0.6
+hipfireSpread: 0
+reloadTime: 6
+magazineSize: 25
+health: 0
+recoilHipVertical: 9.4095 - 11.9002
+recoilAimVertical: 5.6457 - 7.14015
+movementSpeed: -10
+detectionRadius: 139.2
+TTK: 0.0918577 Seconds
+
+Gun contains[ Barrel: Shower, Magazine: Scar H, Grip: M1Garand, Stock: Fedorov Avtomat, Core: Dragunov ]
+damage: 53.6163 - 30.8932
+dropoffStuds: 140 - 600
+pellets: 2
+fireRate: 653.184
+adsSpread: 0.6
+hipfireSpread: 0
+reloadTime: 6.75
+magazineSize: 20
+health: 0
+recoilHipVertical: 9.5625 - 12.0938
+recoilAimVertical: 5.7375 - 7.25625
+movementSpeed: -10
+detectionRadius: 132
+TTK: 0.0918577 Seconds
+
+Gun contains[ Barrel: Shower, Magazine: Fedorov Avtomat, Grip: M1Garand, Stock: Kriss Vector, Core: Dragunov ]
+damage: 51.3823 - 29.606
+dropoffStuds: 144.97 - 621.3
+pellets: 2
+fireRate: 652.562
+adsSpread: 0.72
+hipfireSpread: 0
+reloadTime: 5
+magazineSize: 25
+health: 0
+recoilHipVertical: 8.9913 - 11.3714
+recoilAimVertical: 5.39478 - 6.82281
+movementSpeed: -7.69
+detectionRadius: 139.2
+TTK: 0.0919453 Seconds
+
+Gun contains[ Barrel: Shower, Magazine: Scar H, Grip: M1Garand, Stock: Kriss Vector, Core: Dragunov ]
+damage: 53.6163 - 30.8932
+dropoffStuds: 133 - 570
+pellets: 2
+fireRate: 652.562
+adsSpread: 0.72
+hipfireSpread: 0
+reloadTime: 5.625
+magazineSize: 20
+health: 0
+recoilHipVertical: 9.1375 - 11.5563
+recoilAimVertical: 5.4825 - 6.93375
+movementSpeed: -7.69
+detectionRadius: 132
+TTK: 0.0919453 Seconds
+

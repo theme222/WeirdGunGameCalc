@@ -65,6 +65,7 @@ namespace Input
     fpair timeToAimRange = NILRANGE;
     fpair reloadRange = NILRANGE;
     fpair detectionRadiusRange = NILRANGE;
+    fpair dropoffStudsRange = NILRANGE;
 }
 
 
@@ -120,6 +121,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         case HEALTH:
         case FIRERATE:
         case PELLETS:
+        case DROPOFFSTUDS:
             return true;
         case RELOAD:
         case RECOILAIM:
@@ -220,9 +222,10 @@ public:
     float health = 0;
     float pellets = 0;
     float detectionRadius = 0;
+    float range = 0;
 
     Part() {}
-    Part(float defaultValue): damage(defaultValue), fireRate(defaultValue), spread(defaultValue), recoil(defaultValue), reloadSpeed(defaultValue), pellets(defaultValue), detectionRadius(defaultValue) {}
+    Part(float defaultValue): damage(defaultValue), fireRate(defaultValue), spread(defaultValue), recoil(defaultValue), reloadSpeed(defaultValue), pellets(defaultValue), detectionRadius(defaultValue), range(defaultValue) {}
     Part(const json &jsonObject): category(jsonObject["Category"]), name(jsonObject["Name"])
     {
         category_fast = Fast::fastifyCategory[category];
@@ -247,6 +250,8 @@ public:
             health = jsonObject["Health"];
         if (jsonObject.contains("Detection_Radius"))
             detectionRadius = jsonObject["Detection_Radius"];
+        if (jsonObject.contains("Range"))
+            range = jsonObject["Range"];
     }
 
     float GetMult(Fast::MultFlags propertyFlag)
@@ -274,6 +279,8 @@ public:
                 return pellets;
             case DETECTIONRADIUS:
                 return detectionRadius;
+            case DROPOFFSTUDS:
+                return range;
             default:
                 throw std::invalid_argument("Property not found: " + std::to_string(propertyFlag));
         }
@@ -548,6 +555,11 @@ public:
         if (flags & DETECTIONRADIUS) detectionRadius *= GetTotalMult(DETECTIONRADIUS);
         if (flags & SPREADAIM) adsSpread *= GetTotalMult(SPREADAIM);
         if (flags & SPREADHIP) hipfireSpread *= GetTotalMult(SPREADHIP);
+        if (flags & DROPOFFSTUDS)
+        {
+            dropoffStuds.first *= GetTotalMult(DROPOFFSTUDS);
+            dropoffStuds.second *= GetTotalMult(DROPOFFSTUDS);
+        }
         if (flags & RECOILHIP)
         {
             float recoilMult = GetTotalMult(RECOILHIP);
@@ -591,10 +603,7 @@ public:
     {
         using namespace Fast;
         if (flags & PELLETS)
-        {
             pellets *= GetPartialMult(PELLETS, part);
-            pellets = ceilf(pellets);
-        }
         if (flags & DAMAGE)
         {
             damage.first *= GetPartialMult(DAMAGE, part) * powf(1.01, 1.25);
@@ -607,6 +616,11 @@ public:
         if (flags & DETECTIONRADIUS) detectionRadius *= GetPartialMult(DETECTIONRADIUS, part);
         if (flags & SPREADAIM) adsSpread *= GetPartialMult(SPREADAIM, part);
         if (flags & SPREADHIP) hipfireSpread *= GetPartialMult(SPREADHIP, part);
+        if (flags & DROPOFFSTUDS)
+        {
+            dropoffStuds.first *= GetPartialMult(DROPOFFSTUDS, part);
+            dropoffStuds.second *= GetPartialMult(DROPOFFSTUDS, part);
+        }
         if (flags & RECOILHIP)
         {
             float recoilMult = GetPartialMult(RECOILHIP, part);
@@ -649,6 +663,7 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
     os << "Gun contains"
        << "[ Barrel: " << barrelName << ", Magazine: " << magazineName << ", Grip: " << gripName << ", Stock: " << stockName << ", Core: " << coreName << " ]\n"
        << "damage: " << gun.damage << "\n"
+       << "dropoffStuds: " << gun.dropoffStuds << "\n"
        << "pellets: " << gun.pellets << "\n"
        << "fireRate: " << gun.fireRate << "\n"
        << "adsSpread: " << gun.adsSpread << "\n"
@@ -668,6 +683,7 @@ std::ostream &operator<<(std::ostream &os, const Part &part)
 {
     os << "Name: " << part.name << "\n"
        << "Damage: " << part.damage << "\n"
+       << "Range: " << part.range << "\n"
        << "Fire Rate: " << part.fireRate << "\n"
        << "Spread: " << part.spread << "\n"
        << "Recoil: " << part.recoil << "\n"
@@ -697,6 +713,7 @@ Part operator*(Part part1, Part part2) // Used in greedy
     part1.health += part2.health;
     part1.pellets *= part2.pellets;
     part1.detectionRadius *= part2.detectionRadius;
+    part1.range *= part2.range;
     return part1;
 }
 
@@ -735,11 +752,11 @@ int stockCount;
 int coreCount;
 uint64_t totalCombinations;
 
-Barrel barrelList[64];
-Magazine magazineList[64];
-Grip gripList[64];
-Stock stockList[64];
-Core coreList[64];
+Barrel barrelList[128];
+Magazine magazineList[128];
+Grip gripList[128];
+Stock stockList[128];
+Core coreList[128];
 
 
 namespace PQ
@@ -967,6 +984,7 @@ namespace BruteForce
             if (Input::healthRange != nilrange) currentflags |= HEALTH;
             if (Input::reloadRange != nilrange) currentflags |= RELOAD;
             if (Input::detectionRadiusRange != nilrange) currentflags |= DETECTIONRADIUS;
+            if (Input::dropoffStudsRange != nilrange) currentflags |= DROPOFFSTUDS;
             switch (PQ::currentSortingType)
             {
                 case PQ::SORTBYTTK:
@@ -1011,6 +1029,7 @@ namespace BruteForce
             if (!RangeFilter(gun.pellets, Input::pelletRange)) return false;
             if (!RangeFilter(gun.reloadTime, Input::reloadRange)) return false;
             if (!RangeFilter(gun.detectionRadius, Input::detectionRadiusRange)) return false;
+            if (!RangeFilter(gun.dropoffStuds.first, Input::dropoffStudsRange)) return false;
             return true;
         }
 
@@ -1066,6 +1085,7 @@ namespace Prune
             if (Input::healthRange != nilrange) currentflags |= HEALTH;
             if (Input::reloadRange != nilrange) currentflags |= RELOAD;
             if (Input::detectionRadiusRange != nilrange) currentflags |= DETECTIONRADIUS;
+            if (Input::dropoffStudsRange != nilrange) currentflags |= DROPOFFSTUDS;
             switch (PQ::currentSortingType)
             {
                 case PQ::SORTBYTTK:
@@ -1129,6 +1149,7 @@ namespace Prune
             if (!RangeFilter(gun.pellets, Input::pelletRange)) return false;
             if (!RangeFilter(gun.reloadTime, Input::reloadRange)) return false;
             if (!RangeFilter(gun.detectionRadius, Input::detectionRadiusRange)) return false;
+            if (!RangeFilter(gun.dropoffStuds.first, Input::dropoffStudsRange)) return false;
             return true;
         }
     }
@@ -1164,6 +1185,7 @@ namespace Prune
             if (gun.GetPartialAdd(HEALTH, partToCheck) < lowestMultPart.health) lowestMultPart.health = gun.GetPartialAdd(HEALTH, partToCheck);
             if (gun.GetPartialMult(PELLETS, partToCheck) < lowestMultPart.pellets) lowestMultPart.pellets = gun.GetPartialMult(PELLETS, partToCheck);
             if (gun.GetPartialMult(DETECTIONRADIUS, partToCheck) < lowestMultPart.detectionRadius) lowestMultPart.detectionRadius = gun.GetPartialMult(DETECTIONRADIUS, partToCheck);
+            if (gun.GetPartialMult(DROPOFFSTUDS, partToCheck) < lowestMultPart.range) lowestMultPart.range = gun.GetPartialMult(DROPOFFSTUDS, partToCheck);
 
             if (gun.GetPartialMult(DAMAGE, partToCheck) > highestMultPart.damage) highestMultPart.damage = gun.GetPartialMult(DAMAGE, partToCheck);
             if (gun.GetPartialMult(FIRERATE, partToCheck) > highestMultPart.fireRate) highestMultPart.fireRate = gun.GetPartialMult(FIRERATE, partToCheck);
@@ -1174,6 +1196,7 @@ namespace Prune
             if (gun.GetPartialAdd(HEALTH, partToCheck) > highestMultPart.health) highestMultPart.health = gun.GetPartialAdd(HEALTH, partToCheck);
             if (gun.GetPartialMult(PELLETS, partToCheck) > highestMultPart.pellets) highestMultPart.pellets = gun.GetPartialMult(PELLETS, partToCheck);
             if (gun.GetPartialMult(DETECTIONRADIUS, partToCheck) > highestMultPart.detectionRadius) highestMultPart.detectionRadius = gun.GetPartialMult(DETECTIONRADIUS, partToCheck);
+            if (gun.GetPartialMult(DROPOFFSTUDS, partToCheck) > highestMultPart.range) highestMultPart.range = gun.GetPartialMult(DROPOFFSTUDS, partToCheck);
         }
 
         // Polymorphism is required due to the fact that sizeof(Magazine) is more than sizeof(Part) causing pointer arithmetic to be incorrect when iterating through the array.
@@ -1251,9 +1274,10 @@ namespace Prune
         if (!RangeFilterMult(gun.recoilAimVertical.second, lowPPC.recoil, highPPC.recoil, Input::recoilAimRange)) return false;
         if (!RangeFilterMult(gun.reloadTime, lowPPC.reloadSpeed, highPPC.reloadSpeed, Input::reloadRange)) return false;
         if (!RangeFilterMult(gun.detectionRadius, lowPPC.detectionRadius, highPPC.detectionRadius, Input::detectionRadiusRange)) return false;
+        if (!RangeFilterMult(gun.dropoffStuds.first, lowPPC.range, highPPC.range, Input::dropoffStudsRange)) return false;
+        if (!RangeFilterMult(gun.pellets, lowPPC.pellets, highPPC.pellets, Input::pelletRange)) return false;
         if (!RangeFilterAdd(gun.movementSpeedModifier, lowPPC.movementSpeed, highPPC.movementSpeed, Input::movementSpeedRange)) return false;
         if (!RangeFilterAdd(gun.health, lowPPC.health, highPPC.health, Input::healthRange)) return false;
-        if (!RangeFilterAdd(gun.pellets, lowPPC.pellets, highPPC.pellets, Input::pelletRange)) return false;
         return true;
     }
 
@@ -1430,6 +1454,9 @@ int main(int argc, char* argv[])
     app.add_option("--detectionRadius", Input::detectionRadiusRange, "Detection radius range to filter (Why would you even use this?)");
     app.add_option("--detectionRadiusMin", Input::detectionRadiusRange.first);
     app.add_option("--detectionRadiusMax", Input::detectionRadiusRange.second);
+    app.add_option("--range", Input::dropoffStudsRange, "Dropoff studs range to filter (Could have called it range range haha)");
+    app.add_option("--rangeMin", Input::dropoffStudsRange.first);
+    app.add_option("--rangeMax", Input::dropoffStudsRange.second);
 
     CLI11_PARSE(app, argc, argv);
 

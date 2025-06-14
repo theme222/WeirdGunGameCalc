@@ -158,7 +158,7 @@ Core: FE-200SH
 Damage: 20 > 16
 Dropoff_Studs: 180 > 350
 Fire_Rate: 600
-Spread: 4
+Hipfire_Spread: 4
 ADS_Spread: 0.15
 Time_To_Aim: 0.7
 Detection_Radius: 175
@@ -432,7 +432,7 @@ Core: P90
 Damage: 12.5 > 7.5
 Dropoff_Studs: 140 > 180
 Fire_Rate: 1100
-Spread: 2
+Hipfire_Spread: 2
 ADS_Spread: 0.7
 Time_To_Aim: 0.35
 Detection_Radius: 60
@@ -561,7 +561,7 @@ Core: Chauchat
 Damage: 28 > 23.8
 Dropoff_Studs: 245 > 400
 Fire_Rate: 240
-Spread: 6
+Hipfire_Spread: 6
 ADS_Spread: 2.5
 Time_To_Aim: 1.36
 Detection_Radius: 180
@@ -656,7 +656,7 @@ Damage: 80 > 8
 Dropoff_Studs: 60 > 115
 Pellets: 8
 Fire_Rate: 190
-Spread: 7
+Hipfire_Spread: 7
 ADS_Spread: 2
 Time_To_Aim: 0.75
 Detection_Radius: 130
@@ -722,7 +722,7 @@ Core: Loaf
 Damage: 17.5
 Dropoff_Studs: 150 > 200
 Fire_Rate: 500
-Spread: 2
+Hipfire_Spread: 2
 ADS_Spread: 0.24
 Time_To_Aim: 0.6
 Detection_Radius: 55
@@ -739,7 +739,7 @@ Core: M1Garand
 Damage: 40 > 25
 Dropoff_Studs: 140 > 425
 Fire_Rate: 300
-Spread: 5
+Hipfire_Spread: 5
 ADS_Spread: 0.45
 Time_To_Aim: 0.7
 Detection_Radius: 120
@@ -754,7 +754,7 @@ Core: FAL
 Damage: 22.5 > 14.1
 Dropoff_Studs: 120 > 425
 Fire_Rate: 650
-Spread: 6
+Hipfire_Spread: 6
 ADS_Spread: 0.85
 Time_To_Aim: 0.85
 Detection_Radius: 120
@@ -769,7 +769,7 @@ Core: Dragunov
 Damage: 42 > 24.2
 Dropoff_Studs: 140 > 600
 Fire_Rate: 480
-Spread: 9.5
+Hipfire_Spread: 9.5
 ADS_Spread: 0.15
 Time_To_Aim: 1
 Detection_Radius: 120
@@ -784,7 +784,7 @@ Core: Fedorov Avtomat
 Damage: 27.5 > 22
 Dropoff_Studs: 180 > 500
 Fire_Rate: 400
-Spread: 5
+Hipfire_Spread: 5
 ADS_Spread: 0.25
 Time_To_Aim: 0.75
 Detection_Radius: 120
