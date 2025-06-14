@@ -39,7 +39,7 @@ No idea how to use cmake lol
 Download (or clone) this repository and get the [latest
 release](https://github.com/theme222/WeirdGunGameCalc/releases) that corresponds
 to your operating system (Currently only supported on Linux and Windows) and
-place it in the directory that you downloaded. Run the binary / executable on
+place it in the directory of the repository. Run the binary / executable on
 the command line by running `./Calculator` or `Calculator.exe` depending on your
 operating system. Provide filters as flags by adding `--<filter_name> <value>`
 to the command. To test if you installed it correctly, run it with `--help`.
@@ -97,6 +97,9 @@ This is the full list of flags supported:
 --reloadMin FLOAT --reloadMax FLOAT
 --detectionRadius [FLOAT,FLOAT] Detection radius range to filter (Why would you even use this?)
 --detectionRadiusMin FLOAT --detectionRadiusMax FLOAT
+--range [FLOAT,FLOAT] Dropoff studs range to filter (Could have called it rangeRange haha)
+--rangeMin FLOAT
+--rangeMax FLOAT
 ```
 
 ## Algorithm Analysis
