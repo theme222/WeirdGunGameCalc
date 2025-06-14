@@ -77,8 +77,8 @@ Recoil: +10%
 ---
 Stock: Lee Enfield
 Fire_Rate: +10%
-Recoil: +50%
-Spread: +100%
+Recoil: +40%
+Spread: +20%
 Range: -20%
 ---
 Stock: Hecate II
@@ -111,9 +111,10 @@ Recoil: +20%
 Spread: +25%
 ---
 Stock: Thompson
-Movement_Speed: +1.5%
-Recoil: -10%
-Spread: -13%
+Movement_Speed: +0.5%
+Recoil: -23%
+Spread: -9%
+Reload_Speed: +5%
 ---
 Stock: MP9
 Movement_Speed: +4.6%
@@ -141,7 +142,7 @@ Stock: Kriss Vector
 Fire_Rate: +7%
 Movement_Speed: +3.3%
 Recoil: -20%
-Spread: +20%
+Spread: +30%
 Range: -5%
 ---
 Stock: Type 2a Nambu
@@ -232,9 +233,9 @@ Recoil: +20%
 Spread: +20%
 ---
 Stock: Spas-12
-Fire_Rate: +10%
-Movement_Speed: -5%
-Spread: +10%
+Fire_Rate: +12%
+Movement_Speed: -3%
+Spread: +12%
 Range: -12%
 ---
 Stock: Remington 870 Breacher
@@ -284,35 +285,35 @@ Spread: -5%
 Recoil: +10%
 ---
 Stock: Words as Weapons
-Reload_Speed: -10% (Faster)
+Reload_Speed: -10%
 Spread: -10%
 Recoil: +15%
 ---
 Stock: Plunger
 Recoil: -25%
-Reload_Speed: +20% (Slower)
+Reload_Speed: +20%
 Spread: +15%
 ---
 Stock: Willy Fischy
 Recoil: -10%
-Reload_Speed: -5% (Faster)
+Reload_Speed: -5%
 ---
 Stock: Speed Coil
 Fire_Rate: +5%
 Movement_Speed: +10%
 Recoil: -40%
-Reload_Speed: -15% (Faster)
-Health: -10% (Player Health)
+Reload_Speed: -15%
+Health: -10%
 Spread: +250%
 ---
 Stock: Anvil
 Recoil: -90%
 Spread: -45%
 Movement_Speed: -40%
-Reload_Speed: +20% (Slower)
+Reload_Speed: +20%
 ---
 Stock: Taco
-Damage: +10%
+Damage: +5%
 Health: +10%
 Detection_Radius: +20%
 Fire_Rate: -5%
