@@ -36,7 +36,8 @@ Spread: -25%
 Recoil: +35%
 ---
 Grip: Hell-Trooper-23
-Spread: -10%
+Movement_Speed: +3%
+Spread: -18%
 ---
 Grip: Hex Spitter
 Recoil: -25%
@@ -73,15 +74,19 @@ Spread: +30%
 ---
 Grip: Arctic Warfare
 Spread: -30%
+Recoil: +8%
+Reload_Speed: +12%
 ---
 Grip: Lee Enfield
 Fire_Rate: +15%
-Spread: +100%
+Spread: +30%
 Range: -20%
 ---
 Grip: Hecate II
-Recoil: -30%
+Recoil: -25%
 Spread: -10%
+Movement_Speed: -4%
+Reload_Speed: +8%
 ---
 Grip: M200 Intervention
 Recoil: -20%
@@ -246,7 +251,7 @@ Category: Weird Grips
 ---
 Grip: Words as Weapons
 Recoil: -10%
-Reload_Speed: -4% (Faster)
+Reload_Speed: -4%
 Spread: +14%
 ---
 Grip: Banana
