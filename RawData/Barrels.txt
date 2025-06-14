@@ -361,8 +361,8 @@ Spread: +13%
 Barrel: Oil
 Damage: +20%
 Detection_Radius: 25
-Movement_Speed: -15%
-Spread: +50%
+Movement_Speed: -10%
+Spread: +40%
 ---
 Barrel: Words as Weapons
 Damage: +10%
