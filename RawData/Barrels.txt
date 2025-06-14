@@ -344,9 +344,9 @@ Spread: +40%
 ---
 Barrel: Water Pipe
 Damage: +20%
-Fire_Rate: -10%
+Fire_Rate: -12%
 Detection_Radius: 75
-Spread: +25%
+Spread: +35%
 ---
 Barrel: Ketchup
 Fire_Rate: +25%
