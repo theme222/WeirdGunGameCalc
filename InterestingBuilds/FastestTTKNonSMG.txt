@@ -6,7 +6,7 @@ dropoffStuds: 180 - 350
 pellets: 1
 fireRate: 513
 adsSpread: 0.30375
-hipfireSpread: 0
+hipfireSpread: 8.1
 reloadTime: 4.4
 magazineSize: 35
 health: 10
@@ -22,7 +22,7 @@ dropoffStuds: 180 - 350
 pellets: 1
 fireRate: 513
 adsSpread: 0.334125
-hipfireSpread: 0
+hipfireSpread: 8.91
 reloadTime: 2.53
 magazineSize: 45
 health: 10
@@ -38,7 +38,7 @@ dropoffStuds: 180 - 350
 pellets: 1
 fireRate: 513
 adsSpread: 0.225
-hipfireSpread: 0
+hipfireSpread: 6
 reloadTime: 4.4
 magazineSize: 35
 health: 2.5
@@ -54,7 +54,7 @@ dropoffStuds: 117 - 227.5
 pellets: 1
 fireRate: 510
 adsSpread: 0.3159
-hipfireSpread: 0
+hipfireSpread: 8.424
 reloadTime: 4
 magazineSize: 35
 health: 0
@@ -70,7 +70,7 @@ dropoffStuds: 119.016 - 231.42
 pellets: 1
 fireRate: 749.137
 adsSpread: 0.522
-hipfireSpread: 0
+hipfireSpread: 13.92
 reloadTime: 4
 magazineSize: 35
 health: 0
@@ -86,7 +86,7 @@ dropoffStuds: 115.2 - 224
 pellets: 1
 fireRate: 749.137
 adsSpread: 0.6
-hipfireSpread: 0
+hipfireSpread: 16
 reloadTime: 4
 magazineSize: 35
 health: 0
@@ -102,7 +102,7 @@ dropoffStuds: 144 - 280
 pellets: 1
 fireRate: 749.137
 adsSpread: 0.375
-hipfireSpread: 0
+hipfireSpread: 10
 reloadTime: 4
 magazineSize: 35
 health: 0
@@ -118,7 +118,7 @@ dropoffStuds: 144 - 280
 pellets: 1
 fireRate: 749.137
 adsSpread: 0.4125
-hipfireSpread: 0
+hipfireSpread: 11
 reloadTime: 2.3
 magazineSize: 45
 health: 0
@@ -134,7 +134,7 @@ dropoffStuds: 180 - 350
 pellets: 2
 fireRate: 748.8
 adsSpread: 0.6
-hipfireSpread: 0
+hipfireSpread: 16
 reloadTime: 6
 magazineSize: 35
 health: -7.5
@@ -150,7 +150,7 @@ dropoffStuds: 144 - 280
 pellets: 1
 fireRate: 742.56
 adsSpread: 0.4719
-hipfireSpread: 0
+hipfireSpread: 12.584
 reloadTime: 2.3
 magazineSize: 45
 health: 0

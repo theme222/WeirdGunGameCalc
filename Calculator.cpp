@@ -92,7 +92,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         {"BR", 6}
     };
 
-    bool includeCategories_fast[6] = {false, false, false, false, false, false};
+    bool includeCategories_fast[7] = {false, false, false, false, false, false, false};
     int forceParts_fast[5] = {NILINT, NILINT, NILINT, NILINT, NILINT}; // Barrel Magazine Grip Stock Core
 
     enum MultFlags {
@@ -1164,7 +1164,8 @@ namespace Prune
         */
 
         // bestPossibleCombo[coreCategoryFast][low / high][1 -> 4]
-        Part bestPossibleCombo[6][2][4] = { // stfu I don't wanna hear it
+        Part bestPossibleCombo[7][2][4] = { // stfu I don't wanna hear it
+            {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
             {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
             {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
             {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
@@ -1212,15 +1213,15 @@ namespace Prune
         void InitializeHighestAndLowestMultParts() // It may not look like it but I promise you this has a Time complexity of O(n) I'M TELLING YOU PLEASE BELIEVE ME
         {
             // Creation of dummyGuns to allow us to use (Gun obj).GetPartialMult and (Gun obj).GetPartialAdd for HighLow intialization
-            Core coreCategories[6];
-            Gun dummyGuns[6];
-            for (int i = 0; i < 6; i++)
+            Core coreCategories[7];
+            Gun dummyGuns[7];
+            for (int i = 0; i < 7; i++)
             {
                 coreCategories[i].category_fast = i;
                 dummyGuns[i] = Gun(coreCategories + i);
             }
 
-            for (int g = 0; g < 6; g++)
+            for (int g = 0; g < 7; g++)
             {
                 Gun& dummyGun = dummyGuns[g];
                 std::pair<Part, Part> magazineMultPair = FindHighestAndLowestMultInList(dummyGun, magazineList, magazineCount);

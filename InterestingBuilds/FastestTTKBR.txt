@@ -6,7 +6,7 @@ dropoffStuds: 140 - 600
 pellets: 2
 fireRate: 659.405
 adsSpread: 0.75
-hipfireSpread: 0
+hipfireSpread: 47.5
 reloadTime: 5.625
 magazineSize: 20
 health: 0
@@ -22,7 +22,7 @@ dropoffStuds: 152.6 - 654
 pellets: 2
 fireRate: 659.405
 adsSpread: 0.75
-hipfireSpread: 0
+hipfireSpread: 47.5
 reloadTime: 5
 magazineSize: 25
 health: 0
@@ -38,7 +38,7 @@ dropoffStuds: 152.6 - 654
 pellets: 2
 fireRate: 656.208
 adsSpread: 0.78
-hipfireSpread: 0
+hipfireSpread: 49.4
 reloadTime: 6.9
 magazineSize: 25
 health: 0
@@ -54,7 +54,7 @@ dropoffStuds: 140 - 600
 pellets: 2
 fireRate: 656.208
 adsSpread: 0.78
-hipfireSpread: 0
+hipfireSpread: 49.4
 reloadTime: 7.7625
 magazineSize: 20
 health: 0
@@ -70,7 +70,7 @@ dropoffStuds: 140 - 600
 pellets: 2
 fireRate: 653.299
 adsSpread: 0.6975
-hipfireSpread: 0
+hipfireSpread: 44.175
 reloadTime: 6.46875
 magazineSize: 20
 health: 0
@@ -86,7 +86,7 @@ dropoffStuds: 152.6 - 654
 pellets: 2
 fireRate: 653.299
 adsSpread: 0.6975
-hipfireSpread: 0
+hipfireSpread: 44.175
 reloadTime: 5.75
 magazineSize: 25
 health: 0
@@ -96,29 +96,13 @@ movementSpeed: -7
 detectionRadius: 139.2
 TTK: 0.0918415 Seconds
 
-Gun contains[ Barrel: Shower, Magazine: Fedorov Avtomat, Grip: M1Garand, Stock: Fedorov Avtomat, Core: Dragunov ]
-damage: 51.3823 - 29.606
-dropoffStuds: 152.6 - 654
-pellets: 2
-fireRate: 653.184
-adsSpread: 0.6
-hipfireSpread: 0
-reloadTime: 6
-magazineSize: 25
-health: 0
-recoilHipVertical: 9.4095 - 11.9002
-recoilAimVertical: 5.6457 - 7.14015
-movementSpeed: -10
-detectionRadius: 139.2
-TTK: 0.0918577 Seconds
-
 Gun contains[ Barrel: Shower, Magazine: Scar H, Grip: M1Garand, Stock: Fedorov Avtomat, Core: Dragunov ]
 damage: 53.6163 - 30.8932
 dropoffStuds: 140 - 600
 pellets: 2
 fireRate: 653.184
 adsSpread: 0.6
-hipfireSpread: 0
+hipfireSpread: 38
 reloadTime: 6.75
 magazineSize: 20
 health: 0
@@ -128,13 +112,29 @@ movementSpeed: -10
 detectionRadius: 132
 TTK: 0.0918577 Seconds
 
+Gun contains[ Barrel: Shower, Magazine: Fedorov Avtomat, Grip: M1Garand, Stock: Fedorov Avtomat, Core: Dragunov ]
+damage: 51.3823 - 29.606
+dropoffStuds: 152.6 - 654
+pellets: 2
+fireRate: 653.184
+adsSpread: 0.6
+hipfireSpread: 38
+reloadTime: 6
+magazineSize: 25
+health: 0
+recoilHipVertical: 9.4095 - 11.9002
+recoilAimVertical: 5.6457 - 7.14015
+movementSpeed: -10
+detectionRadius: 139.2
+TTK: 0.0918577 Seconds
+
 Gun contains[ Barrel: Shower, Magazine: Fedorov Avtomat, Grip: M1Garand, Stock: Kriss Vector, Core: Dragunov ]
 damage: 51.3823 - 29.606
 dropoffStuds: 144.97 - 621.3
 pellets: 2
 fireRate: 652.562
 adsSpread: 0.72
-hipfireSpread: 0
+hipfireSpread: 45.6
 reloadTime: 5
 magazineSize: 25
 health: 0
@@ -150,7 +150,7 @@ dropoffStuds: 133 - 570
 pellets: 2
 fireRate: 652.562
 adsSpread: 0.72
-hipfireSpread: 0
+hipfireSpread: 45.6
 reloadTime: 5.625
 magazineSize: 20
 health: 0
