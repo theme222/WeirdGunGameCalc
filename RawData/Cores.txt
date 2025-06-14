@@ -1,7 +1,7 @@
 Category: Assault Rifle
 Core: M-16
-Damage: 15.9 > 12.7
-Dropoff_Studs: 140 > 325
+Damage: 15.9 > 13.5
+Dropoff_Studs: 180 > 350
 Fire_Rate: 650
 Hipfire_Spread: 2
 ADS_Spread: 0.25
@@ -14,8 +14,8 @@ Recoil_Aim_Horizontal: -4 - 4
 Recoil_Aim_Vertical: 25 - 30
 ---
 Core: AUG
-Damage: 14.5 > 11.6
-Dropoff_Studs: 180 > 350
+Damage: 14.5 > 12.3
+Dropoff_Studs: 125 > 250
 Fire_Rate: 680
 Hipfire_Spread: 1
 ADS_Spread: 0.125
@@ -29,7 +29,7 @@ Recoil_Aim_Horizontal: -0.4 - 0.4
 Recoil_Aim_Vertical: 18 - 22.5
 ---
 Core: As-Val
-Damage: 13.8 > 11
+Damage: 13.8 > 11.4
 Dropoff_Studs: 170 > 225
 Fire_Rate: 750
 Hipfire_Spread: 2
@@ -57,7 +57,7 @@ Recoil_Aim_Horizontal: -1 - 1
 Recoil_Aim_Vertical: 16 - 20
 ---
 Core: Scar L
-Damage: 16.5 > 13.2
+Damage: 16.5 > 11.5
 Dropoff_Studs: 170 > 345
 Fire_Rate: 625
 Hipfire_Spread: 5
@@ -71,7 +71,7 @@ Recoil_Aim_Horizontal: -4.8 - 4.8
 Recoil_Aim_Vertical: 27.5 - 32.5
 ---
 Core: STG-44
-Damage: 19.7 > 15.8
+Damage: 19.7 > 16.7
 Dropoff_Studs: 150 > 300
 Fire_Rate: 500
 Hipfire_Spread: 5.5
@@ -85,7 +85,7 @@ Recoil_Aim_Horizontal: -18 - 18
 Recoil_Aim_Vertical: 27.5 - 33
 ---
 Core: The Chief
-Damage: 17.5 > 14
+Damage: 17.5 > 15.4
 Dropoff_Studs: 185 > 300
 Fire_Rate: 900
 Hipfire_Spread: 5.5
@@ -113,7 +113,7 @@ Recoil_Aim_Horizontal: -2.1 - 2.1
 Recoil_Aim_Vertical: 2.1 - 15
 ---
 Core: Hex Spitter
-Damage: 16 > 12
+Damage: 16 > 14
 Dropoff_Studs: 150 > 300
 Pellets: 2
 Fire_Rate: 660
@@ -128,7 +128,7 @@ Recoil_Aim_Horizontal: -3.2 - 3.2
 Recoil_Aim_Vertical: 15 - 20
 ---
 Core: APS
-Damage: 20 > 16
+Damage: 22 > 11
 Dropoff_Studs: 90 > 120
 Fire_Rate: 600
 Hipfire_Spread: 4
@@ -142,7 +142,7 @@ Recoil_Aim_Horizontal: -12.1 - 12.1
 Recoil_Aim_Vertical: 38.5 - 55
 ---
 Core: G36C
-Damage: 16 > 12.8
+Damage: 16 > 11.6
 Dropoff_Studs: 125 > 250
 Fire_Rate: 750
 Hipfire_Spread: 2
@@ -172,7 +172,7 @@ Recoil_Aim_Vertical: 7.2 - 9
 Category: Sniper
 ---
 Core: Remington 700
-Damage: 55 > 49.5
+Damage: 55 > 48.1
 Dropoff_Studs: 300 > 500
 Fire_Rate: 37
 Hipfire_Spread: 15
@@ -187,7 +187,7 @@ Recoil_Aim_Horizontal: -7.5 - 7.5
 Recoil_Aim_Vertical: 35 - 50
 ---
 Core: M1891 Carcano
-Damage: 53 > 47.7
+Damage: 53 > 45.1
 Dropoff_Studs: 275 > 600
 Fire_Rate: 45
 Hipfire_Spread: 3
@@ -216,7 +216,7 @@ Recoil_Aim_Horizontal: -10 - 10
 Recoil_Aim_Vertical: 45 - 60
 ---
 Core: Lee Enfield
-Damage: 52 > 46.8
+Damage: 52 > 41.6
 Dropoff_Studs: 300 > 450
 Fire_Rate: 50
 Hipfire_Spread: 10
@@ -230,7 +230,7 @@ Recoil_Aim_Horizontal: -6 - 6
 Recoil_Aim_Vertical: 36 - 48
 ---
 Core: M200 Intervention
-Damage: 65 > 58.5
+Damage: 65 > 52
 Dropoff_Studs: 525 > 700
 Fire_Rate: 18
 Hipfire_Spread: 15
@@ -245,7 +245,7 @@ Recoil_Aim_Horizontal: -9 - 9
 Recoil_Aim_Vertical: 40 - 55
 ---
 Core: Hecate II
-Damage: 70 > 63
+Damage: 70 > 52.5
 Dropoff_Studs: 400 > 500
 Fire_Rate: 15
 Hipfire_Spread: 15
@@ -263,7 +263,7 @@ Recoil_Aim_Vertical: 45 - 60
 Category: SMG
 ---
 Core: MAC-10
-Damage: 14.3 > 8.6
+Damage: 14.3 > 7.9
 Dropoff_Studs: 120 > 145
 Fire_Rate: 900
 Hipfire_Spread: 2.5
@@ -277,7 +277,7 @@ Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 16 - 24
 ---
 Core: Skorpion vz. 61
-Damage: 15.5 > 9.3
+Damage: 15.5 > 8.1
 Dropoff_Studs: 130 > 150
 Fire_Rate: 850
 Hipfire_Spread: 5
@@ -305,7 +305,7 @@ Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 32 - 48
 ---
 Core: MP9
-Damage: 12.2 > 7.3
+Damage: 12.2 > 7.6
 Dropoff_Studs: 140 > 150
 Fire_Rate: 1000
 Hipfire_Spread: 2
@@ -319,7 +319,7 @@ Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 16 - 24
 ---
 Core: MP 40
-Damage: 23.2 > 13.9
+Damage: 23.2 > 12.8
 Dropoff_Studs: 120 > 200
 Fire_Rate: 500
 Hipfire_Spread: 2
@@ -333,7 +333,7 @@ Recoil_Aim_Horizontal: -12 - 12
 Recoil_Aim_Vertical: 56 - 64
 ---
 Core: UMP-40
-Damage: 21 > 12.6
+Damage: 21 > 13.7
 Dropoff_Studs: 125 > 150
 Fire_Rate: 600
 Hipfire_Spread: 1.5
@@ -347,7 +347,7 @@ Recoil_Aim_Horizontal: -19 - 19
 Recoil_Aim_Vertical: 57 - 85.5
 ---
 Core: PPSh-41
-Damage: 11.7 > 7
+Damage: 12.5 > 7.5
 Dropoff_Studs: 125 > 140
 Fire_Rate: 1250
 Hipfire_Spread: 4
@@ -361,7 +361,7 @@ Recoil_Aim_Horizontal: -20 - 20
 Recoil_Aim_Vertical: 24 - 48
 ---
 Core: Kriss Vector
-Damage: 12 > 7.2
+Damage: 11.5 > 6.9
 Dropoff_Studs: 110 > 160
 Fire_Rate: 1200
 Hipfire_Spread: 2
@@ -375,7 +375,7 @@ Recoil_Aim_Horizontal: -4.5 - 4.5
 Recoil_Aim_Vertical: 9 - 27
 ---
 Core: Type 2a Nambu
-Damage: 19.5 > 11.7
+Damage: 21 > 9.5
 Dropoff_Studs: 140 > 155
 Fire_Rate: 600
 Hipfire_Spread: 3
@@ -389,7 +389,7 @@ Recoil_Aim_Horizontal: -6.5 - 6.5
 Recoil_Aim_Vertical: 16.2 - 22.7
 ---
 Core: Mas-38
-Damage: 16.5 > 9.9
+Damage: 16.5 > 10.5
 Dropoff_Studs: 160 > 190
 Fire_Rate: 700
 Hipfire_Spread: 2.5
@@ -403,7 +403,7 @@ Recoil_Aim_Horizontal: -3 - 3
 Recoil_Aim_Vertical: 4 - 12
 ---
 Core: PP-19 Bizon
-Damage: 16.5 > 9.9
+Damage: 16.5 > 9.5
 Dropoff_Studs: 130 > 150
 Fire_Rate: 750
 Hipfire_Spread: 1.75
@@ -416,7 +416,7 @@ Recoil_Aim_Horizontal: -15 - 15
 Recoil_Aim_Vertical: 9 - 15
 ---
 Core: MP5
-Damage: 16 > 9.6
+Damage: 16 > 9.2
 Dropoff_Studs: 110 > 140
 Fire_Rate: 800
 Hipfire_Spread: 1.5
@@ -429,7 +429,7 @@ Recoil_Aim_Horizontal: -13.5 - 13.5
 Recoil_Aim_Vertical: 18 - 40.5
 ---
 Core: P90
-Damage: 12.5 > 7.5
+Damage: 10 > 6.5
 Dropoff_Studs: 140 > 180
 Fire_Rate: 1100
 Hipfire_Spread: 2
@@ -446,7 +446,7 @@ Recoil_Aim_Vertical: 42 - 63
 Category: LMG
 ---
 Core: Type 99
-Damage: 15 > 12.8
+Damage: 15 > 8.3
 Dropoff_Studs: 165 > 365
 Fire_Rate: 850
 Hipfire_Spread: 6
@@ -462,7 +462,7 @@ Recoil_Aim_Horizontal: -6 - 6
 Recoil_Aim_Vertical: 18.5 - 27.5
 ---
 Core: M60
-Damage: 19.5 > 16.6
+Damage: 19.5 > 11.2
 Dropoff_Studs: 190 > 370
 Fire_Rate: 600
 Hipfire_Spread: 6
@@ -478,7 +478,7 @@ Recoil_Aim_Horizontal: -7.2 - 7.2
 Recoil_Aim_Vertical: 33 - 40.2
 ---
 Core: DP-27
-Damage: 19 > 16.2
+Damage: 19 > 12.4
 Dropoff_Studs: 200 > 350
 Fire_Rate: 550
 Hipfire_Spread: 5
@@ -494,7 +494,7 @@ Recoil_Aim_Horizontal: -4.2 - 4.2
 Recoil_Aim_Vertical: 36 - 42
 ---
 Core: M1919a6 Browning
-Damage: 21.5 > 18.3
+Damage: 21.5 > 15.5
 Dropoff_Studs: 190 > 380
 Fire_Rate: 500
 Hipfire_Spread: 9
@@ -510,7 +510,7 @@ Recoil_Aim_Horizontal: -5 - 5
 Recoil_Aim_Vertical: 22 - 27.5
 ---
 Core: M1918 BAR
-Damage: 23.5 > 20
+Damage: 25 > 15
 Dropoff_Studs: 205 > 400
 Fire_Rate: 500
 Hipfire_Spread: 10
@@ -526,7 +526,7 @@ Recoil_Aim_Horizontal: -54 - 54
 Recoil_Aim_Vertical: 72 - 108
 ---
 Core: Negev
-Damage: 14 > 11.9
+Damage: 14 > 10.1
 Dropoff_Studs: 190 > 380
 Fire_Rate: 850
 Hipfire_Spread: 7
@@ -542,7 +542,7 @@ Recoil_Aim_Horizontal: -9.6 - 9.6
 Recoil_Aim_Vertical: 21 - 24
 ---
 Core: MG42
-Damage: 11 > 9.4
+Damage: 12.5 > 7.7
 Dropoff_Studs: 150 > 325
 Fire_Rate: 1200
 Hipfire_Spread: 8
@@ -558,7 +558,7 @@ Recoil_Aim_Horizontal: -7.5 - 7.5
 Recoil_Aim_Vertical: 26.5 - 38
 ---
 Core: Chauchat
-Damage: 28 > 23.8
+Damage: 29 > 15.2
 Dropoff_Studs: 245 > 400
 Fire_Rate: 240
 Hipfire_Spread: 6
@@ -576,7 +576,7 @@ Recoil_Aim_Vertical: 36 - 54
 Category: Shotgun
 ---
 Core: M1887
-Damage: 99 > 14.9
+Damage: 100 > 10
 Dropoff_Studs: 75 > 130
 Pellets: 10
 Fire_Rate: 60
@@ -592,7 +592,7 @@ Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 8 - 12
 ---
 Core: M1897 Trench Shotgun
-Damage: 65 > 9.8
+Damage: 96 > 0
 Dropoff_Studs: 60 > 120
 Pellets: 16
 Fire_Rate: 120
@@ -607,7 +607,7 @@ Recoil_Aim_Horizontal: -4 - 4
 Recoil_Aim_Vertical: 16 - 24
 ---
 Core: Remington 870
-Damage: 101 > 15.2
+Damage: 96 > 8
 Dropoff_Studs: 55 > 110
 Pellets: 8
 Fire_Rate: 90
@@ -622,7 +622,7 @@ Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 20 - 32
 ---
 Core: Spas-12
-Damage: 60 > 7.7
+Damage: 90 > 6
 Dropoff_Studs: 50 > 115
 Pellets: 6
 Fire_Rate: 220
@@ -637,7 +637,7 @@ Recoil_Aim_Horizontal: -10 - 10
 Recoil_Aim_Vertical: 20 - 32
 ---
 Core: Circuit Judge
-Damage: 144 > 16
+Damage: 112 > 32
 Dropoff_Studs: 85 > 125
 Pellets: 8
 Fire_Rate: 60
@@ -652,7 +652,7 @@ Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 20 - 32
 ---
 Core: Auto-5
-Damage: 80 > 8
+Damage: 96 > 8
 Dropoff_Studs: 60 > 115
 Pellets: 8
 Fire_Rate: 190
@@ -670,7 +670,7 @@ Recoil_Aim_Vertical: 16 - 28
 Category: Weird
 ---
 Core: Words as Weapons
-Damage: 15 > 14.9
+Damage: 17 > 14.9
 Dropoff_Studs: 150 > 340
 Fire_Rate: 600
 Hipfire_Spread: 5.5
@@ -719,7 +719,7 @@ Detection_Radius: 100
 Movement_Speed_Modifier: -5%
 ---
 Core: Loaf
-Damage: 17.5
+Damage: 17.5 > 14
 Dropoff_Studs: 150 > 200
 Fire_Rate: 500
 Hipfire_Spread: 2
