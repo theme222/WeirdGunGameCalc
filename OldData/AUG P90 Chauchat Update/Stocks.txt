@@ -21,6 +21,11 @@ Stock: Famas F1
 Recoil: -15%
 Reload_Speed: +5%
 ---
+Stock: Fedorov Avtomat
+Fire_Rate: +5%
+Recoil: -10%
+Reload_Speed: +20%
+---
 Stock: Scar L
 Recoil: -10%
 Reload_Speed: -15%
@@ -54,11 +59,6 @@ Recoil: -5%
 Reload_Time: -5%
 Spread: -5%
 ---
-Stock: FE-200SH
-Movement_Speed: +2%
-Spread: -24%
-Fire_Rate: -13%
----
 
 Category: Sniper Stocks
 ---
@@ -79,7 +79,6 @@ Stock: Lee Enfield
 Fire_Rate: +10%
 Recoil: +50%
 Spread: +100%
-Range: -20%
 ---
 Stock: Hecate II
 Damage: +5%
@@ -142,7 +141,6 @@ Fire_Rate: +7%
 Movement_Speed: +3.3%
 Recoil: -20%
 Spread: +20%
-Range: -5%
 ---
 Stock: Type 2a Nambu
 Movement_Speed: +1.5%
@@ -235,7 +233,6 @@ Stock: Spas-12
 Fire_Rate: +10%
 Movement_Speed: -5%
 Spread: +10%
-Range: -12%
 ---
 Stock: Remington 870 Breacher
 Fire_Rate: +5%
@@ -319,29 +316,4 @@ Fire_Rate: -5%
 Recoil: +20%
 Reload_Speed: +10%
 Spread: +20%
----
-
-Category: BR Stocks
----
-Stock: M1Garand
-Range: +3%
-Recoil: -14%
-Movement_Speed: -1%
----
-Stock: FAL
-Movement_Speed: +0.2%
-Range: +5%
-Spread: -27%
-Recoil: +30%
----
-Stock: Dragunov
-Recoil: -26%
-Fire_Rate: -5%
-Movement_Speed: -2%
-Reload_Speed: +10%
----
-Stock: Fedorov Avtomat
-Fire_Rate: +5%
-Recoil: -10%
-Reload_Speed: +20%
 ---

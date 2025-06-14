@@ -71,13 +71,14 @@ namespace Input
 namespace Fast // Namespace to contain any indexing that uses the integer representation of categories and mults
 {
     // penalties[coreCategory][partCategory]
-    float penalties[6][6] = {
-        {1, 0.7, 0.8, 0.75, 1, 0.7},
-        {0.7, 1, 0.6, 0.8, 1, 0.6},
-        {0.8, 0.6, 1, 0.65, 1, 0.65},
-        {0.75, 0.8, 0.65, 1, 1, 0.75},
-        {1, 1, 1, 1, 1, 1},
-        {0.7, 0.6, 0.65, 0.75, 1, 1},
+    float penalties[7][7] = {
+        {1.00, 0.70, 0.80, 0.75, 1.00, 0.70, 0.80},
+        {0.70, 1.00, 0.60, 0.80, 1.00, 0.60, 0.85},
+        {0.80, 0.60, 1.00, 0.65, 1.00, 0.65, 0.70},
+        {0.75, 0.80, 0.65, 1.00, 1.00, 0.75, 0.85},
+        {1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00},
+        {0.70, 0.60, 0.65, 0.75, 1.00, 1.00, 0.60},
+        {0.80, 0.85, 0.70, 0.85, 1.00, 0.60, 1.00},
     };
 
     std::map<std::string, int> fastifyCategory = {
@@ -87,6 +88,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         {"LMG", 3},
         {"Weird", 4},
         {"Shotgun", 5},
+        {"BR", 6}
     };
 
     bool includeCategories_fast[6] = {false, false, false, false, false, false};

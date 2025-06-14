@@ -15,7 +15,6 @@ Magazine_Size: 42
 Reload_Time: 3.5s
 Movement_Speed: +2.5%
 Spread: -10%
-Range: -10%
 ---
 Magazine: As-Val
 Magazine_Size: 20
@@ -24,13 +23,27 @@ Detection_Radius: -25
 Recoil: -10%
 Damage: -5%
 ---
+Magazine: Fedorov Avtomat
+Magazine_Size: 25
+Reload_Time: 4s
+Damage: +20%
+Detection_Radius: 18
+Fire_Rate: -5%
+Recoil: +25%
+---
+Magazine: Scar H
+Magazine_Size: 20
+Reload_Time: 4.5s
+Damage: +20%
+Detection_Radius: 10
+Recoil: +25%
+---
 Magazine: Famas F1
 Magazine_Size: 25
 Reload_Time: 2s
 Fire_Rate: +10%
 Damage: -5%
 Recoil: +10%
-Range: -10%
 ---
 Magazine: Scar L
 Magazine_Size: 40
@@ -51,7 +64,6 @@ Damage: +20%
 Fire_Rate: -10%
 Recoil: +25%
 Reload_Speed: +25%
-Range: +12%
 ---
 Magazine: Scar Drum
 Magazine_Size: 50
@@ -79,20 +91,11 @@ Damage: +20%
 Detection_Radius: 25
 Fire_Rate: -15%
 Spread: +20%
-Range: -35%
 ---
 Magazine: G36C
 Magazine_Size: 30
 Reload_Time: 2.2
 Recoil: -5%
----
-Magazine: FE-200SH
-Magazine_Size: 30
-Reload_Time: 3.2
-Damage: +15%
-Detection_Radius: +10%
-Movement_Speed: -2.5%
-Spread: +18%
 ---
 
 Category: Sniper Magazines
@@ -104,7 +107,6 @@ Damage: +20%
 Spread: -50%
 Fire_Rate: -10%
 Recoil: +40%
-Range: +25%
 ---
 Magazine: Lee Enfield
 Magazine_Size: 10
@@ -113,7 +115,6 @@ Fire_Rate: +20%
 Damage: -10%
 Recoil: +25%
 Spread: +50%
-Range: +16%
 ---
 Magazine: Hecate II
 Magazine_Size: 5
@@ -132,7 +133,6 @@ Reload_Time: 3.5s
 Damage: +16%
 Recoil: -25%
 Spread: -25%
-Range: +50%
 ---
 Magazine: M1891 Carcano
 Magazine_Size: 6
@@ -140,7 +140,6 @@ Reload_Time: 3.5s
 Fire_Rate: +5%
 Spread: -15%
 Recoil: +25%
-Range: +20%
 ---
 Magazine: M200 Intervention
 Magazine_Size: 5
@@ -149,7 +148,6 @@ Damage: +25%
 Spread: -20%
 Fire_Rate: -20%
 Recoil: +60%
-Range: +10%
 ---
 
 Category: SMG Magazines
@@ -160,7 +158,6 @@ Reload_Time: 2s
 Fire_Rate: +10%
 Movement_Speed: +4.4%
 Damage: -5%
-Range: -12%
 ---
 Magazine: Skorpion vz. 61
 Magazine_Size: 20
@@ -198,7 +195,6 @@ Movement_Speed: +1.5%
 Spread: -10%
 Fire_Rate: -10%
 Recoil: +23%
-Range: +3%
 ---
 Magazine: PPSh-41
 Magazine_Size: 71
@@ -206,7 +202,6 @@ Reload_Time: 5.5s
 Fire_Rate: +5%
 Movement_Speed: -1%
 Spread: +10%
-Range: -5%
 ---
 Magazine: Kriss Vector
 Magazine_Size: 30
@@ -215,7 +210,6 @@ Fire_Rate: +25%
 Movement_Speed: +3.3%
 Recoil: -15%
 Damage: -10%
-Range: -15%
 ---
 Magazine: Type 2a Nambu
 Magazine_Size: 30
@@ -224,7 +218,6 @@ Fire_Rate: +10%
 Movement_Speed: +3.3%
 Recoil: -5%
 Damage: -5%
-Range: -16%
 ---
 Magazine: Mas-38
 Magazine_Size: 32
@@ -232,13 +225,11 @@ Reload_Time: 2.8s
 Damage: +5%
 Movement_Speed: +3.5%
 Spread: -15%
-Range: +4%
 ---
 Magazine: PP-19 Bizon
 Magazine_Size: 64
 Reload_Time: 4
 Damage: +10%
-Range: -8%
 ---
 Magazine: MP5
 Magazine_Size: 30
@@ -248,7 +239,6 @@ Movement_Speed: +3.3%
 Recoil: -10%
 Spread: -5%
 Damage: -9%
-Range: -11%
 ---
 Magazine: P90
 Magazine_Size: 50
@@ -258,7 +248,6 @@ Damage: -2.5%
 Movement_Speed: -0.2%
 Recoil: +10%
 Spread: +40%
-Range: +5%
 ---
 
 Category: LMG Magazines
@@ -275,7 +264,6 @@ Magazine_Size: 47
 Reload_Time: 6s
 Damage: +7%
 Recoil: +12%
-Range: +5%
 ---
 Magazine: M1919a6 Browning
 Magazine_Size: 100
@@ -285,7 +273,6 @@ Detection_Radius: 20
 Fire_Rate: -10%
 Movement_Speed: -12%
 Spread: +27%
-Range: +12%
 ---
 Magazine: MG42
 Magazine_Size: 50
@@ -294,7 +281,6 @@ Fire_Rate: +11%
 Movement_Speed: -4%
 Recoil: +32%
 Spread: +50%
-Range: -15%
 ---
 Magazine: Type 99
 Magazine_Size: 30
@@ -302,7 +288,6 @@ Reload_Time: 3.5s
 Damage: +5.5%
 Spread: -17%
 Movement_Speed: -1%
-Range: +8%
 ---
 Magazine: M1918 BAR
 Magazine_Size: 20
@@ -313,7 +298,6 @@ Fire_Rate: -10%
 Movement_Speed: -0.5%
 Recoil: +10%
 Spread: +10%
-Range: +25%
 ---
 Magazine: Negev
 Magazine_Size: 200
@@ -331,7 +315,6 @@ Fire_Rate: -30%
 Movement_Speed: -5%
 Recoil: +35%
 Spread: +25%
-Range: +20%
 ---
 
 Category: Shotgun Magazines
@@ -344,7 +327,6 @@ Pellets: +175%
 Movement_Speed: -5%
 Recoil: +60%
 Spread: +100%
-Range: -20%
 ---
 Magazine: Remington 870 Breacher
 Magazine_Size: 8
@@ -354,7 +336,6 @@ Movement_Speed: +3%
 Pellets: +150%
 Recoil: +50%
 Spread: +80%
-Range: -30%
 ---
 Magazine: M1887
 Magazine_Size: 6
@@ -365,7 +346,6 @@ Pellets: +150%
 Movement_Speed: -5.5%
 Recoil: +15%
 Spread: +50%
-Range: -10%
 ---
 Magazine: M1897 Trench Shotgun
 Magazine_Size: 6
@@ -382,7 +362,6 @@ Damage: +15%
 Pellets: +45%
 Recoil: +35%
 Spread: +15%
-Range: -10%
 ---
 Magazine: Remington 870
 Magazine_Size: 8
@@ -391,7 +370,6 @@ Damage: +10%
 Pellets: +100%
 Recoil: +25%
 Spread: +50%
-Range: -15%
 ---
 Magazine: Circuit Judge
 Magazine_Size: 5
@@ -400,7 +378,6 @@ Damage: +25%
 Pellets: +100%
 Recoil: +50%
 Spread: +75%
-Range: +7.5%
 ---
 Magazine: Auto-5
 Magazine_Size: 4
@@ -464,48 +441,4 @@ Damage: +20%
 Detection_Radius: +10%
 Fire_Rate: -20%
 Recoil: +15%
----
-
-Category: BR Magazines
----
-Magazine: M1Garand
-Magazine_Size: 8
-Reload_Time: 4
-Damage: +22%
-Range: +13%
-Spread: -10%
-Fire_Rate: -5%
----
-Magazine: FAL
-Magazine_Size: 20
-Reload_Time: 2
-Damage: +10%
-Range: +10%
-Movement_Speed: -2.5%
-Recoil: +12%
----
-Magazine: Dragunov
-Magazine_Size: 10
-Reload_Time: 3.4
-Damage: +25%
-Range: +13%
-Recoil: -4%
-Detection_Radius: +20%
-Fire_Rate: -13%
-Movement_Speed: -4%
----
-Magazine: Fedorov Avtomat
-Magazine_Size: 25
-Reload_Time: 4
-Damage: +15%
-Range: +9%
-Detection_Radius: +16%
-Recoil: +23%
----
-Magazine: Scar H
-Magazine_Size: 20
-Reload_Time: 4.5s
-Damage: +20%
-Detection_Radius: 10
-Recoil: +25%
 ---

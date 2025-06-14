@@ -7,7 +7,6 @@ Recoil: +20%
 ---
 Barrel: M-16
 Recoil: -15%
-Range: +16%
 ---
 Barrel: AUG
 Movement_Speed: +2.5%
@@ -15,7 +14,6 @@ Recoil: -5%
 Reload_Speed: -15%
 Spread: -10%
 Damage: -5%
-Range: -10%
 ---
 Barrel: As-Val
 Fire_Rate: +10%
@@ -25,7 +23,19 @@ Recoil: +15%
 Barrel: Famas F1
 Fire_Rate: +5%
 Spread: +15%
-Range: -5%
+---
+Barrel: Fedorov Avtomat
+Damage: +15%
+Fire_Rate: -10%
+Detection_Radius: 13
+Spread: +30%
+---
+Barrel: Scar H
+Damage: +15%
+Spread: -25%
+Detection_Radius: 10
+Fire_Rate: -10%
+Recoil: +20%
 ---
 Barrel: Scar L
 Damage: +5%
@@ -60,12 +70,6 @@ Damage: +22%
 Detection_Radius: 25
 Fire_Rate: -15%
 Spread: +20%
-Range: -35%
----
-Barrel: FE-200SH
-Damage: +8%
-Range: +7.5%
-Fire_Rate: -5%
 ---
 
 Category: Sniper Barrels
@@ -75,30 +79,25 @@ Fire_Rate: +10%
 Recoil: -5%
 Spread: -20%
 Damage: -10%
-Range: +25%
 ---
 Barrel: M1891 Carcano
 Spread: -25%
 Reload_Speed: +20%
-Range: +20%
 ---
 Barrel: M91 Moschetto
 Movement_Speed: +4%
 Reload_Speed: -20%
 Spread: +50%
-Range: +4%
 ---
 Barrel: Arctic Warfare
 Damage: +15%
 Spread: -35%
 Recoil: +50%
-Range: +15%
 ---
 Barrel: Lee Enfield
 Fire_Rate: +10%
 Recoil: +100%
 Spread: +100%
-Range: +15%
 ---
 Barrel: M200 Intervention
 Damage: +25%
@@ -107,7 +106,6 @@ Movement_Speed: -8%
 Recoil: +55%
 Detection_Radius: 20
 Spread: +100%
-Range: +10%
 ---
 Barrel: Hecate II
 Damage: +30%
@@ -123,12 +121,11 @@ Category: SMG Barrels
 Barrel: MAC-10
 Fire_Rate: +5%
 Movement_Speed: +4.4%
-Range: -10%
+Damage: -5%
 ---
 Barrel: Skorpion vz. 61
 Movement_Speed: +9%
 Damage: -5%
-Range: -5%
 ---
 Barrel: Thompson
 Damage: +7%
@@ -140,7 +137,6 @@ Barrel: MP9
 Fire_Rate: +8%
 Movement_Speed: +3.2%
 Reload_Speed: -15%
-Range: -6%
 ---
 Barrel: MP 40
 Damage: +10%
@@ -165,7 +161,6 @@ Fire_Rate: +20%
 Movement_Speed: +3.3%
 Recoil: -15%
 Damage: -10%
-Range: -10%
 ---
 Barrel: Type 2a Nambu
 Damage: +13%
@@ -184,7 +179,6 @@ Damage: +8%
 Fire_Rate: +5%
 Movement_Speed: +2.5%
 Recoil: +25%
-Range: -10%
 ---
 Barrel: MP5
 Damage: +10%
@@ -199,7 +193,6 @@ Movement_Speed: +2.5%
 Damage: -7.5%
 Recoil: +20%
 Spread: +25%
-Range: +2%
 ---
 
 Category: LMG Barrels
@@ -228,7 +221,6 @@ Recoil: -20%
 Spread: -10%
 Movement_Speed: -25%
 Reload_Speed: +15%
-Range: +9%
 ---
 Barrel: M1919 Browning
 Recoil: -30%
@@ -241,7 +233,6 @@ Fire_Rate: +20%
 Movement_Speed: -5%
 Recoil: +40%
 Spread: +50%
-Range: -22%
 ---
 Barrel: Type 99
 Damage: +8%
@@ -255,7 +246,6 @@ Fire_Rate: -10%
 Movement_Speed: -0.5%
 Recoil: +20%
 Spread: +20%
-Range: +10%
 ---
 Barrel: Negev
 Fire_Rate: +15%
@@ -268,69 +258,58 @@ Detection_Radius: +10%
 Fire_Rate: -15%
 Movement_Speed: -3%
 Recoil: +25%
-Range: +20%
 ---
 
 Category: Shotgun Barrels
 ---
 Barrel: Spas-12
 Fire_Rate: +10%
-Damage: +5%
-Movement_Speed: -1.5%
-Spread: +45%
-Range: -13%
+Movement_Speed: -2.5%
+Spread: +35%
 ---
 Barrel: Remington 870 Wingmaster
-Damage: +10%
+Damage: +5%
 Spread: -25%
 Fire_Rate: -10%
 Pellets: -75%
 Detection_Radius: 10
 Reload_Speed: +10%
-Range: +10%
 ---
 Barrel: M1887
 Damage: +5%
 Health: +5%
 Movement_Speed: -5.5%
 Spread: +35%
-Range: -12%
 ---
 Barrel: M1897 Trench Shotgun
 Fire_Rate: +5%
 Reload_Speed: -10%
 Spread: +10%
-Range: -28%
 ---
 Barrel: Remington 870 Breacher
 Damage: +10%
 Movement_Speed: +3%
 Spread: +75%
-Range: -25%
 ---
 Barrel: Remington 870 MCS
 Damage: +10%
 Spread: -15%
 Reload_Speed: +10%
-Range: -10%
 ---
 Barrel: Remington 870
-Damage: +13%
+Damage: +10%
 Spread: +15%
-Range: -10%
 ---
 Barrel: Circuit Judge
 Damage: +10%
 Reload_Speed: -15%
 Recoil: +15%
-Range: -12%
 ---
 Barrel: Auto-5
-Fire_Rate: +13%
+Fire_Rate: +10%
 Recoil: -10%
 Spread: -10%
 Damage: -5%
-Range: -14%
 ---
 
 Category: Weird Barrels
@@ -400,34 +379,4 @@ Damage: -20%
 Detection_Radius: +20%
 Recoil: +15%
 Spread: +30%
----
-
-Category: BR Barrels
----
-Barrel: M1Garand
-Damage: +7%
-Spread: -17%
-Detection_Radius: +10%
----
-Barrel: FAL
-Range: +9%
-Spread: -20%
-Movement_Speed: -6%
----
-Barrel: Dragunov
-Range: +19%
-Spread: -16%
-Recoil: +24%
----
-Barrel: Fedorov Avtomat
-Damage: +7%
-Movement_Speed: +3.5%
-Recoil: +18%
----
-Barrel: Scar H
-Damage: +15%
-Spread: -25%
-Detection_Radius: 10
-Fire_Rate: -10%
-Recoil: +20%
 ---

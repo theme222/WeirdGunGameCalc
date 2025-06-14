@@ -1,7 +1,22 @@
 Category: Assault Rifle
+---
+Core: AKM
+Damage: 18.5 > 14.8
+Dropoff_Studs: 180 > 350
+Fire_Rate: 600
+Hipfire_Spread: 5.5
+ADS_Spread: 0.5
+Time_To_Aim: 0.7
+Detection_Radius: 120
+Suppression: 0.3
+Recoil_Hip_Horizontal: -15 - 15
+Recoil_Hip_Vertical: 70 - 80
+Recoil_Aim_Horizontal: -12 - 12
+Recoil_Aim_Vertical: 56 - 64
+---
 Core: M-16
 Damage: 15.9 > 12.7
-Dropoff_Studs: 140 > 325
+Dropoff_Studs: 180 > 350
 Fire_Rate: 650
 Hipfire_Spread: 2
 ADS_Spread: 0.25
@@ -30,7 +45,7 @@ Recoil_Aim_Vertical: 18 - 22.5
 ---
 Core: As-Val
 Damage: 13.8 > 11
-Dropoff_Studs: 170 > 225
+Dropoff_Studs: 180 > 350
 Fire_Rate: 750
 Hipfire_Spread: 2
 ADS_Spread: 0.35
@@ -44,7 +59,7 @@ Recoil_Aim_Vertical: 15 - 20
 ---
 Core: Famas F1
 Damage: 13 > 10.4
-Dropoff_Studs: 160 > 230
+Dropoff_Studs: 180 > 350
 Fire_Rate: 900
 Hipfire_Spread: 3
 ADS_Spread: 0.5
@@ -56,9 +71,23 @@ Recoil_Hip_Vertical: 40 - 50
 Recoil_Aim_Horizontal: -1 - 1
 Recoil_Aim_Vertical: 16 - 20
 ---
+Core: Fedorov Avtomat
+Damage: 22 > 17.6
+Dropoff_Studs: 180 > 350
+Fire_Rate: 400
+Hipfire_Spread: 2
+ADS_Spread: 0.25
+Time_To_Aim: 0.7
+Detection_Radius: 120
+Suppression: 0.4
+Recoil_Hip_Horizontal: -10 - 10
+Recoil_Hip_Vertical: 70 - 100
+Recoil_Aim_Horizontal: -5.5 - 5.5
+Recoil_Aim_Vertical: 38.5 - 55
+---
 Core: Scar L
 Damage: 16.5 > 13.2
-Dropoff_Studs: 170 > 345
+Dropoff_Studs: 180 > 350
 Fire_Rate: 625
 Hipfire_Spread: 5
 ADS_Spread: 0.65
@@ -72,7 +101,7 @@ Recoil_Aim_Vertical: 27.5 - 32.5
 ---
 Core: STG-44
 Damage: 19.7 > 15.8
-Dropoff_Studs: 150 > 300
+Dropoff_Studs: 180 > 350
 Fire_Rate: 500
 Hipfire_Spread: 5.5
 ADS_Spread: 0.5
@@ -86,7 +115,7 @@ Recoil_Aim_Vertical: 27.5 - 33
 ---
 Core: The Chief
 Damage: 17.5 > 14
-Dropoff_Studs: 185 > 300
+Dropoff_Studs: 180 > 350
 Fire_Rate: 900
 Hipfire_Spread: 5.5
 ADS_Spread: 5.5
@@ -100,7 +129,7 @@ Recoil_Aim_Vertical: 104 - 117
 ---
 Core: Hell-Trooper-23
 Damage: 16.5 > 13.2
-Dropoff_Studs: 155 > 290
+Dropoff_Studs: 180 > 350
 Fire_Rate: 650
 Hipfire_Spread: 5
 ADS_Spread: 0.8
@@ -114,7 +143,7 @@ Recoil_Aim_Vertical: 2.1 - 15
 ---
 Core: Hex Spitter
 Damage: 16 > 12
-Dropoff_Studs: 150 > 300
+Dropoff_Studs: 180 > 350
 Pellets: 2
 Fire_Rate: 660
 Hipfire_Spread: 3.5
@@ -129,7 +158,7 @@ Recoil_Aim_Vertical: 15 - 20
 ---
 Core: APS
 Damage: 20 > 16
-Dropoff_Studs: 90 > 120
+Dropoff_Studs: 180 > 350
 Fire_Rate: 600
 Hipfire_Spread: 4
 ADS_Spread: 1.9
@@ -143,7 +172,7 @@ Recoil_Aim_Vertical: 38.5 - 55
 ---
 Core: G36C
 Damage: 16 > 12.8
-Dropoff_Studs: 125 > 250
+Dropoff_Studs: 180 > 350
 Fire_Rate: 750
 Hipfire_Spread: 2
 ADS_Spread: 0.45
@@ -154,26 +183,12 @@ Recoil_Hip_Vertical: 10 - 30
 Recoil_Aim_Horizontal: -9 - 9
 Recoil_Aim_Vertical: 9 - 27
 ---
-Core: FE-200SH
-Damage: 20 > 16
-Dropoff_Studs: 180 > 350
-Fire_Rate: 600
-Spread: 4
-ADS_Spread: 0.15
-Time_To_Aim: 0.7
-Detection_Radius: 175
-Suppression: 0.3
-Recoil_Hip_Horizontal: -4 - 4
-Recoil_Hip_Vertical: 12 - 15
-Recoil_Aim_Horizontal: -2.4 - 2.4
-Recoil_Aim_Vertical: 7.2 - 9
----
 
 Category: Sniper
 ---
 Core: Remington 700
 Damage: 55 > 49.5
-Dropoff_Studs: 300 > 500
+Dropoff_Studs: 400 > 700
 Fire_Rate: 37
 Hipfire_Spread: 15
 ADS_Spread: 0.1
@@ -188,7 +203,7 @@ Recoil_Aim_Vertical: 35 - 50
 ---
 Core: M1891 Carcano
 Damage: 53 > 47.7
-Dropoff_Studs: 275 > 600
+Dropoff_Studs: 400 > 700
 Fire_Rate: 45
 Hipfire_Spread: 3
 ADS_Spread: 0.7
@@ -202,7 +217,7 @@ Recoil_Aim_Vertical: 20 - 32
 ---
 Core: Arctic Warfare
 Damage: 60 > 54
-Dropoff_Studs: 500 > 750
+Dropoff_Studs: 400 > 700
 Fire_Rate: 30
 Hipfire_Spread: 15
 ADS_Spread: 0.05
@@ -217,7 +232,7 @@ Recoil_Aim_Vertical: 45 - 60
 ---
 Core: Lee Enfield
 Damage: 52 > 46.8
-Dropoff_Studs: 300 > 450
+Dropoff_Studs: 400 > 700
 Fire_Rate: 50
 Hipfire_Spread: 10
 ADS_Spread: 0.5
@@ -231,7 +246,7 @@ Recoil_Aim_Vertical: 36 - 48
 ---
 Core: M200 Intervention
 Damage: 65 > 58.5
-Dropoff_Studs: 525 > 700
+Dropoff_Studs: 400 > 700
 Fire_Rate: 18
 Hipfire_Spread: 15
 ADS_Spread: 0.13
@@ -246,7 +261,7 @@ Recoil_Aim_Vertical: 40 - 55
 ---
 Core: Hecate II
 Damage: 70 > 63
-Dropoff_Studs: 400 > 500
+Dropoff_Studs: 400 > 700
 Fire_Rate: 15
 Hipfire_Spread: 15
 ADS_Spread: 0.12
@@ -264,7 +279,7 @@ Category: SMG
 ---
 Core: MAC-10
 Damage: 14.3 > 8.6
-Dropoff_Studs: 120 > 145
+Dropoff_Studs: 100 > 135
 Fire_Rate: 900
 Hipfire_Spread: 2.5
 ADS_Spread: 0.85
@@ -278,7 +293,7 @@ Recoil_Aim_Vertical: 16 - 24
 ---
 Core: Skorpion vz. 61
 Damage: 15.5 > 9.3
-Dropoff_Studs: 130 > 150
+Dropoff_Studs: 100 > 135
 Fire_Rate: 850
 Hipfire_Spread: 5
 ADS_Spread: 3
@@ -292,7 +307,7 @@ Recoil_Aim_Vertical: 48 - 64
 ---
 Core: Thompson
 Damage: 16 > 9.6
-Dropoff_Studs: 125 > 160
+Dropoff_Studs: 100 > 135
 Fire_Rate: 800
 Hipfire_Spread: 2
 ADS_Spread: 0.85
@@ -306,7 +321,7 @@ Recoil_Aim_Vertical: 32 - 48
 ---
 Core: MP9
 Damage: 12.2 > 7.3
-Dropoff_Studs: 140 > 150
+Dropoff_Studs: 100 > 135
 Fire_Rate: 1000
 Hipfire_Spread: 2
 ADS_Spread: 0.65
@@ -320,7 +335,7 @@ Recoil_Aim_Vertical: 16 - 24
 ---
 Core: MP 40
 Damage: 23.2 > 13.9
-Dropoff_Studs: 120 > 200
+Dropoff_Studs: 100 > 135
 Fire_Rate: 500
 Hipfire_Spread: 2
 ADS_Spread: 0.5
@@ -334,7 +349,7 @@ Recoil_Aim_Vertical: 56 - 64
 ---
 Core: UMP-40
 Damage: 21 > 12.6
-Dropoff_Studs: 125 > 150
+Dropoff_Studs: 100 > 135
 Fire_Rate: 600
 Hipfire_Spread: 1.5
 ADS_Spread: 0.55
@@ -348,7 +363,7 @@ Recoil_Aim_Vertical: 57 - 85.5
 ---
 Core: PPSh-41
 Damage: 11.7 > 7
-Dropoff_Studs: 125 > 140
+Dropoff_Studs: 100 > 135
 Fire_Rate: 1250
 Hipfire_Spread: 4
 ADS_Spread: 1.5
@@ -362,7 +377,7 @@ Recoil_Aim_Vertical: 24 - 48
 ---
 Core: Kriss Vector
 Damage: 12 > 7.2
-Dropoff_Studs: 110 > 160
+Dropoff_Studs: 100 > 135
 Fire_Rate: 1200
 Hipfire_Spread: 2
 ADS_Spread: 0.85
@@ -376,7 +391,7 @@ Recoil_Aim_Vertical: 9 - 27
 ---
 Core: Type 2a Nambu
 Damage: 19.5 > 11.7
-Dropoff_Studs: 140 > 155
+Dropoff_Studs: 100 > 135
 Fire_Rate: 600
 Hipfire_Spread: 3
 ADS_Spread: 0.45
@@ -390,7 +405,7 @@ Recoil_Aim_Vertical: 16.2 - 22.7
 ---
 Core: Mas-38
 Damage: 16.5 > 9.9
-Dropoff_Studs: 160 > 190
+Dropoff_Studs: 100 > 135
 Fire_Rate: 700
 Hipfire_Spread: 2.5
 ADS_Spread: 0.45
@@ -404,7 +419,7 @@ Recoil_Aim_Vertical: 4 - 12
 ---
 Core: PP-19 Bizon
 Damage: 16.5 > 9.9
-Dropoff_Studs: 130 > 150
+Dropoff_Studs: 100 > 135
 Fire_Rate: 750
 Hipfire_Spread: 1.75
 ADS_Spread: 0.85
@@ -417,7 +432,7 @@ Recoil_Aim_Vertical: 9 - 15
 ---
 Core: MP5
 Damage: 16 > 9.6
-Dropoff_Studs: 110 > 140
+Dropoff_Studs: 100 > 135
 Fire_Rate: 800
 Hipfire_Spread: 1.5
 ADS_Spread: 0.6
@@ -430,7 +445,7 @@ Recoil_Aim_Vertical: 18 - 40.5
 ---
 Core: P90
 Damage: 12.5 > 7.5
-Dropoff_Studs: 140 > 180
+Dropoff_Studs: 100 > 135
 Fire_Rate: 1100
 Spread: 2
 ADS_Spread: 0.7
@@ -447,7 +462,7 @@ Category: LMG
 ---
 Core: Type 99
 Damage: 15 > 12.8
-Dropoff_Studs: 165 > 365
+Dropoff_Studs: 180 > 360
 Fire_Rate: 850
 Hipfire_Spread: 6
 ADS_Spread: 0.7
@@ -463,7 +478,7 @@ Recoil_Aim_Vertical: 18.5 - 27.5
 ---
 Core: M60
 Damage: 19.5 > 16.6
-Dropoff_Studs: 190 > 370
+Dropoff_Studs: 180 > 360
 Fire_Rate: 600
 Hipfire_Spread: 6
 ADS_Spread: 1.1
@@ -479,7 +494,7 @@ Recoil_Aim_Vertical: 33 - 40.2
 ---
 Core: DP-27
 Damage: 19 > 16.2
-Dropoff_Studs: 200 > 350
+Dropoff_Studs: 180 > 360
 Fire_Rate: 550
 Hipfire_Spread: 5
 ADS_Spread: 0.85
@@ -495,7 +510,7 @@ Recoil_Aim_Vertical: 36 - 42
 ---
 Core: M1919a6 Browning
 Damage: 21.5 > 18.3
-Dropoff_Studs: 190 > 380
+Dropoff_Studs: 180 > 360
 Fire_Rate: 500
 Hipfire_Spread: 9
 ADS_Spread: 1
@@ -511,7 +526,7 @@ Recoil_Aim_Vertical: 22 - 27.5
 ---
 Core: M1918 BAR
 Damage: 23.5 > 20
-Dropoff_Studs: 205 > 400
+Dropoff_Studs: 180 > 360
 Fire_Rate: 500
 Hipfire_Spread: 10
 ADS_Spread: 1.1
@@ -527,7 +542,7 @@ Recoil_Aim_Vertical: 72 - 108
 ---
 Core: Negev
 Damage: 14 > 11.9
-Dropoff_Studs: 190 > 380
+Dropoff_Studs: 180 > 360
 Fire_Rate: 850
 Hipfire_Spread: 7
 ADS_Spread: 1.5
@@ -543,7 +558,7 @@ Recoil_Aim_Vertical: 21 - 24
 ---
 Core: MG42
 Damage: 11 > 9.4
-Dropoff_Studs: 150 > 325
+Dropoff_Studs: 180 > 360
 Fire_Rate: 1200
 Hipfire_Spread: 8
 ADS_Spread: 1.3
@@ -559,7 +574,7 @@ Recoil_Aim_Vertical: 26.5 - 38
 ---
 Core: Chauchat
 Damage: 28 > 23.8
-Dropoff_Studs: 245 > 400
+Dropoff_Studs: 180 > 360
 Fire_Rate: 240
 Spread: 6
 ADS_Spread: 2.5
@@ -577,7 +592,7 @@ Category: Shotgun
 ---
 Core: M1887
 Damage: 99 > 14.9
-Dropoff_Studs: 75 > 130
+Dropoff_Studs: 55 > 110
 Pellets: 10
 Fire_Rate: 60
 Hipfire_Spread: 7
@@ -593,7 +608,7 @@ Recoil_Aim_Vertical: 8 - 12
 ---
 Core: M1897 Trench Shotgun
 Damage: 65 > 9.8
-Dropoff_Studs: 60 > 120
+Dropoff_Studs: 55 > 110
 Pellets: 16
 Fire_Rate: 120
 Hipfire_Spread: 9
@@ -623,7 +638,7 @@ Recoil_Aim_Vertical: 20 - 32
 ---
 Core: Spas-12
 Damage: 60 > 7.7
-Dropoff_Studs: 50 > 115
+Dropoff_Studs: 55 > 110
 Pellets: 6
 Fire_Rate: 220
 Hipfire_Spread: 8
@@ -638,7 +653,7 @@ Recoil_Aim_Vertical: 20 - 32
 ---
 Core: Circuit Judge
 Damage: 144 > 16
-Dropoff_Studs: 85 > 125
+Dropoff_Studs: 55 > 110
 Pellets: 8
 Fire_Rate: 60
 Hipfire_Spread: 5
@@ -653,7 +668,7 @@ Recoil_Aim_Vertical: 20 - 32
 ---
 Core: Auto-5
 Damage: 80 > 8
-Dropoff_Studs: 60 > 115
+Dropoff_Studs: 55 > 110
 Pellets: 8
 Fire_Rate: 190
 Spread: 7
@@ -670,8 +685,7 @@ Recoil_Aim_Vertical: 16 - 28
 Category: Weird
 ---
 Core: Words as Weapons
-Damage: 15 > 14.9
-Dropoff_Studs: 150 > 340
+Damage: 15
 Fire_Rate: 600
 Hipfire_Spread: 5.5
 ADS_Spread: 0.5
@@ -684,8 +698,7 @@ Recoil_Aim_Horizontal: -12 - 12
 Recoil_Aim_Vertical: 56 - 64
 ---
 Core: Bicycle
-Damage: 20 > 10
-Dropoff_Studs: 200 > 275
+Damage: 20
 Fire_Rate: 350
 Hipfire_Spread: 7
 ADS_Spread: 0.4
@@ -698,8 +711,7 @@ Recoil_Aim_Horizontal: -12 - 12
 Recoil_Aim_Vertical: 24 - 33
 ---
 Core: Willy Fischy
-Damage: 20 > 19.8
-Dropoff_Studs: 1 > 999999
+Damage: 20
 Fire_Rate: 350
 Hipfire_Spread: 6
 ADS_Spread: 6
@@ -711,7 +723,6 @@ Recoil_Aim_Horizontal: -1.2 - 1.2
 Recoil_Aim_Vertical: 7 - 9
 ---
 Core: Stat Randomizer
-Dropoff_Studs: 100 > 777
 Hipfire_Spread: 20
 ADS_Spread: 1
 Time_To_Aim: 0.7
@@ -720,7 +731,6 @@ Movement_Speed_Modifier: -5%
 ---
 Core: Loaf
 Damage: 17.5
-Dropoff_Studs: 150 > 200
 Fire_Rate: 500
 Spread: 2
 ADS_Spread: 0.24
@@ -731,66 +741,4 @@ Recoil_Hip_Horizontal: -6 - 6
 Recoil_Hip_Vertical: 38 - 47
 Recoil_Aim_Horizontal: -4.8 - 4.8
 Recoil_Aim_Vertical: 30.4 - 37.6
----
-
-Category: BR
----
-Core: M1Garand
-Damage: 40 > 25
-Dropoff_Studs: 140 > 425
-Fire_Rate: 300
-Spread: 5
-ADS_Spread: 0.45
-Time_To_Aim: 0.7
-Detection_Radius: 120
-Movement_Speed_Modifier: -5%
-Suppression: 0.8
-Recoil_Hip_Horizontal: -7 - 7
-Recoil_Hip_Vertical: 32 - 44
-Recoil_Aim_Horizontal: -3.1 - 3.1
-Recoil_Aim_Vertical: 14.4 - 19.8
----
-Core: FAL
-Damage: 22.5 > 14.1
-Dropoff_Studs: 120 > 425
-Fire_Rate: 650
-Spread: 6
-ADS_Spread: 0.85
-Time_To_Aim: 0.85
-Detection_Radius: 120
-Movement_Speed_Modifier: -5%
-Suppression: 0.7
-Recoil_Hip_Horizontal: -26 - 26
-Recoil_Hip_Vertical: 110 - 140
-Recoil_Aim_Horizontal: -20.8 - 20.8
-Recoil_Aim_Vertical: 88 - 112
----
-Core: Dragunov
-Damage: 42 > 24.2
-Dropoff_Studs: 140 > 600
-Fire_Rate: 480
-Spread: 9.5
-ADS_Spread: 0.15
-Time_To_Aim: 1
-Detection_Radius: 120
-Movement_Speed_Modifier: -7%
-Suppression: 0.8
-Recoil_Hip_Horizontal: -5 - 5
-Recoil_Hip_Vertical: 34 - 43
-Recoil_Aim_Horizontal: -3 - 3
-Recoil_Aim_Vertical: 20.4 - 25.8
----
-Core: Fedorov Avtomat
-Damage: 27.5 > 22
-Dropoff_Studs: 180 > 500
-Fire_Rate: 400
-Spread: 5
-ADS_Spread: 0.25
-Time_To_Aim: 0.75
-Detection_Radius: 120
-Suppression: 0.5
-Recoil_Hip_Horizontal: -20 - 20
-Recoil_Hip_Vertical: 120 - 135
-Recoil_Aim_Horizontal: -15.1 - 15.1
-Recoil_Aim_Vertical: 93 - 104.6
 ---

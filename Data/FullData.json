@@ -10,7 +10,8 @@
     {
       "Category": "Assault Rifle",
       "Name": "M-16",
-      "Recoil": -15
+      "Recoil": -15,
+      "Range": 16
     },
     {
       "Category": "Assault Rifle",
@@ -19,7 +20,8 @@
       "Recoil": -5,
       "Reload_Speed": -15,
       "Spread": -10,
-      "Damage": -5
+      "Damage": -5,
+      "Range": -10
     },
     {
       "Category": "Assault Rifle",
@@ -32,24 +34,8 @@
       "Category": "Assault Rifle",
       "Name": "Famas F1",
       "Fire_Rate": 5,
-      "Spread": 15
-    },
-    {
-      "Category": "Assault Rifle",
-      "Name": "Fedorov Avtomat",
-      "Damage": 15,
-      "Fire_Rate": -10,
-      "Detection_Radius": 13,
-      "Spread": 30
-    },
-    {
-      "Category": "Assault Rifle",
-      "Name": "Scar H",
-      "Damage": 15,
-      "Spread": -25,
-      "Detection_Radius": 10,
-      "Fire_Rate": -10,
-      "Recoil": 20
+      "Spread": 15,
+      "Range": -5
     },
     {
       "Category": "Assault Rifle",
@@ -97,7 +83,15 @@
       "Damage": 22,
       "Detection_Radius": 25,
       "Fire_Rate": -15,
-      "Spread": 20
+      "Spread": 20,
+      "Range": -35
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "FE-200SH",
+      "Damage": 8,
+      "Range": 7.5,
+      "Fire_Rate": -5
     },
     {
       "Category": "Sniper",
@@ -105,34 +99,39 @@
       "Fire_Rate": 10,
       "Recoil": -5,
       "Spread": -20,
-      "Damage": -10
+      "Damage": -10,
+      "Range": 25
     },
     {
       "Category": "Sniper",
       "Name": "M1891 Carcano",
       "Spread": -25,
-      "Reload_Speed": 20
+      "Reload_Speed": 20,
+      "Range": 20
     },
     {
       "Category": "Sniper",
       "Name": "M91 Moschetto",
       "Movement_Speed": 4,
       "Reload_Speed": -20,
-      "Spread": 50
+      "Spread": 50,
+      "Range": 4
     },
     {
       "Category": "Sniper",
       "Name": "Arctic Warfare",
       "Damage": 15,
       "Spread": -35,
-      "Recoil": 50
+      "Recoil": 50,
+      "Range": 15
     },
     {
       "Category": "Sniper",
       "Name": "Lee Enfield",
       "Fire_Rate": 10,
       "Recoil": 100,
-      "Spread": 100
+      "Spread": 100,
+      "Range": 15
     },
     {
       "Category": "Sniper",
@@ -142,7 +141,8 @@
       "Movement_Speed": -8,
       "Recoil": 55,
       "Detection_Radius": 20,
-      "Spread": 100
+      "Spread": 100,
+      "Range": 10
     },
     {
       "Category": "Sniper",
@@ -159,13 +159,14 @@
       "Name": "MAC-10",
       "Fire_Rate": 5,
       "Movement_Speed": 4.4,
-      "Damage": -5
+      "Range": -10
     },
     {
       "Category": "SMG",
       "Name": "Skorpion vz. 61",
       "Movement_Speed": 9,
-      "Damage": -5
+      "Damage": -5,
+      "Range": -5
     },
     {
       "Category": "SMG",
@@ -180,7 +181,8 @@
       "Name": "MP9",
       "Fire_Rate": 8,
       "Movement_Speed": 3.2,
-      "Reload_Speed": -15
+      "Reload_Speed": -15,
+      "Range": -6
     },
     {
       "Category": "SMG",
@@ -212,7 +214,8 @@
       "Fire_Rate": 20,
       "Movement_Speed": 3.3,
       "Recoil": -15,
-      "Damage": -10
+      "Damage": -10,
+      "Range": -10
     },
     {
       "Category": "SMG",
@@ -236,7 +239,8 @@
       "Damage": 8,
       "Fire_Rate": 5,
       "Movement_Speed": 2.5,
-      "Recoil": 25
+      "Recoil": 25,
+      "Range": -10
     },
     {
       "Category": "SMG",
@@ -254,7 +258,8 @@
       "Movement_Speed": 2.5,
       "Damage": -7.5,
       "Recoil": 20,
-      "Spread": 25
+      "Spread": 25,
+      "Range": 2
     },
     {
       "Category": "LMG",
@@ -287,7 +292,8 @@
       "Recoil": -20,
       "Spread": -10,
       "Movement_Speed": -25,
-      "Reload_Speed": 15
+      "Reload_Speed": 15,
+      "Range": 9
     },
     {
       "Category": "LMG",
@@ -303,7 +309,8 @@
       "Fire_Rate": 20,
       "Movement_Speed": -5,
       "Recoil": 40,
-      "Spread": 50
+      "Spread": 50,
+      "Range": -22
     },
     {
       "Category": "LMG",
@@ -320,7 +327,8 @@
       "Fire_Rate": -10,
       "Movement_Speed": -0.5,
       "Recoil": 20,
-      "Spread": 20
+      "Spread": 20,
+      "Range": 10
     },
     {
       "Category": "LMG",
@@ -336,24 +344,28 @@
       "Detection_Radius": 10,
       "Fire_Rate": -15,
       "Movement_Speed": -3,
-      "Recoil": 25
+      "Recoil": 25,
+      "Range": 20
     },
     {
       "Category": "Shotgun",
       "Name": "Spas-12",
       "Fire_Rate": 10,
-      "Movement_Speed": -2.5,
-      "Spread": 35
+      "Damage": 5,
+      "Movement_Speed": -1.5,
+      "Spread": 45,
+      "Range": -13
     },
     {
       "Category": "Shotgun",
       "Name": "Remington 870 Wingmaster",
-      "Damage": 5,
+      "Damage": 10,
       "Spread": -25,
       "Fire_Rate": -10,
       "Pellets": -75,
       "Detection_Radius": 10,
-      "Reload_Speed": 10
+      "Reload_Speed": 10,
+      "Range": 10
     },
     {
       "Category": "Shotgun",
@@ -361,49 +373,56 @@
       "Damage": 5,
       "Health": 5,
       "Movement_Speed": -5.5,
-      "Spread": 35
+      "Spread": 35,
+      "Range": -12
     },
     {
       "Category": "Shotgun",
       "Name": "M1897 Trench Shotgun",
       "Fire_Rate": 5,
       "Reload_Speed": -10,
-      "Spread": 10
+      "Spread": 10,
+      "Range": -28
     },
     {
       "Category": "Shotgun",
       "Name": "Remington 870 Breacher",
       "Damage": 10,
       "Movement_Speed": 3,
-      "Spread": 75
+      "Spread": 75,
+      "Range": -25
     },
     {
       "Category": "Shotgun",
       "Name": "Remington 870 MCS",
       "Damage": 10,
       "Spread": -15,
-      "Reload_Speed": 10
+      "Reload_Speed": 10,
+      "Range": -10
     },
     {
       "Category": "Shotgun",
       "Name": "Remington 870",
-      "Damage": 10,
-      "Spread": 15
+      "Damage": 13,
+      "Spread": 15,
+      "Range": -10
     },
     {
       "Category": "Shotgun",
       "Name": "Circuit Judge",
       "Damage": 10,
       "Reload_Speed": -15,
-      "Recoil": 15
+      "Recoil": 15,
+      "Range": -12
     },
     {
       "Category": "Shotgun",
       "Name": "Auto-5",
-      "Fire_Rate": 10,
+      "Fire_Rate": 13,
       "Recoil": -10,
       "Spread": -10,
-      "Damage": -5
+      "Damage": -5,
+      "Range": -14
     },
     {
       "Category": "Weird",
@@ -492,43 +511,46 @@
       "Detection_Radius": 20,
       "Recoil": 15,
       "Spread": 30
+    },
+    {
+      "Category": "BR",
+      "Name": "M1Garand",
+      "Damage": 7,
+      "Spread": -17,
+      "Detection_Radius": 10
+    },
+    {
+      "Category": "BR",
+      "Name": "FAL",
+      "Range": 9,
+      "Spread": -20,
+      "Movement_Speed": -6
+    },
+    {
+      "Category": "BR",
+      "Name": "Dragunov",
+      "Range": 19,
+      "Spread": -16,
+      "Recoil": 24
+    },
+    {
+      "Category": "BR",
+      "Name": "Fedorov Avtomat",
+      "Damage": 7,
+      "Movement_Speed": 3.5,
+      "Recoil": 18
+    },
+    {
+      "Category": "BR",
+      "Name": "Scar H",
+      "Damage": 15,
+      "Spread": -25,
+      "Detection_Radius": 10,
+      "Fire_Rate": -10,
+      "Recoil": 20
     }
   ],
   "Cores": [
-    {
-      "Category": "Assault Rifle",
-      "Name": "AKM",
-      "Damage": [
-        18.5,
-        14.8
-      ],
-      "Dropoff_Studs": [
-        180,
-        350
-      ],
-      "Fire_Rate": 600,
-      "Hipfire_Spread": 5.5,
-      "ADS_Spread": 0.5,
-      "Time_To_Aim": 0.7,
-      "Detection_Radius": 120,
-      "Suppression": 0.3,
-      "Recoil_Hip_Horizontal": [
-        -15,
-        15
-      ],
-      "Recoil_Hip_Vertical": [
-        70,
-        80
-      ],
-      "Recoil_Aim_Horizontal": [
-        -12,
-        12
-      ],
-      "Recoil_Aim_Vertical": [
-        56,
-        64
-      ]
-    },
     {
       "Category": "Assault Rifle",
       "Name": "M-16",
@@ -537,8 +559,8 @@
         12.7
       ],
       "Dropoff_Studs": [
-        180,
-        350
+        140,
+        325
       ],
       "Fire_Rate": 650,
       "Hipfire_Spread": 2,
@@ -606,8 +628,8 @@
         11
       ],
       "Dropoff_Studs": [
-        180,
-        350
+        170,
+        225
       ],
       "Fire_Rate": 750,
       "Hipfire_Spread": 2,
@@ -640,8 +662,8 @@
         10.4
       ],
       "Dropoff_Studs": [
-        180,
-        350
+        160,
+        230
       ],
       "Fire_Rate": 900,
       "Hipfire_Spread": 3,
@@ -668,48 +690,14 @@
     },
     {
       "Category": "Assault Rifle",
-      "Name": "Fedorov Avtomat",
-      "Damage": [
-        22,
-        17.6
-      ],
-      "Dropoff_Studs": [
-        180,
-        350
-      ],
-      "Fire_Rate": 400,
-      "Hipfire_Spread": 2,
-      "ADS_Spread": 0.25,
-      "Time_To_Aim": 0.7,
-      "Detection_Radius": 120,
-      "Suppression": 0.4,
-      "Recoil_Hip_Horizontal": [
-        -10,
-        10
-      ],
-      "Recoil_Hip_Vertical": [
-        70,
-        100
-      ],
-      "Recoil_Aim_Horizontal": [
-        -5.5,
-        5.5
-      ],
-      "Recoil_Aim_Vertical": [
-        38.5,
-        55
-      ]
-    },
-    {
-      "Category": "Assault Rifle",
       "Name": "Scar L",
       "Damage": [
         16.5,
         13.2
       ],
       "Dropoff_Studs": [
-        180,
-        350
+        170,
+        345
       ],
       "Fire_Rate": 625,
       "Hipfire_Spread": 5,
@@ -742,8 +730,8 @@
         15.8
       ],
       "Dropoff_Studs": [
-        180,
-        350
+        150,
+        300
       ],
       "Fire_Rate": 500,
       "Hipfire_Spread": 5.5,
@@ -776,8 +764,8 @@
         14
       ],
       "Dropoff_Studs": [
-        180,
-        350
+        185,
+        300
       ],
       "Fire_Rate": 900,
       "Hipfire_Spread": 5.5,
@@ -810,8 +798,8 @@
         13.2
       ],
       "Dropoff_Studs": [
-        180,
-        350
+        155,
+        290
       ],
       "Fire_Rate": 650,
       "Hipfire_Spread": 5,
@@ -844,8 +832,8 @@
         12
       ],
       "Dropoff_Studs": [
-        180,
-        350
+        150,
+        300
       ],
       "Pellets": 2,
       "Fire_Rate": 660,
@@ -879,8 +867,8 @@
         16
       ],
       "Dropoff_Studs": [
-        180,
-        350
+        90,
+        120
       ],
       "Fire_Rate": 600,
       "Hipfire_Spread": 4,
@@ -913,8 +901,8 @@
         12.8
       ],
       "Dropoff_Studs": [
-        180,
-        350
+        125,
+        250
       ],
       "Fire_Rate": 750,
       "Hipfire_Spread": 2,
@@ -939,6 +927,40 @@
       ]
     },
     {
+      "Category": "Assault Rifle",
+      "Name": "FE-200SH",
+      "Damage": [
+        20,
+        16
+      ],
+      "Dropoff_Studs": [
+        180,
+        350
+      ],
+      "Fire_Rate": 600,
+      "Spread": 4,
+      "ADS_Spread": 0.15,
+      "Time_To_Aim": 0.7,
+      "Detection_Radius": 175,
+      "Suppression": 0.3,
+      "Recoil_Hip_Horizontal": [
+        -4,
+        4
+      ],
+      "Recoil_Hip_Vertical": [
+        12,
+        15
+      ],
+      "Recoil_Aim_Horizontal": [
+        -2.4,
+        2.4
+      ],
+      "Recoil_Aim_Vertical": [
+        7.2,
+        9
+      ]
+    },
+    {
       "Category": "Sniper",
       "Name": "Remington 700",
       "Damage": [
@@ -946,8 +968,8 @@
         49.5
       ],
       "Dropoff_Studs": [
-        400,
-        700
+        300,
+        500
       ],
       "Fire_Rate": 37,
       "Hipfire_Spread": 15,
@@ -981,8 +1003,8 @@
         47.7
       ],
       "Dropoff_Studs": [
-        400,
-        700
+        275,
+        600
       ],
       "Fire_Rate": 45,
       "Hipfire_Spread": 3,
@@ -1015,8 +1037,8 @@
         54
       ],
       "Dropoff_Studs": [
-        400,
-        700
+        500,
+        750
       ],
       "Fire_Rate": 30,
       "Hipfire_Spread": 15,
@@ -1050,8 +1072,8 @@
         46.8
       ],
       "Dropoff_Studs": [
-        400,
-        700
+        300,
+        450
       ],
       "Fire_Rate": 50,
       "Hipfire_Spread": 10,
@@ -1084,7 +1106,7 @@
         58.5
       ],
       "Dropoff_Studs": [
-        400,
+        525,
         700
       ],
       "Fire_Rate": 18,
@@ -1120,7 +1142,7 @@
       ],
       "Dropoff_Studs": [
         400,
-        700
+        500
       ],
       "Fire_Rate": 15,
       "Hipfire_Spread": 15,
@@ -1154,8 +1176,8 @@
         8.6
       ],
       "Dropoff_Studs": [
-        100,
-        135
+        120,
+        145
       ],
       "Fire_Rate": 900,
       "Hipfire_Spread": 2.5,
@@ -1188,8 +1210,8 @@
         9.3
       ],
       "Dropoff_Studs": [
-        100,
-        135
+        130,
+        150
       ],
       "Fire_Rate": 850,
       "Hipfire_Spread": 5,
@@ -1222,8 +1244,8 @@
         9.6
       ],
       "Dropoff_Studs": [
-        100,
-        135
+        125,
+        160
       ],
       "Fire_Rate": 800,
       "Hipfire_Spread": 2,
@@ -1256,8 +1278,8 @@
         7.3
       ],
       "Dropoff_Studs": [
-        100,
-        135
+        140,
+        150
       ],
       "Fire_Rate": 1000,
       "Hipfire_Spread": 2,
@@ -1290,8 +1312,8 @@
         13.9
       ],
       "Dropoff_Studs": [
-        100,
-        135
+        120,
+        200
       ],
       "Fire_Rate": 500,
       "Hipfire_Spread": 2,
@@ -1324,8 +1346,8 @@
         12.6
       ],
       "Dropoff_Studs": [
-        100,
-        135
+        125,
+        150
       ],
       "Fire_Rate": 600,
       "Hipfire_Spread": 1.5,
@@ -1358,8 +1380,8 @@
         7
       ],
       "Dropoff_Studs": [
-        100,
-        135
+        125,
+        140
       ],
       "Fire_Rate": 1250,
       "Hipfire_Spread": 4,
@@ -1392,8 +1414,8 @@
         7.2
       ],
       "Dropoff_Studs": [
-        100,
-        135
+        110,
+        160
       ],
       "Fire_Rate": 1200,
       "Hipfire_Spread": 2,
@@ -1426,8 +1448,8 @@
         11.7
       ],
       "Dropoff_Studs": [
-        100,
-        135
+        140,
+        155
       ],
       "Fire_Rate": 600,
       "Hipfire_Spread": 3,
@@ -1460,8 +1482,8 @@
         9.9
       ],
       "Dropoff_Studs": [
-        100,
-        135
+        160,
+        190
       ],
       "Fire_Rate": 700,
       "Hipfire_Spread": 2.5,
@@ -1494,8 +1516,8 @@
         9.9
       ],
       "Dropoff_Studs": [
-        100,
-        135
+        130,
+        150
       ],
       "Fire_Rate": 750,
       "Hipfire_Spread": 1.75,
@@ -1527,8 +1549,8 @@
         9.6
       ],
       "Dropoff_Studs": [
-        100,
-        135
+        110,
+        140
       ],
       "Fire_Rate": 800,
       "Hipfire_Spread": 1.5,
@@ -1560,8 +1582,8 @@
         7.5
       ],
       "Dropoff_Studs": [
-        100,
-        135
+        140,
+        180
       ],
       "Fire_Rate": 1100,
       "Spread": 2,
@@ -1594,8 +1616,8 @@
         12.8
       ],
       "Dropoff_Studs": [
-        180,
-        360
+        165,
+        365
       ],
       "Fire_Rate": 850,
       "Hipfire_Spread": 6,
@@ -1630,8 +1652,8 @@
         16.6
       ],
       "Dropoff_Studs": [
-        180,
-        360
+        190,
+        370
       ],
       "Fire_Rate": 600,
       "Hipfire_Spread": 6,
@@ -1666,8 +1688,8 @@
         16.2
       ],
       "Dropoff_Studs": [
-        180,
-        360
+        200,
+        350
       ],
       "Fire_Rate": 550,
       "Hipfire_Spread": 5,
@@ -1702,8 +1724,8 @@
         18.3
       ],
       "Dropoff_Studs": [
-        180,
-        360
+        190,
+        380
       ],
       "Fire_Rate": 500,
       "Hipfire_Spread": 9,
@@ -1738,8 +1760,8 @@
         20
       ],
       "Dropoff_Studs": [
-        180,
-        360
+        205,
+        400
       ],
       "Fire_Rate": 500,
       "Hipfire_Spread": 10,
@@ -1774,8 +1796,8 @@
         11.9
       ],
       "Dropoff_Studs": [
-        180,
-        360
+        190,
+        380
       ],
       "Fire_Rate": 850,
       "Hipfire_Spread": 7,
@@ -1810,8 +1832,8 @@
         9.4
       ],
       "Dropoff_Studs": [
-        180,
-        360
+        150,
+        325
       ],
       "Fire_Rate": 1200,
       "Hipfire_Spread": 8,
@@ -1846,8 +1868,8 @@
         23.8
       ],
       "Dropoff_Studs": [
-        180,
-        360
+        245,
+        400
       ],
       "Fire_Rate": 240,
       "Spread": 6,
@@ -1881,8 +1903,8 @@
         14.9
       ],
       "Dropoff_Studs": [
-        55,
-        110
+        75,
+        130
       ],
       "Pellets": 10,
       "Fire_Rate": 60,
@@ -1917,8 +1939,8 @@
         9.8
       ],
       "Dropoff_Studs": [
-        55,
-        110
+        60,
+        120
       ],
       "Pellets": 16,
       "Fire_Rate": 120,
@@ -1987,8 +2009,8 @@
         7.7
       ],
       "Dropoff_Studs": [
-        55,
-        110
+        50,
+        115
       ],
       "Pellets": 6,
       "Fire_Rate": 220,
@@ -2022,8 +2044,8 @@
         16
       ],
       "Dropoff_Studs": [
-        55,
-        110
+        85,
+        125
       ],
       "Pellets": 8,
       "Fire_Rate": 60,
@@ -2057,8 +2079,8 @@
         8
       ],
       "Dropoff_Studs": [
-        55,
-        110
+        60,
+        115
       ],
       "Pellets": 8,
       "Fire_Rate": 190,
@@ -2087,7 +2109,14 @@
     {
       "Category": "Weird",
       "Name": "Words as Weapons",
-      "Damage": 15,
+      "Damage": [
+        15,
+        14.9
+      ],
+      "Dropoff_Studs": [
+        150,
+        340
+      ],
       "Fire_Rate": 600,
       "Hipfire_Spread": 5.5,
       "ADS_Spread": 0.5,
@@ -2114,7 +2143,14 @@
     {
       "Category": "Weird",
       "Name": "Bicycle",
-      "Damage": 20,
+      "Damage": [
+        20,
+        10
+      ],
+      "Dropoff_Studs": [
+        200,
+        275
+      ],
       "Fire_Rate": 350,
       "Hipfire_Spread": 7,
       "ADS_Spread": 0.4,
@@ -2141,7 +2177,14 @@
     {
       "Category": "Weird",
       "Name": "Willy Fischy",
-      "Damage": 20,
+      "Damage": [
+        20,
+        19.8
+      ],
+      "Dropoff_Studs": [
+        1,
+        999999
+      ],
       "Fire_Rate": 350,
       "Hipfire_Spread": 6,
       "ADS_Spread": 6,
@@ -2167,6 +2210,10 @@
     {
       "Category": "Weird",
       "Name": "Stat Randomizer",
+      "Dropoff_Studs": [
+        100,
+        777
+      ],
       "Hipfire_Spread": 20,
       "ADS_Spread": 1,
       "Time_To_Aim": 0.7,
@@ -2177,6 +2224,10 @@
       "Category": "Weird",
       "Name": "Loaf",
       "Damage": 17.5,
+      "Dropoff_Studs": [
+        150,
+        200
+      ],
       "Fire_Rate": 500,
       "Spread": 2,
       "ADS_Spread": 0.24,
@@ -2198,6 +2249,145 @@
       "Recoil_Aim_Vertical": [
         30.4,
         37.6
+      ]
+    },
+    {
+      "Category": "BR",
+      "Name": "M1Garand",
+      "Damage": [
+        40,
+        25
+      ],
+      "Dropoff_Studs": [
+        140,
+        425
+      ],
+      "Fire_Rate": 300,
+      "Spread": 5,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.7,
+      "Detection_Radius": 120,
+      "Movement_Speed_Modifier": -5,
+      "Suppression": 0.8,
+      "Recoil_Hip_Horizontal": [
+        -7,
+        7
+      ],
+      "Recoil_Hip_Vertical": [
+        32,
+        44
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3.1,
+        3.1
+      ],
+      "Recoil_Aim_Vertical": [
+        14.4,
+        19.8
+      ]
+    },
+    {
+      "Category": "BR",
+      "Name": "FAL",
+      "Damage": [
+        22.5,
+        14.1
+      ],
+      "Dropoff_Studs": [
+        120,
+        425
+      ],
+      "Fire_Rate": 650,
+      "Spread": 6,
+      "ADS_Spread": 0.85,
+      "Time_To_Aim": 0.85,
+      "Detection_Radius": 120,
+      "Movement_Speed_Modifier": -5,
+      "Suppression": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -26,
+        26
+      ],
+      "Recoil_Hip_Vertical": [
+        110,
+        140
+      ],
+      "Recoil_Aim_Horizontal": [
+        -20.8,
+        20.8
+      ],
+      "Recoil_Aim_Vertical": [
+        88,
+        112
+      ]
+    },
+    {
+      "Category": "BR",
+      "Name": "Dragunov",
+      "Damage": [
+        42,
+        24.2
+      ],
+      "Dropoff_Studs": [
+        140,
+        600
+      ],
+      "Fire_Rate": 480,
+      "Spread": 9.5,
+      "ADS_Spread": 0.15,
+      "Time_To_Aim": 1,
+      "Detection_Radius": 120,
+      "Movement_Speed_Modifier": -7,
+      "Suppression": 0.8,
+      "Recoil_Hip_Horizontal": [
+        -5,
+        5
+      ],
+      "Recoil_Hip_Vertical": [
+        34,
+        43
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3,
+        3
+      ],
+      "Recoil_Aim_Vertical": [
+        20.4,
+        25.8
+      ]
+    },
+    {
+      "Category": "BR",
+      "Name": "Fedorov Avtomat",
+      "Damage": [
+        27.5,
+        22
+      ],
+      "Dropoff_Studs": [
+        180,
+        500
+      ],
+      "Fire_Rate": 400,
+      "Spread": 5,
+      "ADS_Spread": 0.25,
+      "Time_To_Aim": 0.75,
+      "Detection_Radius": 120,
+      "Suppression": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        120,
+        135
+      ],
+      "Recoil_Aim_Horizontal": [
+        -15.1,
+        15.1
+      ],
+      "Recoil_Aim_Vertical": [
+        93,
+        104.6
       ]
     }
   ],
@@ -2232,13 +2422,6 @@
       "Name": "Famas F1",
       "Recoil": -10,
       "Reload_Speed": -10
-    },
-    {
-      "Category": "Assault Rifle",
-      "Name": "Fedorov Avtomat",
-      "Recoil": -5,
-      "Spread": -15,
-      "Fire_Rate": -5
     },
     {
       "Category": "Assault Rifle",
@@ -2286,6 +2469,13 @@
       "Spread": 14
     },
     {
+      "Category": "Assault Rifle",
+      "Name": "FE-200SH",
+      "Movement_Speed": 3,
+      "Recoil": -19,
+      "Fire_Rate": -4
+    },
+    {
       "Category": "Sniper",
       "Name": "Remington 700",
       "Recoil": -5,
@@ -2309,7 +2499,8 @@
       "Category": "Sniper",
       "Name": "Lee Enfield",
       "Fire_Rate": 15,
-      "Spread": 100
+      "Spread": 100,
+      "Range": -20
     },
     {
       "Category": "Sniper",
@@ -2558,6 +2749,33 @@
       "Movement_Speed": 5,
       "Recoil": -20,
       "Fire_Rate": -5
+    },
+    {
+      "Category": "BR",
+      "Name": "M1Garand",
+      "Fire_Rate": 8,
+      "Movement_Speed": -3
+    },
+    {
+      "Category": "BR",
+      "Name": "FAL",
+      "Movement_Speed": 2,
+      "Recoil": -18,
+      "Detection_Radius": 15,
+      "Spread": 21
+    },
+    {
+      "Category": "BR",
+      "Name": "Dragunov",
+      "Range": 5,
+      "Recoil": -16,
+      "Fire_Rate": -5
+    },
+    {
+      "Category": "BR",
+      "Name": "Fedorov Avtomat",
+      "Recoil": -27,
+      "Fire_Rate": -12
     }
   ],
   "Magazines": [
@@ -2581,7 +2799,8 @@
       "Magazine_Size": 42,
       "Reload_Time": 3.5,
       "Movement_Speed": 2.5,
-      "Spread": -10
+      "Spread": -10,
+      "Range": -10
     },
     {
       "Category": "Assault Rifle",
@@ -2594,31 +2813,13 @@
     },
     {
       "Category": "Assault Rifle",
-      "Name": "Fedorov Avtomat",
-      "Magazine_Size": 25,
-      "Reload_Time": 4,
-      "Damage": 20,
-      "Detection_Radius": 18,
-      "Fire_Rate": -5,
-      "Recoil": 25
-    },
-    {
-      "Category": "Assault Rifle",
-      "Name": "Scar H",
-      "Magazine_Size": 20,
-      "Reload_Time": 4.5,
-      "Damage": 20,
-      "Detection_Radius": 10,
-      "Recoil": 25
-    },
-    {
-      "Category": "Assault Rifle",
       "Name": "Famas F1",
       "Magazine_Size": 25,
       "Reload_Time": 2,
       "Fire_Rate": 10,
       "Damage": -5,
-      "Recoil": 10
+      "Recoil": 10,
+      "Range": -10
     },
     {
       "Category": "Assault Rifle",
@@ -2644,7 +2845,8 @@
       "Damage": 20,
       "Fire_Rate": -10,
       "Recoil": 25,
-      "Reload_Speed": 25
+      "Reload_Speed": 25,
+      "Range": 12
     },
     {
       "Category": "Assault Rifle",
@@ -2679,7 +2881,8 @@
       "Damage": 20,
       "Detection_Radius": 25,
       "Fire_Rate": -15,
-      "Spread": 20
+      "Spread": 20,
+      "Range": -35
     },
     {
       "Category": "Assault Rifle",
@@ -2689,6 +2892,16 @@
       "Recoil": -5
     },
     {
+      "Category": "Assault Rifle",
+      "Name": "FE-200SH",
+      "Magazine_Size": 30,
+      "Reload_Time": 3.2,
+      "Damage": 15,
+      "Detection_Radius": 10,
+      "Movement_Speed": -2.5,
+      "Spread": 18
+    },
+    {
       "Category": "Sniper",
       "Name": "Arctic Warfare",
       "Magazine_Size": 5,
@@ -2696,7 +2909,8 @@
       "Damage": 20,
       "Spread": -50,
       "Fire_Rate": -10,
-      "Recoil": 40
+      "Recoil": 40,
+      "Range": 25
     },
     {
       "Category": "Sniper",
@@ -2706,7 +2920,8 @@
       "Fire_Rate": 20,
       "Damage": -10,
       "Recoil": 25,
-      "Spread": 50
+      "Spread": 50,
+      "Range": 16
     },
     {
       "Category": "Sniper",
@@ -2728,7 +2943,8 @@
       "Reload_Time": 3.5,
       "Damage": 16,
       "Recoil": -25,
-      "Spread": -25
+      "Spread": -25,
+      "Range": 50
     },
     {
       "Category": "Sniper",
@@ -2737,7 +2953,8 @@
       "Reload_Time": 3.5,
       "Fire_Rate": 5,
       "Spread": -15,
-      "Recoil": 25
+      "Recoil": 25,
+      "Range": 20
     },
     {
       "Category": "Sniper",
@@ -2747,7 +2964,8 @@
       "Damage": 25,
       "Spread": -20,
       "Fire_Rate": -20,
-      "Recoil": 60
+      "Recoil": 60,
+      "Range": 10
     },
     {
       "Category": "SMG",
@@ -2756,7 +2974,8 @@
       "Reload_Time": 2,
       "Fire_Rate": 10,
       "Movement_Speed": 4.4,
-      "Damage": -5
+      "Damage": -5,
+      "Range": -12
     },
     {
       "Category": "SMG",
@@ -2803,7 +3022,8 @@
       "Movement_Speed": 1.5,
       "Spread": -10,
       "Fire_Rate": -10,
-      "Recoil": 23
+      "Recoil": 23,
+      "Range": 3
     },
     {
       "Category": "SMG",
@@ -2812,7 +3032,8 @@
       "Reload_Time": 5.5,
       "Fire_Rate": 5,
       "Movement_Speed": -1,
-      "Spread": 10
+      "Spread": 10,
+      "Range": -5
     },
     {
       "Category": "SMG",
@@ -2822,7 +3043,8 @@
       "Fire_Rate": 25,
       "Movement_Speed": 3.3,
       "Recoil": -15,
-      "Damage": -10
+      "Damage": -10,
+      "Range": -15
     },
     {
       "Category": "SMG",
@@ -2832,7 +3054,8 @@
       "Fire_Rate": 10,
       "Movement_Speed": 3.3,
       "Recoil": -5,
-      "Damage": -5
+      "Damage": -5,
+      "Range": -16
     },
     {
       "Category": "SMG",
@@ -2841,14 +3064,16 @@
       "Reload_Time": 2.8,
       "Damage": 5,
       "Movement_Speed": 3.5,
-      "Spread": -15
+      "Spread": -15,
+      "Range": 4
     },
     {
       "Category": "SMG",
       "Name": "PP-19 Bizon",
       "Magazine_Size": 64,
       "Reload_Time": 4,
-      "Damage": 10
+      "Damage": 10,
+      "Range": -8
     },
     {
       "Category": "SMG",
@@ -2859,7 +3084,8 @@
       "Movement_Speed": 3.3,
       "Recoil": -10,
       "Spread": -5,
-      "Damage": -9
+      "Damage": -9,
+      "Range": -11
     },
     {
       "Category": "SMG",
@@ -2870,7 +3096,8 @@
       "Damage": -2.5,
       "Movement_Speed": -0.2,
       "Recoil": 10,
-      "Spread": 40
+      "Spread": 40,
+      "Range": 5
     },
     {
       "Category": "LMG",
@@ -2887,7 +3114,8 @@
       "Magazine_Size": 47,
       "Reload_Time": 6,
       "Damage": 7,
-      "Recoil": 12
+      "Recoil": 12,
+      "Range": 5
     },
     {
       "Category": "LMG",
@@ -2898,7 +3126,8 @@
       "Detection_Radius": 20,
       "Fire_Rate": -10,
       "Movement_Speed": -12,
-      "Spread": 27
+      "Spread": 27,
+      "Range": 12
     },
     {
       "Category": "LMG",
@@ -2908,7 +3137,8 @@
       "Fire_Rate": 11,
       "Movement_Speed": -4,
       "Recoil": 32,
-      "Spread": 50
+      "Spread": 50,
+      "Range": -15
     },
     {
       "Category": "LMG",
@@ -2917,7 +3147,8 @@
       "Reload_Time": 3.5,
       "Damage": 5.5,
       "Spread": -17,
-      "Movement_Speed": -1
+      "Movement_Speed": -1,
+      "Range": 8
     },
     {
       "Category": "LMG",
@@ -2929,7 +3160,8 @@
       "Fire_Rate": -10,
       "Movement_Speed": -0.5,
       "Recoil": 10,
-      "Spread": 10
+      "Spread": 10,
+      "Range": 25
     },
     {
       "Category": "LMG",
@@ -2950,7 +3182,8 @@
       "Fire_Rate": -30,
       "Movement_Speed": -5,
       "Recoil": 35,
-      "Spread": 25
+      "Spread": 25,
+      "Range": 20
     },
     {
       "Category": "Shotgun",
@@ -2961,7 +3194,8 @@
       "Pellets": 175,
       "Movement_Speed": -5,
       "Recoil": 60,
-      "Spread": 100
+      "Spread": 100,
+      "Range": -20
     },
     {
       "Category": "Shotgun",
@@ -2972,7 +3206,8 @@
       "Movement_Speed": 3,
       "Pellets": 150,
       "Recoil": 50,
-      "Spread": 80
+      "Spread": 80,
+      "Range": -30
     },
     {
       "Category": "Shotgun",
@@ -2984,7 +3219,8 @@
       "Pellets": 150,
       "Movement_Speed": -5.5,
       "Recoil": 15,
-      "Spread": 50
+      "Spread": 50,
+      "Range": -10
     },
     {
       "Category": "Shotgun",
@@ -3004,7 +3240,8 @@
       "Damage": 15,
       "Pellets": 45,
       "Recoil": 35,
-      "Spread": 15
+      "Spread": 15,
+      "Range": -10
     },
     {
       "Category": "Shotgun",
@@ -3014,7 +3251,8 @@
       "Damage": 10,
       "Pellets": 100,
       "Recoil": 25,
-      "Spread": 50
+      "Spread": 50,
+      "Range": -15
     },
     {
       "Category": "Shotgun",
@@ -3024,7 +3262,8 @@
       "Damage": 25,
       "Pellets": 100,
       "Recoil": 50,
-      "Spread": 75
+      "Spread": 75,
+      "Range": 7.5
     },
     {
       "Category": "Shotgun",
@@ -3101,6 +3340,57 @@
       "Detection_Radius": 10,
       "Fire_Rate": -20,
       "Recoil": 15
+    },
+    {
+      "Category": "BR",
+      "Name": "M1Garand",
+      "Magazine_Size": 8,
+      "Reload_Time": 4,
+      "Damage": 22,
+      "Range": 13,
+      "Spread": -10,
+      "Fire_Rate": -5
+    },
+    {
+      "Category": "BR",
+      "Name": "FAL",
+      "Magazine_Size": 20,
+      "Reload_Time": 2,
+      "Damage": 10,
+      "Range": 10,
+      "Movement_Speed": -2.5,
+      "Recoil": 12
+    },
+    {
+      "Category": "BR",
+      "Name": "Dragunov",
+      "Magazine_Size": 10,
+      "Reload_Time": 3.4,
+      "Damage": 25,
+      "Range": 13,
+      "Recoil": -4,
+      "Detection_Radius": 20,
+      "Fire_Rate": -13,
+      "Movement_Speed": -4
+    },
+    {
+      "Category": "BR",
+      "Name": "Fedorov Avtomat",
+      "Magazine_Size": 25,
+      "Reload_Time": 4,
+      "Damage": 15,
+      "Range": 9,
+      "Detection_Radius": 16,
+      "Recoil": 23
+    },
+    {
+      "Category": "BR",
+      "Name": "Scar H",
+      "Magazine_Size": 20,
+      "Reload_Time": 4.5,
+      "Damage": 20,
+      "Detection_Radius": 10,
+      "Recoil": 25
     }
   ],
   "Stocks": [
@@ -3134,13 +3424,6 @@
       "Name": "Famas F1",
       "Recoil": -15,
       "Reload_Speed": 5
-    },
-    {
-      "Category": "Assault Rifle",
-      "Name": "Fedorov Avtomat",
-      "Fire_Rate": 5,
-      "Recoil": -10,
-      "Reload_Speed": 20
     },
     {
       "Category": "Assault Rifle",
@@ -3190,6 +3473,13 @@
       "Spread": -5
     },
     {
+      "Category": "Assault Rifle",
+      "Name": "FE-200SH",
+      "Movement_Speed": 2,
+      "Spread": -24,
+      "Fire_Rate": -13
+    },
+    {
       "Category": "Sniper",
       "Name": "Remington 700",
       "Recoil": -10,
@@ -3213,7 +3503,8 @@
       "Name": "Lee Enfield",
       "Fire_Rate": 10,
       "Recoil": 50,
-      "Spread": 100
+      "Spread": 100,
+      "Range": -20
     },
     {
       "Category": "Sniper",
@@ -3292,7 +3583,8 @@
       "Fire_Rate": 7,
       "Movement_Speed": 3.3,
       "Recoil": -20,
-      "Spread": 20
+      "Spread": 20,
+      "Range": -5
     },
     {
       "Category": "SMG",
@@ -3410,7 +3702,8 @@
       "Name": "Spas-12",
       "Fire_Rate": 10,
       "Movement_Speed": -5,
-      "Spread": 10
+      "Spread": 10,
+      "Range": -12
     },
     {
       "Category": "Shotgun",
@@ -3519,6 +3812,36 @@
       "Recoil": 20,
       "Reload_Speed": 10,
       "Spread": 20
+    },
+    {
+      "Category": "BR",
+      "Name": "M1Garand",
+      "Range": 3,
+      "Recoil": -14,
+      "Movement_Speed": -1
+    },
+    {
+      "Category": "BR",
+      "Name": "FAL",
+      "Movement_Speed": 0.2,
+      "Range": 5,
+      "Spread": -27,
+      "Recoil": 30
+    },
+    {
+      "Category": "BR",
+      "Name": "Dragunov",
+      "Recoil": -26,
+      "Fire_Rate": -5,
+      "Movement_Speed": -2,
+      "Reload_Speed": 10
+    },
+    {
+      "Category": "BR",
+      "Name": "Fedorov Avtomat",
+      "Fire_Rate": 5,
+      "Recoil": -10,
+      "Reload_Speed": 20
     }
   ]
 }

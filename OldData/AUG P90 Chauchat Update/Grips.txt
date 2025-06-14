@@ -21,6 +21,11 @@ Grip: Famas F1
 Recoil: -10%
 Reload_Speed: -10%
 ---
+Grip: Fedorov Avtomat
+Recoil: -5%
+Spread: -15%
+Fire_Rate: -5%
+---
 Grip: Scar L
 Recoil: -25%
 Spread: +25%
@@ -52,11 +57,6 @@ Recoil: -10%
 Reload_Time: -4%
 Spread: +14%
 ---
-Grip: FE-200SH
-Movement_Speed: +3%
-Recoil: -19%
-Fire_Rate: -4%
----
 
 Category: Sniper Grips
 ---
@@ -77,7 +77,6 @@ Spread: -30%
 Grip: Lee Enfield
 Fire_Rate: +15%
 Spread: +100%
-Range: -20%
 ---
 Grip: Hecate II
 Recoil: -30%
@@ -270,26 +269,4 @@ Detection_Radius: -10%
 Movement_Speed: +5%
 Recoil: -20%
 Fire_Rate: -5%
----
-
-Category: BR Grips
----
-Grip: M1Garand
-Fire_Rate: +8%
-Movement_Speed: -3%
----
-Grip: FAL
-Movement_Speed: +2%
-Recoil: -18%
-Detection_Radius: +15%
-Spread: +21%
----
-Grip: Dragunov
-Range: +5%
-Recoil: -16%
-Fire_Rate: -5%
----
-Grip: Fedorov Avtomat
-Recoil: -27%
-Fire_Rate: -12%
 ---
