@@ -6,14 +6,14 @@ The list of known keys are as follows:
     'Magazine_Size', 'Fire_Rate', 'ADS_Spread', 'Health', 'Damage', 'Suppression',
     'Dropoff_Studs', 'Category', 'Recoil_Aim_Vertical', 'Recoil_Hip_Horizontal',
     'Spread', 'Time_To_Aim', 'Hipfire_Spread', 'Recoil_Aim_Horizontal',
-    'Movement_Speed_Modifier', 'Name', 'Movement_Speed', 'Reload_Time', 'Pellets', 'Detection_Radius'
+    'Movement_Speed_Modifier', 'Name', 'Movement_Speed', 'Reload_Time', 'Pellets', 'Detection_Radius','Range'
 }
 Remember to capitalize Every word separated by an _ even if the image says otherwise (THIS IS ALWAYS THE CASE FOR KEYS ONLY AND HAS NO EXCEPTIONS).
 2. All values must be after the keys and may include a symbol (+, -) and may include a %. Do NOT include any thing else like "°" or the "s" (seconds) or "rpm" (rounds per minute) etc.
 3. Ignore any green and red arrows you may find in the image.
 4. The format needs to be in a pure text format (A code block that is styled by text) that is easy for me to copy and paste.
 5. You do NOT need to include the category as a value.
-6. For each image I provide there will contain information on 1 part of the gun. Separate each gun with a "---".
+6. For each image I provide there will contain information on 1 part of the gun. Separate each part with a "---".
 7. The category of the gun should be the key and the value should be the name of the gun.
 8. There are a total of 5 categories: Barrel, Magazine, Grip, Stock, Core.
 9. Parts in the magazine category will contain a stat called "Magazine". Replace this with "Magazine_Size" to not conflict with the 7th rule.
@@ -25,8 +25,8 @@ This is the following output of the first image that will be used as a baseline 
 
 ---
 Core: M1919a6 Browning
-Damage: 21.5 > 18.3
-Dropoff_Studs: 180 > 360
+Damage: 21.5 > 15.5
+Dropoff_Studs: 190 > 380
 Fire_Rate: 500
 Spread: 9
 ADS_Spread: 1
