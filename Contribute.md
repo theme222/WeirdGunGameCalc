@@ -32,4 +32,5 @@ This section will contain the data collection method that I personally use incas
 
 ## Uploading
 
+(This step is mainly for people that don't have much experience with github. Obviously the best method would be to fork the repo and open a pull request with the new parts.)
 After extracting the text in a properly formatted way, we can now modify the data from `RawData`. Simply download the corresponding file, copy and paste the part in the proper category and then open up an issue here on github for me to replace into the dataset.
