@@ -1,58 +1,10 @@
 ./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 24.95 --speedMin 0 --magazineMin 30 --spreadAimMax 0.65 
 Current top 10 guns are: 
-Gun contains[ Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Taco, Core: FE-200SH ]
-damage: 33.4403 - 26.7522
-dropoffStuds: 180 - 350
-pellets: 1
-fireRate: 513
-adsSpread: 0.225
-hipfireSpread: 6
-reloadTime: 4.4
-magazineSize: 35
-health: 2.5
-recoilHipVertical: 15.9408 - 19.926
-recoilAimVertical: 9.56448 - 11.9556
-movementSpeed: 0
-detectionRadius: 367.5
-TTK: 0.233918 Seconds
-
-Gun contains[ Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: Taco, Core: FE-200SH ]
-damage: 34.1423 - 27.3138
-dropoffStuds: 180 - 350
-pellets: 1
-fireRate: 513
-adsSpread: 0.30375
-hipfireSpread: 8.1
-reloadTime: 4.4
-magazineSize: 35
-health: 10
-recoilHipVertical: 12.96 - 16.2
-recoilAimVertical: 7.776 - 9.72
-movementSpeed: 0
-detectionRadius: 367.5
-TTK: 0.233918 Seconds
-
-Gun contains[ Barrel: Water Pipe, Magazine: Hell-Trooper-23, Grip: Circuit Judge, Stock: Taco, Core: FE-200SH ]
-damage: 33.5485 - 26.8388
-dropoffStuds: 180 - 350
-pellets: 1
-fireRate: 513
-adsSpread: 0.334125
-hipfireSpread: 8.91
-reloadTime: 2.53
-magazineSize: 45
-health: 10
-recoilHipVertical: 16.56 - 20.7
-recoilAimVertical: 9.936 - 12.42
-movementSpeed: 0
-detectionRadius: 367.5
-TTK: 0.233918 Seconds
-
 Gun contains[ Barrel: APS, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
 damage: 33.4491 - 26.7593
 dropoffStuds: 117 - 227.5
 pellets: 1
-fireRate: 510
+fireRate: 570
 adsSpread: 0.3159
 hipfireSpread: 8.424
 reloadTime: 4
@@ -62,101 +14,149 @@ recoilHipVertical: 14.04 - 17.55
 recoilAimVertical: 8.424 - 10.53
 movementSpeed: 0
 detectionRadius: 218.75
-TTK: 0.235294 Seconds
+TTK: 0.210526 Seconds
 
-Gun contains[ Barrel: Spas-12, Magazine: Hex Spitter, Grip: Lee Enfield, Stock: Kriss Vector, Core: FE-200SH ]
-damage: 25.0193 - 20.0154
-dropoffStuds: 119.016 - 231.42
+Gun contains[ Barrel: APS, Magazine: Kriss Vector, Grip: Lee Enfield, Stock: Lee Enfield, Core: FE-200SH ]
+damage: 25.6446 - 20.5157
+dropoffStuds: 63.648 - 123.76
 pellets: 1
-fireRate: 749.137
-adsSpread: 0.522
-hipfireSpread: 13.92
-reloadTime: 4
-magazineSize: 35
+fireRate: 808.727
+adsSpread: 0.2808
+hipfireSpread: 7.488
+reloadTime: 2.4
+magazineSize: 30
 health: 0
-recoilHipVertical: 9.072 - 11.34
-recoilAimVertical: 5.4432 - 6.804
-movementSpeed: 1.14
-detectionRadius: 175
-TTK: 0.240276 Seconds
+recoilHipVertical: 14.784 - 18.48
+recoilAimVertical: 8.8704 - 11.088
+movementSpeed: 2.64
+detectionRadius: 218.75
+TTK: 0.222572 Seconds
 
-Gun contains[ Barrel: Thompson, Magazine: Hex Spitter, Grip: Lee Enfield, Stock: Lee Enfield, Core: FE-200SH ]
-damage: 25.5269 - 20.4215
-dropoffStuds: 115.2 - 224
+Gun contains[ Barrel: APS, Magazine: Kriss Vector, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: FE-200SH ]
+damage: 25.6446 - 20.5157
+dropoffStuds: 79.56 - 154.7
 pellets: 1
-fireRate: 749.137
-adsSpread: 0.6
-hipfireSpread: 16
-reloadTime: 4
-magazineSize: 35
+fireRate: 808.727
+adsSpread: 0.2925
+hipfireSpread: 7.8
+reloadTime: 2.4
+magazineSize: 30
 health: 0
-recoilHipVertical: 20.25 - 25.3125
-recoilAimVertical: 12.15 - 15.1875
-movementSpeed: 3.04
-detectionRadius: 175
-TTK: 0.240276 Seconds
+recoilHipVertical: 12.144 - 15.18
+recoilAimVertical: 7.2864 - 9.108
+movementSpeed: 2.64
+detectionRadius: 218.75
+TTK: 0.222572 Seconds
 
-Gun contains[ Barrel: Thompson, Magazine: Hell-Trooper-23, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: FE-200SH ]
-damage: 25.083 - 20.0664
-dropoffStuds: 144 - 280
+Gun contains[ Barrel: APS, Magazine: Kriss Vector, Grip: Lee Enfield, Stock: Kriss Vector, Core: FE-200SH ]
+damage: 25.6446 - 20.5157
+dropoffStuds: 75.582 - 146.965
 pellets: 1
-fireRate: 749.137
-adsSpread: 0.4125
-hipfireSpread: 11
-reloadTime: 2.3
-magazineSize: 45
+fireRate: 798.146
+adsSpread: 0.3042
+hipfireSpread: 8.112
+reloadTime: 2.4
+magazineSize: 30
 health: 0
-recoilHipVertical: 19.8375 - 24.7969
-recoilAimVertical: 11.9025 - 14.8781
-movementSpeed: 3.04
-detectionRadius: 175
-TTK: 0.240276 Seconds
+recoilHipVertical: 8.8704 - 11.088
+recoilAimVertical: 5.32224 - 6.6528
+movementSpeed: 5.28
+detectionRadius: 218.75
+TTK: 0.225523 Seconds
 
-Gun contains[ Barrel: Thompson, Magazine: Hex Spitter, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: FE-200SH ]
-damage: 25.5269 - 20.4215
-dropoffStuds: 144 - 280
+Gun contains[ Barrel: Remington 870 Breacher, Magazine: Kriss Vector, Grip: Lee Enfield, Stock: APS, Core: FE-200SH ]
+damage: 25.4008 - 20.3206
+dropoffStuds: 91.8 - 178.5
 pellets: 1
-fireRate: 749.137
-adsSpread: 0.375
-hipfireSpread: 10
-reloadTime: 4
-magazineSize: 35
+fireRate: 795.6
+adsSpread: 0.443625
+hipfireSpread: 11.83
+reloadTime: 2.4
+magazineSize: 30
 health: 0
-recoilHipVertical: 15.525 - 19.4062
-recoilAimVertical: 9.315 - 11.6437
-movementSpeed: 3.04
+recoilHipVertical: 13.728 - 17.16
+recoilAimVertical: 8.2368 - 10.296
+movementSpeed: 4.74
 detectionRadius: 175
-TTK: 0.240276 Seconds
+TTK: 0.226244 Seconds
 
-Gun contains[ Barrel: Shower, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Fedorov Avtomat, Core: FE-200SH ]
-damage: 25.6422 - 20.5138
-dropoffStuds: 180 - 350
-pellets: 2
-fireRate: 748.8
-adsSpread: 0.6
-hipfireSpread: 16
-reloadTime: 6
-magazineSize: 35
-health: -7.5
-recoilHipVertical: 3.05532 - 3.81915
-recoilAimVertical: 1.83319 - 2.29149
-movementSpeed: 0
-detectionRadius: 175
-TTK: 0.240385 Seconds
-
-Gun contains[ Barrel: PPSh-41, Magazine: Hell-Trooper-23, Grip: Lee Enfield, Stock: APS, Core: FE-200SH ]
-damage: 25.178 - 20.1424
-dropoffStuds: 144 - 280
+Gun contains[ Barrel: APS, Magazine: Kriss Vector, Grip: M1891 Carcano, Stock: Spas-12, Core: FE-200SH ]
+damage: 25.6446 - 20.5157
+dropoffStuds: 87.516 - 170.17
 pellets: 1
-fireRate: 742.56
-adsSpread: 0.4719
-hipfireSpread: 12.584
-reloadTime: 2.3
-magazineSize: 45
+fireRate: 793.358
+adsSpread: 0.26208
+hipfireSpread: 6.9888
+reloadTime: 2.76
+magazineSize: 30
 health: 0
-recoilHipVertical: 20.631 - 25.7887
-recoilAimVertical: 12.3786 - 15.4732
-movementSpeed: 1.84
-detectionRadius: 175
-TTK: 0.242405 Seconds
+recoilHipVertical: 10.56 - 13.2
+recoilAimVertical: 6.336 - 7.92
+movementSpeed: 2.44
+detectionRadius: 218.75
+TTK: 0.226884 Seconds
+
+Gun contains[ Barrel: APS, Magazine: MAC-10, Grip: Lee Enfield, Stock: Spas-12, Core: FE-200SH ]
+damage: 25.6446 - 20.5157
+dropoffStuds: 72.4838 - 140.941
+pellets: 1
+fireRate: 791.999
+adsSpread: 0.26208
+hipfireSpread: 6.9888
+reloadTime: 2
+magazineSize: 30
+health: 0
+recoilHipVertical: 16.2 - 20.25
+recoilAimVertical: 9.72 - 12.15
+movementSpeed: 0.52
+detectionRadius: 218.75
+TTK: 0.227273 Seconds
+
+Gun contains[ Barrel: APS, Magazine: Kriss Vector, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: FE-200SH ]
+damage: 25.6446 - 20.5157
+dropoffStuds: 99.45 - 193.375
+pellets: 1
+fireRate: 790.43
+adsSpread: 0.207
+hipfireSpread: 5.52
+reloadTime: 2.76
+magazineSize: 30
+health: 0
+recoilHipVertical: 12.144 - 15.18
+recoilAimVertical: 7.2864 - 9.108
+movementSpeed: 2.64
+detectionRadius: 218.75
+TTK: 0.227724 Seconds
+
+Gun contains[ Barrel: APS, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Lee Enfield, Core: FE-200SH ]
+damage: 25.6446 - 20.5157
+dropoffStuds: 79.56 - 154.7
+pellets: 1
+fireRate: 790.43
+adsSpread: 0.19872
+hipfireSpread: 5.2992
+reloadTime: 2.76
+magazineSize: 30
+health: 0
+recoilHipVertical: 14.784 - 18.48
+recoilAimVertical: 8.8704 - 11.088
+movementSpeed: 2.64
+detectionRadius: 218.75
+TTK: 0.227724 Seconds
+
+Gun contains[ Barrel: APS, Magazine: Kriss Vector, Grip: Lee Enfield, Stock: Fedorov Avtomat, Core: FE-200SH ]
+damage: 25.6446 - 20.5157
+dropoffStuds: 79.56 - 154.7
+pellets: 1
+fireRate: 786.053
+adsSpread: 0.234
+hipfireSpread: 6.24
+reloadTime: 2.88
+magazineSize: 30
+health: 0
+recoilHipVertical: 9.7152 - 12.144
+recoilAimVertical: 5.82912 - 7.2864
+movementSpeed: 2.64
+detectionRadius: 218.75
+TTK: 0.228992 Seconds
 

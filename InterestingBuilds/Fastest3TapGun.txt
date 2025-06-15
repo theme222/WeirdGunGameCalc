@@ -1,58 +1,10 @@
 ./Calculator -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 
 Current top 10 guns are: 
-Gun contains[ Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Taco, Core: FE-200SH ]
-damage: 33.4403 - 26.7522
-dropoffStuds: 180 - 350
-pellets: 1
-fireRate: 513
-adsSpread: 0.225
-hipfireSpread: 6
-reloadTime: 4.4
-magazineSize: 35
-health: 2.5
-recoilHipVertical: 15.9408 - 19.926
-recoilAimVertical: 9.56448 - 11.9556
-movementSpeed: 0
-detectionRadius: 367.5
-TTK: 0.233918 Seconds
-
-Gun contains[ Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: Taco, Core: FE-200SH ]
-damage: 34.1423 - 27.3138
-dropoffStuds: 180 - 350
-pellets: 1
-fireRate: 513
-adsSpread: 0.30375
-hipfireSpread: 8.1
-reloadTime: 4.4
-magazineSize: 35
-health: 10
-recoilHipVertical: 12.96 - 16.2
-recoilAimVertical: 7.776 - 9.72
-movementSpeed: 0
-detectionRadius: 367.5
-TTK: 0.233918 Seconds
-
-Gun contains[ Barrel: Water Pipe, Magazine: Hell-Trooper-23, Grip: Circuit Judge, Stock: Taco, Core: FE-200SH ]
-damage: 33.5485 - 26.8388
-dropoffStuds: 180 - 350
-pellets: 1
-fireRate: 513
-adsSpread: 0.334125
-hipfireSpread: 8.91
-reloadTime: 2.53
-magazineSize: 45
-health: 10
-recoilHipVertical: 16.56 - 20.7
-recoilAimVertical: 9.936 - 12.42
-movementSpeed: 0
-detectionRadius: 367.5
-TTK: 0.233918 Seconds
-
 Gun contains[ Barrel: APS, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
 damage: 33.4491 - 26.7593
 dropoffStuds: 117 - 227.5
 pellets: 1
-fireRate: 510
+fireRate: 570
 adsSpread: 0.3159
 hipfireSpread: 8.424
 reloadTime: 4
@@ -62,15 +14,143 @@ recoilHipVertical: 14.04 - 17.55
 recoilAimVertical: 8.424 - 10.53
 movementSpeed: 0
 detectionRadius: 218.75
-TTK: 0.235294 Seconds
+TTK: 0.210526 Seconds
+
+Gun contains[ Barrel: APS, Magazine: STG-44, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
+damage: 33.4491 - 26.7593
+dropoffStuds: 117 - 227.5
+pellets: 1
+fireRate: 513
+adsSpread: 0.3159
+hipfireSpread: 8.424
+reloadTime: 2.5
+magazineSize: 30
+health: 0
+recoilHipVertical: 15.6 - 19.5
+recoilAimVertical: 9.36 - 11.7
+movementSpeed: 0
+detectionRadius: 218.75
+TTK: 0.233918 Seconds
+
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: The Chief, Stock: APS, Core: FE-200SH ]
+damage: 33.5986 - 26.8789
+dropoffStuds: 131.04 - 254.8
+pellets: 1
+fireRate: 513
+adsSpread: 0.1755
+hipfireSpread: 4.68
+reloadTime: 4.75
+magazineSize: 36
+health: 0
+recoilHipVertical: 26.325 - 32.9062
+recoilAimVertical: 15.795 - 19.7437
+movementSpeed: 0
+detectionRadius: 218.75
+TTK: 0.233918 Seconds
+
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
+damage: 34.9034 - 27.9227
+dropoffStuds: 131.04 - 254.8
+pellets: 1
+fireRate: 513
+adsSpread: 0.3159
+hipfireSpread: 8.424
+reloadTime: 4.75
+magazineSize: 36
+health: 0
+recoilHipVertical: 19.5 - 24.375
+recoilAimVertical: 11.7 - 14.625
+movementSpeed: 0
+detectionRadius: 218.75
+TTK: 0.233918 Seconds
+
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: MP 40, Stock: APS, Core: FE-200SH ]
+damage: 33.9248 - 27.1398
+dropoffStuds: 131.04 - 254.8
+pellets: 1
+fireRate: 513
+adsSpread: 0.3042
+hipfireSpread: 8.112
+reloadTime: 4.75
+magazineSize: 36
+health: 0
+recoilHipVertical: 25.35 - 31.6875
+recoilAimVertical: 15.21 - 19.0125
+movementSpeed: 0
+detectionRadius: 218.75
+TTK: 0.233918 Seconds
+
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Type 2a Nambu, Stock: APS, Core: FE-200SH ]
+damage: 34.1857 - 27.3486
+dropoffStuds: 131.04 - 254.8
+pellets: 1
+fireRate: 513
+adsSpread: 0.234
+hipfireSpread: 6.24
+reloadTime: 4.75
+magazineSize: 36
+health: -7.5
+recoilHipVertical: 23.985 - 29.9812
+recoilAimVertical: 14.391 - 17.9888
+movementSpeed: 0
+detectionRadius: 218.75
+TTK: 0.233918 Seconds
+
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Taco, Core: FE-200SH ]
+damage: 34.5741 - 27.6593
+dropoffStuds: 131.04 - 254.8
+pellets: 1
+fireRate: 487.35
+adsSpread: 0.2916
+hipfireSpread: 7.776
+reloadTime: 5.225
+magazineSize: 36
+health: 10
+recoilHipVertical: 18 - 22.5
+recoilAimVertical: 10.8 - 13.5
+movementSpeed: 0
+detectionRadius: 262.5
+TTK: 0.24623 Seconds
+
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Type 2a Nambu, Stock: Taco, Core: FE-200SH ]
+damage: 33.8632 - 27.0906
+dropoffStuds: 131.04 - 254.8
+pellets: 1
+fireRate: 487.35
+adsSpread: 0.216
+hipfireSpread: 5.76
+reloadTime: 5.225
+magazineSize: 36
+health: 2.5
+recoilHipVertical: 22.14 - 27.675
+recoilAimVertical: 13.284 - 16.605
+movementSpeed: 0
+detectionRadius: 262.5
+TTK: 0.24623 Seconds
+
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: MP 40, Stock: Taco, Core: FE-200SH ]
+damage: 33.6047 - 26.8838
+dropoffStuds: 131.04 - 254.8
+pellets: 1
+fireRate: 487.35
+adsSpread: 0.2808
+hipfireSpread: 7.488
+reloadTime: 5.225
+magazineSize: 36
+health: 10
+recoilHipVertical: 23.4 - 29.25
+recoilAimVertical: 14.04 - 17.55
+movementSpeed: 0
+detectionRadius: 262.5
+TTK: 0.24623 Seconds
 
 Gun contains[ Barrel: Water Pipe, Magazine: The Chief, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
 damage: 34.3312 - 27.465
 dropoffStuds: 201.6 - 392
 pellets: 1
-fireRate: 486
-adsSpread: 0.329062
-hipfireSpread: 8.775
+fireRate: 475.2
+adsSpread: 0.355388
+hipfireSpread: 9.477
 reloadTime: 4.75
 magazineSize: 36
 health: 0
@@ -78,85 +158,5 @@ recoilHipVertical: 19.5 - 24.375
 recoilAimVertical: 11.7 - 14.625
 movementSpeed: 0
 detectionRadius: 306.25
-TTK: 0.246914 Seconds
-
-Gun contains[ Barrel: Water Pipe, Magazine: The Chief, Grip: Type 2a Nambu, Stock: APS, Core: FE-200SH ]
-damage: 33.6253 - 26.9003
-dropoffStuds: 201.6 - 392
-pellets: 1
-fireRate: 486
-adsSpread: 0.24375
-hipfireSpread: 6.5
-reloadTime: 4.75
-magazineSize: 36
-health: -7.5
-recoilHipVertical: 23.985 - 29.9812
-recoilAimVertical: 14.391 - 17.9888
-movementSpeed: 0
-detectionRadius: 306.25
-TTK: 0.246914 Seconds
-
-Gun contains[ Barrel: APS, Magazine: Hex Spitter, Grip: MP 40, Stock: Taco, Core: FE-200SH ]
-damage: 33.7381 - 26.9905
-dropoffStuds: 117 - 227.5
-pellets: 1
-fireRate: 484.5
-adsSpread: 0.2808
-hipfireSpread: 7.488
-reloadTime: 4.4
-magazineSize: 35
-health: 10
-recoilHipVertical: 16.848 - 21.06
-recoilAimVertical: 10.1088 - 12.636
-movementSpeed: 0
-detectionRadius: 262.5
-TTK: 0.247678 Seconds
-
-Gun contains[ Barrel: APS, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Taco, Core: FE-200SH ]
-damage: 33.9976 - 27.1981
-dropoffStuds: 117 - 227.5
-pellets: 1
-fireRate: 484.5
-adsSpread: 0.216
-hipfireSpread: 5.76
-reloadTime: 4.4
-magazineSize: 35
-health: 2.5
-recoilHipVertical: 15.9408 - 19.926
-recoilAimVertical: 9.56448 - 11.9556
-movementSpeed: 0
-detectionRadius: 262.5
-TTK: 0.247678 Seconds
-
-Gun contains[ Barrel: APS, Magazine: Hell-Trooper-23, Grip: Circuit Judge, Stock: Taco, Core: FE-200SH ]
-damage: 34.1076 - 27.2861
-dropoffStuds: 117 - 227.5
-pellets: 1
-fireRate: 484.5
-adsSpread: 0.32076
-hipfireSpread: 8.5536
-reloadTime: 2.53
-magazineSize: 45
-health: 10
-recoilHipVertical: 16.56 - 20.7
-recoilAimVertical: 9.936 - 12.42
-movementSpeed: 0
-detectionRadius: 262.5
-TTK: 0.247678 Seconds
-
-Gun contains[ Barrel: APS, Magazine: Hell-Trooper-23, Grip: Type 2a Nambu, Stock: Taco, Core: FE-200SH ]
-damage: 33.4064 - 26.7251
-dropoffStuds: 117 - 227.5
-pellets: 1
-fireRate: 484.5
-adsSpread: 0.2376
-hipfireSpread: 6.336
-reloadTime: 2.53
-magazineSize: 45
-health: 2.5
-recoilHipVertical: 20.3688 - 25.461
-recoilAimVertical: 12.2213 - 15.2766
-movementSpeed: 0
-detectionRadius: 262.5
-TTK: 0.247678 Seconds
+TTK: 0.252525 Seconds
 

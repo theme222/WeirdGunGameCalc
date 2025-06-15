@@ -1,162 +1,162 @@
 ./Calculator -o InterestingBuilds/FastestHeadshotSniper.txt -i Sniper --speedMin 0 --damageMin 49.95 --spreadAimMax 0.149 --sort FIRERATE 
 Current top 10 guns are: 
+Gun contains[ Barrel: Mustard, Magazine: Kriss Vector, Grip: M1891 Carcano, Stock: Arctic Warfare, Core: Remington 700 ]
+damage: 52.025 - 45.4982
+dropoffStuds: 255 - 425
+pellets: 1
+fireRate: 58.5063
+adsSpread: 0.122525
+hipfireSpread: 18.3787
+reloadTime: 2.346
+magazineSize: 30
+health: 0
+recoilHipVertical: 70.07 - 100.1
+recoilAimVertical: 35.035 - 50.05
+movementSpeed: 0.98
+detectionRadius: 215
+TTK: 1.02553 Seconds
+
+Gun contains[ Barrel: Mustard, Magazine: Kriss Vector, Grip: M1891 Carcano, Stock: FAL, Core: Remington 700 ]
+damage: 52.025 - 45.4982
+dropoffStuds: 265.837 - 443.062
+pellets: 1
+fireRate: 58.5063
+adsSpread: 0.145239
+hipfireSpread: 21.7859
+reloadTime: 2.76
+magazineSize: 30
+health: 0
+recoilHipVertical: 82.81 - 118.3
+recoilAimVertical: 41.405 - 59.15
+movementSpeed: 1.15
+detectionRadius: 215
+TTK: 1.02553 Seconds
+
 Gun contains[ Barrel: Arctic Warfare, Magazine: Kriss Vector, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield ]
-damage: 56.5654 - 50.9088
+damage: 62.8504 - 50.2803
 dropoffStuds: 293.25 - 439.875
 pellets: 1
 fireRate: 57.5
 adsSpread: 0.147875
 hipfireSpread: 2.9575
-reloadTime: 2.04
+reloadTime: 2.2848
 magazineSize: 30
 health: 0
-recoilHipVertical: 135.135 - 180.18
-recoilAimVertical: 54.054 - 72.072
+recoilHipVertical: 145.946 - 194.594
+recoilAimVertical: 58.3783 - 77.8378
 movementSpeed: 1.98
 detectionRadius: 200
 TTK: 1.04348 Seconds
 
-Gun contains[ Barrel: Remington 700, Magazine: Remington 700, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield ]
-damage: 57.0572 - 51.3515
-dropoffStuds: 562.5 - 843.75
+Gun contains[ Barrel: Mustard, Magazine: MAC-10, Grip: M1891 Carcano, Stock: FAL, Core: Remington 700 ]
+damage: 52.025 - 45.4982
+dropoffStuds: 275.22 - 458.7
 pellets: 1
-fireRate: 55
-adsSpread: 0.1365
-hipfireSpread: 2.73
-reloadTime: 2.975
-magazineSize: 10
-health: 0
-recoilHipVertical: 70.5375 - 94.05
-recoilAimVertical: 28.215 - 37.62
-movementSpeed: 0
-detectionRadius: 200
-TTK: 1.09091 Seconds
-
-Gun contains[ Barrel: Arctic Warfare, Magazine: Horizontal, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield ]
-damage: 59.7079 - 53.7371
-dropoffStuds: 345 - 517.5
-pellets: 1
-fireRate: 55
-adsSpread: 0.147875
-hipfireSpread: 2.9575
-reloadTime: 1.615
-magazineSize: 20
-health: 0
-recoilHipVertical: 126.225 - 168.3
-recoilAimVertical: 50.49 - 67.32
-movementSpeed: 0
-detectionRadius: 200
-TTK: 1.09091 Seconds
-
-Gun contains[ Barrel: Arctic Warfare, Magazine: MP5, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield ]
-damage: 57.1939 - 51.4745
-dropoffStuds: 307.05 - 460.575
-pellets: 1
-fireRate: 54.5
-adsSpread: 0.143439
-hipfireSpread: 2.86877
-reloadTime: 1.7
+fireRate: 56.98
+adsSpread: 0.145239
+hipfireSpread: 21.7859
+reloadTime: 2.3
 magazineSize: 30
 health: 0
-recoilHipVertical: 139.59 - 186.12
-recoilAimVertical: 55.836 - 74.448
-movementSpeed: 1.98
-detectionRadius: 200
-TTK: 1.10092 Seconds
+recoilHipVertical: 122.85 - 175.5
+recoilAimVertical: 61.425 - 87.75
+movementSpeed: 1.81
+detectionRadius: 215
+TTK: 1.053 Seconds
 
-Gun contains[ Barrel: Arctic Warfare, Magazine: Famas F1, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield ]
-damage: 59.7079 - 53.7371
-dropoffStuds: 310.5 - 465.75
+Gun contains[ Barrel: Mustard, Magazine: MAC-10, Grip: M1891 Carcano, Stock: Arctic Warfare, Core: Remington 700 ]
+damage: 52.025 - 45.4982
+dropoffStuds: 264 - 440
 pellets: 1
-fireRate: 53.5
+fireRate: 56.98
+adsSpread: 0.122525
+hipfireSpread: 18.3787
+reloadTime: 1.955
+magazineSize: 30
+health: 0
+recoilHipVertical: 103.95 - 148.5
+recoilAimVertical: 51.975 - 74.25
+movementSpeed: 1.64
+detectionRadius: 215
+TTK: 1.053 Seconds
+
+Gun contains[ Barrel: M1897 Trench Shotgun, Magazine: MAC-10, Grip: Lee Enfield, Stock: Auto-5, Core: Remington 700 ]
+damage: 54.9153 - 48.0259
+dropoffStuds: 152.064 - 253.44
+pellets: 1
+fireRate: 56.4485
+adsSpread: 0.14664
+hipfireSpread: 21.996
+reloadTime: 1.82
+magazineSize: 30
+health: 0
+recoilHipVertical: 94.5 - 135
+recoilAimVertical: 47.25 - 67.5
+movementSpeed: 0.64
+detectionRadius: 215
+TTK: 1.06292 Seconds
+
+Gun contains[ Barrel: Kriss Vector, Magazine: Kriss Vector, Grip: Lee Enfield, Stock: Auto-5, Core: Remington 700 ]
+damage: 54.9153 - 48.0259
+dropoffStuds: 183.6 - 306
+pellets: 1
+fireRate: 56.4485
+adsSpread: 0.1222
+hipfireSpread: 18.33
+reloadTime: 2.4
+magazineSize: 30
+health: 0
+recoilHipVertical: 57.967 - 82.81
+recoilAimVertical: 28.9835 - 41.405
+movementSpeed: 1.96
+detectionRadius: 215
+TTK: 1.06292 Seconds
+
+Gun contains[ Barrel: Mustard, Magazine: Kriss Vector, Grip: PPSh-41, Stock: M1891 Carcano, Core: Remington 700 ]
+damage: 52.025 - 45.4982
+dropoffStuds: 255 - 425
+pellets: 1
+fireRate: 56.3787
+adsSpread: 0.1363
+hipfireSpread: 20.445
+reloadTime: 2.76
+magazineSize: 30
+health: 0
+recoilHipVertical: 73.255 - 104.65
+recoilAimVertical: 36.6275 - 52.325
+movementSpeed: 0.98
+detectionRadius: 215
+TTK: 1.06423 Seconds
+
+Gun contains[ Barrel: Arctic Warfare, Magazine: MAC-10, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield ]
+damage: 62.8504 - 50.2803
+dropoffStuds: 303.6 - 455.4
+pellets: 1
+fireRate: 56
 adsSpread: 0.147875
 hipfireSpread: 2.9575
-reloadTime: 1.7
-magazineSize: 25
+reloadTime: 1.904
+magazineSize: 30
 health: 0
-recoilHipVertical: 163.35 - 217.8
-recoilAimVertical: 65.34 - 87.12
-movementSpeed: 0
+recoilHipVertical: 216.513 - 288.684
+recoilAimVertical: 86.6052 - 115.474
+movementSpeed: 2.64
 detectionRadius: 200
-TTK: 1.1215 Seconds
+TTK: 1.07143 Seconds
 
-Gun contains[ Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: MG42, Core: Remington 700 ]
-damage: 52.025 - 46.8225
-dropoffStuds: 360 - 600
+Gun contains[ Barrel: Kriss Vector, Magazine: Kriss Vector, Grip: Lee Enfield, Stock: P90, Core: Remington 700 ]
+damage: 57.8055 - 50.5536
+dropoffStuds: 183.6 - 306
 pellets: 1
-fireRate: 53.4188
-adsSpread: 0.12818
-hipfireSpread: 19.227
-reloadTime: 4.83
-magazineSize: 6
+fireRate: 55.6265
+adsSpread: 0.1261
+hipfireSpread: 18.915
+reloadTime: 2.4
+magazineSize: 30
 health: 0
-recoilHipVertical: 87.5 - 125
-recoilAimVertical: 43.75 - 62.5
-movementSpeed: 1.8
+recoilHipVertical: 56.228 - 80.3257
+recoilAimVertical: 28.114 - 40.1628
+movementSpeed: 0.76
 detectionRadius: 215
-TTK: 1.1232 Seconds
-
-Gun contains[ Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: AUG, Core: Remington 700 ]
-damage: 52.025 - 46.8225
-dropoffStuds: 360 - 600
-pellets: 1
-fireRate: 53.4188
-adsSpread: 0.137794
-hipfireSpread: 20.669
-reloadTime: 4.025
-magazineSize: 6
-health: 0
-recoilHipVertical: 81.375 - 116.25
-recoilAimVertical: 40.6875 - 58.125
-movementSpeed: 0.75
-detectionRadius: 215
-TTK: 1.1232 Seconds
-
-Gun contains[ Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: UMP-40, Core: Remington 700 ]
-damage: 52.025 - 46.8225
-dropoffStuds: 360 - 600
-pellets: 1
-fireRate: 53.4188
-adsSpread: 0.139075
-hipfireSpread: 20.8613
-reloadTime: 4.025
-magazineSize: 6
-health: 0
-recoilHipVertical: 105 - 150
-recoilAimVertical: 52.5 - 75
-movementSpeed: 1.28
-detectionRadius: 215
-TTK: 1.1232 Seconds
-
-Gun contains[ Barrel: Mustard, Magazine: M1891 Carcano, Grip: M1891 Carcano, Stock: PP-19 Bizon, Core: Remington 700 ]
-damage: 52.025 - 46.8225
-dropoffStuds: 360 - 600
-pellets: 1
-fireRate: 53.4188
-adsSpread: 0.147727
-hipfireSpread: 22.1591
-reloadTime: 3.7352
-magazineSize: 6
-health: 0
-recoilHipVertical: 105 - 150
-recoilAimVertical: 52.5 - 75
-movementSpeed: 0.5
-detectionRadius: 215
-TTK: 1.1232 Seconds
-
-Gun contains[ Barrel: PPSh-41, Magazine: Lee Enfield, Grip: M1891 Carcano, Stock: Arctic Warfare, Core: Remington 700 ]
-damage: 52.025 - 46.8225
-dropoffStuds: 348 - 580
-pellets: 1
-fireRate: 53.2356
-adsSpread: 0.139425
-hipfireSpread: 20.9137
-reloadTime: 3.91
-magazineSize: 10
-health: 0
-recoilHipVertical: 110.688 - 158.125
-recoilAimVertical: 55.3438 - 79.0625
-movementSpeed: 0.38
-detectionRadius: 215
-TTK: 1.12707 Seconds
+TTK: 1.07862 Seconds
 

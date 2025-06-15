@@ -1,154 +1,90 @@
 ./Calculator -o InterestingBuilds/FastestTTKSMG.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.049 --recoilAimMax 35 
 Current top 10 guns are: 
-Gun contains[ Barrel: Shower, Magazine: Hex Spitter, Grip: PPSh-41, Stock: APS, Core: FE-200SH ]
-damage: 25.9358 - 20.7487
-dropoffStuds: 180 - 350
-pellets: 2
-fireRate: 777.6
-adsSpread: 0.7176
-hipfireSpread: 19.136
-reloadTime: 5.75
-magazineSize: 35
-health: 0
-recoilHipVertical: 3.51 - 4.3875
-recoilAimVertical: 2.106 - 2.6325
-movementSpeed: 0
-detectionRadius: 175
-TTK: 0.231481 Seconds
-
-Gun contains[ Barrel: Shower, Magazine: Hell-Trooper-23, Grip: PPSh-41, Stock: APS, Core: FE-200SH ]
-damage: 25.4848 - 20.3878
-dropoffStuds: 180 - 350
-pellets: 2
-fireRate: 777.6
-adsSpread: 0.78936
-hipfireSpread: 21.0496
-reloadTime: 3.30625
-magazineSize: 45
-health: 0
-recoilHipVertical: 4.485 - 5.60625
-recoilAimVertical: 2.691 - 3.36375
-movementSpeed: 0
-detectionRadius: 175
-TTK: 0.231481 Seconds
-
-Gun contains[ Barrel: Shower, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: FE-200SH ]
-damage: 25.6422 - 20.5138
-dropoffStuds: 180 - 350
-pellets: 2
-fireRate: 770.4
-adsSpread: 0.75
-hipfireSpread: 20
-reloadTime: 5
-magazineSize: 35
-health: -7.5
-recoilHipVertical: 3.81915 - 4.77394
-recoilAimVertical: 2.29149 - 2.86436
-movementSpeed: 0
-detectionRadius: 175
-TTK: 0.233645 Seconds
-
-Gun contains[ Barrel: Shower, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: FE-200SH ]
-damage: 26.1805 - 20.9444
-dropoffStuds: 180 - 350
-pellets: 2
-fireRate: 770.4
-adsSpread: 1.0125
-hipfireSpread: 27
-reloadTime: 5
-magazineSize: 35
-health: 0
-recoilHipVertical: 3.105 - 3.88125
-recoilAimVertical: 1.863 - 2.32875
-movementSpeed: 0
-detectionRadius: 175
-TTK: 0.233645 Seconds
-
-Gun contains[ Barrel: Shower, Magazine: Hex Spitter, Grip: M1891 Carcano, Stock: APS, Core: FE-200SH ]
-damage: 25.9358 - 20.7487
-dropoffStuds: 180 - 350
-pellets: 2
-fireRate: 770.4
-adsSpread: 1.014
-hipfireSpread: 27.04
-reloadTime: 5.75
-magazineSize: 35
-health: 0
-recoilHipVertical: 3.51 - 4.3875
-recoilAimVertical: 2.106 - 2.6325
-movementSpeed: 2.8
-detectionRadius: 175
-TTK: 0.233645 Seconds
-
-Gun contains[ Barrel: Shower, Magazine: Hex Spitter, Grip: MP 40, Stock: M1897 Trench Shotgun, Core: FE-200SH ]
-damage: 25.4465 - 20.3572
-dropoffStuds: 180 - 350
-pellets: 2
-fireRate: 770.4
-adsSpread: 0.975
-hipfireSpread: 26
-reloadTime: 5
-magazineSize: 35
-health: 0
-recoilHipVertical: 4.0365 - 5.04562
-recoilAimVertical: 2.4219 - 3.02737
-movementSpeed: 0
-detectionRadius: 175
-TTK: 0.233645 Seconds
-
-Gun contains[ Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: Taco, Core: FE-200SH ]
-damage: 34.1423 - 27.3138
-dropoffStuds: 180 - 350
+Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
+damage: 26.4855 - 11.9815
+dropoffStuds: 113.05 - 125.162
 pellets: 1
-fireRate: 513
-adsSpread: 0.30375
-hipfireSpread: 8.1
-reloadTime: 4.4
-magazineSize: 35
-health: 10
-recoilHipVertical: 12.96 - 16.2
-recoilAimVertical: 7.776 - 9.72
-movementSpeed: 0
-detectionRadius: 367.5
-TTK: 0.233918 Seconds
+fireRate: 882.75
+adsSpread: 0.7371
+hipfireSpread: 4.914
+reloadTime: 2.76
+magazineSize: 30
+health: 0
+recoilHipVertical: 17 - 23.8
+recoilAimVertical: 11.016 - 15.436
+movementSpeed: 0.6
+detectionRadius: 100
+TTK: 0.203908 Seconds
 
-Gun contains[ Barrel: Water Pipe, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: Taco, Core: FE-200SH ]
-damage: 33.4403 - 26.7522
-dropoffStuds: 180 - 350
+Gun contains[ Barrel: PP-19 Bizon, Magazine: Kriss Vector, Grip: PPSh-41, Stock: APS, Core: Type 2a Nambu ]
+damage: 25.2124 - 11.4056
+dropoffStuds: 107.1 - 118.575
 pellets: 1
-fireRate: 513
-adsSpread: 0.225
-hipfireSpread: 6
-reloadTime: 4.4
-magazineSize: 35
-health: 2.5
-recoilHipVertical: 15.9408 - 19.926
-recoilAimVertical: 9.56448 - 11.9556
-movementSpeed: 0
-detectionRadius: 367.5
-TTK: 0.233918 Seconds
+fireRate: 866.25
+adsSpread: 0.5265
+hipfireSpread: 3.51
+reloadTime: 2.76
+magazineSize: 30
+health: 0
+recoilHipVertical: 34.5312 - 48.3437
+recoilAimVertical: 22.3762 - 31.3544
+movementSpeed: 9.8
+detectionRadius: 80
+TTK: 0.207792 Seconds
 
-Gun contains[ Barrel: Water Pipe, Magazine: Hell-Trooper-23, Grip: Circuit Judge, Stock: Taco, Core: FE-200SH ]
-damage: 33.5485 - 26.8388
-dropoffStuds: 180 - 350
+Gun contains[ Barrel: Thompson, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: Spas-12, Core: Type 2a Nambu ]
+damage: 25.1512 - 11.3779
+dropoffStuds: 104.72 - 115.94
 pellets: 1
-fireRate: 513
-adsSpread: 0.334125
-hipfireSpread: 8.91
-reloadTime: 2.53
-magazineSize: 45
-health: 10
-recoilHipVertical: 16.56 - 20.7
-recoilAimVertical: 9.936 - 12.42
-movementSpeed: 0
-detectionRadius: 367.5
-TTK: 0.233918 Seconds
+fireRate: 865.095
+adsSpread: 0.6804
+hipfireSpread: 4.536
+reloadTime: 2.4
+magazineSize: 30
+health: 0
+recoilHipVertical: 26.5625 - 37.1875
+recoilAimVertical: 17.2125 - 24.1188
+movementSpeed: 8.1
+detectionRadius: 80
+TTK: 0.20807 Seconds
+
+Gun contains[ Barrel: Thompson, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: Kriss Vector, Core: Type 2a Nambu ]
+damage: 25.1512 - 11.3779
+dropoffStuds: 113.05 - 125.162
+pellets: 1
+fireRate: 858.675
+adsSpread: 0.78975
+hipfireSpread: 5.265
+reloadTime: 2.4
+magazineSize: 30
+health: 0
+recoilHipVertical: 21.25 - 29.75
+recoilAimVertical: 13.77 - 19.295
+movementSpeed: 14.4
+detectionRadius: 80
+TTK: 0.209625 Seconds
+
+Gun contains[ Barrel: PP-19 Bizon, Magazine: Kriss Vector, Grip: Lee Enfield, Stock: APS, Core: Type 2a Nambu ]
+damage: 25.2124 - 11.4056
+dropoffStuds: 85.68 - 94.86
+pellets: 1
+fireRate: 858.375
+adsSpread: 0.7605
+hipfireSpread: 5.07
+reloadTime: 2.4
+magazineSize: 30
+health: 0
+recoilHipVertical: 34.5312 - 48.3437
+recoilAimVertical: 22.3762 - 31.3544
+movementSpeed: 9.8
+detectionRadius: 80
+TTK: 0.209699 Seconds
 
 Gun contains[ Barrel: APS, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
 damage: 33.4491 - 26.7593
 dropoffStuds: 117 - 227.5
 pellets: 1
-fireRate: 510
+fireRate: 570
 adsSpread: 0.3159
 hipfireSpread: 8.424
 reloadTime: 4
@@ -158,5 +94,69 @@ recoilHipVertical: 14.04 - 17.55
 recoilAimVertical: 8.424 - 10.53
 movementSpeed: 0
 detectionRadius: 218.75
-TTK: 0.235294 Seconds
+TTK: 0.210526 Seconds
+
+Gun contains[ Barrel: Thompson, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.1512 - 11.3779
+dropoffStuds: 119 - 131.75
+pellets: 1
+fireRate: 854.663
+adsSpread: 0.759375
+hipfireSpread: 5.0625
+reloadTime: 2.4
+magazineSize: 30
+health: 0
+recoilHipVertical: 30.5469 - 42.7656
+recoilAimVertical: 19.7944 - 27.7366
+movementSpeed: 11.1
+detectionRadius: 80
+TTK: 0.210609 Seconds
+
+Gun contains[ Barrel: Kriss Vector, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Spas-12, Core: MP5 ]
+damage: 16.8162 - 9.66929
+dropoffStuds: 74.052 - 94.248
+pellets: 1
+fireRate: 1422.96
+adsSpread: 0.6048
+hipfireSpread: 1.512
+reloadTime: 2.76
+magazineSize: 30
+health: 0
+recoilHipVertical: 14.45 - 32.5125
+recoilAimVertical: 13.005 - 29.2613
+movementSpeed: 3.6
+detectionRadius: 70
+TTK: 0.210828 Seconds
+
+Gun contains[ Barrel: Kriss Vector, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Spas-12, Core: Thompson ]
+damage: 16.8162 - 10.0897
+dropoffStuds: 84.15 - 107.712
+pellets: 1
+fireRate: 1422.96
+adsSpread: 0.8568
+hipfireSpread: 2.016
+reloadTime: 2.76
+magazineSize: 30
+health: 0
+recoilHipVertical: 28.9 - 43.35
+recoilAimVertical: 23.12 - 34.68
+movementSpeed: 7.4
+detectionRadius: 90
+TTK: 0.210828 Seconds
+
+Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Auto-5, Core: Type 2a Nambu ]
+damage: 25.1612 - 11.3824
+dropoffStuds: 119 - 131.75
+pellets: 1
+fireRate: 851.812
+adsSpread: 0.530145
+hipfireSpread: 3.5343
+reloadTime: 2.76
+magazineSize: 30
+health: 0
+recoilHipVertical: 21.25 - 29.75
+recoilAimVertical: 13.77 - 19.295
+movementSpeed: 0.55
+detectionRadius: 100
+TTK: 0.211314 Seconds
 
