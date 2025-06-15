@@ -20,7 +20,7 @@
       "Recoil": -5,
       "Reload_Speed": -15,
       "Spread": -10,
-      "Damage": -5,
+      "Damage": -2.5,
       "Range": -10
     },
     {
@@ -33,7 +33,7 @@
     {
       "Category": "Assault Rifle",
       "Name": "Famas F1",
-      "Fire_Rate": 5,
+      "Fire_Rate": 9,
       "Spread": 15,
       "Range": -5
     },
@@ -62,7 +62,8 @@
       "Name": "Hell-Trooper-23",
       "Damage": 12,
       "Recoil": 10,
-      "Spread": 35
+      "Spread": 35,
+      "Range": 5
     },
     {
       "Category": "Assault Rifle",
@@ -82,7 +83,7 @@
       "Name": "APS",
       "Damage": 22,
       "Detection_Radius": 25,
-      "Fire_Rate": -15,
+      "Fire_Rate": -5,
       "Spread": 20,
       "Range": -35
     },
@@ -214,7 +215,6 @@
       "Fire_Rate": 20,
       "Movement_Speed": 3.3,
       "Recoil": -15,
-      "Damage": -10,
       "Range": -10
     },
     {
@@ -236,7 +236,7 @@
     {
       "Category": "SMG",
       "Name": "PP-19 Bizon",
-      "Damage": 8,
+      "Damage": 9,
       "Fire_Rate": 5,
       "Movement_Speed": 2.5,
       "Recoil": 25,
@@ -245,11 +245,12 @@
     {
       "Category": "SMG",
       "Name": "MP5",
-      "Damage": 10,
+      "Damage": 7,
       "Movement_Speed": 2.5,
       "Recoil": -5,
       "Spread": -5,
-      "Fire_Rate": -5
+      "Fire_Rate": -5,
+      "Range": -7.5
     },
     {
       "Category": "SMG",
@@ -306,10 +307,10 @@
     {
       "Category": "LMG",
       "Name": "MG42",
-      "Fire_Rate": 20,
-      "Movement_Speed": -5,
-      "Recoil": 40,
-      "Spread": 50,
+      "Fire_Rate": 35,
+      "Movement_Speed": -7,
+      "Recoil": 30,
+      "Spread": 40,
       "Range": -22
     },
     {
@@ -379,15 +380,15 @@
     {
       "Category": "Shotgun",
       "Name": "M1897 Trench Shotgun",
-      "Fire_Rate": 5,
-      "Reload_Speed": -10,
-      "Spread": 10,
+      "Fire_Rate": 25,
+      "Reload_Speed": -15,
+      "Spread": 20,
       "Range": -28
     },
     {
       "Category": "Shotgun",
       "Name": "Remington 870 Breacher",
-      "Damage": 10,
+      "Damage": 20,
       "Movement_Speed": 3,
       "Spread": 75,
       "Range": -25
@@ -460,8 +461,8 @@
       "Name": "Oil",
       "Damage": 20,
       "Detection_Radius": 25,
-      "Movement_Speed": -15,
-      "Spread": 50
+      "Movement_Speed": -10,
+      "Spread": 40
     },
     {
       "Category": "Weird",
@@ -500,8 +501,8 @@
       "Damage": 300,
       "Fire_Rate": -90,
       "Detection_Radius": 200,
-      "Recoil": 1000,
-      "Spread": 1500
+      "Recoil": 900,
+      "Spread": 1200
     },
     {
       "Category": "Weird",
@@ -556,11 +557,11 @@
       "Name": "M-16",
       "Damage": [
         15.9,
-        12.7
+        13.5
       ],
       "Dropoff_Studs": [
-        140,
-        325
+        180,
+        350
       ],
       "Fire_Rate": 650,
       "Hipfire_Spread": 2,
@@ -590,11 +591,11 @@
       "Name": "AUG",
       "Damage": [
         14.5,
-        11.6
+        12.3
       ],
       "Dropoff_Studs": [
-        180,
-        350
+        125,
+        250
       ],
       "Fire_Rate": 680,
       "Hipfire_Spread": 1,
@@ -625,7 +626,7 @@
       "Name": "As-Val",
       "Damage": [
         13.8,
-        11
+        11.4
       ],
       "Dropoff_Studs": [
         170,
@@ -693,7 +694,7 @@
       "Name": "Scar L",
       "Damage": [
         16.5,
-        13.2
+        11.5
       ],
       "Dropoff_Studs": [
         170,
@@ -727,7 +728,7 @@
       "Name": "STG-44",
       "Damage": [
         19.7,
-        15.8
+        16.7
       ],
       "Dropoff_Studs": [
         150,
@@ -761,7 +762,7 @@
       "Name": "The Chief",
       "Damage": [
         17.5,
-        14
+        15.4
       ],
       "Dropoff_Studs": [
         185,
@@ -829,7 +830,7 @@
       "Name": "Hex Spitter",
       "Damage": [
         16,
-        12
+        14
       ],
       "Dropoff_Studs": [
         150,
@@ -863,8 +864,8 @@
       "Category": "Assault Rifle",
       "Name": "APS",
       "Damage": [
-        20,
-        16
+        22,
+        11
       ],
       "Dropoff_Studs": [
         90,
@@ -898,7 +899,7 @@
       "Name": "G36C",
       "Damage": [
         16,
-        12.8
+        11.6
       ],
       "Dropoff_Studs": [
         125,
@@ -965,7 +966,7 @@
       "Name": "Remington 700",
       "Damage": [
         55,
-        49.5
+        48.1
       ],
       "Dropoff_Studs": [
         300,
@@ -1000,7 +1001,7 @@
       "Name": "M1891 Carcano",
       "Damage": [
         53,
-        47.7
+        45.1
       ],
       "Dropoff_Studs": [
         275,
@@ -1069,7 +1070,7 @@
       "Name": "Lee Enfield",
       "Damage": [
         52,
-        46.8
+        41.6
       ],
       "Dropoff_Studs": [
         300,
@@ -1103,7 +1104,7 @@
       "Name": "M200 Intervention",
       "Damage": [
         65,
-        58.5
+        52
       ],
       "Dropoff_Studs": [
         525,
@@ -1138,7 +1139,7 @@
       "Name": "Hecate II",
       "Damage": [
         70,
-        63
+        52.5
       ],
       "Dropoff_Studs": [
         400,
@@ -1173,7 +1174,7 @@
       "Name": "MAC-10",
       "Damage": [
         14.3,
-        8.6
+        7.9
       ],
       "Dropoff_Studs": [
         120,
@@ -1207,7 +1208,7 @@
       "Name": "Skorpion vz. 61",
       "Damage": [
         15.5,
-        9.3
+        8.1
       ],
       "Dropoff_Studs": [
         130,
@@ -1275,7 +1276,7 @@
       "Name": "MP9",
       "Damage": [
         12.2,
-        7.3
+        7.6
       ],
       "Dropoff_Studs": [
         140,
@@ -1309,7 +1310,7 @@
       "Name": "MP 40",
       "Damage": [
         23.2,
-        13.9
+        12.8
       ],
       "Dropoff_Studs": [
         120,
@@ -1343,7 +1344,7 @@
       "Name": "UMP-40",
       "Damage": [
         21,
-        12.6
+        13.7
       ],
       "Dropoff_Studs": [
         125,
@@ -1376,8 +1377,8 @@
       "Category": "SMG",
       "Name": "PPSh-41",
       "Damage": [
-        11.7,
-        7
+        12.5,
+        7.5
       ],
       "Dropoff_Studs": [
         125,
@@ -1410,8 +1411,8 @@
       "Category": "SMG",
       "Name": "Kriss Vector",
       "Damage": [
-        12,
-        7.2
+        11.5,
+        6.9
       ],
       "Dropoff_Studs": [
         110,
@@ -1444,8 +1445,8 @@
       "Category": "SMG",
       "Name": "Type 2a Nambu",
       "Damage": [
-        19.5,
-        11.7
+        21,
+        9.5
       ],
       "Dropoff_Studs": [
         140,
@@ -1479,7 +1480,7 @@
       "Name": "Mas-38",
       "Damage": [
         16.5,
-        9.9
+        10.5
       ],
       "Dropoff_Studs": [
         160,
@@ -1513,7 +1514,7 @@
       "Name": "PP-19 Bizon",
       "Damage": [
         16.5,
-        9.9
+        9.5
       ],
       "Dropoff_Studs": [
         130,
@@ -1546,7 +1547,7 @@
       "Name": "MP5",
       "Damage": [
         16,
-        9.6
+        9.2
       ],
       "Dropoff_Studs": [
         110,
@@ -1578,8 +1579,8 @@
       "Category": "SMG",
       "Name": "P90",
       "Damage": [
-        12.5,
-        7.5
+        10,
+        6.5
       ],
       "Dropoff_Studs": [
         140,
@@ -1613,7 +1614,7 @@
       "Name": "Type 99",
       "Damage": [
         15,
-        12.8
+        8.3
       ],
       "Dropoff_Studs": [
         165,
@@ -1649,7 +1650,7 @@
       "Name": "M60",
       "Damage": [
         19.5,
-        16.6
+        11.2
       ],
       "Dropoff_Studs": [
         190,
@@ -1685,7 +1686,7 @@
       "Name": "DP-27",
       "Damage": [
         19,
-        16.2
+        12.4
       ],
       "Dropoff_Studs": [
         200,
@@ -1721,7 +1722,7 @@
       "Name": "M1919a6 Browning",
       "Damage": [
         21.5,
-        18.3
+        15.5
       ],
       "Dropoff_Studs": [
         190,
@@ -1756,8 +1757,8 @@
       "Category": "LMG",
       "Name": "M1918 BAR",
       "Damage": [
-        23.5,
-        20
+        25,
+        15
       ],
       "Dropoff_Studs": [
         205,
@@ -1793,7 +1794,7 @@
       "Name": "Negev",
       "Damage": [
         14,
-        11.9
+        10.1
       ],
       "Dropoff_Studs": [
         190,
@@ -1828,8 +1829,8 @@
       "Category": "LMG",
       "Name": "MG42",
       "Damage": [
-        11,
-        9.4
+        12.5,
+        7.7
       ],
       "Dropoff_Studs": [
         150,
@@ -1864,8 +1865,8 @@
       "Category": "LMG",
       "Name": "Chauchat",
       "Damage": [
-        28,
-        23.8
+        29,
+        15.2
       ],
       "Dropoff_Studs": [
         245,
@@ -1899,8 +1900,8 @@
       "Category": "Shotgun",
       "Name": "M1887",
       "Damage": [
-        99,
-        14.9
+        100,
+        10
       ],
       "Dropoff_Studs": [
         75,
@@ -1935,8 +1936,8 @@
       "Category": "Shotgun",
       "Name": "M1897 Trench Shotgun",
       "Damage": [
-        65,
-        9.8
+        96,
+        0
       ],
       "Dropoff_Studs": [
         60,
@@ -1970,8 +1971,8 @@
       "Category": "Shotgun",
       "Name": "Remington 870",
       "Damage": [
-        101,
-        15.2
+        96,
+        8
       ],
       "Dropoff_Studs": [
         55,
@@ -2005,8 +2006,8 @@
       "Category": "Shotgun",
       "Name": "Spas-12",
       "Damage": [
-        60,
-        7.7
+        90,
+        6
       ],
       "Dropoff_Studs": [
         50,
@@ -2040,8 +2041,8 @@
       "Category": "Shotgun",
       "Name": "Circuit Judge",
       "Damage": [
-        144,
-        16
+        112,
+        32
       ],
       "Dropoff_Studs": [
         85,
@@ -2075,7 +2076,7 @@
       "Category": "Shotgun",
       "Name": "Auto-5",
       "Damage": [
-        80,
+        96,
         8
       ],
       "Dropoff_Studs": [
@@ -2110,7 +2111,7 @@
       "Category": "Weird",
       "Name": "Words as Weapons",
       "Damage": [
-        15,
+        17,
         14.9
       ],
       "Dropoff_Studs": [
@@ -2223,7 +2224,10 @@
     {
       "Category": "Weird",
       "Name": "Loaf",
-      "Damage": 17.5,
+      "Damage": [
+        17.5,
+        14
+      ],
       "Dropoff_Studs": [
         150,
         200
@@ -2446,7 +2450,8 @@
     {
       "Category": "Assault Rifle",
       "Name": "Hell-Trooper-23",
-      "Spread": -10
+      "Movement_Speed": 3,
+      "Spread": -18
     },
     {
       "Category": "Assault Rifle",
@@ -2493,20 +2498,24 @@
     {
       "Category": "Sniper",
       "Name": "Arctic Warfare",
-      "Spread": -30
+      "Spread": -30,
+      "Recoil": 8,
+      "Reload_Speed": 12
     },
     {
       "Category": "Sniper",
       "Name": "Lee Enfield",
       "Fire_Rate": 15,
-      "Spread": 100,
+      "Spread": 30,
       "Range": -20
     },
     {
       "Category": "Sniper",
       "Name": "Hecate II",
-      "Recoil": -30,
-      "Spread": -10
+      "Recoil": -25,
+      "Spread": -10,
+      "Movement_Speed": -4,
+      "Reload_Speed": 8
     },
     {
       "Category": "Sniper",
@@ -2817,7 +2826,6 @@
       "Magazine_Size": 25,
       "Reload_Time": 2,
       "Fire_Rate": 10,
-      "Damage": -5,
       "Recoil": 10,
       "Range": -10
     },
@@ -2860,7 +2868,7 @@
       "Category": "Assault Rifle",
       "Name": "Hell-Trooper-23",
       "Magazine_Size": 45,
-      "Reload_Time": 2.3,
+      "Reload_Time": 3.4,
       "Damage": 13,
       "Recoil": 15,
       "Spread": 10
@@ -2878,9 +2886,9 @@
       "Name": "APS",
       "Magazine_Size": 26,
       "Reload_Time": 7,
-      "Damage": 20,
+      "Damage": 25,
       "Detection_Radius": 25,
-      "Fire_Rate": -15,
+      "Fire_Rate": -10,
       "Spread": 20,
       "Range": -35
     },
@@ -2972,10 +2980,10 @@
       "Name": "MAC-10",
       "Magazine_Size": 30,
       "Reload_Time": 2,
-      "Fire_Rate": 10,
+      "Fire_Rate": 20,
       "Movement_Speed": 4.4,
-      "Damage": -5,
-      "Range": -12
+      "Range": -12,
+      "Recoil": 35
     },
     {
       "Category": "SMG",
@@ -3022,7 +3030,6 @@
       "Movement_Speed": 1.5,
       "Spread": -10,
       "Fire_Rate": -10,
-      "Recoil": 23,
       "Range": 3
     },
     {
@@ -3030,7 +3037,7 @@
       "Name": "PPSh-41",
       "Magazine_Size": 71,
       "Reload_Time": 5.5,
-      "Fire_Rate": 5,
+      "Fire_Rate": 7,
       "Movement_Speed": -1,
       "Spread": 10,
       "Range": -5
@@ -3043,7 +3050,6 @@
       "Fire_Rate": 25,
       "Movement_Speed": 3.3,
       "Recoil": -15,
-      "Damage": -10,
       "Range": -15
     },
     {
@@ -3051,10 +3057,9 @@
       "Name": "Type 2a Nambu",
       "Magazine_Size": 30,
       "Reload_Time": 2.5,
-      "Fire_Rate": 10,
-      "Movement_Speed": 3.3,
-      "Recoil": -5,
-      "Damage": -5,
+      "Fire_Rate": 14,
+      "Movement_Speed": 3,
+      "Recoil": -24,
       "Range": -16
     },
     {
@@ -3065,7 +3070,8 @@
       "Damage": 5,
       "Movement_Speed": 3.5,
       "Spread": -15,
-      "Range": 4
+      "Range": 4,
+      "Recoil": 27
     },
     {
       "Category": "SMG",
@@ -3073,7 +3079,8 @@
       "Magazine_Size": 64,
       "Reload_Time": 4,
       "Damage": 10,
-      "Range": -8
+      "Range": -8,
+      "Recoil": 12
     },
     {
       "Category": "SMG",
@@ -3084,7 +3091,6 @@
       "Movement_Speed": 3.3,
       "Recoil": -10,
       "Spread": -5,
-      "Damage": -9,
       "Range": -11
     },
     {
@@ -3134,10 +3140,10 @@
       "Name": "MG42",
       "Magazine_Size": 50,
       "Reload_Time": 5.5,
-      "Fire_Rate": 11,
+      "Fire_Rate": 23,
       "Movement_Speed": -4,
-      "Recoil": 32,
-      "Spread": 50,
+      "Recoil": 19,
+      "Spread": 23,
       "Range": -15
     },
     {
@@ -3175,11 +3181,11 @@
     {
       "Category": "LMG",
       "Name": "Chauchat",
-      "Magazine_Size": 75,
-      "Reload_Time": 8,
+      "Magazine_Size": 18,
+      "Reload_Time": 2.1,
       "Damage": 25,
       "Detection_Radius": 10,
-      "Fire_Rate": -30,
+      "Fire_Rate": -15,
       "Movement_Speed": -5,
       "Recoil": 35,
       "Spread": 25,
@@ -3194,7 +3200,7 @@
       "Pellets": 175,
       "Movement_Speed": -5,
       "Recoil": 60,
-      "Spread": 100,
+      "Spread": 60,
       "Range": -20
     },
     {
@@ -3202,7 +3208,7 @@
       "Name": "Remington 870 Breacher",
       "Magazine_Size": 8,
       "Reload_Time": 3.2,
-      "Damage": 5,
+      "Damage": 30,
       "Movement_Speed": 3,
       "Pellets": 150,
       "Recoil": 50,
@@ -3251,7 +3257,7 @@
       "Damage": 10,
       "Pellets": 100,
       "Recoil": 25,
-      "Spread": 50,
+      "Spread": 30,
       "Range": -15
     },
     {
@@ -3259,10 +3265,10 @@
       "Name": "Circuit Judge",
       "Magazine_Size": 5,
       "Reload_Time": 4,
-      "Damage": 25,
-      "Pellets": 100,
-      "Recoil": 50,
-      "Spread": 75,
+      "Damage": 12,
+      "Pellets": 25,
+      "Recoil": 70,
+      "Spread": 40,
       "Range": 7.5
     },
     {
@@ -3389,6 +3395,7 @@
       "Magazine_Size": 20,
       "Reload_Time": 4.5,
       "Damage": 20,
+      "Range": 11,
       "Detection_Radius": 10,
       "Recoil": 25
     }
@@ -3502,8 +3509,8 @@
       "Category": "Sniper",
       "Name": "Lee Enfield",
       "Fire_Rate": 10,
-      "Recoil": 50,
-      "Spread": 100,
+      "Recoil": 40,
+      "Spread": 20,
       "Range": -20
     },
     {
@@ -3543,9 +3550,10 @@
     {
       "Category": "SMG",
       "Name": "Thompson",
-      "Movement_Speed": 1.5,
-      "Recoil": -10,
-      "Spread": -13
+      "Movement_Speed": 0.5,
+      "Recoil": -23,
+      "Spread": -9,
+      "Reload_Speed": 5
     },
     {
       "Category": "SMG",
@@ -3583,7 +3591,7 @@
       "Fire_Rate": 7,
       "Movement_Speed": 3.3,
       "Recoil": -20,
-      "Spread": 20,
+      "Spread": 30,
       "Range": -5
     },
     {
@@ -3700,9 +3708,9 @@
     {
       "Category": "Shotgun",
       "Name": "Spas-12",
-      "Fire_Rate": 10,
-      "Movement_Speed": -5,
-      "Spread": 10,
+      "Fire_Rate": 12,
+      "Movement_Speed": -3,
+      "Spread": 12,
       "Range": -12
     },
     {
@@ -3805,7 +3813,7 @@
     {
       "Category": "Weird",
       "Name": "Taco",
-      "Damage": 10,
+      "Damage": 5,
       "Health": 10,
       "Detection_Radius": 20,
       "Fire_Rate": -5,
