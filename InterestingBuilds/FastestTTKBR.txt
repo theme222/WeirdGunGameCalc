@@ -1,162 +1,162 @@
-./Calculator -o InterestingBuilds/FastestTTKBR.txt -i BR --speedMin -10 --spreadAimMax 0.8 --recoilAimMax 30 --magazineMin 20 
+./Calculator -o InterestingBuilds/FastestTTKBR.txt -i BR --speedMin -10 --spreadAimMax 0.8 --recoilAimMax 30 --magazineMin 20 --rangeMin 150 --pelletMax 1 
 Current top 10 guns are: 
-Gun contains[ Barrel: MG42, Magazine: Fedorov Avtomat, Grip: M1Garand, Stock: Speed Coil, Core: Dragunov ]
-damage: 50.7638 - 29.2496
-dropoffStuds: 119.028 - 510.12
+Gun contains[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: Dragunov ]
+damage: 50.5342 - 29.1173
+dropoffStuds: 155.4 - 666
 pellets: 1
-fireRate: 706.255
-adsSpread: 0.735
-hipfireSpread: 46.55
-reloadTime: 3.4
-magazineSize: 25
-health: -10
-recoilHipVertical: 32.6196 - 41.2542
-recoilAimVertical: 19.5718 - 24.7525
+fireRate: 630
+adsSpread: 0.293625
+hipfireSpread: 18.5963
+reloadTime: 5.4
+magazineSize: 20
+health: 0
+recoilHipVertical: 38.25 - 48.375
+recoilAimVertical: 22.95 - 29.025
 movementSpeed: -7
-detectionRadius: 139.2
-TTK: 0.0849551 Seconds
+detectionRadius: 132
+TTK: 0.0952381 Seconds
 
-Gun contains[ Barrel: MG42, Magazine: Scar H, Grip: M1Garand, Stock: Speed Coil, Core: Dragunov ]
-damage: 52.9709 - 30.5213
-dropoffStuds: 121.212 - 519.48
+Gun contains[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Remington 870 Breacher, Core: Dragunov ]
+damage: 50.5342 - 29.1173
+dropoffStuds: 155.4 - 666
 pellets: 1
-fireRate: 706.255
-adsSpread: 0.735
-hipfireSpread: 46.55
+fireRate: 618
+adsSpread: 0.367031
+hipfireSpread: 23.2453
+reloadTime: 5.175
+magazineSize: 20
+health: 0
+recoilHipVertical: 37.4 - 47.3
+recoilAimVertical: 22.44 - 28.38
+movementSpeed: -4
+detectionRadius: 132
+TTK: 0.0970874 Seconds
+
+Gun contains[ Barrel: Negev, Magazine: Fedorov Avtomat, Grip: M1891 Carcano, Stock: Fedorov Avtomat, Core: Dragunov ]
+damage: 50.7638 - 29.2496
+dropoffStuds: 152.6 - 654
+pellets: 1
+fireRate: 616.562
+adsSpread: 0.24375
+hipfireSpread: 15.4375
+reloadTime: 5.52
+magazineSize: 25
+health: 0
+recoilHipVertical: 37.638 - 47.601
+recoilAimVertical: 22.5828 - 28.5606
+movementSpeed: -8.1
+detectionRadius: 139.2
+TTK: 0.0973138 Seconds
+
+Gun contains[ Barrel: Negev, Magazine: Scar H, Grip: M1891 Carcano, Stock: Fedorov Avtomat, Core: Dragunov ]
+damage: 52.9709 - 30.5213
+dropoffStuds: 155.4 - 666
+pellets: 1
+fireRate: 616.562
+adsSpread: 0.24375
+hipfireSpread: 15.4375
+reloadTime: 6.21
+magazineSize: 20
+health: 0
+recoilHipVertical: 38.25 - 48.375
+recoilAimVertical: 22.95 - 29.025
+movementSpeed: -8.1
+detectionRadius: 132
+TTK: 0.0973138 Seconds
+
+Gun contains[ Barrel: Negev, Magazine: Scar H, Grip: M1Garand, Stock: Speed Coil, Core: Dragunov ]
+damage: 52.9709 - 30.5213
+dropoffStuds: 155.4 - 666
+pellets: 1
+fireRate: 613.721
+adsSpread: 0.65625
+hipfireSpread: 41.5625
 reloadTime: 3.825
 magazineSize: 20
 health: -10
-recoilHipVertical: 33.15 - 41.925
-recoilAimVertical: 19.89 - 25.155
-movementSpeed: -7
+recoilHipVertical: 25.5 - 32.25
+recoilAimVertical: 15.3 - 19.35
+movementSpeed: -4.5
 detectionRadius: 132
-TTK: 0.0849551 Seconds
+TTK: 0.0977643 Seconds
 
-Gun contains[ Barrel: MG42, Magazine: Scar H, Grip: PPSh-41, Stock: Speed Coil, Core: Dragunov ]
-damage: 52.9709 - 30.5213
-dropoffStuds: 121.212 - 519.48
-pellets: 1
-fireRate: 699.716
-adsSpread: 0.68355
-hipfireSpread: 43.2915
-reloadTime: 4.39875
-magazineSize: 20
-health: -10
-recoilHipVertical: 33.15 - 41.925
-recoilAimVertical: 19.89 - 25.155
-movementSpeed: -4
-detectionRadius: 132
-TTK: 0.0857491 Seconds
-
-Gun contains[ Barrel: MG42, Magazine: Fedorov Avtomat, Grip: PPSh-41, Stock: Speed Coil, Core: Dragunov ]
+Gun contains[ Barrel: Negev, Magazine: Fedorov Avtomat, Grip: M1Garand, Stock: Speed Coil, Core: Dragunov ]
 damage: 50.7638 - 29.2496
-dropoffStuds: 119.028 - 510.12
+dropoffStuds: 152.6 - 654
 pellets: 1
-fireRate: 699.716
-adsSpread: 0.68355
-hipfireSpread: 43.2915
+fireRate: 613.721
+adsSpread: 0.65625
+hipfireSpread: 41.5625
+reloadTime: 3.4
+magazineSize: 25
+health: -10
+recoilHipVertical: 25.092 - 31.734
+recoilAimVertical: 15.0552 - 19.0404
+movementSpeed: -4.5
+detectionRadius: 139.2
+TTK: 0.0977643 Seconds
+
+Gun contains[ Barrel: Negev, Magazine: Fedorov Avtomat, Grip: PPSh-41, Stock: Speed Coil, Core: Dragunov ]
+damage: 50.7638 - 29.2496
+dropoffStuds: 152.6 - 654
+pellets: 1
+fireRate: 608.038
+adsSpread: 0.610313
+hipfireSpread: 38.6531
 reloadTime: 3.91
 magazineSize: 25
 health: -10
-recoilHipVertical: 32.6196 - 41.2542
-recoilAimVertical: 19.5718 - 24.7525
-movementSpeed: -4
+recoilHipVertical: 25.092 - 31.734
+recoilAimVertical: 15.0552 - 19.0404
+movementSpeed: -1.5
 detectionRadius: 139.2
-TTK: 0.0857491 Seconds
+TTK: 0.098678 Seconds
 
-Gun contains[ Barrel: MG42, Magazine: Fedorov Avtomat, Grip: Negev, Stock: Speed Coil, Core: Dragunov ]
-damage: 50.7638 - 29.2496
-dropoffStuds: 119.028 - 510.12
-pellets: 1
-fireRate: 698.408
-adsSpread: 0.77175
-hipfireSpread: 48.8775
-reloadTime: 3.91
-magazineSize: 25
-health: -10
-recoilHipVertical: 32.6196 - 41.2542
-recoilAimVertical: 19.5718 - 24.7525
-movementSpeed: -6.5
-detectionRadius: 139.2
-TTK: 0.0859097 Seconds
-
-Gun contains[ Barrel: MG42, Magazine: Scar H, Grip: Negev, Stock: Speed Coil, Core: Dragunov ]
+Gun contains[ Barrel: Negev, Magazine: Scar H, Grip: PPSh-41, Stock: Speed Coil, Core: Dragunov ]
 damage: 52.9709 - 30.5213
-dropoffStuds: 121.212 - 519.48
+dropoffStuds: 155.4 - 666
 pellets: 1
-fireRate: 698.408
-adsSpread: 0.77175
-hipfireSpread: 48.8775
+fireRate: 608.038
+adsSpread: 0.610313
+hipfireSpread: 38.6531
 reloadTime: 4.39875
 magazineSize: 20
 health: -10
-recoilHipVertical: 33.15 - 41.925
-recoilAimVertical: 19.89 - 25.155
-movementSpeed: -6.5
+recoilHipVertical: 25.5 - 32.25
+recoilAimVertical: 15.3 - 19.35
+movementSpeed: -1.5
 detectionRadius: 132
-TTK: 0.0859097 Seconds
+TTK: 0.098678 Seconds
 
-Gun contains[ Barrel: Shower, Magazine: Scar H, Grip: Lee Enfield, Stock: Fedorov Avtomat, Core: Dragunov ]
-damage: 53.6163 - 30.8932
-dropoffStuds: 124.32 - 532.8
-pellets: 2
-fireRate: 681.912
-adsSpread: 0.78
-hipfireSpread: 49.4
-reloadTime: 6.75
-magazineSize: 20
-health: 0
-recoilHipVertical: 9.5625 - 12.0938
-recoilAimVertical: 5.7375 - 7.25625
-movementSpeed: -7
-detectionRadius: 132
-TTK: 0.0879879 Seconds
-
-Gun contains[ Barrel: Shower, Magazine: Fedorov Avtomat, Grip: Lee Enfield, Stock: Fedorov Avtomat, Core: Dragunov ]
-damage: 51.3823 - 29.606
-dropoffStuds: 122.08 - 523.2
-pellets: 2
-fireRate: 681.912
-adsSpread: 0.78
-hipfireSpread: 49.4
-reloadTime: 6
+Gun contains[ Barrel: Negev, Magazine: Fedorov Avtomat, Grip: Negev, Stock: Speed Coil, Core: Dragunov ]
+damage: 50.7638 - 29.2496
+dropoffStuds: 152.6 - 654
+pellets: 1
+fireRate: 606.902
+adsSpread: 0.689063
+hipfireSpread: 43.6406
+reloadTime: 3.91
 magazineSize: 25
-health: 0
-recoilHipVertical: 9.4095 - 11.9002
-recoilAimVertical: 5.6457 - 7.14015
-movementSpeed: -7
+health: -10
+recoilHipVertical: 25.092 - 31.734
+recoilAimVertical: 15.0552 - 19.0404
+movementSpeed: -4
 detectionRadius: 139.2
-TTK: 0.0879879 Seconds
+TTK: 0.0988628 Seconds
 
-Gun contains[ Barrel: Shower, Magazine: Fedorov Avtomat, Grip: Lee Enfield, Stock: Type 99, Core: Dragunov ]
-damage: 51.3823 - 29.606
-dropoffStuds: 122.08 - 523.2
-pellets: 2
-fireRate: 677.041
-adsSpread: 0.78
-hipfireSpread: 49.4
-reloadTime: 4.3625
-magazineSize: 25
-health: 0
-recoilHipVertical: 11.2914 - 14.2803
-recoilAimVertical: 6.77484 - 8.56818
-movementSpeed: -10
-detectionRadius: 139.2
-TTK: 0.0886209 Seconds
-
-Gun contains[ Barrel: Shower, Magazine: Scar H, Grip: Lee Enfield, Stock: Type 99, Core: Dragunov ]
-damage: 53.6163 - 30.8932
-dropoffStuds: 124.32 - 532.8
-pellets: 2
-fireRate: 677.041
-adsSpread: 0.78
-hipfireSpread: 49.4
-reloadTime: 4.90781
+Gun contains[ Barrel: Negev, Magazine: Scar H, Grip: Negev, Stock: Speed Coil, Core: Dragunov ]
+damage: 52.9709 - 30.5213
+dropoffStuds: 155.4 - 666
+pellets: 1
+fireRate: 606.902
+adsSpread: 0.689063
+hipfireSpread: 43.6406
+reloadTime: 4.39875
 magazineSize: 20
-health: 0
-recoilHipVertical: 11.475 - 14.5125
-recoilAimVertical: 6.885 - 8.7075
-movementSpeed: -10
+health: -10
+recoilHipVertical: 25.5 - 32.25
+recoilAimVertical: 15.3 - 19.35
+movementSpeed: -4
 detectionRadius: 132
-TTK: 0.0886209 Seconds
+TTK: 0.0988628 Seconds
 

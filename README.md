@@ -2,11 +2,11 @@
 > A tool to bruteforce all combinations of guns in the roblox game "Weird Gun Game"
 
 ## About
-`Updated to Battle Rifle Update`<br/>
+`Updated to Gaming Rig Update`<br/>
 `Original data from @zyadak`<br/>
 
 Made using c++ this tool reads data from Data/FullData.json and calculates all possible combinations of guns in [Weird Gun Game](https://www.roblox.com/games/94590879393563/Weird-Gun-Game-UPDATE). Please note that I am not affiliated with the [Redscape Interactive Projects](https://www.roblox.com/communities/35232296/Redscape-Interactive-Projects#!/about) group and don't have access to the source code of the game.
-This is purely a personal project in my attempt to learn this language. Any interesting builds will be updated in the `InterestingBuilds` folder.
+This is purely a personal project in my attempt to learn c++. Any interesting builds will be updated in the `InterestingBuilds` folder.
 If you find any gun have stats that are different from the game please notify me on discord @theme222 or open an issue here on github (Except for any parts that contain pellets. I still have no idea what dark magic formula is used to calculate that).
 
 ## Data
@@ -98,8 +98,7 @@ This is the full list of flags supported:
 --detectionRadius [FLOAT,FLOAT] Detection radius range to filter (Why would you even use this?)
 --detectionRadiusMin FLOAT --detectionRadiusMax FLOAT
 --range [FLOAT,FLOAT] Dropoff studs range to filter (Could have called it rangeRange haha)
---rangeMin FLOAT
---rangeMax FLOAT
+--rangeMin FLOAT --rangeMax FLOAT
 ```
 
 ## Algorithm Analysis

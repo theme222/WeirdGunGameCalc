@@ -26,8 +26,9 @@
     {
       "Category": "Assault Rifle",
       "Name": "As-Val",
-      "Fire_Rate": 10,
       "Detection_Radius": -25,
+      "Fire_Rate": 10,
+      "Range": -7,
       "Recoil": 15
     },
     {
@@ -121,9 +122,9 @@
     {
       "Category": "Sniper",
       "Name": "Arctic Warfare",
-      "Damage": 15,
-      "Spread": -35,
-      "Recoil": 50,
+      "Damage": 5,
+      "Spread": -25,
+      "Recoil": 75,
       "Range": 15
     },
     {
@@ -361,12 +362,12 @@
       "Category": "Shotgun",
       "Name": "Remington 870 Wingmaster",
       "Damage": 10,
+      "Range": 10,
       "Spread": -25,
-      "Fire_Rate": -10,
-      "Pellets": -75,
       "Detection_Radius": 10,
-      "Reload_Speed": 10,
-      "Range": 10
+      "Fire_Rate": -13,
+      "Pellets": -50,
+      "Reload_Speed": 10
     },
     {
       "Category": "Shotgun",
@@ -512,6 +513,14 @@
       "Detection_Radius": 20,
       "Recoil": 15,
       "Spread": 30
+    },
+    {
+      "Category": "Weird",
+      "Name": "Light Gun",
+      "Damage": 30,
+      "Fire_Rate": -5,
+      "Range": -87,
+      "Reload_Speed": 10
     },
     {
       "Category": "BR",
@@ -660,14 +669,14 @@
       "Name": "Famas F1",
       "Damage": [
         13,
-        10.4
+        9.1
       ],
       "Dropoff_Studs": [
-        160,
-        230
+        150,
+        210
       ],
       "Fire_Rate": 900,
-      "Hipfire_Spread": 3,
+      "Hipfire_Spread": 4,
       "ADS_Spread": 0.5,
       "Time_To_Aim": 0.7,
       "Detection_Radius": 110,
@@ -944,6 +953,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 175,
       "Suppression": 0.3,
+      "Health": 5,
       "Recoil_Hip_Horizontal": [
         -4,
         4
@@ -2256,6 +2266,40 @@
       ]
     },
     {
+      "Category": "Weird",
+      "Name": "Gaming Rig",
+      "Damage": [
+        16.5,
+        13.2
+      ],
+      "Dropoff_Studs": [
+        130,
+        195
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 6,
+      "ADS_Spread": 0.3,
+      "Time_To_Aim": 0.7,
+      "Detection_Radius": 120,
+      "Suppression": 0.3,
+      "Recoil_Hip_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Hip_Vertical": [
+        40,
+        55
+      ],
+      "Recoil_Aim_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Aim_Vertical": [
+        32,
+        44
+      ]
+    },
+    {
       "Category": "BR",
       "Name": "M1Garand",
       "Damage": [
@@ -2273,6 +2317,7 @@
       "Detection_Radius": 120,
       "Movement_Speed_Modifier": -5,
       "Suppression": 0.8,
+      "Health": 10,
       "Recoil_Hip_Horizontal": [
         -7,
         7
@@ -2343,6 +2388,7 @@
       "Detection_Radius": 120,
       "Movement_Speed_Modifier": -7,
       "Suppression": 0.8,
+      "Health": 7,
       "Recoil_Hip_Horizontal": [
         -5,
         5
@@ -2760,6 +2806,12 @@
       "Fire_Rate": -5
     },
     {
+      "Category": "Weird",
+      "Name": "Controller",
+      "Fire_Rate": 3,
+      "Spread": -12
+    },
+    {
       "Category": "BR",
       "Name": "M1Garand",
       "Fire_Rate": 8,
@@ -2877,9 +2929,12 @@
       "Category": "Assault Rifle",
       "Name": "Hex Spitter",
       "Magazine_Size": 35,
-      "Reload_Time": 4,
-      "Damage": 15,
-      "Recoil": -10
+      "Reload_Time": 4.2,
+      "Damage": 11,
+      "Pellets": 100,
+      "Spread": -13,
+      "Range": -14,
+      "Recoil": 38
     },
     {
       "Category": "Assault Rifle",
@@ -3109,10 +3164,11 @@
       "Category": "LMG",
       "Name": "M60",
       "Magazine_Size": 75,
-      "Reload_Time": 5,
-      "Movement_Speed": 1.5,
-      "Spread": -13,
-      "Recoil": 11
+      "Reload_Time": 6.5,
+      "Movement_Speed": 1,
+      "Spread": -10,
+      "Range": -9,
+      "Recoil": 22
     },
     {
       "Category": "LMG",
@@ -3173,10 +3229,10 @@
       "Category": "LMG",
       "Name": "Negev",
       "Magazine_Size": 200,
-      "Reload_Time": 10,
-      "Recoil": -11,
-      "Spread": -13,
-      "Movement_Speed": -7
+      "Reload_Time": 12,
+      "Detection_Radius": 25,
+      "Movement_Speed": -9,
+      "Range": -11
     },
     {
       "Category": "LMG",
@@ -3334,8 +3390,8 @@
       "Reload_Time": 10,
       "Fire_Rate": 10,
       "Recoil": -10,
-      "Damage": -20,
-      "Movement_Speed": -15
+      "Movement_Speed": -15,
+      "Range": -22
     },
     {
       "Category": "Weird",
@@ -3346,6 +3402,15 @@
       "Detection_Radius": 10,
       "Fire_Rate": -20,
       "Recoil": 15
+    },
+    {
+      "Category": "Weird",
+      "Name": "Graphics Card",
+      "Magazine_Size": 50,
+      "Reload_Time": 6,
+      "Fire_Rate": 14,
+      "Recoil": -23,
+      "Range": -8
     },
     {
       "Category": "BR",
@@ -3820,6 +3885,12 @@
       "Recoil": 20,
       "Reload_Speed": 10,
       "Spread": 20
+    },
+    {
+      "Category": "Weird",
+      "Name": "Keyboard",
+      "Recoil": -16,
+      "Range": -5
     },
     {
       "Category": "BR",

@@ -67,12 +67,9 @@ Spread: +10%
 ---
 Magazine: Hex Spitter
 Magazine_Size: 35
-Reload_Time: 4.2
-Damage: +11%
-Pellets: +100%
-Spread: -13%
-Range: -14%
-Recoil: +38%
+Reload_Time: 4
+Damage: +15%
+Recoil: -10%
 ---
 Magazine: APS
 Magazine_Size: 26
@@ -265,11 +262,10 @@ Category: LMG Magazines
 ---
 Magazine: M60
 Magazine_Size: 75
-Reload_Time: 6.5s
-Movement_Speed: +1%
-Spread: -10%
-Range: -9%
-Recoil: +22%
+Reload_Time: 5s
+Movement_Speed: +1.5%
+Spread: -13%
+Recoil: +11%
 ---
 Magazine: DP-27
 Magazine_Size: 47
@@ -318,10 +314,10 @@ Range: +25%
 ---
 Magazine: Negev
 Magazine_Size: 200
-Reload_Time: 12
-Detection_Radius: +25%
-Movement_Speed: -9%
-Range: -11%
+Reload_Time: 10
+Recoil: -11%
+Spread: -13%
+Movement_Speed: -7%
 ---
 Magazine: Chauchat
 Magazine_Size: 18
@@ -452,11 +448,11 @@ Recoil: +20%
 ---
 Magazine: Rice Pot
 Magazine_Size: 120
-Reload_Time: 10
+Reload_Time: 10s
 Fire_Rate: +10%
 Recoil: -10%
+Damage: -20%
 Movement_Speed: -15%
-Range: -22%
 ---
 Magazine: Pastel
 Magazine_Size: 20
@@ -465,13 +461,6 @@ Damage: +20%
 Detection_Radius: +10%
 Fire_Rate: -20%
 Recoil: +15%
----
-Magazine: Graphics Card
-Magazine_Size: 50
-Reload_Time: 6
-Fire_Rate: +14%
-Recoil: -23%
-Range: -8%
 ---
 
 Category: BR Magazines

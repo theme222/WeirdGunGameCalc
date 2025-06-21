@@ -28,7 +28,8 @@ known_names = {
     'PPSh-41', 'Spas-12', 'Remington 870 Wingmaster', 'M1887', 'M1897 Trench Shotgun', 'Remington 870 Breacher',
     'Remington 870 MCS', 'Remington 870', 'Spas-12 Folded', 'Hex Spitter', 'PP-19 Bizon', 'M1918 BAR', 'G36C',
     'APS', 'MP5', 'Circuit Judge', 'MP5A3', 'Negev', 'M200 Intervention', 'Pistol Pistol', 'Auto-5', 'Croissant',
-    'Loaf', 'Taco', 'Eclair', 'Pastel', 'P90', 'Chauchat', 'Dragunov', 'M1Garand', 'FAL', 'FE-200SH'
+    'Loaf', 'Taco', 'Eclair', 'Pastel', 'P90', 'Chauchat', 'Dragunov', 'M1Garand', 'FAL', 'FE-200SH', 'Light Gun',
+    'Gaming Rig', 'Controller', 'Graphics Card', 'Keyboard',
 }
 
 
@@ -59,9 +60,6 @@ def CleanData():
                 # Remove the line that contains the word Effects
                 if line.find("Effects") != -1: continue
 
-                # Replace the word Gun in Barrels.txt with Barrels
-                if name == "Barrels.txt": line = line.replace("Gun", "Barrel")
-
                 newContent.append(line)
 
         with open(f"Data/{name}", 'w') as file:
@@ -71,7 +69,6 @@ def CleanData():
 # Step 2
 def TurnToJSON():
     print("Running Step 2")
-
 
     finalJSON = {"Barrels": [], "Cores": [], "Grips": [], "Magazines": [], "Stocks": []}
 
@@ -107,7 +104,7 @@ def TurnToJSON():
 
             assert currentCategory and currentType, "You fucked up bitch"
 
-            if key + "s" == currentType or "Gun" == key: key = "Name"
+            if key + "s" == currentType: key = "Name"
             currentPart["Category"] = currentCategory
             currentPart[key] = value
 

@@ -321,10 +321,6 @@ Recoil: +20%
 Reload_Speed: +10%
 Spread: +20%
 ---
-Stock: Keyboard
-Recoil: -16%
-Range: -5%
----
 
 Category: BR Stocks
 ---

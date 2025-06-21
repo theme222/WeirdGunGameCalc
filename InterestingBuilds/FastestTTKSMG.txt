@@ -1,4 +1,4 @@
-./Calculator -o InterestingBuilds/FastestTTKSMG.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.049 --recoilAimMax 35 
+./Calculator -o InterestingBuilds/FastestTTKSMG.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.049 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 
 Current top 10 guns are: 
 Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
 damage: 26.4855 - 11.9815
@@ -64,38 +64,6 @@ movementSpeed: 14.4
 detectionRadius: 80
 TTK: 0.209625 Seconds
 
-Gun contains[ Barrel: PP-19 Bizon, Magazine: Kriss Vector, Grip: Lee Enfield, Stock: APS, Core: Type 2a Nambu ]
-damage: 25.2124 - 11.4056
-dropoffStuds: 85.68 - 94.86
-pellets: 1
-fireRate: 858.375
-adsSpread: 0.7605
-hipfireSpread: 5.07
-reloadTime: 2.4
-magazineSize: 30
-health: 0
-recoilHipVertical: 34.5312 - 48.3437
-recoilAimVertical: 22.3762 - 31.3544
-movementSpeed: 9.8
-detectionRadius: 80
-TTK: 0.209699 Seconds
-
-Gun contains[ Barrel: APS, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
-damage: 33.4491 - 26.7593
-dropoffStuds: 117 - 227.5
-pellets: 1
-fireRate: 570
-adsSpread: 0.3159
-hipfireSpread: 8.424
-reloadTime: 4
-magazineSize: 35
-health: 0
-recoilHipVertical: 14.04 - 17.55
-recoilAimVertical: 8.424 - 10.53
-movementSpeed: 0
-detectionRadius: 218.75
-TTK: 0.210526 Seconds
-
 Gun contains[ Barrel: Thompson, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
 damage: 25.1512 - 11.3779
 dropoffStuds: 119 - 131.75
@@ -112,37 +80,21 @@ movementSpeed: 11.1
 detectionRadius: 80
 TTK: 0.210609 Seconds
 
-Gun contains[ Barrel: Kriss Vector, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Spas-12, Core: MP5 ]
-damage: 16.8162 - 9.66929
-dropoffStuds: 74.052 - 94.248
+Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Remington 870 Breacher, Core: Type 2a Nambu ]
+damage: 26.4855 - 11.9815
+dropoffStuds: 119 - 131.75
 pellets: 1
-fireRate: 1422.96
-adsSpread: 0.6048
-hipfireSpread: 1.512
-reloadTime: 2.76
+fireRate: 851.812
+adsSpread: 0.70875
+hipfireSpread: 4.725
+reloadTime: 3.174
 magazineSize: 30
 health: 0
-recoilHipVertical: 14.45 - 32.5125
-recoilAimVertical: 13.005 - 29.2613
-movementSpeed: 3.6
-detectionRadius: 70
-TTK: 0.210828 Seconds
-
-Gun contains[ Barrel: Kriss Vector, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Spas-12, Core: Thompson ]
-damage: 16.8162 - 10.0897
-dropoffStuds: 84.15 - 107.712
-pellets: 1
-fireRate: 1422.96
-adsSpread: 0.8568
-hipfireSpread: 2.016
-reloadTime: 2.76
-magazineSize: 30
-health: 0
-recoilHipVertical: 28.9 - 43.35
-recoilAimVertical: 23.12 - 34.68
-movementSpeed: 7.4
-detectionRadius: 90
-TTK: 0.210828 Seconds
+recoilHipVertical: 18.4875 - 25.8825
+recoilAimVertical: 11.9799 - 16.7867
+movementSpeed: 0.55
+detectionRadius: 100
+TTK: 0.211314 Seconds
 
 Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Auto-5, Core: Type 2a Nambu ]
 damage: 25.1612 - 11.3824
@@ -159,4 +111,52 @@ recoilAimVertical: 13.77 - 19.295
 movementSpeed: 0.55
 detectionRadius: 100
 TTK: 0.211314 Seconds
+
+Gun contains[ Barrel: Oil, Magazine: MAC-10, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
+damage: 26.4855 - 11.9815
+dropoffStuds: 117.04 - 129.58
+pellets: 1
+fireRate: 847.44
+adsSpread: 0.7371
+hipfireSpread: 4.914
+reloadTime: 2.3
+magazineSize: 30
+health: 0
+recoilHipVertical: 27 - 37.8
+recoilAimVertical: 17.496 - 24.516
+movementSpeed: 1.7
+detectionRadius: 100
+TTK: 0.212404 Seconds
+
+Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: P90, Core: Type 2a Nambu ]
+damage: 26.4855 - 11.9815
+dropoffStuds: 119 - 131.75
+pellets: 1
+fireRate: 845.625
+adsSpread: 0.53865
+hipfireSpread: 3.591
+reloadTime: 2.76
+magazineSize: 30
+health: 0
+recoilHipVertical: 20.1875 - 28.2625
+recoilAimVertical: 13.0815 - 18.3302
+movementSpeed: 0.3
+detectionRadius: 100
+TTK: 0.21286 Seconds
+
+Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: P90, Stock: Kriss Vector, Core: Type 2a Nambu ]
+damage: 26.4855 - 11.9815
+dropoffStuds: 113.05 - 125.162
+pellets: 1
+fireRate: 842.625
+adsSpread: 0.9828
+hipfireSpread: 6.552
+reloadTime: 2.4
+magazineSize: 30
+health: 0
+recoilHipVertical: 15.3 - 21.42
+recoilAimVertical: 9.9144 - 13.8924
+movementSpeed: 3.1
+detectionRadius: 100
+TTK: 0.213618 Seconds
 

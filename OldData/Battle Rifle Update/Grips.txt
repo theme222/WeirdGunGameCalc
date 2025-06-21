@@ -276,10 +276,6 @@ Movement_Speed: +5%
 Recoil: -20%
 Fire_Rate: -5%
 ---
-Grip: Controller
-Fire_Rate: +3%
-Spread: -12%
----
 
 Category: BR Grips
 ---

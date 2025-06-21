@@ -1,21 +1,5 @@
-./Calculator -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper --damageMin 99.95 --spreadAimMax 0.149 --sort FIRERATE 
+./Calculator -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper --damageMin 100 --spreadAimMax 0.149 --sort FIRERATE --rangeMin 350 --pelletMax 1 
 Current top 10 guns are: 
-Gun contains[ Barrel: Oil, Magazine: M1Garand, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
-damage: 99.9736 - 89.9762
-dropoffStuds: 555.25 - 832.875
-pellets: 1
-fireRate: 27.075
-adsSpread: 0.103761
-hipfireSpread: 31.1283
-reloadTime: 4.4
-magazineSize: 8
-health: 10
-recoilHipVertical: 108 - 144
-recoilAimVertical: 54 - 72
-movementSpeed: -15
-detectionRadius: 375
-TTK: 2.21607 Seconds
-
 Gun contains[ Barrel: Oil, Magazine: M1918 BAR, Grip: Circuit Judge, Stock: APS, Core: Arctic Warfare ]
 damage: 100.298 - 90.2686
 dropoffStuds: 600 - 900
@@ -96,22 +80,6 @@ movementSpeed: -15.5
 detectionRadius: 450
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Oil, Magazine: M1Garand, Grip: Circuit Judge, Stock: Hecate II, Core: Arctic Warfare ]
-damage: 99.9736 - 89.9762
-dropoffStuds: 555.25 - 832.875
-pellets: 1
-fireRate: 25.65
-adsSpread: 0.069174
-hipfireSpread: 20.7522
-reloadTime: 3.6
-magazineSize: 8
-health: 0
-recoilHipVertical: 103.5 - 138
-recoilAimVertical: 51.75 - 69
-movementSpeed: -20
-detectionRadius: 312.5
-TTK: 2.33918 Seconds
-
 Gun contains[ Barrel: Oil, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Arctic Warfare ]
 damage: 100.266 - 90.2397
 dropoffStuds: 550 - 825
@@ -158,5 +126,37 @@ recoilHipVertical: 126.72 - 168.96
 recoilAimVertical: 63.36 - 84.48
 movementSpeed: -13.02
 detectionRadius: 312.5
+TTK: 0 Seconds
+
+Gun contains[ Barrel: Oil, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: Type 99, Core: Arctic Warfare ]
+damage: 100.266 - 90.2397
+dropoffStuds: 550 - 825
+pellets: 1
+fireRate: 24.96
+adsSpread: 0.0756
+hipfireSpread: 22.68
+reloadTime: 5.28
+magazineSize: 5
+health: 0
+recoilHipVertical: 155.52 - 207.36
+recoilAimVertical: 77.76 - 103.68
+movementSpeed: -18
+detectionRadius: 312.5
+TTK: 0 Seconds
+
+Gun contains[ Barrel: Oil, Magazine: Dragunov, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
+damage: 102.121 - 91.9092
+dropoffStuds: 555.25 - 832.875
+pellets: 1
+fireRate: 24.795
+adsSpread: 0.1134
+hipfireSpread: 34.02
+reloadTime: 3.74
+magazineSize: 10
+health: 10
+recoilHipVertical: 104.328 - 139.104
+recoilAimVertical: 52.164 - 69.552
+movementSpeed: -19
+detectionRadius: 450
 TTK: 0 Seconds
 

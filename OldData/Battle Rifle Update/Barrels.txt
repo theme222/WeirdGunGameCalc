@@ -18,9 +18,8 @@ Damage: -2.5%
 Range: -10%
 ---
 Barrel: As-Val
-Detection_Radius: -25%
 Fire_Rate: +10%
-Range: -7%
+Detection_Radius: -25
 Recoil: +15%
 ---
 Barrel: Famas F1
@@ -284,12 +283,12 @@ Range: -13%
 ---
 Barrel: Remington 870 Wingmaster
 Damage: +10%
-Range: +10%
 Spread: -25%
+Fire_Rate: -10%
+Pellets: -75%
 Detection_Radius: 10
-Fire_Rate: -13%
-Pellets: -50%
 Reload_Speed: +10%
+Range: +10%
 ---
 Barrel: M1887
 Damage: +5%
@@ -402,12 +401,6 @@ Damage: -20%
 Detection_Radius: +20%
 Recoil: +15%
 Spread: +30%
----
-Barrel: Light Gun
-Damage: +30%
-Fire_Rate: -5%
-Range: -87%
-Reload_Speed: +10%
 ---
 
 Category: BR Barrels
