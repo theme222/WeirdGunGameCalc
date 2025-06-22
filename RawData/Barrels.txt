@@ -434,6 +434,7 @@ Recoil: +18%
 ---
 Barrel: Scar H
 Damage: +15%
+Range: +10%
 Spread: -25%
 Detection_Radius: 10
 Fire_Rate: -10%

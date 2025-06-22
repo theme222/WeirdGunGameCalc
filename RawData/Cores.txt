@@ -246,7 +246,7 @@ Recoil_Aim_Horizontal: -9 - 9
 Recoil_Aim_Vertical: 40 - 55
 ---
 Core: Hecate II
-Damage: 70 > 52.5
+Damage: 75 > 52.5
 Dropoff_Studs: 400 > 500
 Fire_Rate: 15
 Hipfire_Spread: 15
