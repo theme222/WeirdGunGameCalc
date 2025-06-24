@@ -1498,11 +1498,11 @@ int main(int argc, char* argv[])
 
     if (!std::filesystem::exists(fullDataPath) || !std::filesystem::exists(penaltiesPath))
     {
-        printf("Files %s and %s are required\n", fullDataPath.c_str(), penaltiesPath.c_str());
+        std::cout << "Files " << fullDataPath << " and " << penaltiesPath << " are required\n";
         throw std::invalid_argument("Required files not found");
     }
 
-    printf("Loading from json file %s and %s\n", fullDataPath.c_str(), penaltiesPath.c_str());
+    std::cout << "Loading from json file " << fullDataPath << " and " << penaltiesPath << "\n";
 
     std::ifstream FullData(fullDataPath);
     json data = json::parse(FullData);
