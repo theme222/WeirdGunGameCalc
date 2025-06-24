@@ -1,4 +1,4 @@
-# WeirdGunGameCal# WeirdGunGameCalc
+# WeirdGunGameCalc
 > A tool to bruteforce all combinations of guns in the roblox game "Weird Gun Game"
 
 ## About
@@ -58,7 +58,7 @@ This is the full list of flags supported:
 ```sh
 # Result of Calculator --help (Slightly modified to look better because it's kinda ugly. Lookin at you CLI11)
 -h, --help              Print this help message and exit
--f, --file TEXT         Path to the json file containing the parts data (Default: Data/FullData.json)
+-f, --file TEXT         Path to the directory containing the json data (Default: Data)
 -o, --output TEXT       Path to the output file (Default: Results.txt)
 -t, --threads INT       Number of threads to use (Default: 4) (Max: 16)
 -s, --sort TEXT         Sorting type (TTK, FIRERATE, SPREAD) (Default: TTK)
