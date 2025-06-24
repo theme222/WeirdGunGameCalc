@@ -1,4 +1,4 @@
-# WeirdGunGameCalc
+# WeirdGunGameCal# WeirdGunGameCalc
 > A tool to bruteforce all combinations of guns in the roblox game "Weird Gun Game"
 
 ## About
@@ -48,7 +48,9 @@ Filters can contain both a minimum amount and a maximum amount. They can be adde
 1. Using the `--<filter_name> <min value> <max value>` flag.
 2. Using the `--<filter_name><min or max> <value>` flag.
 
-You may also force a specific part type using the `--force<part type> <part name (CASE SENSITIVE)>`
+*The qoutes are required for parts that contain spaces or special characters.*
+You may also force a specific part type using this syntax `--force<part type> "<part name (CASE SENSITIVE)>"`
+You may ban parts by using this syntax `--ban<part type> "<part name (CASE SENSITIVE)>" "<part2>" "<part3>" ...`
 
 You can also look for some example commands that I use to fill the `InterestingBuilds` directory in the `Commands.sh` file.
 
@@ -64,12 +66,12 @@ This is the full list of flags supported:
 -m, --method TEXT       Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)
 -i, --include TEXT ...  Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird) (REQUIRED)
 
-# This section is case sensitive (Technically everything is lol). Please use the exact name that is shown inside of the game and surround it with qoutes like this "Arctic Warfare";
---fb, --forceBarrel TEXT ... Force the calculator to use a specific barrel
---fm, --forceMagazine TEXT ... Force the calculator to use a specific magazine
---fg, --forceGrip TEXT ... Force the calculator to use a specific grip
---fs, --forceStock TEXT ... Force the calculator to use a specific stock
---fc, --forceCore TEXT ... Force the calculator to use a specific core
+# This section is case sensitive (Technically everything is lol). Please use the exact name that is shown inside of the game and surround it with qoutes like this "Arctic Warfare"
+--fb, --forceBarrel TEXT Force the calculator to use a specific barrel
+--fm, --forceMagazine TEXT Force the calculator to use a specific magazine
+--fg, --forceGrip TEXT Force the calculator to use a specific grip
+--fs, --forceStock TEXT Force the calculator to use a specific stock
+--fc, --forceCore TEXT Force the calculator to use a specific core
 
 --bb, --banBarrel TEXT ... Ban the calculator to use a list of barrels
 --bm, --banMagazine TEXT ... Ban the calculator to use a list of magazines
@@ -145,8 +147,7 @@ being `(a \* n/5) + (a \* n/5)^2 + (a \* n/5)^3 + (a \* n/5)^4 + (a \* n/5)^5`
 which makes it worse than bruteforce if the `a` is very close to 1 (if the filters
 are not restrictive enough). It also requires a lot of memory due to the fact
 that we need to save valid combinations from previous levels. The exact amount
-is `(n)^4 \* 2 \* sizeof(Gun)` bytes (I am planning on making the memory usage
-scale to the filters provided instead of allocating it all fully at the start).
+is `(n)^4 \* 2 \* sizeof(Gun)` bytes.
 
 Please note that Prune method doesn't work when the pellet count is more than 1.
 This means it doesn't work with shotguns and will provide an even worse damage
