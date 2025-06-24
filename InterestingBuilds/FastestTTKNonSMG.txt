@@ -1,162 +1,162 @@
-./Calculator -o InterestingBuilds/FastestTTKNonSMG.txt -i AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.649 --recoilAimMax 30 --rangeMin 150 --pelletMax 1 
+./Calculator -o InterestingBuilds/FastestTTKNonSMG.txt -i AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.649 --recoilAimMax 30 --rangeMin 150 --pelletMax 1 --bc FE-200SH 
 Current top 10 guns are: 
-Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: Controller, Stock: Speed Coil, Core: FE-200SH ]
-damage: 25.2242 - 20.1794
+Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: M1891 Carcano, Stock: Remington 870 Breacher, Core: M-16 ]
+damage: 20.0533 - 17.0264
 dropoffStuds: 153 - 297.5
 pellets: 1
-fireRate: 778.68
-adsSpread: 0.6468
-hipfireSpread: 17.248
-reloadTime: 2.04
-magazineSize: 30
-health: -10
-recoilHipVertical: 6.336 - 7.92
-recoilAimVertical: 3.8016 - 4.752
-movementSpeed: 2.64
-detectionRadius: 218.75
-TTK: 0.23116 Seconds
-
-Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: M1891 Carcano, Stock: Skorpion vz. 61, Core: FE-200SH ]
-damage: 25.2242 - 20.1794
-dropoffStuds: 153 - 297.5
-pellets: 1
-fireRate: 770.4
-adsSpread: 0.34125
-hipfireSpread: 9.1
-reloadTime: 2.5392
+fireRate: 876.33
+adsSpread: 0.56875
+hipfireSpread: 4.55
+reloadTime: 3.174
 magazineSize: 30
 health: 0
-recoilHipVertical: 12.672 - 15.84
-recoilAimVertical: 7.6032 - 9.504
-movementSpeed: 0.240001
-detectionRadius: 218.75
-TTK: 0.233645 Seconds
+recoilHipVertical: 35.2 - 42.24
+recoilAimVertical: 17.6 - 21.12
+movementSpeed: 0.440001
+detectionRadius: 112.5
+TTK: 0.273869 Seconds
 
-Gun contains[ Barrel: Hell-Trooper-23, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: FE-200SH ]
-damage: 25.1906 - 20.1525
-dropoffStuds: 160.65 - 312.375
+Gun contains[ Barrel: Hex Spitter, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: M-16 ]
+damage: 20.2204 - 17.1682
+dropoffStuds: 153 - 297.5
 pellets: 1
-fireRate: 770.4
-adsSpread: 0.341719
-hipfireSpread: 9.1125
+fireRate: 858
+adsSpread: 0.464063
+hipfireSpread: 3.7125
 reloadTime: 2.4
 magazineSize: 30
 health: 0
-recoilHipVertical: 13.3584 - 16.698
-recoilAimVertical: 8.01504 - 10.0188
+recoilHipVertical: 48.07 - 57.684
+recoilAimVertical: 24.035 - 28.842
 movementSpeed: 2.64
-detectionRadius: 175
-TTK: 0.233645 Seconds
+detectionRadius: 90
+TTK: 0.27972 Seconds
 
-Gun contains[ Barrel: Thompson, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
-damage: 25.1762 - 20.141
-dropoffStuds: 153 - 297.5
+Gun contains[ Barrel: M1Garand, Magazine: Graphics Card, Grip: M1891 Carcano, Stock: MG42, Core: Type 99 ]
+damage: 16.7032 - 9.24242
+dropoffStuds: 151.8 - 335.8
 pellets: 1
-fireRate: 760.32
-adsSpread: 0.26325
-hipfireSpread: 7.02
-reloadTime: 2.4
+fireRate: 1046.52
+adsSpread: 0.583879
+hipfireSpread: 5.00467
+reloadTime: 8.28
+magazineSize: 50
+health: 0
+recoilHipVertical: 28.49 - 42.35
+recoilAimVertical: 14.245 - 21.175
+movementSpeed: 1.2
+detectionRadius: 170.5
+TTK: 0.286664 Seconds
+
+Gun contains[ Barrel: Kriss Vector, Magazine: FE-200SH, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: As-Val ]
+damage: 16.6795 - 13.7787
+dropoffStuds: 153 - 202.5
+pellets: 1
+fireRate: 1033.56
+adsSpread: 0.47495
+hipfireSpread: 2.714
+reloadTime: 3.68
 magazineSize: 30
 health: 0
-recoilHipVertical: 17.16 - 21.45
-recoilAimVertical: 10.296 - 12.87
-movementSpeed: 5.68
-detectionRadius: 175
-TTK: 0.236742 Seconds
+recoilHipVertical: 30.36 - 40.48
+recoilAimVertical: 15.18 - 20.24
+movementSpeed: 0.14
+detectionRadius: 66
+TTK: 0.290259 Seconds
 
-Gun contains[ Barrel: Hell-Trooper-23, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: Kriss Vector, Core: FE-200SH ]
-damage: 25.1906 - 20.1525
+Gun contains[ Barrel: Fedorov Avtomat, Magazine: Graphics Card, Grip: PPSh-41, Stock: MG42, Core: Type 99 ]
+damage: 16.7032 - 9.24242
+dropoffStuds: 151.8 - 335.8
+pellets: 1
+fireRate: 1031.98
+adsSpread: 0.490875
+hipfireSpread: 4.2075
+reloadTime: 8.28
+magazineSize: 50
+health: 0
+recoilHipVertical: 33.6182 - 49.973
+recoilAimVertical: 16.8091 - 24.9865
+movementSpeed: 0.975
+detectionRadius: 155
+TTK: 0.290702 Seconds
+
+Gun contains[ Barrel: MP 40, Magazine: Graphics Card, Grip: PPSh-41, Stock: MG42, Core: Type 99 ]
+damage: 16.7899 - 9.2904
+dropoffStuds: 151.8 - 335.8
+pellets: 1
+fireRate: 1031.98
+adsSpread: 0.490875
+hipfireSpread: 4.2075
+reloadTime: 8.28
+magazineSize: 50
+health: 0
+recoilHipVertical: 34.188 - 50.82
+recoilAimVertical: 17.094 - 25.41
+movementSpeed: 0.0799999
+detectionRadius: 155
+TTK: 0.290702 Seconds
+
+Gun contains[ Barrel: Hell-Trooper-23, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: Kriss Vector, Core: M-16 ]
+damage: 20.588 - 17.4804
 dropoffStuds: 152.617 - 296.756
 pellets: 1
-fireRate: 760.32
-adsSpread: 0.355388
-hipfireSpread: 9.477
+fireRate: 823.68
+adsSpread: 0.592313
+hipfireSpread: 4.7385
 reloadTime: 2.4
 magazineSize: 30
 health: 0
-recoilHipVertical: 9.75744 - 12.1968
-recoilAimVertical: 5.85446 - 7.31808
+recoilHipVertical: 40.656 - 48.7872
+recoilAimVertical: 20.328 - 24.3936
 movementSpeed: 5.28
-detectionRadius: 175
-TTK: 0.236742 Seconds
+detectionRadius: 90
+TTK: 0.291375 Seconds
 
-Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: UMP-40, Stock: Speed Coil, Core: FE-200SH ]
-damage: 25.2242 - 20.1794
+Gun contains[ Barrel: Oil, Magazine: MAC-10, Grip: P90, Stock: Remington 870 Breacher, Core: M-16 ]
+damage: 20.0533 - 17.0264
+dropoffStuds: 158.4 - 308
+pellets: 1
+fireRate: 823.368
+adsSpread: 0.525
+hipfireSpread: 4.2
+reloadTime: 2.3
+magazineSize: 30
+health: 0
+recoilHipVertical: 49.68 - 59.616
+recoilAimVertical: 24.84 - 29.808
+movementSpeed: 0.52
+detectionRadius: 112.5
+TTK: 0.291486 Seconds
+
+Gun contains[ Barrel: Words as Weapons, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: Remington 870 Breacher, Core: M-16 ]
+damage: 20.2204 - 17.1682
 dropoffStuds: 153 - 297.5
 pellets: 1
-fireRate: 756
-adsSpread: 0.6174
-hipfireSpread: 16.464
-reloadTime: 1.9584
+fireRate: 819
+adsSpread: 0.421875
+hipfireSpread: 3.375
+reloadTime: 2.76
 magazineSize: 30
-health: -10
-recoilHipVertical: 7.92 - 9.9
-recoilAimVertical: 4.752 - 5.94
-movementSpeed: 5.68
-detectionRadius: 218.75
-TTK: 0.238095 Seconds
+health: 0
+recoilHipVertical: 42.24 - 50.688
+recoilAimVertical: 21.12 - 25.344
+movementSpeed: 7.64
+detectionRadius: 94.5
+TTK: 0.29304 Seconds
 
-Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: The Chief, Stock: Speed Coil, Core: FE-200SH ]
-damage: 25.981 - 20.7848
+Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: Banana, Stock: Remington 870 Breacher, Core: M-16 ]
+damage: 20.0533 - 17.0264
 dropoffStuds: 153 - 297.5
 pellets: 1
-fireRate: 756
-adsSpread: 0.55125
-hipfireSpread: 14.7
-reloadTime: 2.04
+fireRate: 819
+adsSpread: 0.503125
+hipfireSpread: 4.025
+reloadTime: 2.76
 magazineSize: 30
-health: -10
-recoilHipVertical: 8.5536 - 10.692
-recoilAimVertical: 5.13216 - 6.4152
+health: 0
+recoilHipVertical: 28.16 - 33.792
+recoilAimVertical: 14.08 - 16.896
 movementSpeed: 2.64
-detectionRadius: 218.75
-TTK: 0.238095 Seconds
-
-Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: Mas-38, Stock: Speed Coil, Core: FE-200SH ]
-damage: 25.2242 - 20.1794
-dropoffStuds: 153 - 297.5
-pellets: 1
-fireRate: 756
-adsSpread: 0.6468
-hipfireSpread: 17.248
-reloadTime: 2.04
-magazineSize: 30
-health: -10
-recoilHipVertical: 6.336 - 7.92
-recoilAimVertical: 3.8016 - 4.752
-movementSpeed: 4.24
-detectionRadius: 218.75
-TTK: 0.238095 Seconds
-
-Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: Arctic Warfare, Stock: Speed Coil, Core: FE-200SH ]
-damage: 25.2242 - 20.1794
-dropoffStuds: 153 - 297.5
-pellets: 1
-fireRate: 756
-adsSpread: 0.58065
-hipfireSpread: 15.484
-reloadTime: 2.2848
-magazineSize: 30
-health: -10
-recoilHipVertical: 6.84288 - 8.5536
-recoilAimVertical: 4.10573 - 5.13216
-movementSpeed: 2.64
-detectionRadius: 218.75
-TTK: 0.238095 Seconds
-
-Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: Hell-Trooper-23, Stock: Speed Coil, Core: FE-200SH ]
-damage: 25.2242 - 20.1794
-dropoffStuds: 153 - 297.5
-pellets: 1
-fireRate: 756
-adsSpread: 0.6027
-hipfireSpread: 16.072
-reloadTime: 2.04
-magazineSize: 30
-health: -10
-recoilHipVertical: 6.336 - 7.92
-recoilAimVertical: 3.8016 - 4.752
-movementSpeed: 5.64
-detectionRadius: 218.75
-TTK: 0.238095 Seconds
+detectionRadius: 112.5
+TTK: 0.29304 Seconds
 

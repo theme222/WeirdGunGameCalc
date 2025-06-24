@@ -1,4 +1,4 @@
-./Calculator -o InterestingBuilds/FastestTTKSMG.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.049 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 
+./Calculator -o InterestingBuilds/FastestTTKSMG.txt -i SMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.049 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 
 Current top 10 guns are: 
 Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
 damage: 26.4855 - 11.9815
@@ -80,22 +80,6 @@ movementSpeed: 11.1
 detectionRadius: 80
 TTK: 0.210609 Seconds
 
-Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Remington 870 Breacher, Core: Type 2a Nambu ]
-damage: 26.4855 - 11.9815
-dropoffStuds: 119 - 131.75
-pellets: 1
-fireRate: 851.812
-adsSpread: 0.70875
-hipfireSpread: 4.725
-reloadTime: 3.174
-magazineSize: 30
-health: 0
-recoilHipVertical: 18.4875 - 25.8825
-recoilAimVertical: 11.9799 - 16.7867
-movementSpeed: 0.55
-detectionRadius: 100
-TTK: 0.211314 Seconds
-
 Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Auto-5, Core: Type 2a Nambu ]
 damage: 25.1612 - 11.3824
 dropoffStuds: 119 - 131.75
@@ -108,6 +92,22 @@ magazineSize: 30
 health: 0
 recoilHipVertical: 21.25 - 29.75
 recoilAimVertical: 13.77 - 19.295
+movementSpeed: 0.55
+detectionRadius: 100
+TTK: 0.211314 Seconds
+
+Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Remington 870 Breacher, Core: Type 2a Nambu ]
+damage: 26.4855 - 11.9815
+dropoffStuds: 119 - 131.75
+pellets: 1
+fireRate: 851.812
+adsSpread: 0.70875
+hipfireSpread: 4.725
+reloadTime: 3.174
+magazineSize: 30
+health: 0
+recoilHipVertical: 18.4875 - 25.8825
+recoilAimVertical: 11.9799 - 16.7867
 movementSpeed: 0.55
 detectionRadius: 100
 TTK: 0.211314 Seconds

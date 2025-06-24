@@ -5,6 +5,7 @@
 #include <stdexcept>
 #include <string>
 #include <fstream>
+#include <filesystem>
 #include <queue>
 #include <sys/types.h>
 #include <vector>
@@ -20,32 +21,33 @@
 using json = nlohmann::json;
 typedef std::pair<float, float> fpair;
 
+#define DEFAULTVECTORSIZE 100000
 #define ALLMULTFLAG 4294967295 // 2^32 - 1
 #define NILMIN -69420.5f
 #define NILMAX 69420.5f
 #define NILRANGE {NILMIN, NILMAX} // Hehehheheh who says programmers can't have fun
 #define NILINT -1
-
-void JoinString(const std::vector<std::string>& strings, std::string& result)
-{
-    for (int i = 0; i < strings.size(); i++)
-        result += strings[i] + (i < strings.size() - 1 ? " " : "");
-}
+#define CATEGORYCOUNT 7 // This is mostly for looking at what values are based on the category count for easy refactor
 
 namespace Input
 {
-    std::string filepath = "Data/FullData.json";
+    std::filesystem::path fileDir = "Data";
     std::string outpath = "Results.txt";
     std::string sortType = "TTK";
     std::string method = "PRUNE";
 
     // These handle if the users force a specific part to be included
-    // std::vector<std::string> is used incase the name has spaces.
-    std::vector<std::string> forceBarrel;
-    std::vector<std::string> forceMagazine;
-    std::vector<std::string> forceCore;
-    std::vector<std::string> forceStock;
-    std::vector<std::string> forceGrip;
+    std::string forceBarrel;
+    std::string forceMagazine;
+    std::string forceCore;
+    std::string forceStock;
+    std::string forceGrip;
+
+    std::vector<std::string> banBarrel;
+    std::vector<std::string> banMagazine;
+    std::vector<std::string> banCore;
+    std::vector<std::string> banStock;
+    std::vector<std::string> banGrip;
 
     std::vector<std::string> includeCategories;
 
@@ -72,15 +74,7 @@ namespace Input
 namespace Fast // Namespace to contain any indexing that uses the integer representation of categories and mults
 {
     // penalties[coreCategory][partCategory]
-    float penalties[7][7] = {
-        {1.00, 0.70, 0.80, 0.75, 1.00, 0.70, 0.80},
-        {0.70, 1.00, 0.60, 0.80, 1.00, 0.60, 0.85},
-        {0.80, 0.60, 1.00, 0.65, 1.00, 0.65, 0.70},
-        {0.75, 0.80, 0.65, 1.00, 1.00, 0.75, 0.85},
-        {1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00},
-        {0.70, 0.60, 0.65, 0.75, 1.00, 1.00, 0.60},
-        {0.80, 0.85, 0.70, 0.85, 1.00, 0.60, 1.00},
-    };
+    float penalties[CATEGORYCOUNT][CATEGORYCOUNT];
 
     std::map<std::string, int> fastifyCategory = {
         {"Assault Rifle", 0},
@@ -92,8 +86,9 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         {"BR", 6}
     };
 
-    bool includeCategories_fast[7] = {false, false, false, false, false, false, false};
+    bool includeCategories_fast[CATEGORYCOUNT] = {false, false, false, false, false, false, false};
     int forceParts_fast[5] = {NILINT, NILINT, NILINT, NILINT, NILINT}; // Barrel Magazine Grip Stock Core
+    std::vector<int> banParts_fast[5];  // TODO: Check if this needs to be a more efficient data structure
 
     enum MultFlags {
         DAMAGE = 1<<0,
@@ -137,6 +132,12 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     std::map<std::string, int> fastifyName = {};
 
+    void PartExists(std::string partName)
+    {
+        if (!fastifyName.contains(partName))
+            throw std::invalid_argument("Part " + partName + " doesn't exist");
+    }
+
     void InitializeIncludeCategories()
     {
         for (auto& category : Input::includeCategories)
@@ -148,50 +149,62 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         }
     }
 
-    void InitializeForceParts()
+    void InitializeForceAndBanParts()
     {
-        std::string forceBarrel = "";
-        std::string forceMagazine = "";
-        std::string forceGrip = "";
-        std::string forceStock = "";
-        std::string forceCore = "";
-
-        JoinString(Input::forceBarrel, forceBarrel);
-        JoinString(Input::forceMagazine, forceMagazine);
-        JoinString(Input::forceGrip, forceGrip);
-        JoinString(Input::forceStock, forceStock);
-        JoinString(Input::forceCore, forceCore);
+        using namespace Input;
 
         if (forceBarrel != "")
         {
-            if (!fastifyName.contains(forceBarrel))
-                throw std::invalid_argument("Barrel " + forceBarrel + " doesn't exist");
+            PartExists(forceBarrel);
             forceParts_fast[0] = fastifyName[forceBarrel];
         }
         if (forceMagazine != "")
         {
-            if (!fastifyName.contains(forceMagazine))
-                throw std::invalid_argument("Magazine " + forceMagazine + " doesn't exist");
+            PartExists(forceMagazine);
             forceParts_fast[1] = fastifyName[forceMagazine];
         }
         if (forceGrip != "")
         {
-            if (!fastifyName.contains(forceGrip))
-                throw std::invalid_argument("Grip " + forceGrip + " doesn't exist");
+            PartExists(forceGrip);
             forceParts_fast[2] = fastifyName[forceGrip];
         }
         if (forceStock != "")
         {
-            if (!fastifyName.contains(forceStock))
-                throw std::invalid_argument("Stock " + forceStock + " doesn't exist");
+            PartExists(forceStock);
             forceParts_fast[3] = fastifyName[forceStock];
         }
         if (forceCore != "")
         {
-            if (!fastifyName.contains(forceCore))
-                throw std::invalid_argument("Core " + forceCore + " doesn't exist");
+            PartExists(forceCore);
             forceParts_fast[4] = fastifyName[forceCore];
         }
+
+        for (auto barrel: banBarrel)
+        {
+            PartExists(barrel);
+            banParts_fast[0].push_back(fastifyName[barrel]);
+        }
+        for (auto magazine: banMagazine)
+        {
+            PartExists(magazine);
+            banParts_fast[1].push_back(fastifyName[magazine]);
+        }
+        for (auto grip: banGrip)
+        {
+            PartExists(grip);
+            banParts_fast[2].push_back(fastifyName[grip]);
+        }
+        for (auto stock: banStock)
+        {
+            PartExists(stock);
+            banParts_fast[3].push_back(fastifyName[stock]);
+        }
+        for (auto core: banCore)
+        {
+            PartExists(core);
+            banParts_fast[4].push_back(fastifyName[core]);
+        }
+
     }
 
     bool RangeFilter(float value, fpair range)
@@ -201,8 +214,14 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         else if (range.second != NILMAX) return value <= range.second;
         else return true;
     }
-}
 
+    // If this increases compile time by too much I'll revert it back to just int
+    template<typename T>
+    bool VectorContains(std::vector<T>& vec, T value)
+    {
+        return std::find(vec.begin(), vec.end(), value) != vec.end();
+    }
+}
 
 class Part
 {
@@ -1009,6 +1028,12 @@ namespace BruteForce
             if (Fast::forceParts_fast[3] != NILINT && s->name_fast != Fast::forceParts_fast[3]) return false;
             if (Fast::forceParts_fast[4] != NILINT && c->name_fast != Fast::forceParts_fast[4]) return false;
 
+            if (VectorContains(Fast::banParts_fast[0], b->name_fast)) return false;
+            if (VectorContains(Fast::banParts_fast[1], m->name_fast)) return false;
+            if (VectorContains(Fast::banParts_fast[2], g->name_fast)) return false;
+            if (VectorContains(Fast::banParts_fast[3], s->name_fast)) return false;
+            if (VectorContains(Fast::banParts_fast[4], c->name_fast)) return false;
+
             if (!Fast::includeCategories_fast[c->category_fast]) return false;
             if (!RangeFilter(c->timeToAim, Input::timeToAimRange)) return false;
             if (!RangeFilter(m->magazineSize, Input::magazineRange)) return false;
@@ -1101,6 +1126,7 @@ namespace Prune
 
         bool CoreFilter(Core *core) // These filters require no gun calculation and can be immediately checked on the part itself
         {
+            if (VectorContains(Fast::banParts_fast[4], core->name_fast)) return false;
             if (Fast::forceParts_fast[4] != NILINT && Fast::forceParts_fast[4] != core->name_fast) return false;
             if (!Fast::includeCategories_fast[core->category_fast]) return false;
             if (!Fast::RangeFilter(core->timeToAim, Input::timeToAimRange)) return false;
@@ -1109,6 +1135,7 @@ namespace Prune
 
         bool MagazineFilter(Magazine *magazine)
         {
+            if (VectorContains(Fast::banParts_fast[1], magazine->name_fast)) return false;
             if (Fast::forceParts_fast[1] != NILINT && Fast::forceParts_fast[1] != magazine->name_fast) return false;
             if (!Fast::RangeFilter(magazine->magazineSize, Input::magazineRange)) return false;
             return true;
@@ -1116,18 +1143,21 @@ namespace Prune
 
         bool BarrelFilter(Barrel *barrel)
         {
+            if (VectorContains(Fast::banParts_fast[0], barrel->name_fast)) return false;
             if (Fast::forceParts_fast[0] != NILINT && Fast::forceParts_fast[0] != barrel->name_fast) return false;
             return true;
         }
 
         bool GripFilter(Grip *grip)
         {
+            if (VectorContains(Fast::banParts_fast[2], grip->name_fast)) return false;
             if (Fast::forceParts_fast[2] != NILINT && Fast::forceParts_fast[2] != grip->name_fast) return false;
             return true;
         }
 
         bool StockFilter(Stock *stock)
         {
+            if (VectorContains(Fast::banParts_fast[3], stock->name_fast)) return false;
             if (Fast::forceParts_fast[3] != NILINT && Fast::forceParts_fast[3] != stock->name_fast) return false;
             return true;
         }
@@ -1164,7 +1194,7 @@ namespace Prune
         */
 
         // bestPossibleCombo[coreCategoryFast][low / high][1 -> 4]
-        Part bestPossibleCombo[7][2][4] = { // stfu I don't wanna hear it
+        Part bestPossibleCombo[CATEGORYCOUNT][2][4] = { // stfu I don't wanna hear it
             {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
             {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
             {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
@@ -1213,15 +1243,15 @@ namespace Prune
         void InitializeHighestAndLowestMultParts() // It may not look like it but I promise you this has a Time complexity of O(n) I'M TELLING YOU PLEASE BELIEVE ME
         {
             // Creation of dummyGuns to allow us to use (Gun obj).GetPartialMult and (Gun obj).GetPartialAdd for HighLow intialization
-            Core coreCategories[7];
-            Gun dummyGuns[7];
-            for (int i = 0; i < 7; i++)
+            Core coreCategories[CATEGORYCOUNT];
+            Gun dummyGuns[CATEGORYCOUNT];
+            for (int i = 0; i < CATEGORYCOUNT; i++)
             {
                 coreCategories[i].category_fast = i;
                 dummyGuns[i] = Gun(coreCategories + i);
             }
 
-            for (int g = 0; g < 7; g++)
+            for (int g = 0; g < CATEGORYCOUNT; g++)
             {
                 Gun& dummyGun = dummyGuns[g];
                 std::pair<Part, Part> magazineMultPair = FindHighestAndLowestMultInList(dummyGun, magazineList, magazineCount);
@@ -1282,15 +1312,22 @@ namespace Prune
         return true;
     }
 
+    void CustomPushback(std::vector<Gun>& vec, uint64_t& index, const Gun& gun)
+    {
+        if (vec.size() <= index) vec.resize(vec.size() * 2);
+        vec[index] = gun;
+        index++;
+    }
+
     void Run(int threadId)
     {
         printf("Thread %d started\n", threadId);
         threadPQ[threadId] = PQ::Create();
 
         // This is why memory scales with O(n^4) (Hopefully not a big issue hahhah)
-        printf("%d: Allocating %lu bytes for vectors\n", threadId, sizeof(Gun) * coreCount / Input::threadsToMake * magazineCount * barrelCount * gripCount * 2);
-        std::vector<Gun> validGuns1(coreCount / Input::threadsToMake * magazineCount * barrelCount * gripCount);
-        std::vector<Gun> validGuns2(coreCount / Input::threadsToMake * magazineCount * barrelCount * gripCount);
+        printf("%d: Allocating %lu bytes for vectors\n", threadId, sizeof(Gun) * DEFAULTVECTORSIZE / Input::threadsToMake * 2);
+        std::vector<Gun> validGuns1(DEFAULTVECTORSIZE / Input::threadsToMake);
+        std::vector<Gun> validGuns2(DEFAULTVECTORSIZE / Input::threadsToMake);
         uint64_t validGunCount1 = 0;
         uint64_t validGunCount2 = 0;
 
@@ -1304,10 +1341,7 @@ namespace Prune
             currentGun.CopyCoreValues(Filter::currentflags);
             bool validCombo = IsValidCombination(currentGun, HighLow::bestPossibleCombo[currentGun.core->category_fast][0][3], HighLow::bestPossibleCombo[currentGun.core->category_fast][1][3]);
             if (validCombo)
-            {
-                validGuns1[validGunCount1] = currentGun;
-                validGunCount1++;
-            }
+                CustomPushback(validGuns1, validGunCount1, currentGun);
         }
         printf("%d: Total valid cores: %lu / %u\n", threadId, validGunCount1, coreCount);
 
@@ -1324,10 +1358,7 @@ namespace Prune
                 currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.magazine);
                 bool validCombo = IsValidCombination(currentGun, HighLow::bestPossibleCombo[currentGun.core->category_fast][0][2], HighLow::bestPossibleCombo[currentGun.core->category_fast][1][2]);
                 if (validCombo)
-                {
-                    validGuns2[validGunCount2] = currentGun;
-                    validGunCount2++;
-                }
+                    CustomPushback(validGuns2, validGunCount2, currentGun);
             }
         }
         printf("%d: Total valid core + mag: %lu / %u\n", threadId, validGunCount2, coreCount * magazineCount);
@@ -1344,10 +1375,7 @@ namespace Prune
                 currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.barrel);
                 bool validCombo = IsValidCombination(currentGun, HighLow::bestPossibleCombo[currentGun.core->category_fast][0][1], HighLow::bestPossibleCombo[currentGun.core->category_fast][1][1]);
                 if (validCombo)
-                {
-                    validGuns1[validGunCount1] = currentGun;
-                    validGunCount1++;
-                }
+                    CustomPushback(validGuns1, validGunCount1, currentGun);
             }
         }
         printf("%d: Total valid core + mag + barrel: %lu / %u\n", threadId, validGunCount1, coreCount * magazineCount * barrelCount);
@@ -1364,10 +1392,7 @@ namespace Prune
                 currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.grip);
                 bool validCombo = IsValidCombination(currentGun, HighLow::bestPossibleCombo[currentGun.core->category_fast][0][0], HighLow::bestPossibleCombo[currentGun.core->category_fast][1][0]);
                 if (validCombo)
-                {
-                    validGuns2[validGunCount2] = currentGun;
-                    validGunCount2++;
-                }
+                    CustomPushback(validGuns2, validGunCount2, currentGun);
             }
         }
         printf("%d: Total valid core + mag + barrel + grip: %lu / %u\n", threadId, validGunCount2, coreCount * magazineCount * barrelCount * gripCount);
@@ -1402,7 +1427,7 @@ int main(int argc, char* argv[])
     CLI::App app{"A tool to bruteforce all possible stats inside of weird gun game."};
     argv = app.ensure_utf8(argv);
 
-    app.add_option("-f, --file", Input::filepath, "Path to the json file containing the parts data (Default: Data/FullData.json)");
+    app.add_option("-f, --file", Input::fileDir, "Path to the directory containing the json file (Default: Data)");
     app.add_option("-o, --output", Input::outpath, "Path to the output file (Default: Results.txt");
     app.add_option("-t, --threads", Input::threadsToMake, "Number of threads to use (MAX 16) (Default: 4)");
     app.add_option("-s, --sort", Input::sortType, "Sorting type (TTK, FIRERATE, SPREAD) (Default: TTK)");
@@ -1415,6 +1440,12 @@ int main(int argc, char* argv[])
     app.add_option("--fg, --forceGrip", Input::forceGrip, "Force the calculator to use a specific grip");
     app.add_option("--fs, --forceStock", Input::forceStock, "Force the calculator to use a specific stock");
     app.add_option("--fc, --forceCore", Input::forceCore, "Force the calculator to use a specific core");
+
+    app.add_option("--bb, --banBarrel", Input::banBarrel, "Ban the calculator from using a list of barrels");
+    app.add_option("--bm, --banMagazine", Input::banMagazine, "Ban the calculator from using a list of magazines");
+    app.add_option("--bg, --banGrip", Input::banGrip, "Ban the calculator from using a list of grips");
+    app.add_option("--bs, --banStock", Input::banStock, "Ban the calculator from using a list of stocks");
+    app.add_option("--bc, --banCore", Input::banCore, "Ban the calculator from using a list of cores");
 
     app.add_option("--damage", Input::damageRange, "Damage range to filter");
     app.add_option("--damageMin", Input::damageRange.first);
@@ -1461,10 +1492,20 @@ int main(int argc, char* argv[])
 
     CLI11_PARSE(app, argc, argv);
 
-    std::ifstream f(Input::filepath);
-    json data = json::parse(f);
+    // The operator overloads go c++azy (Python actually has this with Pathlib but we don't talk about that)
+    std::filesystem::path fullDataPath = Input::fileDir / "FullData.json";
+    std::filesystem::path penaltiesPath = Input::fileDir / "Penalties.json";
 
-    printf("Loading from json file %s\n", Input::filepath.c_str());
+    if (!std::filesystem::exists(fullDataPath) || !std::filesystem::exists(penaltiesPath))
+    {
+        printf("Files %s and %s are required\n", fullDataPath.c_str(), penaltiesPath.c_str());
+        throw std::invalid_argument("Required files not found");
+    }
+
+    printf("Loading from json file %s and %s\n", fullDataPath.c_str(), penaltiesPath.c_str());
+
+    std::ifstream FullData(fullDataPath);
+    json data = json::parse(FullData);
 
     for (json &element : data["Barrels"])
     {
@@ -1496,10 +1537,17 @@ int main(int argc, char* argv[])
         coreCount++;
     }
 
+    std::ifstream Penalties(penaltiesPath);
+    json penalties = json::parse(Penalties);
+
+    for (int i = 0; i < CATEGORYCOUNT; i++)
+        for (int j = 0; j < CATEGORYCOUNT; j++)
+            Fast::penalties[i][j] = penalties[i][j];
+
     puts("Initializing required data");
     PQ::SetCurrentSortingType(Input::sortType);
     Fast::InitializeIncludeCategories();
-    Fast::InitializeForceParts();
+    Fast::InitializeForceAndBanParts();
     BruteForce::Filter::InitializeMultFlag();
     Prune::Filter::InitializeMultFlag();
     Prune::HighLow::InitializeHighestAndLowestMultParts();

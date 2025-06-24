@@ -32,6 +32,16 @@ known_names = {
     'Gaming Rig', 'Controller', 'Graphics Card', 'Keyboard',
 }
 
+current_penalties = [
+    [1.00, 0.70, 0.80, 0.75, 1.00, 1.00, 0.80],
+    [0.70, 1.00, 0.60, 0.80, 1.00, 0.60, 0.85],
+    [0.80, 0.60, 1.00, 0.65, 1.00, 0.65, 0.70],
+    [0.75, 0.80, 0.65, 1.00, 1.00, 0.75, 0.85],
+    [1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00],
+    [0.70, 0.60, 0.65, 0.75, 1.00, 1.00, 0.60],
+    [0.80, 0.85, 0.70, 0.85, 1.00, 0.60, 1.00]
+]
+
 
 # Step 0
 def Setup():
@@ -112,6 +122,7 @@ def TurnToJSON():
         json.dump(finalJSON, file, indent=2)
 
 
+# Step 3
 def ValueFormat():
     print("Running step 3")
     with open(f"Data/FullData.json", 'r') as file:
@@ -198,6 +209,13 @@ def CleanUp():
     os.system("rm Data/*.txt")
 
 
+def Penalties():
+    # It doesn't really look that good when dumping from a script but you can look at the current penalties in this python script instead haha
+    print("Running Penalties")
+    with open("Data/Penalties.json", 'w') as file:
+        json.dump(current_penalties, file, indent=2)
+
+
 def main():
     Setup()
     CleanData()
@@ -205,6 +223,7 @@ def main():
     ValueFormat()
     ValidateData()
     CleanUp()
+    Penalties()
 
 
 if __name__ == '__main__':

@@ -16,7 +16,7 @@ Before we do anything let's get to know the different files in the repository an
 
 There are currently no plans on adding any sights into the calculator due to the fact that they are mostly cosmetic (Except for a couple problems with range increase, spread pellet increase and that one shield sight thing).
 
-* `Data` This directory contains one singular file being `FullData.json`. this file is the output when I ran the `FileFormatter.py` program to format the files inside of the `RawData`. This file is what the calculator will read from when extracting it's data.
+* `Data` This directory contains two files being `FullData.json` and `Penalties.json`. `FullData.json` is file is the output when I run the `FileFormatter.py` program to format the files inside of the `RawData` and `Penalties.json` contains the penalties for each combo between core and part category. These two files are what the calculator will read from when extracting it's data.
 * `OldData` Unrelated. Simply contains old part values from previous updates. It is currently unused.
 * `Calculator.cpp` The main calculator. This is the file that contains all the c++ code that compiles to the binaries/executables.
 * `DataScreenshotter.py` This file helps with data collection which will be explained more [here](#data-collection)

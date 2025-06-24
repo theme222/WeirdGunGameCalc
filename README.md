@@ -64,12 +64,18 @@ This is the full list of flags supported:
 -m, --method TEXT       Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)
 -i, --include TEXT ...  Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird) (REQUIRED)
 
-# This section is case sensitive (Technically everything is lol). Please use the exact name that is shown inside of the game.
+# This section is case sensitive (Technically everything is lol). Please use the exact name that is shown inside of the game and surround it with qoutes like this "Arctic Warfare";
 --fb, --forceBarrel TEXT ... Force the calculator to use a specific barrel
 --fm, --forceMagazine TEXT ... Force the calculator to use a specific magazine
 --fg, --forceGrip TEXT ... Force the calculator to use a specific grip
 --fs, --forceStock TEXT ... Force the calculator to use a specific stock
 --fc, --forceCore TEXT ... Force the calculator to use a specific core
+
+--bb, --banBarrel TEXT ... Ban the calculator to use a list of barrels
+--bm, --banMagazine TEXT ... Ban the calculator to use a list of magazines
+--bg, --banGrip TEXT ... Ban the calculator to use a list of grips
+--bs, --banStock TEXT ... Ban the calculator to use a list of stocks
+--bc, --banCore TEXT ... Ban the calculator to use a list of cores
 
 --damage [FLOAT,FLOAT] Damage range to filter
 --damageMin FLOAT --damageMax FLOAT
