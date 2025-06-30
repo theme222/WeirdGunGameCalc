@@ -29,7 +29,7 @@ known_names = {
     'Remington 870 MCS', 'Remington 870', 'Spas-12 Folded', 'Hex Spitter', 'PP-19 Bizon', 'M1918 BAR', 'G36C',
     'APS', 'MP5', 'Circuit Judge', 'MP5A3', 'Negev', 'M200 Intervention', 'Pistol Pistol', 'Auto-5', 'Croissant',
     'Loaf', 'Taco', 'Eclair', 'Pastel', 'P90', 'Chauchat', 'Dragunov', 'M1Garand', 'FAL', 'FE-200SH', 'Light Gun',
-    'Gaming Rig', 'Controller', 'Graphics Card', 'Keyboard',
+    'Gaming Rig', 'Controller', 'Graphics Card', 'Keyboard', 'Musket', 'Snake Sniper', 'M110', 'SKS', 'Blunderbuss'
 }
 
 current_penalties = [
@@ -184,12 +184,15 @@ def ValidateData():
             print(f"Type {t} not found")
             totalError += 1
 
-    for partList in JSONData.values():
+    for partType, partList in JSONData.items():
         for part in partList:
             for partProperty in part.keys():
                 if partProperty not in known_properties:
                     print(f"Property {partProperty} not found {part}")
                     totalError += 1
+
+            if "Reload_Time" in part and partType != "Magazines":
+                print(f"Part {part} contains Reload_Time but is not a Magazine")
 
             if part["Name"] not in known_names:
                 print(f"Name {part['Name']} not found")
@@ -210,10 +213,29 @@ def CleanUp():
 
 
 def Penalties():
-    # It doesn't really look that good when dumping from a script but you can look at the current penalties in this python script instead haha
+
+    """
+    It doesn't really look that good when dumping from a script but you can look at the current penalties in this python script instead haha
+    The penalties will get stored in this data structure in Calculator.cpp
+
+    // penalties[coreCategory][partCategory]
+    float penalties[CATEGORYCOUNT][CATEGORYCOUNT];
+
+    std::map<std::string, int> fastifyCategory = {
+        {"Assault Rifle", 0},
+        {"Sniper", 1},
+        {"SMG", 2},
+        {"LMG", 3},
+        {"Weird", 4},
+        {"Shotgun", 5},
+        {"BR", 6}
+    };
+
+    """
+
     print("Running Penalties")
     with open("Data/Penalties.json", 'w') as file:
-        json.dump(current_penalties, file, indent=2)
+        json.dump(current_penalties, file)
 
 
 def main():

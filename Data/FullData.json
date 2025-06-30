@@ -20,8 +20,8 @@
       "Recoil": -5,
       "Reload_Speed": -15,
       "Spread": -10,
-      "Damage": -2.5,
-      "Range": -10
+      "Damage": -3.5,
+      "Range": 5
     },
     {
       "Category": "Assault Rifle",
@@ -77,7 +77,7 @@
       "Category": "Assault Rifle",
       "Name": "G36C",
       "Damage": 5,
-      "Reload_Time": -10
+      "Reload_Speed": -10
     },
     {
       "Category": "Assault Rifle",
@@ -91,9 +91,10 @@
     {
       "Category": "Assault Rifle",
       "Name": "FE-200SH",
-      "Damage": 8,
-      "Range": 7.5,
-      "Fire_Rate": -5
+      "Damage": 11,
+      "Range": 14,
+      "Fire_Rate": -3,
+      "Reload_Speed": 8
     },
     {
       "Category": "Sniper",
@@ -117,7 +118,7 @@
       "Movement_Speed": 4,
       "Reload_Speed": -20,
       "Spread": 50,
-      "Range": 4
+      "Range": 10
     },
     {
       "Category": "Sniper",
@@ -157,6 +158,25 @@
       "Spread": 50
     },
     {
+      "Category": "Sniper",
+      "Name": "Musket",
+      "Damage": 55,
+      "Detection_Radius": 50,
+      "Fire_Rate": -50,
+      "Range": -22,
+      "Recoil": 200,
+      "Spread": 57
+    },
+    {
+      "Category": "Sniper",
+      "Name": "Snake Sniper",
+      "Damage": 15,
+      "Fire_Rate": 3,
+      "Health": -5,
+      "Reload_Speed": 5,
+      "Spread": 20
+    },
+    {
       "Category": "SMG",
       "Name": "MAC-10",
       "Fire_Rate": 5,
@@ -176,7 +196,8 @@
       "Damage": 7,
       "Fire_Rate": 7,
       "Movement_Speed": 3.8,
-      "Recoil": 25
+      "Recoil": 25,
+      "Range": -6
     },
     {
       "Category": "SMG",
@@ -427,6 +448,15 @@
       "Range": -14
     },
     {
+      "Category": "Shotgun",
+      "Name": "Blunderbuss",
+      "Damage": 45,
+      "Pellets": 100,
+      "Fire_Rate": -34,
+      "Range": -30,
+      "Spread": 80
+    },
+    {
       "Category": "Weird",
       "Name": "Snake",
       "Damage": 15,
@@ -559,6 +589,24 @@
       "Detection_Radius": 10,
       "Fire_Rate": -10,
       "Recoil": 20
+    },
+    {
+      "Category": "BR",
+      "Name": "M110",
+      "Damage": 22,
+      "Range": 5,
+      "Recoil": -11,
+      "Detection_Radius": 35,
+      "Fire_Rate": -15,
+      "Spread": 32
+    },
+    {
+      "Category": "BR",
+      "Name": "SKS",
+      "Fire_Rate": 5,
+      "Range": 3,
+      "Recoil": 13,
+      "Reload_Speed": 4
     }
   ],
   "Cores": [
@@ -784,6 +832,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 125,
       "Suppression": 0.3,
+      "Health": 17,
       "Recoil_Hip_Horizontal": [
         -25,
         25
@@ -839,8 +888,8 @@
       "Category": "Assault Rifle",
       "Name": "Hex Spitter",
       "Damage": [
-        16,
-        14
+        20,
+        18
       ],
       "Dropoff_Studs": [
         150,
@@ -849,7 +898,7 @@
       "Pellets": 2,
       "Fire_Rate": 660,
       "Hipfire_Spread": 3.5,
-      "ADS_Spread": 1.5,
+      "ADS_Spread": 0.75,
       "Time_To_Aim": 0.7,
       "Detection_Radius": 70,
       "Suppression": 0.4,
@@ -908,8 +957,8 @@
       "Category": "Assault Rifle",
       "Name": "G36C",
       "Damage": [
-        16,
-        11.6
+        15.3,
+        11.1
       ],
       "Dropoff_Studs": [
         125,
@@ -1181,6 +1230,75 @@
       ]
     },
     {
+      "Category": "Sniper",
+      "Name": "Musket",
+      "Damage": [
+        110,
+        60.5
+      ],
+      "Dropoff_Studs": [
+        50,
+        270
+      ],
+      "Fire_Rate": 18,
+      "Hipfire_Spread": 25,
+      "ADS_Spread": 0.4,
+      "Time_To_Aim": 1,
+      "Detection_Radius": 300,
+      "Suppression": 1,
+      "Recoil_Hip_Horizontal": [
+        -14,
+        14
+      ],
+      "Recoil_Hip_Vertical": [
+        175,
+        183
+      ],
+      "Recoil_Aim_Horizontal": [
+        -7,
+        7
+      ],
+      "Recoil_Aim_Vertical": [
+        87.5,
+        91.5
+      ]
+    },
+    {
+      "Category": "Sniper",
+      "Name": "Snake Sniper",
+      "Damage": [
+        60,
+        48
+      ],
+      "Dropoff_Studs": [
+        320,
+        500
+      ],
+      "Fire_Rate": 35,
+      "Hipfire_Spread": 12,
+      "ADS_Spread": 0.2,
+      "Time_To_Aim": 0.8,
+      "Detection_Radius": 350,
+      "Movement_Speed_Modifier": -4,
+      "Suppression": 1,
+      "Recoil_Hip_Horizontal": [
+        -5,
+        5
+      ],
+      "Recoil_Hip_Vertical": [
+        70,
+        90
+      ],
+      "Recoil_Aim_Horizontal": [
+        -2.8,
+        2.8
+      ],
+      "Recoil_Aim_Vertical": [
+        38.5,
+        49.5
+      ]
+    },
+    {
       "Category": "SMG",
       "Name": "MAC-10",
       "Damage": [
@@ -1227,7 +1345,7 @@
       ],
       "Fire_Rate": 850,
       "Hipfire_Spread": 5,
-      "ADS_Spread": 3,
+      "ADS_Spread": 1.3,
       "Time_To_Aim": 0.15,
       "Detection_Radius": 40,
       "Movement_Speed_Modifier": 9,
@@ -1590,8 +1708,8 @@
       "Category": "SMG",
       "Name": "P90",
       "Damage": [
-        10,
-        6.5
+        10.5,
+        6.8
       ],
       "Dropoff_Studs": [
         140,
@@ -1599,7 +1717,7 @@
       ],
       "Fire_Rate": 1100,
       "Hipfire_Spread": 2,
-      "ADS_Spread": 0.7,
+      "ADS_Spread": 0.5,
       "Time_To_Aim": 0.35,
       "Detection_Radius": 60,
       "Movement_Speed_Modifier": 2.5,
@@ -1624,14 +1742,14 @@
       "Category": "LMG",
       "Name": "Type 99",
       "Damage": [
-        15,
-        8.3
+        15.5,
+        8.5
       ],
       "Dropoff_Studs": [
         165,
         365
       ],
-      "Fire_Rate": 850,
+      "Fire_Rate": 700,
       "Hipfire_Spread": 6,
       "ADS_Spread": 0.7,
       "Time_To_Aim": 1.25,
@@ -1784,16 +1902,16 @@
       "Suppression": 0.9,
       "Health": 11,
       "Recoil_Hip_Horizontal": [
-        -60,
-        60
+        -20,
+        20
       ],
       "Recoil_Hip_Vertical": [
         80,
         120
       ],
       "Recoil_Aim_Horizontal": [
-        -54,
-        54
+        -18,
+        18
       ],
       "Recoil_Aim_Vertical": [
         72,
@@ -1876,16 +1994,16 @@
       "Category": "LMG",
       "Name": "Chauchat",
       "Damage": [
-        29,
-        15.2
+        33,
+        21.5
       ],
       "Dropoff_Studs": [
-        245,
-        400
+        195,
+        350
       ],
       "Fire_Rate": 240,
       "Hipfire_Spread": 6,
-      "ADS_Spread": 2.5,
+      "ADS_Spread": 0.85,
       "Time_To_Aim": 1.36,
       "Detection_Radius": 180,
       "Movement_Speed_Modifier": -7,
@@ -2119,6 +2237,41 @@
       ]
     },
     {
+      "Category": "Shotgun",
+      "Name": "Blunderbuss",
+      "Damage": [
+        225,
+        90
+      ],
+      "Dropoff_Studs": [
+        60,
+        110
+      ],
+      "Pellets": 15,
+      "Fire_Rate": 18,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 2,
+      "Time_To_Aim": 0.9,
+      "Detection_Radius": 200,
+      "Suppression": 1,
+      "Recoil_Hip_Horizontal": [
+        -14,
+        14
+      ],
+      "Recoil_Hip_Vertical": [
+        150,
+        190
+      ],
+      "Recoil_Aim_Horizontal": [
+        -5.6,
+        5.6
+      ],
+      "Recoil_Aim_Vertical": [
+        -60,
+        76
+      ]
+    },
+    {
       "Category": "Weird",
       "Name": "Words as Weapons",
       "Damage": [
@@ -2349,22 +2502,22 @@
       ],
       "Fire_Rate": 650,
       "Hipfire_Spread": 6,
-      "ADS_Spread": 0.85,
+      "ADS_Spread": 0.3,
       "Time_To_Aim": 0.85,
       "Detection_Radius": 120,
       "Movement_Speed_Modifier": -5,
       "Suppression": 0.7,
       "Recoil_Hip_Horizontal": [
-        -26,
-        26
+        -35,
+        35
       ],
       "Recoil_Hip_Vertical": [
         110,
         140
       ],
       "Recoil_Aim_Horizontal": [
-        -20.8,
-        20.8
+        -28,
+        28
       ],
       "Recoil_Aim_Vertical": [
         88,
@@ -2440,6 +2593,77 @@
         93,
         104.6
       ]
+    },
+    {
+      "Category": "BR",
+      "Name": "M110",
+      "Damage": [
+        48,
+        28.8
+      ],
+      "Dropoff_Studs": [
+        120,
+        400
+      ],
+      "Fire_Rate": 150,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.7,
+      "Detection_Radius": 120,
+      "Movement_Speed_Modifier": -5,
+      "Suppression": 0.8,
+      "Health": 7,
+      "Recoil_Hip_Horizontal": [
+        -11,
+        11
+      ],
+      "Recoil_Hip_Vertical": [
+        35,
+        42
+      ],
+      "Recoil_Aim_Horizontal": [
+        -6.6,
+        6.6
+      ],
+      "Recoil_Aim_Vertical": [
+        21,
+        25.2
+      ]
+    },
+    {
+      "Category": "BR",
+      "Name": "SKS",
+      "Damage": [
+        32,
+        19.2
+      ],
+      "Dropoff_Studs": [
+        130,
+        400
+      ],
+      "Fire_Rate": 475,
+      "Hipfire_Spread": 4,
+      "ADS_Spread": 0.2,
+      "Time_To_Aim": 0.8,
+      "Detection_Radius": 120,
+      "Suppression": 0.8,
+      "Health": 5,
+      "Recoil_Hip_Horizontal": [
+        -6,
+        6
+      ],
+      "Recoil_Hip_Vertical": [
+        20,
+        22
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3,
+        3
+      ],
+      "Recoil_Aim_Vertical": [
+        10,
+        11
+      ]
     }
   ],
   "Grips": [
@@ -2511,13 +2735,13 @@
       "Category": "Assault Rifle",
       "Name": "G36C",
       "Recoil": -15,
-      "Reload_Time": -10
+      "Reload_Speed": -10
     },
     {
       "Category": "Assault Rifle",
       "Name": "APS",
       "Recoil": -10,
-      "Reload_Time": -4,
+      "Reload_Speed": -4,
       "Spread": 14
     },
     {
@@ -2570,6 +2794,22 @@
       "Recoil": -20,
       "Reload_Speed": -10,
       "Spread": 10
+    },
+    {
+      "Category": "Sniper",
+      "Name": "Musket",
+      "Damage": 10,
+      "Fire_Rate": -15,
+      "Reload_Speed": 10,
+      "Spread": 40
+    },
+    {
+      "Category": "Sniper",
+      "Name": "Snake Sniper",
+      "Range": 10,
+      "Spread": -18,
+      "Movement_Speed": -1.5,
+      "Recoil": 16
     },
     {
       "Category": "SMG",
@@ -2640,8 +2880,10 @@
     {
       "Category": "SMG",
       "Name": "Mas-38",
+      "Fire_Rate": 6,
       "Movement_Speed": 2,
-      "Spread": -15
+      "Spread": -15,
+      "Range": -7
     },
     {
       "Category": "SMG",
@@ -2656,7 +2898,8 @@
       "Name": "MP5",
       "Movement_Speed": 3.3,
       "Recoil": -15,
-      "Reload_Speed": -10
+      "Reload_Speed": -10,
+      "Spread": 17
     },
     {
       "Category": "SMG",
@@ -2770,6 +3013,14 @@
       "Damage": -2.5
     },
     {
+      "Category": "Shotgun",
+      "Name": "Blunderbuss",
+      "Movement_Speed": 2,
+      "Pellets": 25,
+      "Fire_Rate": -11,
+      "Reload_Speed": 9
+    },
+    {
       "Category": "Weird",
       "Name": "Words as Weapons",
       "Recoil": -10,
@@ -2838,6 +3089,20 @@
       "Name": "Fedorov Avtomat",
       "Recoil": -27,
       "Fire_Rate": -12
+    },
+    {
+      "Category": "BR",
+      "Name": "SKS",
+      "Fire_Rate": 2,
+      "Recoil": -12,
+      "Reload_Speed": 3
+    },
+    {
+      "Category": "BR",
+      "Name": "M110",
+      "Spread": -23,
+      "Fire_Rate": -2,
+      "Recoil": 26
     }
   ],
   "Magazines": [
@@ -2913,7 +3178,7 @@
       "Category": "Assault Rifle",
       "Name": "Scar Drum",
       "Magazine_Size": 50,
-      "Reload_Time": 6,
+      "Reload_Time": 4,
       "Recoil": -10,
       "Damage": -5
     },
@@ -2921,10 +3186,10 @@
       "Category": "Assault Rifle",
       "Name": "Hell-Trooper-23",
       "Magazine_Size": 45,
-      "Reload_Time": 3.4,
+      "Reload_Time": 4,
       "Damage": 13,
       "Recoil": 15,
-      "Spread": 10
+      "Spread": 22
     },
     {
       "Category": "Assault Rifle",
@@ -2993,9 +3258,10 @@
       "Magazine_Size": 5,
       "Reload_Time": 5,
       "Damage": 45,
-      "Fire_Rate": -40,
+      "Fire_Rate": -28,
       "Detection_Radius": 25,
       "Movement_Speed": -10,
+      "Range": -23,
       "Recoil": 100,
       "Reload_Speed": 50,
       "Spread": 100
@@ -3030,6 +3296,28 @@
       "Fire_Rate": -20,
       "Recoil": 60,
       "Range": 10
+    },
+    {
+      "Category": "Sniper",
+      "Name": "Musket",
+      "Magazine_Size": 1,
+      "Reload_Time": 6.5,
+      "Damage": 60,
+      "Movement_Speed": -3,
+      "Range": -20,
+      "Recoil": 80,
+      "Spread": 185
+    },
+    {
+      "Category": "Sniper",
+      "Name": "Snake Sniper",
+      "Magazine_Size": 6,
+      "Reload_Time": 5.5,
+      "Damage": 22,
+      "Fire_Rate": -10,
+      "Movement_Speed": -4,
+      "Range": -5,
+      "Recoil": 36
     },
     {
       "Category": "SMG",
@@ -3201,7 +3489,7 @@
       "Movement_Speed": -4,
       "Recoil": 19,
       "Spread": 23,
-      "Range": -15
+      "Range": -19
     },
     {
       "Category": "LMG",
@@ -3340,6 +3628,17 @@
       "Spread": 50
     },
     {
+      "Category": "Shotgun",
+      "Name": "Blunderbuss",
+      "Magazine_Size": 1,
+      "Reload_Time": 6,
+      "Damage": 12,
+      "Pellets": 200,
+      "Fire_Rate": -5,
+      "Range": -23,
+      "Spread": 60
+    },
+    {
       "Category": "Weird",
       "Name": "Horizontal",
       "Magazine_Size": 20,
@@ -3464,6 +3763,26 @@
       "Range": 11,
       "Detection_Radius": 10,
       "Recoil": 25
+    },
+    {
+      "Category": "BR",
+      "Name": "M110",
+      "Magazine_Size": 10,
+      "Reload_Time": 3.8,
+      "Damage": 19,
+      "Range": 16,
+      "Fire_Rate": -9,
+      "Recoil": 12
+    },
+    {
+      "Category": "BR",
+      "Name": "SKS",
+      "Magazine_Size": 20,
+      "Reload_Time": 3,
+      "Fire_Rate": 12,
+      "Range": 6,
+      "Recoil": 26,
+      "Spread": 17
     }
   ],
   "Stocks": [
@@ -3483,8 +3802,8 @@
       "Category": "Assault Rifle",
       "Name": "AUG",
       "Movement_Speed": 2.5,
-      "Recoil": -10,
-      "Spread": -20
+      "Spread": -15,
+      "Range": -6
     },
     {
       "Category": "Assault Rifle",
@@ -3509,7 +3828,8 @@
       "Category": "Assault Rifle",
       "Name": "STG-44",
       "Fire_Rate": 3,
-      "Spread": -10
+      "Spread": -10,
+      "Reload_Speed": 4
     },
     {
       "Category": "Assault Rifle",
@@ -3542,7 +3862,7 @@
       "Category": "Assault Rifle",
       "Name": "G36C",
       "Recoil": -5,
-      "Reload_Time": -5,
+      "Reload_Speed": -5,
       "Spread": -5
     },
     {
@@ -3596,6 +3916,20 @@
       "Spread": -40,
       "Fire_Rate": -25,
       "Movement_Speed": -10
+    },
+    {
+      "Category": "Sniper",
+      "Name": "Musket",
+      "Recoil": -24,
+      "Movement_Speed": -4,
+      "Reload_Speed": 7
+    },
+    {
+      "Category": "Sniper",
+      "Name": "Snake Sniper",
+      "Recoil": -40,
+      "Movement_Speed": -10,
+      "Reload_Speed": 6
     },
     {
       "Category": "SMG",
@@ -3833,6 +4167,14 @@
       "Damage": -5
     },
     {
+      "Category": "Shotgun",
+      "Name": "Blunderbuss",
+      "Health": 15,
+      "Movement_Speed": 5,
+      "Recoil": 112,
+      "Spread": 50
+    },
+    {
       "Category": "Weird",
       "Name": "Shovel",
       "Spread": -5,
@@ -3911,7 +4253,8 @@
     {
       "Category": "BR",
       "Name": "Dragunov",
-      "Recoil": -26,
+      "Range": 3,
+      "Recoil": -32,
       "Fire_Rate": -5,
       "Movement_Speed": -2,
       "Reload_Speed": 10
@@ -3922,6 +4265,20 @@
       "Fire_Rate": 5,
       "Recoil": -10,
       "Reload_Speed": 20
+    },
+    {
+      "Category": "BR",
+      "Name": "M110",
+      "Damage": 3,
+      "Recoil": -16,
+      "Fire_Rate": -7,
+      "Reload_Speed": 10
+    },
+    {
+      "Category": "BR",
+      "Name": "SKS",
+      "Reload_Speed": -6,
+      "Recoil": 18
     }
   ]
 }

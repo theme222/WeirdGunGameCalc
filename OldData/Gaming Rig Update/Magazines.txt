@@ -54,16 +54,16 @@ Range: +12%
 ---
 Magazine: Scar Drum
 Magazine_Size: 50
-Reload_Time: 4s
+Reload_Time: 6s
 Recoil: -10%
 Damage: -5%
 ---
 Magazine: Hell-Trooper-23
 Magazine_Size: 45
-Reload_Time: 4s
+Reload_Time: 3.4s
 Damage: +13%
 Recoil: +15%
-Spread: +22%
+Spread: +10%
 ---
 Magazine: Hex Spitter
 Magazine_Size: 35
@@ -121,10 +121,9 @@ Magazine: Hecate II
 Magazine_Size: 5
 Reload_Time: 5s
 Damage: +45%
-Fire_Rate: -28%
+Fire_Rate: -40%
 Detection_Radius: 25
 Movement_Speed: -10%
-Range: -23%
 Recoil: +100%
 Reload_Speed: +50%
 Spread: +100%
@@ -153,24 +152,6 @@ Spread: -20%
 Fire_Rate: -20%
 Recoil: +60%
 Range: +10%
----
-Magazine: Musket
-Magazine_Size: 1
-Reload_Time: 6.5
-Damage: +60%
-Movement_Speed: -3%
-Range: -20%
-Recoil: +80%
-Spread: +185%
----
-Magazine: Snake Sniper
-Magazine_Size: 6
-Reload_Time: 5.5
-Damage: +22%
-Fire_Rate: -10%
-Movement_Speed: -4%
-Range: -5%
-Recoil: +36%
 ---
 
 Category: SMG Magazines
@@ -314,7 +295,7 @@ Fire_Rate: +23%
 Movement_Speed: -4%
 Recoil: +19%
 Spread: +23%
-Range: -19%
+Range: -15%
 ---
 Magazine: Type 99
 Magazine_Size: 30
@@ -429,16 +410,7 @@ Damage: +20%
 Fire_Rate: +20%
 Pellets: +175%
 Recoil: +20%
-Spread: +50
----
-Magazine: Blunderbuss
-Magazine_Size: 1
-Reload_Time: 6
-Damage: +12%
-Pellets: +200%
-Fire_Rate: -5%
-Range: -23%
-Spread: +60%
+Spread: +50%
 ---
 
 Category: Weird Magazines
@@ -545,20 +517,4 @@ Damage: +20%
 Range: +11%
 Detection_Radius: 10
 Recoil: +25%
----
-Magazine: M110
-Magazine_Size: 10
-Reload_Time: 3.8
-Damage: +19%
-Range: +16%
-Fire_Rate: -9%
-Recoil: +12%
----
-Magazine: SKS
-Magazine_Size: 20
-Reload_Time: 3
-Fire_Rate: +12%
-Range: +6%
-Recoil: +26%
-Spread: +17%
 ---

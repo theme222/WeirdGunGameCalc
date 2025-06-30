@@ -46,11 +46,11 @@ Spread: +5%
 ---
 Grip: G36C
 Recoil: -15%
-Reload_Speed: -10%
+Reload_Time: -10%
 ---
 Grip: APS
 Recoil: -10%
-Reload_Speed: -4%
+Reload_Time: -4%
 Spread: +14%
 ---
 Grip: FE-200SH
@@ -92,18 +92,6 @@ Grip: M200 Intervention
 Recoil: -20%
 Reload_Speed: -10%
 Spread: +10%
----
-Grip: Musket
-Damage: +10%
-Fire_Rate: -15%
-Reload_Speed: +10%
-Spread: +40%
----
-Grip: Snake Sniper
-Range: +10%
-Spread: -18%
-Movement_Speed: -1.5%
-Recoil: +16%
 ---
 
 Category: SMG Grips
@@ -157,10 +145,8 @@ Health: -7.5%
 Recoil: +23%
 ---
 Grip: Mas-38
-Fire_Rate: +6%
 Movement_Speed: +2%
 Spread: -15%
-Range: -7%
 ---
 Grip: PP-19 Bizon
 Movement_Speed: +2.5%
@@ -172,7 +158,6 @@ Grip: MP5
 Movement_Speed: +3.3%
 Recoil: -15%
 Reload_Speed: -10%
-Spread: +17%
 ---
 Grip: P90
 Fire_Rate: +5%
@@ -261,12 +246,6 @@ Recoil: -10%
 Spread: -20%
 Damage: -2.5%
 ---
-Grip: Blunderbuss
-Movement_Speed: +2%
-Pellets: +25%
-Fire_Rate: -11%
-Reload_Speed: +9%
----
 
 Category: Weird Grips
 ---
@@ -322,14 +301,4 @@ Fire_Rate: -5%
 Grip: Fedorov Avtomat
 Recoil: -27%
 Fire_Rate: -12%
----
-Grip: SKS
-Fire_Rate: +2%
-Recoil: -12%
-Reload_Speed: +3%
----
-Grip: M110
-Spread: -23%
-Fire_Rate: -2%
-Recoil: +26%
 ---

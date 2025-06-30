@@ -93,7 +93,6 @@ ADS_Spread: 5.5
 Time_To_Aim: 0.7
 Detection_Radius: 125
 Suppression: 0.3
-Health: 17%
 Recoil_Hip_Horizontal: -25 - 25
 Recoil_Hip_Vertical: 80 - 90
 Recoil_Aim_Horizontal: -32.5 - 32.5
@@ -114,12 +113,12 @@ Recoil_Aim_Horizontal: -2.1 - 2.1
 Recoil_Aim_Vertical: 2.1 - 15
 ---
 Core: Hex Spitter
-Damage: 20 > 18
+Damage: 16 > 14
 Dropoff_Studs: 150 > 300
 Pellets: 2
 Fire_Rate: 660
 Hipfire_Spread: 3.5
-ADS_Spread: 0.75
+ADS_Spread: 1.5
 Time_To_Aim: 0.7
 Detection_Radius: 70
 Suppression: 0.4
@@ -143,7 +142,7 @@ Recoil_Aim_Horizontal: -12.1 - 12.1
 Recoil_Aim_Vertical: 38.5 - 55
 ---
 Core: G36C
-Damage: 15.3 > 11.1
+Damage: 16 > 11.6
 Dropoff_Studs: 125 > 250
 Fire_Rate: 750
 Hipfire_Spread: 2
@@ -261,35 +260,6 @@ Recoil_Hip_Vertical: 90 - 120
 Recoil_Aim_Horizontal: -10 - 10
 Recoil_Aim_Vertical: 45 - 60
 ---
-Core: Musket
-Damage: 110 > 60.5
-Dropoff_Studs: 50 > 270
-Fire_Rate: 18
-Hipfire_Spread: 25
-ADS_Spread: 0.4
-Time_To_Aim: 1
-Detection_Radius: 300
-Suppression: 1
-Recoil_Hip_Horizontal: -14 - 14
-Recoil_Hip_Vertical: 175 - 183
-Recoil_Aim_Horizontal: -7 - 7
-Recoil_Aim_Vertical: 87.5 - 91.5
----
-Core: Snake Sniper
-Damage: 60 > 48
-Dropoff_Studs: 320 > 500
-Fire_Rate: 35
-Hipfire_Spread: 12
-ADS_Spread: 0.2
-Time_To_Aim: 0.8
-Detection_Radius: 350
-Movement_Speed_Modifier: -4%
-Suppression: 1
-Recoil_Hip_Horizontal: -5 - 5
-Recoil_Hip_Vertical: 70 - 90
-Recoil_Aim_Horizontal: -2.8 - 2.8
-Recoil_Aim_Vertical: 38.5 - 49.5
----
 
 Category: SMG
 ---
@@ -312,7 +282,7 @@ Damage: 15.5 > 8.1
 Dropoff_Studs: 130 > 150
 Fire_Rate: 850
 Hipfire_Spread: 5
-ADS_Spread: 1.3
+ADS_Spread: 3
 Time_To_Aim: 0.15
 Detection_Radius: 40
 Movement_Speed_Modifier: +9%
@@ -460,11 +430,11 @@ Recoil_Aim_Horizontal: -13.5 - 13.5
 Recoil_Aim_Vertical: 18 - 40.5
 ---
 Core: P90
-Damage: 10.5 > 6.8
+Damage: 10 > 6.5
 Dropoff_Studs: 140 > 180
 Fire_Rate: 1100
 Hipfire_Spread: 2
-ADS_Spread: 0.5
+ADS_Spread: 0.7
 Time_To_Aim: 0.35
 Detection_Radius: 60
 Movement_Speed_Modifier: +2.5%
@@ -477,9 +447,9 @@ Recoil_Aim_Vertical: 42 - 63
 Category: LMG
 ---
 Core: Type 99
-Damage: 15.5 > 8.5
+Damage: 15 > 8.3
 Dropoff_Studs: 165 > 365
-Fire_Rate: 700
+Fire_Rate: 850
 Hipfire_Spread: 6
 ADS_Spread: 0.7
 Time_To_Aim: 1.25
@@ -551,9 +521,9 @@ Detection_Radius: 175
 Movement_Speed_Modifier: -5%
 Suppression: 0.9
 Health: +11%
-Recoil_Hip_Horizontal: -20 - 20
+Recoil_Hip_Horizontal: -60 - 60
 Recoil_Hip_Vertical: 80 - 120
-Recoil_Aim_Horizontal: -18 - 18
+Recoil_Aim_Horizontal: -54 - 54
 Recoil_Aim_Vertical: 72 - 108
 ---
 Core: Negev
@@ -589,11 +559,11 @@ Recoil_Aim_Horizontal: -7.5 - 7.5
 Recoil_Aim_Vertical: 26.5 - 38
 ---
 Core: Chauchat
-Damage: 33 > 21.5
-Dropoff_Studs: 195 > 350
+Damage: 29 > 15.2
+Dropoff_Studs: 245 > 400
 Fire_Rate: 240
 Hipfire_Spread: 6
-ADS_Spread: 0.85
+ADS_Spread: 2.5
 Time_To_Aim: 1.36
 Detection_Radius: 180
 Movement_Speed_Modifier: -7%
@@ -696,21 +666,6 @@ Recoil_Hip_Horizontal: -20 - 20
 Recoil_Hip_Vertical: 40 - 70
 Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 16 - 28
----
-Core: Blunderbuss
-Damage: 225 > 90
-Dropoff_Studs: 60 > 110
-Pellets: 15
-Fire_Rate: 18
-Hipfire_Spread: 5
-ADS_Spread: 2
-Time_To_Aim: 0.9
-Detection_Radius: 200
-Suppression: 1
-Recoil_Hip_Horizontal: -14 - 14
-Recoil_Hip_Vertical: 150 - 190
-Recoil_Aim_Horizontal: -5.6 - 5.6
-Recoil_Aim_Vertical: -60 - 76
 ---
 
 Category: Weird
@@ -816,14 +771,14 @@ Damage: 22.5 > 14.1
 Dropoff_Studs: 120 > 425
 Fire_Rate: 650
 Hipfire_Spread: 6
-ADS_Spread: 0.3
+ADS_Spread: 0.85
 Time_To_Aim: 0.85
 Detection_Radius: 120
 Movement_Speed_Modifier: -5%
 Suppression: 0.7
-Recoil_Hip_Horizontal: -35 - 35
+Recoil_Hip_Horizontal: -26 - 26
 Recoil_Hip_Vertical: 110 - 140
-Recoil_Aim_Horizontal: -28 - 28
+Recoil_Aim_Horizontal: -20.8 - 20.8
 Recoil_Aim_Vertical: 88 - 112
 ---
 Core: Dragunov
@@ -855,35 +810,4 @@ Recoil_Hip_Horizontal: -20 - 20
 Recoil_Hip_Vertical: 120 - 135
 Recoil_Aim_Horizontal: -15.1 - 15.1
 Recoil_Aim_Vertical: 93 - 104.6
----
-Core: M110
-Damage: 48 > 28.8
-Dropoff_Studs: 120 > 400
-Fire_Rate: 150
-Hipfire_Spread: 5
-ADS_Spread: 0.45
-Time_To_Aim: 0.7
-Detection_Radius: 120
-Movement_Speed_Modifier: -5%
-Suppression: 0.8
-Health: +7%
-Recoil_Hip_Horizontal: -11 - 11
-Recoil_Hip_Vertical: 35 - 42
-Recoil_Aim_Horizontal: -6.6 - 6.6
-Recoil_Aim_Vertical: 21 - 25.2
----
-Core: SKS
-Damage: 32 > 19.2
-Dropoff_Studs: 130 > 400
-Fire_Rate: 475
-Hipfire_Spread: 4
-ADS_Spread: 0.2
-Time_To_Aim: 0.8
-Detection_Radius: 120
-Suppression: 0.8
-Health: +5%
-Recoil_Hip_Horizontal: -6 - 6
-Recoil_Hip_Vertical: 20 - 22
-Recoil_Aim_Horizontal: -3 - 3
-Recoil_Aim_Vertical: 10 - 11
 ---

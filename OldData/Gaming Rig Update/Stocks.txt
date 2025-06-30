@@ -10,8 +10,8 @@ Recoil: -10%
 ---
 Stock: AUG
 Movement_Speed: +2.5%
-Spread: -15%
-Range: -6%
+Recoil: -10%
+Spread: -20%
 ---
 Stock: As-Val
 Recoil: -10%
@@ -29,7 +29,6 @@ Spread: +10%
 Stock: STG-44
 Fire_Rate: +3%
 Spread: -10%
-Reload_Speed: +4%
 ---
 Stock: The Chief
 Reload_Speed: -10%
@@ -52,7 +51,7 @@ Spread: +30%
 ---
 Stock: G36C
 Recoil: -5%
-Reload_Speed: -5%
+Reload_Time: -5%
 Spread: -5%
 ---
 Stock: FE-200SH
@@ -95,16 +94,6 @@ Recoil: -40%
 Spread: -40%
 Fire_Rate: -25%
 Movement_Speed: -10%
----
-Stock: Musket
-Recoil: -24%
-Movement_Speed: -4%
-Reload_Speed: +7%
----
-Stock: Snake Sniper
-Recoil: -40%
-Movement_Speed: -10%
-Reload_Speed: +6%
 ---
 
 Category: SMG Stocks
@@ -288,12 +277,6 @@ Movement_Speed: +5%
 Spread: -10%
 Damage: -5%
 ---
-Stock: Blunderbuss
-Health: +15%
-Movement_Speed: +5%
-Recoil: +112%
-Spread: +50%
----
 
 Category: Weird Stocks
 ---
@@ -357,8 +340,7 @@ Spread: -27%
 Recoil: +30%
 ---
 Stock: Dragunov
-Range: +3%
-Recoil: -32%
+Recoil: -26%
 Fire_Rate: -5%
 Movement_Speed: -2%
 Reload_Speed: +10%
@@ -367,14 +349,4 @@ Stock: Fedorov Avtomat
 Fire_Rate: +5%
 Recoil: -10%
 Reload_Speed: +20%
----
-Stock: M110
-Damage: +3%
-Recoil: -16%
-Fire_Rate: -7%
-Reload_Speed: +10%
----
-Stock: SKS
-Reload_Speed: -6%
-Recoil: +18%
 ---

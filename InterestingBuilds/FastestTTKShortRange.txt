@@ -1,4 +1,4 @@
-./Calculator -o InterestingBuilds/FastestTTKSMG.txt -i SMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.049 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 
+./Calculator -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --bc FE-200SH 
 Current top 10 guns are: 
 Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
 damage: 26.4855 - 11.9815
@@ -32,25 +32,9 @@ movementSpeed: 9.8
 detectionRadius: 80
 TTK: 0.207792 Seconds
 
-Gun contains[ Barrel: Thompson, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: Spas-12, Core: Type 2a Nambu ]
-damage: 25.1512 - 11.3779
-dropoffStuds: 104.72 - 115.94
-pellets: 1
-fireRate: 865.095
-adsSpread: 0.6804
-hipfireSpread: 4.536
-reloadTime: 2.4
-magazineSize: 30
-health: 0
-recoilHipVertical: 26.5625 - 37.1875
-recoilAimVertical: 17.2125 - 24.1188
-movementSpeed: 8.1
-detectionRadius: 80
-TTK: 0.20807 Seconds
-
 Gun contains[ Barrel: Thompson, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: Kriss Vector, Core: Type 2a Nambu ]
 damage: 25.1512 - 11.3779
-dropoffStuds: 113.05 - 125.162
+dropoffStuds: 106.267 - 117.653
 pellets: 1
 fireRate: 858.675
 adsSpread: 0.78975
@@ -66,7 +50,7 @@ TTK: 0.209625 Seconds
 
 Gun contains[ Barrel: Thompson, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
 damage: 25.1512 - 11.3779
-dropoffStuds: 119 - 131.75
+dropoffStuds: 111.86 - 123.845
 pellets: 1
 fireRate: 854.663
 adsSpread: 0.759375
@@ -111,6 +95,22 @@ recoilAimVertical: 11.9799 - 16.7867
 movementSpeed: 0.55
 detectionRadius: 100
 TTK: 0.211314 Seconds
+
+Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: Mas-38, Stock: Kriss Vector, Core: Type 2a Nambu ]
+damage: 26.4855 - 11.9815
+dropoffStuds: 105.137 - 116.401
+pellets: 1
+fireRate: 850.65
+adsSpread: 0.69615
+hipfireSpread: 4.641
+reloadTime: 2.4
+magazineSize: 30
+health: 0
+recoilHipVertical: 17 - 23.8
+recoilAimVertical: 11.016 - 15.436
+movementSpeed: 2.6
+detectionRadius: 100
+TTK: 0.211603 Seconds
 
 Gun contains[ Barrel: Oil, Magazine: MAC-10, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
 damage: 26.4855 - 11.9815

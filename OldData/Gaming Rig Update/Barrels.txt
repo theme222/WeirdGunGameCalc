@@ -14,8 +14,8 @@ Movement_Speed: +2.5%
 Recoil: -5%
 Reload_Speed: -15%
 Spread: -10%
-Damage: -3.5%
-Range: +5%
+Damage: -2.5%
+Range: -10%
 ---
 Barrel: As-Val
 Detection_Radius: -25%
@@ -55,7 +55,7 @@ Spread: +10%
 ---
 Barrel: G36C
 Damage: +5%
-Reload_Speed: -10%
+Reload_Time: -10%
 ---
 Barrel: APS
 Damage: +22%
@@ -65,10 +65,9 @@ Spread: +20%
 Range: -35%
 ---
 Barrel: FE-200SH
-Damage: +11%
-Range: +14%
-Fire_Rate: -3%
-Reload_Speed: +8%
+Damage: +8%
+Range: +7.5%
+Fire_Rate: -5%
 ---
 
 Category: Sniper Barrels
@@ -89,7 +88,7 @@ Barrel: M91 Moschetto
 Movement_Speed: +4%
 Reload_Speed: -20%
 Spread: +50%
-Range: +10%
+Range: +4%
 ---
 Barrel: Arctic Warfare
 Damage: +5%
@@ -120,21 +119,6 @@ Recoil: +100%
 Detection_Radius: 25
 Spread: +50%
 ---
-Barrel: Musket
-Damage: +55%
-Detection_Radius: +50%
-Fire_Rate: -50%
-Range: -22%
-Recoil: +200%
-Spread: +57%
----
-Barrel: Snake Sniper
-Damage: +15%
-Fire_Rate: +3%
-Health: -5%
-Reload_Speed: +5%
-Spread: +20%
----
 
 Category: SMG Barrels
 ---
@@ -153,7 +137,6 @@ Damage: +7%
 Fire_Rate: +7%
 Movement_Speed: +3.8%
 Recoil: +25%
-Range: -6%
 ---
 Barrel: MP9
 Fire_Rate: +8%
@@ -351,13 +334,6 @@ Spread: -10%
 Damage: -5%
 Range: -14%
 ---
-Barrel: Blunderbuss
-Damage: +45%
-Pellets: +100%
-Fire_Rate: -34%
-Range: -30%
-Spread: +80%
----
 
 Category: Weird Barrels
 ---
@@ -463,18 +439,4 @@ Spread: -25%
 Detection_Radius: 10
 Fire_Rate: -10%
 Recoil: +20%
----
-Barrel: M110
-Damage: +22%
-Range: +5%
-Recoil: -11%
-Detection_Radius: +35%
-Fire_Rate: -15%
-Spread: +32%
----
-Barrel: SKS
-Fire_Rate: +5%
-Range: +3%
-Recoil: +13%
-Reload_Speed: +4%
 ---

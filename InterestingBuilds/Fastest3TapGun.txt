@@ -5,9 +5,9 @@ damage: 33.7889 - 27.0311
 dropoffStuds: 117 - 227.5
 pellets: 1
 fireRate: 570
-adsSpread: 0.34749
-hipfireSpread: 9.2664
-reloadTime: 3.4
+adsSpread: 0.385398
+hipfireSpread: 10.2773
+reloadTime: 4
 magazineSize: 45
 health: 0
 recoilHipVertical: 17.94 - 22.425
@@ -85,9 +85,9 @@ damage: 33.4701 - 26.7761
 dropoffStuds: 117 - 227.5
 pellets: 1
 fireRate: 541.5
-adsSpread: 0.32076
-hipfireSpread: 8.5536
-reloadTime: 3.74
+adsSpread: 0.355752
+hipfireSpread: 9.48672
+reloadTime: 4.4
 magazineSize: 45
 health: 10
 recoilHipVertical: 16.56 - 20.7
