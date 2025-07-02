@@ -1,12 +1,12 @@
 ./Calculator -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --healthMin 10 --bc FE-200SH 
 Current top 10 guns are: 
 Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: Thompson, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4922 - 11.5322
+damage: 25.4573 - 11.5164
 dropoffStuds: 126 - 139.5
 pellets: 1
 fireRate: 684
-adsSpread: 0.54
-hipfireSpread: 3.6
+adsSpread: 0.553177
+hipfireSpread: 3.68784
 reloadTime: 10.89
 magazineSize: 90
 health: 10
@@ -16,29 +16,13 @@ movementSpeed: 1.1
 detectionRadius: 110.4
 TTK: 0.263158 Seconds
 
-Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: UMP-40, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4922 - 11.5322
-dropoffStuds: 126 - 139.5
-pellets: 1
-fireRate: 684
-adsSpread: 0.432
-hipfireSpread: 2.88
-reloadTime: 9.405
-magazineSize: 90
-health: 10
-recoilHipVertical: 38.25 - 53.55
-recoilAimVertical: 24.786 - 34.731
-movementSpeed: 1.1
-detectionRadius: 110.4
-TTK: 0.263158 Seconds
-
 Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: Kriss Vector, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4922 - 11.5322
+damage: 25.4573 - 11.5164
 dropoffStuds: 126 - 139.5
 pellets: 1
 fireRate: 684
-adsSpread: 0.54
-hipfireSpread: 3.6
+adsSpread: 0.553177
+hipfireSpread: 3.68784
 reloadTime: 9.9
 magazineSize: 90
 health: 10
@@ -49,12 +33,12 @@ detectionRadius: 110.4
 TTK: 0.263158 Seconds
 
 Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: Banana, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4922 - 11.5322
+damage: 25.4573 - 11.5164
 dropoffStuds: 126 - 139.5
 pellets: 1
 fireRate: 684
-adsSpread: 0.621
-hipfireSpread: 4.14
+adsSpread: 0.63574
+hipfireSpread: 4.23827
 reloadTime: 9.9
 magazineSize: 90
 health: 10
@@ -65,12 +49,12 @@ detectionRadius: 110.4
 TTK: 0.263158 Seconds
 
 Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: MAC-10, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4922 - 11.5322
+damage: 25.4573 - 11.5164
 dropoffStuds: 126 - 139.5
 pellets: 1
 fireRate: 684
-adsSpread: 0.594
-hipfireSpread: 3.96
+adsSpread: 0.608219
+hipfireSpread: 4.05479
 reloadTime: 7.425
 magazineSize: 90
 health: 10
@@ -80,13 +64,29 @@ movementSpeed: 1.7
 detectionRadius: 110.4
 TTK: 0.263158 Seconds
 
-Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: Skorpion vz. 61, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4922 - 11.5322
+Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: UMP-40, Stock: Taco, Core: Type 2a Nambu ]
+damage: 25.4573 - 11.5164
 dropoffStuds: 126 - 139.5
 pellets: 1
 fireRate: 684
-adsSpread: 0.702
-hipfireSpread: 4.68
+adsSpread: 0.443092
+hipfireSpread: 2.95395
+reloadTime: 9.405
+magazineSize: 90
+health: 10
+recoilHipVertical: 38.25 - 53.55
+recoilAimVertical: 24.786 - 34.731
+movementSpeed: 1.1
+detectionRadius: 110.4
+TTK: 0.263158 Seconds
+
+Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: Skorpion vz. 61, Stock: Taco, Core: Type 2a Nambu ]
+damage: 25.4573 - 11.5164
+dropoffStuds: 126 - 139.5
+pellets: 1
+fireRate: 684
+adsSpread: 0.718304
+hipfireSpread: 4.78869
 reloadTime: 8.91
 magazineSize: 90
 health: 10
@@ -97,12 +97,12 @@ detectionRadius: 110.4
 TTK: 0.263158 Seconds
 
 Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: MP5, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4922 - 11.5322
+damage: 25.4573 - 11.5164
 dropoffStuds: 126 - 139.5
 pellets: 1
 fireRate: 684
-adsSpread: 0.6318
-hipfireSpread: 4.212
+adsSpread: 0.646749
+hipfireSpread: 4.31166
 reloadTime: 8.91
 magazineSize: 90
 health: 10
@@ -113,12 +113,12 @@ detectionRadius: 110.4
 TTK: 0.263158 Seconds
 
 Gun contains[ Barrel: M1897 Trench Shotgun, Magazine: XXL AKM, Grip: Skorpion vz. 61, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4922 - 11.5322
+damage: 25.4573 - 11.5164
 dropoffStuds: 100.8 - 111.6
 pellets: 1
 fireRate: 662.625
-adsSpread: 0.8424
-hipfireSpread: 5.616
+adsSpread: 0.86125
+hipfireSpread: 5.74167
 reloadTime: 8.04128
 magazineSize: 90
 health: 10
@@ -129,12 +129,12 @@ detectionRadius: 110.4
 TTK: 0.271647 Seconds
 
 Gun contains[ Barrel: PP-19 Bizon, Magazine: M60, Grip: PPSh-41, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.2605 - 11.4274
+damage: 25.2279 - 11.4126
 dropoffStuds: 114.66 - 126.945
 pellets: 1
 fireRate: 658.35
-adsSpread: 0.45441
-hipfireSpread: 3.0294
+adsSpread: 0.465917
+hipfireSpread: 3.10611
 reloadTime: 8.2225
 magazineSize: 75
 health: 10
@@ -144,19 +144,19 @@ movementSpeed: 7.15
 detectionRadius: 96
 TTK: 0.273411 Seconds
 
-Gun contains[ Barrel: PPSh-41, Magazine: XXL AKM, Grip: MAC-10, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4922 - 11.5322
+Gun contains[ Barrel: PPSh-41, Magazine: XXL AKM, Grip: Banana, Stock: Taco, Core: Type 2a Nambu ]
+damage: 25.4573 - 11.5164
 dropoffStuds: 140 - 155
 pellets: 1
 fireRate: 655.5
-adsSpread: 0.6534
-hipfireSpread: 4.356
-reloadTime: 7.425
+adsSpread: 0.698998
+hipfireSpread: 4.65999
+reloadTime: 9.9
 magazineSize: 90
 health: 10
-recoilHipVertical: 51.75 - 72.45
-recoilAimVertical: 33.534 - 46.989
-movementSpeed: 0.7
+recoilHipVertical: 33.12 - 46.368
+recoilAimVertical: 21.4618 - 30.073
+movementSpeed: 1.3
 detectionRadius: 110.4
 TTK: 0.2746 Seconds
 

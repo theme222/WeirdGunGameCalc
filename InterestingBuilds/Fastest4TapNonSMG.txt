@@ -1,162 +1,162 @@
 ./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 25 --speedMin 0 --magazineMin 30 --spreadAimMax 0.65 --recoilAimMax 30 --rangeMin 150 --pelletMax 1 --bc FE-200SH 
 Current top 10 guns are: 
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Hex Spitter ]
-damage: 25.4344 - 22.891
+Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: STG-44, Core: Hex Spitter ]
+damage: 25.445 - 22.9005
 dropoffStuds: 165 - 330
 pellets: 1
-fireRate: 682.15
-adsSpread: 0.646875
-hipfireSpread: 3.01875
+fireRate: 638.74
+adsSpread: 0.64402
+hipfireSpread: 2.25407
+reloadTime: 3.15744
+magazineSize: 30
+health: 0
+recoilHipVertical: 30 - 40
+recoilAimVertical: 15 - 20
+movementSpeed: 0
+detectionRadius: 80.85
+TTK: 0.281805 Seconds
+
+Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: STG-44, Core: Hex Spitter ]
+damage: 25.445 - 22.9005
+dropoffStuds: 165 - 330
+pellets: 1
+fireRate: 638.74
+adsSpread: 0.64402
+hipfireSpread: 2.25407
+reloadTime: 3.15744
+magazineSize: 30
+health: 0
+recoilHipVertical: 30 - 40
+recoilAimVertical: 15 - 20
+movementSpeed: 0
+detectionRadius: 80.85
+TTK: 0.281805 Seconds
+
+Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: Type 2a Nambu, Core: Hex Spitter ]
+damage: 25.445 - 22.9005
+dropoffStuds: 165 - 330
+pellets: 1
+fireRate: 620.136
+adsSpread: 0.641174
+hipfireSpread: 2.24411
 reloadTime: 3.036
 magazineSize: 30
 health: 0
-recoilHipVertical: 34.5 - 46
-recoilAimVertical: 17.25 - 23
-movementSpeed: 0
+recoilHipVertical: 27.6 - 36.8
+recoilAimVertical: 13.8 - 18.4
+movementSpeed: 1.2
 detectionRadius: 80.85
-TTK: 0.263872 Seconds
+TTK: 0.290259 Seconds
 
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Hex Spitter ]
-damage: 25.4344 - 22.891
+Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Remington 870, Core: Hex Spitter ]
+damage: 25.445 - 22.9005
 dropoffStuds: 165 - 330
 pellets: 1
-fireRate: 682.15
-adsSpread: 0.646875
-hipfireSpread: 3.01875
+fireRate: 620.136
+adsSpread: 0.608439
+hipfireSpread: 2.12954
+reloadTime: 3.1878
+magazineSize: 30
+health: 0
+recoilHipVertical: 25.5 - 34
+recoilAimVertical: 12.75 - 17
+movementSpeed: 0
+detectionRadius: 80.85
+TTK: 0.290259 Seconds
+
+Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: PP-19 Bizon, Core: Hex Spitter ]
+damage: 25.445 - 22.9005
+dropoffStuds: 165 - 330
+pellets: 1
+fireRate: 620.136
+adsSpread: 0.641174
+hipfireSpread: 2.24411
+reloadTime: 2.74454
+magazineSize: 30
+health: 0
+recoilHipVertical: 36 - 48
+recoilAimVertical: 18 - 24
+movementSpeed: 2
+detectionRadius: 80.85
+TTK: 0.290259 Seconds
+
+Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: The Chief, Core: Hex Spitter ]
+damage: 25.445 - 22.9005
+dropoffStuds: 165 - 330
+pellets: 1
+fireRate: 620.136
+adsSpread: 0.572858
+hipfireSpread: 2.005
+reloadTime: 2.7324
+magazineSize: 30
+health: 0
+recoilHipVertical: 33 - 44
+recoilAimVertical: 16.5 - 22
+movementSpeed: 0
+detectionRadius: 80.85
+TTK: 0.290259 Seconds
+
+Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: UMP-40, Core: Hex Spitter ]
+damage: 25.445 - 22.9005
+dropoffStuds: 165 - 330
+pellets: 1
+fireRate: 620.136
+adsSpread: 0.589937
+hipfireSpread: 2.06478
 reloadTime: 3.036
 magazineSize: 30
 health: 0
-recoilHipVertical: 34.5 - 46
-recoilAimVertical: 17.25 - 23
-movementSpeed: 0
-detectionRadius: 80.85
-TTK: 0.263872 Seconds
-
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Words as Weapons, Grip: Mas-38, Stock: M1897 Trench Shotgun, Core: Hex Spitter ]
-damage: 25.4344 - 22.891
-dropoffStuds: 153.45 - 306.9
-pellets: 1
-fireRate: 661.938
-adsSpread: 0.61875
-hipfireSpread: 2.8875
-reloadTime: 2.64
-magazineSize: 30
-health: 0
-recoilHipVertical: 34.5 - 46
-recoilAimVertical: 17.25 - 23
-movementSpeed: 1.6
-detectionRadius: 80.85
-TTK: 0.271929 Seconds
-
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: AKM, Grip: Mas-38, Stock: M1897 Trench Shotgun, Core: Hex Spitter ]
-damage: 25.4344 - 22.891
-dropoffStuds: 153.45 - 306.9
-pellets: 1
-fireRate: 661.938
-adsSpread: 0.61875
-hipfireSpread: 2.8875
-reloadTime: 2.64
-magazineSize: 30
-health: 0
-recoilHipVertical: 34.5 - 46
-recoilAimVertical: 17.25 - 23
-movementSpeed: 1.6
-detectionRadius: 80.85
-TTK: 0.271929 Seconds
-
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Graphics Card, Grip: Circuit Judge, Stock: MG42, Core: Hex Spitter ]
-damage: 25.4344 - 22.891
-dropoffStuds: 151.8 - 303.6
-pellets: 1
-fireRate: 654.588
-adsSpread: 0.616992
-hipfireSpread: 2.8793
-reloadTime: 7.92
-magazineSize: 50
-health: 0
-recoilHipVertical: 23.1 - 30.8
-recoilAimVertical: 11.55 - 15.4
-movementSpeed: 2.625
-detectionRadius: 77
-TTK: 0.274982 Seconds
-
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Graphics Card, Grip: Circuit Judge, Stock: UMP-40, Core: Hex Spitter ]
-damage: 25.4344 - 22.891
-dropoffStuds: 151.8 - 303.6
-pellets: 1
-fireRate: 654.588
-adsSpread: 0.625725
-hipfireSpread: 2.92005
-reloadTime: 6.6
-magazineSize: 50
-health: 0
-recoilHipVertical: 27.72 - 36.96
-recoilAimVertical: 13.86 - 18.48
+recoilHipVertical: 36 - 48
+recoilAimVertical: 18 - 24
 movementSpeed: 3.04
-detectionRadius: 77
-TTK: 0.274982 Seconds
+detectionRadius: 80.85
+TTK: 0.290259 Seconds
 
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Graphics Card, Grip: Circuit Judge, Stock: FAL, Core: Hex Spitter ]
-damage: 25.4344 - 22.891
-dropoffStuds: 157.872 - 315.744
+Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: UMP-40, Core: Hex Spitter ]
+damage: 25.445 - 22.9005
+dropoffStuds: 165 - 330
 pellets: 1
-fireRate: 654.588
-adsSpread: 0.59535
-hipfireSpread: 2.7783
-reloadTime: 6.6
-magazineSize: 50
+fireRate: 620.136
+adsSpread: 0.589937
+hipfireSpread: 2.06478
+reloadTime: 3.036
+magazineSize: 30
 health: 0
-recoilHipVertical: 30.03 - 40.04
-recoilAimVertical: 15.015 - 20.02
+recoilHipVertical: 36 - 48
+recoilAimVertical: 18 - 24
+movementSpeed: 3.04
+detectionRadius: 80.85
+TTK: 0.290259 Seconds
+
+Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: FAL, Core: Hex Spitter ]
+damage: 25.445 - 22.9005
+dropoffStuds: 171.6 - 343.2
+pellets: 1
+fireRate: 620.136
+adsSpread: 0.561472
+hipfireSpread: 1.96515
+reloadTime: 3.036
+magazineSize: 30
+health: 0
+recoilHipVertical: 39 - 52
+recoilAimVertical: 19.5 - 26
 movementSpeed: 0.16
-detectionRadius: 77
-TTK: 0.274982 Seconds
+detectionRadius: 80.85
+TTK: 0.290259 Seconds
 
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Graphics Card, Grip: Circuit Judge, Stock: Arctic Warfare, Core: Hex Spitter ]
-damage: 25.4344 - 22.891
-dropoffStuds: 151.8 - 303.6
+Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Words as Weapons, Core: Hex Spitter ]
+damage: 25.445 - 22.9005
+dropoffStuds: 165 - 330
 pellets: 1
-fireRate: 654.588
-adsSpread: 0.573328
-hipfireSpread: 2.67553
-reloadTime: 5.907
-magazineSize: 50
+fireRate: 620.136
+adsSpread: 0.64402
+hipfireSpread: 2.25407
+reloadTime: 2.7324
+magazineSize: 30
 health: 0
-recoilHipVertical: 25.41 - 33.88
-recoilAimVertical: 12.705 - 16.94
+recoilHipVertical: 34.5 - 46
+recoilAimVertical: 17.25 - 23
 movementSpeed: 0
-detectionRadius: 77
-TTK: 0.274982 Seconds
-
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Graphics Card, Grip: Circuit Judge, Stock: The Chief, Core: Hex Spitter ]
-damage: 25.4344 - 22.891
-dropoffStuds: 151.8 - 303.6
-pellets: 1
-fireRate: 654.588
-adsSpread: 0.6075
-hipfireSpread: 2.835
-reloadTime: 5.94
-magazineSize: 50
-health: 0
-recoilHipVertical: 25.41 - 33.88
-recoilAimVertical: 12.705 - 16.94
-movementSpeed: 0
-detectionRadius: 77
-TTK: 0.274982 Seconds
-
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Graphics Card, Grip: Circuit Judge, Stock: Remington 870, Core: Hex Spitter ]
-damage: 25.4344 - 22.891
-dropoffStuds: 151.8 - 303.6
-pellets: 1
-fireRate: 654.588
-adsSpread: 0.645469
-hipfireSpread: 3.01219
-reloadTime: 6.93
-magazineSize: 50
-health: 0
-recoilHipVertical: 19.635 - 26.18
-recoilAimVertical: 9.8175 - 13.09
-movementSpeed: 0
-detectionRadius: 77
-TTK: 0.274982 Seconds
+detectionRadius: 80.85
+TTK: 0.290259 Seconds
 

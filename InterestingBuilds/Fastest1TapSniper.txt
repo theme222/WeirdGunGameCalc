@@ -1,28 +1,12 @@
-./Calculator -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper BR --damageMin 100 --spreadAimMax 0.149 --sort FIRERATE --rangeMin 350 --pelletMax 1 --speedMin -5 --magazineMin 5
-Current top 10 guns are:
-Gun contains[ Barrel: Snake Sniper, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: APS, Core: Arctic Warfare ]
-damage: 100.124 - 90.1119
-dropoffStuds: 550 - 825
-pellets: 1
-fireRate: 24.72
-adsSpread: 0.08424
-hipfireSpread: 25.272
-reloadTime: 6.3
-magazineSize: 5
-health: -5
-recoilHipVertical: 187.2 - 249.6
-recoilAimVertical: 93.6 - 124.8
-movementSpeed: -5
-detectionRadius: 250
-TTK: 0 Seconds
-
+./Calculator -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper BR --damageMin 100 --spreadAimMax 0.149 --sort FIRERATE --rangeMin 350 --pelletMax 1 --speedMin -5 --magazineMin 5 
+Current top 10 guns are: 
 Gun contains[ Barrel: Snake Sniper, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
-damage: 100.893 - 90.8037
+damage: 100.459 - 90.4135
 dropoffStuds: 550 - 825
 pellets: 1
 fireRate: 23.484
-adsSpread: 0.07776
-hipfireSpread: 23.328
+adsSpread: 0.0795876
+hipfireSpread: 23.8763
 reloadTime: 6.93
 magazineSize: 5
 health: 5
@@ -32,29 +16,13 @@ movementSpeed: -5
 detectionRadius: 300
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Water Pipe, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: Lee Enfield, Core: Arctic Warfare ]
-damage: 100.266 - 90.2397
-dropoffStuds: 440 - 660
-pellets: 1
-fireRate: 23.232
-adsSpread: 0.08748
-hipfireSpread: 26.244
-reloadTime: 6
-magazineSize: 5
-health: 0
-recoilHipVertical: 201.6 - 268.8
-recoilAimVertical: 100.8 - 134.4
-movementSpeed: -5
-detectionRadius: 437.5
-TTK: 0 Seconds
-
 Gun contains[ Barrel: APS, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: APS, Core: Arctic Warfare ]
-damage: 100.473 - 90.4253
+damage: 100.045 - 90.0406
 dropoffStuds: 357.5 - 536.25
 pellets: 1
 fireRate: 22.8
-adsSpread: 0.08424
-hipfireSpread: 25.272
+adsSpread: 0.0861924
+hipfireSpread: 25.8577
 reloadTime: 6
 magazineSize: 5
 health: 0
@@ -64,45 +32,13 @@ movementSpeed: -5
 detectionRadius: 312.5
 TTK: 0 Seconds
 
-Gun contains[ Barrel: M1918 BAR, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: Kriss Vector, Core: Arctic Warfare ]
-damage: 100.266 - 90.2397
-dropoffStuds: 564.3 - 846.45
-pellets: 1
-fireRate: 22.5072
-adsSpread: 0.08424
-hipfireSpread: 25.272
-reloadTime: 6
-magazineSize: 5
-health: 0
-recoilHipVertical: 152.064 - 202.752
-recoilAimVertical: 76.032 - 101.376
-movementSpeed: -3.52
-detectionRadius: 250
-TTK: 0 Seconds
-
-Gun contains[ Barrel: Water Pipe, Magazine: Scar H, Grip: Musket, Stock: APS, Core: Arctic Warfare ]
-damage: 101.481 - 91.3331
-dropoffStuds: 546.75 - 820.125
-pellets: 1
-fireRate: 22.44
-adsSpread: 0.12285
-hipfireSpread: 36.855
-reloadTime: 4.95
-magazineSize: 20
-health: 0
-recoilHipVertical: 146.25 - 195
-recoilAimVertical: 73.125 - 97.5
-movementSpeed: -5
-detectionRadius: 481.25
-TTK: 0 Seconds
-
 Gun contains[ Barrel: Water Pipe, Magazine: Remington 700, Grip: Musket, Stock: APS, Core: Arctic Warfare ]
-damage: 100.614 - 90.5525
+damage: 100.18 - 90.1623
 dropoffStuds: 750 - 1125
 pellets: 1
 fireRate: 22.44
-adsSpread: 0.0921375
-hipfireSpread: 27.6412
+adsSpread: 0.094256
+hipfireSpread: 28.2768
 reloadTime: 3.85
 magazineSize: 10
 health: 0
@@ -112,50 +48,115 @@ movementSpeed: -5
 detectionRadius: 437.5
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Water Pipe, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Arctic Warfare ]
-damage: 100.266 - 90.2397
-dropoffStuds: 550 - 825
+Gun contains[ Barrel: Water Pipe, Magazine: Scar H, Grip: Musket, Stock: APS, Core: Arctic Warfare ]
+damage: 101.037 - 90.9329
+dropoffStuds: 546.75 - 820.125
 pellets: 1
-fireRate: 22.3872
-adsSpread: 0.091125
-hipfireSpread: 27.3375
-reloadTime: 6
-magazineSize: 5
+fireRate: 22.44
+adsSpread: 0.125467
+hipfireSpread: 37.64
+reloadTime: 4.95
+magazineSize: 20
 health: 0
-recoilHipVertical: 165.6 - 220.8
-recoilAimVertical: 82.8 - 110.4
+recoilHipVertical: 146.25 - 195
+recoilAimVertical: 73.125 - 97.5
+movementSpeed: -5
+detectionRadius: 481.25
+TTK: 0 Seconds
+
+Gun contains[ Barrel: M1918 BAR, Magazine: Improvised, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
+damage: 100.079 - 90.0715
+dropoffStuds: 540 - 810
+pellets: 1
+fireRate: 21.8025
+adsSpread: 0.118405
+hipfireSpread: 35.5214
+reloadTime: 0.968
+magazineSize: 10
+health: 10
+recoilHipVertical: 129.6 - 172.8
+recoilAimVertical: 64.8 - 86.4
+movementSpeed: -0.5
+detectionRadius: 300
+TTK: 0 Seconds
+
+Gun contains[ Barrel: APS, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
+damage: 100.806 - 90.7253
+dropoffStuds: 357.5 - 536.25
+pellets: 1
+fireRate: 21.66
+adsSpread: 0.0795876
+hipfireSpread: 23.8763
+reloadTime: 6.6
+magazineSize: 5
+health: 10
+recoilHipVertical: 172.8 - 230.4
+recoilAimVertical: 86.4 - 115.2
+movementSpeed: -5
+detectionRadius: 375
+TTK: 0 Seconds
+
+Gun contains[ Barrel: Water Pipe, Magazine: Improvised, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
+damage: 100.079 - 90.0715
+dropoffStuds: 500 - 750
+pellets: 1
+fireRate: 21.318
+adsSpread: 0.133144
+hipfireSpread: 39.9431
+reloadTime: 0.968
+magazineSize: 10
+health: 10
+recoilHipVertical: 108 - 144
+recoilAimVertical: 54 - 72
+movementSpeed: 0
+detectionRadius: 525
+TTK: 0 Seconds
+
+Gun contains[ Barrel: Water Pipe, Magazine: Remington 700, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
+damage: 100.942 - 90.848
+dropoffStuds: 750 - 1125
+pellets: 1
+fireRate: 21.318
+adsSpread: 0.0870334
+hipfireSpread: 26.11
+reloadTime: 4.235
+magazineSize: 10
+health: 10
+recoilHipVertical: 81 - 108
+recoilAimVertical: 40.5 - 54
+movementSpeed: -5
+detectionRadius: 525
+TTK: 0 Seconds
+
+Gun contains[ Barrel: Water Pipe, Magazine: Scar H, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
+damage: 101.805 - 91.6244
+dropoffStuds: 546.75 - 820.125
+pellets: 1
+fireRate: 21.318
+adsSpread: 0.115852
+hipfireSpread: 34.7557
+reloadTime: 5.445
+magazineSize: 20
+health: 10
+recoilHipVertical: 135 - 180
+recoilAimVertical: 67.5 - 90
+movementSpeed: -5
+detectionRadius: 577.5
+TTK: 0 Seconds
+
+Gun contains[ Barrel: Water Pipe, Magazine: M1Garand, Grip: Musket, Stock: APS, Core: Arctic Warfare ]
+damage: 102.492 - 92.243
+dropoffStuds: 555.25 - 832.875
+pellets: 1
+fireRate: 21.318
+adsSpread: 0.114855
+hipfireSpread: 34.4565
+reloadTime: 4.4
+magazineSize: 8
+health: 0
+recoilHipVertical: 117 - 156
+recoilAimVertical: 58.5 - 78
 movementSpeed: -5
 detectionRadius: 437.5
 TTK: 0 Seconds
 
-Gun contains[ Barrel: M1918 BAR, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: Remington 870 Breacher, Core: Arctic Warfare ]
-damage: 100.266 - 90.2397
-dropoffStuds: 594 - 891
-pellets: 1
-fireRate: 22.248
-adsSpread: 0.081
-hipfireSpread: 24.3
-reloadTime: 6.9
-magazineSize: 5
-health: 0
-recoilHipVertical: 152.064 - 202.752
-recoilAimVertical: 76.032 - 101.376
-movementSpeed: -2.5
-detectionRadius: 250
-TTK: 0 Seconds
-
-Gun contains[ Barrel: Water Pipe, Magazine: M200 Intervention, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: Arctic Warfare ]
-damage: 100.266 - 90.2397
-dropoffStuds: 550 - 825
-pellets: 1
-fireRate: 22.0176
-adsSpread: 0.0729
-hipfireSpread: 21.87
-reloadTime: 7.2
-magazineSize: 5
-health: 0
-recoilHipVertical: 131.76 - 175.68
-recoilAimVertical: 65.88 - 87.84
-movementSpeed: -5
-detectionRadius: 437.5
-TTK: 0 Seconds

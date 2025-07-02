@@ -1,12 +1,12 @@
 ./Calculator -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 200 --pelletMax 1 --bc FE-200SH 
 Current top 10 guns are: 
 Gun contains[ Barrel: FE-200SH, Magazine: Restroom, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: M-16 ]
-damage: 20.4042 - 17.3243
+damage: 20.3658 - 17.2917
 dropoffStuds: 205.2 - 399
 pellets: 1
 fireRate: 762.905
-adsSpread: 0.548437
-hipfireSpread: 4.3875
+adsSpread: 0.560358
+hipfireSpread: 4.48287
 reloadTime: 3.132
 magazineSize: 35
 health: 0
@@ -17,12 +17,12 @@ detectionRadius: 90
 TTK: 0.314587 Seconds
 
 Gun contains[ Barrel: FE-200SH, Magazine: AKM, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: M-16 ]
-damage: 20.4042 - 17.3243
+damage: 20.3658 - 17.2917
 dropoffStuds: 205.2 - 399
 pellets: 1
 fireRate: 762.905
-adsSpread: 0.421875
-hipfireSpread: 3.375
+adsSpread: 0.43154
+hipfireSpread: 3.45232
 reloadTime: 2.8512
 magazineSize: 30
 health: 0
@@ -33,12 +33,12 @@ detectionRadius: 94.5
 TTK: 0.314587 Seconds
 
 Gun contains[ Barrel: FE-200SH, Magazine: Words as Weapons, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: M-16 ]
-damage: 20.4042 - 17.3243
+damage: 20.3658 - 17.2917
 dropoffStuds: 205.2 - 399
 pellets: 1
 fireRate: 762.905
-adsSpread: 0.421875
-hipfireSpread: 3.375
+adsSpread: 0.43154
+hipfireSpread: 3.45232
 reloadTime: 2.8512
 magazineSize: 30
 health: 0
@@ -49,12 +49,12 @@ detectionRadius: 94.5
 TTK: 0.314587 Seconds
 
 Gun contains[ Barrel: PPSh-41, Magazine: The Chief, Grip: M1897 Trench Shotgun, Stock: Remington 870 Breacher, Core: M-16 ]
-damage: 20.0533 - 17.0264
+damage: 20.0202 - 16.9983
 dropoffStuds: 201.6 - 392
 pellets: 1
 fireRate: 756.756
-adsSpread: 0.464063
-hipfireSpread: 3.7125
+adsSpread: 0.474479
+hipfireSpread: 3.79584
 reloadTime: 6.00875
 magazineSize: 36
 health: 0
@@ -65,12 +65,12 @@ detectionRadius: 90
 TTK: 0.317143 Seconds
 
 Gun contains[ Barrel: PPSh-41, Magazine: The Chief, Grip: M1887, Stock: Remington 870 Breacher, Core: M-16 ]
-damage: 20.0533 - 17.0264
+damage: 20.0202 - 16.9983
 dropoffStuds: 201.6 - 392
 pellets: 1
 fireRate: 756.756
-adsSpread: 0.395312
-hipfireSpread: 3.1625
+adsSpread: 0.404446
+hipfireSpread: 3.23556
 reloadTime: 4.91625
 magazineSize: 36
 health: 5
@@ -81,12 +81,12 @@ detectionRadius: 90
 TTK: 0.317143 Seconds
 
 Gun contains[ Barrel: PPSh-41, Magazine: The Chief, Grip: Spas-12, Stock: Remington 870 Breacher, Core: M-16 ]
-damage: 20.0533 - 17.0264
+damage: 20.0202 - 16.9983
 dropoffStuds: 201.6 - 392
 pellets: 1
 fireRate: 756.756
-adsSpread: 0.464063
-hipfireSpread: 3.7125
+adsSpread: 0.474479
+hipfireSpread: 3.79584
 reloadTime: 5.4625
 magazineSize: 36
 health: 0
@@ -97,12 +97,12 @@ detectionRadius: 90
 TTK: 0.317143 Seconds
 
 Gun contains[ Barrel: FE-200SH, Magazine: The Chief, Grip: Circuit Judge, Stock: FAL, Core: Hell-Trooper-23 ]
-damage: 25.409 - 20.3272
+damage: 25.3194 - 20.2555
 dropoffStuds: 205.82 - 385.083
 pellets: 1
 fireRate: 567.45
-adsSpread: 0.84672
-hipfireSpread: 5.292
+adsSpread: 0.868169
+hipfireSpread: 5.42606
 reloadTime: 5.13
 magazineSize: 36
 health: 0
@@ -113,12 +113,12 @@ detectionRadius: 90
 TTK: 0.317209 Seconds
 
 Gun contains[ Barrel: Negev, Magazine: The Chief, Grip: M1897 Trench Shotgun, Stock: Remington 870 Breacher, Core: M-16 ]
-damage: 20.0533 - 17.0264
+damage: 20.0202 - 16.9983
 dropoffStuds: 201.6 - 392
 pellets: 1
 fireRate: 751.688
-adsSpread: 0.527344
-hipfireSpread: 4.21875
+adsSpread: 0.538888
+hipfireSpread: 4.31111
 reloadTime: 6.00875
 magazineSize: 36
 health: 0
@@ -129,12 +129,12 @@ detectionRadius: 90
 TTK: 0.319281 Seconds
 
 Gun contains[ Barrel: FE-200SH, Magazine: Words as Weapons, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: M-16 ]
-damage: 20.4042 - 17.3243
+damage: 20.3658 - 17.2917
 dropoffStuds: 205.2 - 399
 pellets: 1
 fireRate: 749.034
-adsSpread: 0.2875
-hipfireSpread: 2.3
+adsSpread: 0.294594
+hipfireSpread: 2.35675
 reloadTime: 2.9808
 magazineSize: 30
 health: 0
@@ -145,12 +145,12 @@ detectionRadius: 94.5
 TTK: 0.320413 Seconds
 
 Gun contains[ Barrel: FE-200SH, Magazine: AKM, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: M-16 ]
-damage: 20.4042 - 17.3243
+damage: 20.3658 - 17.2917
 dropoffStuds: 205.2 - 399
 pellets: 1
 fireRate: 749.034
-adsSpread: 0.2875
-hipfireSpread: 2.3
+adsSpread: 0.294594
+hipfireSpread: 2.35675
 reloadTime: 2.9808
 magazineSize: 30
 health: 0

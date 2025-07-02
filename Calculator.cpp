@@ -1688,6 +1688,7 @@ int main(int argc, char* argv[])
     }
     else if (Input::method == "BRUTEFORCE")
     {
+        puts("This function is deprecated and I can't be bothered to test if it works 100%. PRUNE provides the same functionality with faster performance.");
         for (int threadId = 0; threadId < Input::threadsToMake; threadId++)
             threads[threadId] = std::thread(BruteForce::Run, threadId);
     }

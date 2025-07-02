@@ -1,12 +1,12 @@
 ./Calculator -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 
 Current top 10 guns are: 
 Gun contains[ Barrel: APS, Magazine: Hell-Trooper-23, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
-damage: 33.7889 - 27.0311
+damage: 33.6409 - 26.9128
 dropoffStuds: 117 - 227.5
 pellets: 1
 fireRate: 570
-adsSpread: 0.385398
-hipfireSpread: 10.2773
+adsSpread: 0.393487
+hipfireSpread: 10.493
 reloadTime: 4
 magazineSize: 45
 health: 0
@@ -17,12 +17,12 @@ detectionRadius: 218.75
 TTK: 0.210526 Seconds
 
 Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: FE-200SH ]
-damage: 33.8509 - 27.0807
+damage: 33.7044 - 26.9635
 dropoffStuds: 131.04 - 254.8
 pellets: 1
 fireRate: 564.3
-adsSpread: 0.30375
-hipfireSpread: 8.1
+adsSpread: 0.310451
+hipfireSpread: 8.2787
 reloadTime: 4.75
 magazineSize: 36
 health: 0
@@ -33,12 +33,12 @@ detectionRadius: 218.75
 TTK: 0.212653 Seconds
 
 Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Lee Enfield, Core: FE-200SH ]
-damage: 33.8509 - 27.0807
+damage: 33.7044 - 26.9635
 dropoffStuds: 104.832 - 203.84
 pellets: 1
 fireRate: 548.91
-adsSpread: 0.2916
-hipfireSpread: 7.776
+adsSpread: 0.298083
+hipfireSpread: 7.94887
 reloadTime: 4.75
 magazineSize: 36
 health: 0
@@ -49,12 +49,12 @@ detectionRadius: 218.75
 TTK: 0.218615 Seconds
 
 Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Kriss Vector, Core: FE-200SH ]
-damage: 33.8509 - 27.0807
+damage: 33.7044 - 26.9635
 dropoffStuds: 124.488 - 242.06
 pellets: 1
 fireRate: 541.728
-adsSpread: 0.3159
-hipfireSpread: 8.424
+adsSpread: 0.32282
+hipfireSpread: 8.60853
 reloadTime: 4.75
 magazineSize: 36
 health: 0
@@ -64,61 +64,13 @@ movementSpeed: 2.64
 detectionRadius: 218.75
 TTK: 0.221513 Seconds
 
-Gun contains[ Barrel: APS, Magazine: MP 40, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
-damage: 33.4899 - 26.7919
-dropoffStuds: 117 - 227.5
-pellets: 1
-fireRate: 541.5
-adsSpread: 0.290628
-hipfireSpread: 7.75008
-reloadTime: 2.5
-magazineSize: 32
-health: 0
-recoilHipVertical: 17.94 - 22.425
-recoilAimVertical: 10.764 - 13.455
-movementSpeed: 0
-detectionRadius: 218.75
-TTK: 0.221607 Seconds
-
-Gun contains[ Barrel: APS, Magazine: Hell-Trooper-23, Grip: Circuit Judge, Stock: Taco, Core: FE-200SH ]
-damage: 33.4701 - 26.7761
-dropoffStuds: 117 - 227.5
-pellets: 1
-fireRate: 541.5
-adsSpread: 0.355752
-hipfireSpread: 9.48672
-reloadTime: 4.4
-magazineSize: 45
-health: 10
-recoilHipVertical: 16.56 - 20.7
-recoilAimVertical: 9.936 - 12.42
-movementSpeed: 0
-detectionRadius: 262.5
-TTK: 0.221607 Seconds
-
-Gun contains[ Barrel: Remington 870 Breacher, Magazine: The Chief, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
-damage: 35.2938 - 28.235
-dropoffStuds: 151.2 - 294
-pellets: 1
-fireRate: 540
-adsSpread: 0.460687
-hipfireSpread: 12.285
-reloadTime: 4.75
-magazineSize: 36
-health: 0
-recoilHipVertical: 19.5 - 24.375
-recoilAimVertical: 11.7 - 14.625
-movementSpeed: 3
-detectionRadius: 175
-TTK: 0.222222 Seconds
-
 Gun contains[ Barrel: Remington 870 Breacher, Magazine: STG-44, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
-damage: 33.8232 - 27.0585
+damage: 33.6745 - 26.9396
 dropoffStuds: 135 - 262.5
 pellets: 1
 fireRate: 540
-adsSpread: 0.460687
-hipfireSpread: 12.285
+adsSpread: 0.470165
+hipfireSpread: 12.5377
 reloadTime: 2.5
 magazineSize: 30
 health: 0
@@ -128,13 +80,29 @@ movementSpeed: 3
 detectionRadius: 175
 TTK: 0.222222 Seconds
 
-Gun contains[ Barrel: Remington 870 Breacher, Magazine: The Chief, Grip: Type 2a Nambu, Stock: APS, Core: FE-200SH ]
-damage: 33.6253 - 26.9003
+Gun contains[ Barrel: Remington 870 Breacher, Magazine: The Chief, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
+damage: 35.126 - 28.1008
 dropoffStuds: 151.2 - 294
 pellets: 1
 fireRate: 540
-adsSpread: 0.34125
-hipfireSpread: 9.1
+adsSpread: 0.470165
+hipfireSpread: 12.5377
+reloadTime: 4.75
+magazineSize: 36
+health: 0
+recoilHipVertical: 19.5 - 24.375
+recoilAimVertical: 11.7 - 14.625
+movementSpeed: 3
+detectionRadius: 175
+TTK: 0.222222 Seconds
+
+Gun contains[ Barrel: Remington 870 Breacher, Magazine: The Chief, Grip: Type 2a Nambu, Stock: APS, Core: FE-200SH ]
+damage: 33.4805 - 26.7844
+dropoffStuds: 151.2 - 294
+pellets: 1
+fireRate: 540
+adsSpread: 0.34872
+hipfireSpread: 9.2992
 reloadTime: 4.75
 magazineSize: 36
 health: -7.5
@@ -145,12 +113,12 @@ detectionRadius: 175
 TTK: 0.222222 Seconds
 
 Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Remington 870 Breacher, Core: FE-200SH ]
-damage: 33.8509 - 27.0807
+damage: 33.7044 - 26.9635
 dropoffStuds: 131.04 - 254.8
 pellets: 1
 fireRate: 538.65
-adsSpread: 0.30375
-hipfireSpread: 8.1
+adsSpread: 0.310451
+hipfireSpread: 8.2787
 reloadTime: 5.4625
 magazineSize: 36
 health: 0
@@ -159,4 +127,36 @@ recoilAimVertical: 7.2 - 9
 movementSpeed: 5
 detectionRadius: 218.75
 TTK: 0.222779 Seconds
+
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: FE-200SH ]
+damage: 33.7044 - 26.9635
+dropoffStuds: 131.04 - 254.8
+pellets: 1
+fireRate: 533.52
+adsSpread: 0.248608
+hipfireSpread: 6.62956
+reloadTime: 5.7
+magazineSize: 36
+health: 0
+recoilHipVertical: 13.8 - 17.25
+recoilAimVertical: 8.28 - 10.35
+movementSpeed: 0
+detectionRadius: 218.75
+TTK: 0.224921 Seconds
+
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: STG-44, Core: FE-200SH ]
+damage: 33.7044 - 26.9635
+dropoffStuds: 131.04 - 254.8
+pellets: 1
+fireRate: 528.39
+adsSpread: 0.223871
+hipfireSpread: 5.9699
+reloadTime: 4.94
+magazineSize: 36
+health: 0
+recoilHipVertical: 15 - 18.75
+recoilAimVertical: 9 - 11.25
+movementSpeed: 0
+detectionRadius: 218.75
+TTK: 0.227105 Seconds
 
