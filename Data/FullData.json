@@ -898,7 +898,7 @@
       "Pellets": 2,
       "Fire_Rate": 660,
       "Hipfire_Spread": 3.5,
-      "ADS_Spread": 0.75,
+      "ADS_Spread": 1,
       "Time_To_Aim": 0.7,
       "Detection_Radius": 70,
       "Suppression": 0.4,
