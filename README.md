@@ -7,7 +7,7 @@
 
 Made using c++ this tool reads data from Data/FullData.json and calculates all possible combinations of guns in [Weird Gun Game](https://www.roblox.com/games/94590879393563/Weird-Gun-Game-UPDATE). Please note that I am not affiliated with the [Redscape Interactive Projects](https://www.roblox.com/communities/35232296/Redscape-Interactive-Projects#!/about) group and don't have access to the source code of the game.
 This is purely a personal project in my attempt to learn c++. Any interesting builds will be updated in the `InterestingBuilds` folder.
-If you find any gun have stats that are different from the game please notify me on discord @theme222 or open an issue here on github (Except for any parts that contain pellets. I still have no idea what dark magic formula is used to calculate that).
+If you find any gun have stats that are different from the game please notify me on discord @theme222 or open an issue here on github.
 
 ## Data
 The data it reads is the output of `FileFormatter.py` that formats the .txt files in RawData scraped using a `DataScreenshotter.py` provided by @zyadak.
@@ -25,11 +25,13 @@ You will have to download 2 dependencies:
 And add it to a new directory called `include` in the same directory as `Calculator.cpp`.
 
 ### Run
+If compiling for use locally -static is useless and will only increase binary size.
+1. Linux for Linux
 ```sh
-# If compiling for use locally -static is useless and will only increase binary size.
-# Linux for Linux
 g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror -static
-# Linux for Windows
+```
+2. Linux for Windows
+```sh
 x86_64-w64-mingw32-g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator.exe -Werror -static
 ```
 No idea how to use cmake lol
@@ -116,8 +118,7 @@ There are currently 2 methods inside of the calculator: Bruteforce and Prune.
 
 ### Bruteforce
 
-`O(n^5) Time Complexity`
-`O(n) Memory Complexity`
+`O(n^5) Time Complexity` `O(n) Memory Complexity`
 
 The way this method works is by iterating through all possible combinations of
 creating a gun. Each gun can have a unique barrel, magazine, grip, stock, and
@@ -127,8 +128,8 @@ although it doesn't save any extra data thus having a memory complexity of only
 O(n).
 
 ### Prune
-`O(n^5) Time Complexity`
-`O(n^4) Memory Complexity`
+
+`O(n^5) Time Complexity` `O(n^4) Memory Complexity`
 
 This method takes advantage of the fact that only a small portion of the
 possible combinations are remotely useful. It directly benefits from adding more
@@ -143,11 +144,11 @@ It contains a much more complex algorithm that boils down to 3 steps:
 This method contains a much higher runtime constant than bruteforce, requiring
 both of allocating memory, and copying and writing data onto the std::vector. It
 also has a much higher runtime formula (Although not asymptotically higher)
-being `(a \* n/5) + (a \* n/5)^2 + (a \* n/5)^3 + (a \* n/5)^4 + (a \* n/5)^5`
+being `(a * n/5) + (a * n/5)^2 + (a * n/5)^3 + (a * n/5)^4 + (a * n/5)^5`
 which makes it worse than bruteforce if the `a` is very close to 1 (if the filters
 are not restrictive enough). It also requires a lot of memory due to the fact
 that we need to save valid combinations from previous levels. The exact amount
-is `(n)^4 \* 2 \* sizeof(Gun)` bytes.
+is `(n)^4 * 2 * sizeof(Gun)` bytes.
 
 Prune requires the values to be independent from eachother. This is an issue
 when it comes to pellet modifier calculation that affects both damage and
