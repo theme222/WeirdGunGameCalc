@@ -112,7 +112,7 @@ This is the full list of flags supported:
 ## Algorithm Analysis
 
 There are currently 2 methods inside of the calculator: Bruteforce and Prune.
-**TL;DR** Prune uses a lot of memory (2 GB+) for fast runtime and doesn't support shotguns. Use Bruteforce by adding `--method BRUTEFORCE` to the command if any of this is a concern.
+**TL;DR** Prune is effectively the better method although it can use a decent amount of memory if you are not providing restrictive enough filters. Bruteforce will almost always be slower than Prune.
 
 ### Bruteforce
 
@@ -149,9 +149,12 @@ are not restrictive enough). It also requires a lot of memory due to the fact
 that we need to save valid combinations from previous levels. The exact amount
 is `(n)^4 \* 2 \* sizeof(Gun)` bytes.
 
-Please note that Prune method doesn't work when the pellet count is more than 1.
-This means it doesn't work with shotguns and will provide an even worse damage
-estimation than bruteforce. If you want to help enable full shotgun capabillity,
-please go contact rat in the [WGG discord server](https://discord.gg/UtBfweSh)
-and ask him for pellet damage and spread calculation. He ghosted me 3 times
-already I give up.
+Prune requires the values to be independent from eachother. This is an issue
+when it comes to pellet modifier calculation that affects both damage and
+spread. The way this issue has been worked around is by modifying the damage
+range and spread range in a way where the pellet modifier is always within
+range. This is done by dividing the bottom end by the (max pellet mod)^5 and
+dividing the top end by the (min pellet mod)^1. This combined with no pellet
+modifier calculation within the Prune method, will ensure that valid damage and
+spread values are within range. Pellet modifier calculation is done on the last
+step and filtered out with the actual values provided by the user.
