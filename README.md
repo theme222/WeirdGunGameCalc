@@ -12,31 +12,9 @@ If you find any gun have stats that are different from the game please notify me
 ## Data
 The data it reads is the output of `FileFormatter.py` that formats the .txt files in RawData scraped using a `DataScreenshotter.py` provided by @zyadak.
 
-## Compile from source
-### Prerequisites
-g++ that supports c++20 onwards.
-
-### Libraries
-You will have to download 2 dependencies:
-
-1. [json.hpp](https://github.com/nlohmann/json/releases)
-2. [CLI11.hpp](https://www.github.com/CLIUtils/CLI11/releases)
-
-And add it to a new directory called `include` in the same directory as `Calculator.cpp`.
-
-### Run
-If compiling for use locally -static is useless and will only increase binary size.
-1. Linux for Linux
-```sh
-g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror -static
-```
-2. Linux for Windows
-```sh
-x86_64-w64-mingw32-g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator.exe -Werror -static
-```
-No idea how to use cmake lol
-
 ## Usage
+
+If you are unfamilliar with programmer slang and want the easy step by step guide go [here](https://scribehow.com/shared/How_to_Download_and_Run_Weird_Gun_Game_Calculator__5Ys-2XhCR5-tHUvSz9-y_g)
 
 Download (or clone) this repository and get the [latest
 release](https://github.com/theme222/WeirdGunGameCalc/releases) that corresponds
@@ -110,6 +88,30 @@ This is the full list of flags supported:
 --range [FLOAT,FLOAT] Dropoff studs range to filter (Could have called it rangeRange haha)
 --rangeMin FLOAT --rangeMax FLOAT
 ```
+
+## Compile from source
+### Prerequisites
+g++ that supports c++20 onwards.
+
+### Libraries
+You will have to download 2 dependencies:
+
+1. [json.hpp](https://github.com/nlohmann/json/releases)
+2. [CLI11.hpp](https://www.github.com/CLIUtils/CLI11/releases)
+
+And add it to a new directory called `include` in the same directory as `Calculator.cpp`.
+
+### Run
+If compiling for use locally -static is useless and will only increase binary size.
+1. Linux for Linux
+```sh
+g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror -static
+```
+2. Linux for Windows
+```sh
+x86_64-w64-mingw32-g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator.exe -Werror -static
+```
+No idea how to use cmake lol
 
 ## Algorithm Analysis
 
