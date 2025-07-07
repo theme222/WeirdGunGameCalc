@@ -1,6 +1,6 @@
-./Calculator -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --healthMin 10 --bc FE-200SH 
+./Calculator -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --healthMin 10 --bc FC200SH 
 Current top 10 guns are: 
-Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: Thompson, Stock: Taco, Core: Type 2a Nambu ]
+Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: Tommy, Stock: Taco, Core: Type 2a Nambu ]
 damage: 25.4573 - 11.5164
 dropoffStuds: 126 - 139.5
 pellets: 1
@@ -13,6 +13,38 @@ health: 10
 recoilHipVertical: 26.01 - 36.414
 recoilAimVertical: 16.8545 - 23.6171
 movementSpeed: 1.1
+detectionRadius: 110.4
+TTK: 0.263158 Seconds
+
+Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: UNP-40, Stock: Taco, Core: Type 2a Nambu ]
+damage: 25.4573 - 11.5164
+dropoffStuds: 126 - 139.5
+pellets: 1
+fireRate: 684
+adsSpread: 0.443092
+hipfireSpread: 2.95395
+reloadTime: 9.405
+magazineSize: 90
+health: 10
+recoilHipVertical: 38.25 - 53.55
+recoilAimVertical: 24.786 - 34.731
+movementSpeed: 1.1
+detectionRadius: 110.4
+TTK: 0.263158 Seconds
+
+Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: Skorpion vz. 61, Stock: Taco, Core: Type 2a Nambu ]
+damage: 25.4573 - 11.5164
+dropoffStuds: 126 - 139.5
+pellets: 1
+fireRate: 684
+adsSpread: 0.718304
+hipfireSpread: 4.78869
+reloadTime: 8.91
+magazineSize: 90
+health: 10
+recoilHipVertical: 38.25 - 53.55
+recoilAimVertical: 24.786 - 34.731
+movementSpeed: 6.3
 detectionRadius: 110.4
 TTK: 0.263158 Seconds
 
@@ -64,39 +96,7 @@ movementSpeed: 1.7
 detectionRadius: 110.4
 TTK: 0.263158 Seconds
 
-Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: UMP-40, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4573 - 11.5164
-dropoffStuds: 126 - 139.5
-pellets: 1
-fireRate: 684
-adsSpread: 0.443092
-hipfireSpread: 2.95395
-reloadTime: 9.405
-magazineSize: 90
-health: 10
-recoilHipVertical: 38.25 - 53.55
-recoilAimVertical: 24.786 - 34.731
-movementSpeed: 1.1
-detectionRadius: 110.4
-TTK: 0.263158 Seconds
-
-Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: Skorpion vz. 61, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4573 - 11.5164
-dropoffStuds: 126 - 139.5
-pellets: 1
-fireRate: 684
-adsSpread: 0.718304
-hipfireSpread: 4.78869
-reloadTime: 8.91
-magazineSize: 90
-health: 10
-recoilHipVertical: 38.25 - 53.55
-recoilAimVertical: 24.786 - 34.731
-movementSpeed: 6.3
-detectionRadius: 110.4
-TTK: 0.263158 Seconds
-
-Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: MP5, Stock: Taco, Core: Type 2a Nambu ]
+Gun contains[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: NP5, Stock: Taco, Core: Type 2a Nambu ]
 damage: 25.4573 - 11.5164
 dropoffStuds: 126 - 139.5
 pellets: 1
@@ -111,6 +111,22 @@ recoilAimVertical: 16.8545 - 23.6171
 movementSpeed: 0.6
 detectionRadius: 110.4
 TTK: 0.263158 Seconds
+
+Gun contains[ Barrel: Freedom Dispenser, Magazine: XXL AKM, Grip: PPSh-41, Stock: Taco, Core: Type 2a Nambu ]
+damage: 25.4573 - 11.5164
+dropoffStuds: 117.6 - 130.2
+pellets: 1
+fireRate: 664.62
+adsSpread: 0.636918
+hipfireSpread: 4.24612
+reloadTime: 11.385
+magazineSize: 90
+health: 10
+recoilHipVertical: 42.48 - 59.472
+recoilAimVertical: 27.527 - 38.5718
+movementSpeed: 3
+detectionRadius: 110.4
+TTK: 0.270831 Seconds
 
 Gun contains[ Barrel: M1897 Trench Shotgun, Magazine: XXL AKM, Grip: Skorpion vz. 61, Stock: Taco, Core: Type 2a Nambu ]
 damage: 25.4573 - 11.5164
@@ -143,20 +159,4 @@ recoilAimVertical: 29.646 - 41.541
 movementSpeed: 7.15
 detectionRadius: 96
 TTK: 0.273411 Seconds
-
-Gun contains[ Barrel: PPSh-41, Magazine: XXL AKM, Grip: Banana, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4573 - 11.5164
-dropoffStuds: 140 - 155
-pellets: 1
-fireRate: 655.5
-adsSpread: 0.698998
-hipfireSpread: 4.65999
-reloadTime: 9.9
-magazineSize: 90
-health: 10
-recoilHipVertical: 33.12 - 46.368
-recoilAimVertical: 21.4618 - 30.073
-movementSpeed: 1.3
-detectionRadius: 110.4
-TTK: 0.2746 Seconds
 

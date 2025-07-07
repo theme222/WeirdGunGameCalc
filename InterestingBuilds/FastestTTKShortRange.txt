@@ -1,4 +1,4 @@
-./Calculator -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --bc FE-200SH 
+./Calculator -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --bc FC200SH 
 Current top 10 guns are: 
 Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
 damage: 26.4417 - 11.9617
@@ -32,7 +32,7 @@ movementSpeed: 9.8
 detectionRadius: 80
 TTK: 0.207792 Seconds
 
-Gun contains[ Barrel: Thompson, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: Kriss Vector, Core: Type 2a Nambu ]
+Gun contains[ Barrel: Tommy, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: Kriss Vector, Core: Type 2a Nambu ]
 damage: 25.1198 - 11.3637
 dropoffStuds: 106.267 - 117.653
 pellets: 1
@@ -48,7 +48,7 @@ movementSpeed: 14.4
 detectionRadius: 80
 TTK: 0.209625 Seconds
 
-Gun contains[ Barrel: Thompson, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+Gun contains[ Barrel: Tommy, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
 damage: 25.1198 - 11.3637
 dropoffStuds: 111.86 - 123.845
 pellets: 1
@@ -64,18 +64,18 @@ movementSpeed: 11.1
 detectionRadius: 80
 TTK: 0.210609 Seconds
 
-Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Remington 870 Breacher, Core: Type 2a Nambu ]
+Gun contains[ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: M870 Breacher, Core: Type 2a Nambu ]
 damage: 26.4417 - 11.9617
 dropoffStuds: 119 - 131.75
 pellets: 1
 fireRate: 851.812
 adsSpread: 0.725293
 hipfireSpread: 4.83528
-reloadTime: 3.174
+reloadTime: 2.4012
 magazineSize: 30
 health: 0
-recoilHipVertical: 18.4875 - 25.8825
-recoilAimVertical: 11.9799 - 16.7867
+recoilHipVertical: 24.4375 - 34.2125
+recoilAimVertical: 15.8355 - 22.1893
 movementSpeed: 0.55
 detectionRadius: 100
 TTK: 0.211314 Seconds
@@ -112,6 +112,22 @@ movementSpeed: 2.6
 detectionRadius: 100
 TTK: 0.211603 Seconds
 
+Gun contains[ Barrel: Tommy, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: AR-8X, Core: Type 2a Nambu ]
+damage: 25.1198 - 11.3637
+dropoffStuds: 111.86 - 123.845
+pellets: 1
+fireRate: 847.44
+adsSpread: 0.708689
+hipfireSpread: 4.72459
+reloadTime: 2.4
+magazineSize: 30
+health: 0
+recoilHipVertical: 26.5625 - 37.1875
+recoilAimVertical: 17.2125 - 24.1188
+movementSpeed: 9.1
+detectionRadius: 80
+TTK: 0.212404 Seconds
+
 Gun contains[ Barrel: Oil, Magazine: MAC-10, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
 damage: 26.4417 - 11.9617
 dropoffStuds: 117.04 - 129.58
@@ -143,20 +159,4 @@ recoilAimVertical: 13.0815 - 18.3302
 movementSpeed: 0.3
 detectionRadius: 100
 TTK: 0.21286 Seconds
-
-Gun contains[ Barrel: PP-19 Bizon, Magazine: Kriss Vector, Grip: MP 40, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.2279 - 11.4126
-dropoffStuds: 101.745 - 112.646
-pellets: 1
-fireRate: 842.625
-adsSpread: 0.777914
-hipfireSpread: 5.18609
-reloadTime: 2.4
-magazineSize: 30
-health: 0
-recoilHipVertical: 27.625 - 38.675
-recoilAimVertical: 17.901 - 25.0835
-movementSpeed: 13.1
-detectionRadius: 80
-TTK: 0.213618 Seconds
 

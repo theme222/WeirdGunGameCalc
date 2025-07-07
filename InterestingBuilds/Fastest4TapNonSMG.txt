@@ -1,6 +1,6 @@
-./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 25 --speedMin 0 --magazineMin 30 --spreadAimMax 0.65 --recoilAimMax 30 --rangeMin 150 --pelletMax 1 --bc FE-200SH 
+./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 25 --speedMin 0 --magazineMin 30 --spreadAimMax 0.65 --recoilAimMax 30 --rangeMin 150 --pelletMax 1 --bc FC200SH 
 Current top 10 guns are: 
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: STG-44, Core: Hex Spitter ]
+Gun contains[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: STG-44, Core: Hex Spitter ]
 damage: 25.445 - 22.9005
 dropoffStuds: 165 - 330
 pellets: 1
@@ -16,7 +16,7 @@ movementSpeed: 0
 detectionRadius: 80.85
 TTK: 0.281805 Seconds
 
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: STG-44, Core: Hex Spitter ]
+Gun contains[ Barrel: M870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: STG-44, Core: Hex Spitter ]
 damage: 25.445 - 22.9005
 dropoffStuds: 165 - 330
 pellets: 1
@@ -32,39 +32,7 @@ movementSpeed: 0
 detectionRadius: 80.85
 TTK: 0.281805 Seconds
 
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: Type 2a Nambu, Core: Hex Spitter ]
-damage: 25.445 - 22.9005
-dropoffStuds: 165 - 330
-pellets: 1
-fireRate: 620.136
-adsSpread: 0.641174
-hipfireSpread: 2.24411
-reloadTime: 3.036
-magazineSize: 30
-health: 0
-recoilHipVertical: 27.6 - 36.8
-recoilAimVertical: 13.8 - 18.4
-movementSpeed: 1.2
-detectionRadius: 80.85
-TTK: 0.290259 Seconds
-
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Remington 870, Core: Hex Spitter ]
-damage: 25.445 - 22.9005
-dropoffStuds: 165 - 330
-pellets: 1
-fireRate: 620.136
-adsSpread: 0.608439
-hipfireSpread: 2.12954
-reloadTime: 3.1878
-magazineSize: 30
-health: 0
-recoilHipVertical: 25.5 - 34
-recoilAimVertical: 12.75 - 17
-movementSpeed: 0
-detectionRadius: 80.85
-TTK: 0.290259 Seconds
-
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: PP-19 Bizon, Core: Hex Spitter ]
+Gun contains[ Barrel: M870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: PP-19 Bizon, Core: Hex Spitter ]
 damage: 25.445 - 22.9005
 dropoffStuds: 165 - 330
 pellets: 1
@@ -80,55 +48,7 @@ movementSpeed: 2
 detectionRadius: 80.85
 TTK: 0.290259 Seconds
 
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: The Chief, Core: Hex Spitter ]
-damage: 25.445 - 22.9005
-dropoffStuds: 165 - 330
-pellets: 1
-fireRate: 620.136
-adsSpread: 0.572858
-hipfireSpread: 2.005
-reloadTime: 2.7324
-magazineSize: 30
-health: 0
-recoilHipVertical: 33 - 44
-recoilAimVertical: 16.5 - 22
-movementSpeed: 0
-detectionRadius: 80.85
-TTK: 0.290259 Seconds
-
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: UMP-40, Core: Hex Spitter ]
-damage: 25.445 - 22.9005
-dropoffStuds: 165 - 330
-pellets: 1
-fireRate: 620.136
-adsSpread: 0.589937
-hipfireSpread: 2.06478
-reloadTime: 3.036
-magazineSize: 30
-health: 0
-recoilHipVertical: 36 - 48
-recoilAimVertical: 18 - 24
-movementSpeed: 3.04
-detectionRadius: 80.85
-TTK: 0.290259 Seconds
-
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: UMP-40, Core: Hex Spitter ]
-damage: 25.445 - 22.9005
-dropoffStuds: 165 - 330
-pellets: 1
-fireRate: 620.136
-adsSpread: 0.589937
-hipfireSpread: 2.06478
-reloadTime: 3.036
-magazineSize: 30
-health: 0
-recoilHipVertical: 36 - 48
-recoilAimVertical: 18 - 24
-movementSpeed: 3.04
-detectionRadius: 80.85
-TTK: 0.290259 Seconds
-
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: FAL, Core: Hex Spitter ]
+Gun contains[ Barrel: M870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: FAL, Core: Hex Spitter ]
 damage: 25.445 - 22.9005
 dropoffStuds: 171.6 - 343.2
 pellets: 1
@@ -144,7 +64,7 @@ movementSpeed: 0.16
 detectionRadius: 80.85
 TTK: 0.290259 Seconds
 
-Gun contains[ Barrel: Remington 870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Words as Weapons, Core: Hex Spitter ]
+Gun contains[ Barrel: M870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Words as Weapons, Core: Hex Spitter ]
 damage: 25.445 - 22.9005
 dropoffStuds: 165 - 330
 pellets: 1
@@ -157,6 +77,86 @@ health: 0
 recoilHipVertical: 34.5 - 46
 recoilAimVertical: 17.25 - 23
 movementSpeed: 0
+detectionRadius: 80.85
+TTK: 0.290259 Seconds
+
+Gun contains[ Barrel: M870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: UNP-40, Core: Hex Spitter ]
+damage: 25.445 - 22.9005
+dropoffStuds: 165 - 330
+pellets: 1
+fireRate: 620.136
+adsSpread: 0.589937
+hipfireSpread: 2.06478
+reloadTime: 3.036
+magazineSize: 30
+health: 0
+recoilHipVertical: 36 - 48
+recoilAimVertical: 18 - 24
+movementSpeed: 3.04
+detectionRadius: 80.85
+TTK: 0.290259 Seconds
+
+Gun contains[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: M40, Core: Hex Spitter ]
+damage: 25.445 - 22.9005
+dropoffStuds: 165 - 330
+pellets: 1
+fireRate: 620.136
+adsSpread: 0.615555
+hipfireSpread: 2.15444
+reloadTime: 3.036
+magazineSize: 30
+health: 0
+recoilHipVertical: 27.9 - 37.2
+recoilAimVertical: 13.95 - 18.6
+movementSpeed: 0
+detectionRadius: 80.85
+TTK: 0.290259 Seconds
+
+Gun contains[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: The Chief, Core: Hex Spitter ]
+damage: 25.445 - 22.9005
+dropoffStuds: 165 - 330
+pellets: 1
+fireRate: 620.136
+adsSpread: 0.572858
+hipfireSpread: 2.005
+reloadTime: 2.7324
+magazineSize: 30
+health: 0
+recoilHipVertical: 33 - 44
+recoilAimVertical: 16.5 - 22
+movementSpeed: 0
+detectionRadius: 80.85
+TTK: 0.290259 Seconds
+
+Gun contains[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: Type 2a Nambu, Core: Hex Spitter ]
+damage: 25.445 - 22.9005
+dropoffStuds: 165 - 330
+pellets: 1
+fireRate: 620.136
+adsSpread: 0.641174
+hipfireSpread: 2.24411
+reloadTime: 3.036
+magazineSize: 30
+health: 0
+recoilHipVertical: 27.6 - 36.8
+recoilAimVertical: 13.8 - 18.4
+movementSpeed: 1.2
+detectionRadius: 80.85
+TTK: 0.290259 Seconds
+
+Gun contains[ Barrel: M870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: JSG12, Core: Hex Spitter ]
+damage: 25.445 - 22.9005
+dropoffStuds: 165 - 330
+pellets: 1
+fireRate: 620.136
+adsSpread: 0.579974
+hipfireSpread: 2.02991
+reloadTime: 3.1878
+magazineSize: 30
+health: 0
+recoilHipVertical: 30 - 40
+recoilAimVertical: 15 - 20
+movementSpeed: 3
 detectionRadius: 80.85
 TTK: 0.290259 Seconds
 

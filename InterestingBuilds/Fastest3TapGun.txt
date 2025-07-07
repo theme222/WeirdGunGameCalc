@@ -1,6 +1,6 @@
 ./Calculator -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 
 Current top 10 guns are: 
-Gun contains[ Barrel: APS, Magazine: Hell-Trooper-23, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
+Gun contains[ Barrel: APS, Magazine: Hell-Trooper-23, Grip: Circuit Judge, Stock: APS, Core: FC200SH ]
 damage: 33.6409 - 26.9128
 dropoffStuds: 117 - 227.5
 pellets: 1
@@ -11,12 +11,12 @@ reloadTime: 4
 magazineSize: 45
 health: 0
 recoilHipVertical: 17.94 - 22.425
-recoilAimVertical: 10.764 - 13.455
+recoilAimVertical: 6.279 - 7.774
 movementSpeed: 0
 detectionRadius: 218.75
 TTK: 0.210526 Seconds
 
-Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: FE-200SH ]
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: FC200SH ]
 damage: 33.7044 - 26.9635
 dropoffStuds: 131.04 - 254.8
 pellets: 1
@@ -27,12 +27,12 @@ reloadTime: 4.75
 magazineSize: 36
 health: 0
 recoilHipVertical: 17.25 - 21.5625
-recoilAimVertical: 10.35 - 12.9375
+recoilAimVertical: 6.0375 - 7.475
 movementSpeed: 0
 detectionRadius: 218.75
 TTK: 0.212653 Seconds
 
-Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Lee Enfield, Core: FE-200SH ]
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Lee Enfield, Core: FC200SH ]
 damage: 33.7044 - 26.9635
 dropoffStuds: 104.832 - 203.84
 pellets: 1
@@ -43,12 +43,12 @@ reloadTime: 4.75
 magazineSize: 36
 health: 0
 recoilHipVertical: 21 - 26.25
-recoilAimVertical: 12.6 - 15.75
+recoilAimVertical: 7.35 - 9.1
 movementSpeed: 0
 detectionRadius: 218.75
 TTK: 0.218615 Seconds
 
-Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Kriss Vector, Core: FE-200SH ]
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Kriss Vector, Core: FC200SH ]
 damage: 33.7044 - 26.9635
 dropoffStuds: 124.488 - 242.06
 pellets: 1
@@ -59,44 +59,12 @@ reloadTime: 4.75
 magazineSize: 36
 health: 0
 recoilHipVertical: 12.6 - 15.75
-recoilAimVertical: 7.56 - 9.45
+recoilAimVertical: 4.41 - 5.46
 movementSpeed: 2.64
 detectionRadius: 218.75
 TTK: 0.221513 Seconds
 
-Gun contains[ Barrel: Remington 870 Breacher, Magazine: STG-44, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
-damage: 33.6745 - 26.9396
-dropoffStuds: 135 - 262.5
-pellets: 1
-fireRate: 540
-adsSpread: 0.470165
-hipfireSpread: 12.5377
-reloadTime: 2.5
-magazineSize: 30
-health: 0
-recoilHipVertical: 15.6 - 19.5
-recoilAimVertical: 9.36 - 11.7
-movementSpeed: 3
-detectionRadius: 175
-TTK: 0.222222 Seconds
-
-Gun contains[ Barrel: Remington 870 Breacher, Magazine: The Chief, Grip: Circuit Judge, Stock: APS, Core: FE-200SH ]
-damage: 35.126 - 28.1008
-dropoffStuds: 151.2 - 294
-pellets: 1
-fireRate: 540
-adsSpread: 0.470165
-hipfireSpread: 12.5377
-reloadTime: 4.75
-magazineSize: 36
-health: 0
-recoilHipVertical: 19.5 - 24.375
-recoilAimVertical: 11.7 - 14.625
-movementSpeed: 3
-detectionRadius: 175
-TTK: 0.222222 Seconds
-
-Gun contains[ Barrel: Remington 870 Breacher, Magazine: The Chief, Grip: Type 2a Nambu, Stock: APS, Core: FE-200SH ]
+Gun contains[ Barrel: M870 Breacher, Magazine: The Chief, Grip: Type 2a Nambu, Stock: APS, Core: FC200SH ]
 damage: 33.4805 - 26.7844
 dropoffStuds: 151.2 - 294
 pellets: 1
@@ -107,28 +75,60 @@ reloadTime: 4.75
 magazineSize: 36
 health: -7.5
 recoilHipVertical: 23.985 - 29.9812
-recoilAimVertical: 14.391 - 17.9888
+recoilAimVertical: 8.39475 - 10.3935
 movementSpeed: 3
 detectionRadius: 175
 TTK: 0.222222 Seconds
 
-Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Remington 870 Breacher, Core: FE-200SH ]
+Gun contains[ Barrel: M870 Breacher, Magazine: The Chief, Grip: Circuit Judge, Stock: APS, Core: FC200SH ]
+damage: 35.126 - 28.1008
+dropoffStuds: 151.2 - 294
+pellets: 1
+fireRate: 540
+adsSpread: 0.470165
+hipfireSpread: 12.5377
+reloadTime: 4.75
+magazineSize: 36
+health: 0
+recoilHipVertical: 19.5 - 24.375
+recoilAimVertical: 6.825 - 8.45
+movementSpeed: 3
+detectionRadius: 175
+TTK: 0.222222 Seconds
+
+Gun contains[ Barrel: M870 Breacher, Magazine: STG-44, Grip: Circuit Judge, Stock: APS, Core: FC200SH ]
+damage: 33.6745 - 26.9396
+dropoffStuds: 135 - 262.5
+pellets: 1
+fireRate: 540
+adsSpread: 0.470165
+hipfireSpread: 12.5377
+reloadTime: 2.5
+magazineSize: 30
+health: 0
+recoilHipVertical: 15.6 - 19.5
+recoilAimVertical: 5.46 - 6.76
+movementSpeed: 3
+detectionRadius: 175
+TTK: 0.222222 Seconds
+
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: M870 Breacher, Core: FC200SH ]
 damage: 33.7044 - 26.9635
 dropoffStuds: 131.04 - 254.8
 pellets: 1
 fireRate: 538.65
 adsSpread: 0.310451
 hipfireSpread: 8.2787
-reloadTime: 5.4625
+reloadTime: 3.8
 magazineSize: 36
 health: 0
-recoilHipVertical: 12 - 15
-recoilAimVertical: 7.2 - 9
+recoilHipVertical: 17.25 - 21.5625
+recoilAimVertical: 6.0375 - 7.475
 movementSpeed: 5
 detectionRadius: 218.75
 TTK: 0.222779 Seconds
 
-Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: FE-200SH ]
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: FC200SH ]
 damage: 33.7044 - 26.9635
 dropoffStuds: 131.04 - 254.8
 pellets: 1
@@ -139,12 +139,12 @@ reloadTime: 5.7
 magazineSize: 36
 health: 0
 recoilHipVertical: 13.8 - 17.25
-recoilAimVertical: 8.28 - 10.35
+recoilAimVertical: 4.83 - 5.98
 movementSpeed: 0
 detectionRadius: 218.75
 TTK: 0.224921 Seconds
 
-Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: STG-44, Core: FE-200SH ]
+Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: STG-44, Core: FC200SH ]
 damage: 33.7044 - 26.9635
 dropoffStuds: 131.04 - 254.8
 pellets: 1
@@ -155,7 +155,7 @@ reloadTime: 4.94
 magazineSize: 36
 health: 0
 recoilHipVertical: 15 - 18.75
-recoilAimVertical: 9 - 11.25
+recoilAimVertical: 5.25 - 6.5
 movementSpeed: 0
 detectionRadius: 218.75
 TTK: 0.227105 Seconds

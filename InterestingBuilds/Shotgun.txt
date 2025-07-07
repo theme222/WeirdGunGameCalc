@@ -1,162 +1,162 @@
 ./Calculator -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 2 --rangeMin 100 --pelletMin 12 
 Current top 10 guns are: 
-Gun contains[ Barrel: M1891 Carcano, Magazine: M1918 BAR, Grip: Blunderbuss, Stock: FAL, Core: M1887 ]
-damage: 140.195 - 14.0195
-dropoffStuds: 100.908 - 174.907
+Gun contains[ Barrel: Arctic Warfare, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
+damage: 149.526 - 24.921
+dropoffStuds: 100.781 - 174.688
 pellets: 13
-fireRate: 48.06
-adsSpread: 1.93159
-hipfireSpread: 8.4507
-reloadTime: 5.232
-magazineSize: 20
-health: 0
-recoilHipVertical: 28.6 - 42.9
-recoilAimVertical: 11.44 - 17.16
-movementSpeed: 3.62
-detectionRadius: 120
-TTK: 0 Seconds
-
-Gun contains[ Barrel: Dragunov, Magazine: M1918 BAR, Grip: Blunderbuss, Stock: FAL, Core: M1887 ]
-damage: 140.195 - 14.0195
-dropoffStuds: 102.192 - 177.133
-pellets: 13
-fireRate: 48.06
-adsSpread: 1.99047
-hipfireSpread: 8.7083
-reloadTime: 4.36
-magazineSize: 20
-health: 0
-recoilHipVertical: 35.464 - 53.196
-recoilAimVertical: 14.1856 - 21.2784
-movementSpeed: 3.62
-detectionRadius: 120
-TTK: 0 Seconds
-
-Gun contains[ Barrel: Chauchat, Magazine: Remington 700, Grip: Blunderbuss, Stock: STG-44, Core: M1887 ]
-damage: 146.41 - 14.641
-dropoffStuds: 107.812 - 186.875
-pellets: 13
-fireRate: 46.207
-adsSpread: 1.96455
-hipfireSpread: 8.59489
-reloadTime: 3.9676
+fireRate: 56.07
+adsSpread: 1.66807
+hipfireSpread: 7.29779
+reloadTime: 3.815
 magazineSize: 10
 health: 0
-recoilHipVertical: 21.875 - 32.8125
-recoilAimVertical: 8.75 - 13.125
+recoilHipVertical: 30.625 - 45.9375
+recoilAimVertical: 12.25 - 18.375
+movementSpeed: 9
+detectionRadius: 100
+TTK: 0 Seconds
+
+Gun contains[ Barrel: M1891, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
+damage: 145.993 - 24.3322
+dropoffStuds: 103.125 - 178.75
+pellets: 13
+fireRate: 56.07
+adsSpread: 1.66807
+hipfireSpread: 7.29779
+reloadTime: 4.578
+magazineSize: 10
+health: 0
+recoilHipVertical: 17.5 - 26.25
+recoilAimVertical: 7 - 10.5
+movementSpeed: 9
+detectionRadius: 100
+TTK: 0 Seconds
+
+Gun contains[ Barrel: Dragunov, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
+damage: 145.993 - 24.3322
+dropoffStuds: 104.437 - 181.025
+pellets: 13
+fireRate: 56.07
+adsSpread: 1.71891
+hipfireSpread: 7.52024
+reloadTime: 3.815
+magazineSize: 10
+health: 0
+recoilHipVertical: 21.7 - 32.55
+recoilAimVertical: 8.68 - 13.02
+movementSpeed: 9
+detectionRadius: 100
+TTK: 0 Seconds
+
+Gun contains[ Barrel: M-16, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
+damage: 145.993 - 24.3322
+dropoffStuds: 102.75 - 178.1
+pellets: 13
+fireRate: 56.07
+adsSpread: 1.88723
+hipfireSpread: 8.25663
+reloadTime: 3.815
+magazineSize: 10
+health: 0
+recoilHipVertical: 15.925 - 23.8875
+recoilAimVertical: 6.37 - 9.555
+movementSpeed: 9
+detectionRadius: 100
+TTK: 0 Seconds
+
+Gun contains[ Barrel: Dragunov, Magazine: M40, Grip: Blunderbuss, Stock: Type 99, Core: M1887 ]
+damage: 153.418 - 25.5696
+dropoffStuds: 104.437 - 181.025
+pellets: 13
+fireRate: 55.4025
+adsSpread: 1.89496
+hipfireSpread: 8.29046
+reloadTime: 3.38581
+magazineSize: 10
+health: 0
+recoilHipVertical: 23.436 - 35.154
+recoilAimVertical: 9.3744 - 14.0616
 movementSpeed: 1
-detectionRadius: 110
+detectionRadius: 100
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Chauchat, Magazine: Remington 700, Grip: Blunderbuss, Stock: MP 40, Core: M1887 ]
-damage: 146.41 - 14.641
-dropoffStuds: 107.812 - 186.875
+Gun contains[ Barrel: Arctic Warfare, Magazine: M40, Grip: Blunderbuss, Stock: Type 99, Core: M1887 ]
+damage: 157.13 - 26.1884
+dropoffStuds: 100.781 - 174.688
 pellets: 13
-fireRate: 45.39
-adsSpread: 1.95488
-hipfireSpread: 8.5526
-reloadTime: 3.56703
+fireRate: 55.4025
+adsSpread: 1.83891
+hipfireSpread: 8.04522
+reloadTime: 3.38581
 magazineSize: 10
 health: 0
-recoilHipVertical: 25.1562 - 37.7344
-recoilAimVertical: 10.0625 - 15.0938
-movementSpeed: 3.08
-detectionRadius: 110
-TTK: 0 Seconds
-
-Gun contains[ Barrel: Chauchat, Magazine: Remington 700, Grip: Blunderbuss, Stock: MP9, Core: M1887 ]
-damage: 146.41 - 14.641
-dropoffStuds: 107.812 - 186.875
-pellets: 13
-fireRate: 45.39
-adsSpread: 1.95488
-hipfireSpread: 8.5526
-reloadTime: 3.815
-magazineSize: 10
-health: 0
-recoilHipVertical: 28.4375 - 42.6562
-recoilAimVertical: 11.375 - 17.0625
-movementSpeed: 3.99
-detectionRadius: 110
-TTK: 0 Seconds
-
-Gun contains[ Barrel: Chauchat, Magazine: Remington 700, Grip: Blunderbuss, Stock: PP-19 Bizon, Core: M1887 ]
-damage: 146.41 - 14.641
-dropoffStuds: 107.812 - 186.875
-pellets: 13
-fireRate: 45.39
-adsSpread: 1.91719
-hipfireSpread: 8.38771
-reloadTime: 3.51743
-magazineSize: 10
-health: 0
-recoilHipVertical: 26.25 - 39.375
-recoilAimVertical: 10.5 - 15.75
-movementSpeed: 2.625
-detectionRadius: 110
-TTK: 0 Seconds
-
-Gun contains[ Barrel: Chauchat, Magazine: Remington 700, Grip: Blunderbuss, Stock: Thompson, Core: M1887 ]
-damage: 146.41 - 14.641
-dropoffStuds: 107.812 - 186.875
-pellets: 13
-fireRate: 45.39
-adsSpread: 1.96745
-hipfireSpread: 8.60757
-reloadTime: 4.00575
-magazineSize: 10
-health: 0
-recoilHipVertical: 18.6047 - 27.907
-recoilAimVertical: 7.44187 - 11.1628
-movementSpeed: 1.325
-detectionRadius: 110
-TTK: 0 Seconds
-
-Gun contains[ Barrel: Chauchat, Magazine: Remington 700, Grip: Blunderbuss, Stock: The Chief, Core: M1887 ]
-damage: 146.41 - 14.641
-dropoffStuds: 107.812 - 186.875
-pellets: 13
-fireRate: 45.39
-adsSpread: 1.84857
-hipfireSpread: 8.08751
-reloadTime: 3.5861
-magazineSize: 10
-health: 0
-recoilHipVertical: 24.0625 - 36.0938
-recoilAimVertical: 9.625 - 14.4375
+recoilHipVertical: 33.075 - 49.6125
+recoilAimVertical: 13.23 - 19.845
 movementSpeed: 1
-detectionRadius: 110
+detectionRadius: 100
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Chauchat, Magazine: Remington 700, Grip: Blunderbuss, Stock: UMP-40, Core: M1887 ]
-damage: 146.41 - 14.641
-dropoffStuds: 107.812 - 186.875
+Gun contains[ Barrel: M1891, Magazine: M40, Grip: Blunderbuss, Stock: Type 99, Core: M1887 ]
+damage: 153.418 - 25.5696
+dropoffStuds: 103.125 - 178.75
 pellets: 13
-fireRate: 45.39
-adsSpread: 1.80412
-hipfireSpread: 7.89301
-reloadTime: 3.815
+fireRate: 55.4025
+adsSpread: 1.83891
+hipfireSpread: 8.04522
+reloadTime: 4.06297
 magazineSize: 10
 health: 0
-recoilHipVertical: 26.25 - 39.375
-recoilAimVertical: 10.5 - 15.75
-movementSpeed: 3.47
-detectionRadius: 110
+recoilHipVertical: 18.9 - 28.35
+recoilAimVertical: 7.56 - 11.34
+movementSpeed: 1
+detectionRadius: 100
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Chauchat, Magazine: Remington 700, Grip: Blunderbuss, Stock: FAL, Core: M1887 ]
-damage: 146.41 - 14.641
-dropoffStuds: 111.047 - 192.481
+Gun contains[ Barrel: Dragunov, Magazine: M40, Grip: Blunderbuss, Stock: Fedorov Avtomat, Core: M1887 ]
+damage: 153.418 - 25.5696
+dropoffStuds: 104.437 - 181.025
 pellets: 13
-fireRate: 45.39
-adsSpread: 1.76739
-hipfireSpread: 7.73234
-reloadTime: 3.815
+fireRate: 55.002
+adsSpread: 1.89496
+hipfireSpread: 8.29046
+reloadTime: 4.578
 magazineSize: 10
 health: 0
-recoilHipVertical: 28.4375 - 42.6562
-recoilAimVertical: 11.375 - 17.0625
-movementSpeed: 1.12
-detectionRadius: 110
+recoilHipVertical: 20.398 - 30.597
+recoilAimVertical: 8.1592 - 12.2388
+movementSpeed: 4
+detectionRadius: 100
+TTK: 0 Seconds
+
+Gun contains[ Barrel: M1891, Magazine: M40, Grip: Blunderbuss, Stock: Fedorov Avtomat, Core: M1887 ]
+damage: 153.418 - 25.5696
+dropoffStuds: 103.125 - 178.75
+pellets: 13
+fireRate: 55.002
+adsSpread: 1.83891
+hipfireSpread: 8.04522
+reloadTime: 5.4936
+magazineSize: 10
+health: 0
+recoilHipVertical: 16.45 - 24.675
+recoilAimVertical: 6.58 - 9.87
+movementSpeed: 4
+detectionRadius: 100
+TTK: 0 Seconds
+
+Gun contains[ Barrel: Arctic Warfare, Magazine: M40, Grip: Blunderbuss, Stock: Fedorov Avtomat, Core: M1887 ]
+damage: 157.13 - 26.1884
+dropoffStuds: 100.781 - 174.688
+pellets: 13
+fireRate: 55.002
+adsSpread: 1.83891
+hipfireSpread: 8.04522
+reloadTime: 4.578
+magazineSize: 10
+health: 0
+recoilHipVertical: 28.7875 - 43.1813
+recoilAimVertical: 11.515 - 17.2725
+movementSpeed: 4
+detectionRadius: 100
 TTK: 0 Seconds
 
