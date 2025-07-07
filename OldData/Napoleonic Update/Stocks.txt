@@ -50,29 +50,24 @@ Damage: +6%
 Recoil: +30%
 Spread: +30%
 ---
-Stock: C36C
+Stock: G36C
 Recoil: -5%
 Reload_Speed: -5%
 Spread: -5%
 ---
-Stock: FC200SH
+Stock: FE-200SH
 Movement_Speed: +2%
 Spread: -24%
 Fire_Rate: -13%
 ---
-Stock: AR-8X
-Fire_Rate: +7%
-Movement_Speed: -2%
-Spread: +14%
----
 
 Category: Sniper Stocks
 ---
-Stock: M40
+Stock: Remington 700
 Recoil: -10%
 Spread: -20%
 ---
-Stock: M1891
+Stock: M1891 Carcano
 Movement_Speed: +4%
 Recoil: +15%
 ---
@@ -95,7 +90,7 @@ Fire_Rate: -10%
 Movement_Speed: -5%
 Recoil: +15%
 ---
-Stock: M2000
+Stock: M200 Intervention
 Recoil: -40%
 Spread: -40%
 Fire_Rate: -25%
@@ -126,13 +121,13 @@ Reload_Speed: -10%
 Recoil: +20%
 Spread: +25%
 ---
-Stock: Tommy
+Stock: Thompson
 Movement_Speed: +0.5%
 Recoil: -23%
 Spread: -9%
 Reload_Speed: +5%
 ---
-Stock: NP9
+Stock: MP9
 Movement_Speed: +4.6%
 Spread: -10%
 Recoil: +30%
@@ -143,7 +138,7 @@ Reload_Speed: -10%
 Spread: -10%
 Recoil: +15%
 ---
-Stock: UNP-40
+Stock: UMP-40
 Movement_Speed: +3.8%
 Spread: -22%
 Recoil: +20%
@@ -177,12 +172,12 @@ Reload_Speed: -12%
 Spread: -13%
 Recoil: +20%
 ---
-Stock: NP5
+Stock: MP5
 Movement_Speed: +2.5%
 Recoil: -5%
 Reload_Speed: -25%
 ---
-Stock: NP5A3
+Stock: MP5A3
 Movement_Speed: +4%
 Reload_Speed: -10%
 Recoil: +20%
@@ -208,7 +203,7 @@ Recoil: -20%
 Spread: -24%
 Fire_Rate: -15%
 ---
-Stock: M1919a6
+Stock: M1919a6 Browning
 Recoil: -32%
 Movement_Speed: -7%
 Spread: +19%
@@ -254,14 +249,14 @@ Movement_Speed: -3%
 Spread: +12%
 Range: -12%
 ---
-Stock: M870 Breacher
+Stock: Remington 870 Breacher
 Fire_Rate: +5%
 Movement_Speed: +5%
-Reload_Speed: -20%
-Recoil: +15%
+Recoil: -20%
+Reload_Speed: +15%
 Spread: +25%
 ---
-Stock: M870 MCS
+Stock: Remington 870 MCS
 Recoil: -25%
 Spread: -20%
 Fire_Rate: -5%
@@ -278,7 +273,7 @@ Fire_Rate: +10%
 Recoil: +15%
 Spread: +25%
 ---
-Stock: M870
+Stock: Remington 870
 Recoil: -15%
 Spread: -15%
 Reload_Speed: +5%
@@ -298,11 +293,6 @@ Health: +15%
 Movement_Speed: +5%
 Recoil: +112%
 Spread: +50%
----
-Stock: JSG12
-Movement_Speed: +3%
-Spread: -19%
-Reload_Speed: +5%
 ---
 
 Category: Weird Stocks

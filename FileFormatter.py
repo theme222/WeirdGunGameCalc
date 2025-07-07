@@ -18,18 +18,19 @@ known_properties = {'Reload_Speed', 'Recoil_Hip_Vertical', 'Recoil',
 }
 
 known_names = {
-    'MAC-10', 'M1919a6 Browning', 'Type 99', 'Scar H', 'MP9', 'Honk', 'Thompson', 'Plunger', 'M1891 Carcano',
-    'Skorpion vz. 61', 'M1917 Browning', 'Improvised', 'Scar L', 'Lee Enfield', 'Arctic Warfare',
+    'MAC-10', 'M1919a6', 'Type 99', 'Scar H', 'NP9', 'Honk', 'Tommy', 'Plunger', 'M1891',
+    'Skorpion vz. 61', 'M1917', 'Improvised', 'Scar L', 'Lee Enfield', 'Arctic Warfare',
     'Horizontal', 'Willy Fischy', 'Anvil', 'Shower', 'Stat Randomizer', 'Famas F1', 'Speed Coil',
-    'Water Pipe', 'Ketchup', 'M1919 Browning', 'UMP-40', 'MP 40', 'Type 2a Nambu', 'Banana', 'Shovel',
-    'STG-44', 'Oil', 'Fedorov Avtomat', 'Tap', 'Rice Pot', 'Scar Drum', 'M-16', 'Hecate II', 'Remington 700',
+    'Water Pipe', 'Ketchup', 'M1919', 'UNP-40', 'MP 40', 'Type 2a Nambu', 'Banana', 'Shovel',
+    'STG-44', 'Oil', 'Fedorov Avtomat', 'Tap', 'Rice Pot', 'Scar Drum', 'M-16', 'Hecate II', 'M40',
     'M91 Moschetto', 'DP-27', 'M60', 'Quack', 'AUG', 'Restroom', 'AKM', 'XXL AKM', 'Snake', 'As-Val', 'MG42',
     'Mustard', 'Hell-Trooper-23', 'Kriss Vector', 'Words as Weapons', 'The Chief', 'Mas-38', 'Bicycle',
-    'PPSh-41', 'Spas-12', 'Remington 870 Wingmaster', 'M1887', 'M1897 Trench Shotgun', 'Remington 870 Breacher',
-    'Remington 870 MCS', 'Remington 870', 'Spas-12 Folded', 'Hex Spitter', 'PP-19 Bizon', 'M1918 BAR', 'G36C',
-    'APS', 'MP5', 'Circuit Judge', 'MP5A3', 'Negev', 'M200 Intervention', 'Pistol Pistol', 'Auto-5', 'Croissant',
-    'Loaf', 'Taco', 'Eclair', 'Pastel', 'P90', 'Chauchat', 'Dragunov', 'M1Garand', 'FAL', 'FE-200SH', 'Light Gun',
-    'Gaming Rig', 'Controller', 'Graphics Card', 'Keyboard', 'Musket', 'Snake Sniper', 'M110', 'SKS', 'Blunderbuss'
+    'PPSh-41', 'Spas-12', 'M870 Wingmaster', 'M1887', 'M1897 Trench Shotgun', 'M870 Breacher',
+    'M870 MCS', 'M870', 'Spas-12 Folded', 'Hex Spitter', 'PP-19 Bizon', 'M1918 BAR', 'C36C',
+    'APS', 'NP5', 'Circuit Judge', 'NP5A3', 'Negev', 'M2000', 'Pistol Pistol', 'Auto-5', 'Croissant',
+    'Loaf', 'Taco', 'Eclair', 'Pastel', 'P90', 'Chauchat', 'Dragunov', 'M1Garand', 'FAL', 'FC200SH', 'Light Gun',
+    'Gaming Rig', 'Controller', 'Graphics Card', 'Keyboard', 'Musket', 'Snake Sniper', 'M110', 'SKS', 'Blunderbuss',
+    'AR-8X', 'Freedom Dispenser', 'Second Amendment', 'JSG12'
 }
 
 '''

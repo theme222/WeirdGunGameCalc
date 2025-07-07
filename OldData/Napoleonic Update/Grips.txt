@@ -37,7 +37,6 @@ Recoil: +35%
 ---
 Grip: Hell-Trooper-23
 Movement_Speed: +3%
-Reload_Speed: -5%
 Spread: -18%
 ---
 Grip: Hex Spitter
@@ -45,7 +44,7 @@ Recoil: -25%
 Movement_Speed: -5%
 Spread: +5%
 ---
-Grip: C36C
+Grip: G36C
 Recoil: -15%
 Reload_Speed: -10%
 ---
@@ -54,32 +53,27 @@ Recoil: -10%
 Reload_Speed: -4%
 Spread: +14%
 ---
-Grip: FC200SH
+Grip: FE-200SH
 Movement_Speed: +3%
 Recoil: -19%
 Fire_Rate: -4%
 ---
-Grip: AR-8X
-Movement_Speed: +1.5%
-Spread: -14%
-Recoil: +21%
----
 
 Category: Sniper Grips
 ---
-Grip: M40
+Grip: Remington 700
 Recoil: -5%
 Reload_Speed: -10%
 Spread: -10%
 ---
-Grip: M1891
+Grip: M1891 Carcano
 Fire_Rate: +10%
 Movement_Speed: +4%
 Reload_Speed: +15%
 Spread: +30%
 ---
 Grip: Arctic Warfare
-Spread: -27%
+Spread: -30%
 Recoil: +8%
 Reload_Speed: +12%
 ---
@@ -94,7 +88,7 @@ Spread: -10%
 Movement_Speed: -4%
 Reload_Speed: +8%
 ---
-Grip: M2000
+Grip: M200 Intervention
 Recoil: -20%
 Reload_Speed: -10%
 Spread: +10%
@@ -126,12 +120,12 @@ Reload_Speed: -10%
 Recoil: +25%
 Spread: +30%
 ---
-Grip: Tommy
+Grip: Thompson
 Movement_Speed: +3.8%
 Recoil: -15%
 Reload_Speed: +10%
 ---
-Grip: NP9
+Grip: MP9
 Movement_Speed: +2%
 Reload_Speed: -8%
 Recoil: +10%
@@ -142,7 +136,7 @@ Damage: +5%
 Recoil: +30%
 Spread: +30%
 ---
-Grip: UNP-40
+Grip: UMP-40
 Movement_Speed: +3.8%
 Reload_Speed: -5%
 Spread: -20%
@@ -174,7 +168,7 @@ Recoil: -9%
 Reload_Speed: -3%
 Spread: +18%
 ---
-Grip: NP5
+Grip: MP5
 Movement_Speed: +3.3%
 Recoil: -15%
 Reload_Speed: -10%
@@ -200,7 +194,7 @@ Recoil: -19%
 Reload_Speed: -13%
 Fire_Rate: -5%
 ---
-Grip: M1919a6
+Grip: M1919a6 Browning
 Reload_Speed: -19%
 Spread: -16%
 Movement_Speed: -2.5%
@@ -253,7 +247,7 @@ Fire_Rate: +10%
 Reload_Speed: +10%
 Spread: +35%
 ---
-Grip: M870
+Grip: Remington 870
 Reload_Speed: -15%
 Spread: +20%
 ---
@@ -272,11 +266,6 @@ Movement_Speed: +2%
 Pellets: +25%
 Fire_Rate: -11%
 Reload_Speed: +9%
----
-Grip: JSG12
-Movement_Speed: +3%
-Spread: -18%
-Recoil: +38%
 ---
 
 Category: Weird Grips

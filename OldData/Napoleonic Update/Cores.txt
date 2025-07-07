@@ -1,19 +1,4 @@
 Category: Assault Rifle
----
-Core: AKM
-Damage: 19.5 > 17.1
-Dropoff_Studs: 140 > 325
-Fire_Rate: 600
-Hipfire_Spread: 5.5
-ADS_Spread: 0.5
-Time_To_Aim: 0.7
-Detection_Radius: 120
-Suppression: 0.3
-Recoil_Hip_Horizontal: -15 - 15
-Recoil_Hip_Vertical: 70 - 80
-Recoil_Aim_Horizontal: -12 - 12
-Recoil_Aim_Vertical: 56 - 64
----
 Core: M-16
 Damage: 15.9 > 13.5
 Dropoff_Studs: 180 > 350
@@ -30,7 +15,7 @@ Recoil_Aim_Vertical: 25 - 30
 ---
 Core: AUG
 Damage: 14.5 > 12.3
-Dropoff_Studs: 170 > 300
+Dropoff_Studs: 125 > 250
 Fire_Rate: 680
 Hipfire_Spread: 1
 ADS_Spread: 0.125
@@ -76,7 +61,7 @@ Damage: 16.5 > 11.5
 Dropoff_Studs: 170 > 345
 Fire_Rate: 625
 Hipfire_Spread: 5
-ADS_Spread: 0.35
+ADS_Spread: 0.65
 Time_To_Aim: 0.7
 Detection_Radius: 100
 Suppression: 0.3
@@ -148,7 +133,7 @@ Damage: 22 > 11
 Dropoff_Studs: 90 > 120
 Fire_Rate: 600
 Hipfire_Spread: 4
-ADS_Spread: 1.3
+ADS_Spread: 1.9
 Time_To_Aim: 0.7
 Detection_Radius: 200
 Suppression: 0.3
@@ -157,7 +142,7 @@ Recoil_Hip_Vertical: 70 - 100
 Recoil_Aim_Horizontal: -12.1 - 12.1
 Recoil_Aim_Vertical: 38.5 - 55
 ---
-Core: C36C
+Core: G36C
 Damage: 15.3 > 11.1
 Dropoff_Studs: 125 > 250
 Fire_Rate: 750
@@ -170,7 +155,7 @@ Recoil_Hip_Vertical: 10 - 30
 Recoil_Aim_Horizontal: -9 - 9
 Recoil_Aim_Vertical: 9 - 27
 ---
-Core: FC200SH
+Core: FE-200SH
 Damage: 20 > 16
 Dropoff_Studs: 180 > 350
 Fire_Rate: 600
@@ -182,28 +167,13 @@ Suppression: 0.3
 Health: +5%
 Recoil_Hip_Horizontal: -4 - 4
 Recoil_Hip_Vertical: 12 - 15
-Recoil_Aim_Horizontal: -1.4 - 1.4
-Recoil_Aim_Vertical: 4.2 - 5.2
----
-Core: AR-8X
-Damage: 15.9 > 10.7
-Dropoff_Studs: 155 > 240
-Fire_Rate: 750
-Hipfire_Spread: 4.5
-ADS_Spread: 0.3
-Time_To_Aim: 0.7
-Detection_Radius: 135
-Suppression: 0.3
-Health: +5%
-Recoil_Hip_Horizontal: -19 - 19
-Recoil_Hip_Vertical: 63 - 78
-Recoil_Aim_Horizontal: -12.3 - 12.3
-Recoil_Aim_Vertical: 40.9 - 50.7
+Recoil_Aim_Horizontal: -2.4 - 2.4
+Recoil_Aim_Vertical: 7.2 - 9
 ---
 
 Category: Sniper
 ---
-Core: M40
+Core: Remington 700
 Damage: 55 > 48.1
 Dropoff_Studs: 300 > 500
 Fire_Rate: 37
@@ -218,7 +188,7 @@ Recoil_Hip_Vertical: 70 - 100
 Recoil_Aim_Horizontal: -7.5 - 7.5
 Recoil_Aim_Vertical: 35 - 50
 ---
-Core: M1891
+Core: M1891 Carcano
 Damage: 53 > 45.1
 Dropoff_Studs: 275 > 600
 Fire_Rate: 45
@@ -261,7 +231,7 @@ Recoil_Hip_Vertical: 90 - 120
 Recoil_Aim_Horizontal: -6 - 6
 Recoil_Aim_Vertical: 36 - 48
 ---
-Core: M2000
+Core: M200 Intervention
 Damage: 65 > 52
 Dropoff_Studs: 525 > 700
 Fire_Rate: 18
@@ -269,7 +239,7 @@ Hipfire_Spread: 15
 ADS_Spread: 0.13
 Time_To_Aim: 0.9
 Detection_Radius: 275
-Movement_Speed_Modifier: -8%
+Movement_Speed_Modifier: -8
 Suppression: 1
 Recoil_Hip_Horizontal: -18 - 18
 Recoil_Hip_Vertical: 80 - 110
@@ -296,14 +266,14 @@ Damage: 110 > 60.5
 Dropoff_Studs: 50 > 270
 Fire_Rate: 18
 Hipfire_Spread: 25
-ADS_Spread: 0.5
+ADS_Spread: 0.4
 Time_To_Aim: 1
 Detection_Radius: 300
 Suppression: 1
 Recoil_Hip_Horizontal: -14 - 14
 Recoil_Hip_Vertical: 175 - 183
-Recoil_Aim_Horizontal: -8.4 - 8.4
-Recoil_Aim_Vertical: 105 - 109.8
+Recoil_Aim_Horizontal: -7 - 7
+Recoil_Aim_Vertical: 87.5 - 91.5
 ---
 Core: Snake Sniper
 Damage: 60 > 48
@@ -351,7 +321,7 @@ Recoil_Hip_Vertical: 60 - 80
 Recoil_Aim_Horizontal: -20 - 20
 Recoil_Aim_Vertical: 48 - 64
 ---
-Core: Tommy
+Core: Thompson
 Damage: 16 > 9.6
 Dropoff_Studs: 125 > 160
 Fire_Rate: 800
@@ -365,7 +335,7 @@ Recoil_Hip_Vertical: 40 - 60
 Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 32 - 48
 ---
-Core: NP9
+Core: MP9
 Damage: 12.2 > 7.6
 Dropoff_Studs: 140 > 150
 Fire_Rate: 1000
@@ -393,7 +363,7 @@ Recoil_Hip_Vertical: 70 - 80
 Recoil_Aim_Horizontal: -12 - 12
 Recoil_Aim_Vertical: 56 - 64
 ---
-Core: UNP-40
+Core: UMP-40
 Damage: 21 > 13.7
 Dropoff_Studs: 125 > 150
 Fire_Rate: 600
@@ -476,7 +446,7 @@ Recoil_Hip_Vertical: 30 - 50
 Recoil_Aim_Horizontal: -15 - 15
 Recoil_Aim_Vertical: 9 - 15
 ---
-Core: NP5
+Core: MP5
 Damage: 16 > 9.2
 Dropoff_Studs: 110 > 140
 Fire_Rate: 800
@@ -554,7 +524,7 @@ Recoil_Hip_Vertical: 60 - 70
 Recoil_Aim_Horizontal: -4.2 - 4.2
 Recoil_Aim_Vertical: 36 - 42
 ---
-Core: M1919a6
+Core: M1919a6 Browning
 Damage: 21.5 > 15.5
 Dropoff_Studs: 190 > 380
 Fire_Rate: 500
@@ -637,7 +607,7 @@ Recoil_Aim_Vertical: 36 - 54
 Category: Shotgun
 ---
 Core: M1887
-Damage: 120 > 20
+Damage: 100 > 10
 Dropoff_Studs: 75 > 130
 Pellets: 10
 Fire_Rate: 60
@@ -653,10 +623,10 @@ Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 8 - 12
 ---
 Core: M1897 Trench Shotgun
-Damage: 128 > 16
+Damage: 96 > 0
 Dropoff_Studs: 60 > 120
 Pellets: 16
-Fire_Rate: 160
+Fire_Rate: 120
 Hipfire_Spread: 9
 ADS_Spread: 2.5
 Time_To_Aim: 0.7
@@ -667,8 +637,8 @@ Recoil_Hip_Vertical: 40 - 60
 Recoil_Aim_Horizontal: -4 - 4
 Recoil_Aim_Vertical: 16 - 24
 ---
-Core: M870
-Damage: 112 > 16
+Core: Remington 870
+Damage: 96 > 8
 Dropoff_Studs: 55 > 110
 Pellets: 8
 Fire_Rate: 90
@@ -683,13 +653,13 @@ Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 20 - 32
 ---
 Core: Spas-12
-Damage: 108 > 6
+Damage: 90 > 6
 Dropoff_Studs: 50 > 115
 Pellets: 6
 Fire_Rate: 220
 Hipfire_Spread: 8
-ADS_Spread: 2.5
-Time_To_Aim: 0.95
+ADS_Spread: 3
+Time_To_Aim: 0.85
 Detection_Radius: 160
 Suppression: 0.2
 Recoil_Hip_Horizontal: -25 - 25
@@ -698,22 +668,22 @@ Recoil_Aim_Horizontal: -10 - 10
 Recoil_Aim_Vertical: 20 - 32
 ---
 Core: Circuit Judge
-Damage: 120 > 32
+Damage: 112 > 32
 Dropoff_Studs: 85 > 125
 Pellets: 8
 Fire_Rate: 60
 Hipfire_Spread: 5
-ADS_Spread: 1.75
+ADS_Spread: 1.5
 Time_To_Aim: 0.7
 Detection_Radius: 160
 Suppression: 0.5
-Recoil_Hip_Horizontal: -25 - 25
-Recoil_Hip_Vertical: 80 - 99
-Recoil_Aim_Horizontal: -8.7 - 8.7
-Recoil_Aim_Vertical: 28 - 34.6
+Recoil_Hip_Horizontal: -20 - 20
+Recoil_Hip_Vertical: 50 - 80
+Recoil_Aim_Horizontal: -8 - 8
+Recoil_Aim_Vertical: 20 - 32
 ---
 Core: Auto-5
-Damage: 104 > 8
+Damage: 96 > 8
 Dropoff_Studs: 60 > 115
 Pellets: 8
 Fire_Rate: 190
@@ -741,22 +711,6 @@ Recoil_Hip_Horizontal: -14 - 14
 Recoil_Hip_Vertical: 150 - 190
 Recoil_Aim_Horizontal: -5.6 - 5.6
 Recoil_Aim_Vertical: -60 - 76
----
-Core: JSG12
-Damage: 144 > 12
-Dropoff_Studs: 55 > 110
-Pellets: 12
-Fire_Rate: 85
-Hipfire_Spread: 3
-ADS_Spread: 3
-Time_To_Aim: 0.8
-Detection_Radius: 135
-Movement_Speed_Modifier: +2.5%
-Suppression: 0.7
-Recoil_Hip_Horizontal: -24 - 24
-Recoil_Hip_Vertical: 95 - 112
-Recoil_Aim_Horizontal: -15.6 - 15.6
-Recoil_Aim_Vertical: 61.7 - 72.8
 ---
 
 Category: Weird

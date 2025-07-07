@@ -83,25 +83,18 @@ Fire_Rate: -10%
 Spread: +20%
 Range: -35%
 ---
-Magazine: C36C
+Magazine: G36C
 Magazine_Size: 30
 Reload_Time: 2.2
 Recoil: -5%
 ---
-Magazine: FC200SH
+Magazine: FE-200SH
 Magazine_Size: 30
 Reload_Time: 3.2
 Damage: +15%
 Detection_Radius: +10%
 Movement_Speed: -2.5%
 Spread: +18%
----
-Magazine: AR-8X
-Magazine_Size: 30
-Reload_Time: 2.6
-Movement_Speed: +1.5%
-Range: +8%
-Recoil: +12%
 ---
 
 Category: Sniper Magazines
@@ -136,34 +129,34 @@ Recoil: +100%
 Reload_Speed: +50%
 Spread: +100%
 ---
-Magazine: M40
+Magazine: Remington 700
 Magazine_Size: 10
-Reload_Time: 3.5
+Reload_Time: 3.5s
 Damage: +16%
-Range: +50%
 Recoil: -25%
 Spread: -25%
+Range: +50%
 ---
-Magazine: M1891
+Magazine: M1891 Carcano
 Magazine_Size: 6
-Reload_Time: 3.5
+Reload_Time: 3.5s
 Fire_Rate: +5%
-Range: +20%
 Spread: -15%
 Recoil: +25%
+Range: +20%
 ---
-Magazine: M2000
+Magazine: M200 Intervention
 Magazine_Size: 5
-Reload_Time: 6
+Reload_Time: 6s
 Damage: +25%
-Range: +10%
 Spread: -20%
 Fire_Rate: -20%
 Recoil: +60%
+Range: +10%
 ---
 Magazine: Musket
 Magazine_Size: 1
-Reload_Time: 7.5
+Reload_Time: 6.5
 Damage: +60%
 Movement_Speed: -3%
 Range: -20%
@@ -196,16 +189,16 @@ Reload_Time: 1.2s
 Movement_Speed: +9%
 Damage: -15%
 ---
-Magazine: Tommy
+Magazine: Thompson
 Magazine_Size: 20
-Reload_Time: 3
+Reload_Time: 3s
 Damage: +15%
 Movement_Speed: +3.8%
 Spread: +20%
 ---
-Magazine: NP9
+Magazine: MP9
 Magazine_Size: 30
-Reload_Time: 2.2
+Reload_Time: 2.2s
 Fire_Rate: +5%
 Movement_Speed: +4.6%
 Spread: +7%
@@ -218,14 +211,14 @@ Spread: -10%
 Fire_Rate: -5%
 Recoil: +15%
 ---
-Magazine: UNP-40
+Magazine: UMP-40
 Magazine_Size: 30
-Reload_Time: 2
+Reload_Time: 2s
 Damage: +14%
 Movement_Speed: +1.5%
-Range: +3%
 Spread: -10%
 Fire_Rate: -10%
+Range: +3%
 ---
 Magazine: PPSh-41
 Magazine_Size: 71
@@ -267,7 +260,7 @@ Damage: +10%
 Range: -8%
 Recoil: +12%
 ---
-Magazine: NP5
+Magazine: MP5
 Magazine_Size: 30
 Reload_Time: 2
 Fire_Rate: +15%
@@ -304,15 +297,15 @@ Damage: +7%
 Recoil: +12%
 Range: +5%
 ---
-Magazine: M1919a6
+Magazine: M1919a6 Browning
 Magazine_Size: 100
-Reload_Time: 9.5
+Reload_Time: 9.5s
 Damage: +20%
-Range: +12%
-Detection_Radius: +20%
+Detection_Radius: 20
 Fire_Rate: -10%
 Movement_Speed: -12%
 Spread: +27%
+Range: +12%
 ---
 Magazine: MG42
 Magazine_Size: 50
@@ -365,24 +358,23 @@ Category: Shotgun Magazines
 ---
 Magazine: Spas-12
 Magazine_Size: 12
-Reload_Time: 7
-Damage: +5%
-Fire_Rate: +30%
+Reload_Time: 6
+Fire_Rate: +20%
 Pellets: +175%
-Movement_Speed: -3%
-Range: -20%
+Movement_Speed: -5%
 Recoil: +60%
-Spread: +68%
+Spread: +60%
+Range: -20%
 ---
-Magazine: M870 Breacher
+Magazine: Remington 870 Breacher
 Magazine_Size: 8
 Reload_Time: 3.2
 Damage: +30%
 Movement_Speed: +3%
 Pellets: +150%
-Range: -30%
 Recoil: +50%
 Spread: +80%
+Range: -30%
 ---
 Magazine: M1887
 Magazine_Size: 6
@@ -398,48 +390,46 @@ Range: -10%
 Magazine: M1897 Trench Shotgun
 Magazine_Size: 6
 Reload_Time: 4.5
-Fire_Rate: +22%
+Fire_Rate: +15%
 Pellets: +200%
-Range: -7%
-Recoil: +43%
-Spread: +62%
+Recoil: +25%
+Spread: +75%
 ---
-Magazine: M870 MCS
+Magazine: Remington 870 MCS
 Magazine_Size: 6
 Reload_Time: 3.5
-Damage: +17%
+Damage: +15%
 Pellets: +45%
-Range: -10%
 Recoil: +35%
-Spread: +25%
+Spread: +15%
+Range: -10%
 ---
-Magazine: M870
+Magazine: Remington 870
 Magazine_Size: 8
 Reload_Time: 5
-Damage: +21%
+Damage: +10%
 Pellets: +100%
+Recoil: +25%
+Spread: +30%
 Range: -15%
-Recoil: +38%
-Spread: +40%
 ---
 Magazine: Circuit Judge
 Magazine_Size: 5
 Reload_Time: 4
-Damage: +15%
+Damage: +12%
 Pellets: +25%
+Recoil: +70%
+Spread: +40%
 Range: +7.5%
-Recoil: +85%
-Spread: +47%
 ---
 Magazine: Auto-5
 Magazine_Size: 4
-Reload_Time: 3
+Reload_Time: 4
 Damage: +20%
 Fire_Rate: +20%
 Pellets: +175%
-Movement_Speed: -4%
-Recoil: +50%
-Spread: +65%
+Recoil: +20%
+Spread: +50
 ---
 Magazine: Blunderbuss
 Magazine_Size: 1
@@ -449,14 +439,6 @@ Pellets: +200%
 Fire_Rate: -5%
 Range: -23%
 Spread: +60%
----
-Magazine: JSG12
-Magazine_Size: 15
-Reload_Time: 7.5
-Damage: +19%
-Pellets: +125%
-Recoil: +26%
-Spread: +63%
 ---
 
 Category: Weird Magazines
