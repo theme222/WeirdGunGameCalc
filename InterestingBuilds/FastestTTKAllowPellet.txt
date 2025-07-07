@@ -1,0 +1,162 @@
+./Calculator -o InterestingBuilds/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 --bc FC200SH --pelletMin 2 
+Current top 10 guns are: 
+Gun contains[ Barrel: Words as Weapons, Magazine: AKM, Grip: Auto-5, Stock: FAL, Core: Hex Spitter ]
+damage: 25.054 - 22.5486
+dropoffStuds: 156 - 312
+pellets: 2
+fireRate: 693
+adsSpread: 0.67688
+hipfireSpread: 2.36908
+reloadTime: 2.4
+magazineSize: 30
+health: 0
+recoilHipVertical: 42.12 - 56.16
+recoilAimVertical: 21.06 - 28.08
+movementSpeed: 0.16
+detectionRadius: 77.175
+TTK: 0.25974 Seconds
+
+Gun contains[ Barrel: Words as Weapons, Magazine: Words as Weapons, Grip: Auto-5, Stock: FAL, Core: Hex Spitter ]
+damage: 25.054 - 22.5486
+dropoffStuds: 156 - 312
+pellets: 2
+fireRate: 693
+adsSpread: 0.67688
+hipfireSpread: 2.36908
+reloadTime: 2.4
+magazineSize: 30
+health: 0
+recoilHipVertical: 42.12 - 56.16
+recoilAimVertical: 21.06 - 28.08
+movementSpeed: 0.16
+detectionRadius: 77.175
+TTK: 0.25974 Seconds
+
+Gun contains[ Barrel: Words as Weapons, Magazine: AKM, Grip: Auto-5, Stock: The Chief, Core: Hex Spitter ]
+damage: 25.054 - 22.5486
+dropoffStuds: 150 - 300
+pellets: 2
+fireRate: 693
+adsSpread: 0.690453
+hipfireSpread: 2.41658
+reloadTime: 2.16
+magazineSize: 30
+health: 0
+recoilHipVertical: 35.64 - 47.52
+recoilAimVertical: 17.82 - 23.76
+movementSpeed: 0
+detectionRadius: 77.175
+TTK: 0.25974 Seconds
+
+Gun contains[ Barrel: AKM, Magazine: AKM, Grip: Auto-5, Stock: FAL, Core: Hex Spitter ]
+damage: 25.054 - 22.5486
+dropoffStuds: 156 - 312
+pellets: 2
+fireRate: 693
+adsSpread: 0.67688
+hipfireSpread: 2.36908
+reloadTime: 2.4
+magazineSize: 30
+health: 0
+recoilHipVertical: 42.12 - 56.16
+recoilAimVertical: 21.06 - 28.08
+movementSpeed: 0.16
+detectionRadius: 77.175
+TTK: 0.25974 Seconds
+
+Gun contains[ Barrel: AKM, Magazine: Words as Weapons, Grip: Auto-5, Stock: The Chief, Core: Hex Spitter ]
+damage: 25.054 - 22.5486
+dropoffStuds: 150 - 300
+pellets: 2
+fireRate: 693
+adsSpread: 0.690453
+hipfireSpread: 2.41658
+reloadTime: 2.16
+magazineSize: 30
+health: 0
+recoilHipVertical: 35.64 - 47.52
+recoilAimVertical: 17.82 - 23.76
+movementSpeed: 0
+detectionRadius: 77.175
+TTK: 0.25974 Seconds
+
+Gun contains[ Barrel: Words as Weapons, Magazine: AKM, Grip: Auto-5, Stock: JSG12, Core: Hex Spitter ]
+damage: 25.054 - 22.5486
+dropoffStuds: 150 - 300
+pellets: 2
+fireRate: 693
+adsSpread: 0.698936
+hipfireSpread: 2.44628
+reloadTime: 2.52
+magazineSize: 30
+health: 0
+recoilHipVertical: 32.4 - 43.2
+recoilAimVertical: 16.2 - 21.6
+movementSpeed: 3
+detectionRadius: 77.175
+TTK: 0.25974 Seconds
+
+Gun contains[ Barrel: Words as Weapons, Magazine: Words as Weapons, Grip: Auto-5, Stock: JSG12, Core: Hex Spitter ]
+damage: 25.054 - 22.5486
+dropoffStuds: 150 - 300
+pellets: 2
+fireRate: 693
+adsSpread: 0.698936
+hipfireSpread: 2.44628
+reloadTime: 2.52
+magazineSize: 30
+health: 0
+recoilHipVertical: 32.4 - 43.2
+recoilAimVertical: 16.2 - 21.6
+movementSpeed: 3
+detectionRadius: 77.175
+TTK: 0.25974 Seconds
+
+Gun contains[ Barrel: Words as Weapons, Magazine: AKM, Grip: Auto-5, Stock: Arctic Warfare, Core: Hex Spitter ]
+damage: 25.054 - 22.5486
+dropoffStuds: 150 - 300
+pellets: 2
+fireRate: 693
+adsSpread: 0.652278
+hipfireSpread: 2.28297
+reloadTime: 2.148
+magazineSize: 30
+health: 0
+recoilHipVertical: 35.64 - 47.52
+recoilAimVertical: 17.82 - 23.76
+movementSpeed: 0
+detectionRadius: 77.175
+TTK: 0.25974 Seconds
+
+Gun contains[ Barrel: AKM, Magazine: AKM, Grip: Auto-5, Stock: Arctic Warfare, Core: Hex Spitter ]
+damage: 25.054 - 22.5486
+dropoffStuds: 150 - 300
+pellets: 2
+fireRate: 693
+adsSpread: 0.652278
+hipfireSpread: 2.28297
+reloadTime: 2.148
+magazineSize: 30
+health: 0
+recoilHipVertical: 35.64 - 47.52
+recoilAimVertical: 17.82 - 23.76
+movementSpeed: 0
+detectionRadius: 77.175
+TTK: 0.25974 Seconds
+
+Gun contains[ Barrel: Words as Weapons, Magazine: Words as Weapons, Grip: Auto-5, Stock: The Chief, Core: Hex Spitter ]
+damage: 25.054 - 22.5486
+dropoffStuds: 150 - 300
+pellets: 2
+fireRate: 693
+adsSpread: 0.690453
+hipfireSpread: 2.41658
+reloadTime: 2.16
+magazineSize: 30
+health: 0
+recoilHipVertical: 35.64 - 47.52
+recoilAimVertical: 17.82 - 23.76
+movementSpeed: 0
+detectionRadius: 77.175
+TTK: 0.25974 Seconds
+
