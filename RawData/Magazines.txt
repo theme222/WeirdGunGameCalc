@@ -387,7 +387,7 @@ Spread: +80%
 Magazine: M1887
 Magazine_Size: 6
 Reload_Time: 4
-Fire_Rate: +5%
+Fire_Rate: +9%
 Health: +5%
 Pellets: +150%
 Movement_Speed: -5.5%
