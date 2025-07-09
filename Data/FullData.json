@@ -2367,12 +2367,12 @@
         190
       ],
       "Recoil_Aim_Horizontal": [
-        -5.6,
-        5.6
+        -8.4,
+        8.4
       ],
       "Recoil_Aim_Vertical": [
-        -60,
-        76
+        90,
+        114
       ]
     },
     {
@@ -2534,7 +2534,7 @@
       ],
       "Dropoff_Studs": [
         150,
-        200
+        220
       ],
       "Fire_Rate": 500,
       "Hipfire_Spread": 2,
@@ -2567,7 +2567,7 @@
         13.2
       ],
       "Dropoff_Studs": [
-        130,
+        140,
         195
       ],
       "Fire_Rate": 600,
@@ -3106,7 +3106,7 @@
       "Name": "Negev",
       "Fire_Rate": 8,
       "Movement_Speed": -2.5,
-      "Reload_Speed": 15,
+      "Recoil": 15,
       "Spread": 5
     },
     {
@@ -3335,7 +3335,7 @@
       "Magazine_Size": 50,
       "Reload_Time": 4,
       "Recoil": -10,
-      "Damage": -5
+      "Range": -5
     },
     {
       "Category": "Assault Rifle",

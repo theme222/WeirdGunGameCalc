@@ -20,9 +20,9 @@
 
 #define chrono std::chrono
 using json = nlohmann::json;
-typedef std::pair<float, float> fpair;
+using fpair = std::pair<float, float>;
 
-#define DEFAULTVECTORSIZE 100000
+#define DEFAULTVECTORSIZE 100000lu
 #define ALLMULTFLAG 4294967295 // 2^32 - 1
 #define NILMIN -69420.5f
 #define NILMAX 69420.5f
@@ -95,7 +95,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     bool includeCategories_fast[CATEGORYCOUNT] = {false, false, false, false, false, false, false};
     int forceParts_fast[5] = {NILINT, NILINT, NILINT, NILINT, NILINT}; // Barrel Magazine Grip Stock Core
-    std::vector<int> banParts_fast[5];  // TODO: Check if this needs to be a more efficient data structure (For values less than 5 per type it isn't really necessary but otherwise I'll probably use a bitset or a bool vector)
+    std::vector<bool> banParts_fast[5];
 
     enum MultFlags {
         DAMAGE = 1<<0,
@@ -161,7 +161,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         using namespace Input;
         // Precompute because pow and sqrt is scary
         for (int i = 1; i <= 50; i++)
-            reverseQuadraticDamage[i] = (float)(0.25 + (sqrt((50.0 - i) / (50.0 - 1.0)) * (0.01 - 0.25)));
+            reverseQuadraticDamage[i] = (float)(0.25f + (sqrtf((50.0f - i) / (50.0f - 1.0f)) * (0.01f - 0.25f)));
 
         for (int i = 1; i <= 55; i++)
             quadraticSpread[i] = (float)(0.20f + (powf((55.0f - i) / (55.0f - 1.0f), 2.5f) * (0.005f - 0.20f)));
@@ -238,30 +238,34 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             forceParts_fast[4] = fastifyName[forceCore];
         }
 
+        // init banParts_fast to be a bool vector of size fastifyName.size()
+        for (int i = 0; i < 5; i++)
+            banParts_fast[i].resize(fastifyName.size(), false);
+
         for (auto barrel: banBarrel)
         {
             PartExists(barrel);
-            banParts_fast[0].push_back(fastifyName[barrel]);
+            banParts_fast[0][fastifyName[barrel]] = true;
         }
         for (auto magazine: banMagazine)
         {
             PartExists(magazine);
-            banParts_fast[1].push_back(fastifyName[magazine]);
+            banParts_fast[1][fastifyName[magazine]] = true;
         }
         for (auto grip: banGrip)
         {
             PartExists(grip);
-            banParts_fast[2].push_back(fastifyName[grip]);
+            banParts_fast[2][fastifyName[grip]] = true;
         }
         for (auto stock: banStock)
         {
             PartExists(stock);
-            banParts_fast[3].push_back(fastifyName[stock]);
+            banParts_fast[3][fastifyName[stock]] = true;
         }
         for (auto core: banCore)
         {
             PartExists(core);
-            banParts_fast[4].push_back(fastifyName[core]);
+            banParts_fast[4][fastifyName[core]] = true;
         }
 
     }
@@ -784,8 +788,7 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
     std::string stockName = gun.stock ? gun.stock->name : "None";
     std::string coreName = gun.core ? gun.core->name : "None";
 
-    os << "Gun contains"
-       << "[ Barrel: " << barrelName << ", Magazine: " << magazineName << ", Grip: " << gripName << ", Stock: " << stockName << ", Core: " << coreName << " ]\n"
+    os << "[ Barrel: " << barrelName << ", Magazine: " << magazineName << ", Grip: " << gripName << ", Stock: " << stockName << ", Core: " << coreName << " ]\n"
        << "damage: " << gun.damage << "\n"
        << "dropoffStuds: " << gun.dropoffStuds << "\n"
        << "pellets: " << gun.pellets << "\n"
@@ -869,11 +872,12 @@ struct SortByADSSpread{
 };
 
 
-int barrelCount;
-int magazineCount;
-int gripCount;
-int stockCount;
-int coreCount;
+// This is now a uint64_t so I don't need to typecast it the moment I try to multiply these things together.
+uint64_t barrelCount;
+uint64_t magazineCount;
+uint64_t gripCount;
+uint64_t stockCount;
+uint64_t coreCount;
 uint64_t totalCombinations;
 
 Barrel barrelList[128];
@@ -1134,11 +1138,11 @@ namespace BruteForce
             if (Fast::forceParts_fast[3] != NILINT && s->name_fast != Fast::forceParts_fast[3]) return false;
             if (Fast::forceParts_fast[4] != NILINT && c->name_fast != Fast::forceParts_fast[4]) return false;
 
-            if (VectorContains(Fast::banParts_fast[0], b->name_fast)) return false;
-            if (VectorContains(Fast::banParts_fast[1], m->name_fast)) return false;
-            if (VectorContains(Fast::banParts_fast[2], g->name_fast)) return false;
-            if (VectorContains(Fast::banParts_fast[3], s->name_fast)) return false;
-            if (VectorContains(Fast::banParts_fast[4], c->name_fast)) return false;
+            if (Fast::banParts_fast[0][b->name_fast]) return false;
+            if (Fast::banParts_fast[1][m->name_fast]) return false;
+            if (Fast::banParts_fast[2][g->name_fast]) return false;
+            if (Fast::banParts_fast[3][s->name_fast]) return false;
+            if (Fast::banParts_fast[4][c->name_fast]) return false;
 
             if (!Fast::includeCategories_fast[c->category_fast]) return false;
             if (!RangeFilter(c->timeToAim, Input::timeToAimRange)) return false;
@@ -1232,7 +1236,7 @@ namespace Prune
 
         bool CoreFilter(Core *core) // These filters require no gun calculation and can be immediately checked on the part itself
         {
-            if (VectorContains(Fast::banParts_fast[4], core->name_fast)) return false;
+            if (Fast::banParts_fast[4][core->name_fast]) return false;
             if (Fast::forceParts_fast[4] != NILINT && Fast::forceParts_fast[4] != core->name_fast) return false;
             if (!Fast::includeCategories_fast[core->category_fast]) return false;
             if (!Fast::RangeFilter(core->timeToAim, Input::timeToAimRange)) return false;
@@ -1241,7 +1245,7 @@ namespace Prune
 
         bool MagazineFilter(Magazine *magazine)
         {
-            if (VectorContains(Fast::banParts_fast[1], magazine->name_fast)) return false;
+            if (Fast::banParts_fast[1][magazine->name_fast]) return false;
             if (Fast::forceParts_fast[1] != NILINT && Fast::forceParts_fast[1] != magazine->name_fast) return false;
             if (!Fast::RangeFilter(magazine->magazineSize, Input::magazineRange)) return false;
             return true;
@@ -1249,21 +1253,21 @@ namespace Prune
 
         bool BarrelFilter(Barrel *barrel)
         {
-            if (VectorContains(Fast::banParts_fast[0], barrel->name_fast)) return false;
+            if (Fast::banParts_fast[0][barrel->name_fast]) return false;
             if (Fast::forceParts_fast[0] != NILINT && Fast::forceParts_fast[0] != barrel->name_fast) return false;
             return true;
         }
 
         bool GripFilter(Grip *grip)
         {
-            if (VectorContains(Fast::banParts_fast[2], grip->name_fast)) return false;
+            if (Fast::banParts_fast[2][grip->name_fast]) return false;
             if (Fast::forceParts_fast[2] != NILINT && Fast::forceParts_fast[2] != grip->name_fast) return false;
             return true;
         }
 
         bool StockFilter(Stock *stock)
         {
-            if (VectorContains(Fast::banParts_fast[3], stock->name_fast)) return false;
+            if (Fast::banParts_fast[3][stock->name_fast]) return false;
             if (Fast::forceParts_fast[3] != NILINT && Fast::forceParts_fast[3] != stock->name_fast) return false;
             return true;
         }
@@ -1453,7 +1457,7 @@ namespace Prune
             if (validCombo)
                 CustomPushback(validGuns1, validGunCount1, currentGun);
         }
-        printf("%d: Total valid cores: %lu / %u\n", threadId, validGunCount1, coreCount);
+        printf("%d: Total valid cores: %lu / %lu\n", threadId, validGunCount1, coreCount);
 
         // validGuns1 -> validGuns2 (Parsing core + magazine)
         for (int g = 0; g < validGunCount1; g++)
@@ -1471,7 +1475,7 @@ namespace Prune
                     CustomPushback(validGuns2, validGunCount2, currentGun);
             }
         }
-        printf("%d: Total valid core + mag: %lu / %u\n", threadId, validGunCount2, coreCount * magazineCount);
+        printf("%d: Total valid core + mag: %lu / %lu\n", threadId, validGunCount2, coreCount * magazineCount);
         validGunCount1 = 0;
 
         // validGuns2 -> validGuns1 (Parsing core + magazine + barrel)
@@ -1488,7 +1492,7 @@ namespace Prune
                     CustomPushback(validGuns1, validGunCount1, currentGun);
             }
         }
-        printf("%d: Total valid core + mag + barrel: %lu / %u\n", threadId, validGunCount1, coreCount * magazineCount * barrelCount);
+        printf("%d: Total valid core + mag + barrel: %lu / %lu\n", threadId, validGunCount1, coreCount * magazineCount * barrelCount);
         validGunCount2 = 0;
 
         // validGuns1 -> validGuns2 (Parsing core + magazine + barrel + grip)
@@ -1505,7 +1509,7 @@ namespace Prune
                     CustomPushback(validGuns2, validGunCount2, currentGun);
             }
         }
-        printf("%d: Total valid core + mag + barrel + grip: %lu / %u\n", threadId, validGunCount2, coreCount * magazineCount * barrelCount * gripCount);
+        printf("%d: Total valid core + mag + barrel + grip: %lu / %lu\n", threadId, validGunCount2, coreCount * magazineCount * barrelCount * gripCount);
         validGunCount1 = 0;
 
         // validGuns2 * stocks -> Outputs to PQ
@@ -1537,7 +1541,7 @@ namespace Prune
                 }
             }
         }
-        printf("%d: Total valid core + mag + barrel + grip + stock: %lu / %u\n", threadId, validGunCount1, coreCount * magazineCount * barrelCount * gripCount * stockCount);
+        printf("%d: Total valid core + mag + barrel + grip + stock: %lu / %lu\n", threadId, validGunCount1, coreCount * magazineCount * barrelCount * gripCount * stockCount);
     }
 }
 
@@ -1617,7 +1621,7 @@ int main(int argc, char* argv[])
 
     if (!std::filesystem::exists(fullDataPath) || !std::filesystem::exists(penaltiesPath))
     {
-        std::cout << "Files " << fullDataPath << " and " << penaltiesPath << " are required\n";
+        std::cout << "Files " << fullDataPath << " and " << penaltiesPath << " are required but don't exist (Did you install this correctly?)\n";
         throw std::invalid_argument("Required files not found");
     }
 
@@ -1674,7 +1678,7 @@ int main(int argc, char* argv[])
     Prune::HighLow::InitializeHighestAndLowestMultParts();
 
     totalCombinations = barrelCount * magazineCount * gripCount * stockCount * coreCount;
-    printf("Barrels detected: %d, Magazines detected: %d, Grips detected: %d, Stocks detected: %d, Cores detected: %d\n", barrelCount, magazineCount, gripCount, stockCount, coreCount);
+    printf("Barrels detected: %lu, Magazines detected: %lu, Grips detected: %lu, Stocks detected: %lu, Cores detected: %lu\n", barrelCount, magazineCount, gripCount, stockCount, coreCount);
     printf("Total of %lu possibilities \n", totalCombinations);
     printf("Starting %s with %d threads\n", Input::method.c_str(), Input::threadsToMake);
 
@@ -1709,17 +1713,17 @@ int main(int argc, char* argv[])
     uint64_t milliseconds = (total_us % 1000000) / 1000;
     uint64_t microseconds = total_us % 1000;
 
-    puts("Bruteforce completed");
+    printf("%s completed\n", Input::method.c_str());
     std::cout << "Elapsed time: "
          << minutes << " minute(s), "
          << seconds << " second(s), "
          << milliseconds << " millisecond(s), and "
          << microseconds << " microsecond(s)\n";
 
-    unsigned int totalValidGuns = 0;
+    uint64_t totalValidGuns = 0;
     for (int i = 0; i < Input::threadsToMake; i++)
         totalValidGuns += validGunInThread[i];
-    printf("Total valid gun combinations based on filters: %u / %u\n", totalValidGuns, coreCount * magazineCount * barrelCount * gripCount * stockCount);
+    printf("Total valid gun combinations based on filters: %lu / %lu\n", totalValidGuns, coreCount * magazineCount * barrelCount * gripCount * stockCount);
 
     PQ::topGuns = PQ::Create();
 

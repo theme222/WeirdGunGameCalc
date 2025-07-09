@@ -739,8 +739,8 @@ Detection_Radius: 200
 Suppression: 1
 Recoil_Hip_Horizontal: -14 - 14
 Recoil_Hip_Vertical: 150 - 190
-Recoil_Aim_Horizontal: -5.6 - 5.6
-Recoil_Aim_Vertical: -60 - 76
+Recoil_Aim_Horizontal: -8.4 - 8.4
+Recoil_Aim_Vertical: 90 - 114
 ---
 Core: JSG12
 Damage: 144 > 12
@@ -812,7 +812,7 @@ Movement_Speed_Modifier: -5%
 ---
 Core: Loaf
 Damage: 17.5 > 14
-Dropoff_Studs: 150 > 200
+Dropoff_Studs: 150 > 220
 Fire_Rate: 500
 Hipfire_Spread: 2
 ADS_Spread: 0.24
@@ -826,7 +826,7 @@ Recoil_Aim_Vertical: 30.4 - 37.6
 ---
 Core: Gaming Rig
 Damage: 16.5 > 13.2
-Dropoff_Studs: 130 > 195
+Dropoff_Studs: 140 > 195
 Fire_Rate: 600
 Hipfire_Spread: 6
 ADS_Spread: 0.3

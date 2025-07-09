@@ -1,162 +1,162 @@
-./Calculator -o InterestingBuilds/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 --bc FC200SH --pelletMin 2 
+./Calculator -o InterestingBuilds/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 --bc FC200SH 
 Current top 10 guns are: 
-Gun contains[ Barrel: Words as Weapons, Magazine: AKM, Grip: Auto-5, Stock: FAL, Core: Hex Spitter ]
-damage: 25.054 - 22.5486
-dropoffStuds: 156 - 312
-pellets: 2
-fireRate: 693
-adsSpread: 0.67688
-hipfireSpread: 2.36908
-reloadTime: 2.4
-magazineSize: 30
+[ Barrel: PPSh-41, Magazine: The Chief, Grip: PPSh-41, Stock: AR-8X, Core: Type 2a Nambu ]
+damage: 25.5676 - 11.5663
+dropoffStuds: 153.44 - 169.88
+pellets: 1
+fireRate: 721.354
+adsSpread: 0.520428
+hipfireSpread: 3.46952
+reloadTime: 5.4625
+magazineSize: 36
 health: 0
-recoilHipVertical: 42.12 - 56.16
-recoilAimVertical: 21.06 - 28.08
-movementSpeed: 0.16
-detectionRadius: 77.175
-TTK: 0.25974 Seconds
+recoilHipVertical: 35.9375 - 50.3125
+recoilAimVertical: 23.2875 - 32.6313
+movementSpeed: 4.3
+detectionRadius: 80
+TTK: 0.249531 Seconds
 
-Gun contains[ Barrel: Words as Weapons, Magazine: Words as Weapons, Grip: Auto-5, Stock: FAL, Core: Hex Spitter ]
-damage: 25.054 - 22.5486
-dropoffStuds: 156 - 312
-pellets: 2
-fireRate: 693
-adsSpread: 0.67688
-hipfireSpread: 2.36908
-reloadTime: 2.4
-magazineSize: 30
+[ Barrel: PPSh-41, Magazine: The Chief, Grip: PPSh-41, Stock: Fedorov Avtomat, Core: Type 2a Nambu ]
+damage: 25.5676 - 11.5663
+dropoffStuds: 153.44 - 169.88
+pellets: 1
+fireRate: 707.008
+adsSpread: 0.456795
+hipfireSpread: 3.0453
+reloadTime: 6.555
+magazineSize: 36
 health: 0
-recoilHipVertical: 42.12 - 56.16
-recoilAimVertical: 21.06 - 28.08
-movementSpeed: 0.16
-detectionRadius: 77.175
-TTK: 0.25974 Seconds
+recoilHipVertical: 33.4219 - 46.7906
+recoilAimVertical: 21.6574 - 30.3471
+movementSpeed: 6.3
+detectionRadius: 80
+TTK: 0.254594 Seconds
 
-Gun contains[ Barrel: Words as Weapons, Magazine: AKM, Grip: Auto-5, Stock: The Chief, Core: Hex Spitter ]
-damage: 25.054 - 22.5486
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 693
-adsSpread: 0.690453
-hipfireSpread: 2.41658
-reloadTime: 2.16
-magazineSize: 30
+[ Barrel: Hell-Trooper-23, Magazine: DP-27, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.2579 - 11.4262
+dropoffStuds: 150.332 - 166.439
+pellets: 1
+fireRate: 702.9
+adsSpread: 0.699481
+hipfireSpread: 4.66321
+reloadTime: 6.9
+magazineSize: 47
 health: 0
-recoilHipVertical: 35.64 - 47.52
-recoilAimVertical: 17.82 - 23.76
-movementSpeed: 0
-detectionRadius: 77.175
-TTK: 0.25974 Seconds
+recoilHipVertical: 35.42 - 49.588
+recoilAimVertical: 22.9522 - 32.1614
+movementSpeed: 4
+detectionRadius: 80
+TTK: 0.256082 Seconds
 
-Gun contains[ Barrel: AKM, Magazine: AKM, Grip: Auto-5, Stock: FAL, Core: Hex Spitter ]
-damage: 25.054 - 22.5486
-dropoffStuds: 156 - 312
-pellets: 2
-fireRate: 693
-adsSpread: 0.67688
-hipfireSpread: 2.36908
-reloadTime: 2.4
+[ Barrel: Hell-Trooper-23, Magazine: Type 99, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.0246 - 11.3206
+dropoffStuds: 153.171 - 169.582
+pellets: 1
+fireRate: 702.9
+adsSpread: 0.622573
+hipfireSpread: 4.15049
+reloadTime: 4.025
 magazineSize: 30
 health: 0
-recoilHipVertical: 42.12 - 56.16
-recoilAimVertical: 21.06 - 28.08
-movementSpeed: 0.16
-detectionRadius: 77.175
-TTK: 0.25974 Seconds
-
-Gun contains[ Barrel: AKM, Magazine: Words as Weapons, Grip: Auto-5, Stock: The Chief, Core: Hex Spitter ]
-damage: 25.054 - 22.5486
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 693
-adsSpread: 0.690453
-hipfireSpread: 2.41658
-reloadTime: 2.16
-magazineSize: 30
-health: 0
-recoilHipVertical: 35.64 - 47.52
-recoilAimVertical: 17.82 - 23.76
-movementSpeed: 0
-detectionRadius: 77.175
-TTK: 0.25974 Seconds
-
-Gun contains[ Barrel: Words as Weapons, Magazine: AKM, Grip: Auto-5, Stock: JSG12, Core: Hex Spitter ]
-damage: 25.054 - 22.5486
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 693
-adsSpread: 0.698936
-hipfireSpread: 2.44628
-reloadTime: 2.52
-magazineSize: 30
-health: 0
-recoilHipVertical: 32.4 - 43.2
-recoilAimVertical: 16.2 - 21.6
+recoilHipVertical: 31.625 - 44.275
+recoilAimVertical: 20.493 - 28.7155
 movementSpeed: 3
-detectionRadius: 77.175
-TTK: 0.25974 Seconds
+detectionRadius: 80
+TTK: 0.256082 Seconds
 
-Gun contains[ Barrel: Words as Weapons, Magazine: Words as Weapons, Grip: Auto-5, Stock: JSG12, Core: Hex Spitter ]
-damage: 25.054 - 22.5486
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 693
-adsSpread: 0.698936
-hipfireSpread: 2.44628
-reloadTime: 2.52
+[ Barrel: Kriss Vector, Magazine: P90, Grip: PPSh-41, Stock: AR-8X, Core: Mas-38 ]
+damage: 16.9124 - 10.7624
+dropoffStuds: 151.2 - 179.55
+pellets: 1
+fireRate: 1170.89
+adsSpread: 0.661721
+hipfireSpread: 3.67623
+reloadTime: 4.6
+magazineSize: 50
+health: 0
+recoilHipVertical: 9.35 - 28.05
+recoilAimVertical: 3.74 - 11.22
+movementSpeed: 5.2
+detectionRadius: 110
+TTK: 0.256215 Seconds
+
+[ Barrel: PPSh-41, Magazine: The Chief, Grip: PPSh-41, Stock: P90, Core: Type 2a Nambu ]
+damage: 25.5676 - 11.5663
+dropoffStuds: 153.44 - 169.88
+pellets: 1
+fireRate: 700.177
+adsSpread: 0.434069
+hipfireSpread: 2.89379
+reloadTime: 5.4625
+magazineSize: 36
+health: 0
+recoilHipVertical: 34.1406 - 47.7969
+recoilAimVertical: 22.1231 - 30.9997
+movementSpeed: 9.3
+detectionRadius: 80
+TTK: 0.257078 Seconds
+
+[ Barrel: PPSh-41, Magazine: The Chief, Grip: PPSh-41, Stock: STG-44, Core: Type 2a Nambu ]
+damage: 25.5676 - 11.5663
+dropoffStuds: 153.44 - 169.88
+pellets: 1
+fireRate: 699.494
+adsSpread: 0.420433
+hipfireSpread: 2.80289
+reloadTime: 5.681
+magazineSize: 36
+health: 0
+recoilHipVertical: 35.9375 - 50.3125
+recoilAimVertical: 23.2875 - 32.6313
+movementSpeed: 6.3
+detectionRadius: 80
+TTK: 0.257329 Seconds
+
+[ Barrel: Hell-Trooper-23, Magazine: Mas-38, Grip: PPSh-41, Stock: AR-8X, Core: Type 2a Nambu ]
+damage: 25.3656 - 11.4749
+dropoffStuds: 151.424 - 167.648
+pellets: 1
+fireRate: 696.96
+adsSpread: 0.542923
+hipfireSpread: 3.61949
+reloadTime: 3.22
+magazineSize: 32
+health: 0
+recoilHipVertical: 34.925 - 48.895
+recoilAimVertical: 22.6314 - 31.7119
+movementSpeed: 5.5
+detectionRadius: 80
+TTK: 0.258264 Seconds
+
+[ Barrel: Hell-Trooper-23, Magazine: Type 99, Grip: PPSh-41, Stock: AR-8X, Core: Type 2a Nambu ]
+damage: 25.0246 - 11.3206
+dropoffStuds: 153.171 - 169.582
+pellets: 1
+fireRate: 696.96
+adsSpread: 0.568005
+hipfireSpread: 3.7867
+reloadTime: 4.025
 magazineSize: 30
 health: 0
-recoilHipVertical: 32.4 - 43.2
-recoilAimVertical: 16.2 - 21.6
-movementSpeed: 3
-detectionRadius: 77.175
-TTK: 0.25974 Seconds
+recoilHipVertical: 27.5 - 38.5
+recoilAimVertical: 17.82 - 24.97
+movementSpeed: 1
+detectionRadius: 80
+TTK: 0.258264 Seconds
 
-Gun contains[ Barrel: Words as Weapons, Magazine: AKM, Grip: Auto-5, Stock: Arctic Warfare, Core: Hex Spitter ]
-damage: 25.054 - 22.5486
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 693
-adsSpread: 0.652278
-hipfireSpread: 2.28297
-reloadTime: 2.148
-magazineSize: 30
+[ Barrel: Hell-Trooper-23, Magazine: DP-27, Grip: PPSh-41, Stock: AR-8X, Core: Type 2a Nambu ]
+damage: 25.2579 - 11.4262
+dropoffStuds: 150.332 - 166.439
+pellets: 1
+fireRate: 696.96
+adsSpread: 0.638172
+hipfireSpread: 4.25448
+reloadTime: 6.9
+magazineSize: 47
 health: 0
-recoilHipVertical: 35.64 - 47.52
-recoilAimVertical: 17.82 - 23.76
-movementSpeed: 0
-detectionRadius: 77.175
-TTK: 0.25974 Seconds
-
-Gun contains[ Barrel: AKM, Magazine: AKM, Grip: Auto-5, Stock: Arctic Warfare, Core: Hex Spitter ]
-damage: 25.054 - 22.5486
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 693
-adsSpread: 0.652278
-hipfireSpread: 2.28297
-reloadTime: 2.148
-magazineSize: 30
-health: 0
-recoilHipVertical: 35.64 - 47.52
-recoilAimVertical: 17.82 - 23.76
-movementSpeed: 0
-detectionRadius: 77.175
-TTK: 0.25974 Seconds
-
-Gun contains[ Barrel: Words as Weapons, Magazine: Words as Weapons, Grip: Auto-5, Stock: The Chief, Core: Hex Spitter ]
-damage: 25.054 - 22.5486
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 693
-adsSpread: 0.690453
-hipfireSpread: 2.41658
-reloadTime: 2.16
-magazineSize: 30
-health: 0
-recoilHipVertical: 35.64 - 47.52
-recoilAimVertical: 17.82 - 23.76
-movementSpeed: 0
-detectionRadius: 77.175
-TTK: 0.25974 Seconds
+recoilHipVertical: 30.8 - 43.12
+recoilAimVertical: 19.9584 - 27.9664
+movementSpeed: 2
+detectionRadius: 80
+TTK: 0.258264 Seconds
 

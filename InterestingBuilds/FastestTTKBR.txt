@@ -1,6 +1,6 @@
 ./Calculator -o InterestingBuilds/FastestTTKBR.txt -i BR --speedMin -10 --spreadAimMax 0.6 --recoilAimMax 30 --magazineMin 20 --rangeMin 150 --pelletMax 1 
 Current top 10 guns are: 
-Gun contains[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: Dragunov ]
+[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: Dragunov ]
 damage: 50.478 - 29.085
 dropoffStuds: 155.4 - 666
 pellets: 1
@@ -16,7 +16,7 @@ movementSpeed: -7
 detectionRadius: 132
 TTK: 0.0952381 Seconds
 
-Gun contains[ Barrel: Negev, Magazine: Fedorov Avtomat, Grip: M1891, Stock: Fedorov Avtomat, Core: Dragunov ]
+[ Barrel: Negev, Magazine: Fedorov Avtomat, Grip: M1891, Stock: Fedorov Avtomat, Core: Dragunov ]
 damage: 50.6982 - 29.2118
 dropoffStuds: 152.6 - 654
 pellets: 1
@@ -32,7 +32,7 @@ movementSpeed: -8.1
 detectionRadius: 139.2
 TTK: 0.0973138 Seconds
 
-Gun contains[ Barrel: Negev, Magazine: Scar H, Grip: M1891, Stock: Fedorov Avtomat, Core: Dragunov ]
+[ Barrel: Negev, Magazine: Scar H, Grip: M1891, Stock: Fedorov Avtomat, Core: Dragunov ]
 damage: 52.8835 - 30.471
 dropoffStuds: 155.4 - 666
 pellets: 1
@@ -48,7 +48,7 @@ movementSpeed: -8.1
 detectionRadius: 132
 TTK: 0.0973138 Seconds
 
-Gun contains[ Barrel: PPSh-41, Magazine: Scar H, Grip: M1Garand, Stock: Speed Coil, Core: Dragunov ]
+[ Barrel: PPSh-41, Magazine: Scar H, Grip: M1Garand, Stock: Speed Coil, Core: Dragunov ]
 damage: 52.8835 - 30.471
 dropoffStuds: 155.4 - 666
 pellets: 1
@@ -64,7 +64,7 @@ movementSpeed: 1.61
 detectionRadius: 132
 TTK: 0.099755 Seconds
 
-Gun contains[ Barrel: PPSh-41, Magazine: Fedorov Avtomat, Grip: M1Garand, Stock: Speed Coil, Core: Dragunov ]
+[ Barrel: PPSh-41, Magazine: Fedorov Avtomat, Grip: M1Garand, Stock: Speed Coil, Core: Dragunov ]
 damage: 50.6982 - 29.2118
 dropoffStuds: 152.6 - 654
 pellets: 1
@@ -80,39 +80,7 @@ movementSpeed: 1.61
 detectionRadius: 139.2
 TTK: 0.099755 Seconds
 
-Gun contains[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: M40, Core: Dragunov ]
-damage: 50.478 - 29.085
-dropoffStuds: 155.4 - 666
-pellets: 1
-fireRate: 600
-adsSpread: 0.249409
-hipfireSpread: 15.7959
-reloadTime: 4.5
-magazineSize: 20
-health: 0
-recoilHipVertical: 38.8875 - 49.1813
-recoilAimVertical: 23.3325 - 29.5088
-movementSpeed: -7
-detectionRadius: 132
-TTK: 0.1 Seconds
-
-Gun contains[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Type 2a Nambu, Core: Dragunov ]
-damage: 50.478 - 29.085
-dropoffStuds: 155.4 - 666
-pellets: 1
-fireRate: 600
-adsSpread: 0.273006
-hipfireSpread: 17.2904
-reloadTime: 4.5
-magazineSize: 20
-health: 0
-recoilHipVertical: 39.525 - 49.9875
-recoilAimVertical: 23.715 - 29.9925
-movementSpeed: -5.95
-detectionRadius: 132
-TTK: 0.1 Seconds
-
-Gun contains[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: M1Garand, Core: Dragunov ]
+[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: M1Garand, Core: Dragunov ]
 damage: 50.478 - 29.085
 dropoffStuds: 160.062 - 685.98
 pellets: 1
@@ -128,7 +96,7 @@ movementSpeed: -8
 detectionRadius: 132
 TTK: 0.1 Seconds
 
-Gun contains[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Willy Fischy, Core: Dragunov ]
+[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Willy Fischy, Core: Dragunov ]
 damage: 50.478 - 29.085
 dropoffStuds: 155.4 - 666
 pellets: 1
@@ -144,7 +112,39 @@ movementSpeed: -7
 detectionRadius: 132
 TTK: 0.1 Seconds
 
-Gun contains[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Famas F1, Core: Dragunov ]
+[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: M40, Core: Dragunov ]
+damage: 50.478 - 29.085
+dropoffStuds: 155.4 - 666
+pellets: 1
+fireRate: 600
+adsSpread: 0.249409
+hipfireSpread: 15.7959
+reloadTime: 4.5
+magazineSize: 20
+health: 0
+recoilHipVertical: 38.8875 - 49.1813
+recoilAimVertical: 23.3325 - 29.5088
+movementSpeed: -7
+detectionRadius: 132
+TTK: 0.1 Seconds
+
+[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Type 2a Nambu, Core: Dragunov ]
+damage: 50.478 - 29.085
+dropoffStuds: 155.4 - 666
+pellets: 1
+fireRate: 600
+adsSpread: 0.273006
+hipfireSpread: 17.2904
+reloadTime: 4.5
+magazineSize: 20
+health: 0
+recoilHipVertical: 39.525 - 49.9875
+recoilAimVertical: 23.715 - 29.9925
+movementSpeed: -5.95
+detectionRadius: 132
+TTK: 0.1 Seconds
+
+[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Famas F1, Core: Dragunov ]
 damage: 50.478 - 29.085
 dropoffStuds: 155.4 - 666
 pellets: 1

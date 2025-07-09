@@ -224,7 +224,7 @@ Movement_Speed: -2.5%
 Grip: Negev
 Fire_Rate: +8%
 Movement_Speed: -2.5%
-Reload_Speed: +15%
+Recoil: +15%
 Spread: +5%
 ---
 Grip: Chauchat

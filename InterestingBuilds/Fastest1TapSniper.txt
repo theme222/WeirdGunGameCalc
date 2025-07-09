@@ -1,6 +1,6 @@
 ./Calculator -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper BR --damageMin 100 --spreadAimMax 0.149 --sort FIRERATE --rangeMin 350 --pelletMax 1 --speedMin -5 --magazineMin 5 
 Current top 10 guns are: 
-Gun contains[ Barrel: Snake Sniper, Magazine: M2000, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
+[ Barrel: Snake Sniper, Magazine: M2000, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
 damage: 100.459 - 90.4135
 dropoffStuds: 550 - 825
 pellets: 1
@@ -16,7 +16,7 @@ movementSpeed: -5
 detectionRadius: 300
 TTK: 0 Seconds
 
-Gun contains[ Barrel: APS, Magazine: M2000, Grip: Circuit Judge, Stock: APS, Core: Arctic Warfare ]
+[ Barrel: APS, Magazine: M2000, Grip: Circuit Judge, Stock: APS, Core: Arctic Warfare ]
 damage: 100.045 - 90.0406
 dropoffStuds: 357.5 - 536.25
 pellets: 1
@@ -32,7 +32,7 @@ movementSpeed: -5
 detectionRadius: 312.5
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Water Pipe, Magazine: M40, Grip: Musket, Stock: APS, Core: Arctic Warfare ]
+[ Barrel: Water Pipe, Magazine: M40, Grip: Musket, Stock: APS, Core: Arctic Warfare ]
 damage: 100.18 - 90.1623
 dropoffStuds: 750 - 1125
 pellets: 1
@@ -48,7 +48,7 @@ movementSpeed: -5
 detectionRadius: 437.5
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Water Pipe, Magazine: Scar H, Grip: Musket, Stock: APS, Core: Arctic Warfare ]
+[ Barrel: Water Pipe, Magazine: Scar H, Grip: Musket, Stock: APS, Core: Arctic Warfare ]
 damage: 101.037 - 90.9329
 dropoffStuds: 546.75 - 820.125
 pellets: 1
@@ -64,7 +64,7 @@ movementSpeed: -5
 detectionRadius: 481.25
 TTK: 0 Seconds
 
-Gun contains[ Barrel: M1918 BAR, Magazine: Improvised, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
+[ Barrel: M1918 BAR, Magazine: Improvised, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
 damage: 100.079 - 90.0715
 dropoffStuds: 540 - 810
 pellets: 1
@@ -80,7 +80,7 @@ movementSpeed: -0.5
 detectionRadius: 300
 TTK: 0 Seconds
 
-Gun contains[ Barrel: APS, Magazine: M2000, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
+[ Barrel: APS, Magazine: M2000, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
 damage: 100.806 - 90.7253
 dropoffStuds: 357.5 - 536.25
 pellets: 1
@@ -96,7 +96,7 @@ movementSpeed: -5
 detectionRadius: 375
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Water Pipe, Magazine: M1Garand, Grip: Musket, Stock: APS, Core: Arctic Warfare ]
+[ Barrel: Water Pipe, Magazine: M1Garand, Grip: Musket, Stock: APS, Core: Arctic Warfare ]
 damage: 102.492 - 92.243
 dropoffStuds: 555.25 - 832.875
 pellets: 1
@@ -112,7 +112,7 @@ movementSpeed: -5
 detectionRadius: 437.5
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Water Pipe, Magazine: Improvised, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
+[ Barrel: Water Pipe, Magazine: Improvised, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
 damage: 100.079 - 90.0715
 dropoffStuds: 500 - 750
 pellets: 1
@@ -128,7 +128,7 @@ movementSpeed: 0
 detectionRadius: 525
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Water Pipe, Magazine: M40, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
+[ Barrel: Water Pipe, Magazine: M40, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
 damage: 100.942 - 90.848
 dropoffStuds: 750 - 1125
 pellets: 1
@@ -144,7 +144,7 @@ movementSpeed: -5
 detectionRadius: 525
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Water Pipe, Magazine: Scar H, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
+[ Barrel: Water Pipe, Magazine: Scar H, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
 damage: 101.805 - 91.6244
 dropoffStuds: 546.75 - 820.125
 pellets: 1

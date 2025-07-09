@@ -1,22 +1,6 @@
-./Calculator -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.65 --recoilAimMax 35 --rangeMin 200 --pelletMax 1 --bc FC200SH 
+./Calculator -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.8 --recoilAimMax 30 --rangeMin 200 --pelletMax 1 --bc FC200SH 
 Current top 10 guns are: 
-Gun contains[ Barrel: FC200SH, Magazine: The Chief, Grip: Circuit Judge, Stock: Kriss Vector, Core: Scar L ]
-damage: 25.3194 - 17.6468
-dropoffStuds: 206.203 - 418.471
-pellets: 1
-fireRate: 576.18
-adsSpread: 0.628226
-hipfireSpread: 8.97466
-reloadTime: 5.13
-magazineSize: 36
-health: 0
-recoilHipVertical: 57.75 - 68.25
-recoilAimVertical: 28.875 - 34.125
-movementSpeed: 2.64
-detectionRadius: 100
-TTK: 0.312402 Seconds
-
-Gun contains[ Barrel: FC200SH, Magazine: Restroom, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: M-16 ]
+[ Barrel: FC200SH, Magazine: Restroom, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: M-16 ]
 damage: 20.3658 - 17.2917
 dropoffStuds: 205.2 - 399
 pellets: 1
@@ -32,119 +16,7 @@ movementSpeed: 0
 detectionRadius: 90
 TTK: 0.314587 Seconds
 
-Gun contains[ Barrel: FC200SH, Magazine: Words as Weapons, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: M-16 ]
-damage: 20.3658 - 17.2917
-dropoffStuds: 205.2 - 399
-pellets: 1
-fireRate: 762.905
-adsSpread: 0.43154
-hipfireSpread: 3.45232
-reloadTime: 2.8512
-magazineSize: 30
-health: 0
-recoilHipVertical: 57.5 - 69
-recoilAimVertical: 28.75 - 34.5
-movementSpeed: 0
-detectionRadius: 94.5
-TTK: 0.314587 Seconds
-
-Gun contains[ Barrel: FC200SH, Magazine: AKM, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: M-16 ]
-damage: 20.3658 - 17.2917
-dropoffStuds: 205.2 - 399
-pellets: 1
-fireRate: 762.905
-adsSpread: 0.43154
-hipfireSpread: 3.45232
-reloadTime: 2.8512
-magazineSize: 30
-health: 0
-recoilHipVertical: 57.5 - 69
-recoilAimVertical: 28.75 - 34.5
-movementSpeed: 0
-detectionRadius: 94.5
-TTK: 0.314587 Seconds
-
-Gun contains[ Barrel: FC200SH, Magazine: AKM, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: M-16 ]
-damage: 20.3658 - 17.2917
-dropoffStuds: 205.2 - 399
-pellets: 1
-fireRate: 749.034
-adsSpread: 0.294594
-hipfireSpread: 2.35675
-reloadTime: 2.9808
-magazineSize: 30
-health: 0
-recoilHipVertical: 57.5 - 69
-recoilAimVertical: 28.75 - 34.5
-movementSpeed: 0
-detectionRadius: 94.5
-TTK: 0.320413 Seconds
-
-Gun contains[ Barrel: FC200SH, Magazine: Words as Weapons, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: M-16 ]
-damage: 20.3658 - 17.2917
-dropoffStuds: 205.2 - 399
-pellets: 1
-fireRate: 749.034
-adsSpread: 0.294594
-hipfireSpread: 2.35675
-reloadTime: 2.9808
-magazineSize: 30
-health: 0
-recoilHipVertical: 57.5 - 69
-recoilAimVertical: 28.75 - 34.5
-movementSpeed: 0
-detectionRadius: 94.5
-TTK: 0.320413 Seconds
-
-Gun contains[ Barrel: FC200SH, Magazine: Words as Weapons, Grip: M1891, Stock: M1897 Trench Shotgun, Core: M-16 ]
-damage: 20.3658 - 17.2917
-dropoffStuds: 205.2 - 399
-pellets: 1
-fireRate: 742.099
-adsSpread: 0.415616
-hipfireSpread: 3.32493
-reloadTime: 2.9808
-magazineSize: 30
-health: 0
-recoilHipVertical: 57.5 - 69
-recoilAimVertical: 28.75 - 34.5
-movementSpeed: 2.8
-detectionRadius: 94.5
-TTK: 0.323407 Seconds
-
-Gun contains[ Barrel: FC200SH, Magazine: AKM, Grip: M1891, Stock: M1897 Trench Shotgun, Core: M-16 ]
-damage: 20.3658 - 17.2917
-dropoffStuds: 205.2 - 399
-pellets: 1
-fireRate: 742.099
-adsSpread: 0.415616
-hipfireSpread: 3.32493
-reloadTime: 2.9808
-magazineSize: 30
-health: 0
-recoilHipVertical: 57.5 - 69
-recoilAimVertical: 28.75 - 34.5
-movementSpeed: 2.8
-detectionRadius: 94.5
-TTK: 0.323407 Seconds
-
-Gun contains[ Barrel: FC200SH, Magazine: FC200SH, Grip: M1891, Stock: M1897 Trench Shotgun, Core: M-16 ]
-damage: 21.2832 - 18.0707
-dropoffStuds: 205.2 - 399
-pellets: 1
-fireRate: 742.099
-adsSpread: 0.490055
-hipfireSpread: 3.92044
-reloadTime: 3.9744
-magazineSize: 30
-health: 0
-recoilHipVertical: 57.5 - 69
-recoilAimVertical: 28.75 - 34.5
-movementSpeed: 0.3
-detectionRadius: 99
-TTK: 0.323407 Seconds
-
-Gun contains[ Barrel: FC200SH, Magazine: Restroom, Grip: Circuit Judge, Stock: M870 Breacher, Core: M-16 ]
+[ Barrel: FC200SH, Magazine: Restroom, Grip: Circuit Judge, Stock: M870 Breacher, Core: M-16 ]
 damage: 20.3658 - 17.2917
 dropoffStuds: 205.2 - 399
 pellets: 1
@@ -159,4 +31,132 @@ recoilAimVertical: 23 - 27.6
 movementSpeed: 5
 detectionRadius: 90
 TTK: 0.329567 Seconds
+
+[ Barrel: FC200SH, Magazine: FC200SH, Grip: Spas-12, Stock: Auto-5, Core: M-16 ]
+damage: 20.2296 - 17.1761
+dropoffStuds: 205.2 - 399
+pellets: 1
+fireRate: 728.227
+adsSpread: 0.366926
+hipfireSpread: 2.93541
+reloadTime: 3.456
+magazineSize: 30
+health: 0
+recoilHipVertical: 50 - 60
+recoilAimVertical: 25 - 30
+movementSpeed: 0
+detectionRadius: 99
+TTK: 0.329567 Seconds
+
+[ Barrel: FC200SH, Magazine: FC200SH, Grip: M1897 Trench Shotgun, Stock: Auto-5, Core: M-16 ]
+damage: 20.2296 - 17.1761
+dropoffStuds: 205.2 - 399
+pellets: 1
+fireRate: 728.227
+adsSpread: 0.366926
+hipfireSpread: 2.93541
+reloadTime: 3.8016
+magazineSize: 30
+health: 0
+recoilHipVertical: 50 - 60
+recoilAimVertical: 25 - 30
+movementSpeed: 2.5
+detectionRadius: 99
+TTK: 0.329567 Seconds
+
+[ Barrel: FC200SH, Magazine: AKM, Grip: M1891, Stock: AR-8X, Core: M-16 ]
+damage: 20.3658 - 17.2917
+dropoffStuds: 205.2 - 399
+pellets: 1
+fireRate: 721.86
+adsSpread: 0.379188
+hipfireSpread: 3.0335
+reloadTime: 2.9808
+magazineSize: 30
+health: 0
+recoilHipVertical: 50 - 60
+recoilAimVertical: 25 - 30
+movementSpeed: 0.8
+detectionRadius: 94.5
+TTK: 0.332475 Seconds
+
+[ Barrel: FC200SH, Magazine: Words as Weapons, Grip: M1891, Stock: AR-8X, Core: M-16 ]
+damage: 20.3658 - 17.2917
+dropoffStuds: 205.2 - 399
+pellets: 1
+fireRate: 721.86
+adsSpread: 0.379188
+hipfireSpread: 3.0335
+reloadTime: 2.9808
+magazineSize: 30
+health: 0
+recoilHipVertical: 50 - 60
+recoilAimVertical: 25 - 30
+movementSpeed: 0.8
+detectionRadius: 94.5
+TTK: 0.332475 Seconds
+
+[ Barrel: FC200SH, Magazine: Restroom, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: M-16 ]
+damage: 20.3658 - 17.2917
+dropoffStuds: 205.2 - 399
+pellets: 1
+fireRate: 721.292
+adsSpread: 0.448733
+hipfireSpread: 3.58986
+reloadTime: 3.7584
+magazineSize: 35
+health: 0
+recoilHipVertical: 36.8 - 44.16
+recoilAimVertical: 18.4 - 22.08
+movementSpeed: 0
+detectionRadius: 90
+TTK: 0.332736 Seconds
+
+[ Barrel: FC200SH, Magazine: Words as Weapons, Grip: M1897 Trench Shotgun, Stock: Fedorov Avtomat, Core: M-16 ]
+damage: 20.3658 - 17.2917
+dropoffStuds: 205.2 - 399
+pellets: 1
+fireRate: 721.292
+adsSpread: 0.345576
+hipfireSpread: 2.76461
+reloadTime: 3.42144
+magazineSize: 30
+health: 0
+recoilHipVertical: 46 - 55.2
+recoilAimVertical: 23 - 27.6
+movementSpeed: 0
+detectionRadius: 94.5
+TTK: 0.332736 Seconds
+
+[ Barrel: FC200SH, Magazine: AKM, Grip: M1897 Trench Shotgun, Stock: Fedorov Avtomat, Core: M-16 ]
+damage: 20.3658 - 17.2917
+dropoffStuds: 205.2 - 399
+pellets: 1
+fireRate: 721.292
+adsSpread: 0.345576
+hipfireSpread: 2.76461
+reloadTime: 3.42144
+magazineSize: 30
+health: 0
+recoilHipVertical: 46 - 55.2
+recoilAimVertical: 23 - 27.6
+movementSpeed: 0
+detectionRadius: 94.5
+TTK: 0.332736 Seconds
+
+[ Barrel: FC200SH, Magazine: The Chief, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: As-Val ]
+damage: 21.1762 - 17.4934
+dropoffStuds: 217.056 - 287.28
+pellets: 1
+fireRate: 720.225
+adsSpread: 0.604156
+hipfireSpread: 3.45232
+reloadTime: 5.13
+magazineSize: 36
+health: 0
+recoilHipVertical: 43.125 - 57.5
+recoilAimVertical: 21.5625 - 28.75
+movementSpeed: 0
+detectionRadius: 60
+TTK: 0.333229 Seconds
 

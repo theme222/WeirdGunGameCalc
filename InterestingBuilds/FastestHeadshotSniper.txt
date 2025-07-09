@@ -1,6 +1,6 @@
 ./Calculator -o InterestingBuilds/FastestHeadshotSniper.txt -i Sniper BR --speedMin 0 --damageMin 50 --spreadAimMax 0.15 --sort FIRERATE --rangeMin 350 --pelletMax 1 --magazineMin 5 
 Current top 10 guns are: 
-Gun contains[ Barrel: M40, Magazine: M40, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield ]
+[ Barrel: M40, Magazine: M40, Grip: Arctic Warfare, Stock: Arctic Warfare, Core: Lee Enfield ]
 damage: 57.042 - 45.6336
 dropoffStuds: 562.5 - 843.75
 pellets: 1
@@ -16,7 +16,7 @@ movementSpeed: 0
 detectionRadius: 200
 TTK: 1.09091 Seconds
 
-Gun contains[ Barrel: Mustard, Magazine: M1891, Grip: M1891, Stock: UNP-40, Core: M40 ]
+[ Barrel: Mustard, Magazine: M1891, Grip: M1891, Stock: UNP-40, Core: M40 ]
 damage: 52.0822 - 45.5483
 dropoffStuds: 360 - 600
 pellets: 1
@@ -32,7 +32,7 @@ movementSpeed: 1.28
 detectionRadius: 215
 TTK: 1.1232 Seconds
 
-Gun contains[ Barrel: Mustard, Magazine: M1891, Grip: M1891, Stock: MG42, Core: M40 ]
+[ Barrel: Mustard, Magazine: M1891, Grip: M1891, Stock: MG42, Core: M40 ]
 damage: 52.0822 - 45.5483
 dropoffStuds: 360 - 600
 pellets: 1
@@ -48,7 +48,7 @@ movementSpeed: 1.8
 detectionRadius: 215
 TTK: 1.1232 Seconds
 
-Gun contains[ Barrel: Mustard, Magazine: M1891, Grip: M1891, Stock: JSG12, Core: M40 ]
+[ Barrel: Mustard, Magazine: M1891, Grip: M1891, Stock: JSG12, Core: M40 ]
 damage: 52.0822 - 45.5483
 dropoffStuds: 360 - 600
 pellets: 1
@@ -64,7 +64,7 @@ movementSpeed: 0.8
 detectionRadius: 215
 TTK: 1.1232 Seconds
 
-Gun contains[ Barrel: M40, Magazine: Arctic Warfare, Grip: PPSh-41, Stock: FAL, Core: Lee Enfield ]
+[ Barrel: M40, Magazine: Arctic Warfare, Grip: PPSh-41, Stock: FAL, Core: Lee Enfield ]
 damage: 58.9921 - 47.1937
 dropoffStuds: 488.672 - 733.008
 pellets: 1
@@ -80,7 +80,7 @@ movementSpeed: 0.17
 detectionRadius: 200
 TTK: 1.14351 Seconds
 
-Gun contains[ Barrel: M40, Magazine: Arctic Warfare, Grip: PPSh-41, Stock: Arctic Warfare, Core: Lee Enfield ]
+[ Barrel: M40, Magazine: Arctic Warfare, Grip: PPSh-41, Stock: Arctic Warfare, Core: Lee Enfield ]
 damage: 58.9921 - 47.1937
 dropoffStuds: 468.75 - 703.125
 pellets: 1
@@ -96,7 +96,7 @@ movementSpeed: 0
 detectionRadius: 200
 TTK: 1.14351 Seconds
 
-Gun contains[ Barrel: M40, Magazine: Arctic Warfare, Grip: Mas-38, Stock: FAL, Core: Lee Enfield ]
+[ Barrel: M40, Magazine: Arctic Warfare, Grip: Mas-38, Stock: FAL, Core: Lee Enfield ]
 damage: 58.9921 - 47.1937
 dropoffStuds: 454.465 - 681.697
 pellets: 1
@@ -112,7 +112,7 @@ movementSpeed: 1.37
 detectionRadius: 200
 TTK: 1.17 Seconds
 
-Gun contains[ Barrel: M40, Magazine: Arctic Warfare, Grip: Mas-38, Stock: Arctic Warfare, Core: Lee Enfield ]
+[ Barrel: M40, Magazine: Arctic Warfare, Grip: Mas-38, Stock: Arctic Warfare, Core: Lee Enfield ]
 damage: 58.9921 - 47.1937
 dropoffStuds: 435.938 - 653.906
 pellets: 1
@@ -128,35 +128,35 @@ movementSpeed: 1.2
 detectionRadius: 200
 TTK: 1.17 Seconds
 
-Gun contains[ Barrel: M40, Magazine: Arctic Warfare, Grip: Controller, Stock: FAL, Core: Lee Enfield ]
-damage: 58.9921 - 47.1937
-dropoffStuds: 488.672 - 733.008
-pellets: 1
-fireRate: 50.985
-adsSpread: 0.1402
-hipfireSpread: 2.804
-reloadTime: 5
-magazineSize: 5
-health: 0
-recoilHipVertical: 155.61 - 207.48
-recoilAimVertical: 62.244 - 82.992
-movementSpeed: 0.17
-detectionRadius: 200
-TTK: 1.17682 Seconds
-
-Gun contains[ Barrel: M40, Magazine: Arctic Warfare, Grip: Auto-5, Stock: Arctic Warfare, Core: Lee Enfield ]
+[ Barrel: M40, Magazine: Arctic Warfare, Grip: Auto-5, Stock: M40, Core: Lee Enfield ]
 damage: 57.532 - 46.0256
 dropoffStuds: 468.75 - 703.125
 pellets: 1
 fireRate: 50.985
-adsSpread: 0.118415
-hipfireSpread: 2.36831
-reloadTime: 4.25
+adsSpread: 0.145533
+hipfireSpread: 2.91067
+reloadTime: 5
 magazineSize: 5
 health: 0
-recoilHipVertical: 123.77 - 165.026
-recoilAimVertical: 49.5079 - 66.0106
+recoilHipVertical: 101.266 - 135.022
+recoilAimVertical: 40.5065 - 54.0086
 movementSpeed: 0
+detectionRadius: 200
+TTK: 1.17682 Seconds
+
+[ Barrel: M40, Magazine: Arctic Warfare, Grip: Controller, Stock: MG42, Core: Lee Enfield ]
+damage: 58.9921 - 47.1937
+dropoffStuds: 468.75 - 703.125
+pellets: 1
+fireRate: 50.985
+adsSpread: 0.145533
+hipfireSpread: 2.91067
+reloadTime: 6
+magazineSize: 5
+health: 0
+recoilHipVertical: 119.7 - 159.6
+recoilAimVertical: 47.88 - 63.84
+movementSpeed: 2.8
 detectionRadius: 200
 TTK: 1.17682 Seconds
 

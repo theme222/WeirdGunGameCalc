@@ -56,7 +56,7 @@ Magazine: Scar Drum
 Magazine_Size: 50
 Reload_Time: 4s
 Recoil: -10%
-Damage: -5%
+Range: -5%
 ---
 Magazine: Hell-Trooper-23
 Magazine_Size: 45

@@ -1,6 +1,6 @@
 ./Calculator -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 2 --rangeMin 100 --pelletMin 12 
 Current top 10 guns are: 
-Gun contains[ Barrel: Arctic Warfare, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
+[ Barrel: Arctic Warfare, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
 damage: 149.526 - 24.921
 dropoffStuds: 100.781 - 174.688
 pellets: 13
@@ -16,7 +16,7 @@ movementSpeed: 9
 detectionRadius: 100
 TTK: 0 Seconds
 
-Gun contains[ Barrel: M1891, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
+[ Barrel: M1891, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
 damage: 145.993 - 24.3322
 dropoffStuds: 103.125 - 178.75
 pellets: 13
@@ -32,7 +32,7 @@ movementSpeed: 9
 detectionRadius: 100
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Dragunov, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
+[ Barrel: Dragunov, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
 damage: 145.993 - 24.3322
 dropoffStuds: 104.437 - 181.025
 pellets: 13
@@ -48,7 +48,7 @@ movementSpeed: 9
 detectionRadius: 100
 TTK: 0 Seconds
 
-Gun contains[ Barrel: M-16, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
+[ Barrel: M-16, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
 damage: 145.993 - 24.3322
 dropoffStuds: 102.75 - 178.1
 pellets: 13
@@ -64,7 +64,7 @@ movementSpeed: 9
 detectionRadius: 100
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Dragunov, Magazine: M40, Grip: Blunderbuss, Stock: Type 99, Core: M1887 ]
+[ Barrel: Dragunov, Magazine: M40, Grip: Blunderbuss, Stock: Type 99, Core: M1887 ]
 damage: 153.418 - 25.5696
 dropoffStuds: 104.437 - 181.025
 pellets: 13
@@ -80,7 +80,7 @@ movementSpeed: 1
 detectionRadius: 100
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Arctic Warfare, Magazine: M40, Grip: Blunderbuss, Stock: Type 99, Core: M1887 ]
+[ Barrel: Arctic Warfare, Magazine: M40, Grip: Blunderbuss, Stock: Type 99, Core: M1887 ]
 damage: 157.13 - 26.1884
 dropoffStuds: 100.781 - 174.688
 pellets: 13
@@ -96,7 +96,7 @@ movementSpeed: 1
 detectionRadius: 100
 TTK: 0 Seconds
 
-Gun contains[ Barrel: M1891, Magazine: M40, Grip: Blunderbuss, Stock: Type 99, Core: M1887 ]
+[ Barrel: M1891, Magazine: M40, Grip: Blunderbuss, Stock: Type 99, Core: M1887 ]
 damage: 153.418 - 25.5696
 dropoffStuds: 103.125 - 178.75
 pellets: 13
@@ -112,7 +112,7 @@ movementSpeed: 1
 detectionRadius: 100
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Dragunov, Magazine: M40, Grip: Blunderbuss, Stock: Fedorov Avtomat, Core: M1887 ]
+[ Barrel: Dragunov, Magazine: M40, Grip: Blunderbuss, Stock: Fedorov Avtomat, Core: M1887 ]
 damage: 153.418 - 25.5696
 dropoffStuds: 104.437 - 181.025
 pellets: 13
@@ -128,7 +128,7 @@ movementSpeed: 4
 detectionRadius: 100
 TTK: 0 Seconds
 
-Gun contains[ Barrel: M1891, Magazine: M40, Grip: Blunderbuss, Stock: Fedorov Avtomat, Core: M1887 ]
+[ Barrel: M1891, Magazine: M40, Grip: Blunderbuss, Stock: Fedorov Avtomat, Core: M1887 ]
 damage: 153.418 - 25.5696
 dropoffStuds: 103.125 - 178.75
 pellets: 13
@@ -144,7 +144,7 @@ movementSpeed: 4
 detectionRadius: 100
 TTK: 0 Seconds
 
-Gun contains[ Barrel: Arctic Warfare, Magazine: M40, Grip: Blunderbuss, Stock: Fedorov Avtomat, Core: M1887 ]
+[ Barrel: Arctic Warfare, Magazine: M40, Grip: Blunderbuss, Stock: Fedorov Avtomat, Core: M1887 ]
 damage: 157.13 - 26.1884
 dropoffStuds: 100.781 - 174.688
 pellets: 13

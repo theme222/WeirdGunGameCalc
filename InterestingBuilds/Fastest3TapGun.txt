@@ -1,6 +1,6 @@
 ./Calculator -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 
 Current top 10 guns are: 
-Gun contains[ Barrel: APS, Magazine: Hell-Trooper-23, Grip: Circuit Judge, Stock: APS, Core: FC200SH ]
+[ Barrel: APS, Magazine: Hell-Trooper-23, Grip: Circuit Judge, Stock: APS, Core: FC200SH ]
 damage: 33.6409 - 26.9128
 dropoffStuds: 117 - 227.5
 pellets: 1
@@ -16,7 +16,7 @@ movementSpeed: 0
 detectionRadius: 218.75
 TTK: 0.210526 Seconds
 
-Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: FC200SH ]
+[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: FC200SH ]
 damage: 33.7044 - 26.9635
 dropoffStuds: 131.04 - 254.8
 pellets: 1
@@ -32,7 +32,7 @@ movementSpeed: 0
 detectionRadius: 218.75
 TTK: 0.212653 Seconds
 
-Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Lee Enfield, Core: FC200SH ]
+[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Lee Enfield, Core: FC200SH ]
 damage: 33.7044 - 26.9635
 dropoffStuds: 104.832 - 203.84
 pellets: 1
@@ -48,7 +48,7 @@ movementSpeed: 0
 detectionRadius: 218.75
 TTK: 0.218615 Seconds
 
-Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Kriss Vector, Core: FC200SH ]
+[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Kriss Vector, Core: FC200SH ]
 damage: 33.7044 - 26.9635
 dropoffStuds: 124.488 - 242.06
 pellets: 1
@@ -64,7 +64,7 @@ movementSpeed: 2.64
 detectionRadius: 218.75
 TTK: 0.221513 Seconds
 
-Gun contains[ Barrel: M870 Breacher, Magazine: The Chief, Grip: Type 2a Nambu, Stock: APS, Core: FC200SH ]
+[ Barrel: M870 Breacher, Magazine: The Chief, Grip: Type 2a Nambu, Stock: APS, Core: FC200SH ]
 damage: 33.4805 - 26.7844
 dropoffStuds: 151.2 - 294
 pellets: 1
@@ -80,7 +80,7 @@ movementSpeed: 3
 detectionRadius: 175
 TTK: 0.222222 Seconds
 
-Gun contains[ Barrel: M870 Breacher, Magazine: The Chief, Grip: Circuit Judge, Stock: APS, Core: FC200SH ]
+[ Barrel: M870 Breacher, Magazine: The Chief, Grip: Circuit Judge, Stock: APS, Core: FC200SH ]
 damage: 35.126 - 28.1008
 dropoffStuds: 151.2 - 294
 pellets: 1
@@ -96,7 +96,7 @@ movementSpeed: 3
 detectionRadius: 175
 TTK: 0.222222 Seconds
 
-Gun contains[ Barrel: M870 Breacher, Magazine: STG-44, Grip: Circuit Judge, Stock: APS, Core: FC200SH ]
+[ Barrel: M870 Breacher, Magazine: STG-44, Grip: Circuit Judge, Stock: APS, Core: FC200SH ]
 damage: 33.6745 - 26.9396
 dropoffStuds: 135 - 262.5
 pellets: 1
@@ -112,7 +112,7 @@ movementSpeed: 3
 detectionRadius: 175
 TTK: 0.222222 Seconds
 
-Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: M870 Breacher, Core: FC200SH ]
+[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: M870 Breacher, Core: FC200SH ]
 damage: 33.7044 - 26.9635
 dropoffStuds: 131.04 - 254.8
 pellets: 1
@@ -128,7 +128,7 @@ movementSpeed: 5
 detectionRadius: 218.75
 TTK: 0.222779 Seconds
 
-Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: FC200SH ]
+[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: FC200SH ]
 damage: 33.7044 - 26.9635
 dropoffStuds: 131.04 - 254.8
 pellets: 1
@@ -144,7 +144,7 @@ movementSpeed: 0
 detectionRadius: 218.75
 TTK: 0.224921 Seconds
 
-Gun contains[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: STG-44, Core: FC200SH ]
+[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: STG-44, Core: FC200SH ]
 damage: 33.7044 - 26.9635
 dropoffStuds: 131.04 - 254.8
 pellets: 1

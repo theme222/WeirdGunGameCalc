@@ -192,3 +192,7 @@ fabric.properties
 Calculator
 Results.txt
 Calculator.exe
+
+RobloxMemory/
+RobloxMemoryFormat.py
+Data/DiffData.json
