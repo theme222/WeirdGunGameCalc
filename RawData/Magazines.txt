@@ -4,7 +4,7 @@ Magazine: AKM
 Magazine_Size: 30
 Reload_Time: 2.4s
 Detection_Radius: 5
-Damage: +10%
+Damage: +6%
 ---
 Magazine: M-16
 Magazine_Size: 30
@@ -39,14 +39,14 @@ Spread: +15%
 ---
 Magazine: STG-44
 Magazine_Size: 30
-Reload_Time: 2.5s
-Damage: +15%
+Reload_Time: 2.9s
+Damage: +10%
 Fire_Rate: -10%
 ---
 Magazine: The Chief
 Magazine_Size: 36
-Reload_Time: 3.8s
-Damage: +20%
+Reload_Time: 4.2s
+Damage: +13%
 Fire_Rate: -10%
 Recoil: +25%
 Reload_Speed: +25%
@@ -61,14 +61,14 @@ Range: -5%
 Magazine: Hell-Trooper-23
 Magazine_Size: 45
 Reload_Time: 4s
-Damage: +13%
+Damage: +7.5%
 Recoil: +15%
 Spread: +22%
 ---
 Magazine: Hex Spitter
 Magazine_Size: 35
 Reload_Time: 4.2
-Damage: +11%
+Damage: +8%
 Pellets: +100%
 Spread: -13%
 Range: -14%
@@ -76,7 +76,7 @@ Recoil: +38%
 ---
 Magazine: APS
 Magazine_Size: 26
-Reload_Time: 7
+Reload_Time: 6
 Damage: +25%
 Detection_Radius: 25
 Fire_Rate: -10%
@@ -91,7 +91,7 @@ Recoil: -5%
 Magazine: FC200SH
 Magazine_Size: 30
 Reload_Time: 3.2
-Damage: +15%
+Damage: +8.5%
 Detection_Radius: +10%
 Movement_Speed: -2.5%
 Spread: +18%
@@ -195,6 +195,9 @@ Magazine_Size: 20
 Reload_Time: 1.2s
 Movement_Speed: +9%
 Damage: -15%
+Fire_Rate: +4%
+Range: -10%
+Spread: +7%
 ---
 Magazine: Tommy
 Magazine_Size: 20
@@ -238,7 +241,8 @@ Range: -5%
 Magazine: Kriss Vector
 Magazine_Size: 30
 Reload_Time: 2.4s
-Fire_Rate: +25%
+Fire_Rate: +21%
+Damage: -4%
 Movement_Speed: +3.3%
 Recoil: -15%
 Range: -15%
@@ -471,7 +475,7 @@ Damage: -5%
 Magazine: Words as Weapons
 Magazine_Size: 30
 Reload_Time: 2.4s
-Damage: +10%
+Damage: +5%
 Detection_Radius: 5
 ---
 Magazine: Restroom
@@ -486,12 +490,12 @@ Magazine_Size: 10
 Reload_Time: 0.8s
 Damage: +15%
 Movement_Speed: +5%
-Spread: +15%
+Spread: +25%
 ---
 Magazine: XXL AKM
 Magazine_Size: 90
 Reload_Time: 9s
-Damage: +10%
+Damage: +6%
 Detection_Radius: 15
 Movement_Speed: -10%
 Recoil: +20%
@@ -507,10 +511,10 @@ Range: -22%
 Magazine: Pastel
 Magazine_Size: 20
 Reload_Time: 4
-Damage: +20%
+Damage: +15%
 Detection_Radius: +10%
-Fire_Rate: -20%
-Recoil: +15%
+Fire_Rate: -10%
+Recoil: +27%
 ---
 Magazine: Graphics Card
 Magazine_Size: 50
