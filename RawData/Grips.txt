@@ -50,9 +50,9 @@ Recoil: -15%
 Reload_Speed: -10%
 ---
 Grip: APS
-Recoil: -10%
-Reload_Speed: -4%
-Spread: +14%
+Damage: +2%
+Recoil: -11%
+Reload_Speed: +6%
 ---
 Grip: FC200SH
 Movement_Speed: +3%
@@ -63,7 +63,6 @@ Grip: AR-8X
 Movement_Speed: +1.5%
 Spread: -14%
 Recoil: +21%
----
 
 Category: Sniper Grips
 ---
@@ -110,7 +109,6 @@ Range: +10%
 Spread: -18%
 Movement_Speed: -1.5%
 Recoil: +16%
----
 
 Category: SMG Grips
 ---
@@ -132,10 +130,9 @@ Recoil: -15%
 Reload_Speed: +10%
 ---
 Grip: NP9
-Movement_Speed: +2%
-Reload_Speed: -8%
-Recoil: +10%
-Spread: +17%
+Movement_Speed: +4.5%
+Spread: -12%
+Recoil: +18%
 ---
 Grip: MP 40
 Damage: +5%
@@ -143,10 +140,10 @@ Recoil: +30%
 Spread: +30%
 ---
 Grip: UNP-40
-Movement_Speed: +3.8%
+Movement_Speed: +2.5%
 Reload_Speed: -5%
 Spread: -20%
-Recoil: +25%
+Recoil: +40%
 ---
 Grip: PPSh-41
 Fire_Rate: +10%
@@ -154,8 +151,10 @@ Spread: -10%
 Reload_Speed: +15%
 ---
 Grip: Kriss Vector
-Movement_Speed: +3.3%
-Recoil: -15%
+Movement_Speed: +4.5%
+Fire_Rate: +4%
+Recoil: -12%
+Spread: +8%
 ---
 Grip: Type 2a Nambu
 Damage: +6%
@@ -185,7 +184,6 @@ Fire_Rate: +5%
 Movement_Speed: +2.5%
 Recoil: -10%
 Spread: +20%
----
 
 Category: LMG Grips
 ---
@@ -232,7 +230,6 @@ Damage: +5%
 Movement_Speed: -2.5%
 Recoil: +10%
 Spread: +15%
----
 
 Category: Shotgun Grips
 ---
@@ -277,7 +274,6 @@ Grip: JSG12
 Movement_Speed: +3%
 Spread: -18%
 Recoil: +38%
----
 
 Category: Weird Grips
 ---
@@ -311,7 +307,6 @@ Fire_Rate: -5%
 Grip: Controller
 Fire_Rate: +3%
 Spread: -12%
----
 
 Category: BR Grips
 ---
