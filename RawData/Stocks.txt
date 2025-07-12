@@ -58,7 +58,8 @@ Spread: -5%
 Stock: FC200SH
 Movement_Speed: +2%
 Spread: -24%
-Fire_Rate: -13%
+Fire_Rate: -5%
+Range: +3%
 ---
 Stock: AR-8X
 Fire_Rate: +7%
@@ -115,10 +116,9 @@ Reload_Speed: +6%
 Category: SMG Stocks
 ---
 Stock: MAC-10
-Movement_Speed: +4.4%
-Reload_Speed: -20%
-Recoil: +15%
-Spread: +15%
+Movement_Speed: +4.6%
+Fire_Rate: +4.5%
+Spread: +16%
 ---
 Stock: Skorpion vz. 61
 Movement_Speed: +6%
@@ -134,7 +134,7 @@ Reload_Speed: +5%
 ---
 Stock: NP9
 Movement_Speed: +4.6%
-Spread: -10%
+Spread: -13%
 Recoil: +30%
 ---
 Stock: MP 40
@@ -181,12 +181,12 @@ Stock: NP5
 Movement_Speed: +2.5%
 Recoil: -5%
 Reload_Speed: -25%
+Spread: +14%
 ---
 Stock: NP5A3
-Movement_Speed: +4%
-Reload_Speed: -10%
-Recoil: +20%
-Spread: +20%
+Movement_Speed: +6%
+Reload_Speed: -12%
+Recoil: +16%
 ---
 Stock: P90
 Fire_Rate: +2.5%
