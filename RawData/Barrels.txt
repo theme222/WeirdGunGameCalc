@@ -506,3 +506,4 @@ Fire_Rate: +5%
 Range: +3%
 Recoil: +13%
 Reload_Speed: +4%
+---
