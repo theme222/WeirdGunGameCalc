@@ -977,3 +977,18 @@ Recoil_Hip_Vertical: 20 - 22
 Recoil_Aim_Horizontal: -3 - 3
 Recoil_Aim_Vertical: 10 - 11
 ---
+Core: FG42
+Damage: 17.5 > 10.5
+Dropoff_Studs: 130 > 325
+Fire_Rate: 900
+Hipfire_Spread: 5.5
+ADS_Spread: 0.4
+Time_To_Aim: 0.7
+Detection_Radius: 130
+Suppression: 0.5
+Recoil_Hip_Horizontal: -18 - 18
+Recoil_Hip_Vertical: 83 - 108
+Recoil_Aim_Horizontal: -13.5 - 13.5
+Recoil_Aim_Vertical: 62.3 - 81
+---
+
