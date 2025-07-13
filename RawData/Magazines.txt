@@ -179,6 +179,14 @@ Movement_Speed: -4%
 Range: -5%
 Recoil: +36%
 ---
+Magazine: Arisaka
+Magazine_Size: 5
+Reload_Time: 4
+Movement_Speed: +8%
+Spread: -18%
+Health: -2%
+Recoil: +16%
+---
 
 Category: SMG Magazines
 ---
@@ -598,4 +606,13 @@ Fire_Rate: +12%
 Range: +6%
 Recoil: +26%
 Spread: +17%
+---
+Magazine: FG-42
+Magazine_Size: 20
+Reload_Time: 3.5
+Damage: +4%
+Fire_Rate: +12%
+Spread: -11%
+Movement_Speed: -2%
+Recoil: +17%
 ---
