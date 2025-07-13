@@ -111,6 +111,11 @@ Spread: -18%
 Movement_Speed: -1.5%
 Recoil: +16%
 ---
+Grip: Arisaka
+Movement_Speed: +8%
+Spread: -17%
+Health: -6%
+---
 
 Category: SMG Grips
 ---
@@ -354,3 +359,9 @@ Spread: -23%
 Fire_Rate: -2%
 Recoil: +26%
 ---
+Grip: FG-42
+Fire_Rate: +4%
+Recoil: -8%
+Reload_Speed: +2%
+---
+
