@@ -63,6 +63,7 @@ Grip: AR-8X
 Movement_Speed: +1.5%
 Spread: -14%
 Recoil: +21%
+---
 
 Category: Sniper Grips
 ---
@@ -109,6 +110,7 @@ Range: +10%
 Spread: -18%
 Movement_Speed: -1.5%
 Recoil: +16%
+---
 
 Category: SMG Grips
 ---
@@ -184,6 +186,17 @@ Fire_Rate: +5%
 Movement_Speed: +2.5%
 Recoil: -10%
 Spread: +20%
+---
+Grip: M1 Carbine
+Movement_Speed: +4%
+Reload_Speed: -10%
+Recoil: +29%
+---
+Grip: Sten gun
+Movement_Speed: +2%
+Spread: -17%
+Recoil: +28%
+---
 
 Category: LMG Grips
 ---
@@ -230,6 +243,7 @@ Damage: +5%
 Movement_Speed: -2.5%
 Recoil: +10%
 Spread: +15%
+---
 
 Category: Shotgun Grips
 ---
@@ -274,6 +288,7 @@ Grip: JSG12
 Movement_Speed: +3%
 Spread: -18%
 Recoil: +38%
+---
 
 Category: Weird Grips
 ---
