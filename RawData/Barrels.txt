@@ -1,7 +1,7 @@
 Category: Assault Rifle Barrels
 ---
 Barrel: AKM
-Damage: +10%
+Damage: +6%
 Detection_Radius: 5
 Recoil: +20%
 ---
@@ -29,32 +29,32 @@ Spread: +15%
 Range: -5%
 ---
 Barrel: Scar L
-Damage: +5%
+Damage: +3%
 Recoil: -10%
 ---
 Barrel: STG-44
-Damage: +10%
-Recoil: +10%
-Spread: +10%
+Spread: -11%
+Range: +4%
+Recoil: +12%
 ---
 Barrel: The Chief
 Damage: +5%
 Movement_Speed: +4%
-Recoil: +10%
+Recoil: +23%
 ---
 Barrel: Hell-Trooper-23
-Damage: +12%
+Damage: +7.5%
 Recoil: +10%
 Spread: +35%
 Range: +5%
 ---
 Barrel: Hex Spitter
-Damage: +10%
+Damage: +6.5%
 Recoil: -5%
 Spread: +10%
 ---
 Barrel: C36C
-Damage: +5%
+Damage: +3%
 Reload_Speed: -10%
 ---
 Barrel: APS
@@ -65,7 +65,7 @@ Spread: +20%
 Range: -35%
 ---
 Barrel: FC200SH
-Damage: +11%
+Damage: +8.5%
 Range: +14%
 Fire_Rate: -3%
 Reload_Speed: +8%
@@ -74,6 +74,21 @@ Barrel: AR-8X
 Movement_Speed: +4%
 Spread: -23%
 Reload_Speed: +12%
+---
+Barrel: Freedom Dispenser
+Fire_Rate: +6%
+Movement_Speed: +9%
+Range: -16%
+Recoil: +18%
+Spread: +28%
+---
+Barrel: Second Amendment
+Damage: +17%
+Spread: -50%
+Fire_Rate: -12%
+Movement_Speed: -2%
+Range: -13%
+Recoil: +90%
 ---
 
 Category: Sniper Barrels
@@ -96,7 +111,7 @@ Reload_Speed: -20%
 Spread: +50%
 Range: +10%
 ---
-Barrel: Arctic Warfare
+Barrel: AWM
 Damage: +5%
 Spread: -25%
 Recoil: +75%
@@ -139,6 +154,12 @@ Fire_Rate: +3%
 Health: -5%
 Reload_Speed: +5%
 Spread: +20%
+---
+Barrel: Arisaka
+Movement_Speed: +10%
+Reload_Speed: -12%
+Health: -6%
+Recoil: +38%
 ---
 
 Category: SMG Barrels
@@ -189,6 +210,7 @@ Fire_Rate: +20%
 Movement_Speed: +3.3%
 Recoil: -15%
 Range: -10%
+Damage: -3%
 ---
 Barrel: Type 2a Nambu
 Damage: +13%
@@ -225,6 +247,18 @@ Recoil: +20%
 Spread: +25%
 Range: +2%
 ---
+Barrel: Sten gun
+Fire_Rate: +12%
+Movement_Speed: +2%
+Spread: -12%
+Range: -13%
+Recoil: +24%
+---
+Barrel: M1 Carbine
+Movement_Speed: +2.5%
+Range: +8%
+Recoil: -18%
+---
 
 Category: LMG Barrels
 ---
@@ -237,16 +271,16 @@ Movement_Speed: -3%
 Barrel: DP-27
 Damage: +13%
 Movement_Speed: -1%
-Recoil: +15%
+Recoil: +26%
 Spread: +18%
 ---
-Barrel: M1919a6
+Barrel: M1919 .30 Cal
 Recoil: -17%
 Spread: -20%
 Movement_Speed: -3%
 Reload_Speed: +12%
 ---
-Barrel: M1917
+Barrel: M1917 WC
 Fire_Rate: +20%
 Range: +9%
 Recoil: -20%
@@ -254,7 +288,7 @@ Spread: -10%
 Movement_Speed: -25%
 Reload_Speed: +15%
 ---
-Barrel: M1919
+Barrel: M1919 Tripod
 Recoil: -30%
 Spread: -50%
 Movement_Speed: -30%
@@ -374,14 +408,14 @@ Spread: +37%
 Category: Weird Barrels
 ---
 Barrel: Snake
-Damage: +15%
+Damage: +12.5%
 Fire_Rate: -5%
 Movement_Speed: -5%
 Recoil: +20%
 Spread: +40%
 ---
 Barrel: Water Pipe
-Damage: +20%
+Damage: +15%
 Fire_Rate: -12%
 Detection_Radius: 75
 Spread: +35%
@@ -398,12 +432,13 @@ Spread: +13%
 ---
 Barrel: Oil
 Damage: +20%
+Fire_Rate: -7%
 Detection_Radius: 25
 Movement_Speed: -10%
 Spread: +40%
 ---
 Barrel: Words as Weapons
-Damage: +10%
+Damage: +5%
 Detection_Radius: 5
 Recoil: +20%
 ---
@@ -444,21 +479,6 @@ Damage: +30%
 Fire_Rate: -5%
 Range: -87%
 Reload_Speed: +10%
----
-Barrel: Freedom Dispenser
-Fire_Rate: +6%
-Movement_Speed: +9%
-Range: -16%
-Recoil: +18%
-Spread: +28%
----
-Barrel: Second Amendment
-Damage: +17%
-Spread: -50%
-Fire_Rate: -12%
-Movement_Speed: -2%
-Range: -13%
-Recoil: +90%
 ---
 
 Category: BR Barrels
@@ -504,4 +524,11 @@ Fire_Rate: +5%
 Range: +3%
 Recoil: +13%
 Reload_Speed: +4%
+---
+Barrel: FG-42
+Damage: +6%
+Fire_Rate: +4%
+Range: +4%
+Recoil: +32%
+Spread: +12%
 ---

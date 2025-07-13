@@ -1,10 +1,10 @@
-Category: Assault Rifle Magazines
+aCategory: Assault Rifle Magazines
 ---
 Magazine: AKM
 Magazine_Size: 30
 Reload_Time: 2.4s
 Detection_Radius: 5
-Damage: +10%
+Damage: +6%
 ---
 Magazine: M-16
 Magazine_Size: 30
@@ -39,14 +39,14 @@ Spread: +15%
 ---
 Magazine: STG-44
 Magazine_Size: 30
-Reload_Time: 2.5s
-Damage: +15%
+Reload_Time: 2.9s
+Damage: +10%
 Fire_Rate: -10%
 ---
 Magazine: The Chief
 Magazine_Size: 36
-Reload_Time: 3.8s
-Damage: +20%
+Reload_Time: 4.2s
+Damage: +13%
 Fire_Rate: -10%
 Recoil: +25%
 Reload_Speed: +25%
@@ -61,14 +61,14 @@ Range: -5%
 Magazine: Hell-Trooper-23
 Magazine_Size: 45
 Reload_Time: 4s
-Damage: +13%
+Damage: +7.5%
 Recoil: +15%
 Spread: +22%
 ---
 Magazine: Hex Spitter
 Magazine_Size: 35
 Reload_Time: 4.2
-Damage: +11%
+Damage: +8%
 Pellets: +100%
 Spread: -13%
 Range: -14%
@@ -76,7 +76,7 @@ Recoil: +38%
 ---
 Magazine: APS
 Magazine_Size: 26
-Reload_Time: 7
+Reload_Time: 6
 Damage: +25%
 Detection_Radius: 25
 Fire_Rate: -10%
@@ -91,7 +91,7 @@ Recoil: -5%
 Magazine: FC200SH
 Magazine_Size: 30
 Reload_Time: 3.2
-Damage: +15%
+Damage: +8.5%
 Detection_Radius: +10%
 Movement_Speed: -2.5%
 Spread: +18%
@@ -179,6 +179,14 @@ Movement_Speed: -4%
 Range: -5%
 Recoil: +36%
 ---
+Magazine: Arisaka
+Magazine_Size: 5
+Reload_Time: 4
+Movement_Speed: +8%
+Spread: -18%
+Health: -2%
+Recoil: +16%
+---
 
 Category: SMG Magazines
 ---
@@ -195,6 +203,9 @@ Magazine_Size: 20
 Reload_Time: 1.2s
 Movement_Speed: +9%
 Damage: -15%
+Fire_Rate: +4%
+Range: -10%
+Spread: +7%
 ---
 Magazine: Tommy
 Magazine_Size: 20
@@ -238,7 +249,8 @@ Range: -5%
 Magazine: Kriss Vector
 Magazine_Size: 30
 Reload_Time: 2.4s
-Fire_Rate: +25%
+Fire_Rate: +21%
+Damage: -4%
 Movement_Speed: +3.3%
 Recoil: -15%
 Range: -15%
@@ -285,6 +297,21 @@ Movement_Speed: -0.2%
 Recoil: +10%
 Spread: +40%
 Range: +5%
+---
+Magazine: M1 Carbine
+Magazine_Size: 15
+Reload_Time: 2.8
+Damage: +22%
+Movement_Speed: +3%
+Recoil: +32%
+---
+Magazine: Sten gun
+Magazine_Size: 32
+Reload_Time: 3
+Damage: +7%
+Fire_Rate: +3%
+Range: -13%
+Spread: +12%
 ---
 
 Category: LMG Magazines
@@ -471,7 +498,7 @@ Damage: -5%
 Magazine: Words as Weapons
 Magazine_Size: 30
 Reload_Time: 2.4s
-Damage: +10%
+Damage: +5%
 Detection_Radius: 5
 ---
 Magazine: Restroom
@@ -486,12 +513,12 @@ Magazine_Size: 10
 Reload_Time: 0.8s
 Damage: +15%
 Movement_Speed: +5%
-Spread: +15%
+Spread: +25%
 ---
 Magazine: XXL AKM
 Magazine_Size: 90
 Reload_Time: 9s
-Damage: +10%
+Damage: +6%
 Detection_Radius: 15
 Movement_Speed: -10%
 Recoil: +20%
@@ -507,10 +534,10 @@ Range: -22%
 Magazine: Pastel
 Magazine_Size: 20
 Reload_Time: 4
-Damage: +20%
+Damage: +15%
 Detection_Radius: +10%
-Fire_Rate: -20%
-Recoil: +15%
+Fire_Rate: -10%
+Recoil: +27%
 ---
 Magazine: Graphics Card
 Magazine_Size: 50
@@ -579,4 +606,13 @@ Fire_Rate: +12%
 Range: +6%
 Recoil: +26%
 Spread: +17%
+---
+Magazine: FG-42
+Magazine_Size: 20
+Reload_Time: 3.5
+Damage: +4%
+Fire_Rate: +12%
+Spread: -11%
+Movement_Speed: -2%
+Recoil: +17%
 ---

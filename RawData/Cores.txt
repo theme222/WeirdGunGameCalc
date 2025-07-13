@@ -232,7 +232,7 @@ Recoil_Hip_Vertical: 50 - 80
 Recoil_Aim_Horizontal: -4 - 4
 Recoil_Aim_Vertical: 20 - 32
 ---
-Core: Arctic Warfare
+Core: AWM
 Damage: 60 > 54
 Dropoff_Studs: 500 > 750
 Fire_Rate: 30
@@ -319,6 +319,22 @@ Recoil_Hip_Horizontal: -5 - 5
 Recoil_Hip_Vertical: 70 - 90
 Recoil_Aim_Horizontal: -2.8 - 2.8
 Recoil_Aim_Vertical: 38.5 - 49.5
+---
+Core: Arisaka
+Damage: 58 > 52.2
+Dropoff_Studs: 400 > 700
+Fire_Rate: 55
+Hipfire_Spread: 12
+ADS_Spread: 0.15
+Time_To_Aim: 0.7
+Detection_Radius: 100
+Movement_Speed_Modifier: +5%
+Suppression: 0.8
+Health: -10%
+Recoil_Hip_Horizontal: -21 - 21
+Recoil_Hip_Vertical: 72 - 82
+Recoil_Aim_Horizontal: -9.4 - 9.4
+Recoil_Aim_Vertical: 32.4 - 36.4
 ---
 
 Category: SMG
@@ -503,6 +519,34 @@ Recoil_Hip_Vertical: 60 - 90
 Recoil_Aim_Horizontal: -10.5 - 10.5
 Recoil_Aim_Vertical: 42 - 63
 ---
+Core: Sten Gun
+Damage: 19.5 > 10.2
+Dropoff_Studs: 130 > 165
+Fire_Rate: 600
+Hipfire_Spread: 2
+ADS_Spread: 0.65
+Time_To_Aim: 0.3
+Detection_Radius: 90
+Movement_Speed_Modifier: +2.5%
+Recoil_Hip_Horizontal: -21 - 21
+Recoil_Hip_Vertical: 30 - 38
+Recoil_Aim_Horizontal: -9.7 - 9.7
+Recoil_Aim_Vertical: 13.8 - 17.5
+---
+Core: M1 Carbine
+Damage: 22 > 13.2
+Dropoff_Studs: 145 > 170
+Fire_Rate: 1100
+Hipfire_Spread: 5
+ADS_Spread: 0.3
+Time_To_Aim: 0.6
+Detection_Radius: 120
+Suppression: 0.9
+Recoil_Hip_Horizontal: -8 - 8
+Recoil_Hip_Vertical: 15 - 26
+Recoil_Aim_Horizontal: -3.2 - 3.2
+Recoil_Aim_Vertical: 6 - 10.4
+---
 
 Category: LMG
 ---
@@ -554,7 +598,7 @@ Recoil_Hip_Vertical: 60 - 70
 Recoil_Aim_Horizontal: -4.2 - 4.2
 Recoil_Aim_Vertical: 36 - 42
 ---
-Core: M1919a6
+Core: M1919 .30 Cal
 Damage: 21.5 > 15.5
 Dropoff_Studs: 190 > 380
 Fire_Rate: 500
@@ -933,3 +977,18 @@ Recoil_Hip_Vertical: 20 - 22
 Recoil_Aim_Horizontal: -3 - 3
 Recoil_Aim_Vertical: 10 - 11
 ---
+Core: FG42
+Damage: 17.5 > 10.5
+Dropoff_Studs: 130 > 325
+Fire_Rate: 900
+Hipfire_Spread: 5.5
+ADS_Spread: 0.4
+Time_To_Aim: 0.7
+Detection_Radius: 130
+Suppression: 0.5
+Recoil_Hip_Horizontal: -18 - 18
+Recoil_Hip_Vertical: 83 - 108
+Recoil_Aim_Horizontal: -13.5 - 13.5
+Recoil_Aim_Vertical: 62.3 - 81
+---
+
