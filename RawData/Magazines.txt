@@ -1,4 +1,4 @@
-Category: Assault Rifle Magazines
+aCategory: Assault Rifle Magazines
 ---
 Magazine: AKM
 Magazine_Size: 30
@@ -289,6 +289,21 @@ Movement_Speed: -0.2%
 Recoil: +10%
 Spread: +40%
 Range: +5%
+---
+Magazine: M1 Carbine
+Magazine_Size: 15
+Reload_Time: 2.8
+Damage: +22%
+Movement_Speed: +3%
+Recoil: +32%
+---
+Magazine: Sten gun
+Magazine_Size: 32
+Reload_Time: 3
+Damage: +7%
+Fire_Rate: +3%
+Range: -13%
+Spread: +12%
 ---
 
 Category: LMG Magazines
