@@ -112,6 +112,11 @@ Recoil: -40%
 Movement_Speed: -10%
 Reload_Speed: +6%
 ---
+Stock: Arisaka
+Movement_Speed: +11%
+Health: -8%
+Reload_Speed: +5%
+---
 
 Category: SMG Stocks
 ---
@@ -399,4 +404,9 @@ Reload_Speed: +10%
 Stock: SKS
 Reload_Speed: -6%
 Recoil: +18%
+---
+Stock: FG-42
+Fire_Rate: +4%
+Movement_Speed: +2%
+Recoil: +13%
 ---
