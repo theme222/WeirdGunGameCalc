@@ -155,6 +155,12 @@ Health: -5%
 Reload_Speed: +5%
 Spread: +20%
 ---
+Barrel: Arisaka
+Movement_Speed: +10%
+Reload_Speed: -12%
+Health: -6%
+Recoil: +38%
+---
 
 Category: SMG Barrels
 ---
@@ -518,4 +524,11 @@ Fire_Rate: +5%
 Range: +3%
 Recoil: +13%
 Reload_Speed: +4%
+---
+Barrel: FG-42
+Damage: +6%
+Fire_Rate: +4%
+Range: +4%
+Recoil: +32%
+Spread: +12%
 ---
