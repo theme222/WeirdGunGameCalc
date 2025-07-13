@@ -241,6 +241,18 @@ Recoil: +20%
 Spread: +25%
 Range: +2%
 ---
+Barrel: Sten gun
+Fire_Rate: +12%
+Movement_Speed: +2%
+Spread: -12%
+Range: -13%
+Recoil: +24%
+---
+Barrel: M1 Carbine
+Movement_Speed: +2.5%
+Range: +8%
+Recoil: -18%
+---
 
 Category: LMG Barrels
 ---
