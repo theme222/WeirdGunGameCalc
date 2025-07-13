@@ -194,6 +194,18 @@ Movement_Speed: +3%
 Recoil: -5%
 Spread: -5%
 ---
+Stock: M1 Carbine
+Range: +2%
+Spread: -19%
+Movement_Speed: -2.5%
+Recoil: +14%
+---
+Stock: Sten gun
+Movement_Speed: +6%
+Reload_Speed: -18%
+Spread: -12%
+Recoil: +38%
+---
 
 Category: LMG Stocks
 ---
