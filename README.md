@@ -46,7 +46,7 @@ This is the full list of flags supported:
 -m, --method TEXT       Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)
 -i, --include TEXT ...  Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird) (REQUIRED)
 
-# This section is case sensitive (Technically everything is lol). Please use the exact name that is shown inside of the game and surround it with qoutes like this "Arctic Warfare"
+# This section is case sensitive (Technically everything is lol). Please use the exact name that is shown inside of the game and surround it with qoutes like this "Speed Coil"
 --fb, --forceBarrel TEXT Force the calculator to use a specific barrel
 --fm, --forceMagazine TEXT Force the calculator to use a specific magazine
 --fg, --forceGrip TEXT Force the calculator to use a specific grip
