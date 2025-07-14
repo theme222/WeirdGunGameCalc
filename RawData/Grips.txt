@@ -78,7 +78,7 @@ Movement_Speed: +4%
 Reload_Speed: +15%
 Spread: +30%
 ---
-Grip: Arctic Warfare
+Grip: AWM
 Spread: -27%
 Recoil: +8%
 Reload_Speed: +12%
@@ -216,7 +216,7 @@ Recoil: -19%
 Reload_Speed: -13%
 Fire_Rate: -5%
 ---
-Grip: M1919a6
+Grip: M1919 .30 Cal
 Reload_Speed: -19%
 Spread: -16%
 Movement_Speed: -2.5%
@@ -364,4 +364,3 @@ Fire_Rate: +4%
 Recoil: -8%
 Reload_Speed: +2%
 ---
-

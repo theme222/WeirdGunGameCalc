@@ -66,6 +66,11 @@ Fire_Rate: +7%
 Movement_Speed: -2%
 Spread: +14%
 ---
+Stock: G11
+Recoil: -29%
+Movement_Speed: -4%
+Reload_Speed: +6%
+---
 
 Category: Sniper Stocks
 ---
@@ -77,7 +82,7 @@ Stock: M1891
 Movement_Speed: +4%
 Recoil: +15%
 ---
-Stock: Arctic Warfare
+Stock: AWM
 Reload_Speed: -15%
 Spread: -35%
 Recoil: +10%
@@ -225,7 +230,7 @@ Recoil: -20%
 Spread: -24%
 Fire_Rate: -15%
 ---
-Stock: M1919a6
+Stock: M1919 .30 Cal
 Recoil: -32%
 Movement_Speed: -7%
 Spread: +19%

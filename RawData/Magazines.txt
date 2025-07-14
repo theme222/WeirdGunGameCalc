@@ -1,4 +1,4 @@
-aCategory: Assault Rifle Magazines
+Category: Assault Rifle Magazines
 ---
 Magazine: AKM
 Magazine_Size: 30
@@ -103,10 +103,18 @@ Movement_Speed: +1.5%
 Range: +8%
 Recoil: +12%
 ---
+Magazine: G11
+Magazine_Size: 45
+Reload_Time: 4.5
+Fire_Rate: +7%
+Spread: -13%
+Movement_Speed: -3%
+Recoil: +21%
+---
 
 Category: Sniper Magazines
 ---
-Magazine: Arctic Warfare
+Magazine: AWM
 Magazine_Size: 5
 Reload_Time: 5s
 Damage: +20%
@@ -331,7 +339,7 @@ Damage: +7%
 Recoil: +12%
 Range: +5%
 ---
-Magazine: M1919a6
+Magazine: M1919 .30 Cal
 Magazine_Size: 100
 Reload_Time: 9.5
 Damage: +20%

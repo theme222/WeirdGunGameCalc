@@ -200,6 +200,21 @@ Recoil_Hip_Vertical: 63 - 78
 Recoil_Aim_Horizontal: -12.3 - 12.3
 Recoil_Aim_Vertical: 40.9 - 50.7
 ---
+Core: G11
+Damage: 15 > 11.6
+Dropoff_Studs: 180 > 380
+Fire_Rate: 850
+Hipfire_Spread: 5.5
+ADS_Spread: 0.5
+Time_To_Aim: 0.7
+Detection_Radius: 120
+Burst: 3
+Suppression: 0.3
+Recoil_Hip_Horizontal: -2.5 - 2.5
+Recoil_Hip_Vertical: 2 - 7
+Recoil_Aim_Horizontal: -1.6 - 1.6
+Recoil_Aim_Vertical: 1.3 - 4.5
+---
 
 Category: Sniper
 ---
@@ -519,7 +534,7 @@ Recoil_Hip_Vertical: 60 - 90
 Recoil_Aim_Horizontal: -10.5 - 10.5
 Recoil_Aim_Vertical: 42 - 63
 ---
-Core: Sten Gun
+Core: Sten gun
 Damage: 19.5 > 10.2
 Dropoff_Studs: 130 > 165
 Fire_Rate: 600
@@ -977,7 +992,7 @@ Recoil_Hip_Vertical: 20 - 22
 Recoil_Aim_Horizontal: -3 - 3
 Recoil_Aim_Vertical: 10 - 11
 ---
-Core: FG42
+Core: FG-42
 Damage: 17.5 > 10.5
 Dropoff_Studs: 130 > 325
 Fire_Rate: 900
@@ -991,4 +1006,3 @@ Recoil_Hip_Vertical: 83 - 108
 Recoil_Aim_Horizontal: -13.5 - 13.5
 Recoil_Aim_Vertical: 62.3 - 81
 ---
-

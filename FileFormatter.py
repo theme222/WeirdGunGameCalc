@@ -14,12 +14,12 @@ known_properties = {'Reload_Speed', 'Recoil_Hip_Vertical', 'Recoil',
     'Dropoff_Studs', 'Category', 'Recoil_Aim_Vertical', 'Recoil_Hip_Horizontal',
     'Spread', 'Time_To_Aim', 'Hipfire_Spread', 'Recoil_Aim_Horizontal',
     'Movement_Speed_Modifier', 'Name', 'Movement_Speed', 'Reload_Time', 'Pellets',
-    'Detection_Radius', 'Range'
+    'Detection_Radius', 'Range', 'Burst'
 }
 
 known_names = {
-    'MAC-10', 'M1919a6', 'Type 99', 'Scar H', 'NP9', 'Honk', 'Tommy', 'Plunger', 'M1891',
-    'Skorpion vz. 61', 'M1917', 'Improvised', 'Scar L', 'Lee Enfield', 'Arctic Warfare',
+    'MAC-10', 'M1919 .30 Cal', 'Type 99', 'Scar H', 'NP9', 'Honk', 'Tommy', 'Plunger', 'M1891',
+    'Skorpion vz. 61', 'M1917 WC', 'Improvised', 'Scar L', 'Lee Enfield', 'AWM',
     'Horizontal', 'Willy Fischy', 'Anvil', 'Shower', 'Stat Randomizer', 'Famas F1', 'Speed Coil',
     'Water Pipe', 'Ketchup', 'M1919', 'UNP-40', 'MP 40', 'Type 2a Nambu', 'Banana', 'Shovel',
     'STG-44', 'Oil', 'Fedorov Avtomat', 'Tap', 'Rice Pot', 'Scar Drum', 'M-16', 'Hecate II', 'M40',
@@ -30,7 +30,8 @@ known_names = {
     'APS', 'NP5', 'Circuit Judge', 'NP5A3', 'Negev', 'M2000', 'Pistol Pistol', 'Auto-5', 'Croissant',
     'Loaf', 'Taco', 'Eclair', 'Pastel', 'P90', 'Chauchat', 'Dragunov', 'M1Garand', 'FAL', 'FC200SH', 'Light Gun',
     'Gaming Rig', 'Controller', 'Graphics Card', 'Keyboard', 'Musket', 'Snake Sniper', 'M110', 'SKS', 'Blunderbuss',
-    'AR-8X', 'Freedom Dispenser', 'Second Amendment', 'JSG12'
+    'AR-8X', 'Freedom Dispenser', 'Second Amendment', 'JSG12', 'AWM', 'Arisaka', 'Sten gun', 'M1 Carbine',
+    'M1919 Tripod', 'FG-42', 'G11'
 }
 
 '''

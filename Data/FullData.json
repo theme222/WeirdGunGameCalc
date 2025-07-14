@@ -3,7 +3,7 @@
     {
       "Category": "Assault Rifle",
       "Name": "AKM",
-      "Damage": 10,
+      "Damage": 6,
       "Detection_Radius": 5,
       "Recoil": 20
     },
@@ -41,27 +41,27 @@
     {
       "Category": "Assault Rifle",
       "Name": "Scar L",
-      "Damage": 5,
+      "Damage": 3,
       "Recoil": -10
     },
     {
       "Category": "Assault Rifle",
       "Name": "STG-44",
-      "Damage": 10,
-      "Recoil": 10,
-      "Spread": 10
+      "Spread": -11,
+      "Range": 4,
+      "Recoil": 12
     },
     {
       "Category": "Assault Rifle",
       "Name": "The Chief",
       "Damage": 5,
       "Movement_Speed": 4,
-      "Recoil": 10
+      "Recoil": 23
     },
     {
       "Category": "Assault Rifle",
       "Name": "Hell-Trooper-23",
-      "Damage": 12,
+      "Damage": 7.5,
       "Recoil": 10,
       "Spread": 35,
       "Range": 5
@@ -69,14 +69,14 @@
     {
       "Category": "Assault Rifle",
       "Name": "Hex Spitter",
-      "Damage": 10,
+      "Damage": 6.5,
       "Recoil": -5,
       "Spread": 10
     },
     {
       "Category": "Assault Rifle",
       "Name": "C36C",
-      "Damage": 5,
+      "Damage": 3,
       "Reload_Speed": -10
     },
     {
@@ -91,7 +91,7 @@
     {
       "Category": "Assault Rifle",
       "Name": "FC200SH",
-      "Damage": 11,
+      "Damage": 8.5,
       "Range": 14,
       "Fire_Rate": -3,
       "Reload_Speed": 8
@@ -102,6 +102,32 @@
       "Movement_Speed": 4,
       "Spread": -23,
       "Reload_Speed": 12
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "Freedom Dispenser",
+      "Fire_Rate": 6,
+      "Movement_Speed": 9,
+      "Range": -16,
+      "Recoil": 18,
+      "Spread": 28
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "Second Amendment",
+      "Damage": 17,
+      "Spread": -50,
+      "Fire_Rate": -12,
+      "Movement_Speed": -2,
+      "Range": -13,
+      "Recoil": 90
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "G11",
+      "Fire_Rate": 4,
+      "Reload_Speed": -8,
+      "Range": -6
     },
     {
       "Category": "Sniper",
@@ -129,7 +155,7 @@
     },
     {
       "Category": "Sniper",
-      "Name": "Arctic Warfare",
+      "Name": "AWM",
       "Damage": 5,
       "Spread": -25,
       "Recoil": 75,
@@ -182,6 +208,14 @@
       "Health": -5,
       "Reload_Speed": 5,
       "Spread": 20
+    },
+    {
+      "Category": "Sniper",
+      "Name": "Arisaka",
+      "Movement_Speed": 10,
+      "Reload_Speed": -12,
+      "Health": -6,
+      "Recoil": 38
     },
     {
       "Category": "SMG",
@@ -244,7 +278,8 @@
       "Fire_Rate": 20,
       "Movement_Speed": 3.3,
       "Recoil": -15,
-      "Range": -10
+      "Range": -10,
+      "Damage": -3
     },
     {
       "Category": "SMG",
@@ -292,6 +327,22 @@
       "Range": 2
     },
     {
+      "Category": "SMG",
+      "Name": "Sten gun",
+      "Fire_Rate": 12,
+      "Movement_Speed": 2,
+      "Spread": -12,
+      "Range": -13,
+      "Recoil": 24
+    },
+    {
+      "Category": "SMG",
+      "Name": "M1 Carbine",
+      "Movement_Speed": 2.5,
+      "Range": 8,
+      "Recoil": -18
+    },
+    {
       "Category": "LMG",
       "Name": "M60",
       "Damage": 5,
@@ -304,12 +355,12 @@
       "Name": "DP-27",
       "Damage": 13,
       "Movement_Speed": -1,
-      "Recoil": 15,
+      "Recoil": 26,
       "Spread": 18
     },
     {
       "Category": "LMG",
-      "Name": "M1919a6",
+      "Name": "M1919 .30 Cal",
       "Recoil": -17,
       "Spread": -20,
       "Movement_Speed": -3,
@@ -317,7 +368,7 @@
     },
     {
       "Category": "LMG",
-      "Name": "M1917",
+      "Name": "M1917 WC",
       "Fire_Rate": 20,
       "Range": 9,
       "Recoil": -20,
@@ -327,7 +378,7 @@
     },
     {
       "Category": "LMG",
-      "Name": "M1919",
+      "Name": "M1919 Tripod",
       "Recoil": -30,
       "Spread": -50,
       "Movement_Speed": -30,
@@ -475,7 +526,7 @@
     {
       "Category": "Weird",
       "Name": "Snake",
-      "Damage": 15,
+      "Damage": 12.5,
       "Fire_Rate": -5,
       "Movement_Speed": -5,
       "Recoil": 20,
@@ -484,7 +535,7 @@
     {
       "Category": "Weird",
       "Name": "Water Pipe",
-      "Damage": 20,
+      "Damage": 15,
       "Fire_Rate": -12,
       "Detection_Radius": 75,
       "Spread": 35
@@ -507,6 +558,7 @@
       "Category": "Weird",
       "Name": "Oil",
       "Damage": 20,
+      "Fire_Rate": -7,
       "Detection_Radius": 25,
       "Movement_Speed": -10,
       "Spread": 40
@@ -514,7 +566,7 @@
     {
       "Category": "Weird",
       "Name": "Words as Weapons",
-      "Damage": 10,
+      "Damage": 5,
       "Detection_Radius": 5,
       "Recoil": 20
     },
@@ -567,25 +619,6 @@
       "Fire_Rate": -5,
       "Range": -87,
       "Reload_Speed": 10
-    },
-    {
-      "Category": "Weird",
-      "Name": "Freedom Dispenser",
-      "Fire_Rate": 6,
-      "Movement_Speed": 9,
-      "Range": -16,
-      "Recoil": 18,
-      "Spread": 28
-    },
-    {
-      "Category": "Weird",
-      "Name": "Second Amendment",
-      "Damage": 17,
-      "Spread": -50,
-      "Fire_Rate": -12,
-      "Movement_Speed": -2,
-      "Range": -13,
-      "Recoil": 90
     },
     {
       "Category": "BR",
@@ -642,6 +675,15 @@
       "Range": 3,
       "Recoil": 13,
       "Reload_Speed": 4
+    },
+    {
+      "Category": "BR",
+      "Name": "FG-42",
+      "Damage": 6,
+      "Fire_Rate": 4,
+      "Range": 4,
+      "Recoil": 32,
+      "Spread": 12
     }
   ],
   "Cores": [
@@ -1126,6 +1168,41 @@
       ]
     },
     {
+      "Category": "Assault Rifle",
+      "Name": "G11",
+      "Damage": [
+        15,
+        11.6
+      ],
+      "Dropoff_Studs": [
+        180,
+        380
+      ],
+      "Fire_Rate": 850,
+      "Hipfire_Spread": 5.5,
+      "ADS_Spread": 0.5,
+      "Time_To_Aim": 0.7,
+      "Detection_Radius": 120,
+      "Burst": 3,
+      "Suppression": 0.3,
+      "Recoil_Hip_Horizontal": [
+        -2.5,
+        2.5
+      ],
+      "Recoil_Hip_Vertical": [
+        2,
+        7
+      ],
+      "Recoil_Aim_Horizontal": [
+        -1.6,
+        1.6
+      ],
+      "Recoil_Aim_Vertical": [
+        1.3,
+        4.5
+      ]
+    },
+    {
       "Category": "Sniper",
       "Name": "M40",
       "Damage": [
@@ -1196,7 +1273,7 @@
     },
     {
       "Category": "Sniper",
-      "Name": "Arctic Warfare",
+      "Name": "AWM",
       "Damage": [
         60,
         54
@@ -1400,6 +1477,42 @@
       "Recoil_Aim_Vertical": [
         38.5,
         49.5
+      ]
+    },
+    {
+      "Category": "Sniper",
+      "Name": "Arisaka",
+      "Damage": [
+        58,
+        52.2
+      ],
+      "Dropoff_Studs": [
+        400,
+        700
+      ],
+      "Fire_Rate": 55,
+      "Hipfire_Spread": 12,
+      "ADS_Spread": 0.15,
+      "Time_To_Aim": 0.7,
+      "Detection_Radius": 100,
+      "Movement_Speed_Modifier": 5,
+      "Suppression": 0.8,
+      "Health": -10,
+      "Recoil_Hip_Horizontal": [
+        -21,
+        21
+      ],
+      "Recoil_Hip_Vertical": [
+        72,
+        82
+      ],
+      "Recoil_Aim_Horizontal": [
+        -9.4,
+        9.4
+      ],
+      "Recoil_Aim_Vertical": [
+        32.4,
+        36.4
       ]
     },
     {
@@ -1843,6 +1956,74 @@
       ]
     },
     {
+      "Category": "SMG",
+      "Name": "Sten gun",
+      "Damage": [
+        19.5,
+        10.2
+      ],
+      "Dropoff_Studs": [
+        130,
+        165
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 2,
+      "ADS_Spread": 0.65,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 90,
+      "Movement_Speed_Modifier": 2.5,
+      "Recoil_Hip_Horizontal": [
+        -21,
+        21
+      ],
+      "Recoil_Hip_Vertical": [
+        30,
+        38
+      ],
+      "Recoil_Aim_Horizontal": [
+        -9.7,
+        9.7
+      ],
+      "Recoil_Aim_Vertical": [
+        13.8,
+        17.5
+      ]
+    },
+    {
+      "Category": "SMG",
+      "Name": "M1 Carbine",
+      "Damage": [
+        22,
+        13.2
+      ],
+      "Dropoff_Studs": [
+        145,
+        170
+      ],
+      "Fire_Rate": 1100,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 0.3,
+      "Time_To_Aim": 0.6,
+      "Detection_Radius": 120,
+      "Suppression": 0.9,
+      "Recoil_Hip_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Hip_Vertical": [
+        15,
+        26
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3.2,
+        3.2
+      ],
+      "Recoil_Aim_Vertical": [
+        6,
+        10.4
+      ]
+    },
+    {
       "Category": "LMG",
       "Name": "Type 99",
       "Damage": [
@@ -1952,7 +2133,7 @@
     },
     {
       "Category": "LMG",
-      "Name": "M1919a6",
+      "Name": "M1919 .30 Cal",
       "Damage": [
         21.5,
         15.5
@@ -2804,6 +2985,40 @@
         10,
         11
       ]
+    },
+    {
+      "Category": "BR",
+      "Name": "FG-42",
+      "Damage": [
+        17.5,
+        10.5
+      ],
+      "Dropoff_Studs": [
+        130,
+        325
+      ],
+      "Fire_Rate": 900,
+      "Hipfire_Spread": 5.5,
+      "ADS_Spread": 0.4,
+      "Time_To_Aim": 0.7,
+      "Detection_Radius": 130,
+      "Suppression": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -18,
+        18
+      ],
+      "Recoil_Hip_Vertical": [
+        83,
+        108
+      ],
+      "Recoil_Aim_Horizontal": [
+        -13.5,
+        13.5
+      ],
+      "Recoil_Aim_Vertical": [
+        62.3,
+        81
+      ]
     }
   ],
   "Grips": [
@@ -2881,9 +3096,9 @@
     {
       "Category": "Assault Rifle",
       "Name": "APS",
-      "Recoil": -10,
-      "Reload_Speed": -4,
-      "Spread": 14
+      "Damage": 2,
+      "Recoil": -11,
+      "Reload_Speed": 6
     },
     {
       "Category": "Assault Rifle",
@@ -2916,7 +3131,7 @@
     },
     {
       "Category": "Sniper",
-      "Name": "Arctic Warfare",
+      "Name": "AWM",
       "Spread": -27,
       "Recoil": 8,
       "Reload_Speed": 12
@@ -2960,6 +3175,13 @@
       "Recoil": 16
     },
     {
+      "Category": "Sniper",
+      "Name": "Arisaka",
+      "Movement_Speed": 8,
+      "Spread": -17,
+      "Health": -6
+    },
+    {
       "Category": "SMG",
       "Name": "MAC-10",
       "Movement_Speed": 4.4,
@@ -2985,10 +3207,9 @@
     {
       "Category": "SMG",
       "Name": "NP9",
-      "Movement_Speed": 2,
-      "Reload_Speed": -8,
-      "Recoil": 10,
-      "Spread": 17
+      "Movement_Speed": 4.5,
+      "Spread": -12,
+      "Recoil": 18
     },
     {
       "Category": "SMG",
@@ -3000,10 +3221,10 @@
     {
       "Category": "SMG",
       "Name": "UNP-40",
-      "Movement_Speed": 3.8,
+      "Movement_Speed": 2.5,
       "Reload_Speed": -5,
       "Spread": -20,
-      "Recoil": 25
+      "Recoil": 40
     },
     {
       "Category": "SMG",
@@ -3015,8 +3236,10 @@
     {
       "Category": "SMG",
       "Name": "Kriss Vector",
-      "Movement_Speed": 3.3,
-      "Recoil": -15
+      "Movement_Speed": 4.5,
+      "Fire_Rate": 4,
+      "Recoil": -12,
+      "Spread": 8
     },
     {
       "Category": "SMG",
@@ -3058,6 +3281,20 @@
       "Spread": 20
     },
     {
+      "Category": "SMG",
+      "Name": "M1 Carbine",
+      "Movement_Speed": 4,
+      "Reload_Speed": -10,
+      "Recoil": 29
+    },
+    {
+      "Category": "SMG",
+      "Name": "Sten gun",
+      "Movement_Speed": 2,
+      "Spread": -17,
+      "Recoil": 28
+    },
+    {
       "Category": "LMG",
       "Name": "M60",
       "Recoil": -15,
@@ -3074,7 +3311,7 @@
     },
     {
       "Category": "LMG",
-      "Name": "M1919a6",
+      "Name": "M1919 .30 Cal",
       "Reload_Speed": -19,
       "Spread": -16,
       "Movement_Speed": -2.5,
@@ -3258,6 +3495,13 @@
       "Spread": -23,
       "Fire_Rate": -2,
       "Recoil": 26
+    },
+    {
+      "Category": "BR",
+      "Name": "FG-42",
+      "Fire_Rate": 4,
+      "Recoil": -8,
+      "Reload_Speed": 2
     }
   ],
   "Magazines": [
@@ -3267,7 +3511,7 @@
       "Magazine_Size": 30,
       "Reload_Time": 2.4,
       "Detection_Radius": 5,
-      "Damage": 10
+      "Damage": 6
     },
     {
       "Category": "Assault Rifle",
@@ -3314,16 +3558,16 @@
       "Category": "Assault Rifle",
       "Name": "STG-44",
       "Magazine_Size": 30,
-      "Reload_Time": 2.5,
-      "Damage": 15,
+      "Reload_Time": 2.9,
+      "Damage": 10,
       "Fire_Rate": -10
     },
     {
       "Category": "Assault Rifle",
       "Name": "The Chief",
       "Magazine_Size": 36,
-      "Reload_Time": 3.8,
-      "Damage": 20,
+      "Reload_Time": 4.2,
+      "Damage": 13,
       "Fire_Rate": -10,
       "Recoil": 25,
       "Reload_Speed": 25,
@@ -3342,7 +3586,7 @@
       "Name": "Hell-Trooper-23",
       "Magazine_Size": 45,
       "Reload_Time": 4,
-      "Damage": 13,
+      "Damage": 7.5,
       "Recoil": 15,
       "Spread": 22
     },
@@ -3351,7 +3595,7 @@
       "Name": "Hex Spitter",
       "Magazine_Size": 35,
       "Reload_Time": 4.2,
-      "Damage": 11,
+      "Damage": 8,
       "Pellets": 100,
       "Spread": -13,
       "Range": -14,
@@ -3361,7 +3605,7 @@
       "Category": "Assault Rifle",
       "Name": "APS",
       "Magazine_Size": 26,
-      "Reload_Time": 7,
+      "Reload_Time": 6,
       "Damage": 25,
       "Detection_Radius": 25,
       "Fire_Rate": -10,
@@ -3380,7 +3624,7 @@
       "Name": "FC200SH",
       "Magazine_Size": 30,
       "Reload_Time": 3.2,
-      "Damage": 15,
+      "Damage": 8.5,
       "Detection_Radius": 10,
       "Movement_Speed": -2.5,
       "Spread": 18
@@ -3395,8 +3639,18 @@
       "Recoil": 12
     },
     {
+      "Category": "Assault Rifle",
+      "Name": "G11",
+      "Magazine_Size": 45,
+      "Reload_Time": 4.5,
+      "Fire_Rate": 7,
+      "Spread": -13,
+      "Movement_Speed": -3,
+      "Recoil": 21
+    },
+    {
       "Category": "Sniper",
-      "Name": "Arctic Warfare",
+      "Name": "AWM",
       "Magazine_Size": 5,
       "Reload_Time": 5,
       "Damage": 20,
@@ -3484,6 +3738,16 @@
       "Recoil": 36
     },
     {
+      "Category": "Sniper",
+      "Name": "Arisaka",
+      "Magazine_Size": 5,
+      "Reload_Time": 4,
+      "Movement_Speed": 8,
+      "Spread": -18,
+      "Health": -2,
+      "Recoil": 16
+    },
+    {
       "Category": "SMG",
       "Name": "MAC-10",
       "Magazine_Size": 30,
@@ -3499,7 +3763,10 @@
       "Magazine_Size": 20,
       "Reload_Time": 1.2,
       "Movement_Speed": 9,
-      "Damage": -15
+      "Damage": -15,
+      "Fire_Rate": 4,
+      "Range": -10,
+      "Spread": 7
     },
     {
       "Category": "SMG",
@@ -3555,7 +3822,8 @@
       "Name": "Kriss Vector",
       "Magazine_Size": 30,
       "Reload_Time": 2.4,
-      "Fire_Rate": 25,
+      "Fire_Rate": 21,
+      "Damage": -4,
       "Movement_Speed": 3.3,
       "Recoil": -15,
       "Range": -15
@@ -3614,6 +3882,25 @@
       "Range": 5
     },
     {
+      "Category": "SMG",
+      "Name": "M1 Carbine",
+      "Magazine_Size": 15,
+      "Reload_Time": 2.8,
+      "Damage": 22,
+      "Movement_Speed": 3,
+      "Recoil": 32
+    },
+    {
+      "Category": "SMG",
+      "Name": "Sten gun",
+      "Magazine_Size": 32,
+      "Reload_Time": 3,
+      "Damage": 7,
+      "Fire_Rate": 3,
+      "Range": -13,
+      "Spread": 12
+    },
+    {
       "Category": "LMG",
       "Name": "M60",
       "Magazine_Size": 75,
@@ -3634,7 +3921,7 @@
     },
     {
       "Category": "LMG",
-      "Name": "M1919a6",
+      "Name": "M1919 .30 Cal",
       "Magazine_Size": 100,
       "Reload_Time": 9.5,
       "Damage": 20,
@@ -3829,7 +4116,7 @@
       "Name": "Words as Weapons",
       "Magazine_Size": 30,
       "Reload_Time": 2.4,
-      "Damage": 10,
+      "Damage": 5,
       "Detection_Radius": 5
     },
     {
@@ -3848,14 +4135,14 @@
       "Reload_Time": 0.8,
       "Damage": 15,
       "Movement_Speed": 5,
-      "Spread": 15
+      "Spread": 25
     },
     {
       "Category": "Weird",
       "Name": "XXL AKM",
       "Magazine_Size": 90,
       "Reload_Time": 9,
-      "Damage": 10,
+      "Damage": 6,
       "Detection_Radius": 15,
       "Movement_Speed": -10,
       "Recoil": 20
@@ -3875,10 +4162,10 @@
       "Name": "Pastel",
       "Magazine_Size": 20,
       "Reload_Time": 4,
-      "Damage": 20,
+      "Damage": 15,
       "Detection_Radius": 10,
-      "Fire_Rate": -20,
-      "Recoil": 15
+      "Fire_Rate": -10,
+      "Recoil": 27
     },
     {
       "Category": "Weird",
@@ -3960,6 +4247,17 @@
       "Range": 6,
       "Recoil": 26,
       "Spread": 17
+    },
+    {
+      "Category": "BR",
+      "Name": "FG-42",
+      "Magazine_Size": 20,
+      "Reload_Time": 3.5,
+      "Damage": 4,
+      "Fire_Rate": 12,
+      "Spread": -11,
+      "Movement_Speed": -2,
+      "Recoil": 17
     }
   ],
   "Stocks": [
@@ -4047,7 +4345,8 @@
       "Name": "FC200SH",
       "Movement_Speed": 2,
       "Spread": -24,
-      "Fire_Rate": -13
+      "Fire_Rate": -5,
+      "Range": 3
     },
     {
       "Category": "Assault Rifle",
@@ -4055,6 +4354,13 @@
       "Fire_Rate": 7,
       "Movement_Speed": -2,
       "Spread": 14
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "G11",
+      "Recoil": -29,
+      "Movement_Speed": -4,
+      "Reload_Speed": 6
     },
     {
       "Category": "Sniper",
@@ -4070,7 +4376,7 @@
     },
     {
       "Category": "Sniper",
-      "Name": "Arctic Warfare",
+      "Name": "AWM",
       "Reload_Speed": -15,
       "Spread": -35,
       "Recoil": 10
@@ -4116,12 +4422,18 @@
       "Reload_Speed": 6
     },
     {
+      "Category": "Sniper",
+      "Name": "Arisaka",
+      "Movement_Speed": 11,
+      "Health": -8,
+      "Reload_Speed": 5
+    },
+    {
       "Category": "SMG",
       "Name": "MAC-10",
-      "Movement_Speed": 4.4,
-      "Reload_Speed": -20,
-      "Recoil": 15,
-      "Spread": 15
+      "Movement_Speed": 4.6,
+      "Fire_Rate": 4.5,
+      "Spread": 16
     },
     {
       "Category": "SMG",
@@ -4143,7 +4455,7 @@
       "Category": "SMG",
       "Name": "NP9",
       "Movement_Speed": 4.6,
-      "Spread": -10,
+      "Spread": -13,
       "Recoil": 30
     },
     {
@@ -4205,15 +4517,15 @@
       "Name": "NP5",
       "Movement_Speed": 2.5,
       "Recoil": -5,
-      "Reload_Speed": -25
+      "Reload_Speed": -25,
+      "Spread": 14
     },
     {
       "Category": "SMG",
       "Name": "NP5A3",
-      "Movement_Speed": 4,
-      "Reload_Speed": -10,
-      "Recoil": 20,
-      "Spread": 20
+      "Movement_Speed": 6,
+      "Reload_Speed": -12,
+      "Recoil": 16
     },
     {
       "Category": "SMG",
@@ -4222,6 +4534,22 @@
       "Movement_Speed": 3,
       "Recoil": -5,
       "Spread": -5
+    },
+    {
+      "Category": "SMG",
+      "Name": "M1 Carbine",
+      "Range": 2,
+      "Spread": -19,
+      "Movement_Speed": -2.5,
+      "Recoil": 14
+    },
+    {
+      "Category": "SMG",
+      "Name": "Sten gun",
+      "Movement_Speed": 6,
+      "Reload_Speed": -18,
+      "Spread": -12,
+      "Recoil": 38
     },
     {
       "Category": "LMG",
@@ -4240,7 +4568,7 @@
     },
     {
       "Category": "LMG",
-      "Name": "M1919a6",
+      "Name": "M1919 .30 Cal",
       "Recoil": -32,
       "Movement_Speed": -7,
       "Spread": 19
@@ -4470,6 +4798,13 @@
       "Name": "SKS",
       "Reload_Speed": -6,
       "Recoil": 18
+    },
+    {
+      "Category": "BR",
+      "Name": "FG-42",
+      "Fire_Rate": 4,
+      "Movement_Speed": 2,
+      "Recoil": 13
     }
   ]
 }

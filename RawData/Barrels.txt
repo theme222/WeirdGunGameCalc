@@ -90,6 +90,11 @@ Movement_Speed: -2%
 Range: -13%
 Recoil: +90%
 ---
+Barrel: G11
+Fire_Rate: +4%
+Reload_Speed: -8%
+Range: -6%
+---
 
 Category: Sniper Barrels
 ---
