@@ -1,162 +1,162 @@
 ./Calculator -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper BR --damageMin 100 --spreadAimMax 0.149 --sort FIRERATE --rangeMin 350 --pelletMax 1 --speedMin -5 --magazineMin 5 
 Current top 10 guns are: 
-[ Barrel: Snake Sniper, Magazine: M2000, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
-damage: 100.459 - 90.4135
-dropoffStuds: 550 - 825
+[ Barrel: M2000, Magazine: AWM, Grip: Circuit Judge, Stock: APS, Core: Arisaka ]
+damage: 100.532 - 90.4789
+dropoffStuds: 550 - 962.5
 pellets: 1
-fireRate: 23.484
-adsSpread: 0.0795876
-hipfireSpread: 23.8763
-reloadTime: 6.93
-magazineSize: 5
-health: 5
-recoilHipVertical: 172.8 - 230.4
-recoilAimVertical: 86.4 - 115.2
-movementSpeed: -5
-detectionRadius: 300
-TTK: 0 Seconds
-
-[ Barrel: APS, Magazine: M2000, Grip: Circuit Judge, Stock: APS, Core: Arctic Warfare ]
-damage: 100.045 - 90.0406
-dropoffStuds: 357.5 - 536.25
-pellets: 1
-fireRate: 22.8
-adsSpread: 0.0861924
-hipfireSpread: 25.8577
-reloadTime: 6
+fireRate: 37.125
+adsSpread: 0.121828
+hipfireSpread: 9.74624
+reloadTime: 5
 magazineSize: 5
 health: 0
-recoilHipVertical: 187.2 - 249.6
-recoilAimVertical: 93.6 - 124.8
-movementSpeed: -5
-detectionRadius: 312.5
+recoilHipVertical: 203.112 - 231.322
+recoilAimVertical: 91.4004 - 102.684
+movementSpeed: -3
+detectionRadius: -12
 TTK: 0 Seconds
 
-[ Barrel: Water Pipe, Magazine: M40, Grip: Musket, Stock: APS, Core: Arctic Warfare ]
-damage: 100.18 - 90.1623
-dropoffStuds: 750 - 1125
+[ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: STG-44, Core: Arisaka ]
+damage: 100.349 - 90.3137
+dropoffStuds: 500 - 875
 pellets: 1
-fireRate: 22.44
-adsSpread: 0.094256
-hipfireSpread: 28.2768
-reloadTime: 3.85
-magazineSize: 10
+fireRate: 35.3777
+adsSpread: 0.145156
+hipfireSpread: 11.6125
+reloadTime: 5.2
+magazineSize: 5
 health: 0
-recoilHipVertical: 87.75 - 117
-recoilAimVertical: 43.875 - 58.5
+recoilHipVertical: 201.6 - 229.6
+recoilAimVertical: 90.72 - 101.92
 movementSpeed: -5
-detectionRadius: 437.5
+detectionRadius: -12.5
 TTK: 0 Seconds
 
-[ Barrel: Water Pipe, Magazine: Scar H, Grip: Musket, Stock: APS, Core: Arctic Warfare ]
-damage: 101.037 - 90.9329
-dropoffStuds: 546.75 - 820.125
+[ Barrel: M2000, Magazine: AWM, Grip: Circuit Judge, Stock: Taco, Core: Arisaka ]
+damage: 101.297 - 91.1669
+dropoffStuds: 550 - 962.5
 pellets: 1
-fireRate: 22.44
-adsSpread: 0.125467
-hipfireSpread: 37.64
-reloadTime: 4.95
-magazineSize: 20
-health: 0
-recoilHipVertical: 146.25 - 195
-recoilAimVertical: 73.125 - 97.5
-movementSpeed: -5
-detectionRadius: 481.25
-TTK: 0 Seconds
-
-[ Barrel: M1918 BAR, Magazine: Improvised, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
-damage: 100.079 - 90.0715
-dropoffStuds: 540 - 810
-pellets: 1
-fireRate: 21.8025
-adsSpread: 0.118405
-hipfireSpread: 35.5214
-reloadTime: 0.968
-magazineSize: 10
-health: 10
-recoilHipVertical: 129.6 - 172.8
-recoilAimVertical: 64.8 - 86.4
-movementSpeed: -0.5
-detectionRadius: 300
-TTK: 0 Seconds
-
-[ Barrel: APS, Magazine: M2000, Grip: Circuit Judge, Stock: Taco, Core: Arctic Warfare ]
-damage: 100.806 - 90.7253
-dropoffStuds: 357.5 - 536.25
-pellets: 1
-fireRate: 21.66
-adsSpread: 0.0795876
-hipfireSpread: 23.8763
-reloadTime: 6.6
+fireRate: 35.2687
+adsSpread: 0.112493
+hipfireSpread: 8.9994
+reloadTime: 5.5
 magazineSize: 5
 health: 10
-recoilHipVertical: 172.8 - 230.4
-recoilAimVertical: 86.4 - 115.2
-movementSpeed: -5
-detectionRadius: 375
+recoilHipVertical: 187.488 - 213.528
+recoilAimVertical: 84.3696 - 94.7856
+movementSpeed: -3
+detectionRadius: -14.4
 TTK: 0 Seconds
 
-[ Barrel: Water Pipe, Magazine: M1Garand, Grip: Musket, Stock: APS, Core: Arctic Warfare ]
-damage: 102.492 - 92.243
-dropoffStuds: 555.25 - 832.875
+[ Barrel: M2000, Magazine: AWM, Grip: Musket, Stock: Lee Enfield, Core: Arisaka ]
+damage: 100.127 - 90.114
+dropoffStuds: 440 - 770
 pellets: 1
-fireRate: 21.318
-adsSpread: 0.114855
-hipfireSpread: 34.4565
-reloadTime: 4.4
-magazineSize: 8
+fireRate: 34.7119
+adsSpread: 0.116644
+hipfireSpread: 9.33148
+reloadTime: 5.5
+magazineSize: 5
 health: 0
-recoilHipVertical: 117 - 156
-recoilAimVertical: 58.5 - 78
-movementSpeed: -5
-detectionRadius: 437.5
+recoilHipVertical: 218.736 - 249.116
+recoilAimVertical: 98.4312 - 110.583
+movementSpeed: -3
+detectionRadius: -12
 TTK: 0 Seconds
 
-[ Barrel: Water Pipe, Magazine: Improvised, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
-damage: 100.079 - 90.0715
-dropoffStuds: 500 - 750
+[ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: Words as Weapons, Core: Arisaka ]
+damage: 100.349 - 90.3137
+dropoffStuds: 500 - 875
 pellets: 1
-fireRate: 21.318
-adsSpread: 0.133144
-hipfireSpread: 39.9431
-reloadTime: 0.968
-magazineSize: 10
-health: 10
-recoilHipVertical: 108 - 144
-recoilAimVertical: 54 - 72
-movementSpeed: 0
-detectionRadius: 525
+fireRate: 34.65
+adsSpread: 0.140499
+hipfireSpread: 11.2399
+reloadTime: 4.5
+magazineSize: 5
+health: 0
+recoilHipVertical: 231.84 - 264.04
+recoilAimVertical: 104.328 - 117.208
+movementSpeed: -5
+detectionRadius: -12.5
 TTK: 0 Seconds
 
-[ Barrel: Water Pipe, Magazine: M40, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
-damage: 100.942 - 90.848
-dropoffStuds: 750 - 1125
+[ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: M40, Core: Arisaka ]
+damage: 100.349 - 90.3137
+dropoffStuds: 500 - 875
 pellets: 1
-fireRate: 21.318
-adsSpread: 0.0870334
-hipfireSpread: 26.11
-reloadTime: 4.235
-magazineSize: 10
-health: 10
-recoilHipVertical: 81 - 108
-recoilAimVertical: 40.5 - 54
+fireRate: 34.65
+adsSpread: 0.124974
+hipfireSpread: 9.99794
+reloadTime: 5
+magazineSize: 5
+health: 0
+recoilHipVertical: 181.44 - 206.64
+recoilAimVertical: 81.648 - 91.728
 movementSpeed: -5
-detectionRadius: 525
+detectionRadius: -12.5
 TTK: 0 Seconds
 
-[ Barrel: Water Pipe, Magazine: Scar H, Grip: Musket, Stock: Taco, Core: Arctic Warfare ]
-damage: 101.805 - 91.6244
-dropoffStuds: 546.75 - 820.125
+[ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: FAL, Core: Arisaka ]
+damage: 100.349 - 90.3137
+dropoffStuds: 521.25 - 912.188
 pellets: 1
-fireRate: 21.318
-adsSpread: 0.115852
-hipfireSpread: 34.7557
-reloadTime: 5.445
-magazineSize: 20
-health: 10
-recoilHipVertical: 135 - 180
-recoilAimVertical: 67.5 - 90
+fireRate: 34.65
+adsSpread: 0.120394
+hipfireSpread: 9.63155
+reloadTime: 5
+magazineSize: 5
+health: 0
+recoilHipVertical: 262.08 - 298.48
+recoilAimVertical: 117.936 - 132.496
+movementSpeed: -4.83
+detectionRadius: -12.5
+TTK: 0 Seconds
+
+[ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: AUG, Core: Arisaka ]
+damage: 100.349 - 90.3137
+dropoffStuds: 470 - 822.5
+pellets: 1
+fireRate: 34.65
+adsSpread: 0.139723
+hipfireSpread: 11.1778
+reloadTime: 5
+magazineSize: 5
+health: 0
+recoilHipVertical: 201.6 - 229.6
+recoilAimVertical: 90.72 - 101.92
+movementSpeed: -3.25
+detectionRadius: -12.5
+TTK: 0 Seconds
+
+[ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: PP-19 Bizon, Core: Arisaka ]
+damage: 100.349 - 90.3137
+dropoffStuds: 500 - 875
+pellets: 1
+fireRate: 34.65
+adsSpread: 0.143914
+hipfireSpread: 11.5132
+reloadTime: 4.64
+magazineSize: 5
+health: 0
+recoilHipVertical: 241.92 - 275.52
+recoilAimVertical: 108.864 - 122.304
+movementSpeed: -3.5
+detectionRadius: -12.5
+TTK: 0 Seconds
+
+[ Barrel: Hecate II, Magazine: AWM, Grip: The Chief, Stock: APS, Core: Arisaka ]
+damage: 100.712 - 90.6406
+dropoffStuds: 500 - 875
+pellets: 1
+fireRate: 34.65
+adsSpread: 0.124101
+hipfireSpread: 9.92805
+reloadTime: 5
+magazineSize: 5
+health: 0
+recoilHipVertical: 353.808 - 402.948
+recoilAimVertical: 159.214 - 178.87
 movementSpeed: -5
-detectionRadius: 577.5
+detectionRadius: -12.5
 TTK: 0 Seconds
 

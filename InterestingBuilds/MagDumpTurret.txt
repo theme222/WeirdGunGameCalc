@@ -1,149 +1,5 @@
-./Calculator -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --healthMin 10 --bc FC200SH 
+./Calculator -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --healthMin 10 --bc FC200SH M1 Carbine 
 Current top 10 guns are: 
-[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: Tommy, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4573 - 11.5164
-dropoffStuds: 126 - 139.5
-pellets: 1
-fireRate: 684
-adsSpread: 0.553177
-hipfireSpread: 3.68784
-reloadTime: 10.89
-magazineSize: 90
-health: 10
-recoilHipVertical: 26.01 - 36.414
-recoilAimVertical: 16.8545 - 23.6171
-movementSpeed: 1.1
-detectionRadius: 110.4
-TTK: 0.263158 Seconds
-
-[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: UNP-40, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4573 - 11.5164
-dropoffStuds: 126 - 139.5
-pellets: 1
-fireRate: 684
-adsSpread: 0.443092
-hipfireSpread: 2.95395
-reloadTime: 9.405
-magazineSize: 90
-health: 10
-recoilHipVertical: 38.25 - 53.55
-recoilAimVertical: 24.786 - 34.731
-movementSpeed: 1.1
-detectionRadius: 110.4
-TTK: 0.263158 Seconds
-
-[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: Skorpion vz. 61, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4573 - 11.5164
-dropoffStuds: 126 - 139.5
-pellets: 1
-fireRate: 684
-adsSpread: 0.718304
-hipfireSpread: 4.78869
-reloadTime: 8.91
-magazineSize: 90
-health: 10
-recoilHipVertical: 38.25 - 53.55
-recoilAimVertical: 24.786 - 34.731
-movementSpeed: 6.3
-detectionRadius: 110.4
-TTK: 0.263158 Seconds
-
-[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: Kriss Vector, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4573 - 11.5164
-dropoffStuds: 126 - 139.5
-pellets: 1
-fireRate: 684
-adsSpread: 0.553177
-hipfireSpread: 3.68784
-reloadTime: 9.9
-magazineSize: 90
-health: 10
-recoilHipVertical: 26.01 - 36.414
-recoilAimVertical: 16.8545 - 23.6171
-movementSpeed: 0.6
-detectionRadius: 110.4
-TTK: 0.263158 Seconds
-
-[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: Banana, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4573 - 11.5164
-dropoffStuds: 126 - 139.5
-pellets: 1
-fireRate: 684
-adsSpread: 0.63574
-hipfireSpread: 4.23827
-reloadTime: 9.9
-magazineSize: 90
-health: 10
-recoilHipVertical: 24.48 - 34.272
-recoilAimVertical: 15.863 - 22.2278
-movementSpeed: 2.3
-detectionRadius: 110.4
-TTK: 0.263158 Seconds
-
-[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: MAC-10, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4573 - 11.5164
-dropoffStuds: 126 - 139.5
-pellets: 1
-fireRate: 684
-adsSpread: 0.608219
-hipfireSpread: 4.05479
-reloadTime: 7.425
-magazineSize: 90
-health: 10
-recoilHipVertical: 38.25 - 53.55
-recoilAimVertical: 24.786 - 34.731
-movementSpeed: 1.7
-detectionRadius: 110.4
-TTK: 0.263158 Seconds
-
-[ Barrel: Kriss Vector, Magazine: XXL AKM, Grip: NP5, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4573 - 11.5164
-dropoffStuds: 126 - 139.5
-pellets: 1
-fireRate: 684
-adsSpread: 0.646749
-hipfireSpread: 4.31166
-reloadTime: 8.91
-magazineSize: 90
-health: 10
-recoilHipVertical: 26.01 - 36.414
-recoilAimVertical: 16.8545 - 23.6171
-movementSpeed: 0.6
-detectionRadius: 110.4
-TTK: 0.263158 Seconds
-
-[ Barrel: Freedom Dispenser, Magazine: XXL AKM, Grip: PPSh-41, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4573 - 11.5164
-dropoffStuds: 117.6 - 130.2
-pellets: 1
-fireRate: 664.62
-adsSpread: 0.636918
-hipfireSpread: 4.24612
-reloadTime: 11.385
-magazineSize: 90
-health: 10
-recoilHipVertical: 42.48 - 59.472
-recoilAimVertical: 27.527 - 38.5718
-movementSpeed: 3
-detectionRadius: 110.4
-TTK: 0.270831 Seconds
-
-[ Barrel: M1897 Trench Shotgun, Magazine: XXL AKM, Grip: Skorpion vz. 61, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.4573 - 11.5164
-dropoffStuds: 100.8 - 111.6
-pellets: 1
-fireRate: 662.625
-adsSpread: 0.86125
-hipfireSpread: 5.74167
-reloadTime: 8.04128
-magazineSize: 90
-health: 10
-recoilHipVertical: 45 - 63
-recoilAimVertical: 29.16 - 40.86
-movementSpeed: 3
-detectionRadius: 110.4
-TTK: 0.271647 Seconds
-
 [ Barrel: PP-19 Bizon, Magazine: M60, Grip: PPSh-41, Stock: Taco, Core: Type 2a Nambu ]
 damage: 25.2279 - 11.4126
 dropoffStuds: 114.66 - 126.945
@@ -159,4 +15,148 @@ recoilAimVertical: 29.646 - 41.541
 movementSpeed: 7.15
 detectionRadius: 96
 TTK: 0.273411 Seconds
+
+[ Barrel: M870 Breacher, Magazine: XXL AKM, Grip: Kriss Vector, Stock: Blunderbuss, Core: G11 ]
+damage: 20.009 - 15.4736
+dropoffStuds: 135 - 285
+pellets: 1
+fireRate: 877.2
+adsSpread: 1.44726
+hipfireSpread: 15.9198
+reloadTime: 9
+magazineSize: 90
+health: 15
+recoilHipVertical: 4.59955 - 16.0984
+recoilAimVertical: 2.98971 - 10.349
+movementSpeed: 1.6
+detectionRadius: 138
+TTK: 0.273598 Seconds
+
+[ Barrel: Tommy, Magazine: XXL AKM, Grip: M1891, Stock: Taco, Core: Type 2a Nambu ]
+damage: 26.2407 - 11.8708
+dropoffStuds: 131.6 - 145.7
+pellets: 1
+fireRate: 646.494
+adsSpread: 0.718304
+hipfireSpread: 4.78869
+reloadTime: 11.385
+magazineSize: 90
+health: 10
+recoilHipVertical: 45 - 63
+recoilAimVertical: 29.16 - 40.86
+movementSpeed: 0.2
+detectionRadius: 110.4
+TTK: 0.278425 Seconds
+
+[ Barrel: Tommy, Magazine: XXL AKM, Grip: P90, Stock: Taco, Core: Type 2a Nambu ]
+damage: 26.2407 - 11.8708
+dropoffStuds: 131.6 - 145.7
+pellets: 1
+fireRate: 640.395
+adsSpread: 0.663262
+hipfireSpread: 4.42174
+reloadTime: 9.9
+magazineSize: 90
+health: 10
+recoilHipVertical: 40.5 - 56.7
+recoilAimVertical: 26.244 - 36.774
+movementSpeed: 0.3
+detectionRadius: 110.4
+TTK: 0.281076 Seconds
+
+[ Barrel: M870 Breacher, Magazine: XXL AKM, Grip: M1 Carbine, Stock: Blunderbuss, Core: G11 ]
+damage: 20.009 - 15.4736
+dropoffStuds: 135 - 285
+pellets: 1
+fireRate: 850
+adsSpread: 1.34055
+hipfireSpread: 14.746
+reloadTime: 8.28
+magazineSize: 90
+health: 15
+recoilHipVertical: 6.56352 - 22.9723
+recoilAimVertical: 4.26629 - 14.7679
+movementSpeed: 1.2
+detectionRadius: 138
+TTK: 0.282353 Seconds
+
+[ Barrel: M870 Breacher, Magazine: XXL AKM, Grip: AUG, Stock: Blunderbuss, Core: G11 ]
+damage: 20.009 - 15.4736
+dropoffStuds: 135 - 285
+pellets: 1
+fireRate: 850
+adsSpread: 1.24717
+hipfireSpread: 13.7189
+reloadTime: 9
+magazineSize: 90
+health: 15
+recoilHipVertical: 4.8336 - 16.9176
+recoilAimVertical: 3.14184 - 10.8756
+movementSpeed: 0.5
+detectionRadius: 138
+TTK: 0.282353 Seconds
+
+[ Barrel: M870 Breacher, Magazine: XXL AKM, Grip: MAC-10, Stock: Blunderbuss, Core: G11 ]
+damage: 20.009 - 15.4736
+dropoffStuds: 135 - 285
+pellets: 1
+fireRate: 850
+adsSpread: 1.47393
+hipfireSpread: 16.2133
+reloadTime: 7.2
+magazineSize: 90
+health: 15
+recoilHipVertical: 6.36 - 22.26
+recoilAimVertical: 4.134 - 14.31
+movementSpeed: 1.52
+detectionRadius: 138
+TTK: 0.282353 Seconds
+
+[ Barrel: M1897 Trench Shotgun, Magazine: XXL AKM, Grip: Skorpion vz. 61, Stock: Blunderbuss, Core: G11 ]
+damage: 16.7017 - 12.916
+dropoffStuds: 129.6 - 273.6
+pellets: 1
+fireRate: 1062.5
+adsSpread: 1.19519
+hipfireSpread: 13.1471
+reloadTime: 7.038
+magazineSize: 90
+health: 15
+recoilHipVertical: 6.36 - 22.26
+recoilAimVertical: 4.134 - 14.31
+movementSpeed: 2.2
+detectionRadius: 138
+TTK: 0.282353 Seconds
+
+[ Barrel: M1897 Trench Shotgun, Magazine: M60, Grip: Circuit Judge, Stock: Blunderbuss, Core: G11 ]
+damage: 17.3261 - 13.3988
+dropoffStuds: 117.936 - 248.976
+pellets: 1
+fireRate: 1062.5
+adsSpread: 1.14837
+hipfireSpread: 12.6321
+reloadTime: 5.525
+magazineSize: 75
+health: 15
+recoilHipVertical: 5.1728 - 18.1048
+recoilAimVertical: 3.36232 - 11.6388
+movementSpeed: 5.75
+detectionRadius: 120
+TTK: 0.282353 Seconds
+
+[ Barrel: M1897 Trench Shotgun, Magazine: XXL AKM, Grip: Banana, Stock: Blunderbuss, Core: G11 ]
+damage: 16.7017 - 12.916
+dropoffStuds: 129.6 - 273.6
+pellets: 1
+fireRate: 1062.5
+adsSpread: 1.05781
+hipfireSpread: 11.6359
+reloadTime: 7.65
+magazineSize: 90
+health: 15
+recoilHipVertical: 4.0704 - 14.2464
+recoilAimVertical: 2.64576 - 9.1584
+movementSpeed: 0
+detectionRadius: 138
+TTK: 0.282353 Seconds
 

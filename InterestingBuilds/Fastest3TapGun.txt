@@ -1,162 +1,162 @@
 ./Calculator -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 
 Current top 10 guns are: 
-[ Barrel: APS, Magazine: Hell-Trooper-23, Grip: Circuit Judge, Stock: APS, Core: FC200SH ]
-damage: 33.6409 - 26.9128
-dropoffStuds: 117 - 227.5
+[ Barrel: Type 2a Nambu, Magazine: MP 40, Grip: Circuit Judge, Stock: APS, Core: M1 Carbine ]
+damage: 33.4196 - 20.0518
+dropoffStuds: 145 - 170
 pellets: 1
-fireRate: 570
-adsSpread: 0.393487
-hipfireSpread: 10.493
-reloadTime: 4
-magazineSize: 45
-health: 0
-recoilHipVertical: 17.94 - 22.425
-recoilAimVertical: 6.279 - 7.774
-movementSpeed: 0
-detectionRadius: 218.75
-TTK: 0.210526 Seconds
-
-[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: FC200SH ]
-damage: 33.7044 - 26.9635
-dropoffStuds: 131.04 - 254.8
-pellets: 1
-fireRate: 564.3
-adsSpread: 0.310451
-hipfireSpread: 8.2787
-reloadTime: 4.75
-magazineSize: 36
-health: 0
-recoilHipVertical: 17.25 - 21.5625
-recoilAimVertical: 6.0375 - 7.475
-movementSpeed: 0
-detectionRadius: 218.75
-TTK: 0.212653 Seconds
-
-[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Lee Enfield, Core: FC200SH ]
-damage: 33.7044 - 26.9635
-dropoffStuds: 104.832 - 203.84
-pellets: 1
-fireRate: 548.91
-adsSpread: 0.298083
-hipfireSpread: 7.94887
-reloadTime: 4.75
-magazineSize: 36
-health: 0
-recoilHipVertical: 21 - 26.25
-recoilAimVertical: 7.35 - 9.1
-movementSpeed: 0
-detectionRadius: 218.75
-TTK: 0.218615 Seconds
-
-[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Kriss Vector, Core: FC200SH ]
-damage: 33.7044 - 26.9635
-dropoffStuds: 124.488 - 242.06
-pellets: 1
-fireRate: 541.728
-adsSpread: 0.32282
-hipfireSpread: 8.60853
-reloadTime: 4.75
-magazineSize: 36
-health: 0
-recoilHipVertical: 12.6 - 15.75
-recoilAimVertical: 4.41 - 5.46
-movementSpeed: 2.64
-detectionRadius: 218.75
-TTK: 0.221513 Seconds
-
-[ Barrel: M870 Breacher, Magazine: The Chief, Grip: Type 2a Nambu, Stock: APS, Core: FC200SH ]
-damage: 33.4805 - 26.7844
-dropoffStuds: 151.2 - 294
-pellets: 1
-fireRate: 540
-adsSpread: 0.34872
-hipfireSpread: 9.2992
-reloadTime: 4.75
-magazineSize: 36
-health: -7.5
-recoilHipVertical: 23.985 - 29.9812
-recoilAimVertical: 8.39475 - 10.3935
-movementSpeed: 3
-detectionRadius: 175
-TTK: 0.222222 Seconds
-
-[ Barrel: M870 Breacher, Magazine: The Chief, Grip: Circuit Judge, Stock: APS, Core: FC200SH ]
-damage: 35.126 - 28.1008
-dropoffStuds: 151.2 - 294
-pellets: 1
-fireRate: 540
-adsSpread: 0.470165
-hipfireSpread: 12.5377
-reloadTime: 4.75
-magazineSize: 36
-health: 0
-recoilHipVertical: 19.5 - 24.375
-recoilAimVertical: 6.825 - 8.45
-movementSpeed: 3
-detectionRadius: 175
-TTK: 0.222222 Seconds
-
-[ Barrel: M870 Breacher, Magazine: STG-44, Grip: Circuit Judge, Stock: APS, Core: FC200SH ]
-damage: 33.6745 - 26.9396
-dropoffStuds: 135 - 262.5
-pellets: 1
-fireRate: 540
-adsSpread: 0.470165
-hipfireSpread: 12.5377
+fireRate: 736.25
+adsSpread: 0.595872
+hipfireSpread: 9.93119
 reloadTime: 2.5
+magazineSize: 32
+health: 0
+recoilHipVertical: 22.425 - 38.87
+recoilAimVertical: 8.97 - 15.548
+movementSpeed: 3
+detectionRadius: 120
+TTK: 0.162988 Seconds
+
+[ Barrel: Type 2a Nambu, Magazine: MP 40, Grip: Circuit Judge, Stock: Taco, Core: M1 Carbine ]
+damage: 33.4828 - 20.0897
+dropoffStuds: 145 - 170
+pellets: 1
+fireRate: 699.438
+adsSpread: 0.550211
+hipfireSpread: 9.17018
+reloadTime: 2.75
+magazineSize: 32
+health: 10
+recoilHipVertical: 20.7 - 35.88
+recoilAimVertical: 8.28 - 14.352
+movementSpeed: 3
+detectionRadius: 144
+TTK: 0.171566 Seconds
+
+[ Barrel: Water Pipe, Magazine: MP 40, Grip: Type 2a Nambu, Stock: APS, Core: M1 Carbine ]
+damage: 33.8477 - 20.3086
+dropoffStuds: 145 - 170
+pellets: 1
+fireRate: 647.9
+adsSpread: 0.4849
+hipfireSpread: 8.08166
+reloadTime: 2.5
+magazineSize: 32
+health: -7.5
+recoilHipVertical: 27.5827 - 47.8101
+recoilAimVertical: 11.0331 - 19.124
+movementSpeed: 0
+detectionRadius: 210
+TTK: 0.185214 Seconds
+
+[ Barrel: Water Pipe, Magazine: MP 40, Grip: MP 40, Stock: APS, Core: M1 Carbine ]
+damage: 33.5314 - 20.1188
+dropoffStuds: 145 - 170
+pellets: 1
+fireRate: 647.9
+adsSpread: 0.629646
+hipfireSpread: 10.4941
+reloadTime: 2.5
+magazineSize: 32
+health: 0
+recoilHipVertical: 29.1525 - 50.531
+recoilAimVertical: 11.661 - 20.2124
+movementSpeed: 0
+detectionRadius: 210
+TTK: 0.185214 Seconds
+
+[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Taco, Core: M1 Carbine ]
+damage: 33.4525 - 20.0715
+dropoffStuds: 103.298 - 121.108
+pellets: 1
+fireRate: 629.494
+adsSpread: 0.596165
+hipfireSpread: 9.93609
+reloadTime: 5.775
+magazineSize: 36
+health: 10
+recoilHipVertical: 22.5 - 39
+recoilAimVertical: 9 - 15.6
+movementSpeed: 0
+detectionRadius: 180
+TTK: 0.190629 Seconds
+
+[ Barrel: M1918 BAR, Magazine: UNP-40, Grip: MP 40, Stock: APS, Core: M1 Carbine ]
+damage: 33.6005 - 20.1603
+dropoffStuds: 159.058 - 186.482
+pellets: 1
+fireRate: 627.75
+adsSpread: 0.559943
+hipfireSpread: 9.33239
+reloadTime: 2
 magazineSize: 30
 health: 0
-recoilHipVertical: 15.6 - 19.5
-recoilAimVertical: 5.46 - 6.76
-movementSpeed: 3
-detectionRadius: 175
-TTK: 0.222222 Seconds
+recoilHipVertical: 30.42 - 52.728
+recoilAimVertical: 12.168 - 21.0912
+movementSpeed: 1
+detectionRadius: 120
+TTK: 0.191159 Seconds
 
-[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: M870 Breacher, Core: FC200SH ]
-damage: 33.7044 - 26.9635
-dropoffStuds: 131.04 - 254.8
+[ Barrel: M1918 BAR, Magazine: UNP-40, Grip: Type 2a Nambu, Stock: APS, Core: M1 Carbine ]
+damage: 33.9175 - 20.3505
+dropoffStuds: 159.058 - 186.482
 pellets: 1
-fireRate: 538.65
-adsSpread: 0.310451
-hipfireSpread: 8.2787
-reloadTime: 3.8
-magazineSize: 36
-health: 0
-recoilHipVertical: 17.25 - 21.5625
-recoilAimVertical: 6.0375 - 7.475
-movementSpeed: 5
-detectionRadius: 218.75
-TTK: 0.222779 Seconds
+fireRate: 627.75
+adsSpread: 0.431221
+hipfireSpread: 7.18701
+reloadTime: 2
+magazineSize: 30
+health: -7.5
+recoilHipVertical: 28.782 - 49.8888
+recoilAimVertical: 11.5128 - 19.9555
+movementSpeed: 1
+detectionRadius: 120
+TTK: 0.191159 Seconds
 
-[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Fedorov Avtomat, Core: FC200SH ]
-damage: 33.7044 - 26.9635
-dropoffStuds: 131.04 - 254.8
+[ Barrel: M1918 BAR, Magazine: UNP-40, Grip: Circuit Judge, Stock: APS, Core: M1 Carbine ]
+damage: 34.076 - 20.4456
+dropoffStuds: 159.058 - 186.482
 pellets: 1
-fireRate: 533.52
-adsSpread: 0.248608
-hipfireSpread: 6.62956
-reloadTime: 5.7
-magazineSize: 36
+fireRate: 627.75
+adsSpread: 0.581397
+hipfireSpread: 9.68995
+reloadTime: 2
+magazineSize: 30
 health: 0
-recoilHipVertical: 13.8 - 17.25
-recoilAimVertical: 4.83 - 5.98
+recoilHipVertical: 23.4 - 40.56
+recoilAimVertical: 9.36 - 16.224
+movementSpeed: 1
+detectionRadius: 120
+TTK: 0.191159 Seconds
+
+[ Barrel: M110, Magazine: MP 40, Grip: Circuit Judge, Stock: APS, Core: M1 Carbine ]
+damage: 34.1232 - 20.4739
+dropoffStuds: 150.075 - 175.95
+pellets: 1
+fireRate: 625.812
+adsSpread: 0.639295
+hipfireSpread: 10.6549
+reloadTime: 2.5
+magazineSize: 32
+health: 0
+recoilHipVertical: 20.6983 - 35.877
+recoilAimVertical: 8.27931 - 14.3508
 movementSpeed: 0
-detectionRadius: 218.75
-TTK: 0.224921 Seconds
+detectionRadius: 162
+TTK: 0.191751 Seconds
 
-[ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: STG-44, Core: FC200SH ]
-damage: 33.7044 - 26.9635
-dropoffStuds: 131.04 - 254.8
+[ Barrel: M110, Magazine: MP 40, Grip: MP 40, Stock: APS, Core: M1 Carbine ]
+damage: 33.647 - 20.1882
+dropoffStuds: 150.075 - 175.95
 pellets: 1
-fireRate: 528.39
-adsSpread: 0.223871
-hipfireSpread: 5.9699
-reloadTime: 4.94
-magazineSize: 36
+fireRate: 625.812
+adsSpread: 0.615705
+hipfireSpread: 10.2618
+reloadTime: 2.5
+magazineSize: 32
 health: 0
-recoilHipVertical: 15 - 18.75
-recoilAimVertical: 5.25 - 6.5
+recoilHipVertical: 26.9078 - 46.6401
+recoilAimVertical: 10.7631 - 18.656
 movementSpeed: 0
-detectionRadius: 218.75
-TTK: 0.227105 Seconds
+detectionRadius: 162
+TTK: 0.191751 Seconds
 

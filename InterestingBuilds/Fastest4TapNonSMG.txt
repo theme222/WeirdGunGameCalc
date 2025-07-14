@@ -1,162 +1,162 @@
-./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 25 --speedMin 0 --magazineMin 30 --spreadAimMax 0.65 --recoilAimMax 30 --rangeMin 150 --pelletMax 1 --bc FC200SH 
+./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 25 --speedMin 0 --magazineMin 30 --spreadAimMax 0.65 --recoilAimMax 30 --rangeMin 150 --pelletMax 1 --bc FC200SH M1 Carbine 
 Current top 10 guns are: 
-[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: STG-44, Core: Hex Spitter ]
-damage: 25.445 - 22.9005
+[ Barrel: M870 Wingmaster, Magazine: MP 40, Grip: PPSh-41, Stock: STG-44, Core: Hex Spitter ]
+damage: 25.9024 - 23.3122
 dropoffStuds: 165 - 330
 pellets: 1
-fireRate: 638.74
-adsSpread: 0.64402
-hipfireSpread: 2.25407
-reloadTime: 3.15744
-magazineSize: 30
-health: 0
-recoilHipVertical: 30 - 40
-recoilAimVertical: 15 - 20
-movementSpeed: 0
-detectionRadius: 80.85
-TTK: 0.281805 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: STG-44, Core: Hex Spitter ]
-damage: 25.445 - 22.9005
-dropoffStuds: 165 - 330
-pellets: 1
-fireRate: 638.74
-adsSpread: 0.64402
-hipfireSpread: 2.25407
-reloadTime: 3.15744
-magazineSize: 30
-health: 0
-recoilHipVertical: 30 - 40
-recoilAimVertical: 15 - 20
-movementSpeed: 0
-detectionRadius: 80.85
-TTK: 0.281805 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: PP-19 Bizon, Core: Hex Spitter ]
-damage: 25.445 - 22.9005
-dropoffStuds: 165 - 330
-pellets: 1
-fireRate: 620.136
-adsSpread: 0.641174
-hipfireSpread: 2.24411
-reloadTime: 2.74454
-magazineSize: 30
-health: 0
-recoilHipVertical: 36 - 48
-recoilAimVertical: 18 - 24
-movementSpeed: 2
-detectionRadius: 80.85
-TTK: 0.290259 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: FAL, Core: Hex Spitter ]
-damage: 25.445 - 22.9005
-dropoffStuds: 171.6 - 343.2
-pellets: 1
-fireRate: 620.136
-adsSpread: 0.561472
-hipfireSpread: 1.96515
-reloadTime: 3.036
-magazineSize: 30
-health: 0
-recoilHipVertical: 39 - 52
-recoilAimVertical: 19.5 - 26
-movementSpeed: 0.16
-detectionRadius: 80.85
-TTK: 0.290259 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: Words as Weapons, Core: Hex Spitter ]
-damage: 25.445 - 22.9005
-dropoffStuds: 165 - 330
-pellets: 1
-fireRate: 620.136
-adsSpread: 0.64402
-hipfireSpread: 2.25407
-reloadTime: 2.7324
-magazineSize: 30
+fireRate: 606.803
+adsSpread: 0.593205
+hipfireSpread: 2.07622
+reloadTime: 3.289
+magazineSize: 32
 health: 0
 recoilHipVertical: 34.5 - 46
 recoilAimVertical: 17.25 - 23
 movementSpeed: 0
-detectionRadius: 80.85
-TTK: 0.290259 Seconds
+detectionRadius: 77
+TTK: 0.296637 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: UNP-40, Core: Hex Spitter ]
-damage: 25.445 - 22.9005
+[ Barrel: M870 Wingmaster, Magazine: MP 40, Grip: PPSh-41, Stock: P90, Core: Hex Spitter ]
+damage: 25.9024 - 23.3122
 dropoffStuds: 165 - 330
 pellets: 1
-fireRate: 620.136
-adsSpread: 0.589937
-hipfireSpread: 2.06478
-reloadTime: 3.036
-magazineSize: 30
+fireRate: 600.912
+adsSpread: 0.632534
+hipfireSpread: 2.21387
+reloadTime: 3.1625
+magazineSize: 32
 health: 0
-recoilHipVertical: 36 - 48
-recoilAimVertical: 18 - 24
-movementSpeed: 3.04
-detectionRadius: 80.85
-TTK: 0.290259 Seconds
+recoilHipVertical: 33.12 - 44.16
+recoilAimVertical: 16.56 - 22.08
+movementSpeed: 2.4
+detectionRadius: 77
+TTK: 0.299545 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: M40, Core: Hex Spitter ]
-damage: 25.445 - 22.9005
+[ Barrel: M870 Wingmaster, Magazine: Words as Weapons, Grip: The Chief, Stock: Fedorov Avtomat, Core: Hex Spitter ]
+damage: 25.0232 - 22.5209
 dropoffStuds: 165 - 330
 pellets: 1
-fireRate: 620.136
-adsSpread: 0.615555
-hipfireSpread: 2.15444
-reloadTime: 3.036
+fireRate: 597.168
+adsSpread: 0.583744
+hipfireSpread: 2.0431
+reloadTime: 3.168
 magazineSize: 30
 health: 0
-recoilHipVertical: 27.9 - 37.2
-recoilAimVertical: 13.95 - 18.6
+recoilHipVertical: 37.26 - 49.68
+recoilAimVertical: 18.63 - 24.84
 movementSpeed: 0
 detectionRadius: 80.85
-TTK: 0.290259 Seconds
+TTK: 0.301423 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: The Chief, Core: Hex Spitter ]
-damage: 25.445 - 22.9005
+[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: The Chief, Stock: Fedorov Avtomat, Core: Hex Spitter ]
+damage: 25.2587 - 22.7328
 dropoffStuds: 165 - 330
 pellets: 1
-fireRate: 620.136
-adsSpread: 0.572858
-hipfireSpread: 2.005
-reloadTime: 2.7324
+fireRate: 597.168
+adsSpread: 0.583744
+hipfireSpread: 2.0431
+reloadTime: 3.168
 magazineSize: 30
 health: 0
-recoilHipVertical: 33 - 44
-recoilAimVertical: 16.5 - 22
+recoilHipVertical: 37.26 - 49.68
+recoilAimVertical: 18.63 - 24.84
 movementSpeed: 0
 detectionRadius: 80.85
-TTK: 0.290259 Seconds
+TTK: 0.301423 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: PPSh-41, Stock: Type 2a Nambu, Core: Hex Spitter ]
-damage: 25.445 - 22.9005
+[ Barrel: M870 Wingmaster, Magazine: PP-19 Bizon, Grip: The Chief, Stock: Fedorov Avtomat, Core: Hex Spitter ]
+damage: 25.7297 - 23.1568
+dropoffStuds: 151.8 - 303.6
+pellets: 1
+fireRate: 597.168
+adsSpread: 0.583744
+hipfireSpread: 2.0431
+reloadTime: 5.28
+magazineSize: 64
+health: 0
+recoilHipVertical: 41.7312 - 55.6416
+recoilAimVertical: 20.8656 - 27.8208
+movementSpeed: 0
+detectionRadius: 77
+TTK: 0.301423 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: DP-27, Grip: The Chief, Stock: Fedorov Avtomat, Core: Hex Spitter ]
+damage: 25.0821 - 22.5738
+dropoffStuds: 171.188 - 342.375
+pellets: 1
+fireRate: 597.168
+adsSpread: 0.583744
+hipfireSpread: 2.0431
+reloadTime: 7.92
+magazineSize: 47
+health: 0
+recoilHipVertical: 41.7312 - 55.6416
+recoilAimVertical: 20.8656 - 27.8208
+movementSpeed: 0
+detectionRadius: 77
+TTK: 0.301423 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: MP 40, Grip: Auto-5, Stock: Fedorov Avtomat, Core: Hex Spitter ]
+damage: 25.2613 - 22.7352
 dropoffStuds: 165 - 330
 pellets: 1
-fireRate: 620.136
-adsSpread: 0.641174
-hipfireSpread: 2.24411
-reloadTime: 3.036
-magazineSize: 30
+fireRate: 595.675
+adsSpread: 0.573293
+hipfireSpread: 2.00653
+reloadTime: 3.3
+magazineSize: 32
 health: 0
-recoilHipVertical: 27.6 - 36.8
-recoilAimVertical: 13.8 - 18.4
-movementSpeed: 1.2
-detectionRadius: 80.85
-TTK: 0.290259 Seconds
+recoilHipVertical: 28.566 - 38.088
+recoilAimVertical: 14.283 - 19.044
+movementSpeed: 0
+detectionRadius: 77
+TTK: 0.302178 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: Words as Weapons, Grip: PPSh-41, Stock: JSG12, Core: Hex Spitter ]
-damage: 25.445 - 22.9005
+[ Barrel: M870 Wingmaster, Magazine: MP 40, Grip: Mas-38, Stock: Fedorov Avtomat, Core: Hex Spitter ]
+damage: 25.9024 - 23.3122
+dropoffStuds: 153.45 - 306.9
+pellets: 1
+fireRate: 594.54
+adsSpread: 0.630266
+hipfireSpread: 2.20593
+reloadTime: 3.3
+magazineSize: 32
+health: 0
+recoilHipVertical: 31.74 - 42.32
+recoilAimVertical: 15.87 - 21.16
+movementSpeed: 1.6
+detectionRadius: 77
+TTK: 0.302755 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: The Chief, Stock: STG-44, Core: Hex Spitter ]
+damage: 25.2587 - 22.7328
 dropoffStuds: 165 - 330
 pellets: 1
-fireRate: 620.136
-adsSpread: 0.579974
-hipfireSpread: 2.02991
-reloadTime: 3.1878
+fireRate: 591.426
+adsSpread: 0.52566
+hipfireSpread: 1.83981
+reloadTime: 2.7456
 magazineSize: 30
 health: 0
-recoilHipVertical: 30 - 40
-recoilAimVertical: 15 - 20
-movementSpeed: 3
+recoilHipVertical: 40.5 - 54
+recoilAimVertical: 20.25 - 27
+movementSpeed: 0
 detectionRadius: 80.85
-TTK: 0.290259 Seconds
+TTK: 0.304349 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: Words as Weapons, Grip: The Chief, Stock: STG-44, Core: Hex Spitter ]
+damage: 25.0232 - 22.5209
+dropoffStuds: 165 - 330
+pellets: 1
+fireRate: 591.426
+adsSpread: 0.52566
+hipfireSpread: 1.83981
+reloadTime: 2.7456
+magazineSize: 30
+health: 0
+recoilHipVertical: 40.5 - 54
+recoilAimVertical: 20.25 - 27
+movementSpeed: 0
+detectionRadius: 80.85
+TTK: 0.304349 Seconds
 

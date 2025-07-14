@@ -469,7 +469,6 @@ public:
 
         if (jsonObject.contains("Fire_Rate"))
             fireRate = jsonObject["Fire_Rate"];
-
         if (jsonObject.contains("Hipfire_Spread"))
             hipfireSpread = jsonObject["Hipfire_Spread"];
         if (jsonObject.contains("ADS_Spread"))
@@ -482,6 +481,8 @@ public:
             pellets = jsonObject["Pellets"];
         if (jsonObject.contains("Detection_Radius"))
             detectionRadius = jsonObject["Detection_Radius"];
+        if (jsonObject.contains("Health"))
+            detectionRadius = jsonObject["Health"];
 
         if (jsonObject.contains("Recoil_Hip_Horizontal"))
         {

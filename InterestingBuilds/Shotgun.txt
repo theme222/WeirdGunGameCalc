@@ -1,162 +1,162 @@
-./Calculator -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 2 --rangeMin 100 --pelletMin 12 
+./Calculator -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80 --pelletMin 12 
 Current top 10 guns are: 
-[ Barrel: Arctic Warfare, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
-damage: 149.526 - 24.921
-dropoffStuds: 100.781 - 174.688
+[ Barrel: Dragunov, Magazine: Hex Spitter, Grip: Auto-5, Stock: Auto-5, Core: Circuit Judge ]
+damage: 142.895 - 38.1054
+dropoffStuds: 81.4334 - 119.755
 pellets: 13
-fireRate: 56.07
-adsSpread: 1.66807
-hipfireSpread: 7.29779
-reloadTime: 3.815
-magazineSize: 10
+fireRate: 66.15
+adsSpread: 1.74217
+hipfireSpread: 4.97763
+reloadTime: 4.2
+magazineSize: 35
 health: 0
-recoilHipVertical: 30.625 - 45.9375
-recoilAimVertical: 12.25 - 18.375
-movementSpeed: 9
-detectionRadius: 100
+recoilHipVertical: 123.206 - 152.468
+recoilAimVertical: 43.1222 - 53.2868
+movementSpeed: 5
+detectionRadius: 160
 TTK: 0 Seconds
 
-[ Barrel: M1891, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
-damage: 145.993 - 24.3322
-dropoffStuds: 103.125 - 178.75
+[ Barrel: M1891, Magazine: Hex Spitter, Grip: Auto-5, Stock: Auto-5, Core: Circuit Judge ]
+damage: 142.895 - 38.1054
+dropoffStuds: 80.41 - 118.25
 pellets: 13
-fireRate: 56.07
-adsSpread: 1.66807
-hipfireSpread: 7.29779
-reloadTime: 4.578
-magazineSize: 10
+fireRate: 66.15
+adsSpread: 1.69165
+hipfireSpread: 4.83327
+reloadTime: 5.04
+magazineSize: 35
 health: 0
-recoilHipVertical: 17.5 - 26.25
-recoilAimVertical: 7 - 10.5
-movementSpeed: 9
-detectionRadius: 100
+recoilHipVertical: 99.36 - 122.958
+recoilAimVertical: 34.776 - 42.9732
+movementSpeed: 5
+detectionRadius: 160
 TTK: 0 Seconds
 
-[ Barrel: Dragunov, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
-damage: 145.993 - 24.3322
-dropoffStuds: 104.437 - 181.025
+[ Barrel: M1891, Magazine: Hex Spitter, Grip: Auto-5, Stock: STG-44, Core: Circuit Judge ]
+damage: 150.102 - 40.0271
+dropoffStuds: 80.41 - 118.25
 pellets: 13
-fireRate: 56.07
-adsSpread: 1.71891
-hipfireSpread: 7.52024
-reloadTime: 3.815
-magazineSize: 10
+fireRate: 64.134
+adsSpread: 1.75959
+hipfireSpread: 5.02739
+reloadTime: 5.2416
+magazineSize: 35
 health: 0
-recoilHipVertical: 21.7 - 32.55
-recoilAimVertical: 8.68 - 13.02
-movementSpeed: 9
-detectionRadius: 100
+recoilHipVertical: 99.36 - 122.958
+recoilAimVertical: 34.776 - 42.9732
+movementSpeed: 0
+detectionRadius: 160
 TTK: 0 Seconds
 
-[ Barrel: M-16, Magazine: M40, Grip: Blunderbuss, Stock: Auto-5, Core: M1887 ]
-damage: 145.993 - 24.3322
-dropoffStuds: 102.75 - 178.1
+[ Barrel: M1891, Magazine: Hex Spitter, Grip: PPSh-41, Stock: AWM, Core: Circuit Judge ]
+damage: 153.794 - 41.0116
+dropoffStuds: 80.41 - 118.25
 pellets: 13
-fireRate: 56.07
-adsSpread: 1.88723
-hipfireSpread: 8.25663
-reloadTime: 3.815
-magazineSize: 10
+fireRate: 63.9
+adsSpread: 1.79995
+hipfireSpread: 5.14272
+reloadTime: 5.3613
+magazineSize: 35
 health: 0
-recoilHipVertical: 15.925 - 23.8875
-recoilAimVertical: 6.37 - 9.555
-movementSpeed: 9
-detectionRadius: 100
+recoilHipVertical: 121.44 - 150.282
+recoilAimVertical: 42.504 - 52.5228
+movementSpeed: 0
+detectionRadius: 160
 TTK: 0 Seconds
 
-[ Barrel: Dragunov, Magazine: M40, Grip: Blunderbuss, Stock: Type 99, Core: M1887 ]
-damage: 153.418 - 25.5696
-dropoffStuds: 104.437 - 181.025
+[ Barrel: M1891, Magazine: Hex Spitter, Grip: PPSh-41, Stock: MG42, Core: Circuit Judge ]
+damage: 153.794 - 41.0116
+dropoffStuds: 80.41 - 118.25
 pellets: 13
-fireRate: 55.4025
-adsSpread: 1.89496
-hipfireSpread: 8.29046
-reloadTime: 3.38581
-magazineSize: 10
+fireRate: 63.9
+adsSpread: 1.77552
+hipfireSpread: 5.07292
+reloadTime: 6.9552
+magazineSize: 35
 health: 0
-recoilHipVertical: 23.436 - 35.154
-recoilAimVertical: 9.3744 - 14.0616
-movementSpeed: 1
-detectionRadius: 100
+recoilHipVertical: 110.4 - 136.62
+recoilAimVertical: 38.64 - 47.748
+movementSpeed: 2.625
+detectionRadius: 160
 TTK: 0 Seconds
 
-[ Barrel: Arctic Warfare, Magazine: M40, Grip: Blunderbuss, Stock: Type 99, Core: M1887 ]
-damage: 157.13 - 26.1884
-dropoffStuds: 100.781 - 174.688
+[ Barrel: M1891, Magazine: Hex Spitter, Grip: PPSh-41, Stock: JSG12, Core: Circuit Judge ]
+damage: 153.794 - 41.0116
+dropoffStuds: 80.41 - 118.25
 pellets: 13
-fireRate: 55.4025
-adsSpread: 1.83891
-hipfireSpread: 8.04522
-reloadTime: 3.38581
-magazineSize: 10
+fireRate: 63.9
+adsSpread: 1.77064
+hipfireSpread: 5.05896
+reloadTime: 6.0858
+magazineSize: 35
 health: 0
-recoilHipVertical: 33.075 - 49.6125
-recoilAimVertical: 13.23 - 19.845
-movementSpeed: 1
-detectionRadius: 100
+recoilHipVertical: 110.4 - 136.62
+recoilAimVertical: 38.64 - 47.748
+movementSpeed: 3
+detectionRadius: 160
 TTK: 0 Seconds
 
-[ Barrel: M1891, Magazine: M40, Grip: Blunderbuss, Stock: Type 99, Core: M1887 ]
-damage: 153.418 - 25.5696
-dropoffStuds: 103.125 - 178.75
+[ Barrel: Dragunov, Magazine: Hex Spitter, Grip: Auto-5, Stock: FAL, Core: Circuit Judge ]
+damage: 150.102 - 40.0271
+dropoffStuds: 83.8764 - 123.348
 pellets: 13
-fireRate: 55.4025
-adsSpread: 1.83891
-hipfireSpread: 8.04522
-reloadTime: 4.06297
-magazineSize: 10
+fireRate: 63
+adsSpread: 1.63372
+hipfireSpread: 4.66777
+reloadTime: 4.2
+magazineSize: 35
 health: 0
-recoilHipVertical: 18.9 - 28.35
-recoilAimVertical: 7.56 - 11.34
-movementSpeed: 1
-detectionRadius: 100
+recoilHipVertical: 160.168 - 198.208
+recoilAimVertical: 56.0589 - 69.2728
+movementSpeed: 0.12
+detectionRadius: 160
 TTK: 0 Seconds
 
-[ Barrel: Dragunov, Magazine: M40, Grip: Blunderbuss, Stock: Fedorov Avtomat, Core: M1887 ]
-damage: 153.418 - 25.5696
-dropoffStuds: 104.437 - 181.025
+[ Barrel: Dragunov, Magazine: Hex Spitter, Grip: JSG12, Stock: Auto-5, Core: Circuit Judge ]
+damage: 146.41 - 39.0427
+dropoffStuds: 81.4334 - 119.755
 pellets: 13
-fireRate: 55.002
-adsSpread: 1.89496
-hipfireSpread: 8.29046
-reloadTime: 4.578
-magazineSize: 10
+fireRate: 63
+adsSpread: 1.78106
+hipfireSpread: 5.08874
+reloadTime: 4.2
+magazineSize: 35
 health: 0
-recoilHipVertical: 20.398 - 30.597
-recoilAimVertical: 8.1592 - 12.2388
-movementSpeed: 4
-detectionRadius: 100
+recoilHipVertical: 188.916 - 233.784
+recoilAimVertical: 66.1208 - 81.7064
+movementSpeed: 8
+detectionRadius: 160
 TTK: 0 Seconds
 
-[ Barrel: M1891, Magazine: M40, Grip: Blunderbuss, Stock: Fedorov Avtomat, Core: M1887 ]
-damage: 153.418 - 25.5696
-dropoffStuds: 103.125 - 178.75
+[ Barrel: M40, Magazine: Hex Spitter, Grip: The Chief, Stock: MG42, Core: Circuit Judge ]
+damage: 141.429 - 37.7145
+dropoffStuds: 82.2375 - 120.938
 pellets: 13
-fireRate: 55.002
-adsSpread: 1.83891
-hipfireSpread: 8.04522
-reloadTime: 5.4936
-magazineSize: 10
+fireRate: 63
+adsSpread: 1.67108
+hipfireSpread: 4.77452
+reloadTime: 5.04
+magazineSize: 35
 health: 0
-recoilHipVertical: 16.45 - 24.675
-recoilAimVertical: 6.58 - 9.87
-movementSpeed: 4
-detectionRadius: 100
+recoilHipVertical: 145.314 - 179.826
+recoilAimVertical: 50.8599 - 62.8483
+movementSpeed: 2.625
+detectionRadius: 160
 TTK: 0 Seconds
 
-[ Barrel: Arctic Warfare, Magazine: M40, Grip: Blunderbuss, Stock: Fedorov Avtomat, Core: M1887 ]
-damage: 157.13 - 26.1884
-dropoffStuds: 100.781 - 174.688
+[ Barrel: M40, Magazine: Hex Spitter, Grip: The Chief, Stock: The Chief, Core: Circuit Judge ]
+damage: 141.429 - 37.7145
+dropoffStuds: 82.2375 - 120.938
 pellets: 13
-fireRate: 55.002
-adsSpread: 1.83891
-hipfireSpread: 8.04522
-reloadTime: 4.578
-magazineSize: 10
+fireRate: 63
+adsSpread: 1.79525
+hipfireSpread: 5.12928
+reloadTime: 3.948
+magazineSize: 35
 health: 0
-recoilHipVertical: 28.7875 - 43.1813
-recoilAimVertical: 11.515 - 17.2725
-movementSpeed: 4
-detectionRadius: 100
+recoilHipVertical: 159.845 - 197.809
+recoilAimVertical: 55.9459 - 69.1331
+movementSpeed: 0
+detectionRadius: 160
 TTK: 0 Seconds
 
