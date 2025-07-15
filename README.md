@@ -105,11 +105,11 @@ And add it to a new directory called `include` in the same directory as `Calcula
 If compiling for use locally -static is useless and will only increase binary size.
 1. Linux for Linux
 ```sh
-g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror -static
+g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror -O2 -static
 ```
 2. Linux for Windows
 ```sh
-x86_64-w64-mingw32-g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator.exe -Werror -static
+x86_64-w64-mingw32-g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator.exe -Werror -O2 -static
 ```
 No idea how to use cmake lol
 

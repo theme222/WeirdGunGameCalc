@@ -1,4 +1,4 @@
-./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 25 --speedMin 0 --magazineMin 30 --spreadAimMax 0.65 --recoilAimMax 30 --rangeMin 150 --pelletMax 1 --bc FC200SH M1 Carbine 
+./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 25 --speedMin 0 --magazineMin 30 --spreadAimMax 0.65 --recoilAimMax 30 --rangeMin 150 --pelletMax 1 --bc FC200SH M1 Carbine G11 
 Current top 10 guns are: 
 [ Barrel: M870 Wingmaster, Magazine: MP 40, Grip: PPSh-41, Stock: STG-44, Core: Hex Spitter ]
 damage: 25.9024 - 23.3122

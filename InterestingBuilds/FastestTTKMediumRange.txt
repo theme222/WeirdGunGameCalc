@@ -1,162 +1,162 @@
-./Calculator -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.8 --recoilAimMax 30 --rangeMin 200 --pelletMax 1 --bc FC200SH M1 Carbine 
+./Calculator -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.6 --recoilAimMax 30 --rangeMin 200 --pelletMax 1 --bc FC200SH M1 Carbine G11 
 Current top 10 guns are: 
-[ Barrel: FC200SH, Magazine: Restroom, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: G11 ]
-damage: 17.0919 - 13.2178
-dropoffStuds: 205.2 - 433.2
+[ Barrel: Dragunov, Magazine: P90, Grip: Snake Sniper, Stock: AR-8X, Core: Mas-38 ]
+damage: 16.9124 - 10.7624
+dropoffStuds: 201.765 - 239.595
 pellets: 1
-fireRate: 1077.46
-adsSpread: 0.765065
-hipfireSpread: 8.41571
-reloadTime: 3.6018
+fireRate: 887.04
+adsSpread: 0.58278
+hipfireSpread: 3.23766
+reloadTime: 4
+magazineSize: 50
+health: 0
+recoilHipVertical: 15.8224 - 47.4672
+recoilAimVertical: 6.32896 - 18.9869
+movementSpeed: 0.4
+detectionRadius: 110
+TTK: 0.338203 Seconds
+
+[ Barrel: Dragunov, Magazine: P90, Grip: Snake Sniper, Stock: MAC-10, Core: Mas-38 ]
+damage: 16.9124 - 10.7624
+dropoffStuds: 201.765 - 239.595
+pellets: 1
+fireRate: 877.8
+adsSpread: 0.592959
+hipfireSpread: 3.29422
+reloadTime: 4
+magazineSize: 50
+health: 0
+recoilHipVertical: 15.8224 - 47.4672
+recoilAimVertical: 6.32896 - 18.9869
+movementSpeed: 7
+detectionRadius: 110
+TTK: 0.341763 Seconds
+
+[ Barrel: Dragunov, Magazine: P90, Grip: Snake Sniper, Stock: Fedorov Avtomat, Core: Mas-38 ]
+damage: 16.9124 - 10.7624
+dropoffStuds: 201.765 - 239.595
+pellets: 1
+fireRate: 869.4
+adsSpread: 0.511523
+hipfireSpread: 2.84179
+reloadTime: 4.8
+magazineSize: 50
+health: 0
+recoilHipVertical: 14.7148 - 44.1445
+recoilAimVertical: 5.88593 - 17.6578
+movementSpeed: 2.4
+detectionRadius: 110
+TTK: 0.345066 Seconds
+
+[ Barrel: M-16, Magazine: P90, Grip: Snake Sniper, Stock: Fedorov Avtomat, Core: Mas-38 ]
+damage: 16.9124 - 10.7624
+dropoffStuds: 200.874 - 238.538
+pellets: 1
+fireRate: 869.4
+adsSpread: 0.575678
+hipfireSpread: 3.19821
+reloadTime: 4.8
+magazineSize: 50
+health: 0
+recoilHipVertical: 10.4428 - 31.3284
+recoilAimVertical: 4.17711 - 12.5313
+movementSpeed: 2.4
+detectionRadius: 110
+TTK: 0.345066 Seconds
+
+[ Barrel: M1891, Magazine: Restroom, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: M-16 ]
+damage: 16.7111 - 14.1886
+dropoffStuds: 205.2 - 399
+pellets: 1
+fireRate: 865.15
+adsSpread: 0.462783
+hipfireSpread: 3.70227
+reloadTime: 3.828
 magazineSize: 35
 health: 0
-recoilHipVertical: 1.84 - 6.44
-recoilAimVertical: 1.196 - 4.14
+recoilHipVertical: 46 - 55.2
+recoilAimVertical: 23 - 27.6
 movementSpeed: 0
-detectionRadius: 120
-TTK: 0.278433 Seconds
+detectionRadius: 90
+TTK: 0.346761 Seconds
 
-[ Barrel: FC200SH, Magazine: MP 40, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: G11 ]
-damage: 21.016 - 16.2524
-dropoffStuds: 205.2 - 433.2
+[ Barrel: M-16, Magazine: P90, Grip: Snake Sniper, Stock: FG-42, Core: Mas-38 ]
+damage: 16.9124 - 10.7624
+dropoffStuds: 200.874 - 238.538
 pellets: 1
-fireRate: 861.603
-adsSpread: 0.794377
-hipfireSpread: 8.73815
-reloadTime: 2.7
-magazineSize: 32
-health: 0
-recoilHipVertical: 2.645 - 9.2575
-recoilAimVertical: 1.71925 - 5.95125
-movementSpeed: 0
-detectionRadius: 120
-TTK: 0.278551 Seconds
-
-[ Barrel: FC200SH, Magazine: MP 40, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: G11 ]
-damage: 20.0314 - 15.491
-dropoffStuds: 205.2 - 433.2
-pellets: 1
-fireRate: 861.603
-adsSpread: 0.589188
-hipfireSpread: 6.48106
-reloadTime: 2.7
-magazineSize: 32
-health: -7.5
-recoilHipVertical: 3.25335 - 11.3867
-recoilAimVertical: 2.11468 - 7.32004
-movementSpeed: 0
-detectionRadius: 120
-TTK: 0.278551 Seconds
-
-[ Barrel: Snake Sniper, Magazine: The Chief, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: G11 ]
-damage: 20.5778 - 15.9135
-dropoffStuds: 201.6 - 425.6
-pellets: 1
-fireRate: 859.172
-adsSpread: 0.767536
-hipfireSpread: 8.4429
-reloadTime: 5.5125
-magazineSize: 36
-health: -12.5
-recoilHipVertical: 3.53625 - 12.3769
-recoilAimVertical: 2.29856 - 7.95656
-movementSpeed: 0
-detectionRadius: 120
-TTK: 0.279339 Seconds
-
-[ Barrel: Snake Sniper, Magazine: The Chief, Grip: The Chief, Stock: M1897 Trench Shotgun, Core: G11 ]
-damage: 20.2277 - 15.6428
-dropoffStuds: 201.6 - 425.6
-pellets: 1
-fireRate: 859.172
-adsSpread: 0.576607
-hipfireSpread: 6.34268
-reloadTime: 5.5125
-magazineSize: 36
-health: -5
-recoilHipVertical: 3.88125 - 13.5844
-recoilAimVertical: 2.52281 - 8.73281
-movementSpeed: 0
-detectionRadius: 120
-TTK: 0.279339 Seconds
-
-[ Barrel: Snake Sniper, Magazine: The Chief, Grip: APS, Stock: M1897 Trench Shotgun, Core: G11 ]
-damage: 20.0332 - 15.4924
-dropoffStuds: 201.6 - 425.6
-pellets: 1
-fireRate: 859.172
-adsSpread: 0.767536
-hipfireSpread: 8.4429
-reloadTime: 5.84325
-magazineSize: 36
-health: -5
-recoilHipVertical: 2.55875 - 8.95562
-recoilAimVertical: 1.66319 - 5.75719
-movementSpeed: 0
-detectionRadius: 120
-TTK: 0.279339 Seconds
-
-[ Barrel: FC200SH, Magazine: P90, Grip: PPSh-41, Stock: MAC-10, Core: G11 ]
-damage: 16.6689 - 12.8906
-dropoffStuds: 213.408 - 450.528
-pellets: 1
-fireRate: 1070.12
-adsSpread: 0.764621
-hipfireSpread: 8.41083
-reloadTime: 4.968
+fireRate: 863.52
+adsSpread: 0.575678
+hipfireSpread: 3.19821
+reloadTime: 4
 magazineSize: 50
 health: 0
-recoilHipVertical: 2.2 - 7.7
-recoilAimVertical: 1.43 - 4.95
-movementSpeed: 3.48
-detectionRadius: 120
-TTK: 0.280343 Seconds
+recoilHipVertical: 12.6885 - 38.0656
+recoilAimVertical: 5.07542 - 15.2263
+movementSpeed: 3.8
+detectionRadius: 110
+TTK: 0.347415 Seconds
 
-[ Barrel: FC200SH, Magazine: P90, Grip: PPSh-41, Stock: FG-42, Core: G11 ]
-damage: 16.6689 - 12.8906
-dropoffStuds: 213.408 - 450.528
+[ Barrel: Dragunov, Magazine: P90, Grip: Snake Sniper, Stock: FG-42, Core: Mas-38 ]
+damage: 16.9124 - 10.7624
+dropoffStuds: 201.765 - 239.595
 pellets: 1
-fireRate: 1065.99
-adsSpread: 0.659609
-hipfireSpread: 7.25569
-reloadTime: 4.968
+fireRate: 863.52
+adsSpread: 0.511523
+hipfireSpread: 2.84179
+reloadTime: 4
 magazineSize: 50
 health: 0
-recoilHipVertical: 2.486 - 8.701
-recoilAimVertical: 1.6159 - 5.5935
-movementSpeed: 1.4
-detectionRadius: 120
-TTK: 0.281429 Seconds
+recoilHipVertical: 17.8793 - 53.6379
+recoilAimVertical: 7.15173 - 21.4552
+movementSpeed: 3.8
+detectionRadius: 110
+TTK: 0.347415 Seconds
 
-[ Barrel: FC200SH, Magazine: Hell-Trooper-23, Grip: Circuit Judge, Stock: STG-44, Core: G11 ]
-damage: 20.1791 - 15.6051
-dropoffStuds: 205.2 - 433.2
+[ Barrel: Dragunov, Magazine: P90, Grip: Snake Sniper, Stock: P90, Core: Mas-38 ]
+damage: 16.9124 - 10.7624
+dropoffStuds: 201.765 - 239.595
 pellets: 1
-fireRate: 849.235
-adsSpread: 0.758623
-hipfireSpread: 8.34485
-reloadTime: 4.4928
-magazineSize: 45
+fireRate: 861
+adsSpread: 0.486074
+hipfireSpread: 2.70041
+reloadTime: 4
+magazineSize: 50
 health: 0
-recoilHipVertical: 2.3 - 8.05
-recoilAimVertical: 1.495 - 5.175
-movementSpeed: 0
-detectionRadius: 120
-TTK: 0.282607 Seconds
+recoilHipVertical: 15.0313 - 45.0938
+recoilAimVertical: 6.01251 - 18.0375
+movementSpeed: 5.4
+detectionRadius: 110
+TTK: 0.348432 Seconds
 
-[ Barrel: FC200SH, Magazine: MP 40, Grip: PPSh-41, Stock: APS, Core: G11 ]
-damage: 20.2586 - 15.6667
-dropoffStuds: 205.2 - 433.2
+[ Barrel: M-16, Magazine: P90, Grip: Snake Sniper, Stock: P90, Core: Mas-38 ]
+damage: 16.9124 - 10.7624
+dropoffStuds: 200.874 - 238.538
 pellets: 1
-fireRate: 845.937
-adsSpread: 0.563892
-hipfireSpread: 6.20281
-reloadTime: 3.105
-magazineSize: 32
+fireRate: 861
+adsSpread: 0.547037
+hipfireSpread: 3.03909
+reloadTime: 4
+magazineSize: 50
 health: 0
-recoilHipVertical: 2.99 - 10.465
-recoilAimVertical: 1.9435 - 6.7275
-movementSpeed: 0
-detectionRadius: 120
-TTK: 0.283709 Seconds
+recoilHipVertical: 10.6674 - 32.0021
+recoilAimVertical: 4.26694 - 12.8008
+movementSpeed: 5.4
+detectionRadius: 110
+TTK: 0.348432 Seconds
+
+[ Barrel: Dragunov, Magazine: P90, Grip: Snake Sniper, Stock: STG-44, Core: Mas-38 ]
+damage: 16.9124 - 10.7624
+dropoffStuds: 201.765 - 239.595
+pellets: 1
+fireRate: 860.16
+adsSpread: 0.470804
+hipfireSpread: 2.61558
+reloadTime: 4.16
+magazineSize: 50
+health: 0
+recoilHipVertical: 15.8224 - 47.4672
+recoilAimVertical: 6.32896 - 18.9869
+movementSpeed: 2.4
+detectionRadius: 110
+TTK: 0.348772 Seconds
 

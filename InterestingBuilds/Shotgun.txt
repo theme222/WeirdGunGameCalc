@@ -1,162 +1,162 @@
-./Calculator -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80 --pelletMin 12 
+./Calculator -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80 
 Current top 10 guns are: 
-[ Barrel: Dragunov, Magazine: Hex Spitter, Grip: Auto-5, Stock: Auto-5, Core: Circuit Judge ]
-damage: 142.895 - 38.1054
-dropoffStuds: 81.4334 - 119.755
-pellets: 13
-fireRate: 66.15
-adsSpread: 1.74217
-hipfireSpread: 4.97763
-reloadTime: 4.2
-magazineSize: 35
+[ Barrel: Scar H, Magazine: M40, Grip: APS, Stock: FAL, Core: Auto-5 ]
+damage: 141.46 - 10.8815
+dropoffStuds: 81.885 - 156.946
+pellets: 8
+fireRate: 171
+adsSpread: 1.73649
+hipfireSpread: 6.0777
+reloadTime: 3.71
+magazineSize: 10
 health: 0
-recoilHipVertical: 123.206 - 152.468
-recoilAimVertical: 43.1222 - 53.2868
-movementSpeed: 5
-detectionRadius: 160
-TTK: 0 Seconds
-
-[ Barrel: M1891, Magazine: Hex Spitter, Grip: Auto-5, Stock: Auto-5, Core: Circuit Judge ]
-damage: 142.895 - 38.1054
-dropoffStuds: 80.41 - 118.25
-pellets: 13
-fireRate: 66.15
-adsSpread: 1.69165
-hipfireSpread: 4.83327
-reloadTime: 5.04
-magazineSize: 35
-health: 0
-recoilHipVertical: 99.36 - 122.958
-recoilAimVertical: 34.776 - 42.9732
-movementSpeed: 5
-detectionRadius: 160
-TTK: 0 Seconds
-
-[ Barrel: M1891, Magazine: Hex Spitter, Grip: Auto-5, Stock: STG-44, Core: Circuit Judge ]
-damage: 150.102 - 40.0271
-dropoffStuds: 80.41 - 118.25
-pellets: 13
-fireRate: 64.134
-adsSpread: 1.75959
-hipfireSpread: 5.02739
-reloadTime: 5.2416
-magazineSize: 35
-health: 0
-recoilHipVertical: 99.36 - 122.958
-recoilAimVertical: 34.776 - 42.9732
-movementSpeed: 0
-detectionRadius: 160
-TTK: 0 Seconds
-
-[ Barrel: M1891, Magazine: Hex Spitter, Grip: PPSh-41, Stock: AWM, Core: Circuit Judge ]
-damage: 153.794 - 41.0116
-dropoffStuds: 80.41 - 118.25
-pellets: 13
-fireRate: 63.9
-adsSpread: 1.79995
-hipfireSpread: 5.14272
-reloadTime: 5.3613
-magazineSize: 35
-health: 0
-recoilHipVertical: 121.44 - 150.282
-recoilAimVertical: 42.504 - 52.5228
-movementSpeed: 0
-detectionRadius: 160
-TTK: 0 Seconds
-
-[ Barrel: M1891, Magazine: Hex Spitter, Grip: PPSh-41, Stock: MG42, Core: Circuit Judge ]
-damage: 153.794 - 41.0116
-dropoffStuds: 80.41 - 118.25
-pellets: 13
-fireRate: 63.9
-adsSpread: 1.77552
-hipfireSpread: 5.07292
-reloadTime: 6.9552
-magazineSize: 35
-health: 0
-recoilHipVertical: 110.4 - 136.62
-recoilAimVertical: 38.64 - 47.748
-movementSpeed: 2.625
-detectionRadius: 160
-TTK: 0 Seconds
-
-[ Barrel: M1891, Magazine: Hex Spitter, Grip: PPSh-41, Stock: JSG12, Core: Circuit Judge ]
-damage: 153.794 - 41.0116
-dropoffStuds: 80.41 - 118.25
-pellets: 13
-fireRate: 63.9
-adsSpread: 1.77064
-hipfireSpread: 5.05896
-reloadTime: 6.0858
-magazineSize: 35
-health: 0
-recoilHipVertical: 110.4 - 136.62
-recoilAimVertical: 38.64 - 47.748
-movementSpeed: 3
-detectionRadius: 160
-TTK: 0 Seconds
-
-[ Barrel: Dragunov, Magazine: Hex Spitter, Grip: Auto-5, Stock: FAL, Core: Circuit Judge ]
-damage: 150.102 - 40.0271
-dropoffStuds: 83.8764 - 123.348
-pellets: 13
-fireRate: 63
-adsSpread: 1.63372
-hipfireSpread: 4.66777
-reloadTime: 4.2
-magazineSize: 35
-health: 0
-recoilHipVertical: 160.168 - 198.208
-recoilAimVertical: 56.0589 - 69.2728
+recoilHipVertical: 50.9964 - 89.2437
+recoilAimVertical: 20.3986 - 35.6975
 movementSpeed: 0.12
-detectionRadius: 160
+detectionRadius: 143
 TTK: 0 Seconds
 
-[ Barrel: Dragunov, Magazine: Hex Spitter, Grip: JSG12, Stock: Auto-5, Core: Circuit Judge ]
-damage: 146.41 - 39.0427
-dropoffStuds: 81.4334 - 119.755
-pellets: 13
-fireRate: 63
-adsSpread: 1.78106
-hipfireSpread: 5.08874
-reloadTime: 4.2
-magazineSize: 35
-health: 0
-recoilHipVertical: 188.916 - 233.784
-recoilAimVertical: 66.1208 - 81.7064
-movementSpeed: 8
-detectionRadius: 160
+[ Barrel: Scar H, Magazine: M40, Grip: Type 2a Nambu, Stock: FAL, Core: Auto-5 ]
+damage: 145.133 - 11.1641
+dropoffStuds: 81.885 - 156.946
+pellets: 8
+fireRate: 171
+adsSpread: 1.73649
+hipfireSpread: 6.0777
+reloadTime: 3.5
+magazineSize: 10
+health: -7.5
+recoilHipVertical: 67.158 - 117.527
+recoilAimVertical: 26.8632 - 47.0106
+movementSpeed: 0.12
+detectionRadius: 143
 TTK: 0 Seconds
 
-[ Barrel: M40, Magazine: Hex Spitter, Grip: The Chief, Stock: MG42, Core: Circuit Judge ]
-damage: 141.429 - 37.7145
-dropoffStuds: 82.2375 - 120.938
-pellets: 13
-fireRate: 63
-adsSpread: 1.67108
-hipfireSpread: 4.77452
-reloadTime: 5.04
-magazineSize: 35
+[ Barrel: Scar H, Magazine: M40, Grip: The Chief, Stock: FAL, Core: Auto-5 ]
+damage: 142.276 - 10.9443
+dropoffStuds: 81.885 - 156.946
+pellets: 8
+fireRate: 171
+adsSpread: 1.49126
+hipfireSpread: 5.21942
+reloadTime: 3.5
+magazineSize: 10
 health: 0
-recoilHipVertical: 145.314 - 179.826
-recoilAimVertical: 50.8599 - 62.8483
-movementSpeed: 2.625
-detectionRadius: 160
+recoilHipVertical: 73.71 - 128.993
+recoilAimVertical: 29.484 - 51.597
+movementSpeed: 0.12
+detectionRadius: 143
 TTK: 0 Seconds
 
-[ Barrel: M40, Magazine: Hex Spitter, Grip: The Chief, Stock: The Chief, Core: Circuit Judge ]
-damage: 141.429 - 37.7145
-dropoffStuds: 82.2375 - 120.938
-pellets: 13
-fireRate: 63
-adsSpread: 1.79525
-hipfireSpread: 5.12928
-reloadTime: 3.948
-magazineSize: 35
-health: 0
-recoilHipVertical: 159.845 - 197.809
-recoilAimVertical: 55.9459 - 69.1331
+[ Barrel: M870 Wingmaster, Magazine: M40, Grip: Type 2a Nambu, Stock: Fedorov Avtomat, Core: Auto-5 ]
+damage: 140.806 - 10.8312
+dropoffStuds: 82.5 - 158.125
+pellets: 4
+fireRate: 170.259
+adsSpread: 1.60406
+hipfireSpread: 5.6142
+reloadTime: 4.62
+magazineSize: 10
+health: -7.5
+recoilHipVertical: 40.467 - 70.8173
+recoilAimVertical: 16.1868 - 28.3269
 movementSpeed: 0
-detectionRadius: 160
+detectionRadius: 143
+TTK: 0 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: M40, Grip: Type 2a Nambu, Stock: FG-42, Core: Auto-5 ]
+damage: 140.806 - 10.8312
+dropoffStuds: 82.5 - 158.125
+pellets: 4
+fireRate: 169.267
+adsSpread: 1.60406
+hipfireSpread: 5.6142
+reloadTime: 3.85
+magazineSize: 10
+health: -7.5
+recoilHipVertical: 48.6465 - 85.1314
+recoilAimVertical: 19.4586 - 34.0526
+movementSpeed: 1.2
+detectionRadius: 143
+TTK: 0 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: M40, Grip: Type 2a Nambu, Stock: STG-44, Core: Auto-5 ]
+damage: 140.806 - 10.8312
+dropoffStuds: 82.5 - 158.125
+pellets: 4
+fireRate: 168.275
+adsSpread: 1.5107
+hipfireSpread: 5.28746
+reloadTime: 4.004
+magazineSize: 10
+health: -7.5
+recoilHipVertical: 43.05 - 75.3375
+recoilAimVertical: 17.22 - 30.135
+movementSpeed: 0
+detectionRadius: 143
+TTK: 0 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: M40, Grip: Type 2a Nambu, Stock: P90, Core: Auto-5 ]
+damage: 140.806 - 10.8312
+dropoffStuds: 82.5 - 158.125
+pellets: 4
+fireRate: 167.986
+adsSpread: 1.55349
+hipfireSpread: 5.43722
+reloadTime: 3.85
+magazineSize: 10
+health: -7.5
+recoilHipVertical: 41.6509 - 72.889
+recoilAimVertical: 16.6604 - 29.1556
+movementSpeed: 1.95
+detectionRadius: 143
+TTK: 0 Seconds
+
+[ Barrel: Chauchat, Magazine: M40, Grip: Mas-38, Stock: MG42, Core: Auto-5 ]
+damage: 147.332 - 11.3333
+dropoffStuds: 80.2125 - 153.741
+pellets: 8
+fireRate: 167.799
+adsSpread: 1.78441
+hipfireSpread: 6.24543
+reloadTime: 4.2
+magazineSize: 10
+health: 0
+recoilHipVertical: 43.75 - 76.5625
+recoilAimVertical: 17.5 - 30.625
+movementSpeed: 0.925
+detectionRadius: 143
+TTK: 0 Seconds
+
+[ Barrel: Chauchat, Magazine: M40, Grip: Mas-38, Stock: JSG12, Core: Auto-5 ]
+damage: 147.332 - 11.3333
+dropoffStuds: 80.2125 - 153.741
+pellets: 8
+fireRate: 167.799
+adsSpread: 1.77931
+hipfireSpread: 6.22758
+reloadTime: 3.675
+magazineSize: 10
+health: 0
+recoilHipVertical: 43.75 - 76.5625
+recoilAimVertical: 17.5 - 30.625
+movementSpeed: 1.3
+detectionRadius: 143
+TTK: 0 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: M40, Grip: PPSh-41, Stock: Taco, Core: Auto-5 ]
+damage: 142.272 - 10.944
+dropoffStuds: 82.5 - 158.125
+pellets: 4
+fireRate: 167.242
+adsSpread: 1.79448
+hipfireSpread: 6.28068
+reloadTime: 4.87025
+magazineSize: 10
+health: 10
+recoilHipVertical: 42 - 73.5
+recoilAimVertical: 16.8 - 29.4
+movementSpeed: 0
+detectionRadius: 171.6
 TTK: 0 Seconds
 
