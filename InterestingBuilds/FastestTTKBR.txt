@@ -9,11 +9,11 @@ adsSpread: 0.300187
 hipfireSpread: 19.0118
 reloadTime: 5.4
 magazineSize: 20
-health: 0
+health: 7
 recoilHipVertical: 38.25 - 48.375
 recoilAimVertical: 22.95 - 29.025
 movementSpeed: -7
-detectionRadius: 7.7
+detectionRadius: 132
 TTK: 0.0952381 Seconds
 
 [ Barrel: Negev, Magazine: Fedorov Avtomat, Grip: M1891, Stock: Fedorov Avtomat, Core: Dragunov ]
@@ -25,11 +25,11 @@ adsSpread: 0.24937
 hipfireSpread: 15.7934
 reloadTime: 5.52
 magazineSize: 25
-health: 0
+health: 7
 recoilHipVertical: 37.638 - 47.601
 recoilAimVertical: 22.5828 - 28.5606
 movementSpeed: -8.1
-detectionRadius: 8.12
+detectionRadius: 139.2
 TTK: 0.0973138 Seconds
 
 [ Barrel: Negev, Magazine: Scar H, Grip: M1891, Stock: Fedorov Avtomat, Core: Dragunov ]
@@ -41,11 +41,11 @@ adsSpread: 0.24937
 hipfireSpread: 15.7934
 reloadTime: 6.21
 magazineSize: 20
-health: 0
+health: 7
 recoilHipVertical: 38.25 - 48.375
 recoilAimVertical: 22.95 - 29.025
 movementSpeed: -8.1
-detectionRadius: 7.7
+detectionRadius: 132
 TTK: 0.0973138 Seconds
 
 [ Barrel: PPSh-41, Magazine: Fedorov Avtomat, Grip: M1Garand, Stock: Speed Coil, Core: Dragunov ]
@@ -57,11 +57,11 @@ adsSpread: 0.589712
 hipfireSpread: 37.3484
 reloadTime: 3.4
 magazineSize: 25
-health: -10
+health: -3
 recoilHipVertical: 28.8558 - 36.4941
 recoilAimVertical: 17.3135 - 21.8965
 movementSpeed: 1.61
-detectionRadius: 8.12
+detectionRadius: 139.2
 TTK: 0.099755 Seconds
 
 [ Barrel: PPSh-41, Magazine: Scar H, Grip: M1Garand, Stock: Speed Coil, Core: Dragunov ]
@@ -73,11 +73,11 @@ adsSpread: 0.589712
 hipfireSpread: 37.3484
 reloadTime: 3.825
 magazineSize: 20
-health: -10
+health: -3
 recoilHipVertical: 29.325 - 37.0875
 recoilAimVertical: 17.595 - 22.2525
 movementSpeed: 1.61
-detectionRadius: 7.7
+detectionRadius: 132
 TTK: 0.099755 Seconds
 
 [ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Mas-38, Core: Dragunov ]
@@ -89,11 +89,11 @@ adsSpread: 0.300187
 hipfireSpread: 19.0118
 reloadTime: 4.185
 magazineSize: 20
-health: 0
+health: 7
 recoilHipVertical: 37.74 - 47.73
 recoilAimVertical: 22.644 - 28.638
 movementSpeed: -4.69
-detectionRadius: 7.7
+detectionRadius: 132
 TTK: 0.1 Seconds
 
 [ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Famas F1, Core: Dragunov ]
@@ -105,11 +105,11 @@ adsSpread: 0.300187
 hipfireSpread: 19.0118
 reloadTime: 4.725
 magazineSize: 20
-health: 0
+health: 7
 recoilHipVertical: 37.4 - 47.3
 recoilAimVertical: 22.44 - 28.38
 movementSpeed: -7
-detectionRadius: 7.7
+detectionRadius: 132
 TTK: 0.1 Seconds
 
 [ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: As-Val, Core: Dragunov ]
@@ -121,11 +121,11 @@ adsSpread: 0.300187
 hipfireSpread: 19.0118
 reloadTime: 4.14
 magazineSize: 20
-health: 0
+health: 7
 recoilHipVertical: 39.1 - 49.45
 recoilAimVertical: 23.46 - 29.67
 movementSpeed: -7
-detectionRadius: 7.7
+detectionRadius: 132
 TTK: 0.1 Seconds
 
 [ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: M1Garand, Core: Dragunov ]
@@ -137,11 +137,11 @@ adsSpread: 0.300187
 hipfireSpread: 19.0118
 reloadTime: 4.5
 magazineSize: 20
-health: 0
+health: 7
 recoilHipVertical: 36.55 - 46.225
 recoilAimVertical: 21.93 - 27.735
 movementSpeed: -8
-detectionRadius: 7.7
+detectionRadius: 132
 TTK: 0.1 Seconds
 
 [ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Negev, Core: Dragunov ]
@@ -153,10 +153,10 @@ adsSpread: 0.300187
 hipfireSpread: 19.0118
 reloadTime: 5.175
 magazineSize: 20
-health: 0
+health: 7
 recoilHipVertical: 35.275 - 44.6125
 recoilAimVertical: 21.165 - 26.7675
 movementSpeed: -7
-detectionRadius: 7.7
+detectionRadius: 132
 TTK: 0.1 Seconds
 

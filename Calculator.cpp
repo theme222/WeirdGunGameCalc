@@ -482,7 +482,7 @@ public:
         if (jsonObject.contains("Detection_Radius"))
             detectionRadius = jsonObject["Detection_Radius"];
         if (jsonObject.contains("Health"))
-            detectionRadius = jsonObject["Health"];
+            health = jsonObject["Health"];
 
         if (jsonObject.contains("Recoil_Hip_Horizontal"))
         {

@@ -9,11 +9,11 @@ adsSpread: 0.121828
 hipfireSpread: 9.74624
 reloadTime: 5
 magazineSize: 5
-health: 0
+health: -10
 recoilHipVertical: 203.112 - 231.322
 recoilAimVertical: 91.4004 - 102.684
 movementSpeed: -3
-detectionRadius: -12
+detectionRadius: 120
 TTK: 0 Seconds
 
 [ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: STG-44, Core: Arisaka ]
@@ -25,11 +25,11 @@ adsSpread: 0.145156
 hipfireSpread: 11.6125
 reloadTime: 5.2
 magazineSize: 5
-health: 0
+health: -10
 recoilHipVertical: 201.6 - 229.6
 recoilAimVertical: 90.72 - 101.92
 movementSpeed: -5
-detectionRadius: -12.5
+detectionRadius: 125
 TTK: 0 Seconds
 
 [ Barrel: M2000, Magazine: AWM, Grip: Circuit Judge, Stock: Taco, Core: Arisaka ]
@@ -41,11 +41,11 @@ adsSpread: 0.112493
 hipfireSpread: 8.9994
 reloadTime: 5.5
 magazineSize: 5
-health: 10
+health: 0
 recoilHipVertical: 187.488 - 213.528
 recoilAimVertical: 84.3696 - 94.7856
 movementSpeed: -3
-detectionRadius: -14.4
+detectionRadius: 144
 TTK: 0 Seconds
 
 [ Barrel: M2000, Magazine: AWM, Grip: Musket, Stock: Lee Enfield, Core: Arisaka ]
@@ -57,11 +57,11 @@ adsSpread: 0.116644
 hipfireSpread: 9.33148
 reloadTime: 5.5
 magazineSize: 5
-health: 0
+health: -10
 recoilHipVertical: 218.736 - 249.116
 recoilAimVertical: 98.4312 - 110.583
 movementSpeed: -3
-detectionRadius: -12
+detectionRadius: 120
 TTK: 0 Seconds
 
 [ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: Words as Weapons, Core: Arisaka ]
@@ -73,11 +73,11 @@ adsSpread: 0.140499
 hipfireSpread: 11.2399
 reloadTime: 4.5
 magazineSize: 5
-health: 0
+health: -10
 recoilHipVertical: 231.84 - 264.04
 recoilAimVertical: 104.328 - 117.208
 movementSpeed: -5
-detectionRadius: -12.5
+detectionRadius: 125
 TTK: 0 Seconds
 
 [ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: M40, Core: Arisaka ]
@@ -89,11 +89,11 @@ adsSpread: 0.124974
 hipfireSpread: 9.99794
 reloadTime: 5
 magazineSize: 5
-health: 0
+health: -10
 recoilHipVertical: 181.44 - 206.64
 recoilAimVertical: 81.648 - 91.728
 movementSpeed: -5
-detectionRadius: -12.5
+detectionRadius: 125
 TTK: 0 Seconds
 
 [ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: FAL, Core: Arisaka ]
@@ -105,11 +105,11 @@ adsSpread: 0.120394
 hipfireSpread: 9.63155
 reloadTime: 5
 magazineSize: 5
-health: 0
+health: -10
 recoilHipVertical: 262.08 - 298.48
 recoilAimVertical: 117.936 - 132.496
 movementSpeed: -4.83
-detectionRadius: -12.5
+detectionRadius: 125
 TTK: 0 Seconds
 
 [ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: AUG, Core: Arisaka ]
@@ -121,11 +121,11 @@ adsSpread: 0.139723
 hipfireSpread: 11.1778
 reloadTime: 5
 magazineSize: 5
-health: 0
+health: -10
 recoilHipVertical: 201.6 - 229.6
 recoilAimVertical: 90.72 - 101.92
 movementSpeed: -3.25
-detectionRadius: -12.5
+detectionRadius: 125
 TTK: 0 Seconds
 
 [ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: PP-19 Bizon, Core: Arisaka ]
@@ -137,11 +137,11 @@ adsSpread: 0.143914
 hipfireSpread: 11.5132
 reloadTime: 4.64
 magazineSize: 5
-health: 0
+health: -10
 recoilHipVertical: 241.92 - 275.52
 recoilAimVertical: 108.864 - 122.304
 movementSpeed: -3.5
-detectionRadius: -12.5
+detectionRadius: 125
 TTK: 0 Seconds
 
 [ Barrel: Hecate II, Magazine: AWM, Grip: The Chief, Stock: APS, Core: Arisaka ]
@@ -153,10 +153,10 @@ adsSpread: 0.124101
 hipfireSpread: 9.92805
 reloadTime: 5
 magazineSize: 5
-health: 0
+health: -10
 recoilHipVertical: 353.808 - 402.948
 recoilAimVertical: 159.214 - 178.87
 movementSpeed: -5
-detectionRadius: -12.5
+detectionRadius: 125
 TTK: 0 Seconds
 
