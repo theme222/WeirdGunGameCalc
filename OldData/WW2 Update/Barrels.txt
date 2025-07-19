@@ -6,8 +6,8 @@ Detection_Radius: 5
 Recoil: +20%
 ---
 Barrel: M-16
-Range: +8%
 Recoil: -15%
+Range: +16%
 ---
 Barrel: AUG
 Movement_Speed: +2.5%
@@ -95,18 +95,6 @@ Fire_Rate: +4%
 Reload_Speed: -8%
 Range: -6%
 ---
-Barrel: QBZ-95
-Movement_Speed: +1.5%
-Range: +9%
-Reload_Speed: -8%
-Recoil: +14%
----
-Barrel: AK-12
-Damage: +3%
-Fire_Rate: +2%
-Reload_Speed: -4%
-Recoil: +17%
----
 
 Category: Sniper Barrels
 ---
@@ -177,15 +165,6 @@ Movement_Speed: +10%
 Reload_Speed: -12%
 Health: -6%
 Recoil: +38%
----
-Barrel: Lightning Shot
-Damage: +35%
-Range: +12%
-Spread: -35%
-Detection_Radius: +35%
-Fire_Rate: -40%
-Movement_Speed: -10%
-Recoil: +80%
 ---
 
 Category: SMG Barrels
@@ -333,7 +312,7 @@ Spread: -15%
 Movement_Speed: -2%
 Reload_Speed: +5%
 ---
-Barrel: BAR
+Barrel: M1918 BAR
 Damage: +25%
 Fire_Rate: -10%
 Movement_Speed: -0.5%
@@ -365,9 +344,9 @@ Spread: +45%
 Range: -13%
 ---
 Barrel: M870 Wingmaster
-Damage: +13%
-Range: +7%
-Spread: -5%
+Damage: +10%
+Range: +10%
+Spread: -25%
 Detection_Radius: +10%
 Fire_Rate: -13%
 Pellets: -50%
@@ -381,10 +360,10 @@ Spread: +35%
 Range: -12%
 ---
 Barrel: M1897 Trench Shotgun
-Fire_Rate: +20%
-Reload_Speed: -11%
-Spread: +22%
-Range: -24%
+Fire_Rate: +25%
+Reload_Speed: -15%
+Spread: +20%
+Range: -28%
 ---
 Barrel: M870 Breacher
 Damage: +20%

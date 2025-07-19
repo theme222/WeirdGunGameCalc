@@ -1,0 +1,65 @@
+./Calculator -o InterestingBuilds/HipfireShotgun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --magazineMin 10 --spreadHipMax 1.8 --rangeMin 70
+Current top 10 guns are:
+[ Barrel: M870 Wingmaster, Magazine: M40, Grip: Auto-5, Stock: AWM, Core: JSG12 ]
+damage: 188.628 - 15.719
+dropoffStuds: 75.625 - 151.25
+pellets: 6
+fireRate: 77.6475
+adsSpread: 1.78405
+hipfireSpread: 1.78405
+reloadTime: 3.56125
+magazineSize: 10
+health: 0
+recoilHipVertical: 82.2937 - 97.02
+recoilAimVertical: 53.4476 - 63.063
+movementSpeed: 2.5
+detectionRadius: 148.5
+TTK: 0 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: M40, Grip: Auto-5, Stock: MG42, Core: JSG12 ]
+damage: 188.628 - 15.719
+dropoffStuds: 75.625 - 151.25
+pellets: 6
+fireRate: 77.6475
+adsSpread: 1.75848
+hipfireSpread: 1.75848
+reloadTime: 4.62
+magazineSize: 10
+health: 0
+recoilHipVertical: 74.8125 - 88.2
+recoilAimVertical: 48.5887 - 57.33
+movementSpeed: 5.125
+detectionRadius: 148.5
+TTK: 0 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: M40, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
+damage: 188.628 - 15.719
+dropoffStuds: 75.625 - 151.25
+pellets: 6
+fireRate: 73.7651
+adsSpread: 1.7329
+hipfireSpread: 1.7329
+reloadTime: 4.235
+magazineSize: 10
+health: 0
+recoilHipVertical: 56.1094 - 66.15
+recoilAimVertical: 36.4416 - 42.9975
+movementSpeed: 2.5
+detectionRadius: 148.5
+TTK: 0 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: M40, Grip: Auto-5, Stock: DP-27, Core: JSG12 ]
+damage: 188.628 - 15.719
+dropoffStuds: 75.625 - 151.25
+pellets: 6
+fireRate: 66.0004
+adsSpread: 1.77382
+hipfireSpread: 1.77382
+reloadTime: 3.85
+magazineSize: 10
+health: 0
+recoilHipVertical: 63.5906 - 74.97
+recoilAimVertical: 41.3004 - 48.7305
+movementSpeed: 2.5
+detectionRadius: 148.5
+TTK: 0 Seconds

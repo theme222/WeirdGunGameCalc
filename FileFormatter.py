@@ -26,12 +26,12 @@ known_names = {
     'M91 Moschetto', 'DP-27', 'M60', 'Quack', 'AUG', 'Restroom', 'AKM', 'XXL AKM', 'Snake', 'As-Val', 'MG42',
     'Mustard', 'Hell-Trooper-23', 'Kriss Vector', 'Words as Weapons', 'The Chief', 'Mas-38', 'Bicycle',
     'PPSh-41', 'Spas-12', 'M870 Wingmaster', 'M1887', 'M1897 Trench Shotgun', 'M870 Breacher',
-    'M870 MCS', 'M870', 'Spas-12 Folded', 'Hex Spitter', 'PP-19 Bizon', 'M1918 BAR', 'C36C',
+    'M870 MCS', 'M870', 'Spas-12 Folded', 'Hex Spitter', 'PP-19 Bizon', 'BAR', 'C36C',
     'APS', 'NP5', 'Circuit Judge', 'NP5A3', 'Negev', 'M2000', 'Pistol Pistol', 'Auto-5', 'Croissant',
     'Loaf', 'Taco', 'Eclair', 'Pastel', 'P90', 'Chauchat', 'Dragunov', 'M1Garand', 'FAL', 'FC200SH', 'Light Gun',
     'Gaming Rig', 'Controller', 'Graphics Card', 'Keyboard', 'Musket', 'Snake Sniper', 'M110', 'SKS', 'Blunderbuss',
     'AR-8X', 'Freedom Dispenser', 'Second Amendment', 'JSG12', 'AWM', 'Arisaka', 'Sten gun', 'M1 Carbine',
-    'M1919 Tripod', 'FG-42', 'G11'
+    'M1919 Tripod', 'FG-42', 'G11', 'AK-12', 'QBZ-95', 'Lightning Shot', '10KG Dumbbell'
 }
 
 '''

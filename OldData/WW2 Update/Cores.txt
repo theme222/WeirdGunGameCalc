@@ -201,47 +201,19 @@ Recoil_Aim_Horizontal: -12.3 - 12.3
 Recoil_Aim_Vertical: 40.9 - 50.7
 ---
 Core: G11
-Damage: 16 > 12.4
+Damage: 15 > 11.6
 Dropoff_Studs: 180 > 380
 Fire_Rate: 850
 Hipfire_Spread: 5.5
-ADS_Spread: 0.2
+ADS_Spread: 0.5
 Time_To_Aim: 0.7
 Detection_Radius: 120
 Burst: 3
 Suppression: 0.3
-Recoil_Hip_Horizontal: -2 - 2
-Recoil_Hip_Vertical: 2 - 4
-Recoil_Aim_Horizontal: -1.3 - 1.3
-Recoil_Aim_Vertical: 1.3 - 2.6
----
-Core: QBZ-95
-Damage: 15.5 > 13
-Dropoff_Studs: 200 > 375
-Fire_Rate: 650
-Hipfire_Spread: 3.5
-ADS_Spread: 0.2
-Time_To_Aim: 0.7
-Detection_Radius: 120
-Suppression: 0.3
-Recoil_Hip_Horizontal: -15 - 15
-Recoil_Hip_Vertical: 56 - 68
-Recoil_Aim_Horizontal: -8.3 - 8.3
-Recoil_Aim_Vertical: 30.8 - 37.4
----
-Core: AK-12
-Damage: 16.5 > 14
-Dropoff_Studs: 155 > 360
-Fire_Rate: 700
-Hipfire_Spread: 5
-ADS_Spread: 0.35
-Time_To_Aim: 0.7
-Detection_Radius: 120
-Suppression: 0.3
-Recoil_Hip_Horizontal: -22 - 22
-Recoil_Hip_Vertical: 70 - 75
-Recoil_Aim_Horizontal: -15.4 - 15.4
-Recoil_Aim_Vertical: 49 - 52.5
+Recoil_Hip_Horizontal: -2.5 - 2.5
+Recoil_Hip_Vertical: 2 - 7
+Recoil_Aim_Horizontal: -1.6 - 1.6
+Recoil_Aim_Vertical: 1.3 - 4.5
 ---
 
 Category: Sniper
@@ -366,33 +338,18 @@ Recoil_Aim_Vertical: 38.5 - 49.5
 Core: Arisaka
 Damage: 58 > 52.2
 Dropoff_Studs: 400 > 700
-Fire_Rate: 40
+Fire_Rate: 55
 Hipfire_Spread: 12
 ADS_Spread: 0.15
 Time_To_Aim: 0.7
 Detection_Radius: 100
-Movement_Speed_Modifier: +10%
+Movement_Speed_Modifier: +5%
 Suppression: 0.8
 Health: -10%
 Recoil_Hip_Horizontal: -21 - 21
 Recoil_Hip_Vertical: 72 - 82
 Recoil_Aim_Horizontal: -9.4 - 9.4
 Recoil_Aim_Vertical: 32.4 - 36.4
----
-Core: Lightning Shot
-Damage: 33 > 74.3
-Dropoff_Studs: 200 > 1000
-Fire_Rate: 20
-Hipfire_Spread: 50
-ADS_Spread: 0.9
-Time_To_Aim: 1
-Detection_Radius: 500
-Movement_Speed_Modifier: -12.5%
-Suppression: 1
-Recoil_Hip_Horizontal: -20 - 20
-Recoil_Hip_Vertical: 90 - 120
-Recoil_Aim_Horizontal: -10 - 10
-Recoil_Aim_Vertical: 45 - 60
 ---
 
 Category: SMG
@@ -564,7 +521,7 @@ Recoil_Aim_Horizontal: -13.5 - 13.5
 Recoil_Aim_Vertical: 18 - 40.5
 ---
 Core: P90
-Damage: 11 > 7.2
+Damage: 10.5 > 6.8
 Dropoff_Studs: 140 > 180
 Fire_Rate: 1100
 Hipfire_Spread: 2
@@ -573,9 +530,9 @@ Time_To_Aim: 0.35
 Detection_Radius: 60
 Movement_Speed_Modifier: +2.5%
 Recoil_Hip_Horizontal: -15 - 15
-Recoil_Hip_Vertical: 20 - 30
+Recoil_Hip_Vertical: 60 - 90
 Recoil_Aim_Horizontal: -10.5 - 10.5
-Recoil_Aim_Vertical: 14 - 21
+Recoil_Aim_Vertical: 42 - 63
 ---
 Core: Sten gun
 Damage: 19.5 > 10.2
@@ -600,10 +557,10 @@ ADS_Spread: 0.3
 Time_To_Aim: 0.6
 Detection_Radius: 120
 Suppression: 0.9
-Recoil_Hip_Horizontal: -4 - 4
-Recoil_Hip_Vertical: 10 - 12
-Recoil_Aim_Horizontal: -1.6 - 1.6
-Recoil_Aim_Vertical: 4 - 4.8
+Recoil_Hip_Horizontal: -8 - 8
+Recoil_Hip_Vertical: 15 - 26
+Recoil_Aim_Horizontal: -3.2 - 3.2
+Recoil_Aim_Vertical: 6 - 10.4
 ---
 
 Category: LMG
@@ -613,7 +570,7 @@ Damage: 15.5 > 8.5
 Dropoff_Studs: 165 > 365
 Fire_Rate: 700
 Hipfire_Spread: 6
-ADS_Spread: 0.6
+ADS_Spread: 0.7
 Time_To_Aim: 1.25
 Detection_Radius: 155
 Movement_Speed_Modifier: -5.5%
@@ -629,7 +586,7 @@ Damage: 19.5 > 11.2
 Dropoff_Studs: 190 > 370
 Fire_Rate: 600
 Hipfire_Spread: 6
-ADS_Spread: 0.7
+ADS_Spread: 1.1
 Time_To_Aim: 1.25
 Detection_Radius: 155
 Movement_Speed_Modifier: -5%
@@ -645,7 +602,7 @@ Damage: 19 > 12.4
 Dropoff_Studs: 200 > 350
 Fire_Rate: 550
 Hipfire_Spread: 5
-ADS_Spread: 0.55
+ADS_Spread: 0.85
 Time_To_Aim: 1
 Detection_Radius: 125
 Movement_Speed_Modifier: -5%
@@ -661,7 +618,7 @@ Damage: 21.5 > 15.5
 Dropoff_Studs: 190 > 380
 Fire_Rate: 500
 Hipfire_Spread: 9
-ADS_Spread: 0.65
+ADS_Spread: 1
 Time_To_Aim: 1.25
 Detection_Radius: 165
 Movement_Speed_Modifier: -10%
@@ -672,12 +629,12 @@ Recoil_Hip_Vertical: 44 - 55
 Recoil_Aim_Horizontal: -5 - 5
 Recoil_Aim_Vertical: 22 - 27.5
 ---
-Core: BAR
+Core: M1918 BAR
 Damage: 25 > 15
 Dropoff_Studs: 205 > 400
 Fire_Rate: 500
 Hipfire_Spread: 10
-ADS_Spread: 0.45
+ADS_Spread: 1.1
 Time_To_Aim: 1.1
 Detection_Radius: 175
 Movement_Speed_Modifier: -5%
@@ -693,7 +650,7 @@ Damage: 14 > 10.1
 Dropoff_Studs: 190 > 380
 Fire_Rate: 850
 Hipfire_Spread: 7
-ADS_Spread: 0.7
+ADS_Spread: 1.5
 Time_To_Aim: 1.25
 Detection_Radius: 125
 Movement_Speed_Modifier: -5%
@@ -709,7 +666,7 @@ Damage: 12.5 > 7.7
 Dropoff_Studs: 150 > 325
 Fire_Rate: 1200
 Hipfire_Spread: 8
-ADS_Spread: 0.8
+ADS_Spread: 1.3
 Time_To_Aim: 1.25
 Detection_Radius: 175
 Movement_Speed_Modifier: -7.5%
@@ -725,12 +682,11 @@ Damage: 33 > 21.5
 Dropoff_Studs: 195 > 350
 Fire_Rate: 240
 Hipfire_Spread: 6
-ADS_Spread: 0.4
+ADS_Spread: 0.85
 Time_To_Aim: 1.36
 Detection_Radius: 180
 Movement_Speed_Modifier: -7%
 Suppression: 1
-Health: +12%
 Recoil_Hip_Horizontal: -25 - 25
 Recoil_Hip_Vertical: 60 - 90
 Recoil_Aim_Horizontal: -15 - 15
@@ -745,12 +701,11 @@ Dropoff_Studs: 75 > 130
 Pellets: 10
 Fire_Rate: 60
 Hipfire_Spread: 7
-ADS_Spread: 1.8
+ADS_Spread: 1.6
 Time_To_Aim: 0.7
 Detection_Radius: 100
 Movement_Speed_Modifier: +2%
 Suppression: 0.5
-Health: +4%
 Recoil_Hip_Horizontal: -20 - 20
 Recoil_Hip_Vertical: 20 - 30
 Recoil_Aim_Horizontal: -8 - 8
@@ -761,7 +716,7 @@ Damage: 128 > 16
 Dropoff_Studs: 60 > 120
 Pellets: 16
 Fire_Rate: 160
-Hipfire_Spread: 4.5
+Hipfire_Spread: 9
 ADS_Spread: 2.5
 Time_To_Aim: 0.7
 Detection_Radius: 130
@@ -777,7 +732,7 @@ Dropoff_Studs: 55 > 110
 Pellets: 8
 Fire_Rate: 90
 Hipfire_Spread: 5
-ADS_Spread: 1.65
+ADS_Spread: 1.25
 Time_To_Aim: 0.7
 Detection_Radius: 100
 Suppression: 0.5
@@ -802,12 +757,12 @@ Recoil_Aim_Horizontal: -10 - 10
 Recoil_Aim_Vertical: 20 - 32
 ---
 Core: Circuit Judge
-Damage: 120 > 24
+Damage: 120 > 32
 Dropoff_Studs: 85 > 125
 Pellets: 8
 Fire_Rate: 60
 Hipfire_Spread: 5
-ADS_Spread: 1.85
+ADS_Spread: 1.75
 Time_To_Aim: 0.7
 Detection_Radius: 160
 Suppression: 0.5
@@ -850,7 +805,7 @@ Core: JSG12
 Damage: 144 > 12
 Dropoff_Studs: 55 > 110
 Pellets: 12
-Fire_Rate: 75
+Fire_Rate: 85
 Hipfire_Spread: 3
 ADS_Spread: 3
 Time_To_Aim: 0.8

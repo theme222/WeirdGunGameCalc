@@ -71,16 +71,6 @@ Recoil: -29%
 Movement_Speed: -4%
 Reload_Speed: +6%
 ---
-Stock: QBZ-95
-Health: +6%
-Recoil: +10%
-Reload_Speed: +3.6%
----
-Stock: AK-12
-Recoil: -20%
-Movement_Speed: -0.2%
-Spread: +7%
----
 
 Category: Sniper Stocks
 ---
@@ -131,13 +121,6 @@ Stock: Arisaka
 Movement_Speed: +11%
 Health: -8%
 Reload_Speed: +5%
----
-Stock: Lightning Shot
-Spread: -45%
-Fire_Rate: -9%
-Movement_Speed: -8%
-Recoil: +27%
-Reload_Speed: +4%
 ---
 
 Category: SMG Stocks
@@ -206,20 +189,20 @@ Recoil: +20%
 ---
 Stock: NP5
 Movement_Speed: +2.5%
-Recoil: -12%
-Reload_Speed: -9%
+Recoil: -5%
+Reload_Speed: -25%
 Spread: +14%
 ---
 Stock: NP5A3
 Movement_Speed: +6%
-Reload_Speed: -20%
-Recoil: +20%
+Reload_Speed: -12%
+Recoil: +16%
 ---
 Stock: P90
-Fire_Rate: +4%
+Fire_Rate: +2.5%
 Movement_Speed: +3%
-Recoil: -11%
-Spread: -11%
+Recoil: -5%
+Spread: -5%
 ---
 Stock: M1 Carbine
 Range: +2%
@@ -263,7 +246,7 @@ Reload_Speed: -15%
 Movement_Speed: -3%
 Recoil: +8%
 ---
-Stock: BAR
+Stock: M1918 BAR
 Recoil: -20%
 Spread: -10%
 Movement_Speed: -5%

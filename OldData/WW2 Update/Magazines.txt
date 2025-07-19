@@ -9,7 +9,6 @@ Damage: +6%
 Magazine: M-16
 Magazine_Size: 30
 Reload_Time: 1.9s
-Recoil: -5%
 ---
 Magazine: AUG
 Magazine_Size: 42
@@ -22,10 +21,8 @@ Magazine: As-Val
 Magazine_Size: 20
 Reload_Time: 1.5s
 Detection_Radius: -25
-Fire_Rate: +3%
 Recoil: -10%
 Damage: -5%
-Range: -12%
 ---
 Magazine: Famas F1
 Magazine_Size: 25
@@ -44,8 +41,7 @@ Magazine: STG-44
 Magazine_Size: 30
 Reload_Time: 2.9s
 Damage: +10%
-Spread: -13%
-Fire_Rate: -8%
+Fire_Rate: -10%
 ---
 Magazine: The Chief
 Magazine_Size: 36
@@ -89,9 +85,8 @@ Range: -35%
 ---
 Magazine: C36C
 Magazine_Size: 30
-Reload_Time: 2
-Recoil: -11%
-Spread: +3%
+Reload_Time: 2.2
+Recoil: -5%
 ---
 Magazine: FC200SH
 Magazine_Size: 30
@@ -115,20 +110,6 @@ Fire_Rate: +7%
 Spread: -13%
 Movement_Speed: -3%
 Recoil: +21%
----
-Magazine: QBZ-95
-Magazine_Size: 30
-Reload_Time: 1.5
-Damage: +2%
-Range: +4%
-Recoil: +18%
----
-Magazine: AK-12
-Magazine_Size: 30
-Reload_Time: 2.2
-Range: +7.5%
-Spread: -13%
-Recoil: +14%
 ---
 
 Category: Sniper Magazines
@@ -165,11 +146,11 @@ Spread: +100%
 ---
 Magazine: M40
 Magazine_Size: 10
-Reload_Time: 4.5
+Reload_Time: 3.5
 Damage: +16%
-Range: +20%
-Recoil: +25%
-Spread: -11%
+Range: +50%
+Recoil: -25%
+Spread: -25%
 ---
 Magazine: M1891
 Magazine_Size: 6
@@ -213,16 +194,6 @@ Movement_Speed: +8%
 Spread: -18%
 Health: -2%
 Recoil: +16%
----
-Magazine: Lightning Shot
-Magazine_Size: 7
-Reload_Time: 10
-Damage: +50%
-Spread: -45%
-Detection_Radius: +50%
-Fire_Rate: -35%
-Movement_Speed: -12%
-Recoil: +125%
 ---
 
 Category: SMG Magazines
@@ -395,7 +366,7 @@ Spread: -17%
 Movement_Speed: -1%
 Range: +8%
 ---
-Magazine: BAR
+Magazine: M1918 BAR
 Magazine_Size: 20
 Reload_Time: 4
 Damage: +25%

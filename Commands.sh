@@ -18,5 +18,6 @@ python FileFormatter.py
 ./Calculator -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper BR --damageMin 100 --spreadAimMax 0.149 --sort FIRERATE --rangeMin 350 --pelletMax 1 --speedMin -5  --magazineMin 5
 ./Calculator -o InterestingBuilds/FastestTTKBR.txt -i BR --speedMin -10 --spreadAimMax 0.6 --recoilAimMax 30 --magazineMin 20 --rangeMin 150 --pelletMax 1
 ./Calculator -o InterestingBuilds/LowSpreadShogun.txt -i Shotgun --sort FIRERATE --damageMin 100 --rangeMin 75 --speedMin 0 --spreadAimMax 0.7
+./Calculator -o InterestingBuilds/HipfireShotgun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --magazineMin 10 --spreadHipMax 1.8 --rangeMin 70
 ./Calculator -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80
 ./Calculator -o InterestingBuilds/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 --bc "FC200SH" "M1 Carbine" "G11"

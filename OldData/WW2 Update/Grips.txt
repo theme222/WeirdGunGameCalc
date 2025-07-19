@@ -64,23 +64,6 @@ Movement_Speed: +1.5%
 Spread: -14%
 Recoil: +21%
 ---
-Grip: 10KG Dumbbell
-Recoil: -35%
-Spread: -20%
-Movement_Speed: -10%
-Range: -15%
-Reload_Speed: +20%
----
-Grip: QBZ-95
-Spread: -11%
-Movement_Speed: -1.8%
-Reload_Speed: +5%
----
-Grip: AK-12
-Recoil: -15%
-Reload_Speed: -12%
-Spread: +18%
----
 
 Category: Sniper Grips
 ---
@@ -132,12 +115,6 @@ Grip: Arisaka
 Movement_Speed: +8%
 Spread: -17%
 Health: -6%
----
-Grip: Lightning Shot
-Spread: 35%
-Fire_Rate: -6%
-Movement_Speed: -4%
-Recoil: +38%
 ---
 
 Category: SMG Grips
@@ -210,9 +187,10 @@ Reload_Speed: -10%
 Spread: +17%
 ---
 Grip: P90
-Fire_Rate: +4%
-Recoil: -11%
-Spread: +12%
+Fire_Rate: +5%
+Movement_Speed: +2.5%
+Recoil: -10%
+Spread: +20%
 ---
 Grip: M1 Carbine
 Movement_Speed: +4%
@@ -254,7 +232,7 @@ Recoil: -13%
 Reload_Speed: -16%
 Movement_Speed: -2.7%
 ---
-Grip: BAR
+Grip: M1918 BAR
 Reload_Speed: -13%
 Spread: -10%
 Movement_Speed: -2.5%
