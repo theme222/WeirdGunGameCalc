@@ -16,6 +16,70 @@ movementSpeed: 7.15
 detectionRadius: 96
 TTK: 0.273411 Seconds
 
+[ Barrel: Kriss Vector, Magazine: M60, Grip: M1891, Stock: Kriss Vector, Core: MG42 ]
+damage: 12.7474 - 7.8524
+dropoffStuds: 116.707 - 252.866
+pellets: 1
+fireRate: 1531.11
+adsSpread: 1.24535
+hipfireSpread: 12.4535
+reloadTime: 7.475
+magazineSize: 75
+health: 13
+recoilHipVertical: 50.7694 - 72.8014
+recoilAimVertical: 25.3847 - 36.4007
+movementSpeed: 0.99
+detectionRadius: 175
+TTK: 0.27431 Seconds
+
+[ Barrel: Kriss Vector, Magazine: M60, Grip: M1891, Stock: M870 Breacher, Core: MG42 ]
+damage: 12.7474 - 7.8524
+dropoffStuds: 122.85 - 266.175
+pellets: 1
+fireRate: 1519.4
+adsSpread: 1.19764
+hipfireSpread: 11.9764
+reloadTime: 6.35375
+magazineSize: 75
+health: 13
+recoilHipVertical: 67.109 - 96.2318
+recoilAimVertical: 33.5545 - 48.1159
+movementSpeed: 2.595
+detectionRadius: 175
+TTK: 0.276425 Seconds
+
+[ Barrel: Kriss Vector, Magazine: M60, Grip: M1891, Stock: FG-42, Core: MG42 ]
+damage: 12.7474 - 7.8524
+dropoffStuds: 122.85 - 266.175
+pellets: 1
+fireRate: 1514.27
+adsSpread: 0.959063
+hipfireSpread: 9.59063
+reloadTime: 7.475
+magazineSize: 75
+health: 13
+recoilHipVertical: 65.9419 - 94.5582
+recoilAimVertical: 32.9709 - 47.2791
+movementSpeed: 0.545
+detectionRadius: 175
+TTK: 0.277361 Seconds
+
+[ Barrel: M870 Breacher, Magazine: M60, Grip: M1891, Stock: JSG12, Core: MG42 ]
+damage: 15.0888 - 9.29467
+dropoffStuds: 102.375 - 221.812
+pellets: 1
+fireRate: 1296
+adsSpread: 1.43731
+hipfireSpread: 14.3731
+reloadTime: 7.84875
+magazineSize: 75
+health: 13
+recoilHipVertical: 64.66 - 92.72
+recoilAimVertical: 32.33 - 46.36
+movementSpeed: 1.2
+detectionRadius: 175
+TTK: 0.277778 Seconds
+
 [ Barrel: Tommy, Magazine: XXL AKM, Grip: M1891, Stock: Taco, Core: Type 2a Nambu ]
 damage: 26.2407 - 11.8708
 dropoffStuds: 131.6 - 145.7
@@ -32,131 +96,67 @@ movementSpeed: 0.2
 detectionRadius: 110.4
 TTK: 0.278425 Seconds
 
-[ Barrel: Tommy, Magazine: XXL AKM, Grip: P90, Stock: Taco, Core: Type 2a Nambu ]
-damage: 26.2407 - 11.8708
-dropoffStuds: 131.6 - 145.7
+[ Barrel: Kriss Vector, Magazine: M60, Grip: M1891, Stock: MAC-10, Core: MG42 ]
+damage: 12.7474 - 7.8524
+dropoffStuds: 122.85 - 266.175
 pellets: 1
-fireRate: 640.395
-adsSpread: 0.663262
-hipfireSpread: 4.42174
-reloadTime: 9.9
-magazineSize: 90
-health: 10
-recoilHipVertical: 40.5 - 56.7
-recoilAimVertical: 26.244 - 36.774
-movementSpeed: 0.3
-detectionRadius: 110.4
-TTK: 0.281076 Seconds
-
-[ Barrel: PP-19 Bizon, Magazine: M60, Grip: Spas-12, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.2279 - 11.4126
-dropoffStuds: 114.66 - 126.945
-pellets: 1
-fireRate: 637.403
-adsSpread: 0.697588
-hipfireSpread: 4.65059
-reloadTime: 7.15
+fireRate: 1507.32
+adsSpread: 1.11175
+hipfireSpread: 11.1175
+reloadTime: 7.475
 magazineSize: 75
-health: 10
-recoilHipVertical: 45.75 - 64.05
-recoilAimVertical: 29.646 - 41.541
-movementSpeed: 4.65
-detectionRadius: 96
-TTK: 0.282396 Seconds
+health: 13
+recoilHipVertical: 58.3557 - 83.6798
+recoilAimVertical: 29.1778 - 41.8399
+movementSpeed: 1.835
+detectionRadius: 175
+TTK: 0.278641 Seconds
 
-[ Barrel: PP-19 Bizon, Magazine: M60, Grip: M1887, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.2279 - 11.4126
-dropoffStuds: 114.66 - 126.945
+[ Barrel: Kriss Vector, Magazine: M60, Grip: M1891, Stock: P90, Core: MG42 ]
+damage: 12.7474 - 7.8524
+dropoffStuds: 122.85 - 266.175
 pellets: 1
-fireRate: 637.403
-adsSpread: 0.594623
-hipfireSpread: 3.96415
-reloadTime: 6.68525
+fireRate: 1502.56
+adsSpread: 0.890831
+hipfireSpread: 8.90831
+reloadTime: 7.475
 magazineSize: 75
-health: 13.25
-recoilHipVertical: 45.75 - 64.05
-recoilAimVertical: 29.646 - 41.541
-movementSpeed: 1.65
-detectionRadius: 96
-TTK: 0.282396 Seconds
+health: 13
+recoilHipVertical: 54.1832 - 77.6967
+recoilAimVertical: 27.0916 - 38.8483
+movementSpeed: 0.795
+detectionRadius: 175
+TTK: 0.279524 Seconds
 
-[ Barrel: PP-19 Bizon, Magazine: M60, Grip: M1897 Trench Shotgun, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.2279 - 11.4126
-dropoffStuds: 114.66 - 126.945
+[ Barrel: M870, Magazine: M60, Grip: Kriss Vector, Stock: M870 Breacher, Core: MG42 ]
+damage: 14.4059 - 8.87401
+dropoffStuds: 122.85 - 266.175
 pellets: 1
-fireRate: 637.403
-adsSpread: 0.697588
-hipfireSpread: 4.65059
-reloadTime: 7.865
+fireRate: 1277.37
+adsSpread: 1.14435
+hipfireSpread: 11.4435
+reloadTime: 5.525
 magazineSize: 75
-health: 10
-recoilHipVertical: 45.75 - 64.05
-recoilAimVertical: 29.646 - 41.541
-movementSpeed: 7.15
-detectionRadius: 96
-TTK: 0.282396 Seconds
+health: 13
+recoilHipVertical: 68.559 - 98.311
+recoilAimVertical: 34.2795 - 49.1555
+movementSpeed: 0.175
+detectionRadius: 175
+TTK: 0.281829 Seconds
 
-[ Barrel: PP-19 Bizon, Magazine: M60, Grip: Mas-38, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.2279 - 11.4126
-dropoffStuds: 106.634 - 118.059
+[ Barrel: M870 Breacher, Magazine: M60, Grip: Kriss Vector, Stock: Auto-5, Core: MG42 ]
+damage: 14.3418 - 8.83454
+dropoffStuds: 102.375 - 221.812
 pellets: 1
-fireRate: 634.41
-adsSpread: 0.440175
-hipfireSpread: 2.9345
-reloadTime: 7.15
+fireRate: 1277.37
+adsSpread: 1.28853
+hipfireSpread: 12.8853
+reloadTime: 6.5
 magazineSize: 75
-health: 10
-recoilHipVertical: 45.75 - 64.05
-recoilAimVertical: 29.646 - 41.541
-movementSpeed: 9.15
-detectionRadius: 96
-TTK: 0.283728 Seconds
-
-[ Barrel: PP-19 Bizon, Magazine: M60, Grip: M1891, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.2279 - 11.4126
-dropoffStuds: 114.66 - 126.945
-pellets: 1
-fireRate: 634.41
-adsSpread: 0.671846
-hipfireSpread: 4.47898
-reloadTime: 8.2225
-magazineSize: 75
-health: 10
-recoilHipVertical: 45.75 - 64.05
-recoilAimVertical: 29.646 - 41.541
-movementSpeed: 9.55
-detectionRadius: 96
-TTK: 0.283728 Seconds
-
-[ Barrel: Tommy, Magazine: XXL AKM, Grip: Kriss Vector, Stock: Taco, Core: Type 2a Nambu ]
-damage: 26.2407 - 11.8708
-dropoffStuds: 131.6 - 145.7
-pellets: 1
-fireRate: 634.296
-adsSpread: 0.597211
-hipfireSpread: 3.9814
-reloadTime: 9.9
-magazineSize: 90
-health: 10
-recoilHipVertical: 39.6 - 55.44
-recoilAimVertical: 25.6608 - 35.9568
-movementSpeed: 2.3
-detectionRadius: 110.4
-TTK: 0.283779 Seconds
-
-[ Barrel: PP-19 Bizon, Magazine: M60, Grip: M1Garand, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.2279 - 11.4126
-dropoffStuds: 114.66 - 126.945
-pellets: 1
-fireRate: 632.016
-adsSpread: 0.517399
-hipfireSpread: 3.44933
-reloadTime: 7.15
-magazineSize: 75
-health: 10
-recoilHipVertical: 45.75 - 64.05
-recoilAimVertical: 29.646 - 41.541
-movementSpeed: 4.15
-detectionRadius: 96
-TTK: 0.284803 Seconds
+health: 13
+recoilHipVertical: 59.6165 - 85.4878
+recoilAimVertical: 29.8083 - 42.7439
+movementSpeed: 2.425
+detectionRadius: 175
+TTK: 0.281829 Seconds
 

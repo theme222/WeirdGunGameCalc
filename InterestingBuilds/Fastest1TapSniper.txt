@@ -1,162 +1,162 @@
 ./Calculator -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper BR --damageMin 100 --spreadAimMax 0.149 --sort FIRERATE --rangeMin 350 --pelletMax 1 --speedMin -5 --magazineMin 5 
 Current top 10 guns are: 
-[ Barrel: M2000, Magazine: AWM, Grip: Circuit Judge, Stock: APS, Core: Arisaka ]
-damage: 100.532 - 90.4789
-dropoffStuds: 550 - 962.5
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: M1891, Stock: Spas-12, Core: Arisaka ]
+damage: 104.671 - 94.204
+dropoffStuds: 352 - 616
 pellets: 1
-fireRate: 37.125
-adsSpread: 0.121828
-hipfireSpread: 9.74624
-reloadTime: 5
-magazineSize: 5
-health: -10
-recoilHipVertical: 203.112 - 231.322
-recoilAimVertical: 91.4004 - 102.684
-movementSpeed: -3
-detectionRadius: 120
+fireRate: 31.579
+adsSpread: 0.148013
+hipfireSpread: 11.8411
+reloadTime: 12.075
+magazineSize: 7
+health: -15
+recoilHipVertical: 162 - 184.5
+recoilAimVertical: 72.9 - 81.9
+movementSpeed: -1
+detectionRadius: 150
 TTK: 0 Seconds
 
-[ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: STG-44, Core: Arisaka ]
-damage: 100.349 - 90.3137
-dropoffStuds: 500 - 875
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: M1891, Stock: Fedorov Avtomat, Core: Arisaka ]
+damage: 104.671 - 94.204
+dropoffStuds: 400 - 700
 pellets: 1
-fireRate: 35.3777
-adsSpread: 0.145156
-hipfireSpread: 11.6125
-reloadTime: 5.2
-magazineSize: 5
+fireRate: 30.71
+adsSpread: 0.132225
+hipfireSpread: 10.578
+reloadTime: 14.49
+magazineSize: 7
+health: -15
+recoilHipVertical: 148.23 - 168.818
+recoilAimVertical: 66.7035 - 74.9385
+movementSpeed: 2
+detectionRadius: 150
+TTK: 0 Seconds
+
+[ Barrel: DP-27, Magazine: Lightning Shot, Grip: M1891, Stock: Spas-12, Core: Arisaka ]
+damage: 100.52 - 90.4684
+dropoffStuds: 352 - 616
+pellets: 1
+fireRate: 30.6592
+adsSpread: 0.145557
+hipfireSpread: 11.6445
+reloadTime: 11.5
+magazineSize: 7
 health: -10
-recoilHipVertical: 201.6 - 229.6
-recoilAimVertical: 90.72 - 101.92
+recoilHipVertical: 204.12 - 232.47
+recoilAimVertical: 91.854 - 103.194
+movementSpeed: -2
+detectionRadius: 150
+TTK: 0 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: M1891, Stock: Type 99, Core: Arisaka ]
+damage: 104.671 - 94.204
+dropoffStuds: 400 - 700
+pellets: 1
+fireRate: 30.6363
+adsSpread: 0.132225
+hipfireSpread: 10.578
+reloadTime: 10.626
+magazineSize: 7
+health: -15
+recoilHipVertical: 174.96 - 199.26
+recoilAimVertical: 78.732 - 88.452
+movementSpeed: -1
+detectionRadius: 150
+TTK: 0 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: M1891, Stock: FG-42, Core: Arisaka ]
+damage: 104.671 - 94.204
+dropoffStuds: 400 - 700
+pellets: 1
+fireRate: 30.4596
+adsSpread: 0.132225
+hipfireSpread: 10.578
+reloadTime: 12.075
+magazineSize: 7
+health: -15
+recoilHipVertical: 183.06 - 208.485
+recoilAimVertical: 82.377 - 92.547
+movementSpeed: 3.7
+detectionRadius: 150
+TTK: 0 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: PPSh-41, Stock: Spas-12, Core: Arisaka ]
+damage: 104.671 - 94.204
+dropoffStuds: 352 - 616
+pellets: 1
+fireRate: 30.4306
+adsSpread: 0.107182
+hipfireSpread: 8.57456
+reloadTime: 12.075
+magazineSize: 7
+health: -15
+recoilHipVertical: 162 - 184.5
+recoilAimVertical: 72.9 - 81.9
 movementSpeed: -5
-detectionRadius: 125
+detectionRadius: 150
 TTK: 0 Seconds
 
-[ Barrel: M2000, Magazine: AWM, Grip: Circuit Judge, Stock: Taco, Core: Arisaka ]
-damage: 101.297 - 91.1669
-dropoffStuds: 550 - 962.5
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: M1Garand, Stock: M1897 Trench Shotgun, Core: Arisaka ]
+damage: 104.671 - 94.204
+dropoffStuds: 400 - 700
 pellets: 1
-fireRate: 35.2687
-adsSpread: 0.112493
-hipfireSpread: 8.9994
-reloadTime: 5.5
-magazineSize: 5
-health: 0
-recoilHipVertical: 187.488 - 213.528
-recoilAimVertical: 84.3696 - 94.7856
-movementSpeed: -3
-detectionRadius: 144
-TTK: 0 Seconds
-
-[ Barrel: M2000, Magazine: AWM, Grip: Musket, Stock: Lee Enfield, Core: Arisaka ]
-damage: 100.127 - 90.114
-dropoffStuds: 440 - 770
-pellets: 1
-fireRate: 34.7119
-adsSpread: 0.116644
-hipfireSpread: 9.33148
-reloadTime: 5.5
-magazineSize: 5
-health: -10
-recoilHipVertical: 218.736 - 249.116
-recoilAimVertical: 98.4312 - 110.583
-movementSpeed: -3
-detectionRadius: 120
-TTK: 0 Seconds
-
-[ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: Words as Weapons, Core: Arisaka ]
-damage: 100.349 - 90.3137
-dropoffStuds: 500 - 875
-pellets: 1
-fireRate: 34.65
-adsSpread: 0.140499
-hipfireSpread: 11.2399
-reloadTime: 4.5
-magazineSize: 5
-health: -10
-recoilHipVertical: 231.84 - 264.04
-recoilAimVertical: 104.328 - 117.208
+fireRate: 30.3171
+adsSpread: 0.127159
+hipfireSpread: 10.1727
+reloadTime: 10.5
+magazineSize: 7
+health: -15
+recoilHipVertical: 186.3 - 212.175
+recoilAimVertical: 83.835 - 94.185
 movementSpeed: -5
-detectionRadius: 125
+detectionRadius: 150
 TTK: 0 Seconds
 
-[ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: M40, Core: Arisaka ]
-damage: 100.349 - 90.3137
-dropoffStuds: 500 - 875
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Negev, Stock: M1897 Trench Shotgun, Core: Arisaka ]
+damage: 104.671 - 94.204
+dropoffStuds: 400 - 700
 pellets: 1
-fireRate: 34.65
-adsSpread: 0.124974
-hipfireSpread: 9.99794
-reloadTime: 5
-magazineSize: 5
-health: -10
-recoilHipVertical: 181.44 - 206.64
-recoilAimVertical: 81.648 - 91.728
-movementSpeed: -5
-detectionRadius: 125
+fireRate: 30.2036
+adsSpread: 0.133485
+hipfireSpread: 10.6788
+reloadTime: 10.5
+magazineSize: 7
+health: -15
+recoilHipVertical: 214.245 - 244.001
+recoilAimVertical: 96.4102 - 108.313
+movementSpeed: -4.5
+detectionRadius: 150
 TTK: 0 Seconds
 
-[ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: FAL, Core: Arisaka ]
-damage: 100.349 - 90.3137
-dropoffStuds: 521.25 - 912.188
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: M1891, Stock: P90, Core: Arisaka ]
+damage: 104.671 - 94.204
+dropoffStuds: 400 - 700
 pellets: 1
-fireRate: 34.65
-adsSpread: 0.120394
-hipfireSpread: 9.63155
-reloadTime: 5
-magazineSize: 5
-health: -10
-recoilHipVertical: 262.08 - 298.48
-recoilAimVertical: 117.936 - 132.496
-movementSpeed: -4.83
-detectionRadius: 125
+fireRate: 30.165
+adsSpread: 0.123542
+hipfireSpread: 9.88333
+reloadTime: 12.075
+magazineSize: 7
+health: -15
+recoilHipVertical: 151.308 - 172.323
+recoilAimVertical: 68.0886 - 76.4946
+movementSpeed: 3.8
+detectionRadius: 150
 TTK: 0 Seconds
 
-[ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: AUG, Core: Arisaka ]
-damage: 100.349 - 90.3137
-dropoffStuds: 470 - 822.5
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Arisaka ]
+damage: 104.671 - 94.204
+dropoffStuds: 400 - 700
 pellets: 1
-fireRate: 34.65
-adsSpread: 0.139723
-hipfireSpread: 11.1778
-reloadTime: 5
-magazineSize: 5
-health: -10
-recoilHipVertical: 201.6 - 229.6
-recoilAimVertical: 90.72 - 101.92
-movementSpeed: -3.25
-detectionRadius: 125
-TTK: 0 Seconds
-
-[ Barrel: Hecate II, Magazine: AWM, Grip: Circuit Judge, Stock: PP-19 Bizon, Core: Arisaka ]
-damage: 100.349 - 90.3137
-dropoffStuds: 500 - 875
-pellets: 1
-fireRate: 34.65
-adsSpread: 0.143914
-hipfireSpread: 11.5132
-reloadTime: 4.64
-magazineSize: 5
-health: -10
-recoilHipVertical: 241.92 - 275.52
-recoilAimVertical: 108.864 - 122.304
-movementSpeed: -3.5
-detectionRadius: 125
-TTK: 0 Seconds
-
-[ Barrel: Hecate II, Magazine: AWM, Grip: The Chief, Stock: APS, Core: Arisaka ]
-damage: 100.712 - 90.6406
-dropoffStuds: 500 - 875
-pellets: 1
-fireRate: 34.65
-adsSpread: 0.124101
-hipfireSpread: 9.92805
-reloadTime: 5
-magazineSize: 5
-health: -10
-recoilHipVertical: 353.808 - 402.948
-recoilAimVertical: 159.214 - 178.87
-movementSpeed: -5
-detectionRadius: 125
+fireRate: 30.09
+adsSpread: 0.119567
+hipfireSpread: 9.56539
+reloadTime: 12.075
+magazineSize: 7
+health: -15
+recoilHipVertical: 186.3 - 212.175
+recoilAimVertical: 83.835 - 94.185
+movementSpeed: -2
+detectionRadius: 150
 TTK: 0 Seconds
 

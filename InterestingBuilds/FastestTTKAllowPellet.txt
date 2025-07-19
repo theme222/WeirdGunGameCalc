@@ -1,21 +1,5 @@
 ./Calculator -o InterestingBuilds/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 --bc FC200SH M1 Carbine G11 
 Current top 10 guns are: 
-[ Barrel: Mas-38, Magazine: P90, Grip: Circuit Judge, Stock: M1Garand, Core: Type 2a Nambu ]
-damage: 25.1785 - 11.3903
-dropoffStuds: 150.087 - 166.168
-pellets: 1
-fireRate: 684
-adsSpread: 0.696556
-hipfireSpread: 4.64371
-reloadTime: 4
-magazineSize: 50
-health: 0
-recoilHipVertical: 26.0452 - 36.4634
-recoilAimVertical: 16.8773 - 23.6491
-movementSpeed: 6.1
-detectionRadius: 80
-TTK: 0.263158 Seconds
-
 [ Barrel: Mas-38, Magazine: P90, Grip: Circuit Judge, Stock: FAL, Core: Type 2a Nambu ]
 damage: 25.1785 - 11.3903
 dropoffStuds: 152.145 - 168.446
@@ -29,6 +13,22 @@ health: 0
 recoilHipVertical: 37.5375 - 52.5525
 recoilAimVertical: 24.3243 - 34.084
 movementSpeed: 7.24
+detectionRadius: 80
+TTK: 0.263158 Seconds
+
+[ Barrel: Mas-38, Magazine: P90, Grip: Circuit Judge, Stock: M1Garand, Core: Type 2a Nambu ]
+damage: 25.1785 - 11.3903
+dropoffStuds: 150.087 - 166.168
+pellets: 1
+fireRate: 684
+adsSpread: 0.696556
+hipfireSpread: 4.64371
+reloadTime: 4
+magazineSize: 50
+health: 0
+recoilHipVertical: 26.0452 - 36.4634
+recoilAimVertical: 16.8773 - 23.6491
+movementSpeed: 6.1
 detectionRadius: 80
 TTK: 0.263158 Seconds
 
@@ -64,38 +64,6 @@ movementSpeed: 1.5
 detectionRadius: 88
 TTK: 0.264002 Seconds
 
-[ Barrel: Type 99, Magazine: MP 40, Grip: PPSh-41, Stock: JSG12, Core: Hex Spitter ]
-damage: 25.2099 - 22.6889
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 677.16
-adsSpread: 0.656742
-hipfireSpread: 2.2986
-reloadTime: 3.16969
-magazineSize: 32
-health: 0
-recoilHipVertical: 34.5 - 46
-recoilAimVertical: 17.25 - 23
-movementSpeed: 1
-detectionRadius: 70
-TTK: 0.265816 Seconds
-
-[ Barrel: M1Garand, Magazine: MP 40, Grip: PPSh-41, Stock: M40, Core: Hex Spitter ]
-damage: 25.1159 - 22.6043
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 677.16
-adsSpread: 0.678437
-hipfireSpread: 2.37453
-reloadTime: 2.875
-magazineSize: 32
-health: 0
-recoilHipVertical: 32.085 - 42.78
-recoilAimVertical: 16.0425 - 21.39
-movementSpeed: 0
-detectionRadius: 77
-TTK: 0.265816 Seconds
-
 [ Barrel: Type 99, Magazine: MP 40, Grip: PPSh-41, Stock: MG42, Core: Hex Spitter ]
 damage: 25.2099 - 22.6889
 dropoffStuds: 150 - 300
@@ -112,36 +80,52 @@ movementSpeed: 0.625
 detectionRadius: 70
 TTK: 0.265816 Seconds
 
-[ Barrel: AKM, Magazine: MP 40, Grip: PPSh-41, Stock: AWM, Core: Hex Spitter ]
+[ Barrel: M1Garand, Magazine: MP 40, Grip: PPSh-41, Stock: JSG12, Core: Hex Spitter ]
+damage: 25.1159 - 22.6043
+dropoffStuds: 150 - 300
+pellets: 2
+fireRate: 677.16
+adsSpread: 0.63962
+hipfireSpread: 2.23867
+reloadTime: 3.01875
+magazineSize: 32
+health: 0
+recoilHipVertical: 34.5 - 46
+recoilAimVertical: 17.25 - 23
+movementSpeed: 3
+detectionRadius: 77
+TTK: 0.265816 Seconds
+
+[ Barrel: Type 99, Magazine: MP 40, Grip: PPSh-41, Stock: UNP-40, Core: Hex Spitter ]
 damage: 25.2099 - 22.6889
 dropoffStuds: 150 - 300
 pellets: 2
 fireRate: 677.16
-adsSpread: 0.689394
-hipfireSpread: 2.41288
-reloadTime: 2.57312
+adsSpread: 0.667901
+hipfireSpread: 2.33765
+reloadTime: 3.01875
 magazineSize: 32
 health: 0
-recoilHipVertical: 45.54 - 60.72
-recoilAimVertical: 22.77 - 30.36
-movementSpeed: 0
-detectionRadius: 73.5
+recoilHipVertical: 41.4 - 55.2
+recoilAimVertical: 20.7 - 27.6
+movementSpeed: 1.04
+detectionRadius: 70
 TTK: 0.265816 Seconds
 
-[ Barrel: MP 40, Magazine: MP 40, Grip: PPSh-41, Stock: AWM, Core: Hex Spitter ]
-damage: 25.68 - 23.112
+[ Barrel: M1Garand, Magazine: MP 40, Grip: PPSh-41, Stock: The Chief, Core: Hex Spitter ]
+damage: 25.1159 - 22.6043
 dropoffStuds: 150 - 300
 pellets: 2
 fireRate: 677.16
-adsSpread: 0.689394
-hipfireSpread: 2.41288
-reloadTime: 2.57312
+adsSpread: 0.631857
+hipfireSpread: 2.2115
+reloadTime: 2.5875
 magazineSize: 32
 health: 0
-recoilHipVertical: 45.54 - 60.72
-recoilAimVertical: 22.77 - 30.36
-movementSpeed: 2.56
-detectionRadius: 70
+recoilHipVertical: 37.95 - 50.6
+recoilAimVertical: 18.975 - 25.3
+movementSpeed: 0
+detectionRadius: 77
 TTK: 0.265816 Seconds
 
 [ Barrel: Fedorov Avtomat, Magazine: MP 40, Grip: PPSh-41, Stock: AWM, Core: Hex Spitter ]
@@ -157,6 +141,22 @@ health: 0
 recoilHipVertical: 44.781 - 59.708
 recoilAimVertical: 22.3905 - 29.854
 movementSpeed: 2.8
+detectionRadius: 70
+TTK: 0.265816 Seconds
+
+[ Barrel: Type 99, Magazine: MP 40, Grip: PPSh-41, Stock: JSG12, Core: Hex Spitter ]
+damage: 25.2099 - 22.6889
+dropoffStuds: 150 - 300
+pellets: 2
+fireRate: 677.16
+adsSpread: 0.656742
+hipfireSpread: 2.2986
+reloadTime: 3.16969
+magazineSize: 32
+health: 0
+recoilHipVertical: 34.5 - 46
+recoilAimVertical: 17.25 - 23
+movementSpeed: 1
 detectionRadius: 70
 TTK: 0.265816 Seconds
 

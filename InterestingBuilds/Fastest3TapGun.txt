@@ -10,8 +10,8 @@ hipfireSpread: 9.93119
 reloadTime: 2.5
 magazineSize: 32
 health: 0
-recoilHipVertical: 22.425 - 38.87
-recoilAimVertical: 8.97 - 15.548
+recoilHipVertical: 14.95 - 17.94
+recoilAimVertical: 5.98 - 7.176
 movementSpeed: 3
 detectionRadius: 120
 TTK: 0.162988 Seconds
@@ -26,8 +26,8 @@ hipfireSpread: 9.17018
 reloadTime: 2.75
 magazineSize: 32
 health: 10
-recoilHipVertical: 20.7 - 35.88
-recoilAimVertical: 8.28 - 14.352
+recoilHipVertical: 13.8 - 16.56
+recoilAimVertical: 5.52 - 6.624
 movementSpeed: 3
 detectionRadius: 144
 TTK: 0.171566 Seconds
@@ -42,8 +42,8 @@ hipfireSpread: 8.08166
 reloadTime: 2.5
 magazineSize: 32
 health: -7.5
-recoilHipVertical: 27.5827 - 47.8101
-recoilAimVertical: 11.0331 - 19.124
+recoilHipVertical: 18.3885 - 22.0662
+recoilAimVertical: 7.3554 - 8.82648
 movementSpeed: 0
 detectionRadius: 210
 TTK: 0.185214 Seconds
@@ -58,8 +58,8 @@ hipfireSpread: 10.4941
 reloadTime: 2.5
 magazineSize: 32
 health: 0
-recoilHipVertical: 29.1525 - 50.531
-recoilAimVertical: 11.661 - 20.2124
+recoilHipVertical: 19.435 - 23.322
+recoilAimVertical: 7.774 - 9.3288
 movementSpeed: 0
 detectionRadius: 210
 TTK: 0.185214 Seconds
@@ -74,29 +74,13 @@ hipfireSpread: 9.93609
 reloadTime: 5.775
 magazineSize: 36
 health: 10
-recoilHipVertical: 22.5 - 39
-recoilAimVertical: 9 - 15.6
+recoilHipVertical: 15 - 18
+recoilAimVertical: 6 - 7.2
 movementSpeed: 0
 detectionRadius: 180
 TTK: 0.190629 Seconds
 
-[ Barrel: M1918 BAR, Magazine: UNP-40, Grip: MP 40, Stock: APS, Core: M1 Carbine ]
-damage: 33.6005 - 20.1603
-dropoffStuds: 159.058 - 186.482
-pellets: 1
-fireRate: 627.75
-adsSpread: 0.559943
-hipfireSpread: 9.33239
-reloadTime: 2
-magazineSize: 30
-health: 0
-recoilHipVertical: 30.42 - 52.728
-recoilAimVertical: 12.168 - 21.0912
-movementSpeed: 1
-detectionRadius: 120
-TTK: 0.191159 Seconds
-
-[ Barrel: M1918 BAR, Magazine: UNP-40, Grip: Type 2a Nambu, Stock: APS, Core: M1 Carbine ]
+[ Barrel: BAR, Magazine: UNP-40, Grip: Type 2a Nambu, Stock: APS, Core: M1 Carbine ]
 damage: 33.9175 - 20.3505
 dropoffStuds: 159.058 - 186.482
 pellets: 1
@@ -106,13 +90,29 @@ hipfireSpread: 7.18701
 reloadTime: 2
 magazineSize: 30
 health: -7.5
-recoilHipVertical: 28.782 - 49.8888
-recoilAimVertical: 11.5128 - 19.9555
+recoilHipVertical: 19.188 - 23.0256
+recoilAimVertical: 7.6752 - 9.21024
 movementSpeed: 1
 detectionRadius: 120
 TTK: 0.191159 Seconds
 
-[ Barrel: M1918 BAR, Magazine: UNP-40, Grip: Circuit Judge, Stock: APS, Core: M1 Carbine ]
+[ Barrel: BAR, Magazine: UNP-40, Grip: MP 40, Stock: APS, Core: M1 Carbine ]
+damage: 33.6005 - 20.1603
+dropoffStuds: 159.058 - 186.482
+pellets: 1
+fireRate: 627.75
+adsSpread: 0.559943
+hipfireSpread: 9.33239
+reloadTime: 2
+magazineSize: 30
+health: 0
+recoilHipVertical: 20.28 - 24.336
+recoilAimVertical: 8.112 - 9.7344
+movementSpeed: 1
+detectionRadius: 120
+TTK: 0.191159 Seconds
+
+[ Barrel: BAR, Magazine: UNP-40, Grip: Circuit Judge, Stock: APS, Core: M1 Carbine ]
 damage: 34.076 - 20.4456
 dropoffStuds: 159.058 - 186.482
 pellets: 1
@@ -122,8 +122,8 @@ hipfireSpread: 9.68995
 reloadTime: 2
 magazineSize: 30
 health: 0
-recoilHipVertical: 23.4 - 40.56
-recoilAimVertical: 9.36 - 16.224
+recoilHipVertical: 15.6 - 18.72
+recoilAimVertical: 6.24 - 7.488
 movementSpeed: 1
 detectionRadius: 120
 TTK: 0.191159 Seconds
@@ -138,24 +138,24 @@ hipfireSpread: 10.6549
 reloadTime: 2.5
 magazineSize: 32
 health: 0
-recoilHipVertical: 20.6983 - 35.877
-recoilAimVertical: 8.27931 - 14.3508
+recoilHipVertical: 13.7988 - 16.5586
+recoilAimVertical: 5.51954 - 6.62345
 movementSpeed: 0
 detectionRadius: 162
 TTK: 0.191751 Seconds
 
-[ Barrel: M110, Magazine: MP 40, Grip: MP 40, Stock: APS, Core: M1 Carbine ]
-damage: 33.647 - 20.1882
+[ Barrel: M110, Magazine: MP 40, Grip: Type 2a Nambu, Stock: APS, Core: M1 Carbine ]
+damage: 33.9644 - 20.3787
 dropoffStuds: 150.075 - 175.95
 pellets: 1
 fireRate: 625.812
-adsSpread: 0.615705
-hipfireSpread: 10.2618
+adsSpread: 0.474164
+hipfireSpread: 7.90273
 reloadTime: 2.5
 magazineSize: 32
-health: 0
-recoilHipVertical: 26.9078 - 46.6401
-recoilAimVertical: 10.7631 - 18.656
+health: -7.5
+recoilHipVertical: 16.9726 - 20.3671
+recoilAimVertical: 6.78903 - 8.14684
 movementSpeed: 0
 detectionRadius: 162
 TTK: 0.191751 Seconds

@@ -1,162 +1,162 @@
 ./Calculator -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80 
 Current top 10 guns are: 
-[ Barrel: Scar H, Magazine: M40, Grip: APS, Stock: FAL, Core: Auto-5 ]
-damage: 141.46 - 10.8815
-dropoffStuds: 81.885 - 156.946
+[ Barrel: Kriss Vector, Magazine: M40, Grip: Auto-5, Stock: P90, Core: Circuit Judge ]
+damage: 140.516 - 28.1031
+dropoffStuds: 84.15 - 123.75
 pellets: 8
-fireRate: 171
-adsSpread: 1.73649
-hipfireSpread: 6.0777
-reloadTime: 3.71
+fireRate: 73.0409
+adsSpread: 1.79564
+hipfireSpread: 4.85307
+reloadTime: 4.5
 magazineSize: 10
 health: 0
-recoilHipVertical: 50.9964 - 89.2437
-recoilAimVertical: 20.3986 - 35.6975
+recoilHipVertical: 75.4174 - 93.3291
+recoilAimVertical: 26.3961 - 32.618
+movementSpeed: 4.095
+detectionRadius: 160
+TTK: 0 Seconds
+
+[ Barrel: AWM, Magazine: Graphics Card, Grip: PPSh-41, Stock: UNP-40, Core: Circuit Judge ]
+damage: 140.983 - 28.1967
+dropoffStuds: 84.065 - 123.625
+pellets: 8
+fireRate: 72.846
+adsSpread: 1.79299
+hipfireSpread: 4.84591
+reloadTime: 6.9
+magazineSize: 50
+health: 0
+recoilHipVertical: 129.36 - 160.083
+recoilAimVertical: 45.276 - 55.9482
+movementSpeed: 2.47
+detectionRadius: 160
+TTK: 0 Seconds
+
+[ Barrel: M1Garand, Magazine: Graphics Card, Grip: PPSh-41, Stock: FAL, Core: Circuit Judge ]
+damage: 143.26 - 28.652
+dropoffStuds: 80.546 - 118.45
+pellets: 8
+fireRate: 72.846
+adsSpread: 1.79902
+hipfireSpread: 4.86221
+reloadTime: 6.9
+magazineSize: 50
+health: 0
+recoilHipVertical: 80.08 - 99.099
+recoilAimVertical: 28.028 - 34.6346
 movementSpeed: 0.12
-detectionRadius: 143
+detectionRadius: 176
 TTK: 0 Seconds
 
-[ Barrel: Scar H, Magazine: M40, Grip: Type 2a Nambu, Stock: FAL, Core: Auto-5 ]
-damage: 145.133 - 11.1641
-dropoffStuds: 81.885 - 156.946
+[ Barrel: AWM, Magazine: Graphics Card, Grip: PPSh-41, Stock: JSG12, Core: Circuit Judge ]
+damage: 140.983 - 28.1967
+dropoffStuds: 84.065 - 123.625
 pellets: 8
-fireRate: 171
-adsSpread: 1.73649
-hipfireSpread: 6.0777
-reloadTime: 3.5
-magazineSize: 10
-health: -7.5
-recoilHipVertical: 67.158 - 117.527
-recoilAimVertical: 26.8632 - 47.0106
+fireRate: 72.846
+adsSpread: 1.70131
+hipfireSpread: 4.59813
+reloadTime: 7.245
+magazineSize: 50
+health: 0
+recoilHipVertical: 107.8 - 133.402
+recoilAimVertical: 37.73 - 46.6235
+movementSpeed: 3
+detectionRadius: 160
+TTK: 0 Seconds
+
+[ Barrel: AWM, Magazine: Graphics Card, Grip: PPSh-41, Stock: FAL, Core: Circuit Judge ]
+damage: 140.983 - 28.1967
+dropoffStuds: 86.587 - 127.334
+pellets: 8
+fireRate: 72.846
+adsSpread: 1.75593
+hipfireSpread: 4.74574
+reloadTime: 6.9
+magazineSize: 50
+health: 0
+recoilHipVertical: 140.14 - 173.423
+recoilAimVertical: 49.049 - 60.6105
 movementSpeed: 0.12
-detectionRadius: 143
+detectionRadius: 160
 TTK: 0 Seconds
 
-[ Barrel: Scar H, Magazine: M40, Grip: The Chief, Stock: FAL, Core: Auto-5 ]
-damage: 142.276 - 10.9443
-dropoffStuds: 81.885 - 156.946
+[ Barrel: AWM, Magazine: Graphics Card, Grip: PPSh-41, Stock: MG42, Core: Circuit Judge ]
+damage: 140.983 - 28.1967
+dropoffStuds: 84.065 - 123.625
 pellets: 8
-fireRate: 171
-adsSpread: 1.49126
-hipfireSpread: 5.21942
-reloadTime: 3.5
+fireRate: 72.846
+adsSpread: 1.70618
+hipfireSpread: 4.61131
+reloadTime: 8.28
+magazineSize: 50
+health: 0
+recoilHipVertical: 107.8 - 133.402
+recoilAimVertical: 37.73 - 46.6235
+movementSpeed: 2.625
+detectionRadius: 160
+TTK: 0 Seconds
+
+[ Barrel: AWM, Magazine: Graphics Card, Grip: PPSh-41, Stock: M870, Core: Circuit Judge ]
+damage: 140.983 - 28.1967
+dropoffStuds: 84.065 - 123.625
+pellets: 8
+fireRate: 72.846
+adsSpread: 1.77933
+hipfireSpread: 4.80901
+reloadTime: 7.245
+magazineSize: 50
+health: 0
+recoilHipVertical: 91.63 - 113.392
+recoilAimVertical: 32.0705 - 39.63
+movementSpeed: 0
+detectionRadius: 160
+TTK: 0 Seconds
+
+[ Barrel: AWM, Magazine: Graphics Card, Grip: PPSh-41, Stock: AWM, Core: Circuit Judge ]
+damage: 140.983 - 28.1967
+dropoffStuds: 84.065 - 123.625
+pellets: 8
+fireRate: 72.846
+adsSpread: 1.73057
+hipfireSpread: 4.67721
+reloadTime: 6.3825
+magazineSize: 50
+health: 0
+recoilHipVertical: 118.58 - 146.743
+recoilAimVertical: 41.503 - 51.2858
+movementSpeed: 0
+detectionRadius: 160
+TTK: 0 Seconds
+
+[ Barrel: Auto-5, Magazine: M40, Grip: PPSh-41, Stock: JSG12, Core: Circuit Judge ]
+damage: 141.132 - 28.2264
+dropoffStuds: 80.41 - 118.25
+pellets: 8
+fireRate: 72.207
+adsSpread: 1.65625
+hipfireSpread: 4.47634
+reloadTime: 5.43375
 magazineSize: 10
 health: 0
-recoilHipVertical: 73.71 - 128.993
-recoilAimVertical: 29.484 - 51.597
+recoilHipVertical: 90 - 111.375
+recoilAimVertical: 31.5 - 38.925
+movementSpeed: 3
+detectionRadius: 160
+TTK: 0 Seconds
+
+[ Barrel: Auto-5, Magazine: M40, Grip: PPSh-41, Stock: FAL, Core: Circuit Judge ]
+damage: 141.132 - 28.2264
+dropoffStuds: 82.8223 - 121.798
+pellets: 8
+fireRate: 72.207
+adsSpread: 1.70942
+hipfireSpread: 4.62005
+reloadTime: 5.175
+magazineSize: 10
+health: 0
+recoilHipVertical: 117 - 144.787
+recoilAimVertical: 40.95 - 50.6025
 movementSpeed: 0.12
-detectionRadius: 143
-TTK: 0 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: M40, Grip: Type 2a Nambu, Stock: Fedorov Avtomat, Core: Auto-5 ]
-damage: 140.806 - 10.8312
-dropoffStuds: 82.5 - 158.125
-pellets: 4
-fireRate: 170.259
-adsSpread: 1.60406
-hipfireSpread: 5.6142
-reloadTime: 4.62
-magazineSize: 10
-health: -7.5
-recoilHipVertical: 40.467 - 70.8173
-recoilAimVertical: 16.1868 - 28.3269
-movementSpeed: 0
-detectionRadius: 143
-TTK: 0 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: M40, Grip: Type 2a Nambu, Stock: FG-42, Core: Auto-5 ]
-damage: 140.806 - 10.8312
-dropoffStuds: 82.5 - 158.125
-pellets: 4
-fireRate: 169.267
-adsSpread: 1.60406
-hipfireSpread: 5.6142
-reloadTime: 3.85
-magazineSize: 10
-health: -7.5
-recoilHipVertical: 48.6465 - 85.1314
-recoilAimVertical: 19.4586 - 34.0526
-movementSpeed: 1.2
-detectionRadius: 143
-TTK: 0 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: M40, Grip: Type 2a Nambu, Stock: STG-44, Core: Auto-5 ]
-damage: 140.806 - 10.8312
-dropoffStuds: 82.5 - 158.125
-pellets: 4
-fireRate: 168.275
-adsSpread: 1.5107
-hipfireSpread: 5.28746
-reloadTime: 4.004
-magazineSize: 10
-health: -7.5
-recoilHipVertical: 43.05 - 75.3375
-recoilAimVertical: 17.22 - 30.135
-movementSpeed: 0
-detectionRadius: 143
-TTK: 0 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: M40, Grip: Type 2a Nambu, Stock: P90, Core: Auto-5 ]
-damage: 140.806 - 10.8312
-dropoffStuds: 82.5 - 158.125
-pellets: 4
-fireRate: 167.986
-adsSpread: 1.55349
-hipfireSpread: 5.43722
-reloadTime: 3.85
-magazineSize: 10
-health: -7.5
-recoilHipVertical: 41.6509 - 72.889
-recoilAimVertical: 16.6604 - 29.1556
-movementSpeed: 1.95
-detectionRadius: 143
-TTK: 0 Seconds
-
-[ Barrel: Chauchat, Magazine: M40, Grip: Mas-38, Stock: MG42, Core: Auto-5 ]
-damage: 147.332 - 11.3333
-dropoffStuds: 80.2125 - 153.741
-pellets: 8
-fireRate: 167.799
-adsSpread: 1.78441
-hipfireSpread: 6.24543
-reloadTime: 4.2
-magazineSize: 10
-health: 0
-recoilHipVertical: 43.75 - 76.5625
-recoilAimVertical: 17.5 - 30.625
-movementSpeed: 0.925
-detectionRadius: 143
-TTK: 0 Seconds
-
-[ Barrel: Chauchat, Magazine: M40, Grip: Mas-38, Stock: JSG12, Core: Auto-5 ]
-damage: 147.332 - 11.3333
-dropoffStuds: 80.2125 - 153.741
-pellets: 8
-fireRate: 167.799
-adsSpread: 1.77931
-hipfireSpread: 6.22758
-reloadTime: 3.675
-magazineSize: 10
-health: 0
-recoilHipVertical: 43.75 - 76.5625
-recoilAimVertical: 17.5 - 30.625
-movementSpeed: 1.3
-detectionRadius: 143
-TTK: 0 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: M40, Grip: PPSh-41, Stock: Taco, Core: Auto-5 ]
-damage: 142.272 - 10.944
-dropoffStuds: 82.5 - 158.125
-pellets: 4
-fireRate: 167.242
-adsSpread: 1.79448
-hipfireSpread: 6.28068
-reloadTime: 4.87025
-magazineSize: 10
-health: 10
-recoilHipVertical: 42 - 73.5
-recoilAimVertical: 16.8 - 29.4
-movementSpeed: 0
-detectionRadius: 171.6
+detectionRadius: 160
 TTK: 0 Seconds
 

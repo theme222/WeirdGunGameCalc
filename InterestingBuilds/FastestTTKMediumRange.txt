@@ -1,5 +1,85 @@
 ./Calculator -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.6 --recoilAimMax 30 --rangeMin 200 --pelletMax 1 --bc FC200SH M1 Carbine G11 
 Current top 10 guns are: 
+[ Barrel: Type 99, Magazine: Type 99, Grip: PPSh-41, Stock: Arisaka, Core: Negev ]
+damage: 16.7443 - 12.0799
+dropoffStuds: 205.2 - 410.4
+pellets: 1
+fireRate: 905.25
+adsSpread: 0.474472
+hipfireSpread: 4.74472
+reloadTime: 4.43756
+magazineSize: 30
+health: 7
+recoilHipVertical: 35 - 40
+recoilAimVertical: 21 - 24
+movementSpeed: 0.8
+detectionRadius: 125
+TTK: 0.3314 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Kriss Vector, Stock: MG42, Core: Negev ]
+damage: 17.3588 - 12.5231
+dropoffStuds: 205.2 - 410.4
+pellets: 1
+fireRate: 893.031
+adsSpread: 0.579848
+hipfireSpread: 5.79848
+reloadTime: 4.41
+magazineSize: 30
+health: 10
+recoilHipVertical: 32.27 - 36.88
+recoilAimVertical: 19.362 - 22.128
+movementSpeed: 0.425
+detectionRadius: 125
+TTK: 0.335935 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Arisaka, Stock: P90, Core: Negev ]
+damage: 17.3588 - 12.5231
+dropoffStuds: 205.2 - 410.4
+pellets: 1
+fireRate: 893.031
+adsSpread: 0.574211
+hipfireSpread: 5.74211
+reloadTime: 3.675
+magazineSize: 30
+health: 4
+recoilHipVertical: 32.4975 - 37.14
+recoilAimVertical: 19.4985 - 22.284
+movementSpeed: 2.35
+detectionRadius: 125
+TTK: 0.335935 Seconds
+
+[ Barrel: M1891, Magazine: Graphics Card, Grip: Arisaka, Stock: Fedorov Avtomat, Core: M60 ]
+damage: 20.4947 - 11.7713
+dropoffStuds: 202.768 - 394.864
+pellets: 1
+fireRate: 713.07
+adsSpread: 0.497063
+hipfireSpread: 4.26054
+reloadTime: 8.64
+magazineSize: 50
+health: 12
+recoilHipVertical: 38.7503 - 47.2049
+recoilAimVertical: 23.2502 - 28.3229
+movementSpeed: 1.4
+detectionRadius: 155
+TTK: 0.336573 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Arisaka, Stock: STG-44, Core: Negev ]
+damage: 17.3588 - 12.5231
+dropoffStuds: 205.2 - 410.4
+pellets: 1
+fireRate: 889.984
+adsSpread: 0.572058
+hipfireSpread: 5.72058
+reloadTime: 3.822
+magazineSize: 30
+health: 4
+recoilHipVertical: 35 - 40
+recoilAimVertical: 21 - 24
+movementSpeed: 0.4
+detectionRadius: 125
+TTK: 0.337085 Seconds
+
 [ Barrel: Dragunov, Magazine: P90, Grip: Snake Sniper, Stock: AR-8X, Core: Mas-38 ]
 damage: 16.9124 - 10.7624
 dropoffStuds: 201.765 - 239.595
@@ -16,147 +96,67 @@ movementSpeed: 0.4
 detectionRadius: 110
 TTK: 0.338203 Seconds
 
-[ Barrel: Dragunov, Magazine: P90, Grip: Snake Sniper, Stock: MAC-10, Core: Mas-38 ]
-damage: 16.9124 - 10.7624
-dropoffStuds: 201.765 - 239.595
+[ Barrel: M1891, Magazine: Graphics Card, Grip: FG-42, Stock: Arisaka, Core: M60 ]
+damage: 20.4947 - 11.7713
+dropoffStuds: 202.768 - 394.864
 pellets: 1
-fireRate: 877.8
-adsSpread: 0.592959
-hipfireSpread: 3.29422
-reloadTime: 4
+fireRate: 707.256
+adsSpread: 0.574855
+hipfireSpread: 4.92733
+reloadTime: 7.7112
 magazineSize: 50
-health: 0
-recoilHipVertical: 15.8224 - 47.4672
-recoilAimVertical: 6.32896 - 18.9869
-movementSpeed: 7
-detectionRadius: 110
-TTK: 0.341763 Seconds
-
-[ Barrel: Dragunov, Magazine: P90, Grip: Snake Sniper, Stock: Fedorov Avtomat, Core: Mas-38 ]
-damage: 16.9124 - 10.7624
-dropoffStuds: 201.765 - 239.595
-pellets: 1
-fireRate: 869.4
-adsSpread: 0.511523
-hipfireSpread: 2.84179
-reloadTime: 4.8
-magazineSize: 50
-health: 0
-recoilHipVertical: 14.7148 - 44.1445
-recoilAimVertical: 5.88593 - 17.6578
-movementSpeed: 2.4
-detectionRadius: 110
-TTK: 0.345066 Seconds
-
-[ Barrel: M-16, Magazine: P90, Grip: Snake Sniper, Stock: Fedorov Avtomat, Core: Mas-38 ]
-damage: 16.9124 - 10.7624
-dropoffStuds: 200.874 - 238.538
-pellets: 1
-fireRate: 869.4
-adsSpread: 0.575678
-hipfireSpread: 3.19821
-reloadTime: 4.8
-magazineSize: 50
-health: 0
-recoilHipVertical: 10.4428 - 31.3284
-recoilAimVertical: 4.17711 - 12.5313
-movementSpeed: 2.4
-detectionRadius: 110
-TTK: 0.345066 Seconds
-
-[ Barrel: M1891, Magazine: Restroom, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: M-16 ]
-damage: 16.7111 - 14.1886
-dropoffStuds: 205.2 - 399
-pellets: 1
-fireRate: 865.15
-adsSpread: 0.462783
-hipfireSpread: 3.70227
-reloadTime: 3.828
-magazineSize: 35
-health: 0
-recoilHipVertical: 46 - 55.2
-recoilAimVertical: 23 - 27.6
-movementSpeed: 0
-detectionRadius: 90
-TTK: 0.346761 Seconds
-
-[ Barrel: M-16, Magazine: P90, Grip: Snake Sniper, Stock: FG-42, Core: Mas-38 ]
-damage: 16.9124 - 10.7624
-dropoffStuds: 200.874 - 238.538
-pellets: 1
-fireRate: 863.52
-adsSpread: 0.575678
-hipfireSpread: 3.19821
-reloadTime: 4
-magazineSize: 50
-health: 0
-recoilHipVertical: 12.6885 - 38.0656
-recoilAimVertical: 5.07542 - 15.2263
+health: 10
+recoilHipVertical: 39.4702 - 48.0819
+recoilAimVertical: 23.6821 - 28.8491
 movementSpeed: 3.8
-detectionRadius: 110
-TTK: 0.347415 Seconds
+detectionRadius: 155
+TTK: 0.33934 Seconds
 
-[ Barrel: Dragunov, Magazine: P90, Grip: Snake Sniper, Stock: FG-42, Core: Mas-38 ]
-damage: 16.9124 - 10.7624
-dropoffStuds: 201.765 - 239.595
+[ Barrel: Type 99, Magazine: Type 99, Grip: Arisaka, Stock: M870 Breacher, Core: Negev ]
+damage: 16.7443 - 12.0799
+dropoffStuds: 205.2 - 410.4
 pellets: 1
-fireRate: 863.52
-adsSpread: 0.511523
-hipfireSpread: 2.84179
-reloadTime: 4
-magazineSize: 50
-health: 0
-recoilHipVertical: 17.8793 - 53.6379
-recoilAimVertical: 7.15173 - 21.4552
-movementSpeed: 3.8
-detectionRadius: 110
-TTK: 0.347415 Seconds
+fireRate: 881.875
+adsSpread: 0.547747
+hipfireSpread: 5.47747
+reloadTime: 3.12375
+magazineSize: 30
+health: 9
+recoilHipVertical: 40.25 - 46
+recoilAimVertical: 24.15 - 27.6
+movementSpeed: 2.15
+detectionRadius: 125
+TTK: 0.340184 Seconds
 
-[ Barrel: Dragunov, Magazine: P90, Grip: Snake Sniper, Stock: P90, Core: Mas-38 ]
-damage: 16.9124 - 10.7624
-dropoffStuds: 201.765 - 239.595
+[ Barrel: DP-27, Magazine: Type 99, Grip: Auto-5, Stock: Arisaka, Core: Negev ]
+damage: 17.079 - 12.3212
+dropoffStuds: 205.2 - 410.4
 pellets: 1
-fireRate: 861
-adsSpread: 0.486074
-hipfireSpread: 2.70041
-reloadTime: 4
-magazineSize: 50
-health: 0
-recoilHipVertical: 15.0313 - 45.0938
-recoilAimVertical: 6.01251 - 18.0375
-movementSpeed: 5.4
-detectionRadius: 110
-TTK: 0.348432 Seconds
+fireRate: 881.875
+adsSpread: 0.598138
+hipfireSpread: 5.98138
+reloadTime: 3.675
+magazineSize: 30
+health: 7
+recoilHipVertical: 40.7925 - 46.62
+recoilAimVertical: 24.4755 - 27.972
+movementSpeed: 1.8
+detectionRadius: 125
+TTK: 0.340184 Seconds
 
-[ Barrel: M-16, Magazine: P90, Grip: Snake Sniper, Stock: P90, Core: Mas-38 ]
-damage: 16.9124 - 10.7624
-dropoffStuds: 200.874 - 238.538
+[ Barrel: Type 99, Magazine: Type 99, Grip: Arisaka, Stock: FG-42, Core: Negev ]
+damage: 16.7443 - 12.0799
+dropoffStuds: 205.2 - 410.4
 pellets: 1
-fireRate: 861
-adsSpread: 0.547037
-hipfireSpread: 3.03909
-reloadTime: 4
-magazineSize: 50
-health: 0
-recoilHipVertical: 10.6674 - 32.0021
-recoilAimVertical: 4.26694 - 12.8008
-movementSpeed: 5.4
-detectionRadius: 110
-TTK: 0.348432 Seconds
-
-[ Barrel: Dragunov, Magazine: P90, Grip: Snake Sniper, Stock: STG-44, Core: Mas-38 ]
-damage: 16.9124 - 10.7624
-dropoffStuds: 201.765 - 239.595
-pellets: 1
-fireRate: 860.16
-adsSpread: 0.470804
-hipfireSpread: 2.61558
-reloadTime: 4.16
-magazineSize: 50
-health: 0
-recoilHipVertical: 15.8224 - 47.4672
-recoilAimVertical: 6.32896 - 18.9869
-movementSpeed: 2.4
-detectionRadius: 110
-TTK: 0.348772 Seconds
+fireRate: 878.9
+adsSpread: 0.438634
+hipfireSpread: 4.38634
+reloadTime: 3.675
+magazineSize: 30
+health: 9
+recoilHipVertical: 39.55 - 45.2
+recoilAimVertical: 23.73 - 27.12
+movementSpeed: 0.1
+detectionRadius: 125
+TTK: 0.341336 Seconds
 
