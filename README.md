@@ -113,7 +113,6 @@ And add it to a new directory called `include` in the same directory as `Calcula
 
 ### Run
 If compiling for use locally -static is useless and will only increase binary size.
-**Using g++**
 ```sh
 g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror -O2 -static
 ```
