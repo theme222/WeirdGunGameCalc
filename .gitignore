@@ -198,3 +198,4 @@ RobloxMemoryFormat.py
 Data/DiffData.json
 
 perf.*
+CompileRelease.sh

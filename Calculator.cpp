@@ -36,6 +36,7 @@ namespace Input
     std::string outpath = "Results.txt";
     std::string sortType = "TTK";
     std::string method = "PRUNE";
+    bool detailed = false;
 
     // These handle if the users force a specific part to be included
     std::string forceBarrel;
@@ -56,6 +57,7 @@ namespace Input
     int howManyTopGunsToDisplay = 10;
 
     fpair damageRange = NILRANGE;
+    fpair damage2Range = NILRANGE;
     fpair magazineRange = NILRANGE;
     fpair spreadHipRange = NILRANGE;
     fpair spreadAimRange = NILRANGE;
@@ -69,10 +71,13 @@ namespace Input
     fpair reloadRange = NILRANGE;
     fpair detectionRadiusRange = NILRANGE;
     fpair dropoffStudsRange = NILRANGE;
+    fpair dropoffStuds2Range = NILRANGE;
+    fpair burstRange = NILRANGE;
 
     // _adjusted ranges contain the range that has removed the pellet modifier (pelletRange_adjusted is unused in the main program)
     fpair pelletRange_adjusted = NILRANGE;
     fpair damageRange_adjusted = NILRANGE;
+    fpair damage2Range_adjusted = NILRANGE;
     fpair spreadHipRange_adjusted = NILRANGE;
     fpair spreadAimRange_adjusted = NILRANGE;
 }
@@ -112,6 +117,8 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         PELLETS = 1<<11,
         HEALTH = 1<<12,
         DETECTIONRADIUS = 1<<13,
+        FALLOFFFACTOR = 1<<14,
+        BURST = 1<<15,
     };
 
     bool MoreIsBetter(MultFlags propertyFlag)
@@ -123,7 +130,8 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         case HEALTH:
         case FIRERATE:
         case PELLETS:
-        case DROPOFFSTUDS:
+        case DROPOFFSTUDS: // Range
+        case FALLOFFFACTOR: // Range
             return true;
         case RELOAD:
         case RECOILAIM:
@@ -179,6 +187,10 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         damageRange_adjusted = damageRange;
         if (damageRange_adjusted.first != NILMIN) damageRange_adjusted.first /= powf(1 + ClampQuadratic(pelletRange_adjusted.second, DAMAGE), 5);
         if (damageRange_adjusted.second != NILMAX) damageRange_adjusted.second /= 1 + ClampQuadratic(pelletRange_adjusted.first, DAMAGE);
+
+        damage2Range_adjusted = damage2Range;
+        if (damage2Range_adjusted.first != NILMIN) damage2Range_adjusted.first /= powf(1 + ClampQuadratic(pelletRange_adjusted.second, DAMAGE), 5);
+        if (damage2Range_adjusted.second != NILMAX) damage2Range_adjusted.second /= 1 + ClampQuadratic(pelletRange_adjusted.first, DAMAGE);
 
         spreadHipRange_adjusted = spreadHipRange;
         if (spreadHipRange_adjusted.first != NILMIN) spreadHipRange_adjusted.first /= powf(1 + ClampQuadratic(pelletRange_adjusted.second, SPREADHIP), 5);
@@ -277,13 +289,6 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         else if (range.second != NILMAX) return value <= range.second;
         else return true;
     }
-
-    // If this increases compile time by too much I'll revert it back to just int
-    template<typename T>
-    bool VectorContains(std::vector<T>& vec, T value)
-    {
-        return std::find(vec.begin(), vec.end(), value) != vec.end();
-    }
 }
 
 class Part
@@ -305,12 +310,13 @@ public:
     float pellets = 0;
     float detectionRadius = 0;
     float range = 0;
+    float rangeFalloff = 0; // Part of the range property but specifically calculated and stored for falloff calculation (Its calculated differently)
 
     // Init a default value part
     Part() {}
 
     // Init an identity value part (Can be used to directly apply the * operator onto a gun).
-    Part(float defaultValue): damage(defaultValue), fireRate(defaultValue), spread(defaultValue), recoil(defaultValue), reloadSpeed(defaultValue), pellets(defaultValue), detectionRadius(defaultValue), range(defaultValue) {}
+    Part(float defaultValue): damage(defaultValue), fireRate(defaultValue), spread(defaultValue), recoil(defaultValue), reloadSpeed(defaultValue), pellets(defaultValue), detectionRadius(defaultValue), range(defaultValue), rangeFalloff(defaultValue) {}
 
     Part(const json &jsonObject): category(jsonObject["Category"]), name(jsonObject["Name"])
     {
@@ -365,6 +371,7 @@ public:
                 return pellets;
             case DETECTIONRADIUS:
                 return detectionRadius;
+            case FALLOFFFACTOR:
             case DROPOFFSTUDS:
                 return range;
             default:
@@ -426,7 +433,8 @@ public:
     int category_fast;
     int name_fast;
 
-    fpair damage = fpair(0, 0);
+    float damage = 0;
+    float falloffFactor = 0;
     fpair dropoffStuds = fpair(0, 0);
     float fireRate = 0;
     float hipfireSpread = 0;
@@ -435,6 +443,7 @@ public:
     float movementSpeedModifier = 0;
     float health = 0;
     float pellets = 1;
+    float burst = 1;
     float detectionRadius = 0;
     fpair recoilHipHorizontal = fpair(0, 0);
     fpair recoilHipVertical = fpair(0, 0);
@@ -448,24 +457,24 @@ public:
         if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
         name_fast = Fast::fastifyName[name];
 
+        // Second damage stat will now be calculated using the falloff factor since range stat effects that
         if (!jsonObject.contains("Damage"))
-        {}
+            {}
         else if (jsonObject["Damage"].is_array())
-        {
-            damage.first = jsonObject["Damage"][0];
-            damage.second = jsonObject["Damage"][1];
-        }
+            damage = jsonObject["Damage"][0];
         else
-        {
-            damage.first = jsonObject["Damage"];
-            damage.second = jsonObject["Damage"];
-        }
+            damage = jsonObject["Damage"];
 
         if (jsonObject.contains("Dropoff_Studs"))
         {
             dropoffStuds.first = jsonObject["Dropoff_Studs"][0];
             dropoffStuds.second = jsonObject["Dropoff_Studs"][1];
         }
+
+        if (jsonObject.contains("Falloff_Factor")) // Falloff_Factor is not a publicly available property so there only exists data from #update-log channel on discord
+            falloffFactor = jsonObject["Falloff_Factor"];
+        else if (jsonObject.contains("Damage") && jsonObject["Damage"].is_array())
+            falloffFactor = ((float)jsonObject["Damage"][1] - (float)jsonObject["Damage"][0]) / (float)jsonObject["Damage"][0];
 
         if (jsonObject.contains("Fire_Rate"))
             fireRate = jsonObject["Fire_Rate"];
@@ -479,6 +488,8 @@ public:
             movementSpeedModifier = jsonObject["Movement_Speed_Modifier"];
         if (jsonObject.contains("Pellets"))
             pellets = jsonObject["Pellets"];
+        if (jsonObject.contains("Burst"))
+            burst = jsonObject["Burst"];
         if (jsonObject.contains("Detection_Radius"))
             detectionRadius = jsonObject["Detection_Radius"];
         if (jsonObject.contains("Health"))
@@ -518,9 +529,12 @@ public:
     Stock *stock = nullptr;
     Core *core = nullptr;
 
-    fpair damage;
+    float damage;
+    float damage2() const { return (damage * falloffFactor) + damage; }
     fpair dropoffStuds;
+    float falloffFactor;
     float pellets;
+    float burst;
     float reloadTime;
     float magazineSize;
     float health;
@@ -534,11 +548,11 @@ public:
     fpair recoilHipVertical;
     fpair recoilAimHorizontal;
     fpair recoilAimVertical;
+    float TTK() const { return (ceilf(100 / damage) - 1) / fireRate * 60; }
 
     Gun() {}
     Gun(Core *core) : core(core) {}
     Gun(Barrel *barrel, Magazine *magazine, Grip *grip, Stock *stock, Core *core) : barrel(barrel), magazine(magazine), grip(grip), stock(stock), core(core) {}
-
 
     float CalculatePenalty(Fast::MultFlags propertyFlag, Part *part)
     {
@@ -559,7 +573,9 @@ public:
         using namespace Fast;
         if (flags & DAMAGE) damage = core->damage;
         if (flags & PELLETS) pellets = core->pellets;
+        if (flags & BURST) burst = core->burst;
         if (flags & DROPOFFSTUDS) dropoffStuds = core->dropoffStuds;
+        if (flags & FALLOFFFACTOR) falloffFactor = core->falloffFactor;
         if (flags & FIRERATE) fireRate = core->fireRate;
         if (flags & TIMETOAIM) timeToAim = core->timeToAim;
         if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier = core->movementSpeedModifier;
@@ -593,6 +609,11 @@ public:
     }
 
     // Used by Prune algorithm //
+    float GetPartialFalloff(Fast::MultFlags propertyFlag, Part *part)
+    {
+        return 1 - (CalculatePenalty(propertyFlag, part) / 100);
+    }
+
     float GetPartialMult(Fast::MultFlags propertyFlag, Part *part)
     {
         return CalculatePenalty(propertyFlag, part) / 100 + 1;
@@ -614,29 +635,21 @@ public:
         if (flags & DAMAGE)
         {
             float mult = GetPartialMult(DAMAGE, part);
-            damage.first *= mult;
-            damage.second *= mult;
+            damage *= mult;
         }
         if (flags & FIRERATE) fireRate *= GetPartialMult(FIRERATE, part);
         if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier += GetPartialAdd(MOVEMENTSPEEDMODIFIER, part);
         if (flags & HEALTH) health += GetPartialAdd(HEALTH, part);
         if (flags & RELOAD) reloadTime *= GetPartialMult(RELOAD, part);
         if (flags & DETECTIONRADIUS) detectionRadius *= GetPartialMult(DETECTIONRADIUS, part);
-        if (flags & SPREADAIM)
-        {
-            float mult = GetPartialMult(SPREADAIM, part);
-            adsSpread *= mult;
-        }
-        if (flags & SPREADHIP)
-        {
-            float mult = GetPartialMult(SPREADHIP, part);
-            hipfireSpread *= mult;
-        }
+        if (flags & SPREADAIM) adsSpread *= GetPartialMult(SPREADAIM, part);
+        if (flags & SPREADHIP) hipfireSpread = GetPartialMult(SPREADHIP, part);
         if (flags & DROPOFFSTUDS)
         {
             dropoffStuds.first *= GetPartialMult(DROPOFFSTUDS, part);
             dropoffStuds.second *= GetPartialMult(DROPOFFSTUDS, part);
         }
+        if (flags & FALLOFFFACTOR) falloffFactor *= GetPartialFalloff(FALLOFFFACTOR, part);
         if (flags & RECOILHIP)
         {
             float recoilMult = GetPartialMult(RECOILHIP, part);
@@ -655,6 +668,19 @@ public:
         }
     }
     // Used by Prune algorithm //
+    float GetTotalFalloff(Fast::MultFlags propertyFlag)
+    {
+        float mult = 1;
+        if (barrel != nullptr)
+            mult *= 1 - (CalculatePenalty(propertyFlag, barrel) / 100);
+        if (magazine != nullptr)
+            mult *= 1 - (CalculatePenalty(propertyFlag, magazine) / 100);
+        if (grip != nullptr)
+            mult *= 1 - (CalculatePenalty(propertyFlag, grip) / 100);
+        if (stock != nullptr)
+            mult *= 1 - (CalculatePenalty(propertyFlag, stock) / 100);
+        return mult;
+    }
 
     float GetTotalMult(Fast::MultFlags propertyFlag)
     {
@@ -710,13 +736,18 @@ public:
         if (flags & DAMAGE)
         {
             float mult = 1;
-            mult *= 1 + (CalculatePenalty(DAMAGE, magazine) / 100) + ClampQuadratic(previousPelletCount[0], DAMAGE);
-            mult *= 1 + (CalculatePenalty(DAMAGE, barrel) / 100) + ClampQuadratic(previousPelletCount[1], DAMAGE);
-            mult *= 1 + (CalculatePenalty(DAMAGE, stock) / 100) + ClampQuadratic(previousPelletCount[2], DAMAGE);
+
+            if (core->name_fast != magazine->name_fast)
+                mult *= 1 + (CalculatePenalty(DAMAGE, magazine) / 100) + ClampQuadratic(previousPelletCount[0], DAMAGE);
+            if (core->name_fast != barrel->name_fast)
+                mult *= 1 + (CalculatePenalty(DAMAGE, barrel) / 100) + ClampQuadratic(previousPelletCount[1], DAMAGE);
+            if (core->name_fast != stock->name_fast)
+                mult *= 1 + (CalculatePenalty(DAMAGE, stock) / 100) + ClampQuadratic(previousPelletCount[2], DAMAGE);
             mult *= 1 + ClampQuadratic(previousPelletCount[2], DAMAGE); // Extra mult for scope
-            mult *= 1 + (CalculatePenalty(DAMAGE, grip) / 100) + ClampQuadratic(previousPelletCount[3], DAMAGE);
-            damage.first *= mult;
-            damage.second *= mult;
+            if (core->name_fast != grip->name_fast)
+                mult *= 1 + (CalculatePenalty(DAMAGE, grip) / 100) + ClampQuadratic(previousPelletCount[3], DAMAGE);
+
+            damage *= mult;
         }
         if (flags & FIRERATE) fireRate *= GetTotalMult(FIRERATE);
         if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier += GetTotalAdd(MOVEMENTSPEEDMODIFIER);
@@ -727,11 +758,16 @@ public:
         {
             // Mult is identical for both ADS and hipfire
             float mult = 1;
-            mult *= 1 + (CalculatePenalty(SPREADAIM, magazine) / 100) + ClampQuadratic(previousPelletCount[0], SPREADAIM);
-            mult *= 1 + (CalculatePenalty(SPREADAIM, barrel) / 100) + ClampQuadratic(previousPelletCount[1], SPREADAIM);
-            mult *= 1 + (CalculatePenalty(SPREADAIM, stock) / 100) + ClampQuadratic(previousPelletCount[2], SPREADAIM);
-            mult *= 1 + ClampQuadratic(previousPelletCount[2], SPREADAIM); // Extra mult for scope
-            mult *= 1 + (CalculatePenalty(SPREADAIM, grip) / 100) + ClampQuadratic(previousPelletCount[3], SPREADAIM);
+
+            if (core->name_fast != magazine->name_fast)
+                mult *= 1 + (CalculatePenalty(SPREADHIP, magazine) / 100) + ClampQuadratic(previousPelletCount[0], SPREADHIP);
+            if (core->name_fast != barrel->name_fast)
+                mult *= 1 + (CalculatePenalty(SPREADHIP, barrel) / 100) + ClampQuadratic(previousPelletCount[1], SPREADHIP);
+            if (core->name_fast != stock->name_fast)
+                mult *= 1 + (CalculatePenalty(SPREADHIP, stock) / 100) + ClampQuadratic(previousPelletCount[2], SPREADHIP);
+            mult *= 1 + ClampQuadratic(previousPelletCount[2], SPREADHIP); // Extra mult for scope
+            if (core->name_fast != grip->name_fast)
+                mult *= 1 + (CalculatePenalty(SPREADHIP, grip) / 100) + ClampQuadratic(previousPelletCount[3], SPREADHIP);
 
             adsSpread *= mult;
             hipfireSpread *= mult;
@@ -741,6 +777,7 @@ public:
             dropoffStuds.first *= GetTotalMult(DROPOFFSTUDS);
             dropoffStuds.second *= GetTotalMult(DROPOFFSTUDS);
         }
+        if (flags & FALLOFFFACTOR) falloffFactor *= GetTotalFalloff(FALLOFFFACTOR);
         if (flags & RECOILHIP)
         {
             float recoilMult = GetTotalMult(RECOILHIP);
@@ -770,10 +807,6 @@ public:
     }
 };
 
-float CalcTTK(const Gun &gun)
-{
-    return (ceilf(100 / gun.damage.first) - 1) / gun.fireRate * 60;
-}
 
 std::ostream &operator<<(std::ostream &os, const fpair &fp)
 {
@@ -783,27 +816,31 @@ std::ostream &operator<<(std::ostream &os, const fpair &fp)
 
 std::ostream &operator<<(std::ostream &os, const Gun &gun)
 {
+    using Input::detailed;
     std::string barrelName = gun.barrel ? gun.barrel->name : "None";
     std::string magazineName = gun.magazine ? gun.magazine->name : "None";
     std::string gripName = gun.grip ? gun.grip->name : "None";
     std::string stockName = gun.stock ? gun.stock->name : "None";
     std::string coreName = gun.core ? gun.core->name : "None";
 
-    os << "[ Barrel: " << barrelName << ", Magazine: " << magazineName << ", Grip: " << gripName << ", Stock: " << stockName << ", Core: " << coreName << " ]\n"
-       << "damage: " << gun.damage << "\n"
-       << "dropoffStuds: " << gun.dropoffStuds << "\n"
-       << "pellets: " << gun.pellets << "\n"
-       << "fireRate: " << gun.fireRate << "\n"
-       << "adsSpread: " << gun.adsSpread << "\n"
-       << "hipfireSpread: " << gun.hipfireSpread << "\n"
-       << "reloadTime: " << gun.reloadTime << "\n"
-       << "magazineSize: " << gun.magazineSize << "\n"
-       << "health: " << gun.health << "\n"
-       << "recoilHipVertical: " << gun.recoilHipVertical << "\n"
-       << "recoilAimVertical: " << gun.recoilAimVertical << "\n"
-       << "movementSpeed: " << gun.movementSpeedModifier << "\n"
-       << "detectionRadius: " << gun.detectionRadius << "\n"
-       << "TTK: " << CalcTTK(gun) << " Seconds\n";
+    os << "[ Barrel: " << barrelName << ", Magazine: " << magazineName << ", Grip: " << gripName << ", Stock: " << stockName << ", Core: " << coreName << " ]\n";
+    os << "damage: " << gun.damage << " - " << gun.damage2() << "\n";
+    os << "dropoffStuds: " << gun.dropoffStuds << "\n";
+    if (Input::detailed) os << "falloffFactor: " << gun.falloffFactor << "\n";
+    if (gun.pellets != 1 || Input::detailed) os << "pellets: " << gun.pellets << "\n";
+    if (gun.burst != 1 || Input::detailed) os << "burst: " << gun.burst << "\n";
+    if (Input::timeToAimRange != fpair(NILRANGE) || Input::detailed) os << "timeToAim: " << gun.timeToAim << "\n";
+    os << "fireRate: " << gun.fireRate << "\n";
+    os << "adsSpread: " << gun.adsSpread << "\n";
+    os << "hipfireSpread: " << gun.hipfireSpread << "\n";
+    os << "reloadTime: " << gun.reloadTime << "\n";
+    os << "magazineSize: " << gun.magazineSize << "\n";
+    if (gun.health != 0 || Input::detailed) os << "health: " << gun.health << "\n";
+    os << "recoilHipVertical: " << gun.recoilHipVertical << "\n";
+    os << "recoilAimVertical: " << gun.recoilAimVertical << "\n";
+    if (gun.movementSpeedModifier != 0 || Input::detailed) os << "movementSpeed: " << gun.movementSpeedModifier << "\n";
+    if (Input::detectionRadiusRange != fpair(NILRANGE) || Input::detailed) os << "detectionRadius: " << gun.detectionRadius << "\n";
+    if (gun.TTK() != 0 || Input::detailed) os << "TTK: " << gun.TTK() << " Seconds\n";
     return os;
 }
 
@@ -819,7 +856,8 @@ std::ostream &operator<<(std::ostream &os, const Part &part)
        << "Reload Speed: " << part.reloadSpeed << "\n"
        << "Health: " << part.health << "\n"
        << "Pellets: " << part.pellets << "\n"
-       << "Detection Radius: " << part.detectionRadius << "\n";
+       << "Detection Radius: " << part.detectionRadius << "\n"
+       << "Falloff Factor: " << part.rangeFalloff << "\n";
     return os;
 }
 
@@ -842,35 +880,9 @@ Part operator*(Part part1, Part part2) // Used in greedy
     part1.pellets *= part2.pellets;
     part1.detectionRadius *= part2.detectionRadius;
     part1.range *= part2.range;
+    part1.rangeFalloff *= part2.rangeFalloff;
     return part1;
 }
-
-
-/*
-IMPORTANT: SORTING NEEDS TO BE THE INVERSE OF WHAT IS NORMALLY CONSIDERED GOOD
-THE CODE WILL BE POPPING THE !WORST! GUNS OUT FIRST ONLY KEEPING TOP 10
-SORTING NEEDS TO BE LIKE THIS :
-    return gun1 < gun2 (Less is better)
-    return gun1 > gun2 (More is better)
-*/
-
-struct SortByTTK{
-    bool operator()(const Gun& gun1, const Gun& gun2) const {
-        return CalcTTK(gun1) < CalcTTK(gun2);
-    }
-};
-
-struct SortByFireRate{
-    bool operator()(const Gun& gun1, const Gun& gun2) const {
-        return gun1.fireRate > gun2.fireRate;
-    }
-};
-
-struct SortByADSSpread{
-    bool operator()(const Gun& gun1, const Gun& gun2) const {
-        return gun1.adsSpread < gun2.adsSpread;
-    }
-};
 
 
 // This is now a uint64_t so I don't need to typecast it the moment I try to multiply these things together.
@@ -888,136 +900,145 @@ Stock stockList[128];
 Core coreList[128];
 
 
-namespace PQ
+namespace PQ // Also known as the stop using so many god damn macros bro holy shit namespace
 {
+    /*
+    IMPORTANT: SORTING NEEDS TO BE THE INVERSE OF WHAT IS NORMALLY CONSIDERED GOOD
+    THE CODE WILL BE POPPING THE !WORST! GUNS OUT FIRST ONLY KEEPING TOP 10
+    SORTING NEEDS TO BE LIKE THIS :
+        return gun1 < gun2 (Less is better)
+        return gun1 > gun2 (More is better)
+    */
+
+    // The most devious lookin macro
+    #define _PQSORT(name, expression) struct Sort##name { bool operator()(const Gun& gun1, const Gun& gun2) const {return expression;} };
+    _PQSORT(TTK, gun1.TTK() < gun2.TTK())
+    _PQSORT(FireRate, gun1.fireRate > gun2.fireRate)
+    _PQSORT(ADSSpread, gun1.adsSpread < gun2.adsSpread)
+    _PQSORT(HipfireSpread, gun1.hipfireSpread < gun2.hipfireSpread)
+    _PQSORT(Recoil, gun1.recoilAimVertical < gun2.recoilAimVertical)
+    _PQSORT(Health, gun1.health > gun2.health)
+    _PQSORT(Speed, gun1.movementSpeedModifier > gun2.movementSpeedModifier)
+    _PQSORT(Magazine, gun1.magazineSize > gun2.magazineSize)
+    _PQSORT(Reload, gun1.reloadTime < gun2.reloadTime)
+
+    #define _TYPEDEFPQ(sort, name) typedef std::priority_queue<Gun, std::vector<Gun>, sort> name;
+    _TYPEDEFPQ(SortTTK, TTK_pq)
+    _TYPEDEFPQ(SortFireRate, FireRate_pq)
+    _TYPEDEFPQ(SortADSSpread, ADSSpread_pq)
+    _TYPEDEFPQ(SortHipfireSpread, HipfireSpread_pq)
+    _TYPEDEFPQ(SortRecoil, Recoil_pq)
+    _TYPEDEFPQ(SortHealth, Health_pq)
+    _TYPEDEFPQ(SortSpeed, Speed_pq)
+    _TYPEDEFPQ(SortMagazine, Magazine_pq)
+    _TYPEDEFPQ(SortReload, Reload_pq)
+
+    typedef std::variant<
+        TTK_pq,
+        FireRate_pq,
+        ADSSpread_pq,
+        HipfireSpread_pq,
+        Recoil_pq,
+        Health_pq,
+        Speed_pq,
+        Magazine_pq,
+        Reload_pq
+    > Variant_pq;
+
+    Variant_pq topGuns;
+
     enum SortingType {
-        SORTBYTTK = 0,
-        SORTBYFIRERATE = 1,
-        SORTBYSPREAD = 2
+        SORTBYTTK,
+        SORTBYFIRERATE,
+        SORTBYADSSPREAD,
+        SORTBYHIPFIRESPREAD,
+        SORTBYRECOIL,
+        SORTBYHEALTH,
+        SORTBYSPEED,
+        SORTBYMAGAZINE,
+        SORTBYRELOAD,
     };
 
-    SortingType currentSortingType = SORTBYTTK;
-    typedef std::priority_queue<Gun, std::vector<Gun>, SortByTTK> TTK;
-    typedef std::priority_queue<Gun, std::vector<Gun>, SortByFireRate> FireRate;
-    typedef std::priority_queue<Gun, std::vector<Gun>, SortByADSSpread> Spread;
-    typedef std::variant< TTK, FireRate, Spread > Variant;
+    #define _CALLMACROPQANDTYPE(macro) \
+        macro(SORTBYTTK, TTK_pq) \
+        macro(SORTBYFIRERATE, FireRate_pq) \
+        macro(SORTBYADSSPREAD, ADSSpread_pq) \
+        macro(SORTBYHIPFIRESPREAD, HipfireSpread_pq) \
+        macro(SORTBYRECOIL, Recoil_pq) \
+        macro(SORTBYHEALTH, Health_pq) \
+        macro(SORTBYSPEED, Speed_pq) \
+        macro(SORTBYMAGAZINE, Magazine_pq) \
+        macro(SORTBYRELOAD, Reload_pq)
 
-    Variant topGuns;
+
+    SortingType currentSortingType = SORTBYTTK;
 
     void SetCurrentSortingType(std::string type)
     {
-        if (type == "TTK")
-            currentSortingType = SORTBYTTK;
-        else if (type == "FIRERATE")
-            currentSortingType = SORTBYFIRERATE;
-        else if (type == "SPREAD")
-            currentSortingType = SORTBYSPREAD;
-        else
-            throw std::runtime_error("Invalid sorting type");
+        if (type == "TTK") currentSortingType = SORTBYTTK;
+        else if (type == "FIRERATE") currentSortingType = SORTBYFIRERATE;
+        else if (type == "ADSSPREAD") currentSortingType = SORTBYADSSPREAD;
+        else if (type == "HIPFIRESPREAD") currentSortingType = SORTBYHIPFIRESPREAD;
+        else if (type == "RECOIL") currentSortingType = SORTBYRECOIL;
+        else if (type == "HEALTH") currentSortingType = SORTBYHEALTH;
+        else if (type == "SPEED") currentSortingType = SORTBYSPEED;
+        else if (type == "MAGAZINE") currentSortingType = SORTBYMAGAZINE;
+        else if (type == "RELOAD") currentSortingType = SORTBYRELOAD;
+        else throw std::runtime_error("Invalid sorting type");
     }
 
-    bool HasMember(Variant& pq)
+    bool HasMember(Variant_pq& pq)
     {
+        #define __MACROHASMEMBER(sort, pqtype) case sort: return std::get<pqtype>(pq).size() > 0;
         switch (PQ::currentSortingType)
         {
-            case SORTBYTTK:
-                return std::get<TTK>(pq).size() > 0;
-            case SORTBYFIRERATE:
-                return std::get<FireRate>(pq).size() > 0;
-            case SORTBYSPREAD:
-                return std::get<Spread>(pq).size() > 0;
+            _CALLMACROPQANDTYPE(__MACROHASMEMBER)
             default:
                 throw std::runtime_error("Invalid sorting type");
         }
     }
 
 
-    Variant Create()
+    Variant_pq Create()
     {
+        #define __MACROCREATE(sort, pqtype) case sort: return pqtype();
         switch(currentSortingType)
         {
-            case SORTBYTTK:
-                return TTK();
-            case SORTBYFIRERATE:
-                return FireRate();
-            case SORTBYSPREAD:
-                return Spread();
+            _CALLMACROPQANDTYPE(__MACROCREATE)
             default:
                 throw std::runtime_error("Invalid sorting type");
         }
     }
 
-    Gun Pop(Variant& pq)
+    Gun Pop(Variant_pq& pq)
     {
+        #define __MACROPOP(sort, pqtype) case sort: {pqtype& _pq = std::get<pqtype>(pq); Gun gun = _pq.top(); _pq.pop(); return gun;}
         switch(currentSortingType)
         {
-            case SORTBYTTK:
-            {
-                TTK& pqttk = std::get<TTK>(pq);
-                Gun gun = pqttk.top();
-                pqttk.pop();
-                return gun;
-            }
-            case SORTBYFIRERATE:
-            {
-                FireRate& pqfireRate = std::get<FireRate>(pq);
-                Gun gun = pqfireRate.top();
-                pqfireRate.pop();
-                return gun;
-            }
-            case SORTBYSPREAD:
-            {
-                Spread& pqspread = std::get<Spread>(pq);
-                Gun gun = pqspread.top();
-                pqspread.pop();
-                return gun;
-            }
+            _CALLMACROPQANDTYPE(__MACROPOP)
             default:
                 throw std::runtime_error("Invalid sorting type");
         }
     }
 
 
-    void Push(Variant& pq, const Gun& gun)
+    void Push(Variant_pq& pq, const Gun& gun)
     {
+        #define __MACROPUSH(sort, pqtype) case sort: {pqtype& _pq = std::get<pqtype>(pq); _pq.push(gun); if (_pq.size() > Input::howManyTopGunsToDisplay) _pq.pop(); break;}
         switch(currentSortingType)
         {
-            case SORTBYTTK:
-            {
-                TTK& pqttk = std::get<TTK>(pq);
-                pqttk.push(gun);
-                if (pqttk.size() > Input::howManyTopGunsToDisplay) pqttk.pop();
-                break;
-            }
-            case SORTBYFIRERATE:
-            {
-                FireRate& pqfireRate = std::get<FireRate>(pq);
-                pqfireRate.push(gun);
-                if (pqfireRate.size() > Input::howManyTopGunsToDisplay) pqfireRate.pop();
-                break;
-            }
-            case SORTBYSPREAD:
-            {
-                Spread& pqspread = std::get<Spread>(pq);
-                pqspread.push(gun);
-                if (pqspread.size() > Input::howManyTopGunsToDisplay) pqspread.pop();
-                break;
-            }
+            _CALLMACROPQANDTYPE(__MACROPUSH)
             default:
                 throw std::runtime_error("Invalid sorting type");
         }
     }
 
-    int Size(Variant& pq)
+    int Size(Variant_pq& pq)
     {
+        #define __MACROSIZE(sort, pqtype) case sort: return std::get<pqtype>(pq).size();
         switch(currentSortingType)
         {
-            case SORTBYTTK:
-                return std::get<TTK>(pq).size();
-            case SORTBYFIRERATE:
-                return std::get<FireRate>(pq).size();
-            case SORTBYSPREAD:
-                return std::get<Spread>(pq).size();
+            _CALLMACROPQANDTYPE(__MACROSIZE)
             default:
                 throw std::runtime_error("Invalid sorting type");
         }
@@ -1025,7 +1046,7 @@ namespace PQ
 }
 
 // Maybe make this a class or a struct? prob no tho
-PQ::Variant threadPQ[16];
+PQ::Variant_pq threadPQ[16];
 std::thread threads[16];
 int validGunInThread[16];
 
@@ -1104,6 +1125,7 @@ namespace BruteForce
             fpair nilrange = NILRANGE;
             if (Input::pelletRange != nilrange) currentflags |= PELLETS;
             if (Input::damageRange != nilrange) currentflags |= DAMAGE | PELLETS;
+            if (Input::damage2Range != nilrange) currentflags |= DAMAGE | PELLETS | FALLOFFFACTOR;
             if (Input::magazineRange != nilrange) currentflags |= MAGAZINESIZE;
             if (Input::movementSpeedRange != nilrange) currentflags |= MOVEMENTSPEEDMODIFIER;
             if (Input::spreadHipRange != nilrange) currentflags |= SPREADHIP | PELLETS;
@@ -1115,6 +1137,8 @@ namespace BruteForce
             if (Input::reloadRange != nilrange) currentflags |= RELOAD;
             if (Input::detectionRadiusRange != nilrange) currentflags |= DETECTIONRADIUS;
             if (Input::dropoffStudsRange != nilrange) currentflags |= DROPOFFSTUDS;
+            if (Input::dropoffStuds2Range != nilrange) currentflags |= DROPOFFSTUDS;
+            if (Input::burstRange != nilrange) currentflags |= BURST;
             switch (PQ::currentSortingType)
             {
                 case PQ::SORTBYTTK:
@@ -1122,8 +1146,26 @@ namespace BruteForce
                 case PQ::SORTBYFIRERATE:
                     currentflags |= FIRERATE;
                     break;
-                case PQ::SORTBYSPREAD:
+                case PQ::SORTBYADSSPREAD:
                     currentflags |= SPREADAIM | PELLETS;
+                    break;
+                case PQ::SORTBYHIPFIRESPREAD:
+                    currentflags |= SPREADHIP | PELLETS;
+                    break;
+                case PQ::SORTBYRECOIL:
+                    currentflags |= RECOILAIM;
+                    break;
+                case PQ::SORTBYHEALTH:
+                    currentflags |= HEALTH;
+                    break;
+                case PQ::SORTBYSPEED:
+                    currentflags |= MOVEMENTSPEEDMODIFIER;
+                    break;
+                case PQ::SORTBYMAGAZINE:
+                    currentflags |= MAGAZINESIZE;
+                    break;
+                case PQ::SORTBYRELOAD:
+                    currentflags |= RELOAD;
                     break;
             }
         }
@@ -1146,6 +1188,7 @@ namespace BruteForce
             if (Fast::banParts_fast[4][c->name_fast]) return false;
 
             if (!Fast::includeCategories_fast[c->category_fast]) return false;
+            if (!RangeFilter(c->burst, Input::burstRange)) return false;
             if (!RangeFilter(c->timeToAim, Input::timeToAimRange)) return false;
             if (!RangeFilter(m->magazineSize, Input::magazineRange)) return false;
             return true;
@@ -1154,7 +1197,8 @@ namespace BruteForce
         bool PostFilter(Gun& gun)
         {
             using Fast::RangeFilter;
-            if (!RangeFilter(gun.damage.first, Input::damageRange)) return false;
+            if (!RangeFilter(gun.damage, Input::damageRange)) return false;
+            if (!RangeFilter(gun.damage2(), Input::damage2Range)) return false;
             if (!RangeFilter(gun.adsSpread, Input::spreadAimRange)) return false;
             if (!RangeFilter(gun.hipfireSpread, Input::spreadHipRange)) return false;
             if (!RangeFilter(gun.recoilAimVertical.second, Input::recoilAimRange)) return false;
@@ -1166,6 +1210,7 @@ namespace BruteForce
             if (!RangeFilter(gun.reloadTime, Input::reloadRange)) return false;
             if (!RangeFilter(gun.detectionRadius, Input::detectionRadiusRange)) return false;
             if (!RangeFilter(gun.dropoffStuds.first, Input::dropoffStudsRange)) return false;
+            if (!RangeFilter(gun.dropoffStuds.second, Input::dropoffStuds2Range)) return false;
             return true;
         }
 
@@ -1211,6 +1256,7 @@ namespace Prune
             fpair nilrange = NILRANGE;
             if (Input::pelletRange != nilrange) currentflags |= PELLETS;
             if (Input::damageRange != nilrange) currentflags |= DAMAGE | PELLETS;
+            if (Input::damage2Range != nilrange) currentflags |= DAMAGE | PELLETS | FALLOFFFACTOR;
             if (Input::magazineRange != nilrange) currentflags |= MAGAZINESIZE;
             if (Input::movementSpeedRange != nilrange) currentflags |= MOVEMENTSPEEDMODIFIER;
             if (Input::spreadHipRange != nilrange) currentflags |= SPREADHIP | PELLETS;
@@ -1222,6 +1268,8 @@ namespace Prune
             if (Input::reloadRange != nilrange) currentflags |= RELOAD;
             if (Input::detectionRadiusRange != nilrange) currentflags |= DETECTIONRADIUS;
             if (Input::dropoffStudsRange != nilrange) currentflags |= DROPOFFSTUDS;
+            if (Input::dropoffStuds2Range != nilrange) currentflags |= DROPOFFSTUDS;
+            if (Input::burstRange != nilrange) currentflags |= BURST;
             switch (PQ::currentSortingType)
             {
                 case PQ::SORTBYTTK:
@@ -1229,8 +1277,26 @@ namespace Prune
                 case PQ::SORTBYFIRERATE:
                     currentflags |= FIRERATE;
                     break;
-                case PQ::SORTBYSPREAD:
+                case PQ::SORTBYADSSPREAD:
                     currentflags |= SPREADAIM | PELLETS;
+                    break;
+                case PQ::SORTBYHIPFIRESPREAD:
+                    currentflags |= SPREADHIP | PELLETS;
+                    break;
+                case PQ::SORTBYRECOIL:
+                    currentflags |= RECOILAIM;
+                    break;
+                case PQ::SORTBYHEALTH:
+                    currentflags |= HEALTH;
+                    break;
+                case PQ::SORTBYSPEED:
+                    currentflags |= MOVEMENTSPEEDMODIFIER;
+                    break;
+                case PQ::SORTBYMAGAZINE:
+                    currentflags |= MAGAZINESIZE;
+                    break;
+                case PQ::SORTBYRELOAD:
+                    currentflags |= RELOAD;
                     break;
             }
         }
@@ -1241,6 +1307,7 @@ namespace Prune
             if (Fast::forceParts_fast[4] != NILINT && Fast::forceParts_fast[4] != core->name_fast) return false;
             if (!Fast::includeCategories_fast[core->category_fast]) return false;
             if (!Fast::RangeFilter(core->timeToAim, Input::timeToAimRange)) return false;
+            if (!Fast::RangeFilter(core->burst, Input::burstRange)) return false;
             return true;
         }
 
@@ -1280,7 +1347,8 @@ namespace Prune
             if (!RangeFilter(gun.timeToAim, Input::timeToAimRange)) return false;
             if (!RangeFilter(gun.magazineSize, Input::magazineRange)) return false;
             if (!RangeFilter(ceilf(gun.pellets), Input::pelletRange)) return false;
-            if (!RangeFilter(gun.damage.first, Input::damageRange)) return false;
+            if (!RangeFilter(gun.damage, Input::damageRange)) return false;
+            if (!RangeFilter(gun.damage2(), Input::damage2Range)) return false;
             if (!RangeFilter(gun.adsSpread, Input::spreadAimRange)) return false;
             if (!RangeFilter(gun.hipfireSpread, Input::spreadHipRange)) return false;
             if (!RangeFilter(gun.recoilAimVertical.second, Input::recoilAimRange)) return false;
@@ -1291,6 +1359,7 @@ namespace Prune
             if (!RangeFilter(gun.reloadTime, Input::reloadRange)) return false;
             if (!RangeFilter(gun.detectionRadius, Input::detectionRadiusRange)) return false;
             if (!RangeFilter(gun.dropoffStuds.first, Input::dropoffStudsRange)) return false;
+            if (!RangeFilter(gun.dropoffStuds.second, Input::dropoffStuds2Range)) return false;
             return true;
         }
     }
@@ -1301,7 +1370,7 @@ namespace Prune
         This namespace revolves around the key data structure used in the Prune algorithm.
         It revolves around bestPossibleCombo which is a three-dimensional array containing
         Part objects that contain the best multiplier combination both low and high, for
-        every core category and from a 4 part combo to a 1 part combo.
+        every core category and from a 1 part combo to a 4 part combo.
         */
 
         // bestPossibleCombo[coreCategoryFast][low / high][1 -> 4]
@@ -1328,6 +1397,7 @@ namespace Prune
             if (gun.GetPartialMult(PELLETS, partToCheck) < lowestMultPart.pellets) lowestMultPart.pellets = gun.GetPartialMult(PELLETS, partToCheck);
             if (gun.GetPartialMult(DETECTIONRADIUS, partToCheck) < lowestMultPart.detectionRadius) lowestMultPart.detectionRadius = gun.GetPartialMult(DETECTIONRADIUS, partToCheck);
             if (gun.GetPartialMult(DROPOFFSTUDS, partToCheck) < lowestMultPart.range) lowestMultPart.range = gun.GetPartialMult(DROPOFFSTUDS, partToCheck);
+            if (gun.GetPartialFalloff(FALLOFFFACTOR, partToCheck) < lowestMultPart.rangeFalloff) lowestMultPart.rangeFalloff = gun.GetPartialFalloff(FALLOFFFACTOR, partToCheck);
 
             if (gun.GetPartialMult(DAMAGE, partToCheck) > highestMultPart.damage) highestMultPart.damage = gun.GetPartialMult(DAMAGE, partToCheck);
             if (gun.GetPartialMult(FIRERATE, partToCheck) > highestMultPart.fireRate) highestMultPart.fireRate = gun.GetPartialMult(FIRERATE, partToCheck);
@@ -1339,6 +1409,7 @@ namespace Prune
             if (gun.GetPartialMult(PELLETS, partToCheck) > highestMultPart.pellets) highestMultPart.pellets = gun.GetPartialMult(PELLETS, partToCheck);
             if (gun.GetPartialMult(DETECTIONRADIUS, partToCheck) > highestMultPart.detectionRadius) highestMultPart.detectionRadius = gun.GetPartialMult(DETECTIONRADIUS, partToCheck);
             if (gun.GetPartialMult(DROPOFFSTUDS, partToCheck) > highestMultPart.range) highestMultPart.range = gun.GetPartialMult(DROPOFFSTUDS, partToCheck);
+            if (gun.GetPartialFalloff(FALLOFFFACTOR, partToCheck) > highestMultPart.rangeFalloff) highestMultPart.rangeFalloff = gun.GetPartialFalloff(FALLOFFFACTOR, partToCheck);
         }
 
         // Polymorphism is required due to the fact that sizeof(Magazine) is more than sizeof(Part) causing pointer arithmetic to be incorrect when iterating through the array.
@@ -1381,7 +1452,7 @@ namespace Prune
                     }
                 }
             }
-            // for (int i = 0; i < 6; i++) for (int j = 0; j < 2; j++) for (int k = 0; k < 4; k++) std::cout << bestPossibleCombo[i][j][k];
+            // for (int i = 0; i < 6; i++) for (int k = 0; k < 4; k++) for (int j = 0; j < 2; j++) std::cout << bestPossibleCombo[i][j][k];
         }
     }
 
@@ -1393,19 +1464,41 @@ namespace Prune
         return ceilf(valueToCompare * highMult) >= range.first && ceilf(valueToCompare * lowMult) <= range.second;
     }
 
+    bool RangeFilterDamage2(const Gun& gun, const Part& lowPPC, const Part& highPPC, const fpair &range)
+    {
+        if (range.first == NILMIN && range.second == NILMAX) return true;
+
+        float lowDiff, highDiff;
+        float lowDamage = gun.damage * lowPPC.damage;
+        float highDamage = gun.damage * highPPC.damage;
+        if (gun.falloffFactor > 0)
+        {
+            lowDiff =  lowDamage * (gun.falloffFactor * lowPPC.rangeFalloff);
+            highDiff = highDamage * (gun.falloffFactor * highPPC.rangeFalloff);
+        }
+        else
+        {
+            lowDiff = lowDamage * (gun.falloffFactor * highPPC.rangeFalloff);
+            highDiff = highDamage * (gun.falloffFactor * lowPPC.rangeFalloff);
+        }
+        if (range.first == NILMIN) return lowDamage + lowDiff <= range.second;
+        if (range.second == NILMAX) return highDamage + highDiff >= range.first;
+        return highDamage + highDiff >= range.first && lowDamage + lowDiff <= range.second;
+    }
+
     bool RangeFilterMult(float valueToCompare, float lowMult, float highMult, const fpair &range)
     {
         if (range.first == NILMIN && range.second == NILMAX) return true;
-        if (range.first == NILMIN && valueToCompare * lowMult <= range.second) return true;
-        if (range.second == NILMAX && valueToCompare * highMult >= range.first) return true;
+        if (range.first == NILMIN) return valueToCompare * lowMult <= range.second;
+        if (range.second == NILMAX) return valueToCompare * highMult >= range.first;
         return valueToCompare * highMult >= range.first && valueToCompare * lowMult <= range.second;
     }
 
     bool RangeFilterAdd(float valueToCompare, float lowAdd, float highAdd, const fpair &range)
     {
         if (range.first == NILMIN && range.second == NILMAX) return true;
-        if (range.first == NILMIN && valueToCompare + lowAdd <= range.second) return true;
-        if (range.second == NILMAX && valueToCompare + highAdd >= range.first) return true;
+        if (range.first == NILMIN) return valueToCompare + lowAdd <= range.second;
+        if (range.second == NILMAX) return valueToCompare + highAdd >= range.first;
         return valueToCompare + highAdd >= range.first && valueToCompare + lowAdd <= range.second;
     }
 
@@ -1413,7 +1506,8 @@ namespace Prune
     {
         using namespace Fast;
         if (!RangeFilterPellet(gun.pellets, lowPPC.pellets, highPPC.pellets, Input::pelletRange)) return false;
-        if (!RangeFilterMult(gun.damage.first, lowPPC.damage, highPPC.damage, Input::damageRange_adjusted)) return false;
+        if (!RangeFilterMult(gun.damage, lowPPC.damage, highPPC.damage, Input::damageRange_adjusted)) return false;
+        if (!RangeFilterDamage2(gun, lowPPC, highPPC, Input::damage2Range_adjusted)) return false;
         if (!RangeFilterMult(gun.hipfireSpread, lowPPC.spread, highPPC.spread, Input::spreadHipRange_adjusted)) return false;
         if (!RangeFilterMult(gun.adsSpread, lowPPC.spread, highPPC.spread, Input::spreadAimRange_adjusted)) return false;
         if (!RangeFilterMult(gun.fireRate, lowPPC.fireRate, highPPC.fireRate, Input::fireRateRange)) return false;
@@ -1422,6 +1516,7 @@ namespace Prune
         if (!RangeFilterMult(gun.reloadTime, lowPPC.reloadSpeed, highPPC.reloadSpeed, Input::reloadRange)) return false;
         if (!RangeFilterMult(gun.detectionRadius, lowPPC.detectionRadius, highPPC.detectionRadius, Input::detectionRadiusRange)) return false;
         if (!RangeFilterMult(gun.dropoffStuds.first, lowPPC.range, highPPC.range, Input::dropoffStudsRange)) return false;
+        if (!RangeFilterMult(gun.dropoffStuds.second, lowPPC.range, highPPC.range, Input::dropoffStuds2Range)) return false;
         if (!RangeFilterAdd(gun.movementSpeedModifier, lowPPC.movementSpeed, highPPC.movementSpeed, Input::movementSpeedRange)) return false;
         if (!RangeFilterAdd(gun.health, lowPPC.health, highPPC.health, Input::healthRange)) return false;
         return true;
@@ -1461,12 +1556,11 @@ namespace Prune
         printf("%d: Total valid cores: %lu / %lu\n", threadId, validGunCount1, coreCount);
 
         // validGuns1 -> validGuns2 (Parsing core + magazine)
-        for (int g = 0; g < validGunCount1; g++)
+        for (int m = 0; m < magazineCount; m++)
         {
-            for (int m = 0; m < magazineCount; m++)
+            if (!Filter::MagazineFilter(magazineList + m)) continue;
+            for (int g = 0; g < validGunCount1; g++)
             {
-                if (!Filter::MagazineFilter(magazineList + m)) continue;
-
                 Gun currentGun = validGuns1[g]; // Copies over from the old vector
                 currentGun.magazine = magazineList + m;
                 currentGun.CopyMagazineValues(Filter::currentflags);
@@ -1480,11 +1574,11 @@ namespace Prune
         validGunCount1 = 0;
 
         // validGuns2 -> validGuns1 (Parsing core + magazine + barrel)
-        for (int g = 0; g < validGunCount2; g++)
+        for (int b = 0; b < barrelCount; b++)
         {
-            for (int b = 0; b < barrelCount; b++)
+            if (!Filter::BarrelFilter(barrelList + b)) continue;
+            for (int g = 0; g < validGunCount2; g++)
             {
-                if (!Filter::BarrelFilter(barrelList + b)) continue;
                 Gun currentGun = validGuns2[g]; // Copies over from the old vector
                 currentGun.barrel = barrelList + b;
                 currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.barrel);
@@ -1497,11 +1591,11 @@ namespace Prune
         validGunCount2 = 0;
 
         // validGuns1 -> validGuns2 (Parsing core + magazine + barrel + grip)
-        for (int g = 0; g < validGunCount1; g++)
+        for (int gr = 0; gr < gripCount; gr++)
         {
-            for (int gr = 0; gr < gripCount; gr++)
+            if (!Filter::GripFilter(gripList + gr)) continue;
+            for (int g = 0; g < validGunCount1; g++)
             {
-                if (!Filter::GripFilter(gripList + gr)) continue;
                 Gun currentGun = validGuns1[g]; // Copies over from the old vector
                 currentGun.grip = gripList + gr;
                 currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.grip);
@@ -1514,22 +1608,26 @@ namespace Prune
         validGunCount1 = 0;
 
         // validGuns2 * stocks -> Outputs to PQ
-        for (int g = 0; g < validGunCount2; g++)
+        for (int s = 0; s < stockCount; s++)
         {
-            for (int s = 0; s < stockCount; s++)
+            if (!Filter::StockFilter(stockList + s)) continue;
+            for (int g = 0; g < validGunCount2; g++)
             {
-                if (!Filter::StockFilter(stockList + s)) continue;
                 Gun currentGun = validGuns2[g]; // Copies over from the old vector
                 currentGun.stock = stockList + s;
 
                 currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.stock);
                 // Recalculate Damage and Spread to contain the pellet modifier
-                currentGun.pellets = currentGun.core->pellets;
-                currentGun.damage = currentGun.core->damage;
-                currentGun.adsSpread = currentGun.core->adsSpread;
-                currentGun.hipfireSpread = currentGun.core->hipfireSpread;
+                if (Filter::currentflags & Fast::PELLETS)
+                    currentGun.pellets = currentGun.core->pellets;
+                if (Filter::currentflags & Fast::DAMAGE)
+                    currentGun.damage = currentGun.core->damage;
+                if (Filter::currentflags & Fast::SPREADAIM)
+                    currentGun.adsSpread = currentGun.core->adsSpread;
+                if (Filter::currentflags & Fast::SPREADHIP)
+                    currentGun.hipfireSpread = currentGun.core->hipfireSpread;
 
-                currentGun.CalculateGunStats(Fast::PELLETS | Fast::DAMAGE | Fast::SPREADAIM | Fast::SPREADHIP);
+                currentGun.CalculateGunStats(Filter::currentflags & (Fast::PELLETS | Fast::DAMAGE | Fast::SPREADAIM | Fast::SPREADHIP));
 
                 bool validCombo = Filter::FilterGunStats(currentGun); // This is essentially what IsValidCombination is if you pass through Parts with identity values (1 for mult 0 for add)
                 if (validCombo)
@@ -1552,12 +1650,13 @@ int main(int argc, char* argv[])
     argv = app.ensure_utf8(argv);
 
     app.add_option("-f, --file", Input::fileDir, "Path to the directory containing the json file (Default: Data)");
-    app.add_option("-o, --output", Input::outpath, "Path to the output file (Default: Results.txt");
+    app.add_option("-o, --output", Input::outpath, "Path to the output file (Default: Results.txt)");
     app.add_option("-t, --threads", Input::threadsToMake, "Number of threads to use (MAX 16) (Default: 4)");
-    app.add_option("-s, --sort", Input::sortType, "Sorting type (TTK, FIRERATE, SPREAD) (Default: TTK)");
+    app.add_option("-s, --sort", Input::sortType, "Sorting type (TTK, FIRERATE, ADSSPREAD, HIPFIRESPREAD, RECOIL, SPEED, HEALTH, MAGAZINE, RELOAD) (Default: TTK)");
     app.add_option("-n, --number", Input::howManyTopGunsToDisplay, "Number of top guns to display (Default: 10)");
     app.add_option("-m, --method", Input::method, "Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)");
     app.add_option("-i, --include", Input::includeCategories, "Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird)")->required();
+    app.add_flag  ("-d, --detailed", Input::detailed, "Display all stats of the gun including irrelevant ones");
 
     app.add_option("--fb, --forceBarrel", Input::forceBarrel, "Force the calculator to use a specific barrel");
     app.add_option("--fm, --forceMagazine", Input::forceMagazine, "Force the calculator to use a specific magazine");
@@ -1571,9 +1670,12 @@ int main(int argc, char* argv[])
     app.add_option("--bs, --banStock", Input::banStock, "Ban the calculator from using a list of stocks");
     app.add_option("--bc, --banCore", Input::banCore, "Ban the calculator from using a list of cores");
 
-    app.add_option("--damage", Input::damageRange, "Damage range to filter");
-    app.add_option("--damageMin", Input::damageRange.first);
-    app.add_option("--damageMax", Input::damageRange.second);
+    app.add_option("--damage, --damageStart", Input::damageRange, "Damage range to filter (START)");
+    app.add_option("--damageMin, --damageStartMin", Input::damageRange.first);
+    app.add_option("--damageMax, --damageStartMax", Input::damageRange.second);
+    app.add_option("--damageEnd", Input::damage2Range, "Damage range to filter (END)");
+    app.add_option("--damageEndMin", Input::damage2Range.first);
+    app.add_option("--damageEndMax", Input::damage2Range.second);
     app.add_option("--magazine", Input::magazineRange, "Size of magazine to filter");
     app.add_option("--magazineMin", Input::magazineRange.first);
     app.add_option("--magazineMax", Input::magazineRange.second);
@@ -1607,12 +1709,18 @@ int main(int argc, char* argv[])
     app.add_option("--reload", Input::reloadRange, "Reload time to filter");
     app.add_option("--reloadMin", Input::reloadRange.first);
     app.add_option("--reloadMax", Input::reloadRange.second);
-    app.add_option("--detectionRadius", Input::detectionRadiusRange, "Detection radius range to filter (Why would you even use this?)");
+    app.add_option("--detectionRadius", Input::detectionRadiusRange, "Detection radius range to filter");
     app.add_option("--detectionRadiusMin", Input::detectionRadiusRange.first);
     app.add_option("--detectionRadiusMax", Input::detectionRadiusRange.second);
-    app.add_option("--range", Input::dropoffStudsRange, "Dropoff studs range to filter (Could have called it range range haha)");
-    app.add_option("--rangeMin", Input::dropoffStudsRange.first);
-    app.add_option("--rangeMax", Input::dropoffStudsRange.second);
+    app.add_option("--range, --rangeStart", Input::dropoffStudsRange, "Dropoff studs range to filter (START)");
+    app.add_option("--rangeMin, --rangeStartMin", Input::dropoffStudsRange.first);
+    app.add_option("--rangeMax, --rangeStartEnd", Input::dropoffStudsRange.second);
+    app.add_option("--rangeEnd", Input::dropoffStuds2Range, "Dropoff studs range to filter (END)");
+    app.add_option("--rangeEndMin", Input::dropoffStuds2Range.first);
+    app.add_option("--rangeEndMax", Input::dropoffStuds2Range.second);
+    app.add_option("--burst", Input::burstRange, "Burst range to filter");
+    app.add_option("--burstMin", Input::burstRange.first);
+    app.add_option("--burstMax", Input::burstRange.second);
 
     CLI11_PARSE(app, argc, argv);
 
@@ -1622,7 +1730,7 @@ int main(int argc, char* argv[])
 
     if (!std::filesystem::exists(fullDataPath) || !std::filesystem::exists(penaltiesPath))
     {
-        std::cout << "Files " << fullDataPath << " and " << penaltiesPath << " are required but don't exist (Did you install this correctly?)\n";
+        std::cerr << "Files " << fullDataPath << " and " << penaltiesPath << " are required but don't exist (Did you install this in the correct folder?)\n";
         throw std::invalid_argument("Required files not found");
     }
 
