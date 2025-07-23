@@ -1,23 +1,7 @@
 ./Calculator -o InterestingBuilds/LowSpreadShogun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadAimMax 0.85 
 Current top 10 guns are: 
-[ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: JSG12, Core: M870 ]
-damage: 151.178 - 21.5969
-dropoffStuds: 53.8312 - 107.662
-pellets: 8
-fireRate: 74.844
-adsSpread: 0.815849
-hipfireSpread: 2.47227
-reloadTime: 5.25
-magazineSize: 5
-health: 0
-recoilHipVertical: 119.7 - 191.52
-recoilAimVertical: 47.88 - 76.608
-movementSpeed: 1
-detectionRadius: 100
-TTK: 0 Seconds
-
 [ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: MG42, Core: M870 ]
-damage: 151.178 - 21.5969
+damage: 151.178 - 27.8594
 dropoffStuds: 53.8312 - 107.662
 pellets: 8
 fireRate: 74.844
@@ -25,15 +9,25 @@ adsSpread: 0.818188
 hipfireSpread: 2.47936
 reloadTime: 6
 magazineSize: 5
-health: 0
 recoilHipVertical: 119.7 - 191.52
 recoilAimVertical: 47.88 - 76.608
 movementSpeed: 0.625
-detectionRadius: 100
-TTK: 0 Seconds
+
+[ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: JSG12, Core: M870 ]
+damage: 151.178 - 27.8594
+dropoffStuds: 53.8312 - 107.662
+pellets: 8
+fireRate: 74.844
+adsSpread: 0.815849
+hipfireSpread: 2.47227
+reloadTime: 5.25
+magazineSize: 5
+recoilHipVertical: 119.7 - 191.52
+recoilAimVertical: 47.88 - 76.608
+movementSpeed: 1
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: JSG12, Stock: AWM, Core: M870 ]
-damage: 154.947 - 22.1353
+damage: 154.947 - 28.5539
 dropoffStuds: 53.8312 - 107.662
 pellets: 8
 fireRate: 71.28
@@ -41,15 +35,12 @@ adsSpread: 0.849131
 hipfireSpread: 2.57312
 reloadTime: 4.625
 magazineSize: 5
-health: 0
 recoilHipVertical: 201.894 - 323.03
 recoilAimVertical: 80.7576 - 129.212
 movementSpeed: 1
-detectionRadius: 100
-TTK: 0 Seconds
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: JSG12, Stock: MG42, Core: M870 ]
-damage: 154.947 - 22.1353
+damage: 154.947 - 28.5539
 dropoffStuds: 53.8312 - 107.662
 pellets: 8
 fireRate: 71.28
@@ -57,15 +48,12 @@ adsSpread: 0.837167
 hipfireSpread: 2.53687
 reloadTime: 6
 magazineSize: 5
-health: 0
 recoilHipVertical: 183.54 - 293.664
 recoilAimVertical: 73.416 - 117.466
 movementSpeed: 3.625
-detectionRadius: 100
-TTK: 0 Seconds
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: JSG12, Stock: JSG12, Core: M870 ]
-damage: 154.947 - 22.1353
+damage: 154.947 - 28.5539
 dropoffStuds: 53.8312 - 107.662
 pellets: 8
 fireRate: 71.28
@@ -73,15 +61,12 @@ adsSpread: 0.834774
 hipfireSpread: 2.52962
 reloadTime: 5.25
 magazineSize: 5
-health: 0
 recoilHipVertical: 183.54 - 293.664
 recoilAimVertical: 73.416 - 117.466
 movementSpeed: 4
-detectionRadius: 100
-TTK: 0 Seconds
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: JSG12, Stock: M870 MCS, Core: M870 ]
-damage: 154.947 - 22.1353
+damage: 154.947 - 28.5539
 dropoffStuds: 53.8312 - 107.662
 pellets: 8
 fireRate: 67.716
@@ -89,15 +74,12 @@ adsSpread: 0.825203
 hipfireSpread: 2.50062
 reloadTime: 5.5
 magazineSize: 5
-health: 0
 recoilHipVertical: 137.655 - 220.248
 recoilAimVertical: 55.062 - 88.0992
 movementSpeed: 1
-detectionRadius: 100
-TTK: 0 Seconds
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: JSG12, Stock: DP-27, Core: M870 ]
-damage: 154.947 - 22.1353
+damage: 154.947 - 28.5539
 dropoffStuds: 53.8312 - 107.662
 pellets: 8
 fireRate: 60.588
@@ -105,10 +87,7 @@ adsSpread: 0.844345
 hipfireSpread: 2.55862
 reloadTime: 5
 magazineSize: 5
-health: 0
 recoilHipVertical: 156.009 - 249.614
 recoilAimVertical: 62.4036 - 99.8458
 movementSpeed: 1
-detectionRadius: 100
-TTK: 0 Seconds
 

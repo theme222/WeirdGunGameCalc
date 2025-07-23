@@ -1,137 +1,112 @@
 ./Calculator -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 
 Current top 10 guns are: 
 [ Barrel: Tommy, Magazine: MAC-10, Grip: Circuit Judge, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.1198 - 11.3637
+damage: 25.1198 - 7.97201
 dropoffStuds: 110.018 - 121.805
-pellets: 1
 fireRate: 824.328
 adsSpread: 0.807719
 hipfireSpread: 5.3848
 reloadTime: 2
 magazineSize: 30
-health: 0
 recoilHipVertical: 33.75 - 47.25
 recoilAimVertical: 21.87 - 30.645
 movementSpeed: 15.5
-detectionRadius: 80
 TTK: 0.21836 Seconds
 
 [ Barrel: MG42, Magazine: MP 40, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.3491 - 11.4675
+damage: 25.3491 - 7.56671
 dropoffStuds: 103.74 - 114.855
-pellets: 1
 fireRate: 823.518
 adsSpread: 0.679145
 hipfireSpread: 4.52763
 reloadTime: 2.875
 magazineSize: 32
-health: 0
 recoilHipVertical: 29.9 - 41.86
 recoilAimVertical: 19.3752 - 27.1492
 movementSpeed: 0.3
-detectionRadius: 80
 TTK: 0.218575 Seconds
 
 [ Barrel: PP-19 Bizon, Magazine: MAC-10, Grip: Circuit Judge, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.585 - 11.5741
+damage: 25.585 - 7.46057
 dropoffStuds: 105.336 - 116.622
-pellets: 1
 fireRate: 808.92
 adsSpread: 0.807719
 hipfireSpread: 5.3848
 reloadTime: 2
 magazineSize: 30
-health: 0
 recoilHipVertical: 33.75 - 47.25
 recoilAimVertical: 21.87 - 30.645
 movementSpeed: 14.2
-detectionRadius: 80
 TTK: 0.222519 Seconds
 
 [ Barrel: MG42, Magazine: MP 40, Grip: PPSh-41, Stock: MAC-10, Core: Type 2a Nambu ]
-damage: 25.3491 - 11.4675
+damage: 25.3491 - 8.41349
 dropoffStuds: 109.2 - 120.9
-pellets: 1
 fireRate: 804.276
 adsSpread: 0.606287
 hipfireSpread: 4.04191
 reloadTime: 2.875
 magazineSize: 32
-health: 0
 recoilHipVertical: 37.375 - 52.325
 recoilAimVertical: 24.219 - 33.9365
 movementSpeed: 1.6
-detectionRadius: 80
 TTK: 0.223804 Seconds
 
 [ Barrel: PP-19 Bizon, Magazine: NP5, Grip: PPSh-41, Stock: APS, Core: Type 2a Nambu ]
-damage: 25.1804 - 11.3911
+damage: 25.1804 - 8.34369
 dropoffStuds: 112.14 - 124.155
-pellets: 1
 fireRate: 796.95
 adsSpread: 0.512634
 hipfireSpread: 3.41756
 reloadTime: 2.3
 magazineSize: 30
-health: 0
 recoilHipVertical: 36.5625 - 51.1875
 recoilAimVertical: 23.6925 - 33.1987
 movementSpeed: 9.8
-detectionRadius: 80
 TTK: 0.225861 Seconds
 
 [ Barrel: Tommy, Magazine: NP5, Grip: Circuit Judge, Stock: Spas-12, Core: Type 2a Nambu ]
-damage: 25.1198 - 11.3637
+damage: 25.1198 - 6.99214
 dropoffStuds: 103.069 - 114.112
-pellets: 1
 fireRate: 795.887
 adsSpread: 0.661668
 hipfireSpread: 4.41112
 reloadTime: 2
 magazineSize: 30
-health: 0
 recoilHipVertical: 28.125 - 39.375
 recoilAimVertical: 18.225 - 25.5375
 movementSpeed: 8.1
-detectionRadius: 80
 TTK: 0.226163 Seconds
 
 [ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.3946 - 11.488
+damage: 25.3946 - 8.60241
 dropoffStuds: 113.05 - 125.162
-pellets: 1
 fireRate: 794.687
 adsSpread: 0.754189
 hipfireSpread: 5.02792
 reloadTime: 2.76
 magazineSize: 30
-health: 0
 recoilHipVertical: 17 - 23.8
 recoilAimVertical: 11.016 - 15.436
 movementSpeed: 0.6
-detectionRadius: 100
 TTK: 0.226504 Seconds
 
 [ Barrel: MG42, Magazine: MP 40, Grip: M1891, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.3491 - 11.4675
+damage: 25.3491 - 7.56671
 dropoffStuds: 103.74 - 114.855
-pellets: 1
 fireRate: 793.571
 adsSpread: 0.97932
 hipfireSpread: 6.5288
 reloadTime: 2.875
 magazineSize: 32
-health: 0
 recoilHipVertical: 29.9 - 41.86
 recoilAimVertical: 19.3752 - 27.1492
 movementSpeed: 2.7
-detectionRadius: 80
 TTK: 0.226823 Seconds
 
 [ Barrel: Snake Sniper, Magazine: MAC-10, Grip: Circuit Judge, Stock: Spas-12, Core: Type 2a Nambu ]
-damage: 25.585 - 11.5741
+damage: 25.585 - 8.0098
 dropoffStuds: 108.416 - 120.032
-pellets: 1
 fireRate: 790.131
 adsSpread: 0.834879
 hipfireSpread: 5.56586
@@ -141,22 +116,18 @@ health: -5
 recoilHipVertical: 33.75 - 47.25
 recoilAimVertical: 21.87 - 30.645
 movementSpeed: 5.4
-detectionRadius: 80
 TTK: 0.22781 Seconds
 
 [ Barrel: PP-19 Bizon, Magazine: Graphics Card, Grip: PPSh-41, Stock: APS, Core: Type 2a Nambu ]
-damage: 25.1804 - 11.3911
+damage: 25.1804 - 8.79873
 dropoffStuds: 115.92 - 128.34
-pellets: 1
 fireRate: 790.02
 adsSpread: 0.539473
 hipfireSpread: 3.59649
 reloadTime: 6.9
 magazineSize: 50
-health: 0
 recoilHipVertical: 31.2812 - 43.7937
 recoilAimVertical: 20.2703 - 28.4034
 movementSpeed: 6.5
-detectionRadius: 80
 TTK: 0.227842 Seconds
 

@@ -1,9 +1,8 @@
 ./Calculator -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --healthMin 10 --bc FC200SH M1 Carbine G11 
 Current top 10 guns are: 
 [ Barrel: PP-19 Bizon, Magazine: M60, Grip: PPSh-41, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.2279 - 11.4126
+damage: 25.2279 - 8.6634
 dropoffStuds: 114.66 - 126.945
-pellets: 1
 fireRate: 658.35
 adsSpread: 0.465917
 hipfireSpread: 3.10611
@@ -13,13 +12,11 @@ health: 10
 recoilHipVertical: 45.75 - 64.05
 recoilAimVertical: 29.646 - 41.541
 movementSpeed: 7.15
-detectionRadius: 96
 TTK: 0.273411 Seconds
 
 [ Barrel: Kriss Vector, Magazine: M60, Grip: M1891, Stock: Kriss Vector, Core: MG42 ]
-damage: 12.7474 - 7.8524
+damage: 12.7474 - 6.58484
 dropoffStuds: 116.707 - 252.866
-pellets: 1
 fireRate: 1531.11
 adsSpread: 1.24535
 hipfireSpread: 12.4535
@@ -29,13 +26,11 @@ health: 13
 recoilHipVertical: 50.7694 - 72.8014
 recoilAimVertical: 25.3847 - 36.4007
 movementSpeed: 0.99
-detectionRadius: 175
 TTK: 0.27431 Seconds
 
 [ Barrel: Kriss Vector, Magazine: M60, Grip: M1891, Stock: M870 Breacher, Core: MG42 ]
-damage: 12.7474 - 7.8524
+damage: 12.7474 - 6.87829
 dropoffStuds: 122.85 - 266.175
-pellets: 1
 fireRate: 1519.4
 adsSpread: 1.19764
 hipfireSpread: 11.9764
@@ -45,13 +40,11 @@ health: 13
 recoilHipVertical: 67.109 - 96.2318
 recoilAimVertical: 33.5545 - 48.1159
 movementSpeed: 2.595
-detectionRadius: 175
 TTK: 0.276425 Seconds
 
 [ Barrel: Kriss Vector, Magazine: M60, Grip: M1891, Stock: FG-42, Core: MG42 ]
-damage: 12.7474 - 7.8524
+damage: 12.7474 - 6.87829
 dropoffStuds: 122.85 - 266.175
-pellets: 1
 fireRate: 1514.27
 adsSpread: 0.959063
 hipfireSpread: 9.59063
@@ -61,13 +54,11 @@ health: 13
 recoilHipVertical: 65.9419 - 94.5582
 recoilAimVertical: 32.9709 - 47.2791
 movementSpeed: 0.545
-detectionRadius: 175
 TTK: 0.277361 Seconds
 
 [ Barrel: M870 Breacher, Magazine: M60, Grip: M1891, Stock: JSG12, Core: MG42 ]
-damage: 15.0888 - 9.29467
+damage: 15.0888 - 7.19432
 dropoffStuds: 102.375 - 221.812
-pellets: 1
 fireRate: 1296
 adsSpread: 1.43731
 hipfireSpread: 14.3731
@@ -77,13 +68,11 @@ health: 13
 recoilHipVertical: 64.66 - 92.72
 recoilAimVertical: 32.33 - 46.36
 movementSpeed: 1.2
-detectionRadius: 175
 TTK: 0.277778 Seconds
 
 [ Barrel: Tommy, Magazine: XXL AKM, Grip: M1891, Stock: Taco, Core: Type 2a Nambu ]
-damage: 26.2407 - 11.8708
+damage: 26.2407 - 11.0086
 dropoffStuds: 131.6 - 145.7
-pellets: 1
 fireRate: 646.494
 adsSpread: 0.718304
 hipfireSpread: 4.78869
@@ -93,13 +82,11 @@ health: 10
 recoilHipVertical: 45 - 63
 recoilAimVertical: 29.16 - 40.86
 movementSpeed: 0.2
-detectionRadius: 110.4
 TTK: 0.278425 Seconds
 
 [ Barrel: Kriss Vector, Magazine: M60, Grip: M1891, Stock: MAC-10, Core: MG42 ]
-damage: 12.7474 - 7.8524
+damage: 12.7474 - 6.87829
 dropoffStuds: 122.85 - 266.175
-pellets: 1
 fireRate: 1507.32
 adsSpread: 1.11175
 hipfireSpread: 11.1175
@@ -109,13 +96,11 @@ health: 13
 recoilHipVertical: 58.3557 - 83.6798
 recoilAimVertical: 29.1778 - 41.8399
 movementSpeed: 1.835
-detectionRadius: 175
 TTK: 0.278641 Seconds
 
 [ Barrel: Kriss Vector, Magazine: M60, Grip: M1891, Stock: P90, Core: MG42 ]
-damage: 12.7474 - 7.8524
+damage: 12.7474 - 6.87829
 dropoffStuds: 122.85 - 266.175
-pellets: 1
 fireRate: 1502.56
 adsSpread: 0.890831
 hipfireSpread: 8.90831
@@ -125,13 +110,11 @@ health: 13
 recoilHipVertical: 65.3583 - 93.7214
 recoilAimVertical: 32.6792 - 46.8607
 movementSpeed: 0.795
-detectionRadius: 175
 TTK: 0.279524 Seconds
 
 [ Barrel: M870, Magazine: M60, Grip: Kriss Vector, Stock: M870 Breacher, Core: MG42 ]
-damage: 14.4059 - 8.87401
+damage: 14.4059 - 7.77317
 dropoffStuds: 122.85 - 266.175
-pellets: 1
 fireRate: 1277.37
 adsSpread: 1.14435
 hipfireSpread: 11.4435
@@ -141,13 +124,11 @@ health: 13
 recoilHipVertical: 68.559 - 98.311
 recoilAimVertical: 34.2795 - 49.1555
 movementSpeed: 0.175
-detectionRadius: 175
 TTK: 0.281829 Seconds
 
 [ Barrel: M870 Breacher, Magazine: M60, Grip: Kriss Vector, Stock: Auto-5, Core: MG42 ]
-damage: 14.3418 - 8.83454
+damage: 14.3418 - 6.83816
 dropoffStuds: 102.375 - 221.812
-pellets: 1
 fireRate: 1277.37
 adsSpread: 1.28853
 hipfireSpread: 12.8853
@@ -157,6 +138,5 @@ health: 13
 recoilHipVertical: 59.6165 - 85.4878
 recoilAimVertical: 29.8083 - 42.7439
 movementSpeed: 2.425
-detectionRadius: 175
 TTK: 0.281829 Seconds
 

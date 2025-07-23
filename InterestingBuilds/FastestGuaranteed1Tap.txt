@@ -1,0 +1,132 @@
+./Calculator -o InterestingBuilds/FastestGuaranteed1Tap.txt -i Sniper BR --damageEndMin 100 --spreadAimMax 0.15 --sort FIRERATE --speedMin -5 --magazineMin 5 
+Current top 10 guns are: 
+[ Barrel: Light Gun, Magazine: Lightning Shot, Grip: M1891, Stock: APS, Core: Arisaka ]
+damage: 123.122 - 100.098
+dropoffStuds: 52 - 91
+fireRate: 27.17
+adsSpread: 0.143198
+hipfireSpread: 11.4559
+reloadTime: 12.65
+magazineSize: 7
+health: -10
+recoilHipVertical: 210.6 - 239.85
+recoilAimVertical: 94.77 - 107.933
+movementSpeed: 2
+
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Type 2a Nambu, Stock: APS, Core: Arisaka ]
+damage: 112.91 - 101.619
+dropoffStuds: 400 - 700
+fireRate: 26.78
+adsSpread: 0.132225
+hipfireSpread: 10.578
+reloadTime: 10.5
+magazineSize: 7
+health: -22.5
+recoilHipVertical: 259.038 - 295.015
+recoilAimVertical: 116.567 - 132.757
+movementSpeed: -2
+
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Circuit Judge, Stock: M1Garand, Core: Arisaka ]
+damage: 110.889 - 100.083
+dropoffStuds: 410.2 - 717.85
+fireRate: 26.78
+adsSpread: 0.137291
+hipfireSpread: 10.9833
+reloadTime: 10.5
+magazineSize: 7
+health: -15
+recoilHipVertical: 142.722 - 162.544
+recoilAimVertical: 64.2249 - 73.145
+movementSpeed: -3
+
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Circuit Judge, Stock: FAL, Core: Arisaka ]
+damage: 110.889 - 100.272
+dropoffStuds: 417 - 729.75
+fireRate: 26.78
+adsSpread: 0.10594
+hipfireSpread: 8.47517
+reloadTime: 10.5
+magazineSize: 7
+health: -15
+recoilHipVertical: 210.6 - 239.85
+recoilAimVertical: 94.77 - 107.933
+movementSpeed: -1.83
+
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: The Chief, Stock: APS, Core: Arisaka ]
+damage: 111.291 - 100.162
+dropoffStuds: 400 - 700
+fireRate: 26.78
+adsSpread: 0.109201
+hipfireSpread: 8.73607
+reloadTime: 10.5
+magazineSize: 7
+health: -15
+recoilHipVertical: 284.31 - 323.798
+recoilAimVertical: 127.94 - 145.709
+movementSpeed: -2
+
+[ Barrel: Light Gun, Magazine: Lightning Shot, Grip: M1Garand, Stock: APS, Core: Arisaka ]
+damage: 123.122 - 100.098
+dropoffStuds: 52 - 91
+fireRate: 26.3796
+adsSpread: 0.110279
+hipfireSpread: 8.82232
+reloadTime: 11
+magazineSize: 7
+health: -10
+recoilHipVertical: 210.6 - 239.85
+recoilAimVertical: 94.77 - 107.933
+movementSpeed: -5
+
+[ Barrel: Light Gun, Magazine: Lightning Shot, Grip: Negev, Stock: APS, Core: Arisaka ]
+damage: 123.122 - 100.098
+dropoffStuds: 52 - 91
+fireRate: 26.2808
+adsSpread: 0.115766
+hipfireSpread: 9.26124
+reloadTime: 11
+magazineSize: 7
+health: -10
+recoilHipVertical: 242.19 - 275.827
+recoilAimVertical: 108.985 - 124.122
+movementSpeed: -4.5
+
+[ Barrel: Light Gun, Magazine: Lightning Shot, Grip: M1897 Trench Shotgun, Stock: APS, Core: Arisaka ]
+damage: 123.122 - 100.098
+dropoffStuds: 52 - 91
+fireRate: 26.182
+adsSpread: 0.148685
+hipfireSpread: 11.8948
+reloadTime: 12.1
+magazineSize: 7
+health: -10
+recoilHipVertical: 210.6 - 239.85
+recoilAimVertical: 94.77 - 107.933
+movementSpeed: -2
+
+[ Barrel: Light Gun, Magazine: Lightning Shot, Grip: PPSh-41, Stock: APS, Core: Arisaka ]
+damage: 123.122 - 100.098
+dropoffStuds: 52 - 91
+fireRate: 26.182
+adsSpread: 0.103695
+hipfireSpread: 8.29562
+reloadTime: 12.65
+magazineSize: 7
+health: -10
+recoilHipVertical: 210.6 - 239.85
+recoilAimVertical: 94.77 - 107.933
+movementSpeed: -2
+
+[ Barrel: Light Gun, Magazine: Lightning Shot, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Arisaka ]
+damage: 125.228 - 101.811
+dropoffStuds: 52 - 91
+fireRate: 26.182
+adsSpread: 0.142988
+hipfireSpread: 11.439
+reloadTime: 11
+magazineSize: 7
+health: -10
+recoilHipVertical: 186.3 - 212.175
+recoilAimVertical: 83.835 - 95.4788
+movementSpeed: -2
+

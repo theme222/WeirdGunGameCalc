@@ -1,9 +1,8 @@
 ./Calculator -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.6 --recoilAimMax 30 --rangeMin 200 --pelletMax 1 --bc FC200SH M1 Carbine G11 
 Current top 10 guns are: 
 [ Barrel: Type 99, Magazine: Type 99, Grip: PPSh-41, Stock: Arisaka, Core: Negev ]
-damage: 16.7443 - 12.0799
+damage: 16.7443 - 12.453
 dropoffStuds: 205.2 - 410.4
-pellets: 1
 fireRate: 905.25
 adsSpread: 0.474472
 hipfireSpread: 4.74472
@@ -13,29 +12,11 @@ health: 7
 recoilHipVertical: 35 - 40
 recoilAimVertical: 21 - 24
 movementSpeed: 0.8
-detectionRadius: 125
 TTK: 0.3314 Seconds
 
-[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Kriss Vector, Stock: MG42, Core: Negev ]
-damage: 17.3588 - 12.5231
-dropoffStuds: 205.2 - 410.4
-pellets: 1
-fireRate: 893.031
-adsSpread: 0.579848
-hipfireSpread: 5.79848
-reloadTime: 4.41
-magazineSize: 30
-health: 10
-recoilHipVertical: 32.27 - 36.88
-recoilAimVertical: 19.362 - 22.128
-movementSpeed: 0.425
-detectionRadius: 125
-TTK: 0.335935 Seconds
-
 [ Barrel: Snake Sniper, Magazine: Type 99, Grip: Arisaka, Stock: P90, Core: Negev ]
-damage: 17.3588 - 12.5231
+damage: 17.3588 - 12.91
 dropoffStuds: 205.2 - 410.4
-pellets: 1
 fireRate: 893.031
 adsSpread: 0.574211
 hipfireSpread: 5.74211
@@ -45,13 +26,25 @@ health: 4
 recoilHipVertical: 39.2 - 44.8
 recoilAimVertical: 23.52 - 26.88
 movementSpeed: 2.35
-detectionRadius: 125
+TTK: 0.335935 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Kriss Vector, Stock: MG42, Core: Negev ]
+damage: 17.3588 - 12.91
+dropoffStuds: 205.2 - 410.4
+fireRate: 893.031
+adsSpread: 0.579848
+hipfireSpread: 5.79848
+reloadTime: 4.41
+magazineSize: 30
+health: 10
+recoilHipVertical: 32.27 - 36.88
+recoilAimVertical: 19.362 - 22.128
+movementSpeed: 0.425
 TTK: 0.335935 Seconds
 
 [ Barrel: M1891, Magazine: Graphics Card, Grip: Arisaka, Stock: Fedorov, Core: M60 ]
-damage: 20.4947 - 11.7713
+damage: 20.4947 - 12.5808
 dropoffStuds: 202.768 - 394.864
-pellets: 1
 fireRate: 713.07
 adsSpread: 0.497063
 hipfireSpread: 4.26054
@@ -61,13 +54,11 @@ health: 12
 recoilHipVertical: 38.7503 - 47.2049
 recoilAimVertical: 23.2502 - 28.3229
 movementSpeed: 1.4
-detectionRadius: 155
 TTK: 0.336573 Seconds
 
 [ Barrel: Snake Sniper, Magazine: Type 99, Grip: Arisaka, Stock: STG-44, Core: Negev ]
-damage: 17.3588 - 12.5231
+damage: 17.3588 - 12.91
 dropoffStuds: 205.2 - 410.4
-pellets: 1
 fireRate: 889.984
 adsSpread: 0.572058
 hipfireSpread: 5.72058
@@ -77,29 +68,24 @@ health: 4
 recoilHipVertical: 35 - 40
 recoilAimVertical: 21 - 24
 movementSpeed: 0.4
-detectionRadius: 125
 TTK: 0.337085 Seconds
 
 [ Barrel: Dragunov, Magazine: P90, Grip: Snake Sniper, Stock: AR-8X, Core: Mas-38 ]
-damage: 16.9124 - 10.7624
+damage: 16.9124 - 12.1509
 dropoffStuds: 201.765 - 239.595
-pellets: 1
 fireRate: 887.04
 adsSpread: 0.58278
 hipfireSpread: 3.23766
 reloadTime: 4
 magazineSize: 50
-health: 0
 recoilHipVertical: 15.8224 - 47.4672
 recoilAimVertical: 6.32896 - 18.9869
 movementSpeed: 0.4
-detectionRadius: 110
 TTK: 0.338203 Seconds
 
 [ Barrel: M1891, Magazine: Graphics Card, Grip: FG-42, Stock: Arisaka, Core: M60 ]
-damage: 20.4947 - 11.7713
+damage: 20.4947 - 12.5808
 dropoffStuds: 202.768 - 394.864
-pellets: 1
 fireRate: 707.256
 adsSpread: 0.574855
 hipfireSpread: 4.92733
@@ -109,13 +95,11 @@ health: 10
 recoilHipVertical: 39.4702 - 48.0819
 recoilAimVertical: 23.6821 - 28.8491
 movementSpeed: 3.8
-detectionRadius: 155
 TTK: 0.33934 Seconds
 
 [ Barrel: Type 99, Magazine: Type 99, Grip: Arisaka, Stock: M870 Breacher, Core: Negev ]
-damage: 16.7443 - 12.0799
+damage: 16.7443 - 12.453
 dropoffStuds: 205.2 - 410.4
-pellets: 1
 fireRate: 881.875
 adsSpread: 0.547747
 hipfireSpread: 5.47747
@@ -125,13 +109,11 @@ health: 9
 recoilHipVertical: 40.25 - 46
 recoilAimVertical: 24.15 - 27.6
 movementSpeed: 2.15
-detectionRadius: 125
 TTK: 0.340184 Seconds
 
 [ Barrel: DP-27, Magazine: Type 99, Grip: Auto-5, Stock: Arisaka, Core: Negev ]
-damage: 17.079 - 12.3212
+damage: 17.079 - 12.7019
 dropoffStuds: 205.2 - 410.4
-pellets: 1
 fireRate: 881.875
 adsSpread: 0.598138
 hipfireSpread: 5.98138
@@ -141,22 +123,19 @@ health: 7
 recoilHipVertical: 40.7925 - 46.62
 recoilAimVertical: 24.4755 - 27.972
 movementSpeed: 1.8
-detectionRadius: 125
 TTK: 0.340184 Seconds
 
-[ Barrel: Type 99, Magazine: Type 99, Grip: Arisaka, Stock: FG-42, Core: Negev ]
-damage: 16.7443 - 12.0799
+[ Barrel: Type 99, Magazine: Type 99, Grip: FG-42, Stock: Arisaka, Core: Negev ]
+damage: 16.7443 - 12.453
 dropoffStuds: 205.2 - 410.4
-pellets: 1
 fireRate: 878.9
-adsSpread: 0.438634
-hipfireSpread: 4.38634
-reloadTime: 3.675
+adsSpread: 0.507281
+hipfireSpread: 5.07281
+reloadTime: 3.93593
 magazineSize: 30
-health: 9
-recoilHipVertical: 39.55 - 45.2
-recoilAimVertical: 23.73 - 27.12
-movementSpeed: 0.1
-detectionRadius: 125
+health: 7
+recoilHipVertical: 32.62 - 37.28
+recoilAimVertical: 19.572 - 22.368
+movementSpeed: 0.8
 TTK: 0.341336 Seconds
 

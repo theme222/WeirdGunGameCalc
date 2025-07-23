@@ -1,7 +1,7 @@
 ./Calculator -o InterestingBuilds/HipfireShotgun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadHipMax 1.8 
 Current top 10 guns are: 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: FAL, Core: JSG12 ]
-damage: 204.517 - 17.0431
+damage: 204.517 - 39.7512
 dropoffStuds: 55.4462 - 110.892
 pellets: 12
 fireRate: 62.37
@@ -9,15 +9,12 @@ adsSpread: 1.78886
 hipfireSpread: 1.78886
 reloadTime: 5
 magazineSize: 5
-health: 0
 recoilHipVertical: 295.659 - 348.566
 recoilAimVertical: 192.023 - 226.568
 movementSpeed: 0.62
-detectionRadius: 135
-TTK: 0 Seconds
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: AWM, Core: JSG12 ]
-damage: 204.517 - 17.0431
+damage: 204.517 - 34.6554
 dropoffStuds: 53.8312 - 107.662
 pellets: 12
 fireRate: 62.37
@@ -25,15 +22,12 @@ adsSpread: 1.76379
 hipfireSpread: 1.76379
 reloadTime: 4.625
 magazineSize: 5
-health: 0
 recoilHipVertical: 250.173 - 294.941
 recoilAimVertical: 162.481 - 191.712
 movementSpeed: 0.5
-detectionRadius: 135
-TTK: 0 Seconds
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: MG42, Core: JSG12 ]
-damage: 204.517 - 17.0431
+damage: 204.517 - 34.6554
 dropoffStuds: 53.8312 - 107.662
 pellets: 12
 fireRate: 62.37
@@ -41,15 +35,12 @@ adsSpread: 1.73969
 hipfireSpread: 1.73969
 reloadTime: 6
 magazineSize: 5
-health: 0
 recoilHipVertical: 227.43 - 268.128
 recoilAimVertical: 147.71 - 174.283
 movementSpeed: 3.125
-detectionRadius: 135
-TTK: 0 Seconds
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
-damage: 204.517 - 17.0431
+damage: 204.517 - 34.6554
 dropoffStuds: 53.8312 - 107.662
 pellets: 12
 fireRate: 59.2515
@@ -57,15 +48,12 @@ adsSpread: 1.71558
 hipfireSpread: 1.71558
 reloadTime: 5.5
 magazineSize: 5
-health: 0
 recoilHipVertical: 170.572 - 201.096
 recoilAimVertical: 110.782 - 130.712
 movementSpeed: 0.5
-detectionRadius: 135
-TTK: 0 Seconds
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: DP-27, Core: JSG12 ]
-damage: 204.517 - 17.0431
+damage: 204.517 - 34.6554
 dropoffStuds: 53.8312 - 107.662
 pellets: 12
 fireRate: 53.0145
@@ -73,10 +61,7 @@ adsSpread: 1.75415
 hipfireSpread: 1.75415
 reloadTime: 5
 magazineSize: 5
-health: 0
 recoilHipVertical: 193.315 - 227.909
 recoilAimVertical: 125.553 - 148.141
 movementSpeed: 0.5
-detectionRadius: 135
-TTK: 0 Seconds
 

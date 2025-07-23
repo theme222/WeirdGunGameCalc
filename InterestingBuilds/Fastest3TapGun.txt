@@ -3,23 +3,19 @@ Current top 10 guns are:
 [ Barrel: Type 2a Nambu, Magazine: MP 40, Grip: Circuit Judge, Stock: APS, Core: M1 Carbine ]
 damage: 33.4196 - 20.0518
 dropoffStuds: 145 - 170
-pellets: 1
 fireRate: 736.25
 adsSpread: 0.595872
 hipfireSpread: 9.93119
 reloadTime: 2.5
 magazineSize: 32
-health: 0
 recoilHipVertical: 14.95 - 17.94
 recoilAimVertical: 5.98 - 7.176
 movementSpeed: 3
-detectionRadius: 120
 TTK: 0.162988 Seconds
 
 [ Barrel: Type 2a Nambu, Magazine: MP 40, Grip: Circuit Judge, Stock: Taco, Core: M1 Carbine ]
 damage: 33.4828 - 20.0897
 dropoffStuds: 145 - 170
-pellets: 1
 fireRate: 699.438
 adsSpread: 0.550211
 hipfireSpread: 9.17018
@@ -29,29 +25,23 @@ health: 10
 recoilHipVertical: 13.8 - 16.56
 recoilAimVertical: 5.52 - 6.624
 movementSpeed: 3
-detectionRadius: 144
 TTK: 0.171566 Seconds
 
 [ Barrel: Water Pipe, Magazine: MP 40, Grip: MP 40, Stock: APS, Core: M1 Carbine ]
 damage: 33.5314 - 20.1188
 dropoffStuds: 145 - 170
-pellets: 1
 fireRate: 647.9
 adsSpread: 0.629646
 hipfireSpread: 10.4941
 reloadTime: 2.5
 magazineSize: 32
-health: 0
 recoilHipVertical: 19.435 - 23.322
 recoilAimVertical: 7.774 - 9.3288
-movementSpeed: 0
-detectionRadius: 210
 TTK: 0.185214 Seconds
 
 [ Barrel: Water Pipe, Magazine: MP 40, Grip: Type 2a Nambu, Stock: APS, Core: M1 Carbine ]
 damage: 33.8477 - 20.3086
 dropoffStuds: 145 - 170
-pellets: 1
 fireRate: 647.9
 adsSpread: 0.4849
 hipfireSpread: 8.08166
@@ -60,14 +50,11 @@ magazineSize: 32
 health: -7.5
 recoilHipVertical: 18.3885 - 22.0662
 recoilAimVertical: 7.3554 - 8.82648
-movementSpeed: 0
-detectionRadius: 210
 TTK: 0.185214 Seconds
 
 [ Barrel: APS, Magazine: The Chief, Grip: Circuit Judge, Stock: Taco, Core: M1 Carbine ]
-damage: 33.4525 - 20.0715
+damage: 33.4525 - 17.1223
 dropoffStuds: 103.298 - 121.108
-pellets: 1
 fireRate: 629.494
 adsSpread: 0.596165
 hipfireSpread: 9.93609
@@ -76,30 +63,37 @@ magazineSize: 36
 health: 10
 recoilHipVertical: 15 - 18
 recoilAimVertical: 6 - 7.2
-movementSpeed: 0
-detectionRadius: 180
 TTK: 0.190629 Seconds
 
-[ Barrel: BAR, Magazine: UNP-40, Grip: MP 40, Stock: APS, Core: M1 Carbine ]
-damage: 33.6005 - 20.1603
+[ Barrel: BAR, Magazine: UNP-40, Grip: Circuit Judge, Stock: APS, Core: M1 Carbine ]
+damage: 34.076 - 21.7139
 dropoffStuds: 159.058 - 186.482
-pellets: 1
+fireRate: 627.75
+adsSpread: 0.581397
+hipfireSpread: 9.68995
+reloadTime: 2
+magazineSize: 30
+recoilHipVertical: 15.6 - 18.72
+recoilAimVertical: 6.24 - 7.488
+movementSpeed: 1
+TTK: 0.191159 Seconds
+
+[ Barrel: BAR, Magazine: UNP-40, Grip: MP 40, Stock: APS, Core: M1 Carbine ]
+damage: 33.6005 - 21.4109
+dropoffStuds: 159.058 - 186.482
 fireRate: 627.75
 adsSpread: 0.559943
 hipfireSpread: 9.33239
 reloadTime: 2
 magazineSize: 30
-health: 0
 recoilHipVertical: 20.28 - 24.336
 recoilAimVertical: 8.112 - 9.7344
 movementSpeed: 1
-detectionRadius: 120
 TTK: 0.191159 Seconds
 
 [ Barrel: BAR, Magazine: UNP-40, Grip: Type 2a Nambu, Stock: APS, Core: M1 Carbine ]
-damage: 33.9175 - 20.3505
+damage: 33.9175 - 21.6129
 dropoffStuds: 159.058 - 186.482
-pellets: 1
 fireRate: 627.75
 adsSpread: 0.431221
 hipfireSpread: 7.18701
@@ -109,54 +103,30 @@ health: -7.5
 recoilHipVertical: 19.188 - 23.0256
 recoilAimVertical: 7.6752 - 9.21024
 movementSpeed: 1
-detectionRadius: 120
 TTK: 0.191159 Seconds
 
-[ Barrel: BAR, Magazine: UNP-40, Grip: Circuit Judge, Stock: APS, Core: M1 Carbine ]
-damage: 34.076 - 20.4456
-dropoffStuds: 159.058 - 186.482
-pellets: 1
-fireRate: 627.75
-adsSpread: 0.581397
-hipfireSpread: 9.68995
-reloadTime: 2
-magazineSize: 30
-health: 0
-recoilHipVertical: 15.6 - 18.72
-recoilAimVertical: 6.24 - 7.488
-movementSpeed: 1
-detectionRadius: 120
-TTK: 0.191159 Seconds
+[ Barrel: M110, Magazine: MP 40, Grip: Type 2a Nambu, Stock: APS, Core: M1 Carbine ]
+damage: 33.9644 - 20.8542
+dropoffStuds: 150.075 - 175.95
+fireRate: 625.812
+adsSpread: 0.474164
+hipfireSpread: 7.90273
+reloadTime: 2.5
+magazineSize: 32
+health: -7.5
+recoilHipVertical: 16.9726 - 20.3671
+recoilAimVertical: 6.78903 - 8.14684
+TTK: 0.191751 Seconds
 
 [ Barrel: M110, Magazine: MP 40, Grip: Circuit Judge, Stock: APS, Core: M1 Carbine ]
-damage: 34.1232 - 20.4739
+damage: 34.1232 - 20.9516
 dropoffStuds: 150.075 - 175.95
-pellets: 1
 fireRate: 625.812
 adsSpread: 0.639295
 hipfireSpread: 10.6549
 reloadTime: 2.5
 magazineSize: 32
-health: 0
 recoilHipVertical: 13.7988 - 16.5586
 recoilAimVertical: 5.51954 - 6.62345
-movementSpeed: 0
-detectionRadius: 162
-TTK: 0.191751 Seconds
-
-[ Barrel: M110, Magazine: MP 40, Grip: MP 40, Stock: APS, Core: M1 Carbine ]
-damage: 33.647 - 20.1882
-dropoffStuds: 150.075 - 175.95
-pellets: 1
-fireRate: 625.812
-adsSpread: 0.615705
-hipfireSpread: 10.2618
-reloadTime: 2.5
-magazineSize: 32
-health: 0
-recoilHipVertical: 17.9385 - 21.5262
-recoilAimVertical: 7.1754 - 8.61048
-movementSpeed: 0
-detectionRadius: 162
 TTK: 0.191751 Seconds
 
