@@ -32,22 +32,6 @@ movementSpeed: 3
 detectionRadius: 144
 TTK: 0.171566 Seconds
 
-[ Barrel: Water Pipe, Magazine: MP 40, Grip: Type 2a Nambu, Stock: APS, Core: M1 Carbine ]
-damage: 33.8477 - 20.3086
-dropoffStuds: 145 - 170
-pellets: 1
-fireRate: 647.9
-adsSpread: 0.4849
-hipfireSpread: 8.08166
-reloadTime: 2.5
-magazineSize: 32
-health: -7.5
-recoilHipVertical: 18.3885 - 22.0662
-recoilAimVertical: 7.3554 - 8.82648
-movementSpeed: 0
-detectionRadius: 210
-TTK: 0.185214 Seconds
-
 [ Barrel: Water Pipe, Magazine: MP 40, Grip: MP 40, Stock: APS, Core: M1 Carbine ]
 damage: 33.5314 - 20.1188
 dropoffStuds: 145 - 170
@@ -60,6 +44,22 @@ magazineSize: 32
 health: 0
 recoilHipVertical: 19.435 - 23.322
 recoilAimVertical: 7.774 - 9.3288
+movementSpeed: 0
+detectionRadius: 210
+TTK: 0.185214 Seconds
+
+[ Barrel: Water Pipe, Magazine: MP 40, Grip: Type 2a Nambu, Stock: APS, Core: M1 Carbine ]
+damage: 33.8477 - 20.3086
+dropoffStuds: 145 - 170
+pellets: 1
+fireRate: 647.9
+adsSpread: 0.4849
+hipfireSpread: 8.08166
+reloadTime: 2.5
+magazineSize: 32
+health: -7.5
+recoilHipVertical: 18.3885 - 22.0662
+recoilAimVertical: 7.3554 - 8.82648
 movementSpeed: 0
 detectionRadius: 210
 TTK: 0.185214 Seconds
@@ -80,22 +80,6 @@ movementSpeed: 0
 detectionRadius: 180
 TTK: 0.190629 Seconds
 
-[ Barrel: BAR, Magazine: UNP-40, Grip: Type 2a Nambu, Stock: APS, Core: M1 Carbine ]
-damage: 33.9175 - 20.3505
-dropoffStuds: 159.058 - 186.482
-pellets: 1
-fireRate: 627.75
-adsSpread: 0.431221
-hipfireSpread: 7.18701
-reloadTime: 2
-magazineSize: 30
-health: -7.5
-recoilHipVertical: 19.188 - 23.0256
-recoilAimVertical: 7.6752 - 9.21024
-movementSpeed: 1
-detectionRadius: 120
-TTK: 0.191159 Seconds
-
 [ Barrel: BAR, Magazine: UNP-40, Grip: MP 40, Stock: APS, Core: M1 Carbine ]
 damage: 33.6005 - 20.1603
 dropoffStuds: 159.058 - 186.482
@@ -108,6 +92,22 @@ magazineSize: 30
 health: 0
 recoilHipVertical: 20.28 - 24.336
 recoilAimVertical: 8.112 - 9.7344
+movementSpeed: 1
+detectionRadius: 120
+TTK: 0.191159 Seconds
+
+[ Barrel: BAR, Magazine: UNP-40, Grip: Type 2a Nambu, Stock: APS, Core: M1 Carbine ]
+damage: 33.9175 - 20.3505
+dropoffStuds: 159.058 - 186.482
+pellets: 1
+fireRate: 627.75
+adsSpread: 0.431221
+hipfireSpread: 7.18701
+reloadTime: 2
+magazineSize: 30
+health: -7.5
+recoilHipVertical: 19.188 - 23.0256
+recoilAimVertical: 7.6752 - 9.21024
 movementSpeed: 1
 detectionRadius: 120
 TTK: 0.191159 Seconds
@@ -144,18 +144,18 @@ movementSpeed: 0
 detectionRadius: 162
 TTK: 0.191751 Seconds
 
-[ Barrel: M110, Magazine: MP 40, Grip: Type 2a Nambu, Stock: APS, Core: M1 Carbine ]
-damage: 33.9644 - 20.3787
+[ Barrel: M110, Magazine: MP 40, Grip: MP 40, Stock: APS, Core: M1 Carbine ]
+damage: 33.647 - 20.1882
 dropoffStuds: 150.075 - 175.95
 pellets: 1
 fireRate: 625.812
-adsSpread: 0.474164
-hipfireSpread: 7.90273
+adsSpread: 0.615705
+hipfireSpread: 10.2618
 reloadTime: 2.5
 magazineSize: 32
-health: -7.5
-recoilHipVertical: 16.9726 - 20.3671
-recoilAimVertical: 6.78903 - 8.14684
+health: 0
+recoilHipVertical: 17.9385 - 21.5262
+recoilAimVertical: 7.1754 - 8.61048
 movementSpeed: 0
 detectionRadius: 162
 TTK: 0.191751 Seconds

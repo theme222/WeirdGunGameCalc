@@ -14,7 +14,7 @@ known_properties = {'Reload_Speed', 'Recoil_Hip_Vertical', 'Recoil',
     'Dropoff_Studs', 'Category', 'Recoil_Aim_Vertical', 'Recoil_Hip_Horizontal',
     'Spread', 'Time_To_Aim', 'Hipfire_Spread', 'Recoil_Aim_Horizontal',
     'Movement_Speed_Modifier', 'Name', 'Movement_Speed', 'Reload_Time', 'Pellets',
-    'Detection_Radius', 'Range', 'Burst'
+    'Detection_Radius', 'Range', 'Burst', 'Falloff_Factor'
 }
 
 known_names = {
@@ -22,7 +22,7 @@ known_names = {
     'Skorpion vz. 61', 'M1917 WC', 'Improvised', 'Scar L', 'Lee Enfield', 'AWM',
     'Horizontal', 'Willy Fischy', 'Anvil', 'Shower', 'Stat Randomizer', 'Famas F1', 'Speed Coil',
     'Water Pipe', 'Ketchup', 'M1919', 'UNP-40', 'MP 40', 'Type 2a Nambu', 'Banana', 'Shovel',
-    'STG-44', 'Oil', 'Fedorov Avtomat', 'Tap', 'Rice Pot', 'Scar Drum', 'M-16', 'Hecate II', 'M40',
+    'STG-44', 'Oil', 'Fedorov', 'Tap', 'Rice Pot', 'Scar Drum', 'M-16', 'Hecate II', 'M40',
     'M91 Moschetto', 'DP-27', 'M60', 'Quack', 'AUG', 'Restroom', 'AKM', 'XXL AKM', 'Snake', 'As-Val', 'MG42',
     'Mustard', 'Hell-Trooper-23', 'Kriss Vector', 'Words as Weapons', 'The Chief', 'Mas-38', 'Bicycle',
     'PPSh-41', 'Spas-12', 'M870 Wingmaster', 'M1887', 'M1897 Trench Shotgun', 'M870 Breacher',

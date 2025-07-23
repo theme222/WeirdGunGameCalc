@@ -60,6 +60,7 @@ Recoil_Aim_Vertical: 15 - 20
 Core: Famas F1
 Damage: 13 > 9.1
 Dropoff_Studs: 150 > 210
+Falloff_Factor: -0.3
 Fire_Rate: 900
 Hipfire_Spread: 4
 ADS_Spread: 0.5
@@ -377,7 +378,7 @@ Health: -10%
 Recoil_Hip_Horizontal: -21 - 21
 Recoil_Hip_Vertical: 72 - 82
 Recoil_Aim_Horizontal: -9.4 - 9.4
-Recoil_Aim_Vertical: 32.4 - 36.4
+Recoil_Aim_Vertical: 32.4 - 36.9
 ---
 Core: Lightning Shot
 Damage: 33 > 74.3
@@ -567,8 +568,8 @@ Core: P90
 Damage: 11 > 7.2
 Dropoff_Studs: 140 > 180
 Fire_Rate: 1100
-Hipfire_Spread: 2
-ADS_Spread: 0.5
+Hipfire_Spread: 4
+ADS_Spread: 0.3
 Time_To_Aim: 0.35
 Detection_Radius: 60
 Movement_Speed_Modifier: +2.5%
@@ -599,7 +600,7 @@ Hipfire_Spread: 5
 ADS_Spread: 0.3
 Time_To_Aim: 0.6
 Detection_Radius: 120
-Suppression: 0.9
+Suppression: 0.3
 Recoil_Hip_Horizontal: -4 - 4
 Recoil_Hip_Vertical: 10 - 12
 Recoil_Aim_Horizontal: -1.6 - 1.6
@@ -723,6 +724,7 @@ Recoil_Aim_Vertical: 26.5 - 38
 Core: Chauchat
 Damage: 33 > 21.5
 Dropoff_Studs: 195 > 350
+Falloff_Factor: -0.35
 Fire_Rate: 240
 Hipfire_Spread: 6
 ADS_Spread: 0.4
@@ -740,8 +742,9 @@ Recoil_Aim_Vertical: 36 - 54
 Category: Shotgun
 ---
 Core: M1887
-Damage: 120 > 20
+Damage: 120 > 10
 Dropoff_Studs: 75 > 130
+Falloff_Factor: -0.85
 Pellets: 10
 Fire_Rate: 60
 Hipfire_Spread: 7
@@ -759,6 +762,7 @@ Recoil_Aim_Vertical: 8 - 12
 Core: M1897 Trench Shotgun
 Damage: 128 > 16
 Dropoff_Studs: 60 > 120
+Falloff_Factor: -0.8
 Pellets: 16
 Fire_Rate: 160
 Hipfire_Spread: 4.5
@@ -774,6 +778,7 @@ Recoil_Aim_Vertical: 16 - 24
 Core: M870
 Damage: 112 > 16
 Dropoff_Studs: 55 > 110
+Falloff_Factor: -0.825
 Pellets: 8
 Fire_Rate: 90
 Hipfire_Spread: 5
@@ -804,6 +809,7 @@ Recoil_Aim_Vertical: 20 - 32
 Core: Circuit Judge
 Damage: 120 > 24
 Dropoff_Studs: 85 > 125
+Falloff_Factor: -0.775
 Pellets: 8
 Fire_Rate: 60
 Hipfire_Spread: 5
@@ -819,6 +825,7 @@ Recoil_Aim_Vertical: 28 - 34.6
 Core: Auto-5
 Damage: 104 > 8
 Dropoff_Studs: 60 > 115
+Falloff_Factor: -0.885
 Pellets: 8
 Fire_Rate: 190
 Hipfire_Spread: 7
@@ -849,6 +856,7 @@ Recoil_Aim_Vertical: 90 - 114
 Core: JSG12
 Damage: 144 > 12
 Dropoff_Studs: 55 > 110
+Falloff_Factor: -0.84
 Pellets: 12
 Fire_Rate: 75
 Hipfire_Spread: 3
@@ -992,7 +1000,7 @@ Recoil_Hip_Vertical: 34 - 43
 Recoil_Aim_Horizontal: -3 - 3
 Recoil_Aim_Vertical: 20.4 - 25.8
 ---
-Core: Fedorov Avtomat
+Core: Fedorov
 Damage: 27.5 > 22
 Dropoff_Studs: 180 > 500
 Fire_Rate: 400

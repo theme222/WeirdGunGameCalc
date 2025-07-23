@@ -4,7 +4,7 @@ Magazine: AKM
 Magazine_Size: 30
 Reload_Time: 2.4s
 Detection_Radius: 5
-Damage: +6%
+Damage: +7%
 ---
 Magazine: M-16
 Magazine_Size: 30
@@ -72,7 +72,7 @@ Spread: +22%
 Magazine: Hex Spitter
 Magazine_Size: 35
 Reload_Time: 4.2
-Damage: +8%
+Damage: +9%
 Pellets: +100%
 Spread: -13%
 Range: -14%
@@ -573,8 +573,8 @@ Magazine_Size: 20
 Reload_Time: 4
 Damage: +15%
 Detection_Radius: +10%
-Fire_Rate: -10%
-Recoil: +27%
+Fire_Rate: -20%
+Recoil: +15%
 ---
 Magazine: Graphics Card
 Magazine_Size: 50
@@ -612,7 +612,7 @@ Detection_Radius: +20%
 Fire_Rate: -13%
 Movement_Speed: -4%
 ---
-Magazine: Fedorov Avtomat
+Magazine: Fedorov
 Magazine_Size: 25
 Reload_Time: 4
 Damage: +15%

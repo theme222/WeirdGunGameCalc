@@ -64,38 +64,6 @@ movementSpeed: 1.6
 detectionRadius: 80
 TTK: 0.223804 Seconds
 
-[ Barrel: Tommy, Magazine: MAC-10, Grip: Circuit Judge, Stock: P90, Core: Type 2a Nambu ]
-damage: 25.1198 - 11.3637
-dropoffStuds: 115.808 - 128.216
-pellets: 1
-fireRate: 801.216
-adsSpread: 0.553953
-hipfireSpread: 3.69302
-reloadTime: 2
-magazineSize: 30
-health: 0
-recoilHipVertical: 37.5469 - 52.5656
-recoilAimVertical: 24.3304 - 34.0926
-movementSpeed: 15.2
-detectionRadius: 80
-TTK: 0.224658 Seconds
-
-[ Barrel: MG42, Magazine: MP 40, Grip: PPSh-41, Stock: P90, Core: Type 2a Nambu ]
-damage: 25.3491 - 11.4675
-dropoffStuds: 109.2 - 120.9
-pellets: 1
-fireRate: 800.428
-adsSpread: 0.465774
-hipfireSpread: 3.10516
-reloadTime: 2.875
-magazineSize: 32
-health: 0
-recoilHipVertical: 33.2637 - 46.5692
-recoilAimVertical: 21.5549 - 30.2035
-movementSpeed: 0
-detectionRadius: 80
-TTK: 0.22488 Seconds
-
 [ Barrel: PP-19 Bizon, Magazine: NP5, Grip: PPSh-41, Stock: APS, Core: Type 2a Nambu ]
 damage: 25.1804 - 11.3911
 dropoffStuds: 112.14 - 124.155
@@ -159,4 +127,36 @@ recoilAimVertical: 19.3752 - 27.1492
 movementSpeed: 2.7
 detectionRadius: 80
 TTK: 0.226823 Seconds
+
+[ Barrel: Snake Sniper, Magazine: MAC-10, Grip: Circuit Judge, Stock: Spas-12, Core: Type 2a Nambu ]
+damage: 25.585 - 11.5741
+dropoffStuds: 108.416 - 120.032
+pellets: 1
+fireRate: 790.131
+adsSpread: 0.834879
+hipfireSpread: 5.56586
+reloadTime: 2.1
+magazineSize: 30
+health: -5
+recoilHipVertical: 33.75 - 47.25
+recoilAimVertical: 21.87 - 30.645
+movementSpeed: 5.4
+detectionRadius: 80
+TTK: 0.22781 Seconds
+
+[ Barrel: PP-19 Bizon, Magazine: Graphics Card, Grip: PPSh-41, Stock: APS, Core: Type 2a Nambu ]
+damage: 25.1804 - 11.3911
+dropoffStuds: 115.92 - 128.34
+pellets: 1
+fireRate: 790.02
+adsSpread: 0.539473
+hipfireSpread: 3.59649
+reloadTime: 6.9
+magazineSize: 50
+health: 0
+recoilHipVertical: 31.2812 - 43.7937
+recoilAimVertical: 20.2703 - 28.4034
+movementSpeed: 6.5
+detectionRadius: 80
+TTK: 0.227842 Seconds
 

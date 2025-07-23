@@ -14,8 +14,8 @@ python FileFormatter.py
 ./Calculator -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --healthMin 10 --bc "FC200SH" "M1 Carbine" "G11"
 ./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 25 --speedMin 0 --magazineMin 30 --spreadAimMax 0.65 --recoilAimMax 30 --rangeMin 150 --pelletMax 1 --bc "FC200SH" "M1 Carbine" "G11"
 ./Calculator -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100
-./Calculator -o InterestingBuilds/FastestHeadshotSniper.txt -i Sniper BR --speedMin 0 --damageMin 50 --spreadAimMax 0.15 --sort FIRERATE --rangeMin 350 --pelletMax 1 --magazineMin 5
-./Calculator -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper BR --damageMin 100 --spreadAimMax 0.149 --sort FIRERATE --rangeMin 350 --pelletMax 1 --speedMin -5  --magazineMin 5
+./Calculator -o InterestingBuilds/FastestHeadshotSniper.txt -i Sniper BR --speedMin 0 --damageMin 50 --spreadAimMax 0.15 --sort FIRERATE --rangeMin 300 --pelletMax 1 --magazineMin 5
+./Calculator -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper BR --damageMin 100 --spreadAimMax 0.149 --sort FIRERATE --rangeMin 300 --pelletMax 1 --speedMin -5  --magazineMin 5
 ./Calculator -o InterestingBuilds/FastestTTKBR.txt -i BR --speedMin -10 --spreadAimMax 0.6 --recoilAimMax 30 --magazineMin 20 --rangeMin 150 --pelletMax 1
 ./Calculator -o InterestingBuilds/LowSpreadShogun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadAimMax 0.85
 ./Calculator -o InterestingBuilds/HipfireShotgun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadHipMax 1.8

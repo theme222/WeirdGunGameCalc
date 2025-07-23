@@ -42,13 +42,13 @@ hipfireSpread: 5.74211
 reloadTime: 3.675
 magazineSize: 30
 health: 4
-recoilHipVertical: 32.4975 - 37.14
-recoilAimVertical: 19.4985 - 22.284
+recoilHipVertical: 39.2 - 44.8
+recoilAimVertical: 23.52 - 26.88
 movementSpeed: 2.35
 detectionRadius: 125
 TTK: 0.335935 Seconds
 
-[ Barrel: M1891, Magazine: Graphics Card, Grip: Arisaka, Stock: Fedorov Avtomat, Core: M60 ]
+[ Barrel: M1891, Magazine: Graphics Card, Grip: Arisaka, Stock: Fedorov, Core: M60 ]
 damage: 20.4947 - 11.7713
 dropoffStuds: 202.768 - 394.864
 pellets: 1

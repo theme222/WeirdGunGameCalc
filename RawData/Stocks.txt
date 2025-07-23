@@ -218,7 +218,7 @@ Recoil: +20%
 Stock: P90
 Fire_Rate: +4%
 Movement_Speed: +3%
-Recoil: -11%
+Recoil: +12%
 Spread: -11%
 ---
 Stock: M1 Carbine
@@ -412,7 +412,7 @@ Fire_Rate: -5%
 Movement_Speed: -2%
 Reload_Speed: +10%
 ---
-Stock: Fedorov Avtomat
+Stock: Fedorov
 Fire_Rate: +5%
 Recoil: -10%
 Reload_Speed: +20%

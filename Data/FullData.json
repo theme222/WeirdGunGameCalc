@@ -3,7 +3,7 @@
     {
       "Category": "Assault Rifle",
       "Name": "AKM",
-      "Damage": 6,
+      "Damage": 7,
       "Detection_Radius": 5,
       "Recoil": 20
     },
@@ -69,7 +69,7 @@
     {
       "Category": "Assault Rifle",
       "Name": "Hex Spitter",
-      "Damage": 6.5,
+      "Damage": 7,
       "Recoil": -5,
       "Spread": 10
     },
@@ -670,7 +670,7 @@
     },
     {
       "Category": "BR",
-      "Name": "Fedorov Avtomat",
+      "Name": "Fedorov",
       "Damage": 7,
       "Movement_Speed": 3.5,
       "Recoil": 18
@@ -862,6 +862,7 @@
         150,
         210
       ],
+      "Falloff_Factor": -0.3,
       "Fire_Rate": 900,
       "Hipfire_Spread": 4,
       "ADS_Spread": 0.5,
@@ -1607,7 +1608,7 @@
       ],
       "Recoil_Aim_Vertical": [
         32.4,
-        36.4
+        36.9
       ]
     },
     {
@@ -2063,8 +2064,8 @@
         180
       ],
       "Fire_Rate": 1100,
-      "Hipfire_Spread": 2,
-      "ADS_Spread": 0.5,
+      "Hipfire_Spread": 4,
+      "ADS_Spread": 0.3,
       "Time_To_Aim": 0.35,
       "Detection_Radius": 60,
       "Movement_Speed_Modifier": 2.5,
@@ -2135,7 +2136,7 @@
       "ADS_Spread": 0.3,
       "Time_To_Aim": 0.6,
       "Detection_Radius": 120,
-      "Suppression": 0.9,
+      "Suppression": 0.3,
       "Recoil_Hip_Horizontal": [
         -4,
         4
@@ -2416,6 +2417,7 @@
         195,
         350
       ],
+      "Falloff_Factor": -0.35,
       "Fire_Rate": 240,
       "Hipfire_Spread": 6,
       "ADS_Spread": 0.4,
@@ -2446,12 +2448,13 @@
       "Name": "M1887",
       "Damage": [
         120,
-        20
+        10
       ],
       "Dropoff_Studs": [
         75,
         130
       ],
+      "Falloff_Factor": -0.85,
       "Pellets": 10,
       "Fire_Rate": 60,
       "Hipfire_Spread": 7,
@@ -2489,6 +2492,7 @@
         60,
         120
       ],
+      "Falloff_Factor": -0.8,
       "Pellets": 16,
       "Fire_Rate": 160,
       "Hipfire_Spread": 4.5,
@@ -2524,6 +2528,7 @@
         55,
         110
       ],
+      "Falloff_Factor": -0.825,
       "Pellets": 8,
       "Fire_Rate": 90,
       "Hipfire_Spread": 5,
@@ -2594,6 +2599,7 @@
         85,
         125
       ],
+      "Falloff_Factor": -0.775,
       "Pellets": 8,
       "Fire_Rate": 60,
       "Hipfire_Spread": 5,
@@ -2629,6 +2635,7 @@
         60,
         115
       ],
+      "Falloff_Factor": -0.885,
       "Pellets": 8,
       "Fire_Rate": 190,
       "Hipfire_Spread": 7,
@@ -2699,6 +2706,7 @@
         55,
         110
       ],
+      "Falloff_Factor": -0.84,
       "Pellets": 12,
       "Fire_Rate": 75,
       "Hipfire_Spread": 3,
@@ -3015,7 +3023,7 @@
     },
     {
       "Category": "BR",
-      "Name": "Fedorov Avtomat",
+      "Name": "Fedorov",
       "Damage": [
         27.5,
         22
@@ -3339,7 +3347,7 @@
     {
       "Category": "Sniper",
       "Name": "Lightning Shot",
-      "Spread": 35,
+      "Spread": -35,
       "Fire_Rate": -6,
       "Movement_Speed": -4,
       "Recoil": 38
@@ -3640,7 +3648,7 @@
     },
     {
       "Category": "BR",
-      "Name": "Fedorov Avtomat",
+      "Name": "Fedorov",
       "Recoil": -27,
       "Fire_Rate": -12
     },
@@ -3673,7 +3681,7 @@
       "Magazine_Size": 30,
       "Reload_Time": 2.4,
       "Detection_Radius": 5,
-      "Damage": 6
+      "Damage": 7
     },
     {
       "Category": "Assault Rifle",
@@ -3761,7 +3769,7 @@
       "Name": "Hex Spitter",
       "Magazine_Size": 35,
       "Reload_Time": 4.2,
-      "Damage": 8,
+      "Damage": 9,
       "Pellets": 100,
       "Spread": -13,
       "Range": -14,
@@ -4361,8 +4369,8 @@
       "Reload_Time": 4,
       "Damage": 15,
       "Detection_Radius": 10,
-      "Fire_Rate": -10,
-      "Recoil": 27
+      "Fire_Rate": -20,
+      "Recoil": 15
     },
     {
       "Category": "Weird",
@@ -4407,7 +4415,7 @@
     },
     {
       "Category": "BR",
-      "Name": "Fedorov Avtomat",
+      "Name": "Fedorov",
       "Magazine_Size": 25,
       "Reload_Time": 4,
       "Damage": 15,
@@ -4752,7 +4760,7 @@
       "Name": "P90",
       "Fire_Rate": 4,
       "Movement_Speed": 3,
-      "Recoil": -11,
+      "Recoil": 12,
       "Spread": -11
     },
     {
@@ -5000,7 +5008,7 @@
     },
     {
       "Category": "BR",
-      "Name": "Fedorov Avtomat",
+      "Name": "Fedorov",
       "Fire_Rate": 5,
       "Recoil": -10,
       "Reload_Speed": 20

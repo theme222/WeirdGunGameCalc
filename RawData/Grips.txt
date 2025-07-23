@@ -134,7 +134,7 @@ Spread: -17%
 Health: -6%
 ---
 Grip: Lightning Shot
-Spread: 35%
+Spread: -35%
 Fire_Rate: -6%
 Movement_Speed: -4%
 Recoil: +38%
@@ -367,7 +367,7 @@ Range: +5%
 Recoil: -16%
 Fire_Rate: -5%
 ---
-Grip: Fedorov Avtomat
+Grip: Fedorov
 Recoil: -27%
 Fire_Rate: -12%
 ---

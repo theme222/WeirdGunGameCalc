@@ -10,8 +10,8 @@ hipfireSpread: 4.85307
 reloadTime: 4.5
 magazineSize: 10
 health: 0
-recoilHipVertical: 75.4174 - 93.3291
-recoilAimVertical: 26.3961 - 32.618
+recoilHipVertical: 90.972 - 112.578
+recoilAimVertical: 31.8402 - 39.3454
 movementSpeed: 4.095
 detectionRadius: 160
 TTK: 0 Seconds
@@ -80,22 +80,6 @@ movementSpeed: 0.12
 detectionRadius: 160
 TTK: 0 Seconds
 
-[ Barrel: AWM, Magazine: Graphics Card, Grip: PPSh-41, Stock: MG42, Core: Circuit Judge ]
-damage: 140.983 - 28.1967
-dropoffStuds: 84.065 - 123.625
-pellets: 8
-fireRate: 72.846
-adsSpread: 1.70618
-hipfireSpread: 4.61131
-reloadTime: 8.28
-magazineSize: 50
-health: 0
-recoilHipVertical: 107.8 - 133.402
-recoilAimVertical: 37.73 - 46.6235
-movementSpeed: 2.625
-detectionRadius: 160
-TTK: 0 Seconds
-
 [ Barrel: AWM, Magazine: Graphics Card, Grip: PPSh-41, Stock: M870, Core: Circuit Judge ]
 damage: 140.983 - 28.1967
 dropoffStuds: 84.065 - 123.625
@@ -109,6 +93,22 @@ health: 0
 recoilHipVertical: 91.63 - 113.392
 recoilAimVertical: 32.0705 - 39.63
 movementSpeed: 0
+detectionRadius: 160
+TTK: 0 Seconds
+
+[ Barrel: AWM, Magazine: Graphics Card, Grip: PPSh-41, Stock: MG42, Core: Circuit Judge ]
+damage: 140.983 - 28.1967
+dropoffStuds: 84.065 - 123.625
+pellets: 8
+fireRate: 72.846
+adsSpread: 1.70618
+hipfireSpread: 4.61131
+reloadTime: 8.28
+magazineSize: 50
+health: 0
+recoilHipVertical: 107.8 - 133.402
+recoilAimVertical: 37.73 - 46.6235
+movementSpeed: 2.625
 detectionRadius: 160
 TTK: 0 Seconds
 

@@ -122,8 +122,8 @@ hipfireSpread: 8.90831
 reloadTime: 7.475
 magazineSize: 75
 health: 13
-recoilHipVertical: 54.1832 - 77.6967
-recoilAimVertical: 27.0916 - 38.8483
+recoilHipVertical: 65.3583 - 93.7214
+recoilAimVertical: 32.6792 - 46.8607
 movementSpeed: 0.795
 detectionRadius: 175
 TTK: 0.279524 Seconds
