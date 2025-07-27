@@ -107,6 +107,11 @@ Fire_Rate: +2%
 Reload_Speed: -4%
 Recoil: +17%
 ---
+Barrel: Cirrus - Hand
+Recoil: -40%
+Spread: -25%
+Damage: -10%
+---
 
 Category: Sniper Barrels
 ---

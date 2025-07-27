@@ -81,6 +81,11 @@ Recoil: -15%
 Reload_Speed: -12%
 Spread: +18%
 ---
+Grip: Napo - Scissors
+Detection_Radius: -12%
+Spread: -15%
+Recoil: +12%
+---
 
 Category: Sniper Grips
 ---

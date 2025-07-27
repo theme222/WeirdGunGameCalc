@@ -81,6 +81,11 @@ Recoil: -20%
 Movement_Speed: -0.2%
 Spread: +7%
 ---
+Stock: Derpy - Staff
+Movement_Speed: +5%
+Reload_Speed: -3%
+Spread: +15%
+---
 
 Category: Sniper Stocks
 ---

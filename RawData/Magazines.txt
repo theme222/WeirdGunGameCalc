@@ -130,6 +130,14 @@ Range: +7.5%
 Spread: -13%
 Recoil: +14%
 ---
+Magazine: Rat - Emoji
+Magazine_Size: 42
+Reload_Time: 5.2
+Damage: +4%
+Fire_Rate: +6%
+Recoil: +24%
+Spread: +5%
+---
 
 Category: Sniper Magazines
 ---

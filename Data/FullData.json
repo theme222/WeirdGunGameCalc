@@ -146,6 +146,13 @@
       "Recoil": 17
     },
     {
+      "Category": "Assault Rifle",
+      "Name": "Cirrus - Hand",
+      "Recoil": -40,
+      "Spread": -25,
+      "Damage": -10
+    },
+    {
       "Category": "Sniper",
       "Name": "M40",
       "Fire_Rate": 10,
@@ -3335,6 +3342,13 @@
       "Spread": 18
     },
     {
+      "Category": "Assault Rifle",
+      "Name": "Napo - Scissors",
+      "Detection_Radius": -12,
+      "Spread": -15,
+      "Recoil": 12
+    },
+    {
       "Category": "Sniper",
       "Name": "M40",
       "Recoil": -5,
@@ -3907,6 +3921,16 @@
       "Range": 7.5,
       "Spread": -13,
       "Recoil": 14
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "Rat - Emoji",
+      "Magazine_Size": 42,
+      "Reload_Time": 5.2,
+      "Damage": 4,
+      "Fire_Rate": 6,
+      "Recoil": 24,
+      "Spread": 5
     },
     {
       "Category": "Sniper",
@@ -4669,6 +4693,13 @@
       "Recoil": -20,
       "Movement_Speed": -0.2,
       "Spread": 7
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "Derpy - Staff",
+      "Movement_Speed": 5,
+      "Reload_Speed": -3,
+      "Spread": 15
     },
     {
       "Category": "Sniper",
