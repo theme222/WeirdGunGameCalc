@@ -45,7 +45,7 @@ This is the full list of flags supported:
 -h,   --help                Print this help message and exit
 -f,   --file TEXT           Path to the directory containing the json file (Default: Data)
 -o,   --output TEXT         Path to the output file (Default: Results.txt)
--t,   --threads INT         Number of threads to use (MAX 16) (Default: 4)
+-t,   --threads INT         Number of threads to use [1, 64] (Default: AUTODETECT)
 -s,   --sort TEXT           Sorting type (TTK, FIRERATE, ADSSPREAD, HIPFIRESPREAD, RECOIL, SPEED, HEALTH, MAGAZINE, RELOAD) (Default: TTK)
 -n,   --number INT          Number of top guns to display (Default: 10)
 -m,   --method TEXT         Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)
