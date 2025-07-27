@@ -139,12 +139,6 @@ Fire_Rate: -6%
 Movement_Speed: -4%
 Recoil: +38%
 ---
-Grip: VSSR
-Range: +2%
-Recoil: -30%
-Movement_Speed: -2%
-Spread: +12%
----
 
 Category: SMG Grips
 ---
@@ -355,9 +349,6 @@ Fire_Rate: -5%
 Grip: Controller
 Fire_Rate: +3%
 Spread: -12%
-Movement_Speed: -2%
-Recoil: +14%
----
 
 Category: BR Grips
 ---

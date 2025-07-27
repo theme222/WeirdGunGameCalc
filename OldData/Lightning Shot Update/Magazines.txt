@@ -224,16 +224,6 @@ Fire_Rate: -35%
 Movement_Speed: -12%
 Recoil: +125%
 ---
-Magazine: VSSR
-Magazine_Size: 5
-Reload_Time: 4.5
-Damage: +30%
-Detection_Radius: +32%
-Fire_Rate: -20%
-Movement_Speed: -6%
-Range: -12%
-Recoil: +86%
----
 
 Category: SMG Magazines
 ---
@@ -446,7 +436,7 @@ Pellets: +175%
 Movement_Speed: -3%
 Range: -20%
 Recoil: +60%
-Spread: +19%
+Spread: +68%
 ---
 Magazine: M870 Breacher
 Magazine_Size: 8
@@ -456,7 +446,7 @@ Movement_Speed: +3%
 Pellets: +150%
 Range: -30%
 Recoil: +50%
-Spread: +25%
+Spread: +80%
 ---
 Magazine: M1887
 Magazine_Size: 6
@@ -465,9 +455,9 @@ Fire_Rate: +9%
 Health: +5%
 Pellets: +150%
 Movement_Speed: -5.5%
-Range: -10%
 Recoil: +15%
-Spread: +18%
+Spread: +50%
+Range: -10%
 ---
 Magazine: M1897 Trench Shotgun
 Magazine_Size: 6
@@ -476,7 +466,7 @@ Fire_Rate: +22%
 Pellets: +200%
 Range: -7%
 Recoil: +43%
-Spread: +22%
+Spread: +62%
 ---
 Magazine: M870 MCS
 Magazine_Size: 6
@@ -485,7 +475,7 @@ Damage: +17%
 Pellets: +45%
 Range: -10%
 Recoil: +35%
-Spread: +16%
+Spread: +25%
 ---
 Magazine: M870
 Magazine_Size: 8
@@ -494,7 +484,7 @@ Damage: +21%
 Pellets: +100%
 Range: -15%
 Recoil: +38%
-Spread: +14%
+Spread: +40%
 ---
 Magazine: Circuit Judge
 Magazine_Size: 5
@@ -503,6 +493,7 @@ Damage: +15%
 Pellets: +25%
 Range: +7.5%
 Recoil: +85%
+Spread: +47%
 ---
 Magazine: Auto-5
 Magazine_Size: 4
@@ -512,25 +503,24 @@ Fire_Rate: +20%
 Pellets: +175%
 Movement_Speed: -4%
 Recoil: +50%
-Spread: +16%
+Spread: +65%
 ---
 Magazine: Blunderbuss
 Magazine_Size: 1
-Reload_Time: 7
-Damage: +22%
+Reload_Time: 6
+Damage: +12%
 Pellets: +200%
 Fire_Rate: -5%
 Range: -23%
-Spread: +45%
+Spread: +60%
 ---
 Magazine: JSG12
 Magazine_Size: 15
 Reload_Time: 7.5
 Damage: +19%
-Fire_Rate: +5%
 Pellets: +125%
 Recoil: +26%
-Spread: +15%
+Spread: +63%
 ---
 
 Category: Weird Magazines
@@ -558,9 +548,9 @@ Spread: +30%
 Magazine: Improvised
 Magazine_Size: 10
 Reload_Time: 0.8s
-Damage: +10%
+Damage: +15%
 Movement_Speed: +5%
-Spread: +30%
+Spread: +25%
 ---
 Magazine: XXL AKM
 Magazine_Size: 90
@@ -592,14 +582,6 @@ Reload_Time: 6
 Fire_Rate: +14%
 Recoil: -23%
 Range: -8%
----
-Magazine: Screwdriver
-Magazine_Size: 1
-Reload_Time: 8s
-Damage: +100%
-Movement_Speed: -10%
-Range: -14%
-Spread: +75%
 ---
 
 Category: BR Magazines

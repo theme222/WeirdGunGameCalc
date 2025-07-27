@@ -245,6 +245,17 @@
       "Recoil": 80
     },
     {
+      "Category": "Sniper",
+      "Name": "VSSR",
+      "Damage": 20,
+      "Detection_Radius": -50,
+      "Range": 9,
+      "Recoil": -28,
+      "Fire_Rate": -12,
+      "Movement_Speed": -7,
+      "Reload_Speed": 10
+    },
+    {
       "Category": "SMG",
       "Name": "MAC-10",
       "Fire_Rate": 5,
@@ -296,6 +307,7 @@
       "Name": "PPSh-41",
       "Fire_Rate": 15,
       "Movement_Speed": 2.3,
+      "Range": -12,
       "Recoil": 15,
       "Spread": 10
     },
@@ -646,6 +658,15 @@
       "Fire_Rate": -5,
       "Range": -87,
       "Reload_Speed": 10
+    },
+    {
+      "Category": "Weird",
+      "Name": "BarrelSight",
+      "Range": 50,
+      "Fire_Rate": -50,
+      "Movement_Speed": -12,
+      "Pellets": -100,
+      "Recoil": 25
     },
     {
       "Category": "BR",
@@ -1624,11 +1645,12 @@
       ],
       "Fire_Rate": 20,
       "Hipfire_Spread": 50,
-      "ADS_Spread": 0.9,
+      "ADS_Spread": 0.35,
       "Time_To_Aim": 1,
       "Detection_Radius": 500,
       "Movement_Speed_Modifier": -12.5,
       "Suppression": 1,
+      "Health": 3,
       "Recoil_Hip_Horizontal": [
         -20,
         20
@@ -1644,6 +1666,41 @@
       "Recoil_Aim_Vertical": [
         45,
         60
+      ]
+    },
+    {
+      "Category": "Sniper",
+      "Name": "VSSR",
+      "Damage": [
+        70,
+        50.4
+      ],
+      "Dropoff_Studs": [
+        200,
+        400
+      ],
+      "Fire_Rate": 32,
+      "Hipfire_Spread": 17,
+      "ADS_Spread": 0.2,
+      "Time_To_Aim": 0.85,
+      "Detection_Radius": 300,
+      "Movement_Speed_Modifier": -5,
+      "Suppression": 1,
+      "Recoil_Hip_Horizontal": [
+        -16,
+        16
+      ],
+      "Recoil_Hip_Vertical": [
+        85,
+        100
+      ],
+      "Recoil_Aim_Horizontal": [
+        -10.4,
+        10.4
+      ],
+      "Recoil_Aim_Vertical": [
+        44.2,
+        65
       ]
     },
     {
@@ -3353,6 +3410,14 @@
       "Recoil": 38
     },
     {
+      "Category": "Sniper",
+      "Name": "VSSR",
+      "Range": 2,
+      "Recoil": -30,
+      "Movement_Speed": -2,
+      "Spread": 12
+    },
+    {
       "Category": "SMG",
       "Name": "MAC-10",
       "Movement_Speed": 4.4,
@@ -3623,7 +3688,9 @@
       "Category": "Weird",
       "Name": "Controller",
       "Fire_Rate": 3,
-      "Spread": -12
+      "Spread": -12,
+      "Movement_Speed": -2,
+      "Recoil": 14
     },
     {
       "Category": "BR",
@@ -3953,6 +4020,18 @@
       "Recoil": 125
     },
     {
+      "Category": "Sniper",
+      "Name": "VSSR",
+      "Magazine_Size": 5,
+      "Reload_Time": 4.5,
+      "Damage": 30,
+      "Detection_Radius": 32,
+      "Fire_Rate": -20,
+      "Movement_Speed": -6,
+      "Range": -12,
+      "Recoil": 86
+    },
+    {
       "Category": "SMG",
       "Name": "MAC-10",
       "Magazine_Size": 30,
@@ -4203,7 +4282,7 @@
       "Movement_Speed": -3,
       "Range": -20,
       "Recoil": 60,
-      "Spread": 68
+      "Spread": 19
     },
     {
       "Category": "Shotgun",
@@ -4215,7 +4294,7 @@
       "Pellets": 150,
       "Range": -30,
       "Recoil": 50,
-      "Spread": 80
+      "Spread": 25
     },
     {
       "Category": "Shotgun",
@@ -4226,9 +4305,9 @@
       "Health": 5,
       "Pellets": 150,
       "Movement_Speed": -5.5,
+      "Range": -10,
       "Recoil": 15,
-      "Spread": 50,
-      "Range": -10
+      "Spread": 18
     },
     {
       "Category": "Shotgun",
@@ -4239,7 +4318,7 @@
       "Pellets": 200,
       "Range": -7,
       "Recoil": 43,
-      "Spread": 62
+      "Spread": 22
     },
     {
       "Category": "Shotgun",
@@ -4250,7 +4329,7 @@
       "Pellets": 45,
       "Range": -10,
       "Recoil": 35,
-      "Spread": 25
+      "Spread": 16
     },
     {
       "Category": "Shotgun",
@@ -4261,7 +4340,7 @@
       "Pellets": 100,
       "Range": -15,
       "Recoil": 38,
-      "Spread": 40
+      "Spread": 14
     },
     {
       "Category": "Shotgun",
@@ -4271,8 +4350,7 @@
       "Damage": 15,
       "Pellets": 25,
       "Range": 7.5,
-      "Recoil": 85,
-      "Spread": 47
+      "Recoil": 85
     },
     {
       "Category": "Shotgun",
@@ -4284,18 +4362,18 @@
       "Pellets": 175,
       "Movement_Speed": -4,
       "Recoil": 50,
-      "Spread": 65
+      "Spread": 16
     },
     {
       "Category": "Shotgun",
       "Name": "Blunderbuss",
       "Magazine_Size": 1,
-      "Reload_Time": 6,
-      "Damage": 12,
+      "Reload_Time": 7,
+      "Damage": 22,
       "Pellets": 200,
       "Fire_Rate": -5,
       "Range": -23,
-      "Spread": 60
+      "Spread": 45
     },
     {
       "Category": "Shotgun",
@@ -4303,9 +4381,10 @@
       "Magazine_Size": 15,
       "Reload_Time": 7.5,
       "Damage": 19,
+      "Fire_Rate": 5,
       "Pellets": 125,
       "Recoil": 26,
-      "Spread": 63
+      "Spread": 15
     },
     {
       "Category": "Weird",
@@ -4338,9 +4417,9 @@
       "Name": "Improvised",
       "Magazine_Size": 10,
       "Reload_Time": 0.8,
-      "Damage": 15,
+      "Damage": 10,
       "Movement_Speed": 5,
-      "Spread": 25
+      "Spread": 30
     },
     {
       "Category": "Weird",
@@ -4380,6 +4459,16 @@
       "Fire_Rate": 14,
       "Recoil": -23,
       "Range": -8
+    },
+    {
+      "Category": "Weird",
+      "Name": "Screwdriver",
+      "Magazine_Size": 1,
+      "Reload_Time": 8,
+      "Damage": 100,
+      "Movement_Speed": -10,
+      "Range": -14,
+      "Spread": 75
     },
     {
       "Category": "BR",
@@ -4476,7 +4565,7 @@
     {
       "Category": "Assault Rifle",
       "Name": "M-16",
-      "Recoil": -10
+      "Recoil": -15
     },
     {
       "Category": "Assault Rifle",
@@ -4494,8 +4583,8 @@
     {
       "Category": "Assault Rifle",
       "Name": "Famas F1",
-      "Recoil": -15,
-      "Reload_Speed": 5
+      "Recoil": -20,
+      "Reload_Speed": 7
     },
     {
       "Category": "Assault Rifle",
@@ -4655,6 +4744,14 @@
       "Movement_Speed": -8,
       "Recoil": 27,
       "Reload_Speed": 4
+    },
+    {
+      "Category": "Sniper",
+      "Name": "VSSR",
+      "Range": 2,
+      "Recoil": -30,
+      "Movement_Speed": -2,
+      "Spread": 12
     },
     {
       "Category": "SMG",

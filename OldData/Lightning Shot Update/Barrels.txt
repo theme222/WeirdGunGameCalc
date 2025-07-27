@@ -187,15 +187,6 @@ Fire_Rate: -40%
 Movement_Speed: -10%
 Recoil: +80%
 ---
-Barrel: VSSR
-Damage: +20%
-Detection_Radius: -50%
-Range: +9%
-Recoil: -28%
-Fire_Rate: -12%
-Movement_Speed: -7%
-Reload_Speed: +10%
----
 
 Category: SMG Barrels
 ---
@@ -237,7 +228,6 @@ Spread: +15%
 Barrel: PPSh-41
 Fire_Rate: +15%
 Movement_Speed: +2.3%
-Range: -12%
 Recoil: +15%
 Spread: +10%
 ---
@@ -515,13 +505,6 @@ Damage: +30%
 Fire_Rate: -5%
 Range: -87%
 Reload_Speed: +10%
----
-Barrel: BarrelSight
-Range: +50%
-Fire_Rate: -50%
-Movement_Speed: -12%
-Pellets: -100%
-Recoil: +25%
 ---
 
 Category: BR Barrels

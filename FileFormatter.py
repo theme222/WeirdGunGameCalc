@@ -31,7 +31,8 @@ known_names = {
     'Loaf', 'Taco', 'Eclair', 'Pastel', 'P90', 'Chauchat', 'Dragunov', 'M1Garand', 'FAL', 'FC200SH', 'Light Gun',
     'Gaming Rig', 'Controller', 'Graphics Card', 'Keyboard', 'Musket', 'Snake Sniper', 'M110', 'SKS', 'Blunderbuss',
     'AR-8X', 'Freedom Dispenser', 'Second Amendment', 'JSG12', 'AWM', 'Arisaka', 'Sten gun', 'M1 Carbine',
-    'M1919 Tripod', 'FG-42', 'G11', 'AK-12', 'QBZ-95', 'Lightning Shot', '10KG Dumbbell'
+    'M1919 Tripod', 'FG-42', 'G11', 'AK-12', 'QBZ-95', 'Lightning Shot', '10KG Dumbbell', 'VSSR', 'BarrelSight',
+    'Screwdriver',
 }
 
 '''

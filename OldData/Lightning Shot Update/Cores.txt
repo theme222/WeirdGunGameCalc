@@ -385,31 +385,15 @@ Damage: 33 > 74.3
 Dropoff_Studs: 200 > 1000
 Fire_Rate: 20
 Hipfire_Spread: 50
-ADS_Spread: 0.35
+ADS_Spread: 0.9
 Time_To_Aim: 1
 Detection_Radius: 500
 Movement_Speed_Modifier: -12.5%
 Suppression: 1
-Health: +3%
 Recoil_Hip_Horizontal: -20 - 20
 Recoil_Hip_Vertical: 90 - 120
 Recoil_Aim_Horizontal: -10 - 10
 Recoil_Aim_Vertical: 45 - 60
----
-Core: VSSR
-Damage: 70 > 50.4
-Dropoff_Studs: 200 > 400
-Fire_Rate: 32
-Hipfire_Spread: 17
-ADS_Spread: 0.2
-Time_To_Aim: 0.85
-Detection_Radius: 300
-Movement_Speed_Modifier: -5%
-Suppression: 1
-Recoil_Hip_Horizontal: -16 - 16
-Recoil_Hip_Vertical: 85 - 100
-Recoil_Aim_Horizontal: -10.4 - 10.4
-Recoil_Aim_Vertical: 44.2 - 65
 ---
 
 Category: SMG

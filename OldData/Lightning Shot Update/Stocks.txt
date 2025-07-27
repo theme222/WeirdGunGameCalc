@@ -6,7 +6,7 @@ Spread: -10%
 Recoil: +15%
 ---
 Stock: M-16
-Recoil: -15%
+Recoil: -10%
 ---
 Stock: AUG
 Movement_Speed: +2.5%
@@ -18,8 +18,8 @@ Recoil: -10%
 Reload_Speed: -10%
 ---
 Stock: Famas F1
-Recoil: -20%
-Reload_Speed: +7%
+Recoil: -15%
+Reload_Speed: +5%
 ---
 Stock: Scar L
 Recoil: -10%
@@ -138,12 +138,6 @@ Fire_Rate: -9%
 Movement_Speed: -8%
 Recoil: +27%
 Reload_Speed: +4%
----
-Stock: VSSR
-Range: +2%
-Recoil: -30%
-Movement_Speed: -2%
-Spread: +12%
 ---
 
 Category: SMG Stocks
