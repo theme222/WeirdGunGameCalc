@@ -14,20 +14,6 @@ recoilAimVertical: 21 - 24
 movementSpeed: 0.8
 TTK: 0.3314 Seconds
 
-[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Arisaka, Stock: P90, Core: Negev ]
-damage: 17.3588 - 12.91
-dropoffStuds: 205.2 - 410.4
-fireRate: 893.031
-adsSpread: 0.574211
-hipfireSpread: 5.74211
-reloadTime: 3.675
-magazineSize: 30
-health: 4
-recoilHipVertical: 39.2 - 44.8
-recoilAimVertical: 23.52 - 26.88
-movementSpeed: 2.35
-TTK: 0.335935 Seconds
-
 [ Barrel: Snake Sniper, Magazine: Type 99, Grip: Kriss Vector, Stock: MG42, Core: Negev ]
 damage: 17.3588 - 12.91
 dropoffStuds: 205.2 - 410.4
@@ -40,6 +26,20 @@ health: 10
 recoilHipVertical: 32.27 - 36.88
 recoilAimVertical: 19.362 - 22.128
 movementSpeed: 0.425
+TTK: 0.335935 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Arisaka, Stock: P90, Core: Negev ]
+damage: 17.3588 - 12.91
+dropoffStuds: 205.2 - 410.4
+fireRate: 893.031
+adsSpread: 0.574211
+hipfireSpread: 5.74211
+reloadTime: 3.675
+magazineSize: 30
+health: 4
+recoilHipVertical: 39.2 - 44.8
+recoilAimVertical: 23.52 - 26.88
+movementSpeed: 2.35
 TTK: 0.335935 Seconds
 
 [ Barrel: M1891, Magazine: Graphics Card, Grip: Arisaka, Stock: Fedorov, Core: M60 ]
@@ -97,20 +97,6 @@ recoilAimVertical: 23.6821 - 28.8491
 movementSpeed: 3.8
 TTK: 0.33934 Seconds
 
-[ Barrel: Type 99, Magazine: Type 99, Grip: Arisaka, Stock: M870 Breacher, Core: Negev ]
-damage: 16.7443 - 12.453
-dropoffStuds: 205.2 - 410.4
-fireRate: 881.875
-adsSpread: 0.547747
-hipfireSpread: 5.47747
-reloadTime: 3.12375
-magazineSize: 30
-health: 9
-recoilHipVertical: 40.25 - 46
-recoilAimVertical: 24.15 - 27.6
-movementSpeed: 2.15
-TTK: 0.340184 Seconds
-
 [ Barrel: DP-27, Magazine: Type 99, Grip: Auto-5, Stock: Arisaka, Core: Negev ]
 damage: 17.079 - 12.7019
 dropoffStuds: 205.2 - 410.4
@@ -125,17 +111,31 @@ recoilAimVertical: 24.4755 - 27.972
 movementSpeed: 1.8
 TTK: 0.340184 Seconds
 
-[ Barrel: Type 99, Magazine: Type 99, Grip: FG-42, Stock: Arisaka, Core: Negev ]
+[ Barrel: Type 99, Magazine: Type 99, Grip: Arisaka, Stock: M870 Breacher, Core: Negev ]
+damage: 16.7443 - 12.453
+dropoffStuds: 205.2 - 410.4
+fireRate: 881.875
+adsSpread: 0.547747
+hipfireSpread: 5.47747
+reloadTime: 3.12375
+magazineSize: 30
+health: 9
+recoilHipVertical: 40.25 - 46
+recoilAimVertical: 24.15 - 27.6
+movementSpeed: 2.15
+TTK: 0.340184 Seconds
+
+[ Barrel: Type 99, Magazine: Type 99, Grip: Arisaka, Stock: FG-42, Core: Negev ]
 damage: 16.7443 - 12.453
 dropoffStuds: 205.2 - 410.4
 fireRate: 878.9
-adsSpread: 0.507281
-hipfireSpread: 5.07281
-reloadTime: 3.93593
+adsSpread: 0.438634
+hipfireSpread: 4.38634
+reloadTime: 3.675
 magazineSize: 30
-health: 7
-recoilHipVertical: 32.62 - 37.28
-recoilAimVertical: 19.572 - 22.368
-movementSpeed: 0.8
+health: 9
+recoilHipVertical: 39.55 - 45.2
+recoilAimVertical: 23.73 - 27.12
+movementSpeed: 0.1
 TTK: 0.341336 Seconds
 

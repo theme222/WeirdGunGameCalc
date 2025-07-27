@@ -1,43 +1,108 @@
-./Calculator -o InterestingBuilds/HipfireShotgun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadHipMax 1.8 
+./Calculator -o InterestingBuilds/HipfireShotgun.txt -i Shotgun --sort RECOIL --damageMin 100 --speedMin 0 --spreadHipMax 2 --fireRateMin 50 
 Current top 10 guns are: 
-[ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: FAL, Core: JSG12 ]
-damage: 204.517 - 39.7512
-dropoffStuds: 55.4462 - 110.892
-pellets: 12
-fireRate: 62.37
-adsSpread: 1.78886
-hipfireSpread: 1.78886
-reloadTime: 5
+[ Barrel: M870 Wingmaster, Magazine: AWM, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
+damage: 197.132 - 62.3823
+dropoffStuds: 66.2063 - 132.413
+pellets: 6
+fireRate: 58.5782
+adsSpread: 1.88684
+hipfireSpread: 1.88684
+reloadTime: 6.05
 magazineSize: 5
-recoilHipVertical: 295.659 - 348.566
-recoilAimVertical: 192.023 - 226.568
-movementSpeed: 0.62
+recoilHipVertical: 89.775 - 105.84
+recoilAimVertical: 58.3065 - 68.796
+movementSpeed: 2.5
 
-[ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: AWM, Core: JSG12 ]
-damage: 204.517 - 34.6554
-dropoffStuds: 53.8312 - 107.662
-pellets: 12
-fireRate: 62.37
-adsSpread: 1.76379
-hipfireSpread: 1.76379
-reloadTime: 4.625
+[ Barrel: M870 Wingmaster, Magazine: AWM, Grip: Auto-5, Stock: DP-27, Core: JSG12 ]
+damage: 197.132 - 62.3823
+dropoffStuds: 66.2063 - 132.413
+pellets: 6
+fireRate: 52.4121
+adsSpread: 1.93139
+hipfireSpread: 1.93139
+reloadTime: 5.5
 magazineSize: 5
-recoilHipVertical: 250.173 - 294.941
-recoilAimVertical: 162.481 - 191.712
-movementSpeed: 0.5
+recoilHipVertical: 101.745 - 119.952
+recoilAimVertical: 66.0807 - 77.9688
+movementSpeed: 2.5
 
-[ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: MG42, Core: JSG12 ]
-damage: 204.517 - 34.6554
-dropoffStuds: 53.8312 - 107.662
-pellets: 12
-fireRate: 62.37
-adsSpread: 1.73969
-hipfireSpread: 1.73969
-reloadTime: 6
+[ Barrel: M870 Wingmaster, Magazine: AWM, Grip: Auto-5, Stock: M870, Core: JSG12 ]
+damage: 197.132 - 62.3823
+dropoffStuds: 66.2063 - 132.413
+pellets: 6
+fireRate: 61.6612
+adsSpread: 1.99821
+hipfireSpread: 1.99821
+reloadTime: 5.775
 magazineSize: 5
-recoilHipVertical: 227.43 - 268.128
-recoilAimVertical: 147.71 - 174.283
-movementSpeed: 3.125
+recoilHipVertical: 101.745 - 119.952
+recoilAimVertical: 66.0807 - 77.9688
+movementSpeed: 2.5
+
+[ Barrel: M870 Wingmaster, Magazine: AWM, Grip: Auto-5, Stock: MG42, Core: JSG12 ]
+damage: 197.132 - 62.3823
+dropoffStuds: 66.2063 - 132.413
+pellets: 6
+fireRate: 61.6612
+adsSpread: 1.91468
+hipfireSpread: 1.91468
+reloadTime: 6.6
+magazineSize: 5
+recoilHipVertical: 119.7 - 141.12
+recoilAimVertical: 77.742 - 91.728
+movementSpeed: 5.125
+
+[ Barrel: M870 Wingmaster, Magazine: AWM, Grip: Auto-5, Stock: AWM, Core: JSG12 ]
+damage: 197.132 - 62.3823
+dropoffStuds: 66.2063 - 132.413
+pellets: 6
+fireRate: 61.6612
+adsSpread: 1.94253
+hipfireSpread: 1.94253
+reloadTime: 5.0875
+magazineSize: 5
+recoilHipVertical: 131.67 - 155.232
+recoilAimVertical: 85.5162 - 100.901
+movementSpeed: 2.5
+
+[ Barrel: M870 Wingmaster, Magazine: AWM, Grip: The Chief, Stock: M870 MCS, Core: JSG12 ]
+damage: 205.629 - 65.0713
+dropoffStuds: 66.2063 - 132.413
+pellets: 6
+fireRate: 55.7887
+adsSpread: 1.99821
+hipfireSpread: 1.99821
+reloadTime: 6.05
+magazineSize: 5
+recoilHipVertical: 134.663 - 158.76
+recoilAimVertical: 87.4598 - 103.194
+movementSpeed: 2.5
+
+[ Barrel: M870 Wingmaster, Magazine: AWM, Grip: Auto-5, Stock: FAL, Core: JSG12 ]
+damage: 197.132 - 66.4248
+dropoffStuds: 68.1924 - 136.385
+pellets: 6
+fireRate: 61.6612
+adsSpread: 1.97148
+hipfireSpread: 1.97148
+reloadTime: 5.5
+magazineSize: 5
+recoilHipVertical: 155.61 - 183.456
+recoilAimVertical: 101.065 - 119.246
+movementSpeed: 2.62
+
+[ Barrel: Second Amendment, Magazine: Type 99, Grip: Auto-5, Stock: MG42, Core: JSG12 ]
+damage: 193.964 - 20.9001
+dropoffStuds: 50.721 - 101.442
+pellets: 12
+fireRate: 69.3
+adsSpread: 1.99349
+hipfireSpread: 1.99349
+reloadTime: 4.2
+magazineSize: 30
+recoilHipVertical: 162.45 - 191.52
+recoilAimVertical: 105.507 - 124.488
+movementSpeed: 2.125
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
 damage: 204.517 - 34.6554
@@ -52,16 +117,16 @@ recoilHipVertical: 170.572 - 201.096
 recoilAimVertical: 110.782 - 130.712
 movementSpeed: 0.5
 
-[ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: DP-27, Core: JSG12 ]
-damage: 204.517 - 34.6554
-dropoffStuds: 53.8312 - 107.662
-pellets: 12
-fireRate: 53.0145
-adsSpread: 1.75415
-hipfireSpread: 1.75415
-reloadTime: 5
+[ Barrel: M870 Wingmaster, Magazine: AWM, Grip: Lightning Shot, Stock: MG42, Core: JSG12 ]
+damage: 202.072 - 63.9456
+dropoffStuds: 66.2063 - 132.413
+pellets: 6
+fireRate: 55.2015
+adsSpread: 1.97119
+hipfireSpread: 1.97119
+reloadTime: 6.6
 magazineSize: 5
-recoilHipVertical: 193.315 - 227.909
-recoilAimVertical: 125.553 - 148.141
-movementSpeed: 0.5
+recoilHipVertical: 183.54 - 216.384
+recoilAimVertical: 119.204 - 140.65
+movementSpeed: 1.125
 

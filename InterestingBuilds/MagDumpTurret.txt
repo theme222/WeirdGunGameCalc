@@ -56,6 +56,20 @@ recoilAimVertical: 32.9709 - 47.2791
 movementSpeed: 0.545
 TTK: 0.277361 Seconds
 
+[ Barrel: M870, Magazine: M60, Grip: M1891, Stock: Derpy - Staff, Core: MG42 ]
+damage: 14.4059 - 7.77317
+dropoffStuds: 122.85 - 266.175
+fireRate: 1296
+adsSpread: 1.26672
+hipfireSpread: 12.6672
+reloadTime: 7.30681
+magazineSize: 75
+health: 13
+recoilHipVertical: 64.66 - 92.72
+recoilAimVertical: 32.33 - 46.36
+movementSpeed: 0.45
+TTK: 0.277778 Seconds
+
 [ Barrel: M870 Breacher, Magazine: M60, Grip: M1891, Stock: JSG12, Core: MG42 ]
 damage: 15.0888 - 7.19432
 dropoffStuds: 102.375 - 221.812
@@ -112,31 +126,17 @@ recoilAimVertical: 32.6792 - 46.8607
 movementSpeed: 0.795
 TTK: 0.279524 Seconds
 
-[ Barrel: M870, Magazine: M60, Grip: Kriss Vector, Stock: M870 Breacher, Core: MG42 ]
-damage: 14.4059 - 7.77317
-dropoffStuds: 122.85 - 266.175
-fireRate: 1277.37
-adsSpread: 1.14435
-hipfireSpread: 11.4435
-reloadTime: 5.525
+[ Barrel: M1897 Trench Shotgun, Magazine: M60, Grip: M1891, Stock: Derpy - Staff, Core: MG42 ]
+damage: 13.1376 - 6.31901
+dropoffStuds: 103.74 - 224.77
+fireRate: 1490.4
+adsSpread: 1.34349
+hipfireSpread: 13.4349
+reloadTime: 6.704
 magazineSize: 75
 health: 13
-recoilHipVertical: 68.559 - 98.311
-recoilAimVertical: 34.2795 - 49.1555
-movementSpeed: 0.175
-TTK: 0.281829 Seconds
-
-[ Barrel: M870 Breacher, Magazine: M60, Grip: Kriss Vector, Stock: Auto-5, Core: MG42 ]
-damage: 14.3418 - 6.83816
-dropoffStuds: 102.375 - 221.812
-fireRate: 1277.37
-adsSpread: 1.28853
-hipfireSpread: 12.8853
-reloadTime: 6.5
-magazineSize: 75
-health: 13
-recoilHipVertical: 59.6165 - 85.4878
-recoilAimVertical: 29.8083 - 42.7439
-movementSpeed: 2.425
-TTK: 0.281829 Seconds
+recoilHipVertical: 64.66 - 92.72
+recoilAimVertical: 32.33 - 46.36
+movementSpeed: 0.45
+TTK: 0.281804 Seconds
 

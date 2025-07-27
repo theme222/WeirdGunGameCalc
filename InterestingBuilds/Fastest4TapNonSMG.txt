@@ -53,6 +53,18 @@ recoilAimVertical: 23.3772 - 29.2215
 movementSpeed: 0.3
 TTK: 0.308388 Seconds
 
+[ Barrel: M870 Wingmaster, Magazine: Rat - Emoji, Grip: The Chief, Stock: M870 MCS, Core: Hex Spitter ]
+damage: 25.4576 - 23.09
+dropoffStuds: 160.5 - 321
+fireRate: 578.219
+adsSpread: 0.620603
+hipfireSpread: 2.17211
+reloadTime: 6.292
+magazineSize: 42
+recoilHipVertical: 37.665 - 50.22
+recoilAimVertical: 18.8325 - 25.11
+TTK: 0.311301 Seconds
+
 [ Barrel: Snake Sniper, Magazine: NP5, Grip: Arisaka, Stock: P90, Core: M1919 .30 Cal ]
 damage: 25.2815 - 17.4501
 dropoffStuds: 169.1 - 338.2
@@ -67,29 +79,17 @@ recoilAimVertical: 23.0384 - 28.798
 movementSpeed: 0.495
 TTK: 0.312213 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: Hell-Trooper-23, Stock: The Chief, Core: Hex Spitter ]
-damage: 25.428 - 23.0632
-dropoffStuds: 160.5 - 321
+[ Barrel: M870 Wingmaster, Magazine: DP-27, Grip: Hell-Trooper-23, Stock: FAL, Core: Hex Spitter ]
+damage: 25.0169 - 22.8671
+dropoffStuds: 173.18 - 346.359
 fireRate: 574.2
-adsSpread: 0.646272
-hipfireSpread: 2.26195
-reloadTime: 2.2572
-magazineSize: 30
-recoilHipVertical: 33 - 44
-recoilAimVertical: 16.5 - 22
-movementSpeed: 3
-TTK: 0.31348 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: AWM, Stock: The Chief, Core: Hex Spitter ]
-damage: 25.428 - 23.0632
-dropoffStuds: 160.5 - 321
-fireRate: 574.2
-adsSpread: 0.639222
-hipfireSpread: 2.23728
-reloadTime: 2.66112
-magazineSize: 30
-recoilHipVertical: 35.64 - 47.52
-recoilAimVertical: 17.82 - 23.76
+adsSpread: 0.633427
+hipfireSpread: 2.217
+reloadTime: 6.27
+magazineSize: 47
+recoilHipVertical: 43.68 - 58.24
+recoilAimVertical: 21.84 - 29.12
+movementSpeed: 3.16
 TTK: 0.31348 Seconds
 
 [ Barrel: M870 Wingmaster, Magazine: Words as Weapons, Grip: The Chief, Stock: The Chief, Core: Hex Spitter ]
@@ -104,29 +104,29 @@ recoilHipVertical: 44.55 - 59.4
 recoilAimVertical: 22.275 - 29.7
 TTK: 0.31348 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: PP-19 Bizon, Grip: Hell-Trooper-23, Stock: FAL, Core: Hex Spitter ]
-damage: 25.6629 - 23.1884
-dropoffStuds: 153.566 - 307.133
-fireRate: 574.2
-adsSpread: 0.633427
-hipfireSpread: 2.217
-reloadTime: 4.18
-magazineSize: 64
-recoilHipVertical: 43.68 - 58.24
-recoilAimVertical: 21.84 - 29.12
-movementSpeed: 3.16
-TTK: 0.31348 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: AWM, Stock: FAL, Core: Hex Spitter ]
+[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: Hell-Trooper-23, Stock: FAL, Core: Hex Spitter ]
 damage: 25.428 - 23.1577
 dropoffStuds: 166.92 - 333.84
 fireRate: 574.2
-adsSpread: 0.626517
-hipfireSpread: 2.19281
-reloadTime: 2.9568
+adsSpread: 0.633427
+hipfireSpread: 2.217
+reloadTime: 2.508
 magazineSize: 30
-recoilHipVertical: 42.12 - 56.16
-recoilAimVertical: 21.06 - 28.08
-movementSpeed: 0.16
+recoilHipVertical: 39 - 52
+recoilAimVertical: 19.5 - 26
+movementSpeed: 3.16
+TTK: 0.31348 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: DP-27, Grip: Hell-Trooper-23, Stock: The Chief, Core: Hex Spitter ]
+damage: 25.0169 - 22.7775
+dropoffStuds: 166.519 - 333.038
+fireRate: 574.2
+adsSpread: 0.646272
+hipfireSpread: 2.26195
+reloadTime: 5.643
+magazineSize: 47
+recoilHipVertical: 36.96 - 49.28
+recoilAimVertical: 18.48 - 24.64
+movementSpeed: 3
 TTK: 0.31348 Seconds
 

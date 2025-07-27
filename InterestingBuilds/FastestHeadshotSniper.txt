@@ -111,20 +111,6 @@ recoilAimVertical: 54.2084 - 61.7374
 movementSpeed: 1
 TTK: 1.00321 Seconds
 
-[ Barrel: MG42, Magazine: FG-42, Grip: PPSh-41, Stock: MG42, Core: Arisaka ]
-damage: 63.0107 - 55.3234
-dropoffStuds: 312 - 546
-fireRate: 59.8077
-adsSpread: 0.146865
-hipfireSpread: 11.7492
-reloadTime: 4.83
-magazineSize: 20
-health: -10
-recoilHipVertical: 109.512 - 124.722
-recoilAimVertical: 49.2804 - 56.1249
-movementSpeed: 3.8
-TTK: 1.00321 Seconds
-
 [ Barrel: MG42, Magazine: FG-42, Grip: PPSh-41, Stock: FAL, Core: Arisaka ]
 damage: 63.0107 - 55.6501
 dropoffStuds: 325.26 - 569.205
@@ -137,5 +123,19 @@ health: -10
 recoilHipVertical: 142.366 - 162.139
 recoilAimVertical: 64.0645 - 72.9624
 movementSpeed: 1.17
+TTK: 1.00321 Seconds
+
+[ Barrel: MG42, Magazine: FG-42, Grip: PPSh-41, Stock: MG42, Core: Arisaka ]
+damage: 63.0107 - 55.3234
+dropoffStuds: 312 - 546
+fireRate: 59.8077
+adsSpread: 0.146865
+hipfireSpread: 11.7492
+reloadTime: 4.83
+magazineSize: 20
+health: -10
+recoilHipVertical: 109.512 - 124.722
+recoilAimVertical: 49.2804 - 56.1249
+movementSpeed: 3.8
 TTK: 1.00321 Seconds
 
