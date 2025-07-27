@@ -35,15 +35,15 @@ known_names = {
     'Screwdriver', 'Cirrus - Hand', 'Napo - Scissors', 'Rat - Emoji', 'Derpy - Staff'
 }
 
-'''
-{"Assault Rifle", 0},
-{"Sniper", 1},
-{"SMG", 2},
-{"LMG", 3},
-{"Weird", 4},
-{"Shotgun", 5},
-{"BR", 6}
-'''
+current_categories = {
+    "Assault Rifle": 0,
+    "Sniper": 1,
+    "SMG": 2,
+    "LMG": 3,
+    "Weird": 4,
+    "Shotgun": 5,
+    "BR": 6
+}
 
 current_penalties = [
     [1.00, 0.70, 0.80, 0.75, 1.00, 1.00, 0.80],
@@ -229,24 +229,14 @@ def Penalties():
 
     """
     It doesn't really look that good when dumping from a script but you can look at the current penalties in this python script instead haha
-    The penalties will get stored in this data structure in Calculator.cpp
-
-    // penalties[coreCategory][partCategory]
-    float penalties[CATEGORYCOUNT][CATEGORYCOUNT];
-
-    std::map<std::string, int> fastifyCategory = {
-        {"Assault Rifle", 0},
-        {"Sniper", 1},
-        {"SMG", 2},
-        {"LMG", 3},
-        {"Weird", 4},
-        {"Shotgun", 5},
-        {"BR", 6}
-    };
-
+    The penalties will get accessed based on this string to index conversion table.
     """
 
     print("Running Penalties")
+
+    with open("Data/Categories.json", 'w') as file:
+        json.dump(current_categories, file, indent=2)
+
     with open("Data/Penalties.json", 'w') as file:
         json.dump(current_penalties, file)
 
