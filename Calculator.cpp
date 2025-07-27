@@ -28,7 +28,6 @@ using fpair = std::pair<float, float>;
 #define NILMAX 69420.5f
 #define NILRANGE {NILMIN, NILMAX} // Hehehheheh who says programmers can't have fun
 #define NILINT -1
-#define CATEGORYCOUNT 7 // This is mostly for looking at what values are based on the category count for easy refactor
 
 namespace Input
 {
@@ -53,7 +52,7 @@ namespace Input
 
     std::vector<std::string> includeCategories;
 
-    int threadsToMake = 4;
+    int threadsToMake = std::thread::hardware_concurrency() == 0 ? 4 : std::thread::hardware_concurrency();
     int howManyTopGunsToDisplay = 10;
 
     fpair damageRange = NILRANGE;
@@ -85,20 +84,14 @@ namespace Input
 
 namespace Fast // Namespace to contain any indexing that uses the integer representation of categories and mults
 {
+    int categoryCount; // Gets set to fastifyCategory.size() in the main function
+
     // penalties[coreCategory][partCategory]
-    float penalties[CATEGORYCOUNT][CATEGORYCOUNT];
+    std::vector<std::vector<float>> penalties;
 
-    std::map<std::string, int> fastifyCategory = {
-        {"Assault Rifle", 0},
-        {"Sniper", 1},
-        {"SMG", 2},
-        {"LMG", 3},
-        {"Weird", 4},
-        {"Shotgun", 5},
-        {"BR", 6}
-    };
+    std::map<std::string, int> fastifyCategory;
 
-    bool includeCategories_fast[CATEGORYCOUNT] = {false, false, false, false, false, false, false};
+    std::vector<bool> includeCategories_fast;
     int forceParts_fast[5] = {NILINT, NILINT, NILINT, NILINT, NILINT}; // Barrel Magazine Grip Stock Core
     std::vector<bool> banParts_fast[5];
 
@@ -211,6 +204,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     void InitializeIncludeCategories()
     {
+        includeCategories_fast.resize(categoryCount, false);
         for (auto& category : Input::includeCategories)
         {
             if (category == "AR") category = "Assault Rifle";
@@ -316,7 +310,20 @@ public:
     Part() {}
 
     // Init an identity value part (Can be used to directly apply the * operator onto a gun).
-    Part(float defaultValue): damage(defaultValue), fireRate(defaultValue), spread(defaultValue), recoil(defaultValue), reloadSpeed(defaultValue), pellets(defaultValue), detectionRadius(defaultValue), range(defaultValue), rangeFalloff(defaultValue) {}
+    static Part Identity() {
+        // Health and Movement Speed are additive so the identity value is 0
+        Part part;
+        part.damage = 1;
+        part.fireRate = 1;
+        part.spread = 1;
+        part.recoil = 1;
+        part.reloadSpeed = 1;
+        part.pellets = 1;
+        part.detectionRadius = 1;
+        part.range = 1;
+        part.rangeFalloff = 1;
+        return part;
+    }
 
     Part(const json &jsonObject): category(jsonObject["Category"]), name(jsonObject["Name"])
     {
@@ -893,11 +900,11 @@ uint64_t stockCount;
 uint64_t coreCount;
 uint64_t totalCombinations;
 
-Barrel barrelList[128];
-Magazine magazineList[128];
-Grip gripList[128];
-Stock stockList[128];
-Core coreList[128];
+std::vector<Barrel> barrelList;
+std::vector<Magazine> magazineList;
+std::vector<Grip> gripList;
+std::vector<Stock> stockList;
+std::vector<Core> coreList;
 
 
 namespace PQ // Also known as the stop using so many god damn macros bro holy shit namespace
@@ -1048,7 +1055,7 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
 // Maybe make this a class or a struct? prob no tho
 PQ::Variant_pq threadPQ[16];
 std::thread threads[16];
-int validGunInThread[16];
+uint64_t validGunInThread[16];
 
 namespace BruteForce
 {
@@ -1071,11 +1078,11 @@ namespace BruteForce
 
         bool Step(Barrel*& b, Magazine*& m, Grip*& g, Stock*& s, Core*& c) // Returns true if another combination still exists
         {
-            b = barrelList + barrelIndex;
-            m = magazineList + magazineIndex;
-            g = gripList + gripIndex;
-            s = stockList + stockIndex;
-            c = coreList + coreIndex;
+            b = barrelList.data() + barrelIndex;
+            m = magazineList.data() + magazineIndex;
+            g = gripList.data() + gripIndex;
+            s = stockList.data() + stockIndex;
+            c = coreList.data() + coreIndex;
 
             int coreName = coreList[coreIndex].name_fast;
 
@@ -1374,15 +1381,20 @@ namespace Prune
         */
 
         // bestPossibleCombo[coreCategoryFast][low / high][1 -> 4]
-        Part bestPossibleCombo[CATEGORYCOUNT][2][4] = { // stfu I don't wanna hear it
-            {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
-            {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
-            {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
-            {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
-            {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
-            {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}},
-            {{Part(1), Part(1), Part(1), Part(1)}, {Part(1), Part(1), Part(1), Part(1)}}
-        };
+        std::vector<std::vector<std::vector<Part>>> bestPossibleCombo; // Chatgpt suggested me this omegalul
+
+        void InitializeBestPossibleCombo() // resize based on category count
+        {
+            bestPossibleCombo.resize(Fast::categoryCount);
+            for (int i = 0; i < Fast::categoryCount; i++)
+            {
+                bestPossibleCombo[i].resize(2);
+                for (int j = 0; j < 2; j++)
+                {
+                    bestPossibleCombo[i][j].resize(4, Part::Identity());
+                }
+            }
+        }
 
         void SetHighLowParts(Gun& gun, Part* partToCheck, Part& lowestMultPart, Part& highestMultPart)
         {
@@ -1416,7 +1428,7 @@ namespace Prune
         template <typename T>
         std::pair<Part, Part> FindHighestAndLowestMultInList(Gun& gun, T* partList, int size)
         {
-            Part lowestMultPart(1), highestMultPart(1);
+            Part lowestMultPart = Part::Identity(), highestMultPart = Part::Identity();
             for (int i = 0; i < size; i++)
                 SetHighLowParts(gun, partList + i, lowestMultPart, highestMultPart);
             return std::pair<Part, Part>(lowestMultPart, highestMultPart);
@@ -1425,21 +1437,21 @@ namespace Prune
         void InitializeHighestAndLowestMultParts() // It may not look like it but I promise you this has a Time complexity of O(n) I'M TELLING YOU PLEASE BELIEVE ME
         {
             // Creation of dummyGuns to allow us to use (Gun obj).GetPartialMult and (Gun obj).GetPartialAdd for HighLow intialization
-            Core coreCategories[CATEGORYCOUNT];
-            Gun dummyGuns[CATEGORYCOUNT];
-            for (int i = 0; i < CATEGORYCOUNT; i++)
+            std::vector<Core> coreCategories(Fast::categoryCount);
+            std::vector<Gun> dummyGuns(Fast::categoryCount);
+            for (int i = 0; i < Fast::categoryCount; i++)
             {
                 coreCategories[i].category_fast = i;
-                dummyGuns[i] = Gun(coreCategories + i);
+                dummyGuns[i] = Gun(&coreCategories[i]);
             }
 
-            for (int g = 0; g < CATEGORYCOUNT; g++)
+            for (int g = 0; g < Fast::categoryCount; g++)
             {
                 Gun& dummyGun = dummyGuns[g];
-                std::pair<Part, Part> magazineMultPair = FindHighestAndLowestMultInList(dummyGun, magazineList, magazineCount);
-                std::pair<Part, Part> barrelMultPair = FindHighestAndLowestMultInList(dummyGun, barrelList, barrelCount);
-                std::pair<Part, Part> gripMultPair = FindHighestAndLowestMultInList(dummyGun, gripList, gripCount);
-                std::pair<Part, Part> stockMultPair = FindHighestAndLowestMultInList(dummyGun, stockList, stockCount);
+                std::pair<Part, Part> magazineMultPair = FindHighestAndLowestMultInList(dummyGun, magazineList.data(), magazineCount);
+                std::pair<Part, Part> barrelMultPair = FindHighestAndLowestMultInList(dummyGun, barrelList.data(), barrelCount);
+                std::pair<Part, Part> gripMultPair = FindHighestAndLowestMultInList(dummyGun, gripList.data(), gripCount);
+                std::pair<Part, Part> stockMultPair = FindHighestAndLowestMultInList(dummyGun, stockList.data(), stockCount);
 
                 std::pair<Part, Part> *partPairs[4] = {&stockMultPair, &gripMultPair, &barrelMultPair, &magazineMultPair};
                 for (int i = 0; i < 4; i++)
@@ -1455,6 +1467,7 @@ namespace Prune
             // for (int i = 0; i < 6; i++) for (int k = 0; k < 4; k++) for (int j = 0; j < 2; j++) std::cout << bestPossibleCombo[i][j][k];
         }
     }
+
 
     bool RangeFilterPellet(float valueToCompare, float lowMult, float highMult, const fpair &range) // Requires the use of ceilf
     {
@@ -1545,9 +1558,9 @@ namespace Prune
         for (int c = 0; c < coreCount; c++)
         {
             if (c % Input::threadsToMake != threadId) continue;
-            if (!Filter::CoreFilter(coreList + c)) continue;
+            if (!Filter::CoreFilter(coreList.data() + c)) continue;
 
-            Gun currentGun = Gun(coreList + c);
+            Gun currentGun = Gun(coreList.data() + c);
             currentGun.CopyCoreValues(Filter::currentflags);
             bool validCombo = IsValidCombination(currentGun, HighLow::bestPossibleCombo[currentGun.core->category_fast][0][3], HighLow::bestPossibleCombo[currentGun.core->category_fast][1][3]);
             if (validCombo)
@@ -1558,11 +1571,11 @@ namespace Prune
         // validGuns1 -> validGuns2 (Parsing core + magazine)
         for (int m = 0; m < magazineCount; m++)
         {
-            if (!Filter::MagazineFilter(magazineList + m)) continue;
+            if (!Filter::MagazineFilter(magazineList.data() + m)) continue;
             for (int g = 0; g < validGunCount1; g++)
             {
                 Gun currentGun = validGuns1[g]; // Copies over from the old vector
-                currentGun.magazine = magazineList + m;
+                currentGun.magazine = magazineList.data() + m;
                 currentGun.CopyMagazineValues(Filter::currentflags);
                 currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.magazine);
                 bool validCombo = IsValidCombination(currentGun, HighLow::bestPossibleCombo[currentGun.core->category_fast][0][2], HighLow::bestPossibleCombo[currentGun.core->category_fast][1][2]);
@@ -1576,11 +1589,11 @@ namespace Prune
         // validGuns2 -> validGuns1 (Parsing core + magazine + barrel)
         for (int b = 0; b < barrelCount; b++)
         {
-            if (!Filter::BarrelFilter(barrelList + b)) continue;
+            if (!Filter::BarrelFilter(barrelList.data() + b)) continue;
             for (int g = 0; g < validGunCount2; g++)
             {
                 Gun currentGun = validGuns2[g]; // Copies over from the old vector
-                currentGun.barrel = barrelList + b;
+                currentGun.barrel = barrelList.data() + b;
                 currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.barrel);
                 bool validCombo = IsValidCombination(currentGun, HighLow::bestPossibleCombo[currentGun.core->category_fast][0][1], HighLow::bestPossibleCombo[currentGun.core->category_fast][1][1]);
                 if (validCombo)
@@ -1593,11 +1606,11 @@ namespace Prune
         // validGuns1 -> validGuns2 (Parsing core + magazine + barrel + grip)
         for (int gr = 0; gr < gripCount; gr++)
         {
-            if (!Filter::GripFilter(gripList + gr)) continue;
+            if (!Filter::GripFilter(gripList.data() + gr)) continue;
             for (int g = 0; g < validGunCount1; g++)
             {
                 Gun currentGun = validGuns1[g]; // Copies over from the old vector
-                currentGun.grip = gripList + gr;
+                currentGun.grip = gripList.data() + gr;
                 currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.grip);
                 bool validCombo = IsValidCombination(currentGun, HighLow::bestPossibleCombo[currentGun.core->category_fast][0][0], HighLow::bestPossibleCombo[currentGun.core->category_fast][1][0]);
                 if (validCombo)
@@ -1610,11 +1623,11 @@ namespace Prune
         // validGuns2 * stocks -> Outputs to PQ
         for (int s = 0; s < stockCount; s++)
         {
-            if (!Filter::StockFilter(stockList + s)) continue;
+            if (!Filter::StockFilter(stockList.data() + s)) continue;
             for (int g = 0; g < validGunCount2; g++)
             {
                 Gun currentGun = validGuns2[g]; // Copies over from the old vector
-                currentGun.stock = stockList + s;
+                currentGun.stock = stockList.data() + s;
 
                 currentGun.CalculatePartialGunStats(Filter::currentflags, currentGun.stock);
                 // Recalculate Damage and Spread to contain the pellet modifier
@@ -1651,7 +1664,7 @@ int main(int argc, char* argv[])
 
     app.add_option("-f, --file", Input::fileDir, "Path to the directory containing the json file (Default: Data)");
     app.add_option("-o, --output", Input::outpath, "Path to the output file (Default: Results.txt)");
-    app.add_option("-t, --threads", Input::threadsToMake, "Number of threads to use (MAX 16) (Default: 4)");
+    app.add_option("-t, --threads", Input::threadsToMake, "Number of threads to use (MAX 16) (Default: AUTODETECT)")->check(CLI::Range(1, 16));
     app.add_option("-s, --sort", Input::sortType, "Sorting type (TTK, FIRERATE, ADSSPREAD, HIPFIRESPREAD, RECOIL, SPEED, HEALTH, MAGAZINE, RELOAD) (Default: TTK)");
     app.add_option("-n, --number", Input::howManyTopGunsToDisplay, "Number of top guns to display (Default: 10)");
     app.add_option("-m, --method", Input::method, "Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)");
@@ -1727,53 +1740,66 @@ int main(int argc, char* argv[])
     // The operator overloads go c++azy (Python actually has this with Pathlib but we don't talk about that)
     std::filesystem::path fullDataPath = Input::fileDir / "FullData.json";
     std::filesystem::path penaltiesPath = Input::fileDir / "Penalties.json";
+    std::filesystem::path categoriesPath = Input::fileDir / "Categories.json";
 
-    if (!std::filesystem::exists(fullDataPath) || !std::filesystem::exists(penaltiesPath))
+    if (!std::filesystem::exists(fullDataPath) || !std::filesystem::exists(penaltiesPath) || !std::filesystem::exists(categoriesPath))
     {
-        std::cerr << "Files " << fullDataPath << " and " << penaltiesPath << " are required but don't exist (Did you install this in the correct folder?)\n";
+        std::cerr << "Files " << fullDataPath << ", " << penaltiesPath << ", and " << categoriesPath << " are required but don't exist (Did you install this in the correct folder?)\n";
         throw std::invalid_argument("Required files not found");
     }
 
-    std::cout << "Loading from json file " << fullDataPath << " and " << penaltiesPath << "\n";
+    std::cout << "Loading from json file " << fullDataPath << ", " << penaltiesPath << ", and " << categoriesPath << "\n";
+
+    std::ifstream Categories(categoriesPath);
+    json categories = json::parse(Categories);
+
+    for (auto &[key, value] : categories.items())
+        Fast::fastifyCategory[key] = value;
+
+    Fast::categoryCount = Fast::fastifyCategory.size();
 
     std::ifstream FullData(fullDataPath);
     json data = json::parse(FullData);
 
+    barrelCount = data["Barrels"].size();
+    barrelList.reserve(barrelCount);
+
     for (json &element : data["Barrels"])
-    {
-        barrelList[barrelCount] = Barrel(element);
-        barrelCount++;
-    }
+        barrelList.push_back(element);
+
+    magazineCount = data["Magazines"].size();
+    magazineList.reserve(magazineCount);
 
     for (json &element : data["Magazines"])
-    {
-        magazineList[magazineCount] = Magazine(element);
-        magazineCount++;
-    }
+        magazineList.push_back(element);
+
+    gripCount = data["Grips"].size();
+    gripList.reserve(gripCount);
 
     for (json &element : data["Grips"])
-    {
-        gripList[gripCount] = Grip(element);
-        gripCount++;
-    }
+        gripList.push_back(element);
+
+    stockCount = data["Stocks"].size();
+    stockList.reserve(stockCount);
 
     for (json &element : data["Stocks"])
-    {
-        stockList[stockCount] = Stock(element);
-        stockCount++;
-    }
+        stockList.push_back(element);
+
+    coreCount = data["Cores"].size();
+    coreList.reserve(coreCount);
 
     for (json &element : data["Cores"])
-    {
-        coreList[coreCount] = Core(element);
-        coreCount++;
-    }
+        coreList.push_back(element);
 
     std::ifstream Penalties(penaltiesPath);
     json penalties = json::parse(Penalties);
 
-    for (int i = 0; i < CATEGORYCOUNT; i++)
-        for (int j = 0; j < CATEGORYCOUNT; j++)
+    Fast::penalties.resize(Fast::categoryCount);
+    for (int i = 0; i < Fast::categoryCount; i++)
+        Fast::penalties[i].resize(Fast::categoryCount);
+
+    for (int i = 0; i < Fast::categoryCount; i++)
+        for (int j = 0; j < Fast::categoryCount; j++)
             Fast::penalties[i][j] = penalties[i][j];
 
     puts("Initializing required data");
@@ -1784,6 +1810,7 @@ int main(int argc, char* argv[])
     Fast::InitializeClampQuadratic();
     BruteForce::Filter::InitializeMultFlag();
     Prune::Filter::InitializeMultFlag();
+    Prune::HighLow::InitializeBestPossibleCombo();
     Prune::HighLow::InitializeHighestAndLowestMultParts();
 
     totalCombinations = barrelCount * magazineCount * gripCount * stockCount * coreCount;
