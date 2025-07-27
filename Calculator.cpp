@@ -52,7 +52,7 @@ namespace Input
 
     std::vector<std::string> includeCategories;
 
-    int threadsToMake = std::thread::hardware_concurrency() == 0 ? 4 : std::thread::hardware_concurrency();
+    int threadsToMake = std::clamp(std::thread::hardware_concurrency(), 1u, 64u);
     int howManyTopGunsToDisplay = 10;
 
     fpair damageRange = NILRANGE;
@@ -1053,9 +1053,9 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
 }
 
 // Maybe make this a class or a struct? prob no tho
-PQ::Variant_pq threadPQ[16];
-std::thread threads[16];
-uint64_t validGunInThread[16];
+PQ::Variant_pq threadPQ[64];
+std::thread threads[64];
+uint64_t validGunInThread[64];
 
 namespace BruteForce
 {
@@ -1664,7 +1664,7 @@ int main(int argc, char* argv[])
 
     app.add_option("-f, --file", Input::fileDir, "Path to the directory containing the json file (Default: Data)");
     app.add_option("-o, --output", Input::outpath, "Path to the output file (Default: Results.txt)");
-    app.add_option("-t, --threads", Input::threadsToMake, "Number of threads to use (MAX 16) (Default: AUTODETECT)")->check(CLI::Range(1, 16));
+    app.add_option("-t, --threads", Input::threadsToMake, "Number of threads to use (Default: AUTODETECT)")->check(CLI::Range(1, 64));
     app.add_option("-s, --sort", Input::sortType, "Sorting type (TTK, FIRERATE, ADSSPREAD, HIPFIRESPREAD, RECOIL, SPEED, HEALTH, MAGAZINE, RELOAD) (Default: TTK)");
     app.add_option("-n, --number", Input::howManyTopGunsToDisplay, "Number of top guns to display (Default: 10)");
     app.add_option("-m, --method", Input::method, "Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)");
