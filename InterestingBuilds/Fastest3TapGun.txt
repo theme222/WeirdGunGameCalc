@@ -67,19 +67,6 @@ recoilAimVertical: 6.6125 - 7.935
 movementSpeed: 2.5
 TTK: 0.145753 Seconds
 
-[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Circuit Judge, Stock: Lee Enfield, Core: M1 Carbine ]
-damage: 33.5825 - 15.8509
-dropoffStuds: 104.4 - 122.4
-fireRate: 819.446
-adsSpread: 0.447743
-hipfireSpread: 7.46238
-reloadTime: 2.5
-magazineSize: 32
-recoilHipVertical: 20.125 - 24.15
-recoilAimVertical: 8.05 - 9.66
-movementSpeed: 2.5
-TTK: 0.14644 Seconds
-
 [ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Type 2a Nambu, Stock: Lee Enfield, Core: M1 Carbine ]
 damage: 33.4263 - 15.7772
 dropoffStuds: 104.4 - 122.4
@@ -91,6 +78,19 @@ magazineSize: 32
 health: -7.5
 recoilHipVertical: 24.7537 - 29.7045
 recoilAimVertical: 9.9015 - 11.8818
+movementSpeed: 2.5
+TTK: 0.14644 Seconds
+
+[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Circuit Judge, Stock: Lee Enfield, Core: M1 Carbine ]
+damage: 33.5825 - 15.8509
+dropoffStuds: 104.4 - 122.4
+fireRate: 819.446
+adsSpread: 0.447743
+hipfireSpread: 7.46238
+reloadTime: 2.5
+magazineSize: 32
+recoilHipVertical: 20.125 - 24.15
+recoilAimVertical: 8.05 - 9.66
 movementSpeed: 2.5
 TTK: 0.14644 Seconds
 
@@ -107,19 +107,6 @@ recoilHipVertical: 14.95 - 17.94
 recoilAimVertical: 5.98 - 7.176
 TTK: 0.146886 Seconds
 
-[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Circuit Judge, Stock: AR-8X, Core: M1 Carbine ]
-damage: 33.5825 - 18.8062
-dropoffStuds: 130.5 - 153
-fireRate: 816.354
-adsSpread: 0.425448
-hipfireSpread: 7.0908
-reloadTime: 2.5
-magazineSize: 32
-recoilHipVertical: 14.375 - 17.25
-recoilAimVertical: 5.75 - 6.9
-movementSpeed: 0.5
-TTK: 0.146995 Seconds
-
 [ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Type 2a Nambu, Stock: AR-8X, Core: M1 Carbine ]
 damage: 33.4263 - 18.7187
 dropoffStuds: 130.5 - 153
@@ -131,6 +118,19 @@ magazineSize: 32
 health: -7.5
 recoilHipVertical: 17.6813 - 21.2175
 recoilAimVertical: 7.0725 - 8.487
+movementSpeed: 0.5
+TTK: 0.146995 Seconds
+
+[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Circuit Judge, Stock: AR-8X, Core: M1 Carbine ]
+damage: 33.5825 - 18.8062
+dropoffStuds: 130.5 - 153
+fireRate: 816.354
+adsSpread: 0.425448
+hipfireSpread: 7.0908
+reloadTime: 2.5
+magazineSize: 32
+recoilHipVertical: 14.375 - 17.25
+recoilAimVertical: 5.75 - 6.9
 movementSpeed: 0.5
 TTK: 0.146995 Seconds
 

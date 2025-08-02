@@ -1,4 +1,4 @@
-./Calculator -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --healthMin 10 --bc FC200SH M1 Carbine G11 
+./Calculator -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --healthMin 10 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
 [ Barrel: M870 Breacher, Magazine: M60, Grip: M1891, Stock: Auto-5, Core: MG42 ]
 damage: 14.3418 - 7.7386
@@ -111,18 +111,18 @@ recoilAimVertical: 33.5545 - 48.1159
 movementSpeed: 2.595
 TTK: 0.276425 Seconds
 
-[ Barrel: M870 Breacher, Magazine: M60, Grip: M1891, Stock: Mas-38, Core: MG42 ]
+[ Barrel: M870 Breacher, Magazine: M60, Grip: M1891, Stock: NP5, Core: MG42 ]
 damage: 15.0888 - 8.14165
 dropoffStuds: 122.85 - 266.175
 fireRate: 1296
-adsSpread: 1.24535
-hipfireSpread: 12.4535
-reloadTime: 6.98913
+adsSpread: 1.41883
+hipfireSpread: 14.1883
+reloadTime: 7.03771
 magazineSize: 75
 health: 13
-recoilHipVertical: 57.9354 - 83.0771
-recoilAimVertical: 28.9677 - 41.5386
-movementSpeed: 1.095
+recoilHipVertical: 59.6165 - 85.4878
+recoilAimVertical: 29.8083 - 42.7439
+movementSpeed: 0.575
 TTK: 0.277778 Seconds
 
 [ Barrel: M870 MCS, Magazine: M60, Grip: M1891, Stock: Derpy - Staff, Core: MG42 ]

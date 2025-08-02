@@ -1,75 +1,5 @@
-./Calculator -o InterestingBuilds/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 --bc FC200SH M1 Carbine G11 
+./Calculator -o InterestingBuilds/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
-[ Barrel: M870 MCS, Magazine: Mas-38, Grip: PPSh-41, Stock: FAL, Core: Hex Spitter ]
-damage: 25.1767 - 22.6967
-dropoffStuds: 151.332 - 302.665
-pellets: 2
-fireRate: 712.8
-adsSpread: 0.583449
-hipfireSpread: 2.04207
-reloadTime: 3.542
-magazineSize: 32
-recoilHipVertical: 49.53 - 66.04
-recoilAimVertical: 24.765 - 33.02
-movementSpeed: 2.96
-TTK: 0.252525 Seconds
-
-[ Barrel: M870 MCS, Magazine: DP-27, Grip: PPSh-41, Stock: FAL, Core: Hex Spitter ]
-damage: 25.4757 - 22.9805
-dropoffStuds: 152.139 - 304.278
-pellets: 2
-fireRate: 712.8
-adsSpread: 0.661773
-hipfireSpread: 2.31621
-reloadTime: 7.59
-magazineSize: 47
-recoilHipVertical: 43.68 - 58.24
-recoilAimVertical: 21.84 - 29.12
-movementSpeed: 0.16
-TTK: 0.252525 Seconds
-
-[ Barrel: M870 MCS, Magazine: Mas-38, Grip: PPSh-41, Stock: M1 Carbine, Core: Hex Spitter ]
-damage: 25.1767 - 22.6967
-dropoffStuds: 151.332 - 302.665
-pellets: 2
-fireRate: 712.8
-adsSpread: 0.630248
-hipfireSpread: 2.20587
-reloadTime: 3.542
-magazineSize: 32
-recoilHipVertical: 43.434 - 57.912
-recoilAimVertical: 21.717 - 28.956
-movementSpeed: 0.3
-TTK: 0.252525 Seconds
-
-[ Barrel: M870 MCS, Magazine: Rat - Emoji, Grip: Snake Sniper, Stock: MG42, Core: Hex Spitter ]
-damage: 25.1767 - 22.6948
-dropoffStuds: 150.87 - 301.74
-pellets: 2
-fireRate: 699.6
-adsSpread: 0.651441
-hipfireSpread: 2.28005
-reloadTime: 6.864
-magazineSize: 42
-recoilHipVertical: 45.384 - 60.512
-recoilAimVertical: 22.692 - 30.256
-movementSpeed: 1.125
-TTK: 0.25729 Seconds
-
-[ Barrel: M870 MCS, Magazine: Rat - Emoji, Grip: Snake Sniper, Stock: JSG12, Core: Hex Spitter ]
-damage: 25.1767 - 22.6948
-dropoffStuds: 150.87 - 301.74
-pellets: 2
-fireRate: 699.6
-adsSpread: 0.649471
-hipfireSpread: 2.27315
-reloadTime: 6.006
-magazineSize: 42
-recoilHipVertical: 45.384 - 60.512
-recoilAimVertical: 22.692 - 30.256
-movementSpeed: 1.5
-TTK: 0.25729 Seconds
-
 [ Barrel: G3, Magazine: Mas-38, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
 damage: 25.0903 - 12.5008
 dropoffStuds: 150.907 - 167.076
@@ -134,4 +64,71 @@ recoilHipVertical: 32.9175 - 46.0845
 recoilAimVertical: 21.3305 - 29.8891
 movementSpeed: 4.6
 TTK: 0.263158 Seconds
+
+[ Barrel: FC200SH, Magazine: FC200SH, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.1432 - 12.9164
+dropoffStuds: 155.68 - 172.36
+fireRate: 681.813
+adsSpread: 0.611724
+hipfireSpread: 4.07816
+reloadTime: 3.9744
+magazineSize: 30
+recoilHipVertical: 28.75 - 40.25
+recoilAimVertical: 18.63 - 26.105
+movementSpeed: 1.5
+TTK: 0.264002 Seconds
+
+[ Barrel: Type 99, Magazine: MP 40, Grip: PPSh-41, Stock: UNP-40, Core: Hex Spitter ]
+damage: 25.2099 - 22.6889
+dropoffStuds: 150 - 300
+pellets: 2
+fireRate: 677.16
+adsSpread: 0.667901
+hipfireSpread: 2.33765
+reloadTime: 3.01875
+magazineSize: 32
+recoilHipVertical: 41.4 - 55.2
+recoilAimVertical: 20.7 - 27.6
+movementSpeed: 1.04
+TTK: 0.265816 Seconds
+
+[ Barrel: M1Garand, Magazine: MP 40, Grip: PPSh-41, Stock: M40, Core: Hex Spitter ]
+damage: 25.1159 - 22.6043
+dropoffStuds: 150 - 300
+pellets: 2
+fireRate: 677.16
+adsSpread: 0.678437
+hipfireSpread: 2.37453
+reloadTime: 2.875
+magazineSize: 32
+recoilHipVertical: 32.085 - 42.78
+recoilAimVertical: 16.0425 - 21.39
+TTK: 0.265816 Seconds
+
+[ Barrel: M1Garand, Magazine: MP 40, Grip: PPSh-41, Stock: The Chief, Core: Hex Spitter ]
+damage: 25.1159 - 22.6043
+dropoffStuds: 150 - 300
+pellets: 2
+fireRate: 677.16
+adsSpread: 0.631857
+hipfireSpread: 2.2115
+reloadTime: 2.5875
+magazineSize: 32
+recoilHipVertical: 37.95 - 50.6
+recoilAimVertical: 18.975 - 25.3
+TTK: 0.265816 Seconds
+
+[ Barrel: M1Garand, Magazine: MP 40, Grip: PPSh-41, Stock: JSG12, Core: Hex Spitter ]
+damage: 25.1159 - 22.6043
+dropoffStuds: 150 - 300
+pellets: 2
+fireRate: 677.16
+adsSpread: 0.676496
+hipfireSpread: 2.36773
+reloadTime: 3.01875
+magazineSize: 32
+recoilHipVertical: 34.5 - 46
+recoilAimVertical: 17.25 - 23
+movementSpeed: 2.25
+TTK: 0.265816 Seconds
 

@@ -1,4 +1,4 @@
-./Calculator -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 
+./Calculator -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
 [ Barrel: Tommy, Magazine: MAC-10, Grip: Circuit Judge, Stock: Kriss Vector, Core: Type 2a Nambu ]
 damage: 25.1198 - 7.97201
@@ -78,18 +78,6 @@ recoilAimVertical: 17.901 - 25.0835
 movementSpeed: 9.25
 TTK: 0.225394 Seconds
 
-[ Barrel: M870 Breacher, Magazine: MP 40, Grip: Circuit Judge, Stock: Spas-12, Core: Loaf ]
-damage: 33.3755 - 25.1518
-dropoffStuds: 118.8 - 174.24
-fireRate: 532
-adsSpread: 0.434238
-hipfireSpread: 3.61865
-reloadTime: 2.5
-magazineSize: 32
-recoilHipVertical: 5.75 - 8.05
-recoilAimVertical: 4.6 - 6.44
-TTK: 0.225564 Seconds
-
 [ Barrel: PP-19 Bizon, Magazine: NP5, Grip: PPSh-41, Stock: APS, Core: Type 2a Nambu ]
 damage: 25.1804 - 8.34369
 dropoffStuds: 112.14 - 124.155
@@ -128,4 +116,17 @@ recoilHipVertical: 17 - 23.8
 recoilAimVertical: 11.016 - 15.436
 movementSpeed: 0.6
 TTK: 0.226504 Seconds
+
+[ Barrel: MG42, Magazine: MP 40, Grip: M1891, Stock: Kriss Vector, Core: Type 2a Nambu ]
+damage: 25.3491 - 7.56671
+dropoffStuds: 103.74 - 114.855
+fireRate: 793.571
+adsSpread: 0.97932
+hipfireSpread: 6.5288
+reloadTime: 2.875
+magazineSize: 32
+recoilHipVertical: 29.9 - 41.86
+recoilAimVertical: 19.3752 - 27.1492
+movementSpeed: 2.7
+TTK: 0.226823 Seconds
 
