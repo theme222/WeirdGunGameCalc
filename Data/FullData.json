@@ -4150,7 +4150,7 @@
       "Damage": 50,
       "Spread": -45,
       "Detection_Radius": 50,
-      "Fire_Rate": -35,
+      "Fire_Rate": -40,
       "Movement_Speed": -12,
       "Recoil": 125
     },
