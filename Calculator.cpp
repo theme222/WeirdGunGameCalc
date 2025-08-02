@@ -1526,7 +1526,7 @@ namespace Prune
         if (!RangeFilterMult(gun.fireRate, lowPPC.fireRate, highPPC.fireRate, Input::fireRateRange)) return false;
         if (!RangeFilterMult(gun.recoilHipVertical.second, lowPPC.recoil, highPPC.recoil, Input::recoilHipRange)) return false;
         if (!RangeFilterMult(gun.recoilAimVertical.second, lowPPC.recoil, highPPC.recoil, Input::recoilAimRange)) return false;
-        if (!RangeFilterMult(gun.reloadTime, lowPPC.reloadSpeed, highPPC.reloadSpeed, Input::reloadRange)) return false;
+        if (!RangeFilterMult(gun.reloadTime, lowPPC.reloadSpeed, highPPC.reloadSpeed, Input::reloadRange) && gun.magazine != nullptr) return false;
         if (!RangeFilterMult(gun.detectionRadius, lowPPC.detectionRadius, highPPC.detectionRadius, Input::detectionRadiusRange)) return false;
         if (!RangeFilterMult(gun.dropoffStuds.first, lowPPC.range, highPPC.range, Input::dropoffStudsRange)) return false;
         if (!RangeFilterMult(gun.dropoffStuds.second, lowPPC.range, highPPC.range, Input::dropoffStuds2Range)) return false;
