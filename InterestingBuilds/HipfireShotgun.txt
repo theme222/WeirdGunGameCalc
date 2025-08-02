@@ -7,7 +7,7 @@ pellets: 6
 fireRate: 58.5782
 adsSpread: 1.88684
 hipfireSpread: 1.88684
-reloadTime: 6.05
+reloadTime: 5.775
 magazineSize: 5
 recoilHipVertical: 89.775 - 105.84
 recoilAimVertical: 58.3065 - 68.796
@@ -20,7 +20,7 @@ pellets: 6
 fireRate: 52.4121
 adsSpread: 1.93139
 hipfireSpread: 1.93139
-reloadTime: 5.5
+reloadTime: 5.25
 magazineSize: 5
 recoilHipVertical: 101.745 - 119.952
 recoilAimVertical: 66.0807 - 77.9688
@@ -33,7 +33,7 @@ pellets: 6
 fireRate: 61.6612
 adsSpread: 1.99821
 hipfireSpread: 1.99821
-reloadTime: 5.775
+reloadTime: 5.5125
 magazineSize: 5
 recoilHipVertical: 101.745 - 119.952
 recoilAimVertical: 66.0807 - 77.9688
@@ -46,7 +46,7 @@ pellets: 6
 fireRate: 61.6612
 adsSpread: 1.91468
 hipfireSpread: 1.91468
-reloadTime: 6.6
+reloadTime: 6.3
 magazineSize: 5
 recoilHipVertical: 119.7 - 141.12
 recoilAimVertical: 77.742 - 91.728
@@ -59,7 +59,7 @@ pellets: 6
 fireRate: 61.6612
 adsSpread: 1.94253
 hipfireSpread: 1.94253
-reloadTime: 5.0875
+reloadTime: 4.85625
 magazineSize: 5
 recoilHipVertical: 131.67 - 155.232
 recoilAimVertical: 85.5162 - 100.901
@@ -72,7 +72,7 @@ pellets: 6
 fireRate: 55.7887
 adsSpread: 1.99821
 hipfireSpread: 1.99821
-reloadTime: 6.05
+reloadTime: 5.775
 magazineSize: 5
 recoilHipVertical: 134.663 - 158.76
 recoilAimVertical: 87.4598 - 103.194
@@ -85,7 +85,7 @@ pellets: 6
 fireRate: 61.6612
 adsSpread: 1.97148
 hipfireSpread: 1.97148
-reloadTime: 5.5
+reloadTime: 5.25
 magazineSize: 5
 recoilHipVertical: 155.61 - 183.456
 recoilAimVertical: 101.065 - 119.246
@@ -124,7 +124,7 @@ pellets: 6
 fireRate: 55.2015
 adsSpread: 1.97119
 hipfireSpread: 1.97119
-reloadTime: 6.6
+reloadTime: 6.3
 magazineSize: 5
 recoilHipVertical: 183.54 - 216.384
 recoilAimVertical: 119.204 - 140.65

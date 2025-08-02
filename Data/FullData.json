@@ -70,8 +70,9 @@
       "Category": "Assault Rifle",
       "Name": "Hex Spitter",
       "Damage": 7,
-      "Recoil": -5,
-      "Spread": 10
+      "Movement_Speed": 2,
+      "Spread": -16,
+      "Recoil": 19
     },
     {
       "Category": "Assault Rifle",
@@ -101,7 +102,7 @@
       "Name": "AR-8X",
       "Movement_Speed": 4,
       "Spread": -23,
-      "Reload_Speed": 12
+      "Reload_Speed": 8
     },
     {
       "Category": "Assault Rifle",
@@ -226,7 +227,7 @@
     {
       "Category": "Sniper",
       "Name": "Snake Sniper",
-      "Damage": 15,
+      "Damage": 18,
       "Fire_Rate": 3,
       "Health": -5,
       "Reload_Speed": 5,
@@ -245,10 +246,11 @@
       "Name": "Lightning Shot",
       "Damage": 35,
       "Range": 12,
-      "Spread": -35,
+      "Reload_Speed": -4,
+      "Spread": -25,
       "Detection_Radius": 35,
-      "Fire_Rate": -40,
-      "Movement_Speed": -10,
+      "Fire_Rate": -45,
+      "Movement_Speed": -6,
       "Recoil": 80
     },
     {
@@ -384,9 +386,21 @@
     {
       "Category": "SMG",
       "Name": "M1 Carbine",
+      "Damage": 5,
       "Movement_Speed": 2.5,
       "Range": 8,
-      "Recoil": -18
+      "Recoil": -18,
+      "Reload_Speed": 4,
+      "Spread": 14
+    },
+    {
+      "Category": "SMG",
+      "Name": "Uzi",
+      "Damage": 5,
+      "Fire_Rate": 9,
+      "Movement_Speed": 4,
+      "Spread": -15,
+      "Range": -8
     },
     {
       "Category": "LMG",
@@ -477,11 +491,11 @@
     {
       "Category": "Shotgun",
       "Name": "Spas-12",
-      "Fire_Rate": 10,
       "Damage": 5,
+      "Fire_Rate": 10,
       "Movement_Speed": -1.5,
-      "Spread": 45,
-      "Range": -13
+      "Spread": 15,
+      "Range": -7
     },
     {
       "Category": "Shotgun",
@@ -492,16 +506,16 @@
       "Detection_Radius": 10,
       "Fire_Rate": -13,
       "Pellets": -50,
-      "Reload_Speed": 10
+      "Reload_Speed": 5
     },
     {
       "Category": "Shotgun",
       "Name": "M1887",
-      "Damage": 5,
+      "Damage": 7,
       "Health": 5,
       "Movement_Speed": -5.5,
-      "Spread": 35,
-      "Range": -12
+      "Range": -6,
+      "Spread": 15
     },
     {
       "Category": "Shotgun",
@@ -516,31 +530,31 @@
       "Name": "M870 Breacher",
       "Damage": 20,
       "Movement_Speed": 3,
-      "Range": -25,
-      "Spread": 75
+      "Range": -10,
+      "Spread": 30
     },
     {
       "Category": "Shotgun",
       "Name": "M870 MCS",
-      "Damage": 10,
+      "Damage": 14,
       "Spread": -15,
-      "Range": -10,
+      "Range": -6,
       "Reload_Speed": 10
     },
     {
       "Category": "Shotgun",
       "Name": "M870",
       "Damage": 13,
-      "Range": -10,
+      "Range": -5,
       "Spread": 15
     },
     {
       "Category": "Shotgun",
       "Name": "Circuit Judge",
-      "Damage": 10,
+      "Damage": 14,
       "Reload_Speed": -15,
-      "Recoil": 15,
-      "Range": -12
+      "Range": -6,
+      "Recoil": 25
     },
     {
       "Category": "Shotgun",
@@ -548,8 +562,8 @@
       "Fire_Rate": 13,
       "Recoil": -10,
       "Spread": -10,
-      "Damage": -5,
-      "Range": -14
+      "Damage": -2.5,
+      "Range": -7
     },
     {
       "Category": "Shotgun",
@@ -558,16 +572,16 @@
       "Pellets": 100,
       "Fire_Rate": -34,
       "Range": -30,
-      "Spread": 80
+      "Spread": 60
     },
     {
       "Category": "Shotgun",
       "Name": "JSG12",
       "Movement_Speed": 3,
-      "Range": 20,
+      "Range": 15,
       "Recoil": 16,
       "Reload_Speed": 7,
-      "Spread": 37
+      "Spread": 24
     },
     {
       "Category": "Weird",
@@ -644,8 +658,9 @@
       "Category": "Weird",
       "Name": "Honk",
       "Damage": 300,
-      "Fire_Rate": -90,
+      "Range": 15,
       "Detection_Radius": 200,
+      "Fire_Rate": -93,
       "Recoil": 900,
       "Spread": 1200
     },
@@ -739,6 +754,16 @@
       "Range": 4,
       "Recoil": 32,
       "Spread": 12
+    },
+    {
+      "Category": "BR",
+      "Name": "G3",
+      "Damage": 12,
+      "Range": 13,
+      "Detection_Radius": 10,
+      "Fire_Rate": -2,
+      "Movement_Speed": -3,
+      "Recoil": 38
     }
   ],
   "Cores": [
@@ -1227,8 +1252,8 @@
       "Category": "Assault Rifle",
       "Name": "G11",
       "Damage": [
-        16,
-        12.4
+        17.5,
+        13.6
       ],
       "Dropoff_Studs": [
         180,
@@ -2188,8 +2213,8 @@
       "Category": "SMG",
       "Name": "M1 Carbine",
       "Damage": [
-        22,
-        13.2
+        24,
+        14.4
       ],
       "Dropoff_Studs": [
         145,
@@ -2216,6 +2241,40 @@
       "Recoil_Aim_Vertical": [
         4,
         4.8
+      ]
+    },
+    {
+      "Category": "SMG",
+      "Name": "Uzi",
+      "Damage": [
+        19,
+        10.5
+      ],
+      "Dropoff_Studs": [
+        135,
+        155
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 2,
+      "ADS_Spread": 0.55,
+      "Time_To_Aim": 0.25,
+      "Detection_Radius": 85,
+      "Movement_Speed_Modifier": 3.5,
+      "Recoil_Hip_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Hip_Vertical": [
+        25,
+        45
+      ],
+      "Recoil_Aim_Horizontal": [
+        -9,
+        9
+      ],
+      "Recoil_Aim_Vertical": [
+        18.8,
+        33.8
       ]
     },
     {
@@ -2914,8 +2973,8 @@
       "Category": "Weird",
       "Name": "Loaf",
       "Damage": [
-        17.5,
-        14
+        21,
+        16.8
       ],
       "Dropoff_Studs": [
         150,
@@ -2932,16 +2991,16 @@
         6
       ],
       "Recoil_Hip_Vertical": [
-        38,
-        47
+        5,
+        7
       ],
       "Recoil_Aim_Horizontal": [
         -4.8,
         4.8
       ],
       "Recoil_Aim_Vertical": [
-        30.4,
-        37.6
+        4,
+        5.6
       ]
     },
     {
@@ -3053,8 +3112,8 @@
       "Category": "BR",
       "Name": "Dragunov",
       "Damage": [
-        42,
-        24.2
+        39.5,
+        22.7
       ],
       "Dropoff_Studs": [
         140,
@@ -3062,12 +3121,12 @@
       ],
       "Fire_Rate": 480,
       "Hipfire_Spread": 9.5,
-      "ADS_Spread": 0.15,
+      "ADS_Spread": 0.2,
       "Time_To_Aim": 1,
       "Detection_Radius": 120,
       "Movement_Speed_Modifier": -7,
       "Suppression": 0.8,
-      "Health": 7,
+      "Health": 8,
       "Recoil_Hip_Horizontal": [
         -5,
         5
@@ -3222,6 +3281,41 @@
       "Recoil_Aim_Vertical": [
         62.3,
         81
+      ]
+    },
+    {
+      "Category": "BR",
+      "Name": "G3",
+      "Damage": [
+        26,
+        15.6
+      ],
+      "Dropoff_Studs": [
+        150,
+        475
+      ],
+      "Fire_Rate": 525,
+      "Hipfire_Spread": 8,
+      "ADS_Spread": 0.25,
+      "Time_To_Aim": 0.7,
+      "Detection_Radius": 150,
+      "Movement_Speed_Modifier": -7,
+      "Suppression": 0.3,
+      "Recoil_Hip_Horizontal": [
+        -38,
+        38
+      ],
+      "Recoil_Hip_Vertical": [
+        92,
+        108
+      ],
+      "Recoil_Aim_Horizontal": [
+        -32.3,
+        32.3
+      ],
+      "Recoil_Aim_Vertical": [
+        78.2,
+        91.8
       ]
     }
   ],
@@ -3404,9 +3498,9 @@
       "Category": "Sniper",
       "Name": "Snake Sniper",
       "Range": 10,
-      "Spread": -18,
+      "Spread": -24,
       "Movement_Speed": -1.5,
-      "Recoil": 16
+      "Recoil": 22
     },
     {
       "Category": "Sniper",
@@ -3525,15 +3619,16 @@
     {
       "Category": "SMG",
       "Name": "P90",
-      "Fire_Rate": 4,
+      "Fire_Rate": 7,
       "Recoil": -11,
       "Spread": 12
     },
     {
       "Category": "SMG",
       "Name": "M1 Carbine",
-      "Movement_Speed": 4,
-      "Reload_Speed": -10,
+      "Movement_Speed": 5,
+      "Reload_Speed": -12,
+      "Spread": -11,
       "Recoil": 29
     },
     {
@@ -3542,6 +3637,13 @@
       "Movement_Speed": 2,
       "Spread": -17,
       "Recoil": 28
+    },
+    {
+      "Category": "SMG",
+      "Name": "Uzi",
+      "Fire_Rate": 2,
+      "Movement_Speed": 7,
+      "Recoil": 23
     },
     {
       "Category": "LMG",
@@ -3751,8 +3853,16 @@
       "Category": "BR",
       "Name": "FG-42",
       "Fire_Rate": 4,
-      "Recoil": -8,
-      "Reload_Speed": 2
+      "Recoil": -14,
+      "Reload_Speed": 3
+    },
+    {
+      "Category": "BR",
+      "Name": "G3",
+      "Fire_Rate": 2,
+      "Reload_Speed": -9,
+      "Movement_Speed": -2,
+      "Recoil": 19
     }
   ],
   "Magazines": [
@@ -3850,11 +3960,11 @@
       "Name": "Hex Spitter",
       "Magazine_Size": 35,
       "Reload_Time": 4.2,
-      "Damage": 9,
+      "Damage": 12,
       "Pellets": 100,
-      "Spread": -13,
-      "Range": -14,
-      "Recoil": 38
+      "Range": -12,
+      "Recoil": 38,
+      "Spread": 6
     },
     {
       "Category": "Assault Rifle",
@@ -3889,17 +3999,17 @@
       "Category": "Assault Rifle",
       "Name": "AR-8X",
       "Magazine_Size": 30,
-      "Reload_Time": 2.6,
+      "Reload_Time": 2.4,
       "Movement_Speed": 1.5,
-      "Range": 8,
-      "Recoil": 12
+      "Range": 11,
+      "Recoil": 16
     },
     {
       "Category": "Assault Rifle",
       "Name": "G11",
       "Magazine_Size": 45,
       "Reload_Time": 4.5,
-      "Fire_Rate": 7,
+      "Fire_Rate": 9,
       "Spread": -13,
       "Movement_Speed": -3,
       "Recoil": 21
@@ -4015,7 +4125,8 @@
       "Name": "Snake Sniper",
       "Magazine_Size": 6,
       "Reload_Time": 5.5,
-      "Damage": 22,
+      "Damage": 25,
+      "Spread": -12,
       "Fire_Rate": -10,
       "Movement_Speed": -4,
       "Range": -5,
@@ -4194,8 +4305,9 @@
       "Name": "M1 Carbine",
       "Magazine_Size": 15,
       "Reload_Time": 2.8,
-      "Damage": 22,
+      "Damage": 26,
       "Movement_Speed": 3,
+      "Range": -13,
       "Recoil": 32
     },
     {
@@ -4207,6 +4319,16 @@
       "Fire_Rate": 3,
       "Range": -13,
       "Spread": 12
+    },
+    {
+      "Category": "SMG",
+      "Name": "Uzi",
+      "Magazine_Size": 32,
+      "Reload_Time": 2.8,
+      "Damage": 3,
+      "Fire_Rate": 0.7,
+      "Range": -9,
+      "Recoil": 28
     },
     {
       "Category": "LMG",
@@ -4576,6 +4698,17 @@
       "Spread": -11,
       "Movement_Speed": -2,
       "Recoil": 17
+    },
+    {
+      "Category": "BR",
+      "Name": "G3",
+      "Magazine_Size": 20,
+      "Reload_Time": 3,
+      "Damage": 15,
+      "Fire_Rate": 3,
+      "Detection_Radius": 10,
+      "Movement_Speed": -2,
+      "Recoil": 21
     }
   ],
   "Stocks": [
@@ -4757,7 +4890,7 @@
       "Category": "Sniper",
       "Name": "Snake Sniper",
       "Recoil": -40,
-      "Movement_Speed": -10,
+      "Movement_Speed": -8.5,
       "Reload_Speed": 6
     },
     {
@@ -4894,7 +5027,7 @@
     {
       "Category": "SMG",
       "Name": "M1 Carbine",
-      "Range": 2,
+      "Range": 5,
       "Spread": -19,
       "Movement_Speed": -2.5,
       "Recoil": 14
@@ -4906,6 +5039,14 @@
       "Reload_Speed": -18,
       "Spread": -12,
       "Recoil": 38
+    },
+    {
+      "Category": "SMG",
+      "Name": "Uzi",
+      "Movement_Speed": 7.5,
+      "Spread": -11,
+      "Recoil": 22,
+      "Reload_Speed": 4
     },
     {
       "Category": "LMG",
@@ -5137,9 +5278,10 @@
     {
       "Category": "BR",
       "Name": "Fedorov",
-      "Fire_Rate": 5,
+      "Fire_Rate": 7,
       "Recoil": -10,
-      "Reload_Speed": 20
+      "Movement_Speed": -2,
+      "Reload_Speed": 7
     },
     {
       "Category": "BR",
@@ -5158,9 +5300,16 @@
     {
       "Category": "BR",
       "Name": "FG-42",
-      "Fire_Rate": 4,
-      "Movement_Speed": 2,
+      "Fire_Rate": 5,
+      "Movement_Speed": 3,
       "Recoil": 13
+    },
+    {
+      "Category": "BR",
+      "Name": "G3",
+      "Recoil": -23,
+      "Movement_Speed": -7,
+      "Spread": 6
     }
   ]
 }

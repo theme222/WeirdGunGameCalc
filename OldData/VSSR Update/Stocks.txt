@@ -129,7 +129,7 @@ Reload_Speed: +7%
 ---
 Stock: Snake Sniper
 Recoil: -40%
-Movement_Speed: -8.5%
+Movement_Speed: -10%
 Reload_Speed: +6%
 ---
 Stock: Arisaka
@@ -233,7 +233,7 @@ Recoil: +12%
 Spread: -11%
 ---
 Stock: M1 Carbine
-Range: +5%
+Range: +2%
 Spread: -19%
 Movement_Speed: -2.5%
 Recoil: +14%
@@ -243,12 +243,6 @@ Movement_Speed: +6%
 Reload_Speed: -18%
 Spread: -12%
 Recoil: +38%
----
-Stock: Uzi
-Movement_Speed: +7.5%
-Spread: -11%
-Recoil: +22%
-Reload_Speed: +4%
 ---
 
 Category: LMG Stocks
@@ -430,10 +424,9 @@ Movement_Speed: -2%
 Reload_Speed: +10%
 ---
 Stock: Fedorov
-Fire_Rate: +7%
+Fire_Rate: +5%
 Recoil: -10%
-Movement_Speed: -2%
-Reload_Speed: +7%
+Reload_Speed: +20%
 ---
 Stock: M110
 Damage: +3%
@@ -446,12 +439,7 @@ Reload_Speed: -6%
 Recoil: +18%
 ---
 Stock: FG-42
-Fire_Rate: +5%
-Movement_Speed: +3%
+Fire_Rate: +4%
+Movement_Speed: +2%
 Recoil: +13%
----
-Stock: G3
-Recoil: -23%
-Movement_Speed: -7%
-Spread: +6%
 ---

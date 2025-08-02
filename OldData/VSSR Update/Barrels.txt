@@ -50,9 +50,8 @@ Range: +5%
 ---
 Barrel: Hex Spitter
 Damage: +7%
-Movement_Speed: +2%
-Spread: -16%
-Recoil: +19%
+Recoil: -5%
+Spread: +10%
 ---
 Barrel: C36C
 Damage: +3%
@@ -74,7 +73,7 @@ Reload_Speed: +8%
 Barrel: AR-8X
 Movement_Speed: +4%
 Spread: -23%
-Reload_Speed: +8%
+Reload_Speed: +12%
 ---
 Barrel: Freedom Dispenser
 Fire_Rate: +6%
@@ -172,7 +171,7 @@ Recoil: +200%
 Spread: +57%
 ---
 Barrel: Snake Sniper
-Damage: +18%
+Damage: +15%
 Fire_Rate: +3%
 Health: -5%
 Reload_Speed: +5%
@@ -187,11 +186,10 @@ Recoil: +38%
 Barrel: Lightning Shot
 Damage: +35%
 Range: +12%
-Reload_Speed: -4%
-Spread: -25%
+Spread: -35%
 Detection_Radius: +35%
-Fire_Rate: -45%
-Movement_Speed: -6%
+Fire_Rate: -40%
+Movement_Speed: -10%
 Recoil: +80%
 ---
 Barrel: VSSR
@@ -298,19 +296,9 @@ Range: -13%
 Recoil: +24%
 ---
 Barrel: M1 Carbine
-Damage: +5%
 Movement_Speed: +2.5%
 Range: +8%
 Recoil: -18%
-Reload_Speed: +4%
-Spread: +14%
----
-Barrel: Uzi
-Damage: +5%
-Fire_Rate: +9%
-Movement_Speed: +4%
-Spread: -15%
-Range: -8%
 ---
 
 Category: LMG Barrels
@@ -385,11 +373,11 @@ Range: +20%
 Category: Shotgun Barrels
 ---
 Barrel: Spas-12
-Damage: +5%
 Fire_Rate: +10%
+Damage: +5%
 Movement_Speed: -1.5%
-Spread: +15%
-Range: -7%
+Spread: +45%
+Range: -13%
 ---
 Barrel: M870 Wingmaster
 Damage: +13%
@@ -398,14 +386,14 @@ Spread: -5%
 Detection_Radius: +10%
 Fire_Rate: -13%
 Pellets: -50%
-Reload_Speed: +5%
+Reload_Speed: +10%
 ---
 Barrel: M1887
-Damage: +7%
+Damage: +5%
 Health: +5%
 Movement_Speed: -5.5%
-Range: -6%
-Spread: +15%
+Spread: +35%
+Range: -12%
 ---
 Barrel: M1897 Trench Shotgun
 Fire_Rate: +20%
@@ -416,46 +404,46 @@ Range: -24%
 Barrel: M870 Breacher
 Damage: +20%
 Movement_Speed: +3%
-Range: -10%
-Spread: +30%
+Range: -25%
+Spread: +75%
 ---
 Barrel: M870 MCS
-Damage: +14%
+Damage: +10%
 Spread: -15%
-Range: -6%
+Range: -10%
 Reload_Speed: +10%
 ---
 Barrel: M870
 Damage: +13%
-Range: -5%
+Range: -10%
 Spread: +15%
 ---
 Barrel: Circuit Judge
-Damage: +14%
+Damage: +10%
 Reload_Speed: -15%
-Range: -6%
-Recoil: +25%
+Recoil: +15%
+Range: -12%
 ---
 Barrel: Auto-5
 Fire_Rate: +13%
 Recoil: -10%
 Spread: -10%
-Damage: -2.5%
-Range: -7%
+Damage: -5%
+Range: -14%
 ---
 Barrel: Blunderbuss
 Damage: +45%
 Pellets: +100%
 Fire_Rate: -34%
 Range: -30%
-Spread: +60%
+Spread: +80%
 ---
 Barrel: JSG12
 Movement_Speed: +3%
-Range: +15%
+Range: +20%
 Recoil: +16%
 Reload_Speed: +7%
-Spread: +24%
+Spread: +37%
 ---
 
 Category: Weird Barrels
@@ -515,9 +503,8 @@ Spread: +45%
 ---
 Barrel: Honk
 Damage: +300%
-Range: +15%
-Detection_Radius: 200%
-Fire_Rate: -93%
+Fire_Rate: -90%
+Detection_Radius: 200
 Recoil: +900%
 Spread: +1200%
 ---
@@ -592,12 +579,4 @@ Fire_Rate: +4%
 Range: +4%
 Recoil: +32%
 Spread: +12%
----
-Barrel: G3
-Damage: +12%
-Range: +13%
-Detection_Radius: +10%
-Fire_Rate: -2%
-Movement_Speed: -3%
-Recoil: +38%
 ---

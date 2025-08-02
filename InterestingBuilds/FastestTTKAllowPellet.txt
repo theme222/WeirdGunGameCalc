@@ -1,17 +1,100 @@
 ./Calculator -o InterestingBuilds/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 --bc FC200SH M1 Carbine G11 
 Current top 10 guns are: 
-[ Barrel: Mas-38, Magazine: P90, Grip: Circuit Judge, Stock: FAL, Core: Type 2a Nambu ]
-damage: 25.1785 - 12.5381
-dropoffStuds: 152.145 - 168.446
-fireRate: 684
-adsSpread: 0.565562
-hipfireSpread: 3.77041
-reloadTime: 4
-magazineSize: 50
-recoilHipVertical: 37.5375 - 52.5525
-recoilAimVertical: 24.3243 - 34.084
-movementSpeed: 7.24
-TTK: 0.263158 Seconds
+[ Barrel: M870 MCS, Magazine: Mas-38, Grip: PPSh-41, Stock: FAL, Core: Hex Spitter ]
+damage: 25.1767 - 22.6967
+dropoffStuds: 151.332 - 302.665
+pellets: 2
+fireRate: 712.8
+adsSpread: 0.583449
+hipfireSpread: 2.04207
+reloadTime: 3.542
+magazineSize: 32
+recoilHipVertical: 49.53 - 66.04
+recoilAimVertical: 24.765 - 33.02
+movementSpeed: 2.96
+TTK: 0.252525 Seconds
+
+[ Barrel: M870 MCS, Magazine: DP-27, Grip: PPSh-41, Stock: FAL, Core: Hex Spitter ]
+damage: 25.4757 - 22.9805
+dropoffStuds: 152.139 - 304.278
+pellets: 2
+fireRate: 712.8
+adsSpread: 0.661773
+hipfireSpread: 2.31621
+reloadTime: 7.59
+magazineSize: 47
+recoilHipVertical: 43.68 - 58.24
+recoilAimVertical: 21.84 - 29.12
+movementSpeed: 0.16
+TTK: 0.252525 Seconds
+
+[ Barrel: M870 MCS, Magazine: Mas-38, Grip: PPSh-41, Stock: M1 Carbine, Core: Hex Spitter ]
+damage: 25.1767 - 22.6967
+dropoffStuds: 151.332 - 302.665
+pellets: 2
+fireRate: 712.8
+adsSpread: 0.630248
+hipfireSpread: 2.20587
+reloadTime: 3.542
+magazineSize: 32
+recoilHipVertical: 43.434 - 57.912
+recoilAimVertical: 21.717 - 28.956
+movementSpeed: 0.3
+TTK: 0.252525 Seconds
+
+[ Barrel: M870 MCS, Magazine: Rat - Emoji, Grip: Snake Sniper, Stock: MG42, Core: Hex Spitter ]
+damage: 25.1767 - 22.6948
+dropoffStuds: 150.87 - 301.74
+pellets: 2
+fireRate: 699.6
+adsSpread: 0.651441
+hipfireSpread: 2.28005
+reloadTime: 6.864
+magazineSize: 42
+recoilHipVertical: 45.384 - 60.512
+recoilAimVertical: 22.692 - 30.256
+movementSpeed: 1.125
+TTK: 0.25729 Seconds
+
+[ Barrel: M870 MCS, Magazine: Rat - Emoji, Grip: Snake Sniper, Stock: JSG12, Core: Hex Spitter ]
+damage: 25.1767 - 22.6948
+dropoffStuds: 150.87 - 301.74
+pellets: 2
+fireRate: 699.6
+adsSpread: 0.649471
+hipfireSpread: 2.27315
+reloadTime: 6.006
+magazineSize: 42
+recoilHipVertical: 45.384 - 60.512
+recoilAimVertical: 22.692 - 30.256
+movementSpeed: 1.5
+TTK: 0.25729 Seconds
+
+[ Barrel: G3, Magazine: Mas-38, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
+damage: 25.0903 - 12.5008
+dropoffStuds: 150.907 - 167.076
+fireRate: 692.076
+adsSpread: 0.458955
+hipfireSpread: 3.0597
+reloadTime: 3.22
+magazineSize: 32
+recoilHipVertical: 35.052 - 49.0728
+recoilAimVertical: 22.7137 - 31.8272
+movementSpeed: 7.8
+TTK: 0.260087 Seconds
+
+[ Barrel: M1 Carbine, Magazine: Rat - Emoji, Grip: PPSh-41, Stock: APS, Core: Type 2a Nambu ]
+damage: 25.0335 - 12.4214
+dropoffStuds: 151.2 - 167.4
+fireRate: 691.68
+adsSpread: 0.645202
+hipfireSpread: 4.30134
+reloadTime: 6.2192
+magazineSize: 42
+recoilHipVertical: 33.046 - 46.2644
+recoilAimVertical: 21.4138 - 30.0058
+movementSpeed: 6.5
+TTK: 0.260236 Seconds
 
 [ Barrel: Mas-38, Magazine: P90, Grip: Circuit Judge, Stock: M1Garand, Core: Type 2a Nambu ]
 damage: 25.1785 - 12.3548
@@ -26,113 +109,29 @@ recoilAimVertical: 16.8773 - 23.6491
 movementSpeed: 6.1
 TTK: 0.263158 Seconds
 
-[ Barrel: FC200SH, Magazine: FC200SH, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.1432 - 12.9164
-dropoffStuds: 155.68 - 172.36
-fireRate: 681.813
-adsSpread: 0.611724
-hipfireSpread: 4.07816
-reloadTime: 3.9744
-magazineSize: 30
-recoilHipVertical: 28.75 - 40.25
-recoilAimVertical: 18.63 - 26.105
-movementSpeed: 1.5
-TTK: 0.264002 Seconds
+[ Barrel: Mas-38, Magazine: P90, Grip: Circuit Judge, Stock: FAL, Core: Type 2a Nambu ]
+damage: 25.1785 - 12.5381
+dropoffStuds: 152.145 - 168.446
+fireRate: 684
+adsSpread: 0.565562
+hipfireSpread: 3.77041
+reloadTime: 4
+magazineSize: 50
+recoilHipVertical: 37.5375 - 52.5525
+recoilAimVertical: 24.3243 - 34.084
+movementSpeed: 7.24
+TTK: 0.263158 Seconds
 
-[ Barrel: MP 40, Magazine: MP 40, Grip: PPSh-41, Stock: AWM, Core: Hex Spitter ]
-damage: 25.68 - 23.112
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 677.16
-adsSpread: 0.689394
-hipfireSpread: 2.41288
-reloadTime: 2.57312
-magazineSize: 32
-recoilHipVertical: 45.54 - 60.72
-recoilAimVertical: 22.77 - 30.36
-movementSpeed: 2.56
-TTK: 0.265816 Seconds
-
-[ Barrel: Type 99, Magazine: MP 40, Grip: PPSh-41, Stock: UNP-40, Core: Hex Spitter ]
-damage: 25.2099 - 22.6889
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 677.16
-adsSpread: 0.667901
-hipfireSpread: 2.33765
-reloadTime: 3.01875
-magazineSize: 32
-recoilHipVertical: 41.4 - 55.2
-recoilAimVertical: 20.7 - 27.6
-movementSpeed: 1.04
-TTK: 0.265816 Seconds
-
-[ Barrel: M1Garand, Magazine: MP 40, Grip: PPSh-41, Stock: MG42, Core: Hex Spitter ]
-damage: 25.1159 - 22.6043
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 677.16
-adsSpread: 0.641561
-hipfireSpread: 2.24546
-reloadTime: 3.45
-magazineSize: 32
-recoilHipVertical: 34.5 - 46
-recoilAimVertical: 17.25 - 23
-movementSpeed: 2.625
-TTK: 0.265816 Seconds
-
-[ Barrel: Fedorov, Magazine: MP 40, Grip: PPSh-41, Stock: AWM, Core: Hex Spitter ]
-damage: 25.1159 - 22.6043
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 677.16
-adsSpread: 0.689394
-hipfireSpread: 2.41288
-reloadTime: 2.57312
-magazineSize: 32
-recoilHipVertical: 44.781 - 59.708
-recoilAimVertical: 22.3905 - 29.854
-movementSpeed: 2.8
-TTK: 0.265816 Seconds
-
-[ Barrel: M1Garand, Magazine: MP 40, Grip: PPSh-41, Stock: M40, Core: Hex Spitter ]
-damage: 25.1159 - 22.6043
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 677.16
-adsSpread: 0.678437
-hipfireSpread: 2.37453
-reloadTime: 2.875
-magazineSize: 32
-recoilHipVertical: 32.085 - 42.78
-recoilAimVertical: 16.0425 - 21.39
-TTK: 0.265816 Seconds
-
-[ Barrel: M1Garand, Magazine: MP 40, Grip: PPSh-41, Stock: FAL, Core: Hex Spitter ]
-damage: 25.1159 - 22.7047
-dropoffStuds: 156 - 312
-pellets: 2
-fireRate: 677.16
-adsSpread: 0.619435
-hipfireSpread: 2.16802
-reloadTime: 2.875
-magazineSize: 32
-recoilHipVertical: 44.85 - 59.8
-recoilAimVertical: 22.425 - 29.9
-movementSpeed: 0.16
-TTK: 0.265816 Seconds
-
-[ Barrel: Type 99, Magazine: MP 40, Grip: PPSh-41, Stock: JSG12, Core: Hex Spitter ]
-damage: 25.2099 - 22.6889
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 677.16
-adsSpread: 0.656742
-hipfireSpread: 2.2986
-reloadTime: 3.16969
-magazineSize: 32
-recoilHipVertical: 34.5 - 46
-recoilAimVertical: 17.25 - 23
-movementSpeed: 1
-TTK: 0.265816 Seconds
+[ Barrel: Mas-38, Magazine: P90, Grip: Circuit Judge, Stock: M1 Carbine, Core: Type 2a Nambu ]
+damage: 25.1785 - 12.7346
+dropoffStuds: 154.35 - 170.887
+fireRate: 684
+adsSpread: 0.564869
+hipfireSpread: 3.76579
+reloadTime: 4
+magazineSize: 50
+recoilHipVertical: 32.9175 - 46.0845
+recoilAimVertical: 21.3305 - 29.8891
+movementSpeed: 4.6
+TTK: 0.263158 Seconds
 

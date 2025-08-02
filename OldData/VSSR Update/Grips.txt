@@ -129,9 +129,9 @@ Spread: +40%
 ---
 Grip: Snake Sniper
 Range: +10%
-Spread: -24%
+Spread: -18%
 Movement_Speed: -1.5%
-Recoil: +22%
+Recoil: +16%
 ---
 Grip: Arisaka
 Movement_Speed: +8%
@@ -221,25 +221,19 @@ Reload_Speed: -10%
 Spread: +17%
 ---
 Grip: P90
-Fire_Rate: +7%
+Fire_Rate: +4%
 Recoil: -11%
 Spread: +12%
 ---
 Grip: M1 Carbine
-Movement_Speed: +5%
-Reload_Speed: -12%
-Spread: -11%
+Movement_Speed: +4%
+Reload_Speed: -10%
 Recoil: +29%
 ---
 Grip: Sten gun
 Movement_Speed: +2%
 Spread: -17%
 Recoil: +28%
----
-Grip: Uzi
-Fire_Rate: +2%
-Movement_Speed: +7%
-Recoil: +23%
 ---
 
 Category: LMG Grips
@@ -403,12 +397,6 @@ Recoil: +26%
 ---
 Grip: FG-42
 Fire_Rate: +4%
-Recoil: -14%
-Reload_Speed: +3%
----
-Grip: G3
-Fire_Rate: +2%
-Reload_Speed: -9%
-Movement_Speed: -2%
-Recoil: +19%
+Recoil: -8%
+Reload_Speed: +2%
 ---

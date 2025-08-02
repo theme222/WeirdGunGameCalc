@@ -1,141 +1,135 @@
-./Calculator -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.6 --recoilAimMax 30 --rangeMin 200 --pelletMax 1 --bc FC200SH M1 Carbine G11 
+./Calculator -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.6 --recoilAimMax 30 --rangeMin 200 --pelletMax 1 --bc FC200SH M1 Carbine G11 
 Current top 10 guns are: 
-[ Barrel: Type 99, Magazine: Type 99, Grip: PPSh-41, Stock: Arisaka, Core: Negev ]
-damage: 16.7443 - 12.453
-dropoffStuds: 205.2 - 410.4
-fireRate: 905.25
-adsSpread: 0.474472
-hipfireSpread: 4.74472
-reloadTime: 4.43756
-magazineSize: 30
-health: 7
-recoilHipVertical: 35 - 40
-recoilAimVertical: 21 - 24
-movementSpeed: 0.8
-TTK: 0.3314 Seconds
+[ Barrel: Snake Sniper, Magazine: Restroom, Grip: Circuit Judge, Stock: MAC-10, Core: QBZ-95 ]
+damage: 20.1371 - 16.8892
+dropoffStuds: 200 - 375
+fireRate: 756.296
+adsSpread: 0.498952
+hipfireSpread: 8.73166
+reloadTime: 3.045
+magazineSize: 35
+health: -5
+recoilHipVertical: 44.8 - 54.4
+recoilAimVertical: 24.64 - 29.92
+movementSpeed: 3.68
+TTK: 0.317336 Seconds
 
-[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Kriss Vector, Stock: MG42, Core: Negev ]
-damage: 17.3588 - 12.91
-dropoffStuds: 205.2 - 410.4
-fireRate: 893.031
-adsSpread: 0.579848
-hipfireSpread: 5.79848
-reloadTime: 4.41
-magazineSize: 30
-health: 10
-recoilHipVertical: 32.27 - 36.88
-recoilAimVertical: 19.362 - 22.128
-movementSpeed: 0.425
-TTK: 0.335935 Seconds
+[ Barrel: Snake Sniper, Magazine: Restroom, Grip: Circuit Judge, Stock: STG-44, Core: QBZ-95 ]
+damage: 20.1371 - 16.8892
+dropoffStuds: 200 - 375
+fireRate: 751.915
+adsSpread: 0.387598
+hipfireSpread: 6.78296
+reloadTime: 3.1668
+magazineSize: 35
+health: -5
+recoilHipVertical: 44.8 - 54.4
+recoilAimVertical: 24.64 - 29.92
+TTK: 0.319185 Seconds
 
-[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Arisaka, Stock: P90, Core: Negev ]
-damage: 17.3588 - 12.91
-dropoffStuds: 205.2 - 410.4
-fireRate: 893.031
-adsSpread: 0.574211
-hipfireSpread: 5.74211
-reloadTime: 3.675
-magazineSize: 30
-health: 4
-recoilHipVertical: 39.2 - 44.8
-recoilAimVertical: 23.52 - 26.88
-movementSpeed: 2.35
-TTK: 0.335935 Seconds
+[ Barrel: Snake Sniper, Magazine: Restroom, Grip: Circuit Judge, Stock: Mas-38, Core: QBZ-95 ]
+damage: 20.1371 - 16.8892
+dropoffStuds: 200 - 375
+fireRate: 730.015
+adsSpread: 0.430426
+hipfireSpread: 7.53246
+reloadTime: 2.8014
+magazineSize: 35
+health: -5
+recoilHipVertical: 39.0656 - 47.4368
+recoilAimVertical: 21.4861 - 26.0902
+movementSpeed: 2.64
+TTK: 0.32876 Seconds
 
-[ Barrel: M1891, Magazine: Graphics Card, Grip: Arisaka, Stock: Fedorov, Core: M60 ]
-damage: 20.4947 - 12.5808
-dropoffStuds: 202.768 - 394.864
-fireRate: 713.07
-adsSpread: 0.497063
-hipfireSpread: 4.26054
-reloadTime: 8.64
-magazineSize: 50
-health: 12
-recoilHipVertical: 38.7503 - 47.2049
-recoilAimVertical: 23.2502 - 28.3229
-movementSpeed: 1.4
-TTK: 0.336573 Seconds
+[ Barrel: Snake Sniper, Magazine: Restroom, Grip: Circuit Judge, Stock: Circuit Judge, Core: QBZ-95 ]
+damage: 20.1371 - 16.8892
+dropoffStuds: 200 - 375
+fireRate: 730.015
+adsSpread: 0.494669
+hipfireSpread: 8.65671
+reloadTime: 1.67475
+magazineSize: 35
+health: -5
+recoilHipVertical: 44.8 - 54.4
+recoilAimVertical: 24.64 - 29.92
+TTK: 0.32876 Seconds
 
-[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Arisaka, Stock: STG-44, Core: Negev ]
-damage: 17.3588 - 12.91
-dropoffStuds: 205.2 - 410.4
-fireRate: 889.984
-adsSpread: 0.572058
-hipfireSpread: 5.72058
-reloadTime: 3.822
-magazineSize: 30
-health: 4
-recoilHipVertical: 35 - 40
-recoilAimVertical: 21 - 24
-movementSpeed: 0.4
-TTK: 0.337085 Seconds
+[ Barrel: Snake Sniper, Magazine: Restroom, Grip: Circuit Judge, Stock: Willy Fischy, Core: QBZ-95 ]
+damage: 20.1371 - 16.8892
+dropoffStuds: 200 - 375
+fireRate: 730.015
+adsSpread: 0.430426
+hipfireSpread: 7.53246
+reloadTime: 2.89275
+magazineSize: 35
+health: -5
+recoilHipVertical: 40.32 - 48.96
+recoilAimVertical: 22.176 - 26.928
+TTK: 0.32876 Seconds
 
-[ Barrel: Dragunov, Magazine: P90, Grip: Snake Sniper, Stock: AR-8X, Core: Mas-38 ]
-damage: 16.9124 - 12.1509
-dropoffStuds: 201.765 - 239.595
-fireRate: 887.04
-adsSpread: 0.58278
-hipfireSpread: 3.23766
-reloadTime: 4
-magazineSize: 50
-recoilHipVertical: 15.8224 - 47.4672
-recoilAimVertical: 6.32896 - 18.9869
-movementSpeed: 0.4
-TTK: 0.338203 Seconds
+[ Barrel: Snake Sniper, Magazine: Restroom, Grip: Circuit Judge, Stock: As-Val, Core: QBZ-95 ]
+damage: 20.1371 - 16.8892
+dropoffStuds: 200 - 375
+fireRate: 730.015
+adsSpread: 0.430426
+hipfireSpread: 7.53246
+reloadTime: 2.7405
+magazineSize: 35
+health: -5
+recoilHipVertical: 40.32 - 48.96
+recoilAimVertical: 22.176 - 26.928
+TTK: 0.32876 Seconds
 
-[ Barrel: M1891, Magazine: Graphics Card, Grip: FG-42, Stock: Arisaka, Core: M60 ]
-damage: 20.4947 - 12.5808
-dropoffStuds: 202.768 - 394.864
-fireRate: 707.256
-adsSpread: 0.574855
-hipfireSpread: 4.92733
-reloadTime: 7.7112
-magazineSize: 50
-health: 10
-recoilHipVertical: 39.4702 - 48.0819
-recoilAimVertical: 23.6821 - 28.8491
-movementSpeed: 3.8
-TTK: 0.33934 Seconds
+[ Barrel: Snake Sniper, Magazine: Restroom, Grip: Circuit Judge, Stock: Scar L, Core: QBZ-95 ]
+damage: 20.1371 - 16.8892
+dropoffStuds: 200 - 375
+fireRate: 730.015
+adsSpread: 0.473255
+hipfireSpread: 8.28196
+reloadTime: 2.58825
+magazineSize: 35
+health: -5
+recoilHipVertical: 40.32 - 48.96
+recoilAimVertical: 22.176 - 26.928
+TTK: 0.32876 Seconds
 
-[ Barrel: DP-27, Magazine: Type 99, Grip: Auto-5, Stock: Arisaka, Core: Negev ]
-damage: 17.079 - 12.7019
-dropoffStuds: 205.2 - 410.4
-fireRate: 881.875
-adsSpread: 0.598138
-hipfireSpread: 5.98138
-reloadTime: 3.675
-magazineSize: 30
-health: 7
-recoilHipVertical: 40.7925 - 46.62
-recoilAimVertical: 24.4755 - 27.972
-movementSpeed: 1.8
-TTK: 0.340184 Seconds
+[ Barrel: Snake Sniper, Magazine: Restroom, Grip: Circuit Judge, Stock: M-16, Core: QBZ-95 ]
+damage: 20.1371 - 16.8892
+dropoffStuds: 200 - 375
+fireRate: 730.015
+adsSpread: 0.430426
+hipfireSpread: 7.53246
+reloadTime: 3.045
+magazineSize: 35
+health: -5
+recoilHipVertical: 38.08 - 46.24
+recoilAimVertical: 20.944 - 25.432
+TTK: 0.32876 Seconds
 
-[ Barrel: Type 99, Magazine: Type 99, Grip: Arisaka, Stock: M870 Breacher, Core: Negev ]
-damage: 16.7443 - 12.453
-dropoffStuds: 205.2 - 410.4
-fireRate: 881.875
-adsSpread: 0.547747
-hipfireSpread: 5.47747
-reloadTime: 3.12375
-magazineSize: 30
-health: 9
-recoilHipVertical: 40.25 - 46
-recoilAimVertical: 24.15 - 27.6
-movementSpeed: 2.15
-TTK: 0.340184 Seconds
+[ Barrel: Snake Sniper, Magazine: Restroom, Grip: Circuit Judge, Stock: Plunger, Core: QBZ-95 ]
+damage: 20.1371 - 16.8892
+dropoffStuds: 200 - 375
+fireRate: 730.015
+adsSpread: 0.494669
+hipfireSpread: 8.65671
+reloadTime: 3.654
+magazineSize: 35
+health: -5
+recoilHipVertical: 33.6 - 40.8
+recoilAimVertical: 18.48 - 22.44
+TTK: 0.32876 Seconds
 
-[ Barrel: Type 99, Magazine: Type 99, Grip: Arisaka, Stock: FG-42, Core: Negev ]
-damage: 16.7443 - 12.453
-dropoffStuds: 205.2 - 410.4
-fireRate: 878.9
-adsSpread: 0.438634
-hipfireSpread: 4.38634
-reloadTime: 3.675
-magazineSize: 30
-health: 9
-recoilHipVertical: 39.55 - 45.2
-recoilAimVertical: 23.73 - 27.12
-movementSpeed: 0.1
-TTK: 0.341336 Seconds
+[ Barrel: Snake Sniper, Magazine: Restroom, Grip: Circuit Judge, Stock: Type 2a Nambu, Core: QBZ-95 ]
+damage: 20.1371 - 16.8892
+dropoffStuds: 200 - 375
+fireRate: 730.015
+adsSpread: 0.385885
+hipfireSpread: 6.75299
+reloadTime: 3.045
+magazineSize: 35
+health: -5
+recoilHipVertical: 41.216 - 50.048
+recoilAimVertical: 22.6688 - 27.5264
+movementSpeed: 1.2
+TTK: 0.32876 Seconds
 

@@ -202,7 +202,7 @@ Recoil_Aim_Horizontal: -12.3 - 12.3
 Recoil_Aim_Vertical: 40.9 - 50.7
 ---
 Core: G11
-Damage: 17.5 > 13.6
+Damage: 16 > 12.4
 Dropoff_Studs: 180 > 380
 Fire_Rate: 850
 Hipfire_Spread: 5.5
@@ -609,7 +609,7 @@ Recoil_Aim_Horizontal: -9.7 - 9.7
 Recoil_Aim_Vertical: 13.8 - 17.5
 ---
 Core: M1 Carbine
-Damage: 24 > 14.4
+Damage: 22 > 13.2
 Dropoff_Studs: 145 > 170
 Fire_Rate: 775
 Hipfire_Spread: 5
@@ -621,20 +621,6 @@ Recoil_Hip_Horizontal: -4 - 4
 Recoil_Hip_Vertical: 10 - 12
 Recoil_Aim_Horizontal: -1.6 - 1.6
 Recoil_Aim_Vertical: 4 - 4.8
----
-Core: Uzi
-Damage: 19 > 10.5
-Dropoff_Studs: 135 > 155
-Fire_Rate: 600
-Hipfire_Spread: 2
-ADS_Spread: 0.55
-Time_To_Aim: 0.25
-Detection_Radius: 85
-Movement_Speed_Modifier: +3.5%
-Recoil_Hip_Horizontal: -12 - 12
-Recoil_Hip_Vertical: 25 - 45
-Recoil_Aim_Horizontal: -9 - 9
-Recoil_Aim_Vertical: 18.8 - 33.8
 ---
 
 Category: LMG
@@ -953,7 +939,7 @@ Detection_Radius: 100
 Movement_Speed_Modifier: -5%
 ---
 Core: Loaf
-Damage: 21 > 16.8
+Damage: 17.5 > 14
 Dropoff_Studs: 150 > 220
 Fire_Rate: 500
 Hipfire_Spread: 2
@@ -962,9 +948,9 @@ Time_To_Aim: 0.6
 Detection_Radius: 55
 Suppression: 0.8
 Recoil_Hip_Horizontal: -6 - 6
-Recoil_Hip_Vertical: 5 - 7
+Recoil_Hip_Vertical: 38 - 47
 Recoil_Aim_Horizontal: -4.8 - 4.8
-Recoil_Aim_Vertical: 4 - 5.6
+Recoil_Aim_Vertical: 30.4 - 37.6
 ---
 Core: Gaming Rig
 Damage: 16.5 > 13.2
@@ -1015,16 +1001,16 @@ Recoil_Aim_Horizontal: -28 - 28
 Recoil_Aim_Vertical: 88 - 112
 ---
 Core: Dragunov
-Damage: 39.5 > 22.7
+Damage: 42 > 24.2
 Dropoff_Studs: 140 > 600
 Fire_Rate: 480
 Hipfire_Spread: 9.5
-ADS_Spread: 0.2
+ADS_Spread: 0.15
 Time_To_Aim: 1
 Detection_Radius: 120
 Movement_Speed_Modifier: -7%
 Suppression: 0.8
-Health: +8%
+Health: +7%
 Recoil_Hip_Horizontal: -5 - 5
 Recoil_Hip_Vertical: 34 - 43
 Recoil_Aim_Horizontal: -3 - 3
@@ -1088,19 +1074,4 @@ Recoil_Hip_Horizontal: -18 - 18
 Recoil_Hip_Vertical: 83 - 108
 Recoil_Aim_Horizontal: -13.5 - 13.5
 Recoil_Aim_Vertical: 62.3 - 81
----
-Core: G3
-Damage: 26 > 15.6
-Dropoff_Studs: 150 > 475
-Fire_Rate: 525
-Hipfire_Spread: 8
-ADS_Spread: 0.25
-Time_To_Aim: 0.7
-Detection_Radius: 150
-Movement_Speed_Modifier: -7%
-Suppression: 0.3
-Recoil_Hip_Horizontal: -38 - 38
-Recoil_Hip_Vertical: 92 - 108
-Recoil_Aim_Horizontal: -32.3 - 32.3
-Recoil_Aim_Vertical: 78.2 - 91.8
 ---

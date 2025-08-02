@@ -72,11 +72,11 @@ Spread: +22%
 Magazine: Hex Spitter
 Magazine_Size: 35
 Reload_Time: 4.2
-Damage: +12%
+Damage: +9%
 Pellets: +100%
-Range: -12%
+Spread: -13%
+Range: -14%
 Recoil: +38%
-Spread: +6%
 ---
 Magazine: APS
 Magazine_Size: 26
@@ -103,15 +103,15 @@ Spread: +18%
 ---
 Magazine: AR-8X
 Magazine_Size: 30
-Reload_Time: 2.4
+Reload_Time: 2.6
 Movement_Speed: +1.5%
-Range: +11%
-Recoil: +16%
+Range: +8%
+Recoil: +12%
 ---
 Magazine: G11
 Magazine_Size: 45
 Reload_Time: 4.5
-Fire_Rate: +9%
+Fire_Rate: +7%
 Spread: -13%
 Movement_Speed: -3%
 Recoil: +21%
@@ -208,8 +208,7 @@ Spread: +185%
 Magazine: Snake Sniper
 Magazine_Size: 6
 Reload_Time: 5.5
-Damage: +25%
-Spread: -12%
+Damage: +22%
 Fire_Rate: -10%
 Movement_Speed: -4%
 Range: -5%
@@ -357,9 +356,8 @@ Range: +5%
 Magazine: M1 Carbine
 Magazine_Size: 15
 Reload_Time: 2.8
-Damage: +26%
+Damage: +22%
 Movement_Speed: +3%
-Range: -13%
 Recoil: +32%
 ---
 Magazine: Sten gun
@@ -369,14 +367,6 @@ Damage: +7%
 Fire_Rate: +3%
 Range: -13%
 Spread: +12%
----
-Magazine: Uzi
-Magazine_Size: 32
-Reload_Time: 2.8
-Damage: +3%
-Fire_Rate: +0.7%
-Range: -9%
-Recoil: +28%
 ---
 
 Category: LMG Magazines
@@ -688,13 +678,4 @@ Fire_Rate: +12%
 Spread: -11%
 Movement_Speed: -2%
 Recoil: +17%
----
-Magazine: G3
-Magazine_Size: 20
-Reload_Time: 3
-Damage: +15%
-Fire_Rate: +3%
-Detection_Radius: +10%
-Movement_Speed: -2%
-Recoil: +21%
 ---

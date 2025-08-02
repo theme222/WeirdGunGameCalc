@@ -1,142 +1,142 @@
 ./Calculator -o InterestingBuilds/FastestTTKBR.txt -i BR --speedMin -10 --spreadAimMax 0.6 --recoilAimMax 30 --magazineMin 20 --rangeMin 150 --pelletMax 1 
 Current top 10 guns are: 
-[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Fedorov, Core: Dragunov ]
-damage: 50.478 - 31.4382
+[ Barrel: Snake Sniper, Magazine: Scar H, Grip: M1891, Stock: Fedorov, Core: Dragunov ]
+damage: 57.2699 - 35.5914
 dropoffStuds: 155.4 - 666
-fireRate: 630
-adsSpread: 0.300187
-hipfireSpread: 19.0118
-reloadTime: 5.4
+fireRate: 571.466
+adsSpread: 0.319246
+hipfireSpread: 15.1642
+reloadTime: 5.81411
 magazineSize: 20
-health: 7
+health: 3
 recoilHipVertical: 38.25 - 48.375
 recoilAimVertical: 22.95 - 29.025
-movementSpeed: -7
-TTK: 0.0952381 Seconds
+movementSpeed: -5.6
+TTK: 0.104993 Seconds
 
-[ Barrel: Negev, Magazine: Fedorov, Grip: M1891, Stock: Fedorov, Core: Dragunov ]
-damage: 50.6982 - 31.1456
+[ Barrel: Snake Sniper, Magazine: Fedorov, Grip: M1891, Stock: Fedorov, Core: Dragunov ]
+damage: 54.9034 - 33.6537
 dropoffStuds: 152.6 - 654
-fireRate: 616.562
-adsSpread: 0.24937
-hipfireSpread: 15.7934
-reloadTime: 5.52
+fireRate: 571.466
+adsSpread: 0.319246
+hipfireSpread: 15.1642
+reloadTime: 5.1681
 magazineSize: 25
-health: 7
+health: 3
 recoilHipVertical: 37.638 - 47.601
 recoilAimVertical: 22.5828 - 28.5606
-movementSpeed: -8.1
-TTK: 0.0973138 Seconds
+movementSpeed: -5.6
+TTK: 0.104993 Seconds
 
-[ Barrel: Negev, Magazine: Scar H, Grip: M1891, Stock: Fedorov, Core: Dragunov ]
-damage: 52.8835 - 32.9363
-dropoffStuds: 155.4 - 666
-fireRate: 616.562
-adsSpread: 0.24937
-hipfireSpread: 15.7934
-reloadTime: 6.21
+[ Barrel: Snake Sniper, Magazine: FAL, Grip: M1891, Stock: Fedorov, Core: Dragunov ]
+damage: 52.5368 - 32.4265
+dropoffStuds: 154 - 660
+fireRate: 571.466
+adsSpread: 0.319246
+hipfireSpread: 15.1642
+reloadTime: 2.58405
 magazineSize: 20
-health: 7
+health: 3
+recoilHipVertical: 34.272 - 43.344
+recoilAimVertical: 20.5632 - 26.0064
+movementSpeed: -8.1
+TTK: 0.104993 Seconds
+
+[ Barrel: Snake Sniper, Magazine: FAL, Grip: M1891, Stock: AR-8X, Core: Dragunov ]
+damage: 52.5368 - 32.4265
+dropoffStuds: 154 - 660
+fireRate: 563.989
+adsSpread: 0.363718
+hipfireSpread: 17.2766
+reloadTime: 2.415
+magazineSize: 20
+health: 3
+recoilHipVertical: 38.08 - 48.16
+recoilAimVertical: 22.848 - 28.896
+movementSpeed: -8.1
+TTK: 0.106385 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Fedorov, Grip: PPSh-41, Stock: Fedorov, Core: Dragunov ]
+damage: 54.9034 - 33.6537
+dropoffStuds: 152.6 - 654
+fireRate: 563.566
+adsSpread: 0.228732
+hipfireSpread: 10.8648
+reloadTime: 5.1681
+magazineSize: 25
+health: 3
+recoilHipVertical: 37.638 - 47.601
+recoilAimVertical: 22.5828 - 28.5606
+movementSpeed: -9
+TTK: 0.106465 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Scar H, Grip: PPSh-41, Stock: Fedorov, Core: Dragunov ]
+damage: 57.2699 - 35.5914
+dropoffStuds: 155.4 - 666
+fireRate: 563.566
+adsSpread: 0.228732
+hipfireSpread: 10.8648
+reloadTime: 5.81411
+magazineSize: 20
+health: 3
 recoilHipVertical: 38.25 - 48.375
 recoilAimVertical: 22.95 - 29.025
-movementSpeed: -8.1
-TTK: 0.0973138 Seconds
+movementSpeed: -9
+TTK: 0.106465 Seconds
 
-[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: As-Val, Core: Dragunov ]
-damage: 50.478 - 31.4382
+[ Barrel: Snake Sniper, Magazine: Scar H, Grip: M1897 Trench Shotgun, Stock: Fedorov, Core: Dragunov ]
+damage: 57.2699 - 35.5914
 dropoffStuds: 155.4 - 666
-fireRate: 600
-adsSpread: 0.300187
-hipfireSpread: 19.0118
-reloadTime: 4.14
+fireRate: 558.299
+adsSpread: 0.331478
+hipfireSpread: 15.7452
+reloadTime: 5.56133
 magazineSize: 20
-health: 7
-recoilHipVertical: 39.1 - 49.45
-recoilAimVertical: 23.46 - 29.67
-movementSpeed: -7
-TTK: 0.1 Seconds
-
-[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Famas F1, Core: Dragunov ]
-damage: 50.478 - 31.4382
-dropoffStuds: 155.4 - 666
-fireRate: 600
-adsSpread: 0.300187
-hipfireSpread: 19.0118
-reloadTime: 4.815
-magazineSize: 20
-health: 7
-recoilHipVertical: 35.7 - 45.15
-recoilAimVertical: 21.42 - 27.09
-movementSpeed: -7
-TTK: 0.1 Seconds
-
-[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: Willy Fischy, Core: Dragunov ]
-damage: 50.478 - 31.4382
-dropoffStuds: 155.4 - 666
-fireRate: 600
-adsSpread: 0.300187
-hipfireSpread: 19.0118
-reloadTime: 4.275
-magazineSize: 20
-health: 7
+health: 3
 recoilHipVertical: 38.25 - 48.375
 recoilAimVertical: 22.95 - 29.025
-movementSpeed: -7
-TTK: 0.1 Seconds
+movementSpeed: -9
+TTK: 0.107469 Seconds
 
-[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: AK-12, Core: Dragunov ]
-damage: 50.478 - 31.4382
+[ Barrel: Snake Sniper, Magazine: Fedorov, Grip: M1897 Trench Shotgun, Stock: Fedorov, Core: Dragunov ]
+damage: 54.9034 - 33.6537
+dropoffStuds: 152.6 - 654
+fireRate: 558.299
+adsSpread: 0.331478
+hipfireSpread: 15.7452
+reloadTime: 4.9434
+magazineSize: 25
+health: 3
+recoilHipVertical: 37.638 - 47.601
+recoilAimVertical: 22.5828 - 28.5606
+movementSpeed: -9
+TTK: 0.107469 Seconds
+
+[ Barrel: Negev, Magazine: Scar H, Grip: APS, Stock: MAC-10, Core: Dragunov ]
+damage: 50.5236 - 31.3988
 dropoffStuds: 155.4 - 666
-fireRate: 600
-adsSpread: 0.321095
-hipfireSpread: 20.336
-reloadTime: 4.5
+fireRate: 558.248
+adsSpread: 0.296823
+hipfireSpread: 14.0991
+reloadTime: 4.77
 magazineSize: 20
-health: 7
-recoilHipVertical: 35.7 - 45.15
-recoilAimVertical: 21.42 - 27.09
-movementSpeed: -7.2
-TTK: 0.1 Seconds
+health: 8
+recoilHipVertical: 38.76 - 49.02
+recoilAimVertical: 23.256 - 29.412
+movementSpeed: -8.28
+TTK: 0.107479 Seconds
 
-[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: M-16, Core: Dragunov ]
-damage: 50.478 - 31.4382
+[ Barrel: Scar L, Magazine: Scar H, Grip: M1891, Stock: Fedorov, Core: Dragunov ]
+damage: 50.9175 - 31.6436
 dropoffStuds: 155.4 - 666
-fireRate: 600
-adsSpread: 0.300187
-hipfireSpread: 19.0118
-reloadTime: 4.5
+fireRate: 557.256
+adsSpread: 0.266259
+hipfireSpread: 12.6473
+reloadTime: 5.53725
 magazineSize: 20
-health: 7
-recoilHipVertical: 37.4 - 47.3
-recoilAimVertical: 22.44 - 28.38
-movementSpeed: -7
-TTK: 0.1 Seconds
-
-[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: M40, Core: Dragunov ]
-damage: 50.478 - 31.4382
-dropoffStuds: 155.4 - 666
-fireRate: 600
-adsSpread: 0.249409
-hipfireSpread: 15.7959
-reloadTime: 4.5
-magazineSize: 20
-health: 7
-recoilHipVertical: 38.8875 - 49.1813
-recoilAimVertical: 23.3325 - 29.5088
-movementSpeed: -7
-TTK: 0.1 Seconds
-
-[ Barrel: Mustard, Magazine: Scar H, Grip: Circuit Judge, Stock: M1Garand, Core: Dragunov ]
-damage: 50.478 - 32.0094
-dropoffStuds: 160.062 - 685.98
-fireRate: 600
-adsSpread: 0.300187
-hipfireSpread: 19.0118
-reloadTime: 4.5
-magazineSize: 20
-health: 7
-recoilHipVertical: 36.55 - 46.225
-recoilAimVertical: 21.93 - 27.735
-movementSpeed: -8
-TTK: 0.1 Seconds
+health: 8
+recoilHipVertical: 35.19 - 44.505
+recoilAimVertical: 21.114 - 26.703
+movementSpeed: -5.6
+TTK: 0.10767 Seconds
 

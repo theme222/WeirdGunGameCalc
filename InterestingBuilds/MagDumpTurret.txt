@@ -1,5 +1,60 @@
 ./Calculator -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --healthMin 10 --bc FC200SH M1 Carbine G11 
 Current top 10 guns are: 
+[ Barrel: M870 Breacher, Magazine: M60, Grip: M1891, Stock: Auto-5, Core: MG42 ]
+damage: 14.3418 - 7.7386
+dropoffStuds: 122.85 - 266.175
+fireRate: 1344.6
+adsSpread: 1.15241
+hipfireSpread: 11.5241
+reloadTime: 7.475
+magazineSize: 75
+health: 13
+recoilHipVertical: 64.66 - 92.72
+recoilAimVertical: 32.33 - 46.36
+movementSpeed: 2.7
+TTK: 0.267738 Seconds
+
+[ Barrel: M870 Breacher, Magazine: M60, Grip: M1891, Stock: MAC-10, Core: MG42 ]
+damage: 15.0888 - 8.14165
+dropoffStuds: 122.85 - 266.175
+fireRate: 1333.91
+adsSpread: 1.44362
+hipfireSpread: 14.4362
+reloadTime: 7.475
+magazineSize: 75
+health: 13
+recoilHipVertical: 64.66 - 92.72
+recoilAimVertical: 32.33 - 46.36
+movementSpeed: 1.94
+TTK: 0.269884 Seconds
+
+[ Barrel: Uzi, Magazine: XXL AKM, Grip: Mas-38, Stock: Taco, Core: Type 2a Nambu ]
+damage: 25.7548 - 9.45641
+dropoffStuds: 119.784 - 132.618
+fireRate: 658.578
+adsSpread: 0.400372
+hipfireSpread: 2.66915
+reloadTime: 9.9
+magazineSize: 90
+health: 10
+recoilHipVertical: 36 - 50.4
+recoilAimVertical: 23.328 - 32.688
+TTK: 0.273316 Seconds
+
+[ Barrel: Uzi, Magazine: XXL AKM, Grip: M1891, Stock: Taco, Core: Type 2a Nambu ]
+damage: 25.7548 - 10.5227
+dropoffStuds: 128.8 - 142.6
+fireRate: 658.578
+adsSpread: 0.611094
+hipfireSpread: 4.07396
+reloadTime: 11.385
+magazineSize: 90
+health: 10
+recoilHipVertical: 36 - 50.4
+recoilAimVertical: 23.328 - 32.688
+movementSpeed: 0.4
+TTK: 0.273316 Seconds
+
 [ Barrel: PP-19 Bizon, Magazine: M60, Grip: PPSh-41, Stock: Taco, Core: Type 2a Nambu ]
 damage: 25.2279 - 8.6634
 dropoffStuds: 114.66 - 126.945
@@ -28,6 +83,20 @@ recoilAimVertical: 25.3847 - 36.4007
 movementSpeed: 0.99
 TTK: 0.27431 Seconds
 
+[ Barrel: Kriss Vector, Magazine: M60, Grip: M1891, Stock: FG-42, Core: MG42 ]
+damage: 12.7474 - 6.87829
+dropoffStuds: 122.85 - 266.175
+fireRate: 1526.72
+adsSpread: 0.959063
+hipfireSpread: 9.59063
+reloadTime: 7.475
+magazineSize: 75
+health: 13
+recoilHipVertical: 65.9419 - 94.5582
+recoilAimVertical: 32.9709 - 47.2791
+movementSpeed: 1.395
+TTK: 0.275099 Seconds
+
 [ Barrel: Kriss Vector, Magazine: M60, Grip: M1891, Stock: M870 Breacher, Core: MG42 ]
 damage: 12.7474 - 6.87829
 dropoffStuds: 122.85 - 266.175
@@ -42,101 +111,31 @@ recoilAimVertical: 33.5545 - 48.1159
 movementSpeed: 2.595
 TTK: 0.276425 Seconds
 
-[ Barrel: Kriss Vector, Magazine: M60, Grip: M1891, Stock: FG-42, Core: MG42 ]
-damage: 12.7474 - 6.87829
-dropoffStuds: 122.85 - 266.175
-fireRate: 1514.27
-adsSpread: 0.959063
-hipfireSpread: 9.59063
-reloadTime: 7.475
-magazineSize: 75
-health: 13
-recoilHipVertical: 65.9419 - 94.5582
-recoilAimVertical: 32.9709 - 47.2791
-movementSpeed: 0.545
-TTK: 0.277361 Seconds
-
-[ Barrel: M870, Magazine: M60, Grip: M1891, Stock: Derpy - Staff, Core: MG42 ]
-damage: 14.4059 - 7.77317
+[ Barrel: M870 Breacher, Magazine: M60, Grip: M1891, Stock: Mas-38, Core: MG42 ]
+damage: 15.0888 - 8.14165
 dropoffStuds: 122.85 - 266.175
 fireRate: 1296
-adsSpread: 1.26672
-hipfireSpread: 12.6672
-reloadTime: 7.30681
+adsSpread: 1.24535
+hipfireSpread: 12.4535
+reloadTime: 6.98913
+magazineSize: 75
+health: 13
+recoilHipVertical: 57.9354 - 83.0771
+recoilAimVertical: 28.9677 - 41.5386
+movementSpeed: 1.095
+TTK: 0.277778 Seconds
+
+[ Barrel: M870 MCS, Magazine: M60, Grip: M1891, Stock: Derpy - Staff, Core: MG42 ]
+damage: 14.5034 - 8.06863
+dropoffStuds: 128.31 - 278.005
+fireRate: 1296
+adsSpread: 0.978826
+hipfireSpread: 9.78825
+reloadTime: 8.03749
 magazineSize: 75
 health: 13
 recoilHipVertical: 64.66 - 92.72
 recoilAimVertical: 32.33 - 46.36
 movementSpeed: 0.45
 TTK: 0.277778 Seconds
-
-[ Barrel: M870 Breacher, Magazine: M60, Grip: M1891, Stock: JSG12, Core: MG42 ]
-damage: 15.0888 - 7.19432
-dropoffStuds: 102.375 - 221.812
-fireRate: 1296
-adsSpread: 1.43731
-hipfireSpread: 14.3731
-reloadTime: 7.84875
-magazineSize: 75
-health: 13
-recoilHipVertical: 64.66 - 92.72
-recoilAimVertical: 32.33 - 46.36
-movementSpeed: 1.2
-TTK: 0.277778 Seconds
-
-[ Barrel: Tommy, Magazine: XXL AKM, Grip: M1891, Stock: Taco, Core: Type 2a Nambu ]
-damage: 26.2407 - 11.0086
-dropoffStuds: 131.6 - 145.7
-fireRate: 646.494
-adsSpread: 0.718304
-hipfireSpread: 4.78869
-reloadTime: 11.385
-magazineSize: 90
-health: 10
-recoilHipVertical: 45 - 63
-recoilAimVertical: 29.16 - 40.86
-movementSpeed: 0.2
-TTK: 0.278425 Seconds
-
-[ Barrel: Kriss Vector, Magazine: M60, Grip: M1891, Stock: MAC-10, Core: MG42 ]
-damage: 12.7474 - 6.87829
-dropoffStuds: 122.85 - 266.175
-fireRate: 1507.32
-adsSpread: 1.11175
-hipfireSpread: 11.1175
-reloadTime: 7.475
-magazineSize: 75
-health: 13
-recoilHipVertical: 58.3557 - 83.6798
-recoilAimVertical: 29.1778 - 41.8399
-movementSpeed: 1.835
-TTK: 0.278641 Seconds
-
-[ Barrel: Kriss Vector, Magazine: M60, Grip: M1891, Stock: P90, Core: MG42 ]
-damage: 12.7474 - 6.87829
-dropoffStuds: 122.85 - 266.175
-fireRate: 1502.56
-adsSpread: 0.890831
-hipfireSpread: 8.90831
-reloadTime: 7.475
-magazineSize: 75
-health: 13
-recoilHipVertical: 65.3583 - 93.7214
-recoilAimVertical: 32.6792 - 46.8607
-movementSpeed: 0.795
-TTK: 0.279524 Seconds
-
-[ Barrel: M1897 Trench Shotgun, Magazine: M60, Grip: M1891, Stock: Derpy - Staff, Core: MG42 ]
-damage: 13.1376 - 6.31901
-dropoffStuds: 103.74 - 224.77
-fireRate: 1490.4
-adsSpread: 1.34349
-hipfireSpread: 13.4349
-reloadTime: 6.704
-magazineSize: 75
-health: 13
-recoilHipVertical: 64.66 - 92.72
-recoilAimVertical: 32.33 - 46.36
-movementSpeed: 0.45
-TTK: 0.281804 Seconds
 
