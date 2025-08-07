@@ -14,6 +14,19 @@ recoilAimVertical: 21 - 24
 movementSpeed: 0.8
 TTK: 0.3314 Seconds
 
+[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Hell-Trooper-23, Stock: Auto-5, Core: Negev ]
+damage: 16.8499 - 12.5315
+dropoffStuds: 205.2 - 410.4
+fireRate: 903.04
+adsSpread: 0.572717
+hipfireSpread: 5.72717
+reloadTime: 3.53719
+magazineSize: 30
+health: 10
+recoilHipVertical: 35 - 40
+recoilAimVertical: 21 - 24
+TTK: 0.332211 Seconds
+
 [ Barrel: Snake Sniper, Magazine: Type 99, Grip: Arisaka, Stock: Auto-5, Core: Negev ]
 damage: 16.8499 - 12.5315
 dropoffStuds: 205.2 - 410.4
@@ -26,19 +39,6 @@ health: 4
 recoilHipVertical: 35 - 40
 recoilAimVertical: 21 - 24
 movementSpeed: 4.15
-TTK: 0.332211 Seconds
-
-[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Hell-Trooper-23, Stock: Auto-5, Core: Negev ]
-damage: 16.8499 - 12.5315
-dropoffStuds: 205.2 - 410.4
-fireRate: 903.04
-adsSpread: 0.572717
-hipfireSpread: 5.72717
-reloadTime: 3.53719
-magazineSize: 30
-health: 10
-recoilHipVertical: 35 - 40
-recoilAimVertical: 21 - 24
 TTK: 0.332211 Seconds
 
 [ Barrel: Snake Sniper, Magazine: Type 99, Grip: Kriss Vector, Stock: MG42, Core: Negev ]

@@ -691,6 +691,24 @@
       "Recoil": 25
     },
     {
+      "Category": "Weird",
+      "Name": "Dominus",
+      "Fire_Rate": 12,
+      "Movement_Speed": 5,
+      "Recoil": 24,
+      "Reload_Speed": 9,
+      "Spread": 9
+    },
+    {
+      "Category": "Weird",
+      "Name": "Lipstick",
+      "Damage": 3,
+      "Fire_Rate": 3,
+      "Movement_Speed": 5,
+      "Range": 3,
+      "Reload_Speed": 4
+    },
+    {
       "Category": "BR",
       "Name": "M1Garand",
       "Damage": 7,

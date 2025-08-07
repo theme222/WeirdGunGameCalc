@@ -541,6 +541,20 @@ Movement_Speed: -12%
 Pellets: -100%
 Recoil: +25%
 ---
+Barrel: Dominus
+Fire_Rate: +12%
+Movement_Speed: +5%
+Recoil: +24%
+Reload_Speed: +9%
+Spread: +9%
+---
+Barrel: Lipstick
+Damage: +3%
+Fire_Rate: +3%
+Movement_Speed: +5%
+Range: +3%
+Reload_Speed: +4%
+---
 
 Category: BR Barrels
 ---

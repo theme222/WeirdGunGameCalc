@@ -28,19 +28,6 @@ recoilAimVertical: 32.33 - 46.36
 movementSpeed: 1.94
 TTK: 0.269884 Seconds
 
-[ Barrel: Uzi, Magazine: XXL AKM, Grip: Mas-38, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.7548 - 9.45641
-dropoffStuds: 119.784 - 132.618
-fireRate: 658.578
-adsSpread: 0.400372
-hipfireSpread: 2.66915
-reloadTime: 9.9
-magazineSize: 90
-health: 10
-recoilHipVertical: 36 - 50.4
-recoilAimVertical: 23.328 - 32.688
-TTK: 0.273316 Seconds
-
 [ Barrel: Uzi, Magazine: XXL AKM, Grip: M1891, Stock: Taco, Core: Type 2a Nambu ]
 damage: 25.7548 - 10.5227
 dropoffStuds: 128.8 - 142.6
@@ -53,6 +40,19 @@ health: 10
 recoilHipVertical: 36 - 50.4
 recoilAimVertical: 23.328 - 32.688
 movementSpeed: 0.4
+TTK: 0.273316 Seconds
+
+[ Barrel: Uzi, Magazine: XXL AKM, Grip: Mas-38, Stock: Taco, Core: Type 2a Nambu ]
+damage: 25.7548 - 9.45641
+dropoffStuds: 119.784 - 132.618
+fireRate: 658.578
+adsSpread: 0.400372
+hipfireSpread: 2.66915
+reloadTime: 9.9
+magazineSize: 90
+health: 10
+recoilHipVertical: 36 - 50.4
+recoilAimVertical: 23.328 - 32.688
 TTK: 0.273316 Seconds
 
 [ Barrel: PP-19 Bizon, Magazine: M60, Grip: PPSh-41, Stock: Taco, Core: Type 2a Nambu ]
@@ -111,31 +111,31 @@ recoilAimVertical: 33.5545 - 48.1159
 movementSpeed: 2.595
 TTK: 0.276425 Seconds
 
-[ Barrel: M870 Breacher, Magazine: M60, Grip: M1891, Stock: NP5, Core: MG42 ]
-damage: 15.0888 - 8.14165
-dropoffStuds: 122.85 - 266.175
+[ Barrel: M870, Magazine: M60, Grip: M1891, Stock: Derpy - Staff, Core: MG42 ]
+damage: 14.4059 - 8.07466
+dropoffStuds: 129.675 - 280.962
 fireRate: 1296
-adsSpread: 1.41883
-hipfireSpread: 14.1883
-reloadTime: 7.03771
-magazineSize: 75
-health: 13
-recoilHipVertical: 59.6165 - 85.4878
-recoilAimVertical: 29.8083 - 42.7439
-movementSpeed: 0.575
-TTK: 0.277778 Seconds
-
-[ Barrel: M870 MCS, Magazine: M60, Grip: M1891, Stock: Derpy - Staff, Core: MG42 ]
-damage: 14.5034 - 8.06863
-dropoffStuds: 128.31 - 278.005
-fireRate: 1296
-adsSpread: 0.978826
-hipfireSpread: 9.78825
-reloadTime: 8.03749
+adsSpread: 1.26672
+hipfireSpread: 12.6672
+reloadTime: 7.30681
 magazineSize: 75
 health: 13
 recoilHipVertical: 64.66 - 92.72
 recoilAimVertical: 32.33 - 46.36
 movementSpeed: 0.45
+TTK: 0.277778 Seconds
+
+[ Barrel: M870 Breacher, Magazine: M60, Grip: M1891, Stock: AUG, Core: MG42 ]
+damage: 15.0888 - 7.72483
+dropoffStuds: 115.479 - 250.204
+fireRate: 1296
+adsSpread: 1.10595
+hipfireSpread: 11.0595
+reloadTime: 7.475
+magazineSize: 75
+health: 13
+recoilHipVertical: 64.66 - 92.72
+recoilAimVertical: 32.33 - 46.36
+movementSpeed: 0.825
 TTK: 0.277778 Seconds
 

@@ -1,18 +1,5 @@
 ./Calculator -o InterestingBuilds/LowRecoilBeam.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 45 --spreadAimMax 0.4 --rangeMin 150 --speedMin 0 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
-[ Barrel: AUG, Magazine: Graphics Card, Grip: PPSh-41, Stock: G11, Core: Mas-38 ]
-damage: 16.7407 - 10.4292
-dropoffStuds: 153.088 - 181.792
-fireRate: 877.8
-adsSpread: 0.382385
-hipfireSpread: 2.12436
-reloadTime: 6.43632
-magazineSize: 50
-recoilHipVertical: 5.67706 - 17.0312
-recoilAimVertical: 2.27082 - 6.81247
-movementSpeed: 2.1
-TTK: 0.341763 Seconds
-
 [ Barrel: AUG, Magazine: Graphics Card, Grip: PPSh-41, Stock: Tommy, Core: Mas-38 ]
 damage: 16.7407 - 10.4292
 dropoffStuds: 153.088 - 181.792
@@ -24,6 +11,19 @@ magazineSize: 50
 recoilHipVertical: 5.69184 - 17.0755
 recoilAimVertical: 2.27674 - 6.83021
 movementSpeed: 6.6
+TTK: 0.341763 Seconds
+
+[ Barrel: AUG, Magazine: Graphics Card, Grip: PPSh-41, Stock: G11, Core: Mas-38 ]
+damage: 16.7407 - 10.4292
+dropoffStuds: 153.088 - 181.792
+fireRate: 877.8
+adsSpread: 0.382385
+hipfireSpread: 2.12436
+reloadTime: 6.43632
+magazineSize: 50
+recoilHipVertical: 5.67706 - 17.0312
+recoilAimVertical: 2.27082 - 6.81247
+movementSpeed: 2.1
 TTK: 0.341763 Seconds
 
 [ Barrel: M-16, Magazine: Graphics Card, Grip: PPSh-41, Stock: Tommy, Core: Mas-38 ]
@@ -39,6 +39,19 @@ recoilAimVertical: 2.08701 - 6.26102
 movementSpeed: 4.6
 TTK: 0.341763 Seconds
 
+[ Barrel: Lipstick, Magazine: Graphics Card, Grip: Auto-5, Stock: Tommy, Core: Mas-38 ]
+damage: 17.4148 - 10.7807
+dropoffStuds: 151.616 - 180.044
+fireRate: 848.653
+adsSpread: 0.365713
+hipfireSpread: 2.03174
+reloadTime: 6.552
+magazineSize: 50
+recoilHipVertical: 5.54361 - 16.6308
+recoilAimVertical: 2.21745 - 6.65234
+movementSpeed: 9.6
+TTK: 0.353501 Seconds
+
 [ Barrel: AUG, Magazine: Graphics Card, Grip: M1Garand, Stock: Tommy, Core: Mas-38 ]
 damage: 16.7407 - 10.4292
 dropoffStuds: 153.088 - 181.792
@@ -51,20 +64,6 @@ recoilHipVertical: 5.69184 - 17.0755
 recoilAimVertical: 2.27674 - 6.83021
 movementSpeed: 3.6
 TTK: 0.356004 Seconds
-
-[ Barrel: Shower, Magazine: Graphics Card, Grip: PPSh-41, Stock: The Chief, Core: AUG ]
-damage: 15.3888 - 12.8671
-dropoffStuds: 156.4 - 276
-pellets: 2
-fireRate: 1004.66
-adsSpread: 0.38861
-hipfireSpread: 3.10888
-reloadTime: 7.7625
-magazineSize: 50
-recoilHipVertical: 12.705 - 15.8813
-recoilAimVertical: 3.8115 - 4.76438
-movementSpeed: 2.5
-TTK: 0.35833 Seconds
 
 [ Barrel: Shower, Magazine: Graphics Card, Grip: PPSh-41, Stock: AWM, Core: AUG ]
 damage: 15.3888 - 12.8671
@@ -108,6 +107,20 @@ recoilAimVertical: 4.5045 - 5.63062
 movementSpeed: 2.66
 TTK: 0.35833 Seconds
 
+[ Barrel: Shower, Magazine: Graphics Card, Grip: PPSh-41, Stock: The Chief, Core: AUG ]
+damage: 15.3888 - 12.8671
+dropoffStuds: 156.4 - 276
+pellets: 2
+fireRate: 1004.66
+adsSpread: 0.38861
+hipfireSpread: 3.10888
+reloadTime: 7.7625
+magazineSize: 50
+recoilHipVertical: 12.705 - 15.8813
+recoilAimVertical: 3.8115 - 4.76438
+movementSpeed: 2.5
+TTK: 0.35833 Seconds
+
 [ Barrel: M-16, Magazine: Graphics Card, Grip: PPSh-41, Stock: M870 MCS, Core: Mas-38 ]
 damage: 17.3417 - 10.967
 dropoffStuds: 156.621 - 185.987
@@ -118,19 +131,6 @@ reloadTime: 7.59
 magazineSize: 50
 recoilHipVertical: 5.6749 - 17.0247
 recoilAimVertical: 2.26996 - 6.80988
-movementSpeed: 4.1
-TTK: 0.359751 Seconds
-
-[ Barrel: AUG, Magazine: Graphics Card, Grip: PPSh-41, Stock: Dragunov, Core: Mas-38 ]
-damage: 16.7407 - 10.5617
-dropoffStuds: 156.303 - 185.61
-fireRate: 833.91
-adsSpread: 0.382385
-hipfireSpread: 2.12436
-reloadTime: 6.6792
-magazineSize: 50
-recoilHipVertical: 5.73619 - 17.2086
-recoilAimVertical: 2.29448 - 6.88343
 movementSpeed: 4.1
 TTK: 0.359751 Seconds
 

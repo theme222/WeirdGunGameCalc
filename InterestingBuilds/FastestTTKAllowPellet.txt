@@ -78,31 +78,46 @@ recoilAimVertical: 18.63 - 26.105
 movementSpeed: 1.5
 TTK: 0.264002 Seconds
 
-[ Barrel: Type 99, Magazine: MP 40, Grip: PPSh-41, Stock: UNP-40, Core: Hex Spitter ]
-damage: 25.2099 - 22.6889
-dropoffStuds: 150 - 300
+[ Barrel: M1Garand, Magazine: MP 40, Grip: PPSh-41, Stock: FAL, Core: Hex Spitter ]
+damage: 25.1159 - 22.7047
+dropoffStuds: 156 - 312
 pellets: 2
 fireRate: 677.16
-adsSpread: 0.667901
-hipfireSpread: 2.33765
-reloadTime: 3.01875
+adsSpread: 0.619435
+hipfireSpread: 2.16802
+reloadTime: 2.875
 magazineSize: 32
-recoilHipVertical: 41.4 - 55.2
-recoilAimVertical: 20.7 - 27.6
-movementSpeed: 1.04
+recoilHipVertical: 44.85 - 59.8
+recoilAimVertical: 22.425 - 29.9
+movementSpeed: 0.16
 TTK: 0.265816 Seconds
 
-[ Barrel: M1Garand, Magazine: MP 40, Grip: PPSh-41, Stock: M40, Core: Hex Spitter ]
+[ Barrel: Fedorov, Magazine: MP 40, Grip: PPSh-41, Stock: AWM, Core: Hex Spitter ]
 damage: 25.1159 - 22.6043
 dropoffStuds: 150 - 300
 pellets: 2
 fireRate: 677.16
-adsSpread: 0.678437
-hipfireSpread: 2.37453
+adsSpread: 0.689394
+hipfireSpread: 2.41288
+reloadTime: 2.57312
+magazineSize: 32
+recoilHipVertical: 44.781 - 59.708
+recoilAimVertical: 22.3905 - 29.854
+movementSpeed: 2.8
+TTK: 0.265816 Seconds
+
+[ Barrel: M1Garand, Magazine: MP 40, Grip: PPSh-41, Stock: UNP-40, Core: Hex Spitter ]
+damage: 25.1159 - 22.6043
+dropoffStuds: 150 - 300
+pellets: 2
+fireRate: 677.16
+adsSpread: 0.650489
+hipfireSpread: 2.27671
 reloadTime: 2.875
 magazineSize: 32
-recoilHipVertical: 32.085 - 42.78
-recoilAimVertical: 16.0425 - 21.39
+recoilHipVertical: 41.4 - 55.2
+recoilAimVertical: 20.7 - 27.6
+movementSpeed: 3.04
 TTK: 0.265816 Seconds
 
 [ Barrel: M1Garand, Magazine: MP 40, Grip: PPSh-41, Stock: The Chief, Core: Hex Spitter ]
@@ -116,19 +131,5 @@ reloadTime: 2.5875
 magazineSize: 32
 recoilHipVertical: 37.95 - 50.6
 recoilAimVertical: 18.975 - 25.3
-TTK: 0.265816 Seconds
-
-[ Barrel: M1Garand, Magazine: MP 40, Grip: PPSh-41, Stock: JSG12, Core: Hex Spitter ]
-damage: 25.1159 - 22.6043
-dropoffStuds: 150 - 300
-pellets: 2
-fireRate: 677.16
-adsSpread: 0.676496
-hipfireSpread: 2.36773
-reloadTime: 3.01875
-magazineSize: 32
-recoilHipVertical: 34.5 - 46
-recoilAimVertical: 17.25 - 23
-movementSpeed: 2.25
 TTK: 0.265816 Seconds
 
