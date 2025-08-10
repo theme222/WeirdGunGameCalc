@@ -2,7 +2,7 @@
 Current top 10 guns are: 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: Auto-5, Core: M870 ]
 damage: 145.988 - 26.9029
-dropoffStuds: 53.8312 - 107.662
+dropoffStuds: 53.8312 - 122.344
 pellets: 8
 fireRate: 78.5862
 adsSpread: 0.840993
@@ -15,7 +15,7 @@ movementSpeed: 3
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: JSG12, Core: M870 ]
 damage: 153.453 - 28.2785
-dropoffStuds: 53.8312 - 107.662
+dropoffStuds: 53.8312 - 122.344
 pellets: 8
 fireRate: 74.844
 adsSpread: 0.762329
@@ -28,7 +28,7 @@ movementSpeed: 1
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: UNP-40, Core: M870 ]
 damage: 153.453 - 28.2785
-dropoffStuds: 53.8312 - 107.662
+dropoffStuds: 53.8312 - 122.344
 pellets: 8
 fireRate: 74.844
 adsSpread: 0.803409
@@ -41,7 +41,7 @@ movementSpeed: 0.47
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: MG42, Core: M870 ]
 damage: 153.453 - 28.2785
-dropoffStuds: 53.8312 - 107.662
+dropoffStuds: 53.8312 - 122.344
 pellets: 8
 fireRate: 74.844
 adsSpread: 0.764514
@@ -54,7 +54,7 @@ movementSpeed: 0.625
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: JSG12, Stock: FAL, Core: M870 ]
 damage: 157.279 - 32.8324
-dropoffStuds: 55.4462 - 110.892
+dropoffStuds: 55.4462 - 126.014
 pellets: 8
 fireRate: 71.28
 adsSpread: 0.805053
@@ -67,7 +67,7 @@ movementSpeed: 1.12
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: JSG12, Stock: UNP-40, Core: M870 ]
 damage: 157.279 - 28.9835
-dropoffStuds: 53.8312 - 107.662
+dropoffStuds: 53.8312 - 122.344
 pellets: 8
 fireRate: 71.28
 adsSpread: 0.822045
@@ -80,7 +80,7 @@ movementSpeed: 3.47
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: JSG12, Stock: JSG12, Core: M870 ]
 damage: 157.279 - 28.9835
-dropoffStuds: 53.8312 - 107.662
+dropoffStuds: 53.8312 - 122.344
 pellets: 8
 fireRate: 71.28
 adsSpread: 0.780012
@@ -93,7 +93,7 @@ movementSpeed: 4
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: JSG12, Stock: The Chief, Core: M870 ]
 damage: 157.279 - 28.9835
-dropoffStuds: 53.8312 - 107.662
+dropoffStuds: 53.8312 - 122.344
 pellets: 8
 fireRate: 71.28
 adsSpread: 0.824728
@@ -106,7 +106,7 @@ movementSpeed: 1
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: Napo - Scissors, Stock: MG42, Core: M870 ]
 damage: 157.279 - 28.9835
-dropoffStuds: 53.8312 - 107.662
+dropoffStuds: 53.8312 - 122.344
 pellets: 8
 fireRate: 71.28
 adsSpread: 0.848752
@@ -119,7 +119,7 @@ movementSpeed: 0.625
 
 [ Barrel: Second Amendment, Magazine: AWM, Grip: JSG12, Stock: AWM, Core: M870 ]
 damage: 157.279 - 28.9835
-dropoffStuds: 53.8312 - 107.662
+dropoffStuds: 53.8312 - 122.344
 pellets: 8
 fireRate: 71.28
 adsSpread: 0.793427

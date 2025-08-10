@@ -1,5 +1,71 @@
 ./Calculator -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 
 Current top 10 guns are: 
+[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.4263 - 18.7187
+dropoffStuds: 130.5 - 153
+fireRate: 863.511
+adsSpread: 0.345869
+hipfireSpread: 5.76448
+reloadTime: 2.5
+magazineSize: 32
+health: -7.5
+recoilHipVertical: 21.5711 - 25.8854
+recoilAimVertical: 8.62845 - 10.3541
+movementSpeed: 2.5
+TTK: 0.138968 Seconds
+
+[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.5825 - 18.8062
+dropoffStuds: 130.5 - 153
+fireRate: 863.511
+adsSpread: 0.466321
+hipfireSpread: 7.77202
+reloadTime: 2.5
+magazineSize: 32
+recoilHipVertical: 17.5375 - 21.045
+recoilAimVertical: 7.015 - 8.418
+movementSpeed: 2.5
+TTK: 0.138968 Seconds
+
+[ Barrel: Snake Sniper, Magazine: MP 40, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.9733 - 20.384
+dropoffStuds: 145 - 170
+fireRate: 837.194
+adsSpread: 0.414699
+hipfireSpread: 6.91165
+reloadTime: 2.625
+magazineSize: 32
+health: -12.5
+recoilHipVertical: 17.2569 - 20.7083
+recoilAimVertical: 6.90276 - 8.28331
+TTK: 0.143336 Seconds
+
+[ Barrel: Snake Sniper, Magazine: MP 40, Grip: MP 40, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.6558 - 20.1935
+dropoffStuds: 145 - 170
+fireRate: 837.194
+adsSpread: 0.538489
+hipfireSpread: 8.97482
+reloadTime: 2.625
+magazineSize: 32
+health: -5
+recoilHipVertical: 18.239 - 21.8868
+recoilAimVertical: 7.2956 - 8.75472
+TTK: 0.143336 Seconds
+
+[ Barrel: Snake Sniper, Magazine: MP 40, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 34.132 - 20.4792
+dropoffStuds: 145 - 170
+fireRate: 837.194
+adsSpread: 0.559121
+hipfireSpread: 9.31869
+reloadTime: 2.625
+magazineSize: 32
+health: -5
+recoilHipVertical: 14.03 - 16.836
+recoilAimVertical: 5.612 - 6.7344
+TTK: 0.143336 Seconds
+
 [ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Type 2a Nambu, Stock: Kriss Vector, Core: M1 Carbine ]
 damage: 33.4263 - 17.9834
 dropoffStuds: 123.975 - 145.35
@@ -40,97 +106,28 @@ recoilHipVertical: 14.95 - 17.94
 recoilAimVertical: 5.98 - 7.176
 TTK: 0.145551 Seconds
 
-[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
-damage: 33.4263 - 18.7187
-dropoffStuds: 130.5 - 153
-fireRate: 823.312
-adsSpread: 0.345869
-hipfireSpread: 5.76448
-reloadTime: 2.5
-magazineSize: 32
-health: -7.5
-recoilHipVertical: 20.3334 - 24.4001
-recoilAimVertical: 8.13338 - 9.76005
-movementSpeed: 2.5
-TTK: 0.145753 Seconds
-
-[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
-damage: 33.5825 - 18.8062
-dropoffStuds: 130.5 - 153
-fireRate: 823.312
-adsSpread: 0.466321
-hipfireSpread: 7.77202
-reloadTime: 2.5
-magazineSize: 32
-recoilHipVertical: 16.5312 - 19.8375
-recoilAimVertical: 6.6125 - 7.935
-movementSpeed: 2.5
-TTK: 0.145753 Seconds
-
-[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Type 2a Nambu, Stock: Lee Enfield, Core: M1 Carbine ]
-damage: 33.4263 - 15.7772
-dropoffStuds: 104.4 - 122.4
-fireRate: 819.446
-adsSpread: 0.332089
-hipfireSpread: 5.53482
-reloadTime: 2.5
-magazineSize: 32
-health: -7.5
-recoilHipVertical: 24.7537 - 29.7045
-recoilAimVertical: 9.9015 - 11.8818
-movementSpeed: 2.5
-TTK: 0.14644 Seconds
-
-[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Circuit Judge, Stock: Lee Enfield, Core: M1 Carbine ]
-damage: 33.5825 - 15.8509
-dropoffStuds: 104.4 - 122.4
-fireRate: 819.446
-adsSpread: 0.447743
-hipfireSpread: 7.46238
-reloadTime: 2.5
-magazineSize: 32
-recoilHipVertical: 20.125 - 24.15
-recoilAimVertical: 8.05 - 9.66
-movementSpeed: 2.5
-TTK: 0.14644 Seconds
-
-[ Barrel: Snake Sniper, Magazine: MP 40, Grip: Lee Enfield, Stock: APS, Core: M1 Carbine ]
-damage: 33.5923 - 17.468
-dropoffStuds: 116 - 136
-fireRate: 816.958
-adsSpread: 0.559943
-hipfireSpread: 9.33239
-reloadTime: 2.625
+[ Barrel: Snake Sniper, Magazine: MP 40, Grip: M1897 Trench Shotgun, Stock: APS, Core: M1 Carbine ]
+damage: 33.5923 - 20.1554
+dropoffStuds: 145 - 170
+fireRate: 822.579
+adsSpread: 0.517036
+hipfireSpread: 8.61726
+reloadTime: 2.75625
 magazineSize: 32
 health: -5
 recoilHipVertical: 14.95 - 17.94
 recoilAimVertical: 5.98 - 7.176
-TTK: 0.146886 Seconds
+TTK: 0.145883 Seconds
 
-[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Type 2a Nambu, Stock: AR-8X, Core: M1 Carbine ]
-damage: 33.4263 - 18.7187
-dropoffStuds: 130.5 - 153
-fireRate: 816.354
-adsSpread: 0.315554
-hipfireSpread: 5.25923
-reloadTime: 2.5
+[ Barrel: Circuit Judge, Magazine: MP 40, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.613 - 19.3611
+dropoffStuds: 136.3 - 159.8
+fireRate: 822.391
+adsSpread: 0.466321
+hipfireSpread: 7.77202
+reloadTime: 2.25625
 magazineSize: 32
-health: -7.5
-recoilHipVertical: 17.6813 - 21.2175
-recoilAimVertical: 7.0725 - 8.487
-movementSpeed: 0.5
-TTK: 0.146995 Seconds
-
-[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Circuit Judge, Stock: AR-8X, Core: M1 Carbine ]
-damage: 33.5825 - 18.8062
-dropoffStuds: 130.5 - 153
-fireRate: 816.354
-adsSpread: 0.425448
-hipfireSpread: 7.0908
-reloadTime: 2.5
-magazineSize: 32
-recoilHipVertical: 14.375 - 17.25
-recoilAimVertical: 5.75 - 6.9
-movementSpeed: 0.5
-TTK: 0.146995 Seconds
+recoilHipVertical: 17.5375 - 21.045
+recoilAimVertical: 7.015 - 8.418
+TTK: 0.145916 Seconds
 

@@ -321,7 +321,7 @@ Recoil_Aim_Horizontal: -9 - 9
 Recoil_Aim_Vertical: 40 - 55
 ---
 Core: Hecate II
-Damage: 80 > 56
+Damage: 75 > 52.5
 Dropoff_Studs: 400 > 500
 Fire_Rate: 15
 Hipfire_Spread: 15
@@ -623,8 +623,8 @@ Recoil_Aim_Horizontal: -1.6 - 1.6
 Recoil_Aim_Vertical: 4 - 4.8
 ---
 Core: Uzi
-Damage: 19.2 > 10.6
-Dropoff_Studs: 140 > 175
+Damage: 19 > 10.5
+Dropoff_Studs: 135 > 155
 Fire_Rate: 600
 Hipfire_Spread: 2
 ADS_Spread: 0.55
@@ -768,28 +768,12 @@ Recoil_Hip_Vertical: 60 - 90
 Recoil_Aim_Horizontal: -15 - 15
 Recoil_Aim_Vertical: 36 - 54
 ---
-Core: Lewis
-Damage: 19 > 11.4
-Dropoff_Studs: 200 > 425
-Fire_Rate: 600
-Hipfire_Spread: 6
-ADS_Spread: 0.6
-Time_To_Aim: 1.25
-Detection_Radius: 155
-Movement_Speed_Modifier: -6%
-Suppression: 0.8
-Health: +14%
-Recoil_Hip_Horizontal: -12 - 12
-Recoil_Hip_Vertical: 70 - 97
-Recoil_Aim_Horizontal: -9 - 9
-Recoil_Aim_Vertical: 52.5 - 72.8
----
 
 Category: Shotgun
 ---
 Core: M1887
 Damage: 120 > 10
-Dropoff_Studs: 75 > 145
+Dropoff_Studs: 75 > 130
 Falloff_Factor: -0.85
 Pellets: 10
 Fire_Rate: 60
@@ -823,7 +807,7 @@ Recoil_Aim_Vertical: 16 - 24
 ---
 Core: M870
 Damage: 112 > 16
-Dropoff_Studs: 55 > 125
+Dropoff_Studs: 55 > 110
 Falloff_Factor: -0.825
 Pellets: 8
 Fire_Rate: 90
@@ -838,7 +822,7 @@ Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 20 - 32
 ---
 Core: Spas-12
-Damage: 114 > 6
+Damage: 108 > 6
 Dropoff_Studs: 50 > 115
 Pellets: 6
 Fire_Rate: 220
@@ -854,7 +838,7 @@ Recoil_Aim_Vertical: 20 - 32
 ---
 Core: Circuit Judge
 Damage: 120 > 24
-Dropoff_Studs: 85 > 140
+Dropoff_Studs: 85 > 125
 Falloff_Factor: -0.775
 Pellets: 8
 Fire_Rate: 60
@@ -996,20 +980,6 @@ Recoil_Hip_Vertical: 40 - 55
 Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 32 - 44
 ---
-Core: Mega Soaker
-Damage: 8.5 > 5.9
-Dropoff_Studs: 140 > 250
-Fire_Rate: 1400
-Hipfire_Spread: 4.5
-ADS_Spread: 0.5
-Time_To_Aim: 0.5
-Detection_Radius: 50
-Suppression: 0.3
-Recoil_Hip_Horizontal: -8 - 8
-Recoil_Hip_Vertical: 19 - 27
-Recoil_Aim_Horizontal: -6 - 6
-Recoil_Aim_Vertical: 14.3 - 20.3
----
 
 Category: BR
 ---
@@ -1079,7 +1049,7 @@ Damage: 48 > 28.8
 Dropoff_Studs: 120 > 400
 Fire_Rate: 150
 Hipfire_Spread: 5
-ADS_Spread: 0.3
+ADS_Spread: 0.45
 Time_To_Aim: 0.7
 Detection_Radius: 120
 Movement_Speed_Modifier: -5%

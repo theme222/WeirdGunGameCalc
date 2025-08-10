@@ -190,7 +190,7 @@ Stock: PPSh-41
 Reload_Speed: -25%
 Spread: -10%
 Movement_Speed: -2%
-Recoil: +27%
+Recoil: +10%
 ---
 Stock: Kriss Vector
 Fire_Rate: +7%
@@ -239,8 +239,8 @@ Movement_Speed: -2.5%
 Recoil: +14%
 ---
 Stock: Sten gun
-Fire_Rate: +2%
 Movement_Speed: +6%
+Reload_Speed: -18%
 Spread: -12%
 Recoil: +38%
 ---
@@ -262,8 +262,7 @@ Spread: +5%
 Stock: DP-27
 Recoil: -20%
 Spread: -24%
-Fire_Rate: -7%
-Movement_Speed: -3.5%
+Fire_Rate: -15%
 ---
 Stock: M1919 .30 Cal
 Recoil: -32%
@@ -288,20 +287,13 @@ Movement_Speed: -5%
 ---
 Stock: Negev
 Recoil: -20%
-Movement_Speed: -3%
-Reload_Speed: +8%
+Reload_Speed: +15%
 ---
 Stock: Chauchat
 Recoil: -25%
 Reload_Speed: -10%
 Movement_Speed: -3%
 Spread: +10%
----
-Stock: Lewis
-Recoil: -28%
-Movement_Speed: -7.5%
-Reload_Speed: +8%
-Spread: +6%
 ---
 
 Category: Shotgun Stocks
@@ -338,8 +330,8 @@ Movement_Speed: -5.5%
 Spread: +15%
 ---
 Stock: M1897 Trench Shotgun
-Fire_Rate: +18%
-Recoil: +22%
+Fire_Rate: +10%
+Recoil: +15%
 Spread: +25%
 ---
 Stock: M870
@@ -398,10 +390,10 @@ Health: -10%
 Spread: +250%
 ---
 Stock: Anvil
-Recoil: -80%
-Spread: -30%
+Recoil: -90%
+Spread: -45%
 Movement_Speed: -40%
-Reload_Speed: +15%
+Reload_Speed: +20%
 ---
 Stock: Taco
 Damage: +5%
@@ -415,12 +407,6 @@ Spread: +20%
 Stock: Keyboard
 Recoil: -16%
 Range: -5%
----
-Stock: Mega Soaker
-Movement_Speed: +8%
-Range: -2%
-Recoil: +35%
-Spread: +25%
 ---
 
 Category: BR Stocks

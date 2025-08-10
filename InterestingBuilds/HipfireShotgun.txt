@@ -26,19 +26,6 @@ recoilHipVertical: 89.775 - 105.84
 recoilAimVertical: 58.3065 - 68.796
 movementSpeed: 2.5
 
-[ Barrel: M870 Wingmaster, Magazine: AWM, Grip: Auto-5, Stock: DP-27, Core: JSG12 ]
-damage: 197.132 - 62.3823
-dropoffStuds: 66.2063 - 132.413
-pellets: 6
-fireRate: 52.4121
-adsSpread: 1.93139
-hipfireSpread: 1.93139
-reloadTime: 5.25
-magazineSize: 5
-recoilHipVertical: 101.745 - 119.952
-recoilAimVertical: 66.0807 - 77.9688
-movementSpeed: 2.5
-
 [ Barrel: M870 Wingmaster, Magazine: AWM, Grip: Auto-5, Stock: M870, Core: JSG12 ]
 damage: 197.132 - 62.3823
 dropoffStuds: 66.2063 - 132.413
@@ -91,19 +78,6 @@ recoilHipVertical: 121.837 - 143.64
 recoilAimVertical: 79.1302 - 93.366
 movementSpeed: 0.5
 
-[ Barrel: Second Amendment, Magazine: STG-44, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
-damage: 202.096 - 10.2665
-dropoffStuds: 47.85 - 95.7
-pellets: 12
-fireRate: 60.5682
-adsSpread: 1.91125
-hipfireSpread: 1.91125
-reloadTime: 3.19
-magazineSize: 30
-recoilHipVertical: 121.837 - 143.64
-recoilAimVertical: 79.1302 - 93.366
-movementSpeed: 0.5
-
 [ Barrel: Second Amendment, Magazine: AUG, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
 damage: 189.336 - -8.35349
 dropoffStuds: 43.065 - 86.13
@@ -129,4 +103,30 @@ magazineSize: 30
 recoilHipVertical: 121.837 - 143.64
 recoilAimVertical: 79.1302 - 93.366
 movementSpeed: 1.475
+
+[ Barrel: Second Amendment, Magazine: STG-44, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
+damage: 202.096 - 10.2665
+dropoffStuds: 47.85 - 95.7
+pellets: 12
+fireRate: 60.5682
+adsSpread: 1.91125
+hipfireSpread: 1.91125
+reloadTime: 3.19
+magazineSize: 30
+recoilHipVertical: 121.837 - 143.64
+recoilAimVertical: 79.1302 - 93.366
+movementSpeed: 0.5
+
+[ Barrel: Second Amendment, Magazine: M1Garand, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
+damage: 213.398 - 26.6401
+dropoffStuds: 51.5823 - 103.165
+pellets: 12
+fireRate: 62.5432
+adsSpread: 1.97058
+hipfireSpread: 1.97058
+reloadTime: 4.4
+magazineSize: 8
+recoilHipVertical: 121.837 - 143.64
+recoilAimVertical: 79.1302 - 93.366
+movementSpeed: 0.5
 

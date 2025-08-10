@@ -1,142 +1,142 @@
-./Calculator -o InterestingBuilds/FastestTTKBR.txt -i BR --speedMin -10 --spreadAimMax 0.6 --recoilAimMax 30 --magazineMin 20 --rangeMin 150 --pelletMax 1 
+./Calculator -o InterestingBuilds/FastestTTKBR.txt -i BR --speedMin -10 --spreadAimMax 0.6 --recoilAimMax 7.5 --magazineMin 20 --rangeMin 150 --pelletMax 1 
 Current top 10 guns are: 
-[ Barrel: Lipstick, Magazine: Scar H, Grip: M1891, Stock: Fedorov, Core: Dragunov ]
-damage: 51.213 - 32.4088
-dropoffStuds: 160.062 - 685.98
-fireRate: 573.974
-adsSpread: 0.266259
-hipfireSpread: 12.6473
-reloadTime: 5.75874
+[ Barrel: VSSR, Magazine: BAR, Grip: Circuit Judge, Stock: Plunger, Core: SKS ]
+damage: 50.3857 - 35.7284
+dropoffStuds: 169.683 - 522.102
+fireRate: 376.2
+adsSpread: 0.349338
+hipfireSpread: 6.98676
+reloadTime: 5.28
 magazineSize: 20
-health: 8
-recoilHipVertical: 38.25 - 48.375
-recoilAimVertical: 22.95 - 29.025
-movementSpeed: -0.6
-TTK: 0.104534 Seconds
+health: 5
+recoilHipVertical: 12.573 - 13.8303
+recoilAimVertical: 6.2865 - 6.91515
+movementSpeed: -7.5
+TTK: 0.15949 Seconds
 
-[ Barrel: Snake Sniper, Magazine: Fedorov, Grip: M1891, Stock: Fedorov, Core: Dragunov ]
-damage: 54.9034 - 33.6537
-dropoffStuds: 152.6 - 654
-fireRate: 571.466
-adsSpread: 0.319246
-hipfireSpread: 15.1642
-reloadTime: 5.1681
-magazineSize: 25
-health: 3
-recoilHipVertical: 37.638 - 47.601
-recoilAimVertical: 22.5828 - 28.5606
-movementSpeed: -5.6
-TTK: 0.104993 Seconds
-
-[ Barrel: Snake Sniper, Magazine: FAL, Grip: M1891, Stock: Fedorov, Core: Dragunov ]
-damage: 52.5368 - 32.4265
-dropoffStuds: 154 - 660
-fireRate: 571.466
-adsSpread: 0.319246
-hipfireSpread: 15.1642
-reloadTime: 2.58405
+[ Barrel: VSSR, Magazine: BAR, Grip: Circuit Judge, Stock: VSSR, Core: SKS ]
+damage: 50.3857 - 35.9776
+dropoffStuds: 172.568 - 530.978
+fireRate: 376.2
+adsSpread: 0.340264
+hipfireSpread: 6.80528
+reloadTime: 4.4
 magazineSize: 20
-health: 3
-recoilHipVertical: 34.272 - 43.344
-recoilAimVertical: 20.5632 - 26.0064
-movementSpeed: -8.1
-TTK: 0.104993 Seconds
+health: 5
+recoilHipVertical: 12.4892 - 13.7381
+recoilAimVertical: 6.24459 - 6.86905
+movementSpeed: -9.5
+TTK: 0.15949 Seconds
 
-[ Barrel: Snake Sniper, Magazine: Scar H, Grip: M1891, Stock: Fedorov, Core: Dragunov ]
-damage: 57.2699 - 35.5914
-dropoffStuds: 155.4 - 666
-fireRate: 571.466
-adsSpread: 0.319246
-hipfireSpread: 15.1642
-reloadTime: 5.81411
+[ Barrel: M110, Magazine: Scar H, Grip: Tap, Stock: M110, Core: SKS ]
+damage: 50.5262 - 33.4382
+dropoffStuds: 151.515 - 466.2
+fireRate: 375.488
+adsSpread: 0.310689
+hipfireSpread: 6.21378
+reloadTime: 4.95
 magazineSize: 20
-health: 3
-recoilHipVertical: 38.25 - 48.375
-recoilAimVertical: 22.95 - 29.025
-movementSpeed: -5.6
-TTK: 0.104993 Seconds
+health: 5
+recoilHipVertical: 13.083 - 14.3913
+recoilAimVertical: 6.5415 - 7.19565
+movementSpeed: -5
+TTK: 0.159792 Seconds
 
-[ Barrel: Lipstick, Magazine: Scar H, Grip: M1Garand, Stock: Fedorov, Core: Dragunov ]
-damage: 51.213 - 32.4088
-dropoffStuds: 160.062 - 685.98
-fireRate: 571.329
-adsSpread: 0.20505
-hipfireSpread: 9.73989
-reloadTime: 5.0076
+[ Barrel: M110, Magazine: BAR, Grip: APS, Stock: Lewis, Core: SKS ]
+damage: 50.361 - 35.2904
+dropoffStuds: 165.506 - 509.25
+fireRate: 363.375
+adsSpread: 0.314985
+hipfireSpread: 6.2997
+reloadTime: 4.5792
 magazineSize: 20
-health: 8
-recoilHipVertical: 38.25 - 48.375
-recoilAimVertical: 22.95 - 29.025
-movementSpeed: -7
-TTK: 0.105018 Seconds
+health: 5
+recoilHipVertical: 13.607 - 14.9677
+recoilAimVertical: 6.8035 - 7.48385
+movementSpeed: -8
+TTK: 0.165119 Seconds
 
-[ Barrel: Lipstick, Magazine: Scar H, Grip: PPSh-41, Stock: Fedorov, Core: Dragunov ]
-damage: 51.213 - 32.4088
-dropoffStuds: 160.062 - 685.98
-fireRate: 566.039
-adsSpread: 0.190768
-hipfireSpread: 9.06149
-reloadTime: 5.75874
+[ Barrel: M110, Magazine: BAR, Grip: APS, Stock: VSSR, Core: SKS ]
+damage: 50.361 - 35.5466
+dropoffStuds: 168.32 - 517.907
+fireRate: 363.375
+adsSpread: 0.332731
+hipfireSpread: 6.65461
+reloadTime: 4.24
 magazineSize: 20
-health: 8
-recoilHipVertical: 38.25 - 48.375
-recoilAimVertical: 22.95 - 29.025
-movementSpeed: -4
-TTK: 0.106 Seconds
+health: 5
+recoilHipVertical: 13.3034 - 14.6338
+recoilAimVertical: 6.65172 - 7.31689
+movementSpeed: -2.5
+TTK: 0.165119 Seconds
 
-[ Barrel: Snake Sniper, Magazine: FAL, Grip: M1891, Stock: AR-8X, Core: Dragunov ]
-damage: 52.5368 - 32.4265
-dropoffStuds: 154 - 660
-fireRate: 563.989
-adsSpread: 0.363718
-hipfireSpread: 17.2766
-reloadTime: 2.415
+[ Barrel: M110, Magazine: BAR, Grip: APS, Stock: Plunger, Core: SKS ]
+damage: 50.361 - 35.2904
+dropoffStuds: 165.506 - 509.25
+fireRate: 363.375
+adsSpread: 0.341603
+hipfireSpread: 6.83207
+reloadTime: 5.088
 magazineSize: 20
-health: 3
-recoilHipVertical: 38.08 - 48.16
-recoilAimVertical: 22.848 - 28.896
-movementSpeed: -8.1
-TTK: 0.106385 Seconds
+health: 5
+recoilHipVertical: 13.3927 - 14.732
+recoilAimVertical: 6.69636 - 7.366
+movementSpeed: -0.5
+TTK: 0.165119 Seconds
 
-[ Barrel: Snake Sniper, Magazine: Scar H, Grip: PPSh-41, Stock: Fedorov, Core: Dragunov ]
-damage: 57.2699 - 35.5914
-dropoffStuds: 155.4 - 666
-fireRate: 563.566
-adsSpread: 0.228732
-hipfireSpread: 10.8648
-reloadTime: 5.81411
+[ Barrel: M110, Magazine: BAR, Grip: APS, Stock: Snake Sniper, Core: SKS ]
+damage: 50.361 - 35.2904
+dropoffStuds: 165.506 - 509.25
+fireRate: 363.375
+adsSpread: 0.297239
+hipfireSpread: 5.94479
+reloadTime: 4.4944
 magazineSize: 20
-health: 3
-recoilHipVertical: 38.25 - 48.375
-recoilAimVertical: 22.95 - 29.025
+health: 5
+recoilHipVertical: 11.7856 - 12.9642
+recoilAimVertical: 5.8928 - 6.48208
 movementSpeed: -9
-TTK: 0.106465 Seconds
+TTK: 0.165119 Seconds
 
-[ Barrel: Snake Sniper, Magazine: Fedorov, Grip: PPSh-41, Stock: Fedorov, Core: Dragunov ]
-damage: 54.9034 - 33.6537
-dropoffStuds: 152.6 - 654
-fireRate: 563.566
-adsSpread: 0.228732
-hipfireSpread: 10.8648
-reloadTime: 5.1681
-magazineSize: 25
-health: 3
-recoilHipVertical: 37.638 - 47.601
-recoilAimVertical: 22.5828 - 28.5606
-movementSpeed: -9
-TTK: 0.106465 Seconds
-
-[ Barrel: Lipstick, Magazine: Scar H, Grip: M1891, Stock: Kriss Vector, Core: Dragunov ]
-damage: 51.213 - 31.4686
-dropoffStuds: 152.059 - 651.681
-fireRate: 562.709
-adsSpread: 0.34574
-hipfireSpread: 16.4226
-reloadTime: 5.382
+[ Barrel: M110, Magazine: BAR, Grip: APS, Stock: M1919 .30 Cal, Core: SKS ]
+damage: 50.361 - 35.2904
+dropoffStuds: 165.506 - 509.25
+fireRate: 363.375
+adsSpread: 0.353434
+hipfireSpread: 7.06868
+reloadTime: 4.24
 magazineSize: 20
-health: 8
-recoilHipVertical: 36.55 - 46.225
-recoilAimVertical: 21.93 - 27.735
-movementSpeed: 3.71
-TTK: 0.106627 Seconds
+health: 5
+recoilHipVertical: 12.9999 - 14.2999
+recoilAimVertical: 6.49993 - 7.14993
+movementSpeed: -7.5
+TTK: 0.165119 Seconds
+
+[ Barrel: M110, Magazine: BAR, Grip: Circuit Judge, Stock: Snake Sniper, Core: SKS ]
+damage: 52.5207 - 36.8039
+dropoffStuds: 165.506 - 509.25
+fireRate: 363.375
+adsSpread: 0.400756
+hipfireSpread: 8.01511
+reloadTime: 4.24
+magazineSize: 20
+health: 5
+recoilHipVertical: 12.9228 - 14.2151
+recoilAimVertical: 6.4614 - 7.10754
+movementSpeed: -9
+TTK: 0.165119 Seconds
+
+[ Barrel: VSSR, Magazine: BAR, Grip: Circuit Judge, Stock: Dragunov, Core: SKS ]
+damage: 50.3857 - 36.1681
+dropoffStuds: 174.774 - 537.766
+fireRate: 357.39
+adsSpread: 0.303969
+hipfireSpread: 6.07939
+reloadTime: 4.84
+magazineSize: 20
+health: 5
+recoilHipVertical: 11.3995 - 12.5395
+recoilAimVertical: 5.69976 - 6.26974
+movementSpeed: -9.5
+TTK: 0.167884 Seconds
 

@@ -1,8 +1,47 @@
-./Calculator -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80 
-Current top 10 guns are: 
+t ./Calculator -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80
+Current top 10 guns are:
+[ Barrel: Auto-5, Magazine: DP-27, Grip: PPSh-41, Stock: JSG12, Core: Circuit Judge ]
+damage: 141.147 - 28.4901
+dropoffStuds: 82.0144 - 135.083
+pellets: 8
+fireRate: 74.3732
+adsSpread: 1.74669
+hipfireSpread: 4.72079
+reloadTime: 5.796
+magazineSize: 47
+recoilHipVertical: 85.68 - 106.029
+recoilAimVertical: 29.988 - 37.0566
+movementSpeed: 1
+
+[ Barrel: Auto-5, Magazine: DP-27, Grip: PPSh-41, Stock: MG42, Core: Circuit Judge ]
+damage: 141.147 - 28.4901
+dropoffStuds: 82.0144 - 135.083
+pellets: 8
+fireRate: 74.3732
+adsSpread: 1.7517
+hipfireSpread: 4.73432
+reloadTime: 6.624
+magazineSize: 47
+recoilHipVertical: 85.68 - 106.029
+recoilAimVertical: 29.988 - 37.0566
+movementSpeed: 0.625
+
+[ Barrel: Auto-5, Magazine: Type 99, Grip: PPSh-41, Stock: P90, Core: Circuit Judge ]
+damage: 141.637 - 31.2317
+dropoffStuds: 83.793 - 138.012
+pellets: 8
+fireRate: 74.0844
+adsSpread: 1.74586
+hipfireSpread: 4.71853
+reloadTime: 3.45
+magazineSize: 30
+recoilHipVertical: 81.6077 - 100.99
+recoilAimVertical: 28.5627 - 35.2953
+movementSpeed: 0.95
+
 [ Barrel: Auto-5, Magazine: M40, Grip: Auto-5, Stock: FG-42, Core: Circuit Judge ]
 damage: 141.22 - 35.8239
-dropoffStuds: 86.955 - 127.875
+dropoffStuds: 86.955 - 143.22
 pellets: 8
 fireRate: 73.3257
 adsSpread: 1.74398
@@ -13,35 +52,22 @@ recoilHipVertical: 91.53 - 113.268
 recoilAimVertical: 32.0355 - 39.5867
 movementSpeed: 1.8
 
-[ Barrel: Auto-5, Magazine: M40, Grip: Auto-5, Stock: P90, Core: Circuit Judge ]
-damage: 141.22 - 35.8239
-dropoffStuds: 86.955 - 127.875
+[ Barrel: Auto-5, Magazine: Type 99, Grip: PPSh-41, Stock: Sten gun, Core: Circuit Judge ]
+damage: 141.637 - 31.2317
+dropoffStuds: 83.793 - 138.012
 pellets: 8
-fireRate: 73.0409
-adsSpread: 1.62659
-hipfireSpread: 4.39618
-reloadTime: 4.5
-magazineSize: 10
-recoilHipVertical: 90.72 - 112.266
-recoilAimVertical: 31.752 - 39.2364
-movementSpeed: 1.95
-
-[ Barrel: Kriss Vector, Magazine: M40, Grip: Auto-5, Stock: P90, Core: Circuit Judge ]
-damage: 140.516 - 32.705
-dropoffStuds: 84.15 - 123.75
-pellets: 8
-fireRate: 73.0409
-adsSpread: 1.79564
-hipfireSpread: 4.85307
-reloadTime: 4.5
-magazineSize: 10
-recoilHipVertical: 90.972 - 112.578
-recoilAimVertical: 31.8402 - 39.3454
-movementSpeed: 4.095
+fireRate: 73.1457
+adsSpread: 1.7344
+hipfireSpread: 4.68757
+reloadTime: 3.45
+magazineSize: 30
+recoilHipVertical: 100.552 - 124.433
+recoilAimVertical: 35.1933 - 43.4889
+movementSpeed: 2.9
 
 [ Barrel: Auto-5, Magazine: Fedorov, Grip: Auto-5, Stock: P90, Core: Circuit Judge ]
 damage: 142.494 - 30.7118
-dropoffStuds: 83.3187 - 122.528
+dropoffStuds: 83.3187 - 137.231
 pellets: 8
 fireRate: 73.0409
 adsSpread: 1.71541
@@ -54,7 +80,7 @@ movementSpeed: 1.95
 
 [ Barrel: Auto-5, Magazine: Scar H, Grip: Auto-5, Stock: P90, Core: Circuit Judge ]
 damage: 146.319 - 32.992
-dropoffStuds: 84.2673 - 123.923
+dropoffStuds: 84.2673 - 138.793
 pellets: 8
 fireRate: 73.0409
 adsSpread: 1.71541
@@ -65,47 +91,35 @@ recoilHipVertical: 90.72 - 112.266
 recoilAimVertical: 31.752 - 39.2364
 movementSpeed: 1.95
 
-[ Barrel: AWM, Magazine: Graphics Card, Grip: PPSh-41, Stock: UNP-40, Core: Circuit Judge ]
-damage: 140.983 - 31.8305
-dropoffStuds: 84.065 - 123.625
+[ Barrel: Auto-5, Magazine: M40, Grip: Auto-5, Stock: P90, Core: Circuit Judge ]
+damage: 141.22 - 35.8239
+dropoffStuds: 86.955 - 143.22
 pellets: 8
-fireRate: 72.846
-adsSpread: 1.79299
-hipfireSpread: 4.84591
-reloadTime: 6.9
-magazineSize: 50
-recoilHipVertical: 129.36 - 160.083
-recoilAimVertical: 45.276 - 55.9482
-movementSpeed: 2.47
+fireRate: 73.0409
+adsSpread: 1.62659
+hipfireSpread: 4.39618
+reloadTime: 4.5
+magazineSize: 10
+recoilHipVertical: 90.72 - 112.266
+recoilAimVertical: 31.752 - 39.2364
+movementSpeed: 1.95
 
-[ Barrel: AWM, Magazine: Graphics Card, Grip: PPSh-41, Stock: FAL, Core: Circuit Judge ]
-damage: 140.983 - 35.1051
-dropoffStuds: 86.587 - 127.334
+[ Barrel: Kriss Vector, Magazine: M40, Grip: Auto-5, Stock: P90, Core: Circuit Judge ]
+damage: 140.516 - 32.705
+dropoffStuds: 84.15 - 138.6
 pellets: 8
-fireRate: 72.846
-adsSpread: 1.75593
-hipfireSpread: 4.74574
-reloadTime: 6.9
-magazineSize: 50
-recoilHipVertical: 140.14 - 173.423
-recoilAimVertical: 49.049 - 60.6105
-movementSpeed: 0.12
-
-[ Barrel: AWM, Magazine: Graphics Card, Grip: PPSh-41, Stock: The Chief, Core: Circuit Judge ]
-damage: 140.983 - 31.8305
-dropoffStuds: 84.065 - 123.625
-pellets: 8
-fireRate: 72.846
-adsSpread: 1.79884
-hipfireSpread: 4.86173
-reloadTime: 6.417
-magazineSize: 50
-recoilHipVertical: 118.58 - 146.743
-recoilAimVertical: 41.503 - 51.2858
+fireRate: 73.0409
+adsSpread: 1.79564
+hipfireSpread: 4.85307
+reloadTime: 4.5
+magazineSize: 10
+recoilHipVertical: 90.972 - 112.578
+recoilAimVertical: 31.8402 - 39.3454
+movementSpeed: 4.095
 
 [ Barrel: M1Garand, Magazine: Graphics Card, Grip: PPSh-41, Stock: FAL, Core: Circuit Judge ]
 damage: 143.26 - 26.9486
-dropoffStuds: 80.546 - 118.45
+dropoffStuds: 80.546 - 132.664
 pellets: 8
 fireRate: 72.846
 adsSpread: 1.79902
@@ -115,17 +129,3 @@ magazineSize: 50
 recoilHipVertical: 80.08 - 99.099
 recoilAimVertical: 28.028 - 34.6346
 movementSpeed: 0.12
-
-[ Barrel: Hex Spitter, Magazine: Graphics Card, Grip: PPSh-41, Stock: FAL, Core: Circuit Judge ]
-damage: 144.197 - 27.125
-dropoffStuds: 80.546 - 118.45
-pellets: 8
-fireRate: 72.846
-adsSpread: 1.78028
-hipfireSpread: 4.81157
-reloadTime: 6.9
-magazineSize: 50
-recoilHipVertical: 95.2952 - 117.928
-recoilAimVertical: 33.3533 - 41.2152
-movementSpeed: 1.52
-

@@ -1,141 +1,142 @@
 ./Calculator -o InterestingBuilds/FastestHeadshotSniper.txt -i Sniper BR --speedMin 0 --damageMin 50 --spreadAimMax 0.15 --sort FIRERATE --rangeMin 300 --pelletMax 1 --magazineMin 5 
 Current top 10 guns are: 
-[ Barrel: Mustard, Magazine: Graphics Card, Grip: M1Garand, Stock: AWM, Core: Arisaka ]
-damage: 54.9231 - 48.9914
-dropoffStuds: 368 - 644
-fireRate: 60.876
+[ Barrel: Mustard, Magazine: Mega Soaker, Grip: M1Garand, Stock: AWM, Core: Arisaka ]
+damage: 52.2041 - 46.5139
+dropoffStuds: 364 - 637
+fireRate: 64.08
 adsSpread: 0.145109
 hipfireSpread: 11.6087
-reloadTime: 5.1
-magazineSize: 50
+reloadTime: 4.59
+magazineSize: 60
 health: -10
-recoilHipVertical: 60.984 - 69.454
-recoilAimVertical: 27.4428 - 31.2543
-movementSpeed: 7
-TTK: 0.98561 Seconds
+recoilHipVertical: 66.528 - 75.768
+recoilAimVertical: 29.9376 - 34.0956
+movementSpeed: 10
+TTK: 0.93633 Seconds
 
-[ Barrel: Mustard, Magazine: Graphics Card, Grip: PPSh-41, Stock: AWM, Core: Arisaka ]
-damage: 54.9231 - 48.9914
-dropoffStuds: 368 - 644
-fireRate: 60.42
+[ Barrel: Mustard, Magazine: Mega Soaker, Grip: PPSh-41, Stock: AWM, Core: Arisaka ]
+damage: 52.2041 - 46.5139
+dropoffStuds: 364 - 637
+fireRate: 63.6
 adsSpread: 0.136446
 hipfireSpread: 10.9156
-reloadTime: 5.865
-magazineSize: 50
+reloadTime: 5.2785
+magazineSize: 60
 health: -10
-recoilHipVertical: 60.984 - 69.454
-recoilAimVertical: 27.4428 - 31.2543
+recoilHipVertical: 66.528 - 75.768
+recoilAimVertical: 29.9376 - 34.0956
+movementSpeed: 13
+TTK: 0.943396 Seconds
+
+[ Barrel: M40, Magazine: Mega Soaker, Grip: Lewis, Stock: Fedorov, Core: Arisaka ]
+damage: 52.2041 - 47.9364
+dropoffStuds: 455 - 796.25
+fireRate: 62.6546
+adsSpread: 0.140343
+hipfireSpread: 11.2274
+reloadTime: 5.778
+magazineSize: 60
+health: -10
+recoilHipVertical: 75.704 - 86.2185
+recoilAimVertical: 34.0668 - 38.7983
+movementSpeed: 5
+TTK: 0.957631 Seconds
+
+[ Barrel: M40, Magazine: Mega Soaker, Grip: Lee Enfield, Stock: P90, Core: Arisaka ]
+damage: 52.2041 - 47.0829
+dropoffStuds: 364 - 637
+fireRate: 62.1773
+adsSpread: 0.14945
+hipfireSpread: 11.956
+reloadTime: 5.4
+magazineSize: 60
+health: -10
+recoilHipVertical: 64.3507 - 73.2883
+recoilAimVertical: 28.9578 - 32.9797
+movementSpeed: 14.8
+TTK: 0.964983 Seconds
+
+[ Barrel: Mustard, Magazine: Mega Soaker, Grip: Mas-38, Stock: AWM, Core: Arisaka ]
+damage: 52.2041 - 46.1155
+dropoffStuds: 338.52 - 592.41
+fireRate: 62.16
+adsSpread: 0.132114
+hipfireSpread: 10.5691
+reloadTime: 4.59
+magazineSize: 60
+health: -10
+recoilHipVertical: 66.528 - 75.768
+recoilAimVertical: 29.9376 - 34.0956
+movementSpeed: 14.2
+TTK: 0.965251 Seconds
+
+[ Barrel: Mustard, Magazine: Mega Soaker, Grip: FG-42, Stock: AWM, Core: Arisaka ]
+damage: 52.2041 - 46.5139
+dropoffStuds: 364 - 637
+fireRate: 62.04
+adsSpread: 0.145109
+hipfireSpread: 11.6087
+reloadTime: 4.7277
+magazineSize: 60
+health: -10
+recoilHipVertical: 58.6112 - 66.7516
+recoilAimVertical: 26.375 - 30.0382
+movementSpeed: 13
+TTK: 0.967118 Seconds
+
+[ Barrel: M40, Magazine: Mega Soaker, Grip: M1Garand, Stock: Lee Enfield, Core: Arisaka ]
+damage: 52.2041 - 47.0829
+dropoffStuds: 364 - 637
+fireRate: 62.0294
+adsSpread: 0.147697
+hipfireSpread: 11.8158
+reloadTime: 5.4
+magazineSize: 60
+health: -10
+recoilHipVertical: 80.4384 - 91.6104
+recoilAimVertical: 36.1973 - 41.2247
 movementSpeed: 10
-TTK: 0.993049 Seconds
+TTK: 0.967283 Seconds
 
-[ Barrel: MG42, Magazine: Horizontal, Grip: M1Garand, Stock: AWM, Core: Arisaka ]
-damage: 57.9408 - 50.872
-dropoffStuds: 312 - 546
-fireRate: 60.1498
-adsSpread: 0.140122
-hipfireSpread: 11.2098
-reloadTime: 1.615
-magazineSize: 20
+[ Barrel: M40, Magazine: Mega Soaker, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Arisaka ]
+damage: 52.2041 - 47.9364
+dropoffStuds: 455 - 796.25
+fireRate: 62.0125
+adsSpread: 0.144642
+hipfireSpread: 11.5714
+reloadTime: 6.21
+magazineSize: 60
 health: -10
-recoilHipVertical: 87.516 - 99.671
-recoilAimVertical: 39.3822 - 44.852
-TTK: 0.99751 Seconds
+recoilHipVertical: 70.0963 - 79.8319
+recoilAimVertical: 31.5433 - 35.9244
+movementSpeed: 13
+TTK: 0.967546 Seconds
 
-[ Barrel: Mustard, Magazine: Kriss Vector, Grip: M1Garand, Stock: AWM, Core: Arisaka ]
-damage: 52.7479 - 46.6819
-dropoffStuds: 340 - 595
-fireRate: 60.1284
-adsSpread: 0.145109
-hipfireSpread: 11.6087
-reloadTime: 2.04
-magazineSize: 30
+[ Barrel: M40, Magazine: Mega Soaker, Grip: Lee Enfield, Stock: STG-44, Core: Arisaka ]
+damage: 52.2041 - 47.0829
+dropoffStuds: 364 - 637
+fireRate: 61.9951
+adsSpread: 0.148813
+hipfireSpread: 11.9051
+reloadTime: 5.616
+magazineSize: 60
 health: -10
-recoilHipVertical: 72.072 - 82.082
-recoilAimVertical: 32.4324 - 36.9369
-movementSpeed: 8.98
-TTK: 0.997865 Seconds
+recoilHipVertical: 57.456 - 65.436
+recoilAimVertical: 25.8552 - 29.4462
+movementSpeed: 13
+TTK: 0.967818 Seconds
 
-[ Barrel: MG42, Magazine: Horizontal, Grip: Negev, Stock: AWM, Core: Arisaka ]
-damage: 57.9408 - 50.872
-dropoffStuds: 312 - 546
-fireRate: 59.9245
-adsSpread: 0.147093
-hipfireSpread: 11.7675
-reloadTime: 1.615
-magazineSize: 20
+[ Barrel: Mustard, Magazine: Mega Soaker, Grip: Auto-5, Stock: AWM, Core: Arisaka ]
+damage: 50.9119 - 45.3625
+dropoffStuds: 364 - 637
+fireRate: 61.8
+adsSpread: 0.127782
+hipfireSpread: 10.2226
+reloadTime: 4.59
+magazineSize: 60
 health: -10
-recoilHipVertical: 100.643 - 114.622
-recoilAimVertical: 45.2895 - 51.5798
-movementSpeed: 0.5
-TTK: 1.00126 Seconds
-
-[ Barrel: M40, Magazine: MG42, Grip: Lee Enfield, Stock: AWM, Core: Arisaka ]
-damage: 54.9231 - 49.0408
-dropoffStuds: 324 - 567
-fireRate: 59.9104
-adsSpread: 0.128107
-hipfireSpread: 10.2485
-reloadTime: 4.675
-magazineSize: 50
-health: -10
-recoilHipVertical: 89.5356 - 101.971
-recoilAimVertical: 40.291 - 45.887
-movementSpeed: 6
-TTK: 1.0015 Seconds
-
-[ Barrel: Mustard, Magazine: MAC-10, Grip: M1Garand, Stock: AWM, Core: Arisaka ]
-damage: 54.9231 - 48.7717
-dropoffStuds: 352 - 616
-fireRate: 59.808
-adsSpread: 0.145109
-hipfireSpread: 11.6087
-reloadTime: 1.7
-magazineSize: 30
-health: -10
-recoilHipVertical: 106.92 - 121.77
-recoilAimVertical: 48.114 - 54.7965
-movementSpeed: 9.64
-TTK: 1.00321 Seconds
-
-[ Barrel: MG42, Magazine: FG-42, Grip: PPSh-41, Stock: MG42, Core: Arisaka ]
-damage: 63.0107 - 55.3234
-dropoffStuds: 312 - 546
-fireRate: 59.8077
-adsSpread: 0.146865
-hipfireSpread: 11.7492
-reloadTime: 4.83
-magazineSize: 20
-health: -10
-recoilHipVertical: 109.512 - 124.722
-recoilAimVertical: 49.2804 - 56.1249
-movementSpeed: 3.8
-TTK: 1.00321 Seconds
-
-[ Barrel: MG42, Magazine: FG-42, Grip: PPSh-41, Stock: AWM, Core: Arisaka ]
-damage: 63.0107 - 55.3234
-dropoffStuds: 312 - 546
-fireRate: 59.8077
-adsSpread: 0.119499
-hipfireSpread: 9.5599
-reloadTime: 3.42125
-magazineSize: 20
-health: -10
-recoilHipVertical: 120.463 - 137.194
-recoilAimVertical: 54.2084 - 61.7374
-movementSpeed: 1
-TTK: 1.00321 Seconds
-
-[ Barrel: MG42, Magazine: FG-42, Grip: PPSh-41, Stock: FAL, Core: Arisaka ]
-damage: 63.0107 - 55.6501
-dropoffStuds: 325.26 - 569.205
-fireRate: 59.8077
-adsSpread: 0.141483
-hipfireSpread: 11.3186
-reloadTime: 4.025
-magazineSize: 20
-health: -10
-recoilHipVertical: 142.366 - 162.139
-recoilAimVertical: 64.0645 - 72.9624
-movementSpeed: 1.17
-TTK: 1.00321 Seconds
+recoilHipVertical: 62.5363 - 71.2219
+recoilAimVertical: 28.1413 - 32.0499
+movementSpeed: 13
+TTK: 0.970874 Seconds
 

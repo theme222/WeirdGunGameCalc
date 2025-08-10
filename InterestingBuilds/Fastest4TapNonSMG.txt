@@ -1,5 +1,33 @@
 ./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 25 --speedMin 0 --magazineMin 30 --spreadAimMax 0.65 --recoilAimMax 30 --rangeMin 150 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf Loaf 
 Current top 10 guns are: 
+[ Barrel: Uzi, Magazine: Type 99, Grip: Lee Enfield, Stock: Arisaka, Core: M1919 .30 Cal ]
+damage: 25.0558 - 16.7187
+dropoffStuds: 151.027 - 302.054
+fireRate: 592.76
+adsSpread: 0.649216
+hipfireSpread: 8.98914
+reloadTime: 3.15
+magazineSize: 30
+health: 12
+recoilHipVertical: 44.528 - 55.66
+recoilAimVertical: 22.264 - 27.83
+movementSpeed: 0.4
+TTK: 0.303664 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Graphics Card, Grip: Arisaka, Stock: Sten gun, Core: M1919 .30 Cal ]
+damage: 25.8184 - 18.0369
+dropoffStuds: 174.8 - 349.6
+fireRate: 591.268
+adsSpread: 0.637282
+hipfireSpread: 8.82391
+reloadTime: 6.3
+magazineSize: 50
+health: 9
+recoilHipVertical: 46.7544 - 58.443
+recoilAimVertical: 23.3772 - 29.2215
+movementSpeed: 0.3
+TTK: 0.304431 Seconds
+
 [ Barrel: M870 Wingmaster, Magazine: MP 40, Grip: PPSh-41, Stock: AWM, Core: Hex Spitter ]
 damage: 25.8441 - 23.3954
 dropoffStuds: 157.875 - 315.75
@@ -11,6 +39,20 @@ magazineSize: 32
 recoilHipVertical: 37.95 - 50.6
 recoilAimVertical: 18.975 - 25.3
 TTK: 0.305536 Seconds
+
+[ Barrel: Uzi, Magazine: Type 99, Grip: M1897 Trench Shotgun, Stock: Arisaka, Core: M1919 .30 Cal ]
+damage: 25.0558 - 18.1082
+dropoffStuds: 188.784 - 377.568
+fireRate: 588.791
+adsSpread: 0.599467
+hipfireSpread: 8.30032
+reloadTime: 3.3075
+magazineSize: 30
+health: 12
+recoilHipVertical: 44.528 - 55.66
+recoilAimVertical: 22.264 - 27.83
+movementSpeed: 0.4
+TTK: 0.305711 Seconds
 
 [ Barrel: BAR, Magazine: Graphics Card, Grip: Croissant, Stock: MG42, Core: M60 ]
 damage: 25.5676 - 14.9897
@@ -40,20 +82,6 @@ recoilAimVertical: 20.6668 - 25.8335
 movementSpeed: 1.275
 TTK: 0.308388 Seconds
 
-[ Barrel: Snake Sniper, Magazine: Graphics Card, Grip: Arisaka, Stock: Sten gun, Core: M1919 .30 Cal ]
-damage: 25.8184 - 18.0369
-dropoffStuds: 174.8 - 349.6
-fireRate: 583.68
-adsSpread: 0.637282
-hipfireSpread: 8.82391
-reloadTime: 5.5629
-magazineSize: 50
-health: 9
-recoilHipVertical: 46.7544 - 58.443
-recoilAimVertical: 23.3772 - 29.2215
-movementSpeed: 0.3
-TTK: 0.308388 Seconds
-
 [ Barrel: Snake Sniper, Magazine: NP5, Grip: Arisaka, Stock: P90, Core: M1919 .30 Cal ]
 damage: 25.8184 - 17.8207
 dropoffStuds: 169.1 - 338.2
@@ -68,16 +96,17 @@ recoilAimVertical: 23.0384 - 28.798
 movementSpeed: 0.495
 TTK: 0.312213 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: The Chief, Stock: M40, Core: Hex Spitter ]
-damage: 25.4368 - 23.0267
-dropoffStuds: 157.875 - 315.75
+[ Barrel: M870 Wingmaster, Magazine: Type 99, Grip: The Chief, Stock: AUG, Core: Hex Spitter ]
+damage: 25.1137 - 22.7427
+dropoffStuds: 157.307 - 314.613
 fireRate: 574.2
-adsSpread: 0.643838
-hipfireSpread: 2.25343
-reloadTime: 2.52
+adsSpread: 0.556367
+hipfireSpread: 1.94728
+reloadTime: 3.15
 magazineSize: 30
-recoilHipVertical: 37.665 - 50.22
-recoilAimVertical: 18.8325 - 25.11
+recoilHipVertical: 40.986 - 54.648
+recoilAimVertical: 20.493 - 27.324
+movementSpeed: 1.5
 TTK: 0.31348 Seconds
 
 [ Barrel: M870 Wingmaster, Magazine: AKM, Grip: The Chief, Stock: MG42, Core: Hex Spitter ]
@@ -93,40 +122,15 @@ recoilAimVertical: 20.25 - 27
 movementSpeed: 2.625
 TTK: 0.31348 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: The Chief, Stock: AWM, Core: Hex Spitter ]
+[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: The Chief, Stock: The Chief, Core: Hex Spitter ]
 damage: 25.4368 - 23.0267
 dropoffStuds: 157.875 - 315.75
 fireRate: 574.2
-adsSpread: 0.565684
-hipfireSpread: 1.97989
-reloadTime: 2.2554
+adsSpread: 0.599178
+hipfireSpread: 2.09712
+reloadTime: 2.268
 magazineSize: 30
 recoilHipVertical: 44.55 - 59.4
 recoilAimVertical: 22.275 - 29.7
-TTK: 0.31348 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: DP-27, Grip: The Chief, Stock: M40, Core: Hex Spitter ]
-damage: 25.0256 - 22.7433
-dropoffStuds: 163.795 - 327.591
-fireRate: 574.2
-adsSpread: 0.643838
-hipfireSpread: 2.25343
-reloadTime: 6.3
-magazineSize: 47
-recoilHipVertical: 42.1848 - 56.2464
-recoilAimVertical: 21.0924 - 28.1232
-TTK: 0.31348 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: The Chief, Stock: JSG12, Core: Hex Spitter ]
-damage: 25.4368 - 23.0267
-dropoffStuds: 157.875 - 315.75
-fireRate: 574.2
-adsSpread: 0.641977
-hipfireSpread: 2.24692
-reloadTime: 2.646
-magazineSize: 30
-recoilHipVertical: 40.5 - 54
-recoilAimVertical: 20.25 - 27
-movementSpeed: 2.25
 TTK: 0.31348 Seconds
 

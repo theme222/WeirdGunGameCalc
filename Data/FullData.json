@@ -405,25 +405,27 @@
     {
       "Category": "LMG",
       "Name": "M60",
-      "Damage": 5,
-      "Detection_Radius": 5,
+      "Damage": 8.5,
       "Recoil": -10,
+      "Detection_Radius": 5,
       "Movement_Speed": -3
     },
     {
       "Category": "LMG",
       "Name": "DP-27",
-      "Damage": 13,
+      "Damage": 9,
+      "Fire_Rate": 2,
       "Movement_Speed": -1,
       "Recoil": 26,
-      "Spread": 18
+      "Spread": 10
     },
     {
       "Category": "LMG",
       "Name": "M1919 .30 Cal",
+      "Fire_Rate": 5,
       "Recoil": -17,
       "Spread": -20,
-      "Movement_Speed": -3,
+      "Movement_Speed": -6,
       "Reload_Speed": 12
     },
     {
@@ -487,6 +489,15 @@
       "Movement_Speed": -3,
       "Recoil": 25,
       "Range": 20
+    },
+    {
+      "Category": "LMG",
+      "Name": "Lewis",
+      "Detection_Radius": -15,
+      "Fire_Rate": 10,
+      "Spread": -15,
+      "Movement_Speed": -15,
+      "Reload_Speed": 5
     },
     {
       "Category": "Shotgun",
@@ -707,6 +718,16 @@
       "Movement_Speed": 5,
       "Range": 3,
       "Reload_Speed": 4
+    },
+    {
+      "Category": "Weird",
+      "Name": "Mega Soaker",
+      "Detection_Radius": -50,
+      "Fire_Rate": 14,
+      "Movement_Speed": 2,
+      "Recoil": -19,
+      "Damage": -4,
+      "Range": -10
     },
     {
       "Category": "BR",
@@ -1546,8 +1567,8 @@
       "Category": "Sniper",
       "Name": "Hecate II",
       "Damage": [
-        75,
-        52.5
+        80,
+        56
       ],
       "Dropoff_Studs": [
         400,
@@ -2265,12 +2286,12 @@
       "Category": "SMG",
       "Name": "Uzi",
       "Damage": [
-        19,
-        10.5
+        19.2,
+        10.6
       ],
       "Dropoff_Studs": [
-        135,
-        155
+        140,
+        175
       ],
       "Fire_Rate": 600,
       "Hipfire_Spread": 2,
@@ -2585,6 +2606,42 @@
       ]
     },
     {
+      "Category": "LMG",
+      "Name": "Lewis",
+      "Damage": [
+        19,
+        11.4
+      ],
+      "Dropoff_Studs": [
+        200,
+        425
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 6,
+      "ADS_Spread": 0.6,
+      "Time_To_Aim": 1.25,
+      "Detection_Radius": 155,
+      "Movement_Speed_Modifier": -6,
+      "Suppression": 0.8,
+      "Health": 14,
+      "Recoil_Hip_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Hip_Vertical": [
+        70,
+        97
+      ],
+      "Recoil_Aim_Horizontal": [
+        -9,
+        9
+      ],
+      "Recoil_Aim_Vertical": [
+        52.5,
+        72.8
+      ]
+    },
+    {
       "Category": "Shotgun",
       "Name": "M1887",
       "Damage": [
@@ -2593,7 +2650,7 @@
       ],
       "Dropoff_Studs": [
         75,
-        130
+        145
       ],
       "Falloff_Factor": -0.85,
       "Pellets": 10,
@@ -2667,7 +2724,7 @@
       ],
       "Dropoff_Studs": [
         55,
-        110
+        125
       ],
       "Falloff_Factor": -0.825,
       "Pellets": 8,
@@ -2698,7 +2755,7 @@
       "Category": "Shotgun",
       "Name": "Spas-12",
       "Damage": [
-        108,
+        114,
         6
       ],
       "Dropoff_Studs": [
@@ -2738,7 +2795,7 @@
       ],
       "Dropoff_Studs": [
         85,
-        125
+        140
       ],
       "Falloff_Factor": -0.775,
       "Pellets": 8,
@@ -3056,6 +3113,40 @@
       ]
     },
     {
+      "Category": "Weird",
+      "Name": "Mega Soaker",
+      "Damage": [
+        8.5,
+        5.9
+      ],
+      "Dropoff_Studs": [
+        140,
+        250
+      ],
+      "Fire_Rate": 1400,
+      "Hipfire_Spread": 4.5,
+      "ADS_Spread": 0.5,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 50,
+      "Suppression": 0.3,
+      "Recoil_Hip_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Hip_Vertical": [
+        19,
+        27
+      ],
+      "Recoil_Aim_Horizontal": [
+        -6,
+        6
+      ],
+      "Recoil_Aim_Vertical": [
+        14.3,
+        20.3
+      ]
+    },
+    {
       "Category": "BR",
       "Name": "M1Garand",
       "Damage": [
@@ -3209,7 +3300,7 @@
       ],
       "Fire_Rate": 150,
       "Hipfire_Spread": 5,
-      "ADS_Spread": 0.45,
+      "ADS_Spread": 0.3,
       "Time_To_Aim": 0.7,
       "Detection_Radius": 120,
       "Movement_Speed_Modifier": -5,
@@ -3690,7 +3781,7 @@
       "Category": "LMG",
       "Name": "MG42",
       "Recoil": -13,
-      "Reload_Speed": -16,
+      "Reload_Speed": -12,
       "Movement_Speed": -2.7
     },
     {
@@ -3703,9 +3794,9 @@
     {
       "Category": "LMG",
       "Name": "BAR",
-      "Reload_Speed": -13,
-      "Spread": -10,
-      "Movement_Speed": -2.5
+      "Damage": 0.4,
+      "Movement_Speed": -5,
+      "Recoil": 12
     },
     {
       "Category": "LMG",
@@ -3724,11 +3815,20 @@
       "Spread": 15
     },
     {
+      "Category": "LMG",
+      "Name": "Lewis",
+      "Fire_Rate": 15,
+      "Movement_Speed": -6,
+      "Recoil": 44,
+      "Spread": 14
+    },
+    {
       "Category": "Shotgun",
       "Name": "Spas-12",
-      "Fire_Rate": 10,
+      "Damage": 2,
+      "Fire_Rate": 3,
       "Movement_Speed": -2.5,
-      "Spread": 35
+      "Spread": 22
     },
     {
       "Category": "Shotgun",
@@ -3742,9 +3842,9 @@
     {
       "Category": "Shotgun",
       "Name": "M1897 Trench Shotgun",
-      "Fire_Rate": 10,
-      "Reload_Speed": 10,
-      "Spread": 35
+      "Fire_Rate": 15,
+      "Reload_Speed": 5,
+      "Spread": 20
     },
     {
       "Category": "Shotgun",
@@ -3825,6 +3925,13 @@
       "Spread": -12,
       "Movement_Speed": -2,
       "Recoil": 14
+    },
+    {
+      "Category": "Weird",
+      "Name": "Mega Soaker",
+      "Movement_Speed": 2,
+      "Recoil": -16,
+      "Spread": 15
     },
     {
       "Category": "BR",
@@ -4362,10 +4469,12 @@
       "Category": "LMG",
       "Name": "DP-27",
       "Magazine_Size": 47,
-      "Reload_Time": 6,
+      "Reload_Time": 4.8,
       "Damage": 7,
-      "Recoil": 12,
-      "Range": 5
+      "Fire_Rate": 4,
+      "Range": 5,
+      "Movement_Speed": -2,
+      "Recoil": 19
     },
     {
       "Category": "LMG",
@@ -4394,11 +4503,12 @@
       "Category": "LMG",
       "Name": "Type 99",
       "Magazine_Size": 30,
-      "Reload_Time": 3.5,
-      "Damage": 5.5,
+      "Reload_Time": 3,
+      "Damage": 7.5,
+      "Range": 8,
       "Spread": -17,
       "Movement_Speed": -1,
-      "Range": 8
+      "Recoil": 1.2
     },
     {
       "Category": "LMG",
@@ -4434,6 +4544,16 @@
       "Recoil": 35,
       "Spread": 25,
       "Range": 20
+    },
+    {
+      "Category": "LMG",
+      "Name": "Lewis",
+      "Magazine_Size": 47,
+      "Reload_Time": 5,
+      "Damage": 4,
+      "Fire_Rate": 7,
+      "Movement_Speed": -3,
+      "Recoil": 18
     },
     {
       "Category": "Shotgun",
@@ -4635,6 +4755,17 @@
       "Spread": 75
     },
     {
+      "Category": "Weird",
+      "Name": "Mega Soaker",
+      "Magazine_Size": 60,
+      "Reload_Time": 5.4,
+      "Fire_Rate": 20,
+      "Movement_Speed": 3,
+      "Recoil": -16,
+      "Damage": -5,
+      "Range": -9
+    },
+    {
       "Category": "BR",
       "Name": "M1Garand",
       "Magazine_Size": 8,
@@ -4693,7 +4824,7 @@
       "Reload_Time": 3.8,
       "Damage": 19,
       "Range": 16,
-      "Fire_Rate": -9,
+      "Fire_Rate": -5,
       "Recoil": 12
     },
     {
@@ -4986,7 +5117,7 @@
       "Reload_Speed": -25,
       "Spread": -10,
       "Movement_Speed": -2,
-      "Recoil": 10
+      "Recoil": 27
     },
     {
       "Category": "SMG",
@@ -5053,8 +5184,8 @@
     {
       "Category": "SMG",
       "Name": "Sten gun",
+      "Fire_Rate": 2,
       "Movement_Speed": 6,
-      "Reload_Speed": -18,
       "Spread": -12,
       "Recoil": 38
     },
@@ -5079,7 +5210,8 @@
       "Name": "DP-27",
       "Recoil": -20,
       "Spread": -24,
-      "Fire_Rate": -15
+      "Fire_Rate": -7,
+      "Movement_Speed": -3.5
     },
     {
       "Category": "LMG",
@@ -5114,7 +5246,8 @@
       "Category": "LMG",
       "Name": "Negev",
       "Recoil": -20,
-      "Reload_Speed": 15
+      "Movement_Speed": -3,
+      "Reload_Speed": 8
     },
     {
       "Category": "LMG",
@@ -5123,6 +5256,14 @@
       "Reload_Speed": -10,
       "Movement_Speed": -3,
       "Spread": 10
+    },
+    {
+      "Category": "LMG",
+      "Name": "Lewis",
+      "Recoil": -28,
+      "Movement_Speed": -7.5,
+      "Reload_Speed": 8,
+      "Spread": 6
     },
     {
       "Category": "Shotgun",
@@ -5168,8 +5309,8 @@
     {
       "Category": "Shotgun",
       "Name": "M1897 Trench Shotgun",
-      "Fire_Rate": 10,
-      "Recoil": 15,
+      "Fire_Rate": 18,
+      "Recoil": 22,
       "Spread": 25
     },
     {
@@ -5247,10 +5388,10 @@
     {
       "Category": "Weird",
       "Name": "Anvil",
-      "Recoil": -90,
-      "Spread": -45,
+      "Recoil": -80,
+      "Spread": -30,
       "Movement_Speed": -40,
-      "Reload_Speed": 20
+      "Reload_Speed": 15
     },
     {
       "Category": "Weird",
@@ -5268,6 +5409,14 @@
       "Name": "Keyboard",
       "Recoil": -16,
       "Range": -5
+    },
+    {
+      "Category": "Weird",
+      "Name": "Mega Soaker",
+      "Movement_Speed": 8,
+      "Range": -2,
+      "Recoil": 35,
+      "Spread": 25
     },
     {
       "Category": "BR",

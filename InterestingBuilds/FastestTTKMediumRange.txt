@@ -1,140 +1,142 @@
 ./Calculator -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.6 --recoilAimMax 30 --rangeMin 200 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
-[ Barrel: Type 99, Magazine: Type 99, Grip: PPSh-41, Stock: Arisaka, Core: Negev ]
-damage: 16.7443 - 12.453
+[ Barrel: M1Garand, Magazine: Type 99, Grip: Arisaka, Stock: M1897 Trench Shotgun, Core: Negev ]
+damage: 16.738 - 12.4483
 dropoffStuds: 205.2 - 410.4
-fireRate: 905.25
-adsSpread: 0.474472
-hipfireSpread: 4.74472
-reloadTime: 4.43756
-magazineSize: 30
-health: 7
-recoilHipVertical: 35 - 40
-recoilAimVertical: 21 - 24
-movementSpeed: 0.8
-TTK: 0.3314 Seconds
-
-[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Hell-Trooper-23, Stock: Auto-5, Core: Negev ]
-damage: 16.8499 - 12.5315
-dropoffStuds: 205.2 - 410.4
-fireRate: 903.04
-adsSpread: 0.572717
-hipfireSpread: 5.72717
-reloadTime: 3.53719
-magazineSize: 30
-health: 10
-recoilHipVertical: 35 - 40
-recoilAimVertical: 21 - 24
-TTK: 0.332211 Seconds
-
-[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Arisaka, Stock: Auto-5, Core: Negev ]
-damage: 16.8499 - 12.5315
-dropoffStuds: 205.2 - 410.4
-fireRate: 903.04
-adsSpread: 0.572058
-hipfireSpread: 5.72058
-reloadTime: 3.675
-magazineSize: 30
-health: 4
-recoilHipVertical: 35 - 40
-recoilAimVertical: 21 - 24
-movementSpeed: 4.15
-TTK: 0.332211 Seconds
-
-[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Kriss Vector, Stock: MG42, Core: Negev ]
-damage: 17.7275 - 13.1842
-dropoffStuds: 205.2 - 410.4
-fireRate: 893.031
-adsSpread: 0.579848
-hipfireSpread: 5.79848
-reloadTime: 4.41
-magazineSize: 30
-health: 10
-recoilHipVertical: 32.27 - 36.88
-recoilAimVertical: 19.362 - 22.128
-movementSpeed: 0.425
-TTK: 0.335935 Seconds
-
-[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Arisaka, Stock: P90, Core: Negev ]
-damage: 17.7275 - 13.1842
-dropoffStuds: 205.2 - 410.4
-fireRate: 893.031
-adsSpread: 0.574211
-hipfireSpread: 5.74211
-reloadTime: 3.675
-magazineSize: 30
-health: 4
-recoilHipVertical: 39.2 - 44.8
-recoilAimVertical: 23.52 - 26.88
-movementSpeed: 2.35
-TTK: 0.335935 Seconds
-
-[ Barrel: Snake Sniper, Magazine: Type 99, Grip: Arisaka, Stock: STG-44, Core: Negev ]
-damage: 17.7275 - 13.1842
-dropoffStuds: 205.2 - 410.4
-fireRate: 889.984
-adsSpread: 0.572058
-hipfireSpread: 5.72058
-reloadTime: 3.822
-magazineSize: 30
-health: 4
-recoilHipVertical: 35 - 40
-recoilAimVertical: 21 - 24
-movementSpeed: 0.4
-TTK: 0.337085 Seconds
-
-[ Barrel: Type 99, Magazine: Type 99, Grip: P90, Stock: Arisaka, Core: Negev ]
-damage: 16.7443 - 12.453
-dropoffStuds: 205.2 - 410.4
-fireRate: 888.675
-adsSpread: 0.567852
-hipfireSpread: 5.67852
-reloadTime: 3.85875
-magazineSize: 30
-health: 7
-recoilHipVertical: 32.4975 - 37.14
-recoilAimVertical: 19.4985 - 22.284
-movementSpeed: 0.8
-TTK: 0.337581 Seconds
-
-[ Barrel: Dragunov, Magazine: P90, Grip: Snake Sniper, Stock: AR-8X, Core: Mas-38 ]
-damage: 16.9124 - 12.1509
-dropoffStuds: 201.765 - 239.595
-fireRate: 887.04
-adsSpread: 0.55939
-hipfireSpread: 3.10772
-reloadTime: 4
-magazineSize: 50
-recoilHipVertical: 16.6408 - 49.9224
-recoilAimVertical: 6.65632 - 19.969
-movementSpeed: 0.4
-TTK: 0.338203 Seconds
-
-[ Barrel: Type 99, Magazine: Type 99, Grip: Arisaka, Stock: FG-42, Core: Negev ]
-damage: 16.7443 - 12.453
-dropoffStuds: 205.2 - 410.4
-fireRate: 886.125
-adsSpread: 0.438634
-hipfireSpread: 4.38634
-reloadTime: 3.675
+fireRate: 964.75
+adsSpread: 0.551271
+hipfireSpread: 5.51271
+reloadTime: 3
 magazineSize: 30
 health: 9
-recoilHipVertical: 39.55 - 45.2
-recoilAimVertical: 23.73 - 27.12
-movementSpeed: 0.95
-TTK: 0.338553 Seconds
+recoilHipVertical: 43.2124 - 49.3856
+recoilAimVertical: 25.9274 - 29.6314
+movementSpeed: 0.4
+TTK: 0.310961 Seconds
 
-[ Barrel: M1891, Magazine: Graphics Card, Grip: FG-42, Stock: Arisaka, Core: M60 ]
-damage: 20.4947 - 12.5808
-dropoffStuds: 202.768 - 394.864
-fireRate: 707.256
-adsSpread: 0.574855
-hipfireSpread: 4.92733
-reloadTime: 7.7868
-magazineSize: 50
-health: 10
-recoilHipVertical: 37.3103 - 45.4508
-recoilAimVertical: 22.3862 - 27.2705
-movementSpeed: 3.8
-TTK: 0.33934 Seconds
+[ Barrel: Fedorov, Magazine: Type 99, Grip: M1897 Trench Shotgun, Stock: MG42, Core: Negev ]
+damage: 16.738 - 12.4483
+dropoffStuds: 205.2 - 410.4
+fireRate: 945.625
+adsSpread: 0.537094
+hipfireSpread: 5.37094
+reloadTime: 3.78
+magazineSize: 30
+health: 15
+recoilHipVertical: 41.7956 - 47.7664
+recoilAimVertical: 25.0774 - 28.6598
+movementSpeed: 0.475
+TTK: 0.317251 Seconds
+
+[ Barrel: M1Garand, Magazine: Type 99, Grip: M1891, Stock: MG42, Core: Negev ]
+damage: 16.738 - 12.4483
+dropoffStuds: 205.2 - 410.4
+fireRate: 918
+adsSpread: 0.498034
+hipfireSpread: 4.98034
+reloadTime: 4.14
+magazineSize: 30
+health: 15
+recoilHipVertical: 35.42 - 40.48
+recoilAimVertical: 21.252 - 24.288
+movementSpeed: 0.7
+TTK: 0.326797 Seconds
+
+[ Barrel: Fedorov, Magazine: Type 99, Grip: M1891, Stock: MG42, Core: Negev ]
+damage: 16.738 - 12.4483
+dropoffStuds: 205.2 - 410.4
+fireRate: 918
+adsSpread: 0.581667
+hipfireSpread: 5.81667
+reloadTime: 4.14
+magazineSize: 30
+health: 15
+recoilHipVertical: 41.7956 - 47.7664
+recoilAimVertical: 25.0774 - 28.6598
+movementSpeed: 3.675
+TTK: 0.326797 Seconds
+
+[ Barrel: MP 40, Magazine: Type 99, Grip: M1891, Stock: MG42, Core: Negev ]
+damage: 16.824 - 12.5123
+dropoffStuds: 205.2 - 410.4
+fireRate: 918
+adsSpread: 0.581667
+hipfireSpread: 5.81667
+reloadTime: 4.14
+magazineSize: 30
+health: 15
+recoilHipVertical: 42.504 - 48.576
+recoilAimVertical: 25.5024 - 29.1456
+movementSpeed: 2.78
+TTK: 0.326797 Seconds
+
+[ Barrel: Fedorov, Magazine: Type 99, Grip: M1Garand, Stock: Arisaka, Core: Negev ]
+damage: 16.738 - 12.4483
+dropoffStuds: 205.2 - 410.4
+fireRate: 907.8
+adsSpread: 0.596278
+hipfireSpread: 5.96278
+reloadTime: 3.15
+magazineSize: 30
+health: 7
+recoilHipVertical: 41.7956 - 47.7664
+recoilAimVertical: 25.0774 - 28.6598
+movementSpeed: 2.775
+TTK: 0.330469 Seconds
+
+[ Barrel: MP 40, Magazine: Type 99, Grip: M1Garand, Stock: Arisaka, Core: Negev ]
+damage: 16.824 - 12.5123
+dropoffStuds: 205.2 - 410.4
+fireRate: 907.8
+adsSpread: 0.596278
+hipfireSpread: 5.96278
+reloadTime: 3.15
+magazineSize: 30
+health: 7
+recoilHipVertical: 42.504 - 48.576
+recoilAimVertical: 25.5024 - 29.1456
+movementSpeed: 1.88
+TTK: 0.330469 Seconds
+
+[ Barrel: Fedorov, Magazine: Type 99, Grip: PPSh-41, Stock: MG42, Core: Negev ]
+damage: 16.738 - 12.4483
+dropoffStuds: 205.2 - 410.4
+fireRate: 905.25
+adsSpread: 0.418978
+hipfireSpread: 4.18978
+reloadTime: 4.14
+magazineSize: 30
+health: 15
+recoilHipVertical: 41.7956 - 47.7664
+recoilAimVertical: 25.0774 - 28.6598
+movementSpeed: 0.475
+TTK: 0.3314 Seconds
+
+[ Barrel: M1Garand, Magazine: Type 99, Grip: PPSh-41, Stock: Arisaka, Core: Negev ]
+damage: 16.738 - 12.4483
+dropoffStuds: 205.2 - 410.4
+fireRate: 905.25
+adsSpread: 0.477524
+hipfireSpread: 4.77524
+reloadTime: 3.6225
+magazineSize: 30
+health: 7
+recoilHipVertical: 35.42 - 40.48
+recoilAimVertical: 21.252 - 24.288
+movementSpeed: 2.8
+TTK: 0.3314 Seconds
+
+[ Barrel: Fedorov, Magazine: Type 99, Grip: PPSh-41, Stock: Arisaka, Core: Negev ]
+damage: 16.738 - 12.4483
+dropoffStuds: 205.2 - 410.4
+fireRate: 905.25
+adsSpread: 0.557713
+hipfireSpread: 5.57713
+reloadTime: 3.6225
+magazineSize: 30
+health: 7
+recoilHipVertical: 41.7956 - 47.7664
+recoilAimVertical: 25.0774 - 28.6598
+movementSpeed: 5.775
+TTK: 0.3314 Seconds
 

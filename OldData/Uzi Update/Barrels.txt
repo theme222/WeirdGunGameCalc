@@ -316,23 +316,21 @@ Range: -8%
 Category: LMG Barrels
 ---
 Barrel: M60
-Damage: +8.5%
+Damage: +5%
+Detection_Radius: 5
 Recoil: -10%
-Detection_Radius: +5%
 Movement_Speed: -3%
 ---
 Barrel: DP-27
-Damage: +9%
-Fire_Rate: +2%
+Damage: +13%
 Movement_Speed: -1%
 Recoil: +26%
-Spread: +10%
+Spread: +18%
 ---
 Barrel: M1919 .30 Cal
-Fire_Rate: +5%
 Recoil: -17%
 Spread: -20%
-Movement_Speed: -6%
+Movement_Speed: -3%
 Reload_Speed: +12%
 ---
 Barrel: M1917 WC
@@ -382,13 +380,6 @@ Fire_Rate: -15%
 Movement_Speed: -3%
 Recoil: +25%
 Range: +20%
----
-Barrel: Lewis
-Detection_Radius: -15%
-Fire_Rate: +10%
-Spread: -15%
-Movement_Speed: -15%
-Reload_Speed: +5%
 ---
 
 Category: Shotgun Barrels
@@ -563,14 +554,6 @@ Fire_Rate: +3%
 Movement_Speed: +5%
 Range: +3%
 Reload_Speed: +4%
----
-Barrel: Mega Soaker
-Detection_Radius: -50%
-Fire_Rate: +14%
-Movement_Speed: +2%
-Recoil: -19%
-Damage: -4%
-Range: -10%
 ---
 
 Category: BR Barrels

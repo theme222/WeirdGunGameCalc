@@ -1,5 +1,18 @@
 ./Calculator -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
+[ Barrel: Tommy, Magazine: NP5, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.1198 - 8.93439
+dropoffStuds: 117.124 - 129.673
+fireRate: 824.681
+adsSpread: 0.738127
+hipfireSpread: 4.92085
+reloadTime: 2
+magazineSize: 30
+recoilHipVertical: 34.3125 - 48.0375
+recoilAimVertical: 22.2345 - 31.1558
+movementSpeed: 11.1
+TTK: 0.218266 Seconds
+
 [ Barrel: Tommy, Magazine: MAC-10, Grip: Circuit Judge, Stock: Kriss Vector, Core: Type 2a Nambu ]
 damage: 25.1198 - 7.97201
 dropoffStuds: 110.018 - 121.805
@@ -26,6 +39,84 @@ recoilAimVertical: 19.3752 - 27.1492
 movementSpeed: 0.3
 TTK: 0.218575 Seconds
 
+[ Barrel: MG42, Magazine: MP 40, Grip: M1897 Trench Shotgun, Stock: Kriss Vector, Core: Type 2a Nambu ]
+damage: 25.3491 - 7.56671
+dropoffStuds: 103.74 - 114.855
+fireRate: 821.646
+adsSpread: 0.904276
+hipfireSpread: 6.02851
+reloadTime: 2.625
+magazineSize: 32
+recoilHipVertical: 29.9 - 41.86
+recoilAimVertical: 19.3752 - 27.1492
+movementSpeed: 0.3
+TTK: 0.219072 Seconds
+
+[ Barrel: Tommy, Magazine: Graphics Card, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.1198 - 9.37183
+dropoffStuds: 121.072 - 134.044
+fireRate: 817.51
+adsSpread: 0.776772
+hipfireSpread: 5.17848
+reloadTime: 6
+magazineSize: 50
+recoilHipVertical: 29.3563 - 41.0988
+recoilAimVertical: 19.0229 - 26.6555
+movementSpeed: 7.8
+TTK: 0.220181 Seconds
+
+[ Barrel: Tommy, Magazine: Sten gun, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.2366 - 8.68296
+dropoffStuds: 114.492 - 126.759
+fireRate: 812.49
+adsSpread: 0.58075
+hipfireSpread: 3.87167
+reloadTime: 3.45
+magazineSize: 32
+recoilHipVertical: 38.125 - 53.375
+recoilAimVertical: 24.705 - 34.6175
+movementSpeed: 7.8
+TTK: 0.221541 Seconds
+
+[ Barrel: M870 Breacher, Magazine: Kriss Vector, Grip: MP 40, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.1099 - 7.71531
+dropoffStuds: 107.1 - 118.575
+fireRate: 810.942
+adsSpread: 0.971425
+hipfireSpread: 6.47617
+reloadTime: 2.4
+magazineSize: 30
+recoilHipVertical: 33.7025 - 47.1835
+recoilAimVertical: 21.8392 - 30.6019
+movementSpeed: 9.25
+TTK: 0.221964 Seconds
+
+[ Barrel: Tommy, Magazine: Sten gun, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.2366 - 8.68296
+dropoffStuds: 114.492 - 126.759
+fireRate: 810.644
+adsSpread: 0.773264
+hipfireSpread: 5.1551
+reloadTime: 3.15
+magazineSize: 32
+recoilHipVertical: 38.125 - 53.375
+recoilAimVertical: 24.705 - 34.6175
+movementSpeed: 7.8
+TTK: 0.222046 Seconds
+
+[ Barrel: PP-19 Bizon, Magazine: NP5, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.585 - 8.47776
+dropoffStuds: 112.14 - 124.155
+fireRate: 809.266
+adsSpread: 0.738127
+hipfireSpread: 4.92085
+reloadTime: 2
+magazineSize: 30
+recoilHipVertical: 34.3125 - 48.0375
+recoilAimVertical: 22.2345 - 31.1558
+movementSpeed: 9.8
+TTK: 0.222424 Seconds
+
 [ Barrel: PP-19 Bizon, Magazine: MAC-10, Grip: Circuit Judge, Stock: Kriss Vector, Core: Type 2a Nambu ]
 damage: 25.585 - 7.46057
 dropoffStuds: 105.336 - 116.622
@@ -38,95 +129,4 @@ recoilHipVertical: 33.75 - 47.25
 recoilAimVertical: 21.87 - 30.645
 movementSpeed: 14.2
 TTK: 0.222519 Seconds
-
-[ Barrel: MG42, Magazine: MP 40, Grip: PPSh-41, Stock: MAC-10, Core: Type 2a Nambu ]
-damage: 25.3491 - 8.41349
-dropoffStuds: 109.2 - 120.9
-fireRate: 804.276
-adsSpread: 0.606287
-hipfireSpread: 4.04191
-reloadTime: 2.875
-magazineSize: 32
-recoilHipVertical: 37.375 - 52.325
-recoilAimVertical: 24.219 - 33.9365
-movementSpeed: 1.6
-TTK: 0.223804 Seconds
-
-[ Barrel: MG42, Magazine: MP 40, Grip: P90, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.3491 - 7.56671
-dropoffStuds: 103.74 - 114.855
-fireRate: 801.058
-adsSpread: 0.844241
-hipfireSpread: 5.62827
-reloadTime: 2.5
-magazineSize: 32
-recoilHipVertical: 26.611 - 37.2554
-recoilAimVertical: 17.2439 - 24.1628
-movementSpeed: 0.3
-TTK: 0.224703 Seconds
-
-[ Barrel: M870 Breacher, Magazine: Kriss Vector, Grip: PPSh-41, Stock: APS, Core: Type 2a Nambu ]
-damage: 25.0625 - 7.70075
-dropoffStuds: 107.1 - 118.575
-fireRate: 798.6
-adsSpread: 0.70051
-hipfireSpread: 4.67006
-reloadTime: 2.76
-magazineSize: 30
-recoilHipVertical: 27.625 - 38.675
-recoilAimVertical: 17.901 - 25.0835
-movementSpeed: 9.25
-TTK: 0.225394 Seconds
-
-[ Barrel: PP-19 Bizon, Magazine: NP5, Grip: PPSh-41, Stock: APS, Core: Type 2a Nambu ]
-damage: 25.1804 - 8.34369
-dropoffStuds: 112.14 - 124.155
-fireRate: 796.95
-adsSpread: 0.512634
-hipfireSpread: 3.41756
-reloadTime: 2.3
-magazineSize: 30
-recoilHipVertical: 36.5625 - 51.1875
-recoilAimVertical: 23.6925 - 33.1987
-movementSpeed: 9.8
-TTK: 0.225861 Seconds
-
-[ Barrel: Tommy, Magazine: NP5, Grip: Circuit Judge, Stock: Spas-12, Core: Type 2a Nambu ]
-damage: 25.1198 - 6.99214
-dropoffStuds: 103.069 - 114.112
-fireRate: 795.887
-adsSpread: 0.661668
-hipfireSpread: 4.41112
-reloadTime: 2
-magazineSize: 30
-recoilHipVertical: 28.125 - 39.375
-recoilAimVertical: 18.225 - 25.5375
-movementSpeed: 8.1
-TTK: 0.226163 Seconds
-
-[ Barrel: Oil, Magazine: Kriss Vector, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.3946 - 8.60241
-dropoffStuds: 113.05 - 125.162
-fireRate: 794.687
-adsSpread: 0.754189
-hipfireSpread: 5.02792
-reloadTime: 2.76
-magazineSize: 30
-recoilHipVertical: 17 - 23.8
-recoilAimVertical: 11.016 - 15.436
-movementSpeed: 0.6
-TTK: 0.226504 Seconds
-
-[ Barrel: MG42, Magazine: MP 40, Grip: M1891, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.3491 - 7.56671
-dropoffStuds: 103.74 - 114.855
-fireRate: 793.571
-adsSpread: 0.97932
-hipfireSpread: 6.5288
-reloadTime: 2.875
-magazineSize: 32
-recoilHipVertical: 29.9 - 41.86
-recoilAimVertical: 19.3752 - 27.1492
-movementSpeed: 2.7
-TTK: 0.226823 Seconds
 

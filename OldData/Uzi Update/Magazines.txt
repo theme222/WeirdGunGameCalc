@@ -391,12 +391,10 @@ Recoil: +22%
 ---
 Magazine: DP-27
 Magazine_Size: 47
-Reload_Time: 4.8s
+Reload_Time: 6s
 Damage: +7%
-Fire_Rate: +4%
+Recoil: +12%
 Range: +5%
-Movement_Speed: -2%
-Recoil: +19%
 ---
 Magazine: M1919 .30 Cal
 Magazine_Size: 100
@@ -419,12 +417,11 @@ Range: -19%
 ---
 Magazine: Type 99
 Magazine_Size: 30
-Reload_Time: 3s
-Damage: +7.5%
-Range: +8%
+Reload_Time: 3.5s
+Damage: +5.5%
 Spread: -17%
 Movement_Speed: -1%
-Recoil: +1.2%
+Range: +8%
 ---
 Magazine: BAR
 Magazine_Size: 20
@@ -454,14 +451,6 @@ Movement_Speed: -5%
 Recoil: +35%
 Spread: +25%
 Range: +20%
----
-Magazine: Lewis
-Magazine_Size: 47
-Reload_Time: 5s
-Damage: +4%
-Fire_Rate: +7%
-Movement_Speed: -3%
-Recoil: +18%
 ---
 
 Category: Shotgun Magazines
@@ -630,15 +619,6 @@ Movement_Speed: -10%
 Range: -14%
 Spread: +75%
 ---
-Magazine: Mega Soaker
-Magazine_Size: 60
-Reload_Time: 5.4s
-Fire_Rate: +20%
-Movement_Speed: +3%
-Recoil: -16%
-Damage: -5%
-Range: -9%
----
 
 Category: BR Magazines
 ---
@@ -686,10 +666,10 @@ Recoil: +25%
 ---
 Magazine: M110
 Magazine_Size: 10
-Reload_Time: 3.8s
+Reload_Time: 3.8
 Damage: +19%
 Range: +16%
-Fire_Rate: -5%
+Fire_Rate: -9%
 Recoil: +12%
 ---
 Magazine: SKS

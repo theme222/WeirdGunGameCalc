@@ -263,7 +263,7 @@ Recoil: +25%
 ---
 Grip: MG42
 Recoil: -13%
-Reload_Speed: -12%
+Reload_Speed: -16%
 Movement_Speed: -2.7%
 ---
 Grip: Type 99
@@ -272,9 +272,9 @@ Reload_Speed: -16%
 Movement_Speed: -2.7%
 ---
 Grip: BAR
-Damage: +0.4%
-Movement_Speed: -5%
-Recoil: +12%
+Reload_Speed: -13%
+Spread: -10%
+Movement_Speed: -2.5%
 ---
 Grip: Negev
 Fire_Rate: +8%
@@ -288,20 +288,13 @@ Movement_Speed: -2.5%
 Recoil: +10%
 Spread: +15%
 ---
-Grip: Lewis
-Fire_Rate: +15%
-Movement_Speed: -6%
-Recoil: +44%
-Spread: +14%
----
 
 Category: Shotgun Grips
 ---
 Grip: Spas-12
-Damage: +2%
-Fire_Rate: +3%
+Fire_Rate: +10%
 Movement_Speed: -2.5%
-Spread: +22%
+Spread: +35%
 ---
 Grip: M1887
 Fire_Rate: +10%
@@ -311,9 +304,9 @@ Movement_Speed: -5.5%
 Spread: +15%
 ---
 Grip: M1897 Trench Shotgun
-Fire_Rate: +15%
-Reload_Speed: +5%
-Spread: +20%
+Fire_Rate: +10%
+Reload_Speed: +10%
+Spread: +35%
 ---
 Grip: M870
 Reload_Speed: -15%
@@ -375,11 +368,6 @@ Fire_Rate: +3%
 Spread: -12%
 Movement_Speed: -2%
 Recoil: +14%
----
-Grip: Mega Soaker
-Movement_Speed: +2%
-Recoil: -16%
-Spread: +15%
 ---
 
 Category: BR Grips

@@ -1,5 +1,31 @@
 ./Calculator -o InterestingBuilds/FastestGuaranteed1Tap.txt -i Sniper BR --damageEndMin 100 --spreadAimMax 0.15 --sort FIRERATE --speedMin -5 --magazineMin 5 
 Current top 10 guns are: 
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: Arisaka ]
+damage: 111.206 - 100.085
+dropoffStuds: 400 - 700
+fireRate: 25.1073
+adsSpread: 0.127159
+hipfireSpread: 10.1727
+reloadTime: 10.5
+magazineSize: 7
+health: -22.5
+recoilHipVertical: 243.097 - 276.861
+recoilAimVertical: 109.394 - 124.587
+movementSpeed: -2
+
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Chauchat, Stock: M1897 Trench Shotgun, Core: Arisaka ]
+damage: 111.631 - 100.468
+dropoffStuds: 400 - 700
+fireRate: 25.1073
+adsSpread: 0.146138
+hipfireSpread: 11.691
+reloadTime: 10.5
+magazineSize: 7
+health: -15
+recoilHipVertical: 217.404 - 247.599
+recoilAimVertical: 97.8318 - 111.42
+movementSpeed: -4.5
+
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: M1Garand, Stock: APS, Core: Arisaka ]
 damage: 111.843 - 100.659
 dropoffStuds: 400 - 700
@@ -26,19 +52,6 @@ recoilHipVertical: 242.19 - 275.827
 recoilAimVertical: 108.985 - 124.122
 movementSpeed: -4.5
 
-[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: Arisaka ]
-damage: 111.206 - 100.085
-dropoffStuds: 400 - 700
-fireRate: 24.0196
-adsSpread: 0.127159
-hipfireSpread: 10.1727
-reloadTime: 10.5
-magazineSize: 7
-health: -22.5
-recoilHipVertical: 229.149 - 260.975
-recoilAimVertical: 103.117 - 117.439
-movementSpeed: -2
-
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: PPSh-41, Stock: APS, Core: Arisaka ]
 damage: 111.843 - 100.659
 dropoffStuds: 400 - 700
@@ -51,19 +64,6 @@ health: -15
 recoilHipVertical: 210.6 - 239.85
 recoilAimVertical: 94.77 - 107.933
 movementSpeed: -2
-
-[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Chauchat, Stock: M1897 Trench Shotgun, Core: Arisaka ]
-damage: 111.631 - 100.468
-dropoffStuds: 400 - 700
-fireRate: 24.0196
-adsSpread: 0.146138
-hipfireSpread: 11.691
-reloadTime: 10.5
-magazineSize: 7
-health: -15
-recoilHipVertical: 204.93 - 233.393
-recoilAimVertical: 92.2185 - 105.027
-movementSpeed: -4.5
 
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Type 2a Nambu, Stock: Fedorov, Core: Arisaka ]
 damage: 111.206 - 100.085

@@ -33,7 +33,7 @@ known_names = {
     'AR-8X', 'Freedom Dispenser', 'Second Amendment', 'JSG12', 'AWM', 'Arisaka', 'Sten gun', 'M1 Carbine',
     'M1919 Tripod', 'FG-42', 'G11', 'AK-12', 'QBZ-95', 'Lightning Shot', '10KG Dumbbell', 'VSSR', 'BarrelSight',
     'Screwdriver', 'Cirrus - Hand', 'Napo - Scissors', 'Rat - Emoji', 'Derpy - Staff', 'Uzi', 'G3',
-    'Dominus', 'Lipstick'
+    'Dominus', 'Lipstick', 'Lewis', 'Mega Soaker'
 }
 
 current_categories = {
