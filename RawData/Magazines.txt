@@ -229,7 +229,7 @@ Reload_Time: 10
 Damage: +50%
 Spread: -45%
 Detection_Radius: +50%
-Fire_Rate: -40%
+Fire_Rate: -45%
 Movement_Speed: -12%
 Recoil: +125%
 ---

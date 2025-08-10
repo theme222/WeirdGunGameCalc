@@ -3,7 +3,7 @@ Current top 10 guns are:
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: M1Garand, Stock: APS, Core: Arisaka ]
 damage: 111.843 - 100.659
 dropoffStuds: 400 - 700
-fireRate: 26.401
+fireRate: 24.2009
 adsSpread: 0.132225
 hipfireSpread: 10.578
 reloadTime: 10.5
@@ -16,7 +16,7 @@ movementSpeed: -5
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Negev, Stock: APS, Core: Arisaka ]
 damage: 111.843 - 100.659
 dropoffStuds: 400 - 700
-fireRate: 26.3021
+fireRate: 24.1102
 adsSpread: 0.138803
 hipfireSpread: 11.1043
 reloadTime: 10.5
@@ -29,7 +29,7 @@ movementSpeed: -4.5
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: Arisaka ]
 damage: 111.206 - 100.085
 dropoffStuds: 400 - 700
-fireRate: 26.2032
+fireRate: 24.0196
 adsSpread: 0.127159
 hipfireSpread: 10.1727
 reloadTime: 10.5
@@ -42,7 +42,7 @@ movementSpeed: -2
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: PPSh-41, Stock: APS, Core: Arisaka ]
 damage: 111.843 - 100.659
 dropoffStuds: 400 - 700
-fireRate: 26.2032
+fireRate: 24.0196
 adsSpread: 0.124331
 hipfireSpread: 9.94649
 reloadTime: 12.075
@@ -55,7 +55,7 @@ movementSpeed: -2
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Chauchat, Stock: M1897 Trench Shotgun, Core: Arisaka ]
 damage: 111.631 - 100.468
 dropoffStuds: 400 - 700
-fireRate: 26.2032
+fireRate: 24.0196
 adsSpread: 0.146138
 hipfireSpread: 11.691
 reloadTime: 10.5
@@ -68,7 +68,7 @@ movementSpeed: -4.5
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Type 2a Nambu, Stock: Fedorov, Core: Arisaka ]
 damage: 111.206 - 100.085
 dropoffStuds: 400 - 700
-fireRate: 26.1908
+fireRate: 24.0083
 adsSpread: 0.101829
 hipfireSpread: 8.14628
 reloadTime: 11.235
@@ -81,7 +81,7 @@ movementSpeed: -4
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Circuit Judge, Stock: Fedorov, Core: Arisaka ]
 damage: 113.757 - 102.381
 dropoffStuds: 400 - 700
-fireRate: 26.1908
+fireRate: 24.0083
 adsSpread: 0.137291
 hipfireSpread: 10.9833
 reloadTime: 11.235
@@ -94,7 +94,7 @@ movementSpeed: -4
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Type 2a Nambu, Stock: AR-8X, Core: Arisaka ]
 damage: 111.206 - 100.085
 dropoffStuds: 400 - 700
-fireRate: 25.9313
+fireRate: 23.7703
 adsSpread: 0.116014
 hipfireSpread: 9.28109
 reloadTime: 10.5
@@ -107,7 +107,7 @@ movementSpeed: -4
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Chauchat, Stock: FG-42, Core: Arisaka ]
 damage: 111.631 - 100.468
 dropoffStuds: 400 - 700
-fireRate: 25.7706
+fireRate: 23.6231
 adsSpread: 0.117027
 hipfireSpread: 9.36215
 reloadTime: 10.5
@@ -120,7 +120,7 @@ movementSpeed: -1.95
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Circuit Judge, Stock: FG-42, Core: Arisaka ]
 damage: 113.757 - 102.381
 dropoffStuds: 400 - 700
-fireRate: 25.7706
+fireRate: 23.6231
 adsSpread: 0.137291
 hipfireSpread: 10.9833
 reloadTime: 10.5

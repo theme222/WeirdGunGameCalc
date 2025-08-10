@@ -1,19 +1,6 @@
-./Calculator -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper BR --damageMin 100 --spreadAimMax 0.149 --sort FIRERATE --rangeMin 300 --pelletMax 1 --speedMin -5 --magazineMin 5 
-Current top 10 guns are: 
-[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Fedorov, Core: Arisaka ]
-damage: 107.378 - 94.4928
-dropoffStuds: 320 - 560
-fireRate: 30.1195
-adsSpread: 0.132225
-hipfireSpread: 10.578
-reloadTime: 11.235
-magazineSize: 7
-health: -15
-recoilHipVertical: 148.23 - 168.818
-recoilAimVertical: 66.7035 - 75.9679
-movementSpeed: -4
-
-[ Barrel: Snake Sniper, Magazine: VSSR, Grip: Type 2a Nambu, Stock: Hecate II, Core: Arisaka ]
+./Calculator -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper BR --damageMin 100 --spreadAimMax 0.149 --sort FIRERATE --rangeMin 300 --pelletMax 1 --speedMin -5 --magazineMin 5
+Current top 10 guns are:
+[ Barrel: Snake Sniper, Magazine: VSSR, Grip: Type 2a Nambu, Stock: Hecate II, Core: Arisaka ]w
 damage: 101.252 - 89.9121
 dropoffStuds: 352 - 616
 fireRate: 29.664
@@ -26,10 +13,49 @@ recoilHipVertical: 189.43 - 215.74
 recoilAimVertical: 85.2434 - 97.0828
 movementSpeed: -1
 
+[ Barrel: VSSR, Magazine: VSSR, Grip: Circuit Judge, Stock: AWM, Core: Arisaka ]
+damage: 100.349 - 90.121
+dropoffStuds: 383.68 - 671.44
+fireRate: 28.16
+adsSpread: 0.135136
+hipfireSpread: 10.8109
+reloadTime: 4.2075
+magazineSize: 5
+health: -10
+recoilHipVertical: 106.065 - 120.796
+recoilAimVertical: 47.7291 - 54.3581
+movementSpeed: -3
+
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Fedorov, Core: Arisaka ]
+damage: 107.378 - 94.4928
+dropoffStuds: 320 - 560
+fireRate: 27.6095
+adsSpread: 0.132225
+hipfireSpread: 10.578
+reloadTime: 11.235
+magazineSize: 7
+health: -15
+recoilHipVertical: 148.23 - 168.818
+recoilAimVertical: 66.7035 - 75.9679
+movementSpeed: -4
+
+[ Barrel: BAR, Magazine: Snake Sniper, Grip: Musket, Stock: AWM, Core: Arisaka ]
+damage: 100.127 - 90.4544
+dropoffStuds: 410.4 - 718.2
+fireRate: 27.54
+adsSpread: 0.147947
+hipfireSpread: 11.8357
+reloadTime: 5.1425
+magazineSize: 6
+health: -10
+recoilHipVertical: 129.254 - 147.206
+recoilAimVertical: 58.1645 - 66.2429
+movementSpeed: 5.5
+
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: FG-42, Core: Arisaka ]
 damage: 107.378 - 94.4928
 dropoffStuds: 320 - 560
-fireRate: 29.6362
+fireRate: 27.1665
 adsSpread: 0.132225
 hipfireSpread: 10.578
 reloadTime: 10.5
@@ -42,7 +68,7 @@ movementSpeed: 0.55
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Type 99, Core: Arisaka ]
 damage: 107.378 - 94.4928
 dropoffStuds: 320 - 560
-fireRate: 29.5651
+fireRate: 27.1014
 adsSpread: 0.132225
 hipfireSpread: 10.578
 reloadTime: 9.24
@@ -52,81 +78,54 @@ recoilHipVertical: 174.96 - 199.26
 recoilAimVertical: 78.732 - 89.667
 movementSpeed: -5
 
-[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Auto-5, Core: Arisaka ]
-damage: 102.062 - 89.8149
-dropoffStuds: 320 - 560
-fireRate: 29.2808
-adsSpread: 0.124331
-hipfireSpread: 9.94649
-reloadTime: 10.5
-magazineSize: 7
-health: -15
-recoilHipVertical: 162 - 184.5
-recoilAimVertical: 72.9 - 83.025
-movementSpeed: 1
-
-[ Barrel: DP-27, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Fedorov, Core: Arisaka ]
-damage: 100.52 - 88.458
-dropoffStuds: 320 - 560
-fireRate: 29.2422
-adsSpread: 0.130031
-hipfireSpread: 10.4024
-reloadTime: 10.7
-magazineSize: 7
+[ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: FAL, Core: Arisaka ]
+damage: 100.507 - 91.4126
+dropoffStuds: 435.765 - 762.589
+fireRate: 27
+adsSpread: 0.126873
+hipfireSpread: 10.1499
+reloadTime: 5.5
+magazineSize: 6
 health: -10
-recoilHipVertical: 186.77 - 212.71
-recoilAimVertical: 84.0464 - 95.7195
-movementSpeed: -5
+recoilHipVertical: 197.309 - 224.713
+recoilAimVertical: 88.789 - 101.121
+movementSpeed: -1.83
 
-[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: M1891, Stock: Spas-12, Core: Arisaka ]
-damage: 107.378 - 95.3518
-dropoffStuds: 352 - 616
-fireRate: 29.1498
-adsSpread: 0.148013
-hipfireSpread: 11.8411
-reloadTime: 12.075
-magazineSize: 7
-health: -15
-recoilHipVertical: 162 - 184.5
-recoilAimVertical: 72.9 - 83.025
-movementSpeed: -1
+[ Barrel: M2000, Magazine: AWM, Grip: Circuit Judge, Stock: APS, Core: Arisaka ]
+damage: 100.532 - 93.7462
+dropoffStuds: 550 - 962.5
+fireRate: 27
+adsSpread: 0.121828
+hipfireSpread: 9.74624
+reloadTime: 5
+magazineSize: 5
+health: -10
+recoilHipVertical: 203.112 - 231.322
+recoilAimVertical: 91.4004 - 104.095
+movementSpeed: 2
 
-[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: P90, Core: Arisaka ]
-damage: 107.378 - 94.4928
-dropoffStuds: 320 - 560
-fireRate: 29.1103
-adsSpread: 0.123542
-hipfireSpread: 9.88333
-reloadTime: 10.5
-magazineSize: 7
-health: -15
-recoilHipVertical: 181.44 - 206.64
-recoilAimVertical: 81.648 - 92.988
-movementSpeed: -0.2
-
-[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: M1Garand, Stock: Lee Enfield, Core: Arisaka ]
-damage: 107.378 - 94.4928
-dropoffStuds: 320 - 560
-fireRate: 29.0411
-adsSpread: 0.122093
-hipfireSpread: 9.76743
-reloadTime: 10.5
-magazineSize: 7
-health: -15
-recoilHipVertical: 226.8 - 258.3
-recoilAimVertical: 102.06 - 116.235
-movementSpeed: -5
-
-[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: STG-44, Core: Arisaka ]
-damage: 107.378 - 94.4928
-dropoffStuds: 320 - 560
-fireRate: 29.025
-adsSpread: 0.123015
-hipfireSpread: 9.84123
-reloadTime: 10.92
-magazineSize: 7
-health: -15
-recoilHipVertical: 162 - 184.5
-recoilAimVertical: 72.9 - 83.025
+[ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: M40, Core: Arisaka ]
+damage: 100.507 - 91.0089
+dropoffStuds: 418 - 731.5
+fireRate: 27
+adsSpread: 0.1317
+hipfireSpread: 10.536
+reloadTime: 5.5
+magazineSize: 6
+health: -10
+recoilHipVertical: 136.598 - 155.57
+recoilAimVertical: 61.4693 - 70.0067
 movementSpeed: -2
 
+[ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: AWM, Core: Arisaka ]
+damage: 100.507 - 91.0089
+dropoffStuds: 418 - 731.5
+fireRate: 27
+adsSpread: 0.107159
+hipfireSpread: 8.57274
+reloadTime: 4.675
+magazineSize: 6
+health: -10
+recoilHipVertical: 166.954 - 190.142
+recoilAimVertical: 75.1291 - 85.5637
+movementSpeed: -2
