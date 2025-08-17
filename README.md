@@ -2,9 +2,9 @@
 > A tool to bruteforce all combinations of guns in the roblox game "Weird Gun Game"
 
 ## About
-`Updated to Mega Soaker Update`<br/>
+`Updated to Sidearm Update`<br/>
 
-**Updates To The Calculator (Not The Dataset) Will Be Put On Hold For The Time Being**
+**Updates To The Calculator (Not The Dataset) Will Be Put On Hold For The Time Being (or when I feel like it)**
 
 Made using c++ this tool reads data from Data/FullData.json and calculates all possible combinations of guns in [Weird Gun Game](https://www.roblox.com/games/94590879393563/Weird-Gun-Game-UPDATE). Please note that I am not affiliated with the [Redscape Interactive Projects](https://www.roblox.com/communities/35232296/Redscape-Interactive-Projects#!/about)
 group and don't have *direct* access to the source code of the game. This is
@@ -123,7 +123,7 @@ No idea how to use cmake lol
 ## Algorithm Analysis
 
 There are currently 2 methods inside of the calculator: Bruteforce and Prune.
-**TL;DR** Prune is effectively the better method although it can use a decent amount of memory if you are not providing restrictive enough filters. Bruteforce will almost always be slower than Prune.
+**TL;DR** Prune is effectively the better method although it can use a decent amount of memory if you do not provide restrictive enough filters. Bruteforce will almost always be slower than Prune.
 
 ### Bruteforce
 

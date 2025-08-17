@@ -803,6 +803,37 @@
       "Fire_Rate": -2,
       "Movement_Speed": -3,
       "Recoil": 38
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "M1911",
+      "Damage": 18,
+      "Range": -11,
+      "Recoil": 25
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Tec-9",
+      "Fire_Rate": 9,
+      "Recoil": -16,
+      "Detection_Radius": 5,
+      "Range": -8
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "B17",
+      "Fire_Rate": 20,
+      "Range": -15,
+      "Recoil": 19
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Deagle",
+      "Damage": 20,
+      "Fire_Rate": -10,
+      "Movement_Speed": -4,
+      "Range": -7,
+      "Recoil": 55
     }
   ],
   "Cores": [
@@ -823,6 +854,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 120,
       "Suppression": 0.3,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -15,
         15
@@ -857,6 +889,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 90,
       "Suppression": 0.3,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -10,
         10
@@ -892,6 +925,7 @@
       "Detection_Radius": 75,
       "Movement_Speed_Modifier": 2.5,
       "Suppression": 0.3,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -5,
         5
@@ -926,6 +960,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 60,
       "Suppression": 0.3,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -7,
         7
@@ -961,6 +996,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 110,
       "Suppression": 0.3,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -10,
         10
@@ -995,6 +1031,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 100,
       "Suppression": 0.3,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -12,
         12
@@ -1029,6 +1066,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 110,
       "Suppression": 0.3,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -30,
         30
@@ -1064,6 +1102,7 @@
       "Detection_Radius": 125,
       "Suppression": 0.3,
       "Health": 17,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -25,
         25
@@ -1098,6 +1137,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 90,
       "Suppression": 0.3,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -7,
         7
@@ -1133,6 +1173,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 70,
       "Suppression": 0.4,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -8,
         8
@@ -1167,6 +1208,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 200,
       "Suppression": 0.3,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -22,
         22
@@ -1200,6 +1242,7 @@
       "ADS_Spread": 0.45,
       "Time_To_Aim": 0.7,
       "Detection_Radius": 95,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -10,
         10
@@ -1235,6 +1278,7 @@
       "Detection_Radius": 175,
       "Suppression": 0.3,
       "Health": 5,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -4,
         4
@@ -1270,6 +1314,7 @@
       "Detection_Radius": 135,
       "Suppression": 0.3,
       "Health": 5,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -19,
         19
@@ -1305,6 +1350,7 @@
       "Detection_Radius": 120,
       "Burst": 3,
       "Suppression": 0.3,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -2,
         2
@@ -1339,6 +1385,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 120,
       "Suppression": 0.3,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -15,
         15
@@ -1373,6 +1420,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 120,
       "Suppression": 0.3,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -22,
         22
@@ -1408,6 +1456,7 @@
       "Detection_Radius": 215,
       "Movement_Speed_Modifier": -5,
       "Suppression": 1,
+      "Equip_Time": 1,
       "Recoil_Hip_Horizontal": [
         -15,
         15
@@ -1446,6 +1495,7 @@
         -10,
         10
       ],
+      "Equip_Time": 1,
       "Recoil_Hip_Vertical": [
         50,
         80
@@ -1481,6 +1531,7 @@
         -20,
         20
       ],
+      "Equip_Time": 1,
       "Recoil_Hip_Vertical": [
         90,
         120
@@ -1515,6 +1566,7 @@
         -15,
         15
       ],
+      "Equip_Time": 1,
       "Recoil_Hip_Vertical": [
         90,
         120
@@ -1550,6 +1602,7 @@
         -18,
         18
       ],
+      "Equip_Time": 1,
       "Recoil_Hip_Vertical": [
         80,
         110
@@ -1585,6 +1638,7 @@
         -20,
         20
       ],
+      "Equip_Time": 1,
       "Recoil_Hip_Vertical": [
         90,
         120
@@ -1619,6 +1673,7 @@
         -14,
         14
       ],
+      "Equip_Time": 1,
       "Recoil_Hip_Vertical": [
         175,
         183
@@ -1654,6 +1709,7 @@
         -5,
         5
       ],
+      "Equip_Time": 1,
       "Recoil_Hip_Vertical": [
         70,
         90
@@ -1690,6 +1746,7 @@
         -21,
         21
       ],
+      "Equip_Time": 1,
       "Recoil_Hip_Vertical": [
         72,
         82
@@ -1726,6 +1783,7 @@
         -20,
         20
       ],
+      "Equip_Time": 1,
       "Recoil_Hip_Vertical": [
         90,
         120
@@ -1761,6 +1819,7 @@
         -16,
         16
       ],
+      "Equip_Time": 1,
       "Recoil_Hip_Vertical": [
         85,
         100
@@ -1791,6 +1850,7 @@
       "Time_To_Aim": 0.3,
       "Detection_Radius": 70,
       "Movement_Speed_Modifier": 4.4,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -20,
         20
@@ -1829,6 +1889,7 @@
         -25,
         25
       ],
+      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         60,
         80
@@ -1863,6 +1924,7 @@
         -10,
         10
       ],
+      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         40,
         60
@@ -1897,6 +1959,7 @@
         -20,
         20
       ],
+      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         40,
         60
@@ -1931,6 +1994,7 @@
         -15,
         15
       ],
+      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         70,
         80
@@ -1965,6 +2029,7 @@
         -20,
         20
       ],
+      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         60,
         90
@@ -1999,6 +2064,7 @@
         -25,
         25
       ],
+      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         30,
         60
@@ -2033,6 +2099,7 @@
         -5,
         5
       ],
+      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         10,
         30
@@ -2067,6 +2134,7 @@
         -10,
         10
       ],
+      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         25,
         35
@@ -2101,6 +2169,7 @@
         -7.5,
         7.5
       ],
+      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         10,
         30
@@ -2134,6 +2203,7 @@
         -50,
         50
       ],
+      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         30,
         50
@@ -2167,6 +2237,7 @@
         -15,
         15
       ],
+      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         20,
         45
@@ -2201,6 +2272,7 @@
         -15,
         15
       ],
+      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         20,
         30
@@ -2235,6 +2307,7 @@
         -21,
         21
       ],
+      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         30,
         38
@@ -2269,6 +2342,7 @@
         -4,
         4
       ],
+      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         10,
         12
@@ -2303,6 +2377,7 @@
         -12,
         12
       ],
+      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         25,
         45
@@ -2335,6 +2410,7 @@
       "Movement_Speed_Modifier": -5.5,
       "Suppression": 0.8,
       "Health": 10,
+      "Equip_Time": 1,
       "Recoil_Hip_Horizontal": [
         -12,
         12
@@ -2371,6 +2447,7 @@
       "Movement_Speed_Modifier": -5,
       "Suppression": 0.9,
       "Health": 18,
+      "Equip_Time": 1,
       "Recoil_Hip_Horizontal": [
         -12,
         12
@@ -2407,6 +2484,7 @@
       "Movement_Speed_Modifier": -5,
       "Suppression": 0.8,
       "Health": 10,
+      "Equip_Time": 1,
       "Recoil_Hip_Horizontal": [
         -7,
         7
@@ -2443,6 +2521,7 @@
       "Movement_Speed_Modifier": -10,
       "Suppression": 0.9,
       "Health": 20,
+      "Equip_Time": 1,
       "Recoil_Hip_Horizontal": [
         -10,
         10
@@ -2479,6 +2558,7 @@
       "Movement_Speed_Modifier": -5,
       "Suppression": 0.9,
       "Health": 11,
+      "Equip_Time": 1,
       "Recoil_Hip_Horizontal": [
         -20,
         20
@@ -2515,6 +2595,7 @@
       "Movement_Speed_Modifier": -5,
       "Suppression": 0.9,
       "Health": 15,
+      "Equip_Time": 1,
       "Recoil_Hip_Horizontal": [
         -16,
         16
@@ -2551,6 +2632,7 @@
       "Movement_Speed_Modifier": -7.5,
       "Suppression": 0.9,
       "Health": 13,
+      "Equip_Time": 1,
       "Recoil_Hip_Horizontal": [
         -15,
         15
@@ -2588,6 +2670,7 @@
       "Movement_Speed_Modifier": -7,
       "Suppression": 1,
       "Health": 12,
+      "Equip_Time": 1,
       "Recoil_Hip_Horizontal": [
         -25,
         25
@@ -2624,6 +2707,7 @@
       "Movement_Speed_Modifier": -6,
       "Suppression": 0.8,
       "Health": 14,
+      "Equip_Time": 1,
       "Recoil_Hip_Horizontal": [
         -12,
         12
@@ -2662,6 +2746,7 @@
       "Movement_Speed_Modifier": 2,
       "Suppression": 0.5,
       "Health": 4,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -20,
         20
@@ -2698,6 +2783,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 130,
       "Suppression": 0.5,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -10,
         10
@@ -2734,6 +2820,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 100,
       "Suppression": 0.5,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -20,
         20
@@ -2769,6 +2856,7 @@
       "Time_To_Aim": 0.95,
       "Detection_Radius": 160,
       "Suppression": 0.2,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -25,
         25
@@ -2805,6 +2893,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 160,
       "Suppression": 0.5,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -25,
         25
@@ -2841,6 +2930,7 @@
       "Time_To_Aim": 0.75,
       "Detection_Radius": 130,
       "Suppression": 0.2,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -20,
         20
@@ -2876,6 +2966,7 @@
       "Time_To_Aim": 0.9,
       "Detection_Radius": 200,
       "Suppression": 1,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -14,
         14
@@ -2913,6 +3004,7 @@
       "Detection_Radius": 135,
       "Movement_Speed_Modifier": 2.5,
       "Suppression": 0.7,
+      "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -24,
         24
@@ -3165,6 +3257,7 @@
       "Movement_Speed_Modifier": -5,
       "Suppression": 0.8,
       "Health": 10,
+      "Equip_Time": 0.9,
       "Recoil_Hip_Horizontal": [
         -7,
         7
@@ -3200,6 +3293,7 @@
       "Detection_Radius": 120,
       "Movement_Speed_Modifier": -5,
       "Suppression": 0.7,
+      "Equip_Time": 0.9,
       "Recoil_Hip_Horizontal": [
         -35,
         35
@@ -3236,6 +3330,7 @@
       "Movement_Speed_Modifier": -7,
       "Suppression": 0.8,
       "Health": 8,
+      "Equip_Time": 0.9,
       "Recoil_Hip_Horizontal": [
         -5,
         5
@@ -3270,6 +3365,7 @@
       "Time_To_Aim": 0.75,
       "Detection_Radius": 120,
       "Suppression": 0.5,
+      "Equip_Time": 0.9,
       "Recoil_Hip_Horizontal": [
         -20,
         20
@@ -3306,6 +3402,7 @@
       "Movement_Speed_Modifier": -5,
       "Suppression": 0.8,
       "Health": 7,
+      "Equip_Time": 0.9,
       "Recoil_Hip_Horizontal": [
         -11,
         11
@@ -3341,6 +3438,7 @@
       "Detection_Radius": 120,
       "Suppression": 0.8,
       "Health": 5,
+      "Equip_Time": 0.9,
       "Recoil_Hip_Horizontal": [
         -6,
         6
@@ -3375,6 +3473,7 @@
       "Time_To_Aim": 0.7,
       "Detection_Radius": 130,
       "Suppression": 0.5,
+      "Equip_Time": 0.9,
       "Recoil_Hip_Horizontal": [
         -18,
         18
@@ -3410,6 +3509,7 @@
       "Detection_Radius": 150,
       "Movement_Speed_Modifier": -7,
       "Suppression": 0.3,
+      "Equip_Time": 0.9,
       "Recoil_Hip_Horizontal": [
         -38,
         38
@@ -3425,6 +3525,145 @@
       "Recoil_Aim_Vertical": [
         78.2,
         91.8
+      ]
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "M1911",
+      "Damage": [
+        23.5,
+        11.8
+      ],
+      "Dropoff_Studs": [
+        25,
+        100
+      ],
+      "Fire_Rate": 500,
+      "Hipfire_Spread": 0.45,
+      "ADS_Spread": 0.35,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 70,
+      "Movement_Speed_Modifier": 4.4,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -2,
+        2
+      ],
+      "Recoil_Hip_Vertical": [
+        5,
+        10
+      ],
+      "Recoil_Aim_Horizontal": [
+        -0.4,
+        0.4
+      ],
+      "Recoil_Aim_Vertical": [
+        1,
+        2
+      ]
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Tec-9",
+      "Damage": [
+        20,
+        10.4
+      ],
+      "Dropoff_Studs": [
+        35,
+        115
+      ],
+      "Fire_Rate": 550,
+      "Hipfire_Spread": 1,
+      "ADS_Spread": 0.25,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 60,
+      "Movement_Speed_Modifier": 4.4,
+      "Equip_Time": 0.2,
+      "Recoil_Hip_Horizontal": [
+        -6,
+        6
+      ],
+      "Recoil_Hip_Vertical": [
+        8,
+        11
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3,
+        3
+      ],
+      "Recoil_Aim_Vertical": [
+        4,
+        5.5
+      ]
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "B17",
+      "Damage": [
+        8.5,
+        4.7
+      ],
+      "Dropoff_Studs": [
+        20,
+        95
+      ],
+      "Fire_Rate": 1200,
+      "Hipfire_Spread": 1.1,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 90,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -22,
+        22
+      ],
+      "Recoil_Hip_Vertical": [
+        30,
+        42
+      ],
+      "Recoil_Aim_Horizontal": [
+        -13.2,
+        13.2
+      ],
+      "Recoil_Aim_Vertical": [
+        18,
+        25.2
+      ]
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Deagle",
+      "Damage": [
+        38,
+        19
+      ],
+      "Dropoff_Studs": [
+        60,
+        120
+      ],
+      "Fire_Rate": 200,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 0.3,
+      "Time_To_Aim": 0.4,
+      "Detection_Radius": 120,
+      "Movement_Speed_Modifier": 2.2,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        90,
+        110
+      ],
+      "Recoil_Aim_Horizontal": [
+        -16,
+        16
+      ],
+      "Recoil_Aim_Vertical": [
+        72,
+        88
       ]
     }
   ],
@@ -3988,6 +4227,32 @@
       "Reload_Speed": -9,
       "Movement_Speed": -2,
       "Recoil": 19
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "M1911",
+      "Recoil": -19,
+      "Reload_Speed": 4
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Tec-9",
+      "Spread": -12,
+      "Range": -4,
+      "Recoil": 7
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "B17",
+      "Fire_Rate": 4,
+      "Recoil": 34
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Deagle",
+      "Recoil": -22,
+      "Fire_Rate": -5,
+      "Movement_Speed": -2
     }
   ],
   "Magazines": [
@@ -4858,6 +5123,45 @@
       "Detection_Radius": 10,
       "Movement_Speed": -2,
       "Recoil": 21
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "M1911",
+      "Magazine_Size": 7,
+      "Reload_Time": 1.8,
+      "Damage": 18,
+      "Fire_Rate": 20,
+      "Range": -6,
+      "Recoil": 23
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Tec-9",
+      "Magazine_Size": 20,
+      "Reload_Time": 2,
+      "Damage": 3,
+      "Range": -4,
+      "Recoil": 11
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "B17",
+      "Magazine_Size": 17,
+      "Reload_Time": 2.2,
+      "Fire_Rate": 11,
+      "Range": -4,
+      "Spread": 11
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Deagle",
+      "Magazine_Size": 7,
+      "Reload_Time": 4,
+      "Damage": 20,
+      "Fire_Rate": -6,
+      "Movement_Speed": -2,
+      "Range": -9,
+      "Recoil": 52
     }
   ],
   "Stocks": [

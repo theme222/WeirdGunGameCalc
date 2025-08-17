@@ -424,3 +424,24 @@ Reload_Speed: -9%
 Movement_Speed: -2%
 Recoil: +19%
 ---
+
+Category: Sidearm Grips
+---
+Grip: M1911
+Recoil: -19%
+Reload_Speed: +4%
+---
+Grip: Tec-9
+Spread: -12%
+Range: -4%
+Recoil: +7%
+---
+Grip: B17
+Fire_Rate: +4%
+Recoil: +34%
+---
+Grip: Deagle
+Recoil: -22%
+Fire_Rate: -5%
+Movement_Speed: -2%
+---

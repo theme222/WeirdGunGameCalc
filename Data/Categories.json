@@ -1,9 +1,14 @@
 {
-  "Assault Rifle": 0,
-  "Sniper": 1,
-  "SMG": 2,
-  "LMG": 3,
-  "Weird": 4,
-  "Shotgun": 5,
-  "BR": 6
+  "Primary": {
+    "Assault Rifle": 0,
+    "Sniper": 1,
+    "SMG": 2,
+    "LMG": 3,
+    "Weird": 4,
+    "Shotgun": 5,
+    "BR": 6
+  },
+  "Secondary": {
+    "Sidearm": 7
+  }
 }

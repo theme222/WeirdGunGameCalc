@@ -96,41 +96,44 @@ recoilAimVertical: 23.0384 - 28.798
 movementSpeed: 0.495
 TTK: 0.312213 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: Type 99, Grip: The Chief, Stock: AUG, Core: Hex Spitter ]
-damage: 25.1137 - 22.7427
-dropoffStuds: 157.307 - 314.613
-fireRate: 574.2
-adsSpread: 0.556367
-hipfireSpread: 1.94728
-reloadTime: 3.15
+[ Barrel: Snake Sniper, Magazine: Type 2a Nambu, Grip: Arisaka, Stock: P90, Core: M1919 .30 Cal ]
+damage: 25.8184 - 17.4605
+dropoffStuds: 159.6 - 319.2
+fireRate: 573.115
+adsSpread: 0.641751
+hipfireSpread: 8.88578
+reloadTime: 2.625
 magazineSize: 30
-recoilHipVertical: 40.986 - 54.648
-recoilAimVertical: 20.493 - 27.324
-movementSpeed: 1.5
-TTK: 0.31348 Seconds
+health: 9
+recoilHipVertical: 41.5923 - 51.9904
+recoilAimVertical: 20.7962 - 25.9952
+movementSpeed: 0.3
+TTK: 0.314073 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: The Chief, Stock: MG42, Core: Hex Spitter ]
-damage: 25.4368 - 23.0267
-dropoffStuds: 157.875 - 315.75
-fireRate: 574.2
-adsSpread: 0.608482
-hipfireSpread: 2.12969
-reloadTime: 3.024
-magazineSize: 30
-recoilHipVertical: 40.5 - 54
-recoilAimVertical: 20.25 - 27
-movementSpeed: 2.625
-TTK: 0.31348 Seconds
+[ Barrel: M870 Wingmaster, Magazine: MP 40, Grip: Mas-38, Stock: FAL, Core: Hex Spitter ]
+damage: 25.8441 - 23.3288
+dropoffStuds: 152.697 - 305.393
+fireRate: 571.673
+adsSpread: 0.634073
+hipfireSpread: 2.21925
+reloadTime: 2.625
+magazineSize: 32
+recoilHipVertical: 44.85 - 59.8
+recoilAimVertical: 22.425 - 29.9
+movementSpeed: 1.76
+TTK: 0.314865 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: AKM, Grip: The Chief, Stock: The Chief, Core: Hex Spitter ]
-damage: 25.4368 - 23.0267
-dropoffStuds: 157.875 - 315.75
-fireRate: 574.2
-adsSpread: 0.599178
-hipfireSpread: 2.09712
-reloadTime: 2.268
+[ Barrel: Uzi, Magazine: Type 99, Grip: M1891, Stock: Arisaka, Core: M1919 .30 Cal ]
+damage: 25.0558 - 18.1082
+dropoffStuds: 188.784 - 377.568
+fireRate: 571.59
+adsSpread: 0.649216
+hipfireSpread: 8.98914
+reloadTime: 3.6225
 magazineSize: 30
-recoilHipVertical: 44.55 - 59.4
-recoilAimVertical: 22.275 - 29.7
-TTK: 0.31348 Seconds
+health: 12
+recoilHipVertical: 44.528 - 55.66
+recoilAimVertical: 22.264 - 27.83
+movementSpeed: 3.6
+TTK: 0.314911 Seconds
 

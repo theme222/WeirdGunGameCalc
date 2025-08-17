@@ -6,7 +6,7 @@ import json
 
 filenames = ["Barrels.txt", "Grips.txt", "Cores.txt", "Magazines.txt", "Stocks.txt"]
 
-known_categories = {"Assault Rifle", "Sniper", "SMG", "LMG", "Shotgun", "Weird", "BR"}
+known_categories = {"Assault Rifle", "Sniper", "SMG", "LMG", "Shotgun", "Weird", "BR", "Sidearm"}
 known_types = {"Barrels", "Cores", "Grips", "Magazines", "Stocks"}
 
 known_properties = {'Reload_Speed', 'Recoil_Hip_Vertical', 'Recoil',
@@ -14,7 +14,7 @@ known_properties = {'Reload_Speed', 'Recoil_Hip_Vertical', 'Recoil',
     'Dropoff_Studs', 'Category', 'Recoil_Aim_Vertical', 'Recoil_Hip_Horizontal',
     'Spread', 'Time_To_Aim', 'Hipfire_Spread', 'Recoil_Aim_Horizontal',
     'Movement_Speed_Modifier', 'Name', 'Movement_Speed', 'Reload_Time', 'Pellets',
-    'Detection_Radius', 'Range', 'Burst', 'Falloff_Factor'
+    'Detection_Radius', 'Range', 'Burst', 'Falloff_Factor', 'Equip_Time'
 }
 
 known_names = {
@@ -33,27 +33,35 @@ known_names = {
     'AR-8X', 'Freedom Dispenser', 'Second Amendment', 'JSG12', 'AWM', 'Arisaka', 'Sten gun', 'M1 Carbine',
     'M1919 Tripod', 'FG-42', 'G11', 'AK-12', 'QBZ-95', 'Lightning Shot', '10KG Dumbbell', 'VSSR', 'BarrelSight',
     'Screwdriver', 'Cirrus - Hand', 'Napo - Scissors', 'Rat - Emoji', 'Derpy - Staff', 'Uzi', 'G3',
-    'Dominus', 'Lipstick', 'Lewis', 'Mega Soaker'
+    'Dominus', 'Lipstick', 'Lewis', 'Mega Soaker', 'M1911', 'Tec-9', 'B17', 'Deagle'
 }
 
+# Anything with current_ is part of the Data used for calculations. Not part of the FileFormatter.py which is why there are two category variables
+# The number is the index for current_penalties
 current_categories = {
-    "Assault Rifle": 0,
-    "Sniper": 1,
-    "SMG": 2,
-    "LMG": 3,
-    "Weird": 4,
-    "Shotgun": 5,
-    "BR": 6
+    "Primary": {
+        "Assault Rifle": 0,
+        "Sniper": 1,
+        "SMG": 2,
+        "LMG": 3,
+        "Weird": 4,
+        "Shotgun": 5,
+        "BR": 6,
+    },
+    "Secondary": {
+        "Sidearm": 7
+    }
 }
 
 current_penalties = [
-    [1.00, 0.70, 0.80, 0.75, 1.00, 0.75, 0.80],
-    [0.70, 1.00, 0.60, 0.80, 1.00, 0.60, 0.85],
-    [0.80, 0.60, 1.00, 0.65, 1.00, 0.65, 0.70],
-    [0.75, 0.80, 0.65, 1.00, 1.00, 0.75, 0.85],
-    [1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00],
-    [0.70, 0.50, 0.65, 0.75, 1.00, 1.00, 0.60],
-    [0.80, 0.85, 0.70, 0.85, 1.00, 0.60, 1.00]
+    [1.00, 0.70, 0.80, 0.75, 1.00, 0.75, 0.80, 0.65],
+    [0.70, 1.00, 0.60, 0.80, 1.00, 0.60, 0.85, 0.50],
+    [0.80, 0.60, 1.00, 0.65, 1.00, 0.65, 0.70, 0.70],
+    [0.75, 0.80, 0.65, 1.00, 1.00, 0.75, 0.85, 0.50],
+    [1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00],
+    [0.70, 0.50, 0.65, 0.75, 1.00, 1.00, 0.60, 0.65],
+    [0.80, 0.85, 0.70, 0.85, 1.00, 0.60, 1.00, 0.65],
+    [0.65, 0.50, 0.75, 0.50, 1.00, 0.65, 0.65, 1.00],
 ]
 
 

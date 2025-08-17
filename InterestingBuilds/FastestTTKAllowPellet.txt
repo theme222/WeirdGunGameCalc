@@ -13,6 +13,18 @@ recoilAimVertical: 19.764 - 27.694
 movementSpeed: 1.5
 TTK: 0.251712 Seconds
 
+[ Barrel: G3, Magazine: Type 99, Grip: P90, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.0608 - 13.2346
+dropoffStuds: 160.682 - 177.898
+fireRate: 702.772
+adsSpread: 0.574012
+hipfireSpread: 3.82675
+reloadTime: 3
+magazineSize: 30
+recoilHipVertical: 37.9096 - 53.0735
+recoilAimVertical: 24.5654 - 34.4219
+TTK: 0.256129 Seconds
+
 [ Barrel: G3, Magazine: AKM, Grip: P90, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
 damage: 25.2324 - 12.6721
 dropoffStuds: 152.74 - 169.105
@@ -37,18 +49,6 @@ magazineSize: 30
 recoilHipVertical: 37.4601 - 52.4441
 recoilAimVertical: 24.2741 - 34.0138
 movementSpeed: 1
-TTK: 0.256129 Seconds
-
-[ Barrel: G3, Magazine: Type 99, Grip: P90, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.0608 - 13.2346
-dropoffStuds: 160.682 - 177.898
-fireRate: 702.772
-adsSpread: 0.574012
-hipfireSpread: 3.82675
-reloadTime: 3
-magazineSize: 30
-recoilHipVertical: 37.9096 - 53.0735
-recoilAimVertical: 24.5654 - 34.4219
 TTK: 0.256129 Seconds
 
 [ Barrel: M1891, Magazine: MP 40, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]

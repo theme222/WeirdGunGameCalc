@@ -9,6 +9,7 @@ ADS_Spread: 0.5
 Time_To_Aim: 0.7
 Detection_Radius: 120
 Suppression: 0.3
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -15 - 15
 Recoil_Hip_Vertical: 70 - 80
 Recoil_Aim_Horizontal: -12 - 12
@@ -23,6 +24,7 @@ ADS_Spread: 0.25
 Time_To_Aim: 0.7
 Detection_Radius: 90
 Suppression: 0.3
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -10 - 10
 Recoil_Hip_Vertical: 50 - 60
 Recoil_Aim_Horizontal: -4 - 4
@@ -38,6 +40,7 @@ Time_To_Aim: 0.7
 Detection_Radius: 75
 Movement_Speed_Modifier: +2.5%
 Suppression: 0.3
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -5 - 5
 Recoil_Hip_Vertical: 60 - 75
 Recoil_Aim_Horizontal: -0.4 - 0.4
@@ -52,6 +55,7 @@ ADS_Spread: 0.35
 Time_To_Aim: 0.7
 Detection_Radius: 60
 Suppression: 0.3
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -7 - 7
 Recoil_Hip_Vertical: 30 - 40
 Recoil_Aim_Horizontal: -1.4 - 1.4
@@ -67,6 +71,7 @@ ADS_Spread: 0.5
 Time_To_Aim: 0.7
 Detection_Radius: 110
 Suppression: 0.3
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -10 - 10
 Recoil_Hip_Vertical: 40 - 50
 Recoil_Aim_Horizontal: -1 - 1
@@ -81,6 +86,7 @@ ADS_Spread: 0.35
 Time_To_Aim: 0.7
 Detection_Radius: 100
 Suppression: 0.3
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -12 - 12
 Recoil_Hip_Vertical: 55 - 65
 Recoil_Aim_Horizontal: -4.8 - 4.8
@@ -95,6 +101,7 @@ ADS_Spread: 0.5
 Time_To_Aim: 0.7
 Detection_Radius: 110
 Suppression: 0.3
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -30 - 30
 Recoil_Hip_Vertical: 50 - 60
 Recoil_Aim_Horizontal: -18 - 18
@@ -110,6 +117,7 @@ Time_To_Aim: 0.7
 Detection_Radius: 125
 Suppression: 0.3
 Health: 17%
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -25 - 25
 Recoil_Hip_Vertical: 80 - 90
 Recoil_Aim_Horizontal: -32.5 - 32.5
@@ -124,6 +132,7 @@ ADS_Spread: 0.8
 Time_To_Aim: 0.7
 Detection_Radius: 90
 Suppression: 0.3
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -7 - 7
 Recoil_Hip_Vertical: 7 - 50
 Recoil_Aim_Horizontal: -2.1 - 2.1
@@ -139,6 +148,7 @@ ADS_Spread: 1
 Time_To_Aim: 0.7
 Detection_Radius: 70
 Suppression: 0.4
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -8 - 8
 Recoil_Hip_Vertical: 30 - 40
 Recoil_Aim_Horizontal: -3.2 - 3.2
@@ -153,6 +163,7 @@ ADS_Spread: 1.3
 Time_To_Aim: 0.7
 Detection_Radius: 200
 Suppression: 0.3
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -22 - 22
 Recoil_Hip_Vertical: 70 - 100
 Recoil_Aim_Horizontal: -12.1 - 12.1
@@ -166,6 +177,7 @@ Hipfire_Spread: 2
 ADS_Spread: 0.45
 Time_To_Aim: 0.7
 Detection_Radius: 95
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -10 - 10
 Recoil_Hip_Vertical: 10 - 30
 Recoil_Aim_Horizontal: -9 - 9
@@ -181,6 +193,7 @@ Time_To_Aim: 0.7
 Detection_Radius: 175
 Suppression: 0.3
 Health: +5%
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -4 - 4
 Recoil_Hip_Vertical: 12 - 15
 Recoil_Aim_Horizontal: -1.4 - 1.4
@@ -196,6 +209,7 @@ Time_To_Aim: 0.7
 Detection_Radius: 135
 Suppression: 0.3
 Health: +5%
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -19 - 19
 Recoil_Hip_Vertical: 63 - 78
 Recoil_Aim_Horizontal: -12.3 - 12.3
@@ -211,6 +225,7 @@ Time_To_Aim: 0.7
 Detection_Radius: 120
 Burst: 3
 Suppression: 0.3
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -2 - 2
 Recoil_Hip_Vertical: 2 - 4
 Recoil_Aim_Horizontal: -1.3 - 1.3
@@ -225,6 +240,7 @@ ADS_Spread: 0.2
 Time_To_Aim: 0.7
 Detection_Radius: 120
 Suppression: 0.3
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -15 - 15
 Recoil_Hip_Vertical: 56 - 68
 Recoil_Aim_Horizontal: -8.3 - 8.3
@@ -239,6 +255,7 @@ ADS_Spread: 0.35
 Time_To_Aim: 0.7
 Detection_Radius: 120
 Suppression: 0.3
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -22 - 22
 Recoil_Hip_Vertical: 70 - 75
 Recoil_Aim_Horizontal: -15.4 - 15.4
@@ -257,6 +274,7 @@ Time_To_Aim: 0.7
 Detection_Radius: 215
 Movement_Speed_Modifier: -5%
 Suppression: 1
+Equip_Time: 1
 Recoil_Hip_Horizontal: -15 - 15
 Recoil_Hip_Vertical: 70 - 100
 Recoil_Aim_Horizontal: -7.5 - 7.5
@@ -272,6 +290,7 @@ Time_To_Aim: 0.7
 Detection_Radius: 215
 Suppression: 1
 Recoil_Hip_Horizontal: -10 - 10
+Equip_Time: 1
 Recoil_Hip_Vertical: 50 - 80
 Recoil_Aim_Horizontal: -4 - 4
 Recoil_Aim_Vertical: 20 - 32
@@ -287,6 +306,7 @@ Detection_Radius: 250
 Movement_Speed_Modifier: -5%
 Suppression: 1
 Recoil_Hip_Horizontal: -20 - 20
+Equip_Time: 1
 Recoil_Hip_Vertical: 90 - 120
 Recoil_Aim_Horizontal: -10 - 10
 Recoil_Aim_Vertical: 45 - 60
@@ -301,6 +321,7 @@ Time_To_Aim: 0.6
 Detection_Radius: 200
 Suppression: 1
 Recoil_Hip_Horizontal: -15 - 15
+Equip_Time: 1
 Recoil_Hip_Vertical: 90 - 120
 Recoil_Aim_Horizontal: -6 - 6
 Recoil_Aim_Vertical: 36 - 48
@@ -316,6 +337,7 @@ Detection_Radius: 275
 Movement_Speed_Modifier: -8%
 Suppression: 1
 Recoil_Hip_Horizontal: -18 - 18
+Equip_Time: 1
 Recoil_Hip_Vertical: 80 - 110
 Recoil_Aim_Horizontal: -9 - 9
 Recoil_Aim_Vertical: 40 - 55
@@ -331,6 +353,7 @@ Detection_Radius: 300
 Movement_Speed_Modifier: -10%
 Suppression: 1
 Recoil_Hip_Horizontal: -20 - 20
+Equip_Time: 1
 Recoil_Hip_Vertical: 90 - 120
 Recoil_Aim_Horizontal: -10 - 10
 Recoil_Aim_Vertical: 45 - 60
@@ -345,6 +368,7 @@ Time_To_Aim: 1
 Detection_Radius: 300
 Suppression: 1
 Recoil_Hip_Horizontal: -14 - 14
+Equip_Time: 1
 Recoil_Hip_Vertical: 175 - 183
 Recoil_Aim_Horizontal: -8.4 - 8.4
 Recoil_Aim_Vertical: 105 - 109.8
@@ -360,6 +384,7 @@ Detection_Radius: 350
 Movement_Speed_Modifier: -4%
 Suppression: 1
 Recoil_Hip_Horizontal: -5 - 5
+Equip_Time: 1
 Recoil_Hip_Vertical: 70 - 90
 Recoil_Aim_Horizontal: -2.8 - 2.8
 Recoil_Aim_Vertical: 38.5 - 49.5
@@ -376,6 +401,7 @@ Movement_Speed_Modifier: +10%
 Suppression: 0.8
 Health: -10%
 Recoil_Hip_Horizontal: -21 - 21
+Equip_Time: 1
 Recoil_Hip_Vertical: 72 - 82
 Recoil_Aim_Horizontal: -9.4 - 9.4
 Recoil_Aim_Vertical: 32.4 - 36.9
@@ -392,6 +418,7 @@ Movement_Speed_Modifier: -12.5%
 Suppression: 1
 Health: +3%
 Recoil_Hip_Horizontal: -20 - 20
+Equip_Time: 1
 Recoil_Hip_Vertical: 90 - 120
 Recoil_Aim_Horizontal: -10 - 10
 Recoil_Aim_Vertical: 45 - 60
@@ -407,6 +434,7 @@ Detection_Radius: 300
 Movement_Speed_Modifier: -5%
 Suppression: 1
 Recoil_Hip_Horizontal: -16 - 16
+Equip_Time: 1
 Recoil_Hip_Vertical: 85 - 100
 Recoil_Aim_Horizontal: -10.4 - 10.4
 Recoil_Aim_Vertical: 44.2 - 65
@@ -423,6 +451,7 @@ ADS_Spread: 0.85
 Time_To_Aim: 0.3
 Detection_Radius: 70
 Movement_Speed_Modifier: +4.4%
+Equip_Time: 0.5
 Recoil_Hip_Horizontal: -20 - 20
 Recoil_Hip_Vertical: 40 - 60
 Recoil_Aim_Horizontal: -8 - 8
@@ -438,6 +467,7 @@ Time_To_Aim: 0.15
 Detection_Radius: 40
 Movement_Speed_Modifier: +9%
 Recoil_Hip_Horizontal: -25 - 25
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 60 - 80
 Recoil_Aim_Horizontal: -20 - 20
 Recoil_Aim_Vertical: 48 - 64
@@ -452,6 +482,7 @@ Time_To_Aim: 0.35
 Detection_Radius: 90
 Movement_Speed_Modifier: +3.8%
 Recoil_Hip_Horizontal: -10 - 10
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 40 - 60
 Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 32 - 48
@@ -466,6 +497,7 @@ Time_To_Aim: 0.3
 Detection_Radius: 75
 Movement_Speed_Modifier: +4.6%
 Recoil_Hip_Horizontal: -20 - 20
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 40 - 60
 Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 16 - 24
@@ -480,6 +512,7 @@ Time_To_Aim: 0.35
 Detection_Radius: 90
 Movement_Speed_Modifier: +3.2%
 Recoil_Hip_Horizontal: -15 - 15
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 70 - 80
 Recoil_Aim_Horizontal: -12 - 12
 Recoil_Aim_Vertical: 56 - 64
@@ -494,6 +527,7 @@ Time_To_Aim: 0.35
 Detection_Radius: 97
 Movement_Speed_Modifier: +3.8%
 Recoil_Hip_Horizontal: -20 - 20
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 60 - 90
 Recoil_Aim_Horizontal: -19 - 19
 Recoil_Aim_Vertical: 57 - 85.5
@@ -508,6 +542,7 @@ Time_To_Aim: 0.3
 Detection_Radius: 95
 Movement_Speed_Modifier: +2.3%
 Recoil_Hip_Horizontal: -25 - 25
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 30 - 60
 Recoil_Aim_Horizontal: -20 - 20
 Recoil_Aim_Vertical: 24 - 48
@@ -522,6 +557,7 @@ Time_To_Aim: 0.35
 Detection_Radius: 90
 Movement_Speed_Modifier: +3.3%
 Recoil_Hip_Horizontal: -5 - 5
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 10 - 30
 Recoil_Aim_Horizontal: -4.5 - 4.5
 Recoil_Aim_Vertical: 9 - 27
@@ -536,6 +572,7 @@ Time_To_Aim: 0.35
 Detection_Radius: 80
 Movement_Speed_Modifier: +4%
 Recoil_Hip_Horizontal: -10 - 10
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 25 - 35
 Recoil_Aim_Horizontal: -6.5 - 6.5
 Recoil_Aim_Vertical: 16.2 - 22.7
@@ -550,6 +587,7 @@ Time_To_Aim: 0.35
 Detection_Radius: 110
 Movement_Speed_Modifier: +4.1%
 Recoil_Hip_Horizontal: -7.5 - 7.5
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 10 - 30
 Recoil_Aim_Horizontal: -3 - 3
 Recoil_Aim_Vertical: 4 - 12
@@ -563,6 +601,7 @@ ADS_Spread: 0.85
 Time_To_Aim: 0.8
 Detection_Radius: 80
 Recoil_Hip_Horizontal: -50 - 50
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 30 - 50
 Recoil_Aim_Horizontal: -15 - 15
 Recoil_Aim_Vertical: 9 - 15
@@ -576,6 +615,7 @@ ADS_Spread: 0.6
 Time_To_Aim: 0.7
 Detection_Radius: 70
 Recoil_Hip_Horizontal: -15 - 15
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 20 - 45
 Recoil_Aim_Horizontal: -13.5 - 13.5
 Recoil_Aim_Vertical: 18 - 40.5
@@ -590,6 +630,7 @@ Time_To_Aim: 0.35
 Detection_Radius: 60
 Movement_Speed_Modifier: +2.5%
 Recoil_Hip_Horizontal: -15 - 15
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 20 - 30
 Recoil_Aim_Horizontal: -10.5 - 10.5
 Recoil_Aim_Vertical: 14 - 21
@@ -604,6 +645,7 @@ Time_To_Aim: 0.3
 Detection_Radius: 90
 Movement_Speed_Modifier: +2.5%
 Recoil_Hip_Horizontal: -21 - 21
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 30 - 38
 Recoil_Aim_Horizontal: -9.7 - 9.7
 Recoil_Aim_Vertical: 13.8 - 17.5
@@ -618,6 +660,7 @@ Time_To_Aim: 0.6
 Detection_Radius: 120
 Suppression: 0.3
 Recoil_Hip_Horizontal: -4 - 4
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 10 - 12
 Recoil_Aim_Horizontal: -1.6 - 1.6
 Recoil_Aim_Vertical: 4 - 4.8
@@ -632,6 +675,7 @@ Time_To_Aim: 0.25
 Detection_Radius: 85
 Movement_Speed_Modifier: +3.5%
 Recoil_Hip_Horizontal: -12 - 12
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 25 - 45
 Recoil_Aim_Horizontal: -9 - 9
 Recoil_Aim_Vertical: 18.8 - 33.8
@@ -650,6 +694,7 @@ Detection_Radius: 155
 Movement_Speed_Modifier: -5.5%
 Suppression: 0.8
 Health: +10%
+Equip_Time: 1
 Recoil_Hip_Horizontal: -12 - 12
 Recoil_Hip_Vertical: 37 - 55
 Recoil_Aim_Horizontal: -6 - 6
@@ -666,6 +711,7 @@ Detection_Radius: 155
 Movement_Speed_Modifier: -5%
 Suppression: 0.9
 Health: +18%
+Equip_Time: 1
 Recoil_Hip_Horizontal: -12 - 12
 Recoil_Hip_Vertical: 55 - 67
 Recoil_Aim_Horizontal: -7.2 - 7.2
@@ -682,6 +728,7 @@ Detection_Radius: 125
 Movement_Speed_Modifier: -5%
 Suppression: 0.8
 Health: +10%
+Equip_Time: 1
 Recoil_Hip_Horizontal: -7 - 7
 Recoil_Hip_Vertical: 60 - 70
 Recoil_Aim_Horizontal: -4.2 - 4.2
@@ -698,6 +745,7 @@ Detection_Radius: 165
 Movement_Speed_Modifier: -10%
 Suppression: 0.9
 Health: +20%
+Equip_Time: 1
 Recoil_Hip_Horizontal: -10 - 10
 Recoil_Hip_Vertical: 44 - 55
 Recoil_Aim_Horizontal: -5 - 5
@@ -714,6 +762,7 @@ Detection_Radius: 175
 Movement_Speed_Modifier: -5%
 Suppression: 0.9
 Health: +11%
+Equip_Time: 1
 Recoil_Hip_Horizontal: -20 - 20
 Recoil_Hip_Vertical: 80 - 120
 Recoil_Aim_Horizontal: -18 - 18
@@ -730,6 +779,7 @@ Detection_Radius: 125
 Movement_Speed_Modifier: -5%
 Suppression: 0.9
 Health: +15%
+Equip_Time: 1
 Recoil_Hip_Horizontal: -16 - 16
 Recoil_Hip_Vertical: 35 - 40
 Recoil_Aim_Horizontal: -9.6 - 9.6
@@ -746,6 +796,7 @@ Detection_Radius: 175
 Movement_Speed_Modifier: -7.5%
 Suppression: 0.9
 Health: +13%
+Equip_Time: 1
 Recoil_Hip_Horizontal: -15 - 15
 Recoil_Hip_Vertical: 53 - 76
 Recoil_Aim_Horizontal: -7.5 - 7.5
@@ -763,6 +814,7 @@ Detection_Radius: 180
 Movement_Speed_Modifier: -7%
 Suppression: 1
 Health: +12%
+Equip_Time: 1
 Recoil_Hip_Horizontal: -25 - 25
 Recoil_Hip_Vertical: 60 - 90
 Recoil_Aim_Horizontal: -15 - 15
@@ -779,6 +831,7 @@ Detection_Radius: 155
 Movement_Speed_Modifier: -6%
 Suppression: 0.8
 Health: +14%
+Equip_Time: 1
 Recoil_Hip_Horizontal: -12 - 12
 Recoil_Hip_Vertical: 70 - 97
 Recoil_Aim_Horizontal: -9 - 9
@@ -800,6 +853,7 @@ Detection_Radius: 100
 Movement_Speed_Modifier: +2%
 Suppression: 0.5
 Health: +4%
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -20 - 20
 Recoil_Hip_Vertical: 20 - 30
 Recoil_Aim_Horizontal: -8 - 8
@@ -816,6 +870,7 @@ ADS_Spread: 2.5
 Time_To_Aim: 0.7
 Detection_Radius: 130
 Suppression: 0.5
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -10 - 10
 Recoil_Hip_Vertical: 40 - 60
 Recoil_Aim_Horizontal: -4 - 4
@@ -832,6 +887,7 @@ ADS_Spread: 1.65
 Time_To_Aim: 0.7
 Detection_Radius: 100
 Suppression: 0.5
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -20 - 20
 Recoil_Hip_Vertical: 50 - 80
 Recoil_Aim_Horizontal: -8 - 8
@@ -847,6 +903,7 @@ ADS_Spread: 2.5
 Time_To_Aim: 0.95
 Detection_Radius: 160
 Suppression: 0.2
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -25 - 25
 Recoil_Hip_Vertical: 50 - 80
 Recoil_Aim_Horizontal: -10 - 10
@@ -863,6 +920,7 @@ ADS_Spread: 1.85
 Time_To_Aim: 0.7
 Detection_Radius: 160
 Suppression: 0.5
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -25 - 25
 Recoil_Hip_Vertical: 80 - 99
 Recoil_Aim_Horizontal: -8.7 - 8.7
@@ -879,6 +937,7 @@ ADS_Spread: 2
 Time_To_Aim: 0.75
 Detection_Radius: 130
 Suppression: 0.2
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -20 - 20
 Recoil_Hip_Vertical: 40 - 70
 Recoil_Aim_Horizontal: -8 - 8
@@ -894,6 +953,7 @@ ADS_Spread: 2
 Time_To_Aim: 0.9
 Detection_Radius: 200
 Suppression: 1
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -14 - 14
 Recoil_Hip_Vertical: 150 - 190
 Recoil_Aim_Horizontal: -8.4 - 8.4
@@ -911,6 +971,7 @@ Time_To_Aim: 0.8
 Detection_Radius: 135
 Movement_Speed_Modifier: +2.5%
 Suppression: 0.7
+Equip_Time: 0.7
 Recoil_Hip_Horizontal: -24 - 24
 Recoil_Hip_Vertical: 95 - 112
 Recoil_Aim_Horizontal: -15.6 - 15.6
@@ -1024,6 +1085,7 @@ Detection_Radius: 120
 Movement_Speed_Modifier: -5%
 Suppression: 0.8
 Health: +10%
+Equip_Time: 0.9
 Recoil_Hip_Horizontal: -7 - 7
 Recoil_Hip_Vertical: 32 - 44
 Recoil_Aim_Horizontal: -3.1 - 3.1
@@ -1039,6 +1101,7 @@ Time_To_Aim: 0.85
 Detection_Radius: 120
 Movement_Speed_Modifier: -5%
 Suppression: 0.7
+Equip_Time: 0.9
 Recoil_Hip_Horizontal: -35 - 35
 Recoil_Hip_Vertical: 110 - 140
 Recoil_Aim_Horizontal: -28 - 28
@@ -1055,6 +1118,7 @@ Detection_Radius: 120
 Movement_Speed_Modifier: -7%
 Suppression: 0.8
 Health: +8%
+Equip_Time: 0.9
 Recoil_Hip_Horizontal: -5 - 5
 Recoil_Hip_Vertical: 34 - 43
 Recoil_Aim_Horizontal: -3 - 3
@@ -1069,6 +1133,7 @@ ADS_Spread: 0.25
 Time_To_Aim: 0.75
 Detection_Radius: 120
 Suppression: 0.5
+Equip_Time: 0.9
 Recoil_Hip_Horizontal: -20 - 20
 Recoil_Hip_Vertical: 120 - 135
 Recoil_Aim_Horizontal: -15.1 - 15.1
@@ -1085,6 +1150,7 @@ Detection_Radius: 120
 Movement_Speed_Modifier: -5%
 Suppression: 0.8
 Health: +7%
+Equip_Time: 0.9
 Recoil_Hip_Horizontal: -11 - 11
 Recoil_Hip_Vertical: 35 - 42
 Recoil_Aim_Horizontal: -6.6 - 6.6
@@ -1100,6 +1166,7 @@ Time_To_Aim: 0.8
 Detection_Radius: 120
 Suppression: 0.8
 Health: +5%
+Equip_Time: 0.9
 Recoil_Hip_Horizontal: -6 - 6
 Recoil_Hip_Vertical: 20 - 22
 Recoil_Aim_Horizontal: -3 - 3
@@ -1114,6 +1181,7 @@ ADS_Spread: 0.4
 Time_To_Aim: 0.7
 Detection_Radius: 130
 Suppression: 0.5
+Equip_Time: 0.9
 Recoil_Hip_Horizontal: -18 - 18
 Recoil_Hip_Vertical: 83 - 108
 Recoil_Aim_Horizontal: -13.5 - 13.5
@@ -1129,8 +1197,71 @@ Time_To_Aim: 0.7
 Detection_Radius: 150
 Movement_Speed_Modifier: -7%
 Suppression: 0.3
+Equip_Time: 0.9
 Recoil_Hip_Horizontal: -38 - 38
 Recoil_Hip_Vertical: 92 - 108
 Recoil_Aim_Horizontal: -32.3 - 32.3
 Recoil_Aim_Vertical: 78.2 - 91.8
+---
+
+Category: Sidearm
+---
+Core: M1911
+Damage: 23.5 > 11.8
+Dropoff_Studs: 25 > 100
+Fire_Rate: 500
+Hipfire_Spread: 0.45
+ADS_Spread: 0.35
+Time_To_Aim: 0.3
+Detection_Radius: 70
+Movement_Speed_Modifier: +4.4%
+Equip_Time: 0.5
+Recoil_Hip_Horizontal: -2 - 2
+Recoil_Hip_Vertical: 5 - 10
+Recoil_Aim_Horizontal: -0.4 - 0.4
+Recoil_Aim_Vertical: 1 - 2
+---
+Core: Tec-9
+Damage: 20 > 10.4
+Dropoff_Studs: 35 > 115
+Fire_Rate: 550
+Hipfire_Spread: 1
+ADS_Spread: 0.25
+Time_To_Aim: 0.3
+Detection_Radius: 60
+Movement_Speed_Modifier: +4.4%
+Equip_Time: 0.2
+Recoil_Hip_Horizontal: -6 - 6
+Recoil_Hip_Vertical: 8 - 11
+Recoil_Aim_Horizontal: -3 - 3
+Recoil_Aim_Vertical: 4 - 5.5
+---
+Core: B17
+Damage: 8.5 > 4.7
+Dropoff_Studs: 20 > 95
+Fire_Rate: 1200
+Hipfire_Spread: 1.1
+ADS_Spread: 0.45
+Time_To_Aim: 0.3
+Detection_Radius: 90
+Equip_Time: 0.7
+Recoil_Hip_Horizontal: -22 - 22
+Recoil_Hip_Vertical: 30 - 42
+Recoil_Aim_Horizontal: -13.2 - 13.2
+Recoil_Aim_Vertical: 18 - 25.2
+---
+Core: Deagle
+Damage: 38 > 19
+Dropoff_Studs: 60 > 120
+Fire_Rate: 200
+Hipfire_Spread: 5
+ADS_Spread: 0.3
+Time_To_Aim: 0.4
+Detection_Radius: 120
+Movement_Speed_Modifier: +2.2%
+Equip_Time: 0.7
+Recoil_Hip_Horizontal: -20 - 20
+Recoil_Hip_Vertical: 90 - 110
+Recoil_Aim_Horizontal: -16 - 16
+Recoil_Aim_Vertical: 72 - 88
 ---

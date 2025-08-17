@@ -104,18 +104,18 @@ recoilHipVertical: 174.96 - 199.26
 recoilAimVertical: 78.732 - 89.667
 movementSpeed: -5
 
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: M40, Core: Arisaka ]
-damage: 100.507 - 91.0089
-dropoffStuds: 418 - 731.5
+[ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: AUG, Core: Arisaka ]
+damage: 100.507 - 90.4391
+dropoffStuds: 392.92 - 687.61
 fireRate: 27
-adsSpread: 0.1317
-hipfireSpread: 10.536
+adsSpread: 0.147242
+hipfireSpread: 11.7793
 reloadTime: 5.5
 magazineSize: 6
 health: -10
-recoilHipVertical: 136.598 - 155.57
-recoilAimVertical: 61.4693 - 70.0067
-movementSpeed: -2
+recoilHipVertical: 151.776 - 172.856
+recoilAimVertical: 68.2992 - 77.7852
+movementSpeed: -0.25
 
 [ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: AWM, Core: Arisaka ]
 damage: 100.507 - 91.0089

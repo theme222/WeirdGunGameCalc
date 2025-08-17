@@ -27,17 +27,17 @@ recoilAimVertical: 7.015 - 8.418
 movementSpeed: 2.5
 TTK: 0.138968 Seconds
 
-[ Barrel: Snake Sniper, Magazine: MP 40, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
-damage: 33.9733 - 20.384
+[ Barrel: Snake Sniper, Magazine: MP 40, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 34.132 - 20.4792
 dropoffStuds: 145 - 170
 fireRate: 837.194
-adsSpread: 0.414699
-hipfireSpread: 6.91165
+adsSpread: 0.559121
+hipfireSpread: 9.31869
 reloadTime: 2.625
 magazineSize: 32
-health: -12.5
-recoilHipVertical: 17.2569 - 20.7083
-recoilAimVertical: 6.90276 - 8.28331
+health: -5
+recoilHipVertical: 14.03 - 16.836
+recoilAimVertical: 5.612 - 6.7344
 TTK: 0.143336 Seconds
 
 [ Barrel: Snake Sniper, Magazine: MP 40, Grip: MP 40, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
@@ -53,17 +53,17 @@ recoilHipVertical: 18.239 - 21.8868
 recoilAimVertical: 7.2956 - 8.75472
 TTK: 0.143336 Seconds
 
-[ Barrel: Snake Sniper, Magazine: MP 40, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
-damage: 34.132 - 20.4792
+[ Barrel: Snake Sniper, Magazine: MP 40, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.9733 - 20.384
 dropoffStuds: 145 - 170
 fireRate: 837.194
-adsSpread: 0.559121
-hipfireSpread: 9.31869
+adsSpread: 0.414699
+hipfireSpread: 6.91165
 reloadTime: 2.625
 magazineSize: 32
-health: -5
-recoilHipVertical: 14.03 - 16.836
-recoilAimVertical: 5.612 - 6.7344
+health: -12.5
+recoilHipVertical: 17.2569 - 20.7083
+recoilAimVertical: 6.90276 - 8.28331
 TTK: 0.143336 Seconds
 
 [ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Type 2a Nambu, Stock: Kriss Vector, Core: M1 Carbine ]
@@ -119,13 +119,13 @@ recoilHipVertical: 14.95 - 17.94
 recoilAimVertical: 5.98 - 7.176
 TTK: 0.145883 Seconds
 
-[ Barrel: Circuit Judge, Magazine: MP 40, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
-damage: 33.613 - 19.3611
-dropoffStuds: 136.3 - 159.8
+[ Barrel: M1911, Magazine: MP 40, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 34.6816 - 19.283
+dropoffStuds: 129.05 - 151.3
 fireRate: 822.391
 adsSpread: 0.466321
 hipfireSpread: 7.77202
-reloadTime: 2.25625
+reloadTime: 2.5
 magazineSize: 32
 recoilHipVertical: 17.5375 - 21.045
 recoilAimVertical: 7.015 - 8.418

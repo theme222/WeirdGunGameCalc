@@ -718,3 +718,37 @@ Detection_Radius: +10%
 Movement_Speed: -2%
 Recoil: +21%
 ---
+
+Category: Sidearm Magazines
+---
+Magazine: M1911
+Magazine_Size: 7
+Reload_Time: 1.8
+Damage: +18%
+Fire_Rate: +20%
+Range: -6%
+Recoil: +23%
+---
+Magazine: Tec-9
+Magazine_Size: 20
+Reload_Time: 2
+Damage: +3%
+Range: -4%
+Recoil: +11%
+---
+Magazine: B17
+Magazine_Size: 17
+Reload_Time: 2.2
+Fire_Rate: +11%
+Range: -4%
+Spread: +11%
+---
+Magazine: Deagle
+Magazine_Size: 7
+Reload_Time: 4
+Damage: +20%
+Fire_Rate: -6%
+Movement_Speed: -2%
+Range: -9%
+Recoil: +52%
+---

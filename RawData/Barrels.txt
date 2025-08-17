@@ -632,3 +632,29 @@ Fire_Rate: -2%
 Movement_Speed: -3%
 Recoil: +38%
 ---
+
+Category: Sidearm Barrels
+---
+Barrel: M1911
+Damage: +18%
+Range: -11%
+Recoil: +25%
+---
+Barrel: Tec-9
+Fire_Rate: +9%
+Recoil: -16%
+Detection_Radius: +5%
+Range: -8%
+---
+Barrel: B17
+Fire_Rate: +20%
+Range: -15%
+Recoil: +19%
+---
+Barrel: Deagle
+Damage: +20%
+Fire_Rate: -10%
+Movement_Speed: -4%
+Range: -7%
+Recoil: +55%
+---

@@ -85,6 +85,11 @@ namespace Input
 namespace Fast // Namespace to contain any indexing that uses the integer representation of categories and mults
 {
     int categoryCount; // Gets set to fastifyCategory.size() in the main function
+    int primaryCategoryCount;
+    int secondaryCategoryCount;
+
+    bool includedPrimary = false;
+    bool includedSecondary = false;
 
     // penalties[coreCategory][partCategory]
     std::vector<std::vector<float>> penalties;
@@ -174,27 +179,30 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         //     std::cout << std::fixed << std::setprecision(3) << quadraticSpread[i] << ' ';
         // puts("");
 
+        int maxPartCount = includedPrimary ? 5 : 4; // Secondaries don't have stocks
+
         pelletRange_adjusted = { damageRange.first != NILMIN ? damageRange.first : 1.0f, damageRange.second != NILMAX ? damageRange.second : 55.0f };
 
-        // Adjusted values scale to (mult / pelletModMax^5) < trueMultRange < (mult / pelletModMin) | Yes I know it is a very wide and terrible range but i can't think of a smaller valid range
+        // Adjusted values scale to (mult / pelletModMax^maxPartCount) < trueMultRange < (mult / pelletModMin) | Yes I know it is a very wide and terrible range but i can't think of a smaller valid range
         damageRange_adjusted = damageRange;
-        if (damageRange_adjusted.first != NILMIN) damageRange_adjusted.first /= powf(1 + ClampQuadratic(pelletRange_adjusted.second, DAMAGE), 5);
+        if (damageRange_adjusted.first != NILMIN) damageRange_adjusted.first /= powf(1 + ClampQuadratic(pelletRange_adjusted.second, DAMAGE), maxPartCount);
         if (damageRange_adjusted.second != NILMAX) damageRange_adjusted.second /= 1 + ClampQuadratic(pelletRange_adjusted.first, DAMAGE);
 
         damage2Range_adjusted = damage2Range;
-        if (damage2Range_adjusted.first != NILMIN) damage2Range_adjusted.first /= powf(1 + ClampQuadratic(pelletRange_adjusted.second, DAMAGE), 5);
+        if (damage2Range_adjusted.first != NILMIN) damage2Range_adjusted.first /= powf(1 + ClampQuadratic(pelletRange_adjusted.second, DAMAGE), maxPartCount);
         if (damage2Range_adjusted.second != NILMAX) damage2Range_adjusted.second /= 1 + ClampQuadratic(pelletRange_adjusted.first, DAMAGE);
 
         spreadHipRange_adjusted = spreadHipRange;
-        if (spreadHipRange_adjusted.first != NILMIN) spreadHipRange_adjusted.first /= powf(1 + ClampQuadratic(pelletRange_adjusted.second, SPREADHIP), 5);
+        if (spreadHipRange_adjusted.first != NILMIN) spreadHipRange_adjusted.first /= powf(1 + ClampQuadratic(pelletRange_adjusted.second, SPREADHIP), maxPartCount);
         if (spreadHipRange_adjusted.second != NILMAX) spreadHipRange_adjusted.second /= 1 + ClampQuadratic(pelletRange_adjusted.first, SPREADHIP);
 
         spreadAimRange_adjusted = spreadAimRange;
-        if (spreadAimRange_adjusted.first != NILMIN) spreadAimRange_adjusted.first /= powf(1 + ClampQuadratic(pelletRange_adjusted.second, SPREADAIM), 5);
+        if (spreadAimRange_adjusted.first != NILMIN) spreadAimRange_adjusted.first /= powf(1 + ClampQuadratic(pelletRange_adjusted.second, SPREADAIM), maxPartCount);
         if (spreadAimRange_adjusted.second != NILMAX) spreadAimRange_adjusted.second /= 1 + ClampQuadratic(pelletRange_adjusted.first, SPREADAIM);
     }
 
     std::map<std::string, int> fastifyName = {};
+    inline int fastifyNoneName() {return fastifyCategory.size() - 1;} // Returns the name_fast of the "None" part which is always the last part added.
 
     void PartExists(std::string partName)
     {
@@ -211,6 +219,12 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             if (!fastifyCategory.contains(category))
                 throw std::invalid_argument("Category " + category + " doesn't exist");
             includeCategories_fast[fastifyCategory[category]] = true;
+        }
+
+        for (int cat = 0; cat < Fast::categoryCount; cat++)
+        {
+            if (cat < Fast::primaryCategoryCount) includedPrimary = includedPrimary || includeCategories_fast[cat];
+            else includedSecondary = includedSecondary || includeCategories_fast[cat];
         }
     }
 
@@ -243,6 +257,13 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             PartExists(forceCore);
             forceParts_fast[4] = fastifyName[forceCore];
         }
+
+        if (includedPrimary && includedSecondary)
+            throw std::invalid_argument("Primary and Secondary categories cannot be included together. Please calculate them separately.");
+
+        // Set secondary class's forceStock to be None
+        if (includedSecondary && forceParts_fast[3] != NILINT) puts("WARNING: Force stock is not allowed in secondary category, reverting to None");
+        if (includedSecondary) forceParts_fast[3] = fastifyName["None"];
 
         // init banParts_fast to be a bool vector of size fastifyName.size()
         for (int i = 0; i < 5; i++)
@@ -308,6 +329,17 @@ public:
 
     // Init a default value part
     Part() {}
+
+    template <typename T> // Makes that part that was passed through have no value and be set to None
+    static T ToNone(T part) {
+        if (!Fast::fastifyName.contains("None")) Fast::fastifyName["None"] = Fast::fastifyName.size();
+        part.category = "Weird"; // Weird category applies zero penalty debuff.
+        part.name = "None";
+
+        part.category_fast = Fast::fastifyCategory["Weird"];
+        part.name_fast = Fast::fastifyName["None"];
+        return part;
+    }
 
     // Init an identity value part (Can be used to directly apply the * operator onto a gun).
     static Part Identity() {
@@ -744,14 +776,15 @@ public:
         {
             float mult = 1;
 
-            if (core->name_fast != magazine->name_fast)
+            // name_fast = fastifyName.size() - 1 is checking if it's the None part
+            if (core->name_fast != magazine->name_fast || magazine->name_fast == Fast::fastifyNoneName())
                 mult *= 1 + (CalculatePenalty(DAMAGE, magazine) / 100) + ClampQuadratic(previousPelletCount[0], DAMAGE);
-            if (core->name_fast != barrel->name_fast)
+            if (core->name_fast != barrel->name_fast || barrel->name_fast == Fast::fastifyNoneName())
                 mult *= 1 + (CalculatePenalty(DAMAGE, barrel) / 100) + ClampQuadratic(previousPelletCount[1], DAMAGE);
-            if (core->name_fast != stock->name_fast)
+            if (core->name_fast != stock->name_fast || stock->name_fast == Fast::fastifyNoneName())
                 mult *= 1 + (CalculatePenalty(DAMAGE, stock) / 100) + ClampQuadratic(previousPelletCount[2], DAMAGE);
             mult *= 1 + ClampQuadratic(previousPelletCount[2], DAMAGE); // Extra mult for scope
-            if (core->name_fast != grip->name_fast)
+            if (core->name_fast != grip->name_fast || grip->name_fast == Fast::fastifyNoneName())
                 mult *= 1 + (CalculatePenalty(DAMAGE, grip) / 100) + ClampQuadratic(previousPelletCount[3], DAMAGE);
 
             damage *= mult;
@@ -766,14 +799,14 @@ public:
             // Mult is identical for both ADS and hipfire
             float mult = 1;
 
-            if (core->name_fast != magazine->name_fast)
+            if (core->name_fast != magazine->name_fast || magazine->name_fast == Fast::fastifyNoneName())
                 mult *= 1 + (CalculatePenalty(SPREADHIP, magazine) / 100) + ClampQuadratic(previousPelletCount[0], SPREADHIP);
-            if (core->name_fast != barrel->name_fast)
+            if (core->name_fast != barrel->name_fast || barrel->name_fast == Fast::fastifyNoneName())
                 mult *= 1 + (CalculatePenalty(SPREADHIP, barrel) / 100) + ClampQuadratic(previousPelletCount[1], SPREADHIP);
-            if (core->name_fast != stock->name_fast)
+            if (core->name_fast != stock->name_fast || stock->name_fast == Fast::fastifyNoneName())
                 mult *= 1 + (CalculatePenalty(SPREADHIP, stock) / 100) + ClampQuadratic(previousPelletCount[2], SPREADHIP);
             mult *= 1 + ClampQuadratic(previousPelletCount[2], SPREADHIP); // Extra mult for scope
-            if (core->name_fast != grip->name_fast)
+            if (core->name_fast != grip->name_fast || grip->name_fast == Fast::fastifyNoneName())
                 mult *= 1 + (CalculatePenalty(SPREADHIP, grip) / 100) + ClampQuadratic(previousPelletCount[3], SPREADHIP);
 
             adsSpread *= mult;
@@ -1322,6 +1355,7 @@ namespace Prune
         {
             if (Fast::banParts_fast[1][magazine->name_fast]) return false;
             if (Fast::forceParts_fast[1] != NILINT && Fast::forceParts_fast[1] != magazine->name_fast) return false;
+            if (Fast::forceParts_fast[1] != Fast::fastifyNoneName() && magazine->name_fast == Fast::fastifyNoneName()) return false;
             if (!Fast::RangeFilter(magazine->magazineSize, Input::magazineRange)) return false;
             return true;
         }
@@ -1330,6 +1364,7 @@ namespace Prune
         {
             if (Fast::banParts_fast[0][barrel->name_fast]) return false;
             if (Fast::forceParts_fast[0] != NILINT && Fast::forceParts_fast[0] != barrel->name_fast) return false;
+            if (Fast::forceParts_fast[0] != Fast::fastifyNoneName() && barrel->name_fast == Fast::fastifyNoneName()) return false;
             return true;
         }
 
@@ -1337,6 +1372,7 @@ namespace Prune
         {
             if (Fast::banParts_fast[2][grip->name_fast]) return false;
             if (Fast::forceParts_fast[2] != NILINT && Fast::forceParts_fast[2] != grip->name_fast) return false;
+            if (Fast::forceParts_fast[2] != Fast::fastifyNoneName() && grip->name_fast == Fast::fastifyNoneName()) return false;
             return true;
         }
 
@@ -1344,13 +1380,13 @@ namespace Prune
         {
             if (Fast::banParts_fast[3][stock->name_fast]) return false;
             if (Fast::forceParts_fast[3] != NILINT && Fast::forceParts_fast[3] != stock->name_fast) return false;
+            if (Fast::forceParts_fast[3] != Fast::fastifyNoneName() && stock->name_fast == Fast::fastifyNoneName()) return false;
             return true;
         }
 
         bool FilterGunStats(const Gun& gun)
         {
             using Fast::RangeFilter;
-            if (!Fast::includeCategories_fast[gun.core->category_fast]) return false;
             if (!RangeFilter(gun.timeToAim, Input::timeToAimRange)) return false;
             if (!RangeFilter(gun.magazineSize, Input::magazineRange)) return false;
             if (!RangeFilter(ceilf(gun.pellets), Input::pelletRange)) return false;
@@ -1569,7 +1605,7 @@ namespace Prune
         printf("%d: Total valid cores: %lu / %lu\n", threadId, validGunCount1, coreCount);
 
         // validGuns1 -> validGuns2 (Parsing core + magazine)
-        for (int m = 0; m < magazineCount; m++)
+        for (int m = 0; m < magazineCount + 1; m++)
         {
             if (!Filter::MagazineFilter(magazineList.data() + m)) continue;
             for (int g = 0; g < validGunCount1; g++)
@@ -1587,7 +1623,7 @@ namespace Prune
         validGunCount1 = 0;
 
         // validGuns2 -> validGuns1 (Parsing core + magazine + barrel)
-        for (int b = 0; b < barrelCount; b++)
+        for (int b = 0; b < barrelCount + 1; b++)
         {
             if (!Filter::BarrelFilter(barrelList.data() + b)) continue;
             for (int g = 0; g < validGunCount2; g++)
@@ -1604,7 +1640,7 @@ namespace Prune
         validGunCount2 = 0;
 
         // validGuns1 -> validGuns2 (Parsing core + magazine + barrel + grip)
-        for (int gr = 0; gr < gripCount; gr++)
+        for (int gr = 0; gr < gripCount + 1; gr++)
         {
             if (!Filter::GripFilter(gripList.data() + gr)) continue;
             for (int g = 0; g < validGunCount1; g++)
@@ -1621,7 +1657,7 @@ namespace Prune
         validGunCount1 = 0;
 
         // validGuns2 * stocks -> Outputs to PQ
-        for (int s = 0; s < stockCount; s++)
+        for (int s = 0; s < stockCount + 1; s++)
         {
             if (!Filter::StockFilter(stockList.data() + s)) continue;
             for (int g = 0; g < validGunCount2; g++)
@@ -1753,34 +1789,39 @@ int main(int argc, char* argv[])
     std::ifstream Categories(categoriesPath);
     json categories = json::parse(Categories);
 
-    for (auto &[key, value] : categories.items())
+    for (auto &[key, value] : categories["Primary"].items())
+        Fast::fastifyCategory[key] = value;
+
+    for (auto &[key, value] : categories["Secondary"].items())
         Fast::fastifyCategory[key] = value;
 
     Fast::categoryCount = Fast::fastifyCategory.size();
+    Fast::primaryCategoryCount = categories["Primary"].size();
+    Fast::secondaryCategoryCount = categories["Secondary"].size();
 
     std::ifstream FullData(fullDataPath);
     json data = json::parse(FullData);
 
     barrelCount = data["Barrels"].size();
-    barrelList.reserve(barrelCount);
+    barrelList.reserve(barrelCount + 1);
 
     for (json &element : data["Barrels"])
         barrelList.push_back(element);
 
     magazineCount = data["Magazines"].size();
-    magazineList.reserve(magazineCount);
+    magazineList.reserve(magazineCount + 1);
 
     for (json &element : data["Magazines"])
         magazineList.push_back(element);
 
     gripCount = data["Grips"].size();
-    gripList.reserve(gripCount);
+    gripList.reserve(gripCount + 1);
 
     for (json &element : data["Grips"])
         gripList.push_back(element);
 
     stockCount = data["Stocks"].size();
-    stockList.reserve(stockCount);
+    stockList.reserve(stockCount + 1);
 
     for (json &element : data["Stocks"])
         stockList.push_back(element);
@@ -1790,6 +1831,14 @@ int main(int argc, char* argv[])
 
     for (json &element : data["Cores"])
         coreList.push_back(element);
+
+    // Add the "None" part for help with secondaries. The +1 to reserve is for "None" part
+    // Although it is not a part of the count because it isn't an actual part and I don't want it to be used in PRUNE or BRUTEFORCE.
+    // This was added to help with secondary weapons because they don't have a stock.
+    barrelList.push_back(Part::ToNone(Barrel()));
+    magazineList.push_back(Part::ToNone(Magazine()));
+    gripList.push_back(Part::ToNone(Grip()));
+    stockList.push_back(Part::ToNone(Stock()));
 
     std::ifstream Penalties(penaltiesPath);
     json penalties = json::parse(Penalties);

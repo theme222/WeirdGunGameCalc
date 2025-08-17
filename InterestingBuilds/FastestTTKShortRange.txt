@@ -91,6 +91,19 @@ recoilAimVertical: 21.8392 - 30.6019
 movementSpeed: 9.25
 TTK: 0.221964 Seconds
 
+[ Barrel: M1911, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.3758 - 7.63722
+dropoffStuds: 105.91 - 117.257
+fireRate: 810.942
+adsSpread: 0.776772
+hipfireSpread: 5.17848
+reloadTime: 2.4
+magazineSize: 30
+recoilHipVertical: 32.4062 - 45.3687
+recoilAimVertical: 20.9993 - 29.4249
+movementSpeed: 7.3
+TTK: 0.221964 Seconds
+
 [ Barrel: Tommy, Magazine: Sten gun, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
 damage: 25.2366 - 8.68296
 dropoffStuds: 114.492 - 126.759
@@ -116,17 +129,4 @@ recoilHipVertical: 34.3125 - 48.0375
 recoilAimVertical: 22.2345 - 31.1558
 movementSpeed: 9.8
 TTK: 0.222424 Seconds
-
-[ Barrel: PP-19 Bizon, Magazine: MAC-10, Grip: Circuit Judge, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.585 - 7.46057
-dropoffStuds: 105.336 - 116.622
-fireRate: 808.92
-adsSpread: 0.807719
-hipfireSpread: 5.3848
-reloadTime: 2
-magazineSize: 30
-recoilHipVertical: 33.75 - 47.25
-recoilAimVertical: 21.87 - 30.645
-movementSpeed: 14.2
-TTK: 0.222519 Seconds
 

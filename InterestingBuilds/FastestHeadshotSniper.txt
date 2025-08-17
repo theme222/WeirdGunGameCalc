@@ -126,8 +126,8 @@ recoilAimVertical: 25.8552 - 29.4462
 movementSpeed: 13
 TTK: 0.967818 Seconds
 
-[ Barrel: Mustard, Magazine: Mega Soaker, Grip: Auto-5, Stock: AWM, Core: Arisaka ]
-damage: 50.9119 - 45.3625
+[ Barrel: Mustard, Magazine: Mega Soaker, Grip: Controller, Stock: AWM, Core: Arisaka ]
+damage: 52.2041 - 46.5139
 dropoffStuds: 364 - 637
 fireRate: 61.8
 adsSpread: 0.127782
@@ -135,8 +135,8 @@ hipfireSpread: 10.2226
 reloadTime: 4.59
 magazineSize: 60
 health: -10
-recoilHipVertical: 62.5363 - 71.2219
-recoilAimVertical: 28.1413 - 32.0499
-movementSpeed: 13
+recoilHipVertical: 75.8419 - 86.3755
+recoilAimVertical: 34.1289 - 38.869
+movementSpeed: 11
 TTK: 0.970874 Seconds
 
