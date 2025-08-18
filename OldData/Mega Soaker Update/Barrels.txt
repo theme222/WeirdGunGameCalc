@@ -1,0 +1,634 @@
+Category: Assault Rifle Barrels
+---
+Barrel: AKM
+Damage: +7%
+Detection_Radius: 5
+Recoil: +20%
+---
+Barrel: M-16
+Range: +8%
+Recoil: -15%
+---
+Barrel: AUG
+Movement_Speed: +2.5%
+Recoil: -5%
+Reload_Speed: -15%
+Spread: -10%
+Damage: -3.5%
+Range: +5%
+---
+Barrel: As-Val
+Detection_Radius: -25%
+Fire_Rate: +10%
+Range: -7%
+Recoil: +15%
+---
+Barrel: Famas F1
+Fire_Rate: +9%
+Spread: +15%
+Range: -5%
+---
+Barrel: Scar L
+Damage: +3%
+Recoil: -10%
+---
+Barrel: STG-44
+Spread: -11%
+Range: +4%
+Recoil: +12%
+---
+Barrel: The Chief
+Damage: +5%
+Movement_Speed: +4%
+Recoil: +23%
+---
+Barrel: Hell-Trooper-23
+Damage: +7.5%
+Recoil: +10%
+Spread: +35%
+Range: +5%
+---
+Barrel: Hex Spitter
+Damage: +7%
+Movement_Speed: +2%
+Spread: -16%
+Recoil: +19%
+---
+Barrel: C36C
+Damage: +3%
+Reload_Speed: -10%
+---
+Barrel: APS
+Damage: +22%
+Detection_Radius: 25
+Fire_Rate: -5%
+Spread: +20%
+Range: -35%
+---
+Barrel: FC200SH
+Damage: +8.5%
+Range: +14%
+Fire_Rate: -3%
+Reload_Speed: +8%
+---
+Barrel: AR-8X
+Movement_Speed: +4%
+Spread: -23%
+Reload_Speed: +8%
+---
+Barrel: Freedom Dispenser
+Fire_Rate: +6%
+Movement_Speed: +9%
+Range: -16%
+Recoil: +18%
+Spread: +28%
+---
+Barrel: Second Amendment
+Damage: +17%
+Spread: -50%
+Fire_Rate: -12%
+Movement_Speed: -2%
+Range: -13%
+Recoil: +90%
+---
+Barrel: G11
+Fire_Rate: +4%
+Reload_Speed: -8%
+Range: -6%
+---
+Barrel: QBZ-95
+Movement_Speed: +1.5%
+Range: +9%
+Reload_Speed: -8%
+Recoil: +14%
+---
+Barrel: AK-12
+Damage: +3%
+Fire_Rate: +2%
+Reload_Speed: -4%
+Recoil: +17%
+---
+Barrel: Cirrus - Hand
+Recoil: -40%
+Spread: -25%
+Damage: -10%
+---
+
+Category: Sniper Barrels
+---
+Barrel: M40
+Fire_Rate: +10%
+Range: +25%
+Recoil: -5%
+Spread: -20%
+Damage: -10%
+---
+Barrel: M1891
+Range: +20%
+Spread: -25%
+Reload_Speed: +20%
+---
+Barrel: M91 Moschetto
+Movement_Speed: +4%
+Reload_Speed: -20%
+Spread: +50%
+Range: +10%
+---
+Barrel: AWM
+Damage: +5%
+Spread: -25%
+Recoil: +75%
+Range: +15%
+---
+Barrel: Lee Enfield
+Fire_Rate: +10%
+Recoil: +100%
+Spread: +100%
+Range: +15%
+---
+Barrel: M2000
+Damage: +25%
+Range: +10%
+Spread: -10%
+Detection_Radius: +20%
+Fire_Rate: -25%
+Movement_Speed: -8%
+Recoil: +55%
+---
+Barrel: Hecate II
+Damage: +30%
+Fire_Rate: -30%
+Movement_Speed: -10%
+Recoil: +100%
+Detection_Radius: 25
+Spread: +50%
+---
+Barrel: Musket
+Damage: +55%
+Detection_Radius: +50%
+Fire_Rate: -50%
+Range: -22%
+Recoil: +200%
+Spread: +57%
+---
+Barrel: Snake Sniper
+Damage: +18%
+Fire_Rate: +3%
+Health: -5%
+Reload_Speed: +5%
+Spread: +20%
+---
+Barrel: Arisaka
+Movement_Speed: +10%
+Reload_Speed: -12%
+Health: -6%
+Recoil: +38%
+---
+Barrel: Lightning Shot
+Damage: +35%
+Range: +12%
+Reload_Speed: -4%
+Spread: -25%
+Detection_Radius: +35%
+Fire_Rate: -45%
+Movement_Speed: -6%
+Recoil: +80%
+---
+Barrel: VSSR
+Damage: +20%
+Detection_Radius: -50%
+Range: +9%
+Recoil: -28%
+Fire_Rate: -12%
+Movement_Speed: -7%
+Reload_Speed: +10%
+---
+
+Category: SMG Barrels
+---
+Barrel: MAC-10
+Fire_Rate: +5%
+Movement_Speed: +4.4%
+Range: -10%
+---
+Barrel: Skorpion vz. 61
+Movement_Speed: +9%
+Damage: -5%
+Range: -5%
+---
+Barrel: Tommy
+Damage: +7%
+Fire_Rate: +7%
+Movement_Speed: +3.8%
+Range: -6%
+Recoil: +25%
+---
+Barrel: NP9
+Fire_Rate: +8%
+Movement_Speed: +3.2%
+Reload_Speed: -15%
+Range: -6%
+---
+Barrel: MP 40
+Damage: +10%
+Movement_Speed: +3.2%
+Recoil: +20%
+---
+Barrel: UNP-40
+Damage: +12%
+Movement_Speed: +3.8%
+Fire_Rate: -5%
+Recoil: +15%
+Spread: +15%
+---
+Barrel: PPSh-41
+Fire_Rate: +15%
+Movement_Speed: +2.3%
+Range: -12%
+Recoil: +15%
+Spread: +10%
+---
+Barrel: Kriss Vector
+Fire_Rate: +20%
+Movement_Speed: +3.3%
+Recoil: -15%
+Range: -10%
+Damage: -3%
+---
+Barrel: Type 2a Nambu
+Damage: +13%
+Movement_Speed: +3%
+Spread: +23%
+---
+Barrel: Mas-38
+Damage: +10%
+Movement_Speed: +3.3%
+Spread: -20%
+Fire_Rate: -5%
+Recoil: +5%
+---
+Barrel: PP-19 Bizon
+Damage: +9%
+Fire_Rate: +5%
+Movement_Speed: +2.5%
+Recoil: +25%
+Range: -10%
+---
+Barrel: NP5
+Damage: +7%
+Movement_Speed: +2.5%
+Recoil: -5%
+Spread: -5%
+Fire_Rate: -5%
+Range: -7.5%
+---
+Barrel: P90
+Fire_Rate: +15%
+Movement_Speed: +2.5%
+Damage: -7.5%
+Recoil: +20%
+Spread: +25%
+Range: +2%
+---
+Barrel: Sten gun
+Fire_Rate: +12%
+Movement_Speed: +2%
+Spread: -12%
+Range: -13%
+Recoil: +24%
+---
+Barrel: M1 Carbine
+Damage: +5%
+Movement_Speed: +2.5%
+Range: +8%
+Recoil: -18%
+Reload_Speed: +4%
+Spread: +14%
+---
+Barrel: Uzi
+Damage: +5%
+Fire_Rate: +9%
+Movement_Speed: +4%
+Spread: -15%
+Range: -8%
+---
+
+Category: LMG Barrels
+---
+Barrel: M60
+Damage: +8.5%
+Recoil: -10%
+Detection_Radius: +5%
+Movement_Speed: -3%
+---
+Barrel: DP-27
+Damage: +9%
+Fire_Rate: +2%
+Movement_Speed: -1%
+Recoil: +26%
+Spread: +10%
+---
+Barrel: M1919 .30 Cal
+Fire_Rate: +5%
+Recoil: -17%
+Spread: -20%
+Movement_Speed: -6%
+Reload_Speed: +12%
+---
+Barrel: M1917 WC
+Fire_Rate: +20%
+Range: +9%
+Recoil: -20%
+Spread: -10%
+Movement_Speed: -25%
+Reload_Speed: +15%
+---
+Barrel: M1919 Tripod
+Recoil: -30%
+Spread: -50%
+Movement_Speed: -30%
+Reload_Speed: +25%
+---
+Barrel: MG42
+Fire_Rate: +35%
+Movement_Speed: -7%
+Recoil: +30%
+Spread: +40%
+Range: -22%
+---
+Barrel: Type 99
+Damage: +8%
+Spread: -15%
+Movement_Speed: -2%
+Reload_Speed: +5%
+---
+Barrel: BAR
+Damage: +25%
+Fire_Rate: -10%
+Movement_Speed: -0.5%
+Recoil: +20%
+Spread: +20%
+Range: +10%
+---
+Barrel: Negev
+Fire_Rate: +15%
+Movement_Speed: -4.5%
+Spread: +25%
+---
+Barrel: Chauchat
+Damage: +20%
+Detection_Radius: +10%
+Fire_Rate: -15%
+Movement_Speed: -3%
+Recoil: +25%
+Range: +20%
+---
+Barrel: Lewis
+Detection_Radius: -15%
+Fire_Rate: +10%
+Spread: -15%
+Movement_Speed: -15%
+Reload_Speed: +5%
+---
+
+Category: Shotgun Barrels
+---
+Barrel: Spas-12
+Damage: +5%
+Fire_Rate: +10%
+Movement_Speed: -1.5%
+Spread: +15%
+Range: -7%
+---
+Barrel: M870 Wingmaster
+Damage: +13%
+Range: +7%
+Spread: -5%
+Detection_Radius: +10%
+Fire_Rate: -13%
+Pellets: -50%
+Reload_Speed: +5%
+---
+Barrel: M1887
+Damage: +7%
+Health: +5%
+Movement_Speed: -5.5%
+Range: -6%
+Spread: +15%
+---
+Barrel: M1897 Trench Shotgun
+Fire_Rate: +20%
+Reload_Speed: -11%
+Spread: +22%
+Range: -24%
+---
+Barrel: M870 Breacher
+Damage: +20%
+Movement_Speed: +3%
+Range: -10%
+Spread: +30%
+---
+Barrel: M870 MCS
+Damage: +14%
+Spread: -15%
+Range: -6%
+Reload_Speed: +10%
+---
+Barrel: M870
+Damage: +13%
+Range: -5%
+Spread: +15%
+---
+Barrel: Circuit Judge
+Damage: +14%
+Reload_Speed: -15%
+Range: -6%
+Recoil: +25%
+---
+Barrel: Auto-5
+Fire_Rate: +13%
+Recoil: -10%
+Spread: -10%
+Damage: -2.5%
+Range: -7%
+---
+Barrel: Blunderbuss
+Damage: +45%
+Pellets: +100%
+Fire_Rate: -34%
+Range: -30%
+Spread: +60%
+---
+Barrel: JSG12
+Movement_Speed: +3%
+Range: +15%
+Recoil: +16%
+Reload_Speed: +7%
+Spread: +24%
+---
+
+Category: Weird Barrels
+---
+Barrel: Snake
+Damage: +12.5%
+Fire_Rate: -5%
+Movement_Speed: -5%
+Recoil: +20%
+Spread: +40%
+---
+Barrel: Water Pipe
+Damage: +15%
+Fire_Rate: -12%
+Detection_Radius: 75
+Spread: +35%
+---
+Barrel: Ketchup
+Fire_Rate: +25%
+Damage: -20%
+Spread: +40%
+---
+Barrel: Quack
+Fire_Rate: +8%
+Recoil: -10%
+Spread: +13%
+---
+Barrel: Oil
+Damage: +20%
+Fire_Rate: -7%
+Detection_Radius: 25
+Movement_Speed: -10%
+Spread: +40%
+---
+Barrel: Words as Weapons
+Damage: +5%
+Detection_Radius: 5
+Recoil: +20%
+---
+Barrel: Shower
+Fire_Rate: +20%
+Pellets: +100%
+Recoil: -75%
+Reload_Speed: +25%
+Spread: +300%
+---
+Barrel: Willy Fischy
+Fire_Rate: +30%
+Damage: -15%
+Recoil: +100%
+Spread: +200%
+---
+Barrel: Mustard
+Fire_Rate: +25%
+Damage: -10%
+Spread: +45%
+---
+Barrel: Honk
+Damage: +300%
+Range: +15%
+Detection_Radius: 200%
+Fire_Rate: -93%
+Recoil: +900%
+Spread: +1200%
+---
+Barrel: Eclair
+Fire_Rate: +15%
+Damage: -20%
+Detection_Radius: +20%
+Recoil: +15%
+Spread: +30%
+---
+Barrel: Light Gun
+Damage: +30%
+Fire_Rate: -5%
+Range: -87%
+Reload_Speed: +10%
+---
+Barrel: BarrelSight
+Range: +50%
+Fire_Rate: -50%
+Movement_Speed: -12%
+Pellets: -100%
+Recoil: +25%
+---
+Barrel: Dominus
+Fire_Rate: +12%
+Movement_Speed: +5%
+Recoil: +24%
+Reload_Speed: +9%
+Spread: +9%
+---
+Barrel: Lipstick
+Damage: +3%
+Fire_Rate: +3%
+Movement_Speed: +5%
+Range: +3%
+Reload_Speed: +4%
+---
+Barrel: Mega Soaker
+Detection_Radius: -50%
+Fire_Rate: +14%
+Movement_Speed: +2%
+Recoil: -19%
+Damage: -4%
+Range: -10%
+---
+
+Category: BR Barrels
+---
+Barrel: M1Garand
+Damage: +7%
+Spread: -17%
+Detection_Radius: +10%
+---
+Barrel: FAL
+Range: +9%
+Spread: -20%
+Movement_Speed: -6%
+---
+Barrel: Dragunov
+Range: +19%
+Spread: -16%
+Recoil: +24%
+---
+Barrel: Fedorov
+Damage: +7%
+Movement_Speed: +3.5%
+Recoil: +18%
+---
+Barrel: Scar H
+Damage: +15%
+Range: +10%
+Spread: -25%
+Detection_Radius: 10
+Fire_Rate: -10%
+Recoil: +20%
+---
+Barrel: M110
+Damage: +22%
+Range: +5%
+Recoil: -11%
+Detection_Radius: +35%
+Fire_Rate: -15%
+Spread: +32%
+---
+Barrel: SKS
+Fire_Rate: +5%
+Range: +3%
+Recoil: +13%
+Reload_Speed: +4%
+---
+Barrel: FG-42
+Damage: +6%
+Fire_Rate: +4%
+Range: +4%
+Recoil: +32%
+Spread: +12%
+---
+Barrel: G3
+Damage: +12%
+Range: +13%
+Detection_Radius: +10%
+Fire_Rate: -2%
+Movement_Speed: -3%
+Recoil: +38%
+---

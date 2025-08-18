@@ -1,0 +1,720 @@
+Category: Assault Rifle Magazines
+---
+Magazine: AKM
+Magazine_Size: 30
+Reload_Time: 2.4s
+Detection_Radius: 5
+Damage: +7%
+---
+Magazine: M-16
+Magazine_Size: 30
+Reload_Time: 1.9s
+Recoil: -5%
+---
+Magazine: AUG
+Magazine_Size: 42
+Reload_Time: 3.5s
+Movement_Speed: +2.5%
+Spread: -10%
+Range: -10%
+---
+Magazine: As-Val
+Magazine_Size: 20
+Reload_Time: 1.5s
+Detection_Radius: -25
+Fire_Rate: +3%
+Recoil: -10%
+Damage: -5%
+Range: -12%
+---
+Magazine: Famas F1
+Magazine_Size: 25
+Reload_Time: 2s
+Fire_Rate: +10%
+Recoil: +10%
+Range: -10%
+---
+Magazine: Scar L
+Magazine_Size: 40
+Reload_Time: 3s
+Recoil: -20%
+Spread: +15%
+---
+Magazine: STG-44
+Magazine_Size: 30
+Reload_Time: 2.9s
+Damage: +10%
+Spread: -13%
+Fire_Rate: -8%
+---
+Magazine: The Chief
+Magazine_Size: 36
+Reload_Time: 4.2s
+Damage: +13%
+Fire_Rate: -10%
+Recoil: +25%
+Reload_Speed: +25%
+Range: +12%
+---
+Magazine: Scar Drum
+Magazine_Size: 50
+Reload_Time: 4s
+Recoil: -10%
+Range: -5%
+---
+Magazine: Hell-Trooper-23
+Magazine_Size: 45
+Reload_Time: 4s
+Damage: +7.5%
+Recoil: +15%
+Spread: +22%
+---
+Magazine: Hex Spitter
+Magazine_Size: 35
+Reload_Time: 4.2
+Damage: +12%
+Pellets: +100%
+Range: -12%
+Recoil: +38%
+Spread: +6%
+---
+Magazine: APS
+Magazine_Size: 26
+Reload_Time: 6
+Damage: +25%
+Detection_Radius: 25
+Fire_Rate: -10%
+Spread: +20%
+Range: -35%
+---
+Magazine: C36C
+Magazine_Size: 30
+Reload_Time: 2
+Recoil: -11%
+Spread: +3%
+---
+Magazine: FC200SH
+Magazine_Size: 30
+Reload_Time: 3.2
+Damage: +8.5%
+Detection_Radius: +10%
+Movement_Speed: -2.5%
+Spread: +18%
+---
+Magazine: AR-8X
+Magazine_Size: 30
+Reload_Time: 2.4
+Movement_Speed: +1.5%
+Range: +11%
+Recoil: +16%
+---
+Magazine: G11
+Magazine_Size: 45
+Reload_Time: 4.5
+Fire_Rate: +9%
+Spread: -13%
+Movement_Speed: -3%
+Recoil: +21%
+---
+Magazine: QBZ-95
+Magazine_Size: 30
+Reload_Time: 1.5
+Damage: +2%
+Range: +4%
+Recoil: +18%
+---
+Magazine: AK-12
+Magazine_Size: 30
+Reload_Time: 2.2
+Range: +7.5%
+Spread: -13%
+Recoil: +14%
+---
+Magazine: Rat - Emoji
+Magazine_Size: 42
+Reload_Time: 5.2
+Damage: +4%
+Fire_Rate: +6%
+Recoil: +24%
+Spread: +5%
+---
+
+Category: Sniper Magazines
+---
+Magazine: AWM
+Magazine_Size: 5
+Reload_Time: 5s
+Damage: +20%
+Spread: -50%
+Fire_Rate: -10%
+Recoil: +40%
+Range: +25%
+---
+Magazine: Lee Enfield
+Magazine_Size: 10
+Reload_Time: 4s
+Fire_Rate: +20%
+Damage: -10%
+Recoil: +25%
+Spread: +50%
+Range: +16%
+---
+Magazine: Hecate II
+Magazine_Size: 5
+Reload_Time: 5s
+Damage: +45%
+Fire_Rate: -28%
+Detection_Radius: 25
+Movement_Speed: -10%
+Range: -23%
+Recoil: +100%
+Reload_Speed: +50%
+Spread: +100%
+---
+Magazine: M40
+Magazine_Size: 10
+Reload_Time: 4.5
+Damage: +16%
+Range: +20%
+Recoil: +25%
+Spread: -11%
+---
+Magazine: M1891
+Magazine_Size: 6
+Reload_Time: 3.5
+Fire_Rate: +5%
+Range: +20%
+Spread: -15%
+Recoil: +25%
+---
+Magazine: M2000
+Magazine_Size: 5
+Reload_Time: 6
+Damage: +25%
+Range: +10%
+Spread: -20%
+Fire_Rate: -20%
+Recoil: +60%
+---
+Magazine: Musket
+Magazine_Size: 1
+Reload_Time: 7.5
+Damage: +60%
+Movement_Speed: -3%
+Range: -20%
+Recoil: +80%
+Spread: +185%
+---
+Magazine: Snake Sniper
+Magazine_Size: 6
+Reload_Time: 5.5
+Damage: +25%
+Spread: -12%
+Fire_Rate: -10%
+Movement_Speed: -4%
+Range: -5%
+Recoil: +36%
+---
+Magazine: Arisaka
+Magazine_Size: 5
+Reload_Time: 4
+Movement_Speed: +8%
+Spread: -18%
+Health: -2%
+Recoil: +16%
+---
+Magazine: Lightning Shot
+Magazine_Size: 7
+Reload_Time: 10
+Damage: +50%
+Spread: -45%
+Detection_Radius: +50%
+Fire_Rate: -45%
+Movement_Speed: -12%
+Recoil: +125%
+---
+Magazine: VSSR
+Magazine_Size: 5
+Reload_Time: 4.5
+Damage: +30%
+Detection_Radius: +32%
+Fire_Rate: -20%
+Movement_Speed: -6%
+Range: -12%
+Recoil: +86%
+---
+
+Category: SMG Magazines
+---
+Magazine: MAC-10
+Magazine_Size: 30
+Reload_Time: 2s
+Fire_Rate: +20%
+Movement_Speed: +4.4%
+Range: -12%
+Recoil: +35%
+---
+Magazine: Skorpion vz. 61
+Magazine_Size: 20
+Reload_Time: 1.2s
+Movement_Speed: +9%
+Damage: -15%
+Fire_Rate: +4%
+Range: -10%
+Spread: +7%
+---
+Magazine: Tommy
+Magazine_Size: 20
+Reload_Time: 3
+Damage: +15%
+Movement_Speed: +3.8%
+Spread: +20%
+---
+Magazine: NP9
+Magazine_Size: 30
+Reload_Time: 2.2
+Fire_Rate: +5%
+Movement_Speed: +4.6%
+Spread: +7%
+---
+Magazine: MP 40
+Magazine_Size: 32
+Reload_Time: 2.5s
+Damage: +15%
+Spread: -10%
+Fire_Rate: -5%
+Recoil: +15%
+---
+Magazine: UNP-40
+Magazine_Size: 30
+Reload_Time: 2
+Damage: +14%
+Movement_Speed: +1.5%
+Range: +3%
+Spread: -10%
+Fire_Rate: -10%
+---
+Magazine: PPSh-41
+Magazine_Size: 71
+Reload_Time: 5.5s
+Fire_Rate: +7%
+Movement_Speed: -1%
+Spread: +10%
+Range: -5%
+---
+Magazine: Kriss Vector
+Magazine_Size: 30
+Reload_Time: 2.4s
+Fire_Rate: +21%
+Damage: -4%
+Movement_Speed: +3.3%
+Recoil: -15%
+Range: -15%
+---
+Magazine: Type 2a Nambu
+Magazine_Size: 30
+Reload_Time: 2.5s
+Fire_Rate: +14%
+Movement_Speed: +3%
+Recoil: -24%
+Range: -16%
+---
+Magazine: Mas-38
+Magazine_Size: 32
+Reload_Time: 2.8s
+Damage: +5%
+Movement_Speed: +3.5%
+Spread: -15%
+Range: +4%
+Recoil: +27%
+---
+Magazine: PP-19 Bizon
+Magazine_Size: 64
+Reload_Time: 4
+Damage: +10%
+Range: -8%
+Recoil: +12%
+---
+Magazine: NP5
+Magazine_Size: 30
+Reload_Time: 2
+Fire_Rate: +15%
+Movement_Speed: +3.3%
+Recoil: -10%
+Spread: -5%
+Range: -11%
+---
+Magazine: P90
+Magazine_Size: 50
+Reload_Time: 4
+Fire_Rate: +20%
+Damage: -2.5%
+Movement_Speed: -0.2%
+Recoil: +10%
+Spread: +40%
+Range: +5%
+---
+Magazine: M1 Carbine
+Magazine_Size: 15
+Reload_Time: 2.8
+Damage: +26%
+Movement_Speed: +3%
+Range: -13%
+Recoil: +32%
+---
+Magazine: Sten gun
+Magazine_Size: 32
+Reload_Time: 3
+Damage: +7%
+Fire_Rate: +3%
+Range: -13%
+Spread: +12%
+---
+Magazine: Uzi
+Magazine_Size: 32
+Reload_Time: 2.8
+Damage: +3%
+Fire_Rate: +0.7%
+Range: -9%
+Recoil: +28%
+---
+
+Category: LMG Magazines
+---
+Magazine: M60
+Magazine_Size: 75
+Reload_Time: 6.5s
+Movement_Speed: +1%
+Spread: -10%
+Range: -9%
+Recoil: +22%
+---
+Magazine: DP-27
+Magazine_Size: 47
+Reload_Time: 4.8s
+Damage: +7%
+Fire_Rate: +4%
+Range: +5%
+Movement_Speed: -2%
+Recoil: +19%
+---
+Magazine: M1919 .30 Cal
+Magazine_Size: 100
+Reload_Time: 9.5
+Damage: +20%
+Range: +12%
+Detection_Radius: +20%
+Fire_Rate: -10%
+Movement_Speed: -12%
+Spread: +27%
+---
+Magazine: MG42
+Magazine_Size: 50
+Reload_Time: 5.5s
+Fire_Rate: +23%
+Movement_Speed: -4%
+Recoil: +19%
+Spread: +23%
+Range: -19%
+---
+Magazine: Type 99
+Magazine_Size: 30
+Reload_Time: 3s
+Damage: +7.5%
+Range: +8%
+Spread: -17%
+Movement_Speed: -1%
+Recoil: +1.2%
+---
+Magazine: BAR
+Magazine_Size: 20
+Reload_Time: 4
+Damage: +25%
+Detection_Radius: 20
+Fire_Rate: -10%
+Movement_Speed: -0.5%
+Recoil: +10%
+Spread: +10%
+Range: +25%
+---
+Magazine: Negev
+Magazine_Size: 200
+Reload_Time: 12
+Detection_Radius: +25%
+Movement_Speed: -9%
+Range: -11%
+---
+Magazine: Chauchat
+Magazine_Size: 18
+Reload_Time: 2.1
+Damage: +25%
+Detection_Radius: +10%
+Fire_Rate: -15%
+Movement_Speed: -5%
+Recoil: +35%
+Spread: +25%
+Range: +20%
+---
+Magazine: Lewis
+Magazine_Size: 47
+Reload_Time: 5s
+Damage: +4%
+Fire_Rate: +7%
+Movement_Speed: -3%
+Recoil: +18%
+---
+
+Category: Shotgun Magazines
+---
+Magazine: Spas-12
+Magazine_Size: 12
+Reload_Time: 7
+Damage: +5%
+Fire_Rate: +30%
+Pellets: +175%
+Movement_Speed: -3%
+Range: -20%
+Recoil: +60%
+Spread: +19%
+---
+Magazine: M870 Breacher
+Magazine_Size: 8
+Reload_Time: 3.2
+Damage: +30%
+Movement_Speed: +3%
+Pellets: +150%
+Range: -30%
+Recoil: +50%
+Spread: +25%
+---
+Magazine: M1887
+Magazine_Size: 6
+Reload_Time: 4
+Fire_Rate: +9%
+Health: +5%
+Pellets: +150%
+Movement_Speed: -5.5%
+Range: -10%
+Recoil: +15%
+Spread: +18%
+---
+Magazine: M1897 Trench Shotgun
+Magazine_Size: 6
+Reload_Time: 4.5
+Fire_Rate: +22%
+Pellets: +200%
+Range: -7%
+Recoil: +43%
+Spread: +22%
+---
+Magazine: M870 MCS
+Magazine_Size: 6
+Reload_Time: 3.5
+Damage: +17%
+Pellets: +45%
+Range: -10%
+Recoil: +35%
+Spread: +16%
+---
+Magazine: M870
+Magazine_Size: 8
+Reload_Time: 5
+Damage: +21%
+Pellets: +100%
+Range: -15%
+Recoil: +38%
+Spread: +14%
+---
+Magazine: Circuit Judge
+Magazine_Size: 5
+Reload_Time: 4
+Damage: +15%
+Pellets: +25%
+Range: +7.5%
+Recoil: +85%
+---
+Magazine: Auto-5
+Magazine_Size: 4
+Reload_Time: 3
+Damage: +20%
+Fire_Rate: +20%
+Pellets: +175%
+Movement_Speed: -4%
+Recoil: +50%
+Spread: +16%
+---
+Magazine: Blunderbuss
+Magazine_Size: 1
+Reload_Time: 7
+Damage: +22%
+Pellets: +200%
+Fire_Rate: -5%
+Range: -23%
+Spread: +45%
+---
+Magazine: JSG12
+Magazine_Size: 15
+Reload_Time: 7.5
+Damage: +19%
+Fire_Rate: +5%
+Pellets: +125%
+Recoil: +26%
+Spread: +15%
+---
+
+Category: Weird Magazines
+---
+Magazine: Horizontal
+Magazine_Size: 20
+Reload_Time: 1.9s
+Fire_Rate: +10%
+Recoil: -15%
+Damage: -5%
+---
+Magazine: Words as Weapons
+Magazine_Size: 30
+Reload_Time: 2.4s
+Damage: +5%
+Detection_Radius: 5
+---
+Magazine: Restroom
+Magazine_Size: 35
+Reload_Time: 2.9s
+Fire_Rate: +10%
+Recoil: -20%
+Spread: +30%
+---
+Magazine: Improvised
+Magazine_Size: 10
+Reload_Time: 0.8s
+Damage: +10%
+Movement_Speed: +5%
+Spread: +30%
+---
+Magazine: XXL AKM
+Magazine_Size: 90
+Reload_Time: 9s
+Damage: +6%
+Detection_Radius: 15
+Movement_Speed: -10%
+Recoil: +20%
+---
+Magazine: Rice Pot
+Magazine_Size: 120
+Reload_Time: 10
+Fire_Rate: +10%
+Recoil: -10%
+Movement_Speed: -15%
+Range: -22%
+---
+Magazine: Pastel
+Magazine_Size: 20
+Reload_Time: 4
+Damage: +15%
+Detection_Radius: +10%
+Fire_Rate: -20%
+Recoil: +15%
+---
+Magazine: Graphics Card
+Magazine_Size: 50
+Reload_Time: 6
+Fire_Rate: +14%
+Recoil: -23%
+Range: -8%
+---
+Magazine: Screwdriver
+Magazine_Size: 1
+Reload_Time: 8s
+Damage: +100%
+Movement_Speed: -10%
+Range: -14%
+Spread: +75%
+---
+Magazine: Mega Soaker
+Magazine_Size: 60
+Reload_Time: 5.4s
+Fire_Rate: +20%
+Movement_Speed: +3%
+Recoil: -16%
+Damage: -5%
+Range: -9%
+---
+
+Category: BR Magazines
+---
+Magazine: M1Garand
+Magazine_Size: 8
+Reload_Time: 4
+Damage: +22%
+Range: +13%
+Spread: -10%
+Fire_Rate: -5%
+---
+Magazine: FAL
+Magazine_Size: 20
+Reload_Time: 2
+Damage: +10%
+Range: +10%
+Movement_Speed: -2.5%
+Recoil: +12%
+---
+Magazine: Dragunov
+Magazine_Size: 10
+Reload_Time: 3.4
+Damage: +25%
+Range: +13%
+Recoil: -4%
+Detection_Radius: +20%
+Fire_Rate: -13%
+Movement_Speed: -4%
+---
+Magazine: Fedorov
+Magazine_Size: 25
+Reload_Time: 4
+Damage: +15%
+Range: +9%
+Detection_Radius: +16%
+Recoil: +23%
+---
+Magazine: Scar H
+Magazine_Size: 20
+Reload_Time: 4.5s
+Damage: +20%
+Range: +11%
+Detection_Radius: 10
+Recoil: +25%
+---
+Magazine: M110
+Magazine_Size: 10
+Reload_Time: 3.8s
+Damage: +19%
+Range: +16%
+Fire_Rate: -5%
+Recoil: +12%
+---
+Magazine: SKS
+Magazine_Size: 20
+Reload_Time: 3
+Fire_Rate: +12%
+Range: +6%
+Recoil: +26%
+Spread: +17%
+---
+Magazine: FG-42
+Magazine_Size: 20
+Reload_Time: 3.5
+Damage: +4%
+Fire_Rate: +12%
+Spread: -11%
+Movement_Speed: -2%
+Recoil: +17%
+---
+Magazine: G3
+Magazine_Size: 20
+Reload_Time: 3
+Damage: +15%
+Fire_Rate: +3%
+Detection_Radius: +10%
+Movement_Speed: -2%
+Recoil: +21%
+---
