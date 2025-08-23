@@ -2,7 +2,7 @@
 > A tool to bruteforce all combinations of guns in the roblox game "Weird Gun Game"
 
 ## About
-`Updated to Sidearm Update`<br/>
+`Updated to Double Barrel Shotgun Update`<br/>
 
 **Updates To The Calculator (Not The Dataset) Will Be Put On Hold For The Time Being (or when I feel like it)**
 

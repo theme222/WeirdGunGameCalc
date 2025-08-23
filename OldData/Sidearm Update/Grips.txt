@@ -340,11 +340,6 @@ Movement_Speed: +3%
 Spread: -18%
 Recoil: +38%
 ---
-Grip: Double Barrel
-Damage: +7.5%
-Movement_Speed: -2%
-Recoil: +80%
----
 
 Category: Weird Grips
 ---
@@ -385,12 +380,6 @@ Grip: Mega Soaker
 Movement_Speed: +2%
 Recoil: -16%
 Spread: +15%
----
-Grip: Lamp Shade
-Health: +20%
-Detection_Radius: +100%
-Recoil: +10%
-Spread: +10%
 ---
 
 Category: BR Grips
@@ -455,14 +444,4 @@ Grip: Deagle
 Recoil: -22%
 Fire_Rate: -5%
 Movement_Speed: -2%
----
-Grip: Beretta
-Movement_Speed: +2.3%
-Range: +1.5%
-Reload_Speed: +4%
----
-Grip: Luger
-Movement_Speed: +6%
-Recoil: -5%
-Range: -12%
 ---

@@ -977,22 +977,6 @@ Recoil_Hip_Vertical: 95 - 112
 Recoil_Aim_Horizontal: -15.6 - 15.6
 Recoil_Aim_Vertical: 61.7 - 72.8
 ---
-Core: Double Barrel
-Damage: 100 > 10
-Dropoff_Studs: 60 > 160
-Pellets: 10
-Fire_Rate: 60
-Hipfire_Spread: 6
-ADS_Spread: 2.1
-Time_To_Aim: 1
-Detection_Radius: 250
-Burst: 2
-Suppression: 0.5
-Recoil_Hip_Horizontal: -25 - 25
-Recoil_Hip_Vertical: 70 - 82
-Recoil_Aim_Horizontal: -15 - 15
-Recoil_Aim_Vertical: 42 - 49.2
----
 
 Category: Weird
 ---
@@ -1280,33 +1264,4 @@ Recoil_Hip_Horizontal: -20 - 20
 Recoil_Hip_Vertical: 90 - 110
 Recoil_Aim_Horizontal: -16 - 16
 Recoil_Aim_Vertical: 72 - 88
----
-Core: Beretta
-Damage: 21 > 11.6
-Dropoff_Studs: 35 > 105
-Fire_Rate: 400
-Hipfire_Spread: 0.5
-ADS_Spread: 0.45
-Time_To_Aim: 0.4
-Detection_Radius: 90
-Movement_Speed_Modifier: +4.4%
-Equip_Time: 0.5
-Recoil_Hip_Horizontal: -3 - 3
-Recoil_Hip_Vertical: 5 - 8
-Recoil_Aim_Horizontal: 1.2 - 1.2
-Recoil_Aim_Vertical: 2 - 3.3
----
-Core: Luger
-Damage: 16 > 8
-Dropoff_Studs: 40 > 100
-Fire_Rate: 700
-Hipfire_Spread: 0.32
-ADS_Spread: 0.32
-Time_To_Aim: 0.4
-Detection_Radius: 90
-Equip_Time: 0.5
-Recoil_Hip_Horizontal: -4 - 4
-Recoil_Hip_Vertical: 1 - 2
-Recoil_Aim_Horizontal: -1.2 - 1.2
-Recoil_Aim_Vertical: 0.3 - 0.6
 ---

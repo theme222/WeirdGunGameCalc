@@ -561,15 +561,6 @@ Pellets: +125%
 Recoil: +26%
 Spread: +15%
 ---
-Magazine: Double Barrel
-Magazine_Size: 2
-Reload_Time: 5
-Damage: +30%
-Pellets: +180%
-Fire_Rate: -13%
-Range: -7%
-Recoil: +100%
----
 
 Category: Weird Magazines
 ---
@@ -760,20 +751,4 @@ Fire_Rate: -6%
 Movement_Speed: -2%
 Range: -9%
 Recoil: +52%
----
-Magazine: Beretta
-Magazine_Size: 15
-Reload_Time: 2.3
-Damage: +3%
-Range: +2%
-Fire_Rate: -7%
-Spread: +11%
----
-Magazine: Luger
-Magazine_Size: 8
-Reload_Time: 2.2
-Fire_Rate: +20%
-Recoil: -16%
-Range: -5%
-Spread: +22%
 ---

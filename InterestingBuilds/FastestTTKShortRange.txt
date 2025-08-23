@@ -1,132 +1,142 @@
 ./Calculator -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
-[ Barrel: Tommy, Magazine: NP5, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.1198 - 8.93439
-dropoffStuds: 117.124 - 129.673
-fireRate: 824.681
-adsSpread: 0.738127
-hipfireSpread: 4.92085
-reloadTime: 2
+[ Barrel: Car Muffler, Magazine: NP5, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.3491 - 9.94047
+dropoffStuds: 124.6 - 137.95
+fireRate: 847.803
+adsSpread: 0.492992
+hipfireSpread: 3.28662
+reloadTime: 2.53
 magazineSize: 30
-recoilHipVertical: 34.3125 - 48.0375
-recoilAimVertical: 22.2345 - 31.1558
-movementSpeed: 11.1
-TTK: 0.218266 Seconds
-
-[ Barrel: Tommy, Magazine: MAC-10, Grip: Circuit Judge, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.1198 - 7.97201
-dropoffStuds: 110.018 - 121.805
-fireRate: 824.328
-adsSpread: 0.807719
-hipfireSpread: 5.3848
-reloadTime: 2
-magazineSize: 30
-recoilHipVertical: 33.75 - 47.25
-recoilAimVertical: 21.87 - 30.645
-movementSpeed: 15.5
-TTK: 0.21836 Seconds
-
-[ Barrel: MG42, Magazine: MP 40, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.3491 - 7.56671
-dropoffStuds: 103.74 - 114.855
-fireRate: 823.518
-adsSpread: 0.679145
-hipfireSpread: 4.52763
-reloadTime: 2.875
-magazineSize: 32
-recoilHipVertical: 29.9 - 41.86
-recoilAimVertical: 19.3752 - 27.1492
-movementSpeed: 0.3
-TTK: 0.218575 Seconds
-
-[ Barrel: MG42, Magazine: MP 40, Grip: M1897 Trench Shotgun, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.3491 - 7.56671
-dropoffStuds: 103.74 - 114.855
-fireRate: 821.646
-adsSpread: 0.904276
-hipfireSpread: 6.02851
-reloadTime: 2.625
-magazineSize: 32
-recoilHipVertical: 29.9 - 41.86
-recoilAimVertical: 19.3752 - 27.1492
-movementSpeed: 0.3
-TTK: 0.219072 Seconds
-
-[ Barrel: Tommy, Magazine: Graphics Card, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.1198 - 9.37183
-dropoffStuds: 121.072 - 134.044
-fireRate: 817.51
-adsSpread: 0.776772
-hipfireSpread: 5.17848
-reloadTime: 6
-magazineSize: 50
-recoilHipVertical: 29.3563 - 41.0988
-recoilAimVertical: 19.0229 - 26.6555
-movementSpeed: 7.8
-TTK: 0.220181 Seconds
-
-[ Barrel: Tommy, Magazine: Sten gun, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.2366 - 8.68296
-dropoffStuds: 114.492 - 126.759
-fireRate: 812.49
-adsSpread: 0.58075
-hipfireSpread: 3.87167
-reloadTime: 3.45
-magazineSize: 32
-recoilHipVertical: 38.125 - 53.375
-recoilAimVertical: 24.705 - 34.6175
-movementSpeed: 7.8
-TTK: 0.221541 Seconds
-
-[ Barrel: M870 Breacher, Magazine: Kriss Vector, Grip: MP 40, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.1099 - 7.71531
-dropoffStuds: 107.1 - 118.575
-fireRate: 810.942
-adsSpread: 0.971425
-hipfireSpread: 6.47617
-reloadTime: 2.4
-magazineSize: 30
-recoilHipVertical: 33.7025 - 47.1835
-recoilAimVertical: 21.8392 - 30.6019
-movementSpeed: 9.25
-TTK: 0.221964 Seconds
-
-[ Barrel: M1911, Magazine: Kriss Vector, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.3758 - 7.63722
-dropoffStuds: 105.91 - 117.257
-fireRate: 810.942
-adsSpread: 0.776772
-hipfireSpread: 5.17848
-reloadTime: 2.4
-magazineSize: 30
-recoilHipVertical: 32.4062 - 45.3687
-recoilAimVertical: 20.9993 - 29.4249
+health: -7
+recoilHipVertical: 32.1165 - 44.9631
+recoilAimVertical: 20.8115 - 29.1618
 movementSpeed: 7.3
-TTK: 0.221964 Seconds
+TTK: 0.212313 Seconds
 
-[ Barrel: Tommy, Magazine: Sten gun, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.2366 - 8.68296
-dropoffStuds: 114.492 - 126.759
-fireRate: 810.644
-adsSpread: 0.773264
-hipfireSpread: 5.1551
-reloadTime: 3.15
-magazineSize: 32
-recoilHipVertical: 38.125 - 53.375
-recoilAimVertical: 24.705 - 34.6175
-movementSpeed: 7.8
-TTK: 0.222046 Seconds
-
-[ Barrel: PP-19 Bizon, Magazine: NP5, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.585 - 8.47776
-dropoffStuds: 112.14 - 124.155
-fireRate: 809.266
-adsSpread: 0.738127
-hipfireSpread: 4.92085
-reloadTime: 2
+[ Barrel: Car Muffler, Magazine: MAC-10, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
+damage: 25.3491 - 9.02428
+dropoffStuds: 117.04 - 129.58
+fireRate: 847.44
+adsSpread: 0.539473
+hipfireSpread: 3.59649
+reloadTime: 2.53
 magazineSize: 30
-recoilHipVertical: 34.3125 - 48.0375
-recoilAimVertical: 22.2345 - 31.1558
-movementSpeed: 9.8
-TTK: 0.222424 Seconds
+health: -7
+recoilHipVertical: 31.59 - 44.226
+recoilAimVertical: 20.4703 - 28.6837
+movementSpeed: 11.7
+TTK: 0.212404 Seconds
+
+[ Barrel: Car Muffler, Magazine: NP5, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.3491 - 9.94047
+dropoffStuds: 124.6 - 137.95
+fireRate: 845.876
+adsSpread: 0.656415
+hipfireSpread: 4.3761
+reloadTime: 2.31
+magazineSize: 30
+health: -7
+recoilHipVertical: 32.1165 - 44.9631
+recoilAimVertical: 20.8115 - 29.1618
+movementSpeed: 7.3
+TTK: 0.212797 Seconds
+
+[ Barrel: Car Muffler, Magazine: MAC-10, Grip: M1897 Trench Shotgun, Stock: Kriss Vector, Core: Type 2a Nambu ]
+damage: 25.3491 - 9.02428
+dropoffStuds: 117.04 - 129.58
+fireRate: 845.514
+adsSpread: 0.718304
+hipfireSpread: 4.78869
+reloadTime: 2.31
+magazineSize: 30
+health: -7
+recoilHipVertical: 31.59 - 44.226
+recoilAimVertical: 20.4703 - 28.6837
+movementSpeed: 11.7
+TTK: 0.212888 Seconds
+
+[ Barrel: Car Muffler, Magazine: Graphics Card, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.3491 - 10.3569
+dropoffStuds: 128.8 - 142.6
+fireRate: 840.431
+adsSpread: 0.518804
+hipfireSpread: 3.45869
+reloadTime: 7.59
+magazineSize: 50
+health: -7
+recoilHipVertical: 27.4774 - 38.4684
+recoilAimVertical: 17.8054 - 24.9495
+movementSpeed: 4
+TTK: 0.214176 Seconds
+
+[ Barrel: Car Muffler, Magazine: Graphics Card, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.3491 - 10.3569
+dropoffStuds: 128.8 - 142.6
+fireRate: 838.521
+adsSpread: 0.690783
+hipfireSpread: 4.60522
+reloadTime: 6.93
+magazineSize: 50
+health: -7
+recoilHipVertical: 27.4774 - 38.4684
+recoilAimVertical: 17.8054 - 24.9495
+movementSpeed: 4
+TTK: 0.214664 Seconds
+
+[ Barrel: Car Muffler, Magazine: Graphics Card, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.3491 - 7.35848
+dropoffStuds: 103.04 - 114.08
+fireRate: 832.79
+adsSpread: 0.748109
+hipfireSpread: 4.98739
+reloadTime: 6.6
+magazineSize: 50
+health: -7
+recoilHipVertical: 27.4774 - 38.4684
+recoilAimVertical: 17.8054 - 24.9495
+movementSpeed: 4
+TTK: 0.216141 Seconds
+
+[ Barrel: Car Muffler, Magazine: MAC-10, Grip: PPSh-41, Stock: Fedorov, Core: Type 2a Nambu ]
+damage: 25.3491 - 9.80166
+dropoffStuds: 123.2 - 136.4
+fireRate: 830.808
+adsSpread: 0.415456
+hipfireSpread: 2.76971
+reloadTime: 2.7071
+magazineSize: 30
+health: -7
+recoilHipVertical: 36.7234 - 51.4127
+recoilAimVertical: 23.7967 - 33.3448
+movementSpeed: 6.4
+TTK: 0.216657 Seconds
+
+[ Barrel: Car Muffler, Magazine: MAC-10, Grip: P90, Stock: Spas-12, Core: Type 2a Nambu ]
+damage: 25.3491 - 7.93596
+dropoffStuds: 108.416 - 120.032
+fireRate: 830.491
+adsSpread: 0.578117
+hipfireSpread: 3.85411
+reloadTime: 2.2
+magazineSize: 30
+health: -7
+recoilHipVertical: 35.1439 - 49.2014
+recoilAimVertical: 22.7732 - 31.9106
+movementSpeed: 5.4
+TTK: 0.216739 Seconds
+
+[ Barrel: Car Muffler, Magazine: MAC-10, Grip: M1897 Trench Shotgun, Stock: Fedorov, Core: Type 2a Nambu ]
+damage: 25.3491 - 9.80166
+dropoffStuds: 123.2 - 136.4
+fireRate: 828.92
+adsSpread: 0.553177
+hipfireSpread: 3.68784
+reloadTime: 2.4717
+magazineSize: 30
+health: -7
+recoilHipVertical: 36.7234 - 51.4127
+recoilAimVertical: 23.7967 - 33.3448
+movementSpeed: 6.4
+TTK: 0.21715 Seconds
 

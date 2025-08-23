@@ -1,0 +1,137 @@
+./Calculator -o InterestingBuilds/HipfireSecondaryAuto.txt -i Sidearm --fc B17 --spreadHipMax 1 --magazineMin 30 --speedMin 0 --rangeMin 20 
+Current top 10 guns are: 
+[ Barrel: Car Muffler, Magazine: MP 40, Grip: PPSh-41, Stock: None, Core: B17 ]
+damage: 11.4032 - 6.30531
+dropoffStuds: 20 - 95
+fireRate: 1225.5
+adsSpread: 0.395072
+hipfireSpread: 0.965732
+reloadTime: 3.1625
+magazineSize: 32
+health: -7
+recoilHipVertical: 40.365 - 56.511
+recoilAimVertical: 24.219 - 33.9066
+TTK: 0.391677 Seconds
+
+[ Barrel: Car Muffler, Magazine: MP 40, Grip: Auto-5, Stock: None, Core: B17 ]
+damage: 11.121 - 6.14924
+dropoffStuds: 20 - 95
+fireRate: 1177.05
+adsSpread: 0.371708
+hipfireSpread: 0.908619
+reloadTime: 2.75
+magazineSize: 32
+health: -7
+recoilHipVertical: 37.7413 - 52.8378
+recoilAimVertical: 22.6448 - 31.7027
+TTK: 0.407799 Seconds
+
+[ Barrel: Car Muffler, Magazine: UNP-40, Grip: PPSh-41, Stock: None, Core: B17 ]
+damage: 11.327 - 6.37711
+dropoffStuds: 20.45 - 97.1375
+fireRate: 1161
+adsSpread: 0.395072
+hipfireSpread: 0.965732
+reloadTime: 2.53
+magazineSize: 30
+health: -7
+recoilHipVertical: 35.1 - 49.14
+recoilAimVertical: 21.06 - 29.484
+movementSpeed: 1.125
+TTK: 0.413437 Seconds
+
+[ Barrel: Car Muffler, Magazine: AK-12, Grip: PPSh-41, Stock: None, Core: B17 ]
+damage: 10.2604 - 5.89699
+dropoffStuds: 20.975 - 99.6313
+fireRate: 1290
+adsSpread: 0.391037
+hipfireSpread: 0.955867
+reloadTime: 2.783
+magazineSize: 30
+health: -7
+recoilHipVertical: 40.014 - 56.0196
+recoilAimVertical: 24.0084 - 33.6118
+TTK: 0.418605 Seconds
+
+[ Barrel: Car Muffler, Magazine: Mas-38, Grip: PPSh-41, Stock: None, Core: B17 ]
+damage: 10.6413 - 6.02674
+dropoffStuds: 20.6 - 97.85
+fireRate: 1290
+adsSpread: 0.379142
+hipfireSpread: 0.926791
+reloadTime: 3.542
+magazineSize: 32
+health: -7
+recoilHipVertical: 44.577 - 62.4078
+recoilAimVertical: 26.7462 - 37.4447
+movementSpeed: 2.625
+TTK: 0.418605 Seconds
+
+[ Barrel: Car Muffler, Magazine: MP 40, Grip: Napo - Scissors, Stock: None, Core: B17 ]
+damage: 11.4032 - 6.30531
+dropoffStuds: 20 - 95
+fireRate: 1140
+adsSpread: 0.385514
+hipfireSpread: 0.942368
+reloadTime: 2.75
+magazineSize: 32
+health: -7
+recoilHipVertical: 45.2088 - 63.2923
+recoilAimVertical: 27.1253 - 37.9754
+TTK: 0.421053 Seconds
+
+[ Barrel: Car Muffler, Magazine: MP 40, Grip: STG-44, Stock: None, Core: B17 ]
+damage: 11.4032 - 6.30531
+dropoffStuds: 20 - 95
+fireRate: 1140
+adsSpread: 0.407604
+hipfireSpread: 0.996366
+reloadTime: 2.44613
+magazineSize: 32
+health: -7
+recoilHipVertical: 45.2088 - 63.2923
+recoilAimVertical: 27.1253 - 37.9754
+TTK: 0.421053 Seconds
+
+[ Barrel: Car Muffler, Magazine: MP 40, Grip: JSG12, Stock: None, Core: B17 ]
+damage: 11.4032 - 6.30531
+dropoffStuds: 20 - 95
+fireRate: 1140
+adsSpread: 0.37723
+hipfireSpread: 0.922119
+reloadTime: 2.75
+magazineSize: 32
+health: -7
+recoilHipVertical: 55.7037 - 77.9852
+recoilAimVertical: 33.4222 - 46.7911
+movementSpeed: 1.95
+TTK: 0.421053 Seconds
+
+[ Barrel: Car Muffler, Magazine: MP 40, Grip: AUG, Stock: None, Core: B17 ]
+damage: 11.4032 - 6.30531
+dropoffStuds: 20 - 95
+fireRate: 1140
+adsSpread: 0.407604
+hipfireSpread: 0.996366
+reloadTime: 2.75
+magazineSize: 32
+health: -7
+recoilHipVertical: 39.0531 - 54.6744
+recoilAimVertical: 23.4319 - 32.8046
+movementSpeed: 1.625
+TTK: 0.421053 Seconds
+
+[ Barrel: Car Muffler, Magazine: MP 40, Grip: Sten gun, Stock: None, Core: B17 ]
+damage: 11.4032 - 6.30531
+dropoffStuds: 20 - 95
+fireRate: 1140
+adsSpread: 0.37277
+hipfireSpread: 0.911215
+reloadTime: 2.75
+magazineSize: 32
+health: -7
+recoilHipVertical: 51.6672 - 72.3341
+recoilAimVertical: 31.0003 - 43.4004
+movementSpeed: 1.5
+TTK: 0.421053 Seconds
+

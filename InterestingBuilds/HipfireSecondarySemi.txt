@@ -1,0 +1,132 @@
+./Calculator -o InterestingBuilds/HipfireSecondarySemi.txt -i Sidearm --bc B17 Deagle --spreadHipMax 1 --magazineMin 20 --speedMin 5 --rangeMin 40 
+Current top 10 guns are: 
+[ Barrel: Dominus, Magazine: Scar H, Grip: Circuit Judge, Stock: None, Core: Luger ]
+damage: 20.2021 - 10.8233
+dropoffStuds: 42.86 - 107.15
+fireRate: 784
+adsSpread: 0.48195
+hipfireSpread: 0.48195
+reloadTime: 4.905
+magazineSize: 20
+recoilHipVertical: 1.55 - 3.1
+recoilAimVertical: 0.465 - 0.93
+movementSpeed: 5
+TTK: 0.306122 Seconds
+
+[ Barrel: Type 2a Nambu, Magazine: Tommy, Grip: M1897 Trench Shotgun, Stock: None, Core: Luger ]
+damage: 20.4934 - 10.2467
+dropoffStuds: 40 - 100
+fireRate: 768.25
+adsSpread: 0.579593
+hipfireSpread: 0.579593
+reloadTime: 3.15
+magazineSize: 20
+recoilHipVertical: 1 - 2
+recoilAimVertical: 0.3 - 0.6
+movementSpeed: 5.1
+TTK: 0.312398 Seconds
+
+[ Barrel: MP 40, Magazine: Tommy, Grip: M1897 Trench Shotgun, Stock: None, Core: Luger ]
+damage: 20.0771 - 10.0385
+dropoffStuds: 40 - 100
+fireRate: 768.25
+adsSpread: 0.471653
+hipfireSpread: 0.471653
+reloadTime: 3.15
+magazineSize: 20
+recoilHipVertical: 1.2 - 2.4
+recoilAimVertical: 0.36 - 0.72
+movementSpeed: 5.25
+TTK: 0.312398 Seconds
+
+[ Barrel: Dominus, Magazine: Restroom, Grip: M1897 Trench Shotgun, Stock: None, Core: Luger ]
+damage: 16.8162 - 8.40808
+dropoffStuds: 40 - 100
+fireRate: 946.484
+adsSpread: 0.556537
+hipfireSpread: 0.556537
+reloadTime: 3.31905
+magazineSize: 35
+recoilHipVertical: 0.992 - 1.984
+recoilAimVertical: 0.2976 - 0.5952
+movementSpeed: 5
+TTK: 0.316963 Seconds
+
+[ Barrel: Type 2a Nambu, Magazine: Tommy, Grip: PPSh-41, Stock: None, Core: Luger ]
+damage: 20.4934 - 10.2467
+dropoffStuds: 40 - 100
+fireRate: 752.5
+adsSpread: 0.447321
+hipfireSpread: 0.447321
+reloadTime: 3.45
+magazineSize: 20
+recoilHipVertical: 1 - 2
+recoilAimVertical: 0.3 - 0.6
+movementSpeed: 5.1
+TTK: 0.318937 Seconds
+
+[ Barrel: MP 40, Magazine: Tommy, Grip: PPSh-41, Stock: None, Core: Luger ]
+damage: 20.0771 - 10.0385
+dropoffStuds: 40 - 100
+fireRate: 752.5
+adsSpread: 0.364014
+hipfireSpread: 0.364014
+reloadTime: 3.45
+magazineSize: 20
+recoilHipVertical: 1.2 - 2.4
+recoilAimVertical: 0.36 - 0.72
+movementSpeed: 5.25
+TTK: 0.318937 Seconds
+
+[ Barrel: Dominus, Magazine: SKS, Grip: M1897 Trench Shotgun, Stock: None, Core: Luger ]
+damage: 16.8162 - 8.736
+dropoffStuds: 41.56 - 103.9
+fireRate: 927.554
+adsSpread: 0.501096
+hipfireSpread: 0.501096
+reloadTime: 3.4335
+magazineSize: 20
+recoilHipVertical: 1.5624 - 3.1248
+recoilAimVertical: 0.46872 - 0.93744
+movementSpeed: 5
+TTK: 0.323431 Seconds
+
+[ Barrel: Dominus, Magazine: Restroom, Grip: PPSh-41, Stock: None, Core: Luger ]
+damage: 16.8162 - 8.40808
+dropoffStuds: 40 - 100
+fireRate: 927.08
+adsSpread: 0.429526
+hipfireSpread: 0.429526
+reloadTime: 3.63515
+magazineSize: 35
+recoilHipVertical: 0.992 - 1.984
+recoilAimVertical: 0.2976 - 0.5952
+movementSpeed: 5
+TTK: 0.323597 Seconds
+
+[ Barrel: Type 2a Nambu, Magazine: Tommy, Grip: P90, Stock: None, Core: Luger ]
+damage: 20.4934 - 10.2467
+dropoffStuds: 40 - 100
+fireRate: 736.75
+adsSpread: 0.541114
+hipfireSpread: 0.541114
+reloadTime: 3
+magazineSize: 20
+recoilHipVertical: 0.9175 - 1.835
+recoilAimVertical: 0.27525 - 0.5505
+movementSpeed: 5.1
+TTK: 0.325755 Seconds
+
+[ Barrel: MP 40, Magazine: Tommy, Grip: P90, Stock: None, Core: Luger ]
+damage: 20.0771 - 10.0385
+dropoffStuds: 40 - 100
+fireRate: 736.75
+adsSpread: 0.44034
+hipfireSpread: 0.44034
+reloadTime: 3
+magazineSize: 20
+recoilHipVertical: 1.101 - 2.202
+recoilAimVertical: 0.3303 - 0.6606
+movementSpeed: 5.25
+TTK: 0.325755 Seconds
+

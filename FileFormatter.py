@@ -33,7 +33,8 @@ known_names = {
     'AR-8X', 'Freedom Dispenser', 'Second Amendment', 'JSG12', 'AWM', 'Arisaka', 'Sten gun', 'M1 Carbine',
     'M1919 Tripod', 'FG-42', 'G11', 'AK-12', 'QBZ-95', 'Lightning Shot', '10KG Dumbbell', 'VSSR', 'BarrelSight',
     'Screwdriver', 'Cirrus - Hand', 'Napo - Scissors', 'Rat - Emoji', 'Derpy - Staff', 'Uzi', 'G3',
-    'Dominus', 'Lipstick', 'Lewis', 'Mega Soaker', 'M1911', 'Tec-9', 'B17', 'Deagle'
+    'Dominus', 'Lipstick', 'Lewis', 'Mega Soaker', 'M1911', 'Tec-9', 'B17', 'Deagle', 'Car Muffler', 'Lamp Shade',
+    'Luger', 'Beretta', 'Double Barrel'
 }
 
 # Anything with current_ is part of the Data used for calculations. Not part of the FileFormatter.py which is why there are two category variables

@@ -368,12 +368,6 @@ Movement_Speed: +3%
 Spread: -19%
 Reload_Speed: +5%
 ---
-Stock: Double Barrel
-Movement_Speed: +6%
-Reload_Speed: -5%
-Range: -2%
-Recoil: +45%
----
 
 Category: Weird Stocks
 ---

@@ -1,5 +1,61 @@
 ./Calculator -o InterestingBuilds/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
+[ Barrel: Car Muffler, Magazine: P90, Grip: APS, Stock: M1Garand, Core: Type 2a Nambu ]
+damage: 25.1133 - 12.3228
+dropoffStuds: 150.087 - 166.168
+fireRate: 720
+adsSpread: 0.64499
+hipfireSpread: 4.29993
+reloadTime: 4.664
+magazineSize: 50
+health: -7
+recoilHipVertical: 26.4679 - 37.0551
+recoilAimVertical: 17.1512 - 24.0329
+movementSpeed: 2.8
+TTK: 0.25 Seconds
+
+[ Barrel: Car Muffler, Magazine: P90, Grip: APS, Stock: M1 Carbine, Core: Type 2a Nambu ]
+damage: 25.1133 - 12.7016
+dropoffStuds: 154.35 - 170.887
+fireRate: 720
+adsSpread: 0.523052
+hipfireSpread: 3.48701
+reloadTime: 4.664
+magazineSize: 50
+health: -7
+recoilHipVertical: 33.4517 - 46.8324
+recoilAimVertical: 21.6767 - 30.3741
+movementSpeed: 1.3
+TTK: 0.25 Seconds
+
+[ Barrel: Car Muffler, Magazine: P90, Grip: APS, Stock: FAL, Core: Type 2a Nambu ]
+damage: 25.1133 - 12.5057
+dropoffStuds: 152.145 - 168.446
+fireRate: 720
+adsSpread: 0.523693
+hipfireSpread: 3.49129
+reloadTime: 4.664
+magazineSize: 50
+health: -7
+recoilHipVertical: 38.1467 - 53.4053
+recoilAimVertical: 24.719 - 34.6372
+movementSpeed: 3.94
+TTK: 0.25 Seconds
+
+[ Barrel: Car Muffler, Magazine: AR-8X, Grip: P90, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.3491 - 12.689
+dropoffStuds: 152.32 - 168.64
+fireRate: 717.114
+adsSpread: 0.644922
+hipfireSpread: 4.29948
+reloadTime: 2.64
+magazineSize: 30
+health: -7
+recoilHipVertical: 36.8412 - 51.5777
+recoilAimVertical: 23.8731 - 33.4518
+movementSpeed: 5.2
+TTK: 0.251006 Seconds
+
 [ Barrel: FC200SH, Magazine: FC200SH, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
 damage: 25.1432 - 12.9164
 dropoffStuds: 155.68 - 172.36
@@ -13,6 +69,21 @@ recoilAimVertical: 19.764 - 27.694
 movementSpeed: 1.5
 TTK: 0.251712 Seconds
 
+[ Barrel: Car Muffler, Magazine: Mas-38, Grip: PPSh-41, Stock: AWM, Core: Hex Spitter ]
+damage: 25.3951 - 22.9369
+dropoffStuds: 154.8 - 309.6
+pellets: 2
+fireRate: 712.8
+adsSpread: 0.659866
+hipfireSpread: 2.30953
+reloadTime: 3.17009
+magazineSize: 32
+health: -7
+recoilHipVertical: 49.0347 - 65.3796
+recoilAimVertical: 24.5173 - 32.6898
+movementSpeed: 2.8
+TTK: 0.252525 Seconds
+
 [ Barrel: G3, Magazine: Type 99, Grip: P90, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
 damage: 25.0608 - 13.2346
 dropoffStuds: 160.682 - 177.898
@@ -23,19 +94,6 @@ reloadTime: 3
 magazineSize: 30
 recoilHipVertical: 37.9096 - 53.0735
 recoilAimVertical: 24.5654 - 34.4219
-TTK: 0.256129 Seconds
-
-[ Barrel: G3, Magazine: AKM, Grip: P90, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.2324 - 12.6721
-dropoffStuds: 152.74 - 169.105
-fireRate: 702.772
-adsSpread: 0.644922
-hipfireSpread: 4.29948
-reloadTime: 2.4
-magazineSize: 30
-recoilHipVertical: 37.4601 - 52.4441
-recoilAimVertical: 24.2741 - 34.0138
-movementSpeed: 1
 TTK: 0.256129 Seconds
 
 [ Barrel: G3, Magazine: Words as Weapons, Grip: P90, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
@@ -51,18 +109,18 @@ recoilAimVertical: 24.2741 - 34.0138
 movementSpeed: 1
 TTK: 0.256129 Seconds
 
-[ Barrel: M1891, Magazine: MP 40, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.3491 - 13.1333
-dropoffStuds: 156.8 - 173.6
-fireRate: 700.359
-adsSpread: 0.397453
-hipfireSpread: 2.64969
-reloadTime: 3.45
-magazineSize: 32
-recoilHipVertical: 35.075 - 49.105
-recoilAimVertical: 22.7286 - 31.8481
-movementSpeed: 4
-TTK: 0.257011 Seconds
+[ Barrel: G3, Magazine: AKM, Grip: P90, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.2324 - 12.6721
+dropoffStuds: 152.74 - 169.105
+fireRate: 702.772
+adsSpread: 0.644922
+hipfireSpread: 4.29948
+reloadTime: 2.4
+magazineSize: 30
+recoilHipVertical: 37.4601 - 52.4441
+recoilAimVertical: 24.2741 - 34.0138
+movementSpeed: 1
+TTK: 0.256129 Seconds
 
 [ Barrel: M1 Carbine, Magazine: MP 40, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
 damage: 26.604 - 13.2007
@@ -76,56 +134,4 @@ recoilHipVertical: 28.7615 - 40.2661
 recoilAimVertical: 18.6375 - 26.1154
 movementSpeed: 6.5
 TTK: 0.257011 Seconds
-
-[ Barrel: M1891, Magazine: MP 40, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.3491 - 13.1333
-dropoffStuds: 156.8 - 173.6
-fireRate: 698.767
-adsSpread: 0.529205
-hipfireSpread: 3.52803
-reloadTime: 3.15
-magazineSize: 32
-recoilHipVertical: 35.075 - 49.105
-recoilAimVertical: 22.7286 - 31.8481
-movementSpeed: 4
-TTK: 0.257596 Seconds
-
-[ Barrel: FC200SH, Magazine: G11, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.0732 - 12.8805
-dropoffStuds: 155.68 - 172.36
-fireRate: 696.901
-adsSpread: 0.69639
-hipfireSpread: 4.6426
-reloadTime: 4.86
-magazineSize: 45
-recoilHipVertical: 36.905 - 51.667
-recoilAimVertical: 23.9144 - 33.5097
-movementSpeed: 1
-TTK: 0.258286 Seconds
-
-[ Barrel: G3, Magazine: Type 99, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.0608 - 12.6433
-dropoffStuds: 152.648 - 169.004
-fireRate: 692.076
-adsSpread: 0.480158
-hipfireSpread: 3.20105
-reloadTime: 3.45
-magazineSize: 30
-recoilHipVertical: 27.9312 - 39.1037
-recoilAimVertical: 18.0994 - 25.3615
-movementSpeed: 3.3
-TTK: 0.260087 Seconds
-
-[ Barrel: G3, Magazine: Mas-38, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.0903 - 12.5008
-dropoffStuds: 150.907 - 167.076
-fireRate: 692.076
-adsSpread: 0.458955
-hipfireSpread: 3.0597
-reloadTime: 3.22
-magazineSize: 32
-recoilHipVertical: 35.052 - 49.0728
-recoilAimVertical: 22.7137 - 31.8272
-movementSpeed: 7.8
-TTK: 0.260087 Seconds
 

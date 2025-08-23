@@ -13,6 +13,31 @@ recoilHipVertical: 189.43 - 215.74
 recoilAimVertical: 85.2434 - 97.0828
 movementSpeed: -1
 
+[ Barrel: Snake Sniper, Magazine: VSSR, Grip: Double Barrel, Stock: Hecate II, Core: Arisaka ]
+damage: 102.124 - 90.6857
+dropoffStuds: 352 - 616
+fireRate: 29.664
+adsSpread: 0.147697
+hipfireSpread: 11.8158
+reloadTime: 4.2525
+magazineSize: 5
+health: -15
+recoilHipVertical: 277.214 - 315.716
+recoilAimVertical: 124.746 - 142.072
+movementSpeed: -3
+
+[ Barrel: Car Muffler, Magazine: Hecate II, Grip: AWM, Stock: AWM, Core: Arisaka ]
+damage: 101.205 - 88.757
+dropoffStuds: 308 - 539
+fireRate: 28.8
+adsSpread: 0.14624
+hipfireSpread: 11.6992
+reloadTime: 7.854
+magazineSize: 5
+health: -17
+recoilHipVertical: 200.154 - 227.953
+recoilAimVertical: 90.0694 - 102.579
+
 [ Barrel: VSSR, Magazine: VSSR, Grip: Circuit Judge, Stock: AWM, Core: Arisaka ]
 damage: 100.349 - 90.121
 dropoffStuds: 383.68 - 671.44
@@ -25,6 +50,19 @@ health: -10
 recoilHipVertical: 106.065 - 120.796
 recoilAimVertical: 47.7291 - 54.3581
 movementSpeed: -3
+
+[ Barrel: Car Muffler, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: Arisaka ]
+damage: 104.671 - 92.1106
+dropoffStuds: 320 - 560
+fireRate: 28.0324
+adsSpread: 0.137712
+hipfireSpread: 11.0169
+reloadTime: 11
+magazineSize: 7
+health: -17
+recoilHipVertical: 231.239 - 263.355
+recoilAimVertical: 104.057 - 118.51
+movementSpeed: -2
 
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Fedorov, Core: Arisaka ]
 damage: 107.378 - 94.4928
@@ -90,43 +128,4 @@ health: -15
 recoilHipVertical: 183.06 - 208.485
 recoilAimVertical: 82.377 - 93.8183
 movementSpeed: 0.55
-
-[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Type 99, Core: Arisaka ]
-damage: 107.378 - 94.4928
-dropoffStuds: 320 - 560
-fireRate: 27.1014
-adsSpread: 0.132225
-hipfireSpread: 10.578
-reloadTime: 9.24
-magazineSize: 7
-health: -15
-recoilHipVertical: 174.96 - 199.26
-recoilAimVertical: 78.732 - 89.667
-movementSpeed: -5
-
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: AUG, Core: Arisaka ]
-damage: 100.507 - 90.4391
-dropoffStuds: 392.92 - 687.61
-fireRate: 27
-adsSpread: 0.147242
-hipfireSpread: 11.7793
-reloadTime: 5.5
-magazineSize: 6
-health: -10
-recoilHipVertical: 151.776 - 172.856
-recoilAimVertical: 68.2992 - 77.7852
-movementSpeed: -0.25
-
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: AWM, Core: Arisaka ]
-damage: 100.507 - 91.0089
-dropoffStuds: 418 - 731.5
-fireRate: 27
-adsSpread: 0.107159
-hipfireSpread: 8.57274
-reloadTime: 4.675
-magazineSize: 6
-health: -10
-recoilHipVertical: 166.954 - 190.142
-recoilAimVertical: 75.1291 - 85.5637
-movementSpeed: -2
 

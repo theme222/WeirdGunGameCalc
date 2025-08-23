@@ -466,14 +466,6 @@ Recoil: +16%
 Reload_Speed: +7%
 Spread: +24%
 ---
-Barrel: Double Barrel
-Damage: +15%
-Range: +5%
-Fire_Rate: -15%
-Recoil: +80%
-Reload_Speed: +10%
-Spread: +75%
----
 
 Category: Weird Barrels
 ---
@@ -580,13 +572,6 @@ Recoil: -19%
 Damage: -4%
 Range: -10%
 ---
-Barrel: Car Muffler
-Damage: +15%
-Detection_Radius: -50%
-Health: -7%
-Recoil: +17%
-Reload_Speed: +10%
----
 
 Category: BR Barrels
 ---
@@ -672,15 +657,4 @@ Fire_Rate: -10%
 Movement_Speed: -4%
 Range: -7%
 Recoil: +55%
----
-Barrel: Luger
-Fire_Rate: +6%
-Recoil: -8%
-Range: -4%
----
-Barrel: Beretta
-Range: +2.5%
-Spread: -11%
-Fire_Rate: -5%
-Recoil: +6%
 ---

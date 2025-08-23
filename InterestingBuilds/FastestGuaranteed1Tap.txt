@@ -1,5 +1,18 @@
 ./Calculator -o InterestingBuilds/FastestGuaranteed1Tap.txt -i Sniper BR --damageEndMin 100 --spreadAimMax 0.15 --sort FIRERATE --speedMin -5 --magazineMin 5 
 Current top 10 guns are: 
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Double Barrel, Stock: M1897 Trench Shotgun, Core: Arisaka ]
+damage: 112.162 - 100.946
+dropoffStuds: 400 - 700
+fireRate: 25.1073
+adsSpread: 0.127159
+hipfireSpread: 10.1727
+reloadTime: 10.5
+magazineSize: 7
+health: -15
+recoilHipVertical: 355.752 - 405.162
+recoilAimVertical: 160.088 - 182.323
+movementSpeed: -4
+
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: Arisaka ]
 damage: 111.206 - 100.085
 dropoffStuds: 400 - 700
@@ -104,29 +117,16 @@ recoilHipVertical: 199.26 - 226.935
 recoilAimVertical: 89.667 - 102.121
 movementSpeed: -4
 
-[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Chauchat, Stock: FG-42, Core: Arisaka ]
-damage: 111.631 - 100.468
+[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Double Barrel, Stock: FG-42, Core: Arisaka ]
+damage: 112.162 - 100.946
 dropoffStuds: 400 - 700
 fireRate: 23.6231
-adsSpread: 0.117027
-hipfireSpread: 9.36215
+adsSpread: 0.101829
+hipfireSpread: 8.14628
 reloadTime: 10.5
 magazineSize: 7
 health: -15
-recoilHipVertical: 201.366 - 229.334
-recoilAimVertical: 90.6147 - 103.2
-movementSpeed: -1.95
-
-[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Circuit Judge, Stock: FG-42, Core: Arisaka ]
-damage: 113.757 - 102.381
-dropoffStuds: 400 - 700
-fireRate: 23.6231
-adsSpread: 0.137291
-hipfireSpread: 10.9833
-reloadTime: 10.5
-magazineSize: 7
-health: -15
-recoilHipVertical: 183.06 - 208.485
-recoilAimVertical: 82.377 - 93.8183
-movementSpeed: 0.55
+recoilHipVertical: 329.508 - 375.273
+recoilAimVertical: 148.279 - 168.873
+movementSpeed: -1.45
 

@@ -1,5 +1,19 @@
 ./Calculator -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --healthMin 10 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
+[ Barrel: Tommy, Magazine: XXL AKM, Grip: Lamp Shade, Stock: Kriss Vector, Core: Type 2a Nambu ]
+damage: 25.0029 - 9.76365
+dropoffStuds: 125.02 - 138.415
+fireRate: 686.94
+adsSpread: 0.658694
+hipfireSpread: 4.39129
+reloadTime: 9
+magazineSize: 90
+health: 20
+recoilHipVertical: 33 - 46.2
+recoilAimVertical: 21.384 - 29.964
+movementSpeed: 1.1
+TTK: 0.262032 Seconds
+
 [ Barrel: M870 Breacher, Magazine: M60, Grip: Banana, Stock: M1897 Trench Shotgun, Core: MG42 ]
 damage: 15.0888 - 8.14165
 dropoffStuds: 122.85 - 266.175
@@ -27,6 +41,48 @@ recoilHipVertical: 64.66 - 92.72
 recoilAimVertical: 32.33 - 46.36
 movementSpeed: 2.7
 TTK: 0.267738 Seconds
+
+[ Barrel: Tommy, Magazine: XXL AKM, Grip: Lamp Shade, Stock: MAC-10, Core: Type 2a Nambu ]
+damage: 25.0029 - 10.4893
+dropoffStuds: 131.6 - 145.7
+fireRate: 670.89
+adsSpread: 0.588029
+hipfireSpread: 3.92019
+reloadTime: 9
+magazineSize: 90
+health: 20
+recoilHipVertical: 41.25 - 57.75
+recoilAimVertical: 26.73 - 37.455
+movementSpeed: 2.4
+TTK: 0.2683 Seconds
+
+[ Barrel: Car Muffler, Magazine: M60, Grip: Lamp Shade, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 25.3491 - 10.2181
+dropoffStuds: 127.4 - 141.05
+fireRate: 670.2
+adsSpread: 0.592487
+hipfireSpread: 3.94991
+reloadTime: 7.15
+magazineSize: 75
+health: 13
+recoilHipVertical: 47.8893 - 67.045
+recoilAimVertical: 31.0322 - 43.4835
+movementSpeed: 4.65
+TTK: 0.268577 Seconds
+
+[ Barrel: Tommy, Magazine: XXL AKM, Grip: Lamp Shade, Stock: P90, Core: Type 2a Nambu ]
+damage: 25.0029 - 10.4893
+dropoffStuds: 131.6 - 145.7
+fireRate: 667.68
+adsSpread: 0.451748
+hipfireSpread: 3.01165
+reloadTime: 9
+magazineSize: 90
+health: 20
+recoilHipVertical: 46.2 - 64.68
+recoilAimVertical: 29.9376 - 41.9496
+movementSpeed: 0.8
+TTK: 0.26959 Seconds
 
 [ Barrel: M870 Breacher, Magazine: M60, Grip: M1891, Stock: MAC-10, Core: MG42 ]
 damage: 15.0888 - 8.14165
@@ -56,6 +112,20 @@ recoilAimVertical: 25.5588 - 36.6504
 movementSpeed: 0.5
 TTK: 0.2705 Seconds
 
+[ Barrel: Tommy, Magazine: XXL AKM, Grip: Lamp Shade, Stock: M870 Breacher, Core: Type 2a Nambu ]
+damage: 25.0029 - 10.4893
+dropoffStuds: 131.6 - 145.7
+fireRate: 662.865
+adsSpread: 0.633456
+hipfireSpread: 4.22304
+reloadTime: 7.83
+magazineSize: 90
+health: 20
+recoilHipVertical: 47.4375 - 66.4125
+recoilAimVertical: 30.7395 - 43.0733
+movementSpeed: 1.05
+TTK: 0.271548 Seconds
+
 [ Barrel: Mega Soaker, Magazine: M60, Grip: M1891, Stock: Kriss Vector, Core: MG42 ]
 damage: 12.6173 - 6.51764
 dropoffStuds: 116.707 - 252.866
@@ -69,73 +139,4 @@ recoilHipVertical: 45.5659 - 65.3398
 recoilAimVertical: 22.783 - 32.6699
 movementSpeed: 0.844999
 TTK: 0.271904 Seconds
-
-[ Barrel: Mega Soaker, Magazine: M60, Grip: M1891, Stock: FG-42, Core: MG42 ]
-damage: 12.6173 - 6.8081
-dropoffStuds: 122.85 - 266.175
-fireRate: 1540.23
-adsSpread: 0.959063
-hipfireSpread: 9.59063
-reloadTime: 7.475
-magazineSize: 75
-health: 13
-recoilHipVertical: 59.1833 - 84.8666
-recoilAimVertical: 29.5916 - 42.4333
-movementSpeed: 1.25
-TTK: 0.272686 Seconds
-
-[ Barrel: Kriss Vector, Magazine: M60, Grip: Banana, Stock: M1897 Trench Shotgun, Core: MG42 ]
-damage: 12.7474 - 6.87829
-dropoffStuds: 122.85 - 266.175
-fireRate: 1539.06
-adsSpread: 1.05998
-hipfireSpread: 10.5998
-reloadTime: 6.5
-magazineSize: 75
-health: 13
-recoilHipVertical: 56.9551 - 81.6715
-recoilAimVertical: 28.4776 - 40.8357
-movementSpeed: 0.645
-TTK: 0.272894 Seconds
-
-[ Barrel: Uzi, Magazine: XXL AKM, Grip: Mas-38, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.7548 - 9.45641
-dropoffStuds: 119.784 - 132.618
-fireRate: 658.578
-adsSpread: 0.400372
-hipfireSpread: 2.66915
-reloadTime: 9.9
-magazineSize: 90
-health: 10
-recoilHipVertical: 36 - 50.4
-recoilAimVertical: 23.328 - 32.688
-TTK: 0.273316 Seconds
-
-[ Barrel: Uzi, Magazine: XXL AKM, Grip: M1891, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.7548 - 10.5227
-dropoffStuds: 128.8 - 142.6
-fireRate: 658.578
-adsSpread: 0.611094
-hipfireSpread: 4.07396
-reloadTime: 11.385
-magazineSize: 90
-health: 10
-recoilHipVertical: 36 - 50.4
-recoilAimVertical: 23.328 - 32.688
-movementSpeed: 0.4
-TTK: 0.273316 Seconds
-
-[ Barrel: PP-19 Bizon, Magazine: M60, Grip: PPSh-41, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.2279 - 8.6634
-dropoffStuds: 114.66 - 126.945
-fireRate: 658.35
-adsSpread: 0.465917
-hipfireSpread: 3.10611
-reloadTime: 8.2225
-magazineSize: 75
-health: 10
-recoilHipVertical: 45.75 - 64.05
-recoilAimVertical: 29.646 - 41.541
-movementSpeed: 7.15
-TTK: 0.273411 Seconds
 

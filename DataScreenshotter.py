@@ -7,7 +7,7 @@ from pynput import mouse, keyboard
 from PIL import ImageGrab
 
 # Initial corner and size
-corner = [100, 100]
+corner = [34, 234]
 size = [328, 576]
 
 # Directory for screenshots
@@ -85,5 +85,4 @@ def kb_listener():
 # Program start
 # -------------------------
 threading.Thread(target=listen_console, daemon=True).start()
-on_reselect()
 kb_listener()

@@ -595,6 +595,16 @@
       "Spread": 24
     },
     {
+      "Category": "Shotgun",
+      "Name": "Double Barrel",
+      "Damage": 15,
+      "Range": 5,
+      "Fire_Rate": -15,
+      "Recoil": 80,
+      "Reload_Speed": 10,
+      "Spread": 75
+    },
+    {
       "Category": "Weird",
       "Name": "Snake",
       "Damage": 12.5,
@@ -730,6 +740,15 @@
       "Range": -10
     },
     {
+      "Category": "Weird",
+      "Name": "Car Muffler",
+      "Damage": 15,
+      "Detection_Radius": -50,
+      "Health": -7,
+      "Recoil": 17,
+      "Reload_Speed": 10
+    },
+    {
       "Category": "BR",
       "Name": "M1Garand",
       "Damage": 7,
@@ -834,6 +853,21 @@
       "Movement_Speed": -4,
       "Range": -7,
       "Recoil": 55
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Luger",
+      "Fire_Rate": 6,
+      "Recoil": -8,
+      "Range": -4
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Beretta",
+      "Range": 2.5,
+      "Spread": -11,
+      "Fire_Rate": -5,
+      "Recoil": 6
     }
   ],
   "Cores": [
@@ -3023,6 +3057,42 @@
       ]
     },
     {
+      "Category": "Shotgun",
+      "Name": "Double Barrel",
+      "Damage": [
+        100,
+        10
+      ],
+      "Dropoff_Studs": [
+        60,
+        160
+      ],
+      "Pellets": 10,
+      "Fire_Rate": 60,
+      "Hipfire_Spread": 6,
+      "ADS_Spread": 2.1,
+      "Time_To_Aim": 1,
+      "Detection_Radius": 250,
+      "Burst": 2,
+      "Suppression": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -25,
+        25
+      ],
+      "Recoil_Hip_Vertical": [
+        70,
+        82
+      ],
+      "Recoil_Aim_Horizontal": [
+        -15,
+        15
+      ],
+      "Recoil_Aim_Vertical": [
+        42,
+        49.2
+      ]
+    },
+    {
       "Category": "Weird",
       "Name": "Words as Weapons",
       "Damage": [
@@ -3665,6 +3735,75 @@
         72,
         88
       ]
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Beretta",
+      "Damage": [
+        21,
+        11.6
+      ],
+      "Dropoff_Studs": [
+        35,
+        105
+      ],
+      "Fire_Rate": 400,
+      "Hipfire_Spread": 0.5,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.4,
+      "Detection_Radius": 90,
+      "Movement_Speed_Modifier": 4.4,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -3,
+        3
+      ],
+      "Recoil_Hip_Vertical": [
+        5,
+        8
+      ],
+      "Recoil_Aim_Horizontal": [
+        1.2,
+        1.2
+      ],
+      "Recoil_Aim_Vertical": [
+        2,
+        3.3
+      ]
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Luger",
+      "Damage": [
+        16,
+        8
+      ],
+      "Dropoff_Studs": [
+        40,
+        100
+      ],
+      "Fire_Rate": 700,
+      "Hipfire_Spread": 0.32,
+      "ADS_Spread": 0.32,
+      "Time_To_Aim": 0.4,
+      "Detection_Radius": 90,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -4,
+        4
+      ],
+      "Recoil_Hip_Vertical": [
+        1,
+        2
+      ],
+      "Recoil_Aim_Horizontal": [
+        -1.2,
+        1.2
+      ],
+      "Recoil_Aim_Vertical": [
+        0.3,
+        0.6
+      ]
     }
   ],
   "Grips": [
@@ -4121,6 +4260,13 @@
       "Recoil": 38
     },
     {
+      "Category": "Shotgun",
+      "Name": "Double Barrel",
+      "Damage": 7.5,
+      "Movement_Speed": -2,
+      "Recoil": 80
+    },
+    {
       "Category": "Weird",
       "Name": "Words as Weapons",
       "Recoil": -10,
@@ -4171,6 +4317,14 @@
       "Movement_Speed": 2,
       "Recoil": -16,
       "Spread": 15
+    },
+    {
+      "Category": "Weird",
+      "Name": "Lamp Shade",
+      "Health": 20,
+      "Detection_Radius": 100,
+      "Recoil": 10,
+      "Spread": 10
     },
     {
       "Category": "BR",
@@ -4253,6 +4407,20 @@
       "Recoil": -22,
       "Fire_Rate": -5,
       "Movement_Speed": -2
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Beretta",
+      "Movement_Speed": 2.3,
+      "Range": 1.5,
+      "Reload_Speed": 4
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Luger",
+      "Movement_Speed": 6,
+      "Recoil": -5,
+      "Range": -12
     }
   ],
   "Magazines": [
@@ -4936,6 +5104,17 @@
       "Spread": 15
     },
     {
+      "Category": "Shotgun",
+      "Name": "Double Barrel",
+      "Magazine_Size": 2,
+      "Reload_Time": 5,
+      "Damage": 30,
+      "Pellets": 180,
+      "Fire_Rate": -13,
+      "Range": -7,
+      "Recoil": 100
+    },
+    {
       "Category": "Weird",
       "Name": "Horizontal",
       "Magazine_Size": 20,
@@ -5162,6 +5341,26 @@
       "Movement_Speed": -2,
       "Range": -9,
       "Recoil": 52
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Beretta",
+      "Magazine_Size": 15,
+      "Reload_Time": 2.3,
+      "Damage": 3,
+      "Range": 2,
+      "Fire_Rate": -7,
+      "Spread": 11
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Luger",
+      "Magazine_Size": 8,
+      "Reload_Time": 2.2,
+      "Fire_Rate": 20,
+      "Recoil": -16,
+      "Range": -5,
+      "Spread": 22
     }
   ],
   "Stocks": [
@@ -5652,6 +5851,14 @@
       "Movement_Speed": 3,
       "Spread": -19,
       "Reload_Speed": 5
+    },
+    {
+      "Category": "Shotgun",
+      "Name": "Double Barrel",
+      "Movement_Speed": 6,
+      "Reload_Speed": -5,
+      "Range": -2,
+      "Recoil": 45
     },
     {
       "Category": "Weird",
