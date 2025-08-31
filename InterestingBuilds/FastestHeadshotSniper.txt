@@ -1,142 +1,130 @@
 ./Calculator -o InterestingBuilds/FastestHeadshotSniper.txt -i Sniper BR --speedMin 0 --damageMin 50 --spreadAimMax 0.15 --sort FIRERATE --rangeMin 300 --pelletMax 1 --magazineMin 5 
 Current top 10 guns are: 
-[ Barrel: Mustard, Magazine: Mega Soaker, Grip: M1Garand, Stock: AWM, Core: Arisaka ]
-damage: 52.2041 - 46.5139
-dropoffStuds: 364 - 637
-fireRate: 64.08
-adsSpread: 0.145109
-hipfireSpread: 11.6087
-reloadTime: 4.59
-magazineSize: 60
-health: -10
-recoilHipVertical: 66.528 - 75.768
-recoilAimVertical: 29.9376 - 34.0956
-movementSpeed: 10
-TTK: 0.93633 Seconds
+[ Barrel: M40, Magazine: M40, Grip: PPSh-41, Stock: FAL, Core: Winchester ]
+damage: 53.723 - 47.0512
+dropoffStuds: 312.807 - 580.927
+fireRate: 98.6808
+adsSpread: 0.131416
+hipfireSpread: 5.7823
+reloadTime: 5.175
+magazineSize: 10
+recoilHipVertical: 124.475 - 144.702
+recoilAimVertical: 62.2375 - 72.3511
+movementSpeed: 0.2
+TTK: 0.608021 Seconds
 
-[ Barrel: Mustard, Magazine: Mega Soaker, Grip: PPSh-41, Stock: AWM, Core: Arisaka ]
-damage: 52.2041 - 46.5139
-dropoffStuds: 364 - 637
-fireRate: 63.6
-adsSpread: 0.136446
-hipfireSpread: 10.9156
-reloadTime: 5.2785
-magazineSize: 60
-health: -10
-recoilHipVertical: 66.528 - 75.768
-recoilAimVertical: 29.9376 - 34.0956
-movementSpeed: 13
-TTK: 0.943396 Seconds
+[ Barrel: M40, Magazine: AWM, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Winchester ]
+damage: 55.3169 - 48.4558
+dropoffStuds: 308.733 - 573.361
+fireRate: 98.4045
+adsSpread: 0.142783
+hipfireSpread: 6.28244
+reloadTime: 5.75
+magazineSize: 5
+recoilHipVertical: 130.833 - 152.093
+recoilAimVertical: 65.4164 - 76.0466
+TTK: 0.609728 Seconds
 
-[ Barrel: M40, Magazine: Mega Soaker, Grip: Lewis, Stock: Fedorov, Core: Arisaka ]
-damage: 52.2041 - 47.9364
-dropoffStuds: 455 - 796.25
-fireRate: 62.6546
-adsSpread: 0.140343
-hipfireSpread: 11.2274
-reloadTime: 5.778
-magazineSize: 60
-health: -10
-recoilHipVertical: 75.704 - 86.2185
-recoilAimVertical: 34.0668 - 38.7983
-movementSpeed: 5
-TTK: 0.957631 Seconds
+[ Barrel: M40, Magazine: M40, Grip: FG-42, Stock: FAL, Core: Winchester ]
+damage: 53.723 - 47.0512
+dropoffStuds: 312.807 - 580.927
+fireRate: 95.914
+adsSpread: 0.141255
+hipfireSpread: 6.2152
+reloadTime: 4.635
+magazineSize: 10
+recoilHipVertical: 107.048 - 124.444
+recoilAimVertical: 53.5242 - 62.2219
+movementSpeed: 0.2
+TTK: 0.62556 Seconds
 
-[ Barrel: M40, Magazine: Mega Soaker, Grip: Lee Enfield, Stock: P90, Core: Arisaka ]
-damage: 52.2041 - 47.0829
-dropoffStuds: 364 - 637
-fireRate: 62.1773
-adsSpread: 0.14945
-hipfireSpread: 11.956
-reloadTime: 5.4
-magazineSize: 60
-health: -10
-recoilHipVertical: 64.3507 - 73.2883
-recoilAimVertical: 28.9578 - 32.9797
-movementSpeed: 14.8
-TTK: 0.964983 Seconds
+[ Barrel: M40, Magazine: AWM, Grip: M1897 Trench Shotgun, Stock: FG-42, Core: Winchester ]
+damage: 55.3169 - 48.4558
+dropoffStuds: 308.733 - 573.361
+fireRate: 94.9964
+adsSpread: 0.147358
+hipfireSpread: 6.48375
+reloadTime: 5.25
+magazineSize: 5
+recoilHipVertical: 121.181 - 140.873
+recoilAimVertical: 60.5906 - 70.4366
+movementSpeed: 3
+TTK: 0.631603 Seconds
 
-[ Barrel: Mustard, Magazine: Mega Soaker, Grip: Mas-38, Stock: AWM, Core: Arisaka ]
-damage: 52.2041 - 46.1155
-dropoffStuds: 338.52 - 592.41
-fireRate: 62.16
-adsSpread: 0.132114
-hipfireSpread: 10.5691
-reloadTime: 4.59
-magazineSize: 60
-health: -10
-recoilHipVertical: 66.528 - 75.768
-recoilAimVertical: 29.9376 - 34.0956
-movementSpeed: 14.2
-TTK: 0.965251 Seconds
+[ Barrel: M40, Magazine: M40, Grip: Auto-5, Stock: FAL, Core: Winchester ]
+damage: 52.3932 - 45.8866
+dropoffStuds: 312.807 - 580.927
+fireRate: 94.9918
+adsSpread: 0.124388
+hipfireSpread: 5.47309
+reloadTime: 4.5
+magazineSize: 10
+recoilHipVertical: 117.006 - 136.02
+recoilAimVertical: 58.5032 - 68.01
+movementSpeed: 0.2
+TTK: 0.631634 Seconds
 
-[ Barrel: Mustard, Magazine: Mega Soaker, Grip: FG-42, Stock: AWM, Core: Arisaka ]
-damage: 52.2041 - 46.5139
-dropoffStuds: 364 - 637
-fireRate: 62.04
-adsSpread: 0.145109
-hipfireSpread: 11.6087
-reloadTime: 4.7277
-magazineSize: 60
-health: -10
-recoilHipVertical: 58.6112 - 66.7516
-recoilAimVertical: 26.375 - 30.0382
-movementSpeed: 13
-TTK: 0.967118 Seconds
+[ Barrel: M40, Magazine: M40, Grip: Snake Sniper, Stock: Auto-5, Core: Winchester ]
+damage: 51.0634 - 44.9556
+dropoffStuds: 323.234 - 600.291
+fireRate: 94.9918
+adsSpread: 0.144748
+hipfireSpread: 6.36893
+reloadTime: 4.5
+magazineSize: 10
+recoilHipVertical: 116.815 - 135.797
+recoilAimVertical: 58.4075 - 67.8987
+movementSpeed: 1.5
+TTK: 0.631634 Seconds
 
-[ Barrel: M40, Magazine: Mega Soaker, Grip: M1Garand, Stock: Lee Enfield, Core: Arisaka ]
-damage: 52.2041 - 47.0829
-dropoffStuds: 364 - 637
-fireRate: 62.0294
-adsSpread: 0.147697
-hipfireSpread: 11.8158
-reloadTime: 5.4
-magazineSize: 60
-health: -10
-recoilHipVertical: 80.4384 - 91.6104
-recoilAimVertical: 36.1973 - 41.2247
-movementSpeed: 10
-TTK: 0.967283 Seconds
+[ Barrel: Dragunov, Magazine: M1891, Grip: PPSh-41, Stock: FAL, Core: Winchester ]
+damage: 52.5505 - 45.8379
+dropoffStuds: 307.002 - 570.147
+fireRate: 94.8154
+adsSpread: 0.128029
+hipfireSpread: 5.63328
+reloadTime: 4.025
+magazineSize: 6
+recoilHipVertical: 161.2 - 187.395
+recoilAimVertical: 80.6 - 93.6975
+movementSpeed: 0.2
+TTK: 0.632809 Seconds
 
-[ Barrel: M40, Magazine: Mega Soaker, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Arisaka ]
-damage: 52.2041 - 47.9364
-dropoffStuds: 455 - 796.25
-fireRate: 62.0125
-adsSpread: 0.144642
-hipfireSpread: 11.5714
-reloadTime: 6.21
-magazineSize: 60
-health: -10
-recoilHipVertical: 70.0963 - 79.8319
-recoilAimVertical: 31.5433 - 35.9244
-movementSpeed: 13
-TTK: 0.967546 Seconds
+[ Barrel: M1891, Magazine: M1891, Grip: PPSh-41, Stock: FAL, Core: Winchester ]
+damage: 52.5505 - 45.6721
+dropoffStuds: 301.842 - 560.565
+fireRate: 94.8154
+adsSpread: 0.120075
+hipfireSpread: 5.28329
+reloadTime: 4.83
+magazineSize: 6
+recoilHipVertical: 130 - 151.125
+recoilAimVertical: 65 - 75.5625
+movementSpeed: 0.2
+TTK: 0.632809 Seconds
 
-[ Barrel: M40, Magazine: Mega Soaker, Grip: Lee Enfield, Stock: STG-44, Core: Arisaka ]
-damage: 52.2041 - 47.0829
-dropoffStuds: 364 - 637
-fireRate: 61.9951
-adsSpread: 0.148813
-hipfireSpread: 11.9051
-reloadTime: 5.616
-magazineSize: 60
-health: -10
-recoilHipVertical: 57.456 - 65.436
-recoilAimVertical: 25.8552 - 29.4462
-movementSpeed: 13
-TTK: 0.967818 Seconds
+[ Barrel: M40, Magazine: M40, Grip: Snake Sniper, Stock: P90, Core: Winchester ]
+damage: 53.723 - 47.297
+dropoffStuds: 323.234 - 600.291
+fireRate: 94.8073
+adsSpread: 0.142144
+hipfireSpread: 6.25435
+reloadTime: 4.5
+magazineSize: 10
+recoilHipVertical: 130.833 - 152.093
+recoilAimVertical: 65.4164 - 76.0466
+movementSpeed: 0.6
+TTK: 0.632863 Seconds
 
-[ Barrel: Mustard, Magazine: Mega Soaker, Grip: Controller, Stock: AWM, Core: Arisaka ]
-damage: 52.2041 - 46.5139
-dropoffStuds: 364 - 637
-fireRate: 61.8
-adsSpread: 0.127782
-hipfireSpread: 10.2226
-reloadTime: 4.59
-magazineSize: 60
-health: -10
-recoilHipVertical: 75.8419 - 86.3755
-recoilAimVertical: 34.1289 - 38.869
-movementSpeed: 11
-TTK: 0.970874 Seconds
+[ Barrel: M40, Magazine: AWM, Grip: Auto-5, Stock: M1897 Trench Shotgun, Core: Winchester ]
+damage: 53.9476 - 47.2564
+dropoffStuds: 308.733 - 573.361
+fireRate: 94.7258
+adsSpread: 0.135147
+hipfireSpread: 5.94648
+reloadTime: 5
+magazineSize: 5
+recoilHipVertical: 122.983 - 142.968
+recoilAimVertical: 61.4914 - 71.4838
+TTK: 0.633407 Seconds
 

@@ -52,19 +52,6 @@ recoilAimVertical: 0.2976 - 0.5952
 movementSpeed: 5
 TTK: 0.316963 Seconds
 
-[ Barrel: Type 2a Nambu, Magazine: Tommy, Grip: PPSh-41, Stock: None, Core: Luger ]
-damage: 20.4934 - 10.2467
-dropoffStuds: 40 - 100
-fireRate: 752.5
-adsSpread: 0.447321
-hipfireSpread: 0.447321
-reloadTime: 3.45
-magazineSize: 20
-recoilHipVertical: 1 - 2
-recoilAimVertical: 0.3 - 0.6
-movementSpeed: 5.1
-TTK: 0.318937 Seconds
-
 [ Barrel: MP 40, Magazine: Tommy, Grip: PPSh-41, Stock: None, Core: Luger ]
 damage: 20.0771 - 10.0385
 dropoffStuds: 40 - 100
@@ -76,6 +63,19 @@ magazineSize: 20
 recoilHipVertical: 1.2 - 2.4
 recoilAimVertical: 0.36 - 0.72
 movementSpeed: 5.25
+TTK: 0.318937 Seconds
+
+[ Barrel: Type 2a Nambu, Magazine: Tommy, Grip: PPSh-41, Stock: None, Core: Luger ]
+damage: 20.4934 - 10.2467
+dropoffStuds: 40 - 100
+fireRate: 752.5
+adsSpread: 0.447321
+hipfireSpread: 0.447321
+reloadTime: 3.45
+magazineSize: 20
+recoilHipVertical: 1 - 2
+recoilAimVertical: 0.3 - 0.6
+movementSpeed: 5.1
 TTK: 0.318937 Seconds
 
 [ Barrel: Dominus, Magazine: SKS, Grip: M1897 Trench Shotgun, Stock: None, Core: Luger ]

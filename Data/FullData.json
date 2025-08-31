@@ -824,6 +824,14 @@
       "Recoil": 38
     },
     {
+      "Category": "BR",
+      "Name": "Winchester",
+      "Fire_Rate": 8,
+      "Movement_Speed": 2,
+      "Reload_Speed": 4,
+      "Spread": 14
+    },
+    {
       "Category": "Sidearm",
       "Name": "M1911",
       "Damage": 18,
@@ -868,6 +876,22 @@
       "Spread": -11,
       "Fire_Rate": -5,
       "Recoil": 6
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Makarov",
+      "Movement_Speed": 5,
+      "Recoil": -6,
+      "Damage": -3,
+      "Range": -3
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Type 14",
+      "Damage": 13,
+      "Movement_Speed": 8,
+      "Fire_Rate": -10,
+      "Health": -12
     }
   ],
   "Cores": [
@@ -3598,6 +3622,41 @@
       ]
     },
     {
+      "Category": "BR",
+      "Name": "Winchester",
+      "Damage": [
+        50,
+        40
+      ],
+      "Dropoff_Studs": [
+        210,
+        390
+      ],
+      "Fire_Rate": 85,
+      "Hipfire_Spread": 11,
+      "ADS_Spread": 0.25,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 210,
+      "Suppression": 0.5,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        80,
+        93
+      ],
+      "Recoil_Aim_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Aim_Vertical": [
+        40,
+        46.5
+      ]
+    },
+    {
       "Category": "Sidearm",
       "Name": "M1911",
       "Damage": [
@@ -3803,6 +3862,75 @@
       "Recoil_Aim_Vertical": [
         0.3,
         0.6
+      ]
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Makarov",
+      "Damage": [
+        21,
+        14.7
+      ],
+      "Dropoff_Studs": [
+        35,
+        100
+      ],
+      "Fire_Rate": 300,
+      "Hipfire_Spread": 0.575,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.35,
+      "Detection_Radius": 40,
+      "Equip_Time": 0.2,
+      "Recoil_Hip_Horizontal": [
+        -4,
+        4
+      ],
+      "Recoil_Hip_Vertical": [
+        5,
+        11
+      ],
+      "Recoil_Aim_Horizontal": [
+        -0.8,
+        0.8
+      ],
+      "Recoil_Aim_Vertical": [
+        1,
+        2.2
+      ]
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Type 14",
+      "Damage": [
+        25.5,
+        12.8
+      ],
+      "Dropoff_Studs": [
+        35,
+        80
+      ],
+      "Fire_Rate": 450,
+      "Hipfire_Spread": 0.7,
+      "ADS_Spread": 0.25,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 60,
+      "Movement_Speed_Modifier": -10,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -4,
+        4
+      ],
+      "Recoil_Hip_Vertical": [
+        6,
+        14
+      ],
+      "Recoil_Aim_Horizontal": [
+        -0.8,
+        0.8
+      ],
+      "Recoil_Aim_Vertical": [
+        1.2,
+        2.8
       ]
     }
   ],
@@ -4383,6 +4511,14 @@
       "Recoil": 19
     },
     {
+      "Category": "BR",
+      "Name": "Winchester",
+      "Fire_Rate": 3,
+      "Movement_Speed": 2,
+      "Recoil": 19,
+      "Reload_Speed": 6
+    },
+    {
       "Category": "Sidearm",
       "Name": "M1911",
       "Recoil": -19,
@@ -4421,6 +4557,19 @@
       "Movement_Speed": 6,
       "Recoil": -5,
       "Range": -12
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Makarov",
+      "Damage": 2,
+      "Spread": 12
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Type 14",
+      "Reload_Speed": -9,
+      "Range": -4,
+      "Recoil": 11
     }
   ],
   "Magazines": [
@@ -5304,6 +5453,17 @@
       "Recoil": 21
     },
     {
+      "Category": "BR",
+      "Name": "Winchester",
+      "Magazine_Size": 7,
+      "Reload_Time": 4.5,
+      "Damage": 7,
+      "Fire_Rate": 6,
+      "Movement_Speed": 2,
+      "Recoil": -28,
+      "Spread": 30
+    },
+    {
       "Category": "Sidearm",
       "Name": "M1911",
       "Magazine_Size": 7,
@@ -5361,6 +5521,25 @@
       "Recoil": -16,
       "Range": -5,
       "Spread": 22
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Makarov",
+      "Magazine_Size": 8,
+      "Reload_Time": 1.5,
+      "Damage": 5,
+      "Movement_Speed": 2,
+      "Recoil": 19
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Type 14",
+      "Magazine_Size": 8,
+      "Reload_Time": 1.8,
+      "Damage": 13,
+      "Fire_Rate": 14,
+      "Movement_Speed": 5,
+      "Recoil": 4
     }
   ],
   "Stocks": [
@@ -5988,6 +6167,13 @@
       "Recoil": -23,
       "Movement_Speed": -7,
       "Spread": 6
+    },
+    {
+      "Category": "BR",
+      "Name": "Winchester",
+      "Movement_Speed": 2,
+      "Spread": -14,
+      "Recoil": 23
     }
   ]
 }

@@ -647,12 +647,6 @@ Fire_Rate: -2%
 Movement_Speed: -3%
 Recoil: +38%
 ---
-Barrel: Winchester
-Fire_Rate: +8%
-Movement_Speed: +2%
-Reload_Speed: +4%
-Spread: +14%
----
 
 Category: Sidearm Barrels
 ---
@@ -689,16 +683,4 @@ Range: +2.5%
 Spread: -11%
 Fire_Rate: -5%
 Recoil: +6%
----
-Barrel: Makarov
-Movement_Speed: +5%
-Recoil: -6%
-Damage: -3%
-Range: -3%
----
-Barrel: Type 14
-Damage: +13%
-Movement_Speed: +8%
-Fire_Rate: -10%
-Health: -12%
 ---

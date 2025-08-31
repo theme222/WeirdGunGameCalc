@@ -435,12 +435,6 @@ Reload_Speed: -9%
 Movement_Speed: -2%
 Recoil: +19%
 ---
-Grip: Winchester
-Fire_Rate: +3%
-Movement_Speed: +2%
-Recoil: +19%
-Reload_Speed: +6%
----
 
 Category: Sidearm Grips
 ---
@@ -471,13 +465,4 @@ Grip: Luger
 Movement_Speed: +6%
 Recoil: -5%
 Range: -12%
----
-Grip: Makarov
-Damage: +2%
-Spread: +12%
----
-Grip: Type 14
-Reload_Speed: -9%
-Range: -4%
-Recoil: +11%
 ---

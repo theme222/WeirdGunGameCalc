@@ -727,15 +727,6 @@ Detection_Radius: +10%
 Movement_Speed: -2%
 Recoil: +21%
 ---
-Magazine: Winchester
-Magazine_Size: 7
-Reload_Time: 4.5
-Damage: +7%
-Fire_Rate: +6%
-Movement_Speed: +2%
-Recoil: -28%
-Spread: +30%
----
 
 Category: Sidearm Magazines
 ---
@@ -785,19 +776,4 @@ Fire_Rate: +20%
 Recoil: -16%
 Range: -5%
 Spread: +22%
----
-Magazine: Makarov
-Magazine_Size: 8
-Reload_Time: 1.5
-Damage: +5%
-Movement_Speed: +2%
-Recoil: +19%
----
-Magazine: Type 14
-Magazine_Size: 8
-Reload_Time: 1.8
-Damage: +13%
-Fire_Rate: +14%
-Movement_Speed: +5%
-Recoil: +4%
 ---

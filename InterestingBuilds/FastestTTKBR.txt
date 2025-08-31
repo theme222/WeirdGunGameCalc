@@ -42,62 +42,6 @@ recoilAimVertical: 6.5415 - 7.19565
 movementSpeed: -5
 TTK: 0.159792 Seconds
 
-[ Barrel: M110, Magazine: BAR, Grip: APS, Stock: Lewis, Core: SKS ]
-damage: 50.361 - 35.2904
-dropoffStuds: 165.506 - 509.25
-fireRate: 363.375
-adsSpread: 0.314985
-hipfireSpread: 6.2997
-reloadTime: 4.5792
-magazineSize: 20
-health: 5
-recoilHipVertical: 13.607 - 14.9677
-recoilAimVertical: 6.8035 - 7.48385
-movementSpeed: -8
-TTK: 0.165119 Seconds
-
-[ Barrel: M110, Magazine: BAR, Grip: APS, Stock: VSSR, Core: SKS ]
-damage: 50.361 - 35.5466
-dropoffStuds: 168.32 - 517.907
-fireRate: 363.375
-adsSpread: 0.332731
-hipfireSpread: 6.65461
-reloadTime: 4.24
-magazineSize: 20
-health: 5
-recoilHipVertical: 13.3034 - 14.6338
-recoilAimVertical: 6.65172 - 7.31689
-movementSpeed: -2.5
-TTK: 0.165119 Seconds
-
-[ Barrel: M110, Magazine: BAR, Grip: APS, Stock: Plunger, Core: SKS ]
-damage: 50.361 - 35.2904
-dropoffStuds: 165.506 - 509.25
-fireRate: 363.375
-adsSpread: 0.341603
-hipfireSpread: 6.83207
-reloadTime: 5.088
-magazineSize: 20
-health: 5
-recoilHipVertical: 13.3927 - 14.732
-recoilAimVertical: 6.69636 - 7.366
-movementSpeed: -0.5
-TTK: 0.165119 Seconds
-
-[ Barrel: M110, Magazine: BAR, Grip: APS, Stock: Snake Sniper, Core: SKS ]
-damage: 50.361 - 35.2904
-dropoffStuds: 165.506 - 509.25
-fireRate: 363.375
-adsSpread: 0.297239
-hipfireSpread: 5.94479
-reloadTime: 4.4944
-magazineSize: 20
-health: 5
-recoilHipVertical: 11.7856 - 12.9642
-recoilAimVertical: 5.8928 - 6.48208
-movementSpeed: -9
-TTK: 0.165119 Seconds
-
 [ Barrel: M110, Magazine: BAR, Grip: APS, Stock: M1919 .30 Cal, Core: SKS ]
 damage: 50.361 - 35.2904
 dropoffStuds: 165.506 - 509.25
@@ -110,6 +54,20 @@ health: 5
 recoilHipVertical: 12.9999 - 14.2999
 recoilAimVertical: 6.49993 - 7.14993
 movementSpeed: -7.5
+TTK: 0.165119 Seconds
+
+[ Barrel: M110, Magazine: BAR, Grip: APS, Stock: Lewis, Core: SKS ]
+damage: 50.361 - 35.2904
+dropoffStuds: 165.506 - 509.25
+fireRate: 363.375
+adsSpread: 0.314985
+hipfireSpread: 6.2997
+reloadTime: 4.5792
+magazineSize: 20
+health: 5
+recoilHipVertical: 13.607 - 14.9677
+recoilAimVertical: 6.8035 - 7.48385
+movementSpeed: -8
 TTK: 0.165119 Seconds
 
 [ Barrel: M110, Magazine: BAR, Grip: Circuit Judge, Stock: Snake Sniper, Core: SKS ]
@@ -126,17 +84,59 @@ recoilAimVertical: 6.4614 - 7.10754
 movementSpeed: -9
 TTK: 0.165119 Seconds
 
-[ Barrel: VSSR, Magazine: BAR, Grip: Circuit Judge, Stock: Dragunov, Core: SKS ]
-damage: 50.3857 - 36.1681
-dropoffStuds: 174.774 - 537.766
-fireRate: 357.39
-adsSpread: 0.303969
-hipfireSpread: 6.07939
-reloadTime: 4.84
+[ Barrel: M110, Magazine: BAR, Grip: APS, Stock: Snake Sniper, Core: SKS ]
+damage: 50.361 - 35.2904
+dropoffStuds: 165.506 - 509.25
+fireRate: 363.375
+adsSpread: 0.297239
+hipfireSpread: 5.94479
+reloadTime: 4.4944
 magazineSize: 20
 health: 5
-recoilHipVertical: 11.3995 - 12.5395
-recoilAimVertical: 5.69976 - 6.26974
-movementSpeed: -9.5
-TTK: 0.167884 Seconds
+recoilHipVertical: 11.7856 - 12.9642
+recoilAimVertical: 5.8928 - 6.48208
+movementSpeed: -9
+TTK: 0.165119 Seconds
+
+[ Barrel: M110, Magazine: BAR, Grip: APS, Stock: Plunger, Core: SKS ]
+damage: 50.361 - 35.2904
+dropoffStuds: 165.506 - 509.25
+fireRate: 363.375
+adsSpread: 0.341603
+hipfireSpread: 6.83207
+reloadTime: 5.088
+magazineSize: 20
+health: 5
+recoilHipVertical: 13.3927 - 14.732
+recoilAimVertical: 6.69636 - 7.366
+movementSpeed: -0.5
+TTK: 0.165119 Seconds
+
+[ Barrel: M110, Magazine: BAR, Grip: Makarov, Stock: Snake Sniper, Core: SKS ]
+damage: 50.2137 - 35.1873
+dropoffStuds: 165.506 - 509.25
+fireRate: 363.375
+adsSpread: 0.332731
+hipfireSpread: 6.65461
+reloadTime: 4.24
+magazineSize: 20
+health: 5
+recoilHipVertical: 12.9228 - 14.2151
+recoilAimVertical: 6.4614 - 7.10754
+movementSpeed: -9
+TTK: 0.165119 Seconds
+
+[ Barrel: M110, Magazine: BAR, Grip: APS, Stock: VSSR, Core: SKS ]
+damage: 50.361 - 35.5466
+dropoffStuds: 168.32 - 517.907
+fireRate: 363.375
+adsSpread: 0.332731
+hipfireSpread: 6.65461
+reloadTime: 4.24
+magazineSize: 20
+health: 5
+recoilHipVertical: 13.3034 - 14.6338
+recoilAimVertical: 6.65172 - 7.31689
+movementSpeed: -2.5
+TTK: 0.165119 Seconds
 

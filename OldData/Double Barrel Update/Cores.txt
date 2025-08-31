@@ -1219,21 +1219,6 @@ Recoil_Hip_Vertical: 92 - 108
 Recoil_Aim_Horizontal: -32.3 - 32.3
 Recoil_Aim_Vertical: 78.2 - 91.8
 ---
-Core: Winchester
-Damage: 50 > 40
-Dropoff_Studs: 210 > 390
-Fire_Rate: 85
-Hipfire_Spread: 11
-ADS_Spread: 0.25
-Time_To_Aim: 0.5
-Detection_Radius: 210
-Suppression: 0.5
-Equip_Time: 0.7
-Recoil_Hip_Horizontal: -20 - 20
-Recoil_Hip_Vertical: 80 - 93
-Recoil_Aim_Horizontal: -10 - 10
-Recoil_Aim_Vertical: 40 - 46.5
----
 
 Category: Sidearm
 ---
@@ -1324,33 +1309,4 @@ Recoil_Hip_Horizontal: -4 - 4
 Recoil_Hip_Vertical: 1 - 2
 Recoil_Aim_Horizontal: -1.2 - 1.2
 Recoil_Aim_Vertical: 0.3 - 0.6
----
-Core: Makarov
-Damage: 21 > 14.7
-Dropoff_Studs: 35 > 100
-Fire_Rate: 300
-Hipfire_Spread: 0.575
-ADS_Spread: 0.45
-Time_To_Aim: 0.35
-Detection_Radius: 40
-Equip_Time: 0.2
-Recoil_Hip_Horizontal: -4 - 4
-Recoil_Hip_Vertical: 5 - 11
-Recoil_Aim_Horizontal: -0.8 - 0.8
-Recoil_Aim_Vertical: 1 - 2.2
----
-Core: Type 14
-Damage: 25.5 > 12.8
-Dropoff_Studs: 35 > 80
-Fire_Rate: 450
-Hipfire_Spread: 0.7
-ADS_Spread: 0.25
-Time_To_Aim: 0.3
-Detection_Radius: 60
-Movement_Speed_Modifier: -10%
-Equip_Time: 0.7
-Recoil_Hip_Horizontal: -4 - 4
-Recoil_Hip_Vertical: 6 - 14
-Recoil_Aim_Horizontal: -0.8 - 0.8
-Recoil_Aim_Vertical: 1.2 - 2.8
 ---
