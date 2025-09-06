@@ -6,7 +6,8 @@ The list of known keys are as follows:
     'Magazine_Size', 'Fire_Rate', 'ADS_Spread', 'Health', 'Damage', 'Suppression',
     'Dropoff_Studs', 'Category', 'Recoil_Aim_Vertical', 'Recoil_Hip_Horizontal',
     'Spread', 'Time_To_Aim', 'Hipfire_Spread', 'Recoil_Aim_Horizontal',
-    'Movement_Speed_Modifier', 'Name', 'Movement_Speed', 'Reload_Time', 'Pellets', 'Detection_Radius','Range', 'Burst', 'Falloff_Factor', 'Equip_Time'
+    'Movement_Speed_Modifier', 'Name', 'Movement_Speed', 'Reload_Time', 'Pellets', 
+    'Detection_Radius', 'Range', 'Burst', 'Falloff_Factor', 'Equip_Time'
 }
 Remember to capitalize Every word separated by an _ even if the image says otherwise (THIS IS ALWAYS THE CASE FOR KEYS ONLY AND HAS NO EXCEPTIONS).
 2. All values must be after the keys and may include a symbol (+, -) and may include a %. Do NOT include any thing else like "°" or the "s" (seconds) or "rpm" (rounds per minute) etc.
@@ -18,11 +19,13 @@ Remember to capitalize Every word separated by an _ even if the image says other
 8. There are a total of 5 categories: Barrel, Magazine, Grip, Stock, Core.
 9. Parts in the magazine category will contain a stat called "Magazine". Replace this with "Magazine_Size" to not conflict with the 7th rule.
 10. Parts in the core category will contain a stat called "Movement_Speed". Replace this with "Movement_Speed_Modifier".
-11. If the damage stat is in a Number x Number format please output the result of the numbers multiplied (Example Input: "11x4 > 5x4". Output: "44 > 20"). This only occurs on a core part and exists if the core has a pellet stat. This is not always the case however, so for regular guns leave the damage stat as is.
+11. If the damage stat is in a Number x Number format please output the result of the numbers multiplied (Example Input: "11x4 > 5x4". Output: "44 > 20"). This only occurs on a core part and exists if the core has a pellet stat. This is not always the case however, so for any other gun leave the damage stat as is.
 12. Parts in the magazine category will contain a stat called "Reload". Replace this with "Reload_Time". Parts in any other category will also contain a stat called "Reload" but instead replace this with "Reload_Speed"
 13. Parts in the core category will contain a stat called "Spread". Replace this with "Hipfire_Spread".
 
-This is the following output for a gun called "M1919a6 Browning" use this as a baseline for what your output should be. Any following images should follow the rules stated above.
+REMEMBER DO NOT GUESS DO NOT HALLUCINATE AND DO NOT MESS UP. ALL DATA SHOULD ONLY COME FROM THE TEXT IN THE IMAGE.
+
+This is the following output for a gun core called "M1919a6 Browning" use this as a baseline for what your output should be. Any following images should follow the rules stated above.
 
 ---
 Core: M1919a6 Browning
@@ -41,5 +44,3 @@ Recoil_Hip_Vertical: 44 - 55
 Recoil_Aim_Horizontal: -5 - 5
 Recoil_Aim_Vertical: 22 - 27.5
 ---
-
-REMEMBER DO NOT GUESS DO NOT HALLUCINATE AND DO NOT MESS UP. ALL DATA SHOULD ONLY COME FROM THE TEXT IN THE IMAGE.
