@@ -65,19 +65,6 @@ recoilHipVertical: 119.7 - 141.12
 recoilAimVertical: 77.742 - 91.728
 movementSpeed: 3.9
 
-[ Barrel: Second Amendment, Magazine: JSG12, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
-damage: 182.29 - 9.26036
-dropoffStuds: 47.85 - 95.7
-pellets: 12
-fireRate: 65.835
-adsSpread: 1.91381
-hipfireSpread: 1.91381
-reloadTime: 8.25
-magazineSize: 15
-recoilHipVertical: 121.837 - 143.64
-recoilAimVertical: 79.1302 - 93.366
-movementSpeed: 0.5
-
 [ Barrel: Second Amendment, Magazine: AUG, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
 damage: 189.336 - -8.35349
 dropoffStuds: 43.065 - 86.13
@@ -91,18 +78,18 @@ recoilHipVertical: 121.837 - 143.64
 recoilAimVertical: 79.1302 - 93.366
 movementSpeed: 2.25
 
-[ Barrel: Second Amendment, Magazine: UNP-40, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
-damage: 205.924 - 14.2725
-dropoffStuds: 48.7831 - 97.5662
+[ Barrel: Second Amendment, Magazine: JSG12, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
+damage: 182.29 - 9.26036
+dropoffStuds: 47.85 - 95.7
 pellets: 12
-fireRate: 59.2515
-adsSpread: 1.96101
-hipfireSpread: 1.96101
-reloadTime: 2.2
-magazineSize: 30
+fireRate: 65.835
+adsSpread: 1.91381
+hipfireSpread: 1.91381
+reloadTime: 8.25
+magazineSize: 15
 recoilHipVertical: 121.837 - 143.64
 recoilAimVertical: 79.1302 - 93.366
-movementSpeed: 1.475
+movementSpeed: 0.5
 
 [ Barrel: Second Amendment, Magazine: STG-44, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
 damage: 202.096 - 10.2665
@@ -116,6 +103,19 @@ magazineSize: 30
 recoilHipVertical: 121.837 - 143.64
 recoilAimVertical: 79.1302 - 93.366
 movementSpeed: 0.5
+
+[ Barrel: Second Amendment, Magazine: UNP-40, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
+damage: 205.924 - 14.2725
+dropoffStuds: 48.7831 - 97.5662
+pellets: 12
+fireRate: 59.2515
+adsSpread: 1.96101
+hipfireSpread: 1.96101
+reloadTime: 2.2
+magazineSize: 30
+recoilHipVertical: 121.837 - 143.64
+recoilAimVertical: 79.1302 - 93.366
+movementSpeed: 1.475
 
 [ Barrel: Second Amendment, Magazine: M1Garand, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
 damage: 213.398 - 26.6401

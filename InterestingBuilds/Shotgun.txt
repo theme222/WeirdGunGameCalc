@@ -65,19 +65,6 @@ recoilHipVertical: 100.552 - 124.433
 recoilAimVertical: 35.1933 - 43.4889
 movementSpeed: 2.9
 
-[ Barrel: Auto-5, Magazine: M40, Grip: Auto-5, Stock: P90, Core: Circuit Judge ]
-damage: 141.22 - 35.8239
-dropoffStuds: 86.955 - 143.22
-pellets: 8
-fireRate: 73.0409
-adsSpread: 1.62659
-hipfireSpread: 4.39618
-reloadTime: 4.5
-magazineSize: 10
-recoilHipVertical: 90.72 - 112.266
-recoilAimVertical: 31.752 - 39.2364
-movementSpeed: 1.95
-
 [ Barrel: Kriss Vector, Magazine: M40, Grip: Auto-5, Stock: P90, Core: Circuit Judge ]
 damage: 140.516 - 32.705
 dropoffStuds: 84.15 - 138.6
@@ -113,6 +100,19 @@ adsSpread: 1.71541
 hipfireSpread: 4.63624
 reloadTime: 4.5
 magazineSize: 20
+recoilHipVertical: 90.72 - 112.266
+recoilAimVertical: 31.752 - 39.2364
+movementSpeed: 1.95
+
+[ Barrel: Auto-5, Magazine: M40, Grip: Auto-5, Stock: P90, Core: Circuit Judge ]
+damage: 141.22 - 35.8239
+dropoffStuds: 86.955 - 143.22
+pellets: 8
+fireRate: 73.0409
+adsSpread: 1.62659
+hipfireSpread: 4.39618
+reloadTime: 4.5
+magazineSize: 10
 recoilHipVertical: 90.72 - 112.266
 recoilAimVertical: 31.752 - 39.2364
 movementSpeed: 1.95

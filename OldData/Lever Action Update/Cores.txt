@@ -439,22 +439,6 @@ Recoil_Hip_Vertical: 85 - 100
 Recoil_Aim_Horizontal: -10.4 - 10.4
 Recoil_Aim_Vertical: 44.2 - 65
 ---
-Core: Mosin
-Damage: 66 > 41.3
-Dropoff_Studs: 340 > 525
-Fire_Rate: 21
-Hipfire_Spread: 11
-ADS_Spread: 0.275
-Time_To_Aim: 0.85
-Detection_Radius: 240
-Movement_Speed_Modifier: -4%
-Suppression: 0.8
-Equip_Time: 0.9
-Recoil_Hip_Horizontal: -25 - 25
-Recoil_Hip_Vertical: 80 - 93
-Recoil_Aim_Horizontal: -12.5 - 12.5
-Recoil_Aim_Vertical: 40 - 46.5
----
 
 Category: SMG
 ---
@@ -853,23 +837,6 @@ Recoil_Hip_Vertical: 70 - 97
 Recoil_Aim_Horizontal: -9 - 9
 Recoil_Aim_Vertical: 52.5 - 72.8
 ---
-Core: M249 SAW
-Damage: 16 > 10.4
-Dropoff_Studs: 165 > 320
-Fire_Rate: 800
-Hipfire_Spread: 6.5
-ADS_Spread: 0.75
-Time_To_Aim: 1.2
-Detection_Radius: 160
-Movement_Speed_Modifier: -6.5%
-Suppression: 0.9
-Health: +17%
-Equip_Time: 1
-Recoil_Hip_Horizontal: -11 - 11
-Recoil_Hip_Vertical: 45 - 52
-Recoil_Aim_Horizontal: -4.1 - 4.1
-Recoil_Aim_Vertical: 16.7 - 19.2
----
 
 Category: Shotgun
 ---
@@ -878,19 +845,19 @@ Damage: 120 > 10
 Dropoff_Studs: 75 > 145
 Falloff_Factor: -0.85
 Pellets: 10
-Fire_Rate: 50
+Fire_Rate: 60
 Hipfire_Spread: 7
 ADS_Spread: 1.8
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 100
 Movement_Speed_Modifier: +2%
 Suppression: 0.5
-Health: +6%
+Health: +4%
 Equip_Time: 0.7
 Recoil_Hip_Horizontal: -20 - 20
 Recoil_Hip_Vertical: 20 - 30
-Recoil_Aim_Horizontal: -12 - 12
-Recoil_Aim_Vertical: 12 - 18
+Recoil_Aim_Horizontal: -8 - 8
+Recoil_Aim_Vertical: 8 - 12
 ---
 Core: M1897 Trench Shotgun
 Damage: 128 > 16
@@ -1011,7 +978,7 @@ Recoil_Aim_Horizontal: -15.6 - 15.6
 Recoil_Aim_Vertical: 61.7 - 72.8
 ---
 Core: Double Barrel
-Damage: 110 > 10
+Damage: 100 > 10
 Dropoff_Studs: 60 > 160
 Pellets: 10
 Fire_Rate: 60
@@ -1022,9 +989,9 @@ Detection_Radius: 250
 Burst: 2
 Suppression: 0.5
 Recoil_Hip_Horizontal: -25 - 25
-Recoil_Hip_Vertical: 40 - 57
-Recoil_Aim_Horizontal: -5 - 5
-Recoil_Aim_Vertical: 8 - 11.4
+Recoil_Hip_Vertical: 70 - 82
+Recoil_Aim_Horizontal: -15 - 15
+Recoil_Aim_Vertical: 42 - 49.2
 ---
 
 Category: Weird
@@ -1386,19 +1353,4 @@ Recoil_Hip_Horizontal: -4 - 4
 Recoil_Hip_Vertical: 6 - 14
 Recoil_Aim_Horizontal: -0.8 - 0.8
 Recoil_Aim_Vertical: 1.2 - 2.8
----
-Core: Obreez
-Damage: 55 > 33
-Dropoff_Studs: 50 > 110
-Fire_Rate: 47
-Hipfire_Spread: 5.5
-ADS_Spread: 0.6
-Time_To_Aim: 1
-Detection_Radius: 80
-Suppression: 1
-Equip_Time: 0.8
-Recoil_Hip_Horizontal: -9 - 9
-Recoil_Hip_Vertical: 60 - 72
-Recoil_Aim_Horizontal: -3.6 - 3.6
-Recoil_Aim_Vertical: 24 - 28.8
 ---

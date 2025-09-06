@@ -150,11 +150,6 @@ Recoil: -30%
 Movement_Speed: -2%
 Spread: +12%
 ---
-Stock: Mosin
-Fire_Rate: +2%
-Recoil: +24%
-Spread: +24%
----
 
 Category: SMG Stocks
 ---
@@ -308,12 +303,6 @@ Movement_Speed: -7.5%
 Reload_Speed: +8%
 Spread: +6%
 ---
-Stock: M249 SAW
-Health: +5%
-Recoil: -11%
-Movement_Speed: -4.5%
-Spread: +16%
----
 
 Category: Shotgun Stocks
 ---
@@ -398,9 +387,9 @@ Spread: -10%
 Recoil: +15%
 ---
 Stock: Plunger
-Fire_Rate: +4%
-Movement_Speed: -2%
-Range: -2%
+Recoil: -25%
+Reload_Speed: +20%
+Spread: +15%
 ---
 Stock: Willy Fischy
 Recoil: -10%

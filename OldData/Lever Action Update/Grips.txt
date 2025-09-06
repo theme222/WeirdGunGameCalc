@@ -150,11 +150,6 @@ Recoil: -30%
 Movement_Speed: -2%
 Spread: +12%
 ---
-Grip: Mosin
-Movement_Speed: +3%
-Range: +3%
-Fire_Rate: -5%
----
 
 Category: SMG Grips
 ---
@@ -299,11 +294,6 @@ Movement_Speed: -6%
 Recoil: +44%
 Spread: +14%
 ---
-Grip: M249 SAW
-Spread: -16%
-Movement_Speed: -4%
-Recoil: +7%
----
 
 Category: Shotgun Grips
 ---
@@ -393,14 +383,14 @@ Recoil: +14%
 ---
 Grip: Mega Soaker
 Movement_Speed: +2%
-Recoil: -24%
-Spread: +12%
+Recoil: -16%
+Spread: +15%
 ---
 Grip: Lamp Shade
 Health: +20%
 Detection_Radius: +100%
-Recoil: +50%
-Spread: +30%
+Recoil: +10%
+Spread: +10%
 ---
 
 Category: BR Grips
@@ -490,17 +480,4 @@ Grip: Type 14
 Reload_Speed: -9%
 Range: -4%
 Recoil: +11%
----
-Grip: P08 Artillery
-Recoil: -14%
-Spread: -17%
-Equip_Time: +200%
-Movement_Speed: -2%
-Reload_Speed: +8%
----
-Grip: Obreez
-Recoil: -25%
-Spread: -10%
-Movement_Speed: -4%
-Reload_Speed: +8%
 ---

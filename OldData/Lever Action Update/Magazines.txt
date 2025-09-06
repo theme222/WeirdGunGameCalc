@@ -243,14 +243,6 @@ Movement_Speed: -6%
 Range: -12%
 Recoil: +86%
 ---
-Magazine: Mosin
-Magazine_Size: 5
-Reload_Time: 3.6
-Damage: +20%
-Fire_Rate: -10%
-Movement_Speed: -2%
-Range: -3%
----
 
 Category: SMG Magazines
 ---
@@ -470,15 +462,6 @@ Damage: +4%
 Fire_Rate: +7%
 Movement_Speed: -3%
 Recoil: +18%
----
-Magazine: M249 SAW
-Magazine_Size: 100
-Reload_Time: 9s
-Fire_Rate: +5%
-Equip_Time: +40%
-Movement_Speed: -9%
-Recoil: +22%
-Spread: +18%
 ---
 
 Category: Shotgun Magazines
@@ -816,23 +799,5 @@ Reload_Time: 1.8
 Damage: +13%
 Fire_Rate: +14%
 Movement_Speed: +5%
-Health: -13%
-Recoil: +14%
----
-Magazine: P08 Artillery
-Magazine_Size: 32
-Reload_Time: 3
-Fire_Rate: +8%
-Movement_Speed: -2%
-Range: -4%
-Recoil: +12%
----
-Magazine: Obreez
-Magazine_Size: 5
-Reload_Time: 2
-Damage: +5%
-Range: +7%
-Fire_Rate: -10%
-Movement_Speed: -2%
-Recoil: +27%
+Recoil: +4%
 ---

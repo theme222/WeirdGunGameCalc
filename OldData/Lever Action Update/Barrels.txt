@@ -203,11 +203,6 @@ Fire_Rate: -12%
 Movement_Speed: -7%
 Reload_Speed: +10%
 ---
-Barrel: Mosin
-Damage: +15%
-Reload_Speed: -8%
-Fire_Rate: -5%
----
 
 Category: SMG Barrels
 ---
@@ -394,13 +389,6 @@ Fire_Rate: +10%
 Spread: -15%
 Movement_Speed: -15%
 Reload_Speed: +5%
----
-Barrel: M249 SAW
-Damage: +2%
-Fire_Rate: +5%
-Recoil: -16%
-Movement_Speed: -9%
-Reload_Speed: +4%
 ---
 
 Category: Shotgun Barrels
@@ -685,10 +673,10 @@ Range: -15%
 Recoil: +19%
 ---
 Barrel: Deagle
-Damage: +22%
-Range: +4%
+Damage: +20%
 Fire_Rate: -10%
 Movement_Speed: -4%
+Range: -7%
 Recoil: +55%
 ---
 Barrel: Luger
@@ -710,19 +698,7 @@ Range: -3%
 ---
 Barrel: Type 14
 Damage: +13%
-Movement_Speed: +9%
+Movement_Speed: +8%
 Fire_Rate: -10%
 Health: -12%
----
-Barrel: P08 Artillery
-Fire_Rate: +4%
-Range: +2%
-Recoil: +19%
-Spread: +15%
----
-Barrel: Obreez
-Range: +9%
-Spread: -7%
-Fire_Rate: -20%
-Recoil: +23%
 ---

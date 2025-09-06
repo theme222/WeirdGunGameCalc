@@ -265,6 +265,13 @@
       "Reload_Speed": 10
     },
     {
+      "Category": "Sniper",
+      "Name": "Mosin",
+      "Damage": 15,
+      "Reload_Speed": -8,
+      "Fire_Rate": -5
+    },
+    {
       "Category": "SMG",
       "Name": "MAC-10",
       "Fire_Rate": 5,
@@ -498,6 +505,15 @@
       "Spread": -15,
       "Movement_Speed": -15,
       "Reload_Speed": 5
+    },
+    {
+      "Category": "LMG",
+      "Name": "M249 SAW",
+      "Damage": 2,
+      "Fire_Rate": 5,
+      "Recoil": -16,
+      "Movement_Speed": -9,
+      "Reload_Speed": 4
     },
     {
       "Category": "Shotgun",
@@ -856,10 +872,10 @@
     {
       "Category": "Sidearm",
       "Name": "Deagle",
-      "Damage": 20,
+      "Damage": 22,
+      "Range": 4,
       "Fire_Rate": -10,
       "Movement_Speed": -4,
-      "Range": -7,
       "Recoil": 55
     },
     {
@@ -889,9 +905,25 @@
       "Category": "Sidearm",
       "Name": "Type 14",
       "Damage": 13,
-      "Movement_Speed": 8,
+      "Movement_Speed": 9,
       "Fire_Rate": -10,
       "Health": -12
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "P08 Artillery",
+      "Fire_Rate": 4,
+      "Range": 2,
+      "Recoil": 19,
+      "Spread": 15
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Obreez",
+      "Range": 9,
+      "Spread": -7,
+      "Fire_Rate": -20,
+      "Recoil": 23
     }
   ],
   "Cores": [
@@ -1892,6 +1924,42 @@
       ]
     },
     {
+      "Category": "Sniper",
+      "Name": "Mosin",
+      "Damage": [
+        66,
+        41.3
+      ],
+      "Dropoff_Studs": [
+        340,
+        525
+      ],
+      "Fire_Rate": 21,
+      "Hipfire_Spread": 11,
+      "ADS_Spread": 0.275,
+      "Time_To_Aim": 0.85,
+      "Detection_Radius": 240,
+      "Movement_Speed_Modifier": -4,
+      "Suppression": 0.8,
+      "Equip_Time": 0.9,
+      "Recoil_Hip_Horizontal": [
+        -25,
+        25
+      ],
+      "Recoil_Hip_Vertical": [
+        80,
+        93
+      ],
+      "Recoil_Aim_Horizontal": [
+        -12.5,
+        12.5
+      ],
+      "Recoil_Aim_Vertical": [
+        40,
+        46.5
+      ]
+    },
+    {
       "Category": "SMG",
       "Name": "MAC-10",
       "Damage": [
@@ -2784,6 +2852,43 @@
       ]
     },
     {
+      "Category": "LMG",
+      "Name": "M249 SAW",
+      "Damage": [
+        16,
+        10.4
+      ],
+      "Dropoff_Studs": [
+        165,
+        320
+      ],
+      "Fire_Rate": 800,
+      "Hipfire_Spread": 6.5,
+      "ADS_Spread": 0.75,
+      "Time_To_Aim": 1.2,
+      "Detection_Radius": 160,
+      "Movement_Speed_Modifier": -6.5,
+      "Suppression": 0.9,
+      "Health": 17,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -11,
+        11
+      ],
+      "Recoil_Hip_Vertical": [
+        45,
+        52
+      ],
+      "Recoil_Aim_Horizontal": [
+        -4.1,
+        4.1
+      ],
+      "Recoil_Aim_Vertical": [
+        16.7,
+        19.2
+      ]
+    },
+    {
       "Category": "Shotgun",
       "Name": "M1887",
       "Damage": [
@@ -2796,14 +2901,14 @@
       ],
       "Falloff_Factor": -0.85,
       "Pellets": 10,
-      "Fire_Rate": 60,
+      "Fire_Rate": 50,
       "Hipfire_Spread": 7,
       "ADS_Spread": 1.8,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 100,
       "Movement_Speed_Modifier": 2,
       "Suppression": 0.5,
-      "Health": 4,
+      "Health": 6,
       "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -20,
@@ -2814,12 +2919,12 @@
         30
       ],
       "Recoil_Aim_Horizontal": [
-        -8,
-        8
+        -12,
+        12
       ],
       "Recoil_Aim_Vertical": [
-        8,
-        12
+        12,
+        18
       ]
     },
     {
@@ -3084,7 +3189,7 @@
       "Category": "Shotgun",
       "Name": "Double Barrel",
       "Damage": [
-        100,
+        110,
         10
       ],
       "Dropoff_Studs": [
@@ -3104,16 +3209,16 @@
         25
       ],
       "Recoil_Hip_Vertical": [
-        70,
-        82
+        40,
+        57
       ],
       "Recoil_Aim_Horizontal": [
-        -15,
-        15
+        -5,
+        5
       ],
       "Recoil_Aim_Vertical": [
-        42,
-        49.2
+        8,
+        11.4
       ]
     },
     {
@@ -3932,6 +4037,41 @@
         1.2,
         2.8
       ]
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Obreez",
+      "Damage": [
+        55,
+        33
+      ],
+      "Dropoff_Studs": [
+        50,
+        110
+      ],
+      "Fire_Rate": 47,
+      "Hipfire_Spread": 5.5,
+      "ADS_Spread": 0.6,
+      "Time_To_Aim": 1,
+      "Detection_Radius": 80,
+      "Suppression": 1,
+      "Equip_Time": 0.8,
+      "Recoil_Hip_Horizontal": [
+        -9,
+        9
+      ],
+      "Recoil_Hip_Vertical": [
+        60,
+        72
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3.6,
+        3.6
+      ],
+      "Recoil_Aim_Vertical": [
+        24,
+        28.8
+      ]
     }
   ],
   "Grips": [
@@ -4141,6 +4281,13 @@
       "Spread": 12
     },
     {
+      "Category": "Sniper",
+      "Name": "Mosin",
+      "Movement_Speed": 3,
+      "Range": 3,
+      "Fire_Rate": -5
+    },
+    {
       "Category": "SMG",
       "Name": "MAC-10",
       "Movement_Speed": 4.4,
@@ -4329,6 +4476,13 @@
       "Spread": 14
     },
     {
+      "Category": "LMG",
+      "Name": "M249 SAW",
+      "Spread": -16,
+      "Movement_Speed": -4,
+      "Recoil": 7
+    },
+    {
       "Category": "Shotgun",
       "Name": "Spas-12",
       "Damage": 2,
@@ -4443,16 +4597,16 @@
       "Category": "Weird",
       "Name": "Mega Soaker",
       "Movement_Speed": 2,
-      "Recoil": -16,
-      "Spread": 15
+      "Recoil": -24,
+      "Spread": 12
     },
     {
       "Category": "Weird",
       "Name": "Lamp Shade",
       "Health": 20,
       "Detection_Radius": 100,
-      "Recoil": 10,
-      "Spread": 10
+      "Recoil": 50,
+      "Spread": 30
     },
     {
       "Category": "BR",
@@ -4570,6 +4724,23 @@
       "Reload_Speed": -9,
       "Range": -4,
       "Recoil": 11
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "P08 Artillery",
+      "Recoil": -14,
+      "Spread": -17,
+      "Equip_Time": 200,
+      "Movement_Speed": -2,
+      "Reload_Speed": 8
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Obreez",
+      "Recoil": -25,
+      "Spread": -10,
+      "Movement_Speed": -4,
+      "Reload_Speed": 8
     }
   ],
   "Magazines": [
@@ -4874,6 +5045,16 @@
       "Recoil": 86
     },
     {
+      "Category": "Sniper",
+      "Name": "Mosin",
+      "Magazine_Size": 5,
+      "Reload_Time": 3.6,
+      "Damage": 20,
+      "Fire_Rate": -10,
+      "Movement_Speed": -2,
+      "Range": -3
+    },
+    {
       "Category": "SMG",
       "Name": "MAC-10",
       "Magazine_Size": 30,
@@ -5136,6 +5317,17 @@
       "Fire_Rate": 7,
       "Movement_Speed": -3,
       "Recoil": 18
+    },
+    {
+      "Category": "LMG",
+      "Name": "M249 SAW",
+      "Magazine_Size": 100,
+      "Reload_Time": 9,
+      "Fire_Rate": 5,
+      "Equip_Time": 40,
+      "Movement_Speed": -9,
+      "Recoil": 22,
+      "Spread": 18
     },
     {
       "Category": "Shotgun",
@@ -5539,7 +5731,29 @@
       "Damage": 13,
       "Fire_Rate": 14,
       "Movement_Speed": 5,
-      "Recoil": 4
+      "Health": -13,
+      "Recoil": 14
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "P08 Artillery",
+      "Magazine_Size": 32,
+      "Reload_Time": 3,
+      "Fire_Rate": 8,
+      "Movement_Speed": -2,
+      "Range": -4,
+      "Recoil": 12
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Obreez",
+      "Magazine_Size": 5,
+      "Reload_Time": 2,
+      "Damage": 5,
+      "Range": 7,
+      "Fire_Rate": -10,
+      "Movement_Speed": -2,
+      "Recoil": 27
     }
   ],
   "Stocks": [
@@ -5749,6 +5963,13 @@
       "Spread": 12
     },
     {
+      "Category": "Sniper",
+      "Name": "Mosin",
+      "Fire_Rate": 2,
+      "Recoil": 24,
+      "Spread": 24
+    },
+    {
       "Category": "SMG",
       "Name": "MAC-10",
       "Movement_Speed": 4.6,
@@ -5948,6 +6169,14 @@
       "Spread": 6
     },
     {
+      "Category": "LMG",
+      "Name": "M249 SAW",
+      "Health": 5,
+      "Recoil": -11,
+      "Movement_Speed": -4.5,
+      "Spread": 16
+    },
+    {
       "Category": "Shotgun",
       "Name": "Spas-12 Folded",
       "Movement_Speed": 4,
@@ -6055,9 +6284,9 @@
     {
       "Category": "Weird",
       "Name": "Plunger",
-      "Recoil": -25,
-      "Reload_Speed": 20,
-      "Spread": 15
+      "Fire_Rate": 4,
+      "Movement_Speed": -2,
+      "Range": -2
     },
     {
       "Category": "Weird",

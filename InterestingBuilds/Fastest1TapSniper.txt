@@ -103,6 +103,18 @@ recoilHipVertical: 272.743 - 310.624
 recoilAimVertical: 122.734 - 139.781
 movementSpeed: -5
 
+[ Barrel: Mosin, Magazine: Hecate II, Grip: AWM, Stock: AWM, Core: Arisaka ]
+damage: 101.205 - 88.757
+dropoffStuds: 308 - 539
+fireRate: 27.36
+adsSpread: 0.14624
+hipfireSpread: 11.6992
+reloadTime: 6.5688
+magazineSize: 5
+health: -10
+recoilHipVertical: 171.072 - 194.832
+recoilAimVertical: 76.9824 - 87.6744
+
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: M1897 Trench Shotgun, Stock: Lee Enfield, Core: Arisaka ]
 damage: 107.378 - 94.4928
 dropoffStuds: 320 - 560
@@ -115,17 +127,4 @@ health: -15
 recoilHipVertical: 226.8 - 258.3
 recoilAimVertical: 102.06 - 116.235
 movementSpeed: -2
-
-[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: FG-42, Core: Arisaka ]
-damage: 107.378 - 94.4928
-dropoffStuds: 320 - 560
-fireRate: 27.1665
-adsSpread: 0.132225
-hipfireSpread: 10.578
-reloadTime: 10.5
-magazineSize: 7
-health: -15
-recoilHipVertical: 183.06 - 208.485
-recoilAimVertical: 82.377 - 93.8183
-movementSpeed: 0.55
 

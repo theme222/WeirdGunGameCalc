@@ -1,17 +1,17 @@
 ./Calculator -o InterestingBuilds/LowRecoilBeam.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 45 --spreadAimMax 0.4 --rangeMin 150 --speedMin 0 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
-[ Barrel: Shower, Magazine: Mega Soaker, Grip: PPSh-41, Stock: FAL, Core: AUG ]
-damage: 14.6269 - 12.3047
-dropoffStuds: 160.888 - 283.92
+[ Barrel: Shower, Magazine: Mega Soaker, Grip: PPSh-41, Stock: AWM, Core: AUG ]
+damage: 14.6269 - 12.2079
+dropoffStuds: 154.7 - 273
 pellets: 2
 fireRate: 1057.54
-adsSpread: 0.38097
-hipfireSpread: 3.04776
-reloadTime: 7.7625
+adsSpread: 0.367124
+hipfireSpread: 2.93699
+reloadTime: 6.94744
 magazineSize: 60
-recoilHipVertical: 16.38 - 20.475
-recoilAimVertical: 4.914 - 6.1425
-movementSpeed: 5.66
+recoilHipVertical: 13.86 - 17.325
+recoilAimVertical: 4.158 - 5.1975
+movementSpeed: 5.5
 TTK: 0.340414 Seconds
 
 [ Barrel: Shower, Magazine: Mega Soaker, Grip: PPSh-41, Stock: Hex Spitter, Core: AUG ]
@@ -28,20 +28,6 @@ recoilAimVertical: 3.78 - 4.725
 movementSpeed: 0.5
 TTK: 0.340414 Seconds
 
-[ Barrel: Shower, Magazine: Mega Soaker, Grip: PPSh-41, Stock: AWM, Core: AUG ]
-damage: 14.6269 - 12.2079
-dropoffStuds: 154.7 - 273
-pellets: 2
-fireRate: 1057.54
-adsSpread: 0.367124
-hipfireSpread: 2.93699
-reloadTime: 6.94744
-magazineSize: 60
-recoilHipVertical: 13.86 - 17.325
-recoilAimVertical: 4.158 - 5.1975
-movementSpeed: 5.5
-TTK: 0.340414 Seconds
-
 [ Barrel: Shower, Magazine: Mega Soaker, Grip: PPSh-41, Stock: MG42, Core: AUG ]
 damage: 14.6269 - 12.2079
 dropoffStuds: 154.7 - 273
@@ -54,6 +40,20 @@ magazineSize: 60
 recoilHipVertical: 12.6 - 15.75
 recoilAimVertical: 3.78 - 4.725
 movementSpeed: 8.125
+TTK: 0.340414 Seconds
+
+[ Barrel: Shower, Magazine: Mega Soaker, Grip: PPSh-41, Stock: FAL, Core: AUG ]
+damage: 14.6269 - 12.3047
+dropoffStuds: 160.888 - 283.92
+pellets: 2
+fireRate: 1057.54
+adsSpread: 0.38097
+hipfireSpread: 3.04776
+reloadTime: 7.7625
+magazineSize: 60
+recoilHipVertical: 16.38 - 20.475
+recoilAimVertical: 4.914 - 6.1425
+movementSpeed: 5.66
 TTK: 0.340414 Seconds
 
 [ Barrel: AUG, Magazine: Graphics Card, Grip: PPSh-41, Stock: G11, Core: Mas-38 ]

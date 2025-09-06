@@ -28,20 +28,6 @@ recoilAimVertical: 25.0774 - 28.6598
 movementSpeed: 0.475
 TTK: 0.317251 Seconds
 
-[ Barrel: MP 40, Magazine: Type 99, Grip: M1891, Stock: MG42, Core: Negev ]
-damage: 16.824 - 12.5123
-dropoffStuds: 205.2 - 410.4
-fireRate: 918
-adsSpread: 0.581667
-hipfireSpread: 5.81667
-reloadTime: 4.14
-magazineSize: 30
-health: 15
-recoilHipVertical: 42.504 - 48.576
-recoilAimVertical: 25.5024 - 29.1456
-movementSpeed: 2.78
-TTK: 0.326797 Seconds
-
 [ Barrel: Car Muffler, Magazine: Type 99, Grip: M1891, Stock: MG42, Core: Negev ]
 damage: 18.1543 - 13.5016
 dropoffStuds: 205.2 - 410.4
@@ -84,19 +70,19 @@ recoilAimVertical: 21.252 - 24.288
 movementSpeed: 0.7
 TTK: 0.326797 Seconds
 
-[ Barrel: Fedorov, Magazine: Type 99, Grip: M1Garand, Stock: Arisaka, Core: Negev ]
-damage: 16.738 - 12.4483
+[ Barrel: MP 40, Magazine: Type 99, Grip: M1891, Stock: MG42, Core: Negev ]
+damage: 16.824 - 12.5123
 dropoffStuds: 205.2 - 410.4
-fireRate: 907.8
-adsSpread: 0.596278
-hipfireSpread: 5.96278
-reloadTime: 3.15
+fireRate: 918
+adsSpread: 0.581667
+hipfireSpread: 5.81667
+reloadTime: 4.14
 magazineSize: 30
-health: 7
-recoilHipVertical: 41.7956 - 47.7664
-recoilAimVertical: 25.0774 - 28.6598
-movementSpeed: 2.775
-TTK: 0.330469 Seconds
+health: 15
+recoilHipVertical: 42.504 - 48.576
+recoilAimVertical: 25.5024 - 29.1456
+movementSpeed: 2.78
+TTK: 0.326797 Seconds
 
 [ Barrel: MP 40, Magazine: Type 99, Grip: M1Garand, Stock: Arisaka, Core: Negev ]
 damage: 16.824 - 12.5123
@@ -112,17 +98,32 @@ recoilAimVertical: 25.5024 - 29.1456
 movementSpeed: 1.88
 TTK: 0.330469 Seconds
 
-[ Barrel: Car Muffler, Magazine: Type 99, Grip: PPSh-41, Stock: Arisaka, Core: Negev ]
-damage: 18.1543 - 13.5016
+[ Barrel: Fedorov, Magazine: Type 99, Grip: M1Garand, Stock: Arisaka, Core: Negev ]
+damage: 16.738 - 12.4483
+dropoffStuds: 205.2 - 410.4
+fireRate: 907.8
+adsSpread: 0.596278
+hipfireSpread: 5.96278
+reloadTime: 3.15
+magazineSize: 30
+health: 7
+recoilHipVertical: 41.7956 - 47.7664
+recoilAimVertical: 25.0774 - 28.6598
+movementSpeed: 2.775
+TTK: 0.330469 Seconds
+
+[ Barrel: MP 40, Magazine: Type 99, Grip: PPSh-41, Stock: Arisaka, Core: Negev ]
+damage: 16.824 - 12.5123
 dropoffStuds: 205.2 - 410.4
 fireRate: 905.25
 adsSpread: 0.557713
 hipfireSpread: 5.57713
-reloadTime: 3.98475
+reloadTime: 3.6225
 magazineSize: 30
-recoilHipVertical: 41.4414 - 47.3616
-recoilAimVertical: 24.8648 - 28.417
-movementSpeed: 2.8
+health: 7
+recoilHipVertical: 42.504 - 48.576
+recoilAimVertical: 25.5024 - 29.1456
+movementSpeed: 4.88
 TTK: 0.3314 Seconds
 
 [ Barrel: M1Garand, Magazine: Type 99, Grip: PPSh-41, Stock: Arisaka, Core: Negev ]

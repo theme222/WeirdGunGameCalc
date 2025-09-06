@@ -13,19 +13,6 @@ recoilHipVertical: 20.7829 - 24.9395
 recoilAimVertical: 8.31318 - 9.97581
 TTK: 0.13862 Seconds
 
-[ Barrel: Car Muffler, Magazine: PP-19 Bizon, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
-damage: 33.7302 - 19.1587
-dropoffStuds: 133.4 - 156.4
-fireRate: 865.675
-adsSpread: 0.384087
-hipfireSpread: 6.40144
-reloadTime: 4.4
-magazineSize: 64
-health: -14.5
-recoilHipVertical: 19.6639 - 23.5966
-recoilAimVertical: 7.86555 - 9.43865
-TTK: 0.13862 Seconds
-
 [ Barrel: Car Muffler, Magazine: PP-19 Bizon, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
 damage: 33.8878 - 19.2483
 dropoffStuds: 133.4 - 156.4
@@ -37,6 +24,19 @@ magazineSize: 64
 health: -7
 recoilHipVertical: 15.9869 - 19.1843
 recoilAimVertical: 6.39475 - 7.6737
+TTK: 0.13862 Seconds
+
+[ Barrel: Car Muffler, Magazine: PP-19 Bizon, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.7302 - 19.1587
+dropoffStuds: 133.4 - 156.4
+fireRate: 865.675
+adsSpread: 0.384087
+hipfireSpread: 6.40144
+reloadTime: 4.4
+magazineSize: 64
+health: -14.5
+recoilHipVertical: 19.6639 - 23.5966
+recoilAimVertical: 7.86555 - 9.43865
 TTK: 0.13862 Seconds
 
 [ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
@@ -105,20 +105,6 @@ recoilHipVertical: 17.2569 - 20.7083
 recoilAimVertical: 6.90276 - 8.28331
 TTK: 0.143336 Seconds
 
-[ Barrel: Car Muffler, Magazine: PP-19 Bizon, Grip: MP 40, Stock: Kriss Vector, Core: M1 Carbine ]
-damage: 33.4149 - 18.2579
-dropoffStuds: 126.73 - 148.58
-fireRate: 829.25
-adsSpread: 0.518609
-hipfireSpread: 8.64349
-reloadTime: 4.4
-magazineSize: 64
-health: -7
-recoilHipVertical: 13.6282 - 16.3538
-recoilAimVertical: 5.45126 - 6.54152
-movementSpeed: 3.3
-TTK: 0.144709 Seconds
-
 [ Barrel: Car Muffler, Magazine: PP-19 Bizon, Grip: Type 2a Nambu, Stock: Kriss Vector, Core: M1 Carbine ]
 damage: 33.7302 - 18.4302
 dropoffStuds: 126.73 - 148.58
@@ -130,6 +116,20 @@ magazineSize: 64
 health: -14.5
 recoilHipVertical: 12.8943 - 15.4732
 recoilAimVertical: 5.15773 - 6.18928
+movementSpeed: 3.3
+TTK: 0.144709 Seconds
+
+[ Barrel: Car Muffler, Magazine: PP-19 Bizon, Grip: MP 40, Stock: Kriss Vector, Core: M1 Carbine ]
+damage: 33.4149 - 18.2579
+dropoffStuds: 126.73 - 148.58
+fireRate: 829.25
+adsSpread: 0.518609
+hipfireSpread: 8.64349
+reloadTime: 4.4
+magazineSize: 64
+health: -7
+recoilHipVertical: 13.6282 - 16.3538
+recoilAimVertical: 5.45126 - 6.54152
 movementSpeed: 3.3
 TTK: 0.144709 Seconds
 
