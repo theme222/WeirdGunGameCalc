@@ -1,142 +1,136 @@
 ./Calculator -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
-[ Barrel: Car Muffler, Magazine: NP5, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.3491 - 9.94047
-dropoffStuds: 124.6 - 137.95
-fireRate: 847.803
-adsSpread: 0.492992
-hipfireSpread: 3.28662
-reloadTime: 2.53
+[ Barrel: Snake Sniper, Magazine: MAC-10, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Paintball ]
+damage: 33.3427 - 24.0448
+dropoffStuds: 123.2 - 255.2
+fireRate: 656.316
+adsSpread: 0.620903
+hipfireSpread: 10.3484
+reloadTime: 2.1
 magazineSize: 30
-health: -7
-recoilHipVertical: 32.1165 - 44.9631
-recoilAimVertical: 20.8115 - 29.1618
-movementSpeed: 7.3
-TTK: 0.212313 Seconds
+health: -5
+recoilHipVertical: 24.705 - 36.234
+recoilAimVertical: 11.0349 - 16.3053
+movementSpeed: 4.4
+TTK: 0.182839 Seconds
 
-[ Barrel: Car Muffler, Magazine: MAC-10, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.3491 - 9.02428
-dropoffStuds: 117.04 - 129.58
-fireRate: 847.44
-adsSpread: 0.539473
-hipfireSpread: 3.59649
-reloadTime: 2.53
+[ Barrel: M1911, Magazine: MAC-10, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Paintball ]
+damage: 33.3427 - 23.0221
+dropoffStuds: 109.648 - 227.128
+fireRate: 637.2
+adsSpread: 0.517848
+hipfireSpread: 8.6308
+reloadTime: 2
 magazineSize: 30
-health: -7
-recoilHipVertical: 31.59 - 44.226
-recoilAimVertical: 20.4703 - 28.6837
-movementSpeed: 11.7
-TTK: 0.212404 Seconds
+recoilHipVertical: 30.8813 - 45.2925
+recoilAimVertical: 13.7936 - 20.3816
+movementSpeed: 4.4
+TTK: 0.188324 Seconds
 
-[ Barrel: Car Muffler, Magazine: NP5, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.3491 - 9.94047
-dropoffStuds: 124.6 - 137.95
-fireRate: 845.876
-adsSpread: 0.656415
-hipfireSpread: 4.3761
-reloadTime: 2.31
+[ Barrel: M870 Breacher, Magazine: MAC-10, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Paintball ]
+damage: 33.903 - 23.5035
+dropoffStuds: 110.88 - 229.68
+fireRate: 637.2
+adsSpread: 0.67243
+hipfireSpread: 11.2072
+reloadTime: 2
 magazineSize: 30
-health: -7
-recoilHipVertical: 32.1165 - 44.9631
-recoilAimVertical: 20.8115 - 29.1618
-movementSpeed: 7.3
-TTK: 0.212797 Seconds
+recoilHipVertical: 24.705 - 36.234
+recoilAimVertical: 11.0349 - 16.3053
+movementSpeed: 7.4
+TTK: 0.188324 Seconds
 
-[ Barrel: Car Muffler, Magazine: MAC-10, Grip: M1897 Trench Shotgun, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.3491 - 9.02428
-dropoffStuds: 117.04 - 129.58
-fireRate: 845.514
-adsSpread: 0.718304
-hipfireSpread: 4.78869
-reloadTime: 2.31
+[ Barrel: Snake Sniper, Magazine: NP5, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Paintball ]
+damage: 33.3427 - 24.1278
+dropoffStuds: 124.6 - 258.1
+fireRate: 628.97
+adsSpread: 0.590012
+hipfireSpread: 9.83353
+reloadTime: 2.1
 magazineSize: 30
-health: -7
-recoilHipVertical: 31.59 - 44.226
-recoilAimVertical: 20.4703 - 28.6837
-movementSpeed: 11.7
-TTK: 0.212888 Seconds
+health: -5
+recoilHipVertical: 16.47 - 24.156
+recoilAimVertical: 7.3566 - 10.8702
+movementSpeed: 3.3
+TTK: 0.190788 Seconds
 
-[ Barrel: Car Muffler, Magazine: Graphics Card, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.3491 - 10.3569
-dropoffStuds: 128.8 - 142.6
-fireRate: 840.431
-adsSpread: 0.518804
-hipfireSpread: 3.45869
-reloadTime: 7.59
+[ Barrel: Snake Sniper, Magazine: PP-19 Bizon, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Paintball ]
+damage: 33.3427 - 24.3769
+dropoffStuds: 128.8 - 266.8
+fireRate: 628.97
+adsSpread: 0.552168
+hipfireSpread: 9.2028
+reloadTime: 4.41
+magazineSize: 64
+health: -5
+recoilHipVertical: 20.496 - 30.0608
+recoilAimVertical: 9.15488 - 13.5274
+TTK: 0.190788 Seconds
+
+[ Barrel: Snake Sniper, Magazine: PP-19 Bizon, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: Paintball ]
+damage: 33.3427 - 22.5837
+dropoffStuds: 103.04 - 213.44
+fireRate: 628.97
+adsSpread: 0.597991
+hipfireSpread: 9.96652
+reloadTime: 4.2
+magazineSize: 64
+health: -5
+recoilHipVertical: 20.496 - 30.0608
+recoilAimVertical: 9.15488 - 13.5274
+TTK: 0.190788 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Type 2a Nambu, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Paintball ]
+damage: 33.3427 - 23.7128
+dropoffStuds: 117.6 - 243.6
+fireRate: 623.5
+adsSpread: 0.620903
+hipfireSpread: 10.3484
+reloadTime: 2.625
+magazineSize: 30
+health: -5
+recoilHipVertical: 13.908 - 20.3984
+recoilAimVertical: 6.21224 - 9.17928
+movementSpeed: 3
+TTK: 0.192462 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Graphics Card, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Paintball ]
+damage: 33.3427 - 24.3769
+dropoffStuds: 128.8 - 266.8
+fireRate: 623.5
+adsSpread: 0.620903
+hipfireSpread: 10.3484
+reloadTime: 6.3
 magazineSize: 50
-health: -7
-recoilHipVertical: 27.4774 - 38.4684
-recoilAimVertical: 17.8054 - 24.9495
-movementSpeed: 4
-TTK: 0.214176 Seconds
+health: -5
+recoilHipVertical: 14.091 - 20.6668
+recoilAimVertical: 6.29398 - 9.30006
+TTK: 0.192462 Seconds
 
-[ Barrel: Car Muffler, Magazine: Graphics Card, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.3491 - 10.3569
-dropoffStuds: 128.8 - 142.6
-fireRate: 838.521
-adsSpread: 0.690783
-hipfireSpread: 4.60522
-reloadTime: 6.93
-magazineSize: 50
-health: -7
-recoilHipVertical: 27.4774 - 38.4684
-recoilAimVertical: 17.8054 - 24.9495
-movementSpeed: 4
-TTK: 0.214664 Seconds
-
-[ Barrel: Car Muffler, Magazine: Graphics Card, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.3491 - 7.35848
-dropoffStuds: 103.04 - 114.08
-fireRate: 832.79
-adsSpread: 0.748109
-hipfireSpread: 4.98739
-reloadTime: 6.6
-magazineSize: 50
-health: -7
-recoilHipVertical: 27.4774 - 38.4684
-recoilAimVertical: 17.8054 - 24.9495
-movementSpeed: 4
-TTK: 0.216141 Seconds
-
-[ Barrel: Car Muffler, Magazine: MAC-10, Grip: PPSh-41, Stock: Fedorov, Core: Type 2a Nambu ]
-damage: 25.3491 - 9.80166
-dropoffStuds: 123.2 - 136.4
-fireRate: 830.808
-adsSpread: 0.415456
-hipfireSpread: 2.76971
-reloadTime: 2.7071
+[ Barrel: Snake Sniper, Magazine: MAC-10, Grip: Circuit Judge, Stock: Spas-12, Core: Paintball ]
+damage: 33.3427 - 22.9291
+dropoffStuds: 108.416 - 224.576
+fireRate: 622.944
+adsSpread: 0.556586
+hipfireSpread: 9.27643
+reloadTime: 2.1
 magazineSize: 30
-health: -7
-recoilHipVertical: 36.7234 - 51.4127
-recoilAimVertical: 23.7967 - 33.3448
-movementSpeed: 6.4
-TTK: 0.216657 Seconds
+health: -5
+recoilHipVertical: 20.25 - 29.7
+recoilAimVertical: 9.045 - 13.365
+movementSpeed: 1.4
+TTK: 0.192634 Seconds
 
-[ Barrel: Car Muffler, Magazine: MAC-10, Grip: P90, Stock: Spas-12, Core: Type 2a Nambu ]
-damage: 25.3491 - 7.93596
-dropoffStuds: 108.416 - 120.032
-fireRate: 830.491
-adsSpread: 0.578117
-hipfireSpread: 3.85411
-reloadTime: 2.2
+[ Barrel: M1911, Magazine: NP5, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Paintball ]
+damage: 33.3427 - 23.1142
+dropoffStuds: 110.894 - 229.709
+fireRate: 610.65
+adsSpread: 0.492085
+hipfireSpread: 8.20141
+reloadTime: 2
 magazineSize: 30
-health: -7
-recoilHipVertical: 35.1439 - 49.2014
-recoilAimVertical: 22.7732 - 31.9106
-movementSpeed: 5.4
-TTK: 0.216739 Seconds
-
-[ Barrel: Car Muffler, Magazine: MAC-10, Grip: M1897 Trench Shotgun, Stock: Fedorov, Core: Type 2a Nambu ]
-damage: 25.3491 - 9.80166
-dropoffStuds: 123.2 - 136.4
-fireRate: 828.92
-adsSpread: 0.553177
-hipfireSpread: 3.68784
-reloadTime: 2.4717
-magazineSize: 30
-health: -7
-recoilHipVertical: 36.7234 - 51.4127
-recoilAimVertical: 23.7967 - 33.3448
-movementSpeed: 6.4
-TTK: 0.21715 Seconds
+recoilHipVertical: 20.5875 - 30.195
+recoilAimVertical: 9.19575 - 13.5878
+movementSpeed: 3.3
+TTK: 0.196512 Seconds
 

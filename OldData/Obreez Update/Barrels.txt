@@ -599,18 +599,6 @@ Health: -7%
 Recoil: +17%
 Reload_Speed: +10%
 ---
-Barrel: Paintball
-Movement_Speed: +2.5%
-Recoil: -28%
-Damage: -3%
-Range: -3%
----
-Barrel: Spray Can
-Fire_Rate: +25%
-Movement_Speed: +2.5%
-Damage: -2%
-Range: -11%
----
 
 Category: BR Barrels
 ---

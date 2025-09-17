@@ -1120,21 +1120,6 @@ Recoil_Hip_Vertical: 19 - 27
 Recoil_Aim_Horizontal: -6 - 6
 Recoil_Aim_Vertical: 14.3 - 20.3
 ---
-Core: Paintball
-Damage: 24.5 > 18.4
-Dropoff_Studs: 140 > 290
-Fire_Rate: 450
-Hipfire_Spread: 5
-ADS_Spread: 0.3
-Time_To_Aim: 0.5
-Detection_Radius: 240
-Suppression: 0.1
-Equip_Time: 0.7
-Recoil_Hip_Horizontal: -14 - 14
-Recoil_Hip_Vertical: 15 - 22
-Recoil_Aim_Horizontal: -6.3 - 6.3
-Recoil_Aim_Vertical: 6.7 - 9.9
----
 
 Category: BR
 ---

@@ -402,11 +402,6 @@ Detection_Radius: +100%
 Recoil: +50%
 Spread: +30%
 ---
-Grip: Paintball
-Movement_Speed: +4%
-Reload_Speed: -7%
-Spread: +14%
----
 
 Category: BR Grips
 ---

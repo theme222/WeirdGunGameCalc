@@ -52,6 +52,19 @@ recoilAimVertical: 0.2976 - 0.5952
 movementSpeed: 5
 TTK: 0.316963 Seconds
 
+[ Barrel: MP 40, Magazine: Tommy, Grip: PPSh-41, Stock: None, Core: Luger ]
+damage: 20.0771 - 10.0385
+dropoffStuds: 40 - 100
+fireRate: 752.5
+adsSpread: 0.364014
+hipfireSpread: 0.364014
+reloadTime: 3.45
+magazineSize: 20
+recoilHipVertical: 1.2 - 2.4
+recoilAimVertical: 0.36 - 0.72
+movementSpeed: 5.25
+TTK: 0.318937 Seconds
+
 [ Barrel: Type 2a Nambu, Magazine: Tommy, Grip: PPSh-41, Stock: None, Core: Luger ]
 damage: 20.4934 - 10.2467
 dropoffStuds: 40 - 100
@@ -65,18 +78,18 @@ recoilAimVertical: 0.3 - 0.6
 movementSpeed: 5.1
 TTK: 0.318937 Seconds
 
-[ Barrel: MP 40, Magazine: Tommy, Grip: PPSh-41, Stock: None, Core: Luger ]
-damage: 20.0771 - 10.0385
-dropoffStuds: 40 - 100
-fireRate: 752.5
-adsSpread: 0.364014
-hipfireSpread: 0.364014
-reloadTime: 3.45
-magazineSize: 20
-recoilHipVertical: 1.2 - 2.4
-recoilAimVertical: 0.36 - 0.72
-movementSpeed: 5.25
-TTK: 0.318937 Seconds
+[ Barrel: Lipstick, Magazine: Paintball, Grip: M1897 Trench Shotgun, Stock: None, Core: Luger ]
+damage: 16.9728 - 8.74097
+dropoffStuds: 41.2 - 103
+fireRate: 933.731
+adsSpread: 0.463824
+hipfireSpread: 0.463824
+reloadTime: 6.7704
+magazineSize: 70
+recoilHipVertical: 1 - 2
+recoilAimVertical: 0.3 - 0.6
+movementSpeed: 5
+TTK: 0.321292 Seconds
 
 [ Barrel: Dominus, Magazine: SKS, Grip: M1897 Trench Shotgun, Stock: None, Core: Luger ]
 damage: 16.8162 - 8.736
@@ -104,29 +117,16 @@ recoilAimVertical: 0.2976 - 0.5952
 movementSpeed: 5
 TTK: 0.323597 Seconds
 
-[ Barrel: MP 40, Magazine: Tommy, Grip: P90, Stock: None, Core: Luger ]
-damage: 20.0771 - 10.0385
+[ Barrel: Dominus, Magazine: Paintball, Grip: Makarov, Stock: None, Core: Luger ]
+damage: 16.8096 - 8.40478
 dropoffStuds: 40 - 100
-fireRate: 736.75
-adsSpread: 0.44034
-hipfireSpread: 0.44034
-reloadTime: 3
-magazineSize: 20
-recoilHipVertical: 1.101 - 2.202
-recoilAimVertical: 0.3303 - 0.6606
-movementSpeed: 5.25
-TTK: 0.325755 Seconds
-
-[ Barrel: Type 2a Nambu, Magazine: Tommy, Grip: P90, Stock: None, Core: Luger ]
-damage: 20.4934 - 10.2467
-dropoffStuds: 40 - 100
-fireRate: 736.75
-adsSpread: 0.541114
-hipfireSpread: 0.541114
-reloadTime: 3
-magazineSize: 20
-recoilHipVertical: 0.9175 - 1.835
-recoilAimVertical: 0.27525 - 0.5505
-movementSpeed: 5.1
-TTK: 0.325755 Seconds
+fireRate: 925.12
+adsSpread: 0.47181
+hipfireSpread: 0.47181
+reloadTime: 6.758
+magazineSize: 70
+recoilHipVertical: 1.24 - 2.48
+recoilAimVertical: 0.372 - 0.744
+movementSpeed: 5
+TTK: 0.324282 Seconds
 

@@ -1,141 +1,142 @@
 ./Calculator -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --healthMin 10 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
-[ Barrel: Tommy, Magazine: XXL AKM, Grip: Lamp Shade, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.0029 - 9.76365
-dropoffStuds: 125.02 - 138.415
-fireRate: 686.94
-adsSpread: 0.777914
-hipfireSpread: 5.18609
-reloadTime: 9
-magazineSize: 90
-health: 20
-recoilHipVertical: 45 - 63
-recoilAimVertical: 29.16 - 40.86
-movementSpeed: 1.1
-TTK: 0.262032 Seconds
-
-[ Barrel: M870 Breacher, Magazine: M60, Grip: Banana, Stock: M1897 Trench Shotgun, Core: MG42 ]
-damage: 15.0888 - 8.14165
-dropoffStuds: 122.85 - 266.175
-fireRate: 1362
-adsSpread: 1.37639
-hipfireSpread: 13.7639
+[ Barrel: Spray Can, Magazine: M60, Grip: Banana, Stock: M1897 Trench Shotgun, Core: MG42 ]
+damage: 12.8775 - 6.89458
+dropoffStuds: 121.485 - 263.217
+fireRate: 1702.5
+adsSpread: 1.05998
+hipfireSpread: 10.5998
 reloadTime: 6.5
 magazineSize: 75
 health: 13
 recoilHipVertical: 63.1082 - 90.4947
 recoilAimVertical: 31.5541 - 45.2474
-movementSpeed: 0.75
-TTK: 0.264317 Seconds
+movementSpeed: 1
+TTK: 0.246696 Seconds
 
-[ Barrel: M870 Breacher, Magazine: M60, Grip: M1891, Stock: Auto-5, Core: MG42 ]
-damage: 14.3418 - 7.7386
-dropoffStuds: 122.85 - 266.175
-fireRate: 1344.6
-adsSpread: 1.15241
-hipfireSpread: 11.5241
-reloadTime: 7.475
-magazineSize: 75
-health: 13
-recoilHipVertical: 64.66 - 92.72
-recoilAimVertical: 32.33 - 46.36
-movementSpeed: 2.7
-TTK: 0.267738 Seconds
-
-[ Barrel: M870 Breacher, Magazine: M60, Grip: M1891, Stock: MAC-10, Core: MG42 ]
-damage: 15.0888 - 8.14165
-dropoffStuds: 122.85 - 266.175
-fireRate: 1333.91
-adsSpread: 1.44362
-hipfireSpread: 14.4362
-reloadTime: 7.475
-magazineSize: 75
-health: 13
-recoilHipVertical: 64.66 - 92.72
-recoilAimVertical: 32.33 - 46.36
-movementSpeed: 1.94
-TTK: 0.269884 Seconds
-
-[ Barrel: Mega Soaker, Magazine: M60, Grip: Banana, Stock: M1897 Trench Shotgun, Core: MG42 ]
-damage: 12.6173 - 6.8081
-dropoffStuds: 122.85 - 266.175
-fireRate: 1552.68
-adsSpread: 1.05998
-hipfireSpread: 10.5998
-reloadTime: 6.5
-magazineSize: 75
-health: 13
-recoilHipVertical: 51.1176 - 73.3007
-recoilAimVertical: 25.5588 - 36.6504
-movementSpeed: 0.5
-TTK: 0.2705 Seconds
-
-[ Barrel: Mega Soaker, Magazine: M60, Grip: M1891, Stock: Kriss Vector, Core: MG42 ]
-damage: 12.6173 - 6.51764
-dropoffStuds: 116.707 - 252.866
-fireRate: 1544.66
+[ Barrel: Spray Can, Magazine: M60, Grip: M1891, Stock: Kriss Vector, Core: MG42 ]
+damage: 12.8775 - 6.59544
+dropoffStuds: 115.411 - 250.057
+fireRate: 1693.71
 adsSpread: 1.24535
 hipfireSpread: 12.4535
 reloadTime: 7.475
 magazineSize: 75
 health: 13
-recoilHipVertical: 45.5659 - 65.3398
-recoilAimVertical: 22.783 - 32.6699
-movementSpeed: 0.844999
-TTK: 0.271904 Seconds
+recoilHipVertical: 56.2542 - 80.6664
+recoilAimVertical: 28.1271 - 40.3332
+movementSpeed: 1.345
+TTK: 0.247976 Seconds
 
-[ Barrel: Mega Soaker, Magazine: M60, Grip: M1891, Stock: FG-42, Core: MG42 ]
-damage: 12.6173 - 6.8081
-dropoffStuds: 122.85 - 266.175
-fireRate: 1540.23
-adsSpread: 0.959063
-hipfireSpread: 9.59063
+[ Barrel: Spray Can, Magazine: M60, Grip: M1897 Trench Shotgun, Stock: Paintball, Core: MG42 ]
+damage: 12.8775 - 6.89458
+dropoffStuds: 121.485 - 263.217
+fireRate: 1668.75
+adsSpread: 0.991312
+hipfireSpread: 9.91312
+reloadTime: 6.34725
+magazineSize: 75
+health: 13
+recoilHipVertical: 64.66 - 92.72
+recoilAimVertical: 32.33 - 46.36
+movementSpeed: 2
+TTK: 0.251685 Seconds
+
+[ Barrel: Spray Can, Magazine: M60, Grip: M1891, Stock: MAC-10, Core: MG42 ]
+damage: 12.8775 - 6.89458
+dropoffStuds: 121.485 - 263.217
+fireRate: 1667.39
+adsSpread: 1.11175
+hipfireSpread: 11.1175
 reloadTime: 7.475
 magazineSize: 75
 health: 13
-recoilHipVertical: 59.1833 - 84.8666
-recoilAimVertical: 29.5916 - 42.4333
-movementSpeed: 1.25
-TTK: 0.272686 Seconds
+recoilHipVertical: 64.66 - 92.72
+recoilAimVertical: 32.33 - 46.36
+movementSpeed: 2.19
+TTK: 0.251891 Seconds
 
-[ Barrel: Kriss Vector, Magazine: M60, Grip: Banana, Stock: M1897 Trench Shotgun, Core: MG42 ]
-damage: 12.7474 - 6.87829
-dropoffStuds: 122.85 - 266.175
-fireRate: 1539.06
-adsSpread: 1.05998
-hipfireSpread: 10.5998
-reloadTime: 6.5
+[ Barrel: Spray Can, Magazine: M60, Grip: M1891, Stock: Paintball, Core: MG42 ]
+damage: 12.8775 - 6.89458
+dropoffStuds: 121.485 - 263.217
+fireRate: 1620
+adsSpread: 1.07358
+hipfireSpread: 10.7358
+reloadTime: 6.95175
 magazineSize: 75
 health: 13
-recoilHipVertical: 56.9551 - 81.6715
-recoilAimVertical: 28.4776 - 40.8357
-movementSpeed: 0.645
-TTK: 0.272894 Seconds
+recoilHipVertical: 64.66 - 92.72
+recoilAimVertical: 32.33 - 46.36
+movementSpeed: 5.2
+TTK: 0.259259 Seconds
 
-[ Barrel: Dominus, Magazine: M60, Grip: M1891, Stock: M1897 Trench Shotgun, Core: M249 SAW ]
-damage: 16.8162 - 10.4008
-dropoffStuds: 150.15 - 291.2
-fireRate: 1098.32
-adsSpread: 1.22333
-hipfireSpread: 10.6022
-reloadTime: 8.14775
+[ Barrel: Spray Can, Magazine: M60, Grip: M1891, Stock: Derpy - Staff, Core: MG42 ]
+damage: 12.8775 - 6.89458
+dropoffStuds: 121.485 - 263.217
+fireRate: 1620
+adsSpread: 1.10221
+hipfireSpread: 11.0221
+reloadTime: 7.30681
 magazineSize: 75
-health: 17
-recoilHipVertical: 83.0527 - 95.972
-recoilAimVertical: 30.8218 - 35.4358
-movementSpeed: 2.7
-TTK: 0.273145 Seconds
+health: 13
+recoilHipVertical: 64.66 - 92.72
+recoilAimVertical: 32.33 - 46.36
+movementSpeed: 2.95
+TTK: 0.259259 Seconds
 
-[ Barrel: Uzi, Magazine: XXL AKM, Grip: Mas-38, Stock: Taco, Core: Type 2a Nambu ]
-damage: 25.7548 - 9.45641
-dropoffStuds: 119.784 - 132.618
-fireRate: 658.578
-adsSpread: 0.400372
-hipfireSpread: 2.66915
-reloadTime: 9.9
-magazineSize: 90
-health: 10
-recoilHipVertical: 36 - 50.4
-recoilAimVertical: 23.328 - 32.688
-TTK: 0.273316 Seconds
+[ Barrel: Spray Can, Magazine: M60, Grip: M1891, Stock: AUG, Core: MG42 ]
+damage: 12.8775 - 6.53561
+dropoffStuds: 114.196 - 247.424
+fireRate: 1620
+adsSpread: 0.851705
+hipfireSpread: 8.51705
+reloadTime: 7.475
+magazineSize: 75
+health: 13
+recoilHipVertical: 64.66 - 92.72
+recoilAimVertical: 32.33 - 46.36
+movementSpeed: 1.075
+TTK: 0.259259 Seconds
+
+[ Barrel: Spray Can, Magazine: M60, Grip: M1891, Stock: JSG12, Core: MG42 ]
+damage: 12.8775 - 6.89458
+dropoffStuds: 121.485 - 263.217
+fireRate: 1620
+adsSpread: 0.823077
+hipfireSpread: 8.23077
+reloadTime: 7.84875
+magazineSize: 75
+health: 13
+recoilHipVertical: 64.66 - 92.72
+recoilAimVertical: 32.33 - 46.36
+movementSpeed: 1.45
+TTK: 0.259259 Seconds
+
+[ Barrel: Spray Can, Magazine: M60, Grip: M1891, Stock: Type 2a Nambu, Core: MG42 ]
+damage: 12.8775 - 6.89458
+dropoffStuds: 121.485 - 263.217
+fireRate: 1620
+adsSpread: 0.878426
+hipfireSpread: 8.78426
+reloadTime: 7.475
+magazineSize: 75
+health: 13
+recoilHipVertical: 60.4571 - 86.6932
+recoilAimVertical: 30.2285 - 43.3466
+movementSpeed: 0.175
+TTK: 0.259259 Seconds
+
+[ Barrel: Spray Can, Magazine: M60, Grip: M1891, Stock: Mas-38, Core: MG42 ]
+damage: 12.8775 - 6.89458
+dropoffStuds: 121.485 - 263.217
+fireRate: 1620
+adsSpread: 0.959063
+hipfireSpread: 9.59063
+reloadTime: 6.98913
+magazineSize: 75
+health: 13
+recoilHipVertical: 57.9354 - 83.0771
+recoilAimVertical: 28.9677 - 41.5386
+movementSpeed: 1.345
+TTK: 0.259259 Seconds
 

@@ -665,13 +665,6 @@ Recoil: -16%
 Damage: -5%
 Range: -9%
 ---
-Magazine: Paintball
-Magazine_Size: 70
-Reload_Time: 6.2
-Fire_Rate: +18%
-Damage: -2%
-Spread: +18%
----
 
 Category: BR Magazines
 ---

@@ -765,6 +765,22 @@
       "Reload_Speed": 10
     },
     {
+      "Category": "Weird",
+      "Name": "Paintball",
+      "Movement_Speed": 2.5,
+      "Recoil": -28,
+      "Damage": -3,
+      "Range": -3
+    },
+    {
+      "Category": "Weird",
+      "Name": "Spray Can",
+      "Fire_Rate": 25,
+      "Movement_Speed": 2.5,
+      "Damage": -2,
+      "Range": -11
+    },
+    {
       "Category": "BR",
       "Name": "M1Garand",
       "Damage": 7,
@@ -3438,6 +3454,41 @@
       ]
     },
     {
+      "Category": "Weird",
+      "Name": "Paintball",
+      "Damage": [
+        24.5,
+        18.4
+      ],
+      "Dropoff_Studs": [
+        140,
+        290
+      ],
+      "Fire_Rate": 450,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 0.3,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 240,
+      "Suppression": 0.1,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -14,
+        14
+      ],
+      "Recoil_Hip_Vertical": [
+        15,
+        22
+      ],
+      "Recoil_Aim_Horizontal": [
+        -6.3,
+        6.3
+      ],
+      "Recoil_Aim_Vertical": [
+        6.7,
+        9.9
+      ]
+    },
+    {
       "Category": "BR",
       "Name": "M1Garand",
       "Damage": [
@@ -4609,6 +4660,13 @@
       "Spread": 30
     },
     {
+      "Category": "Weird",
+      "Name": "Paintball",
+      "Movement_Speed": 4,
+      "Reload_Speed": -7,
+      "Spread": 14
+    },
+    {
       "Category": "BR",
       "Name": "M1Garand",
       "Fire_Rate": 8,
@@ -5551,6 +5609,15 @@
       "Range": -9
     },
     {
+      "Category": "Weird",
+      "Name": "Paintball",
+      "Magazine_Size": 70,
+      "Reload_Time": 6.2,
+      "Fire_Rate": 18,
+      "Damage": -2,
+      "Spread": 18
+    },
+    {
       "Category": "BR",
       "Name": "M1Garand",
       "Magazine_Size": 8,
@@ -6336,6 +6403,13 @@
       "Range": -2,
       "Recoil": 35,
       "Spread": 25
+    },
+    {
+      "Category": "Weird",
+      "Name": "Paintball",
+      "Movement_Speed": 6,
+      "Reload_Speed": -7,
+      "Spread": 12
     },
     {
       "Category": "BR",

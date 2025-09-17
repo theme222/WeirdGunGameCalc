@@ -439,11 +439,6 @@ Range: -2%
 Recoil: +35%
 Spread: +25%
 ---
-Stock: Paintball
-Movement_Speed: +6%
-Reload_Speed: -7%
-Spread: +12%
----
 
 Category: BR Stocks
 ---

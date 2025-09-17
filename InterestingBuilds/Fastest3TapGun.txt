@@ -1,5 +1,18 @@
 ./Calculator -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 
 Current top 10 guns are: 
+[ Barrel: Car Muffler, Magazine: PP-19 Bizon, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.7302 - 19.1587
+dropoffStuds: 133.4 - 156.4
+fireRate: 865.675
+adsSpread: 0.384087
+hipfireSpread: 6.40144
+reloadTime: 4.4
+magazineSize: 64
+health: -14.5
+recoilHipVertical: 19.6639 - 23.5966
+recoilAimVertical: 7.86555 - 9.43865
+TTK: 0.13862 Seconds
+
 [ Barrel: Car Muffler, Magazine: PP-19 Bizon, Grip: MP 40, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
 damage: 33.4149 - 18.9797
 dropoffStuds: 133.4 - 156.4
@@ -24,19 +37,6 @@ magazineSize: 64
 health: -7
 recoilHipVertical: 15.9869 - 19.1843
 recoilAimVertical: 6.39475 - 7.6737
-TTK: 0.13862 Seconds
-
-[ Barrel: Car Muffler, Magazine: PP-19 Bizon, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
-damage: 33.7302 - 19.1587
-dropoffStuds: 133.4 - 156.4
-fireRate: 865.675
-adsSpread: 0.384087
-hipfireSpread: 6.40144
-reloadTime: 4.4
-magazineSize: 64
-health: -14.5
-recoilHipVertical: 19.6639 - 23.5966
-recoilAimVertical: 7.86555 - 9.43865
 TTK: 0.13862 Seconds
 
 [ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
@@ -79,19 +79,6 @@ recoilHipVertical: 14.03 - 16.836
 recoilAimVertical: 5.612 - 6.7344
 TTK: 0.143336 Seconds
 
-[ Barrel: Snake Sniper, Magazine: MP 40, Grip: MP 40, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
-damage: 33.6558 - 20.1935
-dropoffStuds: 145 - 170
-fireRate: 837.194
-adsSpread: 0.538489
-hipfireSpread: 8.97482
-reloadTime: 2.625
-magazineSize: 32
-health: -5
-recoilHipVertical: 18.239 - 21.8868
-recoilAimVertical: 7.2956 - 8.75472
-TTK: 0.143336 Seconds
-
 [ Barrel: Snake Sniper, Magazine: MP 40, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
 damage: 33.9733 - 20.384
 dropoffStuds: 145 - 170
@@ -103,6 +90,19 @@ magazineSize: 32
 health: -12.5
 recoilHipVertical: 17.2569 - 20.7083
 recoilAimVertical: 6.90276 - 8.28331
+TTK: 0.143336 Seconds
+
+[ Barrel: Snake Sniper, Magazine: MP 40, Grip: MP 40, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.6558 - 20.1935
+dropoffStuds: 145 - 170
+fireRate: 837.194
+adsSpread: 0.538489
+hipfireSpread: 8.97482
+reloadTime: 2.625
+magazineSize: 32
+health: -5
+recoilHipVertical: 18.239 - 21.8868
+recoilAimVertical: 7.2956 - 8.75472
 TTK: 0.143336 Seconds
 
 [ Barrel: Car Muffler, Magazine: PP-19 Bizon, Grip: Type 2a Nambu, Stock: Kriss Vector, Core: M1 Carbine ]

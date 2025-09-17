@@ -67,18 +67,17 @@ recoilAimVertical: 26.7462 - 37.4447
 movementSpeed: 2.625
 TTK: 0.418605 Seconds
 
-[ Barrel: Car Muffler, Magazine: MP 40, Grip: Hell-Trooper-23, Stock: None, Core: B17 ]
+[ Barrel: Car Muffler, Magazine: MP 40, Grip: AWM, Stock: None, Core: B17 ]
 damage: 11.4032 - 6.30531
 dropoffStuds: 20 - 95
 fireRate: 1140
-adsSpread: 0.37723
-hipfireSpread: 0.922119
-reloadTime: 2.66062
+adsSpread: 0.369584
+hipfireSpread: 0.903427
+reloadTime: 3.08
 magazineSize: 32
 health: -7
-recoilHipVertical: 40.365 - 56.511
-recoilAimVertical: 24.219 - 33.9066
-movementSpeed: 1.95
+recoilHipVertical: 43.5942 - 61.0319
+recoilAimVertical: 26.1565 - 36.6191
 TTK: 0.421053 Seconds
 
 [ Barrel: Car Muffler, Magazine: MP 40, Grip: STG-44, Stock: None, Core: B17 ]

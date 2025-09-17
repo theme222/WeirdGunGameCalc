@@ -28,6 +28,48 @@ recoilAimVertical: 6.5415 - 7.19565
 movementSpeed: -5
 TTK: 0.159792 Seconds
 
+[ Barrel: M110, Magazine: BAR, Grip: Circuit Judge, Stock: Snake Sniper, Core: SKS ]
+damage: 52.5207 - 36.8039
+dropoffStuds: 165.506 - 509.25
+fireRate: 363.375
+adsSpread: 0.400756
+hipfireSpread: 8.01511
+reloadTime: 4.24
+magazineSize: 20
+health: 5
+recoilHipVertical: 12.9228 - 14.2151
+recoilAimVertical: 6.4614 - 7.10754
+movementSpeed: -9
+TTK: 0.165119 Seconds
+
+[ Barrel: M110, Magazine: BAR, Grip: APS, Stock: Snake Sniper, Core: SKS ]
+damage: 50.361 - 35.2904
+dropoffStuds: 165.506 - 509.25
+fireRate: 363.375
+adsSpread: 0.297239
+hipfireSpread: 5.94479
+reloadTime: 4.4944
+magazineSize: 20
+health: 5
+recoilHipVertical: 11.7856 - 12.9642
+recoilAimVertical: 5.8928 - 6.48208
+movementSpeed: -9
+TTK: 0.165119 Seconds
+
+[ Barrel: M110, Magazine: BAR, Grip: Makarov, Stock: Snake Sniper, Core: SKS ]
+damage: 50.2137 - 35.1873
+dropoffStuds: 165.506 - 509.25
+fireRate: 363.375
+adsSpread: 0.332731
+hipfireSpread: 6.65461
+reloadTime: 4.24
+magazineSize: 20
+health: 5
+recoilHipVertical: 12.9228 - 14.2151
+recoilAimVertical: 6.4614 - 7.10754
+movementSpeed: -9
+TTK: 0.165119 Seconds
+
 [ Barrel: M110, Magazine: BAR, Grip: APS, Stock: Lewis, Core: SKS ]
 damage: 50.361 - 35.2904
 dropoffStuds: 165.506 - 509.25
@@ -56,20 +98,6 @@ recoilAimVertical: 6.49993 - 7.14993
 movementSpeed: -7.5
 TTK: 0.165119 Seconds
 
-[ Barrel: M110, Magazine: BAR, Grip: APS, Stock: Snake Sniper, Core: SKS ]
-damage: 50.361 - 35.2904
-dropoffStuds: 165.506 - 509.25
-fireRate: 363.375
-adsSpread: 0.297239
-hipfireSpread: 5.94479
-reloadTime: 4.4944
-magazineSize: 20
-health: 5
-recoilHipVertical: 11.7856 - 12.9642
-recoilAimVertical: 5.8928 - 6.48208
-movementSpeed: -9
-TTK: 0.165119 Seconds
-
 [ Barrel: M110, Magazine: BAR, Grip: APS, Stock: VSSR, Core: SKS ]
 damage: 50.361 - 35.5466
 dropoffStuds: 168.32 - 517.907
@@ -82,34 +110,6 @@ health: 5
 recoilHipVertical: 13.3034 - 14.6338
 recoilAimVertical: 6.65172 - 7.31689
 movementSpeed: -2.5
-TTK: 0.165119 Seconds
-
-[ Barrel: M110, Magazine: BAR, Grip: Circuit Judge, Stock: Snake Sniper, Core: SKS ]
-damage: 52.5207 - 36.8039
-dropoffStuds: 165.506 - 509.25
-fireRate: 363.375
-adsSpread: 0.400756
-hipfireSpread: 8.01511
-reloadTime: 4.24
-magazineSize: 20
-health: 5
-recoilHipVertical: 12.9228 - 14.2151
-recoilAimVertical: 6.4614 - 7.10754
-movementSpeed: -9
-TTK: 0.165119 Seconds
-
-[ Barrel: M110, Magazine: BAR, Grip: Makarov, Stock: Snake Sniper, Core: SKS ]
-damage: 50.2137 - 35.1873
-dropoffStuds: 165.506 - 509.25
-fireRate: 363.375
-adsSpread: 0.332731
-hipfireSpread: 6.65461
-reloadTime: 4.24
-magazineSize: 20
-health: 5
-recoilHipVertical: 12.9228 - 14.2151
-recoilAimVertical: 6.4614 - 7.10754
-movementSpeed: -9
 TTK: 0.165119 Seconds
 
 [ Barrel: VSSR, Magazine: BAR, Grip: Circuit Judge, Stock: Dragunov, Core: SKS ]
