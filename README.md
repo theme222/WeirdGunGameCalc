@@ -2,7 +2,7 @@
 > A tool to bruteforce all combinations of guns in the roblox game "Weird Gun Game"
 
 ## About
-`Updated to The Takeover Event`<br/>
+`Updated to Cyber 3517`<br/>
 
 **Updates To The Calculator (Not The Dataset) Will Be Put On Hold For The Time Being (or when I feel like it)**
 

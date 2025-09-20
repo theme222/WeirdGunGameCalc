@@ -152,8 +152,8 @@ Spread: +12%
 ---
 Stock: Mosin
 Fire_Rate: +2%
-Spread: -15%
 Recoil: +24%
+Spread: +24%
 ---
 
 Category: SMG Stocks
@@ -255,12 +255,6 @@ Spread: -11%
 Recoil: +22%
 Reload_Speed: +4%
 ---
-Stock: MP18
-Movement_Speed: +3.5%
-Recoil: -20%
-Range: -3%
-Reload_Speed: +8%
----
 
 Category: LMG Stocks
 ---
@@ -319,11 +313,6 @@ Health: +5%
 Recoil: -11%
 Movement_Speed: -4.5%
 Spread: +16%
----
-Stock: Burton
-Movement_Speed: +4%
-Reload_Speed: -5%
-Recoil: +26%
 ---
 
 Category: Shotgun Stocks

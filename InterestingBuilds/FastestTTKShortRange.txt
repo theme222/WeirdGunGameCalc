@@ -1,7 +1,7 @@
 ./Calculator -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
 [ Barrel: Snake Sniper, Magazine: MAC-10, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Paintball ]
-damage: 33.3427 - 24.0448
+damage: 33.3427 - 19.3387
 dropoffStuds: 123.2 - 255.2
 fireRate: 656.316
 adsSpread: 0.620903
@@ -14,21 +14,8 @@ recoilAimVertical: 11.0349 - 16.3053
 movementSpeed: 4.4
 TTK: 0.182839 Seconds
 
-[ Barrel: M1911, Magazine: MAC-10, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Paintball ]
-damage: 33.3427 - 23.0221
-dropoffStuds: 109.648 - 227.128
-fireRate: 637.2
-adsSpread: 0.517848
-hipfireSpread: 8.6308
-reloadTime: 2
-magazineSize: 30
-recoilHipVertical: 30.8813 - 45.2925
-recoilAimVertical: 13.7936 - 20.3816
-movementSpeed: 4.4
-TTK: 0.188324 Seconds
-
 [ Barrel: M870 Breacher, Magazine: MAC-10, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Paintball ]
-damage: 33.903 - 23.5035
+damage: 33.903 - 18.2398
 dropoffStuds: 110.88 - 229.68
 fireRate: 637.2
 adsSpread: 0.67243
@@ -40,8 +27,21 @@ recoilAimVertical: 11.0349 - 16.3053
 movementSpeed: 7.4
 TTK: 0.188324 Seconds
 
+[ Barrel: M1911, Magazine: MAC-10, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Paintball ]
+damage: 33.3427 - 17.7983
+dropoffStuds: 109.648 - 227.128
+fireRate: 637.2
+adsSpread: 0.517848
+hipfireSpread: 8.6308
+reloadTime: 2
+magazineSize: 30
+recoilHipVertical: 30.8813 - 45.2925
+recoilAimVertical: 13.7936 - 20.3816
+movementSpeed: 4.4
+TTK: 0.188324 Seconds
+
 [ Barrel: Snake Sniper, Magazine: NP5, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Paintball ]
-damage: 33.3427 - 24.1278
+damage: 33.3427 - 19.4638
 dropoffStuds: 124.6 - 258.1
 fireRate: 628.97
 adsSpread: 0.590012
@@ -55,7 +55,7 @@ movementSpeed: 3.3
 TTK: 0.190788 Seconds
 
 [ Barrel: Snake Sniper, Magazine: PP-19 Bizon, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Paintball ]
-damage: 33.3427 - 24.3769
+damage: 33.3427 - 19.8389
 dropoffStuds: 128.8 - 266.8
 fireRate: 628.97
 adsSpread: 0.552168
@@ -68,7 +68,7 @@ recoilAimVertical: 9.15488 - 13.5274
 TTK: 0.190788 Seconds
 
 [ Barrel: Snake Sniper, Magazine: PP-19 Bizon, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: Paintball ]
-damage: 33.3427 - 22.5837
+damage: 33.3427 - 17.1381
 dropoffStuds: 103.04 - 213.44
 fireRate: 628.97
 adsSpread: 0.597991
@@ -81,7 +81,7 @@ recoilAimVertical: 9.15488 - 13.5274
 TTK: 0.190788 Seconds
 
 [ Barrel: Snake Sniper, Magazine: Type 2a Nambu, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Paintball ]
-damage: 33.3427 - 23.7128
+damage: 33.3427 - 18.8386
 dropoffStuds: 117.6 - 243.6
 fireRate: 623.5
 adsSpread: 0.620903
@@ -95,7 +95,7 @@ movementSpeed: 3
 TTK: 0.192462 Seconds
 
 [ Barrel: Snake Sniper, Magazine: Graphics Card, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Paintball ]
-damage: 33.3427 - 24.3769
+damage: 33.3427 - 19.8389
 dropoffStuds: 128.8 - 266.8
 fireRate: 623.5
 adsSpread: 0.620903
@@ -108,7 +108,7 @@ recoilAimVertical: 6.29398 - 9.30006
 TTK: 0.192462 Seconds
 
 [ Barrel: Snake Sniper, Magazine: MAC-10, Grip: Circuit Judge, Stock: Spas-12, Core: Paintball ]
-damage: 33.3427 - 22.9291
+damage: 33.3427 - 17.6583
 dropoffStuds: 108.416 - 224.576
 fireRate: 622.944
 adsSpread: 0.556586
@@ -122,7 +122,7 @@ movementSpeed: 1.4
 TTK: 0.192634 Seconds
 
 [ Barrel: M1911, Magazine: NP5, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Paintball ]
-damage: 33.3427 - 23.1142
+damage: 33.3427 - 17.9371
 dropoffStuds: 110.894 - 229.709
 fireRate: 610.65
 adsSpread: 0.492085

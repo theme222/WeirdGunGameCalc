@@ -72,7 +72,8 @@
       "Damage": 7,
       "Movement_Speed": 2,
       "Spread": -16,
-      "Recoil": 19
+      "Health": -5,
+      "Recoil": 25
     },
     {
       "Category": "Assault Rifle",
@@ -410,6 +411,14 @@
       "Range": -8
     },
     {
+      "Category": "SMG",
+      "Name": "MP18",
+      "Damage": 8,
+      "Range": 2,
+      "Fire_Rate": -2,
+      "Recoil": 32
+    },
+    {
       "Category": "LMG",
       "Name": "M60",
       "Damage": 8.5,
@@ -439,18 +448,20 @@
       "Category": "LMG",
       "Name": "M1917 WC",
       "Fire_Rate": 20,
+      "Health": 25,
       "Range": 9,
       "Recoil": -20,
       "Spread": -10,
-      "Movement_Speed": -25,
+      "Movement_Speed": -30,
       "Reload_Speed": 15
     },
     {
       "Category": "LMG",
       "Name": "M1919 Tripod",
+      "Health": 10,
       "Recoil": -30,
       "Spread": -50,
-      "Movement_Speed": -30,
+      "Movement_Speed": -20,
       "Reload_Speed": 25
     },
     {
@@ -514,6 +525,14 @@
       "Recoil": -16,
       "Movement_Speed": -9,
       "Reload_Speed": 4
+    },
+    {
+      "Category": "LMG",
+      "Name": "Burton",
+      "Fire_Rate": 14,
+      "Recoil": -19,
+      "Damage": -4,
+      "Reload_Speed": 2
     },
     {
       "Category": "Shotgun",
@@ -640,8 +659,8 @@
     {
       "Category": "Weird",
       "Name": "Ketchup",
-      "Fire_Rate": 25,
-      "Damage": -20,
+      "Damage": 20,
+      "Fire_Rate": -25,
       "Spread": 40
     },
     {
@@ -688,8 +707,8 @@
       "Category": "Weird",
       "Name": "Mustard",
       "Fire_Rate": 25,
-      "Damage": -10,
-      "Spread": 45
+      "Damage": -5,
+      "Spread": 40
     },
     {
       "Category": "Weird",
@@ -742,7 +761,7 @@
       "Damage": 3,
       "Fire_Rate": 3,
       "Movement_Speed": 5,
-      "Range": 3,
+      "Recoil": 12,
       "Reload_Speed": 4
     },
     {
@@ -823,10 +842,10 @@
       "Name": "M110",
       "Damage": 22,
       "Range": 5,
-      "Recoil": -11,
       "Detection_Radius": 35,
       "Fire_Rate": -15,
-      "Spread": 32
+      "Recoil": 42,
+      "Spread": 11
     },
     {
       "Category": "BR",
@@ -940,6 +959,14 @@
       "Spread": -7,
       "Fire_Rate": -20,
       "Recoil": 23
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Cyber 3517",
+      "Damage": 30,
+      "Fire_Rate": -25,
+      "Movement_Speed": -2,
+      "Recoil": 60
     }
   ],
   "Cores": [
@@ -957,7 +984,7 @@
       "Fire_Rate": 600,
       "Hipfire_Spread": 5.5,
       "ADS_Spread": 0.5,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 120,
       "Suppression": 0.3,
       "Equip_Time": 0.7,
@@ -990,9 +1017,9 @@
         350
       ],
       "Fire_Rate": 650,
-      "Hipfire_Spread": 2,
+      "Hipfire_Spread": 1.8,
       "ADS_Spread": 0.25,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 90,
       "Suppression": 0.3,
       "Equip_Time": 0.7,
@@ -1027,7 +1054,7 @@
       "Fire_Rate": 680,
       "Hipfire_Spread": 1,
       "ADS_Spread": 0.125,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 75,
       "Movement_Speed_Modifier": 2.5,
       "Suppression": 0.3,
@@ -1063,7 +1090,7 @@
       "Fire_Rate": 750,
       "Hipfire_Spread": 2,
       "ADS_Spread": 0.35,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 60,
       "Suppression": 0.3,
       "Equip_Time": 0.7,
@@ -1099,7 +1126,7 @@
       "Fire_Rate": 900,
       "Hipfire_Spread": 4,
       "ADS_Spread": 0.5,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 110,
       "Suppression": 0.3,
       "Equip_Time": 0.7,
@@ -1134,7 +1161,7 @@
       "Fire_Rate": 625,
       "Hipfire_Spread": 5,
       "ADS_Spread": 0.35,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 100,
       "Suppression": 0.3,
       "Equip_Time": 0.7,
@@ -1169,7 +1196,7 @@
       "Fire_Rate": 500,
       "Hipfire_Spread": 5.5,
       "ADS_Spread": 0.5,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 110,
       "Suppression": 0.3,
       "Equip_Time": 0.7,
@@ -1204,7 +1231,7 @@
       "Fire_Rate": 900,
       "Hipfire_Spread": 5.5,
       "ADS_Spread": 5.5,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 125,
       "Suppression": 0.3,
       "Health": 17,
@@ -1240,7 +1267,7 @@
       "Fire_Rate": 650,
       "Hipfire_Spread": 5,
       "ADS_Spread": 0.8,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 90,
       "Suppression": 0.3,
       "Equip_Time": 0.7,
@@ -1276,7 +1303,7 @@
       "Fire_Rate": 660,
       "Hipfire_Spread": 3.5,
       "ADS_Spread": 1,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 70,
       "Suppression": 0.4,
       "Equip_Time": 0.7,
@@ -1311,7 +1338,7 @@
       "Fire_Rate": 600,
       "Hipfire_Spread": 4,
       "ADS_Spread": 1.3,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 200,
       "Suppression": 0.3,
       "Equip_Time": 0.7,
@@ -1346,7 +1373,7 @@
       "Fire_Rate": 750,
       "Hipfire_Spread": 2,
       "ADS_Spread": 0.45,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 95,
       "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
@@ -1416,7 +1443,7 @@
       "Fire_Rate": 750,
       "Hipfire_Spread": 4.5,
       "ADS_Spread": 0.3,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 135,
       "Suppression": 0.3,
       "Health": 5,
@@ -1452,7 +1479,7 @@
       "Fire_Rate": 850,
       "Hipfire_Spread": 5.5,
       "ADS_Spread": 0.2,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 120,
       "Burst": 3,
       "Suppression": 0.3,
@@ -1488,7 +1515,7 @@
       "Fire_Rate": 650,
       "Hipfire_Spread": 3.5,
       "ADS_Spread": 0.2,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 120,
       "Suppression": 0.3,
       "Equip_Time": 0.7,
@@ -1523,7 +1550,7 @@
       "Fire_Rate": 700,
       "Hipfire_Spread": 5,
       "ADS_Spread": 0.35,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 120,
       "Suppression": 0.3,
       "Equip_Time": 0.7,
@@ -1806,16 +1833,16 @@
       ],
       "Fire_Rate": 35,
       "Hipfire_Spread": 12,
-      "ADS_Spread": 0.2,
+      "ADS_Spread": 0.165,
       "Time_To_Aim": 0.8,
       "Detection_Radius": 350,
       "Movement_Speed_Modifier": -4,
       "Suppression": 1,
+      "Equip_Time": 0.8,
       "Recoil_Hip_Horizontal": [
         -5,
         5
       ],
-      "Equip_Time": 1,
       "Recoil_Hip_Vertical": [
         70,
         90
@@ -1848,11 +1875,11 @@
       "Movement_Speed_Modifier": 10,
       "Suppression": 0.8,
       "Health": -10,
+      "Equip_Time": 1,
       "Recoil_Hip_Horizontal": [
         -21,
         21
       ],
-      "Equip_Time": 1,
       "Recoil_Hip_Vertical": [
         72,
         82
@@ -1885,11 +1912,11 @@
       "Movement_Speed_Modifier": -12.5,
       "Suppression": 1,
       "Health": 3,
+      "Equip_Time": 1,
       "Recoil_Hip_Horizontal": [
         -20,
         20
       ],
-      "Equip_Time": 1,
       "Recoil_Hip_Vertical": [
         90,
         120
@@ -1908,12 +1935,13 @@
       "Name": "VSSR",
       "Damage": [
         70,
-        50.4
+        40.6
       ],
       "Dropoff_Studs": [
         200,
         400
       ],
+      "Falloff_Factor": -0.42,
       "Fire_Rate": 32,
       "Hipfire_Spread": 17,
       "ADS_Spread": 0.2,
@@ -1921,11 +1949,11 @@
       "Detection_Radius": 300,
       "Movement_Speed_Modifier": -5,
       "Suppression": 1,
+      "Equip_Time": 1,
       "Recoil_Hip_Horizontal": [
         -16,
         16
       ],
-      "Equip_Time": 1,
       "Recoil_Hip_Vertical": [
         85,
         100
@@ -1950,7 +1978,7 @@
         340,
         525
       ],
-      "Fire_Rate": 21,
+      "Fire_Rate": 24,
       "Hipfire_Spread": 11,
       "ADS_Spread": 0.275,
       "Time_To_Aim": 0.85,
@@ -2027,11 +2055,11 @@
       "Time_To_Aim": 0.15,
       "Detection_Radius": 40,
       "Movement_Speed_Modifier": 9,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -25,
         25
       ],
-      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         60,
         80
@@ -2062,11 +2090,11 @@
       "Time_To_Aim": 0.35,
       "Detection_Radius": 90,
       "Movement_Speed_Modifier": 3.8,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -10,
         10
       ],
-      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         40,
         60
@@ -2097,11 +2125,11 @@
       "Time_To_Aim": 0.3,
       "Detection_Radius": 75,
       "Movement_Speed_Modifier": 4.6,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -20,
         20
       ],
-      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         40,
         60
@@ -2132,11 +2160,11 @@
       "Time_To_Aim": 0.35,
       "Detection_Radius": 90,
       "Movement_Speed_Modifier": 3.2,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -15,
         15
       ],
-      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         70,
         80
@@ -2167,11 +2195,11 @@
       "Time_To_Aim": 0.35,
       "Detection_Radius": 97,
       "Movement_Speed_Modifier": 3.8,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -20,
         20
       ],
-      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         60,
         90
@@ -2202,11 +2230,11 @@
       "Time_To_Aim": 0.3,
       "Detection_Radius": 95,
       "Movement_Speed_Modifier": 2.3,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -25,
         25
       ],
-      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         30,
         60
@@ -2237,11 +2265,11 @@
       "Time_To_Aim": 0.35,
       "Detection_Radius": 90,
       "Movement_Speed_Modifier": 3.3,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -5,
         5
       ],
-      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         10,
         30
@@ -2272,11 +2300,12 @@
       "Time_To_Aim": 0.35,
       "Detection_Radius": 80,
       "Movement_Speed_Modifier": 4,
+      "Health": -8,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -10,
         10
       ],
-      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         25,
         35
@@ -2307,11 +2336,11 @@
       "Time_To_Aim": 0.35,
       "Detection_Radius": 110,
       "Movement_Speed_Modifier": 4.1,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -7.5,
         7.5
       ],
-      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         10,
         30
@@ -2341,11 +2370,11 @@
       "ADS_Spread": 0.85,
       "Time_To_Aim": 0.8,
       "Detection_Radius": 80,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -50,
         50
       ],
-      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         30,
         50
@@ -2375,11 +2404,11 @@
       "ADS_Spread": 0.6,
       "Time_To_Aim": 0.7,
       "Detection_Radius": 70,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -15,
         15
       ],
-      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         20,
         45
@@ -2410,11 +2439,11 @@
       "Time_To_Aim": 0.35,
       "Detection_Radius": 60,
       "Movement_Speed_Modifier": 2.5,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -15,
         15
       ],
-      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         20,
         30
@@ -2445,11 +2474,11 @@
       "Time_To_Aim": 0.3,
       "Detection_Radius": 90,
       "Movement_Speed_Modifier": 2.5,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -21,
         21
       ],
-      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         30,
         38
@@ -2480,11 +2509,11 @@
       "Time_To_Aim": 0.6,
       "Detection_Radius": 120,
       "Suppression": 0.3,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -4,
         4
       ],
-      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         10,
         12
@@ -2515,11 +2544,11 @@
       "Time_To_Aim": 0.25,
       "Detection_Radius": 85,
       "Movement_Speed_Modifier": 3.5,
+      "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
         -12,
         12
       ],
-      "Equip_Time": 0.5,
       "Recoil_Hip_Vertical": [
         25,
         45
@@ -2531,6 +2560,40 @@
       "Recoil_Aim_Vertical": [
         18.8,
         33.8
+      ]
+    },
+    {
+      "Category": "SMG",
+      "Name": "MP18",
+      "Damage": [
+        26,
+        16.9
+      ],
+      "Dropoff_Studs": [
+        120,
+        185
+      ],
+      "Fire_Rate": 400,
+      "Hipfire_Spread": 2.5,
+      "ADS_Spread": 0.5,
+      "Time_To_Aim": 0.35,
+      "Detection_Radius": 120,
+      "Movement_Speed_Modifier": 3.5,
+      "Recoil_Hip_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Hip_Vertical": [
+        34,
+        47
+      ],
+      "Recoil_Aim_Horizontal": [
+        -2.8,
+        2.8
+      ],
+      "Recoil_Aim_Vertical": [
+        11.9,
+        16.4
       ]
     },
     {
@@ -2905,6 +2968,40 @@
       ]
     },
     {
+      "Category": "LMG",
+      "Name": "Burton",
+      "Damage": [
+        14,
+        11.2
+      ],
+      "Dropoff_Studs": [
+        180,
+        385
+      ],
+      "Fire_Rate": 800,
+      "Hipfire_Spread": 4.5,
+      "ADS_Spread": 0.15,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 120,
+      "Suppression": 0.3,
+      "Recoil_Hip_Horizontal": [
+        -9,
+        9
+      ],
+      "Recoil_Hip_Vertical": [
+        10,
+        11
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3.1,
+        3.1
+      ],
+      "Recoil_Aim_Vertical": [
+        3.5,
+        3.8
+      ]
+    },
+    {
       "Category": "Shotgun",
       "Name": "M1887",
       "Damage": [
@@ -3213,9 +3310,9 @@
         160
       ],
       "Pellets": 10,
-      "Fire_Rate": 60,
+      "Fire_Rate": 66,
       "Hipfire_Spread": 6,
-      "ADS_Spread": 2.1,
+      "ADS_Spread": 1.9,
       "Time_To_Aim": 1,
       "Detection_Radius": 250,
       "Burst": 2,
@@ -3229,12 +3326,12 @@
         57
       ],
       "Recoil_Aim_Horizontal": [
-        -5,
-        5
+        -2.5,
+        2.5
       ],
       "Recoil_Aim_Vertical": [
-        8,
-        11.4
+        4,
+        5.7
       ]
     },
     {
@@ -3458,12 +3555,13 @@
       "Name": "Paintball",
       "Damage": [
         24.5,
-        18.4
+        15.3
       ],
       "Dropoff_Studs": [
         140,
         290
       ],
+      "Falloff_Factor": -0.375,
       "Fire_Rate": 450,
       "Hipfire_Spread": 5,
       "ADS_Spread": 0.3,
@@ -4123,6 +4221,40 @@
         24,
         28.8
       ]
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Cyber 3517",
+      "Damage": [
+        45,
+        24.8
+      ],
+      "Dropoff_Studs": [
+        75,
+        110
+      ],
+      "Fire_Rate": 198,
+      "Hipfire_Spread": 4,
+      "ADS_Spread": 0.2,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 200,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        90,
+        110
+      ],
+      "Recoil_Aim_Horizontal": [
+        -16,
+        16
+      ],
+      "Recoil_Aim_Vertical": [
+        72,
+        88
+      ]
     }
   ],
   "Grips": [
@@ -4459,6 +4591,14 @@
       "Recoil": 23
     },
     {
+      "Category": "SMG",
+      "Name": "MP18",
+      "Range": 2,
+      "Spread": -12,
+      "Movement_Speed": -2,
+      "Recoil": 18
+    },
+    {
       "Category": "LMG",
       "Name": "M60",
       "Recoil": -15,
@@ -4498,7 +4638,7 @@
     {
       "Category": "LMG",
       "Name": "BAR",
-      "Damage": 0.4,
+      "Damage": 4,
       "Movement_Speed": -5,
       "Recoil": 12
     },
@@ -4532,6 +4672,13 @@
       "Spread": -16,
       "Movement_Speed": -4,
       "Recoil": 7
+    },
+    {
+      "Category": "LMG",
+      "Name": "Burton",
+      "Recoil": -10,
+      "Reload_Speed": -4,
+      "Spread": 14
     },
     {
       "Category": "Shotgun",
@@ -4654,8 +4801,11 @@
     {
       "Category": "Weird",
       "Name": "Lamp Shade",
-      "Health": 20,
+      "Health": 21,
+      "Damage": -5,
       "Detection_Radius": 100,
+      "Equip_Time": 200,
+      "Movement_Speed": -9,
       "Recoil": 50,
       "Spread": 30
     },
@@ -4799,6 +4949,15 @@
       "Spread": -10,
       "Movement_Speed": -4,
       "Reload_Speed": 8
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Cyber 3517",
+      "Damage": 5,
+      "Range": 1,
+      "Movement_Speed": -3,
+      "Recoil": 30,
+      "Spread": 11
     }
   ],
   "Magazines": [
@@ -5277,6 +5436,16 @@
       "Recoil": 28
     },
     {
+      "Category": "SMG",
+      "Name": "MP18",
+      "Magazine_Size": 32,
+      "Reload_Time": 2.2,
+      "Damage": 16,
+      "Fire_Rate": -4,
+      "Range": -9,
+      "Recoil": 22
+    },
+    {
       "Category": "LMG",
       "Name": "M60",
       "Magazine_Size": 75,
@@ -5388,6 +5557,15 @@
       "Spread": 18
     },
     {
+      "Category": "LMG",
+      "Name": "Burton",
+      "Magazine_Size": 40,
+      "Reload_Time": 3.5,
+      "Fire_Rate": 18,
+      "Damage": -3,
+      "Spread": 18
+    },
+    {
       "Category": "Shotgun",
       "Name": "Spas-12",
       "Magazine_Size": 12,
@@ -5484,8 +5662,8 @@
       "Category": "Shotgun",
       "Name": "Blunderbuss",
       "Magazine_Size": 1,
-      "Reload_Time": 7,
-      "Damage": 22,
+      "Reload_Time": 6.5,
+      "Damage": 30,
       "Pellets": 200,
       "Fire_Rate": -5,
       "Range": -23,
@@ -5507,8 +5685,8 @@
       "Name": "Double Barrel",
       "Magazine_Size": 2,
       "Reload_Time": 5,
-      "Damage": 30,
-      "Pellets": 180,
+      "Damage": 35,
+      "Pellets": 100,
       "Fire_Rate": -13,
       "Range": -7,
       "Recoil": 100
@@ -5821,6 +5999,17 @@
       "Fire_Rate": -10,
       "Movement_Speed": -2,
       "Recoil": 27
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Cyber 3517",
+      "Magazine_Size": 10,
+      "Reload_Time": 5,
+      "Damage": 30,
+      "Range": 2,
+      "Fire_Rate": -20,
+      "Movement_Speed": -4,
+      "Recoil": 60
     }
   ],
   "Stocks": [
@@ -6033,8 +6222,8 @@
       "Category": "Sniper",
       "Name": "Mosin",
       "Fire_Rate": 2,
-      "Recoil": 24,
-      "Spread": 24
+      "Spread": -15,
+      "Recoil": 24
     },
     {
       "Category": "SMG",
@@ -6168,6 +6357,14 @@
       "Reload_Speed": 4
     },
     {
+      "Category": "SMG",
+      "Name": "MP18",
+      "Movement_Speed": 3.5,
+      "Recoil": -20,
+      "Range": -3,
+      "Reload_Speed": 8
+    },
+    {
       "Category": "LMG",
       "Name": "M60",
       "Recoil": -20,
@@ -6242,6 +6439,13 @@
       "Recoil": -11,
       "Movement_Speed": -4.5,
       "Spread": 16
+    },
+    {
+      "Category": "LMG",
+      "Name": "Burton",
+      "Movement_Speed": 4,
+      "Reload_Speed": -5,
+      "Recoil": 26
     },
     {
       "Category": "Shotgun",

@@ -52,8 +52,7 @@ Barrel: Hex Spitter
 Damage: +7%
 Movement_Speed: +2%
 Spread: -16%
-Health: -5%
-Recoil: +25%
+Recoil: +19%
 ---
 Barrel: C36C
 Damage: +3%
@@ -318,12 +317,6 @@ Movement_Speed: +4%
 Spread: -15%
 Range: -8%
 ---
-Barrel: MP18
-Damage: +8%
-Range: +2%
-Fire_Rate: -2%
-Recoil: +32%
----
 
 Category: LMG Barrels
 ---
@@ -349,18 +342,16 @@ Reload_Speed: +12%
 ---
 Barrel: M1917 WC
 Fire_Rate: +20%
-Health: +25%
 Range: +9%
 Recoil: -20%
 Spread: -10%
-Movement_Speed: -30%
+Movement_Speed: -25%
 Reload_Speed: +15%
 ---
 Barrel: M1919 Tripod
-Health: +10%
 Recoil: -30%
 Spread: -50%
-Movement_Speed: -20%
+Movement_Speed: -30%
 Reload_Speed: +25%
 ---
 Barrel: MG42
@@ -410,12 +401,6 @@ Fire_Rate: +5%
 Recoil: -16%
 Movement_Speed: -9%
 Reload_Speed: +4%
----
-Barrel: Burton
-Fire_Rate: +14%
-Recoil: -19%
-Damage: -4%
-Reload_Speed: +2%
 ---
 
 Category: Shotgun Barrels
@@ -518,8 +503,8 @@ Detection_Radius: 75
 Spread: +35%
 ---
 Barrel: Ketchup
-Damage: +20%
-Fire_Rate: -25%
+Fire_Rate: +25%
+Damage: -20%
 Spread: +40%
 ---
 Barrel: Quack
@@ -554,8 +539,8 @@ Spread: +200%
 ---
 Barrel: Mustard
 Fire_Rate: +25%
-Damage: -5%
-Spread: +40%
+Damage: -10%
+Spread: +45%
 ---
 Barrel: Honk
 Damage: +300%
@@ -596,7 +581,7 @@ Barrel: Lipstick
 Damage: +3%
 Fire_Rate: +3%
 Movement_Speed: +5%
-Recoil: +12%
+Range: +3%
 Reload_Speed: +4%
 ---
 Barrel: Mega Soaker
@@ -660,10 +645,10 @@ Recoil: +20%
 Barrel: M110
 Damage: +22%
 Range: +5%
+Recoil: -11%
 Detection_Radius: +35%
 Fire_Rate: -15%
-Recoil: +42%
-Spread: +11%
+Spread: +32%
 ---
 Barrel: SKS
 Fire_Rate: +5%
@@ -752,10 +737,4 @@ Range: +9%
 Spread: -7%
 Fire_Rate: -20%
 Recoil: +23%
----
-Barrel: Cyber 3517
-Damage: +30%
-Fire_Rate: -25%
-Movement_Speed: -2%
-Recoil: +60%
 ---

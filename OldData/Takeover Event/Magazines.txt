@@ -386,14 +386,6 @@ Fire_Rate: +0.7%
 Range: -9%
 Recoil: +28%
 ---
-Magazine: MP18
-Magazine_Size: 32
-Reload_Time: 2.2
-Damage: +16%
-Fire_Rate: -4%
-Range: -9%
-Recoil: +22%
----
 
 Category: LMG Magazines
 ---
@@ -488,13 +480,6 @@ Movement_Speed: -9%
 Recoil: +22%
 Spread: +18%
 ---
-Magazine: Burton
-Magazine_Size: 40
-Reload_Time: 3.5
-Fire_Rate: +18%
-Damage: -3%
-Spread: +18%
----
 
 Category: Shotgun Magazines
 ---
@@ -577,8 +562,8 @@ Spread: +16%
 ---
 Magazine: Blunderbuss
 Magazine_Size: 1
-Reload_Time: 6.5
-Damage: +30%
+Reload_Time: 7
+Damage: +22%
 Pellets: +200%
 Fire_Rate: -5%
 Range: -23%
@@ -596,8 +581,8 @@ Spread: +15%
 Magazine: Double Barrel
 Magazine_Size: 2
 Reload_Time: 5
-Damage: +35%
-Pellets: +100%
+Damage: +30%
+Pellets: +180%
 Fire_Rate: -13%
 Range: -7%
 Recoil: +100%
@@ -857,13 +842,4 @@ Range: +7%
 Fire_Rate: -10%
 Movement_Speed: -2%
 Recoil: +27%
----
-Magazine: Cyber 3517
-Magazine_Size: 10
-Reload_Time: 5
-Damage: +30%
-Range: +2%
-Fire_Rate: -20%
-Movement_Speed: -4%
-Recoil: +60%
 ---

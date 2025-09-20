@@ -246,12 +246,6 @@ Fire_Rate: +2%
 Movement_Speed: +7%
 Recoil: +23%
 ---
-Grip: MP18
-Range: +2%
-Spread: -12%
-Movement_Speed: -2%
-Recoil: +18%
----
 
 Category: LMG Grips
 ---
@@ -283,7 +277,7 @@ Reload_Speed: -16%
 Movement_Speed: -2.7%
 ---
 Grip: BAR
-Damage: +4%
+Damage: +0.4%
 Movement_Speed: -5%
 Recoil: +12%
 ---
@@ -309,11 +303,6 @@ Grip: M249 SAW
 Spread: -16%
 Movement_Speed: -4%
 Recoil: +7%
----
-Grip: Burton
-Recoil: -10%
-Reload_Speed: -4%
-Spread: +14%
 ---
 
 Category: Shotgun Grips
@@ -408,11 +397,8 @@ Recoil: -24%
 Spread: +12%
 ---
 Grip: Lamp Shade
-Health: +21%
-Damage: -5%
+Health: +20%
 Detection_Radius: +100%
-Equip_Time: +200%
-Movement_Speed: -9%
 Recoil: +50%
 Spread: +30%
 ---
@@ -522,11 +508,4 @@ Recoil: -25%
 Spread: -10%
 Movement_Speed: -4%
 Reload_Speed: +8%
----
-Grip: Cyber 3517
-Damage: +5%
-Range: +1%
-Movement_Speed: -3%
-Recoil: +30%
-Spread: +11%
 ---

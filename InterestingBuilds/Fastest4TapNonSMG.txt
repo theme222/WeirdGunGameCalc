@@ -1,4 +1,4 @@
-./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 25 --speedMin 0 --magazineMin 30 --spreadAimMax 0.65 --recoilAimMax 30 --rangeMin 150 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf Loaf 
+./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 25 --speedMin 0 --magazineMin 30 --spreadAimMax 0.65 --recoilAimMax 30 --rangeMin 150 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
 [ Barrel: Uzi, Magazine: Type 99, Grip: Lee Enfield, Stock: Arisaka, Core: M1919 .30 Cal ]
 damage: 25.0558 - 16.7187

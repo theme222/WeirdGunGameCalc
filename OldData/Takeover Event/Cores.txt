@@ -6,7 +6,7 @@ Dropoff_Studs: 140 > 325
 Fire_Rate: 600
 Hipfire_Spread: 5.5
 ADS_Spread: 0.5
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 120
 Suppression: 0.3
 Equip_Time: 0.7
@@ -19,9 +19,9 @@ Core: M-16
 Damage: 15.9 > 13.5
 Dropoff_Studs: 180 > 350
 Fire_Rate: 650
-Hipfire_Spread: 1.8
+Hipfire_Spread: 2
 ADS_Spread: 0.25
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 90
 Suppression: 0.3
 Equip_Time: 0.7
@@ -36,7 +36,7 @@ Dropoff_Studs: 170 > 300
 Fire_Rate: 680
 Hipfire_Spread: 1
 ADS_Spread: 0.125
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 75
 Movement_Speed_Modifier: +2.5%
 Suppression: 0.3
@@ -52,7 +52,7 @@ Dropoff_Studs: 170 > 225
 Fire_Rate: 750
 Hipfire_Spread: 2
 ADS_Spread: 0.35
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 60
 Suppression: 0.3
 Equip_Time: 0.7
@@ -68,7 +68,7 @@ Falloff_Factor: -0.3
 Fire_Rate: 900
 Hipfire_Spread: 4
 ADS_Spread: 0.5
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 110
 Suppression: 0.3
 Equip_Time: 0.7
@@ -83,7 +83,7 @@ Dropoff_Studs: 170 > 345
 Fire_Rate: 625
 Hipfire_Spread: 5
 ADS_Spread: 0.35
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 100
 Suppression: 0.3
 Equip_Time: 0.7
@@ -98,7 +98,7 @@ Dropoff_Studs: 150 > 300
 Fire_Rate: 500
 Hipfire_Spread: 5.5
 ADS_Spread: 0.5
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 110
 Suppression: 0.3
 Equip_Time: 0.7
@@ -113,7 +113,7 @@ Dropoff_Studs: 185 > 300
 Fire_Rate: 900
 Hipfire_Spread: 5.5
 ADS_Spread: 5.5
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 125
 Suppression: 0.3
 Health: 17%
@@ -129,7 +129,7 @@ Dropoff_Studs: 155 > 290
 Fire_Rate: 650
 Hipfire_Spread: 5
 ADS_Spread: 0.8
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 90
 Suppression: 0.3
 Equip_Time: 0.7
@@ -145,7 +145,7 @@ Pellets: 2
 Fire_Rate: 660
 Hipfire_Spread: 3.5
 ADS_Spread: 1
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 70
 Suppression: 0.4
 Equip_Time: 0.7
@@ -160,7 +160,7 @@ Dropoff_Studs: 90 > 120
 Fire_Rate: 600
 Hipfire_Spread: 4
 ADS_Spread: 1.3
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 200
 Suppression: 0.3
 Equip_Time: 0.7
@@ -175,7 +175,7 @@ Dropoff_Studs: 125 > 250
 Fire_Rate: 750
 Hipfire_Spread: 2
 ADS_Spread: 0.45
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 95
 Equip_Time: 0.7
 Recoil_Hip_Horizontal: -10 - 10
@@ -205,7 +205,7 @@ Dropoff_Studs: 155 > 240
 Fire_Rate: 750
 Hipfire_Spread: 4.5
 ADS_Spread: 0.3
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 135
 Suppression: 0.3
 Health: +5%
@@ -221,7 +221,7 @@ Dropoff_Studs: 180 > 380
 Fire_Rate: 850
 Hipfire_Spread: 5.5
 ADS_Spread: 0.2
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 120
 Burst: 3
 Suppression: 0.3
@@ -237,7 +237,7 @@ Dropoff_Studs: 200 > 375
 Fire_Rate: 650
 Hipfire_Spread: 3.5
 ADS_Spread: 0.2
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 120
 Suppression: 0.3
 Equip_Time: 0.7
@@ -252,7 +252,7 @@ Dropoff_Studs: 155 > 360
 Fire_Rate: 700
 Hipfire_Spread: 5
 ADS_Spread: 0.35
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 120
 Suppression: 0.3
 Equip_Time: 0.7
@@ -378,13 +378,13 @@ Damage: 60 > 48
 Dropoff_Studs: 320 > 500
 Fire_Rate: 35
 Hipfire_Spread: 12
-ADS_Spread: 0.165
+ADS_Spread: 0.2
 Time_To_Aim: 0.8
 Detection_Radius: 350
 Movement_Speed_Modifier: -4%
 Suppression: 1
-Equip_Time: 0.8
 Recoil_Hip_Horizontal: -5 - 5
+Equip_Time: 1
 Recoil_Hip_Vertical: 70 - 90
 Recoil_Aim_Horizontal: -2.8 - 2.8
 Recoil_Aim_Vertical: 38.5 - 49.5
@@ -400,8 +400,8 @@ Detection_Radius: 100
 Movement_Speed_Modifier: +10%
 Suppression: 0.8
 Health: -10%
-Equip_Time: 1
 Recoil_Hip_Horizontal: -21 - 21
+Equip_Time: 1
 Recoil_Hip_Vertical: 72 - 82
 Recoil_Aim_Horizontal: -9.4 - 9.4
 Recoil_Aim_Vertical: 32.4 - 36.9
@@ -417,16 +417,15 @@ Detection_Radius: 500
 Movement_Speed_Modifier: -12.5%
 Suppression: 1
 Health: +3%
-Equip_Time: 1
 Recoil_Hip_Horizontal: -20 - 20
+Equip_Time: 1
 Recoil_Hip_Vertical: 90 - 120
 Recoil_Aim_Horizontal: -10 - 10
 Recoil_Aim_Vertical: 45 - 60
 ---
 Core: VSSR
-Damage: 70 > 40.6
+Damage: 70 > 50.4
 Dropoff_Studs: 200 > 400
-Falloff_Factor: -0.42
 Fire_Rate: 32
 Hipfire_Spread: 17
 ADS_Spread: 0.2
@@ -434,8 +433,8 @@ Time_To_Aim: 0.85
 Detection_Radius: 300
 Movement_Speed_Modifier: -5%
 Suppression: 1
-Equip_Time: 1
 Recoil_Hip_Horizontal: -16 - 16
+Equip_Time: 1
 Recoil_Hip_Vertical: 85 - 100
 Recoil_Aim_Horizontal: -10.4 - 10.4
 Recoil_Aim_Vertical: 44.2 - 65
@@ -443,7 +442,7 @@ Recoil_Aim_Vertical: 44.2 - 65
 Core: Mosin
 Damage: 66 > 41.3
 Dropoff_Studs: 340 > 525
-Fire_Rate: 24
+Fire_Rate: 21
 Hipfire_Spread: 11
 ADS_Spread: 0.275
 Time_To_Aim: 0.85
@@ -483,8 +482,8 @@ ADS_Spread: 1.3
 Time_To_Aim: 0.15
 Detection_Radius: 40
 Movement_Speed_Modifier: +9%
-Equip_Time: 0.5
 Recoil_Hip_Horizontal: -25 - 25
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 60 - 80
 Recoil_Aim_Horizontal: -20 - 20
 Recoil_Aim_Vertical: 48 - 64
@@ -498,8 +497,8 @@ ADS_Spread: 0.85
 Time_To_Aim: 0.35
 Detection_Radius: 90
 Movement_Speed_Modifier: +3.8%
-Equip_Time: 0.5
 Recoil_Hip_Horizontal: -10 - 10
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 40 - 60
 Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 32 - 48
@@ -513,8 +512,8 @@ ADS_Spread: 0.65
 Time_To_Aim: 0.3
 Detection_Radius: 75
 Movement_Speed_Modifier: +4.6%
-Equip_Time: 0.5
 Recoil_Hip_Horizontal: -20 - 20
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 40 - 60
 Recoil_Aim_Horizontal: -8 - 8
 Recoil_Aim_Vertical: 16 - 24
@@ -528,8 +527,8 @@ ADS_Spread: 0.5
 Time_To_Aim: 0.35
 Detection_Radius: 90
 Movement_Speed_Modifier: +3.2%
-Equip_Time: 0.5
 Recoil_Hip_Horizontal: -15 - 15
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 70 - 80
 Recoil_Aim_Horizontal: -12 - 12
 Recoil_Aim_Vertical: 56 - 64
@@ -543,8 +542,8 @@ ADS_Spread: 0.55
 Time_To_Aim: 0.35
 Detection_Radius: 97
 Movement_Speed_Modifier: +3.8%
-Equip_Time: 0.5
 Recoil_Hip_Horizontal: -20 - 20
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 60 - 90
 Recoil_Aim_Horizontal: -19 - 19
 Recoil_Aim_Vertical: 57 - 85.5
@@ -558,8 +557,8 @@ ADS_Spread: 1.5
 Time_To_Aim: 0.3
 Detection_Radius: 95
 Movement_Speed_Modifier: +2.3%
-Equip_Time: 0.5
 Recoil_Hip_Horizontal: -25 - 25
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 30 - 60
 Recoil_Aim_Horizontal: -20 - 20
 Recoil_Aim_Vertical: 24 - 48
@@ -573,8 +572,8 @@ ADS_Spread: 0.85
 Time_To_Aim: 0.35
 Detection_Radius: 90
 Movement_Speed_Modifier: +3.3%
-Equip_Time: 0.5
 Recoil_Hip_Horizontal: -5 - 5
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 10 - 30
 Recoil_Aim_Horizontal: -4.5 - 4.5
 Recoil_Aim_Vertical: 9 - 27
@@ -588,9 +587,8 @@ ADS_Spread: 0.45
 Time_To_Aim: 0.35
 Detection_Radius: 80
 Movement_Speed_Modifier: +4%
-Health: -8%
-Equip_Time: 0.5
 Recoil_Hip_Horizontal: -10 - 10
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 25 - 35
 Recoil_Aim_Horizontal: -6.5 - 6.5
 Recoil_Aim_Vertical: 16.2 - 22.7
@@ -604,8 +602,8 @@ ADS_Spread: 0.45
 Time_To_Aim: 0.35
 Detection_Radius: 110
 Movement_Speed_Modifier: +4.1%
-Equip_Time: 0.5
 Recoil_Hip_Horizontal: -7.5 - 7.5
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 10 - 30
 Recoil_Aim_Horizontal: -3 - 3
 Recoil_Aim_Vertical: 4 - 12
@@ -618,8 +616,8 @@ Hipfire_Spread: 1.75
 ADS_Spread: 0.85
 Time_To_Aim: 0.8
 Detection_Radius: 80
-Equip_Time: 0.5
 Recoil_Hip_Horizontal: -50 - 50
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 30 - 50
 Recoil_Aim_Horizontal: -15 - 15
 Recoil_Aim_Vertical: 9 - 15
@@ -632,8 +630,8 @@ Hipfire_Spread: 1.5
 ADS_Spread: 0.6
 Time_To_Aim: 0.7
 Detection_Radius: 70
-Equip_Time: 0.5
 Recoil_Hip_Horizontal: -15 - 15
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 20 - 45
 Recoil_Aim_Horizontal: -13.5 - 13.5
 Recoil_Aim_Vertical: 18 - 40.5
@@ -647,8 +645,8 @@ ADS_Spread: 0.3
 Time_To_Aim: 0.35
 Detection_Radius: 60
 Movement_Speed_Modifier: +2.5%
-Equip_Time: 0.5
 Recoil_Hip_Horizontal: -15 - 15
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 20 - 30
 Recoil_Aim_Horizontal: -10.5 - 10.5
 Recoil_Aim_Vertical: 14 - 21
@@ -662,8 +660,8 @@ ADS_Spread: 0.65
 Time_To_Aim: 0.3
 Detection_Radius: 90
 Movement_Speed_Modifier: +2.5%
-Equip_Time: 0.5
 Recoil_Hip_Horizontal: -21 - 21
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 30 - 38
 Recoil_Aim_Horizontal: -9.7 - 9.7
 Recoil_Aim_Vertical: 13.8 - 17.5
@@ -677,8 +675,8 @@ ADS_Spread: 0.3
 Time_To_Aim: 0.6
 Detection_Radius: 120
 Suppression: 0.3
-Equip_Time: 0.5
 Recoil_Hip_Horizontal: -4 - 4
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 10 - 12
 Recoil_Aim_Horizontal: -1.6 - 1.6
 Recoil_Aim_Vertical: 4 - 4.8
@@ -692,25 +690,11 @@ ADS_Spread: 0.55
 Time_To_Aim: 0.25
 Detection_Radius: 85
 Movement_Speed_Modifier: +3.5%
-Equip_Time: 0.5
 Recoil_Hip_Horizontal: -12 - 12
+Equip_Time: 0.5
 Recoil_Hip_Vertical: 25 - 45
 Recoil_Aim_Horizontal: -9 - 9
 Recoil_Aim_Vertical: 18.8 - 33.8
----
-Core: MP18
-Damage: 26 > 16.9
-Dropoff_Studs: 120 > 185
-Fire_Rate: 400
-Hipfire_Spread: 2.5
-ADS_Spread: 0.5
-Time_To_Aim: 0.35
-Detection_Radius: 120
-Movement_Speed_Modifier: +3.5%
-Recoil_Hip_Horizontal: -8 - 8
-Recoil_Hip_Vertical: 34 - 47
-Recoil_Aim_Horizontal: -2.8 - 2.8
-Recoil_Aim_Vertical: 11.9 - 16.4
 ---
 
 Category: LMG
@@ -886,20 +870,6 @@ Recoil_Hip_Vertical: 45 - 52
 Recoil_Aim_Horizontal: -4.1 - 4.1
 Recoil_Aim_Vertical: 16.7 - 19.2
 ---
-Core: Burton
-Damage: 14 > 11.2
-Dropoff_Studs: 180 > 385
-Fire_Rate: 800
-Hipfire_Spread: 4.5
-ADS_Spread: 0.15
-Time_To_Aim: 0.5
-Detection_Radius: 120
-Suppression: 0.3
-Recoil_Hip_Horizontal: -9 - 9
-Recoil_Hip_Vertical: 10 - 11
-Recoil_Aim_Horizontal: -3.1 - 3.1
-Recoil_Aim_Vertical: 3.5 - 3.8
----
 
 Category: Shotgun
 ---
@@ -1044,17 +1014,17 @@ Core: Double Barrel
 Damage: 110 > 10
 Dropoff_Studs: 60 > 160
 Pellets: 10
-Fire_Rate: 66
+Fire_Rate: 60
 Hipfire_Spread: 6
-ADS_Spread: 1.9
+ADS_Spread: 2.1
 Time_To_Aim: 1
 Detection_Radius: 250
 Burst: 2
 Suppression: 0.5
 Recoil_Hip_Horizontal: -25 - 25
 Recoil_Hip_Vertical: 40 - 57
-Recoil_Aim_Horizontal: -2.5 - 2.5
-Recoil_Aim_Vertical: 4 - 5.7
+Recoil_Aim_Horizontal: -5 - 5
+Recoil_Aim_Vertical: 8 - 11.4
 ---
 
 Category: Weird
@@ -1151,9 +1121,8 @@ Recoil_Aim_Horizontal: -6 - 6
 Recoil_Aim_Vertical: 14.3 - 20.3
 ---
 Core: Paintball
-Damage: 24.5 > 15.3
+Damage: 24.5 > 18.4
 Dropoff_Studs: 140 > 290
-Falloff_Factor: -0.375
 Fire_Rate: 450
 Hipfire_Spread: 5
 ADS_Spread: 0.3
@@ -1447,18 +1416,4 @@ Recoil_Hip_Horizontal: -9 - 9
 Recoil_Hip_Vertical: 60 - 72
 Recoil_Aim_Horizontal: -3.6 - 3.6
 Recoil_Aim_Vertical: 24 - 28.8
----
-Core: Cyber 3517
-Damage: 45 > 24.8
-Dropoff_Studs: 75 > 110
-Fire_Rate: 198
-Hipfire_Spread: 4
-ADS_Spread: 0.2
-Time_To_Aim: 0.5
-Detection_Radius: 200
-Equip_Time: 0.7
-Recoil_Hip_Horizontal: -20 - 20
-Recoil_Hip_Vertical: 90 - 110
-Recoil_Aim_Horizontal: -16 - 16
-Recoil_Aim_Vertical: 72 - 88
 ---
