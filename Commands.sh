@@ -43,4 +43,5 @@ BANSEMI=(--bc "FC200SH" "M1 Carbine" "G11" "Loaf")
 ####################### SECONDARIES #######################
 ./Calculator -o $IB/HipfireSecondaryAuto.txt -i Sidearm --fc "B17" --spreadHipMax 1 --magazineMin 30 --speedMin 0 --rangeMin 20
 ./Calculator -o $IB/HipfireSecondarySemi.txt -i Sidearm --bc "B17" "Deagle" --spreadHipMax 1 --magazineMin 20 --speedMin 5 --rangeMin 40
+./Calculator -o $IB/HipfireSecondaryShotgun.txt -i Sidearm --fc EG200 --damageEndMin 80 --spreadHipMax 2 --sort HIPFIRESPREAD 
 ####################### SECONDARIES #######################

@@ -42,20 +42,6 @@ recoilAimVertical: 24.719 - 34.6372
 movementSpeed: 3.94
 TTK: 0.25 Seconds
 
-[ Barrel: Car Muffler, Magazine: P90, Grip: Makarov, Stock: M1 Carbine, Core: Type 2a Nambu ]
-damage: 25.0643 - 12.6769
-dropoffStuds: 154.35 - 170.887
-fireRate: 720
-adsSpread: 0.585506
-hipfireSpread: 3.90337
-reloadTime: 4.4
-magazineSize: 50
-health: -15
-recoilHipVertical: 36.6795 - 51.3513
-recoilAimVertical: 23.7683 - 33.305
-movementSpeed: 1.3
-TTK: 0.25 Seconds
-
 [ Barrel: Car Muffler, Magazine: P90, Grip: APS, Stock: M1Garand, Core: Type 2a Nambu ]
 damage: 25.1133 - 12.3228
 dropoffStuds: 150.087 - 166.168
@@ -68,6 +54,20 @@ health: -15
 recoilHipVertical: 26.4679 - 37.0551
 recoilAimVertical: 17.1512 - 24.0329
 movementSpeed: 2.8
+TTK: 0.25 Seconds
+
+[ Barrel: Car Muffler, Magazine: P90, Grip: Makarov, Stock: M1 Carbine, Core: Type 2a Nambu ]
+damage: 25.0643 - 12.6769
+dropoffStuds: 154.35 - 170.887
+fireRate: 720
+adsSpread: 0.585506
+hipfireSpread: 3.90337
+reloadTime: 4.4
+magazineSize: 50
+health: -15
+recoilHipVertical: 36.6795 - 51.3513
+recoilAimVertical: 23.7683 - 33.305
+movementSpeed: 1.3
 TTK: 0.25 Seconds
 
 [ Barrel: Car Muffler, Magazine: P90, Grip: APS, Stock: M1 Carbine, Core: Type 2a Nambu ]

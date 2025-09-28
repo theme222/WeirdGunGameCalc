@@ -56,18 +56,18 @@ recoilAimVertical: 39.191 - 44.6342
 movementSpeed: 4.5
 TTK: 0.892857 Seconds
 
-[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Lewis, Stock: MG42, Core: Arisaka ]
+[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Lewis, Stock: AWM, Core: Arisaka ]
 damage: 56.7935 - 49.922
 dropoffStuds: 323.96 - 566.93
 fireRate: 67.2
-adsSpread: 0.140343
-hipfireSpread: 11.2274
-reloadTime: 6.48
+adsSpread: 0.114192
+hipfireSpread: 9.13537
+reloadTime: 4.59
 magazineSize: 60
 health: -10
-recoilHipVertical: 87.0912 - 99.1872
-recoilAimVertical: 39.191 - 44.6342
-movementSpeed: 12.3
+recoilHipVertical: 95.8003 - 109.106
+recoilAimVertical: 43.1101 - 49.0977
+movementSpeed: 9.5
 TTK: 0.892857 Seconds
 
 [ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Lewis, Stock: FAL, Core: Arisaka ]
@@ -84,18 +84,18 @@ recoilAimVertical: 50.9484 - 58.0245
 movementSpeed: 9.67
 TTK: 0.892857 Seconds
 
-[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Lewis, Stock: AWM, Core: Arisaka ]
+[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Lewis, Stock: MG42, Core: Arisaka ]
 damage: 56.7935 - 49.922
 dropoffStuds: 323.96 - 566.93
 fireRate: 67.2
-adsSpread: 0.114192
-hipfireSpread: 9.13537
-reloadTime: 4.59
+adsSpread: 0.140343
+hipfireSpread: 11.2274
+reloadTime: 6.48
 magazineSize: 60
 health: -10
-recoilHipVertical: 95.8003 - 109.106
-recoilAimVertical: 43.1101 - 49.0977
-movementSpeed: 9.5
+recoilHipVertical: 87.0912 - 99.1872
+recoilAimVertical: 39.191 - 44.6342
+movementSpeed: 12.3
 TTK: 0.892857 Seconds
 
 [ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Lewis, Stock: M40, Core: Arisaka ]

@@ -759,13 +759,3 @@ Fire_Rate: -25%
 Movement_Speed: -2%
 Recoil: +60%
 ---
-Barrel: T10
-Damage: +6%
-Recoil: +5%
----
-Barrel: EG200
-Damage: +11%
-Pellets: +100%
-Fire_Rate: -7%
-Spread: +15%
----

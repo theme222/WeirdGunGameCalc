@@ -867,19 +867,3 @@ Fire_Rate: -20%
 Movement_Speed: -4%
 Recoil: +60%
 ---
-Magazine: T10
-Magazine_Size: 15
-Reload_Time: 1.9
-Range: +4%
-Spread: -8%
-Recoil: +18%
----
-Magazine: EG200
-Magazine_Size: 6
-Reload_Time: 2.8s
-Damage: +20%
-Pellets: +75%
-Fire_Rate: -11%
-Movement_Speed: -2%
-Recoil: +30%
----

@@ -530,12 +530,3 @@ Movement_Speed: -3%
 Recoil: +30%
 Spread: +11%
 ---
-Grip: T10
-Movement_Speed: +2%
-Reload_Speed: -3%
-Recoil: +11%
----
-Grip: EG200
-Movement_Speed: +7.5%
-Spread: +25%
----
