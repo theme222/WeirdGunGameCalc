@@ -103,19 +103,18 @@ recoilAimVertical: 74.25 - 86.3156
 movementSpeed: 1.75
 TTK: 0.682012 Seconds
 
-[ Barrel: Car Muffler, Magazine: M40, Grip: Auto-5, Stock: FAL, Core: Winchester ]
-damage: 66.7869 - 56.2546
-dropoffStuds: 257.985 - 479.115
-fireRate: 87.55
-adsSpread: 0.149713
-hipfireSpread: 6.58737
-reloadTime: 4.95
-magazineSize: 10
-health: -7
-recoilHipVertical: 142.974 - 166.207
-recoilAimVertical: 71.487 - 83.1036
-movementSpeed: 0.2
-TTK: 0.685323 Seconds
+[ Barrel: M1Garand, Magazine: Scar H, Grip: MG42, Stock: MG42, Core: Winchester ]
+damage: 67.3199 - 55.3369
+dropoffStuds: 233.1 - 432.9
+fireRate: 87.89
+adsSpread: 0.149465
+hipfireSpread: 6.57644
+reloadTime: 5.562
+magazineSize: 20
+recoilHipVertical: 100 - 116.25
+recoilAimVertical: 50 - 58.125
+movementSpeed: 0.475
+TTK: 0.682671 Seconds
 
 [ Barrel: M1Garand, Magazine: Scar H, Grip: Controller, Stock: MG42, Core: Winchester ]
 damage: 67.3199 - 55.3369

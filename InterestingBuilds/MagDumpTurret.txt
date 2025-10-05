@@ -111,20 +111,6 @@ recoilAimVertical: 24.3 - 34.05
 movementSpeed: 2.4
 TTK: 0.243909 Seconds
 
-[ Barrel: Car Muffler, Magazine: M60, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.3491 - 10.2181
-dropoffStuds: 127.4 - 141.05
-fireRate: 737.22
-adsSpread: 0.485249
-hipfireSpread: 3.23499
-reloadTime: 8.2225
-magazineSize: 75
-health: -15
-recoilHipVertical: 43.5357 - 60.95
-recoilAimVertical: 28.2111 - 39.5304
-movementSpeed: 4.65
-TTK: 0.24416 Seconds
-
 [ Barrel: Tommy, Magazine: XXL AKM, Grip: M1897 Trench Shotgun, Stock: MAC-10, Core: Type 2a Nambu ]
 damage: 25.0029 - 10.4893
 dropoffStuds: 131.6 - 145.7
@@ -138,4 +124,18 @@ recoilHipVertical: 37.5 - 52.5
 recoilAimVertical: 24.3 - 34.05
 movementSpeed: 2.4
 TTK: 0.244465 Seconds
+
+[ Barrel: Tommy, Magazine: XXL AKM, Grip: P90, Stock: Kriss Vector, Core: Type 2a Nambu ]
+damage: 25.0029 - 9.76365
+dropoffStuds: 125.02 - 138.415
+fireRate: 735.026
+adsSpread: 0.670616
+hipfireSpread: 4.47077
+reloadTime: 9
+magazineSize: 90
+health: -8
+recoilHipVertical: 26.7 - 37.38
+recoilAimVertical: 17.3016 - 24.2436
+movementSpeed: 1.1
+TTK: 0.244889 Seconds
 

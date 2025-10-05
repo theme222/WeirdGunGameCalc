@@ -298,9 +298,9 @@ Magazine_Size: 30
 Reload_Time: 2
 Damage: +14%
 Movement_Speed: +1.5%
-Range: +6%
+Range: +3%
 Spread: -10%
-Fire_Rate: -15%
+Fire_Rate: -10%
 ---
 Magazine: PPSh-41
 Magazine_Size: 71
@@ -367,7 +367,7 @@ Magazine_Size: 15
 Reload_Time: 2.8
 Damage: +26%
 Movement_Speed: +3%
-Range: -5%
+Range: -13%
 Recoil: +32%
 ---
 Magazine: Sten gun

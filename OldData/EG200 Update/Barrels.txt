@@ -173,10 +173,10 @@ Recoil: +200%
 Spread: +57%
 ---
 Barrel: Snake Sniper
-Damage: +11%
+Damage: +18%
 Fire_Rate: +3%
 Health: -5%
-Reload_Speed: +7%
+Reload_Speed: +5%
 Spread: +20%
 ---
 Barrel: Arisaka
@@ -608,11 +608,10 @@ Damage: -4%
 Range: -10%
 ---
 Barrel: Car Muffler
-Damage: +10%
+Damage: +15%
 Detection_Radius: -50%
-Movement_Speed: +2%
-Health: -15%
-Recoil: +22%
+Health: -7%
+Recoil: +17%
 Reload_Speed: +10%
 ---
 Barrel: Paintball

@@ -228,10 +228,10 @@
     {
       "Category": "Sniper",
       "Name": "Snake Sniper",
-      "Damage": 18,
+      "Damage": 11,
       "Fire_Rate": 3,
       "Health": -5,
-      "Reload_Speed": 5,
+      "Reload_Speed": 7,
       "Spread": 20
     },
     {
@@ -777,10 +777,11 @@
     {
       "Category": "Weird",
       "Name": "Car Muffler",
-      "Damage": 15,
+      "Damage": 10,
       "Detection_Radius": -50,
-      "Health": -7,
-      "Recoil": 17,
+      "Movement_Speed": 2,
+      "Health": -15,
+      "Recoil": 22,
       "Reload_Speed": 10
     },
     {
@@ -1845,13 +1846,14 @@
         320,
         500
       ],
-      "Fire_Rate": 35,
+      "Fire_Rate": 32,
       "Hipfire_Spread": 12,
       "ADS_Spread": 0.165,
       "Time_To_Aim": 0.8,
       "Detection_Radius": 350,
       "Movement_Speed_Modifier": -4,
       "Suppression": 1,
+      "Health": 2,
       "Equip_Time": 0.8,
       "Recoil_Hip_Horizontal": [
         -5,
@@ -2519,9 +2521,10 @@
       ],
       "Fire_Rate": 775,
       "Hipfire_Spread": 5,
-      "ADS_Spread": 0.3,
+      "ADS_Spread": 0.35,
       "Time_To_Aim": 0.6,
       "Detection_Radius": 120,
+      "Movement_Speed_Modifier": 2,
       "Suppression": 0.3,
       "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
@@ -2948,8 +2951,8 @@
       "Category": "LMG",
       "Name": "M249 SAW",
       "Damage": [
-        16,
-        10.4
+        15.7,
+        10.2
       ],
       "Dropoff_Studs": [
         165,
@@ -2985,8 +2988,8 @@
       "Category": "LMG",
       "Name": "Burton",
       "Damage": [
-        14,
-        11.2
+        14.7,
+        11.8
       ],
       "Dropoff_Studs": [
         180,
@@ -2997,7 +3000,9 @@
       "ADS_Spread": 0.15,
       "Time_To_Aim": 0.5,
       "Detection_Radius": 120,
+      "Movement_Speed_Modifier": 7.5,
       "Suppression": 0.3,
+      "Health": -7.5,
       "Recoil_Hip_Horizontal": [
         -9,
         9
@@ -3386,8 +3391,8 @@
       "Category": "Weird",
       "Name": "Bicycle",
       "Damage": [
-        20,
-        10
+        29.5,
+        14.8
       ],
       "Dropoff_Studs": [
         200,
@@ -3396,7 +3401,7 @@
       "Fire_Rate": 350,
       "Hipfire_Spread": 7,
       "ADS_Spread": 0.4,
-      "Time_To_Aim": 0.7,
+      "Time_To_Aim": 0.5,
       "Detection_Radius": 250,
       "Suppression": 0.5,
       "Recoil_Hip_Horizontal": [
@@ -3998,8 +4003,8 @@
       "Category": "Sidearm",
       "Name": "B17",
       "Damage": [
-        8.5,
-        4.7
+        8.8,
+        4.8
       ],
       "Dropoff_Studs": [
         20,
@@ -4317,9 +4322,9 @@
         60
       ],
       "Pellets": 13,
-      "Fire_Rate": 200,
+      "Fire_Rate": 100,
       "Hipfire_Spread": 2,
-      "ADS_Spread": 1.65,
+      "ADS_Spread": 2.1,
       "Time_To_Aim": 0.5,
       "Detection_Radius": 200,
       "Movement_Speed_Modifier": -2,
@@ -4710,9 +4715,10 @@
     {
       "Category": "LMG",
       "Name": "MG42",
-      "Recoil": -13,
-      "Reload_Speed": -12,
-      "Movement_Speed": -2.7
+      "Fire_Rate": 4,
+      "Spread": -13,
+      "Movement_Speed": -2.5,
+      "Reload_Speed": 3
     },
     {
       "Category": "LMG",
@@ -4762,9 +4768,10 @@
     {
       "Category": "LMG",
       "Name": "Burton",
-      "Recoil": -10,
       "Reload_Speed": -4,
-      "Spread": 14
+      "Spread": -15,
+      "Movement_Speed": -3,
+      "Range": -2
     },
     {
       "Category": "Shotgun",
@@ -4887,13 +4894,8 @@
     {
       "Category": "Weird",
       "Name": "Lamp Shade",
-      "Health": 21,
-      "Damage": -5,
-      "Detection_Radius": 100,
-      "Equip_Time": 200,
-      "Movement_Speed": -9,
-      "Recoil": 50,
-      "Spread": 30
+      "Recoil": -20,
+      "Range": -5
     },
     {
       "Category": "Weird",
@@ -5426,9 +5428,9 @@
       "Reload_Time": 2,
       "Damage": 14,
       "Movement_Speed": 1.5,
-      "Range": 3,
+      "Range": 6,
       "Spread": -10,
-      "Fire_Rate": -10
+      "Fire_Rate": -15
     },
     {
       "Category": "SMG",
@@ -5511,7 +5513,7 @@
       "Reload_Time": 2.8,
       "Damage": 26,
       "Movement_Speed": 3,
-      "Range": -13,
+      "Range": -5,
       "Recoil": 32
     },
     {
@@ -6716,8 +6718,12 @@
     {
       "Category": "Weird",
       "Name": "Keyboard",
+      "Health": 21,
       "Recoil": -16,
-      "Range": -5
+      "Detection_Radius": 100,
+      "Movement_Speed": -15,
+      "Reload_Speed": 5,
+      "Spread": 30
     },
     {
       "Category": "Weird",

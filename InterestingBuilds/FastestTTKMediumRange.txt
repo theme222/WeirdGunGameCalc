@@ -1,127 +1,131 @@
 ./Calculator -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.6 --recoilAimMax 30 --rangeMin 200 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
-[ Barrel: Lee Enfield, Magazine: Paintball, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.4228 - 11.8844
-dropoffStuds: 201.6 - 431.2
-fireRate: 1287.34
-adsSpread: 0.541653
-hipfireSpread: 16.2496
-reloadTime: 6.51
+[ Barrel: Snake Sniper, Magazine: Burton, Grip: M1897 Trench Shotgun, Stock: M40, Core: Bicycle ]
+damage: 33.3603 - 16.7367
+dropoffStuds: 200 - 275
+fireRate: 489.198
+adsSpread: 0.55682
+hipfireSpread: 9.74434
+reloadTime: 3.93225
+magazineSize: 40
+health: -5
+recoilHipVertical: 36 - 49.5
+recoilAimVertical: 21.6 - 29.7
+TTK: 0.245299 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Paintball, Grip: M1897 Trench Shotgun, Stock: M40, Core: Bicycle ]
+damage: 33.7007 - 16.9075
+dropoffStuds: 200 - 275
+fireRate: 489.198
+adsSpread: 0.55682
+hipfireSpread: 9.74434
+reloadTime: 6.9657
 magazineSize: 70
-recoilHipVertical: 24.4 - 26.84
-recoilAimVertical: 8.54 - 9.272
-TTK: 0.279647 Seconds
+health: -5
+recoilHipVertical: 36 - 49.5
+recoilAimVertical: 21.6 - 29.7
+TTK: 0.245299 Seconds
 
-[ Barrel: Lee Enfield, Magazine: Paintball, Grip: M1891, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.4228 - 11.8844
-dropoffStuds: 201.6 - 431.2
-fireRate: 1249.73
-adsSpread: 0.586603
-hipfireSpread: 17.5981
-reloadTime: 7.13
+[ Barrel: Snake Sniper, Magazine: Paintball, Grip: M1897 Trench Shotgun, Stock: M870, Core: Bicycle ]
+damage: 33.7007 - 16.9075
+dropoffStuds: 200 - 275
+fireRate: 489.198
+adsSpread: 0.591405
+hipfireSpread: 10.3496
+reloadTime: 7.31398
 magazineSize: 70
-recoilHipVertical: 24.4 - 26.84
-recoilAimVertical: 8.54 - 9.272
-movementSpeed: 3.2
-TTK: 0.288063 Seconds
+health: -5
+recoilHipVertical: 34 - 46.75
+recoilAimVertical: 20.4 - 28.05
+TTK: 0.245299 Seconds
 
-[ Barrel: Lee Enfield, Magazine: Paintball, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.4228 - 11.8844
-dropoffStuds: 201.6 - 431.2
-fireRate: 1232.37
-adsSpread: 0.422534
-hipfireSpread: 12.676
-reloadTime: 7.13
-magazineSize: 70
-recoilHipVertical: 24.4 - 26.84
-recoilAimVertical: 8.54 - 9.272
-TTK: 0.29212 Seconds
+[ Barrel: Snake Sniper, Magazine: Burton, Grip: M1897 Trench Shotgun, Stock: M870, Core: Bicycle ]
+damage: 33.3603 - 16.7367
+dropoffStuds: 200 - 275
+fireRate: 489.198
+adsSpread: 0.591405
+hipfireSpread: 10.3496
+reloadTime: 4.12886
+magazineSize: 40
+health: -5
+recoilHipVertical: 34 - 46.75
+recoilAimVertical: 20.4 - 28.05
+TTK: 0.245299 Seconds
 
-[ Barrel: BAR, Magazine: UNP-40, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 20.0101 - 16.4785
-dropoffStuds: 201.861 - 431.758
-fireRate: 818.221
-adsSpread: 0.258228
-hipfireSpread: 7.74683
-reloadTime: 2.1
-magazineSize: 30
-recoilHipVertical: 14.64 - 16.104
-recoilAimVertical: 5.124 - 5.5632
-movementSpeed: 0.475
-TTK: 0.293319 Seconds
-
-[ Barrel: BAR, Magazine: Mas-38, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 20.3539 - 16.7854
-dropoffStuds: 203.148 - 434.511
-fireRate: 817.2
-adsSpread: 0.280333
-hipfireSpread: 8.40999
-reloadTime: 2.8
-magazineSize: 32
-recoilHipVertical: 18.5928 - 20.4521
-recoilAimVertical: 6.50748 - 7.06526
-movementSpeed: 1.775
-TTK: 0.293686 Seconds
-
-[ Barrel: BAR, Magazine: DP-27, Grip: M1891, Stock: APS, Core: Burton ]
-damage: 20.503 - 16.997
-dropoffStuds: 207.9 - 444.675
-fireRate: 808.704
-adsSpread: 0.310908
-hipfireSpread: 9.32723
-reloadTime: 5.52
-magazineSize: 47
-recoilHipVertical: 18.564 - 20.4204
-recoilAimVertical: 6.4974 - 7.05432
-movementSpeed: 0.7
-TTK: 0.296771 Seconds
-
-[ Barrel: Lee Enfield, Magazine: Paintball, Grip: P90, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.4228 - 11.8844
-dropoffStuds: 201.6 - 431.2
-fireRate: 1209.81
-adsSpread: 0.505692
-hipfireSpread: 15.1708
-reloadTime: 6.2
-magazineSize: 70
-recoilHipVertical: 22.6554 - 24.9209
-recoilAimVertical: 7.92939 - 8.60905
-TTK: 0.297568 Seconds
-
-[ Barrel: Lee Enfield, Magazine: Restroom, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.7141 - 12.1245
-dropoffStuds: 201.6 - 431.2
-fireRate: 1200.06
-adsSpread: 0.596504
-hipfireSpread: 17.8951
-reloadTime: 3.045
-magazineSize: 35
-recoilHipVertical: 19.52 - 21.472
-recoilAimVertical: 6.832 - 7.4176
-TTK: 0.299985 Seconds
-
-[ Barrel: BAR, Magazine: P90, Grip: M1891, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 17.9019 - 14.7843
-dropoffStuds: 204.435 - 437.264
-fireRate: 997.311
-adsSpread: 0.417999
-hipfireSpread: 12.54
-reloadTime: 4.6
+[ Barrel: FC200SH, Magazine: Graphics Card, Grip: P90, Stock: M1897 Trench Shotgun, Core: Bicycle ]
+damage: 33.6141 - 18.0566
+dropoffStuds: 209.76 - 288.42
+fireRate: 488.664
+adsSpread: 0.573264
+hipfireSpread: 10.0321
+reloadTime: 6.48
 magazineSize: 50
-recoilHipVertical: 16.104 - 17.7144
-recoilAimVertical: 5.6364 - 6.11952
-movementSpeed: 2.5
-TTK: 0.300809 Seconds
+recoilHipVertical: 33.4426 - 45.9836
+recoilAimVertical: 20.0656 - 27.5902
+TTK: 0.245567 Seconds
 
-[ Barrel: Lee Enfield, Magazine: Paintball, Grip: FG-42, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.4228 - 11.8844
-dropoffStuds: 201.6 - 431.2
-fireRate: 1196.5
-adsSpread: 0.451752
-hipfireSpread: 13.5526
-reloadTime: 6.386
+[ Barrel: Type 2a Nambu, Magazine: Paintball, Grip: PPSh-41, Stock: Fedorov, Core: Bicycle ]
+damage: 34.3025 - 17.2094
+dropoffStuds: 200 - 275
+fireRate: 486.101
+adsSpread: 0.535089
+hipfireSpread: 9.36406
+reloadTime: 7.6291
 magazineSize: 70
-recoilHipVertical: 21.4964 - 23.646
-recoilAimVertical: 7.52374 - 8.16863
-TTK: 0.300878 Seconds
+recoilHipVertical: 36 - 49.5
+recoilAimVertical: 21.6 - 29.7
+movementSpeed: 1
+TTK: 0.246862 Seconds
+
+[ Barrel: Type 2a Nambu, Magazine: Burton, Grip: PPSh-41, Stock: Fedorov, Core: Bicycle ]
+damage: 33.956 - 17.0356
+dropoffStuds: 200 - 275
+fireRate: 486.101
+adsSpread: 0.535089
+hipfireSpread: 9.36406
+reloadTime: 4.30675
+magazineSize: 40
+recoilHipVertical: 36 - 49.5
+recoilAimVertical: 21.6 - 29.7
+movementSpeed: 1
+TTK: 0.246862 Seconds
+
+[ Barrel: FC200SH, Magazine: NP5, Grip: M1897 Trench Shotgun, Stock: Fedorov, Core: Bicycle ]
+damage: 33.6141 - 17.6245
+dropoffStuds: 202.92 - 279.015
+fireRate: 480.418
+adsSpread: 0.467249
+hipfireSpread: 8.17686
+reloadTime: 2.42676
+magazineSize: 30
+recoilHipVertical: 32.4 - 44.55
+recoilAimVertical: 19.44 - 26.73
+movementSpeed: 1.3
+TTK: 0.249782 Seconds
+
+[ Barrel: FC200SH, Magazine: NP5, Grip: M1897 Trench Shotgun, Stock: AR-8X, Core: Bicycle ]
+damage: 33.6141 - 17.6245
+dropoffStuds: 202.92 - 279.015
+fireRate: 480.418
+adsSpread: 0.532339
+hipfireSpread: 9.31593
+reloadTime: 2.268
+magazineSize: 30
+recoilHipVertical: 36 - 49.5
+recoilAimVertical: 21.6 - 29.7
+movementSpeed: 1.3
+TTK: 0.249782 Seconds
+
+[ Barrel: Mustard, Magazine: MP 40, Grip: M1897 Trench Shotgun, Stock: Tommy, Core: Bicycle ]
+damage: 33.8466 - 16.9807
+dropoffStuds: 200 - 275
+fireRate: 477.969
+adsSpread: 0.563585
+hipfireSpread: 9.86273
+reloadTime: 2.75625
+magazineSize: 32
+recoilHipVertical: 35.42 - 48.7025
+recoilAimVertical: 21.252 - 29.2215
+movementSpeed: 0.5
+TTK: 0.251062 Seconds
 

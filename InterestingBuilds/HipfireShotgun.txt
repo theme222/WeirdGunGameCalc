@@ -92,10 +92,10 @@ recoilAimVertical: 79.1302 - 93.366
 movementSpeed: 0.5
 
 [ Barrel: Second Amendment, Magazine: UNP-40, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
-damage: 205.924 - 14.2725
-dropoffStuds: 48.7831 - 97.5662
+damage: 205.924 - 18.084
+dropoffStuds: 49.7162 - 99.4323
 pellets: 12
-fireRate: 59.2515
+fireRate: 55.9597
 adsSpread: 1.96101
 hipfireSpread: 1.96101
 reloadTime: 2.2

@@ -376,14 +376,13 @@ Recoil_Aim_Vertical: 105 - 109.8
 Core: Snake Sniper
 Damage: 60 > 48
 Dropoff_Studs: 320 > 500
-Fire_Rate: 32
+Fire_Rate: 35
 Hipfire_Spread: 12
 ADS_Spread: 0.165
 Time_To_Aim: 0.8
 Detection_Radius: 350
 Movement_Speed_Modifier: -4%
 Suppression: 1
-Health: +2%
 Equip_Time: 0.8
 Recoil_Hip_Horizontal: -5 - 5
 Recoil_Hip_Vertical: 70 - 90
@@ -674,10 +673,9 @@ Damage: 24 > 14.4
 Dropoff_Studs: 145 > 170
 Fire_Rate: 775
 Hipfire_Spread: 5
-ADS_Spread: 0.35
+ADS_Spread: 0.3
 Time_To_Aim: 0.6
 Detection_Radius: 120
-Movement_Speed_Modifier: +2%
 Suppression: 0.3
 Equip_Time: 0.5
 Recoil_Hip_Horizontal: -4 - 4
@@ -872,7 +870,7 @@ Recoil_Aim_Horizontal: -9 - 9
 Recoil_Aim_Vertical: 52.5 - 72.8
 ---
 Core: M249 SAW
-Damage: 15.7 > 10.2
+Damage: 16 > 10.4
 Dropoff_Studs: 165 > 320
 Fire_Rate: 800
 Hipfire_Spread: 6.5
@@ -889,16 +887,14 @@ Recoil_Aim_Horizontal: -4.1 - 4.1
 Recoil_Aim_Vertical: 16.7 - 19.2
 ---
 Core: Burton
-Damage: 14.7 > 11.8
+Damage: 14 > 11.2
 Dropoff_Studs: 180 > 385
 Fire_Rate: 800
 Hipfire_Spread: 4.5
 ADS_Spread: 0.15
 Time_To_Aim: 0.5
 Detection_Radius: 120
-Movement_Speed_Modifier: +7.5%
 Suppression: 0.3
-Health: -7.5%
 Recoil_Hip_Horizontal: -9 - 9
 Recoil_Hip_Vertical: 10 - 11
 Recoil_Aim_Horizontal: -3.1 - 3.1
@@ -1078,12 +1074,12 @@ Recoil_Aim_Horizontal: -12 - 12
 Recoil_Aim_Vertical: 56 - 64
 ---
 Core: Bicycle
-Damage: 29.5 > 14.8
+Damage: 20 > 10
 Dropoff_Studs: 200 > 275
 Fire_Rate: 350
 Hipfire_Spread: 7
 ADS_Spread: 0.4
-Time_To_Aim: 0.5
+Time_To_Aim: 0.7
 Detection_Radius: 250
 Suppression: 0.5
 Recoil_Hip_Horizontal: -20 - 20
@@ -1351,7 +1347,7 @@ Recoil_Aim_Horizontal: -3 - 3
 Recoil_Aim_Vertical: 4 - 5.5
 ---
 Core: B17
-Damage: 8.8 > 4.8
+Damage: 8.5 > 4.7
 Dropoff_Studs: 20 > 95
 Fire_Rate: 1200
 Hipfire_Spread: 1.1
@@ -1485,9 +1481,9 @@ Core: EG200
 Damage: 101 > 26
 Dropoff_Studs: 20 > 60
 Pellets: 13
-Fire_Rate: 100
+Fire_Rate: 200
 Hipfire_Spread: 2
-ADS_Spread: 2.1
+ADS_Spread: 1.65
 Time_To_Aim: 0.5
 Detection_Radius: 200
 Movement_Speed_Modifier: -2%

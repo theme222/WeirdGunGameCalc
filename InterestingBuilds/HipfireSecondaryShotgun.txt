@@ -4,21 +4,21 @@ Current top 10 guns are:
 damage: 119.967 - 80.9928
 dropoffStuds: 33.75 - 101.25
 pellets: 0
-fireRate: 84.6
-adsSpread: 1.17602
+fireRate: 42.3
+adsSpread: 1.49675
 hipfireSpread: 1.42547
 reloadTime: 5
 magazineSize: 5
 recoilHipVertical: 48.3 - 82.11
-recoilAimVerti
+recoilAimVertical: 24.15 - 41.055
 movementSpeed: -18
 
 [ Barrel: BarrelSight, Magazine: AWM, Grip: P08 Artillery, Stock: None, Core: EG200 ]
 damage: 119.967 - 80.9928
 dropoffStuds: 33.75 - 101.25
 pellets: 0
-fireRate: 90
-adsSpread: 1.1831
+fireRate: 45
+adsSpread: 1.50576
 hipfireSpread: 1.43406
 reloadTime: 5.4
 magazineSize: 5
@@ -30,8 +30,8 @@ movementSpeed: -16
 damage: 135.732 - 85.3368
 dropoffStuds: 30 - 90
 pellets: 0
-fireRate: 51.7
-adsSpread: 1.21077
+fireRate: 25.85
+adsSpread: 1.54098
 hipfireSpread: 1.4676
 reloadTime: 10
 magazineSize: 7
@@ -43,8 +43,8 @@ movementSpeed: -30
 damage: 119.967 - 80.9928
 dropoffStuds: 33.75 - 101.25
 pellets: 0
-fireRate: 90
-adsSpread: 1.21144
+fireRate: 45
+adsSpread: 1.54183
 hipfireSpread: 1.46841
 reloadTime: 4.8125
 magazineSize: 5
@@ -56,8 +56,8 @@ movementSpeed: -12.125
 damage: 119.967 - 80.9928
 dropoffStuds: 33.75 - 101.25
 pellets: 0
-fireRate: 88.2
-adsSpread: 1.21215
+fireRate: 44.1
+adsSpread: 1.54273
 hipfireSpread: 1.46927
 reloadTime: 5
 magazineSize: 5
@@ -69,8 +69,8 @@ movementSpeed: -14
 damage: 135.732 - 85.3368
 dropoffStuds: 30 - 90
 pellets: 0
-fireRate: 55
-adsSpread: 1.21806
+fireRate: 27.5
+adsSpread: 1.55026
 hipfireSpread: 1.47644
 reloadTime: 10.8
 magazineSize: 7
@@ -82,8 +82,8 @@ movementSpeed: -28
 damage: 119.967 - 80.9928
 dropoffStuds: 33.75 - 101.25
 pellets: 0
-fireRate: 90
-adsSpread: 1.23269
+fireRate: 45
+adsSpread: 1.56888
 hipfireSpread: 1.49417
 reloadTime: 5.6
 magazineSize: 5
@@ -95,8 +95,8 @@ movementSpeed: -14
 damage: 119.967 - 80.9928
 dropoffStuds: 33.75 - 101.25
 pellets: 0
-fireRate: 90
-adsSpread: 1.24332
+fireRate: 45
+adsSpread: 1.58241
 hipfireSpread: 1.50705
 reloadTime: 5
 magazineSize: 5
@@ -108,8 +108,8 @@ movementSpeed: -12.5
 damage: 135.732 - 85.3368
 dropoffStuds: 30 - 90
 pellets: 0
-fireRate: 55
-adsSpread: 1.24724
+fireRate: 27.5
+adsSpread: 1.58739
 hipfireSpread: 1.5118
 reloadTime: 9.625
 magazineSize: 7
@@ -121,8 +121,8 @@ movementSpeed: -24.125
 damage: 135.732 - 85.3368
 dropoffStuds: 30 - 90
 pellets: 0
-fireRate: 53.9
-adsSpread: 1.24797
+fireRate: 26.95
+adsSpread: 1.58832
 hipfireSpread: 1.51269
 reloadTime: 10
 magazineSize: 7

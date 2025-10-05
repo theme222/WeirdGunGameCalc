@@ -1,19 +1,5 @@
 ./Calculator -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
-[ Barrel: Car Muffler, Magazine: Sten gun, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 33.5598 - 20.2869
-dropoffStuds: 104.4 - 160.95
-fireRate: 506.224
-adsSpread: 0.645278
-hipfireSpread: 3.22639
-reloadTime: 3.795
-magazineSize: 32
-health: -7
-recoilHipVertical: 48.5316 - 67.0878
-recoilAimVertical: 16.9861 - 23.4094
-movementSpeed: 3.5
-TTK: 0.237049 Seconds
-
 [ Barrel: Tommy, Magazine: MP 40, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
 damage: 33.5598 - 21.1091
 dropoffStuds: 112.8 - 173.9
@@ -26,48 +12,6 @@ recoilHipVertical: 59.6275 - 82.4263
 recoilAimVertical: 20.8696 - 28.7615
 movementSpeed: 7.3
 TTK: 0.240197 Seconds
-
-[ Barrel: Car Muffler, Magazine: MAC-10, Grip: Circuit Judge, Stock: P90, Core: MP18 ]
-damage: 33.4044 - 20.3099
-dropoffStuds: 105.6 - 162.8
-fireRate: 499.2
-adsSpread: 0.615503
-hipfireSpread: 3.07752
-reloadTime: 2.2
-magazineSize: 30
-health: -7
-recoilHipVertical: 60.1474 - 83.1449
-recoilAimVertical: 21.0516 - 29.0123
-movementSpeed: 10.9
-TTK: 0.240385 Seconds
-
-[ Barrel: Car Muffler, Magazine: MAC-10, Grip: Circuit Judge, Stock: STG-44, Core: MP18 ]
-damage: 33.4044 - 20.3099
-dropoffStuds: 105.6 - 162.8
-fireRate: 491.52
-adsSpread: 0.636135
-hipfireSpread: 3.18067
-reloadTime: 2.288
-magazineSize: 30
-health: -7
-recoilHipVertical: 53.703 - 74.2365
-recoilAimVertical: 18.796 - 25.9038
-movementSpeed: 7.9
-TTK: 0.244141 Seconds
-
-[ Barrel: Car Muffler, Magazine: PP-19 Bizon, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 34.492 - 21.454
-dropoffStuds: 110.4 - 170.2
-fireRate: 491.48
-adsSpread: 0.576448
-hipfireSpread: 2.88224
-reloadTime: 5.06
-magazineSize: 64
-health: -7
-recoilHipVertical: 54.3554 - 75.1383
-recoilAimVertical: 19.0244 - 26.2185
-movementSpeed: 3.5
-TTK: 0.24416 Seconds
 
 [ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
 damage: 34.1813 - 21.0215
@@ -82,20 +26,6 @@ recoilAimVertical: 20.8696 - 28.7615
 movementSpeed: 6
 TTK: 0.244772 Seconds
 
-[ Barrel: Car Muffler, Magazine: MAC-10, Grip: Circuit Judge, Stock: Sten gun, Core: MP18 ]
-damage: 33.4044 - 20.3099
-dropoffStuds: 105.6 - 162.8
-fireRate: 489.6
-adsSpread: 0.608626
-hipfireSpread: 3.04313
-reloadTime: 2.2
-magazineSize: 30
-health: -7
-recoilHipVertical: 74.1101 - 102.446
-recoilAimVertical: 25.9385 - 35.7472
-movementSpeed: 13.9
-TTK: 0.245098 Seconds
-
 [ Barrel: Tommy, Magazine: MP 40, Grip: P90, Stock: M1897 Trench Shotgun, Core: MP18 ]
 damage: 33.5598 - 21.1091
 dropoffStuds: 112.8 - 173.9
@@ -109,20 +39,6 @@ recoilAimVertical: 18.574 - 25.5977
 movementSpeed: 7.3
 TTK: 0.246932 Seconds
 
-[ Barrel: Car Muffler, Magazine: MAC-10, Grip: Circuit Judge, Stock: Mosin, Core: MP18 ]
-damage: 33.4044 - 20.3099
-dropoffStuds: 105.6 - 162.8
-fireRate: 485.76
-adsSpread: 0.629258
-hipfireSpread: 3.14629
-reloadTime: 2.2
-magazineSize: 30
-health: -7
-recoilHipVertical: 66.5917 - 92.0533
-recoilAimVertical: 23.3071 - 32.1207
-movementSpeed: 7.9
-TTK: 0.247036 Seconds
-
 [ Barrel: Tommy, Magazine: MP 40, Grip: Mas-38, Stock: M1897 Trench Shotgun, Core: MP18 ]
 damage: 33.5598 - 20.2376
 dropoffStuds: 104.904 - 161.727
@@ -135,4 +51,84 @@ recoilHipVertical: 59.6275 - 82.4263
 recoilAimVertical: 20.8696 - 28.7615
 movementSpeed: 9.3
 TTK: 0.249261 Seconds
+
+[ Barrel: Tommy, Magazine: MP 40, Grip: M1Garand, Stock: M1897 Trench Shotgun, Core: MP18 ]
+damage: 33.5598 - 21.1091
+dropoffStuds: 112.8 - 173.9
+fireRate: 479.606
+adsSpread: 0.576448
+hipfireSpread: 2.88224
+reloadTime: 2.5
+magazineSize: 32
+recoilHipVertical: 59.6275 - 82.4263
+recoilAimVertical: 20.8696 - 28.7615
+movementSpeed: 4.3
+TTK: 0.250205 Seconds
+
+[ Barrel: Tommy, Magazine: MP 40, Grip: PPSh-41, Stock: Kriss Vector, Core: MP18 ]
+damage: 33.5598 - 20.4866
+dropoffStuds: 107.16 - 165.205
+fireRate: 478.568
+adsSpread: 0.539771
+hipfireSpread: 2.69886
+reloadTime: 2.875
+magazineSize: 32
+recoilHipVertical: 39.1 - 54.05
+recoilAimVertical: 13.685 - 18.86
+movementSpeed: 10.6
+TTK: 0.250748 Seconds
+
+[ Barrel: Tommy, Magazine: PP-19 Bizon, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: MP18 ]
+damage: 34.021 - 20.3894
+dropoffStuds: 103.776 - 159.988
+fireRate: 478.076
+adsSpread: 0.640144
+hipfireSpread: 3.20072
+reloadTime: 4
+magazineSize: 64
+health: -7.5
+recoilHipVertical: 71.4286 - 98.7395
+recoilAimVertical: 25 - 34.4538
+movementSpeed: 7.3
+TTK: 0.251006 Seconds
+
+[ Barrel: Tommy, Magazine: MP 40, Grip: Negev, Stock: M1897 Trench Shotgun, Core: MP18 ]
+damage: 33.5598 - 21.1091
+dropoffStuds: 112.8 - 173.9
+fireRate: 477.789
+adsSpread: 0.605127
+hipfireSpread: 3.02564
+reloadTime: 2.5
+magazineSize: 32
+recoilHipVertical: 68.5716 - 94.7902
+recoilAimVertical: 24.0001 - 33.0757
+movementSpeed: 4.8
+TTK: 0.251157 Seconds
+
+[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: P90, Stock: M1897 Trench Shotgun, Core: MP18 ]
+damage: 34.1813 - 21.0215
+dropoffStuds: 108 - 166.5
+fireRate: 476.881
+adsSpread: 0.645278
+hipfireSpread: 3.22639
+reloadTime: 2.5
+magazineSize: 32
+recoilHipVertical: 53.0685 - 73.3594
+recoilAimVertical: 18.574 - 25.5977
+movementSpeed: 6
+TTK: 0.251635 Seconds
+
+[ Barrel: Snake Sniper, Magazine: MP 40, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
+damage: 33.4355 - 21.7331
+dropoffStuds: 120 - 185
+fireRate: 475.31
+adsSpread: 0.622392
+hipfireSpread: 3.11196
+reloadTime: 3.07625
+magazineSize: 32
+health: -5
+recoilHipVertical: 47.702 - 65.941
+recoilAimVertical: 16.6957 - 23.0092
+movementSpeed: 3.5
+TTK: 0.252467 Seconds
 

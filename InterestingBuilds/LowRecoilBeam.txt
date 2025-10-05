@@ -1,134 +1,142 @@
 ./Calculator -o InterestingBuilds/LowRecoilBeam.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 45 --spreadAimMax 0.4 --rangeMin 150 --speedMin 0 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
-[ Barrel: Snake Sniper, Magazine: Graphics Card, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 16.812 - 13.1806
-dropoffStuds: 165.6 - 354.2
-fireRate: 1179.21
-adsSpread: 0.276084
-hipfireSpread: 8.28252
-reloadTime: 6.615
-magazineSize: 50
-health: -5
-recoilHipVertical: 9.394 - 10.3334
-recoilAimVertical: 3.2879 - 3.56972
-TTK: 0.254408 Seconds
-
-[ Barrel: Car Muffler, Magazine: Graphics Card, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 16.8994 - 13.2491
-dropoffStuds: 165.6 - 354.2
-fireRate: 1151.57
-adsSpread: 0.230261
-hipfireSpread: 6.90783
-reloadTime: 6.93
-magazineSize: 50
-health: -7
-recoilHipVertical: 10.991 - 12.0901
-recoilAimVertical: 3.84684 - 4.17657
-TTK: 0.260514 Seconds
-
-[ Barrel: Snake Sniper, Magazine: Graphics Card, Grip: M1891, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 16.812 - 13.1806
-dropoffStuds: 165.6 - 354.2
-fireRate: 1144.76
-adsSpread: 0.298995
-hipfireSpread: 8.96986
-reloadTime: 7.245
-magazineSize: 50
-health: -5
-recoilHipVertical: 9.394 - 10.3334
-recoilAimVertical: 3.2879 - 3.56972
-movementSpeed: 3.2
-TTK: 0.262064 Seconds
-
-[ Barrel: Spray Can, Magazine: Paintball, Grip: Spas-12, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.3471 - 11.1621
+[ Barrel: Spray Can, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 14.844 - 11.5935
 dropoffStuds: 160.2 - 342.65
-fireRate: 1369.43
-adsSpread: 0.276008
-hipfireSpread: 8.28024
-reloadTime: 6.2
-magazineSize: 70
-recoilHipVertical: 12.2 - 13.42
-recoilAimVertical: 4.27 - 4.636
-TTK: 0.262882 Seconds
-
-[ Barrel: Snake Sniper, Magazine: Graphics Card, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 16.812 - 13.1806
-dropoffStuds: 165.6 - 354.2
-fireRate: 1128.86
-adsSpread: 0.215368
-hipfireSpread: 6.46105
-reloadTime: 7.245
-magazineSize: 50
-health: -5
-recoilHipVertical: 9.394 - 10.3334
-recoilAimVertical: 3.2879 - 3.56972
-TTK: 0.265755 Seconds
-
-[ Barrel: Car Muffler, Magazine: Graphics Card, Grip: M1891, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 16.8994 - 13.2491
-dropoffStuds: 165.6 - 354.2
-fireRate: 1117.93
-adsSpread: 0.24937
-hipfireSpread: 7.48109
-reloadTime: 7.59
-magazineSize: 50
-health: -7
-recoilHipVertical: 10.991 - 12.0901
-recoilAimVertical: 3.84684 - 4.17657
-movementSpeed: 3.2
-TTK: 0.268353 Seconds
-
-[ Barrel: Spray Can, Magazine: Paintball, Grip: MP 40, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.5921 - 11.3526
-dropoffStuds: 160.2 - 342.65
-fireRate: 1339.3
-adsSpread: 0.294033
-hipfireSpread: 8.82099
-reloadTime: 6.2
-magazineSize: 70
-recoilHipVertical: 15.86 - 17.446
-recoilAimVertical: 5.551 - 6.0268
-movementSpeed: 2.5
-TTK: 0.268797 Seconds
-
-[ Barrel: Spray Can, Magazine: Paintball, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 15.187 - 11.8155
-dropoffStuds: 160.2 - 342.65
-fireRate: 1339.3
-adsSpread: 0.305299
-hipfireSpread: 9.15896
-reloadTime: 6.2
-magazineSize: 70
-recoilHipVertical: 12.2 - 13.42
-recoilAimVertical: 4.27 - 4.636
-movementSpeed: 2.5
-TTK: 0.268797 Seconds
-
-[ Barrel: Spray Can, Magazine: Paintball, Grip: APS, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.3471 - 11.1621
-dropoffStuds: 160.2 - 342.65
-fireRate: 1339.3
-adsSpread: 0.226439
-hipfireSpread: 6.79317
-reloadTime: 6.572
-magazineSize: 70
-recoilHipVertical: 11.1935 - 12.3129
-recoilAimVertical: 3.91773 - 4.25353
-movementSpeed: 2.5
-TTK: 0.268797 Seconds
-
-[ Barrel: Spray Can, Magazine: Paintball, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.6831 - 11.4234
-dropoffStuds: 160.2 - 342.65
-fireRate: 1339.3
-adsSpread: 0.226439
-hipfireSpread: 6.79317
+fireRate: 1540.2
+adsSpread: 0.257983
+hipfireSpread: 7.73949
 reloadTime: 6.2
 magazineSize: 70
 health: -7.5
-recoilHipVertical: 15.006 - 16.5066
-recoilAimVertical: 5.2521 - 5.70228
-movementSpeed: 2.5
-TTK: 0.268797 Seconds
+recoilHipVertical: 17.568 - 19.3248
+recoilAimVertical: 6.1488 - 6.67584
+movementSpeed: 4
+TTK: 0.233737 Seconds
+
+[ Barrel: Mustard, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 14.3942 - 11.5545
+dropoffStuds: 180 - 385
+fireRate: 1540.2
+adsSpread: 0.360663
+hipfireSpread: 10.8199
+reloadTime: 6.2
+magazineSize: 70
+health: -7.5
+recoilHipVertical: 17.568 - 19.3248
+recoilAimVertical: 6.1488 - 6.67584
+movementSpeed: 1.5
+TTK: 0.233737 Seconds
+
+[ Barrel: BAR, Magazine: MG42, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 20.7053 - 16.3306
+dropoffStuds: 160.38 - 343.035
+fireRate: 1005.16
+adsSpread: 0.3815
+hipfireSpread: 11.445
+reloadTime: 5.5
+magazineSize: 50
+health: -7.5
+recoilHipVertical: 17.4216 - 19.1638
+recoilAimVertical: 6.09756 - 6.62021
+movementSpeed: 3
+TTK: 0.238769 Seconds
+
+[ Barrel: Mustard, Magazine: Paintball, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 14.3942 - 11.5545
+dropoffStuds: 180 - 385
+fireRate: 1489.97
+adsSpread: 0.379562
+hipfireSpread: 11.3869
+reloadTime: 6.51
+magazineSize: 70
+health: -7.5
+recoilHipVertical: 12.2 - 13.42
+recoilAimVertical: 4.27 - 4.636
+movementSpeed: 7.5
+TTK: 0.241615 Seconds
+
+[ Barrel: Spray Can, Magazine: Paintball, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 14.844 - 11.5935
+dropoffStuds: 160.2 - 342.65
+fireRate: 1489.97
+adsSpread: 0.271502
+hipfireSpread: 8.14505
+reloadTime: 6.51
+magazineSize: 70
+health: -7.5
+recoilHipVertical: 12.2 - 13.42
+recoilAimVertical: 4.27 - 4.636
+movementSpeed: 10
+TTK: 0.241615 Seconds
+
+[ Barrel: Mustard, Magazine: Graphics Card, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 14.685 - 11.5562
+dropoffStuds: 165.6 - 354.2
+fireRate: 1487.98
+adsSpread: 0.305878
+hipfireSpread: 9.17635
+reloadTime: 6
+magazineSize: 50
+health: -7.5
+recoilHipVertical: 13.5274 - 14.8801
+recoilAimVertical: 4.73458 - 5.1404
+movementSpeed: 1.5
+TTK: 0.241938 Seconds
+
+[ Barrel: M870 Breacher, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 17.393 - 13.6186
+dropoffStuds: 162 - 346.5
+fireRate: 1232.16
+adsSpread: 0.334993
+hipfireSpread: 10.0498
+reloadTime: 6.2
+magazineSize: 70
+health: -7.5
+recoilHipVertical: 17.568 - 19.3248
+recoilAimVertical: 6.1488 - 6.67584
+movementSpeed: 3.75
+TTK: 0.243476 Seconds
+
+[ Barrel: M870 MCS, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 16.7183 - 13.2222
+dropoffStuds: 169.2 - 361.9
+fireRate: 1232.16
+adsSpread: 0.229104
+hipfireSpread: 6.87313
+reloadTime: 6.82
+magazineSize: 70
+health: -7.5
+recoilHipVertical: 17.568 - 19.3248
+recoilAimVertical: 6.1488 - 6.67584
+movementSpeed: 1.5
+TTK: 0.243476 Seconds
+
+[ Barrel: BAR, Magazine: Lewis, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 20.0374 - 15.7682
+dropoffStuds: 158.4 - 338.8
+fireRate: 979.332
+adsSpread: 0.298995
+hipfireSpread: 8.96986
+reloadTime: 5
+magazineSize: 47
+health: -7.5
+recoilHipVertical: 17.2752 - 19.0027
+recoilAimVertical: 6.04632 - 6.56458
+movementSpeed: 4
+TTK: 0.245065 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Graphics Card, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 16.796 - 13.2174
+dropoffStuds: 165.6 - 354.2
+fireRate: 1218.96
+adsSpread: 0.262337
+hipfireSpread: 7.87011
+reloadTime: 6.42
+magazineSize: 50
+health: -12.5
+recoilHipVertical: 13.5274 - 14.8801
+recoilAimVertical: 4.73458 - 5.1404
+movementSpeed: 1.5
+TTK: 0.246112 Seconds
 

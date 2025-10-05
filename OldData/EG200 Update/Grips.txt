@@ -273,10 +273,9 @@ Movement_Speed: -2.5%
 Recoil: +25%
 ---
 Grip: MG42
-Fire_Rate: +4%
-Spread: -13%
-Movement_Speed: -2.5%
-Reload_Speed: +3%
+Recoil: -13%
+Reload_Speed: -12%
+Movement_Speed: -2.7%
 ---
 Grip: Type 99
 Recoil: -13%
@@ -312,10 +311,9 @@ Movement_Speed: -4%
 Recoil: +7%
 ---
 Grip: Burton
+Recoil: -10%
 Reload_Speed: -4%
-Spread: -15%
-Movement_Speed: -3%
-Range: -2%
+Spread: +14%
 ---
 
 Category: Shotgun Grips
@@ -410,8 +408,13 @@ Recoil: -24%
 Spread: +12%
 ---
 Grip: Lamp Shade
-Recoil: -20%
-Range: -5%
+Health: +21%
+Damage: -5%
+Detection_Radius: +100%
+Equip_Time: +200%
+Movement_Speed: -9%
+Recoil: +50%
+Spread: +30%
 ---
 Grip: Paintball
 Movement_Speed: +4%

@@ -441,12 +441,8 @@ Reload_Speed: +10%
 Spread: +20%
 ---
 Stock: Keyboard
-Health: +21%
 Recoil: -16%
-Detection_Radius: +100%
-Movement_Speed: -15%
-Reload_Speed: +5%
-Spread: +30%
+Range: -5%
 ---
 Stock: Mega Soaker
 Movement_Speed: +8%
