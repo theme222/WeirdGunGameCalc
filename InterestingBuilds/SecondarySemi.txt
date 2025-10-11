@@ -1,4 +1,4 @@
-./Calculator -o InterestingBuilds/SecondarySemi -i Sidearm --spreadAimMax 0.5 --magazineMin 10 --rangeMin 75 --fireRateMin 100 --speedMin -0.5 --reloadMax 4 --recoilAimMax 80 --healthMin 0 
+./Calculator -o InterestingBuilds/SecondarySemi.txt -i Sidearm --spreadAimMax 0.5 --magazineMin 10 --rangeMin 75 --fireRateMin 100 --speedMin -0.5 --reloadMax 4 --recoilAimMax 80 --healthMin 0 
 Current top 10 guns are: 
 [ Barrel: Type 2a Nambu, Magazine: Restroom, Grip: M1897 Trench Shotgun, Stock: None, Core: Cyber 3517 ]
 damage: 51.8611 - 28.5812
@@ -49,6 +49,18 @@ recoilHipVertical: 80.64 - 98.56
 recoilAimVertical: 64.512 - 78.848
 TTK: 0.255183 Seconds
 
+[ Barrel: Mustard, Magazine: M110, Grip: M1911, Stock: None, Core: Cyber 3517 ]
+damage: 50.4509 - 30.1594
+dropoffStuds: 82.8 - 121.44
+fireRate: 235.125
+adsSpread: 0.286662
+hipfireSpread: 5.73325
+reloadTime: 3.952
+magazineSize: 10
+recoilHipVertical: 81.648 - 99.792
+recoilAimVertical: 65.3184 - 79.8336
+TTK: 0.255183 Seconds
+
 [ Barrel: Mustard, Magazine: M110, Grip: Banana, Stock: None, Core: Cyber 3517 ]
 damage: 50.4509 - 30.1594
 dropoffStuds: 82.8 - 121.44
@@ -60,18 +72,6 @@ magazineSize: 10
 recoilHipVertical: 80.64 - 98.56
 recoilAimVertical: 64.512 - 78.848
 movementSpeed: 5
-TTK: 0.255183 Seconds
-
-[ Barrel: Mustard, Magazine: M110, Grip: M1911, Stock: None, Core: Cyber 3517 ]
-damage: 50.4509 - 30.1594
-dropoffStuds: 82.8 - 121.44
-fireRate: 235.125
-adsSpread: 0.286662
-hipfireSpread: 5.73325
-reloadTime: 3.952
-magazineSize: 10
-recoilHipVertical: 81.648 - 99.792
-recoilAimVertical: 65.3184 - 79.8336
 TTK: 0.255183 Seconds
 
 [ Barrel: Mustard, Magazine: M110, Grip: Mega Soaker, Stock: None, Core: Cyber 3517 ]
@@ -113,16 +113,15 @@ recoilAimVertical: 64.8 - 79.2
 movementSpeed: 5
 TTK: 0.255657 Seconds
 
-[ Barrel: Type 2a Nambu, Magazine: Restroom, Grip: PPSh-41, Stock: None, Core: Cyber 3517 ]
-damage: 51.8611 - 28.5812
+[ Barrel: T10, Magazine: Restroom, Grip: PPSh-41, Stock: None, Core: Cyber 3517 ]
+damage: 50.1051 - 27.6135
 dropoffStuds: 75 - 110
 fireRate: 234.135
-adsSpread: 0.302777
-hipfireSpread: 6.05553
+adsSpread: 0.246389
+hipfireSpread: 4.92778
 reloadTime: 3.335
 magazineSize: 35
-recoilHipVertical: 72 - 88
-recoilAimVertical: 57.6 - 70.4
-movementSpeed: 2.25
+recoilHipVertical: 75.6 - 92.4
+recoilAimVertical: 60.48 - 73.92
 TTK: 0.256262 Seconds
 

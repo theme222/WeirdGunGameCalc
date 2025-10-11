@@ -25,6 +25,18 @@ health: -25
 recoilHipVertical: 241.121 - 274.61
 recoilAimVertical: 108.504 - 123.574
 
+[ Barrel: Car Muffler, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Lee Enfield, Core: Arisaka ]
+damage: 100.159 - 87.5394
+dropoffStuds: 304 - 532
+fireRate: 27.83
+adsSpread: 0.132225
+hipfireSpread: 10.578
+reloadTime: 11
+magazineSize: 7
+health: -25
+recoilHipVertical: 276.696 - 315.126
+recoilAimVertical: 124.513 - 141.807
+
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Fedorov, Core: Arisaka ]
 damage: 101.062 - 88.9344
 dropoffStuds: 320 - 560
@@ -38,19 +50,6 @@ recoilHipVertical: 148.23 - 168.818
 recoilAimVertical: 66.7035 - 75.9679
 movementSpeed: -4
 
-[ Barrel: BAR, Magazine: Snake Sniper, Grip: Musket, Stock: AWM, Core: Arisaka ]
-damage: 100.127 - 90.4544
-dropoffStuds: 410.4 - 718.2
-fireRate: 27.54
-adsSpread: 0.147947
-hipfireSpread: 11.8357
-reloadTime: 5.1425
-magazineSize: 6
-health: -10
-recoilHipVertical: 129.254 - 147.206
-recoilAimVertical: 58.1645 - 66.2429
-movementSpeed: 5.5
-
 [ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: Mosin, Core: Arisaka ]
 damage: 100.507 - 91.0089
 dropoffStuds: 418 - 731.5
@@ -63,6 +62,19 @@ health: -10
 recoilHipVertical: 188.202 - 214.341
 recoilAimVertical: 84.691 - 96.4537
 movementSpeed: -2
+
+[ Barrel: BAR, Magazine: Snake Sniper, Grip: Musket, Stock: AWM, Core: Arisaka ]
+damage: 100.127 - 90.4544
+dropoffStuds: 410.4 - 718.2
+fireRate: 27.54
+adsSpread: 0.147947
+hipfireSpread: 11.8357
+reloadTime: 5.1425
+magazineSize: 6
+health: -10
+recoilHipVertical: 129.254 - 147.206
+recoilAimVertical: 58.1645 - 66.2429
+movementSpeed: 5.5
 
 [ Barrel: G3, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: Arisaka ]
 damage: 100.34 - 89.6297
@@ -89,9 +101,22 @@ health: -10
 recoilHipVertical: 171.072 - 194.832
 recoilAimVertical: 76.9824 - 87.6744
 
+[ Barrel: G3, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Lee Enfield, Core: Arisaka ]
+damage: 100.34 - 89.0941
+dropoffStuds: 337.592 - 590.786
+fireRate: 27.2734
+adsSpread: 0.132225
+hipfireSpread: 10.578
+reloadTime: 10
+magazineSize: 7
+health: -10
+recoilHipVertical: 312.984 - 356.454
+recoilAimVertical: 140.843 - 160.404
+movementSpeed: -5
+
 [ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: M1897 Trench Shotgun, Stock: Lee Enfield, Core: Arisaka ]
-damage: 101.062 - 88.9344
-dropoffStuds: 320 - 560
+damage: 101.062 - 90.4503
+dropoffStuds: 380 - 665
 fireRate: 27.1693
 adsSpread: 0.14639
 hipfireSpread: 11.7112
@@ -101,30 +126,4 @@ health: -15
 recoilHipVertical: 226.8 - 258.3
 recoilAimVertical: 102.06 - 116.235
 movementSpeed: -2
-
-[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: FG-42, Core: Arisaka ]
-damage: 101.062 - 88.9344
-dropoffStuds: 320 - 560
-fireRate: 27.1665
-adsSpread: 0.132225
-hipfireSpread: 10.578
-reloadTime: 10.7
-magazineSize: 7
-health: -15
-recoilHipVertical: 183.06 - 208.485
-recoilAimVertical: 82.377 - 93.8183
-movementSpeed: 0.55
-
-[ Barrel: Snake Sniper, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Plunger, Core: Arisaka ]
-damage: 101.062 - 88.6918
-dropoffStuds: 313.6 - 548.8
-fireRate: 27.1014
-adsSpread: 0.132225
-hipfireSpread: 10.578
-reloadTime: 10.7
-magazineSize: 7
-health: -15
-recoilHipVertical: 162 - 184.5
-recoilAimVertical: 72.9 - 83.025
-movementSpeed: -4
 

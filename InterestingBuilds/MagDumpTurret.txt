@@ -1,5 +1,19 @@
 ./Calculator -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
+[ Barrel: FC200SH, Magazine: M1919 .30 Cal, Grip: Banana, Stock: Arisaka, Core: APS ]
+damage: 33.3716 - 49.0415
+dropoffStuds: 111.834 - 149.112
+fireRate: 523.8
+adsSpread: 1.49482
+hipfireSpread: 5.9793
+reloadTime: 10.773
+magazineSize: 100
+health: -8
+recoilHipVertical: 56 - 80
+recoilAimVertical: 30.8 - 44
+movementSpeed: 0.7
+TTK: 0.229095 Seconds
+
 [ Barrel: Uzi, Magazine: XXL AKM, Grip: Mas-38, Stock: Kriss Vector, Core: PPSh-41 ]
 damage: 14.6071 - 7.51751
 dropoffStuds: 101.603 - 113.795
@@ -69,6 +83,20 @@ recoilAimVertical: 19.44 - 27.24
 movementSpeed: 1.1
 TTK: 0.240396 Seconds
 
+[ Barrel: FC200SH, Magazine: M1919 .30 Cal, Grip: Croissant, Stock: Arisaka, Core: APS ]
+damage: 33.3716 - 49.0415
+dropoffStuds: 111.834 - 149.112
+fireRate: 497.61
+adsSpread: 1.30069
+hipfireSpread: 5.20277
+reloadTime: 10.773
+magazineSize: 100
+health: -8
+recoilHipVertical: 56 - 80
+recoilAimVertical: 30.8 - 44
+movementSpeed: 0.7
+TTK: 0.241153 Seconds
+
 [ Barrel: Tommy, Magazine: XXL AKM, Grip: Kriss Vector, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
 damage: 25.0029 - 10.4893
 dropoffStuds: 131.6 - 145.7
@@ -110,32 +138,4 @@ recoilHipVertical: 37.5 - 52.5
 recoilAimVertical: 24.3 - 34.05
 movementSpeed: 2.4
 TTK: 0.243909 Seconds
-
-[ Barrel: Tommy, Magazine: XXL AKM, Grip: M1897 Trench Shotgun, Stock: MAC-10, Core: Type 2a Nambu ]
-damage: 25.0029 - 10.4893
-dropoffStuds: 131.6 - 145.7
-fireRate: 736.302
-adsSpread: 0.641244
-hipfireSpread: 4.27496
-reloadTime: 9.45
-magazineSize: 90
-health: -8
-recoilHipVertical: 37.5 - 52.5
-recoilAimVertical: 24.3 - 34.05
-movementSpeed: 2.4
-TTK: 0.244465 Seconds
-
-[ Barrel: Tommy, Magazine: XXL AKM, Grip: P90, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.0029 - 9.76365
-dropoffStuds: 125.02 - 138.415
-fireRate: 735.026
-adsSpread: 0.670616
-hipfireSpread: 4.47077
-reloadTime: 9
-magazineSize: 90
-health: -8
-recoilHipVertical: 26.7 - 37.38
-recoilAimVertical: 17.3016 - 24.2436
-movementSpeed: 1.1
-TTK: 0.244889 Seconds
 

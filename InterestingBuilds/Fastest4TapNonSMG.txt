@@ -81,6 +81,18 @@ recoilAimVertical: 22.264 - 27.83
 movementSpeed: 3.6
 TTK: 0.314911 Seconds
 
+[ Barrel: M870 Wingmaster, Magazine: STG-44, Grip: PPSh-41, Stock: AWM, Core: Hex Spitter ]
+damage: 25.3877 - 22.9822
+dropoffStuds: 157.875 - 315.75
+fireRate: 570.525
+adsSpread: 0.604195
+hipfireSpread: 2.11468
+reloadTime: 3.13407
+magazineSize: 30
+recoilHipVertical: 33 - 44
+recoilAimVertical: 16.5 - 22
+TTK: 0.315499 Seconds
+
 [ Barrel: M870 Wingmaster, Magazine: STG-44, Grip: PPSh-41, Stock: FAL, Core: Hex Spitter ]
 damage: 25.3877 - 23.0784
 dropoffStuds: 164.19 - 328.38
@@ -92,18 +104,6 @@ magazineSize: 30
 recoilHipVertical: 39 - 52
 recoilAimVertical: 19.5 - 26
 movementSpeed: 0.16
-TTK: 0.315499 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: STG-44, Grip: PPSh-41, Stock: AWM, Core: Hex Spitter ]
-damage: 25.3877 - 22.9822
-dropoffStuds: 157.875 - 315.75
-fireRate: 570.525
-adsSpread: 0.604195
-hipfireSpread: 2.11468
-reloadTime: 3.13407
-magazineSize: 30
-recoilHipVertical: 33 - 44
-recoilAimVertical: 16.5 - 22
 TTK: 0.315499 Seconds
 
 [ Barrel: M870 Wingmaster, Magazine: STG-44, Grip: PPSh-41, Stock: MG42, Core: Hex Spitter ]
@@ -119,17 +119,17 @@ recoilAimVertical: 15 - 20
 movementSpeed: 2.625
 TTK: 0.315499 Seconds
 
-[ Barrel: M870 Breacher, Magazine: Graphics Card, Grip: Arisaka, Stock: JSG12, Core: M1919 .30 Cal ]
+[ Barrel: M870 Breacher, Magazine: Graphics Card, Grip: Arisaka, Stock: UNP-40, Core: M1919 .30 Cal ]
 damage: 25.9527 - 17.3484
 dropoffStuds: 157.32 - 314.64
 fireRate: 570
-adsSpread: 0.642148
-hipfireSpread: 8.89127
-reloadTime: 6.3
+adsSpread: 0.641775
+hipfireSpread: 8.88612
+reloadTime: 6
 magazineSize: 50
 health: 14
-recoilHipVertical: 33.88 - 42.35
-recoilAimVertical: 16.94 - 21.175
-movementSpeed: 0.9
+recoilHipVertical: 40.656 - 50.82
+recoilAimVertical: 20.328 - 25.41
+movementSpeed: 1.12
 TTK: 0.315789 Seconds
 

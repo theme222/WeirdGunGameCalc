@@ -29,10 +29,11 @@ BANSEMI=(--bc "FC200SH" "M1 Carbine" "G11" "Loaf")
 ./Calculator -o $IB/FastestGuaranteed1Tap.txt -i Sniper BR --damageEndMin 100 --spreadAimMax 0.15 --sort FIRERATE --speedMin -5 --magazineMin 5
 ####################### SNIPERS #######################
 
-####################### BATTLE RIFILES #######################
+####################### SEMI AUTOS #######################
 ./Calculator -o $IB/FastestHeadshotBR.txt -i BR --speedMin 0 --damageMin 66.67 --spreadAimMax 0.15 --sort FIRERATE --rangeMin 200 --pelletMax 1 --magazineMin 10
 ./Calculator -o $IB/FastestTTKBR.txt -i BR --speedMin -10 --spreadAimMax 0.6 --recoilAimMax 7.5 --magazineMin 20 --rangeMin 150 --pelletMax 1
-####################### BATTLE RIFILES #######################
+./Calculator -o $IB/M1Carbine.txt -i SMG --fc "M1 Carbine" --spreadHipMax 0.5 --recoilHipMax 8 --magazineMin 20 --rangeMin 100
+####################### SEMI AUTOS #######################
 
 ####################### SHOTGUNS #######################
 ./Calculator -o $IB/LowSpreadShogun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadAimMax 0.85

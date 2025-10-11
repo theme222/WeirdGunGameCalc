@@ -1,0 +1,192 @@
+./Calculator -o InterestingBuilds/M1Carbine.txt -i SMG --fc M1 Carbine --spreadHipMax 0.6 --magazineMin 20 --rangeMin 100 --fireRateMin 900 -d -t 1 --damageMin 1 
+Current top 10 guns are: 
+[ Barrel: Tommy, Magazine: Tommy, Grip: Mas-38, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.5598 - 18.3344
+dropoffStuds: 126.759 - 148.614
+falloffFactor: -0.45368
+pellets: 1
+burst: 1
+timeToAim: 0.6
+fireRate: 981.849
+adsSpread: 0.457085
+hipfireSpread: 0.457085
+reloadTime: 3
+magazineSize: 20
+health: 0
+recoilHipVertical: 15.25 - 18.3
+recoilAimVertical: 6.1 - 7.32
+movementSpeed: 11.6
+detectionRadius: 120
+TTK: 0.122218 Seconds
+
+[ Barrel: PP-19 Bizon, Magazine: Scar H, Grip: Mas-38, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.8866 - 19.1612
+dropoffStuds: 130.71 - 153.246
+falloffFactor: -0.434548
+pellets: 1
+burst: 1
+timeToAim: 0.6
+fireRate: 963.496
+adsSpread: 0.38122
+hipfireSpread: 0.38122
+reloadTime: 4.5
+magazineSize: 20
+health: 0
+recoilHipVertical: 19.0625 - 22.875
+recoilAimVertical: 7.625 - 9.15
+movementSpeed: 6.5
+detectionRadius: 132
+TTK: 0.124546 Seconds
+
+[ Barrel: PP-19 Bizon, Magazine: Tommy, Grip: Mas-38, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 34.1813 - 18.0887
+dropoffStuds: 121.365 - 142.29
+falloffFactor: -0.4708
+pellets: 1
+burst: 1
+timeToAim: 0.6
+fireRate: 963.496
+adsSpread: 0.457085
+hipfireSpread: 0.457085
+reloadTime: 3
+magazineSize: 20
+health: 0
+recoilHipVertical: 15.25 - 18.3
+recoilAimVertical: 6.1 - 7.32
+movementSpeed: 10.3
+detectionRadius: 120
+TTK: 0.124546 Seconds
+
+[ Barrel: Tommy, Magazine: Tommy, Grip: Mas-38, Stock: Spas-12, Core: M1 Carbine ]
+damage: 33.5598 - 16.5073
+dropoffStuds: 111.548 - 130.78
+falloffFactor: -0.508122
+pellets: 1
+burst: 1
+timeToAim: 0.6
+fireRate: 947.567
+adsSpread: 0.409738
+hipfireSpread: 0.409738
+reloadTime: 3
+magazineSize: 20
+health: 0
+recoilHipVertical: 12.5 - 15
+recoilAimVertical: 5 - 6
+movementSpeed: 8.6
+detectionRadius: 120
+TTK: 0.12664 Seconds
+
+[ Barrel: Uzi, Magazine: Tommy, Grip: The Chief, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.721 - 19.1535
+dropoffStuds: 133.4 - 156.4
+falloffFactor: -0.432
+pellets: 1
+burst: 1
+timeToAim: 0.6
+fireRate: 943.586
+adsSpread: 0.366123
+hipfireSpread: 0.366123
+reloadTime: 3
+magazineSize: 20
+health: 0
+recoilHipVertical: 16.47 - 19.764
+recoilAimVertical: 6.588 - 7.9056
+movementSpeed: 9.8
+detectionRadius: 120
+TTK: 0.127174 Seconds
+
+[ Barrel: Uzi, Magazine: Scar H, Grip: The Chief, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.4303 - 20.1004
+dropoffStuds: 143.672 - 168.443
+falloffFactor: -0.398736
+pellets: 1
+burst: 1
+timeToAim: 0.6
+fireRate: 943.586
+adsSpread: 0.305356
+hipfireSpread: 0.305356
+reloadTime: 4.5
+magazineSize: 20
+health: 0
+recoilHipVertical: 20.5875 - 24.705
+recoilAimVertical: 8.235 - 9.882
+movementSpeed: 6
+detectionRadius: 132
+TTK: 0.127174 Seconds
+
+[ Barrel: Tommy, Magazine: MP18, Grip: Mas-38, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.8491 - 17.1103
+dropoffStuds: 115.351 - 135.239
+falloffFactor: -0.494511
+pellets: 1
+burst: 1
+timeToAim: 0.6
+fireRate: 942.575
+adsSpread: 0.38122
+hipfireSpread: 0.38122
+reloadTime: 2.2
+magazineSize: 32
+health: 0
+recoilHipVertical: 18.605 - 22.326
+recoilAimVertical: 7.442 - 8.9304
+movementSpeed: 7.8
+detectionRadius: 120
+TTK: 0.127311 Seconds
+
+[ Barrel: Tommy, Magazine: Tommy, Grip: Mas-38, Stock: Kriss Vector, Core: M1 Carbine ]
+damage: 33.5598 - 17.5731
+dropoffStuds: 120.421 - 141.183
+falloffFactor: -0.476364
+pellets: 1
+burst: 1
+timeToAim: 0.6
+fireRate: 940.535
+adsSpread: 0.475296
+hipfireSpread: 0.475296
+reloadTime: 3
+magazineSize: 20
+health: 0
+recoilHipVertical: 10 - 12
+recoilAimVertical: 4 - 4.8
+movementSpeed: 14.9
+detectionRadius: 120
+TTK: 0.127587 Seconds
+
+[ Barrel: M1911, Magazine: G3, Grip: Mas-38, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.9305 - 17.8108
+dropoffStuds: 120.017 - 140.709
+falloffFactor: -0.47508
+pellets: 1
+burst: 1
+timeToAim: 0.6
+fireRate: 936.885
+adsSpread: 0.38122
+hipfireSpread: 0.38122
+reloadTime: 3
+magazineSize: 20
+health: 0
+recoilHipVertical: 18.4525 - 22.143
+recoilAimVertical: 7.381 - 8.8572
+movementSpeed: 2
+detectionRadius: 132
+TTK: 0.128084 Seconds
+
+[ Barrel: Tommy, Magazine: MP 40, Grip: Mas-38, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.5598 - 18.3344
+dropoffStuds: 126.759 - 148.614
+falloffFactor: -0.45368
+pellets: 1
+burst: 1
+timeToAim: 0.6
+fireRate: 932.756
+adsSpread: 0.343288
+hipfireSpread: 0.343288
+reloadTime: 2.5
+magazineSize: 32
+health: 0
+recoilHipVertical: 17.5375 - 21.045
+recoilAimVertical: 7.015 - 8.418
+movementSpeed: 7.8
+detectionRadius: 120
+TTK: 0.128651 Seconds
+

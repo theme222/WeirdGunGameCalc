@@ -86,10 +86,6 @@ Detection_Radius: -12%
 Spread: -15%
 Recoil: +12%
 ---
-Grip: Broza
-Fire_Rate: +4%
-Reload_Speed: +6%
----
 
 Category: Sniper Grips
 ---
@@ -266,9 +262,9 @@ Movement_Speed: -2.5%
 Reload_Speed: +5%
 ---
 Grip: DP-27
-Recoil: -27%
+Recoil: -19%
 Reload_Speed: -13%
-Fire_Rate: -6%
+Fire_Rate: -5%
 ---
 Grip: M1919 .30 Cal
 Reload_Speed: -19%
@@ -539,10 +535,4 @@ Recoil: +11%
 Grip: EG200
 Movement_Speed: +7.5%
 Spread: +25%
----
-Grip: Kolibri
-Movement_Speed: +6%
-Recoil: -25%
-Damage: -5%
-Range: -5%
 ---

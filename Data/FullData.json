@@ -155,6 +155,13 @@
       "Damage": -10
     },
     {
+      "Category": "Assault Rifle",
+      "Name": "Broza",
+      "Fire_Rate": 5.5,
+      "Range": 3,
+      "Spread": 12
+    },
+    {
       "Category": "Sniper",
       "Name": "M40",
       "Fire_Rate": 10,
@@ -633,11 +640,12 @@
       "Category": "Shotgun",
       "Name": "Double Barrel",
       "Damage": 15,
+      "Pellets": 100,
       "Range": 5,
       "Fire_Rate": -15,
       "Recoil": 80,
       "Reload_Speed": 10,
-      "Spread": 75
+      "Spread": 6
     },
     {
       "Category": "Weird",
@@ -982,6 +990,13 @@
       "Pellets": 100,
       "Fire_Rate": -7,
       "Spread": 15
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Kolibri",
+      "Movement_Speed": 4,
+      "Recoil": -40,
+      "Damage": -40
     }
   ],
   "Cores": [
@@ -1095,8 +1110,8 @@
       "Category": "Assault Rifle",
       "Name": "As-Val",
       "Damage": [
-        13.8,
-        11.4
+        14.5,
+        12
       ],
       "Dropoff_Studs": [
         170,
@@ -1201,8 +1216,8 @@
       "Category": "Assault Rifle",
       "Name": "STG-44",
       "Damage": [
-        19.7,
-        16.7
+        20.1,
+        17.1
       ],
       "Dropoff_Studs": [
         150,
@@ -1210,7 +1225,7 @@
       ],
       "Fire_Rate": 500,
       "Hipfire_Spread": 5.5,
-      "ADS_Spread": 0.5,
+      "ADS_Spread": 0.4,
       "Time_To_Aim": 0.5,
       "Detection_Radius": 110,
       "Suppression": 0.3,
@@ -1343,16 +1358,17 @@
       "Category": "Assault Rifle",
       "Name": "APS",
       "Damage": [
-        22,
-        11
+        25.5,
+        10.2
       ],
       "Dropoff_Studs": [
         90,
         120
       ],
+      "Falloff_Factor": 0.6,
       "Fire_Rate": 600,
       "Hipfire_Spread": 4,
-      "ADS_Spread": 1.3,
+      "ADS_Spread": 1,
       "Time_To_Aim": 0.5,
       "Detection_Radius": 200,
       "Suppression": 0.3,
@@ -1412,8 +1428,8 @@
       "Category": "Assault Rifle",
       "Name": "FC200SH",
       "Damage": [
-        20,
-        16
+        22.5,
+        18
       ],
       "Dropoff_Studs": [
         180,
@@ -1432,16 +1448,16 @@
         4
       ],
       "Recoil_Hip_Vertical": [
-        12,
-        15
+        10,
+        12
       ],
       "Recoil_Aim_Horizontal": [
-        -1.4,
-        1.4
+        -1,
+        1
       ],
       "Recoil_Aim_Vertical": [
-        4.2,
-        5.2
+        2.5,
+        3
       ]
     },
     {
@@ -1584,6 +1600,41 @@
       "Recoil_Aim_Vertical": [
         49,
         52.5
+      ]
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "Broza",
+      "Damage": [
+        15,
+        12.3
+      ],
+      "Dropoff_Studs": [
+        150,
+        200
+      ],
+      "Fire_Rate": 725,
+      "Hipfire_Spread": 4,
+      "ADS_Spread": 0.25,
+      "Time_To_Aim": 0.55,
+      "Detection_Radius": 120,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Hip_Vertical": [
+        35,
+        37
+      ],
+      "Recoil_Aim_Horizontal": [
+        -5.4,
+        5.4
+      ],
+      "Recoil_Aim_Vertical": [
+        15.7,
+        16.6
       ]
     },
     {
@@ -1954,8 +2005,8 @@
         40.6
       ],
       "Dropoff_Studs": [
-        200,
-        400
+        170,
+        380
       ],
       "Falloff_Factor": -0.42,
       "Fire_Rate": 32,
@@ -1979,7 +2030,7 @@
         10.4
       ],
       "Recoil_Aim_Vertical": [
-        44.2,
+        55.2,
         65
       ]
     },
@@ -2512,15 +2563,15 @@
       "Category": "SMG",
       "Name": "M1 Carbine",
       "Damage": [
-        24,
-        14.4
+        26,
+        15.6
       ],
       "Dropoff_Studs": [
         145,
         170
       ],
       "Fire_Rate": 775,
-      "Hipfire_Spread": 5,
+      "Hipfire_Spread": 0.35,
       "ADS_Spread": 0.35,
       "Time_To_Aim": 0.6,
       "Detection_Radius": 120,
@@ -2989,12 +3040,13 @@
       "Name": "Burton",
       "Damage": [
         14.7,
-        11.8
+        10.7
       ],
       "Dropoff_Studs": [
         180,
         385
       ],
+      "Falloff_Factor": -0.275,
       "Fire_Rate": 800,
       "Hipfire_Spread": 4.5,
       "ADS_Spread": 0.15,
@@ -3573,8 +3625,8 @@
       "Category": "Weird",
       "Name": "Paintball",
       "Damage": [
-        24.5,
-        15.3
+        22,
+        13.8
       ],
       "Dropoff_Studs": [
         140,
@@ -3583,7 +3635,7 @@
       "Falloff_Factor": -0.375,
       "Fire_Rate": 450,
       "Hipfire_Spread": 5,
-      "ADS_Spread": 0.3,
+      "ADS_Spread": 0.6,
       "Time_To_Aim": 0.5,
       "Detection_Radius": 240,
       "Suppression": 0.1,
@@ -4254,7 +4306,7 @@
       ],
       "Fire_Rate": 198,
       "Hipfire_Spread": 4,
-      "ADS_Spread": 0.2,
+      "ADS_Spread": 2.6,
       "Time_To_Aim": 0.5,
       "Detection_Radius": 200,
       "Equip_Time": 0.7,
@@ -4345,6 +4397,40 @@
       "Recoil_Aim_Vertical": [
         10,
         17
+      ]
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Kolibri",
+      "Damage": [
+        10,
+        8
+      ],
+      "Dropoff_Studs": [
+        10,
+        20
+      ],
+      "Fire_Rate": 500,
+      "Hipfire_Spread": 0.1,
+      "ADS_Spread": 0.1,
+      "Time_To_Aim": 0.2,
+      "Detection_Radius": 5,
+      "Equip_Time": 0.1,
+      "Recoil_Hip_Horizontal": [
+        -1,
+        1
+      ],
+      "Recoil_Hip_Vertical": [
+        1,
+        2
+      ],
+      "Recoil_Aim_Horizontal": [
+        -0.2,
+        0.2
+      ],
+      "Recoil_Aim_Vertical": [
+        0.2,
+        0.3
       ]
     }
   ],
@@ -4470,6 +4556,12 @@
       "Detection_Radius": -12,
       "Spread": -15,
       "Recoil": 12
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "Broza",
+      "Fire_Rate": 4,
+      "Reload_Speed": 6
     },
     {
       "Category": "Sniper",
@@ -4700,9 +4792,9 @@
     {
       "Category": "LMG",
       "Name": "DP-27",
-      "Recoil": -19,
+      "Recoil": -27,
       "Reload_Speed": -13,
-      "Fire_Rate": -5
+      "Fire_Rate": -6
     },
     {
       "Category": "LMG",
@@ -5059,6 +5151,14 @@
       "Name": "EG200",
       "Movement_Speed": 7.5,
       "Spread": 25
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Kolibri",
+      "Movement_Speed": 6,
+      "Recoil": -25,
+      "Damage": -5,
+      "Range": -5
     }
   ],
   "Magazines": [
@@ -5092,10 +5192,10 @@
       "Magazine_Size": 20,
       "Reload_Time": 1.5,
       "Detection_Radius": -25,
-      "Fire_Rate": 3,
-      "Recoil": -10,
+      "Fire_Rate": 7,
+      "Recoil": -21,
       "Damage": -5,
-      "Range": -12
+      "Range": -2
     },
     {
       "Category": "Assault Rifle",
@@ -5155,10 +5255,10 @@
       "Category": "Assault Rifle",
       "Name": "Hex Spitter",
       "Magazine_Size": 35,
-      "Reload_Time": 4.2,
+      "Reload_Time": 4,
       "Damage": 12,
       "Pellets": 100,
-      "Range": -12,
+      "Range": -5.5,
       "Recoil": 38,
       "Spread": 6
     },
@@ -5237,6 +5337,14 @@
       "Fire_Rate": 6,
       "Recoil": 24,
       "Spread": 5
+    },
+    {
+      "Category": "Assault Rifle",
+      "Name": "Broza",
+      "Magazine_Size": 20,
+      "Reload_Time": 1.9,
+      "Damage": 6,
+      "Range": -2
     },
     {
       "Category": "Sniper",
@@ -5689,7 +5797,7 @@
       "Pellets": 150,
       "Range": -30,
       "Recoil": 50,
-      "Spread": 25
+      "Spread": 5
     },
     {
       "Category": "Shotgun",
@@ -5723,8 +5831,7 @@
       "Damage": 17,
       "Pellets": 45,
       "Range": -10,
-      "Recoil": 35,
-      "Spread": 16
+      "Recoil": 35
     },
     {
       "Category": "Shotgun",
@@ -5734,8 +5841,7 @@
       "Damage": 21,
       "Pellets": 100,
       "Range": -15,
-      "Recoil": 38,
-      "Spread": 14
+      "Recoil": 38
     },
     {
       "Category": "Shotgun",
@@ -5900,11 +6006,11 @@
       "Category": "BR",
       "Name": "M1Garand",
       "Magazine_Size": 8,
-      "Reload_Time": 4,
+      "Reload_Time": 3.8,
       "Damage": 22,
-      "Range": 13,
+      "Range": 8,
       "Spread": -10,
-      "Fire_Rate": -5
+      "Fire_Rate": -8
     },
     {
       "Category": "BR",
@@ -6131,6 +6237,17 @@
       "Fire_Rate": -11,
       "Movement_Speed": -2,
       "Recoil": 30
+    },
+    {
+      "Category": "Sidearm",
+      "Name": "Kolibri",
+      "Magazine_Size": 5,
+      "Reload_Time": 0.5,
+      "Movement_Speed": 4,
+      "Recoil": -40,
+      "Spread": -30,
+      "Damage": -15,
+      "Range": -15
     }
   ],
   "Stocks": [
@@ -6257,6 +6374,13 @@
       "Spread": 15
     },
     {
+      "Category": "Assault Rifle",
+      "Name": "Broza",
+      "Reload_Speed": -5,
+      "Spread": -12,
+      "Recoil": 22
+    },
+    {
       "Category": "Sniper",
       "Name": "M40",
       "Recoil": -10,
@@ -6279,9 +6403,9 @@
       "Category": "Sniper",
       "Name": "Lee Enfield",
       "Fire_Rate": 10,
+      "Range": -5,
       "Recoil": 40,
-      "Spread": 20,
-      "Range": -20
+      "Spread": 20
     },
     {
       "Category": "Sniper",

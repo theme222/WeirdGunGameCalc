@@ -1,5 +1,122 @@
 ./Calculator -o InterestingBuilds/LowSpreadShogun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadAimMax 0.85 
 Current top 10 guns are: 
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: AWM, Core: M870 ]
+damage: 119.437 - -8.60993
+dropoffStuds: 40.6725 - 92.4375
+pellets: 8
+fireRate: 83.16
+adsSpread: 0.827951
+hipfireSpread: 2.50894
+reloadTime: 0.4625
+magazineSize: 5
+recoilHipVertical: 69.597 - 111.355
+recoilAimVertical: 27.8388 - 44.5421
+movementSpeed: 0.6
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: JSG12, Core: M870 ]
+damage: 119.437 - -8.60993
+dropoffStuds: 40.6725 - 92.4375
+pellets: 8
+fireRate: 83.16
+adsSpread: 0.813953
+hipfireSpread: 2.46652
+reloadTime: 0.525
+magazineSize: 5
+recoilHipVertical: 63.27 - 101.232
+recoilAimVertical: 25.308 - 40.4928
+movementSpeed: 3.6
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: MG42, Core: M870 ]
+damage: 119.437 - -8.60993
+dropoffStuds: 40.6725 - 92.4375
+pellets: 8
+fireRate: 83.16
+adsSpread: 0.816286
+hipfireSpread: 2.47359
+reloadTime: 0.6
+magazineSize: 5
+recoilHipVertical: 63.27 - 101.232
+recoilAimVertical: 25.308 - 40.4928
+movementSpeed: 3.225
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: FAL, Core: M870 ]
+damage: 119.437 - -4.76852
+dropoffStuds: 41.8927 - 95.2106
+pellets: 8
+fireRate: 83.16
+adsSpread: 0.840083
+hipfireSpread: 2.54571
+reloadTime: 0.5
+magazineSize: 5
+recoilHipVertical: 82.251 - 131.602
+recoilAimVertical: 32.9004 - 52.6406
+movementSpeed: 0.72
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: JSG12, Stock: JSG12, Core: M870 ]
+damage: 122.415 - -8.82458
+dropoffStuds: 40.6725 - 92.4375
+pellets: 8
+fireRate: 79.2
+adsSpread: 0.832834
+hipfireSpread: 2.52374
+reloadTime: 0.525
+magazineSize: 5
+recoilHipVertical: 97.014 - 155.222
+recoilAimVertical: 38.8056 - 62.089
+movementSpeed: 6.6
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: JSG12, Stock: MG42, Core: M870 ]
+damage: 122.415 - -8.82458
+dropoffStuds: 40.6725 - 92.4375
+pellets: 8
+fireRate: 79.2
+adsSpread: 0.835221
+hipfireSpread: 2.53097
+reloadTime: 0.6
+magazineSize: 5
+recoilHipVertical: 97.014 - 155.222
+recoilAimVertical: 38.8056 - 62.089
+movementSpeed: 6.225
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: JSG12, Stock: AWM, Core: M870 ]
+damage: 122.415 - -8.82458
+dropoffStuds: 40.6725 - 92.4375
+pellets: 8
+fireRate: 79.2
+adsSpread: 0.847157
+hipfireSpread: 2.56714
+reloadTime: 0.4625
+magazineSize: 5
+recoilHipVertical: 106.715 - 170.745
+recoilAimVertical: 42.6862 - 68.2979
+movementSpeed: 3.6
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: FC200SH, Core: M870 ]
+damage: 119.437 - -5.92094
+dropoffStuds: 41.5266 - 94.3787
+pellets: 8
+fireRate: 79.002
+adsSpread: 0.834484
+hipfireSpread: 2.52874
+reloadTime: 0.5
+magazineSize: 5
+recoilHipVertical: 63.27 - 101.232
+recoilAimVertical: 25.308 - 40.4928
+movementSpeed: 2
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: M870 MCS, Core: M870 ]
+damage: 119.437 - -8.60993
+dropoffStuds: 40.6725 - 92.4375
+pellets: 8
+fireRate: 79.002
+adsSpread: 0.80462
+hipfireSpread: 2.43824
+reloadTime: 0.55
+magazineSize: 5
+recoilHipVertical: 47.4525 - 75.924
+recoilAimVertical: 18.981 - 30.3696
+movementSpeed: 0.6
+
 [ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: Auto-5, Core: M870 ]
 damage: 145.988 - 26.9029
 dropoffStuds: 53.8312 - 122.344
@@ -12,121 +129,4 @@ magazineSize: 5
 recoilHipVertical: 119.7 - 191.52
 recoilAimVertical: 47.88 - 76.608
 movementSpeed: 3
-
-[ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: JSG12, Core: M870 ]
-damage: 153.453 - 28.2785
-dropoffStuds: 53.8312 - 122.344
-pellets: 8
-fireRate: 74.844
-adsSpread: 0.762329
-hipfireSpread: 2.31009
-reloadTime: 5.25
-magazineSize: 5
-recoilHipVertical: 119.7 - 191.52
-recoilAimVertical: 47.88 - 76.608
-movementSpeed: 1
-
-[ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: UNP-40, Core: M870 ]
-damage: 153.453 - 28.2785
-dropoffStuds: 53.8312 - 122.344
-pellets: 8
-fireRate: 74.844
-adsSpread: 0.803409
-hipfireSpread: 2.43457
-reloadTime: 5
-magazineSize: 5
-recoilHipVertical: 143.64 - 229.824
-recoilAimVertical: 57.456 - 91.9296
-movementSpeed: 0.47
-
-[ Barrel: Second Amendment, Magazine: AWM, Grip: Auto-5, Stock: MG42, Core: M870 ]
-damage: 153.453 - 28.2785
-dropoffStuds: 53.8312 - 122.344
-pellets: 8
-fireRate: 74.844
-adsSpread: 0.764514
-hipfireSpread: 2.31671
-reloadTime: 6
-magazineSize: 5
-recoilHipVertical: 119.7 - 191.52
-recoilAimVertical: 47.88 - 76.608
-movementSpeed: 0.625
-
-[ Barrel: Second Amendment, Magazine: AWM, Grip: Hell-Trooper-23, Stock: AWM, Core: M870 ]
-damage: 157.279 - 28.9835
-dropoffStuds: 53.8312 - 122.344
-pellets: 8
-fireRate: 71.28
-adsSpread: 0.841994
-hipfireSpread: 2.5515
-reloadTime: 4.46312
-magazineSize: 5
-recoilHipVertical: 146.3 - 234.08
-recoilAimVertical: 58.52 - 93.632
-movementSpeed: 0.0999999
-
-[ Barrel: Second Amendment, Magazine: AWM, Grip: Hell-Trooper-23, Stock: MG42, Core: M870 ]
-damage: 157.279 - 28.9835
-dropoffStuds: 53.8312 - 122.344
-pellets: 8
-fireRate: 71.28
-adsSpread: 0.830131
-hipfireSpread: 2.51555
-reloadTime: 5.79
-magazineSize: 5
-recoilHipVertical: 133 - 212.8
-recoilAimVertical: 53.2 - 85.12
-movementSpeed: 2.725
-
-[ Barrel: Second Amendment, Magazine: AWM, Grip: JSG12, Stock: JSG12, Core: M870 ]
-damage: 157.279 - 28.9835
-dropoffStuds: 53.8312 - 122.344
-pellets: 8
-fireRate: 71.28
-adsSpread: 0.780012
-hipfireSpread: 2.36367
-reloadTime: 5.25
-magazineSize: 5
-recoilHipVertical: 183.54 - 293.664
-recoilAimVertical: 73.416 - 117.466
-movementSpeed: 4
-
-[ Barrel: Second Amendment, Magazine: AWM, Grip: Napo - Scissors, Stock: MG42, Core: M870 ]
-damage: 157.279 - 28.9835
-dropoffStuds: 53.8312 - 122.344
-pellets: 8
-fireRate: 71.28
-adsSpread: 0.848752
-hipfireSpread: 2.57198
-reloadTime: 6
-magazineSize: 5
-recoilHipVertical: 148.96 - 238.336
-recoilAimVertical: 59.584 - 95.3344
-movementSpeed: 0.625
-
-[ Barrel: Second Amendment, Magazine: AWM, Grip: JSG12, Stock: FAL, Core: M870 ]
-damage: 157.279 - 32.8324
-dropoffStuds: 55.4462 - 126.014
-pellets: 8
-fireRate: 71.28
-adsSpread: 0.805053
-hipfireSpread: 2.43956
-reloadTime: 5
-magazineSize: 5
-recoilHipVertical: 238.602 - 381.763
-recoilAimVertical: 95.4408 - 152.705
-movementSpeed: 1.12
-
-[ Barrel: Second Amendment, Magazine: AWM, Grip: Sten gun, Stock: JSG12, Core: M870 ]
-damage: 157.279 - 28.9835
-dropoffStuds: 53.8312 - 122.344
-pellets: 8
-fireRate: 71.28
-adsSpread: 0.841463
-hipfireSpread: 2.54989
-reloadTime: 5.25
-magazineSize: 5
-recoilHipVertical: 170.24 - 272.384
-recoilAimVertical: 68.096 - 108.954
-movementSpeed: 2.3
 

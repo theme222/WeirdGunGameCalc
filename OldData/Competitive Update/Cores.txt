@@ -47,7 +47,7 @@ Recoil_Aim_Horizontal: -0.4 - 0.4
 Recoil_Aim_Vertical: 18 - 22.5
 ---
 Core: As-Val
-Damage: 14.5 > 12
+Damage: 13.8 > 11.4
 Dropoff_Studs: 170 > 225
 Fire_Rate: 750
 Hipfire_Spread: 2
@@ -93,11 +93,11 @@ Recoil_Aim_Horizontal: -4.8 - 4.8
 Recoil_Aim_Vertical: 27.5 - 32.5
 ---
 Core: STG-44
-Damage: 20.1 > 17.1
+Damage: 19.7 > 16.7
 Dropoff_Studs: 150 > 300
 Fire_Rate: 500
 Hipfire_Spread: 5.5
-ADS_Spread: 0.4
+ADS_Spread: 0.5
 Time_To_Aim: 0.5
 Detection_Radius: 110
 Suppression: 0.3
@@ -155,12 +155,11 @@ Recoil_Aim_Horizontal: -3.2 - 3.2
 Recoil_Aim_Vertical: 15 - 20
 ---
 Core: APS
-Damage: 25.5 > 10.2
+Damage: 22 > 11
 Dropoff_Studs: 90 > 120
-Falloff_Factor: 0.6
 Fire_Rate: 600
 Hipfire_Spread: 4
-ADS_Spread: 1
+ADS_Spread: 1.3
 Time_To_Aim: 0.5
 Detection_Radius: 200
 Suppression: 0.3
@@ -185,7 +184,7 @@ Recoil_Aim_Horizontal: -9 - 9
 Recoil_Aim_Vertical: 9 - 27
 ---
 Core: FC200SH
-Damage: 22.5 > 18
+Damage: 20 > 16
 Dropoff_Studs: 180 > 350
 Fire_Rate: 600
 Hipfire_Spread: 4
@@ -196,9 +195,9 @@ Suppression: 0.3
 Health: +5%
 Equip_Time: 0.7
 Recoil_Hip_Horizontal: -4 - 4
-Recoil_Hip_Vertical: 10 - 12
-Recoil_Aim_Horizontal: -1 - 1
-Recoil_Aim_Vertical: 2.5 - 3
+Recoil_Hip_Vertical: 12 - 15
+Recoil_Aim_Horizontal: -1.4 - 1.4
+Recoil_Aim_Vertical: 4.2 - 5.2
 ---
 Core: AR-8X
 Damage: 15.9 > 10.7
@@ -261,21 +260,6 @@ Recoil_Hip_Horizontal: -22 - 22
 Recoil_Hip_Vertical: 70 - 75
 Recoil_Aim_Horizontal: -15.4 - 15.4
 Recoil_Aim_Vertical: 49 - 52.5
----
-Core: Broza
-Damage: 15 > 12.3
-Dropoff_Studs: 150 > 200
-Fire_Rate: 725
-Hipfire_Spread: 4
-ADS_Spread: 0.25
-Time_To_Aim: 0.55
-Detection_Radius: 120
-Suppression: 0.3
-Equip_Time: 0.7
-Recoil_Hip_Horizontal: -12 - 12
-Recoil_Hip_Vertical: 35 - 37
-Recoil_Aim_Horizontal: -5.4 - 5.4
-Recoil_Aim_Vertical: 15.7 - 16.6
 ---
 
 Category: Sniper
@@ -442,7 +426,7 @@ Recoil_Aim_Vertical: 45 - 60
 ---
 Core: VSSR
 Damage: 70 > 40.6
-Dropoff_Studs: 170 > 380
+Dropoff_Studs: 200 > 400
 Falloff_Factor: -0.42
 Fire_Rate: 32
 Hipfire_Spread: 17
@@ -455,7 +439,7 @@ Equip_Time: 1
 Recoil_Hip_Horizontal: -16 - 16
 Recoil_Hip_Vertical: 85 - 100
 Recoil_Aim_Horizontal: -10.4 - 10.4
-Recoil_Aim_Vertical: 55.2 - 65
+Recoil_Aim_Vertical: 44.2 - 65
 ---
 Core: Mosin
 Damage: 66 > 41.3
@@ -686,10 +670,10 @@ Recoil_Aim_Horizontal: -9.7 - 9.7
 Recoil_Aim_Vertical: 13.8 - 17.5
 ---
 Core: M1 Carbine
-Damage: 26 > 15.6
+Damage: 24 > 14.4
 Dropoff_Studs: 145 > 170
 Fire_Rate: 775
-Hipfire_Spread: 0.35
+Hipfire_Spread: 5
 ADS_Spread: 0.35
 Time_To_Aim: 0.6
 Detection_Radius: 120
@@ -905,9 +889,8 @@ Recoil_Aim_Horizontal: -4.1 - 4.1
 Recoil_Aim_Vertical: 16.7 - 19.2
 ---
 Core: Burton
-Damage: 14.7 > 10.7
+Damage: 14.7 > 11.8
 Dropoff_Studs: 180 > 385
-Falloff_Factor: -0.275
 Fire_Rate: 800
 Hipfire_Spread: 4.5
 ADS_Spread: 0.15
@@ -1172,12 +1155,12 @@ Recoil_Aim_Horizontal: -6 - 6
 Recoil_Aim_Vertical: 14.3 - 20.3
 ---
 Core: Paintball
-Damage: 22 > 13.8
+Damage: 24.5 > 15.3
 Dropoff_Studs: 140 > 290
 Falloff_Factor: -0.375
 Fire_Rate: 450
 Hipfire_Spread: 5
-ADS_Spread: 0.6
+ADS_Spread: 0.3
 Time_To_Aim: 0.5
 Detection_Radius: 240
 Suppression: 0.1
@@ -1474,7 +1457,7 @@ Damage: 45 > 24.8
 Dropoff_Studs: 75 > 110
 Fire_Rate: 198
 Hipfire_Spread: 4
-ADS_Spread: 2.6
+ADS_Spread: 0.2
 Time_To_Aim: 0.5
 Detection_Radius: 200
 Equip_Time: 0.7
@@ -1514,18 +1497,4 @@ Recoil_Hip_Horizontal: -5 - 5
 Recoil_Hip_Vertical: 20 - 34
 Recoil_Aim_Horizontal: -2.5 - 2.5
 Recoil_Aim_Vertical: 10 - 17
----
-Core: Kolibri
-Damage: 10 > 8
-Dropoff_Studs: 10 > 20
-Fire_Rate: 500
-Hipfire_Spread: 0.1
-ADS_Spread: 0.1
-Time_To_Aim: 0.2
-Detection_Radius: 5
-Equip_Time: 0.1
-Recoil_Hip_Horizontal: -1 - 1
-Recoil_Hip_Vertical: 1 - 2
-Recoil_Aim_Horizontal: -0.2 - 0.2
-Recoil_Aim_Vertical: 0.2 - 0.3
 ---

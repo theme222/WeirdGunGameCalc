@@ -26,6 +26,19 @@ recoilHipVertical: 197.64 - 225.09
 recoilAimVertical: 88.938 - 101.291
 movementSpeed: -2
 
+[ Barrel: Light Gun, Magazine: Lightning Shot, Grip: Circuit Judge, Stock: Lee Enfield, Core: Arisaka ]
+damage: 125.228 - 100.64
+dropoffStuds: 49.4 - 86.45
+fireRate: 22.99
+adsSpread: 0.137291
+hipfireSpread: 10.9833
+reloadTime: 11
+magazineSize: 7
+health: -10
+recoilHipVertical: 226.8 - 258.3
+recoilAimVertical: 102.06 - 116.235
+movementSpeed: -2
+
 [ Barrel: Light Gun, Magazine: Lightning Shot, Grip: M1891, Stock: APS, Core: Arisaka ]
 damage: 123.122 - 100.098
 dropoffStuds: 52 - 91
@@ -116,17 +129,4 @@ health: -10
 recoilHipVertical: 237.168 - 270.108
 recoilAimVertical: 106.726 - 121.549
 movementSpeed: -2.5
-
-[ Barrel: BAR, Magazine: Lightning Shot, Grip: Snake Sniper, Stock: M1897 Trench Shotgun, Core: Arisaka ]
-damage: 109.183 - 100.143
-dropoffStuds: 475.2 - 831.6
-fireRate: 21.9384
-adsSpread: 0.0967927
-hipfireSpread: 7.74341
-reloadTime: 10
-magazineSize: 7
-health: -10
-recoilHipVertical: 289.345 - 329.532
-recoilAimVertical: 130.205 - 148.289
-movementSpeed: -4
 

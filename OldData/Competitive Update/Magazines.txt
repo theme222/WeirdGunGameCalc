@@ -22,10 +22,10 @@ Magazine: As-Val
 Magazine_Size: 20
 Reload_Time: 1.5s
 Detection_Radius: -25
-Fire_Rate: +7%
-Recoil: -21%
+Fire_Rate: +3%
+Recoil: -10%
 Damage: -5%
-Range: -2%
+Range: -12%
 ---
 Magazine: Famas F1
 Magazine_Size: 25
@@ -71,10 +71,10 @@ Spread: +22%
 ---
 Magazine: Hex Spitter
 Magazine_Size: 35
-Reload_Time: 4
+Reload_Time: 4.2
 Damage: +12%
 Pellets: +100%
-Range: -5.5%
+Range: -12%
 Recoil: +38%
 Spread: +6%
 ---
@@ -137,12 +137,6 @@ Damage: +4%
 Fire_Rate: +6%
 Recoil: +24%
 Spread: +5%
----
-Magazine: Broza
-Magazine_Size: 20
-Reload_Time: 1.9
-Damage: +6%
-Range: -2%
 ---
 
 Category: Sniper Magazines
@@ -523,7 +517,7 @@ Movement_Speed: +3%
 Pellets: +150%
 Range: -30%
 Recoil: +50%
-Spread: +5%
+Spread: +25%
 ---
 Magazine: M1887
 Magazine_Size: 6
@@ -552,6 +546,7 @@ Damage: +17%
 Pellets: +45%
 Range: -10%
 Recoil: +35%
+Spread: +16%
 ---
 Magazine: M870
 Magazine_Size: 8
@@ -560,6 +555,7 @@ Damage: +21%
 Pellets: +100%
 Range: -15%
 Recoil: +38%
+Spread: +14%
 ---
 Magazine: Circuit Judge
 Magazine_Size: 5
@@ -696,11 +692,11 @@ Category: BR Magazines
 ---
 Magazine: M1Garand
 Magazine_Size: 8
-Reload_Time: 3.8
+Reload_Time: 4
 Damage: +22%
-Range: +8%
+Range: +13%
 Spread: -10%
-Fire_Rate: -8%
+Fire_Rate: -5%
 ---
 Magazine: FAL
 Magazine_Size: 20
@@ -886,13 +882,4 @@ Pellets: +75%
 Fire_Rate: -11%
 Movement_Speed: -2%
 Recoil: +30%
----
-Magazine: Kolibri
-Magazine_Size: 5
-Reload_Time: 0.5
-Movement_Speed: +4%
-Recoil: -40%
-Spread: -30%
-Damage: -15%
-Range: -15%
 ---

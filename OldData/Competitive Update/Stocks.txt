@@ -86,11 +86,6 @@ Movement_Speed: +5%
 Reload_Speed: -3%
 Spread: +15%
 ---
-Stock: Broza
-Reload_Speed: -5%
-Spread: -12%
-Recoil: +22%
----
 
 Category: Sniper Stocks
 ---
@@ -109,9 +104,9 @@ Recoil: +10%
 ---
 Stock: Lee Enfield
 Fire_Rate: +10%
-Range: -5%
 Recoil: +40%
 Spread: +20%
+Range: -20%
 ---
 Stock: Hecate II
 Damage: +5%

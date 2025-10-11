@@ -114,11 +114,6 @@ Recoil: -40%
 Spread: -25%
 Damage: -10%
 ---
-Barrel: Broza
-Fire_Rate: +5.5%
-Range: +3%
-Spread: +12%
----
 
 Category: Sniper Barrels
 ---
@@ -500,12 +495,11 @@ Spread: +24%
 ---
 Barrel: Double Barrel
 Damage: +15%
-Pellets: +100%
 Range: +5%
 Fire_Rate: -15%
 Recoil: +80%
 Reload_Speed: +10%
-Spread: +6%
+Spread: +75%
 ---
 
 Category: Weird Barrels
@@ -775,9 +769,4 @@ Damage: +11%
 Pellets: +100%
 Fire_Rate: -7%
 Spread: +15%
----
-Barrel: Kolibri
-Movement_Speed: +4%
-Recoil: -40%
-Damage: -40%
 ---
