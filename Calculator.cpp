@@ -202,7 +202,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
     }
 
     std::map<std::string, int> fastifyName = {};
-    inline int fastifyNoneName() {return fastifyCategory.size() - 1;} // Returns the name_fast of the "None" part which is always the last part added.
+    inline int fastifyNoneName() {return fastifyName.size() - 1;} // Returns the name_fast of the "None" part which is always the last part added.
 
     void PartExists(std::string partName)
     {
