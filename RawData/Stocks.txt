@@ -1,4 +1,4 @@
-Category: Assault Rifle Stocks
+Category: AR Stocks
 ---
 Stock: AKM
 Reload_Speed: -10%
@@ -67,9 +67,8 @@ Movement_Speed: -2%
 Spread: +14%
 ---
 Stock: G11
-Recoil: -29%
-Movement_Speed: -4%
-Reload_Speed: +6%
+Recoil: -13%
+Movement_Speed: +2%
 ---
 Stock: QBZ-95
 Health: +6%
@@ -169,10 +168,10 @@ Fire_Rate: +4.5%
 Spread: +16%
 ---
 Stock: Skorpion vz. 61
-Movement_Speed: +6%
-Reload_Speed: -10%
-Recoil: +20%
-Spread: +25%
+Movement_Speed: +7.5%
+Reload_Speed: -15%
+Recoil: +35%
+Spread: +5%
 ---
 Stock: Tommy
 Movement_Speed: +0.5%
@@ -221,7 +220,7 @@ Reload_Speed: -10%
 ---
 Stock: PP-19 Bizon
 Movement_Speed: +2.5%
-Reload_Speed: -12%
+Reload_Speed: -5%
 Spread: -13%
 Recoil: +20%
 ---
@@ -232,9 +231,10 @@ Reload_Speed: -9%
 Spread: +14%
 ---
 Stock: NP5A3
-Movement_Speed: +6%
+Movement_Speed: +5%
 Reload_Speed: -20%
-Recoil: +20%
+Recoil: +25%
+Spread: +9%
 ---
 Stock: P90
 Fire_Rate: +4%
@@ -289,7 +289,7 @@ Spread: +19%
 Stock: MG42
 Movement_Speed: +3.5%
 Spread: -25%
-Reload_Speed: +20%
+Reload_Speed: +10%
 ---
 Stock: Type 99
 Fire_Rate: +5%
@@ -340,10 +340,10 @@ Recoil: +20%
 Spread: +20%
 ---
 Stock: Spas-12
-Fire_Rate: +12%
+Fire_Rate: +14%
 Movement_Speed: -3%
+Range: -2%
 Spread: +12%
-Range: -12%
 ---
 Stock: M870 Breacher
 Fire_Rate: +5%
@@ -405,7 +405,7 @@ Recoil: +45%
 Category: Weird Stocks
 ---
 Stock: Shovel
-Spread: -5%
+Spread: -11%
 Recoil: +10%
 ---
 Stock: Words as Weapons

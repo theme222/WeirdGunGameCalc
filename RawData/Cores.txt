@@ -1,4 +1,4 @@
-Category: Assault Rifle
+Category: AR
 ---
 Core: AKM
 Damage: 19.5 > 17.1
@@ -64,18 +64,17 @@ Recoil_Aim_Vertical: 15 - 20
 Core: Famas F1
 Damage: 13 > 9.1
 Dropoff_Studs: 150 > 210
-Falloff_Factor: -0.3
-Fire_Rate: 900
+Fire_Rate: 450
 Hipfire_Spread: 4
-ADS_Spread: 0.5
+ADS_Spread: 0.17
 Time_To_Aim: 0.5
 Detection_Radius: 110
 Suppression: 0.3
 Equip_Time: 0.7
-Recoil_Hip_Horizontal: -10 - 10
-Recoil_Hip_Vertical: 40 - 50
-Recoil_Aim_Horizontal: -1 - 1
-Recoil_Aim_Vertical: 16 - 20
+Recoil_Hip_Horizontal: -3 - 3
+Recoil_Hip_Vertical: 1.5 - 2
+Recoil_Aim_Horizontal: -1.5 - 1.5
+Recoil_Aim_Vertical: 0.8 - 1
 ---
 Core: Scar L
 Damage: 16.5 > 11.5
@@ -157,7 +156,6 @@ Recoil_Aim_Vertical: 15 - 20
 Core: APS
 Damage: 25.5 > 10.2
 Dropoff_Studs: 90 > 120
-Falloff_Factor: 0.6
 Fire_Rate: 600
 Hipfire_Spread: 4
 ADS_Spread: 1
@@ -219,7 +217,7 @@ Recoil_Aim_Vertical: 40.9 - 50.7
 Core: G11
 Damage: 17.5 > 13.6
 Dropoff_Studs: 180 > 380
-Fire_Rate: 850
+Fire_Rate: 700
 Hipfire_Spread: 5.5
 ADS_Spread: 0.2
 Time_To_Aim: 0.5
@@ -424,8 +422,8 @@ Recoil_Aim_Horizontal: -9.4 - 9.4
 Recoil_Aim_Vertical: 32.4 - 36.9
 ---
 Core: Lightning Shot
-Damage: 33 > 74.3
-Dropoff_Studs: 200 > 1000
+Damage: 40 > 90
+Dropoff_Studs: 170 > 500
 Fire_Rate: 20
 Hipfire_Spread: 50
 ADS_Spread: 0.35
@@ -443,7 +441,6 @@ Recoil_Aim_Vertical: 45 - 60
 Core: VSSR
 Damage: 70 > 40.6
 Dropoff_Studs: 170 > 380
-Falloff_Factor: -0.42
 Fire_Rate: 32
 Hipfire_Spread: 17
 ADS_Spread: 0.2
@@ -647,7 +644,7 @@ Dropoff_Studs: 110 > 140
 Fire_Rate: 800
 Hipfire_Spread: 1.5
 ADS_Spread: 0.6
-Time_To_Aim: 0.7
+Time_To_Aim: 0.5
 Detection_Radius: 70
 Equip_Time: 0.5
 Recoil_Hip_Horizontal: -15 - 15
@@ -785,14 +782,14 @@ Recoil_Aim_Horizontal: -4.2 - 4.2
 Recoil_Aim_Vertical: 36 - 42
 ---
 Core: M1919 .30 Cal
-Damage: 21.5 > 15.5
+Damage: 22.7 > 16.3
 Dropoff_Studs: 190 > 380
 Fire_Rate: 500
 Hipfire_Spread: 9
-ADS_Spread: 0.65
+ADS_Spread: 0.5
 Time_To_Aim: 1.25
 Detection_Radius: 165
-Movement_Speed_Modifier: -10%
+Movement_Speed_Modifier: -12%
 Suppression: 0.9
 Health: +20%
 Equip_Time: 1
@@ -855,7 +852,6 @@ Recoil_Aim_Vertical: 26.5 - 38
 Core: Chauchat
 Damage: 33 > 21.5
 Dropoff_Studs: 195 > 350
-Falloff_Factor: -0.35
 Fire_Rate: 240
 Hipfire_Spread: 6
 ADS_Spread: 0.4
@@ -907,7 +903,6 @@ Recoil_Aim_Vertical: 16.7 - 19.2
 Core: Burton
 Damage: 14.7 > 10.7
 Dropoff_Studs: 180 > 385
-Falloff_Factor: -0.275
 Fire_Rate: 800
 Hipfire_Spread: 4.5
 ADS_Spread: 0.15
@@ -927,7 +922,6 @@ Category: Shotgun
 Core: M1887
 Damage: 120 > 10
 Dropoff_Studs: 75 > 145
-Falloff_Factor: -0.85
 Pellets: 10
 Fire_Rate: 50
 Hipfire_Spread: 7
@@ -946,7 +940,6 @@ Recoil_Aim_Vertical: 12 - 18
 Core: M1897 Trench Shotgun
 Damage: 128 > 16
 Dropoff_Studs: 60 > 120
-Falloff_Factor: -0.8
 Pellets: 16
 Fire_Rate: 160
 Hipfire_Spread: 4.5
@@ -963,12 +956,11 @@ Recoil_Aim_Vertical: 16 - 24
 Core: M870
 Damage: 112 > 16
 Dropoff_Studs: 55 > 125
-Falloff_Factor: -0.825
 Pellets: 8
 Fire_Rate: 90
 Hipfire_Spread: 5
 ADS_Spread: 1.65
-Time_To_Aim: 0.7
+Time_To_Aim: 0.5
 Detection_Radius: 100
 Suppression: 0.5
 Equip_Time: 0.7
@@ -996,12 +988,11 @@ Recoil_Aim_Vertical: 20 - 32
 Core: Circuit Judge
 Damage: 120 > 24
 Dropoff_Studs: 85 > 140
-Falloff_Factor: -0.775
 Pellets: 8
 Fire_Rate: 60
 Hipfire_Spread: 5
 ADS_Spread: 1.85
-Time_To_Aim: 0.7
+Time_To_Aim: 0.5
 Detection_Radius: 160
 Suppression: 0.5
 Equip_Time: 0.7
@@ -1013,7 +1004,6 @@ Recoil_Aim_Vertical: 28 - 34.6
 Core: Auto-5
 Damage: 104 > 8
 Dropoff_Studs: 60 > 115
-Falloff_Factor: -0.885
 Pellets: 8
 Fire_Rate: 190
 Hipfire_Spread: 7
@@ -1046,7 +1036,6 @@ Recoil_Aim_Vertical: 90 - 114
 Core: JSG12
 Damage: 144 > 12
 Dropoff_Studs: 55 > 110
-Falloff_Factor: -0.84
 Pellets: 12
 Fire_Rate: 75
 Hipfire_Spread: 3
@@ -1086,7 +1075,7 @@ Dropoff_Studs: 150 > 340
 Fire_Rate: 600
 Hipfire_Spread: 5.5
 ADS_Spread: 0.5
-Time_To_Aim: 0.7
+Time_To_Aim: 0.5
 Detection_Radius: 120
 Suppression: 0.3
 Recoil_Hip_Horizontal: -15 - 15
@@ -1174,7 +1163,6 @@ Recoil_Aim_Vertical: 14.3 - 20.3
 Core: Paintball
 Damage: 22 > 13.8
 Dropoff_Studs: 140 > 290
-Falloff_Factor: -0.375
 Fire_Rate: 450
 Hipfire_Spread: 5
 ADS_Spread: 0.6
@@ -1294,7 +1282,7 @@ Dropoff_Studs: 130 > 325
 Fire_Rate: 900
 Hipfire_Spread: 5.5
 ADS_Spread: 0.4
-Time_To_Aim: 0.7
+Time_To_Aim: 0.5
 Detection_Radius: 130
 Suppression: 0.5
 Equip_Time: 0.9
@@ -1309,7 +1297,7 @@ Dropoff_Studs: 150 > 475
 Fire_Rate: 525
 Hipfire_Spread: 8
 ADS_Spread: 0.25
-Time_To_Aim: 0.7
+Time_To_Aim: 0.5
 Detection_Radius: 150
 Movement_Speed_Modifier: -7%
 Suppression: 0.3
@@ -1338,7 +1326,7 @@ Recoil_Aim_Vertical: 40 - 46.5
 Category: Sidearm
 ---
 Core: M1911
-Damage: 23.5 > 11.8
+Damage: 23.5 > 13.4
 Dropoff_Studs: 25 > 100
 Fire_Rate: 500
 Hipfire_Spread: 0.45
@@ -1353,7 +1341,7 @@ Recoil_Aim_Horizontal: -0.4 - 0.4
 Recoil_Aim_Vertical: 1 - 2
 ---
 Core: Tec-9
-Damage: 20 > 10.4
+Damage: 20 > 13
 Dropoff_Studs: 35 > 115
 Fire_Rate: 550
 Hipfire_Spread: 1
@@ -1408,7 +1396,7 @@ Movement_Speed_Modifier: +4.4%
 Equip_Time: 0.5
 Recoil_Hip_Horizontal: -3 - 3
 Recoil_Hip_Vertical: 5 - 8
-Recoil_Aim_Horizontal: 1.2 - 1.2
+Recoil_Aim_Horizontal: -1.2 - 1.2
 Recoil_Aim_Vertical: 2 - 3.3
 ---
 Core: Luger
@@ -1447,7 +1435,8 @@ Hipfire_Spread: 0.7
 ADS_Spread: 0.25
 Time_To_Aim: 0.3
 Detection_Radius: 60
-Movement_Speed_Modifier: -10%
+Movement_Speed_Modifier: 9%
+Health: -10%
 Equip_Time: 0.7
 Recoil_Hip_Horizontal: -4 - 4
 Recoil_Hip_Vertical: 6 - 14
@@ -1499,11 +1488,11 @@ Recoil_Aim_Horizontal: -1.7 - 1.7
 Recoil_Aim_Vertical: 2.1 - 2.4
 ---
 Core: EG200
-Damage: 101 > 26
+Damage: 117 > 26
 Dropoff_Studs: 20 > 60
 Pellets: 13
 Fire_Rate: 100
-Hipfire_Spread: 2
+Hipfire_Spread: 2.6
 ADS_Spread: 2.1
 Time_To_Aim: 0.5
 Detection_Radius: 200
@@ -1523,6 +1512,7 @@ Hipfire_Spread: 0.1
 ADS_Spread: 0.1
 Time_To_Aim: 0.2
 Detection_Radius: 5
+Movement_Speed_Modifier: +10%
 Equip_Time: 0.1
 Recoil_Hip_Horizontal: -1 - 1
 Recoil_Hip_Vertical: 1 - 2

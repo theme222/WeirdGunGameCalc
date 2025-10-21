@@ -1,0 +1,6964 @@
+{
+  "Barrels": [
+    {
+      "Name": "M-16",
+      "Category": "AR",
+      "Range": 8,
+      "Recoil": -15
+    },
+    {
+      "Name": "AKM",
+      "Category": "AR",
+      "Damage": 7,
+      "Detection_Radius": 5,
+      "Recoil": 20
+    },
+    {
+      "Name": "C36C",
+      "Category": "AR",
+      "Damage": 3,
+      "Reload_Speed": -10
+    },
+    {
+      "Name": "AUG",
+      "Category": "AR",
+      "Movement_Speed": 2.5,
+      "Range": 5,
+      "Recoil": -5,
+      "Reload_Speed": -15,
+      "Spread": -10,
+      "Damage": -3.5
+    },
+    {
+      "Name": "As-Val",
+      "Category": "AR",
+      "Detection_Radius": -25,
+      "Fire_Rate": 10,
+      "Range": -7,
+      "Recoil": 15
+    },
+    {
+      "Name": "Famas F1",
+      "Category": "AR",
+      "Fire_Rate": 9,
+      "Range": -5,
+      "Spread": 15
+    },
+    {
+      "Name": "STG-44",
+      "Category": "AR",
+      "Range": 4,
+      "Spread": -11,
+      "Recoil": 12
+    },
+    {
+      "Name": "Scar L",
+      "Category": "AR",
+      "Damage": 3,
+      "Recoil": -10
+    },
+    {
+      "Name": "QBZ-95",
+      "Category": "AR",
+      "Movement_Speed": 1.5,
+      "Range": 9,
+      "Reload_Speed": -8,
+      "Recoil": 14
+    },
+    {
+      "Name": "The Chief",
+      "Category": "AR",
+      "Damage": 5,
+      "Movement_Speed": 4,
+      "Recoil": 23
+    },
+    {
+      "Name": "AK-12",
+      "Category": "AR",
+      "Damage": 3,
+      "Fire_Rate": 2,
+      "Reload_Speed": -4,
+      "Recoil": 17
+    },
+    {
+      "Name": "Broza",
+      "Category": "AR",
+      "Fire_Rate": 5.5,
+      "Range": 3,
+      "Spread": 12
+    },
+    {
+      "Name": "Hell-Trooper-23",
+      "Category": "AR",
+      "Damage": 7.5,
+      "Range": 5,
+      "Recoil": 10,
+      "Spread": 35
+    },
+    {
+      "Name": "APS",
+      "Category": "AR",
+      "Damage": 22,
+      "Detection_Radius": 25,
+      "Fire_Rate": -5,
+      "Range": -35,
+      "Spread": 20
+    },
+    {
+      "Name": "FC200SH",
+      "Category": "AR",
+      "Damage": 8.5,
+      "Range": 14,
+      "Fire_Rate": -3,
+      "Reload_Speed": 8
+    },
+    {
+      "Name": "AR-8X",
+      "Category": "AR",
+      "Movement_Speed": 4,
+      "Spread": -23,
+      "Reload_Speed": 8
+    },
+    {
+      "Name": "Hex Spitter",
+      "Category": "AR",
+      "Damage": 7,
+      "Movement_Speed": 2,
+      "Spread": -16,
+      "Health": -5,
+      "Recoil": 25
+    },
+    {
+      "Name": "G11",
+      "Category": "AR",
+      "Fire_Rate": 4,
+      "Reload_Speed": -8,
+      "Range": -6
+    },
+    {
+      "Name": "Second Amendment",
+      "Category": "AR",
+      "Damage": 17,
+      "Spread": -50,
+      "Fire_Rate": -12,
+      "Movement_Speed": -2,
+      "Range": -13,
+      "Recoil": 90
+    },
+    {
+      "Name": "Freedom Dispenser",
+      "Category": "AR",
+      "Fire_Rate": 6,
+      "Movement_Speed": 9,
+      "Range": -16,
+      "Recoil": 18,
+      "Spread": 28
+    },
+    {
+      "Name": "Cirrus - Hand",
+      "Category": "AR",
+      "Recoil": -40,
+      "Spread": -30,
+      "Damage": -10
+    },
+    {
+      "Name": "Medal",
+      "Category": "AR",
+      "Detection_Radius": -15,
+      "Fire_Rate": 10,
+      "Movement_Speed": 4,
+      "Recoil": -13,
+      "Damage": -3.5,
+      "Equip_Time": 15,
+      "Spread": 7
+    },
+    {
+      "Name": "M40",
+      "Category": "Sniper",
+      "Fire_Rate": 10,
+      "Range": 25,
+      "Recoil": -5,
+      "Spread": -20,
+      "Damage": -10
+    },
+    {
+      "Name": "M1891",
+      "Category": "Sniper",
+      "Range": 20,
+      "Spread": -25,
+      "Reload_Speed": 20
+    },
+    {
+      "Name": "M91 Moschetto",
+      "Category": "Sniper",
+      "Movement_Speed": 4,
+      "Range": 10,
+      "Reload_Speed": -20,
+      "Spread": 50
+    },
+    {
+      "Name": "AWM",
+      "Category": "Sniper",
+      "Damage": 5,
+      "Range": 15,
+      "Spread": -25,
+      "Recoil": 75
+    },
+    {
+      "Name": "Lee Enfield",
+      "Category": "Sniper",
+      "Fire_Rate": 10,
+      "Range": 15,
+      "Recoil": 100,
+      "Spread": 100
+    },
+    {
+      "Name": "Arisaka",
+      "Category": "Sniper",
+      "Movement_Speed": 10,
+      "Reload_Speed": -12,
+      "Health": -6,
+      "Recoil": 38
+    },
+    {
+      "Name": "VSSR",
+      "Category": "Sniper",
+      "Damage": 20,
+      "Detection_Radius": -50,
+      "Range": 9,
+      "Recoil": -28,
+      "Fire_Rate": -12,
+      "Movement_Speed": -7,
+      "Reload_Speed": 10
+    },
+    {
+      "Name": "M2000",
+      "Category": "Sniper",
+      "Damage": 25,
+      "Range": 10,
+      "Spread": -10,
+      "Detection_Radius": 20,
+      "Fire_Rate": -25,
+      "Movement_Speed": -8,
+      "Recoil": 55
+    },
+    {
+      "Name": "Mosin",
+      "Category": "Sniper",
+      "Damage": 15,
+      "Reload_Speed": -8,
+      "Fire_Rate": -5
+    },
+    {
+      "Name": "Hecate II",
+      "Category": "Sniper",
+      "Damage": 30,
+      "Detection_Radius": 25,
+      "Fire_Rate": -30,
+      "Movement_Speed": -10,
+      "Recoil": 100,
+      "Spread": 50
+    },
+    {
+      "Name": "Lightning Shot",
+      "Category": "Sniper",
+      "Damage": 35,
+      "Range": 12,
+      "Reload_Speed": -4,
+      "Spread": -25,
+      "Detection_Radius": 35,
+      "Fire_Rate": -45,
+      "Movement_Speed": -6,
+      "Recoil": 80
+    },
+    {
+      "Name": "Musket",
+      "Category": "Sniper",
+      "Damage": 55,
+      "Detection_Radius": 50,
+      "Fire_Rate": -50,
+      "Range": -22,
+      "Recoil": 200,
+      "Spread": 57
+    },
+    {
+      "Name": "Snake Sniper",
+      "Category": "Sniper",
+      "Damage": 11,
+      "Fire_Rate": 3,
+      "Health": -5,
+      "Reload_Speed": 7,
+      "Spread": 20
+    },
+    {
+      "Name": "MAC-10",
+      "Category": "SMG",
+      "Fire_Rate": 5,
+      "Movement_Speed": 4.4,
+      "Range": -10
+    },
+    {
+      "Name": "Type 2a Nambu",
+      "Category": "SMG",
+      "Damage": 13,
+      "Movement_Speed": 3,
+      "Range": -3.5,
+      "Spread": 23
+    },
+    {
+      "Name": "Tommy",
+      "Category": "SMG",
+      "Damage": 7,
+      "Fire_Rate": 7,
+      "Movement_Speed": 3.8,
+      "Range": -6,
+      "Recoil": 25
+    },
+    {
+      "Name": "NP9",
+      "Category": "SMG",
+      "Fire_Rate": 8,
+      "Movement_Speed": 3.2,
+      "Reload_Speed": -15,
+      "Range": -6
+    },
+    {
+      "Name": "MP 40",
+      "Category": "SMG",
+      "Damage": 10,
+      "Movement_Speed": 3.2,
+      "Recoil": 20
+    },
+    {
+      "Name": "Sten gun",
+      "Category": "SMG",
+      "Fire_Rate": 12,
+      "Movement_Speed": 2,
+      "Spread": -12,
+      "Range": -13,
+      "Recoil": 24
+    },
+    {
+      "Name": "UNP-40",
+      "Category": "SMG",
+      "Damage": 12,
+      "Movement_Speed": 3.8,
+      "Fire_Rate": -5,
+      "Recoil": 15,
+      "Spread": 15
+    },
+    {
+      "Name": "Skorpion vz. 61",
+      "Category": "SMG",
+      "Movement_Speed": 9,
+      "Damage": -5,
+      "Range": -5
+    },
+    {
+      "Name": "NP5",
+      "Category": "SMG",
+      "Damage": 7,
+      "Movement_Speed": 2.5,
+      "Recoil": -14,
+      "Spread": -8,
+      "Fire_Rate": -2.5,
+      "Range": -7.5
+    },
+    {
+      "Name": "Mas-38",
+      "Category": "SMG",
+      "Damage": 10,
+      "Movement_Speed": 3.3,
+      "Spread": -20,
+      "Fire_Rate": -5,
+      "Recoil": 5
+    },
+    {
+      "Name": "PP-19 Bizon",
+      "Category": "SMG",
+      "Damage": 9,
+      "Fire_Rate": 5,
+      "Movement_Speed": 2.5,
+      "Range": -10,
+      "Recoil": 25
+    },
+    {
+      "Name": "PPSh-41",
+      "Category": "SMG",
+      "Fire_Rate": 15,
+      "Movement_Speed": 2.3,
+      "Range": -12,
+      "Recoil": 15,
+      "Spread": 10
+    },
+    {
+      "Name": "MP18",
+      "Category": "SMG",
+      "Damage": 8,
+      "Range": 2,
+      "Fire_Rate": -2,
+      "Recoil": 32
+    },
+    {
+      "Name": "Kriss Vector",
+      "Category": "SMG",
+      "Fire_Rate": 20,
+      "Movement_Speed": 3.3,
+      "Recoil": -15,
+      "Damage": -3,
+      "Range": -10
+    },
+    {
+      "Name": "P90",
+      "Category": "SMG",
+      "Fire_Rate": 15,
+      "Movement_Speed": 2.5,
+      "Range": 2,
+      "Damage": -7.5,
+      "Recoil": 20,
+      "Spread": 25
+    },
+    {
+      "Name": "Uzi",
+      "Category": "SMG",
+      "Damage": 5,
+      "Fire_Rate": 9,
+      "Movement_Speed": 4,
+      "Spread": -15,
+      "Range": -8
+    },
+    {
+      "Name": "M1 Carbine",
+      "Category": "SMG",
+      "Damage": 5,
+      "Movement_Speed": 2.5,
+      "Range": 8,
+      "Recoil": -18,
+      "Reload_Speed": 4,
+      "Spread": 14
+    },
+    {
+      "Name": "M870",
+      "Category": "Shotgun",
+      "Damage": 13,
+      "Range": -5,
+      "Spread": 15
+    },
+    {
+      "Name": "Circuit Judge",
+      "Category": "Shotgun",
+      "Damage": 14,
+      "Reload_Speed": -15,
+      "Range": -6,
+      "Recoil": 25
+    },
+    {
+      "Name": "M870 MCS",
+      "Category": "Shotgun",
+      "Damage": 14,
+      "Spread": -15,
+      "Range": -6,
+      "Reload_Speed": 10
+    },
+    {
+      "Name": "M870 Breacher",
+      "Category": "Shotgun",
+      "Damage": 20,
+      "Movement_Speed": 3,
+      "Range": -10,
+      "Spread": 30
+    },
+    {
+      "Name": "M1887 Trench Shotgun",
+      "Category": "Shotgun",
+      "Fire_Rate": 20,
+      "Reload_Speed": -11,
+      "Range": -11,
+      "Spread": 22
+    },
+    {
+      "Name": "M1887",
+      "Category": "Shotgun",
+      "Damage": 7,
+      "Health": 5,
+      "Movement_Speed": -5.5,
+      "Range": -6,
+      "Spread": 15
+    },
+    {
+      "Name": "M870 Wingmaster",
+      "Category": "Shotgun",
+      "Damage": 13,
+      "Range": 7,
+      "Spread": -5,
+      "Detection_Radius": 10,
+      "Fire_Rate": -13,
+      "Pellets": -50,
+      "Reload_Speed": 5
+    },
+    {
+      "Name": "Auto-5",
+      "Category": "Shotgun",
+      "Fire_Rate": 13,
+      "Recoil": -10,
+      "Spread": -10,
+      "Damage": -2.5,
+      "Range": -7
+    },
+    {
+      "Name": "JSG12",
+      "Category": "Shotgun",
+      "Movement_Speed": 3,
+      "Range": 15,
+      "Recoil": 16,
+      "Reload_Speed": 7,
+      "Spread": 24
+    },
+    {
+      "Name": "Spas-12",
+      "Category": "Shotgun",
+      "Damage": 5,
+      "Fire_Rate": 10,
+      "Movement_Speed": -1.5,
+      "Range": -7,
+      "Spread": 15
+    },
+    {
+      "Name": "Double Barrel",
+      "Category": "Shotgun",
+      "Damage": 15,
+      "Pellets": 100,
+      "Range": 5,
+      "Fire_Rate": -15,
+      "Recoil": 80,
+      "Reload_Speed": 10,
+      "Spread": 6
+    },
+    {
+      "Name": "Blunderbuss",
+      "Category": "Shotgun",
+      "Damage": 45,
+      "Pellets": 100,
+      "Fire_Rate": -34,
+      "Range": -30,
+      "Spread": 60
+    },
+    {
+      "Name": "MarrowMaker",
+      "Category": "Shotgun",
+      "Fire_Rate": 11,
+      "Movement_Speed": 4.5,
+      "Pellets": 45,
+      "Range": -2.5
+    },
+    {
+      "Name": "M60",
+      "Category": "LMG",
+      "Damage": 8.5,
+      "Recoil": -10,
+      "Detection_Radius": 5,
+      "Movement_Speed": -3
+    },
+    {
+      "Name": "Type 99",
+      "Category": "LMG",
+      "Damage": 8,
+      "Spread": -15,
+      "Movement_Speed": -2,
+      "Recoil": 5
+    },
+    {
+      "Name": "DP-27",
+      "Category": "LMG",
+      "Damage": 9,
+      "Fire_Rate": 2,
+      "Movement_Speed": -1,
+      "Recoil": 26,
+      "Spread": 10
+    },
+    {
+      "Name": "BAR",
+      "Category": "LMG",
+      "Damage": 25,
+      "Range": 10,
+      "Fire_Rate": -10,
+      "Movement_Speed": -0.5,
+      "Recoil": 20,
+      "Spread": 20
+    },
+    {
+      "Name": "M1919 .30 Cal",
+      "Category": "LMG",
+      "Fire_Rate": 5,
+      "Recoil": -17,
+      "Spread": -20,
+      "Movement_Speed": -6,
+      "Reload_Speed": 12
+    },
+    {
+      "Name": "M1917 WC",
+      "Category": "LMG",
+      "Fire_Rate": 20,
+      "Health": 25,
+      "Range": 9,
+      "Recoil": -20,
+      "Spread": -10,
+      "Movement_Speed": -30,
+      "Reload_Speed": 15
+    },
+    {
+      "Name": "M1919 Tripod",
+      "Category": "LMG",
+      "Health": 10,
+      "Recoil": -30,
+      "Spread": -50,
+      "Movement_Speed": -20,
+      "Reload_Speed": 25
+    },
+    {
+      "Name": "Negev",
+      "Category": "LMG",
+      "Fire_Rate": 15,
+      "Movement_Speed": -4.5,
+      "Spread": 25
+    },
+    {
+      "Name": "MG42",
+      "Category": "LMG",
+      "Fire_Rate": 35,
+      "Movement_Speed": -7,
+      "Range": -22,
+      "Recoil": 30,
+      "Spread": 40
+    },
+    {
+      "Name": "Chauchat",
+      "Category": "LMG",
+      "Damage": 20,
+      "Range": 20,
+      "Detection_Radius": 10,
+      "Fire_Rate": -15,
+      "Movement_Speed": -3,
+      "Recoil": 25
+    },
+    {
+      "Name": "Burton",
+      "Category": "LMG",
+      "Fire_Rate": 14,
+      "Recoil": -19,
+      "Damage": -4,
+      "Reload_Speed": 2
+    },
+    {
+      "Name": "Lewis",
+      "Category": "LMG",
+      "Detection_Radius": -15,
+      "Fire_Rate": 10,
+      "Spread": -15,
+      "Movement_Speed": -15,
+      "Reload_Speed": 5
+    },
+    {
+      "Name": "M249 SAW",
+      "Category": "LMG",
+      "Damage": 2,
+      "Fire_Rate": 5,
+      "Recoil": -16,
+      "Movement_Speed": -9,
+      "Reload_Speed": 4
+    },
+    {
+      "Name": "M1 Garand",
+      "Category": "BR",
+      "Damage": 7,
+      "Spread": -17,
+      "Detection_Radius": 10
+    },
+    {
+      "Name": "SKS",
+      "Category": "BR",
+      "Fire_Rate": 5,
+      "Range": 3,
+      "Recoil": 13,
+      "Reload_Speed": 4
+    },
+    {
+      "Name": "Scar H",
+      "Category": "BR",
+      "Damage": 15,
+      "Range": 10,
+      "Spread": -25,
+      "Detection_Radius": 10,
+      "Fire_Rate": -10,
+      "Recoil": 20
+    },
+    {
+      "Name": "Fedorov",
+      "Category": "BR",
+      "Damage": 7,
+      "Movement_Speed": 3.5,
+      "Recoil": 18
+    },
+    {
+      "Name": "FAL",
+      "Category": "BR",
+      "Range": 9,
+      "Spread": -20,
+      "Movement_Speed": -6
+    },
+    {
+      "Name": "Winchester",
+      "Category": "BR",
+      "Fire_Rate": 8,
+      "Movement_Speed": 2,
+      "Reload_Speed": 4,
+      "Spread": 14
+    },
+    {
+      "Name": "Dragunov",
+      "Category": "BR",
+      "Range": 19,
+      "Spread": -16,
+      "Recoil": 24
+    },
+    {
+      "Name": "G3",
+      "Category": "BR",
+      "Damage": 12,
+      "Range": 13,
+      "Detection_Radius": 10,
+      "Fire_Rate": -2,
+      "Movement_Speed": -3,
+      "Recoil": 38
+    },
+    {
+      "Name": "M110",
+      "Category": "BR",
+      "Damage": 22,
+      "Range": 5,
+      "Detection_Radius": 35,
+      "Fire_Rate": -15,
+      "Recoil": 42,
+      "Spread": 11
+    },
+    {
+      "Name": "FG-42",
+      "Category": "BR",
+      "Damage": 6,
+      "Fire_Rate": 4,
+      "Range": 4,
+      "Recoil": 32,
+      "Spread": 12
+    },
+    {
+      "Name": "Paintball",
+      "Category": "Weird",
+      "Movement_Speed": 2.5,
+      "Recoil": -28,
+      "Damage": -3,
+      "Range": -3
+    },
+    {
+      "Name": "Light Gun",
+      "Category": "Weird",
+      "Damage": 30,
+      "Fire_Rate": -5,
+      "Range": -87,
+      "Reload_Speed": 10
+    },
+    {
+      "Name": "Spray Can",
+      "Category": "Weird",
+      "Fire_Rate": 25,
+      "Movement_Speed": 2.5,
+      "Damage": -2,
+      "Range": -11
+    },
+    {
+      "Name": "Oil",
+      "Category": "Weird",
+      "Damage": 20,
+      "Detection_Radius": 25,
+      "Fire_Rate": -7,
+      "Movement_Speed": -10,
+      "Spread": 40
+    },
+    {
+      "Name": "Honk",
+      "Category": "Weird",
+      "Damage": 300,
+      "Range": 15,
+      "Detection_Radius": 200,
+      "Fire_Rate": -93,
+      "Recoil": 900,
+      "Spread": 1200
+    },
+    {
+      "Name": "Words as Weapons",
+      "Category": "Weird",
+      "Damage": 5,
+      "Detection_Radius": 5,
+      "Recoil": 20
+    },
+    {
+      "Name": "Mustard",
+      "Category": "Weird",
+      "Fire_Rate": 25,
+      "Damage": -5,
+      "Spread": 40
+    },
+    {
+      "Name": "BarrelSight",
+      "Category": "Weird",
+      "Range": 50,
+      "Fire_Rate": -50,
+      "Movement_Speed": -12,
+      "Pellets": -100,
+      "Recoil": 25
+    },
+    {
+      "Name": "Snake",
+      "Category": "Weird",
+      "Damage": 12.5,
+      "Fire_Rate": -5,
+      "Movement_Speed": -5,
+      "Recoil": 20,
+      "Spread": 40
+    },
+    {
+      "Name": "Ketchup",
+      "Category": "Weird",
+      "Damage": 20,
+      "Fire_Rate": -25,
+      "Spread": 40
+    },
+    {
+      "Name": "Willy Fischy",
+      "Category": "Weird",
+      "Fire_Rate": 30,
+      "Damage": -15,
+      "Recoil": 100,
+      "Spread": 200
+    },
+    {
+      "Name": "Shower",
+      "Category": "Weird",
+      "Fire_Rate": 20,
+      "Pellets": 100,
+      "Recoil": -75,
+      "Reload_Speed": 25,
+      "Spread": 300
+    },
+    {
+      "Name": "Quack",
+      "Category": "Weird",
+      "Fire_Rate": 8,
+      "Recoil": -10,
+      "Spread": 13
+    },
+    {
+      "Name": "Water Pipe",
+      "Category": "Weird",
+      "Damage": 15,
+      "Detection_Radius": 75,
+      "Fire_Rate": -12,
+      "Spread": 35
+    },
+    {
+      "Name": "Eclair",
+      "Category": "Weird",
+      "Fire_Rate": 15,
+      "Damage": -20,
+      "Detection_Radius": 20,
+      "Recoil": 12,
+      "Spread": 30
+    },
+    {
+      "Name": "Dominus",
+      "Category": "Weird",
+      "Fire_Rate": 12,
+      "Movement_Speed": 5,
+      "Recoil": 24,
+      "Reload_Speed": 9,
+      "Spread": 9
+    },
+    {
+      "Name": "Lipstick",
+      "Category": "Weird",
+      "Damage": 3,
+      "Fire_Rate": 3,
+      "Movement_Speed": 5,
+      "Recoil": 12,
+      "Reload_Speed": 4
+    },
+    {
+      "Name": "Mega Soaker",
+      "Category": "Weird",
+      "Detection_Radius": -50,
+      "Fire_Rate": 14,
+      "Movement_Speed": 2,
+      "Recoil": -19,
+      "Damage": -4,
+      "Range": -10
+    },
+    {
+      "Name": "Car Muffler",
+      "Category": "Weird",
+      "Damage": 10,
+      "Detection_Radius": -50,
+      "Movement_Speed": 2,
+      "Health": -5,
+      "Recoil": 20,
+      "Reload_Speed": 10
+    },
+    {
+      "Name": "M1911",
+      "Category": "Sidearm",
+      "Damage": 18,
+      "Range": -11,
+      "Recoil": 25
+    },
+    {
+      "Name": "Makarov",
+      "Category": "Sidearm",
+      "Movement_Speed": 5,
+      "Recoil": -8,
+      "Damage": -3,
+      "Range": -3
+    },
+    {
+      "Name": "Kolibri",
+      "Category": "Sidearm",
+      "Movement_Speed": 4,
+      "Recoil": -40,
+      "Damage": -40
+    },
+    {
+      "Name": "Tec-9",
+      "Category": "Sidearm",
+      "Fire_Rate": 9,
+      "Recoil": -16,
+      "Detection_Radius": 5,
+      "Range": -8
+    },
+    {
+      "Name": "T10",
+      "Category": "Sidearm",
+      "Damage": 6,
+      "Recoil": 5
+    },
+    {
+      "Name": "B17",
+      "Category": "Sidearm",
+      "Fire_Rate": 20,
+      "Range": -15,
+      "Recoil": 19
+    },
+    {
+      "Name": "EG200",
+      "Category": "Sidearm",
+      "Damage": 11,
+      "Pellets": 100,
+      "Fire_Rate": -7,
+      "Spread": 15
+    },
+    {
+      "Name": "Beretta",
+      "Category": "Sidearm",
+      "Range": 2.5,
+      "Spread": -11,
+      "Fire_Rate": -5,
+      "Recoil": 6
+    },
+    {
+      "Name": "Type 14",
+      "Category": "Sidearm",
+      "Damage": 13,
+      "Movement_Speed": 9,
+      "Fire_Rate": -10,
+      "Health": -12
+    },
+    {
+      "Name": "Luger",
+      "Category": "Sidearm",
+      "Fire_Rate": 6,
+      "Recoil": -8,
+      "Range": -4
+    },
+    {
+      "Name": "Deagle",
+      "Category": "Sidearm",
+      "Damage": 22,
+      "Range": 4,
+      "Fire_Rate": -10,
+      "Movement_Speed": -4,
+      "Recoil": 55
+    },
+    {
+      "Name": "P08 Artilery",
+      "Category": "Sidearm",
+      "Fire_Rate": 4,
+      "Range": 2,
+      "Recoil": 19,
+      "Spread": 15
+    },
+    {
+      "Name": "Obreez",
+      "Category": "Sidearm",
+      "Range": 9,
+      "Spread": -7,
+      "Fire_Rate": -20,
+      "Recoil": 23
+    },
+    {
+      "Name": "Cyber 3517",
+      "Category": "Sidearm",
+      "Damage": 30,
+      "Fire_Rate": -25,
+      "Movement_Speed": -2,
+      "Recoil": 60
+    }
+  ],
+  "Magazines": [
+    {
+      "Name": "AKM",
+      "Category": "AR",
+      "Magazine_Size": 30,
+      "Reload_Time": 2.4,
+      "Damage": 7,
+      "Detection_Radius": 5
+    },
+    {
+      "Name": "M-16",
+      "Category": "AR",
+      "Magazine_Size": 30,
+      "Reload_Time": 1.9,
+      "Recoil": -5
+    },
+    {
+      "Name": "C36C",
+      "Category": "AR",
+      "Magazine_Size": 30,
+      "Reload_Time": 2,
+      "Recoil": -11,
+      "Spread": 3
+    },
+    {
+      "Name": "AUG",
+      "Category": "AR",
+      "Magazine_Size": 42,
+      "Reload_Time": 3.5,
+      "Movement_Speed": 2.5,
+      "Spread": -10,
+      "Range": -10
+    },
+    {
+      "Name": "As-Val",
+      "Category": "AR",
+      "Magazine_Size": 20,
+      "Reload_Time": 1.5,
+      "Detection_Radius": -25,
+      "Fire_Rate": 7,
+      "Recoil": -21,
+      "Damage": -5,
+      "Range": -2
+    },
+    {
+      "Name": "Famas F1",
+      "Category": "AR",
+      "Magazine_Size": 25,
+      "Reload_Time": 2,
+      "Fire_Rate": 10,
+      "Range": -10,
+      "Recoil": 10
+    },
+    {
+      "Name": "STG-44",
+      "Category": "AR",
+      "Magazine_Size": 30,
+      "Reload_Time": 2.9,
+      "Damage": 10,
+      "Spread": -13,
+      "Fire_Rate": -8
+    },
+    {
+      "Name": "Scar L",
+      "Category": "AR",
+      "Magazine_Size": 40,
+      "Reload_Time": 3,
+      "Recoil": -20,
+      "Spread": 15
+    },
+    {
+      "Name": "QBZ-95",
+      "Category": "AR",
+      "Magazine_Size": 30,
+      "Reload_Time": 1.5,
+      "Damage": 2,
+      "Range": 4,
+      "Recoil": 18
+    },
+    {
+      "Name": "The Chief",
+      "Category": "AR",
+      "Magazine_Size": 36,
+      "Reload_Time": 4.2,
+      "Damage": 13,
+      "Range": 12,
+      "Fire_Rate": -10,
+      "Recoil": 25,
+      "Reload_Speed": 25
+    },
+    {
+      "Name": "Scar Drum",
+      "Category": "AR",
+      "Magazine_Size": 50,
+      "Reload_Time": 4,
+      "Recoil": -10,
+      "Range": -5
+    },
+    {
+      "Name": "AK-12",
+      "Category": "AR",
+      "Magazine_Size": 30,
+      "Reload_Time": 2.2,
+      "Range": 7.5,
+      "Spread": -13,
+      "Recoil": 14
+    },
+    {
+      "Name": "Broza",
+      "Category": "AR",
+      "Magazine_Size": 20,
+      "Reload_Time": 1.9,
+      "Damage": 6,
+      "Range": -2
+    },
+    {
+      "Name": "Hell-Trooper-23",
+      "Category": "AR",
+      "Magazine_Size": 45,
+      "Reload_Time": 4,
+      "Damage": 7.5,
+      "Recoil": 15,
+      "Spread": 22
+    },
+    {
+      "Name": "APS",
+      "Category": "AR",
+      "Magazine_Size": 26,
+      "Reload_Time": 4.8,
+      "Damage": 25,
+      "Detection_Radius": 25,
+      "Fire_Rate": -10,
+      "Range": -11,
+      "Spread": 20
+    },
+    {
+      "Name": "FC200SH",
+      "Category": "AR",
+      "Magazine_Size": 30,
+      "Reload_Time": 3.2,
+      "Damage": 8.5,
+      "Detection_Radius": 10,
+      "Movement_Speed": -2.5,
+      "Spread": 18
+    },
+    {
+      "Name": "AR-8X",
+      "Category": "AR",
+      "Magazine_Size": 30,
+      "Reload_Time": 2.4,
+      "Movement_Speed": 1.5,
+      "Range": 11,
+      "Recoil": 16
+    },
+    {
+      "Name": "Hex Spitter",
+      "Category": "AR",
+      "Magazine_Size": 35,
+      "Reload_Time": 4,
+      "Damage": 12,
+      "Pellets": 100,
+      "Range": -5.5,
+      "Recoil": 38,
+      "Spread": 6
+    },
+    {
+      "Name": "G11",
+      "Category": "AR",
+      "Magazine_Size": 45,
+      "Reload_Time": 4.5,
+      "Fire_Rate": 9,
+      "Spread": -13,
+      "Movement_Speed": -3,
+      "Recoil": 21
+    },
+    {
+      "Name": "Rat - Emoji",
+      "Category": "AR",
+      "Magazine_Size": 42,
+      "Reload_Time": 5.2,
+      "Damage": 4,
+      "Fire_Rate": 6,
+      "Recoil": 24,
+      "Spread": 5
+    },
+    {
+      "Name": "M40",
+      "Category": "Sniper",
+      "Magazine_Size": 10,
+      "Reload_Time": 4.5,
+      "Damage": 16,
+      "Range": 20,
+      "Spread": -11,
+      "Recoil": 25
+    },
+    {
+      "Name": "M1891",
+      "Category": "Sniper",
+      "Magazine_Size": 6,
+      "Reload_Time": 3.5,
+      "Fire_Rate": 5,
+      "Range": 20,
+      "Spread": -15,
+      "Recoil": 25
+    },
+    {
+      "Name": "AWM",
+      "Category": "Sniper",
+      "Magazine_Size": 5,
+      "Reload_Time": 5,
+      "Damage": 22,
+      "Range": 15,
+      "Spread": -25,
+      "Fire_Rate": -13,
+      "Recoil": 40
+    },
+    {
+      "Name": "Lee Enfield",
+      "Category": "Sniper",
+      "Magazine_Size": 10,
+      "Reload_Time": 4,
+      "Fire_Rate": 20,
+      "Range": 16,
+      "Damage": -10,
+      "Recoil": 25,
+      "Spread": 50
+    },
+    {
+      "Name": "Arisaka",
+      "Category": "Sniper",
+      "Magazine_Size": 5,
+      "Reload_Time": 4,
+      "Movement_Speed": 8,
+      "Spread": -18,
+      "Health": -2,
+      "Recoil": 16
+    },
+    {
+      "Name": "VSSR",
+      "Category": "Sniper",
+      "Magazine_Size": 5,
+      "Reload_Time": 4.5,
+      "Damage": 30,
+      "Detection_Radius": 32,
+      "Fire_Rate": -20,
+      "Movement_Speed": -6,
+      "Range": -12,
+      "Recoil": 86
+    },
+    {
+      "Name": "M2000",
+      "Category": "Sniper",
+      "Magazine_Size": 5,
+      "Reload_Time": 6,
+      "Damage": 25,
+      "Range": 10,
+      "Spread": -20,
+      "Fire_Rate": -20,
+      "Recoil": 60
+    },
+    {
+      "Name": "Mosin",
+      "Category": "Sniper",
+      "Magazine_Size": 5,
+      "Reload_Time": 3.6,
+      "Damage": 20,
+      "Fire_Rate": -10,
+      "Movement_Speed": -2,
+      "Range": -3
+    },
+    {
+      "Name": "Hecate II",
+      "Category": "Sniper",
+      "Magazine_Size": 5,
+      "Reload_Time": 5,
+      "Damage": 45,
+      "Detection_Radius": 25,
+      "Fire_Rate": -28,
+      "Movement_Speed": -10,
+      "Range": -23,
+      "Recoil": 100,
+      "Reload_Speed": 50,
+      "Spread": 100
+    },
+    {
+      "Name": "Lightning Shot",
+      "Category": "Sniper",
+      "Magazine_Size": 7,
+      "Reload_Time": 9,
+      "Damage": 50,
+      "Spread": -35,
+      "Detection_Radius": 50,
+      "Fire_Rate": -45,
+      "Movement_Speed": -12,
+      "Recoil": 125
+    },
+    {
+      "Name": "Musket",
+      "Category": "Sniper",
+      "Magazine_Size": 1,
+      "Reload_Time": 7.5,
+      "Damage": 60,
+      "Movement_Speed": -3,
+      "Range": -20,
+      "Recoil": 80,
+      "Spread": 185
+    },
+    {
+      "Name": "Snake Sniper",
+      "Category": "Sniper",
+      "Magazine_Size": 6,
+      "Reload_Time": 5.5,
+      "Damage": 25,
+      "Spread": -12,
+      "Fire_Rate": -10,
+      "Movement_Speed": -4,
+      "Range": -5,
+      "Recoil": 36
+    },
+    {
+      "Name": "MAC-10",
+      "Category": "SMG",
+      "Magazine_Size": 30,
+      "Reload_Time": 2,
+      "Fire_Rate": 20,
+      "Movement_Speed": 4.4,
+      "Range": -12,
+      "Recoil": 35
+    },
+    {
+      "Name": "Type 2a Nambu",
+      "Category": "SMG",
+      "Magazine_Size": 30,
+      "Reload_Time": 2.5,
+      "Fire_Rate": 14,
+      "Movement_Speed": 3,
+      "Recoil": -24,
+      "Range": -16
+    },
+    {
+      "Name": "Tommy",
+      "Category": "SMG",
+      "Magazine_Size": 20,
+      "Reload_Time": 3,
+      "Damage": 15,
+      "Movement_Speed": 3.8,
+      "Spread": 20
+    },
+    {
+      "Name": "NP9",
+      "Category": "SMG",
+      "Magazine_Size": 30,
+      "Reload_Time": 2.2,
+      "Fire_Rate": 5,
+      "Movement_Speed": 4.6,
+      "Spread": 7
+    },
+    {
+      "Name": "MP 40",
+      "Category": "SMG",
+      "Magazine_Size": 32,
+      "Reload_Time": 2.5,
+      "Damage": 15,
+      "Spread": -10,
+      "Fire_Rate": -5,
+      "Recoil": 15
+    },
+    {
+      "Name": "Sten gun",
+      "Category": "SMG",
+      "Magazine_Size": 32,
+      "Reload_Time": 3,
+      "Damage": 7,
+      "Fire_Rate": 3,
+      "Range": -13,
+      "Spread": 12
+    },
+    {
+      "Name": "UNP-40",
+      "Category": "SMG",
+      "Magazine_Size": 30,
+      "Reload_Time": 2,
+      "Damage": 14,
+      "Movement_Speed": 1.5,
+      "Range": 6,
+      "Spread": -10,
+      "Fire_Rate": -15
+    },
+    {
+      "Name": "Skorpion vz. 61",
+      "Category": "SMG",
+      "Magazine_Size": 20,
+      "Reload_Time": 1.2,
+      "Fire_Rate": 4,
+      "Movement_Speed": 9,
+      "Range": -10,
+      "Spread": 7
+    },
+    {
+      "Name": "NP5",
+      "Category": "SMG",
+      "Magazine_Size": 30,
+      "Reload_Time": 2,
+      "Fire_Rate": 15,
+      "Movement_Speed": 3.3,
+      "Recoil": -10,
+      "Spread": -5,
+      "Range": -11
+    },
+    {
+      "Name": "Mas-38",
+      "Category": "SMG",
+      "Magazine_Size": 32,
+      "Reload_Time": 2.8,
+      "Damage": 5,
+      "Movement_Speed": 3.5,
+      "Range": 4,
+      "Spread": -15,
+      "Recoil": 27
+    },
+    {
+      "Name": "PP-19 Bizon",
+      "Category": "SMG",
+      "Magazine_Size": 64,
+      "Reload_Time": 4,
+      "Damage": 10,
+      "Range": -8,
+      "Recoil": 12
+    },
+    {
+      "Name": "PPSh-41",
+      "Category": "SMG",
+      "Magazine_Size": 71,
+      "Reload_Time": 5.5,
+      "Fire_Rate": 7,
+      "Movement_Speed": -1,
+      "Range": -5,
+      "Spread": 10
+    },
+    {
+      "Name": "Kriss Vector",
+      "Category": "SMG",
+      "Magazine_Size": 30,
+      "Reload_Time": 2.4,
+      "Fire_Rate": 21,
+      "Movement_Speed": 3.3,
+      "Recoil": -15,
+      "Damage": -4,
+      "Range": -15
+    },
+    {
+      "Name": "MP18",
+      "Category": "SMG",
+      "Magazine_Size": 32,
+      "Reload_Time": 2.2,
+      "Damage": 16,
+      "Fire_Rate": -4,
+      "Range": -9,
+      "Recoil": 22
+    },
+    {
+      "Name": "P90",
+      "Category": "SMG",
+      "Magazine_Size": 50,
+      "Reload_Time": 4,
+      "Fire_Rate": 20,
+      "Range": 5,
+      "Damage": -2.5,
+      "Movement_Speed": -0.2,
+      "Recoil": 10,
+      "Spread": 40
+    },
+    {
+      "Name": "Uzi",
+      "Category": "SMG",
+      "Magazine_Size": 32,
+      "Reload_Time": 2.8,
+      "Damage": 3,
+      "Fire_Rate": 7,
+      "Range": -9,
+      "Recoil": 28
+    },
+    {
+      "Name": "M1 Carbine",
+      "Category": "SMG",
+      "Magazine_Size": 15,
+      "Reload_Time": 2.8,
+      "Damage": 26,
+      "Movement_Speed": 3,
+      "Range": -5,
+      "Recoil": 32
+    },
+    {
+      "Name": "M870",
+      "Category": "Shotgun",
+      "Magazine_Size": 8,
+      "Reload_Time": 4,
+      "Damage": 21,
+      "Pellets": 100,
+      "Range": -3.5,
+      "Recoil": 38
+    },
+    {
+      "Name": "Circuit Judge",
+      "Category": "Shotgun",
+      "Magazine_Size": 5,
+      "Reload_Time": 4,
+      "Damage": 15,
+      "Pellets": 25,
+      "Range": 7.5,
+      "Recoil": 85
+    },
+    {
+      "Name": "M870 MCS",
+      "Category": "Shotgun",
+      "Magazine_Size": 6,
+      "Reload_Time": 3.5,
+      "Damage": 17,
+      "Pellets": 45,
+      "Range": -4,
+      "Recoil": 35
+    },
+    {
+      "Name": "M1887 Trench Shotgun",
+      "Category": "Shotgun",
+      "Magazine_Size": 6,
+      "Reload_Time": 4.5,
+      "Damage": 22,
+      "Pellets": 200,
+      "Range": -7,
+      "Recoil": 43,
+      "Spread": 22
+    },
+    {
+      "Name": "M870 Breacher",
+      "Category": "Shotgun",
+      "Magazine_Size": 8,
+      "Reload_Time": 3.2,
+      "Damage": 30,
+      "Movement_Speed": 3,
+      "Pellets": 150,
+      "Range": -15,
+      "Recoil": 50,
+      "Spread": 5
+    },
+    {
+      "Name": "M1887",
+      "Category": "Shotgun",
+      "Magazine_Size": 6,
+      "Reload_Time": 4,
+      "Fire_Rate": 9,
+      "Health": 5,
+      "Pellets": 150,
+      "Movement_Speed": -5.5,
+      "Range": -10,
+      "Recoil": 15,
+      "Spread": 7
+    },
+    {
+      "Name": "Auto-5",
+      "Category": "Shotgun",
+      "Magazine_Size": 4,
+      "Reload_Time": 3,
+      "Damage": 20,
+      "Fire_Rate": 20,
+      "Pellets": 175,
+      "Movement_Speed": -4,
+      "Recoil": 50,
+      "Spread": 16
+    },
+    {
+      "Name": "JSG12",
+      "Category": "Shotgun",
+      "Magazine_Size": 15,
+      "Reload_Time": 7.5,
+      "Damage": 19,
+      "Fire_Rate": 5,
+      "Pellets": 125,
+      "Recoil": 26,
+      "Spread": 15
+    },
+    {
+      "Name": "Spas-12",
+      "Category": "Shotgun",
+      "Magazine_Size": 12,
+      "Reload_Time": 7,
+      "Damage": 6.5,
+      "Fire_Rate": 30,
+      "Pellets": 175,
+      "Movement_Speed": -3,
+      "Range": -8.5,
+      "Recoil": 60,
+      "Spread": 19
+    },
+    {
+      "Name": "Double Barrel",
+      "Category": "Shotgun",
+      "Magazine_Size": 2,
+      "Reload_Time": 5,
+      "Damage": 35,
+      "Pellets": 100,
+      "Fire_Rate": -13,
+      "Range": -7,
+      "Recoil": 100
+    },
+    {
+      "Name": "Blunderbuss",
+      "Category": "Shotgun",
+      "Magazine_Size": 1,
+      "Reload_Time": 6.5,
+      "Damage": 30,
+      "Pellets": 200,
+      "Fire_Rate": -5,
+      "Range": -23,
+      "Spread": 45
+    },
+    {
+      "Name": "MarrowMaker",
+      "Category": "Shotgun"
+    },
+    {
+      "Name": "M60",
+      "Category": "LMG",
+      "Magazine_Size": 75,
+      "Reload_Time": 6.5,
+      "Movement_Speed": 1,
+      "Spread": -10,
+      "Range": -9,
+      "Recoil": 22
+    },
+    {
+      "Name": "Type 99",
+      "Category": "LMG",
+      "Magazine_Size": 30,
+      "Reload_Time": 3,
+      "Damage": 7.5,
+      "Range": 8,
+      "Spread": -17,
+      "Movement_Speed": -1,
+      "Recoil": 1.2
+    },
+    {
+      "Name": "DP-27",
+      "Category": "LMG",
+      "Magazine_Size": 47,
+      "Reload_Time": 4.8,
+      "Damage": 7,
+      "Fire_Rate": 4,
+      "Range": 5,
+      "Movement_Speed": -2,
+      "Recoil": 12
+    },
+    {
+      "Name": "BAR",
+      "Category": "LMG",
+      "Magazine_Size": 20,
+      "Reload_Time": 4,
+      "Damage": 25,
+      "Range": 25,
+      "Detection_Radius": 20,
+      "Fire_Rate": -10,
+      "Movement_Speed": -0.5,
+      "Recoil": 10,
+      "Spread": 10
+    },
+    {
+      "Name": "M1919 .30 Cal",
+      "Category": "LMG",
+      "Magazine_Size": 100,
+      "Reload_Time": 9.5,
+      "Damage": 20,
+      "Range": 12,
+      "Detection_Radius": 20,
+      "Fire_Rate": -10,
+      "Movement_Speed": -12,
+      "Spread": 27
+    },
+    {
+      "Name": "Negev",
+      "Category": "LMG",
+      "Magazine_Size": 200,
+      "Reload_Time": 12,
+      "Detection_Radius": 25,
+      "Equip_Time": 50,
+      "Movement_Speed": -9,
+      "Range": -11
+    },
+    {
+      "Name": "MG42",
+      "Category": "LMG",
+      "Magazine_Size": 50,
+      "Reload_Time": 5.5,
+      "Fire_Rate": 23,
+      "Movement_Speed": -4,
+      "Range": -19,
+      "Recoil": 19,
+      "Spread": 23
+    },
+    {
+      "Name": "Chauchat",
+      "Category": "LMG",
+      "Magazine_Size": 18,
+      "Reload_Time": 2.1,
+      "Damage": 25,
+      "Range": 20,
+      "Detection_Radius": 10,
+      "Fire_Rate": -15,
+      "Movement_Speed": -5,
+      "Recoil": 35,
+      "Spread": 25
+    },
+    {
+      "Name": "Burton",
+      "Category": "LMG",
+      "Magazine_Size": 40,
+      "Reload_Time": 3.5,
+      "Fire_Rate": 18,
+      "Damage": -3,
+      "Spread": 18
+    },
+    {
+      "Name": "Lewis",
+      "Category": "LMG",
+      "Magazine_Size": 47,
+      "Reload_Time": 5,
+      "Damage": 4,
+      "Fire_Rate": 7,
+      "Movement_Speed": -3,
+      "Recoil": 18
+    },
+    {
+      "Name": "M249 SAW",
+      "Category": "LMG",
+      "Magazine_Size": 100,
+      "Reload_Time": 9,
+      "Fire_Rate": 5,
+      "Equip_Time": 40,
+      "Movement_Speed": -9,
+      "Recoil": 22,
+      "Spread": 18
+    },
+    {
+      "Name": "M1 Garand",
+      "Category": "BR",
+      "Magazine_Size": 8,
+      "Reload_Time": 3.8,
+      "Damage": 22,
+      "Range": 8,
+      "Spread": -10,
+      "Fire_Rate": -8
+    },
+    {
+      "Name": "Scar H",
+      "Category": "BR",
+      "Magazine_Size": 20,
+      "Reload_Time": 4.5,
+      "Damage": 20,
+      "Range": 11,
+      "Detection_Radius": 10,
+      "Recoil": 25
+    },
+    {
+      "Name": "SKS",
+      "Category": "BR",
+      "Magazine_Size": 20,
+      "Reload_Time": 3,
+      "Fire_Rate": 12,
+      "Range": 6,
+      "Recoil": 26,
+      "Spread": 17
+    },
+    {
+      "Name": "Fedorov",
+      "Category": "BR",
+      "Magazine_Size": 25,
+      "Reload_Time": 4,
+      "Damage": 15,
+      "Range": 9,
+      "Detection_Radius": 16,
+      "Recoil": 23
+    },
+    {
+      "Name": "FAL",
+      "Category": "BR",
+      "Magazine_Size": 20,
+      "Reload_Time": 2,
+      "Damage": 10,
+      "Fire_Rate": 10,
+      "Movement_Speed": -2.5,
+      "Recoil": 12
+    },
+    {
+      "Name": "Winchester",
+      "Category": "BR",
+      "Magazine_Size": 7,
+      "Reload_Time": 4.5,
+      "Damage": 7,
+      "Fire_Rate": 6,
+      "Movement_Speed": 2,
+      "Recoil": -28,
+      "Spread": 30
+    },
+    {
+      "Name": "Dragunov",
+      "Category": "BR",
+      "Magazine_Size": 10,
+      "Reload_Time": 3.4,
+      "Damage": 25,
+      "Range": 13,
+      "Recoil": -4,
+      "Detection_Radius": 20,
+      "Fire_Rate": -13,
+      "Movement_Speed": -4
+    },
+    {
+      "Name": "G3",
+      "Category": "BR",
+      "Magazine_Size": 20,
+      "Reload_Time": 3,
+      "Damage": 15,
+      "Fire_Rate": 3,
+      "Detection_Radius": 10,
+      "Movement_Speed": -2,
+      "Recoil": 21
+    },
+    {
+      "Name": "M110",
+      "Category": "BR",
+      "Magazine_Size": 10,
+      "Reload_Time": 3.8,
+      "Damage": 19,
+      "Range": 16,
+      "Fire_Rate": -5,
+      "Recoil": 12
+    },
+    {
+      "Name": "FG-42",
+      "Category": "BR",
+      "Magazine_Size": 20,
+      "Reload_Time": 3.5,
+      "Damage": 4,
+      "Fire_Rate": 12,
+      "Spread": -11,
+      "Movement_Speed": -2,
+      "Recoil": 17
+    },
+    {
+      "Name": "Paintball",
+      "Category": "Weird",
+      "Magazine_Size": 70,
+      "Reload_Time": 6.2,
+      "Fire_Rate": 18,
+      "Damage": -2,
+      "Spread": 18
+    },
+    {
+      "Name": "XXL AKM",
+      "Category": "Weird",
+      "Magazine_Size": 90,
+      "Reload_Time": 9,
+      "Damage": 6,
+      "Detection_Radius": 15,
+      "Movement_Speed": -10,
+      "Recoil": 20
+    },
+    {
+      "Name": "Graphics Card",
+      "Category": "Weird",
+      "Magazine_Size": 50,
+      "Reload_Time": 6,
+      "Fire_Rate": 14,
+      "Recoil": -23,
+      "Range": -8
+    },
+    {
+      "Name": "Rice Pot",
+      "Category": "Weird",
+      "Magazine_Size": 120,
+      "Reload_Time": 10,
+      "Fire_Rate": 10,
+      "Recoil": -10,
+      "Movement_Speed": -15,
+      "Range": -22
+    },
+    {
+      "Name": "Words as Weapons",
+      "Category": "Weird",
+      "Magazine_Size": 30,
+      "Reload_Time": 2.4,
+      "Damage": 5,
+      "Detection_Radius": 5
+    },
+    {
+      "Name": "Pastel",
+      "Category": "Weird",
+      "Magazine_Size": 20,
+      "Reload_Time": 4,
+      "Damage": 15,
+      "Detection_Radius": 10,
+      "Fire_Rate": -20,
+      "Recoil": 15
+    },
+    {
+      "Name": "Screwdriver",
+      "Category": "Weird",
+      "Magazine_Size": 1,
+      "Reload_Time": 8,
+      "Damage": 100,
+      "Movement_Speed": -10,
+      "Range": -14,
+      "Spread": 75
+    },
+    {
+      "Name": "Horizontal",
+      "Category": "Weird",
+      "Magazine_Size": 20,
+      "Reload_Time": 1.9,
+      "Fire_Rate": 10,
+      "Recoil": -15,
+      "Damage": -5
+    },
+    {
+      "Name": "Improvised",
+      "Category": "Weird",
+      "Magazine_Size": 10,
+      "Reload_Time": 0.8,
+      "Damage": 10,
+      "Movement_Speed": 5,
+      "Range": -7,
+      "Spread": 30
+    },
+    {
+      "Name": "Restroom",
+      "Category": "Weird",
+      "Magazine_Size": 35,
+      "Reload_Time": 2.9,
+      "Fire_Rate": 10,
+      "Recoil": -20,
+      "Spread": 30
+    },
+    {
+      "Name": "Mega Soaker",
+      "Category": "Weird",
+      "Magazine_Size": 60,
+      "Reload_Time": 5.4,
+      "Fire_Rate": 20,
+      "Movement_Speed": 3,
+      "Recoil": -16,
+      "Damage": -5,
+      "Range": -9
+    },
+    {
+      "Name": "M1911",
+      "Category": "Sidearm",
+      "Magazine_Size": 7,
+      "Reload_Time": 1.8,
+      "Damage": 18,
+      "Fire_Rate": -9,
+      "Range": -6,
+      "Recoil": 23
+    },
+    {
+      "Name": "Makarov",
+      "Category": "Sidearm",
+      "Magazine_Size": 8,
+      "Reload_Time": 1.5,
+      "Damage": 5,
+      "Movement_Speed": 2,
+      "Recoil": 19
+    },
+    {
+      "Name": "Kolibri",
+      "Category": "Sidearm",
+      "Magazine_Size": 5,
+      "Reload_Time": 0.5,
+      "Movement_Speed": 4,
+      "Recoil": -40,
+      "Spread": -30,
+      "Damage": -15,
+      "Range": -15
+    },
+    {
+      "Name": "Tec-9",
+      "Category": "Sidearm",
+      "Magazine_Size": 20,
+      "Reload_Time": 2,
+      "Damage": 3,
+      "Range": -4,
+      "Recoil": 11
+    },
+    {
+      "Name": "T10",
+      "Category": "Sidearm",
+      "Magazine_Size": 15,
+      "Reload_Time": 1.9,
+      "Range": 4,
+      "Spread": -8,
+      "Recoil": 18
+    },
+    {
+      "Name": "B17",
+      "Category": "Sidearm",
+      "Magazine_Size": 17,
+      "Reload_Time": 2.2,
+      "Fire_Rate": 11,
+      "Range": -4,
+      "Spread": 11
+    },
+    {
+      "Name": "EG200",
+      "Category": "Sidearm",
+      "Magazine_Size": 6,
+      "Reload_Time": 2.8,
+      "Damage": 20,
+      "Pellets": 75,
+      "Fire_Rate": -11,
+      "Movement_Speed": -2,
+      "Recoil": 30
+    },
+    {
+      "Name": "Beretta",
+      "Category": "Sidearm",
+      "Magazine_Size": 15,
+      "Reload_Time": 2.3,
+      "Damage": 3,
+      "Range": 2,
+      "Fire_Rate": -7,
+      "Spread": 11
+    },
+    {
+      "Name": "Type 14",
+      "Category": "Sidearm",
+      "Magazine_Size": 8,
+      "Reload_Time": 1.8,
+      "Damage": 13,
+      "Fire_Rate": 14,
+      "Movement_Speed": 5,
+      "Health": -13,
+      "Recoil": 14
+    },
+    {
+      "Name": "Luger",
+      "Category": "Sidearm",
+      "Magazine_Size": 8,
+      "Reload_Time": 2.2,
+      "Fire_Rate": 20,
+      "Recoil": -16,
+      "Range": -5,
+      "Spread": 22
+    },
+    {
+      "Name": "Deagle",
+      "Category": "Sidearm",
+      "Magazine_Size": 7,
+      "Reload_Time": 4,
+      "Damage": 29,
+      "Fire_Rate": -6,
+      "Movement_Speed": -2,
+      "Range": -9,
+      "Recoil": 62
+    },
+    {
+      "Name": "P08 Artilery",
+      "Category": "Sidearm",
+      "Magazine_Size": 32,
+      "Reload_Time": 3,
+      "Fire_Rate": 8,
+      "Movement_Speed": -2,
+      "Range": -4,
+      "Recoil": 12
+    },
+    {
+      "Name": "Obreez",
+      "Category": "Sidearm",
+      "Magazine_Size": 5,
+      "Reload_Time": 2,
+      "Damage": 5,
+      "Range": 7,
+      "Fire_Rate": -10,
+      "Movement_Speed": -2,
+      "Recoil": 27
+    },
+    {
+      "Name": "Cyber 3517",
+      "Category": "Sidearm",
+      "Magazine_Size": 10,
+      "Reload_Time": 5,
+      "Damage": 30,
+      "Range": 2,
+      "Fire_Rate": -20,
+      "Movement_Speed": -4,
+      "Recoil": 60
+    }
+  ],
+  "Grips": [
+    {
+      "Name": "AKM",
+      "Category": "AR",
+      "Recoil": -10,
+      "Reload_Speed": -4,
+      "Spread": 14
+    },
+    {
+      "Name": "M-16",
+      "Category": "AR",
+      "Recoil": -20
+    },
+    {
+      "Name": "C36C",
+      "Category": "AR",
+      "Recoil": -15,
+      "Reload_Speed": -10
+    },
+    {
+      "Name": "AUG",
+      "Category": "AR",
+      "Movement_Speed": 2.5,
+      "Recoil": -5,
+      "Spread": -7
+    },
+    {
+      "Name": "As-Val",
+      "Category": "AR",
+      "Recoil": -5,
+      "Reload_Speed": -15
+    },
+    {
+      "Name": "Famas F1",
+      "Category": "AR",
+      "Recoil": -10,
+      "Reload_Speed": -10
+    },
+    {
+      "Name": "STG-44",
+      "Category": "AR",
+      "Reload_Speed": -17,
+      "Spread": -7,
+      "Recoil": 12
+    },
+    {
+      "Name": "Scar L",
+      "Category": "AR",
+      "Recoil": -25,
+      "Spread": 25
+    },
+    {
+      "Name": "QBZ-95",
+      "Category": "AR",
+      "Spread": -11,
+      "Movement_Speed": -1.8,
+      "Reload_Speed": 5
+    },
+    {
+      "Name": "The Chief",
+      "Category": "AR",
+      "Damage": 3,
+      "Spread": -25,
+      "Recoil": 35
+    },
+    {
+      "Name": "AK-12",
+      "Category": "AR",
+      "Recoil": -15,
+      "Reload_Speed": -12,
+      "Spread": -18
+    },
+    {
+      "Name": "Broza",
+      "Category": "AR",
+      "Fire_Rate": 4,
+      "Reload_Speed": 6
+    },
+    {
+      "Name": "Hell-Trooper-23",
+      "Category": "AR",
+      "Movement_Speed": 3,
+      "Reload_Speed": -5,
+      "Spread": -18
+    },
+    {
+      "Name": "APS",
+      "Category": "AR",
+      "Damage": 2,
+      "Recoil": -11,
+      "Reload_Speed": 6
+    },
+    {
+      "Name": "FC200SH",
+      "Category": "AR",
+      "Movement_Speed": 3,
+      "Recoil": -19,
+      "Fire_Rate": -4
+    },
+    {
+      "Name": "AR-8X",
+      "Category": "AR",
+      "Movement_Speed": 1.5,
+      "Spread": -16,
+      "Recoil": 21
+    },
+    {
+      "Name": "Hex Spitter",
+      "Category": "AR",
+      "Recoil": -25,
+      "Movement_Speed": -5,
+      "Spread": 5
+    },
+    {
+      "Name": "G11",
+      "Category": "AR",
+      "Recoil": -29,
+      "Movement_Speed": -4,
+      "Reload_Speed": 6
+    },
+    {
+      "Name": "10KG Dumbbell",
+      "Category": "AR",
+      "Recoil": -35,
+      "Spread": -20,
+      "Movement_Speed": -10,
+      "Range": -15,
+      "Reload_Speed": 20
+    },
+    {
+      "Name": "Napo - Scissors",
+      "Category": "AR",
+      "Detection_Radius": -12,
+      "Spread": -15,
+      "Recoil": 12
+    },
+    {
+      "Name": "M40",
+      "Category": "Sniper",
+      "Recoil": -5,
+      "Reload_Speed": -10,
+      "Spread": -10
+    },
+    {
+      "Name": "M1891",
+      "Category": "Sniper",
+      "Fire_Rate": 10,
+      "Movement_Speed": 4,
+      "Reload_Speed": 15,
+      "Spread": 30
+    },
+    {
+      "Name": "AWM",
+      "Category": "Sniper",
+      "Spread": -27,
+      "Recoil": 8,
+      "Reload_Speed": 12
+    },
+    {
+      "Name": "Lee Enfield",
+      "Category": "Sniper",
+      "Fire_Rate": 15,
+      "Range": -20,
+      "Spread": 30
+    },
+    {
+      "Name": "Arisaka",
+      "Category": "Sniper",
+      "Movement_Speed": 8,
+      "Spread": -17,
+      "Health": -6
+    },
+    {
+      "Name": "VSSR",
+      "Category": "Sniper",
+      "Range": 2,
+      "Recoil": -30,
+      "Movement_Speed": -2,
+      "Spread": 12
+    },
+    {
+      "Name": "M2000",
+      "Category": "Sniper",
+      "Recoil": -20,
+      "Reload_Speed": -10,
+      "Spread": 10
+    },
+    {
+      "Name": "Mosin",
+      "Category": "Sniper",
+      "Movement_Speed": 3,
+      "Range": 3,
+      "Fire_Rate": -5
+    },
+    {
+      "Name": "Hecate II",
+      "Category": "Sniper",
+      "Recoil": -25,
+      "Spread": -10,
+      "Movement_Speed": -4,
+      "Reload_Speed": 8
+    },
+    {
+      "Name": "Lightning Shot",
+      "Category": "Sniper",
+      "Spread": -35,
+      "Fire_Rate": -6,
+      "Movement_Speed": -4,
+      "Recoil": 38
+    },
+    {
+      "Name": "Musket",
+      "Category": "Sniper",
+      "Damage": 10,
+      "Fire_Rate": -15,
+      "Reload_Speed": 10,
+      "Spread": 40
+    },
+    {
+      "Name": "Snake Sniper",
+      "Category": "Sniper",
+      "Range": 10,
+      "Spread": -24,
+      "Movement_Speed": -1.5,
+      "Recoil": 22
+    },
+    {
+      "Name": "MAC-10",
+      "Category": "SMG",
+      "Movement_Speed": 4.4,
+      "Reload_Speed": -25,
+      "Recoil": 25,
+      "Spread": 10
+    },
+    {
+      "Name": "Type 2a Nambu",
+      "Category": "SMG",
+      "Damage": 6,
+      "Health": -7.5,
+      "Recoil": 23
+    },
+    {
+      "Name": "Tommy",
+      "Category": "SMG",
+      "Movement_Speed": 3.8,
+      "Recoil": -15,
+      "Reload_Speed": 10
+    },
+    {
+      "Name": "NP9",
+      "Category": "SMG",
+      "Movement_Speed": 4.5,
+      "Spread": -12,
+      "Recoil": 18
+    },
+    {
+      "Name": "MP 40",
+      "Category": "SMG",
+      "Damage": 5,
+      "Recoil": 30,
+      "Spread": 30
+    },
+    {
+      "Name": "Sten gun",
+      "Category": "SMG",
+      "Movement_Speed": 2,
+      "Spread": -17,
+      "Recoil": 28
+    },
+    {
+      "Name": "UNP-40",
+      "Category": "SMG",
+      "Movement_Speed": 2.5,
+      "Reload_Speed": -5,
+      "Spread": -20,
+      "Recoil": 40
+    },
+    {
+      "Name": "Skorpion vz. 61",
+      "Category": "SMG",
+      "Movement_Speed": 9,
+      "Reload_Speed": -10,
+      "Recoil": 25,
+      "Spread": 30
+    },
+    {
+      "Name": "NP5",
+      "Category": "SMG",
+      "Movement_Speed": 3.3,
+      "Recoil": -15,
+      "Reload_Speed": -10,
+      "Spread": 17
+    },
+    {
+      "Name": "Mas-38",
+      "Category": "SMG",
+      "Fire_Rate": 6,
+      "Movement_Speed": 2,
+      "Spread": -15,
+      "Range": -7
+    },
+    {
+      "Name": "PP-19 Bizon",
+      "Category": "SMG",
+      "Movement_Speed": 2.5,
+      "Recoil": -9,
+      "Reload_Speed": -3,
+      "Spread": 18
+    },
+    {
+      "Name": "PPSh-41",
+      "Category": "SMG",
+      "Fire_Rate": 10,
+      "Spread": -10,
+      "Reload_Speed": 15
+    },
+    {
+      "Name": "MP18",
+      "Category": "SMG",
+      "Range": 2,
+      "Spread": -12,
+      "Movement_Speed": -2,
+      "Recoil": 18
+    },
+    {
+      "Name": "Kriss Vector",
+      "Category": "SMG",
+      "Fire_Rate": 4,
+      "Movement_Speed": 4.5,
+      "Recoil": -12,
+      "Spread": 8
+    },
+    {
+      "Name": "P90",
+      "Category": "SMG",
+      "Fire_Rate": 7,
+      "Recoil": -11,
+      "Spread": 12
+    },
+    {
+      "Name": "Uzi",
+      "Category": "SMG",
+      "Fire_Rate": 2,
+      "Movement_Speed": 7,
+      "Recoil": 23
+    },
+    {
+      "Name": "M1 Carbine",
+      "Category": "SMG",
+      "Movement_Speed": 5,
+      "Reload_Speed": -12,
+      "Spread": -11,
+      "Recoil": 29
+    },
+    {
+      "Name": "M870",
+      "Category": "Shotgun",
+      "Reload_Speed": -15,
+      "Spread": 20
+    },
+    {
+      "Name": "Circuit Judge",
+      "Category": "Shotgun",
+      "Damage": 10,
+      "Spread": 35
+    },
+    {
+      "Name": "M1887 Trench Shotgun",
+      "Category": "Shotgun",
+      "Fire_Rate": 10,
+      "Reload_Speed": 5,
+      "Spread": 20
+    },
+    {
+      "Name": "M1887",
+      "Category": "Shotgun",
+      "Fire_Rate": 10,
+      "Health": 5,
+      "Reload_Speed": -10,
+      "Movement_Speed": -5.5,
+      "Spread": 15
+    },
+    {
+      "Name": "Auto-5",
+      "Category": "Shotgun",
+      "Fire_Rate": 5,
+      "Recoil": -10,
+      "Spread": -20,
+      "Damage": -2.5
+    },
+    {
+      "Name": "JSG12",
+      "Category": "Shotgun",
+      "Movement_Speed": 3,
+      "Spread": -18,
+      "Recoil": 38
+    },
+    {
+      "Name": "Spas-12",
+      "Category": "Shotgun",
+      "Damage": 2,
+      "Fire_Rate": 3,
+      "Movement_Speed": -2.5,
+      "Spread": 22
+    },
+    {
+      "Name": "Double Barrel",
+      "Category": "Shotgun",
+      "Damage": 7.5,
+      "Movement_Speed": -2,
+      "Recoil": 80
+    },
+    {
+      "Name": "Blunderbuss",
+      "Category": "Shotgun",
+      "Movement_Speed": 2,
+      "Pellets": 25,
+      "Fire_Rate": -11,
+      "Reload_Speed": 9
+    },
+    {
+      "Name": "MarrowMaker",
+      "Category": "Shotgun"
+    },
+    {
+      "Name": "M60",
+      "Category": "LMG",
+      "Recoil": -15,
+      "Spread": -15,
+      "Movement_Speed": -2.5,
+      "Reload_Speed": 5
+    },
+    {
+      "Name": "Type 99",
+      "Category": "LMG",
+      "Recoil": -13,
+      "Reload_Speed": -16,
+      "Movement_Speed": -2.7
+    },
+    {
+      "Name": "DP-27",
+      "Category": "LMG",
+      "Recoil": -27,
+      "Reload_Speed": -13,
+      "Fire_Rate": -6
+    },
+    {
+      "Name": "BAR",
+      "Category": "LMG",
+      "Damage": 4,
+      "Movement_Speed": -5,
+      "Recoil": 12
+    },
+    {
+      "Name": "M1919 .30 Cal",
+      "Category": "LMG",
+      "Reload_Speed": -19,
+      "Spread": -16,
+      "Movement_Speed": -2.5,
+      "Recoil": 25
+    },
+    {
+      "Name": "Negev",
+      "Category": "LMG",
+      "Fire_Rate": 8,
+      "Movement_Speed": -2.5,
+      "Recoil": 15,
+      "Spread": 5
+    },
+    {
+      "Name": "MG42",
+      "Category": "LMG",
+      "Fire_Rate": 4,
+      "Spread": -13,
+      "Movement_Speed": -2.5,
+      "Reload_Speed": 3
+    },
+    {
+      "Name": "Chauchat",
+      "Category": "LMG",
+      "Damage": 5,
+      "Movement_Speed": -2.5,
+      "Recoil": 10,
+      "Spread": 15
+    },
+    {
+      "Name": "Burton",
+      "Category": "LMG",
+      "Reload_Speed": -4,
+      "Spread": -15,
+      "Movement_Speed": -3,
+      "Range": -2
+    },
+    {
+      "Name": "Lewis",
+      "Category": "LMG",
+      "Fire_Rate": 15,
+      "Movement_Speed": -6,
+      "Recoil": 44,
+      "Spread": 14
+    },
+    {
+      "Name": "M249 SAW",
+      "Category": "LMG",
+      "Spread": -16,
+      "Movement_Speed": -4,
+      "Recoil": 7
+    },
+    {
+      "Name": "M1 Garand",
+      "Category": "BR",
+      "Fire_Rate": 8,
+      "Movement_Speed": -3
+    },
+    {
+      "Name": "SKS",
+      "Category": "BR",
+      "Fire_Rate": 2,
+      "Recoil": -12,
+      "Reload_Speed": 3
+    },
+    {
+      "Name": "Fedorov",
+      "Category": "BR",
+      "Recoil": -27,
+      "Fire_Rate": -12
+    },
+    {
+      "Name": "FAL",
+      "Category": "BR",
+      "Movement_Speed": 2,
+      "Recoil": -18,
+      "Detection_Radius": 15,
+      "Spread": 21
+    },
+    {
+      "Name": "Winchester",
+      "Category": "BR",
+      "Fire_Rate": 3,
+      "Movement_Speed": 2,
+      "Recoil": 19,
+      "Reload_Speed": 6
+    },
+    {
+      "Name": "Dragunov",
+      "Category": "BR",
+      "Range": 5,
+      "Recoil": -16,
+      "Fire_Rate": -5
+    },
+    {
+      "Name": "G3",
+      "Category": "BR",
+      "Fire_Rate": 2,
+      "Reload_Speed": -9,
+      "Movement_Speed": -2,
+      "Recoil": 19
+    },
+    {
+      "Name": "M110",
+      "Category": "BR",
+      "Spread": -23,
+      "Fire_Rate": -2,
+      "Recoil": 26
+    },
+    {
+      "Name": "FG-42",
+      "Category": "BR",
+      "Fire_Rate": 4,
+      "Recoil": -14,
+      "Reload_Speed": 3
+    },
+    {
+      "Name": "Paintball",
+      "Category": "Weird",
+      "Movement_Speed": 4,
+      "Reload_Speed": -7,
+      "Spread": 14
+    },
+    {
+      "Name": "Pistol Pistol",
+      "Category": "Weird",
+      "Reload_Speed": -40,
+      "Damage": -5,
+      "Recoil": 10,
+      "Spread": 10
+    },
+    {
+      "Name": "Words as Weapons",
+      "Category": "Weird",
+      "Recoil": -10,
+      "Reload_Speed": -4,
+      "Spread": 14
+    },
+    {
+      "Name": "Croissant",
+      "Category": "Weird",
+      "Detection_Radius": -10,
+      "Movement_Speed": 5,
+      "Recoil": -20,
+      "Fire_Rate": -5
+    },
+    {
+      "Name": "Controller",
+      "Category": "Weird",
+      "Fire_Rate": 3,
+      "Spread": -12,
+      "Movement_Speed": -2,
+      "Recoil": 14
+    },
+    {
+      "Name": "Tap",
+      "Category": "Weird",
+      "Recoil": -30,
+      "Movement_Speed": -5,
+      "Spread": 15
+    },
+    {
+      "Name": "Banana",
+      "Category": "Weird",
+      "Movement_Speed": 5,
+      "Recoil": -20,
+      "Spread": 15
+    },
+    {
+      "Name": "Mega Soaker",
+      "Category": "Weird",
+      "Movement_Speed": 2,
+      "Recoil": -24,
+      "Spread": 12
+    },
+    {
+      "Name": "Lamp Shade",
+      "Category": "Weird",
+      "Recoil": -20,
+      "Range": -5
+    },
+    {
+      "Name": "M1911",
+      "Category": "Sidearm",
+      "Recoil": -19,
+      "Reload_Speed": 4
+    },
+    {
+      "Name": "Makarov",
+      "Category": "Sidearm",
+      "Damage": 2,
+      "Spread": 12
+    },
+    {
+      "Name": "Kolibri",
+      "Category": "Sidearm",
+      "Movement_Speed": 6,
+      "Recoil": -25,
+      "Damage": -5,
+      "Range": -5
+    },
+    {
+      "Name": "Tec-9",
+      "Category": "Sidearm",
+      "Spread": -12,
+      "Range": -4,
+      "Recoil": 7
+    },
+    {
+      "Name": "T10",
+      "Category": "Sidearm",
+      "Movement_Speed": 2,
+      "Reload_Speed": -3,
+      "Recoil": 11
+    },
+    {
+      "Name": "B17",
+      "Category": "Sidearm",
+      "Fire_Rate": 4,
+      "Recoil": 34
+    },
+    {
+      "Name": "EG200",
+      "Category": "Sidearm",
+      "Movement_Speed": 7.5,
+      "Spread": 25
+    },
+    {
+      "Name": "Beretta",
+      "Category": "Sidearm",
+      "Movement_Speed": 2.3,
+      "Range": 1.5,
+      "Reload_Speed": 4
+    },
+    {
+      "Name": "Type 14",
+      "Category": "Sidearm",
+      "Reload_Speed": -9,
+      "Range": -4,
+      "Recoil": 11
+    },
+    {
+      "Name": "Luger",
+      "Category": "Sidearm",
+      "Movement_Speed": 6,
+      "Recoil": -5,
+      "Range": -12
+    },
+    {
+      "Name": "Deagle",
+      "Category": "Sidearm",
+      "Recoil": -22,
+      "Fire_Rate": -5,
+      "Movement_Speed": -2
+    },
+    {
+      "Name": "P08 Artilery",
+      "Category": "Sidearm",
+      "Recoil": -14,
+      "Spread": -17,
+      "Equip_Time": 200,
+      "Movement_Speed": -2,
+      "Reload_Speed": 8
+    },
+    {
+      "Name": "Obreez",
+      "Category": "Sidearm",
+      "Recoil": -25,
+      "Spread": -10,
+      "Movement_Speed": -4,
+      "Reload_Speed": 8
+    },
+    {
+      "Name": "Cyber 3517",
+      "Category": "Sidearm",
+      "Damage": 5,
+      "Range": 1,
+      "Movement_Speed": -8,
+      "Recoil": 30,
+      "Spread": 11
+    }
+  ],
+  "Stocks": [
+    {
+      "Name": "AKM",
+      "Category": "AR",
+      "Reload_Speed": -10,
+      "Spread": -10,
+      "Recoil": 15
+    },
+    {
+      "Name": "M-16",
+      "Category": "AR",
+      "Recoil": -15
+    },
+    {
+      "Name": "C36C",
+      "Category": "AR",
+      "Recoil": -5,
+      "Reload_Speed": -5,
+      "Spread": -5
+    },
+    {
+      "Name": "AUG",
+      "Category": "AR",
+      "Movement_Speed": 2.5,
+      "Spread": -15,
+      "Range": -6
+    },
+    {
+      "Name": "As-Val",
+      "Category": "AR",
+      "Recoil": -10,
+      "Reload_Speed": -10
+    },
+    {
+      "Name": "Famas F1",
+      "Category": "AR",
+      "Recoil": -20,
+      "Reload_Speed": 7
+    },
+    {
+      "Name": "STG-44",
+      "Category": "AR",
+      "Fire_Rate": 3,
+      "Spread": -10,
+      "Reload_Speed": 4
+    },
+    {
+      "Name": "Scar L",
+      "Category": "AR",
+      "Recoil": -10,
+      "Reload_Speed": -15,
+      "Spread": 10
+    },
+    {
+      "Name": "QBZ-95",
+      "Category": "AR",
+      "Health": 6,
+      "Recoil": 10,
+      "Reload_Speed": 3.6
+    },
+    {
+      "Name": "The Chief",
+      "Category": "AR",
+      "Reload_Speed": -10,
+      "Spread": -20,
+      "Recoil": 10
+    },
+    {
+      "Name": "AK-12",
+      "Category": "AR",
+      "Recoil": -20,
+      "Movement_Speed": -0.2,
+      "Spread": 7
+    },
+    {
+      "Name": "Broza",
+      "Category": "AR",
+      "Reload_Speed": -5,
+      "Spread": -12,
+      "Recoil": 22
+    },
+    {
+      "Name": "Hell-Trooper-23",
+      "Category": "AR",
+      "Reload_Speed": -25,
+      "Recoil": 10
+    },
+    {
+      "Name": "APS",
+      "Category": "AR",
+      "Damage": 6,
+      "Recoil": 30,
+      "Spread": 30
+    },
+    {
+      "Name": "FC200SH",
+      "Category": "AR",
+      "Movement_Speed": 2,
+      "Range": 3,
+      "Spread": -24,
+      "Fire_Rate": -5
+    },
+    {
+      "Name": "AR-8X",
+      "Category": "AR",
+      "Fire_Rate": 7,
+      "Movement_Speed": -2,
+      "Spread": 14
+    },
+    {
+      "Name": "Hex Spitter",
+      "Category": "AR",
+      "Reload_Speed": -10,
+      "Spread": -25,
+      "Movement_Speed": -5
+    },
+    {
+      "Name": "G11",
+      "Category": "AR",
+      "Movement_Speed": 2,
+      "Recoil": -13
+    },
+    {
+      "Name": "Derpy - Staff",
+      "Category": "AR",
+      "Movement_Speed": 5,
+      "Reload_Speed": -3,
+      "Spread": 15
+    },
+    {
+      "Name": "M40",
+      "Category": "Sniper",
+      "Recoil": -10,
+      "Spread": -20
+    },
+    {
+      "Name": "M1891",
+      "Category": "Sniper",
+      "Movement_Speed": 4,
+      "Recoil": 15
+    },
+    {
+      "Name": "AWM",
+      "Category": "Sniper",
+      "Reload_Speed": -15,
+      "Spread": -35,
+      "Recoil": 10
+    },
+    {
+      "Name": "Lee Enfield",
+      "Category": "Sniper",
+      "Fire_Rate": 10,
+      "Range": -5,
+      "Recoil": 40,
+      "Spread": 20
+    },
+    {
+      "Name": "Arisaka",
+      "Category": "Sniper",
+      "Movement_Speed": 11,
+      "Health": -8,
+      "Reload_Speed": 5
+    },
+    {
+      "Name": "VSSR",
+      "Category": "Sniper",
+      "Range": 2,
+      "Recoil": -30,
+      "Movement_Speed": -2,
+      "Spread": 12
+    },
+    {
+      "Name": "M2000",
+      "Category": "Sniper",
+      "Recoil": -40,
+      "Spread": -40,
+      "Fire_Rate": -25,
+      "Movement_Speed": -10
+    },
+    {
+      "Name": "Mosin",
+      "Category": "Sniper",
+      "Fire_Rate": 2,
+      "Spread": -15,
+      "Recoil": 24
+    },
+    {
+      "Name": "Hecate II",
+      "Category": "Sniper",
+      "Damage": 5,
+      "Reload_Speed": -10,
+      "Spread": -20,
+      "Fire_Rate": -10,
+      "Movement_Speed": -5,
+      "Recoil": 15
+    },
+    {
+      "Name": "Lightning Shot",
+      "Category": "Sniper",
+      "Spread": -45,
+      "Fire_Rate": -9,
+      "Movement_Speed": -8,
+      "Recoil": 27,
+      "Reload_Speed": 4
+    },
+    {
+      "Name": "Musket",
+      "Category": "Sniper",
+      "Recoil": -24,
+      "Movement_Speed": -4,
+      "Reload_Speed": 7
+    },
+    {
+      "Name": "Snake Sniper",
+      "Category": "Sniper",
+      "Recoil": -40,
+      "Movement_Speed": -8.5,
+      "Reload_Speed": 6
+    },
+    {
+      "Name": "MAC-10",
+      "Category": "SMG",
+      "Fire_Rate": 4.5,
+      "Movement_Speed": 4.6,
+      "Spread": 16
+    },
+    {
+      "Name": "Type 2a Nambu",
+      "Category": "SMG",
+      "Movement_Speed": 1.5,
+      "Recoil": -10,
+      "Spread": -13
+    },
+    {
+      "Name": "Tommy",
+      "Category": "SMG",
+      "Movement_Speed": 0.5,
+      "Recoil": -23,
+      "Spread": -9,
+      "Reload_Speed": 5
+    },
+    {
+      "Name": "NP9",
+      "Category": "SMG",
+      "Movement_Speed": 4.6,
+      "Spread": -13,
+      "Recoil": 30
+    },
+    {
+      "Name": "NP5A3",
+      "Category": "SMG",
+      "Movement_Speed": 5,
+      "Reload_Speed": -20,
+      "Recoil": 25,
+      "Spread": 9
+    },
+    {
+      "Name": "MP 40",
+      "Category": "SMG",
+      "Movement_Speed": 3.2,
+      "Reload_Speed": -10,
+      "Spread": -10,
+      "Recoil": 15
+    },
+    {
+      "Name": "Sten gun",
+      "Category": "SMG",
+      "Fire_Rate": 2,
+      "Movement_Speed": 6,
+      "Spread": -12,
+      "Recoil": 38
+    },
+    {
+      "Name": "UNP-40",
+      "Category": "SMG",
+      "Movement_Speed": 3.8,
+      "Spread": -22,
+      "Recoil": 20
+    },
+    {
+      "Name": "NP5",
+      "Category": "SMG",
+      "Movement_Speed": 2.5,
+      "Recoil": -12,
+      "Reload_Speed": -9,
+      "Spread": 14
+    },
+    {
+      "Name": "Skorpion vz. 61",
+      "Category": "SMG",
+      "Movement_Speed": 7.5,
+      "Reload_Speed": -15,
+      "Recoil": 35,
+      "Spread": 5
+    },
+    {
+      "Name": "Mas-38",
+      "Category": "SMG",
+      "Movement_Speed": 3.3,
+      "Recoil": -16,
+      "Reload_Speed": -10
+    },
+    {
+      "Name": "PP-19 Bizon",
+      "Category": "SMG",
+      "Movement_Speed": 2.5,
+      "Reload_Speed": -5,
+      "Spread": -13,
+      "Recoil": 20
+    },
+    {
+      "Name": "PPSh-41",
+      "Category": "SMG",
+      "Reload_Speed": -25,
+      "Spread": -10,
+      "Movement_Speed": -2,
+      "Recoil": 27
+    },
+    {
+      "Name": "MP18",
+      "Category": "SMG",
+      "Movement_Speed": 3.5,
+      "Recoil": -20,
+      "Range": -3,
+      "Reload_Speed": 8
+    },
+    {
+      "Name": "Kriss Vector",
+      "Category": "SMG",
+      "Fire_Rate": 7,
+      "Movement_Speed": 3.3,
+      "Recoil": -20,
+      "Range": -5,
+      "Spread": 30
+    },
+    {
+      "Name": "P90",
+      "Category": "SMG",
+      "Fire_Rate": 4,
+      "Movement_Speed": 3,
+      "Spread": -11,
+      "Recoil": 12
+    },
+    {
+      "Name": "Uzi",
+      "Category": "SMG",
+      "Movement_Speed": 7.5,
+      "Spread": -11,
+      "Recoil": 22,
+      "Reload_Speed": 4
+    },
+    {
+      "Name": "M1 Carbine",
+      "Category": "SMG",
+      "Range": 5,
+      "Spread": -19,
+      "Movement_Speed": -2.5,
+      "Recoil": 14
+    },
+    {
+      "Name": "M870",
+      "Category": "Shotgun",
+      "Recoil": -15,
+      "Spread": -15,
+      "Reload_Speed": 5
+    },
+    {
+      "Name": "Circuit Judge",
+      "Category": "Shotgun",
+      "Reload_Speed": -45,
+      "Spread": 15
+    },
+    {
+      "Name": "M1887 Trench Shotgun",
+      "Category": "Shotgun",
+      "Fire_Rate": 18,
+      "Recoil": 22,
+      "Spread": 25
+    },
+    {
+      "Name": "M870 MCS",
+      "Category": "Shotgun",
+      "Recoil": -25,
+      "Spread": -20,
+      "Fire_Rate": -5,
+      "Reload_Speed": 10
+    },
+    {
+      "Name": "M870 Breacher",
+      "Category": "Shotgun",
+      "Fire_Rate": 5,
+      "Movement_Speed": 5,
+      "Reload_Speed": -20,
+      "Recoil": 15,
+      "Spread": 25
+    },
+    {
+      "Name": "M1887",
+      "Category": "Shotgun",
+      "Health": 5,
+      "Recoil": -10,
+      "Movement_Speed": -5.5,
+      "Spread": 15
+    },
+    {
+      "Name": "Auto-5",
+      "Category": "Shotgun",
+      "Fire_Rate": 5,
+      "Movement_Speed": 5,
+      "Spread": -10,
+      "Damage": -5
+    },
+    {
+      "Name": "Spas-12 Folded",
+      "Category": "Shotgun",
+      "Movement_Speed": 4,
+      "Reload_Speed": -15,
+      "Recoil": 20,
+      "Spread": 20
+    },
+    {
+      "Name": "JSG12",
+      "Category": "Shotgun",
+      "Movement_Speed": 3,
+      "Spread": -19,
+      "Reload_Speed": 5
+    },
+    {
+      "Name": "Spas-12",
+      "Category": "Shotgun",
+      "Fire_Rate": 14,
+      "Movement_Speed": -3,
+      "Range": -2,
+      "Spread": 12
+    },
+    {
+      "Name": "Double Barrel",
+      "Category": "Shotgun",
+      "Movement_Speed": 6,
+      "Reload_Speed": -5,
+      "Range": -2,
+      "Recoil": 45
+    },
+    {
+      "Name": "Blunderbuss",
+      "Category": "Shotgun",
+      "Health": 15,
+      "Movement_Speed": 5,
+      "Recoil": 112,
+      "Spread": 50
+    },
+    {
+      "Name": "MarrowMaker",
+      "Category": "Shotgun"
+    },
+    {
+      "Name": "M60",
+      "Category": "LMG",
+      "Recoil": -20,
+      "Reload_Speed": -5,
+      "Movement_Speed": -3,
+      "Spread": 5
+    },
+    {
+      "Name": "Type 99",
+      "Category": "LMG",
+      "Fire_Rate": 5,
+      "Reload_Speed": -15,
+      "Movement_Speed": -3,
+      "Recoil": 8
+    },
+    {
+      "Name": "DP-27",
+      "Category": "LMG",
+      "Recoil": -20,
+      "Spread": -24,
+      "Fire_Rate": -7,
+      "Movement_Speed": -3.5
+    },
+    {
+      "Name": "BAR",
+      "Category": "LMG",
+      "Recoil": -20,
+      "Spread": -10,
+      "Movement_Speed": -5
+    },
+    {
+      "Name": "M1919 .30 Cal",
+      "Category": "LMG",
+      "Recoil": -32,
+      "Movement_Speed": -7,
+      "Spread": 19
+    },
+    {
+      "Name": "Negev",
+      "Category": "LMG",
+      "Recoil": -20,
+      "Movement_Speed": -3,
+      "Reload_Speed": 8
+    },
+    {
+      "Name": "MG42",
+      "Category": "LMG",
+      "Movement_Speed": 3.5,
+      "Spread": -25,
+      "Reload_Speed": 10
+    },
+    {
+      "Name": "Chauchat",
+      "Category": "LMG",
+      "Recoil": -25,
+      "Reload_Speed": -10,
+      "Movement_Speed": -3,
+      "Spread": 10
+    },
+    {
+      "Name": "Burton",
+      "Category": "LMG",
+      "Movement_Speed": 4,
+      "Reload_Speed": -5,
+      "Recoil": 26
+    },
+    {
+      "Name": "Lewis",
+      "Category": "LMG",
+      "Recoil": -28,
+      "Movement_Speed": -7.5,
+      "Reload_Speed": 8,
+      "Spread": 6
+    },
+    {
+      "Name": "M249 SAW",
+      "Category": "LMG",
+      "Health": 5,
+      "Recoil": -11,
+      "Movement_Speed": -4.5,
+      "Spread": 16
+    },
+    {
+      "Name": "M1 Garand",
+      "Category": "BR",
+      "Range": 3,
+      "Recoil": -14,
+      "Movement_Speed": -1
+    },
+    {
+      "Name": "SKS",
+      "Category": "BR",
+      "Reload_Speed": -6,
+      "Recoil": 18
+    },
+    {
+      "Name": "Fedorov",
+      "Category": "BR",
+      "Fire_Rate": 7,
+      "Recoil": -10,
+      "Movement_Speed": -2,
+      "Reload_Speed": 7
+    },
+    {
+      "Name": "FAL",
+      "Category": "BR",
+      "Movement_Speed": 0.2,
+      "Range": 5,
+      "Spread": -27,
+      "Recoil": 30
+    },
+    {
+      "Name": "Winchester",
+      "Category": "BR",
+      "Movement_Speed": 2,
+      "Spread": -14,
+      "Recoil": 23
+    },
+    {
+      "Name": "Dragunov",
+      "Category": "BR",
+      "Range": 3,
+      "Recoil": -32,
+      "Fire_Rate": -5,
+      "Movement_Speed": -2,
+      "Reload_Speed": 10
+    },
+    {
+      "Name": "G3",
+      "Category": "BR",
+      "Recoil": -23,
+      "Movement_Speed": -7,
+      "Spread": 6
+    },
+    {
+      "Name": "M110",
+      "Category": "BR",
+      "Damage": 3,
+      "Recoil": -16,
+      "Fire_Rate": -7,
+      "Reload_Speed": 10
+    },
+    {
+      "Name": "FG-42",
+      "Category": "BR",
+      "Fire_Rate": 5,
+      "Movement_Speed": 3,
+      "Recoil": 13
+    },
+    {
+      "Name": "Paintball",
+      "Category": "Weird",
+      "Movement_Speed": 6,
+      "Reload_Speed": -7,
+      "Spread": 12
+    },
+    {
+      "Name": "Anvil",
+      "Category": "Weird",
+      "Recoil": -80,
+      "Spread": -30,
+      "Movement_Speed": -40,
+      "Reload_Speed": 15
+    },
+    {
+      "Name": "Speed Coil",
+      "Category": "Weird",
+      "Fire_Rate": 5,
+      "Movement_Speed": 10,
+      "Recoil": -40,
+      "Reload_Speed": -15,
+      "Health": -10,
+      "Spread": 250
+    },
+    {
+      "Name": "Keyboard",
+      "Category": "Weird",
+      "Health": 21,
+      "Recoil": -16,
+      "Detection_Radius": 100,
+      "Movement_Speed": -15,
+      "Reload_Speed": 5,
+      "Spread": 30
+    },
+    {
+      "Name": "Taco",
+      "Category": "Weird",
+      "Damage": 5,
+      "Health": 10,
+      "Detection_Radius": 20,
+      "Fire_Rate": -5,
+      "Recoil": 20,
+      "Reload_Speed": 10,
+      "Spread": 20
+    },
+    {
+      "Name": "Words as Weapons",
+      "Category": "Weird",
+      "Reload_Speed": -10,
+      "Spread": -10,
+      "Recoil": 15
+    },
+    {
+      "Name": "Shovel",
+      "Category": "Weird",
+      "Spread": -11,
+      "Recoil": 10
+    },
+    {
+      "Name": "Willy Fischy",
+      "Category": "Weird",
+      "Recoil": -10,
+      "Reload_Speed": -5
+    },
+    {
+      "Name": "Plunger",
+      "Category": "Weird",
+      "Fire_Rate": 4,
+      "Movement_Speed": -2,
+      "Range": -2
+    },
+    {
+      "Name": "Mega Soaker",
+      "Category": "Weird",
+      "Movement_Speed": 8,
+      "Range": -2,
+      "Recoil": 35,
+      "Spread": 25
+    }
+  ],
+  "Cores": [
+    {
+      "Name": "AKM",
+      "Category": "AR",
+      "Damage": [
+        19.5,
+        17.1
+      ],
+      "Dropoff_Studs": [
+        140,
+        325
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 5.5,
+      "ADS_Spread": 0.5,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 120,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -15,
+        15
+      ],
+      "Recoil_Hip_Vertical": [
+        70,
+        80
+      ],
+      "Recoil_Aim_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Aim_Vertical": [
+        56,
+        64
+      ]
+    },
+    {
+      "Name": "M-16",
+      "Category": "AR",
+      "Damage": [
+        15.9,
+        13.5
+      ],
+      "Dropoff_Studs": [
+        180,
+        350
+      ],
+      "Fire_Rate": 650,
+      "Hipfire_Spread": 1.8,
+      "ADS_Spread": 0.25,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 90,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Hip_Vertical": [
+        50,
+        60
+      ],
+      "Recoil_Aim_Horizontal": [
+        -4,
+        4
+      ],
+      "Recoil_Aim_Vertical": [
+        25,
+        30
+      ]
+    },
+    {
+      "Name": "C36C",
+      "Category": "AR",
+      "Damage": [
+        15.3,
+        11.1
+      ],
+      "Dropoff_Studs": [
+        125,
+        250
+      ],
+      "Fire_Rate": 750,
+      "Hipfire_Spread": 2,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 95,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Hip_Vertical": [
+        10,
+        30
+      ],
+      "Recoil_Aim_Horizontal": [
+        -9,
+        9
+      ],
+      "Recoil_Aim_Vertical": [
+        9,
+        27
+      ]
+    },
+    {
+      "Name": "AUG",
+      "Category": "AR",
+      "Damage": [
+        14.5,
+        12.3
+      ],
+      "Dropoff_Studs": [
+        170,
+        300
+      ],
+      "Fire_Rate": 680,
+      "Hipfire_Spread": 1,
+      "ADS_Spread": 0.125,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 75,
+      "Movement_Speed_Modifier": 2.5,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -5,
+        5
+      ],
+      "Recoil_Hip_Vertical": [
+        60,
+        75
+      ],
+      "Recoil_Aim_Horizontal": [
+        -0.4,
+        0.4
+      ],
+      "Recoil_Aim_Vertical": [
+        18,
+        22.5
+      ]
+    },
+    {
+      "Name": "As-Val",
+      "Category": "AR",
+      "Damage": [
+        14.5,
+        12
+      ],
+      "Dropoff_Studs": [
+        170,
+        225
+      ],
+      "Fire_Rate": 750,
+      "Hipfire_Spread": 2,
+      "ADS_Spread": 0.35,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 60,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -7,
+        7
+      ],
+      "Recoil_Hip_Vertical": [
+        30,
+        40
+      ],
+      "Recoil_Aim_Horizontal": [
+        -1.4,
+        1.4
+      ],
+      "Recoil_Aim_Vertical": [
+        15,
+        20
+      ]
+    },
+    {
+      "Name": "Famas F1",
+      "Category": "AR",
+      "Damage": [
+        15.5,
+        12.4
+      ],
+      "Dropoff_Studs": [
+        200,
+        420
+      ],
+      "Fire_Rate": 450,
+      "Hipfire_Spread": 4,
+      "ADS_Spread": 0.17,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 110,
+      "Burst": 3,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -3,
+        3
+      ],
+      "Recoil_Hip_Vertical": [
+        1.5,
+        2
+      ],
+      "Recoil_Aim_Horizontal": [
+        -1.5,
+        1.5
+      ],
+      "Recoil_Aim_Vertical": [
+        0.8,
+        1
+      ]
+    },
+    {
+      "Name": "STG-44",
+      "Category": "AR",
+      "Damage": [
+        20.1,
+        17.1
+      ],
+      "Dropoff_Studs": [
+        150,
+        300
+      ],
+      "Fire_Rate": 500,
+      "Hipfire_Spread": 5.5,
+      "ADS_Spread": 0.4,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 110,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -30,
+        30
+      ],
+      "Recoil_Hip_Vertical": [
+        50,
+        60
+      ],
+      "Recoil_Aim_Horizontal": [
+        -18,
+        18
+      ],
+      "Recoil_Aim_Vertical": [
+        27.5,
+        33
+      ]
+    },
+    {
+      "Name": "Scar L",
+      "Category": "AR",
+      "Damage": [
+        16.5,
+        11.5
+      ],
+      "Dropoff_Studs": [
+        170,
+        345
+      ],
+      "Fire_Rate": 625,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 0.35,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 100,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Hip_Vertical": [
+        55,
+        65
+      ],
+      "Recoil_Aim_Horizontal": [
+        -4.8,
+        4.8
+      ],
+      "Recoil_Aim_Vertical": [
+        27.5,
+        32.5
+      ]
+    },
+    {
+      "Name": "QBZ-95",
+      "Category": "AR",
+      "Damage": [
+        15.5,
+        13
+      ],
+      "Dropoff_Studs": [
+        200,
+        375
+      ],
+      "Fire_Rate": 650,
+      "Hipfire_Spread": 3.5,
+      "ADS_Spread": 0.2,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 120,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -15,
+        15
+      ],
+      "Recoil_Hip_Vertical": [
+        56,
+        68
+      ],
+      "Recoil_Aim_Horizontal": [
+        -8.3,
+        8.3
+      ],
+      "Recoil_Aim_Vertical": [
+        30.8,
+        37.4
+      ]
+    },
+    {
+      "Name": "The Chief",
+      "Category": "AR",
+      "Damage": [
+        17.5,
+        15.4
+      ],
+      "Dropoff_Studs": [
+        165,
+        300
+      ],
+      "Fire_Rate": 900,
+      "Hipfire_Spread": 5.5,
+      "ADS_Spread": 5.5,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 125,
+      "Suppression": 0.3,
+      "Health": 17,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -25,
+        25
+      ],
+      "Recoil_Hip_Vertical": [
+        80,
+        90
+      ],
+      "Recoil_Aim_Horizontal": [
+        -32.5,
+        32.5
+      ],
+      "Recoil_Aim_Vertical": [
+        104,
+        117
+      ]
+    },
+    {
+      "Name": "AK-12",
+      "Category": "AR",
+      "Damage": [
+        16.5,
+        14
+      ],
+      "Dropoff_Studs": [
+        155,
+        360
+      ],
+      "Fire_Rate": 700,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 0.35,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 120,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -22,
+        22
+      ],
+      "Recoil_Hip_Vertical": [
+        70,
+        75
+      ],
+      "Recoil_Aim_Horizontal": [
+        -15.4,
+        15.4
+      ],
+      "Recoil_Aim_Vertical": [
+        49,
+        52.5
+      ]
+    },
+    {
+      "Name": "Broza",
+      "Category": "AR",
+      "Damage": [
+        15,
+        12.3
+      ],
+      "Dropoff_Studs": [
+        150,
+        200
+      ],
+      "Fire_Rate": 725,
+      "Hipfire_Spread": 4,
+      "ADS_Spread": 0.25,
+      "Time_To_Aim": 0.55,
+      "Detection_Radius": 120,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Hip_Vertical": [
+        35,
+        37
+      ],
+      "Recoil_Aim_Horizontal": [
+        -5.4,
+        5.4
+      ],
+      "Recoil_Aim_Vertical": [
+        15.7,
+        16.6
+      ]
+    },
+    {
+      "Name": "Hell-Trooper-23",
+      "Category": "AR",
+      "Damage": [
+        16.5,
+        13.2
+      ],
+      "Dropoff_Studs": [
+        155,
+        290
+      ],
+      "Fire_Rate": 650,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 0.8,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 90,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -7,
+        7
+      ],
+      "Recoil_Hip_Vertical": [
+        7,
+        50
+      ],
+      "Recoil_Aim_Horizontal": [
+        -2.1,
+        2.1
+      ],
+      "Recoil_Aim_Vertical": [
+        2.1,
+        15
+      ]
+    },
+    {
+      "Name": "APS",
+      "Category": "AR",
+      "Damage": [
+        25.5,
+        10.2
+      ],
+      "Dropoff_Studs": [
+        90,
+        120
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 4,
+      "ADS_Spread": 1,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 200,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -22,
+        22
+      ],
+      "Recoil_Hip_Vertical": [
+        70,
+        100
+      ],
+      "Recoil_Aim_Horizontal": [
+        -12.1,
+        12.1
+      ],
+      "Recoil_Aim_Vertical": [
+        38.5,
+        55
+      ]
+    },
+    {
+      "Name": "FC200SH",
+      "Category": "AR",
+      "Damage": [
+        22.5,
+        18
+      ],
+      "Dropoff_Studs": [
+        180,
+        350
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 4,
+      "ADS_Spread": 0.15,
+      "Time_To_Aim": 0.7,
+      "Detection_Radius": 175,
+      "Suppression": 0.3,
+      "Health": 5,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -4,
+        4
+      ],
+      "Recoil_Hip_Vertical": [
+        10,
+        12
+      ],
+      "Recoil_Aim_Horizontal": [
+        -1,
+        1
+      ],
+      "Recoil_Aim_Vertical": [
+        2.5,
+        3
+      ]
+    },
+    {
+      "Name": "AR-8X",
+      "Category": "AR",
+      "Damage": [
+        15.9,
+        10.7
+      ],
+      "Dropoff_Studs": [
+        155,
+        240
+      ],
+      "Fire_Rate": 750,
+      "Hipfire_Spread": 4.5,
+      "ADS_Spread": 0.3,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 135,
+      "Suppression": 0.3,
+      "Health": 5,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -19,
+        19
+      ],
+      "Recoil_Hip_Vertical": [
+        63,
+        78
+      ],
+      "Recoil_Aim_Horizontal": [
+        -12.3,
+        12.3
+      ],
+      "Recoil_Aim_Vertical": [
+        40.9,
+        50.7
+      ]
+    },
+    {
+      "Name": "Hex Spitter",
+      "Category": "AR",
+      "Pellets": 2,
+      "Damage": [
+        20,
+        18
+      ],
+      "Dropoff_Studs": [
+        150,
+        300
+      ],
+      "Fire_Rate": 660,
+      "Hipfire_Spread": 3.5,
+      "ADS_Spread": 1,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 70,
+      "Suppression": 0.4,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Hip_Vertical": [
+        30,
+        40
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3.2,
+        3.2
+      ],
+      "Recoil_Aim_Vertical": [
+        15,
+        20
+      ]
+    },
+    {
+      "Name": "G11",
+      "Category": "AR",
+      "Damage": [
+        17.5,
+        13.6
+      ],
+      "Dropoff_Studs": [
+        180,
+        380
+      ],
+      "Fire_Rate": 700,
+      "Hipfire_Spread": 5.5,
+      "ADS_Spread": 0.2,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 120,
+      "Burst": 3,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -2,
+        2
+      ],
+      "Recoil_Hip_Vertical": [
+        2,
+        4
+      ],
+      "Recoil_Aim_Horizontal": [
+        -1.3,
+        1.3
+      ],
+      "Recoil_Aim_Vertical": [
+        1.3,
+        2.9
+      ]
+    },
+    {
+      "Name": "M40",
+      "Category": "Sniper",
+      "Damage": [
+        55,
+        48.1
+      ],
+      "Dropoff_Studs": [
+        300,
+        500
+      ],
+      "Fire_Rate": 37,
+      "Hipfire_Spread": 15,
+      "ADS_Spread": 0.1,
+      "Time_To_Aim": 0.7,
+      "Detection_Radius": 215,
+      "Movement_Speed_Modifier": -5,
+      "Suppression": 1,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -15,
+        15
+      ],
+      "Recoil_Hip_Vertical": [
+        70,
+        100
+      ],
+      "Recoil_Aim_Horizontal": [
+        -7.5,
+        7.5
+      ],
+      "Recoil_Aim_Vertical": [
+        35,
+        50
+      ]
+    },
+    {
+      "Name": "M1891",
+      "Category": "Sniper",
+      "Damage": [
+        53,
+        45.1
+      ],
+      "Dropoff_Studs": [
+        275,
+        600
+      ],
+      "Fire_Rate": 45,
+      "Hipfire_Spread": 3,
+      "ADS_Spread": 0.7,
+      "Time_To_Aim": 0.7,
+      "Detection_Radius": 215,
+      "Suppression": 1,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Hip_Vertical": [
+        50,
+        60
+      ],
+      "Recoil_Aim_Horizontal": [
+        -4,
+        4
+      ],
+      "Recoil_Aim_Vertical": [
+        20,
+        32
+      ]
+    },
+    {
+      "Name": "AWM",
+      "Category": "Sniper",
+      "Damage": [
+        60,
+        54
+      ],
+      "Dropoff_Studs": [
+        500,
+        750
+      ],
+      "Fire_Rate": 30,
+      "Hipfire_Spread": 15,
+      "ADS_Spread": 0.05,
+      "Time_To_Aim": 0.8,
+      "Detection_Radius": 250,
+      "Movement_Speed_Modifier": -5,
+      "Suppression": 1,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        90,
+        120
+      ],
+      "Recoil_Aim_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Aim_Vertical": [
+        45,
+        60
+      ]
+    },
+    {
+      "Name": "Lee Enfield",
+      "Category": "Sniper",
+      "Damage": [
+        52,
+        41.6
+      ],
+      "Dropoff_Studs": [
+        300,
+        450
+      ],
+      "Fire_Rate": 50,
+      "Hipfire_Spread": 10,
+      "ADS_Spread": 0.5,
+      "Time_To_Aim": 0.6,
+      "Detection_Radius": 200,
+      "Suppression": 1,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -15,
+        15
+      ],
+      "Recoil_Hip_Vertical": [
+        90,
+        120
+      ],
+      "Recoil_Aim_Horizontal": [
+        -6,
+        6
+      ],
+      "Recoil_Aim_Vertical": [
+        36,
+        48
+      ]
+    },
+    {
+      "Name": "Arisaka",
+      "Category": "Sniper",
+      "Damage": [
+        58,
+        52.2
+      ],
+      "Dropoff_Studs": [
+        400,
+        700
+      ],
+      "Fire_Rate": 40,
+      "Hipfire_Spread": 12,
+      "ADS_Spread": 0.15,
+      "Time_To_Aim": 0.7,
+      "Detection_Radius": 100,
+      "Movement_Speed_Modifier": 10,
+      "Suppression": 0.8,
+      "Health": -10,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -21,
+        21
+      ],
+      "Recoil_Hip_Vertical": [
+        72,
+        82
+      ],
+      "Recoil_Aim_Horizontal": [
+        -9.4,
+        9.4
+      ],
+      "Recoil_Aim_Vertical": [
+        32.4,
+        36.9
+      ]
+    },
+    {
+      "Name": "VSSR",
+      "Category": "Sniper",
+      "Damage": [
+        70,
+        40.6
+      ],
+      "Dropoff_Studs": [
+        170,
+        380
+      ],
+      "Fire_Rate": 32,
+      "Hipfire_Spread": 17,
+      "ADS_Spread": 0.2,
+      "Time_To_Aim": 0.85,
+      "Detection_Radius": 300,
+      "Movement_Speed_Modifier": -5,
+      "Suppression": 1,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -16,
+        16
+      ],
+      "Recoil_Hip_Vertical": [
+        85,
+        100
+      ],
+      "Recoil_Aim_Horizontal": [
+        -10.4,
+        10.4
+      ],
+      "Recoil_Aim_Vertical": [
+        55.2,
+        65
+      ]
+    },
+    {
+      "Name": "M2000",
+      "Category": "Sniper",
+      "Damage": [
+        65,
+        52
+      ],
+      "Dropoff_Studs": [
+        525,
+        700
+      ],
+      "Fire_Rate": 18,
+      "Hipfire_Spread": 15,
+      "ADS_Spread": 0.13,
+      "Time_To_Aim": 0.9,
+      "Detection_Radius": 275,
+      "Movement_Speed_Modifier": -8,
+      "Suppression": 1,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -18,
+        18
+      ],
+      "Recoil_Hip_Vertical": [
+        80,
+        110
+      ],
+      "Recoil_Aim_Horizontal": [
+        -9,
+        9
+      ],
+      "Recoil_Aim_Vertical": [
+        40,
+        55
+      ]
+    },
+    {
+      "Name": "Mosin",
+      "Category": "Sniper",
+      "Damage": [
+        66,
+        41.3
+      ],
+      "Dropoff_Studs": [
+        340,
+        525
+      ],
+      "Fire_Rate": 24,
+      "Hipfire_Spread": 11,
+      "ADS_Spread": 0.275,
+      "Time_To_Aim": 0.85,
+      "Detection_Radius": 240,
+      "Movement_Speed_Modifier": -4,
+      "Suppression": 0.8,
+      "Equip_Time": 0.9,
+      "Recoil_Hip_Horizontal": [
+        -25,
+        25
+      ],
+      "Recoil_Hip_Vertical": [
+        80,
+        93
+      ],
+      "Recoil_Aim_Horizontal": [
+        -12.5,
+        12.5
+      ],
+      "Recoil_Aim_Vertical": [
+        40,
+        46.5
+      ]
+    },
+    {
+      "Name": "Hecate II",
+      "Category": "Sniper",
+      "Damage": [
+        80,
+        56
+      ],
+      "Dropoff_Studs": [
+        400,
+        500
+      ],
+      "Fire_Rate": 15,
+      "Hipfire_Spread": 15,
+      "ADS_Spread": 0.12,
+      "Time_To_Aim": 1,
+      "Detection_Radius": 300,
+      "Movement_Speed_Modifier": -10,
+      "Suppression": 1,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        90,
+        120
+      ],
+      "Recoil_Aim_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Aim_Vertical": [
+        45,
+        60
+      ]
+    },
+    {
+      "Name": "Lightning Shot",
+      "Category": "Sniper",
+      "Damage": [
+        40,
+        90
+      ],
+      "Dropoff_Studs": [
+        170,
+        500
+      ],
+      "Fire_Rate": 20,
+      "Hipfire_Spread": 50,
+      "ADS_Spread": 0.35,
+      "Time_To_Aim": 1,
+      "Detection_Radius": 500,
+      "Movement_Speed_Modifier": -12.5,
+      "Suppression": 1,
+      "Health": 3,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        90,
+        120
+      ],
+      "Recoil_Aim_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Aim_Vertical": [
+        45,
+        60
+      ]
+    },
+    {
+      "Name": "Musket",
+      "Category": "Sniper",
+      "Damage": [
+        110,
+        60.5
+      ],
+      "Dropoff_Studs": [
+        50,
+        270
+      ],
+      "Fire_Rate": 18,
+      "Hipfire_Spread": 25,
+      "ADS_Spread": 0.5,
+      "Time_To_Aim": 1,
+      "Detection_Radius": 300,
+      "Suppression": 1,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -14,
+        14
+      ],
+      "Recoil_Hip_Vertical": [
+        175,
+        183
+      ],
+      "Recoil_Aim_Horizontal": [
+        -8.4,
+        8.4
+      ],
+      "Recoil_Aim_Vertical": [
+        105,
+        109.8
+      ]
+    },
+    {
+      "Name": "Snake Sniper",
+      "Category": "Sniper",
+      "Damage": [
+        60,
+        48
+      ],
+      "Dropoff_Studs": [
+        320,
+        500
+      ],
+      "Fire_Rate": 32,
+      "Hipfire_Spread": 12,
+      "ADS_Spread": 0.165,
+      "Time_To_Aim": 0.8,
+      "Detection_Radius": 350,
+      "Movement_Speed_Modifier": -4,
+      "Suppression": 1,
+      "Equip_Time": 0.8,
+      "Recoil_Hip_Horizontal": [
+        -5,
+        5
+      ],
+      "Recoil_Hip_Vertical": [
+        70,
+        90
+      ],
+      "Recoil_Aim_Horizontal": [
+        -2.8,
+        2.8
+      ],
+      "Recoil_Aim_Vertical": [
+        38.5,
+        49.5
+      ]
+    },
+    {
+      "Name": "MAC-10",
+      "Category": "SMG",
+      "Damage": [
+        14.3,
+        7.9
+      ],
+      "Dropoff_Studs": [
+        120,
+        145
+      ],
+      "Fire_Rate": 900,
+      "Hipfire_Spread": 2.5,
+      "ADS_Spread": 0.85,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 70,
+      "Movement_Speed_Modifier": 4.4,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        40,
+        60
+      ],
+      "Recoil_Aim_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Aim_Vertical": [
+        16,
+        24
+      ]
+    },
+    {
+      "Name": "Type 2a Nambu",
+      "Category": "SMG",
+      "Damage": [
+        21,
+        9.5
+      ],
+      "Dropoff_Studs": [
+        140,
+        155
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 3,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.35,
+      "Detection_Radius": 80,
+      "Movement_Speed_Modifier": 4,
+      "Health": -8,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Hip_Vertical": [
+        25,
+        35
+      ],
+      "Recoil_Aim_Horizontal": [
+        -6.5,
+        6.5
+      ],
+      "Recoil_Aim_Vertical": [
+        16.2,
+        22.7
+      ]
+    },
+    {
+      "Name": "Tommy",
+      "Category": "SMG",
+      "Damage": [
+        16,
+        9.6
+      ],
+      "Dropoff_Studs": [
+        125,
+        160
+      ],
+      "Fire_Rate": 800,
+      "Hipfire_Spread": 2,
+      "ADS_Spread": 0.85,
+      "Time_To_Aim": 0.35,
+      "Detection_Radius": 90,
+      "Movement_Speed_Modifier": 3.8,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Hip_Vertical": [
+        40,
+        60
+      ],
+      "Recoil_Aim_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Aim_Vertical": [
+        32,
+        48
+      ]
+    },
+    {
+      "Name": "NP9",
+      "Category": "SMG",
+      "Damage": [
+        12.2,
+        7.6
+      ],
+      "Dropoff_Studs": [
+        140,
+        150
+      ],
+      "Fire_Rate": 1000,
+      "Hipfire_Spread": 2,
+      "ADS_Spread": 0.65,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 75,
+      "Movement_Speed_Modifier": 4.6,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        40,
+        60
+      ],
+      "Recoil_Aim_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Aim_Vertical": [
+        16,
+        24
+      ]
+    },
+    {
+      "Name": "MP 40",
+      "Category": "SMG",
+      "Damage": [
+        23.2,
+        12.8
+      ],
+      "Dropoff_Studs": [
+        120,
+        200
+      ],
+      "Fire_Rate": 500,
+      "Hipfire_Spread": 2,
+      "ADS_Spread": 0.5,
+      "Time_To_Aim": 0.35,
+      "Detection_Radius": 90,
+      "Movement_Speed_Modifier": 3.2,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -15,
+        15
+      ],
+      "Recoil_Hip_Vertical": [
+        70,
+        80
+      ],
+      "Recoil_Aim_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Aim_Vertical": [
+        56,
+        64
+      ]
+    },
+    {
+      "Name": "Sten gun",
+      "Category": "SMG",
+      "Damage": [
+        19.5,
+        10.2
+      ],
+      "Dropoff_Studs": [
+        130,
+        165
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 2,
+      "ADS_Spread": 0.65,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 90,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -21,
+        21
+      ],
+      "Recoil_Hip_Vertical": [
+        30,
+        38
+      ],
+      "Recoil_Aim_Horizontal": [
+        -9.7,
+        9.7
+      ],
+      "Recoil_Aim_Vertical": [
+        13.8,
+        17.5
+      ]
+    },
+    {
+      "Name": "UNP-40",
+      "Category": "SMG",
+      "Damage": [
+        21,
+        13.7
+      ],
+      "Dropoff_Studs": [
+        125,
+        150
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 1.5,
+      "ADS_Spread": 0.55,
+      "Time_To_Aim": 0.35,
+      "Detection_Radius": 97,
+      "Movement_Speed_Modifier": 3.8,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        60,
+        90
+      ],
+      "Recoil_Aim_Horizontal": [
+        -19,
+        19
+      ],
+      "Recoil_Aim_Vertical": [
+        57,
+        85.5
+      ]
+    },
+    {
+      "Name": "Skorpion vz. 61",
+      "Category": "SMG",
+      "Damage": [
+        15.5,
+        8.1
+      ],
+      "Dropoff_Studs": [
+        130,
+        150
+      ],
+      "Fire_Rate": 850,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 1.3,
+      "Time_To_Aim": 0.15,
+      "Detection_Radius": 40,
+      "Movement_Speed_Modifier": 9,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -25,
+        25
+      ],
+      "Recoil_Hip_Vertical": [
+        60,
+        80
+      ],
+      "Recoil_Aim_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Aim_Vertical": [
+        48,
+        64
+      ]
+    },
+    {
+      "Name": "NP5",
+      "Category": "SMG",
+      "Damage": [
+        16,
+        9.2
+      ],
+      "Dropoff_Studs": [
+        110,
+        140
+      ],
+      "Fire_Rate": 800,
+      "Hipfire_Spread": 1.5,
+      "ADS_Spread": 0.6,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 70,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -15,
+        15
+      ],
+      "Recoil_Hip_Vertical": [
+        20,
+        45
+      ],
+      "Recoil_Aim_Horizontal": [
+        -13.5,
+        13.5
+      ],
+      "Recoil_Aim_Vertical": [
+        18,
+        40.5
+      ]
+    },
+    {
+      "Name": "Mas-38",
+      "Category": "SMG",
+      "Damage": [
+        16.5,
+        10.5
+      ],
+      "Dropoff_Studs": [
+        160,
+        190
+      ],
+      "Fire_Rate": 700,
+      "Hipfire_Spread": 2.5,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.35,
+      "Detection_Radius": 110,
+      "Movement_Speed_Modifier": 4.1,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -7.5,
+        7.5
+      ],
+      "Recoil_Hip_Vertical": [
+        10,
+        30
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3,
+        3
+      ],
+      "Recoil_Aim_Vertical": [
+        4,
+        12
+      ]
+    },
+    {
+      "Name": "PP-19 Bizon",
+      "Category": "SMG",
+      "Damage": [
+        16.5,
+        9.5
+      ],
+      "Dropoff_Studs": [
+        130,
+        150
+      ],
+      "Fire_Rate": 750,
+      "Hipfire_Spread": 1.75,
+      "ADS_Spread": 0.85,
+      "Time_To_Aim": 0.8,
+      "Detection_Radius": 80,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -50,
+        50
+      ],
+      "Recoil_Hip_Vertical": [
+        30,
+        50
+      ],
+      "Recoil_Aim_Horizontal": [
+        -15,
+        15
+      ],
+      "Recoil_Aim_Vertical": [
+        9,
+        15
+      ]
+    },
+    {
+      "Name": "PPSh-41",
+      "Category": "SMG",
+      "Damage": [
+        12.5,
+        7.5
+      ],
+      "Dropoff_Studs": [
+        125,
+        140
+      ],
+      "Fire_Rate": 1250,
+      "Hipfire_Spread": 4,
+      "ADS_Spread": 1.5,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 95,
+      "Movement_Speed_Modifier": 2.3,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -25,
+        25
+      ],
+      "Recoil_Hip_Vertical": [
+        30,
+        60
+      ],
+      "Recoil_Aim_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Aim_Vertical": [
+        24,
+        48
+      ]
+    },
+    {
+      "Name": "Kriss Vector",
+      "Category": "SMG",
+      "Damage": [
+        11.5,
+        6.9
+      ],
+      "Dropoff_Studs": [
+        110,
+        160
+      ],
+      "Fire_Rate": 1200,
+      "Hipfire_Spread": 2,
+      "ADS_Spread": 0.85,
+      "Time_To_Aim": 0.35,
+      "Detection_Radius": 90,
+      "Movement_Speed_Modifier": 3.3,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -5,
+        5
+      ],
+      "Recoil_Hip_Vertical": [
+        10,
+        30
+      ],
+      "Recoil_Aim_Horizontal": [
+        -4.5,
+        4.5
+      ],
+      "Recoil_Aim_Vertical": [
+        9,
+        27
+      ]
+    },
+    {
+      "Name": "MP18",
+      "Category": "SMG",
+      "Damage": [
+        26,
+        16.9
+      ],
+      "Dropoff_Studs": [
+        120,
+        185
+      ],
+      "Fire_Rate": 400,
+      "Hipfire_Spread": 2.5,
+      "ADS_Spread": 0.5,
+      "Time_To_Aim": 0.35,
+      "Detection_Radius": 120,
+      "Movement_Speed_Modifier": 3.5,
+      "Recoil_Hip_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Hip_Vertical": [
+        34,
+        47
+      ],
+      "Recoil_Aim_Horizontal": [
+        -2.8,
+        2.8
+      ],
+      "Recoil_Aim_Vertical": [
+        11.9,
+        16.4
+      ]
+    },
+    {
+      "Name": "P90",
+      "Category": "SMG",
+      "Damage": [
+        11,
+        7.2
+      ],
+      "Dropoff_Studs": [
+        140,
+        180
+      ],
+      "Fire_Rate": 1100,
+      "Hipfire_Spread": 4,
+      "ADS_Spread": 0.3,
+      "Time_To_Aim": 0.35,
+      "Detection_Radius": 60,
+      "Movement_Speed_Modifier": 2.5,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -15,
+        15
+      ],
+      "Recoil_Hip_Vertical": [
+        20,
+        30
+      ],
+      "Recoil_Aim_Horizontal": [
+        -10.5,
+        10.5
+      ],
+      "Recoil_Aim_Vertical": [
+        14,
+        21
+      ]
+    },
+    {
+      "Name": "Uzi",
+      "Category": "SMG",
+      "Damage": [
+        19.2,
+        10.6
+      ],
+      "Dropoff_Studs": [
+        140,
+        175
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 2,
+      "ADS_Spread": 0.55,
+      "Time_To_Aim": 0.25,
+      "Detection_Radius": 85,
+      "Movement_Speed_Modifier": 3.5,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Hip_Vertical": [
+        25,
+        45
+      ],
+      "Recoil_Aim_Horizontal": [
+        -9,
+        9
+      ],
+      "Recoil_Aim_Vertical": [
+        18.8,
+        33.8
+      ]
+    },
+    {
+      "Name": "M1 Carbine",
+      "Category": "SMG",
+      "Damage": [
+        26,
+        15.6
+      ],
+      "Dropoff_Studs": [
+        145,
+        170
+      ],
+      "Fire_Rate": 775,
+      "Hipfire_Spread": 0.35,
+      "ADS_Spread": 0.35,
+      "Time_To_Aim": 0.6,
+      "Detection_Radius": 120,
+      "Movement_Speed_Modifier": 2,
+      "Suppression": 0.3,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -4,
+        4
+      ],
+      "Recoil_Hip_Vertical": [
+        10,
+        12
+      ],
+      "Recoil_Aim_Horizontal": [
+        -1.6,
+        1.6
+      ],
+      "Recoil_Aim_Vertical": [
+        4,
+        4.8
+      ]
+    },
+    {
+      "Name": "M870",
+      "Category": "Shotgun",
+      "Pellets": 8,
+      "Damage": [
+        112,
+        16
+      ],
+      "Dropoff_Studs": [
+        55,
+        125
+      ],
+      "Fire_Rate": 90,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 1.65,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 100,
+      "Suppression": 0.5,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        50,
+        80
+      ],
+      "Recoil_Aim_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Aim_Vertical": [
+        20,
+        32
+      ]
+    },
+    {
+      "Name": "Circuit Judge",
+      "Category": "Shotgun",
+      "Pellets": 8,
+      "Damage": [
+        120,
+        24
+      ],
+      "Dropoff_Studs": [
+        85,
+        140
+      ],
+      "Fire_Rate": 60,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 1.85,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 160,
+      "Suppression": 0.5,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -25,
+        25
+      ],
+      "Recoil_Hip_Vertical": [
+        80,
+        99
+      ],
+      "Recoil_Aim_Horizontal": [
+        -8.7,
+        8.7
+      ],
+      "Recoil_Aim_Vertical": [
+        28,
+        34.6
+      ]
+    },
+    {
+      "Name": "M1887 Trench Shotgun",
+      "Category": "Shotgun",
+      "Pellets": 16,
+      "Damage": [
+        128,
+        16
+      ],
+      "Dropoff_Studs": [
+        60,
+        120
+      ],
+      "Fire_Rate": 160,
+      "Hipfire_Spread": 4.5,
+      "ADS_Spread": 2.5,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 130,
+      "Suppression": 0.5,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Hip_Vertical": [
+        40,
+        60
+      ],
+      "Recoil_Aim_Horizontal": [
+        -4,
+        4
+      ],
+      "Recoil_Aim_Vertical": [
+        16,
+        24
+      ]
+    },
+    {
+      "Name": "M1887",
+      "Category": "Shotgun",
+      "Pellets": 10,
+      "Damage": [
+        120,
+        10
+      ],
+      "Dropoff_Studs": [
+        75,
+        145
+      ],
+      "Fire_Rate": 50,
+      "Hipfire_Spread": 7,
+      "ADS_Spread": 1.8,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 100,
+      "Movement_Speed_Modifier": 2,
+      "Suppression": 0.5,
+      "Health": 6,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        20,
+        30
+      ],
+      "Recoil_Aim_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Aim_Vertical": [
+        12,
+        18
+      ]
+    },
+    {
+      "Name": "Auto-5",
+      "Category": "Shotgun",
+      "Pellets": 8,
+      "Damage": [
+        104,
+        8
+      ],
+      "Dropoff_Studs": [
+        60,
+        115
+      ],
+      "Fire_Rate": 190,
+      "Hipfire_Spread": 7,
+      "ADS_Spread": 2,
+      "Time_To_Aim": 0.75,
+      "Detection_Radius": 130,
+      "Suppression": 0.2,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        40,
+        70
+      ],
+      "Recoil_Aim_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Aim_Vertical": [
+        16,
+        28
+      ]
+    },
+    {
+      "Name": "JSG12",
+      "Category": "Shotgun",
+      "Pellets": 12,
+      "Damage": [
+        144,
+        12
+      ],
+      "Dropoff_Studs": [
+        55,
+        110
+      ],
+      "Fire_Rate": 75,
+      "Hipfire_Spread": 3,
+      "ADS_Spread": 3,
+      "Time_To_Aim": 0.8,
+      "Detection_Radius": 135,
+      "Movement_Speed_Modifier": 2.5,
+      "Suppression": 0.7,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -24,
+        24
+      ],
+      "Recoil_Hip_Vertical": [
+        95,
+        112
+      ],
+      "Recoil_Aim_Horizontal": [
+        -15.6,
+        15.6
+      ],
+      "Recoil_Aim_Vertical": [
+        61.7,
+        72.8
+      ]
+    },
+    {
+      "Name": "Spas-12",
+      "Category": "Shotgun",
+      "Pellets": 6,
+      "Damage": [
+        114,
+        18
+      ],
+      "Dropoff_Studs": [
+        50,
+        115
+      ],
+      "Fire_Rate": 220,
+      "Hipfire_Spread": 8,
+      "ADS_Spread": 2.5,
+      "Time_To_Aim": 0.95,
+      "Detection_Radius": 160,
+      "Suppression": 0.2,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -25,
+        25
+      ],
+      "Recoil_Hip_Vertical": [
+        50,
+        80
+      ],
+      "Recoil_Aim_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Aim_Vertical": [
+        20,
+        32
+      ]
+    },
+    {
+      "Name": "Double Barrel",
+      "Category": "Shotgun",
+      "Pellets": 10,
+      "Damage": [
+        110,
+        10
+      ],
+      "Dropoff_Studs": [
+        60,
+        160
+      ],
+      "Fire_Rate": 66,
+      "Hipfire_Spread": 6,
+      "ADS_Spread": 1.9,
+      "Time_To_Aim": 1,
+      "Detection_Radius": 250,
+      "Burst": 2,
+      "Suppression": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -25,
+        25
+      ],
+      "Recoil_Hip_Vertical": [
+        40,
+        57
+      ],
+      "Recoil_Aim_Horizontal": [
+        -2.5,
+        2.5
+      ],
+      "Recoil_Aim_Vertical": [
+        4,
+        5.7
+      ]
+    },
+    {
+      "Name": "Blunderbuss",
+      "Category": "Shotgun",
+      "Pellets": 15,
+      "Damage": [
+        225,
+        90
+      ],
+      "Dropoff_Studs": [
+        60,
+        110
+      ],
+      "Fire_Rate": 18,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 2,
+      "Time_To_Aim": 0.9,
+      "Detection_Radius": 200,
+      "Suppression": 1,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -14,
+        14
+      ],
+      "Recoil_Hip_Vertical": [
+        150,
+        190
+      ],
+      "Recoil_Aim_Horizontal": [
+        -8.4,
+        8.4
+      ],
+      "Recoil_Aim_Vertical": [
+        90,
+        114
+      ]
+    },
+    {
+      "Name": "M60",
+      "Category": "LMG",
+      "Damage": [
+        19.5,
+        11.2
+      ],
+      "Dropoff_Studs": [
+        190,
+        370
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 6,
+      "ADS_Spread": 0.7,
+      "Time_To_Aim": 1.25,
+      "Detection_Radius": 155,
+      "Movement_Speed_Modifier": -5,
+      "Suppression": 0.9,
+      "Health": 18,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Hip_Vertical": [
+        55,
+        67
+      ],
+      "Recoil_Aim_Horizontal": [
+        -7.2,
+        7.2
+      ],
+      "Recoil_Aim_Vertical": [
+        33,
+        40.2
+      ]
+    },
+    {
+      "Name": "Type 99",
+      "Category": "LMG",
+      "Damage": [
+        15.5,
+        8.5
+      ],
+      "Dropoff_Studs": [
+        165,
+        365
+      ],
+      "Fire_Rate": 700,
+      "Hipfire_Spread": 6,
+      "ADS_Spread": 0.6,
+      "Time_To_Aim": 1.25,
+      "Detection_Radius": 155,
+      "Movement_Speed_Modifier": -5.5,
+      "Suppression": 0.8,
+      "Health": 10,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Hip_Vertical": [
+        37,
+        55
+      ],
+      "Recoil_Aim_Horizontal": [
+        -6,
+        6
+      ],
+      "Recoil_Aim_Vertical": [
+        18.5,
+        27.5
+      ]
+    },
+    {
+      "Name": "DP-27",
+      "Category": "LMG",
+      "Damage": [
+        19,
+        12.4
+      ],
+      "Dropoff_Studs": [
+        200,
+        350
+      ],
+      "Fire_Rate": 550,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 0.55,
+      "Time_To_Aim": 1,
+      "Detection_Radius": 125,
+      "Movement_Speed_Modifier": -5,
+      "Suppression": 0.8,
+      "Health": 10,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -7,
+        7
+      ],
+      "Recoil_Hip_Vertical": [
+        60,
+        70
+      ],
+      "Recoil_Aim_Horizontal": [
+        -4.2,
+        4.2
+      ],
+      "Recoil_Aim_Vertical": [
+        36,
+        42
+      ]
+    },
+    {
+      "Name": "BAR",
+      "Category": "LMG",
+      "Damage": [
+        25,
+        15
+      ],
+      "Dropoff_Studs": [
+        205,
+        400
+      ],
+      "Fire_Rate": 500,
+      "Hipfire_Spread": 10,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 1.1,
+      "Detection_Radius": 175,
+      "Movement_Speed_Modifier": -5,
+      "Suppression": 0.9,
+      "Health": 11,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        80,
+        120
+      ],
+      "Recoil_Aim_Horizontal": [
+        -18,
+        18
+      ],
+      "Recoil_Aim_Vertical": [
+        72,
+        108
+      ]
+    },
+    {
+      "Name": "M1919 .30 Cal",
+      "Category": "LMG",
+      "Damage": [
+        22.7,
+        16.3
+      ],
+      "Dropoff_Studs": [
+        190,
+        380
+      ],
+      "Fire_Rate": 500,
+      "Hipfire_Spread": 9,
+      "ADS_Spread": 0.5,
+      "Time_To_Aim": 1.25,
+      "Detection_Radius": 165,
+      "Movement_Speed_Modifier": -12,
+      "Suppression": 0.9,
+      "Health": 20,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Hip_Vertical": [
+        44,
+        55
+      ],
+      "Recoil_Aim_Horizontal": [
+        -5,
+        5
+      ],
+      "Recoil_Aim_Vertical": [
+        22,
+        27.5
+      ]
+    },
+    {
+      "Name": "Negev",
+      "Category": "LMG",
+      "Damage": [
+        14,
+        10.1
+      ],
+      "Dropoff_Studs": [
+        190,
+        380
+      ],
+      "Fire_Rate": 850,
+      "Hipfire_Spread": 7,
+      "ADS_Spread": 0.7,
+      "Time_To_Aim": 1.25,
+      "Detection_Radius": 125,
+      "Movement_Speed_Modifier": -5,
+      "Suppression": 0.9,
+      "Health": 15,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -16,
+        16
+      ],
+      "Recoil_Hip_Vertical": [
+        35,
+        40
+      ],
+      "Recoil_Aim_Horizontal": [
+        -9.6,
+        9.6
+      ],
+      "Recoil_Aim_Vertical": [
+        21,
+        24
+      ]
+    },
+    {
+      "Name": "MG42",
+      "Category": "LMG",
+      "Damage": [
+        12.5,
+        7.7
+      ],
+      "Dropoff_Studs": [
+        150,
+        325
+      ],
+      "Fire_Rate": 1200,
+      "Hipfire_Spread": 8,
+      "ADS_Spread": 0.8,
+      "Time_To_Aim": 1.25,
+      "Detection_Radius": 175,
+      "Movement_Speed_Modifier": -7.5,
+      "Suppression": 0.9,
+      "Health": 13,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -15,
+        15
+      ],
+      "Recoil_Hip_Vertical": [
+        53,
+        76
+      ],
+      "Recoil_Aim_Horizontal": [
+        -7.5,
+        7.5
+      ],
+      "Recoil_Aim_Vertical": [
+        26.5,
+        38
+      ]
+    },
+    {
+      "Name": "Chauchat",
+      "Category": "LMG",
+      "Damage": [
+        33,
+        21.5
+      ],
+      "Dropoff_Studs": [
+        195,
+        350
+      ],
+      "Fire_Rate": 240,
+      "Hipfire_Spread": 6,
+      "ADS_Spread": 0.4,
+      "Time_To_Aim": 1.36,
+      "Detection_Radius": 180,
+      "Movement_Speed_Modifier": -7,
+      "Suppression": 1,
+      "Health": 12,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -25,
+        25
+      ],
+      "Recoil_Hip_Vertical": [
+        60,
+        90
+      ],
+      "Recoil_Aim_Horizontal": [
+        -15,
+        15
+      ],
+      "Recoil_Aim_Vertical": [
+        36,
+        54
+      ]
+    },
+    {
+      "Name": "Burton",
+      "Category": "LMG",
+      "Damage": [
+        14.7,
+        10.7
+      ],
+      "Dropoff_Studs": [
+        180,
+        385
+      ],
+      "Fire_Rate": 800,
+      "Hipfire_Spread": 4.5,
+      "ADS_Spread": 0.15,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 120,
+      "Movement_Speed_Modifier": 7.5,
+      "Suppression": 0.3,
+      "Health": -7.5,
+      "Recoil_Hip_Horizontal": [
+        -9,
+        9
+      ],
+      "Recoil_Hip_Vertical": [
+        10,
+        11
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3.1,
+        3.1
+      ],
+      "Recoil_Aim_Vertical": [
+        3.5,
+        3.8
+      ]
+    },
+    {
+      "Name": "Lewis",
+      "Category": "LMG",
+      "Damage": [
+        19,
+        11.4
+      ],
+      "Dropoff_Studs": [
+        200,
+        425
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 6,
+      "ADS_Spread": 0.6,
+      "Time_To_Aim": 1.25,
+      "Detection_Radius": 155,
+      "Movement_Speed_Modifier": -6,
+      "Suppression": 0.8,
+      "Health": 14,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Hip_Vertical": [
+        70,
+        97
+      ],
+      "Recoil_Aim_Horizontal": [
+        -9,
+        9
+      ],
+      "Recoil_Aim_Vertical": [
+        52.5,
+        72.8
+      ]
+    },
+    {
+      "Name": "M249 SAW",
+      "Category": "LMG",
+      "Damage": [
+        15.7,
+        10.2
+      ],
+      "Dropoff_Studs": [
+        165,
+        320
+      ],
+      "Fire_Rate": 800,
+      "Hipfire_Spread": 6.5,
+      "ADS_Spread": 0.75,
+      "Time_To_Aim": 1.2,
+      "Detection_Radius": 160,
+      "Movement_Speed_Modifier": -6.5,
+      "Suppression": 0.9,
+      "Health": 17,
+      "Equip_Time": 1,
+      "Recoil_Hip_Horizontal": [
+        -11,
+        11
+      ],
+      "Recoil_Hip_Vertical": [
+        45,
+        52
+      ],
+      "Recoil_Aim_Horizontal": [
+        -4.1,
+        4.1
+      ],
+      "Recoil_Aim_Vertical": [
+        16.7,
+        19.2
+      ]
+    },
+    {
+      "Name": "M1Garand",
+      "Category": "BR",
+      "Damage": [
+        40,
+        25
+      ],
+      "Dropoff_Studs": [
+        140,
+        425
+      ],
+      "Fire_Rate": 300,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.7,
+      "Detection_Radius": 120,
+      "Movement_Speed_Modifier": -5,
+      "Suppression": 0.8,
+      "Health": 10,
+      "Equip_Time": 0.9,
+      "Recoil_Hip_Horizontal": [
+        -7,
+        7
+      ],
+      "Recoil_Hip_Vertical": [
+        32,
+        44
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3.1,
+        3.1
+      ],
+      "Recoil_Aim_Vertical": [
+        14.4,
+        19.8
+      ]
+    },
+    {
+      "Name": "SKS",
+      "Category": "BR",
+      "Damage": [
+        32,
+        19.2
+      ],
+      "Dropoff_Studs": [
+        130,
+        400
+      ],
+      "Fire_Rate": 475,
+      "Hipfire_Spread": 4,
+      "ADS_Spread": 0.2,
+      "Time_To_Aim": 0.8,
+      "Detection_Radius": 120,
+      "Suppression": 0.8,
+      "Health": 5,
+      "Equip_Time": 0.9,
+      "Recoil_Hip_Horizontal": [
+        -6,
+        6
+      ],
+      "Recoil_Hip_Vertical": [
+        20,
+        22
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3,
+        3
+      ],
+      "Recoil_Aim_Vertical": [
+        10,
+        11
+      ]
+    },
+    {
+      "Name": "Fedorov",
+      "Category": "BR",
+      "Damage": [
+        27.5,
+        22
+      ],
+      "Dropoff_Studs": [
+        180,
+        500
+      ],
+      "Fire_Rate": 400,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 0.25,
+      "Time_To_Aim": 0.75,
+      "Detection_Radius": 120,
+      "Suppression": 0.5,
+      "Equip_Time": 0.9,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        120,
+        135
+      ],
+      "Recoil_Aim_Horizontal": [
+        -15.1,
+        15.1
+      ],
+      "Recoil_Aim_Vertical": [
+        93,
+        104.6
+      ]
+    },
+    {
+      "Name": "FAL",
+      "Category": "BR",
+      "Damage": [
+        22.5,
+        14.1
+      ],
+      "Dropoff_Studs": [
+        120,
+        425
+      ],
+      "Fire_Rate": 650,
+      "Hipfire_Spread": 6,
+      "ADS_Spread": 0.3,
+      "Time_To_Aim": 0.85,
+      "Detection_Radius": 120,
+      "Movement_Speed_Modifier": -5,
+      "Suppression": 0.7,
+      "Equip_Time": 0.9,
+      "Recoil_Hip_Horizontal": [
+        -35,
+        35
+      ],
+      "Recoil_Hip_Vertical": [
+        110,
+        140
+      ],
+      "Recoil_Aim_Horizontal": [
+        -28,
+        28
+      ],
+      "Recoil_Aim_Vertical": [
+        88,
+        112
+      ]
+    },
+    {
+      "Name": "Winchester",
+      "Category": "BR",
+      "Damage": [
+        50,
+        40
+      ],
+      "Dropoff_Studs": [
+        210,
+        390
+      ],
+      "Fire_Rate": 85,
+      "Hipfire_Spread": 11,
+      "ADS_Spread": 0.25,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 210,
+      "Suppression": 0.5,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        80,
+        93
+      ],
+      "Recoil_Aim_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Aim_Vertical": [
+        40,
+        46.5
+      ]
+    },
+    {
+      "Name": "Dragunov",
+      "Category": "BR",
+      "Damage": [
+        39.5,
+        22.7
+      ],
+      "Dropoff_Studs": [
+        140,
+        600
+      ],
+      "Fire_Rate": 480,
+      "Hipfire_Spread": 9.5,
+      "ADS_Spread": 0.2,
+      "Time_To_Aim": 1,
+      "Detection_Radius": 120,
+      "Movement_Speed_Modifier": -7,
+      "Suppression": 0.8,
+      "Health": 8,
+      "Equip_Time": 0.9,
+      "Recoil_Hip_Horizontal": [
+        -5,
+        5
+      ],
+      "Recoil_Hip_Vertical": [
+        34,
+        43
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3,
+        3
+      ],
+      "Recoil_Aim_Vertical": [
+        20.4,
+        25.8
+      ]
+    },
+    {
+      "Name": "G3",
+      "Category": "BR",
+      "Damage": [
+        26,
+        15.6
+      ],
+      "Dropoff_Studs": [
+        150,
+        475
+      ],
+      "Fire_Rate": 525,
+      "Hipfire_Spread": 8,
+      "ADS_Spread": 0.25,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 150,
+      "Movement_Speed_Modifier": -7,
+      "Suppression": 0.3,
+      "Equip_Time": 0.9,
+      "Recoil_Hip_Horizontal": [
+        -38,
+        38
+      ],
+      "Recoil_Hip_Vertical": [
+        92,
+        108
+      ],
+      "Recoil_Aim_Horizontal": [
+        -32.3,
+        32.3
+      ],
+      "Recoil_Aim_Vertical": [
+        78.2,
+        91.8
+      ]
+    },
+    {
+      "Name": "M110",
+      "Category": "BR",
+      "Damage": [
+        48,
+        28.8
+      ],
+      "Dropoff_Studs": [
+        120,
+        400
+      ],
+      "Fire_Rate": 150,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 0.3,
+      "Time_To_Aim": 0.7,
+      "Detection_Radius": 120,
+      "Movement_Speed_Modifier": -5,
+      "Suppression": 0.8,
+      "Health": 7,
+      "Equip_Time": 0.9,
+      "Recoil_Hip_Horizontal": [
+        -11,
+        11
+      ],
+      "Recoil_Hip_Vertical": [
+        35,
+        42
+      ],
+      "Recoil_Aim_Horizontal": [
+        -6.6,
+        6.6
+      ],
+      "Recoil_Aim_Vertical": [
+        21,
+        25.2
+      ]
+    },
+    {
+      "Name": "FG-42",
+      "Category": "BR",
+      "Damage": [
+        17.5,
+        10.5
+      ],
+      "Dropoff_Studs": [
+        130,
+        325
+      ],
+      "Fire_Rate": 900,
+      "Hipfire_Spread": 5.5,
+      "ADS_Spread": 0.4,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 130,
+      "Suppression": 0.5,
+      "Equip_Time": 0.9,
+      "Recoil_Hip_Horizontal": [
+        -18,
+        18
+      ],
+      "Recoil_Hip_Vertical": [
+        83,
+        108
+      ],
+      "Recoil_Aim_Horizontal": [
+        -13.5,
+        13.5
+      ],
+      "Recoil_Aim_Vertical": [
+        62.3,
+        81
+      ]
+    },
+    {
+      "Name": "Paintball",
+      "Category": "Weird",
+      "Damage": [
+        22,
+        13.8
+      ],
+      "Dropoff_Studs": [
+        140,
+        290
+      ],
+      "Fire_Rate": 450,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 0.6,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 240,
+      "Suppression": 0.1,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -14,
+        14
+      ],
+      "Recoil_Hip_Vertical": [
+        15,
+        22
+      ],
+      "Recoil_Aim_Horizontal": [
+        -6.3,
+        6.3
+      ],
+      "Recoil_Aim_Vertical": [
+        6.7,
+        9.9
+      ]
+    },
+    {
+      "Name": "Stat Randomizer",
+      "Category": "Weird",
+      "Dropoff_Studs": [
+        100,
+        777
+      ],
+      "Hipfire_Spread": 20,
+      "ADS_Spread": 1,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 100,
+      "Movement_Speed_Modifier": -5
+    },
+    {
+      "Name": "Gaming Rig",
+      "Category": "Weird",
+      "Damage": [
+        16.5,
+        13.2
+      ],
+      "Dropoff_Studs": [
+        140,
+        195
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 6,
+      "ADS_Spread": 0.3,
+      "Time_To_Aim": 0.7,
+      "Detection_Radius": 120,
+      "Suppression": 0.3,
+      "Recoil_Hip_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Hip_Vertical": [
+        40,
+        55
+      ],
+      "Recoil_Aim_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Aim_Vertical": [
+        32,
+        44
+      ]
+    },
+    {
+      "Name": "Loaf",
+      "Category": "Weird",
+      "Damage": [
+        21,
+        16.8
+      ],
+      "Dropoff_Studs": [
+        150,
+        220
+      ],
+      "Fire_Rate": 500,
+      "Hipfire_Spread": 2,
+      "ADS_Spread": 0.24,
+      "Time_To_Aim": 0.6,
+      "Detection_Radius": 55,
+      "Suppression": 0.8,
+      "Recoil_Hip_Horizontal": [
+        -6,
+        6
+      ],
+      "Recoil_Hip_Vertical": [
+        5,
+        7
+      ],
+      "Recoil_Aim_Horizontal": [
+        -4.8,
+        4.8
+      ],
+      "Recoil_Aim_Vertical": [
+        4,
+        5.6
+      ]
+    },
+    {
+      "Name": "Words as Weapons",
+      "Category": "Weird",
+      "Damage": [
+        17,
+        14.9
+      ],
+      "Dropoff_Studs": [
+        150,
+        340
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 5.5,
+      "ADS_Spread": 0.5,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 120,
+      "Suppression": 0.3,
+      "Recoil_Hip_Horizontal": [
+        -15,
+        15
+      ],
+      "Recoil_Hip_Vertical": [
+        70,
+        80
+      ],
+      "Recoil_Aim_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Aim_Vertical": [
+        56,
+        64
+      ]
+    },
+    {
+      "Name": "Bicycle",
+      "Category": "Weird",
+      "Damage": [
+        29.5,
+        14.8
+      ],
+      "Dropoff_Studs": [
+        200,
+        275
+      ],
+      "Fire_Rate": 350,
+      "Hipfire_Spread": 7,
+      "ADS_Spread": 0.4,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 250,
+      "Suppression": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        40,
+        55
+      ],
+      "Recoil_Aim_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Aim_Vertical": [
+        24,
+        33
+      ]
+    },
+    {
+      "Name": "WIlly Fischy",
+      "Category": "Weird",
+      "Damage": [
+        20,
+        19.8
+      ],
+      "Dropoff_Studs": [
+        1,
+        999999
+      ],
+      "Fire_Rate": 350,
+      "Hipfire_Spread": 6,
+      "ADS_Spread": 6,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 30,
+      "Recoil_Hip_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Hip_Vertical": [
+        70,
+        90
+      ],
+      "Recoil_Aim_Horizontal": [
+        -1.2,
+        1.2
+      ],
+      "Recoil_Aim_Vertical": [
+        7,
+        9
+      ]
+    },
+    {
+      "Name": "Mega Soaker",
+      "Category": "Weird",
+      "Damage": [
+        8.5,
+        5.9
+      ],
+      "Dropoff_Studs": [
+        140,
+        250
+      ],
+      "Fire_Rate": 1400,
+      "Hipfire_Spread": 4.5,
+      "ADS_Spread": 0.5,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 50,
+      "Suppression": 0.3,
+      "Recoil_Hip_Horizontal": [
+        -8,
+        8
+      ],
+      "Recoil_Hip_Vertical": [
+        19,
+        27
+      ],
+      "Recoil_Aim_Horizontal": [
+        -6,
+        6
+      ],
+      "Recoil_Aim_Vertical": [
+        14.3,
+        20.3
+      ]
+    },
+    {
+      "Name": "M1911",
+      "Category": "Sidearm",
+      "Damage": [
+        23.5,
+        13.4
+      ],
+      "Dropoff_Studs": [
+        25,
+        100
+      ],
+      "Fire_Rate": 500,
+      "Hipfire_Spread": 0.45,
+      "ADS_Spread": 0.35,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 70,
+      "Movement_Speed_Modifier": 4.4,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -2,
+        2
+      ],
+      "Recoil_Hip_Vertical": [
+        5,
+        10
+      ],
+      "Recoil_Aim_Horizontal": [
+        -0.4,
+        0.4
+      ],
+      "Recoil_Aim_Vertical": [
+        1,
+        2
+      ]
+    },
+    {
+      "Name": "Makarov",
+      "Category": "Sidearm",
+      "Damage": [
+        21,
+        14.7
+      ],
+      "Dropoff_Studs": [
+        35,
+        100
+      ],
+      "Fire_Rate": 300,
+      "Hipfire_Spread": 0.575,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.35,
+      "Detection_Radius": 40,
+      "Equip_Time": 0.2,
+      "Recoil_Hip_Horizontal": [
+        -4,
+        4
+      ],
+      "Recoil_Hip_Vertical": [
+        5,
+        11
+      ],
+      "Recoil_Aim_Horizontal": [
+        -0.8,
+        0.8
+      ],
+      "Recoil_Aim_Vertical": [
+        1,
+        2.2
+      ]
+    },
+    {
+      "Name": "Kolibri",
+      "Category": "Sidearm",
+      "Damage": [
+        10,
+        8
+      ],
+      "Dropoff_Studs": [
+        10,
+        20
+      ],
+      "Fire_Rate": 500,
+      "Hipfire_Spread": 0.1,
+      "ADS_Spread": 0.1,
+      "Time_To_Aim": 0.2,
+      "Detection_Radius": 5,
+      "Movement_Speed_Modifier": 10,
+      "Equip_Time": 0.1,
+      "Recoil_Hip_Horizontal": [
+        -1,
+        1
+      ],
+      "Recoil_Hip_Vertical": [
+        1,
+        2
+      ],
+      "Recoil_Aim_Horizontal": [
+        -0.2,
+        0.2
+      ],
+      "Recoil_Aim_Vertical": [
+        0.2,
+        0.3
+      ]
+    },
+    {
+      "Name": "Tec-9",
+      "Category": "Sidearm",
+      "Damage": [
+        20,
+        13
+      ],
+      "Dropoff_Studs": [
+        35,
+        115
+      ],
+      "Fire_Rate": 550,
+      "Hipfire_Spread": 1,
+      "ADS_Spread": 0.25,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 60,
+      "Movement_Speed_Modifier": 4.4,
+      "Equip_Time": 0.2,
+      "Recoil_Hip_Horizontal": [
+        -6,
+        6
+      ],
+      "Recoil_Hip_Vertical": [
+        8,
+        11
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3,
+        3
+      ],
+      "Recoil_Aim_Vertical": [
+        4,
+        5.5
+      ]
+    },
+    {
+      "Name": "T10",
+      "Category": "Sidearm",
+      "Damage": [
+        20,
+        16.5
+      ],
+      "Dropoff_Studs": [
+        20,
+        105
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 0.65,
+      "ADS_Spread": 0.3,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 60,
+      "Movement_Speed_Modifier": 3,
+      "Equip_Time": 0.3,
+      "Recoil_Hip_Horizontal": [
+        -5,
+        5
+      ],
+      "Recoil_Hip_Vertical": [
+        6,
+        7
+      ],
+      "Recoil_Aim_Horizontal": [
+        -1.7,
+        1.7
+      ],
+      "Recoil_Aim_Vertical": [
+        2.1,
+        2.4
+      ]
+    },
+    {
+      "Name": "B17",
+      "Category": "Sidearm",
+      "Damage": [
+        8.8,
+        4.8
+      ],
+      "Dropoff_Studs": [
+        20,
+        95
+      ],
+      "Fire_Rate": 1200,
+      "Hipfire_Spread": 1.1,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 90,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -22,
+        22
+      ],
+      "Recoil_Hip_Vertical": [
+        30,
+        42
+      ],
+      "Recoil_Aim_Horizontal": [
+        -13.2,
+        13.2
+      ],
+      "Recoil_Aim_Vertical": [
+        18,
+        25.2
+      ]
+    },
+    {
+      "Name": "EG200",
+      "Category": "Sidearm",
+      "Pellets": 13,
+      "Damage": [
+        117,
+        26
+      ],
+      "Dropoff_Studs": [
+        20,
+        60
+      ],
+      "Fire_Rate": 100,
+      "Hipfire_Spread": 2,
+      "ADS_Spread": 2.1,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 200,
+      "Movement_Speed_Modifier": -2,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -5,
+        5
+      ],
+      "Recoil_Hip_Vertical": [
+        20,
+        24
+      ],
+      "Recoil_Aim_Horizontal": [
+        -2.5,
+        2.5
+      ],
+      "Recoil_Aim_Vertical": [
+        10,
+        17
+      ]
+    },
+    {
+      "Name": "Beretta",
+      "Category": "Sidearm",
+      "Damage": [
+        21,
+        11.6
+      ],
+      "Dropoff_Studs": [
+        35,
+        105
+      ],
+      "Fire_Rate": 400,
+      "Hipfire_Spread": 0.5,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.4,
+      "Detection_Radius": 90,
+      "Movement_Speed_Modifier": 4.4,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -3,
+        3
+      ],
+      "Recoil_Hip_Vertical": [
+        5,
+        8
+      ],
+      "Recoil_Aim_Horizontal": [
+        -1.2,
+        1.2
+      ],
+      "Recoil_Aim_Vertical": [
+        2,
+        3.3
+      ]
+    },
+    {
+      "Name": "Type 14",
+      "Category": "Sidearm",
+      "Damage": [
+        25.5,
+        12.8
+      ],
+      "Dropoff_Studs": [
+        35,
+        80
+      ],
+      "Fire_Rate": 450,
+      "Hipfire_Spread": 0.7,
+      "ADS_Spread": 0.25,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 60,
+      "Movement_Speed_Modifier": 9,
+      "Health": -10,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -4,
+        4
+      ],
+      "Recoil_Hip_Vertical": [
+        6,
+        14
+      ],
+      "Recoil_Aim_Horizontal": [
+        -0.8,
+        0.8
+      ],
+      "Recoil_Aim_Vertical": [
+        1.2,
+        2.8
+      ]
+    },
+    {
+      "Name": "Luger",
+      "Category": "Sidearm",
+      "Damage": [
+        16,
+        8
+      ],
+      "Dropoff_Studs": [
+        40,
+        100
+      ],
+      "Fire_Rate": 700,
+      "Hipfire_Spread": 0.32,
+      "ADS_Spread": 0.32,
+      "Time_To_Aim": 0.4,
+      "Detection_Radius": 90,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -4,
+        4
+      ],
+      "Recoil_Hip_Vertical": [
+        1,
+        2
+      ],
+      "Recoil_Aim_Horizontal": [
+        -1.2,
+        1.2
+      ],
+      "Recoil_Aim_Vertical": [
+        0.3,
+        0.6
+      ]
+    },
+    {
+      "Name": "Deagle",
+      "Category": "Sidearm",
+      "Damage": [
+        38,
+        19
+      ],
+      "Dropoff_Studs": [
+        60,
+        120
+      ],
+      "Fire_Rate": 200,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 0.3,
+      "Time_To_Aim": 0.4,
+      "Detection_Radius": 120,
+      "Movement_Speed_Modifier": 2.2,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        90,
+        110
+      ],
+      "Recoil_Aim_Horizontal": [
+        -16,
+        16
+      ],
+      "Recoil_Aim_Vertical": [
+        72,
+        88
+      ]
+    },
+    {
+      "Name": "Obreez",
+      "Category": "Sidearm",
+      "Damage": [
+        55,
+        33
+      ],
+      "Dropoff_Studs": [
+        50,
+        110
+      ],
+      "Fire_Rate": 47,
+      "Hipfire_Spread": 5.5,
+      "ADS_Spread": 0.6,
+      "Time_To_Aim": 1,
+      "Detection_Radius": 80,
+      "Suppression": 1,
+      "Equip_Time": 0.8,
+      "Recoil_Hip_Horizontal": [
+        -9,
+        9
+      ],
+      "Recoil_Hip_Vertical": [
+        60,
+        72
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3.6,
+        3.6
+      ],
+      "Recoil_Aim_Vertical": [
+        24,
+        28.8
+      ]
+    },
+    {
+      "Name": "Cyber 3517",
+      "Category": "Sidearm",
+      "Damage": [
+        45,
+        24.8
+      ],
+      "Dropoff_Studs": [
+        75,
+        110
+      ],
+      "Fire_Rate": 198,
+      "Hipfire_Spread": 4,
+      "ADS_Spread": 2.6,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 200,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        90,
+        110
+      ],
+      "Recoil_Aim_Horizontal": [
+        -16,
+        16
+      ],
+      "Recoil_Aim_Vertical": [
+        72,
+        88
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@ import json
 
 filenames = ["Barrels.txt", "Grips.txt", "Cores.txt", "Magazines.txt", "Stocks.txt"]
 
-known_categories = {"Assault Rifle", "Sniper", "SMG", "LMG", "Shotgun", "Weird", "BR", "Sidearm"}
+known_categories = {"AR", "Sniper", "SMG", "LMG", "Shotgun", "Weird", "BR", "Sidearm"}
 known_types = {"Barrels", "Cores", "Grips", "Magazines", "Stocks"}
 
 known_properties = {'Reload_Speed', 'Recoil_Hip_Vertical', 'Recoil',
@@ -42,7 +42,7 @@ known_names = {
 # The number is the index for current_penalties
 current_categories = {
     "Primary": {
-        "Assault Rifle": 0,
+        "AR": 0,
         "Sniper": 1,
         "SMG": 2,
         "LMG": 3,

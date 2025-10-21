@@ -1,4 +1,4 @@
-Category: Assault Rifle Grips
+Category: AR Grips
 ---
 Grip: AKM
 Recoil: -10%
@@ -61,7 +61,7 @@ Fire_Rate: -4%
 ---
 Grip: AR-8X
 Movement_Speed: +1.5%
-Spread: -14%
+Spread: -16%
 Recoil: +21%
 ---
 Grip: 10KG Dumbbell

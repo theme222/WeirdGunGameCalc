@@ -215,7 +215,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         includeCategories_fast.resize(categoryCount, false);
         for (auto& category : Input::includeCategories)
         {
-            if (category == "AR") category = "Assault Rifle";
+            // if (category == "AR") category = "Assault Rifle";
             if (!fastifyCategory.contains(category))
                 throw std::invalid_argument("Category " + category + " doesn't exist");
             includeCategories_fast[fastifyCategory[category]] = true;

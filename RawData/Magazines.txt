@@ -1,4 +1,4 @@
-Category: Assault Rifle Magazines
+Category: AR Magazines
 ---
 Magazine: AKM
 Magazine_Size: 30
@@ -80,12 +80,12 @@ Spread: +6%
 ---
 Magazine: APS
 Magazine_Size: 26
-Reload_Time: 6
+Reload_Time: 4.8
 Damage: +25%
 Detection_Radius: 25
 Fire_Rate: -10%
 Spread: +20%
-Range: -35%
+Range: -11%
 ---
 Magazine: C36C
 Magazine_Size: 30
@@ -150,11 +150,11 @@ Category: Sniper Magazines
 Magazine: AWM
 Magazine_Size: 5
 Reload_Time: 5s
-Damage: +20%
-Spread: -50%
-Fire_Rate: -10%
+Damage: +22%
+Spread: -25%
+Fire_Rate: -13%
 Recoil: +40%
-Range: +25%
+Range: +15%
 ---
 Magazine: Lee Enfield
 Magazine_Size: 10
@@ -231,9 +231,9 @@ Recoil: +16%
 ---
 Magazine: Lightning Shot
 Magazine_Size: 7
-Reload_Time: 10
+Reload_Time: 9
 Damage: +50%
-Spread: -45%
+Spread: -35%
 Detection_Radius: +50%
 Fire_Rate: -45%
 Movement_Speed: -12%
@@ -388,7 +388,7 @@ Magazine: Uzi
 Magazine_Size: 32
 Reload_Time: 2.8
 Damage: +3%
-Fire_Rate: +0.7%
+Fire_Rate: +7%
 Range: -9%
 Recoil: +28%
 ---
@@ -463,6 +463,7 @@ Magazine: Negev
 Magazine_Size: 200
 Reload_Time: 12
 Detection_Radius: +25%
+Equip_Time: +50%
 Movement_Speed: -9%
 Range: -11%
 ---
@@ -507,11 +508,11 @@ Category: Shotgun Magazines
 Magazine: Spas-12
 Magazine_Size: 12
 Reload_Time: 7
-Damage: +5%
+Damage: +6.5%
 Fire_Rate: +30%
 Pellets: +175%
 Movement_Speed: -3%
-Range: -20%
+Range: -8.5%
 Recoil: +60%
 Spread: +19%
 ---
@@ -534,7 +535,7 @@ Pellets: +150%
 Movement_Speed: -5.5%
 Range: -10%
 Recoil: +15%
-Spread: +18%
+Spread: +7%
 ---
 Magazine: M1897 Trench Shotgun
 Magazine_Size: 6
@@ -550,15 +551,15 @@ Magazine_Size: 6
 Reload_Time: 3.5
 Damage: +17%
 Pellets: +45%
-Range: -10%
+Range: -4%
 Recoil: +35%
 ---
 Magazine: M870
 Magazine_Size: 8
-Reload_Time: 5
+Reload_Time: 4
 Damage: +21%
 Pellets: +100%
-Range: -15%
+Range: -3.5%
 Recoil: +38%
 ---
 Magazine: Circuit Judge
@@ -634,6 +635,7 @@ Magazine_Size: 10
 Reload_Time: 0.8s
 Damage: +10%
 Movement_Speed: +5%
+Range: -7%
 Spread: +30%
 ---
 Magazine: XXL AKM
@@ -706,7 +708,7 @@ Magazine: FAL
 Magazine_Size: 20
 Reload_Time: 2
 Damage: +10%
-Range: +10%
+Fire_Rate: +10%
 Movement_Speed: -2.5%
 Recoil: +12%
 ---
@@ -786,7 +788,7 @@ Magazine: M1911
 Magazine_Size: 7
 Reload_Time: 1.8
 Damage: +18%
-Fire_Rate: +20%
+Fire_Rate: -9%
 Range: -6%
 Recoil: +23%
 ---
@@ -807,11 +809,11 @@ Spread: +11%
 Magazine: Deagle
 Magazine_Size: 7
 Reload_Time: 4
-Damage: +20%
+Damage: +29%
 Fire_Rate: -6%
 Movement_Speed: -2%
 Range: -9%
-Recoil: +52%
+Recoil: +62%
 ---
 Magazine: Beretta
 Magazine_Size: 15

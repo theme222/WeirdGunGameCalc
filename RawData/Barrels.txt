@@ -1,4 +1,4 @@
-Category: Assault Rifle Barrels
+Category: AR Barrels
 ---
 Barrel: AKM
 Damage: +7%
@@ -111,7 +111,7 @@ Recoil: +17%
 ---
 Barrel: Cirrus - Hand
 Recoil: -40%
-Spread: -25%
+Spread: -30%
 Damage: -10%
 ---
 Barrel: Broza
@@ -269,6 +269,7 @@ Damage: -3%
 Barrel: Type 2a Nambu
 Damage: +13%
 Movement_Speed: +3%
+Range: -3.5%
 Spread: +23%
 ---
 Barrel: Mas-38
@@ -288,9 +289,9 @@ Range: -10%
 Barrel: NP5
 Damage: +7%
 Movement_Speed: +2.5%
-Recoil: -5%
-Spread: -5%
-Fire_Rate: -5%
+Recoil: -14%
+Spread: -8%
+Fire_Rate: -2.5%
 Range: -7.5%
 ---
 Barrel: P90
