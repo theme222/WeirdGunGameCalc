@@ -14,18 +14,6 @@ recoilAimVertical: 25.254 - 35.3556
 movementSpeed: 2
 TTK: 0.391677 Seconds
 
-[ Barrel: Dragunov, Magazine: Graphics Card, Grip: PPSh-41, Stock: None, Core: B17 ]
-damage: 9.24889 - 5.26926
-dropoffStuds: 20.6724 - 98.1939
-fireRate: 1470.6
-adsSpread: 0.382753
-hipfireSpread: 0.935618
-reloadTime: 6.9
-magazineSize: 50
-recoilHipVertical: 28.644 - 40.1016
-recoilAimVertical: 17.1864 - 24.061
-TTK: 0.407997 Seconds
-
 [ Barrel: M1891, Magazine: Graphics Card, Grip: PPSh-41, Stock: None, Core: B17 ]
 damage: 9.24889 - 5.16256
 dropoffStuds: 20.24 - 96.14
@@ -36,6 +24,18 @@ reloadTime: 8.28
 magazineSize: 50
 recoilHipVertical: 23.1 - 32.34
 recoilAimVertical: 13.86 - 19.404
+TTK: 0.407997 Seconds
+
+[ Barrel: Dragunov, Magazine: Graphics Card, Grip: PPSh-41, Stock: None, Core: B17 ]
+damage: 9.24889 - 5.26926
+dropoffStuds: 20.6724 - 98.1939
+fireRate: 1470.6
+adsSpread: 0.382753
+hipfireSpread: 0.935618
+reloadTime: 6.9
+magazineSize: 50
+recoilHipVertical: 28.644 - 40.1016
+recoilAimVertical: 17.1864 - 24.061
 TTK: 0.407997 Seconds
 
 [ Barrel: Car Muffler, Magazine: MP 40, Grip: Controller, Stock: None, Core: B17 ]
@@ -116,16 +116,17 @@ recoilAimVertical: 27.216 - 38.1024
 movementSpeed: 1
 TTK: 0.416667 Seconds
 
-[ Barrel: MP 40, Magazine: Mas-38, Grip: PPSh-41, Stock: None, Core: B17 ]
-damage: 10.3046 - 5.7612
-dropoffStuds: 20.6 - 97.85
+[ Barrel: Hex Spitter, Magazine: Words as Weapons, Grip: PPSh-41, Stock: None, Core: B17 ]
+damage: 10.144 - 5.53311
+dropoffStuds: 20 - 95
 fireRate: 1290
-adsSpread: 0.379142
-hipfireSpread: 0.926791
-reloadTime: 3.22
-magazineSize: 32
-recoilHipVertical: 45.72 - 64.008
-recoilAimVertical: 27.432 - 38.4048
-movementSpeed: 5.025
+adsSpread: 0.382753
+hipfireSpread: 0.935618
+reloadTime: 2.76
+magazineSize: 30
+health: -5
+recoilHipVertical: 37.5 - 52.5
+recoilAimVertical: 22.5 - 31.5
+movementSpeed: 1.3
 TTK: 0.418605 Seconds
 

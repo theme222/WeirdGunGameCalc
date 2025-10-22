@@ -54,6 +54,7 @@ namespace Input
 
     int threadsToMake = std::clamp(std::thread::hardware_concurrency(), 1u, 64u);
     int howManyTopGunsToDisplay = 10;
+    int playerMaxHealth = 100;
 
     fpair damageRange = NILRANGE;
     fpair damage2Range = NILRANGE;
@@ -181,7 +182,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
         int maxPartCount = includedPrimary ? 5 : 4; // Secondaries don't have stocks
 
-        pelletRange_adjusted = { damageRange.first != NILMIN ? damageRange.first : 1.0f, damageRange.second != NILMAX ? damageRange.second : 55.0f };
+        pelletRange_adjusted = { pelletRange.first != NILMIN ? pelletRange.first : 1.0f, pelletRange.second != NILMAX ? pelletRange.second : 55.0f };
 
         // Adjusted values scale to (mult / pelletModMax^maxPartCount) < trueMultRange < (mult / pelletModMin) | Yes I know it is a very wide and terrible range but i can't think of a smaller valid range
         damageRange_adjusted = damageRange;
@@ -569,7 +570,7 @@ public:
     Core *core = nullptr;
 
     float damage;
-    float damage2() const { return (damage * falloffFactor) + damage; }
+    inline float damage2() const { return (damage * falloffFactor) + damage; }
     fpair dropoffStuds;
     float falloffFactor;
     float pellets;
@@ -587,7 +588,8 @@ public:
     fpair recoilHipVertical;
     fpair recoilAimHorizontal;
     fpair recoilAimVertical;
-    float TTK() const { return (ceilf(100 / damage) - 1) / fireRate * 60; }
+    inline float TTK() const { return (ceilf(Input::playerMaxHealth / damage) - 1) / fireRate * 60; }
+    inline float DPM() const { return damage * fireRate; } // DPS = DPM / 60
 
     Gun() {}
     Gun(Core *core) : core(core) {}
@@ -881,6 +883,7 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
     if (gun.movementSpeedModifier != 0 || Input::detailed) os << "movementSpeed: " << gun.movementSpeedModifier << "\n";
     if (Input::detectionRadiusRange != fpair(NILRANGE) || Input::detailed) os << "detectionRadius: " << gun.detectionRadius << "\n";
     if (gun.TTK() != 0 || Input::detailed) os << "TTK: " << gun.TTK() << " Seconds\n";
+    if (Input::sortType == "DPS" || Input::detailed) os << "DPS: " << gun.DPM() / 60 << "\n";
     return os;
 }
 
@@ -948,6 +951,14 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
     SORTING NEEDS TO BE LIKE THIS :
         return gun1 < gun2 (Less is better)
         return gun1 > gun2 (More is better)
+    THIS IS THE STEP BY STEP GUIDE ON ADDING MORE SORTING TYPES
+    1. Add the comparitor as a struct with _PQSORT
+    2. Create the priority queue type with _TYPEDEFPQ
+    3. Add the type you created to the Variant
+    4. Create a new sorting type in the enum
+    5. Add the new sorting type to the macro caller
+    6. Modify the current sorting type
+    7. Change filters for both prune and bruteforce to make sure it has the proper mult flags
     */
 
     // The most devious lookin macro
@@ -961,6 +972,7 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
     _PQSORT(Speed, gun1.movementSpeedModifier > gun2.movementSpeedModifier)
     _PQSORT(Magazine, gun1.magazineSize > gun2.magazineSize)
     _PQSORT(Reload, gun1.reloadTime < gun2.reloadTime)
+    _PQSORT(DPS, gun1.DPM() > gun2.DPM()) // Faster to calculate it using DPM instead of DPS
 
     #define _TYPEDEFPQ(sort, name) typedef std::priority_queue<Gun, std::vector<Gun>, sort> name;
     _TYPEDEFPQ(SortTTK, TTK_pq)
@@ -972,6 +984,7 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
     _TYPEDEFPQ(SortSpeed, Speed_pq)
     _TYPEDEFPQ(SortMagazine, Magazine_pq)
     _TYPEDEFPQ(SortReload, Reload_pq)
+    _TYPEDEFPQ(SortDPS, DPS_pq)
 
     typedef std::variant<
         TTK_pq,
@@ -982,7 +995,8 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
         Health_pq,
         Speed_pq,
         Magazine_pq,
-        Reload_pq
+        Reload_pq,
+        DPS_pq
     > Variant_pq;
 
     Variant_pq topGuns;
@@ -997,6 +1011,7 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
         SORTBYSPEED,
         SORTBYMAGAZINE,
         SORTBYRELOAD,
+        SORTBYDPS,
     };
 
     #define _CALLMACROPQANDTYPE(macro) \
@@ -1008,7 +1023,8 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
         macro(SORTBYHEALTH, Health_pq) \
         macro(SORTBYSPEED, Speed_pq) \
         macro(SORTBYMAGAZINE, Magazine_pq) \
-        macro(SORTBYRELOAD, Reload_pq)
+        macro(SORTBYRELOAD, Reload_pq) \
+        macro(SORTBYDPS, DPS_pq)
 
 
     SortingType currentSortingType = SORTBYTTK;
@@ -1024,6 +1040,7 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
         else if (type == "SPEED") currentSortingType = SORTBYSPEED;
         else if (type == "MAGAZINE") currentSortingType = SORTBYMAGAZINE;
         else if (type == "RELOAD") currentSortingType = SORTBYRELOAD;
+        else if (type == "DPS") currentSortingType = SORTBYDPS;
         else throw std::runtime_error("Invalid sorting type");
     }
 
@@ -1182,6 +1199,7 @@ namespace BruteForce
             switch (PQ::currentSortingType)
             {
                 case PQ::SORTBYTTK:
+                case PQ::SORTBYDPS:
                     currentflags |= DAMAGE | PELLETS;
                 case PQ::SORTBYFIRERATE:
                     currentflags |= FIRERATE;
@@ -1313,6 +1331,7 @@ namespace Prune
             switch (PQ::currentSortingType)
             {
                 case PQ::SORTBYTTK:
+                case PQ::SORTBYDPS:
                     currentflags |= DAMAGE | PELLETS;
                 case PQ::SORTBYFIRERATE:
                     currentflags |= FIRERATE;
@@ -1583,6 +1602,10 @@ namespace Prune
         printf("Thread %d started\n", threadId);
         threadPQ[threadId] = PQ::Create();
 
+        // std::cout << Input::damageRange_adjusted << '\n' << Input::damage2Range_adjusted << '\n';
+        // std::cout << Input::damageRange << '\n' << Input::spreadHipRange << '\n';
+        // std::cout << Input::spreadAimRange_adjusted << '\n' << Input::spreadHipRange_adjusted << '\n';
+
         // This is why memory scales with O(n^4) (Hopefully not a big issue hahhah)
         printf("%d: Allocating %lu bytes for vectors\n", threadId, sizeof(Gun) * DEFAULTVECTORSIZE / Input::threadsToMake * 2);
         std::vector<Gun> validGuns1(DEFAULTVECTORSIZE / Input::threadsToMake);
@@ -1701,11 +1724,12 @@ int main(int argc, char* argv[])
     app.add_option("-f, --file", Input::fileDir, "Path to the directory containing the json file (Default: Data)");
     app.add_option("-o, --output", Input::outpath, "Path to the output file (Default: Results.txt)");
     app.add_option("-t, --threads", Input::threadsToMake, "Number of threads to use (Default: AUTODETECT)")->check(CLI::Range(1, 64));
-    app.add_option("-s, --sort", Input::sortType, "Sorting type (TTK, FIRERATE, ADSSPREAD, HIPFIRESPREAD, RECOIL, SPEED, HEALTH, MAGAZINE, RELOAD) (Default: TTK)");
+    app.add_option("-s, --sort", Input::sortType, "Sorting type (TTK, FIRERATE, ADSSPREAD, HIPFIRESPREAD, RECOIL, SPEED, HEALTH, MAGAZINE, RELOAD, DPS) (Default: TTK)");
     app.add_option("-n, --number", Input::howManyTopGunsToDisplay, "Number of top guns to display (Default: 10)");
     app.add_option("-m, --method", Input::method, "Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)");
     app.add_option("-i, --include", Input::includeCategories, "Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird)")->required();
     app.add_flag  ("-d, --detailed", Input::detailed, "Display all stats of the gun including irrelevant ones");
+    app.add_option("--mh, --defaultMaxHealth", Input::playerMaxHealth, "Set the player max health for TTK calculation (Default: 100)");
 
     app.add_option("--fb, --forceBarrel", Input::forceBarrel, "Force the calculator to use a specific barrel");
     app.add_option("--fm, --forceMagazine", Input::forceMagazine, "Force the calculator to use a specific magazine");
@@ -1784,7 +1808,7 @@ int main(int argc, char* argv[])
         throw std::invalid_argument("Required files not found");
     }
 
-    std::cout << "Loading from json file " << fullDataPath << ", " << penaltiesPath << ", and " << categoriesPath << "\n";
+    std::cout << "Loading from json files " << fullDataPath << ", " << penaltiesPath << ", and " << categoriesPath << "\n";
 
     std::ifstream Categories(categoriesPath);
     json categories = json::parse(Categories);

@@ -2,6 +2,7 @@ import os
 import csv
 import json
 from pathlib import Path
+from FileFormatter import Penalties
 
 SHEETID = '1Kc9aME3xlUC_vV5dFRe457OchqUOrwuiX_pQykjCF68'
 SHEETFOLDER = Path('SheetData')
@@ -11,7 +12,7 @@ PARTSHEETGID = '503295784'
 CORESHEET = SHEETFOLDER / 'cores.csv'
 CORESHEETGID = '911413911'
 
-OUTPUTFILE = SHEETFOLDER / 'output.json'
+OUTPUTFILE = Path('Data') / 'FullData.json'
 
 
 translatePropertyName_part = {
@@ -204,12 +205,13 @@ def Compare():
 
 
 def main():
-    # DownloadSheet()
+    DownloadSheet()
     outputData = {"Barrels": [], "Magazines": [], "Grips": [], "Stocks": [], "Cores": []}
     ParseParts(outputData)
     ParseCores(outputData)
     SaveData(outputData)
-    Compare()
+    Penalties() # so this can be ran in one file instead of two. (I don't think I'll be running FileFormatter anymore)
+    # Compare()
 
 
 if __name__ == "__main__":

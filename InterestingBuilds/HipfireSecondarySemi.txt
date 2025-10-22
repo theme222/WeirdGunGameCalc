@@ -1,132 +1,142 @@
 ./Calculator -o InterestingBuilds/HipfireSecondarySemi.txt -i Sidearm --bc B17 Deagle --spreadHipMax 1 --magazineMin 20 --speedMin 5 --rangeMin 40 
 Current top 10 guns are: 
-[ Barrel: Dominus, Magazine: Scar H, Grip: Circuit Judge, Stock: None, Core: Luger ]
-damage: 20.2021 - 10.8233
-dropoffStuds: 42.86 - 107.15
-fireRate: 784
-adsSpread: 0.48195
-hipfireSpread: 0.48195
-reloadTime: 4.905
+[ Barrel: G3, Magazine: Scar H, Grip: MP 40, Stock: None, Core: Type 14 ]
+damage: 33.7964 - 19.4886
+dropoffStuds: 40.6715 - 92.9633
+fireRate: 441
+adsSpread: 0.332824
+hipfireSpread: 0.931907
+reloadTime: 4.5
 magazineSize: 20
-recoilHipVertical: 1.55 - 3.1
-recoilAimVertical: 0.465 - 0.93
-movementSpeed: 5
-TTK: 0.306122 Seconds
+health: -10
+recoilHipVertical: 13.455 - 31.395
+recoilAimVertical: 2.691 - 6.279
+movementSpeed: 6
+TTK: 0.272109 Seconds
 
-[ Barrel: MP 40, Magazine: Tommy, Grip: M1897 Trench Shotgun, Stock: None, Core: Luger ]
-damage: 20.0771 - 10.0385
-dropoffStuds: 40 - 100
-fireRate: 768.25
-adsSpread: 0.471653
-hipfireSpread: 0.471653
-reloadTime: 3.15
+[ Barrel: G3, Magazine: Scar H, Grip: Type 2a Nambu, Stock: None, Core: Type 14 ]
+damage: 34.0384 - 19.6281
+dropoffStuds: 40.6715 - 92.9633
+fireRate: 441
+adsSpread: 0.256313
+hipfireSpread: 0.717676
+reloadTime: 4.5
 magazineSize: 20
-recoilHipVertical: 1.2 - 2.4
-recoilAimVertical: 0.36 - 0.72
-movementSpeed: 5.25
-TTK: 0.312398 Seconds
+health: -17.5
+recoilHipVertical: 12.7305 - 29.7045
+recoilAimVertical: 2.5461 - 5.9409
+movementSpeed: 6
+TTK: 0.272109 Seconds
 
-[ Barrel: Type 2a Nambu, Magazine: Tommy, Grip: M1897 Trench Shotgun, Stock: None, Core: Luger ]
-damage: 20.4934 - 10.2467
-dropoffStuds: 40 - 100
-fireRate: 768.25
-adsSpread: 0.579593
-hipfireSpread: 0.579593
-reloadTime: 3.15
+[ Barrel: G3, Magazine: Fedorov, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
+damage: 33.6949 - 19.2303
+dropoffStuds: 40.178 - 91.8355
+fireRate: 441
+adsSpread: 0.345576
+hipfireSpread: 0.967613
+reloadTime: 4
+magazineSize: 25
+health: -10
+recoilHipVertical: 10.1844 - 23.7636
+recoilAimVertical: 2.03688 - 4.75272
+movementSpeed: 6
+TTK: 0.272109 Seconds
+
+[ Barrel: G3, Magazine: Scar H, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
+damage: 34.6837 - 20.0002
+dropoffStuds: 40.6715 - 92.9633
+fireRate: 441
+adsSpread: 0.345576
+hipfireSpread: 0.967613
+reloadTime: 4.5
 magazineSize: 20
-recoilHipVertical: 1 - 2
-recoilAimVertical: 0.3 - 0.6
-movementSpeed: 5.1
-TTK: 0.312398 Seconds
+health: -10
+recoilHipVertical: 10.35 - 24.15
+recoilAimVertical: 2.07 - 4.83
+movementSpeed: 6
+TTK: 0.272109 Seconds
 
-[ Barrel: Dominus, Magazine: Restroom, Grip: M1897 Trench Shotgun, Stock: None, Core: Luger ]
-damage: 16.8162 - 8.40808
-dropoffStuds: 40 - 100
-fireRate: 946.484
-adsSpread: 0.556537
-hipfireSpread: 0.556537
-reloadTime: 3.31905
-magazineSize: 35
-recoilHipVertical: 0.992 - 1.984
-recoilAimVertical: 0.2976 - 0.5952
-movementSpeed: 5
-TTK: 0.316963 Seconds
-
-[ Barrel: MP 40, Magazine: Tommy, Grip: PPSh-41, Stock: None, Core: Luger ]
-damage: 20.0771 - 10.0385
-dropoffStuds: 40 - 100
-fireRate: 752.5
-adsSpread: 0.364014
-hipfireSpread: 0.364014
-reloadTime: 3.45
+[ Barrel: FC200SH, Magazine: Scar H, Grip: Double Barrel, Stock: None, Core: Type 14 ]
+damage: 33.4451 - 19.3865
+dropoffStuds: 40.9152 - 93.5205
+fireRate: 436.5
+adsSpread: 0.256313
+hipfireSpread: 0.717676
+reloadTime: 4.86
 magazineSize: 20
-recoilHipVertical: 1.2 - 2.4
-recoilAimVertical: 0.36 - 0.72
-movementSpeed: 5.25
-TTK: 0.318937 Seconds
+health: -10
+recoilHipVertical: 13.5 - 31.5
+recoilAimVertical: 2.7 - 6.3
+movementSpeed: 7
+TTK: 0.274914 Seconds
 
-[ Barrel: Type 2a Nambu, Magazine: Tommy, Grip: PPSh-41, Stock: None, Core: Luger ]
-damage: 20.4934 - 10.2467
-dropoffStuds: 40 - 100
-fireRate: 752.5
-adsSpread: 0.447321
-hipfireSpread: 0.447321
-reloadTime: 3.45
+[ Barrel: FC200SH, Magazine: Scar H, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
+damage: 33.9584 - 19.6841
+dropoffStuds: 40.9152 - 93.5205
+fireRate: 436.5
+adsSpread: 0.345576
+hipfireSpread: 0.967613
+reloadTime: 4.86
 magazineSize: 20
-recoilHipVertical: 1 - 2
-recoilAimVertical: 0.3 - 0.6
-movementSpeed: 5.1
-TTK: 0.318937 Seconds
+health: -10
+recoilHipVertical: 7.5 - 17.5
+recoilAimVertical: 1.5 - 3.5
+movementSpeed: 9
+TTK: 0.274914 Seconds
 
-[ Barrel: Lipstick, Magazine: Paintball, Grip: M1897 Trench Shotgun, Stock: None, Core: Luger ]
-damage: 16.9728 - 8.48638
-dropoffStuds: 40 - 100
-fireRate: 933.731
-adsSpread: 0.463824
-hipfireSpread: 0.463824
-reloadTime: 6.7704
-magazineSize: 70
-recoilHipVertical: 1.12 - 2.24
-recoilAimVertical: 0.336 - 0.672
-movementSpeed: 5
-TTK: 0.321292 Seconds
-
-[ Barrel: Dominus, Magazine: SKS, Grip: M1897 Trench Shotgun, Stock: None, Core: Luger ]
-damage: 16.8162 - 8.736
-dropoffStuds: 41.56 - 103.9
-fireRate: 927.554
-adsSpread: 0.501096
-hipfireSpread: 0.501096
-reloadTime: 3.4335
+[ Barrel: FC200SH, Magazine: Scar H, Grip: Cyber 3517, Stock: None, Core: Type 14 ]
+damage: 33.4846 - 19.5502
+dropoffStuds: 41.3244 - 94.4557
+fireRate: 436.5
+adsSpread: 0.284367
+hipfireSpread: 0.796227
+reloadTime: 4.86
 magazineSize: 20
-recoilHipVertical: 1.5624 - 3.1248
-recoilAimVertical: 0.46872 - 0.93744
-movementSpeed: 5
-TTK: 0.323431 Seconds
+health: -10
+recoilHipVertical: 9.75 - 22.75
+recoilAimVertical: 1.95 - 4.55
+movementSpeed: 6
+TTK: 0.274914 Seconds
 
-[ Barrel: Dominus, Magazine: Restroom, Grip: PPSh-41, Stock: None, Core: Luger ]
-damage: 16.8162 - 8.40808
-dropoffStuds: 40 - 100
-fireRate: 927.08
-adsSpread: 0.429526
-hipfireSpread: 0.429526
-reloadTime: 3.63515
-magazineSize: 35
-recoilHipVertical: 0.992 - 1.984
-recoilAimVertical: 0.2976 - 0.5952
-movementSpeed: 5
-TTK: 0.323597 Seconds
+[ Barrel: BAR, Magazine: Scar H, Grip: Snake Sniper, Stock: None, Core: Type 14 ]
+damage: 33.9942 - 19.807
+dropoffStuds: 41.3465 - 94.5063
+fireRate: 405
+adsSpread: 0.270625
+hipfireSpread: 0.757751
+reloadTime: 4.5
+magazineSize: 20
+health: -10
+recoilHipVertical: 10.98 - 25.62
+recoilAimVertical: 2.196 - 5.124
+movementSpeed: 7
+TTK: 0.296296 Seconds
 
-[ Barrel: Dominus, Magazine: Paintball, Grip: Makarov, Stock: None, Core: Luger ]
-damage: 16.8096 - 8.40478
-dropoffStuds: 40 - 100
-fireRate: 925.12
-adsSpread: 0.47181
-hipfireSpread: 0.47181
-reloadTime: 6.758
-magazineSize: 70
-recoilHipVertical: 1.24 - 2.48
-recoilAimVertical: 0.372 - 0.744
-movementSpeed: 5
-TTK: 0.324282 Seconds
+[ Barrel: Scar H, Magazine: Scar H, Grip: Cyber 3517, Stock: None, Core: Type 14 ]
+damage: 34.8127 - 19.9112
+dropoffStuds: 40.3396 - 92.2047
+fireRate: 405
+adsSpread: 0.238387
+hipfireSpread: 0.667484
+reloadTime: 4.5
+magazineSize: 20
+health: -10
+recoilHipVertical: 11.7 - 27.3
+recoilAimVertical: 2.34 - 5.46
+movementSpeed: 6
+TTK: 0.296296 Seconds
+
+[ Barrel: MP18, Magazine: BAR, Grip: Cyber 3517, Stock: None, Core: Type 14 ]
+damage: 33.4864 - 19.2562
+dropoffStuds: 40.3653 - 92.2635
+fireRate: 396.9
+adsSpread: 0.312662
+hipfireSpread: 0.875454
+reloadTime: 4
+magazineSize: 20
+health: -10
+recoilHipVertical: 11.3256 - 26.4264
+recoilAimVertical: 2.26512 - 5.28528
+movementSpeed: 5.5
+TTK: 0.302343 Seconds
 

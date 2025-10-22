@@ -1,30 +1,5 @@
 ./Calculator -o InterestingBuilds/SecondarySemi.txt -i Sidearm --spreadAimMax 0.5 --magazineMin 10 --rangeMin 75 --fireRateMin 100 --speedMin -0.5 --reloadMax 4 --recoilAimMax 80 --healthMin 0 
 Current top 10 guns are: 
-[ Barrel: Type 2a Nambu, Magazine: Restroom, Grip: M1897 Trench Shotgun, Stock: None, Core: Cyber 3517 ]
-damage: 51.8611 - 28.5812
-dropoffStuds: 75 - 110
-fireRate: 239.036
-adsSpread: 0.392307
-hipfireSpread: 7.84615
-reloadTime: 3.045
-magazineSize: 35
-recoilHipVertical: 72 - 88
-recoilAimVertical: 57.6 - 70.4
-movementSpeed: 2.25
-TTK: 0.251009 Seconds
-
-[ Barrel: T10, Magazine: Restroom, Grip: M1897 Trench Shotgun, Stock: None, Core: Cyber 3517 ]
-damage: 50.1051 - 27.6135
-dropoffStuds: 75 - 110
-fireRate: 239.036
-adsSpread: 0.319246
-hipfireSpread: 6.38492
-reloadTime: 3.045
-magazineSize: 35
-recoilHipVertical: 75.6 - 92.4
-recoilAimVertical: 60.48 - 73.92
-TTK: 0.251009 Seconds
-
 [ Barrel: Quack, Magazine: Restroom, Grip: Circuit Judge, Stock: None, Core: Cyber 3517 ]
 damage: 50.3392 - 27.7425
 dropoffStuds: 75 - 110
@@ -61,19 +36,6 @@ recoilHipVertical: 81.648 - 99.792
 recoilAimVertical: 65.3184 - 79.8336
 TTK: 0.255183 Seconds
 
-[ Barrel: Mustard, Magazine: M110, Grip: Banana, Stock: None, Core: Cyber 3517 ]
-damage: 50.4509 - 30.1594
-dropoffStuds: 82.8 - 121.44
-fireRate: 235.125
-adsSpread: 0.329448
-hipfireSpread: 6.58895
-reloadTime: 3.8
-magazineSize: 10
-recoilHipVertical: 80.64 - 98.56
-recoilAimVertical: 64.512 - 78.848
-movementSpeed: 5
-TTK: 0.255183 Seconds
-
 [ Barrel: Mustard, Magazine: M110, Grip: Mega Soaker, Stock: None, Core: Cyber 3517 ]
 damage: 50.4509 - 30.1594
 dropoffStuds: 82.8 - 121.44
@@ -87,31 +49,18 @@ recoilAimVertical: 61.2864 - 74.9056
 movementSpeed: 2
 TTK: 0.255183 Seconds
 
-[ Barrel: Quack, Magazine: Tommy, Grip: M1897 Trench Shotgun, Stock: None, Core: Cyber 3517 ]
-damage: 52.5635 - 28.9683
-dropoffStuds: 75 - 110
-fireRate: 234.689
-adsSpread: 0.332914
-hipfireSpread: 6.65828
-reloadTime: 3.15
-magazineSize: 20
-recoilHipVertical: 81 - 99
-recoilAimVertical: 64.8 - 79.2
-movementSpeed: 2.85
-TTK: 0.255657 Seconds
-
-[ Barrel: Quack, Magazine: Improvised, Grip: M1897 Trench Shotgun, Stock: None, Core: Cyber 3517 ]
-damage: 51.9782 - 28.6457
-dropoffStuds: 75 - 110
-fireRate: 234.689
-adsSpread: 0.360542
-hipfireSpread: 7.21083
-reloadTime: 0.84
+[ Barrel: Mustard, Magazine: M110, Grip: Banana, Stock: None, Core: Cyber 3517 ]
+damage: 50.4509 - 30.1594
+dropoffStuds: 82.8 - 121.44
+fireRate: 235.125
+adsSpread: 0.329448
+hipfireSpread: 6.58895
+reloadTime: 3.8
 magazineSize: 10
-recoilHipVertical: 81 - 99
-recoilAimVertical: 64.8 - 79.2
+recoilHipVertical: 80.64 - 98.56
+recoilAimVertical: 64.512 - 78.848
 movementSpeed: 5
-TTK: 0.255657 Seconds
+TTK: 0.255183 Seconds
 
 [ Barrel: T10, Magazine: Restroom, Grip: PPSh-41, Stock: None, Core: Cyber 3517 ]
 damage: 50.1051 - 27.6135
@@ -124,4 +73,54 @@ magazineSize: 35
 recoilHipVertical: 75.6 - 92.4
 recoilAimVertical: 60.48 - 73.92
 TTK: 0.256262 Seconds
+
+[ Barrel: T10, Magazine: Restroom, Grip: M1897 Trench Shotgun, Stock: None, Core: Cyber 3517 ]
+damage: 50.1051 - 27.6135
+dropoffStuds: 75 - 110
+fireRate: 231.957
+adsSpread: 0.319246
+hipfireSpread: 6.38492
+reloadTime: 3.045
+magazineSize: 35
+recoilHipVertical: 75.6 - 92.4
+recoilAimVertical: 60.48 - 73.92
+TTK: 0.258669 Seconds
+
+[ Barrel: Quack, Magazine: Tommy, Grip: PPSh-41, Stock: None, Core: Cyber 3517 ]
+damage: 52.5635 - 28.9683
+dropoffStuds: 75 - 110
+fireRate: 229.878
+adsSpread: 0.256938
+hipfireSpread: 5.13876
+reloadTime: 3.45
+magazineSize: 20
+recoilHipVertical: 81 - 99
+recoilAimVertical: 64.8 - 79.2
+movementSpeed: 2.85
+TTK: 0.261008 Seconds
+
+[ Barrel: MP 40, Magazine: Restroom, Grip: P90, Stock: None, Core: Cyber 3517 ]
+damage: 50.8075 - 28.0006
+dropoffStuds: 75 - 110
+fireRate: 229.234
+adsSpread: 0.298051
+hipfireSpread: 5.96103
+reloadTime: 2.9
+magazineSize: 35
+recoilHipVertical: 79.272 - 96.888
+recoilAimVertical: 63.4176 - 77.5104
+movementSpeed: 2.4
+TTK: 0.261741 Seconds
+
+[ Barrel: T10, Magazine: Restroom, Grip: P90, Stock: None, Core: Cyber 3517 ]
+damage: 50.1051 - 27.6135
+dropoffStuds: 75 - 110
+fireRate: 229.234
+adsSpread: 0.298051
+hipfireSpread: 5.96103
+reloadTime: 2.9
+magazineSize: 35
+recoilHipVertical: 69.363 - 84.777
+recoilAimVertical: 55.4904 - 67.8216
+TTK: 0.261741 Seconds
 

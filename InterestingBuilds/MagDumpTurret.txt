@@ -1,7 +1,7 @@
 ./Calculator -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
 [ Barrel: FC200SH, Magazine: M1919 .30 Cal, Grip: Banana, Stock: Arisaka, Core: APS ]
-damage: 33.3716 - 49.0415
+damage: 33.3716 - 17.7016
 dropoffStuds: 111.834 - 149.112
 fireRate: 523.8
 adsSpread: 1.49482
@@ -55,20 +55,6 @@ recoilAimVertical: 19.44 - 27.24
 movementSpeed: 1.1
 TTK: 0.238211 Seconds
 
-[ Barrel: Tommy, Magazine: XXL AKM, Grip: M1897 Trench Shotgun, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.0029 - 9.76365
-dropoffStuds: 125.02 - 138.415
-fireRate: 753.917
-adsSpread: 0.718304
-hipfireSpread: 4.78869
-reloadTime: 9.45
-magazineSize: 90
-health: -8
-recoilHipVertical: 30 - 42
-recoilAimVertical: 19.44 - 27.24
-movementSpeed: 1.1
-TTK: 0.238753 Seconds
-
 [ Barrel: Tommy, Magazine: XXL AKM, Grip: Lee Enfield, Stock: Kriss Vector, Core: Type 2a Nambu ]
 damage: 25.0029 - 6.71579
 dropoffStuds: 100.016 - 110.732
@@ -84,7 +70,7 @@ movementSpeed: 1.1
 TTK: 0.240396 Seconds
 
 [ Barrel: FC200SH, Magazine: M1919 .30 Cal, Grip: Croissant, Stock: Arisaka, Core: APS ]
-damage: 33.3716 - 49.0415
+damage: 33.3716 - 17.7016
 dropoffStuds: 111.834 - 149.112
 fireRate: 497.61
 adsSpread: 1.30069
@@ -138,4 +124,18 @@ recoilHipVertical: 37.5 - 52.5
 recoilAimVertical: 24.3 - 34.05
 movementSpeed: 2.4
 TTK: 0.243909 Seconds
+
+[ Barrel: Tommy, Magazine: XXL AKM, Grip: P90, Stock: Kriss Vector, Core: Type 2a Nambu ]
+damage: 25.0029 - 9.76365
+dropoffStuds: 125.02 - 138.415
+fireRate: 735.026
+adsSpread: 0.670616
+hipfireSpread: 4.47077
+reloadTime: 9
+magazineSize: 90
+health: -8
+recoilHipVertical: 26.7 - 37.38
+recoilAimVertical: 17.3016 - 24.2436
+movementSpeed: 1.1
+TTK: 0.244889 Seconds
 

@@ -1,133 +1,132 @@
-./Calculator -o InterestingBuilds/M1Carbine.txt -i SMG --fc M1 Carbine --spreadHipMax 0.6 --magazineMin 20 --rangeMin 100 --fireRateMin 900 --speedMin -5 --recoilAimMax 3 
+./Calculator -o InterestingBuilds/M1Carbine.txt -i SMG --fc M1 Carbine --spreadHipMax 0.6 --magazineMin 20 --rangeMin 100 --fireRateMin 900 --recoilAimMax 6 
 Current top 10 guns are: 
-[ Barrel: Kriss Vector, Magazine: Mega Soaker, Grip: Mas-38, Stock: Kriss Vector, Core: M1 Carbine ]
-damage: 25.202 - 11.6224
-dropoffStuds: 104.92 - 123.01
-fireRate: 1265.77
-adsSpread: 0.396408
-hipfireSpread: 0.396408
-reloadTime: 5.4
-magazineSize: 60
-recoilHipVertical: 5.712 - 6.8544
-recoilAimVertical: 2.2848 - 2.74176
-movementSpeed: 13.6
-TTK: 0.142206 Seconds
+[ Barrel: Tommy, Magazine: Tommy, Grip: Mas-38, Stock: Spas-12, Core: M1 Carbine ]
+damage: 33.5598 - 18.0299
+dropoffStuds: 124.224 - 145.642
+fireRate: 958.994
+adsSpread: 0.409738
+hipfireSpread: 0.409738
+reloadTime: 3
+magazineSize: 20
+recoilHipVertical: 12.5 - 15
+recoilAimVertical: 5 - 6
+movementSpeed: 8.6
+TTK: 0.125131 Seconds
 
-[ Barrel: Spray Can, Magazine: Graphics Card, Grip: Mas-38, Stock: Kriss Vector, Core: M1 Carbine ]
-damage: 26.7851 - 12.3549
-dropoffStuds: 104.894 - 122.98
-fireRate: 1252.58
-adsSpread: 0.396408
-hipfireSpread: 0.396408
-reloadTime: 6
-magazineSize: 50
-recoilHipVertical: 6.16 - 7.392
-recoilAimVertical: 2.464 - 2.9568
-movementSpeed: 9.8
-TTK: 0.143703 Seconds
+[ Barrel: PP-19 Bizon, Magazine: Tommy, Grip: Mas-38, Stock: Spas-12, Core: M1 Carbine ]
+damage: 34.1813 - 17.7669
+dropoffStuds: 118.938 - 139.444
+fireRate: 941.069
+adsSpread: 0.409738
+hipfireSpread: 0.409738
+reloadTime: 3
+magazineSize: 20
+recoilHipVertical: 12.5 - 15
+recoilAimVertical: 5 - 6
+movementSpeed: 7.3
+TTK: 0.127515 Seconds
 
-[ Barrel: Spray Can, Magazine: Paintball, Grip: 10KG Dumbbell, Stock: Kriss Vector, Core: M1 Carbine ]
-damage: 26.2547 - 12.1788
-dropoffStuds: 104.208 - 122.175
-fireRate: 1223.14
-adsSpread: 0.46194
-hipfireSpread: 0.46194
-reloadTime: 7.44
-magazineSize: 70
-recoilHipVertical: 5.76 - 6.912
-recoilAimVertical: 2.304 - 2.7648
-movementSpeed: -2.2
-TTK: 0.147162 Seconds
+[ Barrel: Tommy, Magazine: Tommy, Grip: Mas-38, Stock: Kriss Vector, Core: M1 Carbine ]
+damage: 33.5598 - 17.5731
+dropoffStuds: 120.421 - 141.183
+fireRate: 940.535
+adsSpread: 0.475296
+hipfireSpread: 0.475296
+reloadTime: 3
+magazineSize: 20
+recoilHipVertical: 10 - 12
+recoilAimVertical: 4 - 4.8
+movementSpeed: 14.9
+TTK: 0.127587 Seconds
 
-[ Barrel: Kriss Vector, Magazine: NP5, Grip: Mas-38, Stock: Kriss Vector, Core: M1 Carbine ]
-damage: 26.5146 - 11.9656
-dropoffStuds: 102.614 - 120.306
-fireRate: 1213.03
-adsSpread: 0.376687
-hipfireSpread: 0.376687
-reloadTime: 2
-magazineSize: 30
-recoilHipVertical: 6.12 - 7.344
-recoilAimVertical: 2.448 - 2.9376
-movementSpeed: 13.9
-TTK: 0.148389 Seconds
+[ Barrel: Tommy, Magazine: Tommy, Grip: Mas-38, Stock: AR-8X, Core: M1 Carbine ]
+damage: 33.5598 - 18.3344
+dropoffStuds: 126.759 - 148.614
+fireRate: 928.229
+adsSpread: 0.417022
+hipfireSpread: 0.417022
+reloadTime: 3
+magazineSize: 20
+recoilHipVertical: 12.5 - 15
+recoilAimVertical: 5 - 6
+movementSpeed: 9.6
+TTK: 0.129278 Seconds
 
-[ Barrel: Kriss Vector, Magazine: Kriss Vector, Grip: AWM, Stock: Kriss Vector, Core: M1 Carbine ]
-damage: 25.4645 - 11.9352
-dropoffStuds: 105.379 - 123.547
-fireRate: 1204.07
-adsSpread: 0.390845
-hipfireSpread: 0.390845
-reloadTime: 2.688
-magazineSize: 30
-recoilHipVertical: 6.2424 - 7.49088
-recoilAimVertical: 2.49696 - 2.99635
-movementSpeed: 11.9
-TTK: 0.149493 Seconds
+[ Barrel: Tommy, Magazine: Tommy, Grip: 10KG Dumbbell, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 33.5598 - 17.196
+dropoffStuds: 115.855 - 135.83
+fireRate: 926.272
+adsSpread: 0.451739
+hipfireSpread: 0.451739
+reloadTime: 3.6
+magazineSize: 20
+recoilHipVertical: 10.98 - 13.176
+recoilAimVertical: 4.392 - 5.2704
+movementSpeed: -0.4
+TTK: 0.129552 Seconds
 
-[ Barrel: Kriss Vector, Magazine: Graphics Card, Grip: Mas-38, Stock: Kriss Vector, Core: M1 Carbine ]
-damage: 26.5146 - 12.3588
-dropoffStuds: 106.073 - 124.361
-fireRate: 1202.48
-adsSpread: 0.396408
-hipfireSpread: 0.396408
-reloadTime: 6
-magazineSize: 50
-recoilHipVertical: 5.236 - 6.2832
-recoilAimVertical: 2.0944 - 2.51328
-movementSpeed: 10.6
-TTK: 0.149691 Seconds
-
-[ Barrel: Kriss Vector, Magazine: P90, Grip: 10KG Dumbbell, Stock: Kriss Vector, Core: M1 Carbine ]
-damage: 25.8583 - 12.8067
-dropoffStuds: 110.648 - 129.725
-fireRate: 1194.12
-adsSpread: 0.547701
-hipfireSpread: 0.547701
-reloadTime: 4.8
-magazineSize: 50
-recoilHipVertical: 5.3856 - 6.46272
-recoilAimVertical: 2.15424 - 2.58509
-movementSpeed: -1.6
-TTK: 0.150739 Seconds
-
-[ Barrel: Kriss Vector, Magazine: Mega Soaker, Grip: AWM, Stock: Kriss Vector, Core: M1 Carbine ]
-damage: 25.202 - 12.5108
-dropoffStuds: 112.817 - 132.268
-fireRate: 1194.12
-adsSpread: 0.390845
-hipfireSpread: 0.390845
-reloadTime: 6.048
-magazineSize: 60
-recoilHipVertical: 6.16896 - 7.40275
-recoilAimVertical: 2.46758 - 2.9611
-movementSpeed: 11.6
-TTK: 0.150739 Seconds
-
-[ Barrel: Kriss Vector, Magazine: Kriss Vector, Grip: Mas-38, Stock: G3, Core: M1 Carbine ]
-damage: 25.4645 - 11.6775
-dropoffStuds: 103.16 - 120.946
-fireRate: 1192.82
-adsSpread: 0.323506
-hipfireSpread: 0.323506
+[ Barrel: Spray Can, Magazine: Kriss Vector, Grip: Mas-38, Stock: M1897 Trench Shotgun, Core: M1 Carbine ]
+damage: 25.7243 - 11.6701
+dropoffStuds: 102.014 - 119.603
+fireRate: 1387.89
+adsSpread: 0.38122
+hipfireSpread: 0.38122
 reloadTime: 2.4
 magazineSize: 30
-recoilHipVertical: 6.06178 - 7.27413
-recoilAimVertical: 2.42471 - 2.90965
-movementSpeed: 3.6
-TTK: 0.150903 Seconds
+recoilHipVertical: 10.37 - 12.444
+recoilAimVertical: 4.148 - 4.9776
+movementSpeed: 9.8
+TTK: 0.129693 Seconds
 
-[ Barrel: Kriss Vector, Magazine: Kriss Vector, Grip: Mas-38, Stock: Keyboard, Core: M1 Carbine ]
-damage: 25.4645 - 11.6775
-dropoffStuds: 103.16 - 120.946
-fireRate: 1192.82
+[ Barrel: PP-19 Bizon, Magazine: Scar H, Grip: Mas-38, Stock: Kriss Vector, Core: M1 Carbine ]
+damage: 33.8866 - 18.425
+dropoffStuds: 124.175 - 145.584
+fireRate: 922.955
 adsSpread: 0.396408
 hipfireSpread: 0.396408
-reloadTime: 2.52
-magazineSize: 30
-health: 21
-recoilHipVertical: 6.069 - 7.2828
-recoilAimVertical: 2.4276 - 2.91312
-movementSpeed: -4.4
-TTK: 0.150903 Seconds
+reloadTime: 4.5
+magazineSize: 20
+recoilHipVertical: 12.5 - 15
+recoilAimVertical: 5 - 6
+movementSpeed: 9.8
+TTK: 0.130017 Seconds
+
+[ Barrel: PP-19 Bizon, Magazine: Tommy, Grip: Mas-38, Stock: Kriss Vector, Core: M1 Carbine ]
+damage: 34.1813 - 17.2841
+dropoffStuds: 115.297 - 135.175
+fireRate: 922.955
+adsSpread: 0.475296
+hipfireSpread: 0.475296
+reloadTime: 3
+magazineSize: 20
+recoilHipVertical: 10 - 12
+recoilAimVertical: 4 - 4.8
+movementSpeed: 13.6
+TTK: 0.130017 Seconds
+
+[ Barrel: Tommy, Magazine: Tommy, Grip: Mas-38, Stock: Fedorov, Core: M1 Carbine ]
+damage: 33.5598 - 18.3344
+dropoffStuds: 126.759 - 148.614
+fireRate: 922.076
+adsSpread: 0.366032
+hipfireSpread: 0.366032
+reloadTime: 3.21
+magazineSize: 20
+recoilHipVertical: 11.625 - 13.95
+recoilAimVertical: 4.65 - 5.58
+movementSpeed: 9.6
+TTK: 0.130141 Seconds
+
+[ Barrel: Tommy, Magazine: Tommy, Grip: Mas-38, Stock: MAC-10, Core: M1 Carbine ]
+damage: 33.5598 - 18.3344
+dropoffStuds: 126.759 - 148.614
+fireRate: 918.56
+adsSpread: 0.424306
+hipfireSpread: 0.424306
+reloadTime: 3
+magazineSize: 20
+recoilHipVertical: 12.5 - 15
+recoilAimVertical: 5 - 6
+movementSpeed: 16.2
+TTK: 0.130639 Seconds
 

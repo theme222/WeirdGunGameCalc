@@ -84,6 +84,48 @@ recoilAimVertical: 6.468 - 7.1148
 movementSpeed: -5.5
 TTK: 0.20122 Seconds
 
+[ Barrel: M40, Magazine: FAL, Grip: APS, Stock: Speed Coil, Core: SKS ]
+damage: 33.8302 - 23.1737
+dropoffStuds: 157.625 - 485
+fireRate: 595.258
+adsSpread: 0.594159
+hipfireSpread: 11.8832
+reloadTime: 1.802
+magazineSize: 20
+health: -5
+recoilHipVertical: 11.7363 - 12.91
+recoilAimVertical: 5.86817 - 6.45499
+movementSpeed: 7.5
+TTK: 0.201593 Seconds
+
+[ Barrel: M1891, Magazine: FAL, Grip: M1 Garand, Stock: Speed Coil, Core: SKS ]
+damage: 36.9623 - 24.6908
+dropoffStuds: 152.1 - 468
+fireRate: 592.515
+adsSpread: 0.563917
+hipfireSpread: 11.2783
+reloadTime: 2.04
+magazineSize: 20
+health: -5
+recoilHipVertical: 13.44 - 14.784
+recoilAimVertical: 6.72 - 7.392
+movementSpeed: 4.5
+TTK: 0.202527 Seconds
+
+[ Barrel: M1891, Magazine: FAL, Grip: PPSh-41, Stock: Speed Coil, Core: SKS ]
+damage: 36.9623 - 24.6908
+dropoffStuds: 152.1 - 468
+fireRate: 587.029
+adsSpread: 0.52464
+hipfireSpread: 10.4928
+reloadTime: 2.346
+magazineSize: 20
+health: -5
+recoilHipVertical: 13.44 - 14.784
+recoilAimVertical: 6.72 - 7.392
+movementSpeed: 7.5
+TTK: 0.204419 Seconds
+
 [ Barrel: M1891, Magazine: Restroom, Grip: P90, Stock: Fedorov, Core: SKS ]
 damage: 33.6323 - 22.4664
 dropoffStuds: 152.1 - 468
@@ -97,46 +139,4 @@ recoilHipVertical: 13.2912 - 14.6203
 recoilAimVertical: 6.6456 - 7.31016
 movementSpeed: -2
 TTK: 0.204614 Seconds
-
-[ Barrel: M1891, Magazine: FG-42, Grip: P90, Stock: Speed Coil, Core: SKS ]
-damage: 34.9643 - 23.3561
-dropoffStuds: 152.1 - 468
-fireRate: 585.971
-adsSpread: 0.562159
-hipfireSpread: 11.2432
-reloadTime: 3.57
-magazineSize: 20
-health: -5
-recoilHipVertical: 12.9589 - 14.2548
-recoilAimVertical: 6.47946 - 7.12741
-movementSpeed: 8
-TTK: 0.204788 Seconds
-
-[ Barrel: M1891, Magazine: Restroom, Grip: FG-42, Stock: Fedorov, Core: SKS ]
-damage: 33.6323 - 22.4664
-dropoffStuds: 152.1 - 468
-fireRate: 581.438
-adsSpread: 0.209961
-hipfireSpread: 4.19921
-reloadTime: 3.83531
-magazineSize: 35
-health: 5
-recoilHipVertical: 12.384 - 13.6224
-recoilAimVertical: 6.192 - 6.8112
-movementSpeed: -2
-TTK: 0.206385 Seconds
-
-[ Barrel: M1891, Magazine: FG-42, Grip: FG-42, Stock: Speed Coil, Core: SKS ]
-damage: 34.9643 - 23.3561
-dropoffStuds: 152.1 - 468
-fireRate: 580.944
-adsSpread: 0.502195
-hipfireSpread: 10.0439
-reloadTime: 3.6771
-magazineSize: 20
-health: -5
-recoilHipVertical: 12.0744 - 13.2818
-recoilAimVertical: 6.0372 - 6.64092
-movementSpeed: 8
-TTK: 0.20656 Seconds
 

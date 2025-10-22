@@ -1,7 +1,7 @@
 ./Calculator -o InterestingBuilds/LowRecoilBeam.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 45 --spreadAimMax 0.4 --rangeMin 150 --speedMin 0 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
 [ Barrel: Mustard, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.3942 - 10.4358
+damage: 14.3942 - 10.4774
 dropoffStuds: 180 - 385
 fireRate: 1540.2
 adsSpread: 0.360663
@@ -15,7 +15,7 @@ movementSpeed: 1.5
 TTK: 0.233737 Seconds
 
 [ Barrel: Spray Can, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.844 - 10.3129
+damage: 14.844 - 10.3605
 dropoffStuds: 160.2 - 342.65
 fireRate: 1540.2
 adsSpread: 0.257983
@@ -29,7 +29,7 @@ movementSpeed: 4
 TTK: 0.233737 Seconds
 
 [ Barrel: BAR, Magazine: MG42, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 20.7053 - 14.6071
+damage: 20.7053 - 14.6712
 dropoffStuds: 160.38 - 343.035
 fireRate: 1005.16
 adsSpread: 0.3815
@@ -42,36 +42,22 @@ recoilAimVertical: 6.09756 - 6.62021
 movementSpeed: 3
 TTK: 0.238769 Seconds
 
-[ Barrel: Spray Can, Magazine: Paintball, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.844 - 10.3129
-dropoffStuds: 160.2 - 342.65
-fireRate: 1489.97
-adsSpread: 0.271502
-hipfireSpread: 8.14505
-reloadTime: 6.51
+[ Barrel: Spray Can, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
+damage: 14.844 - 10.2709
+dropoffStuds: 156.996 - 335.797
+fireRate: 1499.49
+adsSpread: 0.23126
+hipfireSpread: 6.93779
+reloadTime: 6.2
 magazineSize: 70
 health: -7.5
-recoilHipVertical: 12.2 - 13.42
-recoilAimVertical: 4.27 - 4.636
-movementSpeed: 10
-TTK: 0.241615 Seconds
-
-[ Barrel: Mustard, Magazine: Paintball, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.3942 - 10.4358
-dropoffStuds: 180 - 385
-fireRate: 1489.97
-adsSpread: 0.379562
-hipfireSpread: 11.3869
-reloadTime: 6.51
-magazineSize: 70
-health: -7.5
-recoilHipVertical: 12.2 - 13.42
-recoilAimVertical: 4.27 - 4.636
-movementSpeed: 7.5
-TTK: 0.241615 Seconds
+recoilHipVertical: 14.4 - 15.84
+recoilAimVertical: 5.04 - 5.472
+movementSpeed: 1
+TTK: 0.240082 Seconds
 
 [ Barrel: Mustard, Magazine: Graphics Card, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.685 - 10.3236
+damage: 14.685 - 10.3694
 dropoffStuds: 165.6 - 354.2
 fireRate: 1487.98
 adsSpread: 0.305878
@@ -85,7 +71,7 @@ movementSpeed: 1.5
 TTK: 0.241938 Seconds
 
 [ Barrel: M870 Breacher, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 17.393 - 12.1316
+damage: 17.393 - 12.1869
 dropoffStuds: 162 - 346.5
 fireRate: 1232.16
 adsSpread: 0.334993
@@ -99,7 +85,7 @@ movementSpeed: 3.75
 TTK: 0.243476 Seconds
 
 [ Barrel: M870 MCS, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 16.7183 - 11.8449
+damage: 16.7183 - 11.8961
 dropoffStuds: 169.2 - 361.9
 fireRate: 1232.16
 adsSpread: 0.229104
@@ -113,7 +99,7 @@ movementSpeed: 1.5
 TTK: 0.243476 Seconds
 
 [ Barrel: BAR, Magazine: Lewis, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 20.0374 - 14.0863
+damage: 20.0374 - 14.1489
 dropoffStuds: 158.4 - 338.8
 fireRate: 979.332
 adsSpread: 0.298995
@@ -126,17 +112,29 @@ recoilAimVertical: 6.04632 - 6.56458
 movementSpeed: 4
 TTK: 0.245065 Seconds
 
-[ Barrel: Snake Sniper, Magazine: Graphics Card, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 16.796 - 11.8076
-dropoffStuds: 165.6 - 354.2
-fireRate: 1218.96
-adsSpread: 0.262337
-hipfireSpread: 7.87011
-reloadTime: 6.42
+[ Barrel: BAR, Magazine: MG42, Grip: Type 2a Nambu, Stock: Spas-12, Core: Burton ]
+damage: 20.0183 - 14.0677
+dropoffStuds: 157.172 - 336.174
+fireRate: 978.588
+adsSpread: 0.253647
+hipfireSpread: 7.60941
+reloadTime: 5.5
 magazineSize: 50
-health: -12.5
-recoilHipVertical: 13.5274 - 14.8801
-recoilAimVertical: 4.73458 - 5.1404
-movementSpeed: 1.5
-TTK: 0.246112 Seconds
+health: -15
+recoilHipVertical: 17.5644 - 19.3208
+recoilAimVertical: 6.14754 - 6.67447
+TTK: 0.245251 Seconds
+
+[ Barrel: BAR, Magazine: MG42, Grip: Circuit Judge, Stock: Spas-12, Core: Burton ]
+damage: 20.7053 - 14.5505
+dropoffStuds: 157.172 - 336.174
+fireRate: 978.588
+adsSpread: 0.341982
+hipfireSpread: 10.2595
+reloadTime: 5.5
+magazineSize: 50
+health: -7.5
+recoilHipVertical: 14.28 - 15.708
+recoilAimVertical: 4.998 - 5.4264
+TTK: 0.245251 Seconds
 

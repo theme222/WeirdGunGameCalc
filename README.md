@@ -13,15 +13,21 @@ will be updated in the `InterestingBuilds` folder. If you find any guns that
 have stats that are different from the game please notify me on discord
 @theme222 or open an issue here on github.
 
-## Data
-The data it reads is the output of `FileFormatter.py` that formats the .txt
-files in RawData scraped using a `DataScreenshotter.py` originally provided by
-@zyadak. Existing data is also verified by reading roblox memory using
-@emma.5829's script (Not here cause it technically is against roblox tos haha).
+## Dataset
+
+Previously data was read from a list of .txt files that contained the partlist
+originally provided by @zyadak. This was then verified later by reading roblox
+memory using @emma.5829's script. Currently however, the data has been merged
+with @spiderkitty410's google sheet which you can find
+[here](https://docs.google.com/spreadsheets/d/1Kc9aME3xlUC_vV5dFRe457OchqUOrwuiX_pQykjCF68/edit?gid=911413911#gid=911413911)
+(This is due to the fact that I am not as available as I used to be to update
+this every week). Currently I have a script `ParseSheet.py` that will
+automatically download the latest version of the sheet as a csv and format +
+update the data placing it in the `Data` folder.
 
 ## Usage
 
-If you are unfamilliar with programmer slang and want the easy step by step guide go [here](https://scribehow.com/shared/How_to_Download_and_Run_Weird_Gun_Game_Calculator__5Ys-2XhCR5-tHUvSz9-y_g)
+If you are unfamilliar with programmer *slang* and want the easy step by step guide go [here](https://scribehow.com/shared/How_to_Download_and_Run_Weird_Gun_Game_Calculator__5Ys-2XhCR5-tHUvSz9-y_g)
 
 Download (or clone) this repository and get the [latest
 release](https://github.com/theme222/WeirdGunGameCalc/releases) that corresponds
@@ -39,20 +45,23 @@ Filters can contain both a minimum amount and a maximum amount. They can be adde
 You may also force a specific part type using this syntax `--force<part type> "<part name (CASE SENSITIVE)>"`
 You may ban parts by using this syntax `--ban<part type> "<partname (CASE SENSITIVE)>" "<part2>" "<part3>" ...`
 
-You can also look for some example commands that I use to fill the `InterestingBuilds` directory in the `Commands.sh` file.
+You can also look for some example commands that I use to fill the
+`InterestingBuilds` directory in the `Commands.sh` file.
 
 This is the full list of flags supported:
+
 ```sh
 # Result of Calculator --help (Slightly modified to look better because it's kinda ugly. Lookin at you CLI11)
--h,   --help                Print this help message and exit
--f,   --file TEXT           Path to the directory containing the json file (Default: Data)
--o,   --output TEXT         Path to the output file (Default: Results.txt)
--t,   --threads INT         Number of threads to use [1, 64] (Default: AUTODETECT)
--s,   --sort TEXT           Sorting type (TTK, FIRERATE, ADSSPREAD, HIPFIRESPREAD, RECOIL, SPEED, HEALTH, MAGAZINE, RELOAD) (Default: TTK)
--n,   --number INT          Number of top guns to display (Default: 10)
--m,   --method TEXT         Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)
--i,   --include TEXT        Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird) (REQUIRED)
--d,   --detailed            Display all stats of the gun including irrelevant ones
+-h,   --help                 Print this help message and exit
+-f,   --file TEXT            Path to the directory containing the json file (Default: Data)
+-o,   --output TEXT          Path to the output file (Default: Results.txt)
+-t,   --threads INT          Number of threads to use [1, 64] (Default: AUTODETECT)
+-s,   --sort TEXT            Sorting type (TTK, FIRERATE, ADSSPREAD, HIPFIRESPREAD, RECOIL, SPEED, HEALTH, MAGAZINE, RELOAD, DPS) (Default: TTK)
+-n,   --number INT           Number of top guns to display (Default: 10)
+-m,   --method TEXT          Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)
+-i,   --include TEXT         Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird) (REQUIRED)
+-d,   --detailed             Display all stats of the gun including irrelevant ones
+--mh, --defaultMaxHealth INT Set the player max health for TTK calculation (Default: 100)
 
 --fb, --forceBarrel TEXT    Force the calculator to use a specific barrel
 --fm, --forceMagazine TEXT  Force the calculator to use a specific magazine
@@ -103,7 +112,7 @@ This is the full list of flags supported:
 
 ## Compile from source
 ### Prerequisites
-g++ that supports c++20 onwards.
+g++ that supports c++20 onwards. (Or really any c++ compiler)
 
 ### Libraries
 You will have to download 2 dependencies:
@@ -113,9 +122,19 @@ You will have to download 2 dependencies:
 
 And add it to a new directory called `include` in the same directory as `Calculator.cpp`.
 
+The directory structure should look like this:
+```
+├── Calculator.cpp
+├── include
+│   ├── CLI11.hpp
+│   └── json.hpp
+├── ...
+```
+
 ### Run
 If compiling for use locally -static is useless and will only increase binary size.
 ```sh
+# Replace Calculator with Calculator.exe if on Windows
 g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror -O2 -static
 ```
 No idea how to use cmake lol

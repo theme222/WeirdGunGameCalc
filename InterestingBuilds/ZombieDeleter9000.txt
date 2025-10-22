@@ -1,0 +1,148 @@
+./Calculator -o InterestingBuilds/ZombieDeleter9000 -i SMG AR LMG Weird --sort DPS --spreadAimMax 0.7 --rangeMin 130 --magazineMin 40 --reloadMax 2 --recoilAimMax 35 --speedMin 0 --bc FC200SH M1 Carbine G11 Loaf 
+Current top 10 guns are: 
+[ Barrel: Spray Can, Magazine: P90, Grip: Pistol Pistol, Stock: PPSh-41, Core: Type 2a Nambu ]
+damage: 20.0542 - 8.4736
+dropoffStuds: 130.83 - 144.847
+fireRate: 900
+adsSpread: 0.638604
+hipfireSpread: 4.25736
+reloadTime: 1.8
+magazineSize: 50
+health: -8
+recoilHipVertical: 38.4175 - 53.7845
+recoilAimVertical: 24.8945 - 34.8831
+movementSpeed: 4.3
+TTK: 0.266667 Seconds
+DPS: 300.813
+
+[ Barrel: MG42, Magazine: Scar L, Grip: Pistol Pistol, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 14.685 - 9.80998
+dropoffStuds: 140.4 - 300.3
+fireRate: 1225.8
+adsSpread: 0.339251
+hipfireSpread: 10.1775
+reloadTime: 1.8
+magazineSize: 40
+health: -7.5
+recoilHipVertical: 14.8291 - 16.312
+recoilAimVertical: 5.19019 - 5.63506
+movementSpeed: 0.5
+TTK: 0.293686 Seconds
+DPS: 300.015
+
+[ Barrel: Circuit Judge, Magazine: Burton, Grip: PPSh-41, Stock: Circuit Judge, Core: Mega Soaker ]
+damage: 9.86977 - 6.66964
+dropoffStuds: 131.6 - 235
+fireRate: 1817.2
+adsSpread: 0.625534
+hipfireSpread: 5.62981
+reloadTime: 1.88169
+magazineSize: 40
+recoilHipVertical: 23.75 - 33.75
+recoilAimVertical: 17.875 - 25.375
+TTK: 0.330178 Seconds
+DPS: 298.922
+
+[ Barrel: MG42, Magazine: Scar L, Grip: Circuit Judge, Stock: Circuit Judge, Core: Burton ]
+damage: 16.5971 - 11.0873
+dropoffStuds: 140.4 - 300.3
+fireRate: 1080
+adsSpread: 0.382857
+hipfireSpread: 11.4857
+reloadTime: 1.9875
+magazineSize: 40
+health: -7.5
+recoilHipVertical: 11.05 - 12.155
+recoilAimVertical: 3.8675 - 4.199
+movementSpeed: 0.5
+TTK: 0.333333 Seconds
+DPS: 298.748
+
+[ Barrel: Tommy, Magazine: Burton, Grip: M1 Garand, Stock: Circuit Judge, Core: Mega Soaker ]
+damage: 9.269 - 6.26366
+dropoffStuds: 131.6 - 235
+fireRate: 1909.05
+adsSpread: 0.694654
+hipfireSpread: 6.25189
+reloadTime: 1.925
+magazineSize: 40
+recoilHipVertical: 23.75 - 33.75
+recoilAimVertical: 17.875 - 25.375
+movementSpeed: 0.8
+TTK: 0.314292 Seconds
+DPS: 294.917
+
+[ Barrel: Spray Can, Magazine: Burton, Grip: Snake Sniper, Stock: Circuit Judge, Core: Mega Soaker ]
+damage: 8.49658 - 5.90023
+dropoffStuds: 137.06 - 244.75
+fireRate: 2065
+adsSpread: 0.528766
+hipfireSpread: 4.7589
+reloadTime: 1.925
+magazineSize: 40
+recoilHipVertical: 23.18 - 32.94
+recoilAimVertical: 17.446 - 24.766
+movementSpeed: 1
+TTK: 0.319613 Seconds
+DPS: 292.424
+
+[ Barrel: MG42, Magazine: P90, Grip: Pistol Pistol, Stock: Circuit Judge, Core: Burton ]
+damage: 14.3215 - 9.72168
+dropoffStuds: 144.963 - 310.06
+fireRate: 1220.4
+adsSpread: 0.379799
+hipfireSpread: 11.394
+reloadTime: 1.59
+magazineSize: 50
+health: -7.5
+recoilHipVertical: 15.73 - 17.303
+recoilAimVertical: 5.5055 - 5.9774
+movementSpeed: 0.3
+TTK: 0.294985 Seconds
+DPS: 291.3
+
+[ Barrel: MG42, Magazine: P90, Grip: Pistol Pistol, Stock: Hell-Trooper-23, Core: Burton ]
+damage: 14.3215 - 9.72168
+dropoffStuds: 144.963 - 310.06
+fireRate: 1220.4
+adsSpread: 0.330475
+hipfireSpread: 9.91424
+reloadTime: 1.95
+magazineSize: 50
+health: -7.5
+recoilHipVertical: 17.303 - 19.0333
+recoilAimVertical: 6.05605 - 6.57514
+movementSpeed: 0.3
+TTK: 0.294985 Seconds
+DPS: 291.3
+
+[ Barrel: MG42, Magazine: Scar L, Grip: P90, Stock: Circuit Judge, Core: Burton ]
+damage: 15.4498 - 10.3209
+dropoffStuds: 140.4 - 300.3
+fireRate: 1129.14
+adsSpread: 0.31787
+hipfireSpread: 9.53611
+reloadTime: 1.9875
+magazineSize: 40
+health: -7.5
+recoilHipVertical: 10.2599 - 11.2859
+recoilAimVertical: 3.59097 - 3.89877
+movementSpeed: 0.5
+TTK: 0.318827 Seconds
+DPS: 290.751
+
+[ Barrel: Spray Can, Magazine: Scar L, Grip: Lewis, Stock: Circuit Judge, Core: Burton ]
+damage: 15.1439 - 10.5698
+dropoffStuds: 160.2 - 342.65
+fireRate: 1150
+adsSpread: 0.231416
+hipfireSpread: 6.94247
+reloadTime: 1.9875
+magazineSize: 40
+health: -7.5
+recoilHipVertical: 12.24 - 13.464
+recoilAimVertical: 4.284 - 4.6512
+movementSpeed: 4
+TTK: 0.313044 Seconds
+DPS: 290.258
+

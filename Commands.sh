@@ -6,7 +6,7 @@ set -e # Stops on error
 # You don't need to recompile obviously.
 g++ -Iinclude -std=c++20 Calculator.cpp -o Calculator -O2
 # This doesn't need to be re ran every time because it saves it's results in Data already.
-python FileFormatter.py
+python ParseSheet.py
 
 IB="InterestingBuilds"
 BANSEMI=(--bc "FC200SH" "M1 Carbine" "G11" "Loaf")
@@ -21,6 +21,7 @@ BANSEMI=(--bc "FC200SH" "M1 Carbine" "G11" "Loaf")
 ./Calculator -o $IB/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 "${BANSEMI[@]}"
 ./Calculator -o $IB/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 "${BANSEMI[@]}"
 ./Calculator -o $IB/LowRecoilBeam.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 45 --spreadAimMax 0.4 --rangeMin 150 --speedMin 0 "${BANSEMI[@]}"
+./Calculator -o $IB/ZombieDeleter9000.txt -i SMG AR LMG Weird --sort DPS --spreadAimMax 0.7 --rangeMin 130 --magazineMin 40 --reloadMax 2 --recoilAimMax 35 --speedMin 0 "${BANSEMI[@]}"
 ####################### AUTOMATICS #######################
 
 ####################### SNIPERS #######################
@@ -45,5 +46,4 @@ BANSEMI=(--bc "FC200SH" "M1 Carbine" "G11" "Loaf")
 ./Calculator -o $IB/HipfireSecondaryAuto.txt -i Sidearm --fc "B17" --spreadHipMax 1 --magazineMin 30 --speedMin 0 --rangeMin 20
 ./Calculator -o $IB/HipfireSecondarySemi.txt -i Sidearm --bc "B17" "Deagle" --spreadHipMax 1 --magazineMin 20 --speedMin 5 --rangeMin 40
 ./Calculator -o $IB/SecondarySemi.txt -i Sidearm --spreadAimMax 0.5 --magazineMin 10 --rangeMin 75 --fireRateMin 100 --speedMin -0.5 --reloadMax 4 --recoilAimMax 80 --healthMin 0
-./Calculator -o $IB/HipfireSecondaryShotgun.txt -i Sidearm --fc EG200 --damageEndMin 80 --spreadHipMax 2 --sort HIPFIRESPREAD
 ####################### SECONDARIES #######################

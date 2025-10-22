@@ -1,7 +1,7 @@
 ./Calculator -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80 
 Current top 10 guns are: 
 [ Barrel: Spray Can, Magazine: M40, Grip: Auto-5, Stock: P90, Core: Circuit Judge ]
-damage: 141.924 - 32.0428
+damage: 141.924 - 28.4983
 dropoffStuds: 83.215 - 137.06
 pellets: 8
 fireRate: 80.7975
@@ -14,7 +14,7 @@ recoilAimVertical: 35.28 - 43.596
 movementSpeed: 4.45
 
 [ Barrel: Spray Can, Magazine: M40, Grip: Auto-5, Stock: STG-44, Core: Circuit Judge ]
-damage: 141.924 - 32.0428
+damage: 141.924 - 28.4983
 dropoffStuds: 83.215 - 137.06
 pellets: 8
 fireRate: 80.4037
@@ -26,21 +26,8 @@ recoilHipVertical: 90 - 111.375
 recoilAimVertical: 31.5 - 38.925
 movementSpeed: 2.5
 
-[ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: AWM, Core: Circuit Judge ]
-damage: 142.343 - 27.2395
-dropoffStuds: 80.189 - 132.076
-pellets: 8
-fireRate: 79.875
-adsSpread: 1.72595
-hipfireSpread: 4.66473
-reloadTime: 3.19125
-magazineSize: 30
-recoilHipVertical: 89.056 - 110.207
-recoilAimVertical: 31.1696 - 38.5167
-movementSpeed: 1.5
-
 [ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: JSG12, Core: Circuit Judge ]
-damage: 142.343 - 27.2395
+damage: 142.343 - 23.5265
 dropoffStuds: 80.189 - 132.076
 pellets: 8
 fireRate: 79.875
@@ -53,7 +40,7 @@ recoilAimVertical: 28.336 - 35.0152
 movementSpeed: 4.5
 
 [ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: M870, Core: Circuit Judge ]
-damage: 142.343 - 27.2395
+damage: 142.343 - 23.5265
 dropoffStuds: 80.189 - 132.076
 pellets: 8
 fireRate: 79.875
@@ -66,20 +53,46 @@ recoilAimVertical: 24.0856 - 29.7629
 movementSpeed: 1.5
 
 [ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: MG42, Core: Circuit Judge ]
-damage: 142.343 - 27.2395
+damage: 142.343 - 23.5265
 dropoffStuds: 80.189 - 132.076
 pellets: 8
 fireRate: 79.875
 adsSpread: 1.70163
 hipfireSpread: 4.59901
-reloadTime: 4.14
+reloadTime: 3.795
 magazineSize: 30
 recoilHipVertical: 80.96 - 100.188
 recoilAimVertical: 28.336 - 35.0152
 movementSpeed: 4.125
 
+[ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: The Chief, Core: Circuit Judge ]
+damage: 142.343 - 23.5265
+dropoffStuds: 80.189 - 132.076
+pellets: 8
+fireRate: 79.875
+adsSpread: 1.79404
+hipfireSpread: 4.84876
+reloadTime: 3.2085
+magazineSize: 30
+recoilHipVertical: 89.056 - 110.207
+recoilAimVertical: 31.1696 - 38.5167
+movementSpeed: 1.5
+
+[ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: AWM, Core: Circuit Judge ]
+damage: 142.343 - 23.5265
+dropoffStuds: 80.189 - 132.076
+pellets: 8
+fireRate: 79.875
+adsSpread: 1.72595
+hipfireSpread: 4.66473
+reloadTime: 3.19125
+magazineSize: 30
+recoilHipVertical: 89.056 - 110.207
+recoilAimVertical: 31.1696 - 38.5167
+movementSpeed: 1.5
+
 [ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: UNP-40, Core: Circuit Judge ]
-damage: 142.343 - 27.2395
+damage: 142.343 - 23.5265
 dropoffStuds: 80.189 - 132.076
 pellets: 8
 fireRate: 79.875
@@ -92,7 +105,7 @@ recoilAimVertical: 34.0032 - 42.0182
 movementSpeed: 3.97
 
 [ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: FAL, Core: Circuit Judge ]
-damage: 142.343 - 30.6927
+damage: 142.343 - 27.091
 dropoffStuds: 82.5947 - 136.038
 pellets: 8
 fireRate: 79.875
@@ -105,7 +118,7 @@ recoilAimVertical: 36.8368 - 45.5198
 movementSpeed: 1.62
 
 [ Barrel: Spray Can, Magazine: M40, Grip: Auto-5, Stock: Sten gun, Core: Circuit Judge ]
-damage: 141.924 - 32.0428
+damage: 141.924 - 28.4983
 dropoffStuds: 83.215 - 137.06
 pellets: 8
 fireRate: 79.7738
@@ -116,17 +129,4 @@ magazineSize: 10
 recoilHipVertical: 124.2 - 153.697
 recoilAimVertical: 43.47 - 53.7165
 movementSpeed: 6.4
-
-[ Barrel: Spray Can, Magazine: M40, Grip: Auto-5, Stock: Mosin, Core: Circuit Judge ]
-damage: 141.924 - 32.0428
-dropoffStuds: 83.215 - 137.06
-pellets: 8
-fireRate: 79.5375
-adsSpread: 1.78929
-hipfireSpread: 4.83593
-reloadTime: 4.5
-magazineSize: 10
-recoilHipVertical: 111.6 - 138.105
-recoilAimVertical: 39.06 - 48.267
-movementSpeed: 2.5
 

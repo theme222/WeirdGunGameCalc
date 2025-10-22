@@ -26,6 +26,19 @@ recoilAimVertical: 20.8696 - 28.7615
 movementSpeed: 6
 TTK: 0.244772 Seconds
 
+[ Barrel: Tommy, Magazine: MP 40, Grip: PPSh-41, Stock: Spas-12, Core: MP18 ]
+damage: 33.5598 - 20.8601
+dropoffStuds: 110.544 - 170.422
+fireRate: 487.961
+adsSpread: 0.46532
+hipfireSpread: 2.3266
+reloadTime: 2.875
+magazineSize: 32
+recoilHipVertical: 48.875 - 67.5625
+recoilAimVertical: 17.1062 - 23.575
+movementSpeed: 4.3
+TTK: 0.245921 Seconds
+
 [ Barrel: Tommy, Magazine: MP 40, Grip: P90, Stock: M1897 Trench Shotgun, Core: MP18 ]
 damage: 33.5598 - 21.1091
 dropoffStuds: 112.8 - 173.9
@@ -52,7 +65,20 @@ recoilAimVertical: 20.8696 - 28.7615
 movementSpeed: 9.3
 TTK: 0.249261 Seconds
 
-[ Barrel: Tommy, Magazine: MP 40, Grip: M1Garand, Stock: M1897 Trench Shotgun, Core: MP18 ]
+[ Barrel: Type 2a Nambu, Magazine: PP-19 Bizon, Grip: PPSh-41, Stock: Spas-12, Core: MP18 ]
+damage: 33.8973 - 20.3704
+dropoffStuds: 104.405 - 160.958
+fireRate: 480.04
+adsSpread: 0.634995
+hipfireSpread: 3.17497
+reloadTime: 4.6
+magazineSize: 64
+recoilHipVertical: 38.08 - 52.64
+recoilAimVertical: 13.328 - 18.368
+movementSpeed: 3.5
+TTK: 0.249979 Seconds
+
+[ Barrel: Tommy, Magazine: MP 40, Grip: M1 Garand, Stock: M1897 Trench Shotgun, Core: MP18 ]
 damage: 33.5598 - 21.1091
 dropoffStuds: 112.8 - 173.9
 fireRate: 479.606
@@ -64,6 +90,19 @@ recoilHipVertical: 59.6275 - 82.4263
 recoilAimVertical: 20.8696 - 28.7615
 movementSpeed: 4.3
 TTK: 0.250205 Seconds
+
+[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: PPSh-41, Stock: Spas-12, Core: MP18 ]
+damage: 34.1813 - 20.7583
+dropoffStuds: 105.84 - 163.17
+fireRate: 478.84
+adsSpread: 0.46532
+hipfireSpread: 2.3266
+reloadTime: 2.875
+magazineSize: 32
+recoilHipVertical: 48.875 - 67.5625
+recoilAimVertical: 17.1062 - 23.575
+movementSpeed: 3
+TTK: 0.250606 Seconds
 
 [ Barrel: Tommy, Magazine: MP 40, Grip: PPSh-41, Stock: Kriss Vector, Core: MP18 ]
 damage: 33.5598 - 20.4866
@@ -91,44 +130,4 @@ recoilHipVertical: 71.4286 - 98.7395
 recoilAimVertical: 25 - 34.4538
 movementSpeed: 7.3
 TTK: 0.251006 Seconds
-
-[ Barrel: Tommy, Magazine: MP 40, Grip: Negev, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 33.5598 - 21.1091
-dropoffStuds: 112.8 - 173.9
-fireRate: 477.789
-adsSpread: 0.605127
-hipfireSpread: 3.02564
-reloadTime: 2.5
-magazineSize: 32
-recoilHipVertical: 68.5716 - 94.7902
-recoilAimVertical: 24.0001 - 33.0757
-movementSpeed: 4.8
-TTK: 0.251157 Seconds
-
-[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: P90, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 34.1813 - 21.0215
-dropoffStuds: 108 - 166.5
-fireRate: 476.881
-adsSpread: 0.645278
-hipfireSpread: 3.22639
-reloadTime: 2.5
-magazineSize: 32
-recoilHipVertical: 53.0685 - 73.3594
-recoilAimVertical: 18.574 - 25.5977
-movementSpeed: 6
-TTK: 0.251635 Seconds
-
-[ Barrel: Snake Sniper, Magazine: MP 40, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 33.4355 - 21.7331
-dropoffStuds: 120 - 185
-fireRate: 475.31
-adsSpread: 0.622392
-hipfireSpread: 3.11196
-reloadTime: 3.07625
-magazineSize: 32
-health: -5
-recoilHipVertical: 47.702 - 65.941
-recoilAimVertical: 16.6957 - 23.0092
-movementSpeed: 3.5
-TTK: 0.252467 Seconds
 

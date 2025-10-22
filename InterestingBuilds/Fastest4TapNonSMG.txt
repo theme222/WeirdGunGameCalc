@@ -1,135 +1,142 @@
 ./Calculator -o InterestingBuilds/Fastest4TapNonSMG.txt -i AR LMG --damageMin 25 --speedMin 0 --magazineMin 30 --spreadAimMax 0.65 --recoilAimMax 30 --rangeMin 150 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
-[ Barrel: Uzi, Magazine: Type 99, Grip: Lee Enfield, Stock: Arisaka, Core: M1919 .30 Cal ]
-damage: 25.0558 - 16.7187
-dropoffStuds: 151.027 - 302.054
-fireRate: 592.76
-adsSpread: 0.649216
-hipfireSpread: 8.98914
-reloadTime: 3.15
-magazineSize: 30
-health: 12
-recoilHipVertical: 44.528 - 55.66
-recoilAimVertical: 22.264 - 27.83
-movementSpeed: 0.4
-TTK: 0.303664 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: MP 40, Grip: PPSh-41, Stock: AWM, Core: Hex Spitter ]
-damage: 25.8441 - 23.3954
-dropoffStuds: 157.875 - 315.75
-fireRate: 589.129
-adsSpread: 0.638372
-hipfireSpread: 2.2343
-reloadTime: 2.70178
-magazineSize: 32
-recoilHipVertical: 37.95 - 50.6
-recoilAimVertical: 18.975 - 25.3
-TTK: 0.305536 Seconds
-
-[ Barrel: Uzi, Magazine: Type 99, Grip: M1897 Trench Shotgun, Stock: Arisaka, Core: M1919 .30 Cal ]
-damage: 25.0558 - 18.1082
-dropoffStuds: 188.784 - 377.568
-fireRate: 588.791
-adsSpread: 0.599467
-hipfireSpread: 8.30032
-reloadTime: 3.3075
-magazineSize: 30
-health: 12
-recoilHipVertical: 44.528 - 55.66
-recoilAimVertical: 22.264 - 27.83
-movementSpeed: 0.4
-TTK: 0.305711 Seconds
-
-[ Barrel: BAR, Magazine: Graphics Card, Grip: Croissant, Stock: MG42, Core: M60 ]
-damage: 25.5676 - 14.9897
-dropoffStuds: 192.28 - 374.44
-fireRate: 584.82
-adsSpread: 0.646443
-hipfireSpread: 5.54094
-reloadTime: 7.2
-magazineSize: 50
-health: 18
-recoilHipVertical: 40.656 - 49.5264
-recoilAimVertical: 24.3936 - 29.7158
-movementSpeed: 3
-TTK: 0.307787 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: MP 40, Grip: Mas-38, Stock: FAL, Core: Hex Spitter ]
-damage: 25.8441 - 23.3288
-dropoffStuds: 152.697 - 305.393
-fireRate: 571.673
-adsSpread: 0.634073
-hipfireSpread: 2.21925
-reloadTime: 2.625
-magazineSize: 32
-recoilHipVertical: 44.85 - 59.8
-recoilAimVertical: 22.425 - 29.9
-movementSpeed: 1.76
-TTK: 0.314865 Seconds
-
-[ Barrel: Uzi, Magazine: Type 99, Grip: M1891, Stock: Arisaka, Core: M1919 .30 Cal ]
-damage: 25.0558 - 18.1082
-dropoffStuds: 188.784 - 377.568
-fireRate: 571.59
-adsSpread: 0.649216
-hipfireSpread: 8.98914
+[ Barrel: Spray Can, Magazine: Type 99, Grip: M1891, Stock: Arisaka, Core: M1919 .30 Cal ]
+damage: 25.122 - 17.889
+dropoffStuds: 182.628 - 365.256
+fireRate: 675
+adsSpread: 0.553051
+hipfireSpread: 9.95492
 reloadTime: 3.6225
 magazineSize: 30
 health: 12
 recoilHipVertical: 44.528 - 55.66
 recoilAimVertical: 22.264 - 27.83
-movementSpeed: 3.6
-TTK: 0.314911 Seconds
+movementSpeed: 1.5
+TTK: 0.266667 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: STG-44, Grip: PPSh-41, Stock: AWM, Core: Hex Spitter ]
-damage: 25.3877 - 22.9822
-dropoffStuds: 157.875 - 315.75
-fireRate: 570.525
-adsSpread: 0.604195
-hipfireSpread: 2.11468
-reloadTime: 3.13407
+[ Barrel: Spray Can, Magazine: DP-27, Grip: Banana, Stock: Arisaka, Core: M1919 .30 Cal ]
+damage: 25.0063 - 17.5718
+dropoffStuds: 177.555 - 355.11
+fireRate: 650
+adsSpread: 0.589137
+hipfireSpread: 10.6045
+reloadTime: 5.04
+magazineSize: 47
+health: 12
+recoilHipVertical: 44.704 - 55.88
+recoilAimVertical: 22.352 - 27.94
+movementSpeed: 2.3
+TTK: 0.276923 Seconds
+
+[ Barrel: M870 MCS, Magazine: Mega Soaker, Grip: M1891, Stock: Arisaka, Core: M1919 .30 Cal ]
+damage: 25.0343 - 16.8794
+dropoffStuds: 162.526 - 325.052
+fireRate: 648
+adsSpread: 0.591135
+hipfireSpread: 10.6404
+reloadTime: 7.17255
+magazineSize: 60
+health: 12
+recoilHipVertical: 36.96 - 46.2
+recoilAimVertical: 18.48 - 23.1
+movementSpeed: 3
+TTK: 0.277778 Seconds
+
+[ Barrel: Spray Can, Magazine: Type 99, Grip: Kriss Vector, Stock: Arisaka, Core: M1919 .30 Cal ]
+damage: 25.122 - 17.889
+dropoffStuds: 182.628 - 365.256
+fireRate: 641.25
+adsSpread: 0.459816
+hipfireSpread: 8.27669
+reloadTime: 3.15
 magazineSize: 30
-recoilHipVertical: 33 - 44
-recoilAimVertical: 16.5 - 22
-TTK: 0.315499 Seconds
+health: 12
+recoilHipVertical: 41.0548 - 51.3185
+recoilAimVertical: 20.5274 - 25.6593
+movementSpeed: 1.225
+TTK: 0.280702 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: STG-44, Grip: PPSh-41, Stock: FAL, Core: Hex Spitter ]
-damage: 25.3877 - 23.0784
-dropoffStuds: 164.19 - 328.38
-fireRate: 570.525
-adsSpread: 0.627249
-hipfireSpread: 2.19537
-reloadTime: 3.50175
-magazineSize: 30
-recoilHipVertical: 39 - 52
-recoilAimVertical: 19.5 - 26
-movementSpeed: 0.16
-TTK: 0.315499 Seconds
+[ Barrel: M870 Breacher, Magazine: Mega Soaker, Grip: PPSh-41, Stock: Arisaka, Core: M1919 .30 Cal ]
+damage: 26.0447 - 17.2404
+dropoffStuds: 155.61 - 311.22
+fireRate: 639
+adsSpread: 0.622596
+hipfireSpread: 11.2067
+reloadTime: 6.5205
+magazineSize: 60
+health: 12
+recoilHipVertical: 36.96 - 46.2
+recoilAimVertical: 18.48 - 23.1
+movementSpeed: 2.05
+TTK: 0.28169 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: STG-44, Grip: PPSh-41, Stock: MG42, Core: Hex Spitter ]
-damage: 25.3877 - 22.9822
-dropoffStuds: 157.875 - 315.75
-fireRate: 570.525
-adsSpread: 0.649907
-hipfireSpread: 2.27467
-reloadTime: 4.2021
-magazineSize: 30
-recoilHipVertical: 30 - 40
-recoilAimVertical: 15 - 20
-movementSpeed: 2.625
-TTK: 0.315499 Seconds
+[ Barrel: Uzi, Magazine: Mega Soaker, Grip: Circuit Judge, Stock: Arisaka, Core: M1919 .30 Cal ]
+damage: 25.1447 - 16.7992
+dropoffStuds: 159.068 - 318.136
+fireRate: 635.1
+adsSpread: 0.6241
+hipfireSpread: 11.2338
+reloadTime: 5.67
+magazineSize: 60
+health: 12
+recoilHipVertical: 36.96 - 46.2
+recoilAimVertical: 18.48 - 23.1
+movementSpeed: 2.4
+TTK: 0.28342 Seconds
 
-[ Barrel: M870 Breacher, Magazine: Graphics Card, Grip: Arisaka, Stock: UNP-40, Core: M1919 .30 Cal ]
-damage: 25.9527 - 17.3484
-dropoffStuds: 157.32 - 314.64
-fireRate: 570
-adsSpread: 0.641775
-hipfireSpread: 8.88612
-reloadTime: 6
-magazineSize: 50
+[ Barrel: M870 Breacher, Magazine: Mega Soaker, Grip: Arisaka, Stock: FG-42, Core: M1919 .30 Cal ]
+damage: 26.0447 - 17.2404
+dropoffStuds: 155.61 - 311.22
+fireRate: 625.5
+adsSpread: 0.57557
+hipfireSpread: 10.3603
+reloadTime: 5.4
+magazineSize: 60
 health: 14
-recoilHipVertical: 40.656 - 50.82
-recoilAimVertical: 20.328 - 25.41
-movementSpeed: 1.12
-TTK: 0.315789 Seconds
+recoilHipVertical: 41.7648 - 52.206
+recoilAimVertical: 20.8824 - 26.103
+movementSpeed: 2.2
+TTK: 0.28777 Seconds
+
+[ Barrel: Spray Can, Magazine: Type 99, Grip: Arisaka, Stock: Paintball, Core: M1919 .30 Cal ]
+damage: 25.122 - 17.889
+dropoffStuds: 182.628 - 365.256
+fireRate: 625
+adsSpread: 0.41225
+hipfireSpread: 7.4205
+reloadTime: 2.79
+magazineSize: 30
+health: 14
+recoilHipVertical: 44.528 - 55.66
+recoilAimVertical: 22.264 - 27.83
+movementSpeed: 1.9
+TTK: 0.288 Seconds
+
+[ Barrel: Spray Can, Magazine: Type 99, Grip: AUG, Stock: Arisaka, Core: M1919 .30 Cal ]
+damage: 25.122 - 17.889
+dropoffStuds: 182.628 - 365.256
+fireRate: 625
+adsSpread: 0.403664
+hipfireSpread: 7.26595
+reloadTime: 3.15
+magazineSize: 30
+health: 12
+recoilHipVertical: 42.8582 - 53.5727
+recoilAimVertical: 21.4291 - 26.7864
+movementSpeed: 0.175
+TTK: 0.288 Seconds
+
+[ Barrel: Spray Can, Magazine: Type 99, Grip: Banana, Stock: Paintball, Core: M1919 .30 Cal ]
+damage: 25.122 - 17.889
+dropoffStuds: 182.628 - 365.256
+fireRate: 625
+adsSpread: 0.547927
+hipfireSpread: 9.86269
+reloadTime: 2.79
+magazineSize: 30
+health: 20
+recoilHipVertical: 35.6224 - 44.528
+recoilAimVertical: 17.8112 - 22.264
+movementSpeed: 0.5
+TTK: 0.288 Seconds
 

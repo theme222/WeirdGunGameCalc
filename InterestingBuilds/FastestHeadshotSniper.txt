@@ -56,6 +56,34 @@ recoilAimVertical: 35.2719 - 40.1708
 movementSpeed: 9.5
 TTK: 0.892857 Seconds
 
+[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Lewis, Stock: MG42, Core: Arisaka ]
+damage: 56.7935 - 49.922
+dropoffStuds: 323.96 - 566.93
+fireRate: 67.2
+adsSpread: 0.140343
+hipfireSpread: 11.2274
+reloadTime: 5.94
+magazineSize: 60
+health: -10
+recoilHipVertical: 87.0912 - 99.1872
+recoilAimVertical: 39.191 - 44.6342
+movementSpeed: 12.3
+TTK: 0.892857 Seconds
+
+[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Lewis, Stock: AWM, Core: Arisaka ]
+damage: 56.7935 - 49.922
+dropoffStuds: 323.96 - 566.93
+fireRate: 67.2
+adsSpread: 0.114192
+hipfireSpread: 9.13537
+reloadTime: 4.59
+magazineSize: 60
+health: -10
+recoilHipVertical: 95.8003 - 109.106
+recoilAimVertical: 43.1101 - 49.0977
+movementSpeed: 9.5
+TTK: 0.892857 Seconds
+
 [ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Lewis, Stock: FAL, Core: Arisaka ]
 damage: 56.7935 - 50.2141
 dropoffStuds: 337.728 - 591.025
@@ -84,46 +112,19 @@ recoilAimVertical: 39.191 - 44.6342
 movementSpeed: 4.5
 TTK: 0.892857 Seconds
 
-[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Lewis, Stock: MG42, Core: Arisaka ]
+[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: AWM, Stock: M1897 Trench Shotgun, Core: Arisaka ]
 damage: 56.7935 - 49.922
 dropoffStuds: 323.96 - 566.93
-fireRate: 67.2
-adsSpread: 0.140343
-hipfireSpread: 11.2274
-reloadTime: 6.48
+fireRate: 66.48
+adsSpread: 0.14045
+hipfireSpread: 11.236
+reloadTime: 6.048
 magazineSize: 60
 health: -10
-recoilHipVertical: 87.0912 - 99.1872
-recoilAimVertical: 39.191 - 44.6342
-movementSpeed: 12.3
-TTK: 0.892857 Seconds
-
-[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Lewis, Stock: AWM, Core: Arisaka ]
-damage: 56.7935 - 49.922
-dropoffStuds: 323.96 - 566.93
-fireRate: 67.2
-adsSpread: 0.114192
-hipfireSpread: 9.13537
-reloadTime: 4.59
-magazineSize: 60
-health: -10
-recoilHipVertical: 95.8003 - 109.106
-recoilAimVertical: 43.1101 - 49.0977
-movementSpeed: 9.5
-TTK: 0.892857 Seconds
-
-[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: M1897 Trench Shotgun, Stock: Lee Enfield, Core: M40 ]
-damage: 53.8559 - 45.2725
-dropoffStuds: 230.821 - 384.702
-fireRate: 66.5445
-adsSpread: 0.147391
-hipfireSpread: 22.1087
-reloadTime: 5.67
-magazineSize: 60
-recoilHipVertical: 82.32 - 117.6
-recoilAimVertical: 41.16 - 58.8
-movementSpeed: 0.5
-TTK: 0.901652 Seconds
+recoilHipVertical: 79.6885 - 90.7563
+recoilAimVertical: 35.8598 - 40.8403
+movementSpeed: 15.5
+TTK: 0.902527 Seconds
 
 [ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Snake Sniper, Stock: M1897 Trench Shotgun, Core: Arisaka ]
 damage: 56.7935 - 50.6092
