@@ -1,0 +1,142 @@
+./Calculator -o InterestingBuilds/ZombieDeleterSemi.txt -i Shotgun -s DPS --spreadAimMax 2 --magazineMin 20 --speedMin 0 --reloadMax 4 --recoilAimMax 25 --rangeMin 40 
+Current top 10 guns are: 
+[ Barrel: Spray Can, Magazine: Type 99, Grip: Auto-5, Stock: M870, Core: Spas-12 ]
+damage: 128.62 - 15.6076
+dropoffStuds: 47.17 - 108.491
+pellets: 6
+fireRate: 288.75
+adsSpread: 1.91506
+hipfireSpread: 6.1282
+reloadTime: 3.15
+magazineSize: 30
+recoilHipVertical: 38.709 - 61.9344
+recoilAimVertical: 15.4836 - 24.7738
+movementSpeed: 1.5
+DPS: 618.982
+
+[ Barrel: M870 MCS, Magazine: NP5, Grip: Auto-5, Stock: Tommy, Core: Spas-12 ]
+damage: 141.369 - 1.29762
+dropoffStuds: 41.83 - 96.209
+pellets: 6
+fireRate: 253.522
+adsSpread: 1.99486
+hipfireSpread: 6.38355
+reloadTime: 2.31
+magazineSize: 30
+recoilHipVertical: 35.7848 - 57.2557
+recoilAimVertical: 14.3139 - 22.9023
+movementSpeed: 2.47
+DPS: 597.339
+
+[ Barrel: M870 MCS, Magazine: NP5, Grip: Auto-5, Stock: M870, Core: Spas-12 ]
+damage: 141.369 - 1.29762
+dropoffStuds: 41.83 - 96.209
+pellets: 6
+fireRate: 253.522
+adsSpread: 1.81022
+hipfireSpread: 5.7927
+reloadTime: 2.31
+magazineSize: 30
+recoilHipVertical: 35.7637 - 57.222
+recoilAimVertical: 14.3055 - 22.8888
+movementSpeed: 2.145
+DPS: 597.339
+
+[ Barrel: M870 MCS, Magazine: NP5, Grip: PPSh-41, Stock: M870 MCS, Core: Spas-12 ]
+damage: 144.912 - 1.33014
+dropoffStuds: 41.83 - 96.209
+pellets: 6
+fireRate: 244.287
+adsSpread: 1.98174
+hipfireSpread: 6.34158
+reloadTime: 2.783
+magazineSize: 30
+recoilHipVertical: 35.0625 - 56.1
+recoilAimVertical: 14.025 - 22.44
+movementSpeed: 2.145
+DPS: 590.003
+
+[ Barrel: Spray Can, Magazine: Type 99, Grip: Auto-5, Stock: M870 MCS, Core: Spas-12 ]
+damage: 128.62 - 15.6076
+dropoffStuds: 47.17 - 108.491
+pellets: 6
+fireRate: 274.312
+adsSpread: 1.80832
+hipfireSpread: 5.78663
+reloadTime: 3.3
+magazineSize: 30
+recoilHipVertical: 34.155 - 54.648
+recoilAimVertical: 13.662 - 21.8592
+movementSpeed: 1.5
+DPS: 588.033
+
+[ Barrel: Spray Can, Magazine: MP 40, Grip: Auto-5, Stock: M870 MCS, Core: Spas-12 ]
+damage: 133.538 - 8.71508
+dropoffStuds: 44.5 - 102.35
+pellets: 6
+fireRate: 260.597
+adsSpread: 1.93123
+hipfireSpread: 6.17993
+reloadTime: 2.75
+magazineSize: 32
+recoilHipVertical: 38.8125 - 62.1
+recoilAimVertical: 15.525 - 24.84
+movementSpeed: 2.5
+DPS: 579.991
+
+[ Barrel: Auto-5, Magazine: NP5, Grip: Auto-5, Stock: JSG12, Core: Spas-12 ]
+damage: 121.305 - -0.0204315
+dropoffStuds: 41.385 - 95.1855
+pellets: 6
+fireRate: 286.48
+adsSpread: 1.8259
+hipfireSpread: 5.84287
+reloadTime: 2.1
+magazineSize: 30
+recoilHipVertical: 37.8675 - 60.588
+recoilAimVertical: 15.147 - 24.2352
+movementSpeed: 5.145
+DPS: 579.194
+
+[ Barrel: Auto-5, Magazine: NP5, Grip: Auto-5, Stock: M870, Core: Spas-12 ]
+damage: 121.305 - -0.0204315
+dropoffStuds: 41.385 - 95.1855
+pellets: 6
+fireRate: 286.48
+adsSpread: 1.91112
+hipfireSpread: 6.11557
+reloadTime: 2.1
+magazineSize: 30
+recoilHipVertical: 32.1874 - 51.4998
+recoilAimVertical: 12.875 - 20.5999
+movementSpeed: 2.145
+DPS: 579.194
+
+[ Barrel: Auto-5, Magazine: NP5, Grip: Auto-5, Stock: MG42, Core: Spas-12 ]
+damage: 121.305 - -0.0204315
+dropoffStuds: 41.385 - 95.1855
+pellets: 6
+fireRate: 286.48
+adsSpread: 1.83122
+hipfireSpread: 5.85992
+reloadTime: 2.2
+magazineSize: 30
+recoilHipVertical: 37.8675 - 60.588
+recoilAimVertical: 15.147 - 24.2352
+movementSpeed: 4.77
+DPS: 579.194
+
+[ Barrel: Spray Can, Magazine: STG-44, Grip: Auto-5, Stock: M870, Core: Spas-12 ]
+damage: 130.259 - 8.50111
+dropoffStuds: 44.5 - 102.35
+pellets: 6
+fireRate: 265.65
+adsSpread: 1.99108
+hipfireSpread: 6.37145
+reloadTime: 3.045
+magazineSize: 30
+recoilHipVertical: 38.25 - 61.2
+recoilAimVertical: 15.3 - 24.48
+movementSpeed: 2.5
+DPS: 576.721
+
