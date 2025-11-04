@@ -21,7 +21,7 @@ BANSEMI=(--bc "FC200SH" "M1 Carbine" "G11" "Loaf")
 ./Calculator -o $IB/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 "${BANSEMI[@]}"
 ./Calculator -o $IB/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 "${BANSEMI[@]}"
 ./Calculator -o $IB/LowRecoilBeam.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 45 --spreadAimMax 0.4 --rangeMin 150 --speedMin 0 "${BANSEMI[@]}"
-./Calculator -o $IB/ZombieDeleterAuto.txt -i SMG AR LMG Weird sort -s DPS --spreadAimMax 0.7 --rangeMin 130 --magazineMin 40 --reloadMax 2 --recoilAimMax 35 --speedMin 0 "${BANSEMI[@]}"
+./Calculator -o $IB/ZombieDeleterAuto.txt -i SMG AR LMG Weird -s DPS --spreadAimMax 0.7 --rangeMin 130 --magazineMin 40 --reloadMax 2 --recoilAimMax 35 --speedMin 0 "${BANSEMI[@]}"
 ./Calculator -o $IB/ZombieDeleterSemi.txt -i Shotgun -s DPS --spreadAimMax 2 --magazineMin 20 --speedMin 0 --reloadMax 4 --recoilAimMax 25 --rangeMin 40
 ####################### AUTOMATICS #######################
 

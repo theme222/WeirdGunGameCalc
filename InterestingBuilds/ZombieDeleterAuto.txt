@@ -1,4 +1,4 @@
-./Calculator -o InterestingBuilds/ZombieDeleter9000 -i SMG AR LMG Weird --sort DPS --spreadAimMax 0.7 --rangeMin 130 --magazineMin 40 --reloadMax 2 --recoilAimMax 35 --speedMin 0 --bc FC200SH M1 Carbine G11 Loaf 
+./Calculator -o InterestingBuilds/ZombieDeleterAuto.txt -i SMG AR LMG Weird -s DPS --spreadAimMax 0.7 --rangeMin 130 --magazineMin 40 --reloadMax 2 --recoilAimMax 35 --speedMin 0 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
 [ Barrel: Spray Can, Magazine: P90, Grip: Pistol Pistol, Stock: PPSh-41, Core: Type 2a Nambu ]
 damage: 20.0542 - 8.4736

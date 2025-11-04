@@ -39,18 +39,18 @@ recoilHipVertical: 91.0614 - 107.357
 recoilAimVertical: 59.142 - 69.7818
 movementSpeed: 1.1
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Burton, Stock: M870 MCS, Core: JSG12 ]
-damage: 165.987 - -35.6927
-dropoffStuds: 39.8591 - 79.7181
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Raygun, Stock: M870 MCS, Core: JSG12 ]
+damage: 165.987 - -38.6586
+dropoffStuds: 39.249 - 78.4979
 pellets: 12
 fireRate: 62.7
-adsSpread: 1.88061
-hipfireSpread: 1.88061
-reloadTime: 0.5335
+adsSpread: 1.92199
+hipfireSpread: 1.92199
+reloadTime: 0.55
 magazineSize: 5
 recoilHipVertical: 100.177 - 118.104
 recoilAimVertical: 65.0627 - 76.7676
-movementSpeed: 0.0999999
+movementSpeed: 4.725
 
 [ Barrel: Second Amendment, Magazine: Kolibri, Grip: MG42, Stock: M870 MCS, Core: JSG12 ]
 damage: 165.987 - -31.7382
@@ -65,19 +65,19 @@ recoilHipVertical: 100.177 - 118.104
 recoilAimVertical: 65.0627 - 76.7676
 movementSpeed: 0.6
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Arisaka, Stock: M870 MCS, Core: JSG12 ]
-damage: 165.987 - -31.7382
-dropoffStuds: 40.6725 - 81.345
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: MarrowMaker, Stock: M870 MCS, Core: JSG12 ]
+damage: 165.987 - -33.7155
+dropoffStuds: 40.2658 - 80.5316
 pellets: 12
-fireRate: 62.7
-adsSpread: 1.93354
-hipfireSpread: 1.93354
+fireRate: 57.9975
+adsSpread: 1.90467
+hipfireSpread: 1.90467
 reloadTime: 0.55
 magazineSize: 5
-health: -6
+health: 2
 recoilHipVertical: 100.177 - 118.104
 recoilAimVertical: 65.0627 - 76.7676
-movementSpeed: 7.1
+movementSpeed: 3.1
 
 [ Barrel: Second Amendment, Magazine: Kolibri, Grip: JSG12, Stock: M870 MCS, Core: JSG12 ]
 damage: 159.811 - -30.5572
@@ -118,17 +118,16 @@ recoilHipVertical: 100.177 - 118.104
 recoilAimVertical: 65.0627 - 76.7676
 movementSpeed: 5.2
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: MarrowMaker, Stock: M870 MCS, Core: JSG12 ]
-damage: 165.987 - -33.7155
-dropoffStuds: 40.2658 - 80.5316
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Burton, Stock: M870 MCS, Core: JSG12 ]
+damage: 165.987 - -35.6927
+dropoffStuds: 39.8591 - 79.7181
 pellets: 12
-fireRate: 57.9975
-adsSpread: 1.90467
-hipfireSpread: 1.90467
-reloadTime: 0.55
+fireRate: 62.7
+adsSpread: 1.88061
+hipfireSpread: 1.88061
+reloadTime: 0.5335
 magazineSize: 5
-health: 2
 recoilHipVertical: 100.177 - 118.104
 recoilAimVertical: 65.0627 - 76.7676
-movementSpeed: 3.1
+movementSpeed: 0.0999999
 

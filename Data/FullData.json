@@ -1017,6 +1017,21 @@
       "Fire_Rate": -25,
       "Movement_Speed": -2,
       "Recoil": 60
+    },
+    {
+      "Name": "Raygun",
+      "Category": "Sidearm",
+      "Fire_Rate": 3,
+      "Movement_Speed": 5,
+      "Spread": 12
+    },
+    {
+      "Name": "Lobotomizer .44",
+      "Category": "Sidearm",
+      "Damage": 5,
+      "Range": 7,
+      "Fire_Rate": -8,
+      "Recoil": 34
     }
   ],
   "Magazines": [
@@ -2117,6 +2132,25 @@
       "Fire_Rate": -20,
       "Movement_Speed": -4,
       "Recoil": 60
+    },
+    {
+      "Name": "Raygun",
+      "Category": "Sidearm",
+      "Magazine_Size": 20,
+      "Reload_Time": 3,
+      "Damage": 17,
+      "Range": -4,
+      "Spread": 45
+    },
+    {
+      "Name": "Lobotomizer .44",
+      "Category": "Sidearm",
+      "Magazine_Size": 6,
+      "Reload_Time": 2,
+      "Damage": 13,
+      "Range": 4,
+      "Equip_Time": 25,
+      "Fire_Rate": -11
     }
   ],
   "Grips": [
@@ -2859,6 +2893,20 @@
       "Movement_Speed": -3,
       "Recoil": 30,
       "Spread": 11
+    },
+    {
+      "Name": "Raygun",
+      "Category": "Sidearm",
+      "Movement_Speed": 2.5,
+      "Spread": -14,
+      "Range": -3.5
+    },
+    {
+      "Name": "Lobotomizer .44",
+      "Category": "Sidearm",
+      "Spread": -20,
+      "Fire_Rate": -9,
+      "Movement_Speed": -4.5
     }
   ],
   "Stocks": [
@@ -3314,7 +3362,9 @@
     },
     {
       "Name": "MarrowMaker",
-      "Category": "Shotgun"
+      "Category": "Shotgun",
+      "Movement_Speed": 3,
+      "Reload_Speed": -8
     },
     {
       "Name": "M60",
@@ -7004,6 +7054,74 @@
       "Recoil_Aim_Vertical": [
         72,
         88
+      ]
+    },
+    {
+      "Name": "Raygun",
+      "Category": "Sidearm",
+      "Damage": [
+        39,
+        19.5
+      ],
+      "Dropoff_Studs": [
+        38,
+        115
+      ],
+      "Fire_Rate": 181,
+      "Hipfire_Spread": 5,
+      "ADS_Spread": 0.25,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 115,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -15,
+        15
+      ],
+      "Recoil_Hip_Vertical": [
+        26,
+        38
+      ],
+      "Recoil_Aim_Horizontal": [
+        -10.5,
+        10.5
+      ],
+      "Recoil_Aim_Vertical": [
+        18.2,
+        26.6
+      ]
+    },
+    {
+      "Name": "Lobotomizer .44",
+      "Category": "Sidearm",
+      "Damage": [
+        40,
+        22
+      ],
+      "Dropoff_Studs": [
+        75,
+        135
+      ],
+      "Fire_Rate": 125,
+      "Hipfire_Spread": 7,
+      "ADS_Spread": 0.2,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 150,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -18,
+        18
+      ],
+      "Recoil_Hip_Vertical": [
+        100,
+        120
+      ],
+      "Recoil_Aim_Horizontal": [
+        -12.2,
+        12.2
+      ],
+      "Recoil_Aim_Vertical": [
+        67.5,
+        81
       ]
     }
   ]

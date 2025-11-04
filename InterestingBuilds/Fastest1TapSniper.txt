@@ -13,19 +13,6 @@ recoilHipVertical: 106.065 - 120.796
 recoilAimVertical: 47.7291 - 54.3581
 movementSpeed: -3
 
-[ Barrel: BAR, Magazine: Snake Sniper, Grip: Musket, Stock: AWM, Core: Arisaka ]
-damage: 100.127 - 90.4544
-dropoffStuds: 410.4 - 718.2
-fireRate: 27.54
-adsSpread: 0.147947
-hipfireSpread: 11.8357
-reloadTime: 5.1425
-magazineSize: 6
-health: -10
-recoilHipVertical: 129.254 - 147.206
-recoilAimVertical: 58.1645 - 66.2429
-movementSpeed: 5.5
-
 [ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: Mosin, Core: Arisaka ]
 damage: 100.507 - 91.0089
 dropoffStuds: 418 - 731.5
@@ -38,6 +25,19 @@ health: -10
 recoilHipVertical: 188.202 - 214.341
 recoilAimVertical: 84.691 - 96.4537
 movementSpeed: -2
+
+[ Barrel: BAR, Magazine: Snake Sniper, Grip: Musket, Stock: AWM, Core: Arisaka ]
+damage: 100.127 - 90.4544
+dropoffStuds: 410.4 - 718.2
+fireRate: 27.54
+adsSpread: 0.147947
+hipfireSpread: 11.8357
+reloadTime: 5.1425
+magazineSize: 6
+health: -10
+recoilHipVertical: 129.254 - 147.206
+recoilAimVertical: 58.1645 - 66.2429
+movementSpeed: 5.5
 
 [ Barrel: Car Muffler, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Spas-12, Core: Arisaka ]
 damage: 100.159 - 87.9
@@ -103,18 +103,18 @@ recoilHipVertical: 166.954 - 190.142
 recoilAimVertical: 75.1291 - 85.5637
 movementSpeed: -2
 
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: AUG, Core: Arisaka ]
-damage: 100.507 - 90.4391
-dropoffStuds: 392.92 - 687.61
+[ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: The Chief, Core: Arisaka ]
+damage: 100.507 - 91.0089
+dropoffStuds: 418 - 731.5
 fireRate: 27
-adsSpread: 0.147242
-hipfireSpread: 11.7793
-reloadTime: 5.5
+adsSpread: 0.141516
+hipfireSpread: 11.3213
+reloadTime: 5.115
 magazineSize: 6
 health: -10
-recoilHipVertical: 151.776 - 172.856
-recoilAimVertical: 68.2992 - 77.7852
-movementSpeed: -0.25
+recoilHipVertical: 166.954 - 190.142
+recoilAimVertical: 75.1291 - 85.5637
+movementSpeed: -2
 
 [ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: Words as Weapons, Core: Arisaka ]
 damage: 100.507 - 91.0089

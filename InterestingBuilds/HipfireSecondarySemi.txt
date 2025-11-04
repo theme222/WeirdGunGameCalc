@@ -14,20 +14,6 @@ recoilAimVertical: 2.691 - 6.279
 movementSpeed: 6
 TTK: 0.272109 Seconds
 
-[ Barrel: G3, Magazine: Scar H, Grip: Type 2a Nambu, Stock: None, Core: Type 14 ]
-damage: 34.0384 - 19.6281
-dropoffStuds: 40.6715 - 92.9633
-fireRate: 441
-adsSpread: 0.256313
-hipfireSpread: 0.717676
-reloadTime: 4.5
-magazineSize: 20
-health: -17.5
-recoilHipVertical: 12.7305 - 29.7045
-recoilAimVertical: 2.5461 - 5.9409
-movementSpeed: 6
-TTK: 0.272109 Seconds
-
 [ Barrel: G3, Magazine: Fedorov, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
 damage: 33.6949 - 19.2303
 dropoffStuds: 40.178 - 91.8355
@@ -53,6 +39,20 @@ magazineSize: 20
 health: -10
 recoilHipVertical: 10.35 - 24.15
 recoilAimVertical: 2.07 - 4.83
+movementSpeed: 6
+TTK: 0.272109 Seconds
+
+[ Barrel: G3, Magazine: Scar H, Grip: Type 2a Nambu, Stock: None, Core: Type 14 ]
+damage: 34.0384 - 19.6281
+dropoffStuds: 40.6715 - 92.9633
+fireRate: 441
+adsSpread: 0.256313
+hipfireSpread: 0.717676
+reloadTime: 4.5
+magazineSize: 20
+health: -17.5
+recoilHipVertical: 12.7305 - 29.7045
+recoilAimVertical: 2.5461 - 5.9409
 movementSpeed: 6
 TTK: 0.272109 Seconds
 
@@ -98,6 +98,20 @@ recoilAimVertical: 1.95 - 4.55
 movementSpeed: 6
 TTK: 0.274914 Seconds
 
+[ Barrel: Lobotomizer .44, Magazine: Scar H, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
+damage: 33.7911 - 19.2589
+dropoffStuds: 40.1277 - 91.7204
+fireRate: 414
+adsSpread: 0.345576
+hipfireSpread: 0.967613
+reloadTime: 4.5
+magazineSize: 20
+health: -10
+recoilHipVertical: 10.05 - 23.45
+recoilAimVertical: 2.01 - 4.69
+movementSpeed: 9
+TTK: 0.289855 Seconds
+
 [ Barrel: BAR, Magazine: Scar H, Grip: Snake Sniper, Stock: None, Core: Type 14 ]
 damage: 33.9942 - 19.807
 dropoffStuds: 41.3465 - 94.5063
@@ -125,18 +139,4 @@ recoilHipVertical: 11.7 - 27.3
 recoilAimVertical: 2.34 - 5.46
 movementSpeed: 6
 TTK: 0.296296 Seconds
-
-[ Barrel: MP18, Magazine: BAR, Grip: Cyber 3517, Stock: None, Core: Type 14 ]
-damage: 33.4864 - 19.2562
-dropoffStuds: 40.3653 - 92.2635
-fireRate: 396.9
-adsSpread: 0.312662
-hipfireSpread: 0.875454
-reloadTime: 4
-magazineSize: 20
-health: -10
-recoilHipVertical: 11.3256 - 26.4264
-recoilAimVertical: 2.26512 - 5.28528
-movementSpeed: 5.5
-TTK: 0.302343 Seconds
 
