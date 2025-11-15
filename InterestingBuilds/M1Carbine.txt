@@ -13,6 +13,19 @@ recoilAimVertical: 5 - 6
 movementSpeed: 8.6
 TTK: 0.125131 Seconds
 
+[ Barrel: Uzi, Magazine: MP18, Grip: Mas-38, Stock: Spas-12, Core: M1 Carbine ]
+damage: 33.7902 - 16.4248
+dropoffStuds: 110.638 - 129.714
+fireRate: 942.727
+adsSpread: 0.290727
+hipfireSpread: 0.290727
+reloadTime: 2.2
+magazineSize: 32
+recoilHipVertical: 12.2 - 14.64
+recoilAimVertical: 4.88 - 5.856
+movementSpeed: 5
+TTK: 0.12729 Seconds
+
 [ Barrel: PP-19 Bizon, Magazine: Tommy, Grip: Mas-38, Stock: Spas-12, Core: M1 Carbine ]
 damage: 34.1813 - 17.7669
 dropoffStuds: 118.938 - 139.444
@@ -78,6 +91,19 @@ recoilAimVertical: 4.148 - 4.9776
 movementSpeed: 9.8
 TTK: 0.129693 Seconds
 
+[ Barrel: Uzi, Magazine: MP18, Grip: Mas-38, Stock: Kriss Vector, Core: M1 Carbine ]
+damage: 33.7902 - 15.914
+dropoffStuds: 107.252 - 125.743
+fireRate: 924.581
+adsSpread: 0.337243
+hipfireSpread: 0.337243
+reloadTime: 2.2
+magazineSize: 32
+recoilHipVertical: 9.76 - 11.712
+recoilAimVertical: 3.904 - 4.6848
+movementSpeed: 11.3
+TTK: 0.129788 Seconds
+
 [ Barrel: PP-19 Bizon, Magazine: Scar H, Grip: Mas-38, Stock: Kriss Vector, Core: M1 Carbine ]
 damage: 33.8866 - 18.425
 dropoffStuds: 124.175 - 145.584
@@ -103,30 +129,4 @@ recoilHipVertical: 10 - 12
 recoilAimVertical: 4 - 4.8
 movementSpeed: 13.6
 TTK: 0.130017 Seconds
-
-[ Barrel: Tommy, Magazine: Tommy, Grip: Mas-38, Stock: Fedorov, Core: M1 Carbine ]
-damage: 33.5598 - 18.3344
-dropoffStuds: 126.759 - 148.614
-fireRate: 922.076
-adsSpread: 0.366032
-hipfireSpread: 0.366032
-reloadTime: 3.21
-magazineSize: 20
-recoilHipVertical: 11.625 - 13.95
-recoilAimVertical: 4.65 - 5.58
-movementSpeed: 9.6
-TTK: 0.130141 Seconds
-
-[ Barrel: Tommy, Magazine: Tommy, Grip: Mas-38, Stock: MAC-10, Core: M1 Carbine ]
-damage: 33.5598 - 18.3344
-dropoffStuds: 126.759 - 148.614
-fireRate: 918.56
-adsSpread: 0.424306
-hipfireSpread: 0.424306
-reloadTime: 3
-magazineSize: 20
-recoilHipVertical: 12.5 - 15
-recoilAimVertical: 5 - 6
-movementSpeed: 16.2
-TTK: 0.130639 Seconds
 

@@ -52,6 +52,46 @@ recoilAimVertical: 18.574 - 25.5977
 movementSpeed: 7.3
 TTK: 0.246932 Seconds
 
+[ Barrel: M1911, Magazine: Maple Badger, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
+damage: 34.387 - 21.0276
+dropoffStuds: 106.8 - 164.65
+fireRate: 484.108
+adsSpread: 0.576448
+hipfireSpread: 2.88224
+reloadTime: 1.84
+magazineSize: 30
+recoilHipVertical: 51.85 - 71.675
+recoilAimVertical: 18.1475 - 25.01
+movementSpeed: 3.5
+TTK: 0.247879 Seconds
+
+[ Barrel: Car Muffler, Magazine: Maple Badger, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
+damage: 33.6 - 21.84
+dropoffStuds: 120 - 185
+fireRate: 484.108
+adsSpread: 0.576448
+hipfireSpread: 2.88224
+reloadTime: 2.024
+magazineSize: 30
+health: -15
+recoilHipVertical: 50.6056 - 69.9548
+recoilAimVertical: 17.712 - 24.4098
+movementSpeed: 5.5
+TTK: 0.247879 Seconds
+
+[ Barrel: MP 40, Magazine: Maple Badger, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
+damage: 33.6 - 21.84
+dropoffStuds: 120 - 185
+fireRate: 484.108
+adsSpread: 0.576448
+hipfireSpread: 2.88224
+reloadTime: 1.84
+magazineSize: 30
+recoilHipVertical: 49.776 - 68.808
+recoilAimVertical: 17.4216 - 24.0096
+movementSpeed: 6.7
+TTK: 0.247879 Seconds
+
 [ Barrel: Tommy, Magazine: MP 40, Grip: Mas-38, Stock: M1897 Trench Shotgun, Core: MP18 ]
 damage: 33.5598 - 20.2376
 dropoffStuds: 104.904 - 161.727
@@ -78,56 +118,16 @@ recoilAimVertical: 13.328 - 18.368
 movementSpeed: 3.5
 TTK: 0.249979 Seconds
 
-[ Barrel: Tommy, Magazine: MP 40, Grip: M1 Garand, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 33.5598 - 21.1091
-dropoffStuds: 112.8 - 173.9
-fireRate: 479.606
-adsSpread: 0.576448
-hipfireSpread: 2.88224
-reloadTime: 2.5
-magazineSize: 32
-recoilHipVertical: 59.6275 - 82.4263
-recoilAimVertical: 20.8696 - 28.7615
-movementSpeed: 4.3
-TTK: 0.250205 Seconds
-
-[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: PPSh-41, Stock: Spas-12, Core: MP18 ]
-damage: 34.1813 - 20.7583
-dropoffStuds: 105.84 - 163.17
-fireRate: 478.84
-adsSpread: 0.46532
-hipfireSpread: 2.3266
-reloadTime: 2.875
-magazineSize: 32
-recoilHipVertical: 48.875 - 67.5625
-recoilAimVertical: 17.1062 - 23.575
-movementSpeed: 3
-TTK: 0.250606 Seconds
-
-[ Barrel: Tommy, Magazine: MP 40, Grip: PPSh-41, Stock: Kriss Vector, Core: MP18 ]
-damage: 33.5598 - 20.4866
-dropoffStuds: 107.16 - 165.205
-fireRate: 478.568
-adsSpread: 0.539771
-hipfireSpread: 2.69886
-reloadTime: 2.875
-magazineSize: 32
-recoilHipVertical: 39.1 - 54.05
-recoilAimVertical: 13.685 - 18.86
-movementSpeed: 10.6
-TTK: 0.250748 Seconds
-
-[ Barrel: Tommy, Magazine: PP-19 Bizon, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 34.021 - 20.3894
-dropoffStuds: 103.776 - 159.988
-fireRate: 478.076
-adsSpread: 0.640144
-hipfireSpread: 3.20072
-reloadTime: 4
-magazineSize: 64
-health: -7.5
-recoilHipVertical: 71.4286 - 98.7395
-recoilAimVertical: 25 - 34.4538
-movementSpeed: 7.3
-TTK: 0.251006 Seconds
+[ Barrel: Uzi, Magazine: Maple Badger, Grip: Double Barrel, Stock: M1897 Trench Shotgun, Core: MP18 ]
+damage: 33.6352 - 20.9211
+dropoffStuds: 110.4 - 170.2
+fireRate: 479.707
+adsSpread: 0.5446
+hipfireSpread: 2.723
+reloadTime: 1.6
+magazineSize: 30
+recoilHipVertical: 74.664 - 103.212
+recoilAimVertical: 26.1324 - 36.0144
+movementSpeed: 5.5
+TTK: 0.250153 Seconds
 

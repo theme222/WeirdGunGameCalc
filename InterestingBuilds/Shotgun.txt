@@ -1,5 +1,18 @@
 ./Calculator -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80 
 Current top 10 guns are: 
+[ Barrel: Spray Can, Magazine: M40, Grip: Auto-5, Stock: Siberia-12, Core: Circuit Judge ]
+damage: 141.924 - 28.4983
+dropoffStuds: 83.215 - 137.06
+pellets: 8
+fireRate: 82.6875
+adsSpread: 1.79836
+hipfireSpread: 4.86042
+reloadTime: 4.5
+magazineSize: 10
+recoilHipVertical: 100.8 - 124.74
+recoilAimVertical: 35.28 - 43.596
+movementSpeed: 2.5
+
 [ Barrel: Spray Can, Magazine: M40, Grip: Auto-5, Stock: P90, Core: Circuit Judge ]
 damage: 141.924 - 28.4983
 dropoffStuds: 83.215 - 137.06
@@ -26,32 +39,6 @@ recoilHipVertical: 90 - 111.375
 recoilAimVertical: 31.5 - 38.925
 movementSpeed: 2.5
 
-[ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: AWM, Core: Circuit Judge ]
-damage: 142.343 - 23.5265
-dropoffStuds: 80.189 - 132.076
-pellets: 8
-fireRate: 79.875
-adsSpread: 1.72595
-hipfireSpread: 4.66473
-reloadTime: 3.19125
-magazineSize: 30
-recoilHipVertical: 89.056 - 110.207
-recoilAimVertical: 31.1696 - 38.5167
-movementSpeed: 1.5
-
-[ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: M870, Core: Circuit Judge ]
-damage: 142.343 - 23.5265
-dropoffStuds: 80.189 - 132.076
-pellets: 8
-fireRate: 79.875
-adsSpread: 1.77459
-hipfireSpread: 4.79618
-reloadTime: 3.6225
-magazineSize: 30
-recoilHipVertical: 68.816 - 85.1598
-recoilAimVertical: 24.0856 - 29.7629
-movementSpeed: 1.5
-
 [ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: MG42, Core: Circuit Judge ]
 damage: 142.343 - 23.5265
 dropoffStuds: 80.189 - 132.076
@@ -64,19 +51,6 @@ magazineSize: 30
 recoilHipVertical: 80.96 - 100.188
 recoilAimVertical: 28.336 - 35.0152
 movementSpeed: 4.125
-
-[ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: The Chief, Core: Circuit Judge ]
-damage: 142.343 - 23.5265
-dropoffStuds: 80.189 - 132.076
-pellets: 8
-fireRate: 79.875
-adsSpread: 1.79404
-hipfireSpread: 4.84876
-reloadTime: 3.2085
-magazineSize: 30
-recoilHipVertical: 89.056 - 110.207
-recoilAimVertical: 31.1696 - 38.5167
-movementSpeed: 1.5
 
 [ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: UNP-40, Core: Circuit Judge ]
 damage: 142.343 - 23.5265
@@ -91,19 +65,6 @@ recoilHipVertical: 97.152 - 120.226
 recoilAimVertical: 34.0032 - 42.0182
 movementSpeed: 3.97
 
-[ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: JSG12, Core: Circuit Judge ]
-damage: 142.343 - 23.5265
-dropoffStuds: 80.189 - 132.076
-pellets: 8
-fireRate: 79.875
-adsSpread: 1.69677
-hipfireSpread: 4.58586
-reloadTime: 3.6225
-magazineSize: 30
-recoilHipVertical: 80.96 - 100.188
-recoilAimVertical: 28.336 - 35.0152
-movementSpeed: 4.5
-
 [ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: FAL, Core: Circuit Judge ]
 damage: 142.343 - 27.091
 dropoffStuds: 82.5947 - 136.038
@@ -117,16 +78,55 @@ recoilHipVertical: 105.248 - 130.244
 recoilAimVertical: 36.8368 - 45.5198
 movementSpeed: 1.62
 
-[ Barrel: Spray Can, Magazine: M40, Grip: Auto-5, Stock: Sten gun, Core: Circuit Judge ]
-damage: 141.924 - 28.4983
-dropoffStuds: 83.215 - 137.06
+[ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: The Chief, Core: Circuit Judge ]
+damage: 142.343 - 23.5265
+dropoffStuds: 80.189 - 132.076
 pellets: 8
-fireRate: 79.7738
-adsSpread: 1.78386
-hipfireSpread: 4.82123
-reloadTime: 4.5
-magazineSize: 10
-recoilHipVertical: 124.2 - 153.697
-recoilAimVertical: 43.47 - 53.7165
-movementSpeed: 6.4
+fireRate: 79.875
+adsSpread: 1.79404
+hipfireSpread: 4.84876
+reloadTime: 3.2085
+magazineSize: 30
+recoilHipVertical: 89.056 - 110.207
+recoilAimVertical: 31.1696 - 38.5167
+movementSpeed: 1.5
+
+[ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: JSG12, Core: Circuit Judge ]
+damage: 142.343 - 23.5265
+dropoffStuds: 80.189 - 132.076
+pellets: 8
+fireRate: 79.875
+adsSpread: 1.69677
+hipfireSpread: 4.58586
+reloadTime: 3.6225
+magazineSize: 30
+recoilHipVertical: 80.96 - 100.188
+recoilAimVertical: 28.336 - 35.0152
+movementSpeed: 4.5
+
+[ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: M870, Core: Circuit Judge ]
+damage: 142.343 - 23.5265
+dropoffStuds: 80.189 - 132.076
+pellets: 8
+fireRate: 79.875
+adsSpread: 1.77459
+hipfireSpread: 4.79618
+reloadTime: 3.6225
+magazineSize: 30
+recoilHipVertical: 68.816 - 85.1598
+recoilAimVertical: 24.0856 - 29.7629
+movementSpeed: 1.5
+
+[ Barrel: Spray Can, Magazine: Type 99, Grip: PPSh-41, Stock: AWM, Core: Circuit Judge ]
+damage: 142.343 - 23.5265
+dropoffStuds: 80.189 - 132.076
+pellets: 8
+fireRate: 79.875
+adsSpread: 1.72595
+hipfireSpread: 4.66473
+reloadTime: 3.19125
+magazineSize: 30
+recoilHipVertical: 89.056 - 110.207
+recoilAimVertical: 31.1696 - 38.5167
+movementSpeed: 1.5
 

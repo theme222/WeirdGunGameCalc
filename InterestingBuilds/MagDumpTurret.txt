@@ -27,48 +27,6 @@ recoilAimVertical: 23.04 - 46.08
 movementSpeed: 1.6
 TTK: 0.232957 Seconds
 
-[ Barrel: Tommy, Magazine: XXL AKM, Grip: M1891, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.0029 - 10.4893
-dropoffStuds: 131.6 - 145.7
-fireRate: 760.141
-adsSpread: 0.748109
-hipfireSpread: 4.98739
-reloadTime: 10.35
-magazineSize: 90
-health: -8
-recoilHipVertical: 45.75 - 64.05
-recoilAimVertical: 29.646 - 41.541
-movementSpeed: 0.2
-TTK: 0.236798 Seconds
-
-[ Barrel: Tommy, Magazine: XXL AKM, Grip: PPSh-41, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.0029 - 9.76365
-dropoffStuds: 125.02 - 138.415
-fireRate: 755.634
-adsSpread: 0.539473
-hipfireSpread: 3.59649
-reloadTime: 10.35
-magazineSize: 90
-health: -8
-recoilHipVertical: 30 - 42
-recoilAimVertical: 19.44 - 27.24
-movementSpeed: 1.1
-TTK: 0.238211 Seconds
-
-[ Barrel: Tommy, Magazine: XXL AKM, Grip: Lee Enfield, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.0029 - 6.71579
-dropoffStuds: 100.016 - 110.732
-fireRate: 748.765
-adsSpread: 0.777914
-hipfireSpread: 5.18609
-reloadTime: 9
-magazineSize: 90
-health: -8
-recoilHipVertical: 30 - 42
-recoilAimVertical: 19.44 - 27.24
-movementSpeed: 1.1
-TTK: 0.240396 Seconds
-
 [ Barrel: FC200SH, Magazine: M1919 .30 Cal, Grip: Croissant, Stock: Arisaka, Core: APS ]
 damage: 33.3716 - 17.7016
 dropoffStuds: 111.834 - 149.112
@@ -83,59 +41,98 @@ recoilAimVertical: 30.8 - 44
 movementSpeed: 0.7
 TTK: 0.241153 Seconds
 
-[ Barrel: Tommy, Magazine: XXL AKM, Grip: Kriss Vector, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.0029 - 10.4893
-dropoffStuds: 131.6 - 145.7
-fireRate: 745.799
-adsSpread: 0.621991
-hipfireSpread: 4.14661
-reloadTime: 9
-magazineSize: 90
-health: -8
-recoilHipVertical: 40.26 - 56.364
-recoilAimVertical: 26.0885 - 36.5561
-movementSpeed: 2.3
-TTK: 0.241352 Seconds
-
-[ Barrel: Tommy, Magazine: XXL AKM, Grip: PPSh-41, Stock: Speed Coil, Core: Type 2a Nambu ]
-damage: 25.0029 - 10.4893
-dropoffStuds: 131.6 - 145.7
-fireRate: 741.51
+[ Barrel: Spray Can, Magazine: XXL AKM, Grip: PPSh-41, Stock: Speed Coil, Core: Maple Badger ]
+damage: 16.9167 - 7.58849
+dropoffStuds: 102.35 - 186.9
+fireRate: 1227.19
 adsSpread: 1.44893
-hipfireSpread: 9.65953
+hipfireSpread: 11.2695
 reloadTime: 8.7975
 magazineSize: 90
-health: -18
-recoilHipVertical: 22.5 - 31.5
-recoilAimVertical: 14.58 - 20.43
-movementSpeed: 7.8
-TTK: 0.242748 Seconds
+health: -10
+recoilHipVertical: 17.28 - 23.04
+recoilAimVertical: 11.232 - 14.976
+movementSpeed: 2.5
+TTK: 0.244461 Seconds
 
-[ Barrel: Tommy, Magazine: XXL AKM, Grip: PPSh-41, Stock: MAC-10, Core: Type 2a Nambu ]
-damage: 25.0029 - 10.4893
-dropoffStuds: 131.6 - 145.7
-fireRate: 737.979
-adsSpread: 0.481599
-hipfireSpread: 3.21066
-reloadTime: 10.35
-magazineSize: 90
-health: -8
-recoilHipVertical: 37.5 - 52.5
-recoilAimVertical: 24.3 - 34.05
-movementSpeed: 2.4
-TTK: 0.243909 Seconds
+[ Barrel: Spray Can, Magazine: M60, Grip: Banana, Stock: M1897 Trench Shotgun, Core: MG42 ]
+damage: 12.8775 - 6.89458
+dropoffStuds: 121.485 - 263.217
+fireRate: 1702.5
+adsSpread: 1.05998
+hipfireSpread: 10.5998
+reloadTime: 6.5
+magazineSize: 75
+health: 13
+recoilHipVertical: 63.1082 - 90.4947
+recoilAimVertical: 31.5541 - 45.2474
+movementSpeed: 1
+TTK: 0.246696 Seconds
 
-[ Barrel: Tommy, Magazine: XXL AKM, Grip: P90, Stock: Kriss Vector, Core: Type 2a Nambu ]
-damage: 25.0029 - 9.76365
-dropoffStuds: 125.02 - 138.415
-fireRate: 735.026
-adsSpread: 0.670616
-hipfireSpread: 4.47077
-reloadTime: 9
+[ Barrel: Type 14, Magazine: M1919 .30 Cal, Grip: L8, Stock: Arisaka, Core: APS ]
+damage: 33.3563 - 15.6901
+dropoffStuds: 101.043 - 134.724
+fireRate: 486
+adsSpread: 1.30069
+hipfireSpread: 5.20277
+reloadTime: 9.975
+magazineSize: 100
+health: -20
+recoilHipVertical: 60.9 - 87
+recoilAimVertical: 33.495 - 47.85
+movementSpeed: 1.55
+TTK: 0.246914 Seconds
+
+[ Barrel: Uzi, Magazine: XXL AKM, Grip: Hell-Trooper-23, Stock: Kriss Vector, Core: PPSh-41 ]
+damage: 14.6071 - 7.98131
+dropoffStuds: 109.25 - 122.36
+fireRate: 1457.88
+adsSpread: 1.45547
+hipfireSpread: 3.88125
+reloadTime: 8.64
 magazineSize: 90
-health: -8
-recoilHipVertical: 26.7 - 37.38
-recoilAimVertical: 17.3016 - 24.2436
-movementSpeed: 1.1
-TTK: 0.244889 Seconds
+recoilHipVertical: 28.8 - 57.6
+recoilAimVertical: 23.04 - 46.08
+movementSpeed: 2
+TTK: 0.246935 Seconds
+
+[ Barrel: Spray Can, Magazine: M60, Grip: M1891, Stock: Kriss Vector, Core: MG42 ]
+damage: 12.8775 - 6.59544
+dropoffStuds: 115.411 - 250.057
+fireRate: 1693.71
+adsSpread: 1.24535
+hipfireSpread: 12.4535
+reloadTime: 7.475
+magazineSize: 75
+health: 13
+recoilHipVertical: 56.2542 - 80.6664
+recoilAimVertical: 28.1271 - 40.3332
+movementSpeed: 1.345
+TTK: 0.247976 Seconds
+
+[ Barrel: Uzi, Magazine: XXL AKM, Grip: Mas-38, Stock: Mas-38, Core: PPSh-41 ]
+damage: 14.6071 - 7.85511
+dropoffStuds: 106.95 - 119.784
+fireRate: 1444.25
+adsSpread: 1.11307
+hipfireSpread: 2.96818
+reloadTime: 8.1
+magazineSize: 90
+recoilHipVertical: 30.24 - 60.48
+recoilAimVertical: 24.192 - 48.384
+movementSpeed: 1.6
+TTK: 0.249264 Seconds
+
+[ Barrel: Uzi, Magazine: XXL AKM, Grip: Mas-38, Stock: MP18, Core: PPSh-41 ]
+damage: 14.6071 - 7.65255
+dropoffStuds: 103.742 - 116.19
+fireRate: 1444.25
+adsSpread: 1.11307
+hipfireSpread: 2.96818
+reloadTime: 9.72
+magazineSize: 90
+recoilHipVertical: 28.8 - 57.6
+recoilAimVertical: 23.04 - 46.08
+movementSpeed: 1.8
+TTK: 0.249264 Seconds
 

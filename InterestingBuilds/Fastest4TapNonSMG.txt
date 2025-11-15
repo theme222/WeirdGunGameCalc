@@ -56,6 +56,20 @@ recoilAimVertical: 20.5274 - 25.6593
 movementSpeed: 1.225
 TTK: 0.280702 Seconds
 
+[ Barrel: Spray Can, Magazine: Maple Badger, Grip: Mas-38, Stock: Arisaka, Core: M1919 .30 Cal ]
+damage: 25.1915 - 16.7559
+dropoffStuds: 157.263 - 314.526
+fireRate: 639.634
+adsSpread: 0.462893
+hipfireSpread: 8.33208
+reloadTime: 1.68
+magazineSize: 30
+health: 12
+recoilHipVertical: 44 - 55
+recoilAimVertical: 22 - 27.5
+movementSpeed: 0.6
+TTK: 0.281411 Seconds
+
 [ Barrel: M870 Breacher, Magazine: Mega Soaker, Grip: PPSh-41, Stock: Arisaka, Core: M1919 .30 Cal ]
 damage: 26.0447 - 17.2404
 dropoffStuds: 155.61 - 311.22
@@ -84,6 +98,20 @@ recoilAimVertical: 18.48 - 23.1
 movementSpeed: 2.4
 TTK: 0.28342 Seconds
 
+[ Barrel: Spray Can, Magazine: Maple Badger, Grip: Kriss Vector, Stock: Arisaka, Core: M1919 .30 Cal ]
+damage: 25.1915 - 17.3078
+dropoffStuds: 169.1 - 338.2
+fireRate: 631.631
+adsSpread: 0.553432
+hipfireSpread: 9.96177
+reloadTime: 1.68
+magazineSize: 30
+health: 12
+recoilHipVertical: 40.568 - 50.71
+recoilAimVertical: 20.284 - 25.355
+movementSpeed: 2.225
+TTK: 0.284976 Seconds
+
 [ Barrel: M870 Breacher, Magazine: Mega Soaker, Grip: Arisaka, Stock: FG-42, Core: M1919 .30 Cal ]
 damage: 26.0447 - 17.2404
 dropoffStuds: 155.61 - 311.22
@@ -97,34 +125,6 @@ recoilHipVertical: 41.7648 - 52.206
 recoilAimVertical: 20.8824 - 26.103
 movementSpeed: 2.2
 TTK: 0.28777 Seconds
-
-[ Barrel: Spray Can, Magazine: Type 99, Grip: Arisaka, Stock: Paintball, Core: M1919 .30 Cal ]
-damage: 25.122 - 17.889
-dropoffStuds: 182.628 - 365.256
-fireRate: 625
-adsSpread: 0.41225
-hipfireSpread: 7.4205
-reloadTime: 2.79
-magazineSize: 30
-health: 14
-recoilHipVertical: 44.528 - 55.66
-recoilAimVertical: 22.264 - 27.83
-movementSpeed: 1.9
-TTK: 0.288 Seconds
-
-[ Barrel: Spray Can, Magazine: Type 99, Grip: AUG, Stock: Arisaka, Core: M1919 .30 Cal ]
-damage: 25.122 - 17.889
-dropoffStuds: 182.628 - 365.256
-fireRate: 625
-adsSpread: 0.403664
-hipfireSpread: 7.26595
-reloadTime: 3.15
-magazineSize: 30
-health: 12
-recoilHipVertical: 42.8582 - 53.5727
-recoilAimVertical: 21.4291 - 26.7864
-movementSpeed: 0.175
-TTK: 0.288 Seconds
 
 [ Barrel: Spray Can, Magazine: Type 99, Grip: Banana, Stock: Paintball, Core: M1919 .30 Cal ]
 damage: 25.122 - 17.889

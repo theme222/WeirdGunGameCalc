@@ -1,135 +1,135 @@
 ./Calculator -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf 
 Current top 10 guns are: 
-[ Barrel: Spray Can, Magazine: MP18, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.0613 - 8.45659
-dropoffStuds: 113.386 - 125.535
-fireRate: 884.664
-adsSpread: 0.518804
-hipfireSpread: 3.45869
+[ Barrel: Spray Can, Magazine: MP18, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: PP-19 Bizon ]
+damage: 20.0277 - 9.74764
+dropoffStuds: 105.287 - 121.485
+fireRate: 1111.59
+adsSpread: 0.979962
+hipfireSpread: 2.01757
 reloadTime: 2.53
 magazineSize: 32
-health: -8
-recoilHipVertical: 37.21 - 52.094
-recoilAimVertical: 24.1121 - 33.7867
-movementSpeed: 6.5
-TTK: 0.203467 Seconds
-
-[ Barrel: Spray Can, Magazine: Type 2a Nambu, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Bicycle ]
-damage: 33.3998 - 11.9699
-dropoffStuds: 149.52 - 205.59
-fireRate: 588.525
-adsSpread: 0.690464
-hipfireSpread: 12.0831
-reloadTime: 2.5
-magazineSize: 30
-recoilHipVertical: 37.088 - 50.996
-recoilAimVertical: 22.2528 - 30.5976
-movementSpeed: 5.5
-TTK: 0.2039 Seconds
-
-[ Barrel: Spray Can, Magazine: Graphics Card, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Bicycle ]
-damage: 33.3998 - 13.4478
-dropoffStuds: 163.76 - 225.17
-fireRate: 588.525
-adsSpread: 0.690464
-hipfireSpread: 12.0831
-reloadTime: 6
-magazineSize: 50
-recoilHipVertical: 37.576 - 51.667
-recoilAimVertical: 22.5456 - 31.0002
+recoilHipVertical: 44.652 - 74.42
+recoilAimVertical: 13.3956 - 22.326
 movementSpeed: 2.5
-TTK: 0.2039 Seconds
+TTK: 0.215907 Seconds
 
-[ Barrel: Spray Can, Magazine: MP18, Grip: PPSh-41, Stock: Spas-12, Core: Type 2a Nambu ]
-damage: 25.0613 - 8.1245
-dropoffStuds: 111.118 - 123.024
-fireRate: 864.072
-adsSpread: 0.465063
-hipfireSpread: 3.10042
-reloadTime: 2.53
+[ Barrel: Spray Can, Magazine: MAC-10, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: PP-19 Bizon ]
+damage: 16.9983 - 8.51335
+dropoffStuds: 108.758 - 125.49
+fireRate: 1382.29
+adsSpread: 0.979962
+hipfireSpread: 2.01757
+reloadTime: 2.3
+magazineSize: 30
+recoilHipVertical: 49.41 - 82.35
+recoilAimVertical: 14.823 - 24.705
+movementSpeed: 6.9
+TTK: 0.217032 Seconds
+
+[ Barrel: Spray Can, Magazine: MAC-10, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Sten gun ]
+damage: 20.0889 - 8.81604
+dropoffStuds: 108.758 - 138.039
+fireRate: 1105.83
+adsSpread: 0.749383
+hipfireSpread: 2.30579
+reloadTime: 2.3
+magazineSize: 30
+recoilHipVertical: 49.41 - 62.586
+recoilAimVertical: 22.7286 - 28.8225
+movementSpeed: 6.9
+TTK: 0.217032 Seconds
+
+[ Barrel: MG42, Magazine: Mega Soaker, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 14.685 - 8.30847
+dropoffStuds: 102.211 - 218.618
+fireRate: 1647.48
+adsSpread: 0.348621
+hipfireSpread: 10.4586
+reloadTime: 5.4
+magazineSize: 60
+health: -7.5
+recoilHipVertical: 13.3224 - 14.6546
+recoilAimVertical: 4.66284 - 5.06251
+movementSpeed: 3.5
+TTK: 0.218516 Seconds
+
+[ Barrel: Uzi, Magazine: P90, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Maple Badger ]
+damage: 16.6739 - 8.17539
+dropoffStuds: 111.09 - 202.86
+fireRate: 1366.07
+adsSpread: 0.61704
+hipfireSpread: 4.7992
+reloadTime: 4.6
+magazineSize: 50
+recoilHipVertical: 32.208 - 42.944
+recoilAimVertical: 20.9352 - 27.9136
+movementSpeed: 3.8
+TTK: 0.219608 Seconds
+
+[ Barrel: APS, Magazine: MP18, Grip: Circuit Judge, Stock: M110, Core: Bicycle ]
+damage: 50.3445 - 13.4291
+dropoffStuds: 118.3 - 162.662
+fireRate: 272.825
+adsSpread: 0.662956
+hipfireSpread: 11.6017
+reloadTime: 2.42
 magazineSize: 32
+recoilHipVertical: 40.992 - 56.364
+recoilAimVertical: 24.5952 - 33.8184
+TTK: 0.219921 Seconds
+
+[ Barrel: Mustard, Magazine: Paintball, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
+damage: 20.5632 - 9.30238
+dropoffStuds: 100 - 115
+fireRate: 1087.4
+adsSpread: 0.855196
+hipfireSpread: 5.70131
+reloadTime: 7.13
+magazineSize: 70
 health: -8
 recoilHipVertical: 30.5 - 42.7
 recoilAimVertical: 19.764 - 27.694
-movementSpeed: 3.5
-TTK: 0.208316 Seconds
+movementSpeed: 6
+TTK: 0.22071 Seconds
 
-[ Barrel: Spray Can, Magazine: MG42, Grip: Circuit Judge, Stock: Kriss Vector, Core: Bicycle ]
-damage: 33.3998 - 10.3165
-dropoffStuds: 136.971 - 188.335
-fireRate: 575.794
-adsSpread: 0.882285
-hipfireSpread: 15.44
-reloadTime: 5.5
+[ Barrel: Spray Can, Magazine: Graphics Card, Grip: M1891, Stock: P90, Core: MG42 ]
+damage: 12.8775 - 6.94947
+dropoffStuds: 122.82 - 266.11
+fireRate: 1894.82
+adsSpread: 0.989266
+hipfireSpread: 9.89266
+reloadTime: 6.9
 magazineSize: 50
-recoilHipVertical: 38.08 - 52.36
-recoilAimVertical: 22.848 - 31.416
-movementSpeed: 1.8
-TTK: 0.208408 Seconds
+health: 13
+recoilHipVertical: 45.7072 - 65.5424
+recoilAimVertical: 22.8536 - 32.7712
+movementSpeed: 0.15
+TTK: 0.221657 Seconds
 
-[ Barrel: Type 2a Nambu, Magazine: Kriss Vector, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: Bicycle ]
-damage: 33.6096 - 9.68866
-dropoffStuds: 131.24 - 180.455
-fireRate: 574.69
-adsSpread: 0.817172
-hipfireSpread: 14.3005
-reloadTime: 2.4
-magazineSize: 30
-recoilHipVertical: 41.48 - 57.035
-recoilAimVertical: 24.888 - 34.221
-movementSpeed: 6.3
-TTK: 0.208808 Seconds
-
-[ Barrel: M870 Breacher, Magazine: Kriss Vector, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: Bicycle ]
-damage: 35.6733 - 8.68905
-dropoffStuds: 122.4 - 168.3
-fireRate: 574.69
-adsSpread: 0.863489
-hipfireSpread: 15.1111
-reloadTime: 2.4
-magazineSize: 30
-recoilHipVertical: 41.48 - 57.035
-recoilAimVertical: 24.888 - 34.221
-movementSpeed: 6.3
-TTK: 0.208808 Seconds
-
-[ Barrel: M870 MCS, Magazine: Kriss Vector, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: Bicycle ]
-damage: 33.9044 - 9.19077
-dropoffStuds: 127.84 - 175.78
-fireRate: 574.69
-adsSpread: 0.565734
-hipfireSpread: 9.90035
-reloadTime: 2.64
-magazineSize: 30
-recoilHipVertical: 41.48 - 57.035
-recoilAimVertical: 24.888 - 34.221
-movementSpeed: 3.3
-TTK: 0.208808 Seconds
-
-[ Barrel: M870, Magazine: Kriss Vector, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: Bicycle ]
-damage: 33.6096 - 9.34198
-dropoffStuds: 129.2 - 177.65
-fireRate: 574.69
-adsSpread: 0.764237
-hipfireSpread: 13.3742
-reloadTime: 2.4
-magazineSize: 30
-recoilHipVertical: 41.48 - 57.035
-recoilAimVertical: 24.888 - 34.221
-movementSpeed: 3.3
-TTK: 0.208808 Seconds
-
-[ Barrel: Spray Can, Magazine: MP18, Grip: P90, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 25.0613 - 8.45659
-dropoffStuds: 113.386 - 125.535
-fireRate: 860.537
-adsSpread: 0.644922
-hipfireSpread: 4.29948
-reloadTime: 2.2
-magazineSize: 32
+[ Barrel: Mustard, Magazine: P90, Grip: PPSh-41, Stock: Spas-12, Core: Type 2a Nambu ]
+damage: 20.4593 - 9.60272
+dropoffStuds: 102.9 - 118.335
+fireRate: 1080.09
+adsSpread: 0.908934
+hipfireSpread: 6.05956
+reloadTime: 4.6
+magazineSize: 50
 health: -8
-recoilHipVertical: 33.1169 - 46.3637
-recoilAimVertical: 21.4598 - 30.0701
-movementSpeed: 6.5
-TTK: 0.209172 Seconds
+recoilHipVertical: 27.5 - 38.5
+recoilAimVertical: 17.82 - 24.97
+movementSpeed: 2.8
+TTK: 0.222204 Seconds
+
+[ Barrel: Spray Can, Magazine: MAC-10, Grip: PPSh-41, Stock: Spas-12, Core: PP-19 Bizon ]
+damage: 16.9983 - 8.34365
+dropoffStuds: 106.583 - 122.98
+fireRate: 1350.11
+adsSpread: 0.878452
+hipfireSpread: 1.80858
+reloadTime: 2.3
+magazineSize: 30
+recoilHipVertical: 40.5 - 67.5
+recoilAimVertical: 12.15 - 20.25
+movementSpeed: 3.9
+TTK: 0.222204 Seconds
 

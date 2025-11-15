@@ -58,6 +58,13 @@
       "Recoil": -10
     },
     {
+      "Name": "L8",
+      "Category": "AR",
+      "Damage": 4,
+      "Range": 4,
+      "Recoil": 28
+    },
+    {
       "Name": "QBZ-95",
       "Category": "AR",
       "Movement_Speed": 1.5,
@@ -428,6 +435,14 @@
       "Range": -8
     },
     {
+      "Name": "Maple Badger",
+      "Category": "SMG",
+      "Damage": 3.5,
+      "Detection_Radius": -35,
+      "Recoil": -12,
+      "Range": -5.5
+    },
+    {
       "Name": "M1 Carbine",
       "Category": "SMG",
       "Damage": 5,
@@ -535,6 +550,13 @@
       "Spread": 6
     },
     {
+      "Name": "Siberia-12",
+      "Category": "Shotgun",
+      "Fire_Rate": 16,
+      "Range": -4.5,
+      "Spread": 7
+    },
+    {
       "Name": "Blunderbuss",
       "Category": "Shotgun",
       "Damage": 45,
@@ -550,6 +572,13 @@
       "Movement_Speed": 4.5,
       "Pellets": 45,
       "Range": -2.5
+    },
+    {
+      "Name": "AUTO-12",
+      "Category": "Shotgun",
+      "Fire_Rate": 5,
+      "Range": 3,
+      "Damage": -2
     },
     {
       "Name": "M60",
@@ -1105,6 +1134,15 @@
       "Spread": 15
     },
     {
+      "Name": "L8",
+      "Category": "AR",
+      "Magazine_Size": 30,
+      "Reload_Time": 2.9,
+      "Damage": 9,
+      "Range": 2,
+      "Recoil": 32
+    },
+    {
       "Name": "QBZ-95",
       "Category": "AR",
       "Magazine_Size": 30,
@@ -1125,10 +1163,11 @@
       "Reload_Speed": 25
     },
     {
-      "Name": "Scar Drum",
+      "Name": "Drum Mag",
       "Category": "AR",
       "Magazine_Size": 50,
       "Reload_Time": 4,
+      "Fire_Rate": 4,
       "Recoil": -10,
       "Range": -5
     },
@@ -1255,11 +1294,11 @@
       "Category": "Sniper",
       "Magazine_Size": 10,
       "Reload_Time": 4,
+      "Damage": 4,
       "Fire_Rate": 20,
       "Range": 16,
-      "Damage": -10,
-      "Recoil": 25,
-      "Spread": 50
+      "Recoil": -35,
+      "Spread": 40
     },
     {
       "Name": "Arisaka",
@@ -1360,7 +1399,7 @@
       "Reload_Time": 2,
       "Fire_Rate": 20,
       "Movement_Speed": 4.4,
-      "Range": -12,
+      "Range": -6,
       "Recoil": 35
     },
     {
@@ -1371,7 +1410,7 @@
       "Fire_Rate": 14,
       "Movement_Speed": 3,
       "Recoil": -24,
-      "Range": -16
+      "Range": -10
     },
     {
       "Name": "Tommy",
@@ -1489,8 +1528,8 @@
       "Category": "SMG",
       "Magazine_Size": 32,
       "Reload_Time": 2.2,
-      "Damage": 16,
-      "Fire_Rate": -4,
+      "Damage": 18,
+      "Fire_Rate": -3.5,
       "Range": -9,
       "Recoil": 22
     },
@@ -1515,6 +1554,15 @@
       "Fire_Rate": 7,
       "Range": -9,
       "Recoil": 28
+    },
+    {
+      "Name": "Maple Badger",
+      "Category": "SMG",
+      "Magazine_Size": 30,
+      "Reload_Time": 1.6,
+      "Damage": 12,
+      "Detection_Radius": -9,
+      "Fire_Rate": -1.5
     },
     {
       "Name": "M1 Carbine",
@@ -1640,6 +1688,28 @@
       "Recoil": 100
     },
     {
+      "Name": "Siberia-12",
+      "Category": "Shotgun",
+      "Magazine_Size": 8,
+      "Reload_Time": 2.5,
+      "Fire_Rate": 35,
+      "Pellets": 40,
+      "Damage": -5.5,
+      "Range": -4.5
+    },
+    {
+      "Name": "Siberia-12 Drum",
+      "Category": "Shotgun",
+      "Magazine_Size": 20,
+      "Reload_Time": 5.5,
+      "Damage": 12,
+      "Fire_Rate": 2,
+      "Pellets": 55,
+      "Recoil": -17,
+      "Movement_Speed": -2,
+      "Range": -5.5
+    },
+    {
       "Name": "Blunderbuss",
       "Category": "Shotgun",
       "Magazine_Size": 1,
@@ -1659,6 +1729,18 @@
       "Pellets": 65,
       "Fire_Rate": -12,
       "Range": -4.5
+    },
+    {
+      "Name": "AUTO-12",
+      "Category": "Shotgun",
+      "Magazine_Size": 20,
+      "Reload_Time": 5.5,
+      "Damage": 12,
+      "Fire_Rate": 2,
+      "Pellets": 55,
+      "Recoil": -17,
+      "Movement_Speed": -2,
+      "Range": -5.5
     },
     {
       "Name": "M60",
@@ -1995,7 +2077,7 @@
       "Name": "M1911",
       "Category": "Sidearm",
       "Magazine_Size": 7,
-      "Reload_Time": 1.8,
+      "Reload_Time": 1.3,
       "Damage": 18,
       "Fire_Rate": -9,
       "Range": -6,
@@ -2005,7 +2087,7 @@
       "Name": "Makarov",
       "Category": "Sidearm",
       "Magazine_Size": 8,
-      "Reload_Time": 1.5,
+      "Reload_Time": 1,
       "Damage": 5,
       "Movement_Speed": 2,
       "Recoil": 19
@@ -2025,7 +2107,7 @@
       "Name": "Tec-9",
       "Category": "Sidearm",
       "Magazine_Size": 20,
-      "Reload_Time": 2,
+      "Reload_Time": 1.5,
       "Damage": 3,
       "Range": -4,
       "Recoil": 11
@@ -2034,7 +2116,7 @@
       "Name": "T10",
       "Category": "Sidearm",
       "Magazine_Size": 15,
-      "Reload_Time": 1.9,
+      "Reload_Time": 1.4,
       "Range": 4,
       "Spread": -8,
       "Recoil": 18
@@ -2043,7 +2125,7 @@
       "Name": "B17",
       "Category": "Sidearm",
       "Magazine_Size": 17,
-      "Reload_Time": 2.2,
+      "Reload_Time": 1.7,
       "Fire_Rate": 11,
       "Range": -4,
       "Spread": 11
@@ -2052,7 +2134,7 @@
       "Name": "EG200",
       "Category": "Sidearm",
       "Magazine_Size": 6,
-      "Reload_Time": 2.8,
+      "Reload_Time": 2.5,
       "Damage": 20,
       "Pellets": 75,
       "Fire_Rate": -11,
@@ -2063,7 +2145,7 @@
       "Name": "Beretta",
       "Category": "Sidearm",
       "Magazine_Size": 15,
-      "Reload_Time": 2.3,
+      "Reload_Time": 1.8,
       "Damage": 3,
       "Range": 2,
       "Fire_Rate": -7,
@@ -2073,7 +2155,7 @@
       "Name": "Type 14",
       "Category": "Sidearm",
       "Magazine_Size": 8,
-      "Reload_Time": 1.8,
+      "Reload_Time": 1.3,
       "Damage": 13,
       "Fire_Rate": 14,
       "Movement_Speed": 5,
@@ -2084,7 +2166,7 @@
       "Name": "Luger",
       "Category": "Sidearm",
       "Magazine_Size": 8,
-      "Reload_Time": 2.2,
+      "Reload_Time": 1.7,
       "Fire_Rate": 20,
       "Recoil": -16,
       "Range": -5,
@@ -2094,7 +2176,7 @@
       "Name": "Deagle",
       "Category": "Sidearm",
       "Magazine_Size": 7,
-      "Reload_Time": 4,
+      "Reload_Time": 3.5,
       "Damage": 29,
       "Fire_Rate": -6,
       "Movement_Speed": -2,
@@ -2105,7 +2187,7 @@
       "Name": "P08 Artillery",
       "Category": "Sidearm",
       "Magazine_Size": 32,
-      "Reload_Time": 3,
+      "Reload_Time": 2.5,
       "Fire_Rate": 8,
       "Movement_Speed": -2,
       "Range": -4,
@@ -2115,7 +2197,7 @@
       "Name": "Obreez",
       "Category": "Sidearm",
       "Magazine_Size": 5,
-      "Reload_Time": 2,
+      "Reload_Time": 1.5,
       "Damage": 5,
       "Range": 7,
       "Fire_Rate": -10,
@@ -2126,7 +2208,7 @@
       "Name": "Cyber 3517",
       "Category": "Sidearm",
       "Magazine_Size": 10,
-      "Reload_Time": 5,
+      "Reload_Time": 4.5,
       "Damage": 30,
       "Range": 2,
       "Fire_Rate": -20,
@@ -2137,7 +2219,7 @@
       "Name": "Raygun",
       "Category": "Sidearm",
       "Magazine_Size": 20,
-      "Reload_Time": 3,
+      "Reload_Time": 2.5,
       "Damage": 17,
       "Range": -4,
       "Spread": 45
@@ -2146,7 +2228,7 @@
       "Name": "Lobotomizer .44",
       "Category": "Sidearm",
       "Magazine_Size": 6,
-      "Reload_Time": 2,
+      "Reload_Time": 1.5,
       "Damage": 13,
       "Range": 4,
       "Equip_Time": 25,
@@ -2203,6 +2285,12 @@
       "Category": "AR",
       "Recoil": -25,
       "Spread": 25
+    },
+    {
+      "Name": "L8",
+      "Category": "AR",
+      "Range": 3,
+      "Recoil": -13
     },
     {
       "Name": "QBZ-95",
@@ -2500,6 +2588,13 @@
       "Recoil": 23
     },
     {
+      "Name": "Maple Badger",
+      "Category": "SMG",
+      "Detection_Radius": -7,
+      "Movement_Speed": 4.5,
+      "Reload_Speed": 3.5
+    },
+    {
       "Name": "M1 Carbine",
       "Category": "SMG",
       "Movement_Speed": 5,
@@ -2566,6 +2661,13 @@
       "Recoil": 80
     },
     {
+      "Name": "Siberia-12",
+      "Category": "Shotgun",
+      "Fire_Rate": 3.5,
+      "Spread": -11,
+      "Range": -2.5
+    },
+    {
       "Name": "Blunderbuss",
       "Category": "Shotgun",
       "Movement_Speed": 2,
@@ -2580,6 +2682,14 @@
       "Spread": -10,
       "Fire_Rate": -7.5,
       "Range": -1
+    },
+    {
+      "Name": "AUTO-12",
+      "Category": "Shotgun",
+      "Fire_Rate": 2,
+      "Recoil": -22,
+      "Range": -3,
+      "Reload_Speed": 8
     },
     {
       "Name": "M60",
@@ -2963,6 +3073,12 @@
       "Spread": 10
     },
     {
+      "Name": "L8",
+      "Category": "AR",
+      "Range": 4,
+      "Spread": -17
+    },
+    {
       "Name": "QBZ-95",
       "Category": "AR",
       "Health": 6,
@@ -3261,6 +3377,13 @@
       "Reload_Speed": 4
     },
     {
+      "Name": "Maple Badger",
+      "Category": "SMG",
+      "Fire_Rate": 2,
+      "Movement_Speed": 4.5,
+      "Spread": 13
+    },
+    {
       "Name": "M1 Carbine",
       "Category": "SMG",
       "Range": 5,
@@ -3278,7 +3401,8 @@
     {
       "Name": "Circuit Judge",
       "Category": "Shotgun",
-      "Reload_Speed": -45,
+      "Fire_Rate": 4.8,
+      "Reload_Speed": -27,
       "Spread": 15
     },
     {
@@ -3353,6 +3477,13 @@
       "Recoil": 45
     },
     {
+      "Name": "Siberia-12",
+      "Category": "Shotgun",
+      "Fire_Rate": 5,
+      "Spread": -7,
+      "Recoil": 12
+    },
+    {
       "Name": "Blunderbuss",
       "Category": "Shotgun",
       "Health": 15,
@@ -3365,6 +3496,14 @@
       "Category": "Shotgun",
       "Movement_Speed": 3,
       "Reload_Speed": -8
+    },
+    {
+      "Name": "AUTO-12",
+      "Category": "Shotgun",
+      "Fire_Rate": 1.5,
+      "Recoil": -26,
+      "Movement_Speed": -4.5,
+      "Reload_Speed": 3.5
     },
     {
       "Name": "M60",
@@ -3637,14 +3776,14 @@
       "Name": "M-16",
       "Category": "AR",
       "Damage": [
-        15.9,
-        13.5
+        16,
+        13.6
       ],
       "Dropoff_Studs": [
         180,
         350
       ],
-      "Fire_Rate": 650,
+      "Fire_Rate": 700,
       "Hipfire_Spread": 1.8,
       "ADS_Spread": 0.25,
       "Time_To_Aim": 0.5,
@@ -3706,8 +3845,8 @@
       "Name": "AUG",
       "Category": "AR",
       "Damage": [
-        14.5,
-        12.3
+        15,
+        12.8
       ],
       "Dropoff_Studs": [
         170,
@@ -3848,8 +3987,8 @@
       "Name": "Scar L",
       "Category": "AR",
       "Damage": [
-        16.5,
-        11.5
+        17,
+        11.9
       ],
       "Dropoff_Studs": [
         170,
@@ -3857,7 +3996,7 @@
       ],
       "Fire_Rate": 625,
       "Hipfire_Spread": 5,
-      "ADS_Spread": 0.35,
+      "ADS_Spread": 0.3,
       "Time_To_Aim": 0.5,
       "Detection_Radius": 100,
       "Suppression": 0.3,
@@ -3877,6 +4016,41 @@
       "Recoil_Aim_Vertical": [
         27.5,
         32.5
+      ]
+    },
+    {
+      "Name": "L8",
+      "Category": "AR",
+      "Damage": [
+        16.2,
+        13.4
+      ],
+      "Dropoff_Studs": [
+        185,
+        325
+      ],
+      "Fire_Rate": 666,
+      "Hipfire_Spread": 4.5,
+      "ADS_Spread": 0.175,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 145,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -14,
+        14
+      ],
+      "Recoil_Hip_Vertical": [
+        64,
+        87
+      ],
+      "Recoil_Aim_Horizontal": [
+        -7.7,
+        7.7
+      ],
+      "Recoil_Aim_Vertical": [
+        35.2,
+        47.9
       ]
     },
     {
@@ -3926,24 +4100,24 @@
         300
       ],
       "Fire_Rate": 900,
-      "Hipfire_Spread": 5.5,
-      "ADS_Spread": 5.5,
+      "Hipfire_Spread": 2,
+      "ADS_Spread": 2,
       "Time_To_Aim": 0.5,
       "Detection_Radius": 125,
       "Suppression": 0.3,
       "Health": 17,
       "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
-        -25,
-        25
+        -30,
+        30
       ],
       "Recoil_Hip_Vertical": [
         80,
         90
       ],
       "Recoil_Aim_Horizontal": [
-        -32.5,
-        32.5
+        -39,
+        39
       ],
       "Recoil_Aim_Vertical": [
         104,
@@ -4033,7 +4207,7 @@
       ],
       "Fire_Rate": 650,
       "Hipfire_Spread": 5,
-      "ADS_Spread": 0.8,
+      "ADS_Spread": 0.6,
       "Time_To_Aim": 0.5,
       "Detection_Radius": 90,
       "Suppression": 0.3,
@@ -4354,7 +4528,7 @@
       ],
       "Fire_Rate": 50,
       "Hipfire_Spread": 10,
-      "ADS_Spread": 0.5,
+      "ADS_Spread": 0.25,
       "Time_To_Aim": 0.6,
       "Detection_Radius": 200,
       "Suppression": 1,
@@ -4708,15 +4882,15 @@
         9.5
       ],
       "Dropoff_Studs": [
-        140,
-        155
+        100,
+        115
       ],
       "Fire_Rate": 600,
       "Hipfire_Spread": 3,
       "ADS_Spread": 0.45,
       "Time_To_Aim": 0.35,
       "Detection_Radius": 80,
-      "Movement_Speed_Modifier": 4,
+      "Movement_Speed_Modifier": 6,
       "Health": -8,
       "Equip_Time": 0.5,
       "Recoil_Hip_Horizontal": [
@@ -5223,6 +5397,41 @@
       ]
     },
     {
+      "Name": "Maple Badger",
+      "Category": "SMG",
+      "Damage": [
+        15.5,
+        7.8
+      ],
+      "Dropoff_Studs": [
+        115,
+        210
+      ],
+      "Fire_Rate": 850,
+      "Hipfire_Spread": 3.5,
+      "ADS_Spread": 0.45,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 80,
+      "Suppression": 0.1,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -18,
+        18
+      ],
+      "Recoil_Hip_Vertical": [
+        24,
+        32
+      ],
+      "Recoil_Aim_Horizontal": [
+        -11.7,
+        11.7
+      ],
+      "Recoil_Aim_Vertical": [
+        15.6,
+        20.8
+      ]
+    },
+    {
       "Name": "M1 Carbine",
       "Category": "SMG",
       "Damage": [
@@ -5550,6 +5759,42 @@
       ]
     },
     {
+      "Name": "Siberia-12",
+      "Category": "Shotgun",
+      "Pellets": 8,
+      "Damage": [
+        72,
+        16
+      ],
+      "Dropoff_Studs": [
+        45,
+        100
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 6,
+      "ADS_Spread": 2,
+      "Time_To_Aim": 0.9,
+      "Detection_Radius": 200,
+      "Suppression": 0.5,
+      "Equip_Time": 0.8,
+      "Recoil_Hip_Horizontal": [
+        -20,
+        20
+      ],
+      "Recoil_Hip_Vertical": [
+        62,
+        78
+      ],
+      "Recoil_Aim_Horizontal": [
+        -12,
+        12
+      ],
+      "Recoil_Aim_Vertical": [
+        37.2,
+        46.8
+      ]
+    },
+    {
       "Name": "Blunderbuss",
       "Category": "Shotgun",
       "Pellets": 15,
@@ -5619,6 +5864,42 @@
       "Recoil_Aim_Vertical": [
         12,
         18.4
+      ]
+    },
+    {
+      "Name": "AUTO-12",
+      "Category": "Shotgun",
+      "Pellets": 6,
+      "Damage": [
+        78,
+        24
+      ],
+      "Dropoff_Studs": [
+        60,
+        105
+      ],
+      "Fire_Rate": 300,
+      "Hipfire_Spread": 5.5,
+      "ADS_Spread": 1.85,
+      "Time_To_Aim": 1,
+      "Detection_Radius": 200,
+      "Suppression": 0.8,
+      "Equip_Time": 0.9,
+      "Recoil_Hip_Horizontal": [
+        -11,
+        11
+      ],
+      "Recoil_Hip_Vertical": [
+        21,
+        34
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3.3,
+        3.3
+      ],
+      "Recoil_Aim_Vertical": [
+        6.3,
+        10.2
       ]
     },
     {
@@ -6175,16 +6456,16 @@
       "Name": "Winchester",
       "Category": "BR",
       "Damage": [
-        50,
-        40
+        56,
+        44.8
       ],
       "Dropoff_Studs": [
         210,
         390
       ],
-      "Fire_Rate": 85,
+      "Fire_Rate": 70,
       "Hipfire_Spread": 11,
-      "ADS_Spread": 0.25,
+      "ADS_Spread": 0.145,
       "Time_To_Aim": 0.5,
       "Detection_Radius": 210,
       "Suppression": 0.5,
@@ -6284,17 +6565,17 @@
       "Category": "BR",
       "Damage": [
         48,
-        28.8
+        33.6
       ],
       "Dropoff_Studs": [
         120,
         400
       ],
-      "Fire_Rate": 150,
+      "Fire_Rate": 115,
       "Hipfire_Spread": 5,
-      "ADS_Spread": 0.3,
+      "ADS_Spread": 0.2,
       "Time_To_Aim": 0.7,
-      "Detection_Radius": 120,
+      "Detection_Radius": 115,
       "Movement_Speed_Modifier": -5,
       "Suppression": 0.8,
       "Health": 7,
@@ -6329,22 +6610,22 @@
       ],
       "Fire_Rate": 900,
       "Hipfire_Spread": 5.5,
-      "ADS_Spread": 0.4,
+      "ADS_Spread": 0.35,
       "Time_To_Aim": 0.5,
       "Detection_Radius": 130,
       "Suppression": 0.5,
       "Equip_Time": 0.9,
       "Recoil_Hip_Horizontal": [
-        -18,
-        18
+        -39,
+        39
       ],
       "Recoil_Hip_Vertical": [
         83,
         108
       ],
       "Recoil_Aim_Horizontal": [
-        -13.5,
-        13.5
+        -29.3,
+        29.3
       ],
       "Recoil_Aim_Vertical": [
         62.3,
@@ -6512,7 +6793,7 @@
         200,
         275
       ],
-      "Fire_Rate": 350,
+      "Fire_Rate": 320,
       "Hipfire_Spread": 7,
       "ADS_Spread": 0.4,
       "Time_To_Aim": 0.5,
@@ -6746,7 +7027,7 @@
       "Category": "Sidearm",
       "Damage": [
         20,
-        16.5
+        13.5
       ],
       "Dropoff_Studs": [
         20,
@@ -7060,8 +7341,8 @@
       "Name": "Raygun",
       "Category": "Sidearm",
       "Damage": [
-        39,
-        19.5
+        40,
+        22
       ],
       "Dropoff_Studs": [
         38,
