@@ -1,4 +1,4 @@
-./Calculator -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.6 --recoilAimMax 30 --rangeMin 200 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf 
+./Calculator -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.6 --recoilAimMax 30 --rangeMin 200 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
 [ Barrel: BAR, Magazine: L8, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
 damage: 20.5622 - 15.6021

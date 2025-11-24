@@ -1,4 +1,4 @@
-./Calculator -o InterestingBuilds/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 --bc FC200SH M1 Carbine G11 Loaf 
+./Calculator -o InterestingBuilds/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
 [ Barrel: Spray Can, Magazine: Hex Spitter, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
 damage: 16.6928 - 11.3736

@@ -9,7 +9,7 @@ g++ -Iinclude -std=c++20 Calculator.cpp -o Calculator -O2
 python ParseSheet.py
 
 IB="InterestingBuilds"
-BANSEMI=(--bc "FC200SH" "M1 Carbine" "G11" "Loaf")
+BANSEMI=(--bc "FC200SH" "M1 Carbine" "G11" "Loaf" "ZIPO-2222") # This is a shell expansion. What it does is it basically substitutes the value in the parenthesis into the command line.
 
 # You can look at the example results in the corresponding output paths.
 

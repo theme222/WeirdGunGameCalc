@@ -1,5 +1,56 @@
-./Calculator -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf 
+./Calculator -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
+[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Spas-12, Core: Bicycle ]
+damage: 50.1181 - 19.0149
+dropoffStuds: 156.996 - 215.869
+fireRate: 299.136
+adsSpread: 0.803701
+hipfireSpread: 14.0648
+reloadTime: 3
+magazineSize: 30
+recoilHipVertical: 40 - 55
+recoilAimVertical: 24 - 33
+TTK: 0.200578 Seconds
+
+[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: AR-8X, Core: Bicycle ]
+damage: 50.1181 - 19.6247
+dropoffStuds: 160.2 - 220.275
+fireRate: 280.768
+adsSpread: 0.817989
+hipfireSpread: 14.3148
+reloadTime: 3
+magazineSize: 30
+recoilHipVertical: 40 - 55
+recoilAimVertical: 24 - 33
+movementSpeed: 1
+TTK: 0.2137 Seconds
+
+[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Kriss Vector, Core: Bicycle ]
+damage: 50.1181 - 18.1001
+dropoffStuds: 152.19 - 209.261
+fireRate: 280.768
+adsSpread: 0.932293
+hipfireSpread: 16.3151
+reloadTime: 3
+magazineSize: 30
+recoilHipVertical: 32 - 44
+recoilAimVertical: 19.2 - 26.4
+movementSpeed: 6.3
+TTK: 0.2137 Seconds
+
+[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Fedorov, Core: Bicycle ]
+damage: 50.1181 - 19.6247
+dropoffStuds: 160.2 - 220.275
+fireRate: 280.768
+adsSpread: 0.717973
+hipfireSpread: 12.5645
+reloadTime: 3.21
+magazineSize: 30
+recoilHipVertical: 36 - 49.5
+recoilAimVertical: 21.6 - 29.7
+movementSpeed: 1
+TTK: 0.2137 Seconds
+
 [ Barrel: Spray Can, Magazine: MP18, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: PP-19 Bizon ]
 damage: 20.0277 - 9.74764
 dropoffStuds: 105.287 - 121.485
@@ -39,6 +90,19 @@ recoilAimVertical: 22.7286 - 28.8225
 movementSpeed: 6.9
 TTK: 0.217032 Seconds
 
+[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Circuit Judge, Core: Bicycle ]
+damage: 50.1181 - 19.6247
+dropoffStuds: 160.2 - 220.275
+fireRate: 274.995
+adsSpread: 0.825133
+hipfireSpread: 14.4398
+reloadTime: 2.19
+magazineSize: 30
+recoilHipVertical: 40 - 55
+recoilAimVertical: 24 - 33
+movementSpeed: 3
+TTK: 0.218186 Seconds
+
 [ Barrel: MG42, Magazine: Mega Soaker, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: Burton ]
 damage: 14.685 - 8.30847
 dropoffStuds: 102.211 - 218.618
@@ -53,83 +117,16 @@ recoilAimVertical: 4.66284 - 5.06251
 movementSpeed: 3.5
 TTK: 0.218516 Seconds
 
-[ Barrel: Uzi, Magazine: P90, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Maple Badger ]
-damage: 16.6739 - 8.17539
-dropoffStuds: 111.09 - 202.86
-fireRate: 1366.07
-adsSpread: 0.61704
-hipfireSpread: 4.7992
-reloadTime: 4.6
-magazineSize: 50
-recoilHipVertical: 32.208 - 42.944
-recoilAimVertical: 20.9352 - 27.9136
-movementSpeed: 3.8
-TTK: 0.219608 Seconds
-
-[ Barrel: APS, Magazine: MP18, Grip: Circuit Judge, Stock: M110, Core: Bicycle ]
-damage: 50.3445 - 13.4291
-dropoffStuds: 118.3 - 162.662
-fireRate: 272.825
-adsSpread: 0.662956
-hipfireSpread: 11.6017
-reloadTime: 2.42
-magazineSize: 32
-recoilHipVertical: 40.992 - 56.364
-recoilAimVertical: 24.5952 - 33.8184
-TTK: 0.219921 Seconds
-
-[ Barrel: Mustard, Magazine: Paintball, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Type 2a Nambu ]
-damage: 20.5632 - 9.30238
-dropoffStuds: 100 - 115
-fireRate: 1087.4
-adsSpread: 0.855196
-hipfireSpread: 5.70131
-reloadTime: 7.13
-magazineSize: 70
-health: -8
-recoilHipVertical: 30.5 - 42.7
-recoilAimVertical: 19.764 - 27.694
-movementSpeed: 6
-TTK: 0.22071 Seconds
-
-[ Barrel: Spray Can, Magazine: Graphics Card, Grip: M1891, Stock: P90, Core: MG42 ]
-damage: 12.8775 - 6.94947
-dropoffStuds: 122.82 - 266.11
-fireRate: 1894.82
-adsSpread: 0.989266
-hipfireSpread: 9.89266
-reloadTime: 6.9
-magazineSize: 50
-health: 13
-recoilHipVertical: 45.7072 - 65.5424
-recoilAimVertical: 22.8536 - 32.7712
-movementSpeed: 0.15
-TTK: 0.221657 Seconds
-
-[ Barrel: Mustard, Magazine: P90, Grip: PPSh-41, Stock: Spas-12, Core: Type 2a Nambu ]
-damage: 20.4593 - 9.60272
-dropoffStuds: 102.9 - 118.335
-fireRate: 1080.09
-adsSpread: 0.908934
-hipfireSpread: 6.05956
-reloadTime: 4.6
-magazineSize: 50
-health: -8
-recoilHipVertical: 27.5 - 38.5
-recoilAimVertical: 17.82 - 24.97
-movementSpeed: 2.8
-TTK: 0.222204 Seconds
-
-[ Barrel: Spray Can, Magazine: MAC-10, Grip: PPSh-41, Stock: Spas-12, Core: PP-19 Bizon ]
-damage: 16.9983 - 8.34365
-dropoffStuds: 106.583 - 122.98
-fireRate: 1350.11
-adsSpread: 0.878452
-hipfireSpread: 1.80858
-reloadTime: 2.3
+[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: MAC-10, Core: Bicycle ]
+damage: 50.1181 - 19.6247
+dropoffStuds: 160.2 - 220.275
+fireRate: 274.208
+adsSpread: 0.832277
+hipfireSpread: 14.5648
+reloadTime: 3
 magazineSize: 30
-recoilHipVertical: 40.5 - 67.5
-recoilAimVertical: 12.15 - 20.25
-movementSpeed: 3.9
-TTK: 0.222204 Seconds
+recoilHipVertical: 40 - 55
+recoilAimVertical: 24 - 33
+movementSpeed: 7.6
+TTK: 0.218812 Seconds
 

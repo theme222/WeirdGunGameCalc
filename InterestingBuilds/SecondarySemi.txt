@@ -60,17 +60,17 @@ recoilHipVertical: 81.648 - 99.792
 recoilAimVertical: 65.3184 - 79.8336
 TTK: 0.255183 Seconds
 
-[ Barrel: Mustard, Magazine: M110, Grip: Banana, Stock: None, Core: Cyber 3517 ]
+[ Barrel: Mustard, Magazine: M110, Grip: Mega Soaker, Stock: None, Core: Cyber 3517 ]
 damage: 50.4509 - 30.1594
 dropoffStuds: 82.8 - 121.44
 fireRate: 235.125
-adsSpread: 0.329448
-hipfireSpread: 6.58895
+adsSpread: 0.320891
+hipfireSpread: 6.41781
 reloadTime: 3.8
 magazineSize: 10
-recoilHipVertical: 80.64 - 98.56
-recoilAimVertical: 64.512 - 78.848
-movementSpeed: 5
+recoilHipVertical: 76.608 - 93.632
+recoilAimVertical: 61.2864 - 74.9056
+movementSpeed: 2
 TTK: 0.255183 Seconds
 
 [ Barrel: Mustard, Magazine: M110, Grip: Lamp Shade, Stock: None, Core: Cyber 3517 ]
@@ -85,17 +85,17 @@ recoilHipVertical: 80.64 - 98.56
 recoilAimVertical: 64.512 - 78.848
 TTK: 0.255183 Seconds
 
-[ Barrel: Mustard, Magazine: M110, Grip: Mega Soaker, Stock: None, Core: Cyber 3517 ]
+[ Barrel: Mustard, Magazine: M110, Grip: Banana, Stock: None, Core: Cyber 3517 ]
 damage: 50.4509 - 30.1594
 dropoffStuds: 82.8 - 121.44
 fireRate: 235.125
-adsSpread: 0.320891
-hipfireSpread: 6.41781
+adsSpread: 0.329448
+hipfireSpread: 6.58895
 reloadTime: 3.8
 magazineSize: 10
-recoilHipVertical: 76.608 - 93.632
-recoilAimVertical: 61.2864 - 74.9056
-movementSpeed: 2
+recoilHipVertical: 80.64 - 98.56
+recoilAimVertical: 64.512 - 78.848
+movementSpeed: 5
 TTK: 0.255183 Seconds
 
 [ Barrel: T10, Magazine: Restroom, Grip: PPSh-41, Stock: None, Core: Cyber 3517 ]

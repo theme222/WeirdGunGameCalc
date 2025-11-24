@@ -16,7 +16,7 @@
     {
       "Name": "C36C",
       "Category": "AR",
-      "Damage": 3,
+      "Damage": 4.5,
       "Reload_Speed": -10
     },
     {
@@ -54,7 +54,7 @@
     {
       "Name": "Scar L",
       "Category": "AR",
-      "Damage": 3,
+      "Damage": 4.5,
       "Recoil": -10
     },
     {
@@ -390,6 +390,15 @@
       "Recoil": 25
     },
     {
+      "Name": "ZIPO-2222",
+      "Category": "SMG",
+      "Damage": 11,
+      "Detection_Radius": -17,
+      "Recoil": -16,
+      "Range": -6,
+      "Spread": 15
+    },
+    {
       "Name": "PPSh-41",
       "Category": "SMG",
       "Fire_Rate": 15,
@@ -503,12 +512,12 @@
     {
       "Name": "M870 Wingmaster",
       "Category": "Shotgun",
-      "Damage": 13,
+      "Damage": 16,
       "Range": 7,
       "Spread": -5,
       "Detection_Radius": 10,
       "Fire_Rate": -13,
-      "Pellets": -50,
+      "Pellets": -20,
       "Reload_Speed": 5
     },
     {
@@ -975,6 +984,14 @@
       "Category": "Sidearm",
       "Damage": 6,
       "Recoil": 5
+    },
+    {
+      "Name": "ZIPO-22",
+      "Category": "Sidearm",
+      "Damage": 12,
+      "Recoil": -16,
+      "Range": -7.5,
+      "Reload_Speed": 11
     },
     {
       "Name": "B17",
@@ -1503,6 +1520,15 @@
       "Recoil": 12
     },
     {
+      "Name": "ZIPO-2222",
+      "Category": "SMG",
+      "Magazine_Size": 30,
+      "Reload_Time": 3,
+      "Damage": 23,
+      "Fire_Rate": -18,
+      "Range": -11
+    },
+    {
       "Name": "PPSh-41",
       "Category": "SMG",
       "Magazine_Size": 71,
@@ -1580,7 +1606,7 @@
       "Magazine_Size": 8,
       "Reload_Time": 4,
       "Damage": 21,
-      "Pellets": 100,
+      "Pellets": 55,
       "Range": -3.5,
       "Recoil": 38
     },
@@ -1610,7 +1636,7 @@
       "Magazine_Size": 6,
       "Reload_Time": 4.5,
       "Damage": 22,
-      "Pellets": 200,
+      "Pellets": 100,
       "Range": -7,
       "Recoil": 43,
       "Spread": 22
@@ -1634,7 +1660,7 @@
       "Reload_Time": 4,
       "Fire_Rate": 9,
       "Health": 5,
-      "Pellets": 150,
+      "Pellets": 57,
       "Movement_Speed": -5.5,
       "Range": -10,
       "Recoil": 15,
@@ -1647,7 +1673,7 @@
       "Reload_Time": 3,
       "Damage": 20,
       "Fire_Rate": 20,
-      "Pellets": 175,
+      "Pellets": 60,
       "Movement_Speed": -4,
       "Recoil": 50,
       "Spread": 16
@@ -1659,7 +1685,7 @@
       "Reload_Time": 7.5,
       "Damage": 19,
       "Fire_Rate": 5,
-      "Pellets": 125,
+      "Pellets": 40,
       "Recoil": 26,
       "Spread": 15
     },
@@ -1680,9 +1706,9 @@
       "Name": "Double Barrel",
       "Category": "Shotgun",
       "Magazine_Size": 2,
-      "Reload_Time": 5,
+      "Reload_Time": 3.5,
       "Damage": 35,
-      "Pellets": 100,
+      "Pellets": 80,
       "Fire_Rate": -13,
       "Range": -7,
       "Recoil": 100
@@ -1931,9 +1957,9 @@
       "Reload_Time": 3.4,
       "Damage": 25,
       "Range": 13,
-      "Recoil": -4,
+      "Recoil": -11,
       "Detection_Radius": 20,
-      "Fire_Rate": -13,
+      "Fire_Rate": -19,
       "Movement_Speed": -4
     },
     {
@@ -2120,6 +2146,15 @@
       "Range": 4,
       "Spread": -8,
       "Recoil": 18
+    },
+    {
+      "Name": "ZIPO-22",
+      "Category": "Sidearm",
+      "Magazine_Size": 10,
+      "Reload_Time": 1.5,
+      "Damage": 32,
+      "Fire_Rate": -45,
+      "Range": -19
     },
     {
       "Name": "B17",
@@ -2551,6 +2586,13 @@
       "Spread": 18
     },
     {
+      "Name": "ZIPO-2222",
+      "Category": "SMG",
+      "Movement_Speed": 4.5,
+      "Reload_Speed": -11,
+      "Range": -2.5
+    },
+    {
       "Name": "PPSh-41",
       "Category": "SMG",
       "Fire_Rate": 10,
@@ -2937,6 +2979,14 @@
       "Movement_Speed": 2,
       "Reload_Speed": -3,
       "Recoil": 11
+    },
+    {
+      "Name": "ZIPO-22",
+      "Category": "Sidearm",
+      "Movement_Speed": 3.5,
+      "Spread": -16,
+      "Range": -6,
+      "Reload_Speed": 4.5
     },
     {
       "Name": "B17",
@@ -3334,6 +3384,12 @@
       "Reload_Speed": -5,
       "Spread": -13,
       "Recoil": 20
+    },
+    {
+      "Name": "ZIPO-2222",
+      "Category": "SMG",
+      "Health": 3,
+      "Movement_Speed": 6.5
     },
     {
       "Name": "PPSh-41",
@@ -5223,6 +5279,41 @@
       ]
     },
     {
+      "Name": "ZIPO-2222",
+      "Category": "SMG",
+      "Damage": [
+        30,
+        12.6
+      ],
+      "Dropoff_Studs": [
+        100,
+        125
+      ],
+      "Fire_Rate": 600,
+      "Hipfire_Spread": 1,
+      "ADS_Spread": 0.15,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 40,
+      "Movement_Speed_Modifier": 8.5,
+      "Equip_Time": 0.5,
+      "Recoil_Hip_Horizontal": [
+        -10,
+        10
+      ],
+      "Recoil_Hip_Vertical": [
+        8,
+        17
+      ],
+      "Recoil_Aim_Horizontal": [
+        -5,
+        5
+      ],
+      "Recoil_Aim_Vertical": [
+        4,
+        8.5
+      ]
+    },
+    {
       "Name": "PPSh-41",
       "Category": "SMG",
       "Damage": [
@@ -5627,10 +5718,11 @@
       ],
       "Fire_Rate": 190,
       "Hipfire_Spread": 7,
-      "ADS_Spread": 2,
+      "ADS_Spread": 1.9,
       "Time_To_Aim": 0.75,
       "Detection_Radius": 130,
       "Suppression": 0.2,
+      "Health": 8,
       "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -20,
@@ -5692,7 +5784,7 @@
       "Pellets": 6,
       "Damage": [
         114,
-        18
+        6
       ],
       "Dropoff_Studs": [
         50,
@@ -5700,10 +5792,11 @@
       ],
       "Fire_Rate": 220,
       "Hipfire_Spread": 8,
-      "ADS_Spread": 2.5,
+      "ADS_Spread": 2,
       "Time_To_Aim": 0.95,
       "Detection_Radius": 160,
       "Suppression": 0.2,
+      "Health": 6,
       "Equip_Time": 0.7,
       "Recoil_Hip_Horizontal": [
         -25,
@@ -5761,10 +5854,10 @@
     {
       "Name": "Siberia-12",
       "Category": "Shotgun",
-      "Pellets": 8,
+      "Pellets": 12,
       "Damage": [
-        72,
-        16
+        48,
+        0
       ],
       "Dropoff_Studs": [
         45,
@@ -5775,23 +5868,24 @@
       "ADS_Spread": 2,
       "Time_To_Aim": 0.9,
       "Detection_Radius": 200,
+      "Movement_Speed_Modifier": -7,
       "Suppression": 0.5,
       "Equip_Time": 0.8,
       "Recoil_Hip_Horizontal": [
-        -20,
-        20
+        -30,
+        30
       ],
       "Recoil_Hip_Vertical": [
-        62,
-        78
+        83,
+        96
       ],
       "Recoil_Aim_Horizontal": [
-        -12,
-        12
+        -24.3,
+        24.3
       ],
       "Recoil_Aim_Vertical": [
-        37.2,
-        46.8
+        67.2,
+        77.8
       ]
     },
     {
@@ -5871,8 +5965,8 @@
       "Category": "Shotgun",
       "Pellets": 6,
       "Damage": [
-        78,
-        24
+        72,
+        18
       ],
       "Dropoff_Studs": [
         60,
@@ -5880,9 +5974,10 @@
       ],
       "Fire_Rate": 300,
       "Hipfire_Spread": 5.5,
-      "ADS_Spread": 1.85,
+      "ADS_Spread": 2,
       "Time_To_Aim": 1,
       "Detection_Radius": 200,
+      "Movement_Speed_Modifier": -5,
       "Suppression": 0.8,
       "Equip_Time": 0.9,
       "Recoil_Hip_Horizontal": [
@@ -7055,6 +7150,40 @@
       "Recoil_Aim_Vertical": [
         2.1,
         2.4
+      ]
+    },
+    {
+      "Name": "ZIPO-22",
+      "Category": "Sidearm",
+      "Damage": [
+        35,
+        6.3
+      ],
+      "Dropoff_Studs": [
+        15,
+        35
+      ],
+      "Fire_Rate": 750,
+      "Hipfire_Spread": 0.55,
+      "ADS_Spread": 0.55,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 35,
+      "Equip_Time": 0.3,
+      "Recoil_Hip_Horizontal": [
+        -6,
+        6
+      ],
+      "Recoil_Hip_Vertical": [
+        5,
+        14
+      ],
+      "Recoil_Aim_Horizontal": [
+        -3.6,
+        3.6
+      ],
+      "Recoil_Aim_Vertical": [
+        2,
+        5.6
       ]
     },
     {
