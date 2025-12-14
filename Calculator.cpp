@@ -588,8 +588,10 @@ public:
     fpair recoilHipVertical;
     fpair recoilAimHorizontal;
     fpair recoilAimVertical;
-    inline float TTK() const { return (ceilf(Input::playerMaxHealth / damage) - 1) / fireRate * 60; }
+    inline float TTKM() const { return (ceilf(Input::playerMaxHealth / damage) - 1) / fireRate; }
+    inline float TTKS() const { return TTKM() * 60; }
     inline float DPM() const { return damage * fireRate; } // DPS = DPM / 60
+    inline float DPS() const { return DPM() / 60; }
 
     Gun() {}
     Gun(Core *core) : core(core) {}
@@ -796,7 +798,7 @@ public:
         if (flags & HEALTH) health += GetTotalAdd(HEALTH);
         if (flags & RELOAD) reloadTime *= GetTotalMult(RELOAD);
         if (flags & DETECTIONRADIUS) detectionRadius *= GetTotalMult(DETECTIONRADIUS);
-        if ((flags & SPREADAIM) || (flags & SPREADHIP))
+        if ((flags & (SPREADAIM | SPREADHIP)))
         {
             // Mult is identical for both ADS and hipfire
             float mult = 1;
@@ -882,7 +884,7 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
     os << "recoilAimVertical: " << gun.recoilAimVertical << "\n";
     if (gun.movementSpeedModifier != 0 || Input::detailed) os << "movementSpeed: " << gun.movementSpeedModifier << "\n";
     if (Input::detectionRadiusRange != fpair(NILRANGE) || Input::detailed) os << "detectionRadius: " << gun.detectionRadius << "\n";
-    if (gun.TTK() != 0 || Input::detailed) os << "TTK: " << gun.TTK() << " Seconds\n";
+    if (gun.TTKS() != 0 || Input::detailed) os << "TTK: " << gun.TTKS() << " Seconds\n";
     if (Input::sortType == "DPS" || Input::detailed) os << "DPS: " << gun.DPM() / 60 << "\n";
     return os;
 }
@@ -963,7 +965,7 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
 
     // The most devious lookin macro
     #define _PQSORT(name, expression) struct Sort##name { bool operator()(const Gun& gun1, const Gun& gun2) const {return expression;} };
-    _PQSORT(TTK, gun1.TTK() < gun2.TTK())
+    _PQSORT(TTK, gun1.TTKM() < gun2.TTKM())
     _PQSORT(FireRate, gun1.fireRate > gun2.fireRate)
     _PQSORT(ADSSpread, gun1.adsSpread < gun2.adsSpread)
     _PQSORT(HipfireSpread, gun1.hipfireSpread < gun2.hipfireSpread)
@@ -1015,16 +1017,16 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
     };
 
     #define _CALLMACROPQANDTYPE(macro) \
-        macro(SORTBYTTK, TTK_pq) \
-        macro(SORTBYFIRERATE, FireRate_pq) \
-        macro(SORTBYADSSPREAD, ADSSpread_pq) \
-        macro(SORTBYHIPFIRESPREAD, HipfireSpread_pq) \
-        macro(SORTBYRECOIL, Recoil_pq) \
-        macro(SORTBYHEALTH, Health_pq) \
-        macro(SORTBYSPEED, Speed_pq) \
-        macro(SORTBYMAGAZINE, Magazine_pq) \
-        macro(SORTBYRELOAD, Reload_pq) \
-        macro(SORTBYDPS, DPS_pq)
+        macro(SORTBYTTK, TTK_pq, SortTTK) \
+        macro(SORTBYFIRERATE, FireRate_pq, SortFireRate) \
+        macro(SORTBYADSSPREAD, ADSSpread_pq, SortADSSpread) \
+        macro(SORTBYHIPFIRESPREAD, HipfireSpread_pq, SortHipfireSpread) \
+        macro(SORTBYRECOIL, Recoil_pq, SortRecoil) \
+        macro(SORTBYHEALTH, Health_pq, SortHealth) \
+        macro(SORTBYSPEED, Speed_pq, SortSpeed) \
+        macro(SORTBYMAGAZINE, Magazine_pq, SortMagazine) \
+        macro(SORTBYRELOAD, Reload_pq, SortReload) \
+        macro(SORTBYDPS, DPS_pq, SortDPS)
 
 
     SortingType currentSortingType = SORTBYTTK;
@@ -1041,12 +1043,12 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
         else if (type == "MAGAZINE") currentSortingType = SORTBYMAGAZINE;
         else if (type == "RELOAD") currentSortingType = SORTBYRELOAD;
         else if (type == "DPS") currentSortingType = SORTBYDPS;
-        else throw std::runtime_error("Invalid sorting type");
+        else throw std::invalid_argument("Invalid sorting type");
     }
 
     bool HasMember(Variant_pq& pq)
     {
-        #define __MACROHASMEMBER(sort, pqtype) case sort: return std::get<pqtype>(pq).size() > 0;
+        #define __MACROHASMEMBER(sort, pqtype, comp) case sort: return std::get<pqtype>(pq).size() > 0;
         switch (PQ::currentSortingType)
         {
             _CALLMACROPQANDTYPE(__MACROHASMEMBER)
@@ -1058,7 +1060,7 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
 
     Variant_pq Create()
     {
-        #define __MACROCREATE(sort, pqtype) case sort: return pqtype();
+        #define __MACROCREATE(sort, pqtype, comp) case sort: return pqtype();
         switch(currentSortingType)
         {
             _CALLMACROPQANDTYPE(__MACROCREATE)
@@ -1069,7 +1071,7 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
 
     Gun Pop(Variant_pq& pq)
     {
-        #define __MACROPOP(sort, pqtype) case sort: {pqtype& _pq = std::get<pqtype>(pq); Gun gun = _pq.top(); _pq.pop(); return gun;}
+        #define __MACROPOP(sort, pqtype, comp) case sort: {pqtype& _pq = std::get<pqtype>(pq); Gun gun = _pq.top(); _pq.pop(); return gun;}
         switch(currentSortingType)
         {
             _CALLMACROPQANDTYPE(__MACROPOP)
@@ -1081,7 +1083,7 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
 
     void Push(Variant_pq& pq, const Gun& gun)
     {
-        #define __MACROPUSH(sort, pqtype) case sort: {pqtype& _pq = std::get<pqtype>(pq); _pq.push(gun); if (_pq.size() > Input::howManyTopGunsToDisplay) _pq.pop(); break;}
+        #define __MACROPUSH(sort, pqtype, comp) case sort: {pqtype& _pq = std::get<pqtype>(pq); _pq.push(gun); if (_pq.size() > Input::howManyTopGunsToDisplay) _pq.pop(); break;}
         switch(currentSortingType)
         {
             _CALLMACROPQANDTYPE(__MACROPUSH)
@@ -1092,10 +1094,33 @@ namespace PQ // Also known as the stop using so many god damn macros bro holy sh
 
     int Size(Variant_pq& pq)
     {
-        #define __MACROSIZE(sort, pqtype) case sort: return std::get<pqtype>(pq).size();
+        #define __MACROSIZE(sort, pqtype, comp) case sort: return std::get<pqtype>(pq).size();
         switch(currentSortingType)
         {
             _CALLMACROPQANDTYPE(__MACROSIZE)
+            default:
+                throw std::runtime_error("Invalid sorting type");
+        }
+    }
+
+    const Gun& Top(Variant_pq& pq)
+    {
+
+        #define __MACROTOP(sort, pqtype, comp) case sort: { return std::get<pqtype>(pq).top(); }
+        switch(currentSortingType)
+        {
+            _CALLMACROPQANDTYPE(__MACROTOP)
+            default:
+                throw std::runtime_error("Invalid sorting type");
+        }
+    }
+
+    bool Comp(const Gun& gun1, const Gun& gun2)
+    {
+        #define __MACROCOMP(sort, pqtype, comp) case sort: { return comp()(gun1, gun2); }
+        switch(currentSortingType)
+        {
+            _CALLMACROPQANDTYPE(__MACROCOMP)
             default:
                 throw std::runtime_error("Invalid sorting type");
         }
@@ -1107,198 +1132,7 @@ PQ::Variant_pq threadPQ[64];
 std::thread threads[64];
 uint64_t validGunInThread[64];
 
-namespace BruteForce
-{
-    using namespace Fast;
-    class Iterator
-    {
-    public:
-
-        int barrelIndex = 0;
-        int magazineIndex = 0;
-        int gripIndex = 0;
-        int stockIndex = 0;
-        int coreIndex = 0;
-        int threadId = 0;
-
-        Iterator()
-        { }
-        Iterator(int threadId): threadId(threadId), coreIndex(threadId)
-        { }
-
-        bool Step(Barrel*& b, Magazine*& m, Grip*& g, Stock*& s, Core*& c) // Returns true if another combination still exists
-        {
-            b = barrelList.data() + barrelIndex;
-            m = magazineList.data() + magazineIndex;
-            g = gripList.data() + gripIndex;
-            s = stockList.data() + stockIndex;
-            c = coreList.data() + coreIndex;
-
-            int coreName = coreList[coreIndex].name_fast;
-
-            do {
-                barrelIndex++;
-            } while (barrelIndex < barrelCount && barrelList[barrelIndex].name_fast == coreName);
-
-            if (barrelIndex < barrelCount) return true;
-
-            barrelIndex = 0;
-            do {
-                magazineIndex++;
-            } while (magazineIndex < magazineCount && magazineList[magazineIndex].name_fast == coreName);
-
-            if (magazineIndex < magazineCount) return true;
-
-            magazineIndex = 0;
-            do {
-                gripIndex++;
-            } while (gripIndex < gripCount && gripList[gripIndex].name_fast == coreName);
-
-            if (gripIndex < gripCount) return true;
-
-            gripIndex = 0;
-            do {
-                stockIndex++;
-            } while (stockIndex < stockCount && stockList[stockIndex].name_fast == coreName);
-
-            if (stockIndex < stockCount) return true;
-
-            stockIndex = 0;
-            printf("Processed core index: %d\n", coreIndex);
-
-            do {
-                coreIndex++;
-            } while (coreIndex % Input::threadsToMake != threadId);
-
-            return coreIndex < coreCount;
-        }
-    };
-
-    namespace Filter
-    {
-        uint32_t currentflags = 0;
-        void InitializeMultFlag()
-        {
-            fpair nilrange = NILRANGE;
-            if (Input::pelletRange != nilrange) currentflags |= PELLETS;
-            if (Input::damageRange != nilrange) currentflags |= DAMAGE | PELLETS;
-            if (Input::damage2Range != nilrange) currentflags |= DAMAGE | PELLETS | FALLOFFFACTOR;
-            if (Input::magazineRange != nilrange) currentflags |= MAGAZINESIZE;
-            if (Input::movementSpeedRange != nilrange) currentflags |= MOVEMENTSPEEDMODIFIER;
-            if (Input::spreadHipRange != nilrange) currentflags |= SPREADHIP | PELLETS;
-            if (Input::spreadAimRange != nilrange) currentflags |= SPREADAIM | PELLETS;
-            if (Input::recoilHipRange != nilrange) currentflags |= RECOILHIP;
-            if (Input::recoilAimRange != nilrange) currentflags |= RECOILAIM;
-            if (Input::fireRateRange != nilrange) currentflags |= FIRERATE;
-            if (Input::healthRange != nilrange) currentflags |= HEALTH;
-            if (Input::reloadRange != nilrange) currentflags |= RELOAD;
-            if (Input::detectionRadiusRange != nilrange) currentflags |= DETECTIONRADIUS;
-            if (Input::dropoffStudsRange != nilrange) currentflags |= DROPOFFSTUDS;
-            if (Input::dropoffStuds2Range != nilrange) currentflags |= DROPOFFSTUDS;
-            if (Input::burstRange != nilrange) currentflags |= BURST;
-            switch (PQ::currentSortingType)
-            {
-                case PQ::SORTBYTTK:
-                case PQ::SORTBYDPS:
-                    currentflags |= DAMAGE | PELLETS;
-                case PQ::SORTBYFIRERATE:
-                    currentflags |= FIRERATE;
-                    break;
-                case PQ::SORTBYADSSPREAD:
-                    currentflags |= SPREADAIM | PELLETS;
-                    break;
-                case PQ::SORTBYHIPFIRESPREAD:
-                    currentflags |= SPREADHIP | PELLETS;
-                    break;
-                case PQ::SORTBYRECOIL:
-                    currentflags |= RECOILAIM;
-                    break;
-                case PQ::SORTBYHEALTH:
-                    currentflags |= HEALTH;
-                    break;
-                case PQ::SORTBYSPEED:
-                    currentflags |= MOVEMENTSPEEDMODIFIER;
-                    break;
-                case PQ::SORTBYMAGAZINE:
-                    currentflags |= MAGAZINESIZE;
-                    break;
-                case PQ::SORTBYRELOAD:
-                    currentflags |= RELOAD;
-                    break;
-            }
-        }
-
-        bool PreFilter(Barrel* b, Magazine* m, Grip* g, Stock* s, Core* c)
-        {
-            using Fast::RangeFilter;
-
-            // Make sure the parts are the selected parts
-            if (Fast::forceParts_fast[0] != NILINT && b->name_fast != Fast::forceParts_fast[0]) return false;
-            if (Fast::forceParts_fast[1] != NILINT && m->name_fast != Fast::forceParts_fast[1]) return false;
-            if (Fast::forceParts_fast[2] != NILINT && g->name_fast != Fast::forceParts_fast[2]) return false;
-            if (Fast::forceParts_fast[3] != NILINT && s->name_fast != Fast::forceParts_fast[3]) return false;
-            if (Fast::forceParts_fast[4] != NILINT && c->name_fast != Fast::forceParts_fast[4]) return false;
-
-            if (Fast::banParts_fast[0][b->name_fast]) return false;
-            if (Fast::banParts_fast[1][m->name_fast]) return false;
-            if (Fast::banParts_fast[2][g->name_fast]) return false;
-            if (Fast::banParts_fast[3][s->name_fast]) return false;
-            if (Fast::banParts_fast[4][c->name_fast]) return false;
-
-            if (!Fast::includeCategories_fast[c->category_fast]) return false;
-            if (!RangeFilter(c->burst, Input::burstRange)) return false;
-            if (!RangeFilter(c->timeToAim, Input::timeToAimRange)) return false;
-            if (!RangeFilter(m->magazineSize, Input::magazineRange)) return false;
-            return true;
-        }
-
-        bool PostFilter(Gun& gun)
-        {
-            using Fast::RangeFilter;
-            if (!RangeFilter(gun.damage, Input::damageRange)) return false;
-            if (!RangeFilter(gun.damage2(), Input::damage2Range)) return false;
-            if (!RangeFilter(gun.adsSpread, Input::spreadAimRange)) return false;
-            if (!RangeFilter(gun.hipfireSpread, Input::spreadHipRange)) return false;
-            if (!RangeFilter(gun.recoilAimVertical.second, Input::recoilAimRange)) return false;
-            if (!RangeFilter(gun.recoilHipVertical.second, Input::recoilHipRange)) return false;
-            if (!RangeFilter(gun.movementSpeedModifier, Input::movementSpeedRange)) return false;
-            if (!RangeFilter(gun.fireRate, Input::fireRateRange)) return false;
-            if (!RangeFilter(gun.health, Input::healthRange)) return false;
-            if (!RangeFilter(ceilf(gun.pellets), Input::pelletRange)) return false;
-            if (!RangeFilter(gun.reloadTime, Input::reloadRange)) return false;
-            if (!RangeFilter(gun.detectionRadius, Input::detectionRadiusRange)) return false;
-            if (!RangeFilter(gun.dropoffStuds.first, Input::dropoffStudsRange)) return false;
-            if (!RangeFilter(gun.dropoffStuds.second, Input::dropoffStuds2Range)) return false;
-            return true;
-        }
-
-    }
-
-
-    void Run(int threadId)
-    {
-        Barrel* b; Magazine* m; Grip* g; Stock* s; Core* c;
-
-        printf("Starting thread: %d\n", threadId);
-
-        threadPQ[threadId] = PQ::Create();
-        Iterator iter(threadId);
-
-        while (iter.Step(b, m, g, s, c))
-        {
-            if (!Filter::PreFilter(b, m, g, s, c)) continue;
-
-            Gun currentGun(b, m, g, s, c);
-            currentGun.CopyValues(Filter::currentflags);
-            currentGun.CalculateGunStats(Filter::currentflags);
-
-            if (!Filter::PostFilter(currentGun)) continue;
-
-            validGunInThread[threadId]++;
-            PQ::Push(threadPQ[threadId], currentGun);
-        }
-    }
-};
+// namespace BruteForce { };
 
 namespace Prune
 {
@@ -1706,9 +1540,15 @@ namespace Prune
                 {
                     validGunCount1++;
                     validGunInThread[threadId]++;
-                    PQ::Push(threadPQ[threadId], currentGun);
-                    if (PQ::Size(threadPQ[threadId]) > Input::howManyTopGunsToDisplay)
-                        PQ::Pop(threadPQ[threadId]);
+                    int pqSize = PQ::Size(threadPQ[threadId]);
+                    if (pqSize < Input::howManyTopGunsToDisplay)
+                        PQ::Push(threadPQ[threadId], currentGun);
+                    else if (PQ::Comp(currentGun, PQ::Top(threadPQ[threadId])))
+                    {
+                        PQ::Push(threadPQ[threadId], currentGun);
+                        if (pqSize+1 > Input::howManyTopGunsToDisplay)
+                            PQ::Pop(threadPQ[threadId]);
+                    }
                 }
             }
         }
@@ -1881,7 +1721,7 @@ int main(int argc, char* argv[])
     Fast::InitializeIncludeCategories();
     Fast::InitializeForceAndBanParts();
     Fast::InitializeClampQuadratic();
-    BruteForce::Filter::InitializeMultFlag();
+    // BruteForce::Filter::InitializeMultFlag();
     Prune::Filter::InitializeMultFlag();
     Prune::HighLow::InitializeBestPossibleCombo();
     Prune::HighLow::InitializeHighestAndLowestMultParts();
@@ -1901,9 +1741,8 @@ int main(int argc, char* argv[])
     }
     else if (Input::method == "BRUTEFORCE")
     {
-        puts("This function is deprecated and I can't be bothered to test if it works 100%. PRUNE provides the same functionality with faster performance.");
-        for (int threadId = 0; threadId < Input::threadsToMake; threadId++)
-            threads[threadId] = std::thread(BruteForce::Run, threadId);
+        puts("This function is no longer supported. Please use switch to another method.");
+        throw std::invalid_argument("BRUTEFORCE is no longer supported");
     }
     else {
         throw std::invalid_argument("Invalid method");
@@ -1972,3 +1811,4 @@ int main(int argc, char* argv[])
     }
     file.close();
 }
+
