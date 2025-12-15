@@ -42,7 +42,7 @@ BANSEMI=(--bc "FC200SH" "M1 Carbine" "G11" "Loaf" "ZIPO-2222") # This is a shell
 ./Calculator -o $IB/LowSpreadShogun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadAimMax 0.85
 ./Calculator -o $IB/HipfireShotgun.txt -i Shotgun --sort RECOIL --damageMin 100 --speedMin 0 --spreadHipMax 2 --fireRateMin 50
 ./Calculator -o $IB/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80
-./Calculator -o $IB/AutoShotgun.txt -i Shotgun --sort FIRERATE --fc Siberia-12 --damageMin 120 --spreadAimMax 2.8 --speedMin 0 --rangeMin 45 --magazineMin 20 --recoilAimMax 70
+./Calculator -o $IB/AutoShotgun.txt -i Shotgun --sort FIRERATE --fc Siberia-12 --damageMin 60 --spreadAimMax 2 --speedMin 0 --rangeMin 50 --magazineMin 20 --recoilAimMax 100
 ####################### SHOTGUNS #######################
 
 ####################### SECONDARIES #######################

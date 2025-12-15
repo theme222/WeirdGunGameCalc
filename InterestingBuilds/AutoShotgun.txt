@@ -1,2 +1,146 @@
-./Calculator -o InterestingBuilds/AutoShotgun.txt -i Shotgun --sort FIRERATE --fc Siberia-12 --damageMin 120 --spreadAimMax 2.8 --speedMin 0 --rangeMin 45 --magazineMin 20 --recoilAimMax 70 
+./Calculator -o InterestingBuilds/AutoShotgun.txt -i Shotgun --sort ADSSPREAD --fc Siberia-12 --damageMin 60 --spreadAimMax 2 --speedMin 0 --rangeMin 50 --magazineMin 20 --recoilAimMax 100 
 Current top 10 guns are: 
+[ Barrel: Scar H, Magazine: Type 99, Grip: Croissant, Stock: JSG12, Core: Siberia-12 ]
+damage: 66.463 - 7.73629
+dropoffStuds: 50.562 - 112.36
+pellets: 12
+fireRate: 513
+adsSpread: 1.93159
+hipfireSpread: 5.79477
+reloadTime: 3.15
+magazineSize: 30
+recoilHipVertical: 80.6362 - 93.2659
+recoilAimVertical: 65.2861 - 75.5843
+TTK: 0.116959 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: AK-12, Grip: Arisaka, Stock: JSG12, Core: Siberia-12 ]
+damage: 65.6006 - 7.795
+dropoffStuds: 50.6779 - 112.618
+pellets: 10
+fireRate: 522
+adsSpread: 1.93904
+hipfireSpread: 5.81712
+reloadTime: 2.4255
+magazineSize: 30
+health: -6
+recoilHipVertical: 94.62 - 109.44
+recoilAimVertical: 76.608 - 88.692
+TTK: 0.114943 Seconds
+
+[ Barrel: M1891, Magazine: UNP-40, Grip: Arisaka, Stock: JSG12, Core: Siberia-12 ]
+damage: 63.1043 - 8.5254
+dropoffStuds: 51.4305 - 114.29
+pellets: 12
+fireRate: 510
+adsSpread: 1.94706
+hipfireSpread: 5.84118
+reloadTime: 2.52
+magazineSize: 30
+health: -6
+recoilHipVertical: 83 - 96
+recoilAimVertical: 67.2 - 77.8
+movementSpeed: 0.975
+TTK: 0.117647 Seconds
+
+[ Barrel: M1891, Magazine: UNP-40, Grip: Arisaka, Stock: MG42, Core: Siberia-12 ]
+damage: 63.1043 - 8.5254
+dropoffStuds: 51.4305 - 114.29
+pellets: 12
+fireRate: 510
+adsSpread: 1.95247
+hipfireSpread: 5.85741
+reloadTime: 2.64
+magazineSize: 30
+health: -6
+recoilHipVertical: 83 - 96
+recoilAimVertical: 67.2 - 77.8
+movementSpeed: 0.6
+TTK: 0.117647 Seconds
+
+[ Barrel: Dragunov, Magazine: STG-44, Grip: Arisaka, Stock: JSG12, Core: Siberia-12 ]
+damage: 61.9312 - 7.06016
+dropoffStuds: 50.13 - 111.4
+pellets: 12
+fireRate: 552
+adsSpread: 1.9547
+hipfireSpread: 5.8641
+reloadTime: 3.045
+magazineSize: 30
+health: -6
+recoilHipVertical: 102.92 - 119.04
+recoilAimVertical: 83.328 - 96.472
+TTK: 0.108696 Seconds
+
+[ Barrel: Scar H, Magazine: Type 99, Grip: Arisaka, Stock: Auto-5, Core: Siberia-12 ]
+damage: 63.2635 - 7.36387
+dropoffStuds: 50.562 - 112.36
+pellets: 12
+fireRate: 567
+adsSpread: 1.95907
+hipfireSpread: 5.87722
+reloadTime: 3
+magazineSize: 30
+health: -6
+recoilHipVertical: 100.795 - 116.582
+recoilAimVertical: 81.6077 - 94.4803
+movementSpeed: 1
+TTK: 0.10582 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: Mas-38, Grip: Arisaka, Stock: FC200SH, Core: Siberia-12 ]
+damage: 67.6533 - 7.65851
+dropoffStuds: 50.4393 - 112.087
+pellets: 10
+fireRate: 495.9
+adsSpread: 1.97423
+hipfireSpread: 5.9227
+reloadTime: 2.94
+magazineSize: 32
+health: -6
+recoilHipVertical: 105.41 - 121.92
+recoilAimVertical: 85.344 - 98.806
+movementSpeed: 0.675
+TTK: 0.120992 Seconds
+
+[ Barrel: M1891, Magazine: Type 99, Grip: Croissant, Stock: JSG12, Core: Siberia-12 ]
+damage: 61.1631 - 9.41912
+dropoffStuds: 52.47 - 116.6
+pellets: 12
+fireRate: 570
+adsSpread: 1.98298
+hipfireSpread: 5.94894
+reloadTime: 3.78
+magazineSize: 30
+recoilHipVertical: 67.1968 - 77.7216
+recoilAimVertical: 54.4051 - 62.9869
+TTK: 0.105263 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: UNP-40, Grip: Arisaka, Stock: JSG12, Core: Siberia-12 ]
+damage: 71.3482 - 7.58217
+dropoffStuds: 50.0279 - 111.173
+pellets: 10
+fireRate: 443.7
+adsSpread: 1.98952
+hipfireSpread: 5.96856
+reloadTime: 2.205
+magazineSize: 30
+health: -6
+recoilHipVertical: 83 - 96
+recoilAimVertical: 67.2 - 77.8
+movementSpeed: 0.975
+TTK: 0.135227 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: UNP-40, Grip: Arisaka, Stock: MG42, Core: Siberia-12 ]
+damage: 71.3482 - 7.58217
+dropoffStuds: 50.0279 - 111.173
+pellets: 10
+fireRate: 443.7
+adsSpread: 1.99513
+hipfireSpread: 5.9854
+reloadTime: 2.31
+magazineSize: 30
+health: -6
+recoilHipVertical: 83 - 96
+recoilAimVertical: 67.2 - 77.8
+movementSpeed: 0.6
+TTK: 0.135227 Seconds
+
