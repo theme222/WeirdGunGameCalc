@@ -12,6 +12,19 @@ recoilHipVertical: 40 - 55
 recoilAimVertical: 24 - 33
 TTK: 0.200578 Seconds
 
+[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Fedorov, Core: Bicycle ]
+damage: 50.1181 - 19.6247
+dropoffStuds: 160.2 - 220.275
+fireRate: 280.768
+adsSpread: 0.717973
+hipfireSpread: 12.5645
+reloadTime: 3.21
+magazineSize: 30
+recoilHipVertical: 36 - 49.5
+recoilAimVertical: 21.6 - 29.7
+movementSpeed: 1
+TTK: 0.2137 Seconds
+
 [ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: AR-8X, Core: Bicycle ]
 damage: 50.1181 - 19.6247
 dropoffStuds: 160.2 - 220.275
@@ -36,19 +49,6 @@ magazineSize: 30
 recoilHipVertical: 32 - 44
 recoilAimVertical: 19.2 - 26.4
 movementSpeed: 6.3
-TTK: 0.2137 Seconds
-
-[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Fedorov, Core: Bicycle ]
-damage: 50.1181 - 19.6247
-dropoffStuds: 160.2 - 220.275
-fireRate: 280.768
-adsSpread: 0.717973
-hipfireSpread: 12.5645
-reloadTime: 3.21
-magazineSize: 30
-recoilHipVertical: 36 - 49.5
-recoilAimVertical: 21.6 - 29.7
-movementSpeed: 1
 TTK: 0.2137 Seconds
 
 [ Barrel: Spray Can, Magazine: MP18, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: PP-19 Bizon ]

@@ -26,17 +26,43 @@ recoilAimVertical: 37.921 - 50.5613
 movementSpeed: 3.5
 TTK: 0.776699 Seconds
 
-[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: AWM, Stock: AWM, Core: Lee Enfield ]
+[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: AWM, Stock: FAL, Core: Lee Enfield ]
+damage: 50.9183 - 39.1207
+dropoffStuds: 253.296 - 379.944
+fireRate: 75
+adsSpread: 0.144646
+hipfireSpread: 5.78585
+reloadTime: 6.048
+magazineSize: 60
+recoilHipVertical: 106.142 - 141.523
+recoilAimVertical: 42.457 - 56.6093
+movementSpeed: 5.67
+TTK: 0.8 Seconds
+
+[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Napo - Scissors, Stock: AWM, Core: Lee Enfield ]
 damage: 50.9183 - 38.5971
 dropoffStuds: 242.97 - 364.455
 fireRate: 75
-adsSpread: 0.122171
-hipfireSpread: 4.88683
-reloadTime: 5.1408
+adsSpread: 0.149597
+hipfireSpread: 5.98387
+reloadTime: 4.59
 magazineSize: 60
-recoilHipVertical: 89.8128 - 119.75
-recoilAimVertical: 35.9251 - 47.9002
+recoilHipVertical: 93.1392 - 124.186
+recoilAimVertical: 37.2557 - 49.6742
 movementSpeed: 5.5
+TTK: 0.8 Seconds
+
+[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: UNP-40, Stock: AWM, Core: Lee Enfield ]
+damage: 50.9183 - 38.5971
+dropoffStuds: 242.97 - 364.455
+fireRate: 75
+adsSpread: 0.147103
+hipfireSpread: 5.88414
+reloadTime: 4.4523
+magazineSize: 60
+recoilHipVertical: 116.424 - 155.232
+recoilAimVertical: 46.5696 - 62.0928
+movementSpeed: 7
 TTK: 0.8 Seconds
 
 [ Barrel: Spray Can, Magazine: Mega Soaker, Grip: The Chief, Stock: AWM, Core: Lee Enfield ]
@@ -65,56 +91,17 @@ recoilAimVertical: 33.264 - 44.352
 movementSpeed: 7.6
 TTK: 0.8 Seconds
 
-[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: AR-8X, Stock: AWM, Core: Lee Enfield ]
+[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: JSG12, Stock: AWM, Core: Lee Enfield ]
 damage: 50.9183 - 38.5971
 dropoffStuds: 242.97 - 364.455
 fireRate: 75
-adsSpread: 0.148433
-hipfireSpread: 5.93733
+adsSpread: 0.149098
+hipfireSpread: 5.96392
 reloadTime: 4.59
 magazineSize: 60
-recoilHipVertical: 100.624 - 134.165
-recoilAimVertical: 40.2494 - 53.6659
-movementSpeed: 6.55
-TTK: 0.8 Seconds
-
-[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: AWM, Stock: FAL, Core: Lee Enfield ]
-damage: 50.9183 - 39.1207
-dropoffStuds: 253.296 - 379.944
-fireRate: 75
-adsSpread: 0.144646
-hipfireSpread: 5.78585
-reloadTime: 6.048
-magazineSize: 60
-recoilHipVertical: 106.142 - 141.523
-recoilAimVertical: 42.457 - 56.6093
-movementSpeed: 5.67
-TTK: 0.8 Seconds
-
-[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Napo - Scissors, Stock: AWM, Core: Lee Enfield ]
-damage: 50.9183 - 38.5971
-dropoffStuds: 242.97 - 364.455
-fireRate: 75
-adsSpread: 0.149597
-hipfireSpread: 5.98387
-reloadTime: 4.59
-magazineSize: 60
-recoilHipVertical: 93.1392 - 124.186
-recoilAimVertical: 37.2557 - 49.6742
-movementSpeed: 5.5
-TTK: 0.8 Seconds
-
-[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Burton, Stock: AWM, Core: Lee Enfield ]
-damage: 50.9183 - 38.3507
-dropoffStuds: 238.111 - 357.166
-fireRate: 75
-adsSpread: 0.147103
-hipfireSpread: 5.88414
-reloadTime: 4.44312
-magazineSize: 60
-recoilHipVertical: 83.16 - 110.88
-recoilAimVertical: 33.264 - 44.352
-movementSpeed: 2.5
+recoilHipVertical: 114.761 - 153.014
+recoilAimVertical: 45.9043 - 61.2058
+movementSpeed: 7.3
 TTK: 0.8 Seconds
 
 [ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Arisaka, Stock: AWM, Core: Lee Enfield ]
@@ -129,5 +116,18 @@ health: -6
 recoilHipVertical: 83.16 - 110.88
 recoilAimVertical: 33.264 - 44.352
 movementSpeed: 13.5
+TTK: 0.8 Seconds
+
+[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: AWM, Stock: AWM, Core: Lee Enfield ]
+damage: 50.9183 - 38.5971
+dropoffStuds: 242.97 - 364.455
+fireRate: 75
+adsSpread: 0.122171
+hipfireSpread: 4.88683
+reloadTime: 5.1408
+magazineSize: 60
+recoilHipVertical: 89.8128 - 119.75
+recoilAimVertical: 35.9251 - 47.9002
+movementSpeed: 5.5
 TTK: 0.8 Seconds
 

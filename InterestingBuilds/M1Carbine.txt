@@ -15,7 +15,7 @@ TTK: 0.125131 Seconds
 
 [ Barrel: Uzi, Magazine: MP18, Grip: Mas-38, Stock: Spas-12, Core: M1 Carbine ]
 damage: 33.7902 - 16.4248
-dropoffStuds: 110.638 - 129.714
+dropoffStuds: 110.639 - 129.714
 fireRate: 942.727
 adsSpread: 0.290727
 hipfireSpread: 0.290727

@@ -3,9 +3,9 @@
     "AR": 0,
     "Sniper": 1,
     "SMG": 2,
-    "LMG": 3,
-    "Weird": 4,
-    "Shotgun": 5,
+    "Shotgun": 3,
+    "LMG": 4,
+    "Weird": 5,
     "BR": 6
   },
   "Secondary": {

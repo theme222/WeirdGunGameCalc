@@ -27,16 +27,16 @@ recoilAimVertical: 45.2709 - 63.3793
 movementSpeed: 0.3
 TTK: 0.39929 Seconds
 
-[ Barrel: AWM, Magazine: MAC-10, Grip: PPSh-41, Stock: None, Core: B17 ]
-damage: 9.47782 - 5.25373
-dropoffStuds: 20.21 - 95.9975
-fireRate: 1483.5
-adsSpread: 0.373832
-hipfireSpread: 0.913811
+[ Barrel: Scar H, Magazine: MAC-10, Grip: PPSh-41, Stock: None, Core: B17 ]
+damage: 10.1417 - 5.57288
+dropoffStuds: 20.022 - 95.1045
+fireRate: 1335.15
+adsSpread: 0.357901
+hipfireSpread: 0.87487
 reloadTime: 2.3
 magazineSize: 30
-recoilHipVertical: 70.875 - 99.225
-recoilAimVertical: 42.525 - 59.535
+recoilHipVertical: 48.6 - 68.04
+recoilAimVertical: 29.16 - 40.824
 movementSpeed: 3.3
 TTK: 0.404449 Seconds
 
@@ -66,16 +66,16 @@ recoilAimVertical: 24.3 - 34.02
 movementSpeed: 3.3
 TTK: 0.404449 Seconds
 
-[ Barrel: Scar H, Magazine: MAC-10, Grip: PPSh-41, Stock: None, Core: B17 ]
-damage: 10.1417 - 5.57288
-dropoffStuds: 20.022 - 95.1045
-fireRate: 1335.15
-adsSpread: 0.357901
-hipfireSpread: 0.87487
+[ Barrel: AWM, Magazine: MAC-10, Grip: PPSh-41, Stock: None, Core: B17 ]
+damage: 9.47782 - 5.25373
+dropoffStuds: 20.21 - 95.9975
+fireRate: 1483.5
+adsSpread: 0.373832
+hipfireSpread: 0.913811
 reloadTime: 2.3
 magazineSize: 30
-recoilHipVertical: 48.6 - 68.04
-recoilAimVertical: 29.16 - 40.824
+recoilHipVertical: 70.875 - 99.225
+recoilAimVertical: 42.525 - 59.535
 movementSpeed: 3.3
 TTK: 0.404449 Seconds
 

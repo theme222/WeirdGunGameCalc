@@ -180,6 +180,13 @@
       "Spread": 7
     },
     {
+      "Name": "PineFire",
+      "Category": "AR",
+      "Damage": 5,
+      "Reload_Speed": -9,
+      "Range": -5
+    },
+    {
       "Name": "M40",
       "Category": "Sniper",
       "Fire_Rate": 10,
@@ -789,6 +796,14 @@
       "Spread": 12
     },
     {
+      "Name": "X-Blaster",
+      "Category": "BR",
+      "Damage": 3,
+      "Fire_Rate": 2,
+      "Reload_Speed": -4,
+      "Recoil": 17
+    },
+    {
       "Name": "Paintball",
       "Category": "Weird",
       "Movement_Speed": 2.5,
@@ -1078,6 +1093,13 @@
       "Range": 7,
       "Fire_Rate": -8,
       "Recoil": 34
+    },
+    {
+      "Name": "Quad-Jolly",
+      "Category": "Sidearm",
+      "Damage": 15,
+      "Pellets": 45,
+      "Range": -8
     }
   ],
   "Magazines": [
@@ -1274,6 +1296,15 @@
       "Fire_Rate": 6,
       "Recoil": 24,
       "Spread": 5
+    },
+    {
+      "Name": "PineFire",
+      "Category": "AR",
+      "Magazine_Size": 25,
+      "Reload_Time": 2.6,
+      "Damage": 7.5,
+      "Recoil": -12,
+      "Range": -11
     },
     {
       "Name": "M40",
@@ -1995,6 +2026,15 @@
       "Recoil": 17
     },
     {
+      "Name": "X-Blaster",
+      "Category": "BR",
+      "Magazine_Size": 2,
+      "Reload_Time": 3,
+      "Damage": 22,
+      "Range": -13,
+      "Spread": 18
+    },
+    {
       "Name": "Paintball",
       "Category": "Weird",
       "Magazine_Size": 70,
@@ -2268,6 +2308,15 @@
       "Range": 4,
       "Equip_Time": 25,
       "Fire_Rate": -11
+    },
+    {
+      "Name": "Quad-Jolly",
+      "Category": "Sidearm",
+      "Magazine_Size": 4,
+      "Reload_Time": 1,
+      "Damage": 24,
+      "Fire_Rate": -6,
+      "Range": -4.5
     }
   ],
   "Grips": [
@@ -2411,6 +2460,13 @@
       "Detection_Radius": -12,
       "Spread": -15,
       "Recoil": 12
+    },
+    {
+      "Name": "PineFire",
+      "Category": "AR",
+      "Movement_Speed": 5.5,
+      "Recoil": -9.5,
+      "Reload_Speed": 10
     },
     {
       "Name": "M40",
@@ -2882,6 +2938,14 @@
       "Reload_Speed": 3
     },
     {
+      "Name": "X-Blaster",
+      "Category": "BR",
+      "Health": 3,
+      "Movement_Speed": 3.5,
+      "Range": 4,
+      "Spread": 18
+    },
+    {
       "Name": "Paintball",
       "Category": "Weird",
       "Movement_Speed": 4,
@@ -3067,6 +3131,13 @@
       "Spread": -20,
       "Fire_Rate": -9,
       "Movement_Speed": -4.5
+    },
+    {
+      "Name": "Quad-Jolly",
+      "Category": "Sidearm",
+      "Fire_Rate": 6,
+      "Movement_Speed": 3,
+      "Range": -1.5
     }
   ],
   "Stocks": [
@@ -3203,6 +3274,14 @@
       "Movement_Speed": 5,
       "Reload_Speed": -3,
       "Spread": 15
+    },
+    {
+      "Name": "PineFire",
+      "Category": "AR",
+      "Health": 8,
+      "Movement_Speed": 8,
+      "Reload_Speed": 15,
+      "Spread": 45
     },
     {
       "Name": "M40",
@@ -3710,6 +3789,13 @@
       "Fire_Rate": 5,
       "Movement_Speed": 3,
       "Recoil": 13
+    },
+    {
+      "Name": "X-Blaster",
+      "Category": "BR",
+      "Movement_Speed": 3.5,
+      "Reload_Speed": 4.5,
+      "Spread": 11
     },
     {
       "Name": "Paintball",
@@ -4462,6 +4548,41 @@
       "Recoil_Aim_Vertical": [
         1.3,
         2.6
+      ]
+    },
+    {
+      "Name": "PineFire",
+      "Category": "AR",
+      "Damage": [
+        13.5,
+        9.5
+      ],
+      "Dropoff_Studs": [
+        145,
+        220
+      ],
+      "Fire_Rate": 875,
+      "Hipfire_Spread": 4,
+      "ADS_Spread": 0.325,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 150,
+      "Suppression": 0.1,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -14,
+        14
+      ],
+      "Recoil_Hip_Vertical": [
+        46,
+        52
+      ],
+      "Recoil_Aim_Horizontal": [
+        -7,
+        7
+      ],
+      "Recoil_Aim_Vertical": [
+        23,
+        26
       ]
     },
     {
@@ -6728,6 +6849,41 @@
       ]
     },
     {
+      "Name": "X-Blaster",
+      "Category": "BR",
+      "Damage": [
+        32,
+        12.8
+      ],
+      "Dropoff_Studs": [
+        135,
+        200
+      ],
+      "Fire_Rate": 400,
+      "Hipfire_Spread": 3.5,
+      "ADS_Spread": 0.2,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 65,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -5,
+        5
+      ],
+      "Recoil_Hip_Vertical": [
+        5,
+        11
+      ],
+      "Recoil_Aim_Horizontal": [
+        -2.5,
+        2.5
+      ],
+      "Recoil_Aim_Vertical": [
+        2.5,
+        5.5
+      ]
+    },
+    {
       "Name": "Paintball",
       "Category": "Weird",
       "Damage": [
@@ -7532,6 +7688,41 @@
       "Recoil_Aim_Vertical": [
         67.5,
         81
+      ]
+    },
+    {
+      "Name": "Quad-Jolly",
+      "Category": "Sidearm",
+      "Damage": [
+        10,
+        5
+      ],
+      "Dropoff_Studs": [
+        50,
+        100
+      ],
+      "Fire_Rate": 125,
+      "Hipfire_Spread": 0.8,
+      "ADS_Spread": 0.3,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 40,
+      "Burst": 4,
+      "Equip_Time": 0.2,
+      "Recoil_Hip_Horizontal": [
+        -2,
+        2
+      ],
+      "Recoil_Hip_Vertical": [
+        3,
+        4
+      ],
+      "Recoil_Aim_Horizontal": [
+        -1,
+        1
+      ],
+      "Recoil_Aim_Vertical": [
+        1.5,
+        2
       ]
     }
   ]

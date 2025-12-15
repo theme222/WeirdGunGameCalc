@@ -1,5 +1,31 @@
 ./Calculator -o InterestingBuilds/FastestTTKBR.txt -i BR --speedMin -10 --spreadAimMax 0.6 --recoilAimMax 7.5 --magazineMin 20 --rangeMin 150 --pelletMax 1 
 Current top 10 guns are: 
+[ Barrel: BAR, Magazine: Scar H, Grip: Circuit Judge, Stock: Fedorov, Core: X-Blaster ]
+damage: 51.6667 - 26.4218
+dropoffStuds: 162.587 - 240.87
+fireRate: 385.2
+adsSpread: 0.331478
+hipfireSpread: 5.80086
+reloadTime: 4.815
+magazineSize: 20
+recoilHipVertical: 6.75 - 14.85
+recoilAimVertical: 3.375 - 7.425
+movementSpeed: -2.5
+TTK: 0.155763 Seconds
+
+[ Barrel: BAR, Magazine: Scar H, Grip: Circuit Judge, Stock: Kriss Vector, Core: X-Blaster ]
+damage: 51.6667 - 25.1596
+dropoffStuds: 154.458 - 228.827
+fireRate: 377.64
+adsSpread: 0.430426
+hipfireSpread: 7.53246
+reloadTime: 4.5
+magazineSize: 20
+recoilHipVertical: 6.45 - 14.19
+recoilAimVertical: 3.225 - 7.095
+movementSpeed: 1.81
+TTK: 0.158881 Seconds
+
 [ Barrel: VSSR, Magazine: BAR, Grip: Circuit Judge, Stock: VSSR, Core: SKS ]
 damage: 50.3857 - 35.9776
 dropoffStuds: 172.568 - 530.978
@@ -14,129 +40,94 @@ recoilAimVertical: 6.24459 - 6.86905
 movementSpeed: -9.5
 TTK: 0.15949 Seconds
 
-[ Barrel: VSSR, Magazine: BAR, Grip: Circuit Judge, Stock: Dragunov, Core: SKS ]
-damage: 50.3857 - 36.1681
-dropoffStuds: 174.774 - 537.766
-fireRate: 357.39
-adsSpread: 0.303969
-hipfireSpread: 6.07939
-reloadTime: 4.84
+[ Barrel: Oil, Magazine: Scar H, Grip: Circuit Judge, Stock: L8, Core: X-Blaster ]
+damage: 51.1384 - 24.7044
+dropoffStuds: 154.645 - 229.104
+fireRate: 372
+adsSpread: 0.334193
+hipfireSpread: 5.84838
+reloadTime: 4.5
 magazineSize: 20
-health: 5
-recoilHipVertical: 11.3995 - 12.5395
-recoilAimVertical: 5.69976 - 6.26974
-movementSpeed: -9.5
-TTK: 0.167884 Seconds
+recoilHipVertical: 6.25 - 13.75
+recoilAimVertical: 3.125 - 6.875
+movementSpeed: -10
+TTK: 0.16129 Seconds
 
-[ Barrel: VSSR, Magazine: Scar H, Grip: Musket, Stock: Dragunov, Core: SKS ]
-damage: 51.0357 - 34.7603
-dropoffStuds: 159.999 - 492.305
-fireRate: 337.535
-adsSpread: 0.286662
-hipfireSpread: 5.73325
-reloadTime: 5.9895
+[ Barrel: BAR, Magazine: Scar H, Grip: M1891, Stock: M110, Core: X-Blaster ]
+damage: 50.2181 - 25.681
+dropoffStuds: 162.587 - 240.87
+fireRate: 363.258
+adsSpread: 0.319246
+hipfireSpread: 5.58681
+reloadTime: 5.6925
 magazineSize: 20
-health: 5
-recoilHipVertical: 12.954 - 14.2494
-recoilAimVertical: 6.477 - 7.1247
-movementSpeed: -9
-TTK: 0.177759 Seconds
+recoilHipVertical: 6.3 - 13.86
+recoilAimVertical: 3.15 - 6.93
+movementSpeed: 2.9
+TTK: 0.165172 Seconds
 
-[ Barrel: VSSR, Magazine: BAR, Grip: Musket, Stock: VSSR, Core: SKS ]
-damage: 51.5629 - 36.8182
-dropoffStuds: 172.568 - 530.978
-fireRate: 319.77
-adsSpread: 0.35282
-hipfireSpread: 7.0564
-reloadTime: 4.84
+[ Barrel: BAR, Magazine: Scar H, Grip: Circuit Judge, Stock: AUTO-12, Core: X-Blaster ]
+damage: 51.6667 - 26.4218
+dropoffStuds: 162.587 - 240.87
+fireRate: 363.24
+adsSpread: 0.331478
+hipfireSpread: 5.80086
+reloadTime: 4.6575
 magazineSize: 20
-health: 5
-recoilHipVertical: 12.4892 - 13.7381
-recoilAimVertical: 6.24459 - 6.86905
-movementSpeed: -9.5
-TTK: 0.187635 Seconds
+recoilHipVertical: 6.33 - 13.926
+recoilAimVertical: 3.165 - 6.963
+movementSpeed: -5
+TTK: 0.16518 Seconds
 
-[ Barrel: VSSR, Magazine: BAR, Grip: Musket, Stock: Dragunov, Core: SKS ]
-damage: 51.5629 - 37.0131
-dropoffStuds: 174.774 - 537.766
-fireRate: 303.781
-adsSpread: 0.315186
-hipfireSpread: 6.30372
-reloadTime: 5.324
+[ Barrel: BAR, Magazine: Scar H, Grip: M1 Garand, Stock: M110, Core: X-Blaster ]
+damage: 50.2181 - 25.681
+dropoffStuds: 162.587 - 240.87
+fireRate: 361.584
+adsSpread: 0.245856
+hipfireSpread: 4.30248
+reloadTime: 4.95
 magazineSize: 20
-health: 5
-recoilHipVertical: 11.3995 - 12.5395
-recoilAimVertical: 5.69976 - 6.26974
-movementSpeed: -9.5
-TTK: 0.19751 Seconds
+recoilHipVertical: 6.3 - 13.86
+recoilAimVertical: 3.15 - 6.93
+movementSpeed: -3.5
+TTK: 0.165937 Seconds
 
-[ Barrel: Ketchup, Magazine: BAR, Grip: Tap, Stock: M110, Core: SKS ]
-damage: 50.2181 - 34.3994
-dropoffStuds: 157.625 - 485
-fireRate: 298.181
-adsSpread: 0.362229
-hipfireSpread: 7.24457
-reloadTime: 4.4
+[ Barrel: BAR, Magazine: Scar H, Grip: Circuit Judge, Stock: M-16, Core: X-Blaster ]
+damage: 51.6667 - 26.4218
+dropoffStuds: 162.587 - 240.87
+fireRate: 360
+adsSpread: 0.331478
+hipfireSpread: 5.80086
+reloadTime: 4.5
 magazineSize: 20
-health: 5
-recoilHipVertical: 12.936 - 14.2296
-recoilAimVertical: 6.468 - 7.1148
-movementSpeed: -5.5
-TTK: 0.20122 Seconds
+recoilHipVertical: 6.6 - 14.52
+recoilAimVertical: 3.3 - 7.26
+movementSpeed: -0.5
+TTK: 0.166667 Seconds
 
-[ Barrel: M40, Magazine: FAL, Grip: APS, Stock: Speed Coil, Core: SKS ]
-damage: 33.8302 - 23.1737
-dropoffStuds: 157.625 - 485
-fireRate: 595.258
-adsSpread: 0.594159
-hipfireSpread: 11.8832
-reloadTime: 1.802
+[ Barrel: BAR, Magazine: Scar H, Grip: Circuit Judge, Stock: VSSR, Core: X-Blaster ]
+damage: 51.6667 - 26.851
+dropoffStuds: 165.351 - 244.965
+fireRate: 360
+adsSpread: 0.371057
+hipfireSpread: 6.4935
+reloadTime: 4.5
 magazineSize: 20
-health: -5
-recoilHipVertical: 11.7363 - 12.91
-recoilAimVertical: 5.86817 - 6.45499
-movementSpeed: 7.5
-TTK: 0.201593 Seconds
+recoilHipVertical: 5.5875 - 12.2925
+recoilAimVertical: 2.79375 - 6.14625
+movementSpeed: -2.5
+TTK: 0.166667 Seconds
 
-[ Barrel: M1891, Magazine: FAL, Grip: M1 Garand, Stock: Speed Coil, Core: SKS ]
-damage: 36.9623 - 24.6908
-dropoffStuds: 152.1 - 468
-fireRate: 592.515
-adsSpread: 0.563917
-hipfireSpread: 11.2783
-reloadTime: 2.04
+[ Barrel: BAR, Magazine: Scar H, Grip: Circuit Judge, Stock: Willy Fischy, Core: X-Blaster ]
+damage: 51.6667 - 26.4218
+dropoffStuds: 162.587 - 240.87
+fireRate: 360
+adsSpread: 0.331478
+hipfireSpread: 5.80086
+reloadTime: 4.275
 magazineSize: 20
-health: -5
-recoilHipVertical: 13.44 - 14.784
-recoilAimVertical: 6.72 - 7.392
-movementSpeed: 4.5
-TTK: 0.202527 Seconds
-
-[ Barrel: M1891, Magazine: FAL, Grip: PPSh-41, Stock: Speed Coil, Core: SKS ]
-damage: 36.9623 - 24.6908
-dropoffStuds: 152.1 - 468
-fireRate: 587.029
-adsSpread: 0.52464
-hipfireSpread: 10.4928
-reloadTime: 2.346
-magazineSize: 20
-health: -5
-recoilHipVertical: 13.44 - 14.784
-recoilAimVertical: 6.72 - 7.392
-movementSpeed: 7.5
-TTK: 0.204419 Seconds
-
-[ Barrel: M1891, Magazine: Restroom, Grip: P90, Stock: Fedorov, Core: SKS ]
-damage: 33.6323 - 22.4664
-dropoffStuds: 152.1 - 468
-fireRate: 586.47
-adsSpread: 0.235031
-hipfireSpread: 4.70061
-reloadTime: 3.7236
-magazineSize: 35
-health: 5
-recoilHipVertical: 13.2912 - 14.6203
-recoilAimVertical: 6.6456 - 7.31016
-movementSpeed: -2
-TTK: 0.204614 Seconds
+recoilHipVertical: 6.75 - 14.85
+recoilAimVertical: 3.375 - 7.425
+movementSpeed: -0.5
+TTK: 0.166667 Seconds
 
