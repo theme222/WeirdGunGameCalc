@@ -4,7 +4,8 @@ set -e # Stops on error
 # This are commands for my setup specifically. You can config these example commands and run them in any order you want.
 
 # You don't need to recompile obviously.
-g++ -Iinclude -std=c++20 Calculator.cpp -o Calculator -O2
+g++ -Iinclude -std=c++20 Calculator.cpp -o Calculator -O3 -march=x86-64 -mtune=generic -ffast-math -flto
+
 # This doesn't need to be re ran every time because it saves it's results in Data already.
 python ParseSheet.py
 
