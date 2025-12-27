@@ -200,3 +200,7 @@ Data/DiffData.json
 perf.*
 CompileRelease.sh
 SheetData/
+TODO.*
+wggcalc*
+NormalCompile.sh
+*Result*
