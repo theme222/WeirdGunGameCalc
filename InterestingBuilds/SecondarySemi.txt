@@ -1,126 +1,132 @@
-./Calculator -o InterestingBuilds/SecondarySemi.txt -i Sidearm --spreadAimMax 0.5 --magazineMin 10 --rangeMin 75 --fireRateMin 100 --speedMin -0.5 --reloadMax 4 --recoilAimMax 80 --healthMin 0 
+./wggcalc -o InterestingBuilds/SecondarySemi.txt -i Sidearm --spreadAimMax 0.5 --magazineMin 10 --rangeMin 75 --fireRateMin 100 --speedMin -0.5 --reloadMax 4 --recoilAimMax 80 --healthMin 0 
 Current top 10 guns are: 
-[ Barrel: Siberia-12, Magazine: Lee Enfield, Grip: Circuit Judge, Stock: None, Core: Cyber 3517 ]
-damage: 51.336 - 29.1814
-dropoffStuds: 77.355 - 113.454
-fireRate: 240.451
-adsSpread: 0.413415
-hipfireSpread: 8.2683
-reloadTime: 4
-magazineSize: 10
-recoilHipVertical: 74.25 - 90.75
-recoilAimVertical: 59.4 - 72.6
-TTK: 0.249531 Seconds
-
-[ Barrel: Auto-5, Magazine: Lee Enfield, Grip: Circuit Judge, Stock: None, Core: Cyber 3517 ]
-damage: 50.0653 - 27.9422
-dropoffStuds: 75.33 - 110.484
-fireRate: 236.204
-adsSpread: 0.361498
-hipfireSpread: 7.22995
-reloadTime: 4
-magazineSize: 10
-recoilHipVertical: 69.4238 - 84.8512
-recoilAimVertical: 55.539 - 67.881
-TTK: 0.254018 Seconds
-
-[ Barrel: Quack, Magazine: Restroom, Grip: Circuit Judge, Stock: None, Core: Cyber 3517 ]
-damage: 50.3392 - 27.7425
-dropoffStuds: 75 - 110
-fireRate: 235.224
-adsSpread: 0.405422
-hipfireSpread: 8.10845
-reloadTime: 2.9
-magazineSize: 35
-recoilHipVertical: 64.8 - 79.2
-recoilAimVertical: 51.84 - 63.36
-TTK: 0.255076 Seconds
-
-[ Barrel: Quack, Magazine: Lee Enfield, Grip: Circuit Judge, Stock: None, Core: Cyber 3517 ]
-damage: 51.336 - 30.1354
-dropoffStuds: 81 - 118.8
-fireRate: 235.224
-adsSpread: 0.436489
-hipfireSpread: 8.72979
-reloadTime: 4
-magazineSize: 10
-recoilHipVertical: 66.825 - 81.675
-recoilAimVertical: 53.46 - 65.34
-TTK: 0.255076 Seconds
-
-[ Barrel: Mustard, Magazine: M110, Grip: M1911, Stock: None, Core: Cyber 3517 ]
-damage: 50.4509 - 30.1594
-dropoffStuds: 82.8 - 121.44
-fireRate: 235.125
-adsSpread: 0.286662
-hipfireSpread: 5.73325
-reloadTime: 3.952
-magazineSize: 10
-recoilHipVertical: 81.648 - 99.792
-recoilAimVertical: 65.3184 - 79.8336
-TTK: 0.255183 Seconds
-
-[ Barrel: Mustard, Magazine: M110, Grip: Mega Soaker, Stock: None, Core: Cyber 3517 ]
-damage: 50.4509 - 30.1594
-dropoffStuds: 82.8 - 121.44
-fireRate: 235.125
-adsSpread: 0.320891
-hipfireSpread: 6.41781
-reloadTime: 3.8
-magazineSize: 10
-recoilHipVertical: 76.608 - 93.632
-recoilAimVertical: 61.2864 - 74.9056
-movementSpeed: 2
-TTK: 0.255183 Seconds
-
-[ Barrel: Mustard, Magazine: M110, Grip: Lamp Shade, Stock: None, Core: Cyber 3517 ]
+[ Barrel: Mustard, Magazine: M110, Grip: P90, Stock: Kriss Vector, Core: Cyber 3517 ]
 damage: 50.4509 - 29.1448
 dropoffStuds: 78.66 - 115.368
-fireRate: 235.125
-adsSpread: 0.286662
-hipfireSpread: 5.73325
+fireRate: 260.461
+adsSpread: 0.416679
+hipfireSpread: 8.33358
 reloadTime: 3.8
 magazineSize: 10
-recoilHipVertical: 80.64 - 98.56
-recoilAimVertical: 64.512 - 78.848
-TTK: 0.255183 Seconds
+recoilHipVertical: 78.6114 - 96.0806
+recoilAimVertical: 62.8891 - 76.8645
+movementSpeed: 2.475
+TTK: 0.230361 Seconds
 
-[ Barrel: Mustard, Magazine: M110, Grip: Banana, Stock: None, Core: Cyber 3517 ]
-damage: 50.4509 - 30.1594
-dropoffStuds: 82.8 - 121.44
-fireRate: 235.125
-adsSpread: 0.329448
-hipfireSpread: 6.58895
-reloadTime: 3.8
+[ Barrel: Uzi, Magazine: Lee Enfield, Grip: VSSR, Stock: M1897 Trench Shotgun, Core: Cyber 3517 ]
+damage: 50.0228 - 27.9349
+dropoffStuds: 75.2652 - 110.389
+fireRate: 259.704
+adsSpread: 0.355858
+hipfireSpread: 7.11716
+reloadTime: 4
 magazineSize: 10
-recoilHipVertical: 80.64 - 98.56
-recoilAimVertical: 64.512 - 78.848
-movementSpeed: 5
-TTK: 0.255183 Seconds
+recoilHipVertical: 76.9973 - 94.1077
+recoilAimVertical: 61.5978 - 75.2862
+movementSpeed: 1
+TTK: 0.231032 Seconds
 
-[ Barrel: T10, Magazine: Restroom, Grip: PPSh-41, Stock: None, Core: Cyber 3517 ]
-damage: 50.1051 - 27.6135
+[ Barrel: Mustard, Magazine: Tommy, Grip: APS, Stock: Fedorov, Core: Cyber 3517 ]
+damage: 50.6044 - 27.8887
 dropoffStuds: 75 - 110
-fireRate: 234.135
-adsSpread: 0.246389
-hipfireSpread: 4.92778
-reloadTime: 3.335
-magazineSize: 35
-recoilHipVertical: 75.6 - 92.4
-recoilAimVertical: 60.48 - 73.92
-TTK: 0.256262 Seconds
+fireRate: 258.761
+adsSpread: 0.343709
+hipfireSpread: 6.87419
+reloadTime: 3.4026
+magazineSize: 20
+recoilHipVertical: 78.1333 - 95.4962
+recoilAimVertical: 62.5066 - 76.397
+movementSpeed: 0.85
+TTK: 0.231874 Seconds
 
-[ Barrel: MarrowMaker, Magazine: Lee Enfield, Grip: Circuit Judge, Stock: None, Core: Cyber 3517 ]
-damage: 51.8307 - 29.8907
-dropoffStuds: 78.975 - 115.83
+[ Barrel: Mustard, Magazine: M110, Grip: Banana, Stock: Spas-12, Core: Cyber 3517 ]
+damage: 50.4509 - 29.7535
+dropoffStuds: 81.144 - 119.011
+fireRate: 256.521
+adsSpread: 0.368785
+hipfireSpread: 7.3757
+reloadTime: 3.8
+magazineSize: 10
+recoilHipVertical: 80.64 - 98.56
+recoilAimVertical: 64.512 - 78.848
+movementSpeed: 2
+TTK: 0.233899 Seconds
+
+[ Barrel: ZIPO-2222, Magazine: Lee Enfield, Grip: P90, Stock: M1897 Trench Shotgun, Core: Cyber 3517 ]
+damage: 52.1717 - 29.3332
+dropoffStuds: 76.14 - 111.672
+fireRate: 256.055
+adsSpread: 0.460522
+hipfireSpread: 9.21044
+reloadTime: 4
+magazineSize: 10
+recoilHipVertical: 73.1383 - 89.3913
+recoilAimVertical: 58.5107 - 71.513
+TTK: 0.234325 Seconds
+
+[ Barrel: Mustard, Magazine: M110, Grip: Kriss Vector, Stock: Kriss Vector, Core: Cyber 3517 ]
+damage: 50.4509 - 29.1448
+dropoffStuds: 78.66 - 115.368
+fireRate: 254.893
+adsSpread: 0.401864
+hipfireSpread: 8.03727
+reloadTime: 3.8
+magazineSize: 10
+recoilHipVertical: 77.9688 - 95.2952
+recoilAimVertical: 62.375 - 76.2362
+movementSpeed: 5.85
+TTK: 0.235393 Seconds
+
+[ Barrel: MarrowMaker, Magazine: Lee Enfield, Grip: Circuit Judge, Stock: Spas-12, Core: Cyber 3517 ]
+damage: 51.8307 - 29.4519
+dropoffStuds: 77.3955 - 113.513
 pellets: 2
-fireRate: 233.373
-adsSpread: 0.399465
-hipfireSpread: 7.9893
+fireRate: 254.61
+adsSpread: 0.446743
+hipfireSpread: 8.93487
 reloadTime: 4
 magazineSize: 10
 recoilHipVertical: 74.25 - 90.75
 recoilAimVertical: 59.4 - 72.6
-movementSpeed: 2.925
-TTK: 0.257099 Seconds
+movementSpeed: -0.075
+TTK: 0.235655 Seconds
+
+[ Barrel: Mustard, Magazine: M110, Grip: FG-42, Stock: Kriss Vector, Core: Cyber 3517 ]
+damage: 50.4509 - 29.1448
+dropoffStuds: 78.66 - 115.368
+fireRate: 253.903
+adsSpread: 0.372233
+hipfireSpread: 7.44466
+reloadTime: 3.914
+magazineSize: 10
+recoilHipVertical: 77.8831 - 95.1905
+recoilAimVertical: 62.3065 - 76.1524
+movementSpeed: 2.475
+TTK: 0.23631 Seconds
+
+[ Barrel: Mustard, Magazine: Tommy, Grip: Spas-12, Stock: Mas-38, Core: Cyber 3517 ]
+damage: 50.6044 - 27.8887
+dropoffStuds: 75 - 110
+fireRate: 252.326
+adsSpread: 0.418949
+hipfireSpread: 8.37899
+reloadTime: 2.775
+magazineSize: 20
+recoilHipVertical: 79.2 - 96.8
+recoilAimVertical: 63.36 - 77.44
+movementSpeed: 2.825
+TTK: 0.237787 Seconds
+
+[ Barrel: Mustard, Magazine: Tommy, Grip: Spas-12, Stock: M-16, Core: Cyber 3517 ]
+damage: 50.6044 - 27.8887
+dropoffStuds: 75 - 110
+fireRate: 252.326
+adsSpread: 0.418949
+hipfireSpread: 8.37899
+reloadTime: 3
+magazineSize: 20
+recoilHipVertical: 81.225 - 99.275
+recoilAimVertical: 64.98 - 79.42
+movementSpeed: 0.35
+TTK: 0.237787 Seconds
 

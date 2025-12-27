@@ -1,4 +1,4 @@
-./Calculator -o InterestingBuilds/FastestGuaranteed1Tap.txt -i Sniper BR --damageEndMin 100 --spreadAimMax 0.15 --sort FIRERATE --speedMin -5 --magazineMin 5 
+./wggcalc -o InterestingBuilds/FastestGuaranteed1Tap.txt -i Sniper BR --damageEndMin 100 --spreadAimMax 0.15 --sort FIRERATE --speedMin -5 --magazineMin 5 
 Current top 10 guns are: 
 [ Barrel: Light Gun, Magazine: Lightning Shot, Grip: Double Barrel, Stock: M1897 Trench Shotgun, Core: Arisaka ]
 damage: 123.473 - 100.383
@@ -61,7 +61,7 @@ hipfireSpread: 10.8109
 reloadTime: 10.593
 magazineSize: 7
 health: -10
-recoilHipVertical: 148.23 - 168.818
+recoilHipVertical: 148.23 - 168.817
 recoilAimVertical: 66.7035 - 75.9679
 movementSpeed: -4
 

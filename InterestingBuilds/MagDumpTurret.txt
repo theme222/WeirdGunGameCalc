@@ -1,4 +1,4 @@
-./Calculator -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
+./wggcalc -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
 [ Barrel: FC200SH, Magazine: M1919 .30 Cal, Grip: Banana, Stock: Arisaka, Core: APS ]
 damage: 33.3716 - 17.7016
@@ -12,6 +12,20 @@ health: -8
 recoilHipVertical: 56 - 80
 recoilAimVertical: 30.8 - 44
 movementSpeed: 0.7
+TTK: 0.229095 Seconds
+
+[ Barrel: FC200SH, Magazine: M1919 .30 Cal, Grip: PineFire, Stock: Arisaka, Core: APS ]
+damage: 33.3716 - 17.7016
+dropoffStuds: 111.834 - 149.112
+fireRate: 523.8
+adsSpread: 1.30069
+hipfireSpread: 5.20277
+reloadTime: 11.8503
+magazineSize: 100
+health: -8
+recoilHipVertical: 63.35 - 90.5
+recoilAimVertical: 34.8425 - 49.775
+movementSpeed: 1.2
 TTK: 0.229095 Seconds
 
 [ Barrel: Uzi, Magazine: XXL AKM, Grip: Mas-38, Stock: Kriss Vector, Core: PPSh-41 ]
@@ -109,19 +123,6 @@ recoilHipVertical: 56.2542 - 80.6664
 recoilAimVertical: 28.1271 - 40.3332
 movementSpeed: 1.345
 TTK: 0.247976 Seconds
-
-[ Barrel: Uzi, Magazine: XXL AKM, Grip: Mas-38, Stock: Mas-38, Core: PPSh-41 ]
-damage: 14.6071 - 7.85511
-dropoffStuds: 106.95 - 119.784
-fireRate: 1444.25
-adsSpread: 1.11307
-hipfireSpread: 2.96818
-reloadTime: 8.1
-magazineSize: 90
-recoilHipVertical: 30.24 - 60.48
-recoilAimVertical: 24.192 - 48.384
-movementSpeed: 1.6
-TTK: 0.249264 Seconds
 
 [ Barrel: Uzi, Magazine: XXL AKM, Grip: Mas-38, Stock: MP18, Core: PPSh-41 ]
 damage: 14.6071 - 7.65255

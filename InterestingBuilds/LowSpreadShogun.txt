@@ -1,18 +1,5 @@
-./Calculator -o InterestingBuilds/LowSpreadShogun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadAimMax 0.85 
+./wggcalc -o InterestingBuilds/LowSpreadShogun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadAimMax 0.85 
 Current top 10 guns are: 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: JSG12, Core: MarrowMaker ]
-damage: 117.889 - 12.5663
-dropoffStuds: 36.975 - 85.0425
-pellets: 7
-fireRate: 92.4
-adsSpread: 0.826595
-hipfireSpread: 2.59787
-reloadTime: 0.525
-magazineSize: 5
-recoilHipVertical: 37.962 - 58.2084
-recoilAimVertical: 15.1848 - 23.2834
-movementSpeed: 3.6
-
 [ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: MG42, Core: MarrowMaker ]
 damage: 117.889 - 12.5663
 dropoffStuds: 36.975 - 85.0425
@@ -39,18 +26,18 @@ recoilHipVertical: 41.7582 - 64.0292
 recoilAimVertical: 16.7033 - 25.6117
 movementSpeed: 0.6
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: JSG12, Stock: JSG12, Core: MarrowMaker ]
-damage: 120.836 - 12.8804
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: JSG12, Core: MarrowMaker ]
+damage: 117.889 - 12.5663
 dropoffStuds: 36.975 - 85.0425
 pellets: 7
-fireRate: 88
-adsSpread: 0.845937
-hipfireSpread: 2.65866
+fireRate: 92.4
+adsSpread: 0.826595
+hipfireSpread: 2.59787
 reloadTime: 0.525
 magazineSize: 5
-recoilHipVertical: 58.2084 - 89.2529
-recoilAimVertical: 23.2834 - 35.7011
-movementSpeed: 6.6
+recoilHipVertical: 37.962 - 58.2084
+recoilAimVertical: 15.1848 - 23.2834
+movementSpeed: 3.6
 
 [ Barrel: Second Amendment, Magazine: Kolibri, Grip: JSG12, Stock: MG42, Core: MarrowMaker ]
 damage: 120.836 - 12.8804
@@ -64,6 +51,19 @@ magazineSize: 5
 recoilHipVertical: 58.2084 - 89.2529
 recoilAimVertical: 23.2834 - 35.7011
 movementSpeed: 6.225
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: JSG12, Stock: JSG12, Core: MarrowMaker ]
+damage: 120.836 - 12.8804
+dropoffStuds: 36.975 - 85.0425
+pellets: 7
+fireRate: 88
+adsSpread: 0.845937
+hipfireSpread: 2.65866
+reloadTime: 0.525
+magazineSize: 5
+recoilHipVertical: 58.2084 - 89.2529
+recoilAimVertical: 23.2834 - 35.7011
+movementSpeed: 6.6
 
 [ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: M870 MCS, Core: MarrowMaker ]
 damage: 117.889 - 12.5663
@@ -117,16 +117,16 @@ recoilHipVertical: 42.7073 - 65.4845
 recoilAimVertical: 17.0829 - 26.1938
 movementSpeed: 0.6
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: JSG12, Core: M870 ]
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: AWM, Core: M870 ]
 damage: 119.437 - -13.5988
 dropoffStuds: 40.6725 - 92.4375
 pellets: 8
 fireRate: 83.16
-adsSpread: 0.813953
-hipfireSpread: 2.46652
-reloadTime: 0.525
+adsSpread: 0.827951
+hipfireSpread: 2.50894
+reloadTime: 0.4625
 magazineSize: 5
-recoilHipVertical: 63.27 - 101.232
-recoilAimVertical: 25.308 - 40.4928
-movementSpeed: 3.6
+recoilHipVertical: 69.597 - 111.355
+recoilAimVertical: 27.8388 - 44.5421
+movementSpeed: 0.6
 

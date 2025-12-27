@@ -22,6 +22,7 @@
 #define chrono std::chrono
 using json = nlohmann::json;
 using fpair = std::pair<float, float>;
+using std::size_t;
 
 #define WGGCALC_VERSION "1.7.0"
 #define DEFAULTVECTORSIZE 100000lu
@@ -68,8 +69,8 @@ namespace Input
 
     std::vector<std::string> includeCategories;
 
-    int threadsToMake = std::clamp(std::thread::hardware_concurrency(), 1u, 64u);
-    int howManyTopGunsToDisplay = 10;
+    uint64_t threadsToMake = std::clamp(std::thread::hardware_concurrency(), 1u, 64u);
+    uint64_t howManyTopGunsToDisplay = 10;
     int playerMaxHealth = 100;
 
     const int TOTALFILTERCOUNT = 19;
@@ -1720,10 +1721,12 @@ namespace DynamicPrune
             }
 
             case PELLETS: // high pellets -> high pellets\\ -> normal
-                return ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, PELLETS);
+                gunValue = ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, PELLETS);
+                break;
 
             case DAMAGE: // high damage -> high damage\\ -> normal
-                return gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, DAMAGE);
+                gunValue =  gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, DAMAGE);
+                break;
 
             case DAMAGEEND: // high damageEnd -> high damage\\ (high or low) falloffFactor -> normal
             {
@@ -1733,23 +1736,29 @@ namespace DynamicPrune
                     bestFalloffFactor = gun.falloffFactor * normalPPC.rangeFalloff;
                 else
                     bestFalloffFactor = gun.falloffFactor * antiPPC.rangeFalloff;
-                return (bestBaseDamage * bestFalloffFactor) + bestBaseDamage;
+                gunValue = (bestBaseDamage * bestFalloffFactor) + bestBaseDamage;
             }
 
             case SPREADAIM: // high spreadAim -> high spread\\ -> normal
-                return gun.adsSpread * ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, SPREADAIM);
+                gunValue = gun.adsSpread * ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, SPREADAIM);
+                break;
             case SPREADHIP: // high spreadHip -> high spread\\ -> normal
-                return gun.adsSpread * ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, SPREADAIM);
+                gunValue = gun.hipfireSpread * ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, SPREADAIM);
+                break;
+
             default:
             {
                 switch (GetPropertyType(PQ::currentSortingType))
                 {
                     case Fast::MULTIPLIER:
-                        return gun.GetProperty(PQ::currentSortingType) * normalPPC.GetMult(PQ::currentSortingType);
+                        gunValue = gun.GetProperty(PQ::currentSortingType) * normalPPC.GetMult(PQ::currentSortingType);
+                        break;
                     case Fast::ADDER:
-                        return gun.GetProperty(PQ::currentSortingType) + normalPPC.GetMult(PQ::currentSortingType);
+                        gunValue = gun.GetProperty(PQ::currentSortingType) + normalPPC.GetMult(PQ::currentSortingType);
+                        break;
                     case Fast::NONAPPLICABLE:
-                        return gun.GetProperty(PQ::currentSortingType);
+                        gunValue = gun.GetProperty(PQ::currentSortingType);
+                        break;
                     default:
                         throw std::runtime_error("Invalid property type");
                 }
@@ -1769,11 +1778,11 @@ namespace DynamicPrune
     {
         float current = gun.GetProperty(PQ::currentSortingType);
         PQ::AllSortStruct comp;
-
+        float expected;
         int x = 0;
-        for (; x < 1000; x++)
+        for (; x < 100; x++)
         {
-            float expected = currentBestThreshold_a.load();
+            expected = currentBestThreshold_a.load();
 
             if (!comp(current, expected))
                 break;
@@ -1783,10 +1792,9 @@ namespace DynamicPrune
         }
 
         if (Input::debug)
-            printf("Replace retried %d times\n", x);
-        if (x == 1000)
+            printf("Threshold change %f -> %f\n", expected, current);
+        if (x == 100)
             throw std::runtime_error("Failed to replace threshold");
-
     }
 
     typedef struct PassThroughArgs // Arguments that stay constant after the core loop
@@ -1999,7 +2007,7 @@ namespace DynamicPrune
         printf("Thread %d started\n", threadId);
         threadPQ[threadId] = PQ::AllSortPQ();
         uint64_t prunedEndpoints = CoreLoop(threadId);
-        std::cout << "Pruned endpoints: " << prunedEndpoints << '\n'; // All roads lead to 5 nested for loops
+        printf("%d: Pruned endpoints: %lu\n", threadId, prunedEndpoints);
     }
 }
 
@@ -2209,7 +2217,7 @@ int main(int argc, char* argv[])
     totalCombinations = barrelCount * magazineCount * gripCount * stockCount * coreCount;
     printf("Barrels detected: %lu, Magazines detected: %lu, Grips detected: %lu, Stocks detected: %lu, Cores detected: %lu\n", barrelCount, magazineCount, gripCount, stockCount, coreCount);
     printf("Total of %lu possibilities \n", totalCombinations);
-    printf("Starting %s with %d threads\n", Input::method.c_str(), Input::threadsToMake);
+    printf("Starting %s with %lu threads\n", Input::method.c_str(), Input::threadsToMake);
 
     auto start = chrono::steady_clock::now();
 

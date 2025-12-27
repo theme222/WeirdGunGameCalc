@@ -1,4 +1,4 @@
-./Calculator -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
+./wggcalc -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
 [ Barrel: Tommy, Magazine: MP 40, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
 damage: 33.5598 - 21.1091
@@ -52,6 +52,19 @@ recoilAimVertical: 18.574 - 25.5977
 movementSpeed: 7.3
 TTK: 0.246932 Seconds
 
+[ Barrel: MP 40, Magazine: Maple Badger, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
+damage: 33.6 - 21.84
+dropoffStuds: 120 - 185
+fireRate: 484.108
+adsSpread: 0.576448
+hipfireSpread: 2.88224
+reloadTime: 1.84
+magazineSize: 30
+recoilHipVertical: 49.776 - 68.808
+recoilAimVertical: 17.4216 - 24.0096
+movementSpeed: 6.7
+TTK: 0.247879 Seconds
+
 [ Barrel: M1911, Magazine: Maple Badger, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
 damage: 34.387 - 21.0276
 dropoffStuds: 106.8 - 164.65
@@ -77,19 +90,6 @@ health: -15
 recoilHipVertical: 50.6056 - 69.9548
 recoilAimVertical: 17.712 - 24.4098
 movementSpeed: 5.5
-TTK: 0.247879 Seconds
-
-[ Barrel: MP 40, Magazine: Maple Badger, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 33.6 - 21.84
-dropoffStuds: 120 - 185
-fireRate: 484.108
-adsSpread: 0.576448
-hipfireSpread: 2.88224
-reloadTime: 1.84
-magazineSize: 30
-recoilHipVertical: 49.776 - 68.808
-recoilAimVertical: 17.4216 - 24.0096
-movementSpeed: 6.7
 TTK: 0.247879 Seconds
 
 [ Barrel: Tommy, Magazine: MP 40, Grip: Mas-38, Stock: M1897 Trench Shotgun, Core: MP18 ]

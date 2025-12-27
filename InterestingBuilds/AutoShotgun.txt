@@ -1,2 +1,2 @@
-./Calculator -o InterestingBuilds/AutoShotgun.txt -i Shotgun --sort FIRERATE --fc Siberia-12 --damageMin 120 --spreadAimMax 2.8 --speedMin 0 --rangeMin 45 --magazineMin 20 --recoilAimMax 70 
+./wggcalc -o InterestingBuilds/AutoShotgun.txt -i Shotgun --sort FIRERATE --fc Siberia-12 --damageMin 120 --spreadAimMax 2.8 --speedMin 0 --rangeMin 45 --magazineMin 20 --recoilAimMax 70 
 Current top 10 guns are: 
