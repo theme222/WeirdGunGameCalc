@@ -190,7 +190,6 @@ fabric.properties
 
 # The output binary file I think
 Calculator
-Results.txt
 Calculator.exe
 
 RobloxMemory/
@@ -202,3 +201,5 @@ CompileRelease.sh
 SheetData/
 TODO.*
 wggcalc*
+NormalCompile.sh
+*Result*

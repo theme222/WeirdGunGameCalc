@@ -146,14 +146,14 @@ There are currently 2 methods inside of the calculator: Bruteforce and Prune.
 
 ### Bruteforce
 
-`O(n^5) Time Complexity` `O(n) Memory Complexity`
+`O(n^5) Time Complexity` `O(1) Memory Complexity`
 
 The way this method works is by iterating through all possible combinations of
 creating a gun. Each gun can have a unique barrel, magazine, grip, stock, and
 core. This is the simplest and first method I derived on solving this. It runs a
 total of (n/5)^5 times causing this method to have an O(n^5) time complexity
 although it doesn't save any extra data thus having a memory complexity of only
-O(n).
+O(1).
 
 ### Prune
 
