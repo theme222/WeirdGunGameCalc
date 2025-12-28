@@ -9,6 +9,8 @@ SHEETFOLDER = Path('SheetData')
 
 PARTSHEET = SHEETFOLDER / 'parts.csv'
 PARTSHEETGID = '503295784'
+PARTSHEET2 = SHEETFOLDER / 'parts2.csv'
+PARTSHEET2GID = '319672878'
 CORESHEET = SHEETFOLDER / 'cores.csv'
 CORESHEETGID = '911413911'
 
@@ -95,6 +97,7 @@ def DownloadSheet():
     os.system(f'rm -f {SHEETFOLDER}/*')
     os.system(f'wget -O {PARTSHEET} "https://docs.google.com/spreadsheets/d/{SHEETID}/export?format=csv&id={SHEETID}&gid={PARTSHEETGID}"')
     os.system(f'wget -O {CORESHEET} "https://docs.google.com/spreadsheets/d/{SHEETID}/export?format=csv&id={SHEETID}&gid={CORESHEETGID}"')
+    os.system(f'wget -O {PARTSHEET2} "https://docs.google.com/spreadsheets/d/{SHEETID}/export?format=csv&id={SHEETID}&gid={PARTSHEET2GID}"')
 
 def ParseParts(outputData):
 
@@ -138,24 +141,94 @@ def ParseParts(outputData):
             part[propertyName] = FormatNumber(value)
         outputData[currentType].append(part)
 
+def ParsePartsv2(outputData):
+    with open(PARTSHEET2, 'r') as file:
+        data = [row[1:] for row in list(csv.reader(file))[2:]] # include price info
+
+    currentCategory = 'AR'
+    currentType = ''
+
+    for row in data:
+
+        if len(row) == 0: continue
+        assert len(row) == 15, f"invalid row length {row} expected 15"
+
+        price = row[0]
+        name = row[1]
+
+        # Check if it is a category divider
+        categoryType = name.split(' ')
+        if len(categoryType) == 2:
+            if categoryType[0] == "Notable": # Remove notable scopes
+                break
+            if categoryType[0] in validPartCategories and categoryType[1] in validPartTypes:
+                currentCategory = categoryType[0]
+                currentType = categoryType[1]
+                continue
+
+        if name[:-6] in validPartCategories: # remove the word Cores from the back
+            currentCategory = name[:-6]
+            continue
+
+        part = {
+            "Price": price,
+            "Name": name,
+            "Category": currentCategory,
+        }
+
+        propertyList = [
+            "Magazine_Size",
+            "Reload_Time",
+            "Damage",
+            "Detection_Radius",
+            "Equip_Time",
+            "Fire_Rate",
+            "Health",
+            "Movement_Speed",
+            "Pellets",
+            "Range",
+            "Recoil",
+            "Reload_Speed",
+            "Spread",
+        ]
+
+        for i in range(2, 15):
+            property = row[i].strip()
+            if property == '': continue
+
+            property = [property[:property.index(' ')], property[property.index(' ') + 1:]]
+            assert len(property) == 2, f"Invalid property format: {property} {row}"
+
+            value, propertyName = property
+            # propertyName = propertyName.strip().lower()
+
+            propertyName = propertyList[i-2]
+
+            part[propertyName] = FormatNumber(value)
+
+        outputData[currentType].append(part)
+
+
 
 def ParseCores(outputData):
 
     with open(CORESHEET, 'r') as file:
-        data = [row[2:] for row in list(csv.reader(file))[2:]]
+        data = [row[1:] for row in list(csv.reader(file))[2:]]
 
     currentCategory = 'AR'
     for row in data:
 
         if len(row) == 0: continue
-        assert len(row) == 17, f"invalid row length {row} expected 17"
-        name = row[0]
+        assert len(row) == 18, f"invalid row length {row} expected 18"
+        price = row[0]
+        name = row[1]
 
         if name[:-6] in validPartCategories: # remove the word Cores from the back
             currentCategory = name[:-6]
             continue
 
         core = {
+            "Price": price,
             "Name": name,
             "Category": currentCategory,
         }
@@ -179,15 +252,15 @@ def ParseCores(outputData):
             "Recoil_Aim_Vertical"
         ]
 
-        for i in range(1, 17):
+        for i in range(2, 18):
             if i == 1: # Damage x Pellet
                 pellet  = row[i].split(" > ")[0].split("x")
                 if len(pellet) == 2:
                     core["Pellets"] = int(pellet[1])
 
-            formattedVal = FormatNumber(row[i], doubleNum=(i <= 2 or i >= 13))
+            formattedVal = FormatNumber(row[i], doubleNum=(i <= 3 or i >= 14))
             if formattedVal is not None:
-                core[propertyList[i-1]] = formattedVal
+                core[propertyList[i-2]] = formattedVal
 
         outputData["Cores"].append(core)
 
@@ -207,7 +280,8 @@ def Compare():
 def main():
     DownloadSheet()
     outputData = {"Barrels": [], "Magazines": [], "Grips": [], "Stocks": [], "Cores": []}
-    ParseParts(outputData)
+    # ParseParts(outputData)
+    ParsePartsv2(outputData)
     ParseCores(outputData)
     SaveData(outputData)
     Penalties() # so this can be ran in one file instead of two. (I don't think I'll be running FileFormatter anymore)

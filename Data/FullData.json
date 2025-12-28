@@ -1,12 +1,14 @@
 {
   "Barrels": [
     {
+      "Price": "Free",
       "Name": "M-16",
       "Category": "AR",
       "Range": 8,
       "Recoil": -15
     },
     {
+      "Price": "Free",
       "Name": "AKM",
       "Category": "AR",
       "Damage": 7,
@@ -14,22 +16,25 @@
       "Recoil": 20
     },
     {
+      "Price": "375",
       "Name": "C36C",
       "Category": "AR",
       "Damage": 4.5,
       "Reload_Speed": -10
     },
     {
+      "Price": "600",
       "Name": "AUG",
       "Category": "AR",
+      "Damage": -3.5,
       "Movement_Speed": 2.5,
       "Range": 5,
       "Recoil": -5,
       "Reload_Speed": -15,
-      "Spread": -10,
-      "Damage": -3.5
+      "Spread": -10
     },
     {
+      "Price": "1125",
       "Name": "As-Val",
       "Category": "AR",
       "Detection_Radius": -25,
@@ -38,6 +43,7 @@
       "Recoil": 15
     },
     {
+      "Price": "1875",
       "Name": "Famas F1",
       "Category": "AR",
       "Fire_Rate": 9,
@@ -45,19 +51,22 @@
       "Spread": 15
     },
     {
+      "Price": "2625",
       "Name": "STG-44",
       "Category": "AR",
       "Range": 4,
-      "Spread": -11,
-      "Recoil": 12
+      "Recoil": 12,
+      "Spread": -11
     },
     {
+      "Price": "3750",
       "Name": "Scar L",
       "Category": "AR",
       "Damage": 4.5,
       "Recoil": -10
     },
     {
+      "Price": "5250",
       "Name": "L8",
       "Category": "AR",
       "Damage": 4,
@@ -65,14 +74,16 @@
       "Recoil": 28
     },
     {
+      "Price": "5625",
       "Name": "QBZ-95",
       "Category": "AR",
       "Movement_Speed": 1.5,
       "Range": 9,
-      "Reload_Speed": -8,
-      "Recoil": 14
+      "Recoil": 14,
+      "Reload_Speed": -8
     },
     {
+      "Price": "7500",
       "Name": "The Chief",
       "Category": "AR",
       "Damage": 5,
@@ -80,14 +91,16 @@
       "Recoil": 23
     },
     {
+      "Price": "11250",
       "Name": "AK-12",
       "Category": "AR",
       "Damage": 3,
       "Fire_Rate": 2,
-      "Reload_Speed": -4,
-      "Recoil": 17
+      "Recoil": 17,
+      "Reload_Speed": -4
     },
     {
+      "Price": "12375",
       "Name": "Broza",
       "Category": "AR",
       "Fire_Rate": 5.5,
@@ -95,6 +108,7 @@
       "Spread": 12
     },
     {
+      "Price": "15000",
       "Name": "Hell-Trooper-23",
       "Category": "AR",
       "Damage": 7.5,
@@ -103,6 +117,7 @@
       "Spread": 35
     },
     {
+      "Price": "22500",
       "Name": "APS",
       "Category": "AR",
       "Damage": 22,
@@ -112,47 +127,53 @@
       "Spread": 20
     },
     {
+      "Price": "26250",
       "Name": "FC200SH",
       "Category": "AR",
       "Damage": 8.5,
-      "Range": 14,
       "Fire_Rate": -3,
+      "Range": 14,
       "Reload_Speed": 8
     },
     {
+      "Price": "338 WC",
       "Name": "AR-8X",
       "Category": "AR",
       "Movement_Speed": 4,
-      "Spread": -23,
-      "Reload_Speed": 8
+      "Reload_Speed": 8,
+      "Spread": -23
     },
     {
+      "Price": "375 WC",
       "Name": "Hex Spitter",
       "Category": "AR",
       "Damage": 7,
-      "Movement_Speed": 2,
-      "Spread": -16,
       "Health": -5,
-      "Recoil": 25
+      "Movement_Speed": 2,
+      "Recoil": 25,
+      "Spread": -16
     },
     {
+      "Price": "Spin",
       "Name": "G11",
       "Category": "AR",
       "Fire_Rate": 4,
-      "Reload_Speed": -8,
-      "Range": -6
+      "Range": -6,
+      "Reload_Speed": -8
     },
     {
+      "Price": "Limited",
       "Name": "Second Amendment",
       "Category": "AR",
       "Damage": 17,
-      "Spread": -50,
       "Fire_Rate": -12,
       "Movement_Speed": -2,
       "Range": -13,
-      "Recoil": 90
+      "Recoil": 90,
+      "Spread": -50
     },
     {
+      "Price": "Limited",
       "Name": "Freedom Dispenser",
       "Category": "AR",
       "Fire_Rate": 6,
@@ -162,40 +183,53 @@
       "Spread": 28
     },
     {
+      "Price": "Follow",
       "Name": "Cirrus - Hand",
       "Category": "AR",
+      "Damage": -10,
       "Recoil": -40,
-      "Spread": -30,
-      "Damage": -10
+      "Spread": -30
     },
     {
+      "Price": "Limited",
       "Name": "Medal",
       "Category": "AR",
+      "Damage": -3.5,
       "Detection_Radius": -15,
+      "Equip_Time": 15,
       "Fire_Rate": 10,
       "Movement_Speed": 4,
       "Recoil": -13,
-      "Damage": -3.5,
-      "Equip_Time": 15,
       "Spread": 7
     },
     {
+      "Price": "Limited",
+      "Name": "PineFire",
+      "Category": "AR",
+      "Damage": 5,
+      "Range": -5,
+      "Reload_Speed": -9
+    },
+    {
+      "Price": "375",
       "Name": "M40",
       "Category": "Sniper",
+      "Damage": -10,
       "Fire_Rate": 10,
       "Range": 25,
       "Recoil": -5,
-      "Spread": -20,
-      "Damage": -10
+      "Spread": -20
     },
     {
+      "Price": "750",
       "Name": "M1891",
       "Category": "Sniper",
       "Range": 20,
-      "Spread": -25,
-      "Reload_Speed": 20
+      "Reload_Speed": 20,
+      "Spread": -25
     },
     {
+      "Price": "850",
       "Name": "M91 Moschetto",
       "Category": "Sniper",
       "Movement_Speed": 4,
@@ -204,14 +238,16 @@
       "Spread": 50
     },
     {
+      "Price": "1875",
       "Name": "AWM",
       "Category": "Sniper",
       "Damage": 5,
       "Range": 15,
-      "Spread": -25,
-      "Recoil": 75
+      "Recoil": 75,
+      "Spread": -25
     },
     {
+      "Price": "3750",
       "Name": "Lee Enfield",
       "Category": "Sniper",
       "Fire_Rate": 10,
@@ -220,43 +256,48 @@
       "Spread": 100
     },
     {
+      "Price": "7500",
       "Name": "Arisaka",
       "Category": "Sniper",
-      "Movement_Speed": 10,
-      "Reload_Speed": -12,
       "Health": -6,
-      "Recoil": 38
+      "Movement_Speed": 10,
+      "Recoil": 38,
+      "Reload_Speed": -12
     },
     {
+      "Price": "11250",
       "Name": "VSSR",
       "Category": "Sniper",
       "Damage": 20,
       "Detection_Radius": -50,
-      "Range": 9,
-      "Recoil": -28,
       "Fire_Rate": -12,
       "Movement_Speed": -7,
+      "Range": 9,
+      "Recoil": -28,
       "Reload_Speed": 10
     },
     {
+      "Price": "15000",
       "Name": "M2000",
       "Category": "Sniper",
       "Damage": 25,
-      "Range": 10,
-      "Spread": -10,
       "Detection_Radius": 20,
       "Fire_Rate": -25,
       "Movement_Speed": -8,
-      "Recoil": 55
+      "Range": 10,
+      "Recoil": 55,
+      "Spread": -10
     },
     {
+      "Price": "18750",
       "Name": "Mosin",
       "Category": "Sniper",
       "Damage": 15,
-      "Reload_Speed": -8,
-      "Fire_Rate": -5
+      "Fire_Rate": -5,
+      "Reload_Speed": -8
     },
     {
+      "Price": "26250",
       "Name": "Hecate II",
       "Category": "Sniper",
       "Damage": 30,
@@ -267,18 +308,20 @@
       "Spread": 50
     },
     {
+      "Price": "75000",
       "Name": "Lightning Shot",
       "Category": "Sniper",
       "Damage": 35,
-      "Range": 12,
-      "Reload_Speed": -4,
-      "Spread": -25,
       "Detection_Radius": 35,
       "Fire_Rate": -45,
       "Movement_Speed": -6,
-      "Recoil": 80
+      "Range": 12,
+      "Recoil": 80,
+      "Reload_Speed": -4,
+      "Spread": -25
     },
     {
+      "Price": "394 WC",
       "Name": "Musket",
       "Category": "Sniper",
       "Damage": 55,
@@ -289,6 +332,7 @@
       "Spread": 57
     },
     {
+      "Price": "Robux",
       "Name": "Snake Sniper",
       "Category": "Sniper",
       "Damage": 11,
@@ -298,6 +342,7 @@
       "Spread": 20
     },
     {
+      "Price": "750",
       "Name": "MAC-10",
       "Category": "SMG",
       "Fire_Rate": 5,
@@ -305,6 +350,7 @@
       "Range": -10
     },
     {
+      "Price": "1875",
       "Name": "Type 2a Nambu",
       "Category": "SMG",
       "Damage": 13,
@@ -313,6 +359,7 @@
       "Spread": 23
     },
     {
+      "Price": "3750",
       "Name": "Tommy",
       "Category": "SMG",
       "Damage": 7,
@@ -322,14 +369,16 @@
       "Recoil": 25
     },
     {
+      "Price": "5625",
       "Name": "NP9",
       "Category": "SMG",
       "Fire_Rate": 8,
       "Movement_Speed": 3.2,
-      "Reload_Speed": -15,
-      "Range": -6
+      "Range": -6,
+      "Reload_Speed": -15
     },
     {
+      "Price": "7125",
       "Name": "MP 40",
       "Category": "SMG",
       "Damage": 10,
@@ -337,50 +386,56 @@
       "Recoil": 20
     },
     {
+      "Price": "7500",
       "Name": "Sten gun",
       "Category": "SMG",
       "Fire_Rate": 12,
       "Movement_Speed": 2,
-      "Spread": -12,
       "Range": -13,
-      "Recoil": 24
+      "Recoil": 24,
+      "Spread": -12
     },
     {
+      "Price": "9000",
       "Name": "UNP-40",
       "Category": "SMG",
       "Damage": 12,
-      "Movement_Speed": 3.8,
       "Fire_Rate": -5,
+      "Movement_Speed": 3.8,
       "Recoil": 15,
       "Spread": 15
     },
     {
+      "Price": "11250",
       "Name": "Skorpion vz. 61",
       "Category": "SMG",
-      "Movement_Speed": 9,
       "Damage": -5,
+      "Movement_Speed": 9,
       "Range": -5
     },
     {
+      "Price": "11250",
       "Name": "NP5",
       "Category": "SMG",
       "Damage": 7,
-      "Movement_Speed": 2.5,
-      "Recoil": -14,
-      "Spread": -8,
       "Fire_Rate": -2.5,
-      "Range": -7.5
+      "Movement_Speed": 2.5,
+      "Range": -7.5,
+      "Recoil": -14,
+      "Spread": -8
     },
     {
+      "Price": "15000",
       "Name": "Mas-38",
       "Category": "SMG",
       "Damage": 10,
-      "Movement_Speed": 3.3,
-      "Spread": -20,
       "Fire_Rate": -5,
-      "Recoil": 5
+      "Movement_Speed": 3.3,
+      "Recoil": 5,
+      "Spread": -20
     },
     {
+      "Price": "18750",
       "Name": "PP-19 Bizon",
       "Category": "SMG",
       "Damage": 9,
@@ -390,15 +445,17 @@
       "Recoil": 25
     },
     {
+      "Price": "20250",
       "Name": "ZIPO-2222",
       "Category": "SMG",
       "Damage": 11,
       "Detection_Radius": -17,
-      "Recoil": -16,
       "Range": -6,
+      "Recoil": -16,
       "Spread": 15
     },
     {
+      "Price": "22500",
       "Name": "PPSh-41",
       "Category": "SMG",
       "Fire_Rate": 15,
@@ -408,50 +465,56 @@
       "Spread": 10
     },
     {
+      "Price": "26250",
       "Name": "MP18",
       "Category": "SMG",
       "Damage": 8,
-      "Range": 2,
       "Fire_Rate": -2,
+      "Range": 2,
       "Recoil": 32
     },
     {
+      "Price": "26250",
       "Name": "Kriss Vector",
       "Category": "SMG",
+      "Damage": -3,
       "Fire_Rate": 20,
       "Movement_Speed": 3.3,
-      "Recoil": -15,
-      "Damage": -3,
-      "Range": -10
+      "Range": -10,
+      "Recoil": -15
     },
     {
+      "Price": "30000",
       "Name": "P90",
       "Category": "SMG",
+      "Damage": -7.5,
       "Fire_Rate": 15,
       "Movement_Speed": 2.5,
       "Range": 2,
-      "Damage": -7.5,
       "Recoil": 20,
       "Spread": 25
     },
     {
+      "Price": "33750",
       "Name": "Uzi",
       "Category": "SMG",
       "Damage": 5,
       "Fire_Rate": 9,
       "Movement_Speed": 4,
-      "Spread": -15,
-      "Range": -8
+      "Range": -8,
+      "Spread": -15
     },
     {
+      "Price": "56250",
       "Name": "Maple Badger",
       "Category": "SMG",
       "Damage": 3.5,
       "Detection_Radius": -35,
-      "Recoil": -12,
-      "Range": -5.5
+      "Range": -5.5,
+      "Recoil": -12
     },
     {
+      "Price": "300 WC",
       "Name": "M1 Carbine",
       "Category": "SMG",
       "Damage": 5,
@@ -462,6 +525,7 @@
       "Spread": 14
     },
     {
+      "Price": "375",
       "Name": "M870",
       "Category": "Shotgun",
       "Damage": 13,
@@ -469,22 +533,25 @@
       "Spread": 15
     },
     {
+      "Price": "563",
       "Name": "Circuit Judge",
       "Category": "Shotgun",
       "Damage": 14,
-      "Reload_Speed": -15,
       "Range": -6,
-      "Recoil": 25
+      "Recoil": 25,
+      "Reload_Speed": -15
     },
     {
+      "Price": "2500",
       "Name": "M870 MCS",
       "Category": "Shotgun",
       "Damage": 14,
-      "Spread": -15,
       "Range": -6,
-      "Reload_Speed": 10
+      "Reload_Speed": 10,
+      "Spread": -15
     },
     {
+      "Price": "3000",
       "Name": "M870 Breacher",
       "Category": "Shotgun",
       "Damage": 20,
@@ -493,14 +560,16 @@
       "Spread": 30
     },
     {
+      "Price": "3750",
       "Name": "M1897 Trench Shotgun",
       "Category": "Shotgun",
       "Fire_Rate": 20,
-      "Reload_Speed": -11,
       "Range": -11,
+      "Reload_Speed": -11,
       "Spread": 22
     },
     {
+      "Price": "7500",
       "Name": "M1887",
       "Category": "Shotgun",
       "Damage": 7,
@@ -510,26 +579,29 @@
       "Spread": 15
     },
     {
+      "Price": "11000",
       "Name": "M870 Wingmaster",
       "Category": "Shotgun",
       "Damage": 16,
-      "Range": 7,
-      "Spread": -5,
       "Detection_Radius": 10,
       "Fire_Rate": -13,
       "Pellets": -20,
-      "Reload_Speed": 5
+      "Range": 7,
+      "Reload_Speed": 5,
+      "Spread": -5
     },
     {
+      "Price": "11250",
       "Name": "Auto-5",
       "Category": "Shotgun",
-      "Fire_Rate": 13,
-      "Recoil": -10,
-      "Spread": -10,
       "Damage": -2.5,
-      "Range": -7
+      "Fire_Rate": 13,
+      "Range": -7,
+      "Recoil": -10,
+      "Spread": -10
     },
     {
+      "Price": "18750",
       "Name": "JSG12",
       "Category": "Shotgun",
       "Movement_Speed": 3,
@@ -539,6 +611,7 @@
       "Spread": 24
     },
     {
+      "Price": "22500",
       "Name": "Spas-12",
       "Category": "Shotgun",
       "Damage": 5,
@@ -548,17 +621,19 @@
       "Spread": 15
     },
     {
+      "Price": "37500",
       "Name": "Double Barrel",
       "Category": "Shotgun",
       "Damage": 15,
+      "Fire_Rate": -15,
       "Pellets": 100,
       "Range": 5,
-      "Fire_Rate": -15,
       "Recoil": 80,
       "Reload_Speed": 10,
       "Spread": 6
     },
     {
+      "Price": "56250",
       "Name": "Siberia-12",
       "Category": "Shotgun",
       "Fire_Rate": 16,
@@ -566,15 +641,17 @@
       "Spread": 7
     },
     {
+      "Price": "413 WC",
       "Name": "Blunderbuss",
       "Category": "Shotgun",
       "Damage": 45,
-      "Pellets": 100,
       "Fire_Rate": -34,
+      "Pellets": 100,
       "Range": -30,
       "Spread": 60
     },
     {
+      "Price": "Limited",
       "Name": "MarrowMaker",
       "Category": "Shotgun",
       "Fire_Rate": 11,
@@ -583,77 +660,86 @@
       "Range": -2.5
     },
     {
+      "Price": "Robux",
       "Name": "AUTO-12",
       "Category": "Shotgun",
+      "Damage": -2,
       "Fire_Rate": 5,
-      "Range": 3,
-      "Damage": -2
+      "Range": 3
     },
     {
+      "Price": "375",
       "Name": "M60",
       "Category": "LMG",
       "Damage": 8.5,
-      "Recoil": -10,
       "Detection_Radius": 5,
-      "Movement_Speed": -3
+      "Movement_Speed": -3,
+      "Recoil": -10
     },
     {
+      "Price": "1875",
       "Name": "Type 99",
       "Category": "LMG",
       "Damage": 8,
-      "Spread": -15,
       "Movement_Speed": -2,
-      "Reload_Speed": 5
+      "Reload_Speed": 5,
+      "Spread": -15
     },
     {
+      "Price": "3750",
       "Name": "DP-27",
       "Category": "LMG",
       "Damage": 9,
       "Fire_Rate": 2,
       "Movement_Speed": -1,
-      "Recoil": 26,
+      "Recoil": 27,
       "Spread": 10
     },
     {
+      "Price": "5625",
       "Name": "BAR",
       "Category": "LMG",
       "Damage": 25,
-      "Range": 10,
       "Fire_Rate": -10,
       "Movement_Speed": -0.5,
+      "Range": 10,
       "Recoil": 20,
       "Spread": 20
     },
     {
+      "Price": "7500",
       "Name": "M1919 .30 Cal",
       "Category": "LMG",
       "Fire_Rate": 5,
-      "Recoil": -17,
-      "Spread": -20,
       "Movement_Speed": -6,
-      "Reload_Speed": 12
+      "Recoil": -17,
+      "Reload_Speed": 12,
+      "Spread": -20
     },
     {
+      "Price": "7500",
       "Name": "M1917 WC",
       "Category": "LMG",
       "Fire_Rate": 20,
       "Health": 25,
+      "Movement_Speed": -30,
       "Range": 9,
       "Recoil": -20,
-      "Spread": -10,
-      "Movement_Speed": -30,
-      "Reload_Speed": 15
+      "Reload_Speed": 15,
+      "Spread": -10
     },
     {
+      "Price": "8000",
       "Name": "M1919 Tripod",
       "Category": "LMG",
       "Health": 10,
-      "Recoil": -30,
-      "Spread": -50,
       "Movement_Speed": -20,
-      "Reload_Speed": 25
+      "Recoil": -30,
+      "Reload_Speed": 25,
+      "Spread": -50
     },
     {
+      "Price": "11250",
       "Name": "Negev",
       "Category": "LMG",
       "Fire_Rate": 15,
@@ -661,6 +747,7 @@
       "Spread": 25
     },
     {
+      "Price": "18750",
       "Name": "MG42",
       "Category": "LMG",
       "Fire_Rate": 35,
@@ -670,49 +757,55 @@
       "Spread": 40
     },
     {
+      "Price": "22500",
       "Name": "Chauchat",
       "Category": "LMG",
       "Damage": 20,
-      "Range": 20,
       "Detection_Radius": 10,
       "Fire_Rate": -15,
       "Movement_Speed": -3,
+      "Range": 20,
       "Recoil": 25
     },
     {
+      "Price": "27000",
       "Name": "Burton",
       "Category": "LMG",
+      "Damage": -4,
       "Fire_Rate": 14,
       "Recoil": -19,
-      "Damage": -4,
       "Reload_Speed": 2
     },
     {
+      "Price": "37500",
       "Name": "Lewis",
       "Category": "LMG",
       "Detection_Radius": -15,
       "Fire_Rate": 10,
-      "Spread": -15,
       "Movement_Speed": -15,
-      "Reload_Speed": 5
+      "Reload_Speed": 5,
+      "Spread": -15
     },
     {
+      "Price": "Robux",
       "Name": "M249 SAW",
       "Category": "LMG",
       "Damage": 2,
       "Fire_Rate": 5,
-      "Recoil": -16,
       "Movement_Speed": -9,
+      "Recoil": -16,
       "Reload_Speed": 4
     },
     {
+      "Price": "375",
       "Name": "M1 Garand",
       "Category": "BR",
       "Damage": 7,
-      "Spread": -17,
-      "Detection_Radius": 10
+      "Detection_Radius": 10,
+      "Spread": -17
     },
     {
+      "Price": "1875",
       "Name": "SKS",
       "Category": "BR",
       "Fire_Rate": 5,
@@ -721,16 +814,18 @@
       "Reload_Speed": 4
     },
     {
+      "Price": "2000",
       "Name": "Scar H",
       "Category": "BR",
       "Damage": 15,
-      "Range": 10,
-      "Spread": -25,
       "Detection_Radius": 10,
       "Fire_Rate": -10,
-      "Recoil": 20
+      "Range": 10,
+      "Recoil": 20,
+      "Spread": -25
     },
     {
+      "Price": "3750",
       "Name": "Fedorov",
       "Category": "BR",
       "Damage": 7,
@@ -738,13 +833,15 @@
       "Recoil": 18
     },
     {
+      "Price": "7500",
       "Name": "FAL",
       "Category": "BR",
+      "Movement_Speed": -6,
       "Range": 9,
-      "Spread": -20,
-      "Movement_Speed": -6
+      "Spread": -20
     },
     {
+      "Price": "11250",
       "Name": "Winchester",
       "Category": "BR",
       "Fire_Rate": 8,
@@ -753,33 +850,37 @@
       "Spread": 14
     },
     {
+      "Price": "15000",
       "Name": "Dragunov",
       "Category": "BR",
       "Range": 19,
-      "Spread": -16,
-      "Recoil": 24
+      "Recoil": 24,
+      "Spread": -16
     },
     {
+      "Price": "33750",
       "Name": "G3",
       "Category": "BR",
       "Damage": 12,
-      "Range": 13,
       "Detection_Radius": 10,
       "Fire_Rate": -2,
       "Movement_Speed": -3,
+      "Range": 13,
       "Recoil": 38
     },
     {
+      "Price": "37500",
       "Name": "M110",
       "Category": "BR",
       "Damage": 22,
-      "Range": 5,
       "Detection_Radius": 35,
       "Fire_Rate": -15,
+      "Range": 5,
       "Recoil": 42,
       "Spread": 11
     },
     {
+      "Price": "375 WC",
       "Name": "FG-42",
       "Category": "BR",
       "Damage": 6,
@@ -789,14 +890,25 @@
       "Spread": 12
     },
     {
-      "Name": "Paintball",
-      "Category": "Weird",
-      "Movement_Speed": 2.5,
-      "Recoil": -28,
-      "Damage": -3,
-      "Range": -3
+      "Price": "Limited",
+      "Name": "X-Blaster",
+      "Category": "BR",
+      "Damage": 3,
+      "Fire_Rate": 2,
+      "Recoil": 17,
+      "Reload_Speed": -4
     },
     {
+      "Price": "Limited",
+      "Name": "Paintball",
+      "Category": "Weird",
+      "Damage": -3,
+      "Movement_Speed": 2.5,
+      "Range": 13,
+      "Recoil": -28
+    },
+    {
+      "Price": "360 WC",
       "Name": "Light Gun",
       "Category": "Weird",
       "Damage": 30,
@@ -805,14 +917,16 @@
       "Reload_Speed": 10
     },
     {
+      "Price": "Limited",
       "Name": "Spray Can",
       "Category": "Weird",
+      "Damage": -2,
       "Fire_Rate": 25,
       "Movement_Speed": 2.5,
-      "Damage": -2,
       "Range": -11
     },
     {
+      "Price": "95 WC",
       "Name": "Oil",
       "Category": "Weird",
       "Damage": 20,
@@ -822,16 +936,18 @@
       "Spread": 40
     },
     {
+      "Price": "90 WC",
       "Name": "Honk",
       "Category": "Weird",
       "Damage": 300,
-      "Range": 15,
       "Detection_Radius": 200,
       "Fire_Rate": -93,
+      "Range": 15,
       "Recoil": 900,
       "Spread": 1200
     },
     {
+      "Price": "83 WC",
       "Name": "Words as Weapons",
       "Category": "Weird",
       "Damage": 5,
@@ -839,22 +955,25 @@
       "Recoil": 20
     },
     {
+      "Price": "75 WC",
       "Name": "Mustard",
       "Category": "Weird",
-      "Fire_Rate": 25,
       "Damage": -5,
+      "Fire_Rate": 25,
       "Spread": 40
     },
     {
+      "Price": "65 WC",
       "Name": "BarrelSight",
       "Category": "Weird",
-      "Range": 50,
       "Fire_Rate": -50,
       "Movement_Speed": -12,
       "Pellets": -100,
+      "Range": 50,
       "Recoil": 25
     },
     {
+      "Price": "60 WC",
       "Name": "Snake",
       "Category": "Weird",
       "Damage": 12.5,
@@ -864,6 +983,7 @@
       "Spread": 40
     },
     {
+      "Price": "55 WC",
       "Name": "Ketchup",
       "Category": "Weird",
       "Damage": 20,
@@ -871,14 +991,16 @@
       "Spread": 40
     },
     {
+      "Price": "53 WC",
       "Name": "Willy Fischy",
       "Category": "Weird",
-      "Fire_Rate": 30,
       "Damage": -15,
+      "Fire_Rate": 30,
       "Recoil": 100,
       "Spread": 200
     },
     {
+      "Price": "36 WC",
       "Name": "Shower",
       "Category": "Weird",
       "Fire_Rate": 20,
@@ -888,6 +1010,7 @@
       "Spread": 300
     },
     {
+      "Price": "Missions",
       "Name": "Quack",
       "Category": "Weird",
       "Fire_Rate": 8,
@@ -895,6 +1018,7 @@
       "Spread": 13
     },
     {
+      "Price": "50 WC",
       "Name": "Water Pipe",
       "Category": "Weird",
       "Damage": 15,
@@ -903,15 +1027,17 @@
       "Spread": 35
     },
     {
+      "Price": "35 WC",
       "Name": "Eclair",
       "Category": "Weird",
-      "Fire_Rate": 15,
       "Damage": -20,
       "Detection_Radius": 20,
+      "Fire_Rate": 15,
       "Recoil": 15,
       "Spread": 30
     },
     {
+      "Price": "Missions",
       "Name": "Dominus",
       "Category": "Weird",
       "Fire_Rate": 12,
@@ -921,6 +1047,7 @@
       "Spread": 9
     },
     {
+      "Price": "Missions",
       "Name": "Lipstick",
       "Category": "Weird",
       "Damage": 3,
@@ -930,26 +1057,29 @@
       "Reload_Speed": 4
     },
     {
+      "Price": "Limited",
       "Name": "Mega Soaker",
       "Category": "Weird",
+      "Damage": -4,
       "Detection_Radius": -50,
       "Fire_Rate": 14,
       "Movement_Speed": 2,
-      "Recoil": -19,
-      "Damage": -4,
-      "Range": -10
+      "Range": -10,
+      "Recoil": -19
     },
     {
+      "Price": "Missions",
       "Name": "Car Muffler",
       "Category": "Weird",
       "Damage": 10,
       "Detection_Radius": -50,
-      "Movement_Speed": 2,
       "Health": -15,
+      "Movement_Speed": 2,
       "Recoil": 22,
       "Reload_Speed": 10
     },
     {
+      "Price": "Free",
       "Name": "M1911",
       "Category": "Sidearm",
       "Damage": 18,
@@ -957,43 +1087,49 @@
       "Recoil": 25
     },
     {
+      "Price": "3750",
       "Name": "Makarov",
       "Category": "Sidearm",
-      "Movement_Speed": 5,
-      "Recoil": -6,
       "Damage": -3,
-      "Range": -3
+      "Movement_Speed": 5,
+      "Range": -3,
+      "Recoil": -6
     },
     {
+      "Price": "5625",
       "Name": "Kolibri",
       "Category": "Sidearm",
+      "Damage": -40,
       "Movement_Speed": 4,
-      "Recoil": -40,
-      "Damage": -40
+      "Recoil": -40
     },
     {
+      "Price": "7500",
       "Name": "Tec-9",
       "Category": "Sidearm",
-      "Fire_Rate": 9,
-      "Recoil": -16,
       "Detection_Radius": 5,
-      "Range": -8
+      "Fire_Rate": 9,
+      "Range": -8,
+      "Recoil": -16
     },
     {
+      "Price": "11250",
       "Name": "T10",
       "Category": "Sidearm",
       "Damage": 6,
       "Recoil": 5
     },
     {
+      "Price": "15750",
       "Name": "ZIPO-22",
       "Category": "Sidearm",
       "Damage": 12,
-      "Recoil": -16,
       "Range": -7.5,
+      "Recoil": -16,
       "Reload_Speed": 11
     },
     {
+      "Price": "18750",
       "Name": "B17",
       "Category": "Sidearm",
       "Fire_Rate": 20,
@@ -1001,46 +1137,52 @@
       "Recoil": 19
     },
     {
+      "Price": "22500",
       "Name": "EG200",
       "Category": "Sidearm",
       "Damage": 11,
-      "Pellets": 100,
       "Fire_Rate": -7,
+      "Pellets": 100,
       "Spread": 15
     },
     {
+      "Price": "26250",
       "Name": "Beretta",
       "Category": "Sidearm",
-      "Range": 2.5,
-      "Spread": -11,
       "Fire_Rate": -5,
-      "Recoil": 6
+      "Range": 2.5,
+      "Recoil": 6,
+      "Spread": -11
     },
     {
+      "Price": "30000",
       "Name": "Type 14",
       "Category": "Sidearm",
       "Damage": 13,
-      "Movement_Speed": 9,
       "Fire_Rate": -10,
-      "Health": -12
+      "Health": -12,
+      "Movement_Speed": 9
     },
     {
+      "Price": "33750",
       "Name": "Luger",
       "Category": "Sidearm",
       "Fire_Rate": 6,
-      "Recoil": -8,
-      "Range": -4
+      "Range": -4,
+      "Recoil": -8
     },
     {
+      "Price": "37500",
       "Name": "Deagle",
       "Category": "Sidearm",
       "Damage": 22,
-      "Range": 4,
       "Fire_Rate": -10,
       "Movement_Speed": -4,
+      "Range": 4,
       "Recoil": 55
     },
     {
+      "Price": "50000",
       "Name": "P08 Artillery",
       "Category": "Sidearm",
       "Fire_Rate": 4,
@@ -1049,14 +1191,16 @@
       "Spread": 15
     },
     {
+      "Price": "75000",
       "Name": "Obreez",
       "Category": "Sidearm",
-      "Range": 9,
-      "Spread": -7,
       "Fire_Rate": -20,
-      "Recoil": 23
+      "Range": 9,
+      "Recoil": 23,
+      "Spread": -7
     },
     {
+      "Price": "Robux",
       "Name": "Cyber 3517",
       "Category": "Sidearm",
       "Damage": 30,
@@ -1065,6 +1209,7 @@
       "Recoil": 60
     },
     {
+      "Price": "Limited",
       "Name": "Raygun",
       "Category": "Sidearm",
       "Fire_Rate": 3,
@@ -1072,16 +1217,26 @@
       "Spread": 12
     },
     {
+      "Price": "Limited",
       "Name": "Lobotomizer .44",
       "Category": "Sidearm",
       "Damage": 5,
-      "Range": 7,
       "Fire_Rate": -8,
+      "Range": 7,
       "Recoil": 34
+    },
+    {
+      "Price": "Limited",
+      "Name": "Quad-Jolly",
+      "Category": "Sidearm",
+      "Damage": 15,
+      "Pellets": 45,
+      "Range": -8
     }
   ],
   "Magazines": [
     {
+      "Price": "Free",
       "Name": "AKM",
       "Category": "AR",
       "Magazine_Size": 30,
@@ -1090,6 +1245,7 @@
       "Detection_Radius": 5
     },
     {
+      "Price": "Free",
       "Name": "M-16",
       "Category": "AR",
       "Magazine_Size": 30,
@@ -1097,6 +1253,7 @@
       "Recoil": -5
     },
     {
+      "Price": "375",
       "Name": "C36C",
       "Category": "AR",
       "Magazine_Size": 30,
@@ -1105,26 +1262,29 @@
       "Spread": 3
     },
     {
+      "Price": "600",
       "Name": "AUG",
       "Category": "AR",
       "Magazine_Size": 42,
       "Reload_Time": 3.5,
       "Movement_Speed": 2.5,
-      "Spread": -10,
-      "Range": -10
+      "Range": -10,
+      "Spread": -10
     },
     {
+      "Price": "1125",
       "Name": "As-Val",
       "Category": "AR",
       "Magazine_Size": 20,
       "Reload_Time": 1.5,
+      "Damage": -5,
       "Detection_Radius": -25,
       "Fire_Rate": 7,
-      "Recoil": -21,
-      "Damage": -5,
-      "Range": -2
+      "Range": -2,
+      "Recoil": -21
     },
     {
+      "Price": "1875",
       "Name": "Famas F1",
       "Category": "AR",
       "Magazine_Size": 25,
@@ -1134,15 +1294,17 @@
       "Recoil": 10
     },
     {
+      "Price": "2625",
       "Name": "STG-44",
       "Category": "AR",
       "Magazine_Size": 30,
       "Reload_Time": 2.9,
       "Damage": 10,
-      "Spread": -13,
-      "Fire_Rate": -8
+      "Fire_Rate": -8,
+      "Spread": -13
     },
     {
+      "Price": "3750",
       "Name": "Scar L",
       "Category": "AR",
       "Magazine_Size": 40,
@@ -1151,6 +1313,7 @@
       "Spread": 15
     },
     {
+      "Price": "5325",
       "Name": "L8",
       "Category": "AR",
       "Magazine_Size": 30,
@@ -1160,6 +1323,7 @@
       "Recoil": 32
     },
     {
+      "Price": "5625",
       "Name": "QBZ-95",
       "Category": "AR",
       "Magazine_Size": 30,
@@ -1169,35 +1333,38 @@
       "Recoil": 18
     },
     {
+      "Price": "7500",
       "Name": "The Chief",
       "Category": "AR",
       "Magazine_Size": 36,
       "Reload_Time": 4.2,
       "Damage": 13,
-      "Range": 12,
       "Fire_Rate": -10,
+      "Range": 12,
       "Recoil": 25,
       "Reload_Speed": 25
     },
     {
-      "Name": "Drum Mag",
+      "Price": "8000",
+      "Name": "Scar Drum",
       "Category": "AR",
       "Magazine_Size": 50,
       "Reload_Time": 4,
-      "Fire_Rate": 4,
-      "Recoil": -10,
-      "Range": -5
+      "Range": -5,
+      "Recoil": -10
     },
     {
+      "Price": "11250",
       "Name": "AK-12",
       "Category": "AR",
       "Magazine_Size": 30,
       "Reload_Time": 2.2,
       "Range": 7.5,
-      "Spread": -13,
-      "Recoil": 14
+      "Recoil": 14,
+      "Spread": -13
     },
     {
+      "Price": "12375",
       "Name": "Broza",
       "Category": "AR",
       "Magazine_Size": 20,
@@ -1206,6 +1373,7 @@
       "Range": -2
     },
     {
+      "Price": "15000",
       "Name": "Hell-Trooper-23",
       "Category": "AR",
       "Magazine_Size": 45,
@@ -1215,6 +1383,7 @@
       "Spread": 22
     },
     {
+      "Price": "22500",
       "Name": "APS",
       "Category": "AR",
       "Magazine_Size": 26,
@@ -1226,6 +1395,7 @@
       "Spread": 20
     },
     {
+      "Price": "26250",
       "Name": "FC200SH",
       "Category": "AR",
       "Magazine_Size": 30,
@@ -1236,6 +1406,7 @@
       "Spread": 18
     },
     {
+      "Price": "338 WC",
       "Name": "AR-8X",
       "Category": "AR",
       "Magazine_Size": 30,
@@ -1245,6 +1416,7 @@
       "Recoil": 16
     },
     {
+      "Price": "375 WC",
       "Name": "Hex Spitter",
       "Category": "AR",
       "Magazine_Size": 35,
@@ -1256,16 +1428,18 @@
       "Spread": 6
     },
     {
+      "Price": "Spin",
       "Name": "G11",
       "Category": "AR",
       "Magazine_Size": 45,
       "Reload_Time": 4.5,
       "Fire_Rate": 9,
-      "Spread": -13,
       "Movement_Speed": -3,
-      "Recoil": 21
+      "Recoil": 21,
+      "Spread": -13
     },
     {
+      "Price": "Follow",
       "Name": "Rat - Emoji",
       "Category": "AR",
       "Magazine_Size": 42,
@@ -1276,58 +1450,75 @@
       "Spread": 5
     },
     {
+      "Price": "Limited",
+      "Name": "PineFire",
+      "Category": "AR",
+      "Magazine_Size": 25,
+      "Reload_Time": 2.6,
+      "Damage": 7.5,
+      "Range": -11,
+      "Recoil": -12
+    },
+    {
+      "Price": "375",
       "Name": "M40",
       "Category": "Sniper",
       "Magazine_Size": 10,
       "Reload_Time": 4.5,
       "Damage": 16,
       "Range": 20,
-      "Spread": -11,
-      "Recoil": 25
+      "Recoil": 25,
+      "Spread": -11
     },
     {
+      "Price": "750",
       "Name": "M1891",
       "Category": "Sniper",
       "Magazine_Size": 6,
       "Reload_Time": 3.5,
+      "Damage": 5,
       "Fire_Rate": 5,
       "Range": 20,
-      "Spread": -15,
-      "Recoil": 25
+      "Recoil": 25,
+      "Spread": -15
     },
     {
+      "Price": "1875",
       "Name": "AWM",
       "Category": "Sniper",
       "Magazine_Size": 5,
       "Reload_Time": 5,
       "Damage": 22,
-      "Range": 15,
-      "Spread": -25,
       "Fire_Rate": -13,
-      "Recoil": 40
+      "Range": 15,
+      "Recoil": 40,
+      "Spread": -25
     },
     {
+      "Price": "3750",
       "Name": "Lee Enfield",
       "Category": "Sniper",
       "Magazine_Size": 10,
       "Reload_Time": 4,
-      "Damage": 4,
+      "Damage": -10,
       "Fire_Rate": 20,
       "Range": 16,
-      "Recoil": -35,
-      "Spread": 40
+      "Recoil": 25,
+      "Spread": 50
     },
     {
+      "Price": "7500",
       "Name": "Arisaka",
       "Category": "Sniper",
       "Magazine_Size": 5,
       "Reload_Time": 4,
-      "Movement_Speed": 8,
-      "Spread": -18,
       "Health": -2,
-      "Recoil": 16
+      "Movement_Speed": 8,
+      "Recoil": 16,
+      "Spread": -18
     },
     {
+      "Price": "11250",
       "Name": "VSSR",
       "Category": "Sniper",
       "Magazine_Size": 5,
@@ -1340,17 +1531,19 @@
       "Recoil": 86
     },
     {
+      "Price": "15000",
       "Name": "M2000",
       "Category": "Sniper",
       "Magazine_Size": 5,
       "Reload_Time": 6,
       "Damage": 25,
-      "Range": 10,
-      "Spread": -20,
       "Fire_Rate": -20,
-      "Recoil": 60
+      "Range": 10,
+      "Recoil": 60,
+      "Spread": -20
     },
     {
+      "Price": "18750",
       "Name": "Mosin",
       "Category": "Sniper",
       "Magazine_Size": 5,
@@ -1361,6 +1554,7 @@
       "Range": -3
     },
     {
+      "Price": "26250",
       "Name": "Hecate II",
       "Category": "Sniper",
       "Magazine_Size": 5,
@@ -1375,18 +1569,20 @@
       "Spread": 100
     },
     {
+      "Price": "75000",
       "Name": "Lightning Shot",
       "Category": "Sniper",
       "Magazine_Size": 7,
       "Reload_Time": 9,
       "Damage": 50,
-      "Spread": -35,
       "Detection_Radius": 50,
       "Fire_Rate": -45,
       "Movement_Speed": -12,
-      "Recoil": 125
+      "Recoil": 125,
+      "Spread": -35
     },
     {
+      "Price": "394 WC",
       "Name": "Musket",
       "Category": "Sniper",
       "Magazine_Size": 1,
@@ -1398,18 +1594,20 @@
       "Spread": 185
     },
     {
+      "Price": "Robux",
       "Name": "Snake Sniper",
       "Category": "Sniper",
       "Magazine_Size": 6,
       "Reload_Time": 5.5,
       "Damage": 25,
-      "Spread": -12,
       "Fire_Rate": -10,
       "Movement_Speed": -4,
       "Range": -5,
-      "Recoil": 36
+      "Recoil": 36,
+      "Spread": -12
     },
     {
+      "Price": "750",
       "Name": "MAC-10",
       "Category": "SMG",
       "Magazine_Size": 30,
@@ -1420,16 +1618,18 @@
       "Recoil": 35
     },
     {
+      "Price": "1875",
       "Name": "Type 2a Nambu",
       "Category": "SMG",
       "Magazine_Size": 30,
       "Reload_Time": 2.5,
       "Fire_Rate": 14,
       "Movement_Speed": 3,
-      "Recoil": -24,
-      "Range": -10
+      "Range": -10,
+      "Recoil": -24
     },
     {
+      "Price": "3750",
       "Name": "Tommy",
       "Category": "SMG",
       "Magazine_Size": 20,
@@ -1439,6 +1639,7 @@
       "Spread": 20
     },
     {
+      "Price": "5625",
       "Name": "NP9",
       "Category": "SMG",
       "Magazine_Size": 30,
@@ -1448,16 +1649,18 @@
       "Spread": 7
     },
     {
+      "Price": "7125",
       "Name": "MP 40",
       "Category": "SMG",
       "Magazine_Size": 32,
       "Reload_Time": 2.5,
       "Damage": 15,
-      "Spread": -10,
       "Fire_Rate": -5,
-      "Recoil": 15
+      "Recoil": 15,
+      "Spread": -10
     },
     {
+      "Price": "7500",
       "Name": "Sten gun",
       "Category": "SMG",
       "Magazine_Size": 32,
@@ -1468,17 +1671,19 @@
       "Spread": 12
     },
     {
+      "Price": "9000",
       "Name": "UNP-40",
       "Category": "SMG",
       "Magazine_Size": 30,
       "Reload_Time": 2,
       "Damage": 14,
+      "Fire_Rate": -15,
       "Movement_Speed": 1.5,
       "Range": 6,
-      "Spread": -10,
-      "Fire_Rate": -15
+      "Spread": -10
     },
     {
+      "Price": "11250",
       "Name": "Skorpion vz. 61",
       "Category": "SMG",
       "Magazine_Size": 20,
@@ -1489,17 +1694,19 @@
       "Spread": 7
     },
     {
+      "Price": "11250",
       "Name": "NP5",
       "Category": "SMG",
       "Magazine_Size": 30,
       "Reload_Time": 2,
       "Fire_Rate": 15,
       "Movement_Speed": 3.3,
+      "Range": -11,
       "Recoil": -10,
-      "Spread": -5,
-      "Range": -11
+      "Spread": -5
     },
     {
+      "Price": "15000",
       "Name": "Mas-38",
       "Category": "SMG",
       "Magazine_Size": 32,
@@ -1507,10 +1714,11 @@
       "Damage": 5,
       "Movement_Speed": 3.5,
       "Range": 4,
-      "Spread": -15,
-      "Recoil": 27
+      "Recoil": 27,
+      "Spread": -15
     },
     {
+      "Price": "18750",
       "Name": "PP-19 Bizon",
       "Category": "SMG",
       "Magazine_Size": 64,
@@ -1520,6 +1728,7 @@
       "Recoil": 12
     },
     {
+      "Price": "20250",
       "Name": "ZIPO-2222",
       "Category": "SMG",
       "Magazine_Size": 30,
@@ -1529,6 +1738,7 @@
       "Range": -11
     },
     {
+      "Price": "22500",
       "Name": "PPSh-41",
       "Category": "SMG",
       "Magazine_Size": 71,
@@ -1539,17 +1749,19 @@
       "Spread": 10
     },
     {
+      "Price": "26250",
       "Name": "Kriss Vector",
       "Category": "SMG",
       "Magazine_Size": 30,
       "Reload_Time": 2.4,
+      "Damage": -4,
       "Fire_Rate": 21,
       "Movement_Speed": 3.3,
-      "Recoil": -15,
-      "Damage": -4,
-      "Range": -15
+      "Range": -10,
+      "Recoil": -15
     },
     {
+      "Price": "26250",
       "Name": "MP18",
       "Category": "SMG",
       "Magazine_Size": 32,
@@ -1560,18 +1772,20 @@
       "Recoil": 22
     },
     {
+      "Price": "30000",
       "Name": "P90",
       "Category": "SMG",
       "Magazine_Size": 50,
       "Reload_Time": 4,
-      "Fire_Rate": 20,
-      "Range": 5,
       "Damage": -2.5,
+      "Fire_Rate": 20,
       "Movement_Speed": -0.2,
+      "Range": 5,
       "Recoil": 10,
       "Spread": 40
     },
     {
+      "Price": "33750",
       "Name": "Uzi",
       "Category": "SMG",
       "Magazine_Size": 32,
@@ -1582,6 +1796,7 @@
       "Recoil": 28
     },
     {
+      "Price": "56250",
       "Name": "Maple Badger",
       "Category": "SMG",
       "Magazine_Size": 30,
@@ -1591,6 +1806,7 @@
       "Fire_Rate": -1.5
     },
     {
+      "Price": "230 WC",
       "Name": "M1 Carbine",
       "Category": "SMG",
       "Magazine_Size": 15,
@@ -1601,6 +1817,7 @@
       "Recoil": 32
     },
     {
+      "Price": "375",
       "Name": "M870",
       "Category": "Shotgun",
       "Magazine_Size": 8,
@@ -1611,6 +1828,7 @@
       "Recoil": 38
     },
     {
+      "Price": "563",
       "Name": "Circuit Judge",
       "Category": "Shotgun",
       "Magazine_Size": 5,
@@ -1621,6 +1839,7 @@
       "Recoil": 85
     },
     {
+      "Price": "2000",
       "Name": "M870 MCS",
       "Category": "Shotgun",
       "Magazine_Size": 6,
@@ -1631,6 +1850,7 @@
       "Recoil": 35
     },
     {
+      "Price": "3750",
       "Name": "M1897 Trench Shotgun",
       "Category": "Shotgun",
       "Magazine_Size": 6,
@@ -1642,6 +1862,7 @@
       "Spread": 22
     },
     {
+      "Price": "5000",
       "Name": "M870 Breacher",
       "Category": "Shotgun",
       "Magazine_Size": 8,
@@ -1654,31 +1875,34 @@
       "Spread": 5
     },
     {
+      "Price": "7500",
       "Name": "M1887",
       "Category": "Shotgun",
       "Magazine_Size": 6,
       "Reload_Time": 4,
       "Fire_Rate": 9,
       "Health": 5,
-      "Pellets": 57,
       "Movement_Speed": -5.5,
+      "Pellets": 57,
       "Range": -10,
       "Recoil": 15,
       "Spread": 7
     },
     {
+      "Price": "11250",
       "Name": "Auto-5",
       "Category": "Shotgun",
       "Magazine_Size": 4,
       "Reload_Time": 3,
       "Damage": 20,
       "Fire_Rate": 20,
-      "Pellets": 60,
       "Movement_Speed": -4,
+      "Pellets": 60,
       "Recoil": 50,
       "Spread": 16
     },
     {
+      "Price": "18750",
       "Name": "JSG12",
       "Category": "Shotgun",
       "Magazine_Size": 15,
@@ -1690,142 +1914,154 @@
       "Spread": 15
     },
     {
+      "Price": "22500",
       "Name": "Spas-12",
       "Category": "Shotgun",
       "Magazine_Size": 12,
       "Reload_Time": 7,
       "Damage": 6.5,
       "Fire_Rate": 30,
-      "Pellets": 175,
       "Movement_Speed": -3,
+      "Pellets": 175,
       "Range": -8.5,
       "Recoil": 60,
       "Spread": 19
     },
     {
+      "Price": "37500",
       "Name": "Double Barrel",
       "Category": "Shotgun",
       "Magazine_Size": 2,
       "Reload_Time": 3.5,
       "Damage": 35,
-      "Pellets": 80,
       "Fire_Rate": -13,
+      "Pellets": 80,
       "Range": -7,
       "Recoil": 100
     },
     {
+      "Price": "58250",
       "Name": "Siberia-12",
       "Category": "Shotgun",
       "Magazine_Size": 8,
       "Reload_Time": 2.5,
+      "Damage": -5.5,
       "Fire_Rate": 35,
       "Pellets": 40,
-      "Damage": -5.5,
       "Range": -4.5
     },
     {
+      "Price": "75000",
       "Name": "Siberia-12 Drum",
       "Category": "Shotgun",
-      "Magazine_Size": 20,
-      "Reload_Time": 5.5,
-      "Damage": 12,
-      "Fire_Rate": 2,
-      "Pellets": 55,
-      "Recoil": -17,
+      "Magazine_Size": 25,
+      "Reload_Time": 5,
+      "Damage": 7,
+      "Fire_Rate": 7,
       "Movement_Speed": -2,
-      "Range": -5.5
+      "Pellets": 35,
+      "Range": -6.5
     },
     {
+      "Price": "413 WC",
       "Name": "Blunderbuss",
       "Category": "Shotgun",
       "Magazine_Size": 1,
       "Reload_Time": 6.5,
       "Damage": 30,
-      "Pellets": 200,
       "Fire_Rate": -5,
+      "Pellets": 200,
       "Range": -23,
       "Spread": 45
     },
     {
+      "Price": "Limited",
       "Name": "MarrowMaker",
       "Category": "Shotgun",
       "Magazine_Size": 9,
       "Reload_Time": 4.1,
       "Damage": 25,
-      "Pellets": 65,
       "Fire_Rate": -12,
+      "Pellets": 65,
       "Range": -4.5
     },
     {
+      "Price": "Robux",
       "Name": "AUTO-12",
       "Category": "Shotgun",
       "Magazine_Size": 20,
       "Reload_Time": 5.5,
       "Damage": 12,
       "Fire_Rate": 2,
-      "Pellets": 55,
-      "Recoil": -17,
       "Movement_Speed": -2,
-      "Range": -5.5
+      "Pellets": 55,
+      "Range": -5.5,
+      "Recoil": -17
     },
     {
+      "Price": "375",
       "Name": "M60",
       "Category": "LMG",
       "Magazine_Size": 75,
       "Reload_Time": 6.5,
       "Movement_Speed": 1,
-      "Spread": -10,
       "Range": -9,
-      "Recoil": 22
+      "Recoil": 22,
+      "Spread": 8
     },
     {
+      "Price": "1875",
       "Name": "Type 99",
       "Category": "LMG",
       "Magazine_Size": 30,
       "Reload_Time": 3,
       "Damage": 7.5,
-      "Range": 8,
-      "Spread": -17,
       "Movement_Speed": -1,
-      "Recoil": 1.2
+      "Range": 8,
+      "Recoil": 1.2,
+      "Spread": -17
     },
     {
+      "Price": "3750",
       "Name": "DP-27",
       "Category": "LMG",
       "Magazine_Size": 47,
       "Reload_Time": 4.8,
       "Damage": 7,
       "Fire_Rate": 4,
-      "Range": 5,
       "Movement_Speed": -2,
-      "Recoil": 27
+      "Range": 5,
+      "Recoil": 12
     },
     {
+      "Price": "5625",
       "Name": "BAR",
       "Category": "LMG",
       "Magazine_Size": 20,
       "Reload_Time": 4,
       "Damage": 25,
-      "Range": 25,
       "Detection_Radius": 20,
       "Fire_Rate": -10,
       "Movement_Speed": -0.5,
+      "Range": 25,
       "Recoil": 10,
       "Spread": 10
     },
     {
+      "Price": "7500",
       "Name": "M1919 .30 Cal",
       "Category": "LMG",
       "Magazine_Size": 100,
       "Reload_Time": 9.5,
       "Damage": 20,
-      "Range": 12,
       "Detection_Radius": 20,
       "Fire_Rate": -10,
       "Movement_Speed": -12,
+      "Range": 12,
       "Spread": 27
     },
     {
+      "Price": "11250",
       "Name": "Negev",
       "Category": "LMG",
       "Magazine_Size": 200,
@@ -1836,6 +2072,7 @@
       "Range": -11
     },
     {
+      "Price": "18750",
       "Name": "MG42",
       "Category": "LMG",
       "Magazine_Size": 50,
@@ -1847,28 +2084,31 @@
       "Spread": 23
     },
     {
+      "Price": "22500",
       "Name": "Chauchat",
       "Category": "LMG",
       "Magazine_Size": 18,
       "Reload_Time": 2.1,
       "Damage": 25,
-      "Range": 20,
       "Detection_Radius": 10,
       "Fire_Rate": -15,
       "Movement_Speed": -5,
+      "Range": 20,
       "Recoil": 35,
       "Spread": 25
     },
     {
+      "Price": "27000",
       "Name": "Burton",
       "Category": "LMG",
       "Magazine_Size": 40,
       "Reload_Time": 3.5,
-      "Fire_Rate": 18,
       "Damage": -3,
+      "Fire_Rate": 18,
       "Spread": 18
     },
     {
+      "Price": "37500",
       "Name": "Lewis",
       "Category": "LMG",
       "Magazine_Size": 47,
@@ -1879,37 +2119,41 @@
       "Recoil": 18
     },
     {
+      "Price": "Robux",
       "Name": "M249 SAW",
       "Category": "LMG",
       "Magazine_Size": 100,
       "Reload_Time": 9,
-      "Fire_Rate": 5,
       "Equip_Time": 40,
+      "Fire_Rate": 5,
       "Movement_Speed": -9,
       "Recoil": 22,
       "Spread": 18
     },
     {
+      "Price": "375",
       "Name": "M1 Garand",
       "Category": "BR",
       "Magazine_Size": 8,
       "Reload_Time": 3.8,
       "Damage": 22,
+      "Fire_Rate": -8,
       "Range": 8,
-      "Spread": -10,
-      "Fire_Rate": -8
+      "Spread": -10
     },
     {
+      "Price": "1700",
       "Name": "Scar H",
       "Category": "BR",
       "Magazine_Size": 20,
       "Reload_Time": 4.5,
       "Damage": 20,
-      "Range": 11,
       "Detection_Radius": 10,
+      "Range": 11,
       "Recoil": 25
     },
     {
+      "Price": "1875",
       "Name": "SKS",
       "Category": "BR",
       "Magazine_Size": 20,
@@ -1920,16 +2164,18 @@
       "Spread": 17
     },
     {
+      "Price": "3750",
       "Name": "Fedorov",
       "Category": "BR",
       "Magazine_Size": 25,
       "Reload_Time": 4,
       "Damage": 15,
-      "Range": 9,
       "Detection_Radius": 16,
+      "Range": 9,
       "Recoil": 23
     },
     {
+      "Price": "7500",
       "Name": "FAL",
       "Category": "BR",
       "Magazine_Size": 20,
@@ -1940,6 +2186,7 @@
       "Recoil": 12
     },
     {
+      "Price": "11250",
       "Name": "Winchester",
       "Category": "BR",
       "Magazine_Size": 7,
@@ -1951,59 +2198,75 @@
       "Spread": 30
     },
     {
+      "Price": "15000",
       "Name": "Dragunov",
       "Category": "BR",
       "Magazine_Size": 10,
       "Reload_Time": 3.4,
       "Damage": 25,
-      "Range": 13,
-      "Recoil": -11,
       "Detection_Radius": 20,
       "Fire_Rate": -19,
-      "Movement_Speed": -4
+      "Movement_Speed": -4,
+      "Range": 13,
+      "Recoil": -11
     },
     {
+      "Price": "33750",
       "Name": "G3",
       "Category": "BR",
       "Magazine_Size": 20,
       "Reload_Time": 3,
       "Damage": 15,
-      "Fire_Rate": 3,
       "Detection_Radius": 10,
+      "Fire_Rate": 3,
       "Movement_Speed": -2,
       "Recoil": 21
     },
     {
+      "Price": "37500",
       "Name": "M110",
       "Category": "BR",
       "Magazine_Size": 10,
       "Reload_Time": 3.8,
       "Damage": 19,
-      "Range": 16,
       "Fire_Rate": -5,
+      "Range": 16,
       "Recoil": 12
     },
     {
+      "Price": "375 WC",
       "Name": "FG-42",
       "Category": "BR",
       "Magazine_Size": 20,
       "Reload_Time": 3.5,
       "Damage": 4,
       "Fire_Rate": 12,
-      "Spread": -11,
       "Movement_Speed": -2,
-      "Recoil": 17
+      "Recoil": 17,
+      "Spread": -11
     },
     {
+      "Price": "Limited",
+      "Name": "X-Blaster",
+      "Category": "BR",
+      "Magazine_Size": 2,
+      "Reload_Time": 3,
+      "Damage": 22,
+      "Range": -13,
+      "Spread": 18
+    },
+    {
+      "Price": "Limited",
       "Name": "Paintball",
       "Category": "Weird",
       "Magazine_Size": 70,
       "Reload_Time": 6.2,
-      "Fire_Rate": 18,
       "Damage": -2,
+      "Fire_Rate": 18,
       "Spread": 18
     },
     {
+      "Price": "175 WC",
       "Name": "XXL AKM",
       "Category": "Weird",
       "Magazine_Size": 90,
@@ -2014,25 +2277,28 @@
       "Recoil": 20
     },
     {
+      "Price": "130 WC",
       "Name": "Graphics Card",
       "Category": "Weird",
       "Magazine_Size": 50,
       "Reload_Time": 6,
       "Fire_Rate": 14,
-      "Recoil": -23,
-      "Range": -8
+      "Range": -8,
+      "Recoil": -23
     },
     {
+      "Price": "110 WC",
       "Name": "Rice Pot",
       "Category": "Weird",
       "Magazine_Size": 120,
       "Reload_Time": 10,
       "Fire_Rate": 10,
-      "Recoil": -10,
       "Movement_Speed": -15,
-      "Range": -22
+      "Range": -22,
+      "Recoil": -10
     },
     {
+      "Price": "83 WC",
       "Name": "Words as Weapons",
       "Category": "Weird",
       "Magazine_Size": 30,
@@ -2041,6 +2307,7 @@
       "Detection_Radius": 5
     },
     {
+      "Price": "60 WC",
       "Name": "Pastel",
       "Category": "Weird",
       "Magazine_Size": 20,
@@ -2051,6 +2318,7 @@
       "Recoil": 15
     },
     {
+      "Price": "35 WC",
       "Name": "Screwdriver",
       "Category": "Weird",
       "Magazine_Size": 1,
@@ -2061,15 +2329,17 @@
       "Spread": 75
     },
     {
+      "Price": "35 WC",
       "Name": "Horizontal",
       "Category": "Weird",
       "Magazine_Size": 20,
       "Reload_Time": 1.9,
+      "Damage": -5,
       "Fire_Rate": 10,
-      "Recoil": -15,
-      "Damage": -5
+      "Recoil": -15
     },
     {
+      "Price": "35 WC",
       "Name": "Improvised",
       "Category": "Weird",
       "Magazine_Size": 10,
@@ -2080,6 +2350,7 @@
       "Spread": 30
     },
     {
+      "Price": "35 WC",
       "Name": "Restroom",
       "Category": "Weird",
       "Magazine_Size": 35,
@@ -2089,17 +2360,19 @@
       "Spread": 30
     },
     {
+      "Price": "Limited",
       "Name": "Mega Soaker",
       "Category": "Weird",
       "Magazine_Size": 60,
       "Reload_Time": 5.4,
+      "Damage": -5,
       "Fire_Rate": 20,
       "Movement_Speed": 3,
-      "Recoil": -16,
-      "Damage": -5,
-      "Range": -9
+      "Range": -9,
+      "Recoil": -16
     },
     {
+      "Price": "Free",
       "Name": "M1911",
       "Category": "Sidearm",
       "Magazine_Size": 7,
@@ -2110,6 +2383,7 @@
       "Recoil": 23
     },
     {
+      "Price": "3750",
       "Name": "Makarov",
       "Category": "Sidearm",
       "Magazine_Size": 8,
@@ -2119,17 +2393,19 @@
       "Recoil": 19
     },
     {
+      "Price": "5625",
       "Name": "Kolibri",
       "Category": "Sidearm",
       "Magazine_Size": 5,
       "Reload_Time": 0.5,
-      "Movement_Speed": 4,
-      "Recoil": -40,
-      "Spread": -30,
       "Damage": -15,
-      "Range": -15
+      "Movement_Speed": 4,
+      "Range": -15,
+      "Recoil": -40,
+      "Spread": -30
     },
     {
+      "Price": "7500",
       "Name": "Tec-9",
       "Category": "Sidearm",
       "Magazine_Size": 20,
@@ -2139,15 +2415,17 @@
       "Recoil": 11
     },
     {
+      "Price": "11250",
       "Name": "T10",
       "Category": "Sidearm",
       "Magazine_Size": 15,
       "Reload_Time": 1.4,
       "Range": 4,
-      "Spread": -8,
-      "Recoil": 18
+      "Recoil": 18,
+      "Spread": -8
     },
     {
+      "Price": "15750",
       "Name": "ZIPO-22",
       "Category": "Sidearm",
       "Magazine_Size": 10,
@@ -2157,6 +2435,7 @@
       "Range": -19
     },
     {
+      "Price": "18750",
       "Name": "B17",
       "Category": "Sidearm",
       "Magazine_Size": 17,
@@ -2166,48 +2445,53 @@
       "Spread": 11
     },
     {
+      "Price": "22500",
       "Name": "EG200",
       "Category": "Sidearm",
       "Magazine_Size": 6,
       "Reload_Time": 2.5,
       "Damage": 20,
-      "Pellets": 75,
       "Fire_Rate": -11,
       "Movement_Speed": -2,
+      "Pellets": 75,
       "Recoil": 30
     },
     {
+      "Price": "26250",
       "Name": "Beretta",
       "Category": "Sidearm",
       "Magazine_Size": 15,
       "Reload_Time": 1.8,
       "Damage": 3,
-      "Range": 2,
       "Fire_Rate": -7,
+      "Range": 2,
       "Spread": 11
     },
     {
+      "Price": "30000",
       "Name": "Type 14",
       "Category": "Sidearm",
       "Magazine_Size": 8,
       "Reload_Time": 1.3,
       "Damage": 13,
       "Fire_Rate": 14,
-      "Movement_Speed": 5,
       "Health": -13,
+      "Movement_Speed": 5,
       "Recoil": 14
     },
     {
+      "Price": "33750",
       "Name": "Luger",
       "Category": "Sidearm",
       "Magazine_Size": 8,
       "Reload_Time": 1.7,
       "Fire_Rate": 20,
-      "Recoil": -16,
       "Range": -5,
+      "Recoil": -16,
       "Spread": 22
     },
     {
+      "Price": "37500",
       "Name": "Deagle",
       "Category": "Sidearm",
       "Magazine_Size": 7,
@@ -2219,6 +2503,7 @@
       "Recoil": 62
     },
     {
+      "Price": "50000",
       "Name": "P08 Artillery",
       "Category": "Sidearm",
       "Magazine_Size": 32,
@@ -2229,28 +2514,31 @@
       "Recoil": 12
     },
     {
+      "Price": "75000",
       "Name": "Obreez",
       "Category": "Sidearm",
       "Magazine_Size": 5,
       "Reload_Time": 1.5,
       "Damage": 5,
-      "Range": 7,
       "Fire_Rate": -10,
       "Movement_Speed": -2,
+      "Range": 7,
       "Recoil": 27
     },
     {
+      "Price": "Robux",
       "Name": "Cyber 3517",
       "Category": "Sidearm",
       "Magazine_Size": 10,
       "Reload_Time": 4.5,
       "Damage": 30,
-      "Range": 2,
       "Fire_Rate": -20,
       "Movement_Speed": -4,
+      "Range": 2,
       "Recoil": 60
     },
     {
+      "Price": "Limited",
       "Name": "Raygun",
       "Category": "Sidearm",
       "Magazine_Size": 20,
@@ -2260,18 +2548,30 @@
       "Spread": 45
     },
     {
+      "Price": "Limited",
       "Name": "Lobotomizer .44",
       "Category": "Sidearm",
       "Magazine_Size": 6,
       "Reload_Time": 1.5,
       "Damage": 13,
-      "Range": 4,
       "Equip_Time": 25,
-      "Fire_Rate": -11
+      "Fire_Rate": -11,
+      "Range": 4
+    },
+    {
+      "Price": "Limited",
+      "Name": "Quad-Jolly",
+      "Category": "Sidearm",
+      "Magazine_Size": 4,
+      "Reload_Time": 1,
+      "Damage": 24,
+      "Fire_Rate": -6,
+      "Range": -4.5
     }
   ],
   "Grips": [
     {
+      "Price": "Free",
       "Name": "AKM",
       "Category": "AR",
       "Recoil": -10,
@@ -2279,17 +2579,20 @@
       "Spread": 14
     },
     {
+      "Price": "Free",
       "Name": "M-16",
       "Category": "AR",
       "Recoil": -20
     },
     {
+      "Price": "225",
       "Name": "C36C",
       "Category": "AR",
       "Recoil": -15,
       "Reload_Speed": -10
     },
     {
+      "Price": "360",
       "Name": "AUG",
       "Category": "AR",
       "Movement_Speed": 2.5,
@@ -2297,51 +2600,59 @@
       "Spread": -7
     },
     {
+      "Price": "675",
       "Name": "As-Val",
       "Category": "AR",
       "Recoil": -5,
       "Reload_Speed": -15
     },
     {
+      "Price": "1125",
       "Name": "Famas F1",
       "Category": "AR",
       "Recoil": -10,
       "Reload_Speed": -10
     },
     {
+      "Price": "1575",
       "Name": "STG-44",
       "Category": "AR",
+      "Recoil": 12,
       "Reload_Speed": -17,
-      "Spread": -7,
-      "Recoil": 12
+      "Spread": -7
     },
     {
+      "Price": "2250",
       "Name": "Scar L",
       "Category": "AR",
       "Recoil": -25,
       "Spread": 25
     },
     {
+      "Price": "3195",
       "Name": "L8",
       "Category": "AR",
       "Range": 3,
       "Recoil": -13
     },
     {
+      "Price": "3375",
       "Name": "QBZ-95",
       "Category": "AR",
-      "Spread": -11,
       "Movement_Speed": -1.8,
-      "Reload_Speed": 5
+      "Reload_Speed": 5,
+      "Spread": -11
     },
     {
+      "Price": "4500",
       "Name": "The Chief",
       "Category": "AR",
       "Damage": 3,
-      "Spread": -25,
-      "Recoil": 35
+      "Recoil": 35,
+      "Spread": -25
     },
     {
+      "Price": "6750",
       "Name": "AK-12",
       "Category": "AR",
       "Recoil": -15,
@@ -2349,12 +2660,14 @@
       "Spread": 18
     },
     {
+      "Price": "7425",
       "Name": "Broza",
       "Category": "AR",
       "Fire_Rate": 4,
       "Reload_Speed": 6
     },
     {
+      "Price": "9000",
       "Name": "Hell-Trooper-23",
       "Category": "AR",
       "Movement_Speed": 3,
@@ -2362,6 +2675,7 @@
       "Spread": -18
     },
     {
+      "Price": "13500",
       "Name": "APS",
       "Category": "AR",
       "Damage": 2,
@@ -2369,50 +2683,65 @@
       "Reload_Speed": 6
     },
     {
+      "Price": "15750",
       "Name": "FC200SH",
       "Category": "AR",
+      "Fire_Rate": -4,
       "Movement_Speed": 3,
-      "Recoil": -19,
-      "Fire_Rate": -4
+      "Recoil": -19
     },
     {
+      "Price": "203 WC",
       "Name": "AR-8X",
       "Category": "AR",
       "Movement_Speed": 1.5,
-      "Spread": -16,
-      "Recoil": 21
+      "Recoil": 21,
+      "Spread": -16
     },
     {
+      "Price": "225 WC",
       "Name": "Hex Spitter",
       "Category": "AR",
-      "Recoil": -25,
       "Movement_Speed": -5,
+      "Recoil": -25,
       "Spread": 5
     },
     {
+      "Price": "Spin",
       "Name": "G11",
       "Category": "AR",
-      "Recoil": -29,
       "Movement_Speed": -4,
+      "Recoil": -29,
       "Reload_Speed": 6
     },
     {
+      "Price": "Verify Discord",
       "Name": "10KG Dumbbell",
       "Category": "AR",
-      "Recoil": -35,
-      "Spread": -20,
       "Movement_Speed": -10,
       "Range": -15,
-      "Reload_Speed": 20
+      "Recoil": -35,
+      "Reload_Speed": 20,
+      "Spread": -20
     },
     {
+      "Price": "Follow",
       "Name": "Napo - Scissors",
       "Category": "AR",
       "Detection_Radius": -12,
-      "Spread": -15,
-      "Recoil": 12
+      "Recoil": 12,
+      "Spread": -15
     },
     {
+      "Price": "Limited",
+      "Name": "PineFire",
+      "Category": "AR",
+      "Movement_Speed": 5.5,
+      "Recoil": -9.5,
+      "Reload_Speed": 10
+    },
+    {
+      "Price": "225",
       "Name": "M40",
       "Category": "Sniper",
       "Recoil": -5,
@@ -2420,6 +2749,7 @@
       "Spread": -10
     },
     {
+      "Price": "450",
       "Name": "M1891",
       "Category": "Sniper",
       "Fire_Rate": 10,
@@ -2428,13 +2758,15 @@
       "Spread": 30
     },
     {
+      "Price": "1125",
       "Name": "AWM",
       "Category": "Sniper",
-      "Spread": -27,
       "Recoil": 8,
-      "Reload_Speed": 12
+      "Reload_Speed": 12,
+      "Spread": -27
     },
     {
+      "Price": "2250",
       "Name": "Lee Enfield",
       "Category": "Sniper",
       "Fire_Rate": 15,
@@ -2442,21 +2774,24 @@
       "Spread": 30
     },
     {
+      "Price": "4500",
       "Name": "Arisaka",
       "Category": "Sniper",
+      "Health": -6,
       "Movement_Speed": 8,
-      "Spread": -17,
-      "Health": -6
+      "Spread": -17
     },
     {
+      "Price": "6750",
       "Name": "VSSR",
       "Category": "Sniper",
+      "Movement_Speed": -2,
       "Range": 2,
       "Recoil": -30,
-      "Movement_Speed": -2,
       "Spread": 12
     },
     {
+      "Price": "9000",
       "Name": "M2000",
       "Category": "Sniper",
       "Recoil": -20,
@@ -2464,29 +2799,33 @@
       "Spread": 10
     },
     {
+      "Price": "11250",
       "Name": "Mosin",
       "Category": "Sniper",
+      "Fire_Rate": -5,
       "Movement_Speed": 3,
-      "Range": 3,
-      "Fire_Rate": -5
+      "Range": 3
     },
     {
+      "Price": "15750",
       "Name": "Hecate II",
       "Category": "Sniper",
-      "Recoil": -25,
-      "Spread": -10,
       "Movement_Speed": -4,
-      "Reload_Speed": 8
+      "Recoil": -25,
+      "Reload_Speed": 8,
+      "Spread": -10
     },
     {
+      "Price": "45000",
       "Name": "Lightning Shot",
       "Category": "Sniper",
-      "Spread": -35,
       "Fire_Rate": -6,
       "Movement_Speed": -4,
-      "Recoil": 38
+      "Recoil": 38,
+      "Spread": -35
     },
     {
+      "Price": "236 WC",
       "Name": "Musket",
       "Category": "Sniper",
       "Damage": 10,
@@ -2495,22 +2834,25 @@
       "Spread": 40
     },
     {
+      "Price": "Robux",
       "Name": "Snake Sniper",
       "Category": "Sniper",
-      "Range": 10,
-      "Spread": -24,
       "Movement_Speed": -1.5,
-      "Recoil": 22
+      "Range": 10,
+      "Recoil": 22,
+      "Spread": -24
     },
     {
+      "Price": "450",
       "Name": "MAC-10",
       "Category": "SMG",
       "Movement_Speed": 4.4,
-      "Reload_Speed": -25,
       "Recoil": 25,
+      "Reload_Speed": -25,
       "Spread": 10
     },
     {
+      "Price": "1250",
       "Name": "Type 2a Nambu",
       "Category": "SMG",
       "Damage": 6,
@@ -2518,6 +2860,7 @@
       "Recoil": 23
     },
     {
+      "Price": "2250",
       "Name": "Tommy",
       "Category": "SMG",
       "Movement_Speed": 3.8,
@@ -2525,13 +2868,15 @@
       "Reload_Speed": 10
     },
     {
+      "Price": "3375",
       "Name": "NP9",
       "Category": "SMG",
       "Movement_Speed": 4.5,
-      "Spread": -12,
-      "Recoil": 18
+      "Recoil": 18,
+      "Spread": -12
     },
     {
+      "Price": "4275",
       "Name": "MP 40",
       "Category": "SMG",
       "Damage": 5,
@@ -2539,29 +2884,33 @@
       "Spread": 30
     },
     {
+      "Price": "4500",
       "Name": "Sten gun",
       "Category": "SMG",
       "Movement_Speed": 2,
-      "Spread": -17,
-      "Recoil": 28
+      "Recoil": 28,
+      "Spread": -17
     },
     {
+      "Price": "5400",
       "Name": "UNP-40",
       "Category": "SMG",
       "Movement_Speed": 2.5,
+      "Recoil": 40,
       "Reload_Speed": -5,
-      "Spread": -20,
-      "Recoil": 40
+      "Spread": -20
     },
     {
+      "Price": "6750",
       "Name": "Skorpion vz. 61",
       "Category": "SMG",
       "Movement_Speed": 9,
-      "Reload_Speed": -10,
       "Recoil": 25,
+      "Reload_Speed": -10,
       "Spread": 30
     },
     {
+      "Price": "6750",
       "Name": "NP5",
       "Category": "SMG",
       "Movement_Speed": 3.3,
@@ -2570,14 +2919,16 @@
       "Spread": 17
     },
     {
+      "Price": "9000",
       "Name": "Mas-38",
       "Category": "SMG",
       "Fire_Rate": 6,
       "Movement_Speed": 2,
-      "Spread": -15,
-      "Range": -7
+      "Range": -7,
+      "Spread": -15
     },
     {
+      "Price": "11250",
       "Name": "PP-19 Bizon",
       "Category": "SMG",
       "Movement_Speed": 2.5,
@@ -2586,28 +2937,32 @@
       "Spread": 18
     },
     {
+      "Price": "12150",
       "Name": "ZIPO-2222",
       "Category": "SMG",
       "Movement_Speed": 4.5,
-      "Reload_Speed": -11,
-      "Range": -2.5
+      "Range": -2.5,
+      "Reload_Speed": -11
     },
     {
+      "Price": "13500",
       "Name": "PPSh-41",
       "Category": "SMG",
       "Fire_Rate": 10,
-      "Spread": -10,
-      "Reload_Speed": 15
+      "Reload_Speed": 15,
+      "Spread": -10
     },
     {
+      "Price": "15750",
       "Name": "MP18",
       "Category": "SMG",
-      "Range": 2,
-      "Spread": -12,
       "Movement_Speed": -2,
-      "Recoil": 18
+      "Range": 2,
+      "Recoil": 18,
+      "Spread": -12
     },
     {
+      "Price": "15750",
       "Name": "Kriss Vector",
       "Category": "SMG",
       "Fire_Rate": 4,
@@ -2616,6 +2971,7 @@
       "Spread": 8
     },
     {
+      "Price": "18000",
       "Name": "P90",
       "Category": "SMG",
       "Fire_Rate": 7,
@@ -2623,6 +2979,7 @@
       "Spread": 12
     },
     {
+      "Price": "20250",
       "Name": "Uzi",
       "Category": "SMG",
       "Fire_Rate": 2,
@@ -2630,6 +2987,7 @@
       "Recoil": 23
     },
     {
+      "Price": "33750",
       "Name": "Maple Badger",
       "Category": "SMG",
       "Detection_Radius": -7,
@@ -2637,26 +2995,30 @@
       "Reload_Speed": 3.5
     },
     {
+      "Price": "180 WC",
       "Name": "M1 Carbine",
       "Category": "SMG",
       "Movement_Speed": 5,
+      "Recoil": 29,
       "Reload_Speed": -12,
-      "Spread": -11,
-      "Recoil": 29
+      "Spread": -11
     },
     {
+      "Price": "225",
       "Name": "M870",
       "Category": "Shotgun",
       "Reload_Speed": -15,
       "Spread": 20
     },
     {
+      "Price": "338",
       "Name": "Circuit Judge",
       "Category": "Shotgun",
       "Damage": 10,
       "Spread": 35
     },
     {
+      "Price": "2250",
       "Name": "M1897 Trench Shotgun",
       "Category": "Shotgun",
       "Fire_Rate": 10,
@@ -2664,30 +3026,34 @@
       "Spread": 20
     },
     {
+      "Price": "4500",
       "Name": "M1887",
       "Category": "Shotgun",
       "Fire_Rate": 10,
       "Health": 5,
-      "Reload_Speed": -10,
       "Movement_Speed": -5.5,
+      "Reload_Speed": -10,
       "Spread": 15
     },
     {
+      "Price": "6750",
       "Name": "Auto-5",
       "Category": "Shotgun",
+      "Damage": -2.5,
       "Fire_Rate": 5,
       "Recoil": -10,
-      "Spread": -20,
-      "Damage": -2.5
+      "Spread": -20
     },
     {
+      "Price": "11250",
       "Name": "JSG12",
       "Category": "Shotgun",
       "Movement_Speed": 3,
-      "Spread": -18,
-      "Recoil": 38
+      "Recoil": 38,
+      "Spread": -18
     },
     {
+      "Price": "13500",
       "Name": "Spas-12",
       "Category": "Shotgun",
       "Damage": 2,
@@ -2696,6 +3062,7 @@
       "Spread": 22
     },
     {
+      "Price": "22500",
       "Name": "Double Barrel",
       "Category": "Shotgun",
       "Damage": 7.5,
@@ -2703,59 +3070,67 @@
       "Recoil": 80
     },
     {
+      "Price": "33750",
       "Name": "Siberia-12",
       "Category": "Shotgun",
       "Fire_Rate": 3.5,
-      "Spread": -11,
-      "Range": -2.5
+      "Range": -2.5,
+      "Spread": -11
     },
     {
+      "Price": "248 WC",
       "Name": "Blunderbuss",
       "Category": "Shotgun",
+      "Fire_Rate": -11,
       "Movement_Speed": 2,
       "Pellets": 25,
-      "Fire_Rate": -11,
       "Reload_Speed": 9
     },
     {
+      "Price": "Limited",
       "Name": "MarrowMaker",
       "Category": "Shotgun",
-      "Health": 2,
-      "Spread": -10,
       "Fire_Rate": -7.5,
-      "Range": -1
+      "Health": 2,
+      "Range": -1,
+      "Spread": -10
     },
     {
+      "Price": "Robux",
       "Name": "AUTO-12",
       "Category": "Shotgun",
       "Fire_Rate": 2,
-      "Recoil": -22,
       "Range": -3,
+      "Recoil": -22,
       "Reload_Speed": 8
     },
     {
+      "Price": "225",
       "Name": "M60",
       "Category": "LMG",
-      "Recoil": -15,
-      "Spread": -15,
       "Movement_Speed": -2.5,
-      "Reload_Speed": 5
+      "Recoil": -15,
+      "Reload_Speed": 5,
+      "Spread": -15
     },
     {
+      "Price": "1125",
       "Name": "Type 99",
       "Category": "LMG",
+      "Movement_Speed": -2.7,
       "Recoil": -13,
-      "Reload_Speed": -16,
-      "Movement_Speed": -2.7
+      "Reload_Speed": -16
     },
     {
+      "Price": "2250",
       "Name": "DP-27",
       "Category": "LMG",
+      "Fire_Rate": -6,
       "Recoil": -27,
-      "Reload_Speed": -13,
-      "Fire_Rate": -6
+      "Reload_Speed": -13
     },
     {
+      "Price": "3375",
       "Name": "BAR",
       "Category": "LMG",
       "Damage": 4,
@@ -2763,14 +3138,16 @@
       "Recoil": 12
     },
     {
+      "Price": "4500",
       "Name": "M1919 .30 Cal",
       "Category": "LMG",
-      "Reload_Speed": -19,
-      "Spread": -16,
       "Movement_Speed": -2.5,
-      "Recoil": 25
+      "Recoil": 25,
+      "Reload_Speed": -19,
+      "Spread": -16
     },
     {
+      "Price": "6750",
       "Name": "Negev",
       "Category": "LMG",
       "Fire_Rate": 8,
@@ -2779,14 +3156,16 @@
       "Spread": 5
     },
     {
+      "Price": "11250",
       "Name": "MG42",
       "Category": "LMG",
       "Fire_Rate": 4,
-      "Spread": -13,
       "Movement_Speed": -2.5,
-      "Reload_Speed": 3
+      "Recoil": 3,
+      "Spread": -13
     },
     {
+      "Price": "13500",
       "Name": "Chauchat",
       "Category": "LMG",
       "Damage": 5,
@@ -2795,14 +3174,16 @@
       "Spread": 15
     },
     {
+      "Price": "16200",
       "Name": "Burton",
       "Category": "LMG",
-      "Reload_Speed": -4,
-      "Spread": -15,
       "Movement_Speed": -3,
-      "Range": -2
+      "Range": -2,
+      "Reload_Speed": -4,
+      "Spread": -15
     },
     {
+      "Price": "22500",
       "Name": "Lewis",
       "Category": "LMG",
       "Fire_Rate": 15,
@@ -2811,19 +3192,22 @@
       "Spread": 14
     },
     {
+      "Price": "Robux",
       "Name": "M249 SAW",
       "Category": "LMG",
-      "Spread": -16,
       "Movement_Speed": -4,
-      "Recoil": 7
+      "Recoil": 7,
+      "Spread": -16
     },
     {
+      "Price": "225",
       "Name": "M1 Garand",
       "Category": "BR",
       "Fire_Rate": 8,
       "Movement_Speed": -3
     },
     {
+      "Price": "1125",
       "Name": "SKS",
       "Category": "BR",
       "Fire_Rate": 2,
@@ -2831,50 +3215,57 @@
       "Reload_Speed": 3
     },
     {
+      "Price": "2250",
       "Name": "Fedorov",
       "Category": "BR",
-      "Recoil": -27,
-      "Fire_Rate": -12
+      "Fire_Rate": -12,
+      "Recoil": -27
     },
     {
+      "Price": "4500",
       "Name": "FAL",
       "Category": "BR",
+      "Detection_Radius": 15,
       "Movement_Speed": 2,
       "Recoil": -18,
-      "Detection_Radius": 15,
       "Spread": 21
     },
     {
+      "Price": "6750",
       "Name": "Winchester",
       "Category": "BR",
       "Fire_Rate": 3,
       "Movement_Speed": 2,
       "Recoil": 19,
-      "Reload_Speed": 6
+      "Spread": 6
     },
     {
+      "Price": "9000",
       "Name": "Dragunov",
       "Category": "BR",
+      "Fire_Rate": -5,
       "Range": 5,
-      "Recoil": -16,
-      "Fire_Rate": -5
+      "Recoil": -16
     },
     {
+      "Price": "20250",
       "Name": "G3",
       "Category": "BR",
       "Fire_Rate": 2,
-      "Reload_Speed": -9,
       "Movement_Speed": -2,
-      "Recoil": 19
+      "Recoil": 19,
+      "Reload_Speed": -9
     },
     {
+      "Price": "22500",
       "Name": "M110",
       "Category": "BR",
-      "Spread": -23,
       "Fire_Rate": -2,
-      "Recoil": 26
+      "Recoil": 26,
+      "Spread": -23
     },
     {
+      "Price": "225 WC",
       "Name": "FG-42",
       "Category": "BR",
       "Fire_Rate": 4,
@@ -2882,6 +3273,16 @@
       "Reload_Speed": 3
     },
     {
+      "Price": "Limited",
+      "Name": "X-Blaster",
+      "Category": "BR",
+      "Health": 3,
+      "Movement_Speed": 3.5,
+      "Range": 4,
+      "Spread": 18
+    },
+    {
+      "Price": "Limited",
       "Name": "Paintball",
       "Category": "Weird",
       "Movement_Speed": 4,
@@ -2889,14 +3290,16 @@
       "Spread": 14
     },
     {
+      "Price": "175 WC",
       "Name": "Pistol Pistol",
       "Category": "Weird",
-      "Reload_Speed": -40,
       "Damage": -5,
       "Recoil": 10,
+      "Reload_Speed": -40,
       "Spread": 10
     },
     {
+      "Price": "50 WC",
       "Name": "Words as Weapons",
       "Category": "Weird",
       "Recoil": -10,
@@ -2904,29 +3307,33 @@
       "Spread": 14
     },
     {
+      "Price": "35 WC",
       "Name": "Croissant",
       "Category": "Weird",
       "Detection_Radius": -10,
+      "Fire_Rate": -5,
       "Movement_Speed": 5,
-      "Recoil": -20,
-      "Fire_Rate": -5
+      "Recoil": -20
     },
     {
+      "Price": "35 WC",
       "Name": "Controller",
       "Category": "Weird",
       "Fire_Rate": 3,
-      "Spread": -12,
       "Movement_Speed": -2,
-      "Recoil": 14
+      "Recoil": 14,
+      "Spread": -12
     },
     {
+      "Price": "17 WC",
       "Name": "Tap",
       "Category": "Weird",
-      "Recoil": -30,
       "Movement_Speed": -5,
+      "Recoil": -30,
       "Spread": 15
     },
     {
+      "Price": "15 WC",
       "Name": "Banana",
       "Category": "Weird",
       "Movement_Speed": 5,
@@ -2934,6 +3341,7 @@
       "Spread": 15
     },
     {
+      "Price": "Limited",
       "Name": "Mega Soaker",
       "Category": "Weird",
       "Movement_Speed": 2,
@@ -2941,66 +3349,75 @@
       "Spread": 12
     },
     {
+      "Price": "Missions",
       "Name": "Lamp Shade",
       "Category": "Weird",
-      "Recoil": -20,
-      "Range": -5
+      "Range": -5,
+      "Recoil": -20
     },
     {
+      "Price": "Free",
       "Name": "M1911",
       "Category": "Sidearm",
       "Recoil": -19,
       "Reload_Speed": 4
     },
     {
+      "Price": "2250",
       "Name": "Makarov",
       "Category": "Sidearm",
-      "Damage": 2,
       "Spread": 12
     },
     {
+      "Price": "3375",
       "Name": "Kolibri",
       "Category": "Sidearm",
-      "Movement_Speed": 6,
-      "Recoil": -25,
       "Damage": -5,
-      "Range": -5
+      "Movement_Speed": 6,
+      "Range": -5,
+      "Recoil": -25
     },
     {
+      "Price": "4500",
       "Name": "Tec-9",
       "Category": "Sidearm",
-      "Spread": -12,
       "Range": -4,
-      "Recoil": 7
+      "Recoil": 7,
+      "Spread": -12
     },
     {
+      "Price": "6750",
       "Name": "T10",
       "Category": "Sidearm",
       "Movement_Speed": 2,
-      "Reload_Speed": -3,
-      "Recoil": 11
+      "Recoil": 11,
+      "Reload_Speed": -3
     },
     {
+      "Price": "9450",
       "Name": "ZIPO-22",
       "Category": "Sidearm",
       "Movement_Speed": 3.5,
-      "Spread": -16,
       "Range": -6,
-      "Reload_Speed": 4.5
+      "Reload_Speed": 4.5,
+      "Spread": -16
     },
     {
+      "Price": "11250",
       "Name": "B17",
       "Category": "Sidearm",
       "Fire_Rate": 4,
       "Recoil": 34
     },
     {
+      "Price": "13500",
       "Name": "EG200",
       "Category": "Sidearm",
       "Movement_Speed": 7.5,
       "Spread": 25
     },
     {
+      "Price": "15750",
       "Name": "Beretta",
       "Category": "Sidearm",
       "Movement_Speed": 2.3,
@@ -3008,81 +3425,100 @@
       "Reload_Speed": 4
     },
     {
+      "Price": "18000",
       "Name": "Type 14",
       "Category": "Sidearm",
-      "Reload_Speed": -9,
       "Range": -4,
-      "Recoil": 11
+      "Recoil": 11,
+      "Reload_Speed": -9
     },
     {
+      "Price": "20250",
       "Name": "Luger",
       "Category": "Sidearm",
       "Movement_Speed": 6,
-      "Recoil": -5,
-      "Range": -12
+      "Range": -12,
+      "Recoil": -5
     },
     {
+      "Price": "22500",
       "Name": "Deagle",
       "Category": "Sidearm",
-      "Recoil": -22,
       "Fire_Rate": -5,
-      "Movement_Speed": -2
+      "Movement_Speed": -2,
+      "Recoil": -22
     },
     {
+      "Price": "30000",
       "Name": "P08 Artillery",
       "Category": "Sidearm",
-      "Recoil": -14,
-      "Spread": -17,
       "Equip_Time": 200,
       "Movement_Speed": -2,
-      "Reload_Speed": 8
+      "Recoil": -14,
+      "Reload_Speed": 8,
+      "Spread": -17
     },
     {
+      "Price": "45000",
       "Name": "Obreez",
       "Category": "Sidearm",
-      "Recoil": -25,
-      "Spread": -10,
       "Movement_Speed": -4,
-      "Reload_Speed": 8
+      "Recoil": -25,
+      "Reload_Speed": 8,
+      "Spread": -10
     },
     {
+      "Price": "Robux",
       "Name": "Cyber 3517",
       "Category": "Sidearm",
       "Damage": 5,
-      "Range": 1,
       "Movement_Speed": -3,
+      "Range": 1,
       "Recoil": 30,
       "Spread": 11
     },
     {
+      "Price": "Limited",
       "Name": "Raygun",
       "Category": "Sidearm",
       "Movement_Speed": 2.5,
-      "Spread": -14,
-      "Range": -3.5
+      "Range": -3.5,
+      "Spread": -14
     },
     {
+      "Price": "Limited",
       "Name": "Lobotomizer .44",
       "Category": "Sidearm",
-      "Spread": -20,
       "Fire_Rate": -9,
-      "Movement_Speed": -4.5
+      "Movement_Speed": -4.5,
+      "Spread": -20
+    },
+    {
+      "Price": "Limited",
+      "Name": "Quad-Jolly",
+      "Category": "Sidearm",
+      "Fire_Rate": 6,
+      "Movement_Speed": 3,
+      "Range": -1.5
     }
   ],
   "Stocks": [
     {
+      "Price": "Free",
       "Name": "AKM",
       "Category": "AR",
+      "Recoil": 15,
       "Reload_Speed": -10,
-      "Spread": -10,
-      "Recoil": 15
+      "Spread": -10
     },
     {
+      "Price": "Free",
       "Name": "M-16",
       "Category": "AR",
       "Recoil": -15
     },
     {
+      "Price": "225",
       "Name": "C36C",
       "Category": "AR",
       "Recoil": -5,
@@ -3090,32 +3526,37 @@
       "Spread": -5
     },
     {
+      "Price": "360",
       "Name": "AUG",
       "Category": "AR",
       "Movement_Speed": 2.5,
-      "Spread": -15,
-      "Range": -6
+      "Range": -6,
+      "Spread": -15
     },
     {
+      "Price": "675",
       "Name": "As-Val",
       "Category": "AR",
       "Recoil": -10,
       "Reload_Speed": -10
     },
     {
+      "Price": "1125",
       "Name": "Famas F1",
       "Category": "AR",
       "Recoil": -20,
       "Reload_Speed": 7
     },
     {
+      "Price": "1575",
       "Name": "STG-44",
       "Category": "AR",
       "Fire_Rate": 3,
-      "Spread": -10,
-      "Reload_Speed": 4
+      "Reload_Speed": 4,
+      "Spread": -10
     },
     {
+      "Price": "2250",
       "Name": "Scar L",
       "Category": "AR",
       "Recoil": -10,
@@ -3123,12 +3564,14 @@
       "Spread": 10
     },
     {
+      "Price": "3195",
       "Name": "L8",
       "Category": "AR",
       "Range": 4,
       "Spread": -17
     },
     {
+      "Price": "3375",
       "Name": "QBZ-95",
       "Category": "AR",
       "Health": 6,
@@ -3136,33 +3579,38 @@
       "Reload_Speed": 3.6
     },
     {
+      "Price": "4500",
       "Name": "The Chief",
       "Category": "AR",
+      "Recoil": 10,
       "Reload_Speed": -10,
-      "Spread": -20,
-      "Recoil": 10
+      "Spread": -20
     },
     {
+      "Price": "6750",
       "Name": "AK-12",
       "Category": "AR",
-      "Recoil": -20,
       "Movement_Speed": -0.2,
+      "Recoil": -20,
       "Spread": 7
     },
     {
+      "Price": "7425",
       "Name": "Broza",
       "Category": "AR",
+      "Recoil": 22,
       "Reload_Speed": -5,
-      "Spread": -12,
-      "Recoil": 22
+      "Spread": -12
     },
     {
+      "Price": "9000",
       "Name": "Hell-Trooper-23",
       "Category": "AR",
       "Reload_Speed": -25,
-      "Recoil": 10
+      "Spread": 10
     },
     {
+      "Price": "13500",
       "Name": "APS",
       "Category": "AR",
       "Damage": 6,
@@ -3170,14 +3618,16 @@
       "Spread": 30
     },
     {
+      "Price": "15750",
       "Name": "FC200SH",
       "Category": "AR",
+      "Fire_Rate": -5,
       "Movement_Speed": 2,
       "Range": 3,
-      "Spread": -24,
-      "Fire_Rate": -5
+      "Spread": -24
     },
     {
+      "Price": "203 WC",
       "Name": "AR-8X",
       "Category": "AR",
       "Fire_Rate": 7,
@@ -3185,19 +3635,22 @@
       "Spread": 14
     },
     {
+      "Price": "225 WC",
       "Name": "Hex Spitter",
       "Category": "AR",
+      "Movement_Speed": -5,
       "Reload_Speed": -10,
-      "Spread": -25,
-      "Movement_Speed": -5
+      "Spread": -25
     },
     {
+      "Price": "Spin",
       "Name": "G11",
       "Category": "AR",
       "Movement_Speed": 2,
       "Recoil": -13
     },
     {
+      "Price": "Follow",
       "Name": "Derpy - Staff",
       "Category": "AR",
       "Movement_Speed": 5,
@@ -3205,25 +3658,38 @@
       "Spread": 15
     },
     {
+      "Price": "Limited",
+      "Name": "PineFire",
+      "Category": "AR",
+      "Health": 8,
+      "Movement_Speed": 8,
+      "Reload_Speed": 15,
+      "Spread": 45
+    },
+    {
+      "Price": "225",
       "Name": "M40",
       "Category": "Sniper",
       "Recoil": -10,
       "Spread": -20
     },
     {
+      "Price": "459",
       "Name": "M1891",
       "Category": "Sniper",
       "Movement_Speed": 4,
       "Recoil": 15
     },
     {
+      "Price": "1125",
       "Name": "AWM",
       "Category": "Sniper",
+      "Recoil": 10,
       "Reload_Speed": -15,
-      "Spread": -35,
-      "Recoil": 10
+      "Spread": -35
     },
     {
+      "Price": "2250",
       "Name": "Lee Enfield",
       "Category": "Sniper",
       "Fire_Rate": 10,
@@ -3232,69 +3698,78 @@
       "Spread": 20
     },
     {
+      "Price": "4500",
       "Name": "Arisaka",
       "Category": "Sniper",
-      "Movement_Speed": 11,
       "Health": -8,
+      "Movement_Speed": 11,
       "Reload_Speed": 5
     },
     {
+      "Price": "6750",
       "Name": "VSSR",
       "Category": "Sniper",
+      "Movement_Speed": -2,
       "Range": 2,
       "Recoil": -30,
-      "Movement_Speed": -2,
       "Spread": 12
     },
     {
+      "Price": "9000",
       "Name": "M2000",
       "Category": "Sniper",
-      "Recoil": -40,
-      "Spread": -40,
       "Fire_Rate": -25,
-      "Movement_Speed": -10
+      "Movement_Speed": -10,
+      "Recoil": -40,
+      "Spread": -40
     },
     {
+      "Price": "11250",
       "Name": "Mosin",
       "Category": "Sniper",
       "Fire_Rate": 2,
-      "Spread": -15,
-      "Recoil": 24
+      "Recoil": 24,
+      "Spread": -15
     },
     {
+      "Price": "15750",
       "Name": "Hecate II",
       "Category": "Sniper",
       "Damage": 5,
-      "Reload_Speed": -10,
-      "Spread": -20,
       "Fire_Rate": -10,
       "Movement_Speed": -5,
-      "Recoil": 15
+      "Recoil": 15,
+      "Reload_Speed": -10,
+      "Spread": -20
     },
     {
+      "Price": "45000",
       "Name": "Lightning Shot",
       "Category": "Sniper",
-      "Spread": -45,
       "Fire_Rate": -9,
       "Movement_Speed": -8,
       "Recoil": 27,
-      "Reload_Speed": 4
+      "Reload_Speed": 4,
+      "Spread": -45
     },
     {
+      "Price": "236 WC",
       "Name": "Musket",
       "Category": "Sniper",
-      "Recoil": -24,
       "Movement_Speed": -4,
+      "Recoil": -24,
       "Reload_Speed": 7
     },
     {
+      "Price": "Robux",
       "Name": "Snake Sniper",
       "Category": "Sniper",
-      "Recoil": -40,
       "Movement_Speed": -8.5,
+      "Recoil": -40,
       "Reload_Speed": 6
     },
     {
+      "Price": "450",
       "Name": "MAC-10",
       "Category": "SMG",
       "Fire_Rate": 4.5,
@@ -3302,6 +3777,7 @@
       "Spread": 16
     },
     {
+      "Price": "1125",
       "Name": "Type 2a Nambu",
       "Category": "SMG",
       "Movement_Speed": 1.5,
@@ -3309,52 +3785,59 @@
       "Spread": -13
     },
     {
+      "Price": "2250",
       "Name": "Tommy",
       "Category": "SMG",
       "Movement_Speed": 0.5,
       "Recoil": -23,
-      "Spread": -9,
-      "Reload_Speed": 5
+      "Reload_Speed": 5,
+      "Spread": -9
     },
     {
+      "Price": "3375",
       "Name": "NP9",
       "Category": "SMG",
       "Movement_Speed": 4.6,
-      "Spread": -13,
-      "Recoil": 30
+      "Recoil": 30,
+      "Spread": -13
     },
     {
+      "Price": "4000",
       "Name": "NP5A3",
       "Category": "SMG",
       "Movement_Speed": 5,
-      "Reload_Speed": -20,
       "Recoil": 25,
+      "Reload_Speed": -20,
       "Spread": 9
     },
     {
+      "Price": "4275",
       "Name": "MP 40",
       "Category": "SMG",
       "Movement_Speed": 3.2,
+      "Recoil": 15,
       "Reload_Speed": -10,
-      "Spread": -10,
-      "Recoil": 15
+      "Spread": -10
     },
     {
+      "Price": "4500",
       "Name": "Sten gun",
       "Category": "SMG",
       "Fire_Rate": 2,
       "Movement_Speed": 6,
-      "Spread": -12,
-      "Recoil": 38
+      "Recoil": 38,
+      "Spread": -12
     },
     {
+      "Price": "5400",
       "Name": "UNP-40",
       "Category": "SMG",
       "Movement_Speed": 3.8,
-      "Spread": -22,
-      "Recoil": 20
+      "Recoil": 20,
+      "Spread": -22
     },
     {
+      "Price": "6750",
       "Name": "NP5",
       "Category": "SMG",
       "Movement_Speed": 2.5,
@@ -3363,14 +3846,16 @@
       "Spread": 14
     },
     {
+      "Price": "6750",
       "Name": "Skorpion vz. 61",
       "Category": "SMG",
       "Movement_Speed": 7.5,
-      "Reload_Speed": -15,
       "Recoil": 35,
+      "Reload_Speed": -15,
       "Spread": 5
     },
     {
+      "Price": "9000",
       "Name": "Mas-38",
       "Category": "SMG",
       "Movement_Speed": 3.3,
@@ -3378,61 +3863,69 @@
       "Reload_Speed": -10
     },
     {
+      "Price": "11250",
       "Name": "PP-19 Bizon",
       "Category": "SMG",
       "Movement_Speed": 2.5,
+      "Recoil": 20,
       "Reload_Speed": -5,
-      "Spread": -13,
-      "Recoil": 20
+      "Spread": -13
     },
     {
+      "Price": "12150",
       "Name": "ZIPO-2222",
       "Category": "SMG",
       "Health": 3,
       "Movement_Speed": 6.5
     },
     {
+      "Price": "13500",
       "Name": "PPSh-41",
       "Category": "SMG",
-      "Reload_Speed": -25,
-      "Spread": -10,
       "Movement_Speed": -2,
-      "Recoil": 27
+      "Recoil": 27,
+      "Reload_Speed": -25,
+      "Spread": -10
     },
     {
+      "Price": "15750",
       "Name": "MP18",
       "Category": "SMG",
       "Movement_Speed": 3.5,
-      "Recoil": -20,
       "Range": -3,
+      "Recoil": -20,
       "Reload_Speed": 8
     },
     {
+      "Price": "15750",
       "Name": "Kriss Vector",
       "Category": "SMG",
       "Fire_Rate": 7,
       "Movement_Speed": 3.3,
-      "Recoil": -20,
       "Range": -5,
+      "Recoil": -20,
       "Spread": 30
     },
     {
+      "Price": "1800",
       "Name": "P90",
       "Category": "SMG",
       "Fire_Rate": 4,
       "Movement_Speed": 3,
-      "Spread": -11,
-      "Recoil": 12
+      "Recoil": 12,
+      "Spread": -11
     },
     {
+      "Price": "20250",
       "Name": "Uzi",
       "Category": "SMG",
       "Movement_Speed": 7.5,
-      "Spread": -11,
       "Recoil": 22,
-      "Reload_Speed": 4
+      "Reload_Speed": 4,
+      "Spread": -11
     },
     {
+      "Price": "33750",
       "Name": "Maple Badger",
       "Category": "SMG",
       "Fire_Rate": 2,
@@ -3440,21 +3933,24 @@
       "Spread": 13
     },
     {
+      "Price": "180 WC",
       "Name": "M1 Carbine",
       "Category": "SMG",
-      "Range": 5,
-      "Spread": -19,
       "Movement_Speed": -2.5,
-      "Recoil": 14
+      "Range": 5,
+      "Recoil": 14,
+      "Spread": -19
     },
     {
+      "Price": "225",
       "Name": "M870",
       "Category": "Shotgun",
       "Recoil": -15,
-      "Spread": -15,
-      "Reload_Speed": 5
+      "Reload_Speed": 5,
+      "Spread": -15
     },
     {
+      "Price": "338",
       "Name": "Circuit Judge",
       "Category": "Shotgun",
       "Fire_Rate": 4.8,
@@ -3462,6 +3958,7 @@
       "Spread": 15
     },
     {
+      "Price": "2250",
       "Name": "M1897 Trench Shotgun",
       "Category": "Shotgun",
       "Fire_Rate": 18,
@@ -3469,54 +3966,61 @@
       "Spread": 25
     },
     {
+      "Price": "3100",
       "Name": "M870 MCS",
       "Category": "Shotgun",
-      "Recoil": -25,
-      "Spread": -20,
       "Fire_Rate": -5,
-      "Reload_Speed": 10
+      "Recoil": -25,
+      "Reload_Speed": 10,
+      "Spread": -20
     },
     {
+      "Price": "3500",
       "Name": "M870 Breacher",
       "Category": "Shotgun",
       "Fire_Rate": 5,
       "Movement_Speed": 5,
-      "Reload_Speed": -20,
       "Recoil": 15,
+      "Reload_Speed": -20,
       "Spread": 25
     },
     {
+      "Price": "4500",
       "Name": "M1887",
       "Category": "Shotgun",
       "Health": 5,
-      "Recoil": -10,
       "Movement_Speed": -5.5,
+      "Recoil": -10,
       "Spread": 15
     },
     {
+      "Price": "6750",
       "Name": "Auto-5",
       "Category": "Shotgun",
+      "Damage": -5,
       "Fire_Rate": 5,
       "Movement_Speed": 5,
-      "Spread": -10,
-      "Damage": -5
+      "Spread": -10
     },
     {
+      "Price": "7500",
       "Name": "Spas-12 Folded",
       "Category": "Shotgun",
       "Movement_Speed": 4,
-      "Reload_Speed": -15,
       "Recoil": 20,
+      "Reload_Speed": -15,
       "Spread": 20
     },
     {
+      "Price": "11250",
       "Name": "JSG12",
       "Category": "Shotgun",
       "Movement_Speed": 3,
-      "Spread": -19,
-      "Reload_Speed": 5
+      "Reload_Speed": 5,
+      "Spread": -19
     },
     {
+      "Price": "13500",
       "Name": "Spas-12",
       "Category": "Shotgun",
       "Fire_Rate": 14,
@@ -3525,21 +4029,24 @@
       "Spread": 12
     },
     {
+      "Price": "22500",
       "Name": "Double Barrel",
       "Category": "Shotgun",
-      "Movement_Speed": 6,
-      "Reload_Speed": -5,
+      "Movement_Speed": 12,
       "Range": -2,
-      "Recoil": 45
+      "Recoil": 45,
+      "Reload_Speed": -5
     },
     {
+      "Price": "33750",
       "Name": "Siberia-12",
       "Category": "Shotgun",
       "Fire_Rate": 5,
-      "Spread": -7,
-      "Recoil": 12
+      "Recoil": 12,
+      "Spread": -7
     },
     {
+      "Price": "248 WC",
       "Name": "Blunderbuss",
       "Category": "Shotgun",
       "Health": 15,
@@ -3548,163 +4055,185 @@
       "Spread": 50
     },
     {
+      "Price": "Limited",
       "Name": "MarrowMaker",
       "Category": "Shotgun",
       "Movement_Speed": 3,
       "Reload_Speed": -8
     },
     {
+      "Price": "Robux",
       "Name": "AUTO-12",
       "Category": "Shotgun",
       "Fire_Rate": 1.5,
-      "Recoil": -26,
       "Movement_Speed": -4.5,
+      "Recoil": -26,
       "Reload_Speed": 3.5
     },
     {
+      "Price": "225",
       "Name": "M60",
       "Category": "LMG",
+      "Movement_Speed": -3,
       "Recoil": -20,
       "Reload_Speed": -5,
-      "Movement_Speed": -3,
       "Spread": 5
     },
     {
+      "Price": "1150",
       "Name": "Type 99",
       "Category": "LMG",
       "Fire_Rate": 5,
-      "Reload_Speed": -15,
       "Movement_Speed": -3,
-      "Recoil": 8
+      "Recoil": 8,
+      "Reload_Speed": -15
     },
     {
+      "Price": "2250",
       "Name": "DP-27",
       "Category": "LMG",
-      "Recoil": -20,
-      "Spread": -24,
       "Fire_Rate": -7,
-      "Movement_Speed": -3.5
+      "Movement_Speed": -3.5,
+      "Recoil": -20,
+      "Spread": -24
     },
     {
+      "Price": "3375",
       "Name": "BAR",
       "Category": "LMG",
+      "Movement_Speed": -5,
       "Recoil": -20,
-      "Spread": -10,
-      "Movement_Speed": -5
+      "Spread": -10
     },
     {
+      "Price": "4500",
       "Name": "M1919 .30 Cal",
       "Category": "LMG",
-      "Recoil": -32,
       "Movement_Speed": -7,
+      "Recoil": -32,
       "Spread": 19
     },
     {
+      "Price": "6750",
       "Name": "Negev",
       "Category": "LMG",
-      "Recoil": -20,
       "Movement_Speed": -3,
+      "Recoil": -20,
       "Reload_Speed": 8
     },
     {
+      "Price": "11250",
       "Name": "MG42",
       "Category": "LMG",
       "Movement_Speed": 3.5,
-      "Spread": -25,
-      "Reload_Speed": 10
+      "Reload_Speed": 10,
+      "Spread": -25
     },
     {
+      "Price": "13500",
       "Name": "Chauchat",
       "Category": "LMG",
+      "Movement_Speed": -3,
       "Recoil": -25,
       "Reload_Speed": -10,
-      "Movement_Speed": -3,
       "Spread": 10
     },
     {
+      "Price": "16200",
       "Name": "Burton",
       "Category": "LMG",
       "Movement_Speed": 4,
-      "Reload_Speed": -5,
-      "Recoil": 26
+      "Recoil": 26,
+      "Reload_Speed": -5
     },
     {
+      "Price": "22500",
       "Name": "Lewis",
       "Category": "LMG",
-      "Recoil": -28,
       "Movement_Speed": -7.5,
+      "Recoil": -28,
       "Reload_Speed": 8,
       "Spread": 6
     },
     {
+      "Price": "Robux",
       "Name": "M249 SAW",
       "Category": "LMG",
       "Health": 5,
-      "Recoil": -11,
       "Movement_Speed": -4.5,
+      "Recoil": -11,
       "Spread": 16
     },
     {
+      "Price": "225",
       "Name": "M1 Garand",
       "Category": "BR",
+      "Movement_Speed": -1,
       "Range": 3,
-      "Recoil": -14,
-      "Movement_Speed": -1
+      "Spread": -14
     },
     {
+      "Price": "1125",
       "Name": "SKS",
       "Category": "BR",
-      "Reload_Speed": -6,
-      "Recoil": 18
+      "Recoil": 18,
+      "Reload_Speed": -6
     },
     {
+      "Price": "2250",
       "Name": "Fedorov",
       "Category": "BR",
       "Fire_Rate": 7,
-      "Recoil": -10,
       "Movement_Speed": -2,
+      "Recoil": -10,
       "Reload_Speed": 7
     },
     {
+      "Price": "4500",
       "Name": "FAL",
       "Category": "BR",
       "Movement_Speed": 0.2,
       "Range": 5,
-      "Spread": -27,
-      "Recoil": 30
+      "Recoil": 30,
+      "Spread": -27
     },
     {
+      "Price": "6750",
       "Name": "Winchester",
       "Category": "BR",
       "Movement_Speed": 2,
-      "Spread": -14,
-      "Recoil": 23
+      "Recoil": 23,
+      "Spread": -14
     },
     {
+      "Price": "9000",
       "Name": "Dragunov",
       "Category": "BR",
-      "Range": 3,
-      "Recoil": -32,
       "Fire_Rate": -5,
       "Movement_Speed": -2,
+      "Range": 3,
+      "Recoil": -32,
       "Reload_Speed": 10
     },
     {
+      "Price": "20250",
       "Name": "G3",
       "Category": "BR",
-      "Recoil": -23,
       "Movement_Speed": -7,
+      "Recoil": -23,
       "Spread": 6
     },
     {
+      "Price": "22500",
       "Name": "M110",
       "Category": "BR",
       "Damage": 3,
-      "Recoil": -16,
       "Fire_Rate": -7,
+      "Recoil": -16,
       "Reload_Speed": 10
     },
     {
+      "Price": "225 WC",
       "Name": "FG-42",
       "Category": "BR",
       "Fire_Rate": 5,
@@ -3712,6 +4241,15 @@
       "Recoil": 13
     },
     {
+      "Price": "Limited",
+      "Name": "X-Blaster",
+      "Category": "BR",
+      "Movement_Speed": 3.5,
+      "Reload_Speed": 4.5,
+      "Spread": 11
+    },
+    {
+      "Price": "Limited",
       "Name": "Paintball",
       "Category": "Weird",
       "Movement_Speed": 6,
@@ -3719,64 +4257,69 @@
       "Spread": 12
     },
     {
+      "Price": "300 WC",
       "Name": "Anvil",
       "Category": "Weird",
-      "Recoil": -80,
-      "Spread": -30,
       "Movement_Speed": -40,
-      "Reload_Speed": 15
+      "Recoil": -80,
+      "Reload_Speed": 15,
+      "Spread": -30
     },
     {
+      "Price": "150 WC",
       "Name": "Speed Coil",
       "Category": "Weird",
       "Fire_Rate": 5,
+      "Health": -10,
       "Movement_Speed": 10,
       "Recoil": -40,
       "Reload_Speed": -15,
-      "Health": -10,
       "Spread": 250
     },
     {
+      "Price": "120 WC",
       "Name": "Keyboard",
       "Category": "Weird",
-      "Health": 21,
-      "Recoil": -16,
       "Detection_Radius": 100,
-      "Movement_Speed": -15,
+      "Recoil": -16,
       "Reload_Speed": 5,
       "Spread": 30
     },
     {
+      "Price": "55 WC",
       "Name": "Taco",
       "Category": "Weird",
-      "Damage": 5,
-      "Health": 10,
       "Detection_Radius": 20,
       "Fire_Rate": -5,
+      "Health": 10,
       "Recoil": 20,
       "Reload_Speed": 10,
       "Spread": 20
     },
     {
+      "Price": "50 WC",
       "Name": "Words as Weapons",
       "Category": "Weird",
+      "Recoil": 15,
       "Reload_Speed": -10,
-      "Spread": -10,
-      "Recoil": 15
+      "Spread": -10
     },
     {
+      "Price": "35 WC",
       "Name": "Shovel",
       "Category": "Weird",
-      "Spread": -11,
-      "Recoil": 10
+      "Recoil": 10,
+      "Spread": -11
     },
     {
+      "Price": "25 WC",
       "Name": "Willy Fischy",
       "Category": "Weird",
       "Recoil": -10,
       "Reload_Speed": -5
     },
     {
+      "Price": "20 WC",
       "Name": "Plunger",
       "Category": "Weird",
       "Fire_Rate": 4,
@@ -3784,6 +4327,7 @@
       "Range": -2
     },
     {
+      "Price": "Limited",
       "Name": "Mega Soaker",
       "Category": "Weird",
       "Movement_Speed": 8,
@@ -3794,6 +4338,7 @@
   ],
   "Cores": [
     {
+      "Price": "Free",
       "Name": "AKM",
       "Category": "AR",
       "Damage": [
@@ -3829,6 +4374,7 @@
       ]
     },
     {
+      "Price": "Free",
       "Name": "M-16",
       "Category": "AR",
       "Damage": [
@@ -3864,6 +4410,7 @@
       ]
     },
     {
+      "Price": "500",
       "Name": "C36C",
       "Category": "AR",
       "Damage": [
@@ -3898,6 +4445,7 @@
       ]
     },
     {
+      "Price": "800",
       "Name": "AUG",
       "Category": "AR",
       "Damage": [
@@ -3934,6 +4482,7 @@
       ]
     },
     {
+      "Price": "1,500",
       "Name": "As-Val",
       "Category": "AR",
       "Damage": [
@@ -3969,6 +4518,7 @@
       ]
     },
     {
+      "Price": "2,500",
       "Name": "Famas F1",
       "Category": "AR",
       "Damage": [
@@ -4005,6 +4555,7 @@
       ]
     },
     {
+      "Price": "3,500",
       "Name": "STG-44",
       "Category": "AR",
       "Damage": [
@@ -4040,6 +4591,7 @@
       ]
     },
     {
+      "Price": "5,000",
       "Name": "Scar L",
       "Category": "AR",
       "Damage": [
@@ -4075,6 +4627,7 @@
       ]
     },
     {
+      "Price": "7,100",
       "Name": "L8",
       "Category": "AR",
       "Damage": [
@@ -4110,6 +4663,7 @@
       ]
     },
     {
+      "Price": "7,500",
       "Name": "QBZ-95",
       "Category": "AR",
       "Damage": [
@@ -4145,6 +4699,7 @@
       ]
     },
     {
+      "Price": "10,000",
       "Name": "The Chief",
       "Category": "AR",
       "Damage": [
@@ -4181,6 +4736,7 @@
       ]
     },
     {
+      "Price": "15,000",
       "Name": "AK-12",
       "Category": "AR",
       "Damage": [
@@ -4216,6 +4772,7 @@
       ]
     },
     {
+      "Price": "16,500",
       "Name": "Broza",
       "Category": "AR",
       "Damage": [
@@ -4251,6 +4808,7 @@
       ]
     },
     {
+      "Price": "20,000",
       "Name": "Hell-Trooper-23",
       "Category": "AR",
       "Damage": [
@@ -4286,6 +4844,7 @@
       ]
     },
     {
+      "Price": "30,000",
       "Name": "APS",
       "Category": "AR",
       "Damage": [
@@ -4321,6 +4880,7 @@
       ]
     },
     {
+      "Price": "35,000",
       "Name": "FC200SH",
       "Category": "AR",
       "Damage": [
@@ -4357,6 +4917,7 @@
       ]
     },
     {
+      "Price": "450 WC",
       "Name": "AR-8X",
       "Category": "AR",
       "Damage": [
@@ -4393,9 +4954,9 @@
       ]
     },
     {
+      "Price": "500 WC",
       "Name": "Hex Spitter",
       "Category": "AR",
-      "Pellets": 2,
       "Damage": [
         20,
         18
@@ -4429,6 +4990,7 @@
       ]
     },
     {
+      "Price": "Spin",
       "Name": "G11",
       "Category": "AR",
       "Damage": [
@@ -4465,6 +5027,43 @@
       ]
     },
     {
+      "Price": "Limited",
+      "Name": "PineFire",
+      "Category": "AR",
+      "Damage": [
+        13.5,
+        9.5
+      ],
+      "Dropoff_Studs": [
+        145,
+        220
+      ],
+      "Fire_Rate": 875,
+      "Hipfire_Spread": 4,
+      "ADS_Spread": 0.325,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 150,
+      "Suppression": 0.1,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -14,
+        14
+      ],
+      "Recoil_Hip_Vertical": [
+        46,
+        52
+      ],
+      "Recoil_Aim_Horizontal": [
+        -7,
+        7
+      ],
+      "Recoil_Aim_Vertical": [
+        23,
+        26
+      ]
+    },
+    {
+      "Price": "500",
       "Name": "M40",
       "Category": "Sniper",
       "Damage": [
@@ -4501,6 +5100,7 @@
       ]
     },
     {
+      "Price": "1000",
       "Name": "M1891",
       "Category": "Sniper",
       "Damage": [
@@ -4536,6 +5136,7 @@
       ]
     },
     {
+      "Price": "2500",
       "Name": "AWM",
       "Category": "Sniper",
       "Damage": [
@@ -4572,6 +5173,7 @@
       ]
     },
     {
+      "Price": "5000",
       "Name": "Lee Enfield",
       "Category": "Sniper",
       "Damage": [
@@ -4607,6 +5209,7 @@
       ]
     },
     {
+      "Price": "10000",
       "Name": "Arisaka",
       "Category": "Sniper",
       "Damage": [
@@ -4644,6 +5247,7 @@
       ]
     },
     {
+      "Price": "15000",
       "Name": "VSSR",
       "Category": "Sniper",
       "Damage": [
@@ -4680,6 +5284,7 @@
       ]
     },
     {
+      "Price": "20000",
       "Name": "M2000",
       "Category": "Sniper",
       "Damage": [
@@ -4716,6 +5321,7 @@
       ]
     },
     {
+      "Price": "25000",
       "Name": "Mosin",
       "Category": "Sniper",
       "Damage": [
@@ -4752,6 +5358,7 @@
       ]
     },
     {
+      "Price": "35000",
       "Name": "Hecate II",
       "Category": "Sniper",
       "Damage": [
@@ -4788,6 +5395,7 @@
       ]
     },
     {
+      "Price": "100000",
       "Name": "Lightning Shot",
       "Category": "Sniper",
       "Damage": [
@@ -4825,6 +5433,7 @@
       ]
     },
     {
+      "Price": "525 WC",
       "Name": "Musket",
       "Category": "Sniper",
       "Damage": [
@@ -4860,6 +5469,7 @@
       ]
     },
     {
+      "Price": "Robux",
       "Name": "Snake Sniper",
       "Category": "Sniper",
       "Damage": [
@@ -4896,6 +5506,7 @@
       ]
     },
     {
+      "Price": "1000",
       "Name": "MAC-10",
       "Category": "SMG",
       "Damage": [
@@ -4931,6 +5542,7 @@
       ]
     },
     {
+      "Price": "2500",
       "Name": "Type 2a Nambu",
       "Category": "SMG",
       "Damage": [
@@ -4967,6 +5579,7 @@
       ]
     },
     {
+      "Price": "5000",
       "Name": "Tommy",
       "Category": "SMG",
       "Damage": [
@@ -5002,6 +5615,7 @@
       ]
     },
     {
+      "Price": "7500",
       "Name": "NP9",
       "Category": "SMG",
       "Damage": [
@@ -5037,6 +5651,7 @@
       ]
     },
     {
+      "Price": "9500",
       "Name": "MP 40",
       "Category": "SMG",
       "Damage": [
@@ -5072,6 +5687,7 @@
       ]
     },
     {
+      "Price": "10000",
       "Name": "Sten gun",
       "Category": "SMG",
       "Damage": [
@@ -5106,6 +5722,7 @@
       ]
     },
     {
+      "Price": "12000",
       "Name": "UNP-40",
       "Category": "SMG",
       "Damage": [
@@ -5141,6 +5758,7 @@
       ]
     },
     {
+      "Price": "15000",
       "Name": "Skorpion vz. 61",
       "Category": "SMG",
       "Damage": [
@@ -5176,6 +5794,7 @@
       ]
     },
     {
+      "Price": "15000",
       "Name": "NP5",
       "Category": "SMG",
       "Damage": [
@@ -5210,6 +5829,7 @@
       ]
     },
     {
+      "Price": "20000",
       "Name": "Mas-38",
       "Category": "SMG",
       "Damage": [
@@ -5245,6 +5865,7 @@
       ]
     },
     {
+      "Price": "25000",
       "Name": "PP-19 Bizon",
       "Category": "SMG",
       "Damage": [
@@ -5279,6 +5900,7 @@
       ]
     },
     {
+      "Price": "27000",
       "Name": "ZIPO-2222",
       "Category": "SMG",
       "Damage": [
@@ -5314,6 +5936,7 @@
       ]
     },
     {
+      "Price": "30000",
       "Name": "PPSh-41",
       "Category": "SMG",
       "Damage": [
@@ -5349,6 +5972,7 @@
       ]
     },
     {
+      "Price": "35000",
       "Name": "Kriss Vector",
       "Category": "SMG",
       "Damage": [
@@ -5384,6 +6008,7 @@
       ]
     },
     {
+      "Price": "35000",
       "Name": "MP18",
       "Category": "SMG",
       "Damage": [
@@ -5418,6 +6043,7 @@
       ]
     },
     {
+      "Price": "40000",
       "Name": "P90",
       "Category": "SMG",
       "Damage": [
@@ -5453,6 +6079,7 @@
       ]
     },
     {
+      "Price": "45000",
       "Name": "Uzi",
       "Category": "SMG",
       "Damage": [
@@ -5488,6 +6115,7 @@
       ]
     },
     {
+      "Price": "75000",
       "Name": "Maple Badger",
       "Category": "SMG",
       "Damage": [
@@ -5523,6 +6151,7 @@
       ]
     },
     {
+      "Price": "400 WC",
       "Name": "M1 Carbine",
       "Category": "SMG",
       "Damage": [
@@ -5559,9 +6188,9 @@
       ]
     },
     {
+      "Price": "500",
       "Name": "M870",
       "Category": "Shotgun",
-      "Pellets": 8,
       "Damage": [
         112,
         16
@@ -5595,9 +6224,9 @@
       ]
     },
     {
+      "Price": "750",
       "Name": "Circuit Judge",
       "Category": "Shotgun",
-      "Pellets": 8,
       "Damage": [
         120,
         24
@@ -5631,9 +6260,9 @@
       ]
     },
     {
+      "Price": "5000",
       "Name": "M1897 Trench Shotgun",
       "Category": "Shotgun",
-      "Pellets": 16,
       "Damage": [
         128,
         16
@@ -5667,9 +6296,9 @@
       ]
     },
     {
+      "Price": "10000",
       "Name": "M1887",
       "Category": "Shotgun",
-      "Pellets": 10,
       "Damage": [
         120,
         10
@@ -5705,9 +6334,9 @@
       ]
     },
     {
+      "Price": "15000",
       "Name": "Auto-5",
       "Category": "Shotgun",
-      "Pellets": 8,
       "Damage": [
         104,
         8
@@ -5742,9 +6371,9 @@
       ]
     },
     {
+      "Price": "25000",
       "Name": "JSG12",
       "Category": "Shotgun",
-      "Pellets": 12,
       "Damage": [
         144,
         12
@@ -5779,9 +6408,9 @@
       ]
     },
     {
+      "Price": "30000",
       "Name": "Spas-12",
       "Category": "Shotgun",
-      "Pellets": 6,
       "Damage": [
         114,
         6
@@ -5816,9 +6445,9 @@
       ]
     },
     {
+      "Price": "50000",
       "Name": "Double Barrel",
       "Category": "Shotgun",
-      "Pellets": 10,
       "Damage": [
         110,
         10
@@ -5852,9 +6481,9 @@
       ]
     },
     {
+      "Price": "75000",
       "Name": "Siberia-12",
       "Category": "Shotgun",
-      "Pellets": 12,
       "Damage": [
         48,
         0
@@ -5889,9 +6518,9 @@
       ]
     },
     {
+      "Price": "550 WC",
       "Name": "Blunderbuss",
       "Category": "Shotgun",
-      "Pellets": 15,
       "Damage": [
         225,
         90
@@ -5925,9 +6554,9 @@
       ]
     },
     {
+      "Price": "Limited",
       "Name": "MarrowMaker",
       "Category": "Shotgun",
-      "Pellets": 7,
       "Damage": [
         112,
         35
@@ -5961,9 +6590,9 @@
       ]
     },
     {
+      "Price": "Robux",
       "Name": "AUTO-12",
       "Category": "Shotgun",
-      "Pellets": 6,
       "Damage": [
         72,
         18
@@ -5998,6 +6627,7 @@
       ]
     },
     {
+      "Price": "500",
       "Name": "M60",
       "Category": "LMG",
       "Damage": [
@@ -6035,6 +6665,7 @@
       ]
     },
     {
+      "Price": "2500",
       "Name": "Type 99",
       "Category": "LMG",
       "Damage": [
@@ -6072,6 +6703,7 @@
       ]
     },
     {
+      "Price": "5000",
       "Name": "DP-27",
       "Category": "LMG",
       "Damage": [
@@ -6109,6 +6741,7 @@
       ]
     },
     {
+      "Price": "7500",
       "Name": "BAR",
       "Category": "LMG",
       "Damage": [
@@ -6146,6 +6779,7 @@
       ]
     },
     {
+      "Price": "10000",
       "Name": "M1919 .30 Cal",
       "Category": "LMG",
       "Damage": [
@@ -6183,6 +6817,7 @@
       ]
     },
     {
+      "Price": "15000",
       "Name": "Negev",
       "Category": "LMG",
       "Damage": [
@@ -6220,6 +6855,7 @@
       ]
     },
     {
+      "Price": "25000",
       "Name": "MG42",
       "Category": "LMG",
       "Damage": [
@@ -6257,6 +6893,7 @@
       ]
     },
     {
+      "Price": "30000",
       "Name": "Chauchat",
       "Category": "LMG",
       "Damage": [
@@ -6294,6 +6931,7 @@
       ]
     },
     {
+      "Price": "36000",
       "Name": "Burton",
       "Category": "LMG",
       "Damage": [
@@ -6330,6 +6968,7 @@
       ]
     },
     {
+      "Price": "50000",
       "Name": "Lewis",
       "Category": "LMG",
       "Damage": [
@@ -6367,6 +7006,7 @@
       ]
     },
     {
+      "Price": "Robux",
       "Name": "M249 SAW",
       "Category": "LMG",
       "Damage": [
@@ -6404,6 +7044,7 @@
       ]
     },
     {
+      "Price": "500",
       "Name": "M1Garand",
       "Category": "BR",
       "Damage": [
@@ -6441,6 +7082,7 @@
       ]
     },
     {
+      "Price": "2500",
       "Name": "SKS",
       "Category": "BR",
       "Damage": [
@@ -6477,6 +7119,7 @@
       ]
     },
     {
+      "Price": "5000",
       "Name": "Fedorov",
       "Category": "BR",
       "Damage": [
@@ -6512,6 +7155,7 @@
       ]
     },
     {
+      "Price": "10000",
       "Name": "FAL",
       "Category": "BR",
       "Damage": [
@@ -6548,6 +7192,7 @@
       ]
     },
     {
+      "Price": "15000",
       "Name": "Winchester",
       "Category": "BR",
       "Damage": [
@@ -6583,6 +7228,7 @@
       ]
     },
     {
+      "Price": "20000",
       "Name": "Dragunov",
       "Category": "BR",
       "Damage": [
@@ -6620,6 +7266,7 @@
       ]
     },
     {
+      "Price": "45000",
       "Name": "G3",
       "Category": "BR",
       "Damage": [
@@ -6656,6 +7303,7 @@
       ]
     },
     {
+      "Price": "50000",
       "Name": "M110",
       "Category": "BR",
       "Damage": [
@@ -6693,6 +7341,7 @@
       ]
     },
     {
+      "Price": "500 WC",
       "Name": "FG-42",
       "Category": "BR",
       "Damage": [
@@ -6728,6 +7377,43 @@
       ]
     },
     {
+      "Price": "Limited",
+      "Name": "X-Blaster",
+      "Category": "BR",
+      "Damage": [
+        32,
+        12.8
+      ],
+      "Dropoff_Studs": [
+        135,
+        200
+      ],
+      "Fire_Rate": 400,
+      "Hipfire_Spread": 3.5,
+      "ADS_Spread": 0.2,
+      "Time_To_Aim": 0.5,
+      "Detection_Radius": 65,
+      "Suppression": 0.3,
+      "Equip_Time": 0.7,
+      "Recoil_Hip_Horizontal": [
+        -5,
+        5
+      ],
+      "Recoil_Hip_Vertical": [
+        5,
+        11
+      ],
+      "Recoil_Aim_Horizontal": [
+        -2.5,
+        2.5
+      ],
+      "Recoil_Aim_Vertical": [
+        2.5,
+        5.5
+      ]
+    },
+    {
+      "Price": "Limited",
       "Name": "Paintball",
       "Category": "Weird",
       "Damage": [
@@ -6763,6 +7449,7 @@
       ]
     },
     {
+      "Price": "777 WC",
       "Name": "Stat Randomizer",
       "Category": "Weird",
       "Dropoff_Studs": [
@@ -6776,6 +7463,7 @@
       "Movement_Speed_Modifier": -5
     },
     {
+      "Price": "365 WC",
       "Name": "Gaming Rig",
       "Category": "Weird",
       "Damage": [
@@ -6810,6 +7498,7 @@
       ]
     },
     {
+      "Price": "140 WC",
       "Name": "Loaf",
       "Category": "Weird",
       "Damage": [
@@ -6844,6 +7533,7 @@
       ]
     },
     {
+      "Price": "110 WC",
       "Name": "Words as Weapons",
       "Category": "Weird",
       "Damage": [
@@ -6878,6 +7568,7 @@
       ]
     },
     {
+      "Price": "85 WC",
       "Name": "Bicycle",
       "Category": "Weird",
       "Damage": [
@@ -6912,6 +7603,7 @@
       ]
     },
     {
+      "Price": "70 WC",
       "Name": "Willy Fischy",
       "Category": "Weird",
       "Damage": [
@@ -6945,6 +7637,7 @@
       ]
     },
     {
+      "Price": "Limited",
       "Name": "Mega Soaker",
       "Category": "Weird",
       "Damage": [
@@ -6979,6 +7672,7 @@
       ]
     },
     {
+      "Price": "Free",
       "Name": "M1911",
       "Category": "Sidearm",
       "Damage": [
@@ -7014,6 +7708,7 @@
       ]
     },
     {
+      "Price": "5000",
       "Name": "Makarov",
       "Category": "Sidearm",
       "Damage": [
@@ -7048,6 +7743,7 @@
       ]
     },
     {
+      "Price": "7500",
       "Name": "Kolibri",
       "Category": "Sidearm",
       "Damage": [
@@ -7083,6 +7779,7 @@
       ]
     },
     {
+      "Price": "10000",
       "Name": "Tec-9",
       "Category": "Sidearm",
       "Damage": [
@@ -7118,6 +7815,7 @@
       ]
     },
     {
+      "Price": "15000",
       "Name": "T10",
       "Category": "Sidearm",
       "Damage": [
@@ -7153,6 +7851,7 @@
       ]
     },
     {
+      "Price": "21000",
       "Name": "ZIPO-22",
       "Category": "Sidearm",
       "Damage": [
@@ -7187,6 +7886,7 @@
       ]
     },
     {
+      "Price": "25000",
       "Name": "B17",
       "Category": "Sidearm",
       "Damage": [
@@ -7221,9 +7921,9 @@
       ]
     },
     {
+      "Price": "30000",
       "Name": "EG200",
       "Category": "Sidearm",
-      "Pellets": 13,
       "Damage": [
         117,
         26
@@ -7258,6 +7958,7 @@
       ]
     },
     {
+      "Price": "35000",
       "Name": "Beretta",
       "Category": "Sidearm",
       "Damage": [
@@ -7293,6 +7994,7 @@
       ]
     },
     {
+      "Price": "40000",
       "Name": "Type 14",
       "Category": "Sidearm",
       "Damage": [
@@ -7329,6 +8031,7 @@
       ]
     },
     {
+      "Price": "45000",
       "Name": "Luger",
       "Category": "Sidearm",
       "Damage": [
@@ -7363,6 +8066,7 @@
       ]
     },
     {
+      "Price": "50000",
       "Name": "Deagle",
       "Category": "Sidearm",
       "Damage": [
@@ -7398,6 +8102,7 @@
       ]
     },
     {
+      "Price": "100000",
       "Name": "Obreez",
       "Category": "Sidearm",
       "Damage": [
@@ -7433,6 +8138,7 @@
       ]
     },
     {
+      "Price": "Robux",
       "Name": "Cyber 3517",
       "Category": "Sidearm",
       "Damage": [
@@ -7467,6 +8173,7 @@
       ]
     },
     {
+      "Price": "Robux",
       "Name": "Raygun",
       "Category": "Sidearm",
       "Damage": [
@@ -7501,6 +8208,7 @@
       ]
     },
     {
+      "Price": "Limited",
       "Name": "Lobotomizer .44",
       "Category": "Sidearm",
       "Damage": [
@@ -7532,6 +8240,42 @@
       "Recoil_Aim_Vertical": [
         67.5,
         81
+      ]
+    },
+    {
+      "Price": "Limited",
+      "Name": "Quad-Jolly",
+      "Category": "Sidearm",
+      "Damage": [
+        10,
+        5
+      ],
+      "Dropoff_Studs": [
+        50,
+        100
+      ],
+      "Fire_Rate": 125,
+      "Hipfire_Spread": 0.8,
+      "ADS_Spread": 0.3,
+      "Time_To_Aim": 0.3,
+      "Detection_Radius": 40,
+      "Burst": 4,
+      "Equip_Time": 0.2,
+      "Recoil_Hip_Horizontal": [
+        -2,
+        2
+      ],
+      "Recoil_Hip_Vertical": [
+        3,
+        4
+      ],
+      "Recoil_Aim_Horizontal": [
+        -1,
+        1
+      ],
+      "Recoil_Aim_Vertical": [
+        1.5,
+        2
       ]
     }
   ]

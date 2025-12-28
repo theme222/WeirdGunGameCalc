@@ -13,8 +13,8 @@
 #include <chrono>
 #include <cstdint>
 #include <thread>
-#include <variant>
 #include <atomic>
+// #include <variant>
 // #include <iomanip>
 #include "include/json.hpp" // "nlohmann/json.hpp"
 #include "include/CLI11.hpp" // "CLIUtils"
@@ -1083,7 +1083,7 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
     if (gun.movementSpeedModifier != 0 || Input::detailed) os << "movementSpeed: " << gun.movementSpeedModifier << "\n";
     if (Input::detectionRadiusRange != fpair(NILRANGE) || Input::detailed) os << "detectionRadius: " << gun.detectionRadius << "\n";
     if (gun.TTKS() != 0 || Input::detailed) os << "TTK: " << gun.TTKS() << " Seconds\n";
-    if (Input::sortType == "DPS" || Input::detailed) os << "DPS: " << gun.DPM() / 60 << "\n";
+    if (Input::sortType == "DPS" || Input::detailed) os << "DPS: " << gun.DPS() << "\n";
     return os;
 }
 
