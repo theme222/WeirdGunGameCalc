@@ -43,20 +43,6 @@ recoilAimVertical: 6.1488 - 6.67584
 movementSpeed: 1.5
 TTK: 0.233737 Seconds
 
-[ Barrel: BAR, Magazine: MG42, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 20.0183 - 14.1844
-dropoffStuds: 160.38 - 343.035
-fireRate: 1005.16
-adsSpread: 0.282957
-hipfireSpread: 8.48872
-reloadTime: 5.5
-magazineSize: 50
-health: -15
-recoilHipVertical: 21.4286 - 23.5714
-recoilAimVertical: 7.5 - 8.14286
-movementSpeed: 3
-TTK: 0.238769 Seconds
-
 [ Barrel: BAR, Magazine: MG42, Grip: Double Barrel, Stock: M1897 Trench Shotgun, Core: Burton ]
 damage: 20.3475 - 14.4177
 dropoffStuds: 160.38 - 343.035
@@ -69,6 +55,20 @@ health: -7.5
 recoilHipVertical: 31.3589 - 34.4948
 recoilAimVertical: 10.9756 - 11.9164
 movementSpeed: 1
+TTK: 0.238769 Seconds
+
+[ Barrel: BAR, Magazine: MG42, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 20.0183 - 14.1844
+dropoffStuds: 160.38 - 343.035
+fireRate: 1005.16
+adsSpread: 0.282957
+hipfireSpread: 8.48872
+reloadTime: 5.5
+magazineSize: 50
+health: -15
+recoilHipVertical: 21.4286 - 23.5714
+recoilAimVertical: 7.5 - 8.14286
+movementSpeed: 3
 TTK: 0.238769 Seconds
 
 [ Barrel: BAR, Magazine: MG42, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Burton ]

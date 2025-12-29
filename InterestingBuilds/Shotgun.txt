@@ -12,18 +12,6 @@ recoilHipVertical: 57.096 - 85.644
 recoilAimVertical: 22.8384 - 34.2576
 movementSpeed: 1.12
 
-[ Barrel: M40, Magazine: BAR, Grip: Auto-5, Stock: MG42, Core: M1897 Trench Shotgun ]
-damage: 140.154 - 52.9684
-dropoffStuds: 80.1562 - 160.312
-fireRate: 158.76
-adsSpread: 1.65349
-hipfireSpread: 2.97628
-reloadTime: 4.4
-magazineSize: 20
-recoilHipVertical: 38.61 - 57.915
-recoilAimVertical: 15.444 - 23.166
-movementSpeed: 2.125
-
 [ Barrel: M40, Magazine: BAR, Grip: Auto-5, Stock: UNP-40, Core: M1897 Trench Shotgun ]
 damage: 140.154 - 52.9684
 dropoffStuds: 80.1562 - 160.312
@@ -48,41 +36,17 @@ recoilHipVertical: 38.61 - 57.915
 recoilAimVertical: 15.444 - 23.166
 movementSpeed: 2.5
 
-[ Barrel: M40, Magazine: BAR, Grip: AWM, Stock: JSG12, Core: M1897 Trench Shotgun ]
-damage: 143.711 - 54.3128
+[ Barrel: M40, Magazine: BAR, Grip: Auto-5, Stock: MG42, Core: M1897 Trench Shotgun ]
+damage: 140.154 - 52.9684
 dropoffStuds: 80.1562 - 160.312
-fireRate: 151.2
-adsSpread: 1.78153
-hipfireSpread: 3.20676
-reloadTime: 4.704
+fireRate: 158.76
+adsSpread: 1.65349
+hipfireSpread: 2.97628
+reloadTime: 4.4
 magazineSize: 20
-recoilHipVertical: 46.332 - 69.498
-recoilAimVertical: 18.5328 - 27.7992
-movementSpeed: 2.5
-
-[ Barrel: M40, Magazine: BAR, Grip: JSG12, Stock: AWM, Core: M1897 Trench Shotgun ]
-damage: 143.711 - 54.3128
-dropoffStuds: 80.1562 - 160.312
-fireRate: 151.2
-adsSpread: 1.72048
-hipfireSpread: 3.09686
-reloadTime: 3.7
-magazineSize: 20
-recoilHipVertical: 65.1222 - 97.6833
-recoilAimVertical: 26.0489 - 39.0733
-movementSpeed: 2.5
-
-[ Barrel: M40, Magazine: BAR, Grip: The Chief, Stock: JSG12, Core: M1897 Trench Shotgun ]
-damage: 146.699 - 55.4421
-dropoffStuds: 80.1562 - 160.312
-fireRate: 151.2
-adsSpread: 1.69962
-hipfireSpread: 3.05932
-reloadTime: 4.2
-magazineSize: 20
-recoilHipVertical: 57.915 - 86.8725
-recoilAimVertical: 23.166 - 34.749
-movementSpeed: 2.5
+recoilHipVertical: 38.61 - 57.915
+recoilAimVertical: 15.444 - 23.166
+movementSpeed: 2.125
 
 [ Barrel: M40, Magazine: BAR, Grip: JSG12, Stock: UNP-40, Core: M1897 Trench Shotgun ]
 damage: 143.711 - 54.3128
@@ -96,16 +60,28 @@ recoilHipVertical: 71.0424 - 106.564
 recoilAimVertical: 28.417 - 42.6254
 movementSpeed: 4.97
 
-[ Barrel: M40, Magazine: BAR, Grip: JSG12, Stock: M870, Core: M1897 Trench Shotgun ]
+[ Barrel: M40, Magazine: BAR, Grip: JSG12, Stock: AWM, Core: M1897 Trench Shotgun ]
 damage: 143.711 - 54.3128
 dropoffStuds: 80.1562 - 160.312
 fireRate: 151.2
-adsSpread: 1.7723
-hipfireSpread: 3.19014
-reloadTime: 4.2
+adsSpread: 1.72048
+hipfireSpread: 3.09686
+reloadTime: 3.7
 magazineSize: 20
-recoilHipVertical: 50.3217 - 75.4825
-recoilAimVertical: 20.1287 - 30.193
+recoilHipVertical: 65.1222 - 97.6833
+recoilAimVertical: 26.0489 - 39.0733
+movementSpeed: 2.5
+
+[ Barrel: M40, Magazine: BAR, Grip: AWM, Stock: JSG12, Core: M1897 Trench Shotgun ]
+damage: 143.711 - 54.3128
+dropoffStuds: 80.1562 - 160.312
+fireRate: 151.2
+adsSpread: 1.78153
+hipfireSpread: 3.20676
+reloadTime: 4.704
+magazineSize: 20
+recoilHipVertical: 46.332 - 69.498
+recoilAimVertical: 18.5328 - 27.7992
 movementSpeed: 2.5
 
 [ Barrel: M40, Magazine: BAR, Grip: Hell-Trooper-23, Stock: JSG12, Core: M1897 Trench Shotgun ]
@@ -119,4 +95,28 @@ magazineSize: 20
 recoilHipVertical: 42.9 - 64.35
 recoilAimVertical: 17.16 - 25.74
 movementSpeed: 4.6
+
+[ Barrel: M40, Magazine: BAR, Grip: JSG12, Stock: M870, Core: M1897 Trench Shotgun ]
+damage: 143.711 - 54.3128
+dropoffStuds: 80.1562 - 160.312
+fireRate: 151.2
+adsSpread: 1.7723
+hipfireSpread: 3.19014
+reloadTime: 4.2
+magazineSize: 20
+recoilHipVertical: 50.3217 - 75.4825
+recoilAimVertical: 20.1287 - 30.193
+movementSpeed: 2.5
+
+[ Barrel: M40, Magazine: BAR, Grip: The Chief, Stock: JSG12, Core: M1897 Trench Shotgun ]
+damage: 146.699 - 55.4421
+dropoffStuds: 80.1562 - 160.312
+fireRate: 151.2
+adsSpread: 1.69962
+hipfireSpread: 3.05932
+reloadTime: 4.2
+magazineSize: 20
+recoilHipVertical: 57.915 - 86.8725
+recoilAimVertical: 23.166 - 34.749
+movementSpeed: 2.5
 

@@ -1,19 +1,5 @@
 ./wggcalc -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
-[ Barrel: FC200SH, Magazine: M1919 .30 Cal, Grip: PineFire, Stock: Arisaka, Core: APS ]
-damage: 33.3716 - 17.7016
-dropoffStuds: 111.834 - 149.112
-fireRate: 523.8
-adsSpread: 1.30069
-hipfireSpread: 5.20277
-reloadTime: 11.8503
-magazineSize: 100
-health: -8
-recoilHipVertical: 63.35 - 90.5
-recoilAimVertical: 34.8425 - 49.775
-movementSpeed: 1.2
-TTK: 0.229095 Seconds
-
 [ Barrel: FC200SH, Magazine: M1919 .30 Cal, Grip: Banana, Stock: Arisaka, Core: APS ]
 damage: 33.3716 - 17.7016
 dropoffStuds: 111.834 - 149.112
@@ -26,6 +12,20 @@ health: -8
 recoilHipVertical: 56 - 80
 recoilAimVertical: 30.8 - 44
 movementSpeed: 0.7
+TTK: 0.229095 Seconds
+
+[ Barrel: FC200SH, Magazine: M1919 .30 Cal, Grip: PineFire, Stock: Arisaka, Core: APS ]
+damage: 33.3716 - 17.7016
+dropoffStuds: 111.834 - 149.112
+fireRate: 523.8
+adsSpread: 1.30069
+hipfireSpread: 5.20277
+reloadTime: 11.8503
+magazineSize: 100
+health: -8
+recoilHipVertical: 63.35 - 90.5
+recoilAimVertical: 34.8425 - 49.775
+movementSpeed: 1.2
 TTK: 0.229095 Seconds
 
 [ Barrel: Uzi, Magazine: XXL AKM, Grip: Mas-38, Stock: Kriss Vector, Core: PPSh-41 ]

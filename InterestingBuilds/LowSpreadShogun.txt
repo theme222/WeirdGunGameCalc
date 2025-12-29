@@ -1,18 +1,5 @@
 ./wggcalc -o InterestingBuilds/LowSpreadShogun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadAimMax 0.85 
 Current top 10 guns are: 
-[ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: MG42, Core: Spas-12 ]
-damage: 130.617 - -24.5931
-dropoffStuds: 38.715 - 89.0445
-fireRate: 223.1
-adsSpread: 0.842579
-hipfireSpread: 3.37032
-reloadTime: 2.2
-magazineSize: 30
-health: 6
-recoilHipVertical: 79.9425 - 127.908
-recoilAimVertical: 31.977 - 51.1632
-movementSpeed: 2.77
-
 [ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: JSG12, Core: Spas-12 ]
 damage: 130.617 - -24.5931
 dropoffStuds: 38.715 - 89.0445
@@ -26,18 +13,18 @@ recoilHipVertical: 79.9425 - 127.908
 recoilAimVertical: 31.977 - 51.1632
 movementSpeed: 3.145
 
-[ Barrel: Second Amendment, Magazine: Type 99, Grip: Auto-5, Stock: Auto-5, Core: Spas-12 ]
-damage: 131.065 - -0.825018
-dropoffStuds: 46.11 - 106.053
-fireRate: 213.444
-adsSpread: 0.841645
-hipfireSpread: 3.36658
-reloadTime: 3
+[ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: MG42, Core: Spas-12 ]
+damage: 130.617 - -24.5931
+dropoffStuds: 38.715 - 89.0445
+fireRate: 223.1
+adsSpread: 0.842579
+hipfireSpread: 3.37032
+reloadTime: 2.2
 magazineSize: 30
 health: 6
-recoilHipVertical: 86.526 - 138.442
-recoilAimVertical: 34.6104 - 55.3766
-movementSpeed: 2
+recoilHipVertical: 79.9425 - 127.908
+recoilAimVertical: 31.977 - 51.1632
+movementSpeed: 2.77
 
 [ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: Siberia-12, Core: Spas-12 ]
 damage: 111.218 - -25.7031
@@ -64,6 +51,19 @@ health: 6
 recoilHipVertical: 63.27 - 101.232
 recoilAimVertical: 25.308 - 40.4928
 movementSpeed: 5.6
+
+[ Barrel: Second Amendment, Magazine: Type 99, Grip: Auto-5, Stock: Auto-5, Core: Spas-12 ]
+damage: 131.065 - -0.825018
+dropoffStuds: 46.11 - 106.053
+fireRate: 213.444
+adsSpread: 0.841645
+hipfireSpread: 3.36658
+reloadTime: 3
+magazineSize: 30
+health: 6
+recoilHipVertical: 86.526 - 138.442
+recoilAimVertical: 34.6104 - 55.3766
+movementSpeed: 2
 
 [ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: M870 MCS, Core: Spas-12 ]
 damage: 130.617 - -24.5931

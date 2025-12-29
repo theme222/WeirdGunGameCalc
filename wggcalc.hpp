@@ -343,7 +343,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         // Set secondary class's forceStock to be None
         if (includedPrimary && includedSecondary)
             throw std::invalid_argument("Primary and Secondary categories cannot be included together. Please calculate them separately.");
-        if (includedSecondary && !forceParts_fast[3].empty())
+        if (includedSecondary && forcingStock)
             puts("WARNING: Force stock is not allowed in secondary category, reverting to None");
         if (includedSecondary)
             forceParts_fast[3][fastifyName["None"]] = true;

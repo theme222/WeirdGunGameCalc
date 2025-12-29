@@ -105,19 +105,6 @@ recoilHipVertical: 320.177 - 364.646
 recoilAimVertical: 144.08 - 164.091
 movementSpeed: -2.5
 
-[ Barrel: Light Gun, Magazine: Lightning Shot, Grip: Circuit Judge, Stock: FG-42, Core: Arisaka ]
-damage: 125.228 - 101.811
-dropoffStuds: 52 - 91
-fireRate: 21.7882
-adsSpread: 0.135136
-hipfireSpread: 10.8109
-reloadTime: 9.9
-magazineSize: 7
-health: -10
-recoilHipVertical: 183.06 - 208.485
-recoilAimVertical: 82.377 - 93.8183
-movementSpeed: 0.55
-
 [ Barrel: Light Gun, Magazine: Lightning Shot, Grip: Double Barrel, Stock: FG-42, Core: Arisaka ]
 damage: 123.473 - 100.383
 dropoffStuds: 52 - 91
@@ -130,4 +117,17 @@ health: -10
 recoilHipVertical: 329.508 - 375.273
 recoilAimVertical: 148.279 - 168.873
 movementSpeed: -1.45
+
+[ Barrel: Light Gun, Magazine: Lightning Shot, Grip: Circuit Judge, Stock: FG-42, Core: Arisaka ]
+damage: 125.228 - 101.811
+dropoffStuds: 52 - 91
+fireRate: 21.7882
+adsSpread: 0.135136
+hipfireSpread: 10.8109
+reloadTime: 9.9
+magazineSize: 7
+health: -10
+recoilHipVertical: 183.06 - 208.485
+recoilAimVertical: 82.377 - 93.8183
+movementSpeed: 0.55
 
