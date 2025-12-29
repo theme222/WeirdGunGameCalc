@@ -31,7 +31,7 @@ Download (or clone) this repository and get the [latest
 release](https://github.com/theme222/WeirdGunGameCalc/releases) that corresponds
 to your operating system (Currently only supported on Linux and Windows) and
 place it in the directory of the repository. Run the binary / executable on
-the command line by running `./Calculator` or `Calculator.exe` depending on your
+the command line by running `./wggcalc` or `wggcalc.exe` depending on your
 operating system. Provide filters as flags by adding `--<filter_name> <value>`
 to the command. To test if you installed it correctly, run it with `--help`.
 
