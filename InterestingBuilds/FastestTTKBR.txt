@@ -92,30 +92,30 @@ recoilAimVertical: 3.15 - 6.93
 movementSpeed: -3.5
 TTK: 0.165937 Seconds
 
-[ Barrel: BAR, Magazine: Scar H, Grip: BAR, Stock: VSSR, Core: X-Blaster ]
-damage: 50.4113 - 26.1985
-dropoffStuds: 165.351 - 244.965
+[ Barrel: BAR, Magazine: Scar H, Grip: Circuit Judge, Stock: Musket, Core: X-Blaster ]
+damage: 51.6667 - 26.4218
+dropoffStuds: 162.587 - 240.87
 fireRate: 360
-adsSpread: 0.275212
-hipfireSpread: 4.81621
-reloadTime: 4.5
+adsSpread: 0.331478
+hipfireSpread: 5.80086
+reloadTime: 4.815
 magazineSize: 20
-recoilHipVertical: 6.258 - 13.7676
-recoilAimVertical: 3.129 - 6.8838
-movementSpeed: -7.5
+recoilHipVertical: 5.97 - 13.134
+recoilAimVertical: 2.985 - 6.567
+movementSpeed: -4.5
 TTK: 0.166667 Seconds
 
-[ Barrel: BAR, Magazine: Scar H, Grip: Circuit Judge, Stock: VSSR, Core: X-Blaster ]
-damage: 51.6667 - 26.851
-dropoffStuds: 165.351 - 244.965
+[ Barrel: BAR, Magazine: Scar H, Grip: Circuit Judge, Stock: M-16, Core: X-Blaster ]
+damage: 51.6667 - 26.4218
+dropoffStuds: 162.587 - 240.87
 fireRate: 360
-adsSpread: 0.371057
-hipfireSpread: 6.4935
+adsSpread: 0.331478
+hipfireSpread: 5.80086
 reloadTime: 4.5
 magazineSize: 20
-recoilHipVertical: 5.5875 - 12.2925
-recoilAimVertical: 2.79375 - 6.14625
-movementSpeed: -2.5
+recoilHipVertical: 6.6 - 14.52
+recoilAimVertical: 3.3 - 7.26
+movementSpeed: -0.5
 TTK: 0.166667 Seconds
 
 [ Barrel: BAR, Magazine: Scar H, Grip: Circuit Judge, Stock: AK-12, Core: X-Blaster ]

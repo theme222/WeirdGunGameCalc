@@ -4,7 +4,7 @@ set -e # Stops on error
 # This are commands for my setup specifically. You can config these example commands and run them in any order you want.
 
 # You don't need to recompile obviously.
-g++ -Iinclude -std=c++20 Calculator.cpp -o wggcalc -O3 -ffast-math -flto -Werror -static
+g++ -Iinclude -std=c++20 wggcalc-cli.cpp -o wggcalc -O3 -ffast-math -flto -Werror -static
 
 # This doesn't need to be re ran every time because it saves it's results in Data already.
 python ParseSheet.py
@@ -42,7 +42,7 @@ BANSEMI=(--bc "FC200SH" "M1 Carbine" "G11" "Loaf" "ZIPO-2222") # This is a shell
 ./wggcalc -o $IB/LowSpreadShogun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadAimMax 0.85
 ./wggcalc -o $IB/HipfireShotgun.txt -i Shotgun --sort RECOILHIP --damageMin 100 --speedMin 0 --spreadHipMax 2 --fireRateMin 50
 ./wggcalc -o $IB/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80
-./wggcalc -o $IB/AutoShotgun.txt -i Shotgun --sort FIRERATE --fc Siberia-12 --damageMin 120 --spreadAimMax 2.8 --speedMin 0 --rangeMin 45 --magazineMin 20 --recoilAimMax 70
+./wggcalc -o $IB/AutoShotgun.txt -i Shotgun --sort FIRERATE --fc Siberia-12 --damageMin 60 --spreadAimMax 2 --speedMin 0 --rangeMin 50 --magazineMin 20 --recoilAimMax 100
 ####################### SHOTGUNS #######################
 
 ####################### SECONDARIES #######################

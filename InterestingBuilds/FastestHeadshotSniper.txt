@@ -6,10 +6,10 @@ dropoffStuds: 242.97 - 364.455
 fireRate: 77.4
 adsSpread: 0.149763
 hipfireSpread: 5.99052
-reloadTime: 4.7277
+reloadTime: 4.59
 magazineSize: 60
-recoilHipVertical: 83.16 - 110.88
-recoilAimVertical: 33.264 - 44.352
+recoilHipVertical: 85.6548 - 114.206
+recoilAimVertical: 34.2619 - 45.6826
 movementSpeed: 3
 TTK: 0.775194 Seconds
 

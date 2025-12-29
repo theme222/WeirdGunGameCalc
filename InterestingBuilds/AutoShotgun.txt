@@ -1,2 +1,140 @@
-./wggcalc -o InterestingBuilds/AutoShotgun.txt -i Shotgun --sort FIRERATE --fc Siberia-12 --damageMin 120 --spreadAimMax 2.8 --speedMin 0 --rangeMin 45 --magazineMin 20 --recoilAimMax 70 
+./wggcalc -o InterestingBuilds/AutoShotgun.txt -i Shotgun --sort FIRERATE --fc Siberia-12 --damageMin 60 --spreadAimMax 2 --speedMin 0 --rangeMin 50 --magazineMin 20 --recoilAimMax 100 
 Current top 10 guns are: 
+[ Barrel: MarrowMaker, Magazine: BAR, Grip: PPSh-41, Stock: JSG12, Core: Siberia-12 ]
+damage: 60.3992 - 10.098
+dropoffStuds: 52.1016 - 115.781
+pellets: 2
+fireRate: 638.361
+adsSpread: 1.77616
+hipfireSpread: 5.32849
+reloadTime: 4.83
+magazineSize: 20
+recoilHipVertical: 91.3 - 105.6
+recoilAimVertical: 73.92 - 85.58
+TTK: 0.0939907 Seconds
+
+[ Barrel: MarrowMaker, Magazine: BAR, Grip: Quad-Jolly, Stock: MG42, Core: Siberia-12 ]
+damage: 60.3992 - 9.34347
+dropoffStuds: 51.32 - 114.045
+pellets: 2
+fireRate: 622.777
+adsSpread: 1.90359
+hipfireSpread: 5.71076
+reloadTime: 4.4
+magazineSize: 20
+recoilHipVertical: 91.3 - 105.6
+recoilAimVertical: 73.92 - 85.58
+movementSpeed: 1.575
+TTK: 0.0963427 Seconds
+
+[ Barrel: MarrowMaker, Magazine: BAR, Grip: Quad-Jolly, Stock: JSG12, Core: Siberia-12 ]
+damage: 60.3992 - 9.34347
+dropoffStuds: 51.32 - 114.045
+pellets: 2
+fireRate: 622.777
+adsSpread: 1.89783
+hipfireSpread: 5.69349
+reloadTime: 4.2
+magazineSize: 20
+recoilHipVertical: 91.3 - 105.6
+recoilAimVertical: 73.92 - 85.58
+movementSpeed: 1.95
+TTK: 0.0963427 Seconds
+
+[ Barrel: MarrowMaker, Magazine: BAR, Grip: Broza, Stock: JSG12, Core: Siberia-12 ]
+damage: 60.3992 - 10.098
+dropoffStuds: 52.1016 - 115.781
+pellets: 2
+fireRate: 616.183
+adsSpread: 1.89783
+hipfireSpread: 5.69349
+reloadTime: 4.452
+magazineSize: 20
+recoilHipVertical: 91.3 - 105.6
+recoilAimVertical: 73.92 - 85.58
+TTK: 0.0973736 Seconds
+
+[ Barrel: MarrowMaker, Magazine: BAR, Grip: Hell-Trooper-23, Stock: P90, Core: Siberia-12 ]
+damage: 60.3992 - 10.098
+dropoffStuds: 52.1016 - 115.781
+pellets: 2
+fireRate: 614.984
+adsSpread: 1.90102
+hipfireSpread: 5.70306
+reloadTime: 3.86
+magazineSize: 20
+recoilHipVertical: 102.256 - 118.272
+recoilAimVertical: 82.7904 - 95.8496
+movementSpeed: 1.05
+TTK: 0.0975635 Seconds
+
+[ Barrel: MarrowMaker, Magazine: BAR, Grip: Raygun, Stock: P90, Core: Siberia-12 ]
+damage: 60.3992 - 8.33745
+dropoffStuds: 50.278 - 111.729
+pellets: 2
+fireRate: 614.984
+adsSpread: 1.97596
+hipfireSpread: 5.92787
+reloadTime: 4
+magazineSize: 20
+recoilHipVertical: 102.256 - 118.272
+recoilAimVertical: 82.7904 - 95.8496
+movementSpeed: 0.575
+TTK: 0.0975635 Seconds
+
+[ Barrel: MarrowMaker, Magazine: BAR, Grip: Arisaka, Stock: P90, Core: Siberia-12 ]
+damage: 60.3992 - 10.098
+dropoffStuds: 52.1016 - 115.781
+pellets: 2
+fireRate: 614.984
+adsSpread: 1.9888
+hipfireSpread: 5.96641
+reloadTime: 4
+magazineSize: 20
+health: -6
+recoilHipVertical: 102.256 - 118.272
+recoilAimVertical: 82.7904 - 95.8496
+movementSpeed: 2.95
+TTK: 0.0975635 Seconds
+
+[ Barrel: MarrowMaker, Magazine: BAR, Grip: FG-42, Stock: JSG12, Core: Siberia-12 ]
+damage: 60.3992 - 10.098
+dropoffStuds: 52.1016 - 115.781
+pellets: 2
+fireRate: 613.786
+adsSpread: 1.89783
+hipfireSpread: 5.69349
+reloadTime: 4.326
+magazineSize: 20
+recoilHipVertical: 83.6308 - 96.7296
+recoilAimVertical: 67.7107 - 78.3913
+TTK: 0.097754 Seconds
+
+[ Barrel: MarrowMaker, Magazine: BAR, Grip: Arisaka, Stock: STG-44, Core: Siberia-12 ]
+damage: 60.3992 - 10.098
+dropoffStuds: 52.1016 - 115.781
+pellets: 2
+fireRate: 611.987
+adsSpread: 1.99197
+hipfireSpread: 5.97591
+reloadTime: 4.16
+magazineSize: 20
+health: -6
+recoilHipVertical: 91.3 - 105.6
+recoilAimVertical: 73.92 - 85.58
+movementSpeed: 1
+TTK: 0.0980412 Seconds
+
+[ Barrel: MarrowMaker, Magazine: BAR, Grip: AUTO-12, Stock: JSG12, Core: Siberia-12 ]
+damage: 60.3992 - 8.58895
+dropoffStuds: 50.5385 - 112.308
+pellets: 2
+fireRate: 611.388
+adsSpread: 1.89783
+hipfireSpread: 5.69349
+reloadTime: 4.536
+magazineSize: 20
+recoilHipVertical: 71.214 - 82.368
+recoilAimVertical: 57.6576 - 66.7524
+TTK: 0.0981374 Seconds
+

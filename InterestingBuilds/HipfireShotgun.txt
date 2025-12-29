@@ -1,134 +1,122 @@
 ./wggcalc -o InterestingBuilds/HipfireShotgun.txt -i Shotgun --sort RECOILHIP --damageMin 100 --speedMin 0 --spreadHipMax 2 --fireRateMin 50 
 Current top 10 guns are: 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: M60, Stock: M870 MCS, Core: JSG12 ]
-damage: 165.987 - -31.7382
-dropoffStuds: 40.6725 - 81.345
-pellets: 12
-fireRate: 62.7
-adsSpread: 1.88061
-hipfireSpread: 1.88061
-reloadTime: 0.5775
-magazineSize: 5
-recoilHipVertical: 88.9075 - 104.817
-recoilAimVertical: 57.7431 - 68.1312
-movementSpeed: 0.6
-
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: M870 MCS, Core: JSG12 ]
-damage: 161.992 - -30.9743
-dropoffStuds: 40.6725 - 81.345
-pellets: 12
-fireRate: 65.835
-adsSpread: 1.71221
-hipfireSpread: 1.71221
+[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Auto-5, Stock: M870 MCS, Core: M1897 Trench Shotgun ]
+damage: 100.653 - -0.629087
+dropoffStuds: 51 - 102
+fireRate: 159.6
+adsSpread: 1.04846
+hipfireSpread: 1.88722
 reloadTime: 0.55
 magazineSize: 5
-recoilHipVertical: 90.1597 - 106.294
-recoilAimVertical: 58.5564 - 69.0908
-movementSpeed: 3.1
+recoilHipVertical: 14.3856 - 21.5784
+recoilAimVertical: 5.75424 - 8.63136
+movementSpeed: 2.6
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: P08 Artillery, Stock: M870 MCS, Core: JSG12 ]
-damage: 165.987 - -31.7382
-dropoffStuds: 40.6725 - 81.345
-pellets: 12
-fireRate: 62.7
-adsSpread: 1.88446
-hipfireSpread: 1.88446
-reloadTime: 0.594
-magazineSize: 5
-recoilHipVertical: 91.0613 - 107.357
-recoilAimVertical: 59.1419 - 69.7818
-movementSpeed: 1.1
-
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: MarrowMaker, Stock: M870 MCS, Core: JSG12 ]
-damage: 165.987 - -33.7155
-dropoffStuds: 40.2658 - 80.5316
-pellets: 12
-fireRate: 57.9975
-adsSpread: 1.90467
-hipfireSpread: 1.90467
+[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Auto-5, Stock: MG42, Core: M1897 Trench Shotgun ]
+damage: 100.653 - -0.629087
+dropoffStuds: 51 - 102
+fireRate: 168
+adsSpread: 1.06474
+hipfireSpread: 1.91652
 reloadTime: 0.55
 magazineSize: 5
-health: 2
-recoilHipVertical: 100.177 - 118.104
-recoilAimVertical: 65.0627 - 76.7676
-movementSpeed: 3.1
+recoilHipVertical: 19.1808 - 28.7712
+recoilAimVertical: 7.67232 - 11.5085
+movementSpeed: 5.225
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: JSG12, Stock: M870 MCS, Core: JSG12 ]
-damage: 159.811 - -30.5572
-dropoffStuds: 40.6725 - 81.345
-pellets: 12
-fireRate: 62.7
-adsSpread: 1.92456
-hipfireSpread: 1.92456
+[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Auto-5, Stock: JSG12, Core: M1897 Trench Shotgun ]
+damage: 100.653 - -0.629087
+dropoffStuds: 51 - 102
+fireRate: 168
+adsSpread: 1.06148
+hipfireSpread: 1.91066
+reloadTime: 0.525
+magazineSize: 5
+recoilHipVertical: 19.1808 - 28.7712
+recoilAimVertical: 7.67232 - 11.5085
+movementSpeed: 5.6
+
+[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Auto-5, Stock: FC200SH, Core: M1897 Trench Shotgun ]
+damage: 100.653 - 1.49785
+dropoffStuds: 52.071 - 104.142
+fireRate: 159.6
+adsSpread: 1.09013
+hipfireSpread: 1.96224
+reloadTime: 0.5
+magazineSize: 5
+recoilHipVertical: 19.1808 - 28.7712
+recoilAimVertical: 7.67232 - 11.5085
+movementSpeed: 4
+
+[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Tap, Stock: M870 MCS, Core: JSG12 ]
+damage: 116.109 - -6.28925
+dropoffStuds: 46.75 - 93.5
+fireRate: 71.25
+adsSpread: 1.80517
+hipfireSpread: 1.80517
 reloadTime: 0.55
 magazineSize: 5
-recoilHipVertical: 100.177 - 118.104
-recoilAimVertical: 65.0627 - 76.7676
-movementSpeed: 3.1
+recoilHipVertical: 26.5734 - 31.3286
+recoilAimVertical: 17.2587 - 20.3636
+movementSpeed: 0.0999999
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: QBZ-95, Stock: M870 MCS, Core: JSG12 ]
-damage: 165.987 - -31.7382
-dropoffStuds: 40.6725 - 81.345
-pellets: 12
-fireRate: 62.7
-adsSpread: 1.94893
-hipfireSpread: 1.94893
-reloadTime: 0.5775
+[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Auto-5, Stock: AWM, Core: M1897 Trench Shotgun ]
+damage: 100.653 - -0.629087
+dropoffStuds: 51 - 102
+fireRate: 168
+adsSpread: 1.08102
+hipfireSpread: 1.94583
+reloadTime: 0.4625
 magazineSize: 5
-recoilHipVertical: 100.177 - 118.104
-recoilAimVertical: 65.0627 - 76.7676
-movementSpeed: 1.3
+recoilHipVertical: 21.0989 - 31.6483
+recoilAimVertical: 8.43955 - 12.6593
+movementSpeed: 2.6
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: PPSh-41, Stock: M870 MCS, Core: JSG12 ]
-damage: 165.987 - -31.7382
-dropoffStuds: 40.6725 - 81.345
-pellets: 12
-fireRate: 66.7755
-adsSpread: 1.97203
-hipfireSpread: 1.97203
-reloadTime: 0.6325
-magazineSize: 5
-recoilHipVertical: 100.177 - 118.104
-recoilAimVertical: 65.0627 - 76.7676
-movementSpeed: 3.1
-
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Mas-38, Stock: M870 MCS, Core: JSG12 ]
-damage: 165.987 - -45.579
-dropoffStuds: 37.8254 - 75.6509
-pellets: 12
-fireRate: 65.1453
-adsSpread: 1.90948
-hipfireSpread: 1.90948
+[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: The Chief, Stock: M870 MCS, Core: M1897 Trench Shotgun ]
+damage: 105.354 - -0.658465
+dropoffStuds: 51 - 102
+fireRate: 152
+adsSpread: 1.08102
+hipfireSpread: 1.94583
 reloadTime: 0.55
 magazineSize: 5
-recoilHipVertical: 100.177 - 118.104
-recoilAimVertical: 65.0627 - 76.7676
-movementSpeed: 4.4
+recoilHipVertical: 21.5784 - 32.3676
+recoilAimVertical: 8.63136 - 12.947
+movementSpeed: 2.6
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Arisaka, Stock: M870 MCS, Core: JSG12 ]
-damage: 165.987 - -31.7382
-dropoffStuds: 40.6725 - 81.345
-pellets: 12
-fireRate: 62.7
-adsSpread: 1.93354
-hipfireSpread: 1.93354
+[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: JSG12, Stock: M870 MCS, Core: M1897 Trench Shotgun ]
+damage: 103.208 - -0.645053
+dropoffStuds: 51 - 102
+fireRate: 152
+adsSpread: 1.0745
+hipfireSpread: 1.93411
 reloadTime: 0.55
 magazineSize: 5
-health: -6
-recoilHipVertical: 100.177 - 118.104
-recoilAimVertical: 65.0627 - 76.7676
+recoilHipVertical: 22.0579 - 33.0869
+recoilAimVertical: 8.82317 - 13.2348
+movementSpeed: 5.6
+
+[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Mega Soaker, Stock: M870 MCS, Core: JSG12 ]
+damage: 116.109 - -6.28925
+dropoffStuds: 46.75 - 93.5
+fireRate: 71.25
+adsSpread: 1.75828
+hipfireSpread: 1.75828
+reloadTime: 0.55
+magazineSize: 5
+recoilHipVertical: 28.8511 - 34.014
+recoilAimVertical: 18.738 - 22.1091
 movementSpeed: 7.1
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Siberia-12, Stock: M870 MCS, Core: JSG12 ]
-damage: 165.987 - -36.6813
-dropoffStuds: 39.6557 - 79.3114
-pellets: 12
-fireRate: 64.8945
-adsSpread: 1.88542
-hipfireSpread: 1.88542
-reloadTime: 0.55
+[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: AUTO-12, Stock: AUTO-12, Core: JSG12 ]
+damage: 116.109 - -9.9612
+dropoffStuds: 45.3475 - 90.695
+fireRate: 77.6475
+adsSpread: 1.96097
+hipfireSpread: 1.96097
+reloadTime: 0.5589
 magazineSize: 5
-recoilHipVertical: 100.177 - 118.104
-recoilAimVertical: 65.0627 - 76.7676
-movementSpeed: 3.1
+recoilHipVertical: 29.2156 - 34.4436
+recoilAimVertical: 18.9747 - 22.3883
+movementSpeed: 0.6
 

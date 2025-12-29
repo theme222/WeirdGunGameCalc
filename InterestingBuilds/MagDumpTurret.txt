@@ -1,19 +1,5 @@
 ./wggcalc -o InterestingBuilds/MagDumpTurret.txt -i SMG AR LMG --magazineMin 75 --speedMin 0 --damageMax 99.99 --spreadAimMax 1.5 --recoilAimMax 50 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
-[ Barrel: FC200SH, Magazine: M1919 .30 Cal, Grip: Banana, Stock: Arisaka, Core: APS ]
-damage: 33.3716 - 17.7016
-dropoffStuds: 111.834 - 149.112
-fireRate: 523.8
-adsSpread: 1.49482
-hipfireSpread: 5.9793
-reloadTime: 10.773
-magazineSize: 100
-health: -8
-recoilHipVertical: 56 - 80
-recoilAimVertical: 30.8 - 44
-movementSpeed: 0.7
-TTK: 0.229095 Seconds
-
 [ Barrel: FC200SH, Magazine: M1919 .30 Cal, Grip: PineFire, Stock: Arisaka, Core: APS ]
 damage: 33.3716 - 17.7016
 dropoffStuds: 111.834 - 149.112
@@ -26,6 +12,20 @@ health: -8
 recoilHipVertical: 63.35 - 90.5
 recoilAimVertical: 34.8425 - 49.775
 movementSpeed: 1.2
+TTK: 0.229095 Seconds
+
+[ Barrel: FC200SH, Magazine: M1919 .30 Cal, Grip: Banana, Stock: Arisaka, Core: APS ]
+damage: 33.3716 - 17.7016
+dropoffStuds: 111.834 - 149.112
+fireRate: 523.8
+adsSpread: 1.49482
+hipfireSpread: 5.9793
+reloadTime: 10.773
+magazineSize: 100
+health: -8
+recoilHipVertical: 56 - 80
+recoilAimVertical: 30.8 - 44
+movementSpeed: 0.7
 TTK: 0.229095 Seconds
 
 [ Barrel: Uzi, Magazine: XXL AKM, Grip: Mas-38, Stock: Kriss Vector, Core: PPSh-41 ]
@@ -41,6 +41,32 @@ recoilAimVertical: 23.04 - 46.08
 movementSpeed: 1.6
 TTK: 0.232957 Seconds
 
+[ Barrel: Spray Can, Magazine: M60, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Hex Spitter ]
+damage: 20.604 - 18.1111
+dropoffStuds: 121.485 - 242.97
+fireRate: 1010.35
+adsSpread: 1.27355
+hipfireSpread: 4.45743
+reloadTime: 7.475
+magazineSize: 75
+recoilHipVertical: 44.652 - 59.536
+recoilAimVertical: 22.326 - 29.768
+movementSpeed: 3.25
+TTK: 0.237542 Seconds
+
+[ Barrel: Spray Can, Magazine: M60, Grip: M1 Garand, Stock: M1897 Trench Shotgun, Core: Hex Spitter ]
+damage: 20.604 - 18.1111
+dropoffStuds: 121.485 - 242.97
+fireRate: 996.303
+adsSpread: 1.3822
+hipfireSpread: 4.83771
+reloadTime: 6.5
+magazineSize: 75
+recoilHipVertical: 44.652 - 59.536
+recoilAimVertical: 22.326 - 29.768
+movementSpeed: 0.25
+TTK: 0.240891 Seconds
+
 [ Barrel: FC200SH, Magazine: M1919 .30 Cal, Grip: Croissant, Stock: Arisaka, Core: APS ]
 damage: 33.3716 - 17.7016
 dropoffStuds: 111.834 - 149.112
@@ -54,6 +80,32 @@ recoilHipVertical: 56 - 80
 recoilAimVertical: 30.8 - 44
 movementSpeed: 0.7
 TTK: 0.241153 Seconds
+
+[ Barrel: Spray Can, Magazine: M60, Grip: Negev, Stock: M1897 Trench Shotgun, Core: Hex Spitter ]
+damage: 20.604 - 18.1111
+dropoffStuds: 121.485 - 242.97
+fireRate: 992.557
+adsSpread: 1.45097
+hipfireSpread: 5.07839
+reloadTime: 6.5
+magazineSize: 75
+recoilHipVertical: 51.3498 - 68.4664
+recoilAimVertical: 25.6749 - 34.2332
+movementSpeed: 0.75
+TTK: 0.2418 Seconds
+
+[ Barrel: Spray Can, Magazine: M60, Grip: PPSh-41, Stock: Spas-12, Core: Hex Spitter ]
+damage: 20.604 - 18.0612
+dropoffStuds: 119.055 - 238.111
+fireRate: 983.643
+adsSpread: 1.14163
+hipfireSpread: 3.99571
+reloadTime: 7.475
+magazineSize: 75
+recoilHipVertical: 36.6 - 48.8
+recoilAimVertical: 18.3 - 24.4
+movementSpeed: 0.25
+TTK: 0.243991 Seconds
 
 [ Barrel: Spray Can, Magazine: XXL AKM, Grip: PPSh-41, Stock: Speed Coil, Core: Maple Badger ]
 damage: 16.9167 - 7.58849
@@ -69,71 +121,16 @@ recoilAimVertical: 11.232 - 14.976
 movementSpeed: 2.5
 TTK: 0.244461 Seconds
 
-[ Barrel: Spray Can, Magazine: M60, Grip: Banana, Stock: M1897 Trench Shotgun, Core: MG42 ]
-damage: 12.8775 - 6.89458
-dropoffStuds: 121.485 - 263.217
-fireRate: 1702.5
-adsSpread: 1.05998
-hipfireSpread: 10.5998
+[ Barrel: Spray Can, Magazine: M60, Grip: Mas-38, Stock: M1897 Trench Shotgun, Core: Hex Spitter ]
+damage: 20.604 - 17.9366
+dropoffStuds: 112.981 - 225.962
+fireRate: 980.759
+adsSpread: 1.21923
+hipfireSpread: 4.26729
 reloadTime: 6.5
 magazineSize: 75
-health: 13
-recoilHipVertical: 63.1082 - 90.4947
-recoilAimVertical: 31.5541 - 45.2474
-movementSpeed: 1
-TTK: 0.246696 Seconds
-
-[ Barrel: Type 14, Magazine: M1919 .30 Cal, Grip: L8, Stock: Arisaka, Core: APS ]
-damage: 33.3563 - 15.6901
-dropoffStuds: 101.043 - 134.724
-fireRate: 486
-adsSpread: 1.30069
-hipfireSpread: 5.20277
-reloadTime: 9.975
-magazineSize: 100
-health: -20
-recoilHipVertical: 60.9 - 87
-recoilAimVertical: 33.495 - 47.85
-movementSpeed: 1.55
-TTK: 0.246914 Seconds
-
-[ Barrel: Uzi, Magazine: XXL AKM, Grip: Hell-Trooper-23, Stock: Kriss Vector, Core: PPSh-41 ]
-damage: 14.6071 - 7.98131
-dropoffStuds: 109.25 - 122.36
-fireRate: 1457.88
-adsSpread: 1.45547
-hipfireSpread: 3.88125
-reloadTime: 8.64
-magazineSize: 90
-recoilHipVertical: 28.8 - 57.6
-recoilAimVertical: 23.04 - 46.08
-movementSpeed: 2
-TTK: 0.246935 Seconds
-
-[ Barrel: Spray Can, Magazine: M60, Grip: M1891, Stock: Kriss Vector, Core: MG42 ]
-damage: 12.8775 - 6.59544
-dropoffStuds: 115.411 - 250.057
-fireRate: 1693.71
-adsSpread: 1.24535
-hipfireSpread: 12.4535
-reloadTime: 7.475
-magazineSize: 75
-health: 13
-recoilHipVertical: 56.2542 - 80.6664
-recoilAimVertical: 28.1271 - 40.3332
-movementSpeed: 1.345
-TTK: 0.247976 Seconds
-
-[ Barrel: Uzi, Magazine: XXL AKM, Grip: Mas-38, Stock: MP18, Core: PPSh-41 ]
-damage: 14.6071 - 7.65255
-dropoffStuds: 103.742 - 116.19
-fireRate: 1444.25
-adsSpread: 1.11307
-hipfireSpread: 2.96818
-reloadTime: 9.72
-magazineSize: 90
-recoilHipVertical: 28.8 - 57.6
-recoilAimVertical: 23.04 - 46.08
-movementSpeed: 1.8
-TTK: 0.249264 Seconds
+recoilHipVertical: 44.652 - 59.536
+recoilAimVertical: 22.326 - 29.768
+movementSpeed: 4.83
+TTK: 0.244708 Seconds
 

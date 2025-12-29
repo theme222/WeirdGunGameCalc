@@ -13,19 +13,6 @@ recoilAimVertical: 62.8891 - 76.8645
 movementSpeed: 2.475
 TTK: 0.230361 Seconds
 
-[ Barrel: Uzi, Magazine: Lee Enfield, Grip: VSSR, Stock: M1897 Trench Shotgun, Core: Cyber 3517 ]
-damage: 50.0228 - 27.9349
-dropoffStuds: 75.2652 - 110.389
-fireRate: 259.704
-adsSpread: 0.355858
-hipfireSpread: 7.11716
-reloadTime: 4
-magazineSize: 10
-recoilHipVertical: 76.9973 - 94.1077
-recoilAimVertical: 61.5978 - 75.2862
-movementSpeed: 1
-TTK: 0.231032 Seconds
-
 [ Barrel: Mustard, Magazine: Tommy, Grip: APS, Stock: Fedorov, Core: Cyber 3517 ]
 damage: 50.6044 - 27.8887
 dropoffStuds: 75 - 110
@@ -52,18 +39,6 @@ recoilAimVertical: 64.512 - 78.848
 movementSpeed: 2
 TTK: 0.233899 Seconds
 
-[ Barrel: ZIPO-2222, Magazine: Lee Enfield, Grip: P90, Stock: M1897 Trench Shotgun, Core: Cyber 3517 ]
-damage: 52.1717 - 29.3332
-dropoffStuds: 76.14 - 111.672
-fireRate: 256.055
-adsSpread: 0.460522
-hipfireSpread: 9.21044
-reloadTime: 4
-magazineSize: 10
-recoilHipVertical: 73.1383 - 89.3913
-recoilAimVertical: 58.5107 - 71.513
-TTK: 0.234325 Seconds
-
 [ Barrel: Mustard, Magazine: M110, Grip: Kriss Vector, Stock: Kriss Vector, Core: Cyber 3517 ]
 damage: 50.4509 - 29.1448
 dropoffStuds: 78.66 - 115.368
@@ -76,20 +51,6 @@ recoilHipVertical: 77.9688 - 95.2952
 recoilAimVertical: 62.375 - 76.2362
 movementSpeed: 5.85
 TTK: 0.235393 Seconds
-
-[ Barrel: MarrowMaker, Magazine: Lee Enfield, Grip: Circuit Judge, Stock: Spas-12, Core: Cyber 3517 ]
-damage: 51.8307 - 29.4519
-dropoffStuds: 77.3955 - 113.513
-pellets: 2
-fireRate: 254.61
-adsSpread: 0.446743
-hipfireSpread: 8.93487
-reloadTime: 4
-magazineSize: 10
-recoilHipVertical: 74.25 - 90.75
-recoilAimVertical: 59.4 - 72.6
-movementSpeed: -0.075
-TTK: 0.235655 Seconds
 
 [ Barrel: Mustard, Magazine: M110, Grip: FG-42, Stock: Kriss Vector, Core: Cyber 3517 ]
 damage: 50.4509 - 29.1448
@@ -104,6 +65,45 @@ recoilAimVertical: 62.3065 - 76.1524
 movementSpeed: 2.475
 TTK: 0.23631 Seconds
 
+[ Barrel: Mustard, Magazine: Tommy, Grip: Spas-12, Stock: M870, Core: Cyber 3517 ]
+damage: 50.6044 - 27.8887
+dropoffStuds: 75 - 110
+fireRate: 252.326
+adsSpread: 0.378305
+hipfireSpread: 7.5661
+reloadTime: 3.15
+magazineSize: 20
+recoilHipVertical: 81.225 - 99.275
+recoilAimVertical: 64.98 - 79.42
+movementSpeed: 0.35
+TTK: 0.237787 Seconds
+
+[ Barrel: Mustard, Magazine: Tommy, Grip: Spas-12, Stock: Willy Fischy, Core: Cyber 3517 ]
+damage: 50.6044 - 27.8887
+dropoffStuds: 75 - 110
+fireRate: 252.326
+adsSpread: 0.418949
+hipfireSpread: 8.37899
+reloadTime: 2.85
+magazineSize: 20
+recoilHipVertical: 81 - 99
+recoilAimVertical: 64.8 - 79.2
+movementSpeed: 0.35
+TTK: 0.237787 Seconds
+
+[ Barrel: Mustard, Magazine: Tommy, Grip: Spas-12, Stock: Tommy, Core: Cyber 3517 ]
+damage: 50.6044 - 27.8887
+dropoffStuds: 75 - 110
+fireRate: 252.326
+adsSpread: 0.390811
+hipfireSpread: 7.81622
+reloadTime: 3.15
+magazineSize: 20
+recoilHipVertical: 74.475 - 91.025
+recoilAimVertical: 59.58 - 72.82
+movementSpeed: 0.725
+TTK: 0.237787 Seconds
+
 [ Barrel: Mustard, Magazine: Tommy, Grip: Spas-12, Stock: Mas-38, Core: Cyber 3517 ]
 damage: 50.6044 - 27.8887
 dropoffStuds: 75 - 110
@@ -117,16 +117,16 @@ recoilAimVertical: 63.36 - 77.44
 movementSpeed: 2.825
 TTK: 0.237787 Seconds
 
-[ Barrel: Mustard, Magazine: Tommy, Grip: Spas-12, Stock: M-16, Core: Cyber 3517 ]
+[ Barrel: Mustard, Magazine: Tommy, Grip: Spas-12, Stock: Famas F1, Core: Cyber 3517 ]
 damage: 50.6044 - 27.8887
 dropoffStuds: 75 - 110
 fireRate: 252.326
 adsSpread: 0.418949
 hipfireSpread: 8.37899
-reloadTime: 3
+reloadTime: 3.21
 magazineSize: 20
-recoilHipVertical: 81.225 - 99.275
-recoilAimVertical: 64.98 - 79.42
+recoilHipVertical: 78.3 - 95.7
+recoilAimVertical: 62.64 - 76.56
 movementSpeed: 0.35
 TTK: 0.237787 Seconds
 

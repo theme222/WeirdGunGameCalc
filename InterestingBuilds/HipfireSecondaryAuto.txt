@@ -56,9 +56,9 @@ TTK: 0.375217 Seconds
 damage: 11.2635 - 6.22294
 dropoffStuds: 20.1874 - 95.8903
 fireRate: 1266.22
-adsSpread: 0.380797
-hipfireSpread: 0.930836
-reloadTime: 2.12
+adsSpread: 0.403531
+hipfireSpread: 0.986409
+reloadTime: 2
 magazineSize: 30
 recoilHipVertical: 97.1129 - 135.958
 recoilAimVertical: 58.2678 - 81.5749

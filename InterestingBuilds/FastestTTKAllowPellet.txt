@@ -15,20 +15,6 @@ recoilAimVertical: 8.48534 - 9.21266
 movementSpeed: 4
 TTK: 0.229841 Seconds
 
-[ Barrel: Mustard, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.3942 - 10.4774
-dropoffStuds: 180 - 385
-fireRate: 1540.19
-adsSpread: 0.360663
-hipfireSpread: 10.8199
-reloadTime: 6.2
-magazineSize: 70
-health: -7.5
-recoilHipVertical: 17.568 - 19.3248
-recoilAimVertical: 6.1488 - 6.67584
-movementSpeed: 1.5
-TTK: 0.233737 Seconds
-
 [ Barrel: Spray Can, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
 damage: 14.844 - 10.3605
 dropoffStuds: 160.2 - 342.65
@@ -41,6 +27,20 @@ health: -7.5
 recoilHipVertical: 17.568 - 19.3248
 recoilAimVertical: 6.1488 - 6.67584
 movementSpeed: 4
+TTK: 0.233737 Seconds
+
+[ Barrel: Mustard, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 14.3942 - 10.4774
+dropoffStuds: 180 - 385
+fireRate: 1540.19
+adsSpread: 0.360663
+hipfireSpread: 10.8199
+reloadTime: 6.2
+magazineSize: 70
+health: -7.5
+recoilHipVertical: 17.568 - 19.3248
+recoilAimVertical: 6.1488 - 6.67584
+movementSpeed: 1.5
 TTK: 0.233737 Seconds
 
 [ Barrel: BAR, Magazine: MG42, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: Burton ]
@@ -57,18 +57,18 @@ recoilAimVertical: 7.5 - 8.14286
 movementSpeed: 3
 TTK: 0.238769 Seconds
 
-[ Barrel: BAR, Magazine: MG42, Grip: Chauchat, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 20.2282 - 14.3331
+[ Barrel: BAR, Magazine: MG42, Grip: Double Barrel, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 20.3475 - 14.4177
 dropoffStuds: 160.38 - 343.035
 fireRate: 1005.16
-adsSpread: 0.32519
-hipfireSpread: 9.7557
+adsSpread: 0.282957
+hipfireSpread: 8.48872
 reloadTime: 5.5
 magazineSize: 50
 health: -7.5
-recoilHipVertical: 19.1638 - 21.0801
-recoilAimVertical: 6.70732 - 7.28223
-movementSpeed: 0.5
+recoilHipVertical: 31.3589 - 34.4948
+recoilAimVertical: 10.9756 - 11.9164
+movementSpeed: 1
 TTK: 0.238769 Seconds
 
 [ Barrel: BAR, Magazine: MG42, Grip: Circuit Judge, Stock: M1897 Trench Shotgun, Core: Burton ]
@@ -85,18 +85,18 @@ recoilAimVertical: 6.09756 - 6.62021
 movementSpeed: 3
 TTK: 0.238769 Seconds
 
-[ Barrel: BAR, Magazine: MG42, Grip: Double Barrel, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 20.3475 - 14.4177
+[ Barrel: BAR, Magazine: MG42, Grip: Chauchat, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 20.2282 - 14.3331
 dropoffStuds: 160.38 - 343.035
 fireRate: 1005.16
-adsSpread: 0.282957
-hipfireSpread: 8.48872
+adsSpread: 0.32519
+hipfireSpread: 9.7557
 reloadTime: 5.5
 magazineSize: 50
 health: -7.5
-recoilHipVertical: 31.3589 - 34.4948
-recoilAimVertical: 10.9756 - 11.9164
-movementSpeed: 1
+recoilHipVertical: 19.1638 - 21.0801
+recoilAimVertical: 6.70732 - 7.28223
+movementSpeed: 0.5
 TTK: 0.238769 Seconds
 
 [ Barrel: Spray Can, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]

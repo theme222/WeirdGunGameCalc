@@ -84,20 +84,6 @@ recoilAimVertical: 3.60594 - 8.41386
 movementSpeed: 6
 TTK: 0.261643 Seconds
 
-[ Barrel: FC200SH, Magazine: Scar H, Grip: Circuit Judge, Stock: Fedorov, Core: Type 14 ]
-damage: 33.9584 - 19.6841
-dropoffStuds: 40.9152 - 93.5205
-fireRate: 456.361
-adsSpread: 0.345576
-hipfireSpread: 0.967613
-reloadTime: 5.2002
-magazineSize: 20
-health: -10
-recoilHipVertical: 7.0125 - 16.3625
-recoilAimVertical: 1.4025 - 3.2725
-movementSpeed: 7
-TTK: 0.26295 Seconds
-
 [ Barrel: FC200SH, Magazine: Scar H, Grip: Double Barrel, Stock: Fedorov, Core: Type 14 ]
 damage: 33.4451 - 19.3865
 dropoffStuds: 40.9152 - 93.5205
@@ -110,6 +96,20 @@ health: -10
 recoilHipVertical: 12.6225 - 29.4525
 recoilAimVertical: 2.5245 - 5.8905
 movementSpeed: 5
+TTK: 0.26295 Seconds
+
+[ Barrel: FC200SH, Magazine: Scar H, Grip: Circuit Judge, Stock: Fedorov, Core: Type 14 ]
+damage: 33.9584 - 19.6841
+dropoffStuds: 40.9152 - 93.5205
+fireRate: 456.361
+adsSpread: 0.345576
+hipfireSpread: 0.967613
+reloadTime: 5.2002
+magazineSize: 20
+health: -10
+recoilHipVertical: 7.0125 - 16.3625
+recoilAimVertical: 1.4025 - 3.2725
+movementSpeed: 7
 TTK: 0.26295 Seconds
 
 [ Barrel: FC200SH, Magazine: Scar H, Grip: Double Barrel, Stock: AR-8X, Core: Type 14 ]

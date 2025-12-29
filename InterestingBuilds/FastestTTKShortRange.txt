@@ -12,18 +12,18 @@ recoilHipVertical: 40 - 55
 recoilAimVertical: 24 - 33
 TTK: 0.200578 Seconds
 
-[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Fedorov, Core: Bicycle ]
-damage: 50.1181 - 19.6247
-dropoffStuds: 160.2 - 220.275
-fireRate: 280.768
-adsSpread: 0.717973
-hipfireSpread: 12.5645
-reloadTime: 3.21
-magazineSize: 30
-recoilHipVertical: 36 - 49.5
-recoilAimVertical: 21.6 - 29.7
-movementSpeed: 1
-TTK: 0.2137 Seconds
+[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: The Chief, Stock: M1897 Trench Shotgun, Core: Hex Spitter ]
+damage: 20.1657 - 17.7258
+dropoffStuds: 121.485 - 242.97
+fireRate: 1123.65
+adsSpread: 0.961809
+hipfireSpread: 3.36633
+reloadTime: 5.4
+magazineSize: 60
+recoilHipVertical: 41.5044 - 55.3392
+recoilAimVertical: 20.7522 - 27.6696
+movementSpeed: 5.5
+TTK: 0.21359 Seconds
 
 [ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: AR-8X, Core: Bicycle ]
 damage: 50.1181 - 19.6247
@@ -51,6 +51,19 @@ recoilAimVertical: 19.2 - 26.4
 movementSpeed: 6.3
 TTK: 0.2137 Seconds
 
+[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Fedorov, Core: Bicycle ]
+damage: 50.1181 - 19.6247
+dropoffStuds: 160.2 - 220.275
+fireRate: 280.768
+adsSpread: 0.717973
+hipfireSpread: 12.5645
+reloadTime: 3.21
+magazineSize: 30
+recoilHipVertical: 36 - 49.5
+recoilAimVertical: 21.6 - 29.7
+movementSpeed: 1
+TTK: 0.2137 Seconds
+
 [ Barrel: Spray Can, Magazine: MP18, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: PP-19 Bizon ]
 damage: 20.0277 - 9.74764
 dropoffStuds: 105.287 - 121.485
@@ -64,19 +77,6 @@ recoilAimVertical: 13.3956 - 22.326
 movementSpeed: 2.5
 TTK: 0.215907 Seconds
 
-[ Barrel: Spray Can, Magazine: MAC-10, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Sten gun ]
-damage: 20.0889 - 8.81604
-dropoffStuds: 108.758 - 138.039
-fireRate: 1105.83
-adsSpread: 0.749383
-hipfireSpread: 2.30579
-reloadTime: 2.3
-magazineSize: 30
-recoilHipVertical: 49.41 - 62.586
-recoilAimVertical: 22.7286 - 28.8225
-movementSpeed: 6.9
-TTK: 0.217032 Seconds
-
 [ Barrel: Spray Can, Magazine: MAC-10, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: PP-19 Bizon ]
 damage: 16.9983 - 8.51335
 dropoffStuds: 108.758 - 125.49
@@ -87,6 +87,19 @@ reloadTime: 2.3
 magazineSize: 30
 recoilHipVertical: 49.41 - 82.35
 recoilAimVertical: 14.823 - 24.705
+movementSpeed: 6.9
+TTK: 0.217032 Seconds
+
+[ Barrel: Spray Can, Magazine: MAC-10, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Sten gun ]
+damage: 20.0889 - 8.81604
+dropoffStuds: 108.758 - 138.039
+fireRate: 1105.83
+adsSpread: 0.749383
+hipfireSpread: 2.30579
+reloadTime: 2.3
+magazineSize: 30
+recoilHipVertical: 49.41 - 62.586
+recoilAimVertical: 22.7286 - 28.8225
 movementSpeed: 6.9
 TTK: 0.217032 Seconds
 
@@ -116,17 +129,4 @@ recoilHipVertical: 13.3224 - 14.6546
 recoilAimVertical: 4.66284 - 5.06251
 movementSpeed: 3.5
 TTK: 0.218516 Seconds
-
-[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: MAC-10, Core: Bicycle ]
-damage: 50.1181 - 19.6247
-dropoffStuds: 160.2 - 220.275
-fireRate: 274.208
-adsSpread: 0.832277
-hipfireSpread: 14.5648
-reloadTime: 3
-magazineSize: 30
-recoilHipVertical: 40 - 55
-recoilAimVertical: 24 - 33
-movementSpeed: 7.6
-TTK: 0.218812 Seconds
 

@@ -41,20 +41,6 @@ recoilAimVertical: 5.6364 - 6.11952
 movementSpeed: 6.8
 TTK: 0.259899 Seconds
 
-[ Barrel: BAR, Magazine: DP-27, Grip: Negev, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 20.6099 - 15.8149
-dropoffStuds: 207.9 - 444.675
-fireRate: 917.879
-adsSpread: 0.241717
-hipfireSpread: 7.2515
-reloadTime: 4.8
-magazineSize: 47
-health: -7.5
-recoilHipVertical: 21.3817 - 23.5199
-recoilAimVertical: 7.4836 - 8.12505
-movementSpeed: 2.5
-TTK: 0.261472 Seconds
-
 [ Barrel: BAR, Magazine: DP-27, Grip: M1891, Stock: M1897 Trench Shotgun, Core: Burton ]
 damage: 20.6099 - 15.8149
 dropoffStuds: 207.9 - 444.675
@@ -64,9 +50,23 @@ hipfireSpread: 8.96986
 reloadTime: 5.52
 magazineSize: 47
 health: -7.5
-recoilHipVertical: 18.5928 - 20.4521
-recoilAimVertical: 6.50748 - 7.06526
+recoilHipVertical: 16.3968 - 18.0365
+recoilAimVertical: 5.73888 - 6.23078
 movementSpeed: 8.2
+TTK: 0.261472 Seconds
+
+[ Barrel: BAR, Magazine: DP-27, Grip: Negev, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 20.6099 - 15.8149
+dropoffStuds: 207.9 - 444.675
+fireRate: 917.879
+adsSpread: 0.241717
+hipfireSpread: 7.2515
+reloadTime: 4.8
+magazineSize: 47
+health: -7.5
+recoilHipVertical: 18.8563 - 20.742
+recoilAimVertical: 6.59971 - 7.1654
+movementSpeed: 2.5
 TTK: 0.261472 Seconds
 
 [ Barrel: BAR, Magazine: DP-27, Grip: M1897 Trench Shotgun, Stock: M1897 Trench Shotgun, Core: Burton ]
@@ -78,8 +78,8 @@ hipfireSpread: 8.28252
 reloadTime: 5.04
 magazineSize: 47
 health: -7.5
-recoilHipVertical: 18.5928 - 20.4521
-recoilAimVertical: 6.50748 - 7.06526
+recoilHipVertical: 16.3968 - 18.0365
+recoilAimVertical: 5.73888 - 6.23078
 movementSpeed: 5
 TTK: 0.262689 Seconds
 
@@ -92,8 +92,8 @@ hipfireSpread: 6.90783
 reloadTime: 4.8
 magazineSize: 47
 health: -7.5
-recoilHipVertical: 18.5928 - 20.4521
-recoilAimVertical: 6.50748 - 7.06526
+recoilHipVertical: 16.3968 - 18.0365
+recoilAimVertical: 5.73888 - 6.23078
 movementSpeed: 2
 TTK: 0.26441 Seconds
 
@@ -106,8 +106,8 @@ hipfireSpread: 6.46105
 reloadTime: 5.52
 magazineSize: 47
 health: -7.5
-recoilHipVertical: 18.5928 - 20.4521
-recoilAimVertical: 6.50748 - 7.06526
+recoilHipVertical: 16.3968 - 18.0365
+recoilAimVertical: 5.73888 - 6.23078
 movementSpeed: 5
 TTK: 0.265155 Seconds
 
@@ -134,8 +134,8 @@ hipfireSpread: 6.30236
 reloadTime: 4.8
 magazineSize: 47
 health: -7.5
-recoilHipVertical: 24.7985 - 27.2784
-recoilAimVertical: 8.67949 - 9.42344
+recoilHipVertical: 21.8696 - 24.0565
+recoilAimVertical: 7.65435 - 8.31044
 movementSpeed: 1.55
 TTK: 0.267345 Seconds
 

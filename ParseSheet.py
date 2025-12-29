@@ -2,7 +2,7 @@ import os
 import csv
 import json
 from pathlib import Path
-from FileFormatter import Penalties
+# from FileFormatter import Penalties
 
 SHEETID = '1Kc9aME3xlUC_vV5dFRe457OchqUOrwuiX_pQykjCF68'
 SHEETFOLDER = Path('SheetData')
@@ -275,6 +275,49 @@ def Compare():
         MyData = json.load(file)
 
     DeepCompare(SheetData, MyData)
+
+# Anything with current_ is part of the Data used for calculations. Not part of the FileFormatter.py which is why there are two category variables
+# The number is the index for current_penalties
+current_categories = {
+    "Primary": {
+        "AR": 0,
+        "Sniper": 1,
+        "SMG": 2,
+        "Shotgun": 3,
+        "LMG": 4,
+        "Weird": 5,
+        "BR": 6,
+    },
+    "Secondary": {
+        "Sidearm": 7
+    }
+}
+
+current_penalties = [
+    [1.00, 0.70, 0.79, 0.75, 0.75, 1.00, 0.80, 0.65],
+    [0.70, 1.00, 0.60, 0.60, 0.80, 1.00, 0.85, 0.50],
+    [0.80, 0.60, 1.00, 0.65, 0.65, 1.00, 0.70, 0.70],
+    [0.70, 0.50, 0.65, 1.00, 0.75, 1.00, 0.60, 0.65],
+    [0.75, 0.80, 0.65, 0.75, 1.00, 1.00, 0.85, 0.50],
+    [1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00],
+    [0.80, 0.85, 0.70, 0.60, 0.85, 1.00, 1.00, 0.65],
+    [0.65, 0.50, 0.75, 0.65, 0.50, 1.00, 0.65, 1.00],
+]
+
+def Penalties():
+
+    """
+    It doesn't really look that good when dumping from a script but you can look at the current penalties in this python script instead haha
+    The penalties will get accessed based on this string to index conversion table.
+    """
+
+    print("Running Penalties")
+
+    with open("Data/Categories.json", 'w') as file:
+        json.dump(current_categories, file, indent=2)
+
+    with open("Data/Penalties.json", 'w') as file:
+        json.dump(current_penalties, file)
 
 
 def main():

@@ -70,20 +70,6 @@ recoilAimVertical: 4.73458 - 5.1404
 movementSpeed: 1.5
 TTK: 0.241938 Seconds
 
-[ Barrel: M870 MCS, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 16.7183 - 11.8961
-dropoffStuds: 169.2 - 361.9
-fireRate: 1232.16
-adsSpread: 0.229104
-hipfireSpread: 6.87313
-reloadTime: 6.82
-magazineSize: 70
-health: -7.5
-recoilHipVertical: 17.568 - 19.3248
-recoilAimVertical: 6.1488 - 6.67584
-movementSpeed: 1.5
-TTK: 0.243476 Seconds
-
 [ Barrel: M870 Breacher, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
 damage: 17.393 - 12.1869
 dropoffStuds: 162 - 346.5
@@ -96,6 +82,20 @@ health: -7.5
 recoilHipVertical: 17.568 - 19.3248
 recoilAimVertical: 6.1488 - 6.67584
 movementSpeed: 3.75
+TTK: 0.243476 Seconds
+
+[ Barrel: M870 MCS, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 16.7183 - 11.8961
+dropoffStuds: 169.2 - 361.9
+fireRate: 1232.16
+adsSpread: 0.229104
+hipfireSpread: 6.87313
+reloadTime: 6.82
+magazineSize: 70
+health: -7.5
+recoilHipVertical: 17.568 - 19.3248
+recoilAimVertical: 6.1488 - 6.67584
+movementSpeed: 1.5
 TTK: 0.243476 Seconds
 
 [ Barrel: BAR, Magazine: Lewis, Grip: Lee Enfield, Stock: M1897 Trench Shotgun, Core: Burton ]
