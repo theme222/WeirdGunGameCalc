@@ -56,8 +56,9 @@ This is the full list of flags supported:
 -f,   --file TEXT            Path to the directory containing the json file (Default: Data)
 -o,   --output TEXT          Path to the output file (Default: Results.txt)
 -t,   --threads INT          Number of threads to use [1, 64] (Default: AUTODETECT)
--s,   --sort TEXT            Sorting type (TTK, FIRERATE, ADSSPREAD, HIPFIRESPREAD, RECOIL,
-                             SPEED, HEALTH, MAGAZINE, RELOAD, DPS) (Default: TTK)
+-s, --sort TEXT Sorting type ( TTK DAMAGE DAMAGEEND FIRERATE PELLETS SPREADAIM
+                               SPREADHIP RECOILAIM RECOILHIP HEALTH RANGE RANGEEND DETECTIONRADIUS TIMETOAIM
+                               BURST SPEED MAGAZINE RELOAD DPS ) (Default: TTK)
 -n,   --number INT           Number of top guns to display (Default: 10)
 -m,   --method TEXT          Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)
 -i,   --include TEXT         Categories to include in the calculation (AR, Sniper, LMG,
