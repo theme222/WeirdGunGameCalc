@@ -1,30 +1,29 @@
-// Why did I decide to write this in c++? well... I wanted to challenge myself because python would just be wayy too boring
-// It's also because I wanted the speed of c but I decided writing structs was a bad idea
-// who am I kidding it's because I hate myself
+// This is the header file for wggcalc. Whole lotta inlines
 #include <iostream>
 #include <stdexcept>
 #include <string>
-#include <fstream>
+#include <map>
 #include <filesystem>
+#include <algorithm>
 #include <queue>
 #include <sys/types.h>
 #include <vector>
 #include <cmath>
-#include <chrono>
 #include <cstdint>
 #include <thread>
 #include <atomic>
+#include "include/json.hpp"
 // #include <variant>
 // #include <iomanip>
-#include "include/json.hpp" // "nlohmann/json.hpp"
-#include "include/CLI11.hpp" // "CLIUtils"
 
-#define chrono std::chrono
-using json = nlohmann::json;
+#ifndef __WGGCALC_HPP__
+#define __WGGCALC_HPP__
+#define __WGGCALC_VERSION__ "1.7.0"
+
 using fpair = std::pair<float, float>;
+using json = nlohmann::json;
 using std::size_t;
 
-#define WGGCALC_VERSION "1.7.0"
 #define DEFAULTVECTORSIZE 100000lu
 #define ALLMULTFLAG 4294967295 // 2^32 - 1
 #define NILMIN -69420.5f
@@ -37,64 +36,64 @@ const fpair NILRANGE_P = NILRANGE;
 
 namespace Input
 {
-    std::filesystem::path fileDir = "Data";
-    std::string outpath = "Results.txt";
-    std::string sortType = "TTK";
-    std::string method = "DYNAMICPRUNE";
-    std::string sortPriority = "AUTO"; // HIGHEST, LOWEST, AUTO
+    inline std::filesystem::path fileDir = "Data";
+    inline std::string outpath = "Results.txt";
+    inline std::string sortType = "TTK";
+    inline std::string method = "DYNAMICPRUNE";
+    inline std::string sortPriority = "AUTO"; // HIGHEST, LOWEST, AUTO
 
     // flags
-    bool version = false;
-    bool detailed = false;
-    bool debug = false;
-    bool testInstall = false;
+    inline bool version = false;
+    inline bool detailed = false;
+    inline bool debug = false;
+    inline bool testInstall = false;
 
     // These handle if the users force a specific part to be included
-    std::vector<std::string> forceBarrel;
-    bool forcingBarrel = false;
-    std::vector<std::string> forceMagazine;
-    bool forcingMagazine = false;
-    std::vector<std::string> forceCore;
-    bool forcingCore = false;
-    std::vector<std::string> forceStock;
-    bool forcingStock = false;
-    std::vector<std::string> forceGrip;
-    bool forcingGrip = false;
+    inline std::vector<std::string> forceBarrel;
+    inline bool forcingBarrel = false;
+    inline std::vector<std::string> forceMagazine;
+    inline bool forcingMagazine = false;
+    inline std::vector<std::string> forceCore;
+    inline bool forcingCore = false;
+    inline std::vector<std::string> forceStock;
+    inline bool forcingStock = false;
+    inline std::vector<std::string> forceGrip;
+    inline bool forcingGrip = false;
 
-    std::vector<std::string> banBarrel;
-    std::vector<std::string> banMagazine;
-    std::vector<std::string> banCore;
-    std::vector<std::string> banStock;
-    std::vector<std::string> banGrip;
+    inline std::vector<std::string> banBarrel;
+    inline std::vector<std::string> banMagazine;
+    inline std::vector<std::string> banCore;
+    inline std::vector<std::string> banStock;
+    inline std::vector<std::string> banGrip;
 
-    std::vector<std::string> includeCategories;
+    inline std::vector<std::string> includeCategories;
 
-    uint64_t threadsToMake = std::clamp(std::thread::hardware_concurrency(), 1u, 64u);
-    uint64_t howManyTopGunsToDisplay = 10;
-    int playerMaxHealth = 100;
+    inline uint64_t threadsToMake = std::clamp(std::thread::hardware_concurrency(), 1u, 64u);
+    inline uint64_t howManyTopGunsToDisplay = 10;
+    inline int playerMaxHealth = 100;
 
     const int TOTALFILTERCOUNT = 19;
-    fpair damageRange = NILRANGE;
-    fpair damageEndRange = NILRANGE;
-    fpair magazineRange = NILRANGE;
-    fpair spreadHipRange = NILRANGE;
-    fpair spreadAimRange = NILRANGE;
-    fpair recoilHipRange = NILRANGE;
-    fpair recoilAimRange = NILRANGE;
-    fpair movementSpeedRange = NILRANGE;
-    fpair fireRateRange = NILRANGE;
-    fpair healthRange = NILRANGE;
-    fpair pelletRange = NILRANGE;
-    fpair timeToAimRange = NILRANGE;
-    fpair reloadRange = NILRANGE;
-    fpair detectionRadiusRange = NILRANGE;
-    fpair dropoffStudsRange = NILRANGE;
-    fpair dropoffStudsEndRange = NILRANGE;
-    fpair burstRange = NILRANGE;
-    fpair TTKRange = NILRANGE;
-    fpair DPSRange = NILRANGE;
+    inline fpair damageRange = NILRANGE;
+    inline fpair damageEndRange = NILRANGE;
+    inline fpair magazineRange = NILRANGE;
+    inline fpair spreadHipRange = NILRANGE;
+    inline fpair spreadAimRange = NILRANGE;
+    inline fpair recoilHipRange = NILRANGE;
+    inline fpair recoilAimRange = NILRANGE;
+    inline fpair movementSpeedRange = NILRANGE;
+    inline fpair fireRateRange = NILRANGE;
+    inline fpair healthRange = NILRANGE;
+    inline fpair pelletRange = NILRANGE;
+    inline fpair timeToAimRange = NILRANGE;
+    inline fpair reloadRange = NILRANGE;
+    inline fpair detectionRadiusRange = NILRANGE;
+    inline fpair dropoffStudsRange = NILRANGE;
+    inline fpair dropoffStudsEndRange = NILRANGE;
+    inline fpair burstRange = NILRANGE;
+    inline fpair TTKRange = NILRANGE;
+    inline fpair DPSRange = NILRANGE;
 
-    void FormatInputs()
+    inline void FormatInputs()
     {
         forcingBarrel = !forceBarrel.empty();
         forcingMagazine = !forceMagazine.empty();
@@ -113,22 +112,22 @@ namespace Input
 
 namespace Fast // Namespace to contain any indexing that uses the integer representation of categories and mults (I'm also just realizing that this is just giving an id to parts)
 {
-    int categoryCount; // Gets set to fastifyCategory.size() in the main function
-    int primaryCategoryCount;
-    int secondaryCategoryCount;
+    inline int categoryCount; // Gets set to fastifyCategory.size() in the main function
+    inline int primaryCategoryCount;
+    inline int secondaryCategoryCount;
 
-    bool includedPrimary = false;
-    bool includedSecondary = false;
+    inline bool includedPrimary = false;
+    inline bool includedSecondary = false;
 
     // penalties[coreCategory][partCategory]
-    std::vector<std::vector<float>> penalties;
+    inline std::vector<std::vector<float>> penalties;
 
-    std::map<std::string, int> fastifyCategory;
+    inline std::map<std::string, int> fastifyCategory;
 
-    std::vector<bool> includeCategories_fast;
+    inline std::vector<bool> includeCategories_fast;
     // 0: core, 1: magazine, 2: barrel, 3: stock, 4: grip
-    std::vector<bool> forceParts_fast[5];
-    std::vector<bool> banParts_fast[5];
+    inline std::vector<bool> forceParts_fast[5];
+    inline std::vector<bool> banParts_fast[5];
 
     const int TOTALMULTFLAGS = 20;
     const int TOTALPROPERTYFLAGS = 20;
@@ -234,11 +233,11 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
 
     // 1, 50, 0.01, 0.25
-    float reverseQuadraticDamage[51];
+    inline float reverseQuadraticDamage[51];
     // 1, 55, 0.005, 0.20
-    float quadraticSpread[56];
+    inline float quadraticSpread[56];
 
-    float ClampQuadratic(float pelletCount, MultFlags flag)
+    inline float ClampQuadratic(float pelletCount, MultFlags flag)
     {
         if (flag == DAMAGE)
         {
@@ -252,7 +251,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         }
     }
 
-    void InitializeClampQuadratic()
+    inline void InitializeClampQuadratic()
     {
         using namespace Input;
         // Precompute because pow and sqrt is scary
@@ -277,16 +276,16 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     }
 
-    std::map<std::string, int> fastifyName = {};
+    inline std::map<std::string, int> fastifyName = {};
     inline int fastifyNoneName() {return fastifyName.size() - 1;} // Returns the name_fast of the "None" part which is always the last part added.
 
-    void PartExists(std::string partName)
+    inline void PartExists(std::string partName)
     {
         if (!fastifyName.contains(partName))
             throw std::invalid_argument("Part " + partName + " doesn't exist");
     }
 
-    void InitializeIncludeCategories()
+    inline void InitializeIncludeCategories()
     {
         includeCategories_fast.resize(categoryCount, false);
         for (auto& category : Input::includeCategories)
@@ -304,7 +303,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         }
     }
 
-    void InitializeForceAndBanParts()
+    inline void InitializeForceAndBanParts()
     {
         using namespace Input;
 
@@ -377,7 +376,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     }
 
-    bool RangeFilter(const float value, const fpair& range) // Checks if value is within range
+    inline bool RangeFilter(const float value, const fpair& range) // Checks if value is within range
     {
         if (range != NILRANGE_P) return range.first <= value && value <= range.second;
         else if (range.first != NILMIN) return range.first <= value;
@@ -413,72 +412,8 @@ public:
     fpair recoilAimVertical = fpair(0, 0);
 
     Core() {}
-    Core(const json &jsonObject) : category(jsonObject["Category"]), name(jsonObject["Name"])
-    {
-        category_fast = Fast::fastifyCategory[category];
-        if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
-        name_fast = Fast::fastifyName[name];
+    Core(const json &jsonObject);
 
-        // Second damage stat will now be calculated using the falloff factor since range stat effects that
-        if (!jsonObject.contains("Damage"))
-            {}
-        else if (jsonObject["Damage"].is_array())
-            damage = jsonObject["Damage"][0];
-        else
-            damage = jsonObject["Damage"];
-
-        if (jsonObject.contains("Dropoff_Studs"))
-        {
-            dropoffStuds.first = jsonObject["Dropoff_Studs"][0];
-            dropoffStuds.second = jsonObject["Dropoff_Studs"][1];
-        }
-
-        if (jsonObject.contains("Falloff_Factor")) // Falloff_Factor is not a publicly available property so there only exists data from #update-log channel on discord
-            falloffFactor = jsonObject["Falloff_Factor"];
-        else if (jsonObject.contains("Damage") && jsonObject["Damage"].is_array())
-            falloffFactor = ((float)jsonObject["Damage"][1] - (float)jsonObject["Damage"][0]) / (float)jsonObject["Damage"][0];
-
-        if (jsonObject.contains("Fire_Rate"))
-            fireRate = jsonObject["Fire_Rate"];
-        if (jsonObject.contains("Hipfire_Spread"))
-            hipfireSpread = jsonObject["Hipfire_Spread"];
-        if (jsonObject.contains("ADS_Spread"))
-            adsSpread = jsonObject["ADS_Spread"];
-        if (jsonObject.contains("Time_To_Aim"))
-            timeToAim = jsonObject["Time_To_Aim"];
-        if (jsonObject.contains("Movement_Speed_Modifier"))
-            movementSpeedModifier = jsonObject["Movement_Speed_Modifier"];
-        if (jsonObject.contains("Pellets"))
-            pellets = jsonObject["Pellets"];
-        if (jsonObject.contains("Burst"))
-            burst = jsonObject["Burst"];
-        if (jsonObject.contains("Detection_Radius"))
-            detectionRadius = jsonObject["Detection_Radius"];
-        if (jsonObject.contains("Health"))
-            health = jsonObject["Health"];
-
-        if (jsonObject.contains("Recoil_Hip_Horizontal"))
-        {
-            recoilHipHorizontal.first = jsonObject["Recoil_Hip_Horizontal"][0];
-            recoilHipHorizontal.second = jsonObject["Recoil_Hip_Horizontal"][1];
-        }
-        if (jsonObject.contains("Recoil_Hip_Vertical"))
-        {
-            recoilHipVertical.first = jsonObject["Recoil_Hip_Vertical"][0];
-            recoilHipVertical.second = jsonObject["Recoil_Hip_Vertical"][1];
-        }
-        if (jsonObject.contains("Recoil_Aim_Horizontal"))
-        {
-            recoilAimHorizontal.first = jsonObject["Recoil_Aim_Horizontal"][0];
-            recoilAimHorizontal.second = jsonObject["Recoil_Aim_Horizontal"][1];
-        }
-        if (jsonObject.contains("Recoil_Aim_Vertical"))
-        {
-            recoilAimVertical.first = jsonObject["Recoil_Aim_Vertical"][0];
-            recoilAimVertical.second = jsonObject["Recoil_Aim_Vertical"][1];
-        }
-
-    }
 };
 
 
@@ -535,33 +470,7 @@ public:
         return part;
     }
 
-    Part(const json &jsonObject): category(jsonObject["Category"]), name(jsonObject["Name"])
-    {
-        category_fast = Fast::fastifyCategory[category];
-        if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
-        name_fast = Fast::fastifyName[name];
-
-        if (jsonObject.contains("Damage"))
-            damage = jsonObject["Damage"];
-        if (jsonObject.contains("Fire_Rate"))
-            fireRate = jsonObject["Fire_Rate"];
-        if (jsonObject.contains("Spread"))
-            spread = jsonObject["Spread"];
-        if (jsonObject.contains("Recoil"))
-            recoil = jsonObject["Recoil"];
-        if (jsonObject.contains("Pellets"))
-            pellets = jsonObject["Pellets"];
-        if (jsonObject.contains("Movement_Speed"))
-            movementSpeed = jsonObject["Movement_Speed"];
-        if (jsonObject.contains("Reload_Speed"))
-            reloadSpeed = jsonObject["Reload_Speed"];
-        if (jsonObject.contains("Health"))
-            health = jsonObject["Health"];
-        if (jsonObject.contains("Detection_Radius"))
-            detectionRadius = jsonObject["Detection_Radius"];
-        if (jsonObject.contains("Range"))
-            range = jsonObject["Range"];
-    }
+    Part(const json& jsonObject);
 
     void ApplyPenalty(Core *c) // this gets ran during the first loop (core) of DYNAMICPRUNE
     {
@@ -1050,13 +959,13 @@ public:
 };
 
 
-std::ostream &operator<<(std::ostream &os, const fpair &fp)
+inline std::ostream &operator<<(std::ostream &os, const fpair &fp)
 {
     os << fp.first << " - " << fp.second;
     return os;
 }
 
-std::ostream &operator<<(std::ostream &os, const Gun &gun)
+inline std::ostream &operator<<(std::ostream &os, const Gun &gun)
 {
     using Input::detailed;
     std::string barrelName = gun.barrel ? gun.barrel->name : "None";
@@ -1087,7 +996,7 @@ std::ostream &operator<<(std::ostream &os, const Gun &gun)
     return os;
 }
 
-std::ostream &operator<<(std::ostream &os, const Part &part)
+inline std::ostream &operator<<(std::ostream &os, const Part &part)
 {
     os << "Name: " << part.name << "\n"
        << "Damage: " << part.damage << "\n"
@@ -1104,14 +1013,14 @@ std::ostream &operator<<(std::ostream &os, const Part &part)
     return os;
 }
 
-std::ostream &operator<<(std::ostream &os, const std::pair<Part, Part> &pair)
+inline std::ostream &operator<<(std::ostream &os, const std::pair<Part, Part> &pair)
 {
     os << pair.first << "\n"
        << pair.second << "\n";
     return os;
 }
 
-Part operator*(Part part1, Part part2) // Used in greedy
+inline Part operator*(Part part1, Part part2) // Used in highlow
 {
     part1.damage *= part2.damage;
     part1.fireRate *= part2.fireRate;
@@ -1129,18 +1038,18 @@ Part operator*(Part part1, Part part2) // Used in greedy
 
 
 // This is now a uint64_t so I don't need to typecast it the moment I try to multiply these things together.
-uint64_t barrelCount;
-uint64_t magazineCount;
-uint64_t gripCount;
-uint64_t stockCount;
-uint64_t coreCount;
-uint64_t totalCombinations;
+inline uint64_t barrelCount;
+inline uint64_t magazineCount;
+inline uint64_t gripCount;
+inline uint64_t stockCount;
+inline uint64_t coreCount;
+inline uint64_t totalCombinations;
 
-std::vector<Barrel> barrelList;
-std::vector<Magazine> magazineList;
-std::vector<Grip> gripList;
-std::vector<Stock> stockList;
-std::vector<Core> coreList;
+inline std::vector<Barrel> barrelList;
+inline std::vector<Magazine> magazineList;
+inline std::vector<Grip> gripList;
+inline std::vector<Stock> stockList;
+inline std::vector<Core> coreList;
 
 
 namespace PQ
@@ -1159,8 +1068,8 @@ namespace PQ
         HIGHEST = true,
     };
 
-    SortPriorityFlags sortPriority; // AUTO priority gets changed in InitializeCurrentSortingType via a Fast::MoreIsBetter() check
-    Fast::MultFlags currentSortingType;
+    inline SortPriorityFlags sortPriority; // AUTO priority gets changed in InitializeCurrentSortingType via a Fast::MoreIsBetter() check
+    inline Fast::MultFlags currentSortingType;
 
     struct AllSortStruct {
         bool operator()(const Gun& gun1, const Gun& gun2) const {
@@ -1194,9 +1103,9 @@ namespace PQ
 
     typedef std::priority_queue<Gun, std::vector<Gun>, AllSortStruct> AllSortPQ;
 
-    AllSortPQ topGuns;
+    inline AllSortPQ topGuns;
 
-    void InitializeCurrentSortingType()
+    inline void InitializeCurrentSortingType()
     {
         std::string type = Input::sortType;
         using namespace Fast;
@@ -1235,9 +1144,9 @@ namespace Filter
 {
     using namespace Fast;
 
-    multiFlags currentFlags = 0;
+    inline multiFlags currentFlags = 0;
 
-    void InitializeMultFlag()
+    inline void InitializeMultFlag()
     {
         if (Input::pelletRange != NILRANGE_P) currentFlags |= PELLETS;
         if (Input::damageRange != NILRANGE_P) currentFlags |= DAMAGE | PELLETS;
@@ -1255,6 +1164,11 @@ namespace Filter
         if (Input::dropoffStudsRange != NILRANGE_P) currentFlags |= DROPOFFSTUDS;
         if (Input::dropoffStudsEndRange != NILRANGE_P) currentFlags |= DROPOFFSTUDSEND;
         if (Input::burstRange != NILRANGE_P) currentFlags |= BURST;
+        if (Input::TTKRange != NILRANGE_P) currentFlags |= DAMAGE | PELLETS | FIRERATE;
+        if (Input::DPSRange != NILRANGE_P) currentFlags |= DAMAGE | PELLETS | FIRERATE;
+        if (Input::timeToAimRange != NILRANGE_P) currentFlags |= TIMETOAIM;
+
+        static_assert(Input::TOTALFILTERCOUNT == 19, "Update IntializeMultFlag");
 
         switch (PQ::currentSortingType)
         {
@@ -1280,7 +1194,7 @@ namespace Filter
 
     }
 
-    bool CoreFilter(Core *core) // These filters require no gun calculation and can be immediately checked on the part itself
+    inline bool CoreFilter(Core *core) // These filters require no gun calculation and can be immediately checked on the part itself
     {
         if (Fast::banParts_fast[0][core->name_fast]) return false;
         if (Input::forcingCore && !Fast::forceParts_fast[0][core->name_fast]) return false;
@@ -1290,7 +1204,7 @@ namespace Filter
         return true;
     }
 
-    bool MagazineFilter(Magazine *magazine)
+    inline bool MagazineFilter(Magazine *magazine)
     {
         if (Fast::banParts_fast[1][magazine->name_fast]) return false;
         if (Input::forcingMagazine && !Fast::forceParts_fast[1][magazine->name_fast]) return false;
@@ -1299,7 +1213,7 @@ namespace Filter
         return true;
     }
 
-    bool BarrelFilter(Barrel *barrel)
+    inline bool BarrelFilter(Barrel *barrel)
     {
         if (Fast::banParts_fast[2][barrel->name_fast]) return false;
         if (Input::forcingBarrel && !Fast::forceParts_fast[2][barrel->name_fast]) return false;
@@ -1307,7 +1221,7 @@ namespace Filter
         return true;
     }
 
-    bool StockFilter(Stock *stock)
+    inline bool StockFilter(Stock *stock)
     {
         if (Fast::banParts_fast[3][stock->name_fast]) return false;
         if (Input::forcingStock && !Fast::forceParts_fast[3][stock->name_fast]) return false;
@@ -1315,7 +1229,7 @@ namespace Filter
         return true;
     }
 
-    bool GripFilter(Grip *grip)
+    inline bool GripFilter(Grip *grip)
     {
         if (Fast::banParts_fast[4][grip->name_fast]) return false;
         if (Input::forcingGrip && !Fast::forceParts_fast[4][grip->name_fast]) return false;
@@ -1323,7 +1237,7 @@ namespace Filter
         return true;
     }
 
-    bool FilterGunStatsOnRange(const Gun& gun)
+    inline bool FilterGunStatsOnRange(const Gun& gun)
     {
         using Fast::RangeFilter;
         static_assert(Input::TOTALFILTERCOUNT == 19, "FilterGunStatsOnRange needs to be updated");
@@ -1352,9 +1266,9 @@ namespace Filter
 }
 
 // Maybe make this a class or a struct? prob no tho
-PQ::AllSortPQ threadPQ[64];
-std::thread threads[64];
-uint64_t validGunInThread[64];
+inline PQ::AllSortPQ threadPQ[64];
+inline std::thread threads[64];
+inline uint64_t validGunInThread[64];
 
 // namespace BruteForce { }
 // namespace Prune { }
@@ -1382,16 +1296,16 @@ namespace DynamicPrune
         // 3: grip + stock + barrel | index 2
         // 4: grip + stock + barrel + magazine | index 3
 
-        std::vector<std::vector<std::vector<Part>>> bestPossibleCombo; // property values are already formatted (in fractional form for mults)
+        inline std::vector<std::vector<std::vector<Part>>> bestPossibleCombo; // property values are already formatted (in fractional form for mults)
 
         // bestPossiblePart[coreCategoryFast][low(0) / high(1)][1 -> 4]
         // 1: grip | index 0
         // 2: stock | index 1
         // 3: barrel | index 2
         // 4: magazine | index 3
-        std::vector<std::vector<std::vector<Part>>> bestPossiblePart; // property values are already formatted (in fractional form for mults)
+        inline std::vector<std::vector<std::vector<Part>>> bestPossiblePart; // property values are already formatted (in fractional form for mults)
 
-        void InitializeBestPossible() // resize based on category count
+        inline void InitializeBestPossible() // resize based on category count
         {
             bestPossibleCombo.resize(Fast::categoryCount);
             bestPossiblePart.resize(Fast::categoryCount);
@@ -1407,7 +1321,7 @@ namespace DynamicPrune
             }
         }
 
-        void SetHighLowParts(Gun& gun, Part* partToCheck, Part& lowestMultPart, Part& highestMultPart)
+        inline void SetHighLowParts(Gun& gun, Part* partToCheck, Part& lowestMultPart, Part& highestMultPart)
         {
             using namespace Fast;
             if (gun.GetPartialMult(DAMAGE, partToCheck, false) < lowestMultPart.damage) lowestMultPart.damage = gun.GetPartialMult(DAMAGE, partToCheck, false);
@@ -1445,7 +1359,7 @@ namespace DynamicPrune
             return std::pair<Part, Part>(lowestMultPart, highestMultPart);
         }
 
-        void InitializeHighestAndLowestMultParts() // It may not look like it but I promise you this has a Time complexity of O(n) I'M TELLING YOU PLEASE BELIEVE ME
+        inline void InitializeHighestAndLowestMultParts() // It may not look like it but I promise you this has a Time complexity of O(n) I'M TELLING YOU PLEASE BELIEVE ME
         {
             // Creation of dummyGuns to allow us to use (Gun obj).GetPartialMult and (Gun obj).GetPartialAdd for HighLow intialization
             std::vector<Core> coreCategories(Fast::categoryCount);
@@ -1499,15 +1413,15 @@ namespace DynamicPrune
     }
 
     // Global variables shared across threads
-    std::atomic<float> currentBestThreshold_a; // Keep track of the current best property value and dynamically adjust it as it gets ran.
+    inline std::atomic<float> currentBestThreshold_a; // Keep track of the current best property value and dynamically adjust it as it gets ran.
 
-    void InitializeThreshold()
+    inline void InitializeThreshold()
     {
         currentBestThreshold_a.store(PQ::sortPriority == PQ::HIGHEST ? NILMIN : NILMAX);
     }
 
     // TODO: Consider caching this function.
-    float ApplyPelletLadder(const Gun& gun, int coreCategory, int partComboStep, const std::vector<Part> &bestPossiblePartList, Fast::MultFlags multType)
+    inline float ApplyPelletLadder(const Gun& gun, int coreCategory, int partComboStep, const std::vector<Part> &bestPossiblePartList, Fast::MultFlags multType)
     {
         // BestPossiblePartList is the vector of parts that contain the goal multiplier (normal or anti) for the current mult.
         float finalMult = 1;
@@ -1526,7 +1440,7 @@ namespace DynamicPrune
     }
 
 
-    bool ValueOffsetFilter(float valMin, float valMax, const fpair &range)
+    inline bool ValueOffsetFilter(float valMin, float valMax, const fpair &range)
     {
         if (range == NILRANGE_P) return true; // Should already be checked before coming to this funcion
         if (range.first == NILMIN) return valMin <= range.second;
@@ -1534,7 +1448,7 @@ namespace DynamicPrune
         return valMax >= range.first && valMin <= range.second;
     }
 
-    bool ValueOffsetFilterMult(Fast::MultFlags flag, const fpair &range, const Gun& gun, const Part& lowPPC, const Part& highPPC)
+    inline bool ValueOffsetFilterMult(Fast::MultFlags flag, const fpair &range, const Gun& gun, const Part& lowPPC, const Part& highPPC)
     {
         if (range == NILRANGE_P) return true;
         float valueToCompare = gun.GetProperty(flag);
@@ -1544,7 +1458,7 @@ namespace DynamicPrune
         return ValueOffsetFilter(valueToCompare * lowMult, valueToCompare * highMult, range);
     }
 
-    bool ValueOffsetFilterAdd(Fast::MultFlags flag, const fpair &range, const Gun& gun, const Part& lowPPC, const Part& highPPC)
+    inline bool ValueOffsetFilterAdd(Fast::MultFlags flag, const fpair &range, const Gun& gun, const Part& lowPPC, const Part& highPPC)
     {
         if (range == NILRANGE_P) return true;
         float valueToCompare = gun.GetProperty(flag);
@@ -1554,7 +1468,7 @@ namespace DynamicPrune
         return ValueOffsetFilter(valueToCompare + lowAdd, valueToCompare + highAdd, range);
     }
 
-    bool IsValidInRange(const Gun& gun, int coreCategory, int partComboStep) // PPC Stands for PossiblePartCombo
+    inline bool IsValidInRange(const Gun& gun, int coreCategory, int partComboStep) // PPC Stands for PossiblePartCombo
     {
         const Part& lowPPC = HighLow::bestPossibleCombo[coreCategory][0][partComboStep]; // lowPPC
         const Part& highPPC = HighLow::bestPossibleCombo[coreCategory][1][partComboStep]; // highPPC
@@ -1644,8 +1558,8 @@ namespace DynamicPrune
             float maxFireRate = gun.fireRate * highPPC.fireRate;
 
             // inline float TTKM() const { return (ceilf(Input::playerMaxHealth / damage) - 1) / fireRate; }
-            float minTTK = (ceilf(Input::playerMaxHealth / minDamage) - 1) / minFireRate;
-            float maxTTK = (ceilf(Input::playerMaxHealth / maxDamage) - 1) / maxFireRate;
+            float minTTK = (ceilf(Input::playerMaxHealth / maxDamage) - 1) / maxFireRate;
+            float maxTTK = (ceilf(Input::playerMaxHealth / minDamage) - 1) / minFireRate;
 
             if (!ValueOffsetFilter(minTTK, maxTTK, Input::TTKRange)) return false;
         }
@@ -1679,7 +1593,7 @@ namespace DynamicPrune
         return true;
     }
 
-    bool IsValidInThreshold(const Gun& gun, int coreCategory, int partComboStep)
+    inline bool IsValidInThreshold(const Gun& gun, int coreCategory, int partComboStep)
     {
         float gunValue;
         const Part& lowPPC = HighLow::bestPossibleCombo[coreCategory][0][partComboStep];
@@ -1774,7 +1688,7 @@ namespace DynamicPrune
             throw std::runtime_error("Invalid sort priority");
     }
 
-    void ReplaceNewestThreshold(const Gun& gun) // https://en.cppreference.com/w/cpp/atomic/atomic/compare_exchange.html
+    inline void ReplaceNewestThreshold(const Gun& gun) // https://en.cppreference.com/w/cpp/atomic/atomic/compare_exchange.html
     {
         float current = gun.GetProperty(PQ::currentSortingType);
         PQ::AllSortStruct comp;
@@ -1814,7 +1728,7 @@ namespace DynamicPrune
     uint64_t StockLoop(const Gun& prevGun, const PassThroughArgs& args);
     void GripLoop(const Gun& prevGun, const PassThroughArgs& args);
 
-    uint64_t CoreLoop(int threadId)
+    inline uint64_t CoreLoop(int threadId)
     {
         uint64_t prunedEndpoints = 0; // Total endpoints pruned before the final loop
         for (int c = 0; c < coreCount; c++)
@@ -1865,7 +1779,7 @@ namespace DynamicPrune
         return prunedEndpoints;
     }
 
-    uint64_t MagazineLoop(const Gun& prevGun, const PassThroughArgs& args)
+    inline uint64_t MagazineLoop(const Gun& prevGun, const PassThroughArgs& args)
     {
         // printf("%d: Processing magazine loop\n", args.threadId);
         uint64_t prunedEndpoints = 0;
@@ -1894,7 +1808,7 @@ namespace DynamicPrune
         return prunedEndpoints;
     }
 
-    uint64_t BarrelLoop(const Gun& prevGun, const PassThroughArgs& args)
+    inline uint64_t BarrelLoop(const Gun& prevGun, const PassThroughArgs& args)
     {
         // printf("%d: Processing barrel loop\n", args.threadId);
         uint64_t prunedEndpoints = 0;
@@ -1922,7 +1836,7 @@ namespace DynamicPrune
         return prunedEndpoints;
     }
 
-    uint64_t StockLoop(const Gun& prevGun, const PassThroughArgs& args)
+    inline uint64_t StockLoop(const Gun& prevGun, const PassThroughArgs& args)
     {
         // printf("%d: Processing stock loop\n", args.threadId);
         uint64_t prunedEndpoints = 0;
@@ -1950,7 +1864,7 @@ namespace DynamicPrune
         return prunedEndpoints;
     }
 
-    void GripLoop(const Gun& prevGun, const PassThroughArgs& args)
+    inline void GripLoop(const Gun& prevGun, const PassThroughArgs& args)
     {
         // printf("%d: Processing grip loop\n", args.threadId);
         for (int g = 0; g < gripCount + 1; g++)
@@ -2002,7 +1916,7 @@ namespace DynamicPrune
         }
     }
 
-    void Run(int threadId)
+    inline void Run(int threadId)
     {
         printf("Thread %d started\n", threadId);
         threadPQ[threadId] = PQ::AllSortPQ();
@@ -2010,306 +1924,4 @@ namespace DynamicPrune
         printf("%d: Pruned endpoints: %lu\n", threadId, prunedEndpoints);
     }
 }
-
-
-int main(int argc, char* argv[])
-{
-    CLI::App app{"A tool to bruteforce all possible guns inside of the roblox game Weird Gun Game."};
-    argv = app.ensure_utf8(argv);
-
-    app.add_option("-f, --file", Input::fileDir, "Path to the directory containing the json file (Default: Data)");
-    app.add_option("-o, --output", Input::outpath, "Path to the output file (Default: Results.txt)");
-    app.add_option("-t, --threads", Input::threadsToMake, "Number of threads to use (Default: AUTODETECT)")->check(CLI::Range(1, 64));
-    app.add_option("-s, --sort", Input::sortType, "Sorting type (TTK, FIRERATE, ADSSPREAD, HIPFIRESPREAD, RECOIL, SPEED, HEALTH, MAGAZINE, RELOAD, DPS) (Default: TTK)");
-    app.add_option("-n, --number", Input::howManyTopGunsToDisplay, "Number of top guns to display (Default: 10)");
-    app.add_option("-m, --method", Input::method, "Method to use for calculation (BRUTEFORCE, PRUNE, DYNAMICPRUNE) (DYNAMICPRUNE)");
-    app.add_option("-i, --include", Input::includeCategories, "Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird)");
-    app.add_option("-p, --priority", Input::sortPriority, "Sort direction priority (HIGHEST, LOWEST) (Default: AUTO)");
-    app.add_option("--mh, --defaultMaxHealth", Input::playerMaxHealth, "Set the player max health for TTK calculation (Default: 100)");
-    app.add_flag  ("-v, --version", Input::version, "Display the current version and exit.");
-    app.add_flag  ("--detailed", Input::detailed, "Display all stats of the gun including irrelevant ones");
-    app.add_flag  ("--debug", Input::debug, "Enter debug mode");
-    app.add_flag  ("--testInstall", Input::testInstall, "Test the current installation and attempt to read from data files.");
-
-    app.add_option("--fb, --forceBarrel", Input::forceBarrel, "Force the calculator to use a specific barrel");
-    app.add_option("--fm, --forceMagazine", Input::forceMagazine, "Force the calculator to use a specific magazine");
-    app.add_option("--fg, --forceGrip", Input::forceGrip, "Force the calculator to use a specific grip");
-    app.add_option("--fs, --forceStock", Input::forceStock, "Force the calculator to use a specific stock");
-    app.add_option("--fc, --forceCore", Input::forceCore, "Force the calculator to use a specific core");
-
-    app.add_option("--bb, --banBarrel", Input::banBarrel, "Ban the calculator from using a list of barrels");
-    app.add_option("--bm, --banMagazine", Input::banMagazine, "Ban the calculator from using a list of magazines");
-    app.add_option("--bg, --banGrip", Input::banGrip, "Ban the calculator from using a list of grips");
-    app.add_option("--bs, --banStock", Input::banStock, "Ban the calculator from using a list of stocks");
-    app.add_option("--bc, --banCore", Input::banCore, "Ban the calculator from using a list of cores");
-
-    app.add_option("--damage, --damageStart", Input::damageRange, "Damage range to filter (START)");
-    app.add_option("--damageMin, --damageStartMin", Input::damageRange.first);
-    app.add_option("--damageMax, --damageStartMax", Input::damageRange.second);
-    app.add_option("--damageEnd", Input::damageEndRange, "Damage range to filter (END)");
-    app.add_option("--damageEndMin", Input::damageEndRange.first);
-    app.add_option("--damageEndMax", Input::damageEndRange.second);
-    app.add_option("--magazine", Input::magazineRange, "Size of magazine to filter");
-    app.add_option("--magazineMin", Input::magazineRange.first);
-    app.add_option("--magazineMax", Input::magazineRange.second);
-    app.add_option("--spreadHip", Input::spreadHipRange, "Spread range to filter (HIP)");
-    app.add_option("--spreadHipMin", Input::spreadHipRange.first);
-    app.add_option("--spreadHipMax", Input::spreadHipRange.second);
-    app.add_option("--spreadAim", Input::spreadAimRange, "Spread range to filter (AIM)");
-    app.add_option("--spreadAimMin", Input::spreadAimRange.first);
-    app.add_option("--spreadAimMax", Input::spreadAimRange.second);
-    app.add_option("--recoilHip", Input::recoilHipRange, "Recoil range to filter (HIP)");
-    app.add_option("--recoilHipMin", Input::recoilHipRange.first);
-    app.add_option("--recoilHipMax", Input::recoilHipRange.second);
-    app.add_option("--recoilAim", Input::recoilAimRange, "Recoil range to filter (AIM)");
-    app.add_option("--recoilAimMin", Input::recoilAimRange.first);
-    app.add_option("--recoilAimMax", Input::recoilAimRange.second);
-    app.add_option("--speed", Input::movementSpeedRange, "Movement speed range to filter");
-    app.add_option("--speedMin", Input::movementSpeedRange.first);
-    app.add_option("--speedMax", Input::movementSpeedRange.second);
-    app.add_option("--fireRate", Input::fireRateRange, "Fire rate range to filter");
-    app.add_option("--fireRateMin", Input::fireRateRange.first);
-    app.add_option("--fireRateMax", Input::fireRateRange.second);
-    app.add_option("--health", Input::healthRange, "Health range to filter");
-    app.add_option("--healthMin", Input::healthRange.first);
-    app.add_option("--healthMax", Input::healthRange.second);
-    app.add_option("--pellet", Input::pelletRange, "Pellet range to filter");
-    app.add_option("--pelletMin", Input::pelletRange.first);
-    app.add_option("--pelletMax", Input::pelletRange.second);
-    app.add_option("--timeToAim", Input::timeToAimRange, "Time to aim range to filter");
-    app.add_option("--timeToAimMin", Input::timeToAimRange.first);
-    app.add_option("--timeToAimMax", Input::timeToAimRange.second);
-    app.add_option("--reload", Input::reloadRange, "Reload time to filter");
-    app.add_option("--reloadMin", Input::reloadRange.first);
-    app.add_option("--reloadMax", Input::reloadRange.second);
-    app.add_option("--detectionRadius", Input::detectionRadiusRange, "Detection radius range to filter");
-    app.add_option("--detectionRadiusMin", Input::detectionRadiusRange.first);
-    app.add_option("--detectionRadiusMax", Input::detectionRadiusRange.second);
-    app.add_option("--range, --rangeStart", Input::dropoffStudsRange, "Dropoff studs range to filter (START)");
-    app.add_option("--rangeMin, --rangeStartMin", Input::dropoffStudsRange.first);
-    app.add_option("--rangeMax, --rangeStartEnd", Input::dropoffStudsRange.second);
-    app.add_option("--rangeEnd", Input::dropoffStudsEndRange, "Dropoff studs range to filter (END)");
-    app.add_option("--rangeEndMin", Input::dropoffStudsEndRange.first);
-    app.add_option("--rangeEndMax", Input::dropoffStudsEndRange.second);
-    app.add_option("--burst", Input::burstRange, "Burst range to filter");
-    app.add_option("--burstMin", Input::burstRange.first);
-    app.add_option("--burstMax", Input::burstRange.second);
-    app.add_option("--TTK", Input::TTKRange, "TTK range to filter"); // Input is TTKS but gets turned into TTKM internally
-    app.add_option("--TTKMin", Input::TTKRange.first);
-    app.add_option("--TTKMax", Input::TTKRange.second);
-    app.add_option("--DPS", Input::DPSRange, "DPS range to filter"); // Input is DPS but gets turned into DPM internally
-    app.add_option("--DPSMin", Input::DPSRange.first);
-    app.add_option("--DPSMax", Input::DPSRange.second);
-
-    CLI11_PARSE(app, argc, argv);
-
-    if (Input::version)
-    {
-        std::cout << "WeirdGunGameCalc version " << WGGCALC_VERSION << "\n";
-        return 0;
-    }
-
-    // The operator overloads go c++azy (Python actually has this with Pathlib but we don't talk about that)
-    std::filesystem::path fullDataPath = Input::fileDir / "FullData.json";
-    std::filesystem::path penaltiesPath = Input::fileDir / "Penalties.json";
-    std::filesystem::path categoriesPath = Input::fileDir / "Categories.json";
-
-    if (!std::filesystem::exists(fullDataPath) || !std::filesystem::exists(penaltiesPath) || !std::filesystem::exists(categoriesPath))
-    {
-        std::cerr << "Files " << fullDataPath << ", " << penaltiesPath << ", and " << categoriesPath << " are required but don't exist (Did you install this in the correct folder?)\n";
-        throw std::invalid_argument("Required files not found");
-    }
-
-    if (Input::testInstall)
-        std::cout << "Attempting to load database...\n";
-
-    std::cout << "Loading from json files " << fullDataPath << ", " << penaltiesPath << ", and " << categoriesPath << "\n";
-
-    std::ifstream Categories(categoriesPath);
-    json categories = json::parse(Categories);
-
-    for (auto &[key, value] : categories["Primary"].items())
-        Fast::fastifyCategory[key] = value;
-
-    for (auto &[key, value] : categories["Secondary"].items())
-        Fast::fastifyCategory[key] = value;
-
-    Fast::categoryCount = Fast::fastifyCategory.size();
-    Fast::primaryCategoryCount = categories["Primary"].size();
-    Fast::secondaryCategoryCount = categories["Secondary"].size();
-
-    std::ifstream FullData(fullDataPath);
-    json data = json::parse(FullData);
-
-    barrelCount = data["Barrels"].size();
-    barrelList.reserve(barrelCount + 1);
-
-    for (json &element : data["Barrels"])
-        barrelList.push_back(element);
-
-    magazineCount = data["Magazines"].size();
-    magazineList.reserve(magazineCount + 1);
-
-    for (json &element : data["Magazines"])
-        magazineList.push_back(element);
-
-    gripCount = data["Grips"].size();
-    gripList.reserve(gripCount + 1);
-
-    for (json &element : data["Grips"])
-        gripList.push_back(element);
-
-    stockCount = data["Stocks"].size();
-    stockList.reserve(stockCount + 1);
-
-    for (json &element : data["Stocks"])
-        stockList.push_back(element);
-
-    coreCount = data["Cores"].size();
-    coreList.reserve(coreCount);
-
-    for (json &element : data["Cores"])
-        coreList.push_back(element);
-
-    // Add the "None" part for help with secondaries. The +1 to reserve is for "None" part
-    // Although it is not a part of the count because it isn't an actual part and I don't want it to be used in PRUNE or BRUTEFORCE.
-    // This was added to help with secondary weapons because they don't have a stock.
-    barrelList.push_back(Part::ToNone(Barrel()));
-    magazineList.push_back(Part::ToNone(Magazine()));
-    gripList.push_back(Part::ToNone(Grip()));
-    stockList.push_back(Part::ToNone(Stock()));
-
-    std::ifstream Penalties(penaltiesPath);
-    json penalties = json::parse(Penalties);
-
-    Fast::penalties.resize(Fast::categoryCount);
-    for (int i = 0; i < Fast::categoryCount; i++)
-        Fast::penalties[i].resize(Fast::categoryCount);
-
-    for (int i = 0; i < Fast::categoryCount; i++)
-        for (int j = 0; j < Fast::categoryCount; j++)
-            Fast::penalties[i][j] = penalties[i][j];
-
-    if (Input::testInstall)
-    {
-        std::cout << "No errors detected. Exiting...\n";
-        return 0;
-    }
-
-    puts("Initializing required data");
-
-    Input::FormatInputs();
-    PQ::InitializeCurrentSortingType();
-    Fast::InitializeIncludeCategories();
-    Fast::InitializeForceAndBanParts();
-    Fast::InitializeClampQuadratic();
-    Filter::InitializeMultFlag();
-    DynamicPrune::HighLow::InitializeBestPossible();
-    DynamicPrune::HighLow::InitializeHighestAndLowestMultParts();
-    DynamicPrune::InitializeThreshold();
-    // BruteForce::Filter::InitializeMultFlag();
-    // Prune::Filter::InitializeMultFlag();
-    // Prune::HighLow::InitializeBestPossibleCombo();
-    // Prune::HighLow::InitializeHighestAndLowestMultParts();
-
-    std::cout << "Sorting " << Input::sortType << " by: " << (PQ::sortPriority ? "HIGHEST": "LOWEST") << '\n';
-
-    totalCombinations = barrelCount * magazineCount * gripCount * stockCount * coreCount;
-    printf("Barrels detected: %lu, Magazines detected: %lu, Grips detected: %lu, Stocks detected: %lu, Cores detected: %lu\n", barrelCount, magazineCount, gripCount, stockCount, coreCount);
-    printf("Total of %lu possibilities \n", totalCombinations);
-    printf("Starting %s with %lu threads\n", Input::method.c_str(), Input::threadsToMake);
-
-    auto start = chrono::steady_clock::now();
-
-    // Start selected method
-    if (Input::method == "DYNAMICPRUNE")
-    {
-        for (int threadId = 0; threadId < Input::threadsToMake; threadId++)
-            threads[threadId] = std::thread(DynamicPrune::Run, threadId);
-    }
-    else if (Input::method == "PRUNE")
-    {
-        puts("This function is no longer supported. Please use switch to another method.");
-        throw std::invalid_argument("BRUTEFORCE is no longer supported");
-    }
-    else if (Input::method == "BRUTEFORCE")
-    {
-        puts("This function is no longer supported. Please use switch to another method.");
-        throw std::invalid_argument("BRUTEFORCE is no longer supported");
-    }
-    else {
-        throw std::invalid_argument("Invalid method");
-    }
-
-    // Wait for all threads to finish
-    for (int threadId = 0; threadId < Input::threadsToMake; threadId++)
-        threads[threadId].join();
-
-    auto end = chrono::steady_clock::now();
-    auto duration = chrono::duration_cast<chrono::microseconds>(end - start);
-
-    uint64_t total_us = duration.count();
-    uint64_t minutes = total_us / 60000000;
-    uint64_t seconds = (total_us % 60000000) / 1000000;
-    uint64_t milliseconds = (total_us % 1000000) / 1000;
-    uint64_t microseconds = total_us % 1000;
-
-    printf("%s completed\n", Input::method.c_str());
-    std::cout << "Elapsed time: "
-         << minutes << " minute(s), "
-         << seconds << " second(s), "
-         << milliseconds << " millisecond(s), and "
-         << microseconds << " microsecond(s)\n";
-
-    uint64_t totalValidGuns = 0;
-    for (int i = 0; i < Input::threadsToMake; i++)
-        totalValidGuns += validGunInThread[i];
-    printf("Total valid gun combinations based on filters: %lu / %lu\n", totalValidGuns, coreCount * magazineCount * barrelCount * gripCount * stockCount);
-
-    PQ::topGuns = PQ::AllSortPQ();
-
-    // Combine all thread pqs into topguns
-    for (int i = 0; i < Input::threadsToMake; i++)
-    {
-        for (int j = 0; j < Input::howManyTopGunsToDisplay && !threadPQ[i].empty(); j++)
-        {
-            PQ::topGuns.push(threadPQ[i].top());
-            threadPQ[i].pop();
-        }
-    }
-
-    // Dump all the pqs into a vector
-    std::vector<Gun> outputGuns;
-    int max = PQ::topGuns.size();
-    for (int i = 0; i < max; i++)
-    {
-        outputGuns.push_back(PQ::topGuns.top());
-        PQ::topGuns.pop();
-    }
-
-    std::string fullCommand;
-    for (int i = 0; i < argc; i++)
-    {
-        fullCommand += argv[i];
-        fullCommand += " ";
-    }
-
-    // Write to the file
-    std::ofstream file(Input::outpath);
-    file << fullCommand << "\n";
-    file << "Current top " << Input::howManyTopGunsToDisplay << " guns are: \n";
-    int endSize = outputGuns.size()-1-Input::howManyTopGunsToDisplay;
-    // Reverse out the answer
-    for (int i = outputGuns.size()-1; i >= 0; i--)
-    {
-        if (i == endSize) break;
-        Gun g = outputGuns[i];
-        if (Input::debug)
-            std::cout << "Partial calculation of gun " << i << ": \n" << g << '\n';
-        // Recalculate all values just in case
-        g.CopyAllValues();
-        g.CalculateAllGunStats();
-        file << g << '\n';
-    }
-    file.close();
-}
+#endif

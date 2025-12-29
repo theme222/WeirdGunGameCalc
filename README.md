@@ -51,63 +51,56 @@ You can also look for some example commands that I use to fill the
 This is the full list of flags supported:
 
 ```sh
-# Result of Calculator --help (Slightly modified to look better because it's kinda ugly. Lookin at you CLI11)
+# Result of Calculator --help (Modified to look better because it's kinda ugly. Lookin at you CLI11)
 -h,   --help                 Print this help message and exit
 -f,   --file TEXT            Path to the directory containing the json file (Default: Data)
 -o,   --output TEXT          Path to the output file (Default: Results.txt)
 -t,   --threads INT          Number of threads to use [1, 64] (Default: AUTODETECT)
--s,   --sort TEXT            Sorting type (TTK, FIRERATE, ADSSPREAD, HIPFIRESPREAD, RECOIL, SPEED, HEALTH, MAGAZINE, RELOAD, DPS) (Default: TTK)
+-s,   --sort TEXT            Sorting type (TTK, FIRERATE, ADSSPREAD, HIPFIRESPREAD, RECOIL,
+                             SPEED, HEALTH, MAGAZINE, RELOAD, DPS) (Default: TTK)
 -n,   --number INT           Number of top guns to display (Default: 10)
 -m,   --method TEXT          Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)
--i,   --include TEXT         Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird) (REQUIRED)
--d,   --detailed             Display all stats of the gun including irrelevant ones
+-i,   --include TEXT         Categories to include in the calculation (AR, Sniper, LMG,
+                             SMG, Shotgun, Weird, Sidearm) (REQUIRED)
 --mh, --defaultMaxHealth INT Set the player max health for TTK calculation (Default: 100)
+-p,   --priority TEXT        Sort direction priority (HIGHEST, LOWEST) (Default: AUTO)
+-v,     --version            Display the current version and exit.
+--detailed                   Display all stats of the gun including irrelevant ones
+--debug                      Enter debug mode
+--testInstall                Test the current installation and attempt to read from data files.
 
---fb, --forceBarrel TEXT    Force the calculator to use a specific barrel
---fm, --forceMagazine TEXT  Force the calculator to use a specific magazine
---fg, --forceGrip TEXT      Force the calculator to use a specific grip
---fs, --forceStock TEXT     Force the calculator to use a specific stock
---fc, --forceCore TEXT      Force the calculator to use a specific core
---bb, --banBarrel TEXT      Ban the calculator from using a list of barrels
---bm, --banMagazine TEXT    Ban the calculator from using a list of magazines
---bg, --banGrip TEXT        Ban the calculator from using a list of grips
---bs, --banStock TEXT       Ban the calculator from using a list of stocks
---bc, --banCore TEXT        Ban the calculator from using a list of cores
+--fb, --forceBarrel TEXT ...   Force the calculator to use a list of barrels
+--fm, --forceMagazine TEXT ... Force the calculator to use a list of magazines
+--fg, --forceGrip TEXT ...     Force the calculator to use a list of grips
+--fs, --forceStock TEXT ...    Force the calculator to use a list of stocks
+--fc, --forceCore TEXT ...     Force the calculator to use a list of cores
+--bb, --banBarrel TEXT ...     Ban the calculator from using a list of barrels
+--bm, --banMagazine TEXT ...   Ban the calculator from using a list of magazines
+--bg, --banGrip TEXT ...       Ban the calculator from using a list of grips
+--bs, --banStock TEXT ...      Ban the calculator from using a list of stocks
+--bc, --banCore TEXT ...       Ban the calculator from using a list of cores
 
+# Filters here also contain a min and max version (removed for brevity). 
+# For example --speed -> --speedMin --speedMax
 --damage, --damageStart [FLOAT,FLOAT] Damage range to filter (START)
---damageMin, --damageStartMin FLOAT --damageMax, --damageStartMax FLOAT
---damageEnd [FLOAT,FLOAT] Damage range to filter (END)
---damageEndMin FLOAT --damageEndMax FLOAT
---magazine [FLOAT,FLOAT] Size of magazine to filter
---magazineMin FLOAT --magazineMax FLOAT
---spreadHip [FLOAT,FLOAT] Spread range to filter (HIP)
---spreadHipMin FLOAT --spreadHipMax FLOAT
---spreadAim [FLOAT,FLOAT] Spread range to filter (AIM)
---spreadAimMin FLOAT --spreadAimMax FLOAT
---recoilHip [FLOAT,FLOAT] Recoil range to filter (HIP)
---recoilHipMin FLOAT --recoilHipMax FLOAT
---recoilAim [FLOAT,FLOAT] Recoil range to filter (AIM)
---recoilAimMin FLOAT --recoilAimMax FLOAT
---speed [FLOAT,FLOAT] Movement speed range to filter
---speedMin FLOAT --speedMax FLOAT
---fireRate [FLOAT,FLOAT] Fire rate range to filter
---fireRateMin FLOAT --fireRateMax FLOAT
---health [FLOAT,FLOAT] Health range to filter
---healthMin FLOAT --healthMax FLOAT
---pellet [FLOAT,FLOAT] Pellet range to filter
---pelletMin FLOAT --pelletMax FLOAT
---timeToAim [FLOAT,FLOAT] Time to aim range to filter
---timeToAimMin FLOAT --timeToAimMax FLOAT
---reload [FLOAT,FLOAT] Reload time to filter
---reloadMin FLOAT --reloadMax FLOAT
---detectionRadius [FLOAT,FLOAT] Detection radius range to filter
---detectionRadiusMin FLOAT --detectionRadiusMax FLOAT
---range, --rangeStart [FLOAT,FLOAT] Dropoff studs range to filter (START)
---rangeMin, --rangeStartMin FLOAT --rangeMax, --rangeStartEnd FLOAT
---rangeEnd [FLOAT,FLOAT] Dropoff studs range to filter (END)
---rangeEndMin FLOAT --rangeEndMax FLOAT
---burst [FLOAT,FLOAT] Burst range to filter
---burstMin FLOAT --burstMax FLOAT
+--damageEnd             [FLOAT,FLOAT] Damage range to filter (END)
+--magazine              [FLOAT,FLOAT] Size of magazine to filter
+--spreadHip             [FLOAT,FLOAT] Spread range to filter (HIP)
+--spreadAim             [FLOAT,FLOAT] Spread range to filter (AIM)
+--recoilHip             [FLOAT,FLOAT] Recoil range to filter (HIP)
+--recoilAim             [FLOAT,FLOAT] Recoil range to filter (AIM)
+--speed                 [FLOAT,FLOAT] Movement speed range to filter
+--fireRate              [FLOAT,FLOAT] Fire rate range to filter
+--health                [FLOAT,FLOAT] Health range to filter
+--pellet                [FLOAT,FLOAT] Pellet range to filter
+--timeToAim             [FLOAT,FLOAT] Time to aim range to filter
+--reload                [FLOAT,FLOAT] Reload time to filter
+--detectionRadius       [FLOAT,FLOAT] Detection radius range to filter
+--range, --rangeStart   [FLOAT,FLOAT] Dropoff studs range to filter (START)
+--rangeEnd              [FLOAT,FLOAT] Dropoff studs range to filter (END)
+--burst                 [FLOAT,FLOAT] Burst range to filter
+--TTK                   [FLOAT,FLOAT] TTK range to filter
+--DPS                   [FLOAT,FLOAT] DPS range to filter
 ```
 
 ## Compile from source
@@ -120,11 +113,12 @@ You will have to download 2 dependencies:
 1. [json.hpp](https://github.com/nlohmann/json/releases)
 2. [CLI11.hpp](https://www.github.com/CLIUtils/CLI11/releases)
 
-And add it to a new directory called `include` in the same directory as `Calculator.cpp`.
+And add it to a new directory called `include` in the same directory as `wggcalc-cli.cpp`.
 
 The directory structure should look like this:
 ```
-├── Calculator.cpp
+├── wggcalc-cli.cpp
+├── wggcalc.hpp
 ├── include
 │   ├── CLI11.hpp
 │   └── json.hpp
@@ -132,17 +126,34 @@ The directory structure should look like this:
 ```
 
 ### Run
-If compiling for use locally -static is useless and will only increase binary size.
 ```sh
-# Replace Calculator with Calculator.exe if on Windows
-g++ -std=c++20 -Iinclude Calculator.cpp -o Calculator -Werror -O2 -static
+# Replace wggcalc with wggcalc.exe if on Windows
+g++ -Iinclude -std=c++20 wggcalc-cli.cpp -o wggcalc -O3 -ffast-math -flto -Werror -static
 ```
 No idea how to use cmake lol
 
 ## Algorithm Analysis
 
-There are currently 2 methods inside of the calculator: Bruteforce and Prune.
-**TL;DR** Prune is effectively the better method although it can use a decent amount of memory if you do not provide restrictive enough filters. Bruteforce will almost always be slower than Prune.
+There are currently **3 methods** inside of the calculator: **Bruteforce**, **Prune**, and **DynamicPrune**.
+
+**TL;DR**
+
+* **DynamicPrune is the recommended default.** it is fast if there are a small subset of guns that are much better than the rest. (Also works well with good filters) 
+* **Prune** is extremely fast when your filters are restrictive but has shown to eat up a huge amount of memory. 
+* **Bruteforce** is the simplest and sadly the *slowest*
+
+The core difficulty of this problem is that a gun is built from **5 independent parts**
+(barrel, magazine, grip, stock, core). If there are `n` total parts, then each group
+contains roughly `n/5` parts and the total search space is:
+
+```
+(n/5)^5   ≈   O(n^5)
+```
+
+All three methods ultimately must respect this — the trick is **how much work they skip**
+and **how much memory they use to do it.**
+
+---
 
 ### Bruteforce
 
@@ -159,38 +170,72 @@ O(1).
 
 `O(n^5) Time Complexity` `O(n^4) Memory Complexity`
 
-This method takes advantage of the fact that only a small portion of the
-possible combinations are remotely useful. It directly benefits from adding more
-and more precise filters to remove unnecessary calculations. Unlike what the
-Time and memory complexity suggests, this method is observed to deliver much
-faster runtimes based on how inclusive (or exclusive) the provided filters are.
-It contains a much more complex algorithm that boils down to 3 steps:
-1. It loops through each "level" of creating a gun: (core) -> (core + magazine) -> (core + magazine + barrel) -> (core + magazine + barrel + grip) -> (core + magazine + barrel + grip + stock)
-2. For each level it determines whether or not it is a *valid* combination. This is found by checking each property whether it is within range of the filters provided and whether or not the values can be corrected using the rest of the parts to be within range. The values come from checking the highest and lowest possible combination of parts for each stat. For example: The highest increase for firerate using only stocks is 1.07 while the lowest is 0.75. This check is repeated for all stats for every core type (to account for core incompatibility) and for every level. As an example level 1 (core) would use the best part combination of mag + barrel + grip + stock but for level 3 (core + magazine + barrel), it would instead use the best part combo of grip + stock.
-3. Once it determines whether or not a part is a valid combination, it saves it into a std::vector to be used as a gun basis on the next level.
+Prune is based on the observation that **most possible gun combinations are
+obviously bad or invalid.** So instead of building full guns immediately, it
+builds them **incrementally** across 5 “levels”:
 
-This method contains a much higher runtime constant than bruteforce, requiring
-both of allocating memory, and copying and writing data onto the std::vector. It
-also has a much higher runtime formula (Although not asymptotically higher)
-being `(a * n/5) + (a * n/5)^2 + (a * n/5)^3 + (a * n/5)^4 + (a * n/5)^5`
-which makes it worse than bruteforce if the `a` is very close to 1 (if the filters
-are not restrictive enough). It also requires a lot of memory due to the fact
-that we need to save valid combinations from previous levels. The exact amount
-is `(n)^4 * 2 * sizeof(Gun)` bytes.
+1. Core
+2. Core + Magazine
+3. Core + Magazine + Barrel
+4. Core + Magazine + Barrel + Grip
+5. Core + Magazine + Barrel + Grip + Stock
 
-Prune requires the values to be independent from eachother. This is an issue
-when it comes to pellet modifier calculation that affects both damage and
-spread. The way this issue has been worked around is by modifying the damage
-range and spread range in a way where the pellet modifier is always within
-range. This is done by dividing the bottom end by the (max pellet mod)^5 and
-dividing the top end by the (min pellet mod)^1. This combined with no pellet
-modifier calculation within the Prune method, will ensure that valid damage and
-spread values are within range. Pellet modifier calculation is done on the last
-step and filtered out with the actual values provided by the user.
+At each level, it asks:
 
-Also the second damage stat is calculated by using a stat called `falloffFactor`
-which isn't accessible directly from the game but instead it is either taken
-from the discord or calculated automatically using the formula `falloffFactor =
-(damageEnd - damageStart) / (damageStart)`. This is also causes an issue with
-prune similar to the pellet modifier issue but it has a much simpler modifier
-allowing us to calculate this value while inside of the prune method.
+> “Is there *any* way for this partial gun to still become valid after adding
+the remaining parts?”
+
+To answer that, it precomputes **best/worst-case stat bounds** from the
+remaining parts with a "HighLow" datastructure. Example: if the best possible
+stock can only increase firerate by ×1.07, and your current build would still
+fail the filter even after that boost… then the branch is discarded immediately.
+
+Once it finishes a level it saves the partially completed gun to then be
+evaluated by the next level. The space requirement is roughly: `O(n^4 *
+sizeof(Gun))` because at the deepest “almost-complete” level, there can still be
+many valid candidates outstanding.
+
+Also, Prune assumes that **stats are independent from eachother**, which complicates pellet modifiers and damage falloff. To handle this:
+
+* pellet effects are bounded by adjusting damage, spread and pellet ranges during initialization
+* falloff is modeled using a derived `falloffFactor`
+* during the last layer these values gets recalculated to accurately apply pellet effects
+
+---
+
+### DynamicPrune  
+
+`O(n^5) Time Complexity` `O(n^2) Memory Complexity`
+
+DynamicPrune is derived from Prune with the same logic: Highlow and level
+filtering, but adds a dynamically changing threshold that adapts to the search
+space. By taking advantage of the fact that the amount of results we want
+is infinitely smaller than the total guns that fit our filters. We can only
+continue to compute values that are better than the ones we have already found
+
+DynamicPrune also computes guns on 5 different levels. 
+
+1. Core
+2. Core + Magazine
+3. Core + Magazine + Barrel
+4. Core + Magazine + Barrel + Stock
+5. Core + Magazine + Barrel + Stock + Grip 
+
+*You might notice that I switched up the Stock and the Grip order. This is so I
+can compute the gun calculation in the same method as ingame allowing me to not
+require the use of adjusting damage spread and pellet range. And instead compute
+the stats incrementally through each level with greater accuracy*
+
+DynamicPrune uses a DFS style approach instead of Prune's BFS to conserve memory
+since the graph is incredibly wide but only 5 layers deep. Thus reducing the
+memory requirement from `O(n^4 * sizeof(Gun))`.
+
+It also precomputes core penalty onto the part itself during each core iteration thus giving us a significant speedup while increasing memory to `O(n^2)` (technically O(n * t) where t is the number of threads).
+
+DynamicPrune uses an atomic variable `currentBestThreshold_a` to keep track of "The worst
+stat across all our priority queues." Since all the guns must be stored in
+a priority queue and these are seperate across multiple threads, we need to keep
+track of the stat of the gun ready to be popped from the queue (when the top of
+the queue contains the worst gun). Using this we can simply check if the guns
+that are waiting to be computed could beat this threshold. If not, they are
+pruned immediately.
