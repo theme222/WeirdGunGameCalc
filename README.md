@@ -49,36 +49,47 @@ You can also look for some example commands that I use to fill the
 This is the full list of flags supported:
 
 ```sh
-# Result of Calculator --help (Modified to look better because it's kinda ugly. Lookin at you CLI11)
--h,   --help                 Print this help message and exit
--f,   --file TEXT            Path to the directory containing the json file (Default: Data)
--o,   --output TEXT          Path to the output file (Default: Results.txt)
--t,   --threads INT          Number of threads to use [1, 64] (Default: AUTODETECT)
--s, --sort TEXT Sorting type ( TTK DAMAGE DAMAGEEND FIRERATE PELLETS SPREADAIM
-                               SPREADHIP RECOILAIM RECOILHIP HEALTH RANGE RANGEEND DETECTIONRADIUS TIMETOAIM
-                               BURST SPEED MAGAZINE RELOAD DPS ) (Default: TTK)
--n,   --number INT           Number of top guns to display (Default: 10)
--m,   --method TEXT          Method to use for calculation (BRUTEFORCE, PRUNE) (Default: PRUNE)
--i,   --include TEXT         Categories to include in the calculation (AR, Sniper, LMG,
-                             SMG, Shotgun, Weird, Sidearm) (REQUIRED)
---mh, --defaultMaxHealth INT Set the player max health for TTK calculation (Default: 100)
--p,   --priority TEXT        Sort direction priority (HIGHEST, LOWEST) (Default: AUTO)
--v,     --version            Display the current version and exit.
---detailed                   Display all stats of the gun including irrelevant ones
---debug                      Enter debug mode
---testInstall                Test the current installation and attempt to read from data files.
+# Result of Calculator --help 
+OPTIONS:
+  -h, --help                            Print this help message and exit 
+  -v, --version                         Display the current version and exit. 
 
---fb, --forceBarrel TEXT ...   Force the calculator to use a list of barrels
---fm, --forceMagazine TEXT ... Force the calculator to use a list of magazines
---fg, --forceGrip TEXT ...     Force the calculator to use a list of grips
---fs, --forceStock TEXT ...    Force the calculator to use a list of stocks
---fc, --forceCore TEXT ...     Force the calculator to use a list of cores
---bb, --banBarrel TEXT ...     Ban the calculator from using a list of barrels
---bm, --banMagazine TEXT ...   Ban the calculator from using a list of magazines
---bg, --banGrip TEXT ...       Ban the calculator from using a list of grips
---bs, --banStock TEXT ...      Ban the calculator from using a list of stocks
---bc, --banCore TEXT ...       Ban the calculator from using a list of cores
+INPUT / OUTPUT:
+  -d, --dir TEXT:DIR                    Path to the directory containing the json file (Default: Data) 
+  -o, --output TEXT                     Path to the output file (Default: Results.txt) 
 
+GENERAL:
+  -t, --threads UINT:UINT in [1 - 64]   Number of threads to use (Default: AUTODETECT) 
+  -s, --sort TEXT                       Sorting type (TTK DAMAGE DAMAGEEND FIRERATE PELLETS SPREADAIM 
+                                        SPREADHIP RECOILAIM RECOILHIP HEALTH RANGE RANGEEND 
+                                        DETECTIONRADIUS TIMETOAIM BURST SPEED MAGAZINE RELOAD DPS) 
+                                        (Default: TTK) 
+  -n, --number UINT                     Number of top guns to display (Default: 10) 
+  -m, --method TEXT                     Method to use for calculation (BRUTEFORCE, PRUNE, DYNAMICPRUNE) 
+                                        (Default: DYNAMICPRUNE) 
+  -i, --include TEXT ...                Categories to include in the calculation (AR, Sniper, LMG, SMG, 
+                                        Shotgun, Weird) 
+  -p, --priority TEXT                   Sort direction priority (HIGHEST, LOWEST) (Default: AUTO) 
+    --mh, --defaultMaxHealth INT        Set the player max health for TTK calculation (Default: 100) 
+
+TESTING:
+    --detailed                          Display all stats of the gun including irrelevant ones 
+    --debug                             Enter debug mode (also does --detailed) 
+    --testInstall                       Test the current installation and attempt to read from data 
+                                        files. 
+
+FORCE / BAN PARTS:
+    --fb, --forceBarrel TEXT ...        Force the calculator to use a list of barrels 
+    --fm, --forceMagazine TEXT ...      Force the calculator to use a list of magazines 
+    --fg, --forceGrip TEXT ...          Force the calculator to use a list of grips 
+    --fs, --forceStock TEXT ...         Force the calculator to use a list of stocks 
+    --fc, --forceCore TEXT ...          Force the calculator to use a list of cores 
+    --bb, --banBarrel TEXT ...          Ban the calculator from using a list of barrels 
+    --bm, --banMagazine TEXT ...        Ban the calculator from using a list of magazines 
+    --bg, --banGrip TEXT ...            Ban the calculator from using a list of grips 
+    --bs, --banStock TEXT ...           Ban the calculator from using a list of stocks 
+    --bc, --banCore TEXT ...            Ban the calculator from using a list of cores 
+    
 # Filters here also contain a min and max version (removed for brevity). 
 # For example --speed -> --speedMin --speedMax
 --damage, --damageStart [FLOAT,FLOAT] Damage range to filter (START)
