@@ -120,11 +120,11 @@ int main(int argc, char* argv[])
     app.get_formatter()->long_option_alignment_ratio(0.1);
     
     // option groups
-    const char* GROUP_IO = "INPUT / OUTPUT";
-    const char* GROUP_GENERAL = "GENERAL";
-    const char* GROUP_TEST = "TESTING";
-    const char* GROUP_FB = "FORCE / BAN PARTS";
-    const char* GROUP_FILTERS = "FILTERS";
+    const std::string GROUP_IO = "INPUT / OUTPUT";
+    const std::string GROUP_GENERAL = "GENERAL";
+    const std::string GROUP_TEST = "TESTING";
+    const std::string GROUP_FB = "FORCE / BAN PARTS";
+    const std::string GROUP_FILTERS = "FILTERS";
 
     app.add_flag  ("-v, --version", Input::version, "Display the current version and exit.");
     
