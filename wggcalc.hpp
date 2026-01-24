@@ -65,6 +65,7 @@ namespace Input
     inline std::vector<std::string> banCore;
     inline std::vector<std::string> banStock;
     inline std::vector<std::string> banGrip;
+    inline std::vector<std::string> banPriceType; // Can either be COIN, WC, ROBUX, or SPECIAL
 
     inline std::vector<std::string> includeCategories;
 
@@ -128,6 +129,16 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
     // 0: core, 1: magazine, 2: barrel, 3: stock, 4: grip
     inline std::vector<bool> forceParts_fast[5];
     inline std::vector<bool> banParts_fast[5];
+    
+    enum PriceType {
+        COIN = 1<<0,
+        WC = 1<<1,
+        ROBUX = 1<<2,
+        LIMITED = 1<<3,
+        SPECIAL = 1<<4
+    };
+    
+    inline multiFlags banPriceType_fast = 0; 
 
     const int TOTALMULTFLAGS = 20;
     const int TOTALPROPERTYFLAGS = 20;
@@ -285,8 +296,11 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             throw std::invalid_argument("Part " + partName + " doesn't exist");
     }
 
-    inline void InitializeIncludeCategories()
+    inline void InitializeCategoriesFBParts()
     {
+        using namespace Input;
+        
+        // init categories
         includeCategories_fast.resize(categoryCount, false);
         for (auto& category : Input::includeCategories)
         {
@@ -301,11 +315,6 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             if (cat < Fast::primaryCategoryCount) includedPrimary = includedPrimary || includeCategories_fast[cat];
             else includedSecondary = includedSecondary || includeCategories_fast[cat];
         }
-    }
-
-    inline void InitializeForceAndBanParts()
-    {
-        using namespace Input;
 
         // init force and ban parts to be a bool vector of size fastifyName.size()
         for (int i = 0; i < 5; i++)
@@ -347,8 +356,10 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             puts("WARNING: Force stock is not allowed in secondary category, reverting to None");
         if (includedSecondary)
         {
-            forcingStock = true;   
+            forceParts_fast[3].clear();
+            forceParts_fast[3].resize(fastifyName.size(), false);
             forceParts_fast[3][fastifyName["None"]] = true;
+            forcingStock = true;   
         }
 
         for (auto core: banCore)
@@ -376,7 +387,28 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             PartExists(grip);
             banParts_fast[4][fastifyName[grip]] = true;
         }
-
+        
+        for (auto priceType: banPriceType)
+        {
+            if (priceType == "COIN")
+                banPriceType_fast |= COIN;
+            else if (priceType == "WC")
+                banPriceType_fast |= WC;
+            else if (priceType == "ROBUX")
+                banPriceType_fast |= ROBUX;
+            else if (priceType == "SPECIAL")
+                banPriceType_fast |= SPECIAL;
+            else if (priceType == "LIMITED")
+                banPriceType_fast |= LIMITED;
+        }
+        
+        // Check if including categories
+        bool includedCategory = false;
+        for (bool categoryIncluded : includeCategories_fast)
+            includedCategory = includedCategory || categoryIncluded;
+        
+        if (!forcingCore && !includedCategory)
+            throw std::invalid_argument("No categories included");
     }
 
     inline bool RangeFilter(const float value, const fpair& range) // Checks if value is within range
@@ -396,6 +428,7 @@ public:
 
     int category_fast;
     int name_fast;
+    Fast::PriceType priceType_fast = Fast::COIN;
 
     float damage = 0;
     float falloffFactor = 0;
@@ -428,6 +461,7 @@ public:
 
     int category_fast = 0;
     int name_fast = 0;
+    Fast::PriceType priceType_fast = Fast::COIN;
 
     float damage = 0;
     float fireRate = 0;
@@ -1201,6 +1235,7 @@ namespace Filter
     {
         if (Fast::banParts_fast[0][core->name_fast]) return false;
         if (Input::forcingCore && !Fast::forceParts_fast[0][core->name_fast]) return false;
+        if (Fast::banPriceType_fast & core->priceType_fast) return false;
         if (!Input::forcingCore && !Fast::includeCategories_fast[core->category_fast]) return false;
         if (!Fast::RangeFilter(core->timeToAim, Input::timeToAimRange)) return false;
         if (!Fast::RangeFilter(core->burst, Input::burstRange)) return false;
@@ -1211,6 +1246,7 @@ namespace Filter
     {
         if (Fast::banParts_fast[1][magazine->name_fast]) return false;
         if (Input::forcingMagazine && !Fast::forceParts_fast[1][magazine->name_fast]) return false;
+        if (Fast::banPriceType_fast & magazine->priceType_fast) return false;
         if (!Fast::forceParts_fast[1][Fast::fastifyNoneName()] && magazine->name_fast == Fast::fastifyNoneName()) return false;
         if (!Fast::RangeFilter(magazine->magazineSize, Input::magazineRange)) return false;
         return true;
@@ -1220,6 +1256,7 @@ namespace Filter
     {
         if (Fast::banParts_fast[2][barrel->name_fast]) return false;
         if (Input::forcingBarrel && !Fast::forceParts_fast[2][barrel->name_fast]) return false;
+        if (Fast::banPriceType_fast & barrel->priceType_fast) return false;
         if (!Fast::forceParts_fast[2][Fast::fastifyNoneName()] && barrel->name_fast == Fast::fastifyNoneName()) return false;
         return true;
     }
@@ -1228,6 +1265,7 @@ namespace Filter
     {
         if (Fast::banParts_fast[3][stock->name_fast]) return false;
         if (Input::forcingStock && !Fast::forceParts_fast[3][stock->name_fast]) return false;
+        if (Fast::banPriceType_fast & stock->priceType_fast) return false;
         if (!Fast::forceParts_fast[3][Fast::fastifyNoneName()] && stock->name_fast == Fast::fastifyNoneName()) return false;
         return true;
     }
@@ -1236,6 +1274,7 @@ namespace Filter
     {
         if (Fast::banParts_fast[4][grip->name_fast]) return false;
         if (Input::forcingGrip && !Fast::forceParts_fast[4][grip->name_fast]) return false;
+        if (Fast::banPriceType_fast & grip->priceType_fast) return false;
         if (!Fast::forceParts_fast[4][Fast::fastifyNoneName()] && grip->name_fast == Fast::fastifyNoneName()) return false;
         return true;
     }

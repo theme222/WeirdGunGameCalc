@@ -2,7 +2,7 @@
 > A tool to bruteforce all combinations of guns in the roblox game "Weird Gun Game"
 
 ## About
-`Updated to Christmas Update`<br/>
+`Updated to Anniversary Update`<br/>
 
 Made using c++ this tool reads data from Data/FullData.json and calculates all possible combinations of guns in [Weird Gun Game](https://www.roblox.com/games/94590879393563/Weird-Gun-Game-UPDATE). Please note that I am not affiliated with the [Redscape Interactive Projects](https://www.roblox.com/communities/35232296/Redscape-Interactive-Projects#!/about)
 group and don't have *direct* access to the source code of the game. This is

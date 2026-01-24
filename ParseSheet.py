@@ -36,6 +36,7 @@ translatePropertyName_part = {
 
 validPartCategories = ['AR', 'Sniper', 'SMG', 'LMG', 'Shotgun', 'BR', 'Weird', 'Sidearm']
 validPartTypes = ['Barrels', 'Magazines', 'Grips', 'Stocks']
+validPriceTypes = ['Coin', 'WC', 'Follow', 'Robux', 'Free', 'Spin', 'Limited', 'Missions', 'Verify discord', 'Unknown'] # The calculator will only detect "Coin" "WC" "Robux". Anything else will be turned into "Special"
 
 def FindSameName(obj, name):
     for value in obj:
@@ -92,122 +93,101 @@ def FormatNumber(value: str, doubleNum=False):
 
     return output
 
+def DetectPriceType(price, row) -> str:
+    price = price.strip().replace(",", "") # Remove commas from the values more than 1,000
+    
+    if ("WC" in price):
+        return "WC"
+    try:
+        price = int(price)
+        return "Coin"
+    except ValueError: # Price must be either Robux or Limited or Free
+        price = price.capitalize()
+        if (price not in validPriceTypes):
+            print(f"WARNING: Invalid price type detected at row {row}")
+            return "Unknown"
+    return price
+
 def DownloadSheet():
 
     os.system(f'rm -f {SHEETFOLDER}/*')
     os.system(f'wget -O {PARTSHEET} "https://docs.google.com/spreadsheets/d/{SHEETID}/export?format=csv&id={SHEETID}&gid={PARTSHEETGID}"')
     os.system(f'wget -O {CORESHEET} "https://docs.google.com/spreadsheets/d/{SHEETID}/export?format=csv&id={SHEETID}&gid={CORESHEETGID}"')
     os.system(f'wget -O {PARTSHEET2} "https://docs.google.com/spreadsheets/d/{SHEETID}/export?format=csv&id={SHEETID}&gid={PARTSHEET2GID}"')
-
-def ParseParts(outputData):
-
-    with open(PARTSHEET, 'r') as file:
-        data = [a.split(',')[2:] for a in file.read().split('\n')[1:]] # Split by newlines then by commas and then ignore the first two entries
-
-    currentCategory = ''
-    currentType = ''
-    for row in data:
-        if len(row) == 0: continue
-        name = row[0]
-
-        # Check if it is a category divider
-        categoryType = name.split(' ')
-        if len(categoryType) == 2:
-            if categoryType[0] == "Notable": # Remove notable scopes
-                break
-            if categoryType[0] in validPartCategories and categoryType[1] in validPartTypes:
-                currentCategory = categoryType[0]
-                currentType = categoryType[1]
-                continue
-
-        part = { "Name": name, "Category": currentCategory}
-
-        for property in row[1:]:
-            if property == '':
-                break
-            property = [property[:property.index(' ')], property[property.index(' ') + 1:]]
-            assert len(property) == 2, f"Invalid property format: {property} {row}"
-
-            value, propertyName = property
-            propertyName = propertyName.strip().lower()
-
-
-            if currentType == "Magazines" and propertyName == 'reload':
-                propertyName = 'Reload_Time' if 's' in value else 'Reload_Speed'
-            else:
-                assert propertyName in translatePropertyName_part, f"Invalid property name: {propertyName} {row}"
-                propertyName = translatePropertyName_part[propertyName]
-
-            part[propertyName] = FormatNumber(value)
-        outputData[currentType].append(part)
-
+    
 def ParsePartsv2(outputData):
     with open(PARTSHEET2, 'r') as file:
         data = [row[1:] for row in list(csv.reader(file))[2:]] # include price info
 
     currentCategory = 'AR'
     currentType = ''
+    
+    seenParts = {x: set() for x in validPartCategories}
 
     for row in data:
-
-        if len(row) == 0: continue
-        assert len(row) == 15, f"invalid row length {row} expected 15"
-
-        price = row[0]
-        name = row[1]
-
-        # Check if it is a category divider
-        categoryType = name.split(' ')
-        if len(categoryType) == 2:
-            if categoryType[0] == "Notable": # Remove notable scopes
-                break
-            if categoryType[0] in validPartCategories and categoryType[1] in validPartTypes:
-                currentCategory = categoryType[0]
-                currentType = categoryType[1]
-                continue
-
-        if name[:-6] in validPartCategories: # remove the word Cores from the back
-            currentCategory = name[:-6]
-            continue
-
-        part = {
-            "Price": price,
-            "Name": name,
-            "Category": currentCategory,
-        }
-
-        propertyList = [
-            "Magazine_Size",
-            "Reload_Time",
-            "Damage",
-            "Detection_Radius",
-            "Equip_Time",
-            "Fire_Rate",
-            "Health",
-            "Movement_Speed",
-            "Pellets",
-            "Range",
-            "Recoil",
-            "Reload_Speed",
-            "Spread",
-        ]
-
-        for i in range(2, 15):
-            property = row[i].strip()
-            if property == '': continue
-
-            property = [property[:property.index(' ')], property[property.index(' ') + 1:]]
-            assert len(property) == 2, f"Invalid property format: {property} {row}"
-
-            value, propertyName = property
-            # propertyName = propertyName.strip().lower()
-
-            propertyName = propertyList[i-2]
-
-            part[propertyName] = FormatNumber(value)
-
-        outputData[currentType].append(part)
-
+        try: 
+            if len(row) == 0: continue
+            assert len(row) == 15, f"invalid row length {row} expected 15"
+    
+            name = row[1].strip()
+            
+            # Check if it is a category divider
+            categoryType = name.split(' ')
+            if len(categoryType) == 2:
+                if categoryType[0] == "Notable": # Remove notable scopes
+                    break
+                if categoryType[0] in validPartCategories and categoryType[1] in validPartTypes:
+                    currentCategory = categoryType[0]
+                    currentType = categoryType[1]
+                    continue
+    
+            # if name[:-6] in validPartCategories: # remove the word Cores from the back
+            #     currentCategory = name[:-6]
+            #     continue
+            
+            if (name in seenParts[currentCategory]):
+                raise ValueError(f"Duplicate part name '{name}' in category '{currentCategory}'")
+                
+            part = {
+                "Price_Type": DetectPriceType(row[0], row),
+                "Name": name,
+                "Category": currentCategory,
+            }
+    
+            propertyList = [
+                "Magazine_Size",
+                "Reload_Time",
+                "Damage",
+                "Detection_Radius",
+                "Equip_Time",
+                "Fire_Rate",
+                "Health",
+                "Movement_Speed",
+                "Pellets",
+                "Range",
+                "Recoil",
+                "Reload_Speed",
+                "Spread",
+            ]
+    
+            for i in range(2, 15):
+                property = row[i].strip()
+                if property == '': continue
+    
+                property = [property[:property.index(' ')], property[property.index(' ') + 1:]]
+                assert len(property) == 2, f"Invalid property format: {property} {row}"
+    
+                value, propertyName = property
+                # propertyName = propertyName.strip().lower()
+    
+                propertyName = propertyList[i-2]
+    
+                part[propertyName] = FormatNumber(value)
+    
+            outputData[currentType].append(part)
+        except Exception as e:
+            print(f"Error parsing row {row}", flush=True)
+            raise e
 
 
 def ParseCores(outputData):
@@ -217,52 +197,56 @@ def ParseCores(outputData):
 
     currentCategory = 'AR'
     for row in data:
-
-        if len(row) == 0: continue
-        assert len(row) == 18, f"invalid row length {row} expected 18"
-        price = row[0]
-        name = row[1]
-
-        if name[:-6] in validPartCategories: # remove the word Cores from the back
-            currentCategory = name[:-6]
-            continue
-
-        core = {
-            "Price": price,
-            "Name": name,
-            "Category": currentCategory,
-        }
-
-        propertyList = [
-            "Damage",
-            "Dropoff_Studs",
-            "Fire_Rate",
-            "Hipfire_Spread",
-            "ADS_Spread",
-            "Time_To_Aim",
-            "Detection_Radius",
-            "Burst",
-            "Movement_Speed_Modifier",
-            "Suppression",
-            "Health",
-            "Equip_Time",
-            "Recoil_Hip_Horizontal",
-            "Recoil_Hip_Vertical",
-            "Recoil_Aim_Horizontal",
-            "Recoil_Aim_Vertical"
-        ]
-
-        for i in range(2, 18):
-            if i == 1: # Damage x Pellet
-                pellet  = row[i].split(" > ")[0].split("x")
-                if len(pellet) == 2:
-                    core["Pellets"] = int(pellet[1])
-
-            formattedVal = FormatNumber(row[i], doubleNum=(i <= 3 or i >= 14))
-            if formattedVal is not None:
-                core[propertyList[i-2]] = formattedVal
-
-        outputData["Cores"].append(core)
+        try:
+            if len(row) == 0: continue
+            assert len(row) == 18, f"invalid row length {len(row)} expected 18"
+            
+            name = row[1].strip()
+    
+            if name[:-6] in validPartCategories: # remove the word Cores from the back
+                currentCategory = name[:-6]
+                continue
+    
+            core = {
+                "Price_Type": DetectPriceType(row[0], row),
+                "Name": name,
+                "Category": currentCategory,
+            }
+    
+            propertyList = [
+                "Damage",
+                "Dropoff_Studs",
+                "Fire_Rate",
+                "Hipfire_Spread",
+                "ADS_Spread",
+                "Time_To_Aim",
+                "Detection_Radius",
+                "Burst",
+                "Movement_Speed_Modifier",
+                "Suppression",
+                "Health",
+                "Equip_Time",
+                "Recoil_Hip_Horizontal",
+                "Recoil_Hip_Vertical",
+                "Recoil_Aim_Horizontal",
+                "Recoil_Aim_Vertical"
+            ]
+    
+            for i in range(2, 18):
+                if i == 1: # Damage x Pellet
+                    pellet  = row[i].split(" > ")[0].split("x")
+                    if len(pellet) == 2:
+                        core["Pellets"] = int(pellet[1])
+    
+                formattedVal = FormatNumber(row[i], doubleNum=(i <= 3 or i >= 14))
+                if formattedVal is not None:
+                    core[propertyList[i-2]] = formattedVal
+    
+            outputData["Cores"].append(core)
+        
+        except Exception as e:
+            print(f"Error parsing row {row}", flush=True)
+            raise e
 
 def SaveData(outputData):
     with open(OUTPUTFILE, 'w') as file:

@@ -16,6 +16,18 @@ Core::Core(const json &jsonObject) : category(jsonObject["Category"]), name(json
     category_fast = Fast::fastifyCategory[category];
     if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
     name_fast = Fast::fastifyName[name];
+    
+    if (jsonObject.contains("Price_Type")) 
+    {
+        if (jsonObject["Price_Type"] == "Coin")
+            priceType_fast = Fast::COIN;
+        else if (jsonObject["Price_Type"] == "WC")
+            priceType_fast = Fast::WC;
+        else if (jsonObject["Price_Type"] == "Robux")
+            priceType_fast = Fast::ROBUX;
+        else
+            priceType_fast = Fast::SPECIAL;
+    }
 
     // Second damage stat will now be calculated using the falloff factor since range stat effects that
     if (!jsonObject.contains("Damage"))
@@ -84,6 +96,19 @@ Part::Part(const json &jsonObject): category(jsonObject["Category"]), name(jsonO
     if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
     name_fast = Fast::fastifyName[name];
 
+    
+    if (jsonObject.contains("Price_Type")) 
+    {
+        if (jsonObject["Price_Type"] == "Coin")
+            priceType_fast = Fast::COIN;
+        else if (jsonObject["Price_Type"] == "WC")
+            priceType_fast = Fast::WC;
+        else if (jsonObject["Price_Type"] == "Robux")
+            priceType_fast = Fast::ROBUX;
+        else
+            priceType_fast = Fast::SPECIAL;
+    }
+    
     if (jsonObject.contains("Damage"))
         damage = jsonObject["Damage"];
     if (jsonObject.contains("Fire_Rate"))
@@ -158,6 +183,8 @@ int main(int argc, char* argv[])
     app.add_option("--bg, --banGrip", Input::banGrip, "Ban the calculator from using a list of grips")->group(GROUP_FB);
     app.add_option("--bs, --banStock", Input::banStock, "Ban the calculator from using a list of stocks")->group(GROUP_FB);
     app.add_option("--bc, --banCore", Input::banCore, "Ban the calculator from using a list of cores")->group(GROUP_FB);
+    
+    app.add_option("--banPriceType", Input::banPriceType, "Ban the calculator from using a part / core with a cost type (COIN, WC, ROBUX, LIMITED, SPECIAL)")->group(GROUP_FB); // SPECIAL will ban parts that are obtained in abnormal ways (wheel spin, verification, following, etc.)
 
     // app.add_option_group(GROUP_FILTERS);
     app.add_option("--damage, --damageStart", Input::damageRange, "Damage range to filter (START)")->group(GROUP_FILTERS);
@@ -317,8 +344,7 @@ int main(int argc, char* argv[])
 
     Input::FormatInputs();
     PQ::InitializeCurrentSortingType();
-    Fast::InitializeIncludeCategories();
-    Fast::InitializeForceAndBanParts();
+    Fast::InitializeCategoriesFBParts();
     Fast::InitializeClampQuadratic();
     Filter::InitializeMultFlag();
     DynamicPrune::HighLow::InitializeBestPossible();
