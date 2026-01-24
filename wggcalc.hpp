@@ -346,7 +346,10 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         if (includedSecondary && forcingStock)
             puts("WARNING: Force stock is not allowed in secondary category, reverting to None");
         if (includedSecondary)
+        {
+            forcingStock = true;   
             forceParts_fast[3][fastifyName["None"]] = true;
+        }
 
         for (auto core: banCore)
         {
