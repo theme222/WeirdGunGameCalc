@@ -18,7 +18,7 @@
 
 #ifndef __WGGCALC_HPP__
 #define __WGGCALC_HPP__
-#define __WGGCALC_VERSION__ "1.7.0"
+#define __WGGCALC_VERSION__ "1.7.1"
 
 using fpair = std::pair<float, float>;
 using json = nlohmann::json;

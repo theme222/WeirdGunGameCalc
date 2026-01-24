@@ -114,90 +114,109 @@ int main(int argc, char* argv[])
 {
     CLI::App app{"A tool to bruteforce all possible guns inside of the roblox game Weird Gun Game."};
     argv = app.ensure_utf8(argv);
+    
+    // Formatting
+    app.get_formatter()->column_width(40);
+    app.get_formatter()->long_option_alignment_ratio(0.1);
+    
+    // option groups
+    const std::string GROUP_IO = "INPUT / OUTPUT";
+    const std::string GROUP_GENERAL = "GENERAL";
+    const std::string GROUP_TEST = "TESTING";
+    const std::string GROUP_FB = "FORCE / BAN PARTS";
+    const std::string GROUP_FILTERS = "FILTERS";
 
-    app.add_option("-f, --file", Input::fileDir, "Path to the directory containing the json file (Default: Data)");
-    app.add_option("-o, --output", Input::outpath, "Path to the output file (Default: Results.txt)");
-    app.add_option("-t, --threads", Input::threadsToMake, "Number of threads to use (Default: AUTODETECT)")->check(CLI::Range(1, 64));
-    app.add_option("-s, --sort", Input::sortType, "Sorting type (TTK DAMAGE DAMAGEEND FIRERATE PELLETS SPREADAIM SPREADHIP RECOILAIM RECOILHIP HEALTH RANGE RANGEEND DETECTIONRADIUS TIMETOAIM BURST SPEED MAGAZINE RELOAD DPS) (Default: TTK)");
-    app.add_option("-n, --number", Input::howManyTopGunsToDisplay, "Number of top guns to display (Default: 10)");
-    app.add_option("-m, --method", Input::method, "Method to use for calculation (BRUTEFORCE, PRUNE, DYNAMICPRUNE) (Default: DYNAMICPRUNE)");
-    app.add_option("-i, --include", Input::includeCategories, "Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird)");
-    app.add_option("-p, --priority", Input::sortPriority, "Sort direction priority (HIGHEST, LOWEST) (Default: AUTO)");
-    app.add_option("--mh, --defaultMaxHealth", Input::playerMaxHealth, "Set the player max health for TTK calculation (Default: 100)");
     app.add_flag  ("-v, --version", Input::version, "Display the current version and exit.");
-    app.add_flag  ("--detailed", Input::detailed, "Display all stats of the gun including irrelevant ones");
-    app.add_flag  ("--debug", Input::debug, "Enter debug mode");
-    app.add_flag  ("--testInstall", Input::testInstall, "Test the current installation and attempt to read from data files.");
+    
+    // app.add_option_group(GROUP_IO);
+    app.add_option("-d, --dir", Input::fileDir, "Path to the directory containing the json file (Default: Data)")->check(CLI::ExistingDirectory)->group(GROUP_IO);
+    app.add_option("-o, --output", Input::outpath, "Path to the output file (Default: Results.txt)")->group(GROUP_IO);
+    
+    // app.add_option_group(GROUP_GENERAL);
+    app.add_option("-t, --threads", Input::threadsToMake, "Number of threads to use (Default: AUTODETECT)")->check(CLI::Range(1u, 64u))->group(GROUP_GENERAL);
+    app.add_option("-s, --sort", Input::sortType, "Sorting type (TTK DAMAGE DAMAGEEND FIRERATE PELLETS SPREADAIM SPREADHIP RECOILAIM RECOILHIP HEALTH RANGE RANGEEND DETECTIONRADIUS TIMETOAIM BURST SPEED MAGAZINE RELOAD DPS) (Default: TTK)")->group(GROUP_GENERAL);
+    app.add_option("-n, --number", Input::howManyTopGunsToDisplay, "Number of top guns to display (Default: 10)")->group(GROUP_GENERAL);
+    app.add_option("-m, --method", Input::method, "Method to use for calculation (BRUTEFORCE, PRUNE, DYNAMICPRUNE) (Default: DYNAMICPRUNE)")->group(GROUP_GENERAL);
+    app.add_option("-i, --include", Input::includeCategories, "Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird)")->group(GROUP_GENERAL);
+    app.add_option("-p, --priority", Input::sortPriority, "Sort direction priority (HIGHEST, LOWEST) (Default: AUTO)")->group(GROUP_GENERAL);
+    app.add_option("--mh, --defaultMaxHealth", Input::playerMaxHealth, "Set the player max health for TTK calculation (Default: 100)")->group(GROUP_GENERAL);
+    
+    // app.add_option_group(GROUP_TEST);
+    app.add_flag  ("--detailed", Input::detailed, "Display all stats of the gun including irrelevant ones")->group(GROUP_TEST);
+    app.add_flag  ("--debug", Input::debug, "Enter debug mode (also does --detailed)")->group(GROUP_TEST);
+    app.add_flag  ("--testInstall", Input::testInstall, "Test the current installation and attempt to read from data files.")->group(GROUP_TEST);
 
-    app.add_option("--fb, --forceBarrel", Input::forceBarrel, "Force the calculator to use a list of barrels");
-    app.add_option("--fm, --forceMagazine", Input::forceMagazine, "Force the calculator to use a list of magazines");
-    app.add_option("--fg, --forceGrip", Input::forceGrip, "Force the calculator to use a list of grips");
-    app.add_option("--fs, --forceStock", Input::forceStock, "Force the calculator to use a list of stocks");
-    app.add_option("--fc, --forceCore", Input::forceCore, "Force the calculator to use a list of cores");
+    // app.add_option_group(GROUP_FB);
+    app.add_option("--fb, --forceBarrel", Input::forceBarrel, "Force the calculator to use a list of barrels")->group(GROUP_FB);
+    app.add_option("--fm, --forceMagazine", Input::forceMagazine, "Force the calculator to use a list of magazines")->group(GROUP_FB);
+    app.add_option("--fg, --forceGrip", Input::forceGrip, "Force the calculator to use a list of grips")->group(GROUP_FB);
+    app.add_option("--fs, --forceStock", Input::forceStock, "Force the calculator to use a list of stocks")->group(GROUP_FB);
+    app.add_option("--fc, --forceCore", Input::forceCore, "Force the calculator to use a list of cores")->group(GROUP_FB);
 
-    app.add_option("--bb, --banBarrel", Input::banBarrel, "Ban the calculator from using a list of barrels");
-    app.add_option("--bm, --banMagazine", Input::banMagazine, "Ban the calculator from using a list of magazines");
-    app.add_option("--bg, --banGrip", Input::banGrip, "Ban the calculator from using a list of grips");
-    app.add_option("--bs, --banStock", Input::banStock, "Ban the calculator from using a list of stocks");
-    app.add_option("--bc, --banCore", Input::banCore, "Ban the calculator from using a list of cores");
+    app.add_option("--bb, --banBarrel", Input::banBarrel, "Ban the calculator from using a list of barrels")->group(GROUP_FB);
+    app.add_option("--bm, --banMagazine", Input::banMagazine, "Ban the calculator from using a list of magazines")->group(GROUP_FB);
+    app.add_option("--bg, --banGrip", Input::banGrip, "Ban the calculator from using a list of grips")->group(GROUP_FB);
+    app.add_option("--bs, --banStock", Input::banStock, "Ban the calculator from using a list of stocks")->group(GROUP_FB);
+    app.add_option("--bc, --banCore", Input::banCore, "Ban the calculator from using a list of cores")->group(GROUP_FB);
 
-    app.add_option("--damage, --damageStart", Input::damageRange, "Damage range to filter (START)");
-    app.add_option("--damageMin, --damageStartMin", Input::damageRange.first);
-    app.add_option("--damageMax, --damageStartMax", Input::damageRange.second);
-    app.add_option("--damageEnd", Input::damageEndRange, "Damage range to filter (END)");
-    app.add_option("--damageEndMin", Input::damageEndRange.first);
-    app.add_option("--damageEndMax", Input::damageEndRange.second);
-    app.add_option("--magazine", Input::magazineRange, "Size of magazine to filter");
-    app.add_option("--magazineMin", Input::magazineRange.first);
-    app.add_option("--magazineMax", Input::magazineRange.second);
-    app.add_option("--spreadHip", Input::spreadHipRange, "Spread range to filter (HIP)");
-    app.add_option("--spreadHipMin", Input::spreadHipRange.first);
-    app.add_option("--spreadHipMax", Input::spreadHipRange.second);
-    app.add_option("--spreadAim", Input::spreadAimRange, "Spread range to filter (AIM)");
-    app.add_option("--spreadAimMin", Input::spreadAimRange.first);
-    app.add_option("--spreadAimMax", Input::spreadAimRange.second);
-    app.add_option("--recoilHip", Input::recoilHipRange, "Recoil range to filter (HIP)");
-    app.add_option("--recoilHipMin", Input::recoilHipRange.first);
-    app.add_option("--recoilHipMax", Input::recoilHipRange.second);
-    app.add_option("--recoilAim", Input::recoilAimRange, "Recoil range to filter (AIM)");
-    app.add_option("--recoilAimMin", Input::recoilAimRange.first);
-    app.add_option("--recoilAimMax", Input::recoilAimRange.second);
-    app.add_option("--speed", Input::movementSpeedRange, "Movement speed range to filter");
-    app.add_option("--speedMin", Input::movementSpeedRange.first);
-    app.add_option("--speedMax", Input::movementSpeedRange.second);
-    app.add_option("--fireRate", Input::fireRateRange, "Fire rate range to filter");
-    app.add_option("--fireRateMin", Input::fireRateRange.first);
-    app.add_option("--fireRateMax", Input::fireRateRange.second);
-    app.add_option("--health", Input::healthRange, "Health range to filter");
-    app.add_option("--healthMin", Input::healthRange.first);
-    app.add_option("--healthMax", Input::healthRange.second);
-    app.add_option("--pellet", Input::pelletRange, "Pellet range to filter");
-    app.add_option("--pelletMin", Input::pelletRange.first);
-    app.add_option("--pelletMax", Input::pelletRange.second);
-    app.add_option("--timeToAim", Input::timeToAimRange, "Time to aim range to filter");
-    app.add_option("--timeToAimMin", Input::timeToAimRange.first);
-    app.add_option("--timeToAimMax", Input::timeToAimRange.second);
-    app.add_option("--reload", Input::reloadRange, "Reload time to filter");
-    app.add_option("--reloadMin", Input::reloadRange.first);
-    app.add_option("--reloadMax", Input::reloadRange.second);
-    app.add_option("--detectionRadius", Input::detectionRadiusRange, "Detection radius range to filter");
-    app.add_option("--detectionRadiusMin", Input::detectionRadiusRange.first);
-    app.add_option("--detectionRadiusMax", Input::detectionRadiusRange.second);
-    app.add_option("--range, --rangeStart", Input::dropoffStudsRange, "Dropoff studs range to filter (START)");
-    app.add_option("--rangeMin, --rangeStartMin", Input::dropoffStudsRange.first);
-    app.add_option("--rangeMax, --rangeStartEnd", Input::dropoffStudsRange.second);
-    app.add_option("--rangeEnd", Input::dropoffStudsEndRange, "Dropoff studs range to filter (END)");
-    app.add_option("--rangeEndMin", Input::dropoffStudsEndRange.first);
-    app.add_option("--rangeEndMax", Input::dropoffStudsEndRange.second);
-    app.add_option("--burst", Input::burstRange, "Burst range to filter");
-    app.add_option("--burstMin", Input::burstRange.first);
-    app.add_option("--burstMax", Input::burstRange.second);
-    app.add_option("--TTK", Input::TTKRange, "TTK range to filter"); // Input is TTKS but gets turned into TTKM internally
-    app.add_option("--TTKMin", Input::TTKRange.first);
-    app.add_option("--TTKMax", Input::TTKRange.second);
-    app.add_option("--DPS", Input::DPSRange, "DPS range to filter"); // Input is DPS but gets turned into DPM internally
-    app.add_option("--DPSMin", Input::DPSRange.first);
-    app.add_option("--DPSMax", Input::DPSRange.second);
+    // app.add_option_group(GROUP_FILTERS);
+    app.add_option("--damage, --damageStart", Input::damageRange, "Damage range to filter (START)")->group(GROUP_FILTERS);
+    app.add_option("--damageMin, --damageStartMin", Input::damageRange.first)->group(GROUP_FILTERS);
+    app.add_option("--damageMax, --damageStartMax", Input::damageRange.second)->group(GROUP_FILTERS);
+    app.add_option("--damageEnd", Input::damageEndRange, "Damage range to filter (END)")->group(GROUP_FILTERS);
+    app.add_option("--damageEndMin", Input::damageEndRange.first)->group(GROUP_FILTERS);
+    app.add_option("--damageEndMax", Input::damageEndRange.second)->group(GROUP_FILTERS);
+    app.add_option("--magazine", Input::magazineRange, "Size of magazine to filter")->group(GROUP_FILTERS);
+    app.add_option("--magazineMin", Input::magazineRange.first)->group(GROUP_FILTERS);
+    app.add_option("--magazineMax", Input::magazineRange.second)->group(GROUP_FILTERS);
+    app.add_option("--spreadHip", Input::spreadHipRange, "Spread range to filter (HIP)")->group(GROUP_FILTERS);
+    app.add_option("--spreadHipMin", Input::spreadHipRange.first)->group(GROUP_FILTERS);
+    app.add_option("--spreadHipMax", Input::spreadHipRange.second)->group(GROUP_FILTERS);
+    app.add_option("--spreadAim", Input::spreadAimRange, "Spread range to filter (AIM)")->group(GROUP_FILTERS);
+    app.add_option("--spreadAimMin", Input::spreadAimRange.first)->group(GROUP_FILTERS);
+    app.add_option("--spreadAimMax", Input::spreadAimRange.second)->group(GROUP_FILTERS);
+    app.add_option("--recoilHip", Input::recoilHipRange, "Recoil range to filter (HIP)")->group(GROUP_FILTERS);
+    app.add_option("--recoilHipMin", Input::recoilHipRange.first)->group(GROUP_FILTERS);
+    app.add_option("--recoilHipMax", Input::recoilHipRange.second)->group(GROUP_FILTERS);
+    app.add_option("--recoilAim", Input::recoilAimRange, "Recoil range to filter (AIM)")->group(GROUP_FILTERS);
+    app.add_option("--recoilAimMin", Input::recoilAimRange.first)->group(GROUP_FILTERS);
+    app.add_option("--recoilAimMax", Input::recoilAimRange.second)->group(GROUP_FILTERS);
+    app.add_option("--speed", Input::movementSpeedRange, "Movement speed range to filter")->group(GROUP_FILTERS);
+    app.add_option("--speedMin", Input::movementSpeedRange.first)->group(GROUP_FILTERS);
+    app.add_option("--speedMax", Input::movementSpeedRange.second)->group(GROUP_FILTERS);
+    app.add_option("--fireRate", Input::fireRateRange, "Fire rate range to filter")->group(GROUP_FILTERS);
+    app.add_option("--fireRateMin", Input::fireRateRange.first)->group(GROUP_FILTERS);
+    app.add_option("--fireRateMax", Input::fireRateRange.second)->group(GROUP_FILTERS);
+    app.add_option("--health", Input::healthRange, "Health range to filter")->group(GROUP_FILTERS);
+    app.add_option("--healthMin", Input::healthRange.first)->group(GROUP_FILTERS);
+    app.add_option("--healthMax", Input::healthRange.second)->group(GROUP_FILTERS);
+    app.add_option("--pellet", Input::pelletRange, "Pellet range to filter")->group(GROUP_FILTERS);
+    app.add_option("--pelletMin", Input::pelletRange.first)->group(GROUP_FILTERS);
+    app.add_option("--pelletMax", Input::pelletRange.second)->group(GROUP_FILTERS);
+    app.add_option("--timeToAim", Input::timeToAimRange, "Time to aim range to filter")->group(GROUP_FILTERS);
+    app.add_option("--timeToAimMin", Input::timeToAimRange.first)->group(GROUP_FILTERS);
+    app.add_option("--timeToAimMax", Input::timeToAimRange.second)->group(GROUP_FILTERS);
+    app.add_option("--reload", Input::reloadRange, "Reload time to filter")->group(GROUP_FILTERS);
+    app.add_option("--reloadMin", Input::reloadRange.first)->group(GROUP_FILTERS);
+    app.add_option("--reloadMax", Input::reloadRange.second)->group(GROUP_FILTERS);
+    app.add_option("--detectionRadius", Input::detectionRadiusRange, "Detection radius range to filter")->group(GROUP_FILTERS);
+    app.add_option("--detectionRadiusMin", Input::detectionRadiusRange.first)->group(GROUP_FILTERS);
+    app.add_option("--detectionRadiusMax", Input::detectionRadiusRange.second)->group(GROUP_FILTERS);
+    app.add_option("--range, --rangeStart", Input::dropoffStudsRange, "Dropoff studs range to filter (START)")->group(GROUP_FILTERS);
+    app.add_option("--rangeMin, --rangeStartMin", Input::dropoffStudsRange.first)->group(GROUP_FILTERS);
+    app.add_option("--rangeMax, --rangeStartEnd", Input::dropoffStudsRange.second)->group(GROUP_FILTERS);
+    app.add_option("--rangeEnd", Input::dropoffStudsEndRange, "Dropoff studs range to filter (END)")->group(GROUP_FILTERS);
+    app.add_option("--rangeEndMin", Input::dropoffStudsEndRange.first)->group(GROUP_FILTERS);
+    app.add_option("--rangeEndMax", Input::dropoffStudsEndRange.second)->group(GROUP_FILTERS);
+    app.add_option("--burst", Input::burstRange, "Burst range to filter")->group(GROUP_FILTERS);
+    app.add_option("--burstMin", Input::burstRange.first)->group(GROUP_FILTERS);
+    app.add_option("--burstMax", Input::burstRange.second)->group(GROUP_FILTERS);
+    app.add_option("--TTK", Input::TTKRange, "TTK range to filter")->group(GROUP_FILTERS); // Input is TTKS but gets turned into TTKM internally
+    app.add_option("--TTKMin", Input::TTKRange.first)->group(GROUP_FILTERS);
+    app.add_option("--TTKMax", Input::TTKRange.second)->group(GROUP_FILTERS);
+    app.add_option("--DPS", Input::DPSRange, "DPS range to filter")->group(GROUP_FILTERS); // Input is DPS but gets turned into DPM internally
+    app.add_option("--DPSMin", Input::DPSRange.first)->group(GROUP_FILTERS);
+    app.add_option("--DPSMax", Input::DPSRange.second)->group(GROUP_FILTERS);
 
     CLI11_PARSE(app, argc, argv);
 
@@ -328,7 +347,7 @@ int main(int argc, char* argv[])
     else if (Input::method == "PRUNE")
     {
         puts("This function is no longer supported. Please use switch to another method.");
-        throw std::invalid_argument("BRUTEFORCE is no longer supported");
+        throw std::invalid_argument("PRUNE is no longer supported");
     }
     else if (Input::method == "BRUTEFORCE")
     {
