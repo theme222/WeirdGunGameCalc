@@ -89,6 +89,8 @@ FORCE / BAN PARTS:
     --bg, --banGrip TEXT ...            Ban the calculator from using a list of grips 
     --bs, --banStock TEXT ...           Ban the calculator from using a list of stocks 
     --bc, --banCore TEXT ...            Ban the calculator from using a list of cores 
+    --banPriceType TEXT ...             Ban the calculator from using a part / core with a
+                                        cost type (COIN, WC, ROBUX, LIMITED, SPECIAL)
     
 # Filters here also contain a min and max version (removed for brevity). 
 # For example --speed -> --speedMin --speedMax

@@ -1,65 +1,51 @@
 ./wggcalc -o InterestingBuilds/HipfireSecondarySemi.txt -i Sidearm --bc B17 Deagle --spreadHipMax 1 --magazineMin 20 --speedMin 5 --rangeMin 40 
 Current top 10 guns are: 
-[ Barrel: G3, Magazine: Scar H, Grip: Type 2a Nambu, Stock: M1897 Trench Shotgun, Core: Type 14 ]
+[ Barrel: G3, Magazine: Scar H, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
+damage: 34.6837 - 20.0002
+dropoffStuds: 40.6715 - 92.9633
+fireRate: 441
+adsSpread: 0.345576
+hipfireSpread: 0.967613
+reloadTime: 4.5
+magazineSize: 20
+health: -10
+recoilHipVertical: 10.35 - 24.15
+recoilAimVertical: 2.07 - 4.83
+movementSpeed: 6
+TTK: 0.272109 Seconds
+
+[ Barrel: G3, Magazine: Fedorov, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
+damage: 33.6949 - 19.2303
+dropoffStuds: 40.178 - 91.8355
+fireRate: 441
+adsSpread: 0.345576
+hipfireSpread: 0.967613
+reloadTime: 4
+magazineSize: 25
+health: -10
+recoilHipVertical: 10.1844 - 23.7636
+recoilAimVertical: 2.03688 - 4.75272
+movementSpeed: 6
+TTK: 0.272109 Seconds
+
+[ Barrel: G3, Magazine: Scar H, Grip: Type 2a Nambu, Stock: None, Core: Type 14 ]
 damage: 34.0384 - 19.6281
 dropoffStuds: 40.6715 - 92.9633
-fireRate: 492.597
-adsSpread: 0.320072
-hipfireSpread: 0.896202
+fireRate: 441
+adsSpread: 0.256313
+hipfireSpread: 0.717676
 reloadTime: 4.5
 magazineSize: 20
 health: -17.5
-recoilHipVertical: 15.5312 - 36.2395
-recoilAimVertical: 3.10624 - 7.2479
+recoilHipVertical: 12.7305 - 29.7045
+recoilAimVertical: 2.5461 - 5.9409
 movementSpeed: 6
-TTK: 0.243607 Seconds
+TTK: 0.272109 Seconds
 
-[ Barrel: FC200SH, Magazine: Scar H, Grip: Double Barrel, Stock: M1897 Trench Shotgun, Core: Type 14 ]
-damage: 33.4451 - 19.3865
-dropoffStuds: 40.9152 - 93.5205
-fireRate: 487.57
-adsSpread: 0.320072
-hipfireSpread: 0.896202
-reloadTime: 4.86
-magazineSize: 20
-health: -10
-recoilHipVertical: 16.47 - 38.43
-recoilAimVertical: 3.294 - 7.686
-movementSpeed: 7
-TTK: 0.246118 Seconds
-
-[ Barrel: FC200SH, Magazine: Scar H, Grip: Cyber 3517, Stock: M1897 Trench Shotgun, Core: Type 14 ]
-damage: 33.4846 - 19.5502
-dropoffStuds: 41.3244 - 94.4557
-fireRate: 487.57
-adsSpread: 0.355105
-hipfireSpread: 0.994294
-reloadTime: 4.86
-magazineSize: 20
-health: -10
-recoilHipVertical: 11.895 - 27.755
-recoilAimVertical: 2.379 - 5.551
-movementSpeed: 6
-TTK: 0.246118 Seconds
-
-[ Barrel: G3, Magazine: Scar H, Grip: PPSh-41, Stock: APS, Core: Type 14 ]
-damage: 33.8448 - 19.5165
+[ Barrel: G3, Magazine: Scar H, Grip: MP 40, Stock: None, Core: Type 14 ]
+damage: 33.7964 - 19.4886
 dropoffStuds: 40.6715 - 92.9633
-fireRate: 474.075
-adsSpread: 0.307986
-hipfireSpread: 0.862362
-reloadTime: 5.175
-magazineSize: 20
-health: -10
-recoilHipVertical: 13.455 - 31.395
-recoilAimVertical: 2.691 - 6.279
-movementSpeed: 6
-TTK: 0.253125 Seconds
-
-[ Barrel: G3, Magazine: Scar H, Grip: Quad-Jolly, Stock: APS, Core: Type 14 ]
-damage: 33.8448 - 19.3015
-dropoffStuds: 40.0614 - 91.5689
-fireRate: 467.46
+fireRate: 441
 adsSpread: 0.332824
 hipfireSpread: 0.931907
 reloadTime: 4.5
@@ -67,76 +53,90 @@ magazineSize: 20
 health: -10
 recoilHipVertical: 13.455 - 31.395
 recoilAimVertical: 2.691 - 6.279
-movementSpeed: 9
-TTK: 0.256706 Seconds
-
-[ Barrel: G3, Magazine: Scar H, Grip: B17, Stock: APS, Core: Type 14 ]
-damage: 33.8448 - 19.5165
-dropoffStuds: 40.6715 - 92.9633
-fireRate: 458.64
-adsSpread: 0.332824
-hipfireSpread: 0.931907
-reloadTime: 4.5
-magazineSize: 20
-health: -10
-recoilHipVertical: 18.0297 - 42.0693
-recoilAimVertical: 3.60594 - 8.41386
 movementSpeed: 6
-TTK: 0.261643 Seconds
+TTK: 0.272109 Seconds
 
-[ Barrel: FC200SH, Magazine: Scar H, Grip: Circuit Judge, Stock: Fedorov, Core: Type 14 ]
+[ Barrel: FC200SH, Magazine: Scar H, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
 damage: 33.9584 - 19.6841
 dropoffStuds: 40.9152 - 93.5205
-fireRate: 456.361
+fireRate: 436.5
 adsSpread: 0.345576
 hipfireSpread: 0.967613
-reloadTime: 5.2002
-magazineSize: 20
-health: -10
-recoilHipVertical: 7.0125 - 16.3625
-recoilAimVertical: 1.4025 - 3.2725
-movementSpeed: 7
-TTK: 0.26295 Seconds
-
-[ Barrel: FC200SH, Magazine: Scar H, Grip: Double Barrel, Stock: Fedorov, Core: Type 14 ]
-damage: 33.4451 - 19.3865
-dropoffStuds: 40.9152 - 93.5205
-fireRate: 456.361
-adsSpread: 0.256313
-hipfireSpread: 0.717676
-reloadTime: 5.2002
-magazineSize: 20
-health: -10
-recoilHipVertical: 12.6225 - 29.4525
-recoilAimVertical: 2.5245 - 5.8905
-movementSpeed: 5
-TTK: 0.26295 Seconds
-
-[ Barrel: FC200SH, Magazine: Scar H, Grip: Double Barrel, Stock: AR-8X, Core: Type 14 ]
-damage: 33.4451 - 19.3865
-dropoffStuds: 40.9152 - 93.5205
-fireRate: 456.361
-adsSpread: 0.292018
-hipfireSpread: 0.817651
 reloadTime: 4.86
 magazineSize: 20
 health: -10
-recoilHipVertical: 13.5 - 31.5
-recoilAimVertical: 2.7 - 6.3
-movementSpeed: 5
-TTK: 0.26295 Seconds
+recoilHipVertical: 7.5 - 17.5
+recoilAimVertical: 1.5 - 3.5
+movementSpeed: 9
+TTK: 0.274914 Seconds
 
-[ Barrel: G3, Magazine: Scar H, Grip: Double Barrel, Stock: MAC-10, Core: Type 14 ]
-damage: 34.1594 - 19.6979
-dropoffStuds: 40.6715 - 92.9633
-fireRate: 455.884
-adsSpread: 0.297119
-hipfireSpread: 0.831933
+[ Barrel: Lobotomizer .44, Magazine: Scar H, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
+damage: 33.7911 - 19.2589
+dropoffStuds: 40.1277 - 91.7204
+fireRate: 414
+adsSpread: 0.345576
+hipfireSpread: 0.967613
 reloadTime: 4.5
 magazineSize: 20
 health: -10
-recoilHipVertical: 18.63 - 43.47
-recoilAimVertical: 3.726 - 8.694
-movementSpeed: 7.45
-TTK: 0.263225 Seconds
+recoilHipVertical: 10.05 - 23.45
+recoilAimVertical: 2.01 - 4.69
+movementSpeed: 9
+TTK: 0.289855 Seconds
+
+[ Barrel: Deagle, Magazine: Scar H, Grip: X-Blaster, Stock: None, Core: Type 14 ]
+damage: 36.8395 - 20.9105
+dropoffStuds: 40.0167 - 91.4667
+fireRate: 405
+adsSpread: 0.30222
+hipfireSpread: 0.846215
+reloadTime: 4.5
+magazineSize: 20
+health: -8.05
+recoilHipVertical: 11.625 - 27.125
+recoilAimVertical: 2.325 - 5.425
+movementSpeed: 7.275
+TTK: 0.296296 Seconds
+
+[ Barrel: Scar H, Magazine: Scar H, Grip: Cyber 3517, Stock: None, Core: Type 14 ]
+damage: 34.8127 - 19.9112
+dropoffStuds: 40.3396 - 92.2047
+fireRate: 405
+adsSpread: 0.238387
+hipfireSpread: 0.667484
+reloadTime: 4.5
+magazineSize: 20
+health: -10
+recoilHipVertical: 11.7 - 27.3
+recoilAimVertical: 2.34 - 5.46
+movementSpeed: 6
+TTK: 0.296296 Seconds
+
+[ Barrel: G3, Magazine: BAR, Grip: Type 2a Nambu, Stock: None, Core: Type 14 ]
+damage: 33.8891 - 20.3687
+dropoffStuds: 42.7022 - 97.605
+fireRate: 396.9
+adsSpread: 0.281817
+hipfireSpread: 0.789086
+reloadTime: 4
+magazineSize: 20
+health: -17.5
+recoilHipVertical: 11.2028 - 26.14
+recoilAimVertical: 2.24057 - 5.22799
+movementSpeed: 5.5
+TTK: 0.302343 Seconds
+
+[ Barrel: Deagle, Magazine: Scar H, Grip: Mosin, Stock: None, Core: Type 14 ]
+damage: 36.8395 - 21.0577
+dropoffStuds: 40.3677 - 92.269
+fireRate: 394.875
+adsSpread: 0.256313
+hipfireSpread: 0.717676
+reloadTime: 4.5
+magazineSize: 20
+health: -10
+recoilHipVertical: 11.625 - 27.125
+recoilAimVertical: 2.325 - 5.425
+movementSpeed: 6.5
+TTK: 0.303894 Seconds
 

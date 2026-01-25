@@ -92,42 +92,42 @@ recoilAimVertical: 17.712 - 24.4098
 movementSpeed: 5.5
 TTK: 0.247879 Seconds
 
-[ Barrel: Tommy, Magazine: MP 40, Grip: Mas-38, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 33.5598 - 20.2376
-dropoffStuds: 104.904 - 161.727
-fireRate: 481.423
-adsSpread: 0.490411
-hipfireSpread: 2.45206
-reloadTime: 2.5
+[ Barrel: M870 Breacher, Magazine: MP18, Grip: Circuit Judge, Stock: M40, Core: STG-44 ]
+damage: 34.0241 - 27.9935
+dropoffStuds: 122.85 - 245.7
+fireRate: 482.5
+adsSpread: 0.617957
+hipfireSpread: 8.4969
+reloadTime: 2.2
 magazineSize: 32
-recoilHipVertical: 59.6275 - 82.4263
-recoilAimVertical: 20.8696 - 28.7615
-movementSpeed: 9.3
-TTK: 0.249261 Seconds
+recoilHipVertical: 56.73 - 68.076
+recoilAimVertical: 31.2015 - 37.4418
+movementSpeed: 2.25
+TTK: 0.248705 Seconds
 
-[ Barrel: Type 2a Nambu, Magazine: PP-19 Bizon, Grip: PPSh-41, Stock: Spas-12, Core: MP18 ]
-damage: 33.8973 - 20.3704
-dropoffStuds: 104.405 - 160.958
-fireRate: 480.04
-adsSpread: 0.634995
-hipfireSpread: 3.17497
-reloadTime: 4.6
-magazineSize: 64
-recoilHipVertical: 38.08 - 52.64
-recoilAimVertical: 13.328 - 18.368
-movementSpeed: 3.5
-TTK: 0.249979 Seconds
+[ Barrel: M870 Breacher, Magazine: MP18, Grip: Circuit Judge, Stock: M870, Core: STG-44 ]
+damage: 34.0241 - 27.9935
+dropoffStuds: 122.85 - 245.7
+fireRate: 482.5
+adsSpread: 0.637603
+hipfireSpread: 8.76704
+reloadTime: 2.31
+magazineSize: 32
+recoilHipVertical: 54.1375 - 64.965
+recoilAimVertical: 29.7756 - 35.7307
+movementSpeed: 2.25
+TTK: 0.248705 Seconds
 
-[ Barrel: Uzi, Magazine: Maple Badger, Grip: Double Barrel, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 33.6352 - 20.9211
-dropoffStuds: 110.4 - 170.2
-fireRate: 479.707
-adsSpread: 0.5446
-hipfireSpread: 2.723
-reloadTime: 1.6
-magazineSize: 30
-recoilHipVertical: 74.664 - 103.212
-recoilAimVertical: 26.1324 - 36.0144
-movementSpeed: 5.5
-TTK: 0.250153 Seconds
+[ Barrel: M870 Breacher, Magazine: MP18, Grip: Circuit Judge, Stock: Type 2a Nambu, Core: STG-44 ]
+damage: 34.0241 - 27.9935
+dropoffStuds: 122.85 - 245.7
+fireRate: 482.5
+adsSpread: 0.644604
+hipfireSpread: 8.8633
+reloadTime: 2.2
+magazineSize: 32
+recoilHipVertical: 56.181 - 67.4172
+recoilAimVertical: 30.8996 - 37.0795
+movementSpeed: 3.435
+TTK: 0.248705 Seconds
 

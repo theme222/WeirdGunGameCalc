@@ -24,18 +24,6 @@ recoilHipVertical: 19.1808 - 28.7712
 recoilAimVertical: 7.67232 - 11.5085
 movementSpeed: 5.225
 
-[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Auto-5, Stock: JSG12, Core: M1897 Trench Shotgun ]
-damage: 100.653 - -0.629087
-dropoffStuds: 51 - 102
-fireRate: 168
-adsSpread: 1.06148
-hipfireSpread: 1.91066
-reloadTime: 0.525
-magazineSize: 5
-recoilHipVertical: 19.1808 - 28.7712
-recoilAimVertical: 7.67232 - 11.5085
-movementSpeed: 5.6
-
 [ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Auto-5, Stock: FC200SH, Core: M1897 Trench Shotgun ]
 damage: 100.653 - 1.49785
 dropoffStuds: 52.071 - 104.142
@@ -47,6 +35,18 @@ magazineSize: 5
 recoilHipVertical: 19.1808 - 28.7712
 recoilAimVertical: 7.67232 - 11.5085
 movementSpeed: 4
+
+[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Auto-5, Stock: JSG12, Core: M1897 Trench Shotgun ]
+damage: 100.653 - -0.629087
+dropoffStuds: 51 - 102
+fireRate: 168
+adsSpread: 1.06148
+hipfireSpread: 1.91066
+reloadTime: 0.525
+magazineSize: 5
+recoilHipVertical: 19.1808 - 28.7712
+recoilAimVertical: 7.67232 - 11.5085
+movementSpeed: 5.6
 
 [ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Tap, Stock: M870 MCS, Core: JSG12 ]
 damage: 116.109 - -6.28925

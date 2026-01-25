@@ -19,7 +19,7 @@ Core::Core(const json &jsonObject) : category(jsonObject["Category"]), name(json
     
     if (jsonObject.contains("Price_Type")) 
     {
-        if (jsonObject["Price_Type"] == "Coin")
+        if (jsonObject["Price_Type"] == "Coin" || jsonObject["Price_Type"] == "Free") // I had to pick something
             priceType_fast = Fast::COIN;
         else if (jsonObject["Price_Type"] == "WC")
             priceType_fast = Fast::WC;
@@ -285,43 +285,43 @@ int main(int argc, char* argv[])
     std::ifstream FullData(fullDataPath);
     json data = json::parse(FullData);
 
-    barrelCount = data["Barrels"].size();
-    barrelList.reserve(barrelCount + 1);
+    Data::barrelCount = data["Barrels"].size();
+    Data::barrelList.reserve(Data::barrelCount + 1);
 
     for (json &element : data["Barrels"])
-        barrelList.push_back(element);
+        Data::barrelList.push_back(element);
 
-    magazineCount = data["Magazines"].size();
-    magazineList.reserve(magazineCount + 1);
+    Data::magazineCount = data["Magazines"].size();
+    Data::magazineList.reserve(Data::magazineCount + 1);
 
     for (json &element : data["Magazines"])
-        magazineList.push_back(element);
+        Data::magazineList.push_back(element);
 
-    gripCount = data["Grips"].size();
-    gripList.reserve(gripCount + 1);
+    Data::gripCount = data["Grips"].size();
+    Data::gripList.reserve(Data::gripCount + 1);
 
     for (json &element : data["Grips"])
-        gripList.push_back(element);
+        Data::gripList.push_back(element);
 
-    stockCount = data["Stocks"].size();
-    stockList.reserve(stockCount + 1);
+    Data::stockCount = data["Stocks"].size();
+    Data::stockList.reserve(Data::stockCount + 1);
 
     for (json &element : data["Stocks"])
-        stockList.push_back(element);
+        Data::stockList.push_back(element);
 
-    coreCount = data["Cores"].size();
-    coreList.reserve(coreCount);
+    Data::coreCount = data["Cores"].size();
+    Data::coreList.reserve(Data::coreCount + 1);
 
     for (json &element : data["Cores"])
-        coreList.push_back(element);
+        Data::coreList.push_back(element);
 
     // Add the "None" part for help with secondaries. The +1 to reserve is for "None" part
     // Although it is not a part of the count because it isn't an actual part and I don't want it to be used in PRUNE or BRUTEFORCE.
     // This was added to help with secondary weapons because they don't have a stock.
-    barrelList.push_back(Part::ToNone(Barrel()));
-    magazineList.push_back(Part::ToNone(Magazine()));
-    gripList.push_back(Part::ToNone(Grip()));
-    stockList.push_back(Part::ToNone(Stock()));
+    Data::barrelList.push_back(Part::ToNone(Barrel()));
+    Data::magazineList.push_back(Part::ToNone(Magazine()));
+    Data::gripList.push_back(Part::ToNone(Grip()));
+    Data::stockList.push_back(Part::ToNone(Stock()));
 
     std::ifstream Penalties(penaltiesPath);
     json penalties = json::parse(Penalties);
@@ -357,8 +357,8 @@ int main(int argc, char* argv[])
 
     std::cout << "Sorting " << Input::sortType << " by: " << (PQ::sortPriority ? "HIGHEST": "LOWEST") << '\n';
 
-    totalCombinations = barrelCount * magazineCount * gripCount * stockCount * coreCount;
-    printf("Barrels detected: %lu, Magazines detected: %lu, Grips detected: %lu, Stocks detected: %lu, Cores detected: %lu\n", barrelCount, magazineCount, gripCount, stockCount, coreCount);
+    totalCombinations = Data::barrelCount * Data::magazineCount * Data::gripCount * Data::stockCount * Data::coreCount;
+    printf("Barrels detected: %lu, Magazines detected: %lu, Grips detected: %lu, Stocks detected: %lu, Cores detected: %lu\n", Data::barrelCount, Data::magazineCount, Data::gripCount, Data::stockCount, Data::coreCount);
     printf("Total of %lu possibilities \n", totalCombinations);
     printf("Starting %s with %lu threads\n", Input::method.c_str(), Input::threadsToMake);
 
@@ -407,7 +407,7 @@ int main(int argc, char* argv[])
     uint64_t totalValidGuns = 0;
     for (int i = 0; i < Input::threadsToMake; i++)
         totalValidGuns += validGunInThread[i];
-    printf("Total valid gun combinations based on filters: %lu / %lu\n", totalValidGuns, coreCount * magazineCount * barrelCount * gripCount * stockCount);
+    printf("Total valid gun combinations based on filters: %lu / %lu\n", totalValidGuns, Data::coreCount * Data::magazineCount * Data::barrelCount * Data::gripCount * Data::stockCount);
 
     PQ::topGuns = PQ::AllSortPQ();
 

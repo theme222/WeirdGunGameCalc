@@ -1,0 +1,146 @@
+./wggcalc -o InterestingBuilds/F2PNewbieFriendlyTTK.txt -i SMG AR LMG --banPriceType ROBUX LIMITED SPECIAL --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.8 --recoilAimMax 35 --rangeMin 150 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
+Current top 10 guns are: 
+[ Barrel: Shower, Magazine: Type 99, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 16.7595 - 12.5639
+dropoffStuds: 194.4 - 415.8
+pellets: 2
+fireRate: 1253.04
+adsSpread: 0.743402
+hipfireSpread: 22.3021
+reloadTime: 3.75
+magazineSize: 30
+health: -7.5
+recoilHipVertical: 4.4447 - 4.88917
+recoilAimVertical: 1.55565 - 1.68899
+movementSpeed: 0.5
+TTK: 0.239418 Seconds
+
+[ Barrel: Mustard, Magazine: Graphics Card, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 14.685 - 10.3694
+dropoffStuds: 165.6 - 354.2
+fireRate: 1487.98
+adsSpread: 0.305878
+hipfireSpread: 9.17635
+reloadTime: 6
+magazineSize: 50
+health: -7.5
+recoilHipVertical: 13.5274 - 14.8801
+recoilAimVertical: 4.73458 - 5.1404
+movementSpeed: 1.5
+TTK: 0.241938 Seconds
+
+[ Barrel: Mustard, Magazine: MAC-10, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 14.685 - 10.4493
+dropoffStuds: 169.2 - 361.9
+fireRate: 1474.93
+adsSpread: 0.305878
+hipfireSpread: 9.17635
+reloadTime: 2
+magazineSize: 30
+health: -7.5
+recoilHipVertical: 23.7168 - 26.0885
+recoilAimVertical: 8.30088 - 9.01238
+movementSpeed: 4.36
+TTK: 0.244079 Seconds
+
+[ Barrel: Mustard, Magazine: P90, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 14.3215 - 10.5512
+dropoffStuds: 185.85 - 397.513
+fireRate: 1474.93
+adsSpread: 0.427621
+hipfireSpread: 12.8286
+reloadTime: 4
+magazineSize: 50
+health: -7.5
+recoilHipVertical: 19.3248 - 21.2573
+recoilAimVertical: 6.76368 - 7.34342
+movementSpeed: 1.3
+TTK: 0.244079 Seconds
+
+[ Barrel: DP-27, Magazine: Graphics Card, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 16.8266 - 11.8816
+dropoffStuds: 165.6 - 354.2
+fireRate: 1214.2
+adsSpread: 0.240566
+hipfireSpread: 7.21699
+reloadTime: 6
+magazineSize: 50
+health: -7.5
+recoilHipVertical: 17.1797 - 18.8977
+recoilAimVertical: 6.01291 - 6.5283
+movementSpeed: 0.5
+TTK: 0.247077 Seconds
+
+[ Barrel: Burton, Magazine: Type 99, Grip: PPSh-41, Stock: Arisaka, Core: MG42 ]
+damage: 14.3133 - 9.22557
+dropoffStuds: 162 - 351
+fireRate: 1456.92
+adsSpread: 0.637386
+hipfireSpread: 6.37386
+reloadTime: 3.69495
+magazineSize: 30
+health: 5
+recoilHipVertical: 43.4452 - 62.2987
+recoilAimVertical: 21.7226 - 31.1494
+movementSpeed: 0.3
+TTK: 0.247097 Seconds
+
+[ Barrel: Shower, Magazine: DP-27, Grip: M1 Garand, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 16.6823 - 12.3699
+dropoffStuds: 189 - 404.25
+pellets: 2
+fireRate: 1210.24
+adsSpread: 0.786195
+hipfireSpread: 23.5859
+reloadTime: 6
+magazineSize: 47
+health: -7.5
+recoilHipVertical: 3.416 - 3.7576
+recoilAimVertical: 1.1956 - 1.29808
+movementSpeed: 2.5
+TTK: 0.247885 Seconds
+
+[ Barrel: Shower, Magazine: DP-27, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 16.6823 - 12.3699
+dropoffStuds: 189 - 404.25
+pellets: 2
+fireRate: 1206.84
+adsSpread: 0.735793
+hipfireSpread: 22.0738
+reloadTime: 6.9
+magazineSize: 47
+health: -7.5
+recoilHipVertical: 3.416 - 3.7576
+recoilAimVertical: 1.1956 - 1.29808
+movementSpeed: 5.5
+TTK: 0.248583 Seconds
+
+[ Barrel: DP-27, Magazine: MAC-10, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 16.8266 - 11.9732
+dropoffStuds: 169.2 - 361.9
+fireRate: 1203.54
+adsSpread: 0.240566
+hipfireSpread: 7.21699
+reloadTime: 2
+magazineSize: 30
+health: -7.5
+recoilHipVertical: 30.1203 - 33.1324
+recoilAimVertical: 10.5421 - 11.4457
+movementSpeed: 3.36
+TTK: 0.249264 Seconds
+
+[ Barrel: M1897 Trench Shotgun, Magazine: Hex Spitter, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 17.0292 - 11.6028
+dropoffStuds: 151.389 - 323.804
+pellets: 2
+fireRate: 1200.83
+adsSpread: 0.293911
+hipfireSpread: 8.81734
+reloadTime: 3.67
+magazineSize: 35
+health: -7.5
+recoilHipVertical: 24.2438 - 26.6682
+recoilAimVertical: 8.48534 - 9.21266
+movementSpeed: 1.5
+TTK: 0.249827 Seconds
+

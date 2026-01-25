@@ -13,6 +13,19 @@ recoilHipVertical: 355.752 - 405.162
 recoilAimVertical: 160.088 - 182.323
 movementSpeed: -4
 
+[ Barrel: Light Gun, Magazine: Lightning Shot, Grip: Circuit Judge, Stock: Roto-Fire, Core: Arisaka ]
+damage: 125.228 - 100.406
+dropoffStuds: 48.88 - 85.54
+fireRate: 22.4989
+adsSpread: 0.135136
+hipfireSpread: 10.8109
+reloadTime: 9.9
+magazineSize: 7
+health: -10
+recoilHipVertical: 162 - 184.5
+recoilAimVertical: 72.9 - 83.025
+movementSpeed: -2.5
+
 [ Barrel: Light Gun, Magazine: Lightning Shot, Grip: M1 Garand, Stock: APS, Core: Arisaka ]
 damage: 123.122 - 100.098
 dropoffStuds: 52 - 91
@@ -79,31 +92,18 @@ recoilAimVertical: 73.7962 - 98.3949
 movementSpeed: -4.5
 TTK: 5.45455 Seconds
 
-[ Barrel: BAR, Magazine: Lightning Shot, Grip: Snake Sniper, Stock: M1897 Trench Shotgun, Core: Arisaka ]
-damage: 109.183 - 100.143
-dropoffStuds: 475.2 - 831.6
-fireRate: 21.9384
-adsSpread: 0.114233
-hipfireSpread: 9.13862
-reloadTime: 9
+[ Barrel: Light Gun, Magazine: Lightning Shot, Grip: Circuit Judge, Stock: FG-42, Core: Arisaka ]
+damage: 125.228 - 101.811
+dropoffStuds: 52 - 91
+fireRate: 21.7882
+adsSpread: 0.135136
+hipfireSpread: 10.8109
+reloadTime: 9.9
 magazineSize: 7
 health: -10
-recoilHipVertical: 289.345 - 329.532
-recoilAimVertical: 130.205 - 148.289
-movementSpeed: -4
-
-[ Barrel: BAR, Magazine: Lightning Shot, Grip: The Chief, Stock: M1897 Trench Shotgun, Core: Arisaka ]
-damage: 111.453 - 101.199
-dropoffStuds: 432 - 756
-fireRate: 21.9384
-adsSpread: 0.123939
-hipfireSpread: 9.91511
-reloadTime: 9
-magazineSize: 7
-health: -10
-recoilHipVertical: 320.177 - 364.646
-recoilAimVertical: 144.08 - 164.091
-movementSpeed: -2.5
+recoilHipVertical: 183.06 - 208.485
+recoilAimVertical: 82.377 - 93.8183
+movementSpeed: 0.55
 
 [ Barrel: Light Gun, Magazine: Lightning Shot, Grip: Double Barrel, Stock: FG-42, Core: Arisaka ]
 damage: 123.473 - 100.383
@@ -118,16 +118,16 @@ recoilHipVertical: 329.508 - 375.273
 recoilAimVertical: 148.279 - 168.873
 movementSpeed: -1.45
 
-[ Barrel: Light Gun, Magazine: Lightning Shot, Grip: Circuit Judge, Stock: FG-42, Core: Arisaka ]
-damage: 125.228 - 101.811
+[ Barrel: Light Gun, Magazine: Lightning Shot, Grip: P90, Stock: APS, Core: Arisaka ]
+damage: 123.122 - 100.098
 dropoffStuds: 52 - 91
-fireRate: 21.7882
-adsSpread: 0.135136
-hipfireSpread: 10.8109
+fireRate: 21.7778
+adsSpread: 0.145689
+hipfireSpread: 11.6551
 reloadTime: 9.9
 magazineSize: 7
 health: -10
-recoilHipVertical: 183.06 - 208.485
-recoilAimVertical: 82.377 - 93.8183
-movementSpeed: 0.55
+recoilHipVertical: 196.7 - 224.02
+recoilAimVertical: 88.5152 - 100.809
+movementSpeed: -2
 

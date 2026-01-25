@@ -3,7 +3,7 @@ Current top 10 guns are:
 [ Barrel: Spray Can, Magazine: Scar H, Grip: PPSh-41, Stock: Fedorov, Core: Winchester ]
 damage: 69.1151 - 55.4593
 dropoffStuds: 207.459 - 385.281
-fireRate: 100.179
+fireRate: 85.8675
 adsSpread: 0.138307
 hipfireSpread: 10.4922
 reloadTime: 5.53725
@@ -11,12 +11,12 @@ magazineSize: 20
 recoilHipVertical: 90 - 104.625
 recoilAimVertical: 45 - 52.3125
 movementSpeed: 0.5
-TTK: 0.598929 Seconds
+TTK: 0.698751 Seconds
 
 [ Barrel: Spray Can, Magazine: Scar H, Grip: M1 Garand, Stock: FG-42, Core: Winchester ]
 damage: 69.1151 - 55.4593
 dropoffStuds: 207.459 - 385.281
-fireRate: 99.225
+fireRate: 85.05
 adsSpread: 0.148661
 hipfireSpread: 11.2778
 reloadTime: 4.5
@@ -24,12 +24,12 @@ magazineSize: 20
 recoilHipVertical: 113 - 131.363
 recoilAimVertical: 56.5 - 65.6813
 movementSpeed: 2.5
-TTK: 0.604686 Seconds
+TTK: 0.705467 Seconds
 
 [ Barrel: Spray Can, Magazine: Scar H, Grip: PPSh-41, Stock: FG-42, Core: Winchester ]
 damage: 69.1151 - 55.4593
 dropoffStuds: 207.459 - 385.281
-fireRate: 98.3063
+fireRate: 84.2625
 adsSpread: 0.138307
 hipfireSpread: 10.4922
 reloadTime: 5.175
@@ -37,25 +37,12 @@ magazineSize: 20
 recoilHipVertical: 113 - 131.363
 recoilAimVertical: 56.5 - 65.6813
 movementSpeed: 5.5
-TTK: 0.610338 Seconds
-
-[ Barrel: Spray Can, Magazine: Scar H, Grip: FG-42, Stock: Fedorov, Core: Winchester ]
-damage: 69.1151 - 55.4593
-dropoffStuds: 207.459 - 385.281
-fireRate: 97.37
-adsSpread: 0.148661
-hipfireSpread: 11.2778
-reloadTime: 4.95945
-magazineSize: 20
-recoilHipVertical: 77.4 - 89.9775
-recoilAimVertical: 38.7 - 44.9888
-movementSpeed: 0.5
-TTK: 0.616206 Seconds
+TTK: 0.712061 Seconds
 
 [ Barrel: Spray Can, Magazine: Scar H, Grip: PPSh-41, Stock: Plunger, Core: Winchester ]
 damage: 69.1151 - 55.1862
 dropoffStuds: 203.31 - 377.575
-fireRate: 97.37
+fireRate: 83.46
 adsSpread: 0.138307
 hipfireSpread: 10.4922
 reloadTime: 5.175
@@ -63,12 +50,25 @@ magazineSize: 20
 recoilHipVertical: 100 - 116.25
 recoilAimVertical: 50 - 58.125
 movementSpeed: 0.5
-TTK: 0.616206 Seconds
+TTK: 0.718907 Seconds
+
+[ Barrel: Spray Can, Magazine: Scar H, Grip: FG-42, Stock: Fedorov, Core: Winchester ]
+damage: 69.1151 - 55.4593
+dropoffStuds: 207.459 - 385.281
+fireRate: 83.46
+adsSpread: 0.148661
+hipfireSpread: 11.2778
+reloadTime: 4.95945
+magazineSize: 20
+recoilHipVertical: 77.4 - 89.9775
+recoilAimVertical: 38.7 - 44.9888
+movementSpeed: 0.5
+TTK: 0.718907 Seconds
 
 [ Barrel: Spray Can, Magazine: Scar H, Grip: Quad-Jolly, Stock: Fedorov, Core: Winchester ]
 damage: 69.1151 - 55.2545
 dropoffStuds: 204.347 - 379.502
-fireRate: 97.2764
+fireRate: 83.3798
 adsSpread: 0.148661
 hipfireSpread: 11.2778
 reloadTime: 4.815
@@ -76,12 +76,12 @@ magazineSize: 20
 recoilHipVertical: 90 - 104.625
 recoilAimVertical: 45 - 52.3125
 movementSpeed: 2.45
-TTK: 0.616799 Seconds
+TTK: 0.719599 Seconds
 
 [ Barrel: Spray Can, Magazine: Scar H, Grip: M1 Garand, Stock: P90, Core: Winchester ]
 damage: 69.1151 - 55.4593
 dropoffStuds: 207.459 - 385.281
-fireRate: 97.146
+fireRate: 83.268
 adsSpread: 0.137271
 hipfireSpread: 10.4137
 reloadTime: 4.5
@@ -89,25 +89,12 @@ magazineSize: 20
 recoilHipVertical: 112 - 130.2
 recoilAimVertical: 56 - 65.1
 movementSpeed: 1.6
-TTK: 0.617627 Seconds
-
-[ Barrel: Spray Can, Magazine: Scar H, Grip: The Chief, Stock: M1897 Trench Shotgun, Core: Winchester ]
-damage: 70.7574 - 56.7772
-dropoffStuds: 207.459 - 385.281
-fireRate: 96.95
-adsSpread: 0.148698
-hipfireSpread: 11.2806
-reloadTime: 4.5
-magazineSize: 20
-recoilHipVertical: 164.7 - 191.464
-recoilAimVertical: 82.35 - 95.7319
-movementSpeed: 2.5
-TTK: 0.618876 Seconds
+TTK: 0.720565 Seconds
 
 [ Barrel: Spray Can, Magazine: M40, Grip: The Chief, Stock: M1897 Trench Shotgun, Core: Winchester ]
 damage: 67.0149 - 54.6667
 dropoffStuds: 218.673 - 406.107
-fireRate: 96.95
+fireRate: 83.1
 adsSpread: 0.134864
 hipfireSpread: 10.2311
 reloadTime: 4.5
@@ -115,12 +102,12 @@ magazineSize: 10
 recoilHipVertical: 164.7 - 191.464
 recoilAimVertical: 82.35 - 95.7319
 movementSpeed: 2.5
-TTK: 0.618876 Seconds
+TTK: 0.722022 Seconds
 
 [ Barrel: Spray Can, Magazine: Scar H, Grip: AWM, Stock: M1897 Trench Shotgun, Core: Winchester ]
 damage: 69.1151 - 55.4593
 dropoffStuds: 207.459 - 385.281
-fireRate: 96.95
+fireRate: 83.1
 adsSpread: 0.143249
 hipfireSpread: 10.8672
 reloadTime: 5.04
@@ -128,5 +115,18 @@ magazineSize: 20
 recoilHipVertical: 131.76 - 153.171
 recoilAimVertical: 65.88 - 76.5855
 movementSpeed: 2.5
-TTK: 0.618876 Seconds
+TTK: 0.722022 Seconds
+
+[ Barrel: Spray Can, Magazine: Scar H, Grip: Snake Sniper, Stock: M1897 Trench Shotgun, Core: Winchester ]
+damage: 69.1151 - 56.62
+dropoffStuds: 225.093 - 418.03
+fireRate: 83.1
+adsSpread: 0.147959
+hipfireSpread: 11.2245
+reloadTime: 4.5
+magazineSize: 20
+recoilHipVertical: 148.84 - 173.027
+recoilAimVertical: 74.42 - 86.5133
+movementSpeed: 1
+TTK: 0.722022 Seconds
 

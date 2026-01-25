@@ -114,22 +114,21 @@ namespace Input
 namespace Fast // Namespace to contain any indexing that uses the integer representation of categories and mults (I'm also just realizing that this is just giving an id to parts)
 {
     inline int categoryCount; // Gets set to fastifyCategory.size() in the main function
-    inline int primaryCategoryCount;
+    inline int primaryCategoryCount; // This expects the Categories.json to contain primaries first and secondaries after
     inline int secondaryCategoryCount;
-
-    inline bool includedPrimary = false;
-    inline bool includedSecondary = false;
 
     // penalties[coreCategory][partCategory]
     inline std::vector<std::vector<float>> penalties;
-
     inline std::map<std::string, int> fastifyCategory;
-
     inline std::vector<bool> includeCategories_fast;
+
+    inline bool isPrimaryCategory(int category_fast) { return category_fast < Fast::primaryCategoryCount; }
+    inline bool isSecondaryCategory(int category_fast) { return category_fast >= Fast::primaryCategoryCount; }
+    
     // 0: core, 1: magazine, 2: barrel, 3: stock, 4: grip
     inline std::vector<bool> forceParts_fast[5];
     inline std::vector<bool> banParts_fast[5];
-    
+
     enum PriceType {
         COIN = 1<<0,
         WC = 1<<1,
@@ -137,8 +136,8 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         LIMITED = 1<<3,
         SPECIAL = 1<<4
     };
-    
-    inline multiFlags banPriceType_fast = 0; 
+
+    inline multiFlags banPriceType_fast = 0;
 
     const int TOTALMULTFLAGS = 20;
     const int TOTALPROPERTYFLAGS = 20;
@@ -283,8 +282,6 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             std::cout << '\n';
         }
 
-        int maxPartCount = includedPrimary ? 5 : 4; // Secondaries don't have stocks
-
     }
 
     inline std::map<std::string, int> fastifyName = {};
@@ -299,7 +296,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
     inline void InitializeCategoriesFBParts()
     {
         using namespace Input;
-        
+
         // init categories
         includeCategories_fast.resize(categoryCount, false);
         for (auto& category : Input::includeCategories)
@@ -308,12 +305,6 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             if (!fastifyCategory.contains(category))
                 throw std::invalid_argument("Category " + category + " doesn't exist");
             includeCategories_fast[fastifyCategory[category]] = true;
-        }
-
-        for (int cat = 0; cat < Fast::categoryCount; cat++)
-        {
-            if (cat < Fast::primaryCategoryCount) includedPrimary = includedPrimary || includeCategories_fast[cat];
-            else includedSecondary = includedSecondary || includeCategories_fast[cat];
         }
 
         // init force and ban parts to be a bool vector of size fastifyName.size()
@@ -349,19 +340,6 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             forceParts_fast[4][fastifyName[grip]] = true;
         }
 
-        // Set secondary class's forceStock to be None
-        if (includedPrimary && includedSecondary)
-            throw std::invalid_argument("Primary and Secondary categories cannot be included together. Please calculate them separately.");
-        if (includedSecondary && forcingStock)
-            puts("WARNING: Force stock is not allowed in secondary category, reverting to None");
-        if (includedSecondary)
-        {
-            forceParts_fast[3].clear();
-            forceParts_fast[3].resize(fastifyName.size(), false);
-            forceParts_fast[3][fastifyName["None"]] = true;
-            forcingStock = true;   
-        }
-
         for (auto core: banCore)
         {
             PartExists(core);
@@ -387,7 +365,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             PartExists(grip);
             banParts_fast[4][fastifyName[grip]] = true;
         }
-        
+
         for (auto priceType: banPriceType)
         {
             if (priceType == "COIN")
@@ -401,12 +379,12 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             else if (priceType == "LIMITED")
                 banPriceType_fast |= LIMITED;
         }
-        
+
         // Check if including categories
         bool includedCategory = false;
         for (bool categoryIncluded : includeCategories_fast)
             includedCategory = includedCategory || categoryIncluded;
-        
+
         if (!forcingCore && !includedCategory)
             throw std::invalid_argument("No categories included");
     }
@@ -451,7 +429,6 @@ public:
     Core(const json &jsonObject);
 
 };
-
 
 class Part
 {
@@ -1074,20 +1051,33 @@ inline Part operator*(Part part1, Part part2) // Used in highlow
 }
 
 
-// This is now a uint64_t so I don't need to typecast it the moment I try to multiply these things together.
-inline uint64_t barrelCount;
-inline uint64_t magazineCount;
-inline uint64_t gripCount;
-inline uint64_t stockCount;
-inline uint64_t coreCount;
+namespace Data // Contains the real information read from FullData.json
+{
+    // This is now a uint64_t so I don't need to typecast it the moment I try to multiply these things together.
+    inline uint64_t barrelCount;
+    inline uint64_t magazineCount;
+    inline uint64_t gripCount;
+    inline uint64_t stockCount;
+    inline uint64_t coreCount;
+
+    inline std::vector<Barrel> barrelList;
+    inline std::vector<Magazine> magazineList;
+    inline std::vector<Grip> gripList;
+    inline std::vector<Stock> stockList;
+    inline std::vector<Core> coreList;
+
+    // template<typename T>
+    // inline T& GetPartByName(std::string& name, std::vector<T>& list) // Basic linear search
+    // {
+    //     int fastName = Fast::fastifyName[name];
+    //     for (T& part : list)
+    //         if (part.name_fast == fastName)
+    //             return part;
+    //     throw std::runtime_error("Part not found");
+    // }
+}
+
 inline uint64_t totalCombinations;
-
-inline std::vector<Barrel> barrelList;
-inline std::vector<Magazine> magazineList;
-inline std::vector<Grip> gripList;
-inline std::vector<Stock> stockList;
-inline std::vector<Core> coreList;
-
 
 namespace PQ
 {
@@ -1414,6 +1404,7 @@ namespace DynamicPrune
 
             for (int g = 0; g < Fast::categoryCount; g++)
             {
+                using namespace Data;
                 Gun& dummyGun = dummyGuns[g];
                 std::pair<Part, Part> magazineMultPair = FindHighestAndLowestMultInList(dummyGun, magazineList.data(), magazineCount);
                 std::pair<Part, Part> barrelMultPair = FindHighestAndLowestMultInList(dummyGun, barrelList.data(), barrelCount);
@@ -1772,6 +1763,7 @@ namespace DynamicPrune
 
     inline uint64_t CoreLoop(int threadId)
     {
+        using namespace Data;
         uint64_t prunedEndpoints = 0; // Total endpoints pruned before the final loop
         for (int c = 0; c < coreCount; c++)
         {
@@ -1823,6 +1815,7 @@ namespace DynamicPrune
 
     inline uint64_t MagazineLoop(const Gun& prevGun, const PassThroughArgs& args)
     {
+        using namespace Data;
         // printf("%d: Processing magazine loop\n", args.threadId);
         uint64_t prunedEndpoints = 0;
         for (int m = 0; m < magazineCount + 1; m++)
@@ -1852,6 +1845,7 @@ namespace DynamicPrune
 
     inline uint64_t BarrelLoop(const Gun& prevGun, const PassThroughArgs& args)
     {
+        using namespace Data;
         // printf("%d: Processing barrel loop\n", args.threadId);
         uint64_t prunedEndpoints = 0;
         for (int b = 0; b < barrelCount + 1; b++)
@@ -1880,12 +1874,20 @@ namespace DynamicPrune
 
     inline uint64_t StockLoop(const Gun& prevGun, const PassThroughArgs& args)
     {
+        using namespace Data;
         // printf("%d: Processing stock loop\n", args.threadId);
         uint64_t prunedEndpoints = 0;
         for (int s = 0; s < stockCount + 1; s++)
         {
             Stock *stockPtr = args.stockList_penalized.data() + s;
-            if (!Filter::StockFilter(stockPtr)) continue;
+            if (Fast::isSecondaryCategory(args.currentCoreCat)) 
+            {
+                if (stockPtr->name_fast != Fast::fastifyNoneName()) continue;
+            }
+            else 
+            {
+                if (!Filter::StockFilter(stockPtr)) continue;
+            }
 
             Gun currentGun = prevGun;
             currentGun.stock = stockPtr;
@@ -1908,6 +1910,7 @@ namespace DynamicPrune
 
     inline void GripLoop(const Gun& prevGun, const PassThroughArgs& args)
     {
+        using namespace Data;
         // printf("%d: Processing grip loop\n", args.threadId);
         for (int g = 0; g < gripCount + 1; g++)
         {

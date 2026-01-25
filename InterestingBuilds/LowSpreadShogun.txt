@@ -39,19 +39,6 @@ recoilHipVertical: 70.8624 - 113.38
 recoilAimVertical: 28.345 - 45.3519
 movementSpeed: 0.6
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: Auto-5, Core: Spas-12 ]
-damage: 105.712 - -24.4307
-dropoffStuds: 36.975 - 85.0425
-fireRate: 213.444
-adsSpread: 0.776903
-hipfireSpread: 3.10761
-reloadTime: 0.5
-magazineSize: 5
-health: 6
-recoilHipVertical: 63.27 - 101.232
-recoilAimVertical: 25.308 - 40.4928
-movementSpeed: 5.6
-
 [ Barrel: Second Amendment, Magazine: Type 99, Grip: Auto-5, Stock: Auto-5, Core: Spas-12 ]
 damage: 131.065 - -0.825018
 dropoffStuds: 46.11 - 106.053
@@ -64,6 +51,19 @@ health: 6
 recoilHipVertical: 86.526 - 138.442
 recoilAimVertical: 34.6104 - 55.3766
 movementSpeed: 2
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: Auto-5, Core: Spas-12 ]
+damage: 105.712 - -24.4307
+dropoffStuds: 36.975 - 85.0425
+fireRate: 213.444
+adsSpread: 0.776903
+hipfireSpread: 3.10761
+reloadTime: 0.5
+magazineSize: 5
+health: 6
+recoilHipVertical: 63.27 - 101.232
+recoilAimVertical: 25.308 - 40.4928
+movementSpeed: 5.6
 
 [ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: M870 MCS, Core: Spas-12 ]
 damage: 130.617 - -24.5931
@@ -91,18 +91,18 @@ recoilHipVertical: 70.8624 - 113.38
 recoilAimVertical: 28.345 - 45.3519
 movementSpeed: 2.55
 
-[ Barrel: Second Amendment, Magazine: M1891, Grip: Auto-5, Stock: JSG12, Core: Spas-12 ]
+[ Barrel: Second Amendment, Magazine: M1891, Grip: Auto-5, Stock: UNP-40, Core: Spas-12 ]
 damage: 133.85 - 4.88905
 dropoffStuds: 47.85 - 110.055
 fireRate: 208.362
-adsSpread: 0.803293
-hipfireSpread: 3.21317
-reloadTime: 3.675
+adsSpread: 0.849617
+hipfireSpread: 3.39847
+reloadTime: 3.5
 magazineSize: 6
 health: 6
-recoilHipVertical: 106.875 - 171
-recoilAimVertical: 42.75 - 68.4
-movementSpeed: 1
+recoilHipVertical: 128.25 - 205.2
+recoilAimVertical: 51.3 - 82.08
+movementSpeed: 0.47
 
 [ Barrel: Second Amendment, Magazine: M1891, Grip: Auto-5, Stock: MG42, Core: Spas-12 ]
 damage: 133.85 - 4.88905
@@ -117,16 +117,16 @@ recoilHipVertical: 106.875 - 171
 recoilAimVertical: 42.75 - 68.4
 movementSpeed: 0.625
 
-[ Barrel: Second Amendment, Magazine: M1891, Grip: Auto-5, Stock: UNP-40, Core: Spas-12 ]
+[ Barrel: Second Amendment, Magazine: M1891, Grip: Auto-5, Stock: JSG12, Core: Spas-12 ]
 damage: 133.85 - 4.88905
 dropoffStuds: 47.85 - 110.055
 fireRate: 208.362
-adsSpread: 0.849617
-hipfireSpread: 3.39847
-reloadTime: 3.5
+adsSpread: 0.803293
+hipfireSpread: 3.21317
+reloadTime: 3.675
 magazineSize: 6
 health: 6
-recoilHipVertical: 128.25 - 205.2
-recoilAimVertical: 51.3 - 82.08
-movementSpeed: 0.47
+recoilHipVertical: 106.875 - 171
+recoilAimVertical: 42.75 - 68.4
+movementSpeed: 1
 

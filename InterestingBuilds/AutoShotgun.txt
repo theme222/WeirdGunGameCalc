@@ -1,4 +1,4 @@
-./wggcalc -o InterestingBuilds/AutoShotgun.txt -i Shotgun --sort FIRERATE --fc Siberia-12 --damageMin 60 --spreadAimMax 2 --speedMin 0 --rangeMin 50 --magazineMin 20 --recoilAimMax 100 
+./wggcalc -o InterestingBuilds/AutoShotgun.txt -i Shotgun --sort FIRERATE --fc Siberia-12 AUTO-12 --damageMin 60 --spreadAimMax 2 --speedMin 0 --rangeMin 50 --magazineMin 20 --recoilAimMax 100 
 Current top 10 guns are: 
 [ Barrel: MarrowMaker, Magazine: BAR, Grip: PPSh-41, Stock: JSG12, Core: Siberia-12 ]
 damage: 60.3992 - 10.098
@@ -54,18 +54,19 @@ recoilHipVertical: 91.3 - 105.6
 recoilAimVertical: 73.92 - 85.58
 TTK: 0.0973736 Seconds
 
-[ Barrel: MarrowMaker, Magazine: BAR, Grip: Hell-Trooper-23, Stock: P90, Core: Siberia-12 ]
+[ Barrel: MarrowMaker, Magazine: BAR, Grip: Arisaka, Stock: P90, Core: Siberia-12 ]
 damage: 60.3992 - 10.098
 dropoffStuds: 52.1016 - 115.781
 pellets: 2
 fireRate: 614.984
-adsSpread: 1.90102
-hipfireSpread: 5.70306
-reloadTime: 3.86
+adsSpread: 1.9888
+hipfireSpread: 5.96641
+reloadTime: 4
 magazineSize: 20
+health: -6
 recoilHipVertical: 102.256 - 118.272
 recoilAimVertical: 82.7904 - 95.8496
-movementSpeed: 1.05
+movementSpeed: 2.95
 TTK: 0.0975635 Seconds
 
 [ Barrel: MarrowMaker, Magazine: BAR, Grip: Raygun, Stock: P90, Core: Siberia-12 ]
@@ -80,21 +81,6 @@ magazineSize: 20
 recoilHipVertical: 102.256 - 118.272
 recoilAimVertical: 82.7904 - 95.8496
 movementSpeed: 0.575
-TTK: 0.0975635 Seconds
-
-[ Barrel: MarrowMaker, Magazine: BAR, Grip: Arisaka, Stock: P90, Core: Siberia-12 ]
-damage: 60.3992 - 10.098
-dropoffStuds: 52.1016 - 115.781
-pellets: 2
-fireRate: 614.984
-adsSpread: 1.9888
-hipfireSpread: 5.96641
-reloadTime: 4
-magazineSize: 20
-health: -6
-recoilHipVertical: 102.256 - 118.272
-recoilAimVertical: 82.7904 - 95.8496
-movementSpeed: 2.95
 TTK: 0.0975635 Seconds
 
 [ Barrel: MarrowMaker, Magazine: BAR, Grip: FG-42, Stock: JSG12, Core: Siberia-12 ]
@@ -137,4 +123,18 @@ magazineSize: 20
 recoilHipVertical: 71.214 - 82.368
 recoilAimVertical: 57.6576 - 66.7524
 TTK: 0.0981374 Seconds
+
+[ Barrel: MarrowMaker, Magazine: BAR, Grip: Uzi, Stock: M870, Core: Siberia-12 ]
+damage: 60.3992 - 10.098
+dropoffStuds: 52.1016 - 115.781
+pellets: 2
+fireRate: 607.192
+adsSpread: 1.98997
+hipfireSpread: 5.9699
+reloadTime: 4.2
+magazineSize: 20
+recoilHipVertical: 95.4542 - 110.405
+recoilAimVertical: 77.2834 - 89.4739
+movementSpeed: 1.55
+TTK: 0.0988155 Seconds
 
