@@ -16,9 +16,11 @@
 // #include <variant>
 // #include <iomanip>
 
+// COMPILATION TARGETS: EMSCRIPTEN, WINDOWS, LINUX
+
 #ifndef __WGGCALC_HPP__
 #define __WGGCALC_HPP__
-#define __WGGCALC_VERSION__ "1.7.1"
+#define __WGGCALC_VERSION__ "2.0.0"
 
 using fpair = std::pair<float, float>;
 using json = nlohmann::json;
@@ -36,8 +38,11 @@ const fpair NILRANGE_P = NILRANGE;
 
 namespace Input
 {
+    #ifndef __EMSCRIPTEN__
     inline std::filesystem::path fileDir = "Data";
     inline std::string outpath = "Results.txt";
+    #endif
+    
     inline std::string sortType = "TTK";
     inline std::string method = "DYNAMICPRUNE";
     inline std::string sortPriority = "AUTO"; // HIGHEST, LOWEST, AUTO
@@ -69,7 +74,12 @@ namespace Input
 
     inline std::vector<std::string> includeCategories;
 
+    #ifdef __EMSCRIPTEN__
+    inline uint64_t threadsToMake = 1;
+    #else
     inline uint64_t threadsToMake = std::clamp(std::thread::hardware_concurrency(), 1u, 64u);
+    #endif
+    
     inline uint64_t howManyTopGunsToDisplay = 10;
     inline int playerMaxHealth = 100;
 
@@ -426,8 +436,83 @@ public:
     fpair recoilAimVertical = fpair(0, 0);
 
     Core() {}
-    Core(const json &jsonObject);
-
+    Core(const json &jsonObject) : category(jsonObject["Category"]), name(jsonObject["Name"])
+    {
+        category_fast = Fast::fastifyCategory[category];
+        if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
+        name_fast = Fast::fastifyName[name];
+        
+        if (jsonObject.contains("Price_Type")) 
+        {
+            if (jsonObject["Price_Type"] == "Coin" || jsonObject["Price_Type"] == "Free") // I had to pick something
+                priceType_fast = Fast::COIN;
+            else if (jsonObject["Price_Type"] == "WC")
+                priceType_fast = Fast::WC;
+            else if (jsonObject["Price_Type"] == "Robux")
+                priceType_fast = Fast::ROBUX;
+            else
+                priceType_fast = Fast::SPECIAL;
+        }
+    
+        // Second damage stat will now be calculated using the falloff factor since range stat effects that
+        if (!jsonObject.contains("Damage"))
+            {}
+        else if (jsonObject["Damage"].is_array())
+            damage = jsonObject["Damage"][0];
+        else
+            damage = jsonObject["Damage"];
+    
+        if (jsonObject.contains("Dropoff_Studs"))
+        {
+            dropoffStuds.first = jsonObject["Dropoff_Studs"][0];
+            dropoffStuds.second = jsonObject["Dropoff_Studs"][1];
+        }
+    
+        if (jsonObject.contains("Falloff_Factor")) // Falloff_Factor is not a publicly available property so there only exists data from #update-log channel on discord
+            falloffFactor = jsonObject["Falloff_Factor"];
+        else if (jsonObject.contains("Damage") && jsonObject["Damage"].is_array())
+            falloffFactor = ((float)jsonObject["Damage"][1] - (float)jsonObject["Damage"][0]) / (float)jsonObject["Damage"][0];
+    
+        if (jsonObject.contains("Fire_Rate"))
+            fireRate = jsonObject["Fire_Rate"];
+        if (jsonObject.contains("Hipfire_Spread"))
+            hipfireSpread = jsonObject["Hipfire_Spread"];
+        if (jsonObject.contains("ADS_Spread"))
+            adsSpread = jsonObject["ADS_Spread"];
+        if (jsonObject.contains("Time_To_Aim"))
+            timeToAim = jsonObject["Time_To_Aim"];
+        if (jsonObject.contains("Movement_Speed_Modifier"))
+            movementSpeedModifier = jsonObject["Movement_Speed_Modifier"];
+        if (jsonObject.contains("Pellets"))
+            pellets = jsonObject["Pellets"];
+        if (jsonObject.contains("Burst"))
+            burst = jsonObject["Burst"];
+        if (jsonObject.contains("Detection_Radius"))
+            detectionRadius = jsonObject["Detection_Radius"];
+        if (jsonObject.contains("Health"))
+            health = jsonObject["Health"];
+    
+        if (jsonObject.contains("Recoil_Hip_Horizontal"))
+        {
+            recoilHipHorizontal.first = jsonObject["Recoil_Hip_Horizontal"][0];
+            recoilHipHorizontal.second = jsonObject["Recoil_Hip_Horizontal"][1];
+        }
+        if (jsonObject.contains("Recoil_Hip_Vertical"))
+        {
+            recoilHipVertical.first = jsonObject["Recoil_Hip_Vertical"][0];
+            recoilHipVertical.second = jsonObject["Recoil_Hip_Vertical"][1];
+        }
+        if (jsonObject.contains("Recoil_Aim_Horizontal"))
+        {
+            recoilAimHorizontal.first = jsonObject["Recoil_Aim_Horizontal"][0];
+            recoilAimHorizontal.second = jsonObject["Recoil_Aim_Horizontal"][1];
+        }
+        if (jsonObject.contains("Recoil_Aim_Vertical"))
+        {
+            recoilAimVertical.first = jsonObject["Recoil_Aim_Vertical"][0];
+            recoilAimVertical.second = jsonObject["Recoil_Aim_Vertical"][1];
+        }
+    }
 };
 
 class Part
@@ -484,7 +569,47 @@ public:
         return part;
     }
 
-    Part(const json& jsonObject);
+    Part(const json &jsonObject): category(jsonObject["Category"]), name(jsonObject["Name"])
+    {
+        category_fast = Fast::fastifyCategory[category];
+        if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
+        name_fast = Fast::fastifyName[name];
+    
+        
+        if (jsonObject.contains("Price_Type")) 
+        {
+            if (jsonObject["Price_Type"] == "Coin")
+                priceType_fast = Fast::COIN;
+            else if (jsonObject["Price_Type"] == "WC")
+                priceType_fast = Fast::WC;
+            else if (jsonObject["Price_Type"] == "Robux")
+                priceType_fast = Fast::ROBUX;
+            else
+                priceType_fast = Fast::SPECIAL;
+        }
+        
+        if (jsonObject.contains("Damage"))
+            damage = jsonObject["Damage"];
+        if (jsonObject.contains("Fire_Rate"))
+            fireRate = jsonObject["Fire_Rate"];
+        if (jsonObject.contains("Spread"))
+            spread = jsonObject["Spread"];
+        if (jsonObject.contains("Recoil"))
+            recoil = jsonObject["Recoil"];
+        if (jsonObject.contains("Pellets"))
+            pellets = jsonObject["Pellets"];
+        if (jsonObject.contains("Movement_Speed"))
+            movementSpeed = jsonObject["Movement_Speed"];
+        if (jsonObject.contains("Reload_Speed"))
+            reloadSpeed = jsonObject["Reload_Speed"];
+        if (jsonObject.contains("Health"))
+            health = jsonObject["Health"];
+        if (jsonObject.contains("Detection_Radius"))
+            detectionRadius = jsonObject["Detection_Radius"];
+        if (jsonObject.contains("Range"))
+            range = jsonObject["Range"];
+    }
+
 
     void ApplyPenalty(Core *c) // this gets ran during the first loop (core) of DYNAMICPRUNE
     {
@@ -1446,7 +1571,26 @@ namespace DynamicPrune
     }
 
     // Global variables shared across threads
+    #ifdef __EMSCRIPTEN__
+    // Emulating std::atomic methods because I can't be bothered to give a danm
+    class AtomicEmulator 
+    {
+        float value;
+    public:
+        AtomicEmulator(float initialValue) : value(initialValue) {}
+        float load() const { return value; }
+        void store(float newValue) { value = newValue; }
+        bool compare_exchange_weak(float& expected, float current)
+        {
+            value = current;
+            return true;
+        }
+    };
+    inline AtomicEmulator currentBestThreshold_a;
+    #else
     inline std::atomic<float> currentBestThreshold_a; // Keep track of the current best property value and dynamically adjust it as it gets ran.
+    #endif
+
 
     inline void InitializeThreshold()
     {
@@ -1761,7 +1905,7 @@ namespace DynamicPrune
     uint64_t StockLoop(const Gun& prevGun, const PassThroughArgs& args);
     void GripLoop(const Gun& prevGun, const PassThroughArgs& args);
 
-    inline uint64_t CoreLoop(int threadId)
+    inline uint64_t CoreLoop(int threadId) // threadId here will just be 0 in EMSCRIPTEN. (Similiar to just passing -t 1)
     {
         using namespace Data;
         uint64_t prunedEndpoints = 0; // Total endpoints pruned before the final loop
@@ -1966,7 +2110,7 @@ namespace DynamicPrune
         printf("Thread %d started\n", threadId);
         threadPQ[threadId] = PQ::AllSortPQ();
         uint64_t prunedEndpoints = CoreLoop(threadId);
-        printf("%d: Pruned endpoints: %lu\n", threadId, prunedEndpoints);
+        printf("%d: Pruned endpoints: %llu\n", threadId, prunedEndpoints);
     }
 }
 #endif

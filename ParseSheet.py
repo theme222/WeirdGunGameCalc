@@ -310,8 +310,8 @@ def main():
     # ParseParts(outputData)
     ParsePartsv2(outputData)
     ParseCores(outputData)
-    SaveData(outputData)
-    Penalties() # so this can be ran in one file instead of two. (I don't think I'll be running FileFormatter anymore)
+    fullData = {"Data": outputData, "Penalties": current_penalties, "Categories": current_categories}
+    SaveData(fullData)
     # Compare()
 
 
