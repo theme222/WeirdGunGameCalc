@@ -2,7 +2,7 @@
 #include "wggcalc.hpp"
 #include "include/json.hpp" // nlhoman::json
 
-#include <chrono>
+#include <cinttypes>
 #include <cassert>
 
 #define chrono std::chrono
@@ -95,6 +95,9 @@ namespace Clear { // Define functions that will be used to clear filters and oth
 
 int main() // Initialize dataset and other non changing info
 {
+    Clear::ClearInput();
+    Clear::ClearFast();
+    std::cout << "TEST 123\n";
     // json fullDataJSON = json::parse(FullData);
     
     // json &categoriesJSON = fullDataJSON["Categories"];

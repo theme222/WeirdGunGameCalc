@@ -205,3 +205,5 @@ wggcalc
 wggcalc.exe
 NormalCompile.sh
 *Result*
+
+WasmCompile.sh

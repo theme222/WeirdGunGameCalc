@@ -9,7 +9,7 @@
 #include <sys/types.h>
 #include <vector>
 #include <cmath>
-#include <cstdint>
+#include <cinttypes>
 #include <thread>
 #include <atomic>
 #include "include/json.hpp"
@@ -1577,7 +1577,7 @@ namespace DynamicPrune
     {
         float value;
     public:
-        AtomicEmulator(float initialValue) : value(initialValue) {}
+        AtomicEmulator() : value(0) {}
         float load() const { return value; }
         void store(float newValue) { value = newValue; }
         bool compare_exchange_weak(float& expected, float current)
@@ -1960,7 +1960,6 @@ namespace DynamicPrune
     inline uint64_t MagazineLoop(const Gun& prevGun, const PassThroughArgs& args)
     {
         using namespace Data;
-        // printf("%d: Processing magazine loop\n", args.threadId);
         uint64_t prunedEndpoints = 0;
         for (int m = 0; m < magazineCount + 1; m++)
         {
@@ -1990,7 +1989,6 @@ namespace DynamicPrune
     inline uint64_t BarrelLoop(const Gun& prevGun, const PassThroughArgs& args)
     {
         using namespace Data;
-        // printf("%d: Processing barrel loop\n", args.threadId);
         uint64_t prunedEndpoints = 0;
         for (int b = 0; b < barrelCount + 1; b++)
         {
@@ -2019,7 +2017,6 @@ namespace DynamicPrune
     inline uint64_t StockLoop(const Gun& prevGun, const PassThroughArgs& args)
     {
         using namespace Data;
-        // printf("%d: Processing stock loop\n", args.threadId);
         uint64_t prunedEndpoints = 0;
         for (int s = 0; s < stockCount + 1; s++)
         {
@@ -2055,7 +2052,6 @@ namespace DynamicPrune
     inline void GripLoop(const Gun& prevGun, const PassThroughArgs& args)
     {
         using namespace Data;
-        // printf("%d: Processing grip loop\n", args.threadId);
         for (int g = 0; g < gripCount + 1; g++)
         {
             Grip *gripPtr = args.gripList_penalized.data() + g;
@@ -2074,14 +2070,14 @@ namespace DynamicPrune
             // In theory the gun should be fully calculated here.
             float expectedThreshold = currentBestThreshold_a.load();
             if (Input::debug)
-                printf("%d: Expected Threshold: %f\n", args.threadId, expectedThreshold);
+                printf("%" PRId32 ": Expected Threshold: %f\n", args.threadId, expectedThreshold);
             if (PQ::AllSortStruct()(currentGun.GetProperty(PQ::currentSortingType), expectedThreshold))
             {
-                if (threadPQ[args.threadId].size() == Input::howManyTopGunsToDisplay && !PQ::AllSortStruct()(currentGun, threadPQ[args.threadId].top()))
-                {
-                    // This should theoretically never run. (Threshold in the first if statement should have contained the best value of the top of all priority queues. If this runs then somewhere it fucked up)
-                    puts("WARNING: Unexpected atomicity reorder. Please look into this.");
-                }
+                // if (threadPQ[args.threadId].size() == Input::howManyTopGunsToDisplay && !PQ::AllSortStruct()(currentGun, threadPQ[args.threadId].top()))
+                // {
+                //     // This should theoretically never run. (Threshold in the first if statement should have contained the best value of the top of all priority queues. If this runs then somewhere it fucked up)
+                //     puts("WARNING: Unexpected atomicity reorder. Please look into this.");
+                // }
 
                 // Here the current gun contains pointers to components that will go out of scope.
                 // We need to return the pointers to the original components.
@@ -2107,10 +2103,10 @@ namespace DynamicPrune
 
     inline void Run(int threadId)
     {
-        printf("Thread %d started\n", threadId);
+        printf("Thread %" PRId32 " started\n", threadId);
         threadPQ[threadId] = PQ::AllSortPQ();
         uint64_t prunedEndpoints = CoreLoop(threadId);
-        printf("%d: Pruned endpoints: %llu\n", threadId, prunedEndpoints);
+        printf("%" PRId32 ": Pruned endpoints: %" PRIu64 "\n", threadId, prunedEndpoints);
     }
 }
 #endif
