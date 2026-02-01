@@ -1,15 +1,19 @@
-<script setup lang="ts">
-const a = 2
-const b = 3
+<script setup>
+import { useRouter } from 'vue-router'
+import Title from './components/Title.vue';
+import ViewportIndicator from './components/ViewportIndicator.vue';
 
-console.log(a + b)
+const isDev = import.meta.env.DEV;
+
 </script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+<!-- <div id="background" class="fixed w-full -z-20 h-full bg-base-300"></div> -->
+  <nav>
+    <Title />
+  </nav>
+  <main>
+    <RouterView />
+  </main>
+  <ViewportIndicator v-if="isDev"/>
 </template>
-
