@@ -2,6 +2,7 @@
 import { useRouter } from 'vue-router'
 import Title from './components/Title.vue';
 import ViewportIndicator from './components/ViewportIndicator.vue';
+import ToastContainer from './structure/ToastContainer.vue';
 
 const isDev = import.meta.env.DEV;
 
@@ -14,6 +15,7 @@ const isDev = import.meta.env.DEV;
   </nav>
   <main>
     <RouterView />
+    <ToastContainer />
   </main>
   <ViewportIndicator v-if="isDev"/>
 </template>

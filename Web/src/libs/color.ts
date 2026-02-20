@@ -124,3 +124,24 @@ export function getInputClass(color: string) {
       return 'input-base-content';
   }
 }
+
+export function getAlertClass(color: string) {
+  switch(color) {
+    case 'primary':
+      return 'alert-primary';
+    case 'secondary':
+      return 'alert-secondary';
+    case 'accent':
+      return 'alert-accent';
+    case 'info':
+      return 'alert-info';
+    case 'success':
+      return 'alert-success';
+    case 'warning':
+      return 'alert-warning';
+    case 'error':
+      return 'alert-error';
+    default:
+      return 'alert-base-content';
+  }
+}
