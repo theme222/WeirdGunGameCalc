@@ -12,33 +12,6 @@ recoilHipVertical: 40 - 55
 recoilAimVertical: 24 - 33
 TTK: 0.200578 Seconds
 
-[ Barrel: Spray Can, Magazine: Graphics Card, Grip: Auto-5, Stock: Spas-12, Core: PPSh-41 ]
-damage: 12.5587 - 6.41612
-dropoffStuds: 100.303 - 112.339
-fireRate: 2006.5
-adsSpread: 0.874313
-hipfireSpread: 3.99686
-reloadTime: 6
-magazineSize: 50
-recoilHipVertical: 21.5985 - 43.197
-recoilAimVertical: 17.2788 - 34.5576
-movementSpeed: 1.8
-TTK: 0.209319 Seconds
-
-[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: PPSh-41, Stock: Kriss Vector, Core: MG42 ]
-damage: 12.9254 - 6.58118
-dropoffStuds: 115.411 - 250.057
-fireRate: 2004.22
-adsSpread: 0.996154
-hipfireSpread: 9.96154
-reloadTime: 6.21
-magazineSize: 60
-health: 13
-recoilHipVertical: 38.7324 - 55.5408
-recoilAimVertical: 19.3662 - 27.7704
-movementSpeed: 0.145
-TTK: 0.209557 Seconds
-
 [ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Roto-Fire, Core: Bicycle ]
 damage: 50.1181 - 17.7951
 dropoffStuds: 150.588 - 207.058
@@ -52,85 +25,109 @@ recoilAimVertical: 24 - 33
 movementSpeed: 2.5
 TTK: 0.209778 Seconds
 
-[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Arisaka, Stock: Spas-12, Core: MG42 ]
-damage: 12.9254 - 6.76244
-dropoffStuds: 119.055 - 257.953
-fireRate: 1989
-adsSpread: 0.79389
-hipfireSpread: 7.9389
+[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Fedorov, Core: Bicycle ]
+damage: 50.1181 - 19.6247
+dropoffStuds: 160.2 - 220.275
+fireRate: 280.768
+adsSpread: 0.717973
+hipfireSpread: 12.5645
+reloadTime: 3.21
+magazineSize: 30
+recoilHipVertical: 36 - 49.5
+recoilAimVertical: 21.6 - 29.7
+movementSpeed: 1
+TTK: 0.2137 Seconds
+
+[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: AR-8X, Core: Bicycle ]
+damage: 50.1181 - 19.6247
+dropoffStuds: 160.2 - 220.275
+fireRate: 280.768
+adsSpread: 0.817989
+hipfireSpread: 14.3148
+reloadTime: 3
+magazineSize: 30
+recoilHipVertical: 40 - 55
+recoilAimVertical: 24 - 33
+movementSpeed: 1
+TTK: 0.2137 Seconds
+
+[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Pancake Hammer, Core: Bicycle ]
+damage: 50.1181 - 17.7951
+dropoffStuds: 150.588 - 207.058
+fireRate: 280.768
+adsSpread: 0.717973
+hipfireSpread: 12.5645
+reloadTime: 3
+magazineSize: 30
+recoilHipVertical: 40 - 55
+recoilAimVertical: 24 - 33
+movementSpeed: 5
+TTK: 0.2137 Seconds
+
+[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Kriss Vector, Core: Bicycle ]
+damage: 50.1181 - 18.1001
+dropoffStuds: 152.19 - 209.261
+fireRate: 280.768
+adsSpread: 0.932293
+hipfireSpread: 16.3151
+reloadTime: 3
+magazineSize: 30
+recoilHipVertical: 32 - 44
+recoilAimVertical: 19.2 - 26.4
+movementSpeed: 6.3
+TTK: 0.2137 Seconds
+
+[ Barrel: Mustard, Magazine: Mega Soaker, Grip: Arisaka, Stock: Roto-Fire, Core: MG42 ]
+damage: 12.5337 - 6.93862
+dropoffStuds: 128.31 - 278.005
+fireRate: 1937.7
+adsSpread: 0.991481
+hipfireSpread: 9.91481
 reloadTime: 5.4
 magazineSize: 60
 health: 7
 recoilHipVertical: 44.52 - 63.84
 recoilAimVertical: 22.26 - 31.92
 movementSpeed: 1.4
-TTK: 0.211161 Seconds
+TTK: 0.216752 Seconds
 
-[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: Kriss Vector, Stock: Roto-Fire, Core: MG42 ]
-damage: 12.9254 - 6.52076
-dropoffStuds: 114.196 - 247.424
-fireRate: 1988.08
-adsSpread: 0.885491
-hipfireSpread: 8.85491
-reloadTime: 5.4
-magazineSize: 60
-health: 13
-recoilHipVertical: 41.0474 - 58.8605
-recoilAimVertical: 20.5237 - 29.4302
-movementSpeed: 0.425
-TTK: 0.211259 Seconds
-
-[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: M1891, Stock: STG-44, Core: MG42 ]
-damage: 12.9254 - 6.88328
-dropoffStuds: 121.485 - 263.217
-fireRate: 1987.74
-adsSpread: 0.985557
-hipfireSpread: 9.85557
-reloadTime: 6.4584
-magazineSize: 60
-health: 13
-recoilHipVertical: 44.52 - 63.84
-recoilAimVertical: 22.26 - 31.92
-movementSpeed: 1.2
-TTK: 0.211295 Seconds
-
-[ Barrel: Spray Can, Magazine: Kriss Vector, Grip: APS, Stock: Fedorov, Core: PPSh-41 ]
-damage: 12.5634 - 6.42743
+[ Barrel: Kriss Vector, Magazine: NP5, Grip: P90, Stock: Fedorov, Core: PPSh-41 ]
+damage: 12.7474 - 6.52157
 dropoffStuds: 100.125 - 112.14
-fireRate: 1983.27
-adsSpread: 0.897095
-hipfireSpread: 4.101
-reloadTime: 2.72208
+fireRate: 1936.19
+adsSpread: 0.95425
+hipfireSpread: 4.36229
+reloadTime: 2.14
 magazineSize: 30
-recoilHipVertical: 21.6281 - 43.2562
-recoilAimVertical: 17.3025 - 34.6049
-movementSpeed: 6.1
-TTK: 0.211772 Seconds
+recoilHipVertical: 18.9957 - 37.9914
+recoilAimVertical: 15.1966 - 30.3931
+movementSpeed: 6.9
+TTK: 0.216921 Seconds
 
-[ Barrel: Spray Can, Magazine: Type 2a Nambu, Grip: M1 Garand, Stock: Fedorov, Core: PPSh-41 ]
-damage: 12.8775 - 6.58812
+[ Barrel: Kriss Vector, Magazine: NP5, Grip: M1887, Stock: Fedorov, Core: PPSh-41 ]
+damage: 12.7474 - 6.52157
 dropoffStuds: 100.125 - 112.14
-fireRate: 1973.17
-adsSpread: 0.897095
-hipfireSpread: 4.101
-reloadTime: 2.675
+fireRate: 1927.14
+adsSpread: 0.979697
+hipfireSpread: 4.47861
+reloadTime: 2.0009
 magazineSize: 30
-recoilHipVertical: 21.204 - 42.408
-recoilAimVertical: 16.9632 - 33.9264
-movementSpeed: 2.8
-TTK: 0.212856 Seconds
+health: 3.25
+recoilHipVertical: 21.3435 - 42.687
+recoilAimVertical: 17.0748 - 34.1496
+movementSpeed: 1.4
+TTK: 0.217939 Seconds
 
-[ Barrel: Spray Can, Magazine: Mega Soaker, Grip: PPSh-41, Stock: MAC-10, Core: MG42 ]
-damage: 12.9254 - 6.88328
-dropoffStuds: 121.485 - 263.217
-fireRate: 1973.07
-adsSpread: 0.889287
-hipfireSpread: 8.89287
-reloadTime: 6.21
-magazineSize: 60
-health: 13
-recoilHipVertical: 44.52 - 63.84
-recoilAimVertical: 22.26 - 31.92
-movementSpeed: 0.99
-TTK: 0.212866 Seconds
+[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Circuit Judge, Core: Bicycle ]
+damage: 50.1181 - 19.6247
+dropoffStuds: 160.2 - 220.275
+fireRate: 274.995
+adsSpread: 0.825133
+hipfireSpread: 14.4398
+reloadTime: 2.19
+magazineSize: 30
+recoilHipVertical: 40 - 55
+recoilAimVertical: 24 - 33
+movementSpeed: 3
+TTK: 0.218186 Seconds
 

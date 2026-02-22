@@ -52,31 +52,6 @@ recoilAimVertical: 9.7397 - 10.5745
 movementSpeed: 1
 TTK: 0.270401 Seconds
 
-[ Barrel: FC200SH, Magazine: Type 2a Nambu, Grip: M1891, Stock: Spas-12, Core: Bicycle ]
-damage: 33.6141 - 17.4516
-dropoffStuds: 201.096 - 276.507
-fireRate: 443.735
-adsSpread: 0.596103
-hipfireSpread: 10.4318
-reloadTime: 3.105
-magazineSize: 30
-recoilHipVertical: 30.4 - 41.8
-recoilAimVertical: 18.24 - 25.08
-movementSpeed: 4
-TTK: 0.270431 Seconds
-
-[ Barrel: FC200SH, Magazine: Type 2a Nambu, Grip: PPSh-41, Stock: Spas-12, Core: Bicycle ]
-damage: 33.6141 - 17.4516
-dropoffStuds: 201.096 - 276.507
-fireRate: 443.735
-adsSpread: 0.413389
-hipfireSpread: 7.23431
-reloadTime: 3.105
-magazineSize: 30
-recoilHipVertical: 30.4 - 41.8
-recoilAimVertical: 18.24 - 25.08
-TTK: 0.270431 Seconds
-
 [ Barrel: FC200SH, Magazine: Graphics Card, Grip: M1891, Stock: Spas-12, Core: Bicycle ]
 damage: 33.6141 - 17.7455
 dropoffStuds: 205.565 - 282.652
@@ -100,6 +75,31 @@ reloadTime: 2.835
 magazineSize: 30
 recoilHipVertical: 30.4 - 41.8
 recoilAimVertical: 18.24 - 25.08
+TTK: 0.270431 Seconds
+
+[ Barrel: FC200SH, Magazine: Type 2a Nambu, Grip: PPSh-41, Stock: Spas-12, Core: Bicycle ]
+damage: 33.6141 - 17.4516
+dropoffStuds: 201.096 - 276.507
+fireRate: 443.735
+adsSpread: 0.413389
+hipfireSpread: 7.23431
+reloadTime: 3.105
+magazineSize: 30
+recoilHipVertical: 30.4 - 41.8
+recoilAimVertical: 18.24 - 25.08
+TTK: 0.270431 Seconds
+
+[ Barrel: FC200SH, Magazine: Type 2a Nambu, Grip: M1891, Stock: Spas-12, Core: Bicycle ]
+damage: 33.6141 - 17.4516
+dropoffStuds: 201.096 - 276.507
+fireRate: 443.735
+adsSpread: 0.596103
+hipfireSpread: 10.4318
+reloadTime: 3.105
+magazineSize: 30
+recoilHipVertical: 30.4 - 41.8
+recoilAimVertical: 18.24 - 25.08
+movementSpeed: 4
 TTK: 0.270431 Seconds
 
 [ Barrel: Lee Enfield, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]

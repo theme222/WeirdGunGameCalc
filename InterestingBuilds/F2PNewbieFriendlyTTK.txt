@@ -57,6 +57,19 @@ recoilAimVertical: 6.76368 - 7.34342
 movementSpeed: 1.3
 TTK: 0.244079 Seconds
 
+[ Barrel: Mustard, Magazine: Hex Spitter, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: As-Val ]
+damage: 16.7419 - 13.639
+dropoffStuds: 160.65 - 212.625
+pellets: 2
+fireRate: 1224.66
+adsSpread: 0.636691
+hipfireSpread: 3.63824
+reloadTime: 4.6
+magazineSize: 35
+recoilHipVertical: 50.508 - 67.344
+recoilAimVertical: 25.254 - 33.672
+TTK: 0.244965 Seconds
+
 [ Barrel: DP-27, Magazine: Graphics Card, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
 damage: 16.8266 - 11.8816
 dropoffStuds: 165.6 - 354.2
@@ -128,19 +141,4 @@ recoilHipVertical: 30.1203 - 33.1324
 recoilAimVertical: 10.5421 - 11.4457
 movementSpeed: 3.36
 TTK: 0.249264 Seconds
-
-[ Barrel: M1897 Trench Shotgun, Magazine: Hex Spitter, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 17.0292 - 11.6028
-dropoffStuds: 151.389 - 323.804
-pellets: 2
-fireRate: 1200.83
-adsSpread: 0.293911
-hipfireSpread: 8.81734
-reloadTime: 3.67
-magazineSize: 35
-health: -7.5
-recoilHipVertical: 24.2438 - 26.6682
-recoilAimVertical: 8.48534 - 9.21266
-movementSpeed: 1.5
-TTK: 0.249827 Seconds
 

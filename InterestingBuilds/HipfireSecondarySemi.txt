@@ -1,33 +1,5 @@
 ./wggcalc -o InterestingBuilds/HipfireSecondarySemi.txt -i Sidearm --bc B17 Deagle --spreadHipMax 1 --magazineMin 20 --speedMin 5 --rangeMin 40 
 Current top 10 guns are: 
-[ Barrel: G3, Magazine: Scar H, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
-damage: 34.6837 - 20.0002
-dropoffStuds: 40.6715 - 92.9633
-fireRate: 441
-adsSpread: 0.345576
-hipfireSpread: 0.967613
-reloadTime: 4.5
-magazineSize: 20
-health: -10
-recoilHipVertical: 10.35 - 24.15
-recoilAimVertical: 2.07 - 4.83
-movementSpeed: 6
-TTK: 0.272109 Seconds
-
-[ Barrel: G3, Magazine: Fedorov, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
-damage: 33.6949 - 19.2303
-dropoffStuds: 40.178 - 91.8355
-fireRate: 441
-adsSpread: 0.345576
-hipfireSpread: 0.967613
-reloadTime: 4
-magazineSize: 25
-health: -10
-recoilHipVertical: 10.1844 - 23.7636
-recoilAimVertical: 2.03688 - 4.75272
-movementSpeed: 6
-TTK: 0.272109 Seconds
-
 [ Barrel: G3, Magazine: Scar H, Grip: Type 2a Nambu, Stock: None, Core: Type 14 ]
 damage: 34.0384 - 19.6281
 dropoffStuds: 40.6715 - 92.9633
@@ -42,6 +14,20 @@ recoilAimVertical: 2.5461 - 5.9409
 movementSpeed: 6
 TTK: 0.272109 Seconds
 
+[ Barrel: G3, Magazine: Scar H, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
+damage: 34.6837 - 20.0002
+dropoffStuds: 40.6715 - 92.9633
+fireRate: 441
+adsSpread: 0.345576
+hipfireSpread: 0.967613
+reloadTime: 4.5
+magazineSize: 20
+health: -10
+recoilHipVertical: 10.35 - 24.15
+recoilAimVertical: 2.07 - 4.83
+movementSpeed: 6
+TTK: 0.272109 Seconds
+
 [ Barrel: G3, Magazine: Scar H, Grip: MP 40, Stock: None, Core: Type 14 ]
 damage: 33.7964 - 19.4886
 dropoffStuds: 40.6715 - 92.9633
@@ -53,6 +39,20 @@ magazineSize: 20
 health: -10
 recoilHipVertical: 13.455 - 31.395
 recoilAimVertical: 2.691 - 6.279
+movementSpeed: 6
+TTK: 0.272109 Seconds
+
+[ Barrel: G3, Magazine: Fedorov, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
+damage: 33.6949 - 19.2303
+dropoffStuds: 40.178 - 91.8355
+fireRate: 441
+adsSpread: 0.345576
+hipfireSpread: 0.967613
+reloadTime: 4
+magazineSize: 25
+health: -10
+recoilHipVertical: 10.1844 - 23.7636
+recoilAimVertical: 2.03688 - 4.75272
 movementSpeed: 6
 TTK: 0.272109 Seconds
 
@@ -84,20 +84,6 @@ recoilAimVertical: 2.01 - 4.69
 movementSpeed: 9
 TTK: 0.289855 Seconds
 
-[ Barrel: Deagle, Magazine: Scar H, Grip: X-Blaster, Stock: None, Core: Type 14 ]
-damage: 36.8395 - 20.9105
-dropoffStuds: 40.0167 - 91.4667
-fireRate: 405
-adsSpread: 0.30222
-hipfireSpread: 0.846215
-reloadTime: 4.5
-magazineSize: 20
-health: -8.05
-recoilHipVertical: 11.625 - 27.125
-recoilAimVertical: 2.325 - 5.425
-movementSpeed: 7.275
-TTK: 0.296296 Seconds
-
 [ Barrel: Scar H, Magazine: Scar H, Grip: Cyber 3517, Stock: None, Core: Type 14 ]
 damage: 34.8127 - 19.9112
 dropoffStuds: 40.3396 - 92.2047
@@ -112,19 +98,19 @@ recoilAimVertical: 2.34 - 5.46
 movementSpeed: 6
 TTK: 0.296296 Seconds
 
-[ Barrel: G3, Magazine: BAR, Grip: Type 2a Nambu, Stock: None, Core: Type 14 ]
-damage: 33.8891 - 20.3687
-dropoffStuds: 42.7022 - 97.605
-fireRate: 396.9
-adsSpread: 0.281817
-hipfireSpread: 0.789086
-reloadTime: 4
+[ Barrel: Deagle, Magazine: Scar H, Grip: X-Blaster, Stock: None, Core: Type 14 ]
+damage: 36.8395 - 20.9105
+dropoffStuds: 40.0167 - 91.4667
+fireRate: 405
+adsSpread: 0.30222
+hipfireSpread: 0.846215
+reloadTime: 4.5
 magazineSize: 20
-health: -17.5
-recoilHipVertical: 11.2028 - 26.14
-recoilAimVertical: 2.24057 - 5.22799
-movementSpeed: 5.5
-TTK: 0.302343 Seconds
+health: -8.05
+recoilHipVertical: 11.625 - 27.125
+recoilAimVertical: 2.325 - 5.425
+movementSpeed: 7.275
+TTK: 0.296296 Seconds
 
 [ Barrel: Deagle, Magazine: Scar H, Grip: Mosin, Stock: None, Core: Type 14 ]
 damage: 36.8395 - 21.0577
@@ -139,4 +125,17 @@ recoilHipVertical: 11.625 - 27.125
 recoilAimVertical: 2.325 - 5.425
 movementSpeed: 6.5
 TTK: 0.303894 Seconds
+
+[ Barrel: Dominus, Magazine: Scar H, Grip: Circuit Judge, Stock: None, Core: Luger ]
+damage: 20.2021 - 10.8233
+dropoffStuds: 42.86 - 107.15
+fireRate: 784
+adsSpread: 0.48195
+hipfireSpread: 0.48195
+reloadTime: 4.905
+magazineSize: 20
+recoilHipVertical: 1.55 - 3.1
+recoilAimVertical: 0.465 - 0.93
+movementSpeed: 5
+TTK: 0.306122 Seconds
 

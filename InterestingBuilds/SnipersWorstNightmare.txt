@@ -28,48 +28,6 @@ recoilAimVertical: 2.4048 - 2.7648
 movementSpeed: -127
 TTK: 0.24846 Seconds
 
-[ Barrel: M1917 WC, Magazine: XXL AKM, Grip: PPSh-41, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.2752 - 18.7905
-dropoffStuds: 207.1 - 414.2
-fireRate: 747.63
-adsSpread: 0.173994
-hipfireSpread: 3.13189
-reloadTime: 13.3308
-magazineSize: 90
-health: 95
-recoilHipVertical: 6.336 - 7.92
-recoilAimVertical: 3.168 - 3.96
-movementSpeed: -127
-TTK: 0.240761 Seconds
-
-[ Barrel: M1917 WC, Magazine: M249 SAW, Grip: Circuit Judge, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.6296 - 19.0539
-dropoffStuds: 207.1 - 414.2
-fireRate: 737.1
-adsSpread: 0.295731
-hipfireSpread: 5.32316
-reloadTime: 11.592
-magazineSize: 100
-health: 95
-recoilHipVertical: 6.4416 - 8.052
-recoilAimVertical: 3.2208 - 4.026
-movementSpeed: -126
-TTK: 0.2442 Seconds
-
-[ Barrel: M1917 WC, Magazine: XXL AKM, Grip: Mas-38, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.2752 - 18.3366
-dropoffStuds: 192.603 - 385.206
-fireRate: 729.378
-adsSpread: 0.167978
-hipfireSpread: 3.0236
-reloadTime: 11.592
-magazineSize: 90
-health: 95
-recoilHipVertical: 6.336 - 7.92
-recoilAimVertical: 3.168 - 3.96
-movementSpeed: -125.7
-TTK: 0.246786 Seconds
-
 [ Barrel: M1917 WC, Magazine: XXL AKM, Grip: P90, Stock: SG-43, Core: M1919 .30 Cal ]
 damage: 25.2752 - 18.7905
 dropoffStuds: 207.1 - 414.2
@@ -83,34 +41,6 @@ recoilHipVertical: 5.88298 - 7.35372
 recoilAimVertical: 2.94149 - 3.67686
 movementSpeed: -127
 TTK: 0.245251 Seconds
-
-[ Barrel: M1917 WC, Magazine: XXL AKM, Grip: Broza, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.2752 - 18.7905
-dropoffStuds: 207.1 - 414.2
-fireRate: 723.06
-adsSpread: 0.186025
-hipfireSpread: 3.34845
-reloadTime: 12.2875
-magazineSize: 90
-health: 95
-recoilHipVertical: 6.336 - 7.92
-recoilAimVertical: 3.168 - 3.96
-movementSpeed: -127
-TTK: 0.248942 Seconds
-
-[ Barrel: M1917 WC, Magazine: XXL AKM, Grip: M1891, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.2752 - 18.7905
-dropoffStuds: 207.1 - 414.2
-fireRate: 758.16
-adsSpread: 0.241555
-hipfireSpread: 4.34799
-reloadTime: 13.3308
-magazineSize: 90
-health: 95
-recoilHipVertical: 6.336 - 7.92
-recoilAimVertical: 3.168 - 3.96
-movementSpeed: -123.8
-TTK: 0.237417 Seconds
 
 [ Barrel: M1917 WC, Magazine: M249 SAW, Grip: Chauchat, Stock: SG-43, Core: M1919 .30 Cal ]
 damage: 25.039 - 18.6149
@@ -126,6 +56,62 @@ recoilAimVertical: 3.54288 - 4.4286
 movementSpeed: -128.5
 TTK: 0.2442 Seconds
 
+[ Barrel: M1917 WC, Magazine: XXL AKM, Grip: Kriss Vector, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25.2752 - 18.7905
+dropoffStuds: 207.1 - 414.2
+fireRate: 720.252
+adsSpread: 0.200833
+hipfireSpread: 3.615
+reloadTime: 11.592
+magazineSize: 90
+health: 95
+recoilHipVertical: 5.84179 - 7.30224
+recoilAimVertical: 2.9209 - 3.65112
+movementSpeed: -124.075
+TTK: 0.249913 Seconds
+
+[ Barrel: M1917 WC, Magazine: XXL AKM, Grip: Mas-38, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25.2752 - 18.3366
+dropoffStuds: 192.603 - 385.206
+fireRate: 729.378
+adsSpread: 0.167978
+hipfireSpread: 3.0236
+reloadTime: 11.592
+magazineSize: 90
+health: 95
+recoilHipVertical: 6.336 - 7.92
+recoilAimVertical: 3.168 - 3.96
+movementSpeed: -125.7
+TTK: 0.246786 Seconds
+
+[ Barrel: M1917 WC, Magazine: M249 SAW, Grip: Circuit Judge, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25.6296 - 19.0539
+dropoffStuds: 207.1 - 414.2
+fireRate: 737.1
+adsSpread: 0.295731
+hipfireSpread: 5.32316
+reloadTime: 11.592
+magazineSize: 100
+health: 95
+recoilHipVertical: 6.4416 - 8.052
+recoilAimVertical: 3.2208 - 4.026
+movementSpeed: -126
+TTK: 0.2442 Seconds
+
+[ Barrel: M1917 WC, Magazine: XXL AKM, Grip: M1891, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25.2752 - 18.7905
+dropoffStuds: 207.1 - 414.2
+fireRate: 758.16
+adsSpread: 0.241555
+hipfireSpread: 4.34799
+reloadTime: 13.3308
+magazineSize: 90
+health: 95
+recoilHipVertical: 6.336 - 7.92
+recoilAimVertical: 3.168 - 3.96
+movementSpeed: -123.8
+TTK: 0.237417 Seconds
+
 [ Barrel: M1917 WC, Magazine: XXL AKM, Grip: M1897 Trench Shotgun, Stock: SG-43, Core: M1919 .30 Cal ]
 damage: 25.2752 - 18.7905
 dropoffStuds: 207.1 - 414.2
@@ -139,4 +125,18 @@ recoilHipVertical: 6.336 - 7.92
 recoilAimVertical: 3.168 - 3.96
 movementSpeed: -127
 TTK: 0.238521 Seconds
+
+[ Barrel: M1917 WC, Magazine: XXL AKM, Grip: PPSh-41, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25.2752 - 18.7905
+dropoffStuds: 207.1 - 414.2
+fireRate: 747.63
+adsSpread: 0.173994
+hipfireSpread: 3.13189
+reloadTime: 13.3308
+magazineSize: 90
+health: 95
+recoilHipVertical: 6.336 - 7.92
+recoilAimVertical: 3.168 - 3.96
+movementSpeed: -127
+TTK: 0.240761 Seconds
 

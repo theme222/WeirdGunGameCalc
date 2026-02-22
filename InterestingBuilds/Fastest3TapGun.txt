@@ -52,19 +52,6 @@ recoilAimVertical: 18.574 - 25.5977
 movementSpeed: 7.3
 TTK: 0.246932 Seconds
 
-[ Barrel: MP 40, Magazine: Maple Badger, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 33.6 - 21.84
-dropoffStuds: 120 - 185
-fireRate: 484.108
-adsSpread: 0.576448
-hipfireSpread: 2.88224
-reloadTime: 1.84
-magazineSize: 30
-recoilHipVertical: 49.776 - 68.808
-recoilAimVertical: 17.4216 - 24.0096
-movementSpeed: 6.7
-TTK: 0.247879 Seconds
-
 [ Barrel: M1911, Magazine: Maple Badger, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
 damage: 34.387 - 21.0276
 dropoffStuds: 106.8 - 164.65
@@ -90,6 +77,19 @@ health: -15
 recoilHipVertical: 50.6056 - 69.9548
 recoilAimVertical: 17.712 - 24.4098
 movementSpeed: 5.5
+TTK: 0.247879 Seconds
+
+[ Barrel: MP 40, Magazine: Maple Badger, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
+damage: 33.6 - 21.84
+dropoffStuds: 120 - 185
+fireRate: 484.108
+adsSpread: 0.576448
+hipfireSpread: 2.88224
+reloadTime: 1.84
+magazineSize: 30
+recoilHipVertical: 49.776 - 68.808
+recoilAimVertical: 17.4216 - 24.0096
+movementSpeed: 6.7
 TTK: 0.247879 Seconds
 
 [ Barrel: M870 Breacher, Magazine: MP18, Grip: Circuit Judge, Stock: M40, Core: STG-44 ]

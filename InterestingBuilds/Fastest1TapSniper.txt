@@ -1,131 +1,132 @@
 ./wggcalc -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper BR --damageMin 100 --spreadAimMax 0.149 --sort FIRERATE --rangeMin 300 --pelletMax 1 --speedMin -5 --magazineMin 5 
 Current top 10 guns are: 
-[ Barrel: VSSR, Magazine: VSSR, Grip: Circuit Judge, Stock: AWM, Core: Arisaka ]
-damage: 100.349 - 90.121
-dropoffStuds: 383.68 - 671.44
-fireRate: 28.16
-adsSpread: 0.135136
-hipfireSpread: 10.8109
-reloadTime: 4.2075
+[ Barrel: Barret .50, Magazine: VSSR, Grip: Arisaka, Stock: Arisaka, Core: AWM ]
+damage: 100.417 - 89.1705
+dropoffStuds: 440 - 660
+fireRate: 25.44
+adsSpread: 0.061662
+hipfireSpread: 18.4986
+reloadTime: 4.536
 magazineSize: 5
-health: -10
-recoilHipVertical: 106.065 - 120.796
-recoilAimVertical: 47.7291 - 54.3581
-movementSpeed: -3
+health: -14
+recoilHipVertical: 837 - 1116
+recoilAimVertical: 418.5 - 558
+movementSpeed: -5
 
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: Mosin, Core: Arisaka ]
-damage: 100.507 - 91.0089
-dropoffStuds: 418 - 731.5
-fireRate: 27.54
-adsSpread: 0.13988
-hipfireSpread: 11.1904
-reloadTime: 5.5
-magazineSize: 6
-health: -10
-recoilHipVertical: 188.202 - 214.341
-recoilAimVertical: 84.691 - 96.4537
-movementSpeed: -2
-
-[ Barrel: Car Muffler, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Spas-12, Core: Arisaka ]
-damage: 100.159 - 87.9
-dropoffStuds: 313.6 - 548.8
-fireRate: 27.4252
-adsSpread: 0.145689
-hipfireSpread: 11.6551
-reloadTime: 9.9
-magazineSize: 7
-health: -25
-recoilHipVertical: 197.64 - 225.09
-recoilAimVertical: 88.938 - 101.291
-movementSpeed: -3
-
-[ Barrel: Mosin, Magazine: Hecate II, Grip: AWM, Stock: AWM, Core: Arisaka ]
-damage: 101.205 - 88.757
-dropoffStuds: 308 - 539
-fireRate: 27.36
-adsSpread: 0.14624
-hipfireSpread: 11.6992
-reloadTime: 6.5688
+[ Barrel: Car Muffler, Magazine: Hecate II, Grip: Lee Enfield, Stock: Arisaka, Core: AWM ]
+damage: 100.182 - 85.3954
+dropoffStuds: 308 - 462
+fireRate: 24.84
+adsSpread: 0.132798
+hipfireSpread: 39.8395
+reloadTime: 5.775
 magazineSize: 5
-health: -10
-recoilHipVertical: 171.072 - 194.832
-recoilAimVertical: 76.9824 - 87.6744
+health: -23
+recoilHipVertical: 219.6 - 292.8
+recoilAimVertical: 109.8 - 146.4
+movementSpeed: -2
 
-[ Barrel: Car Muffler, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Roto-Fire, Core: Arisaka ]
-damage: 100.159 - 87.4192
-dropoffStuds: 300.8 - 526.4
-fireRate: 27.2355
-adsSpread: 0.130149
-hipfireSpread: 10.4119
-reloadTime: 9.9
-magazineSize: 7
-health: -25
-recoilHipVertical: 197.64 - 225.09
-recoilAimVertical: 88.938 - 101.291
-movementSpeed: -0.5
-
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: M40, Core: Arisaka ]
-damage: 100.507 - 91.0089
-dropoffStuds: 418 - 731.5
-fireRate: 27
-adsSpread: 0.1317
-hipfireSpread: 10.536
+[ Barrel: Car Muffler, Magazine: Hecate II, Grip: Arisaka, Stock: M1897 Trench Shotgun, Core: AWM ]
+damage: 100.182 - 87.8599
+dropoffStuds: 385 - 577.5
+fireRate: 23.9328
+adsSpread: 0.106108
+hipfireSpread: 31.8323
 reloadTime: 5.5
-magazineSize: 6
-health: -10
-recoilHipVertical: 136.598 - 155.57
-recoilAimVertical: 61.4693 - 70.0067
-movementSpeed: -2
+magazineSize: 5
+health: -21
+recoilHipVertical: 267.912 - 357.216
+recoilAimVertical: 133.956 - 178.608
+movementSpeed: -5
 
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: The Chief, Core: Arisaka ]
-damage: 100.507 - 91.0089
-dropoffStuds: 418 - 731.5
-fireRate: 27
-adsSpread: 0.141516
-hipfireSpread: 11.3213
-reloadTime: 5.115
-magazineSize: 6
-health: -10
-recoilHipVertical: 166.954 - 190.142
-recoilAimVertical: 75.1291 - 85.5637
-movementSpeed: -2
+[ Barrel: Car Muffler, Magazine: Hecate II, Grip: M1891, Stock: Arisaka, Core: AWM ]
+damage: 100.182 - 87.8599
+dropoffStuds: 385 - 577.5
+fireRate: 23.76
+adsSpread: 0.132798
+hipfireSpread: 39.8395
+reloadTime: 6.64125
+magazineSize: 5
+health: -23
+recoilHipVertical: 219.6 - 292.8
+recoilAimVertical: 109.8 - 146.4
+movementSpeed: 2
 
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: L8, Core: Arisaka ]
-damage: 100.507 - 91.2749
-dropoffStuds: 429.704 - 751.982
-fireRate: 27
-adsSpread: 0.144951
-hipfireSpread: 11.5961
+[ Barrel: Car Muffler, Magazine: Hecate II, Grip: M1891, Stock: Uzi, Core: AWM ]
+damage: 100.182 - 87.8599
+dropoffStuds: 385 - 577.5
+fireRate: 23.76
+adsSpread: 0.124077
+hipfireSpread: 37.2232
+reloadTime: 6.578
+magazineSize: 5
+health: -15
+recoilHipVertical: 267.912 - 357.216
+recoilAimVertical: 133.956 - 178.608
+movementSpeed: -4.5
+
+[ Barrel: Car Muffler, Magazine: Hecate II, Grip: Arisaka, Stock: Lee Enfield, Core: AWM ]
+damage: 100.182 - 87.2438
+dropoffStuds: 365.75 - 548.625
+fireRate: 23.76
+adsSpread: 0.10188
+hipfireSpread: 30.5641
 reloadTime: 5.5
-magazineSize: 6
-health: -10
-recoilHipVertical: 151.776 - 172.856
-recoilAimVertical: 68.2992 - 77.7852
-movementSpeed: -2
+magazineSize: 5
+health: -21
+recoilHipVertical: 307.44 - 409.92
+recoilAimVertical: 153.72 - 204.96
+movementSpeed: -5
+
+[ Barrel: Car Muffler, Magazine: Hecate II, Grip: M1891, Stock: M1891, Core: AWM ]
+damage: 100.182 - 87.8599
+dropoffStuds: 385 - 577.5
+fireRate: 23.76
+adsSpread: 0.132798
+hipfireSpread: 39.8395
+reloadTime: 6.325
+magazineSize: 5
+health: -15
+recoilHipVertical: 252.54 - 336.72
+recoilAimVertical: 126.27 - 168.36
+movementSpeed: -5
+
+[ Barrel: Car Muffler, Magazine: Hecate II, Grip: M1891, Stock: Skorpion vz. 61, Core: AWM ]
+damage: 100.182 - 87.8599
+dropoffStuds: 385 - 577.5
+fireRate: 23.76
+adsSpread: 0.139405
+hipfireSpread: 41.8216
+reloadTime: 5.75575
+magazineSize: 5
+health: -15
+recoilHipVertical: 296.46 - 395.28
+recoilAimVertical: 148.23 - 197.64
+movementSpeed: -4.5
+
+[ Barrel: Car Muffler, Magazine: Hecate II, Grip: M1891, Stock: Paintball, Core: AWM ]
+damage: 100.182 - 87.8599
+dropoffStuds: 385 - 577.5
+fireRate: 23.76
+adsSpread: 0.148655
+hipfireSpread: 44.5965
+reloadTime: 5.88225
+magazineSize: 5
+health: -15
+recoilHipVertical: 219.6 - 292.8
+recoilAimVertical: 109.8 - 146.4
+movementSpeed: -3
 
 [ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: AWM, Core: Arisaka ]
 damage: 100.507 - 91.0089
 dropoffStuds: 418 - 731.5
-fireRate: 27
-adsSpread: 0.107159
+fireRate: 23.625
+adsSpread: 0.142879
 hipfireSpread: 8.57274
 reloadTime: 4.675
 magazineSize: 6
-health: -10
+health: -15
 recoilHipVertical: 166.954 - 190.142
 recoilAimVertical: 75.1291 - 85.5637
 movementSpeed: -2
-
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: AUG, Core: Arisaka ]
-damage: 100.507 - 90.4391
-dropoffStuds: 392.92 - 687.61
-fireRate: 27
-adsSpread: 0.147242
-hipfireSpread: 11.7793
-reloadTime: 5.5
-magazineSize: 6
-health: -10
-recoilHipVertical: 151.776 - 172.856
-recoilAimVertical: 68.2992 - 77.7852
-movementSpeed: -0.25
 
