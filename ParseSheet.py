@@ -36,7 +36,7 @@ translatePropertyName_part = {
 
 validPartCategories = ['AR', 'Sniper', 'SMG', 'LMG', 'Shotgun', 'BR', 'Weird', 'Sidearm']
 validPartTypes = ['Barrels', 'Magazines', 'Grips', 'Stocks']
-validPriceTypes = ['Coin', 'WC', 'Follow', 'Robux', 'Free', 'Spin', 'Limited', 'Missions', 'Verify discord', 'Unknown'] # The calculator will only detect "Coin" "WC" "Robux". Anything else will be turned into "Special"
+validPriceTypes = ['Coin', 'WC', 'Follow', 'Robux', 'Free', 'Spin', 'Limited', 'Missions', 'Verify discord', 'Season Pass 1', 'Unknown'] # The calculator will only detect "Coin" "WC" "Robux". Anything else will be turned into "Special"
 
 def FindSameName(obj, name):
     for value in obj:
@@ -94,9 +94,14 @@ def FormatNumber(value: str, doubleNum=False):
     return output
 
 def DetectPriceType(price, row) -> str:
-    price = price.strip().replace(",", "") # Remove commas from the values more than 1,000
+    price = price.strip()
     
-    if ("WC" in price):
+    if (price in validPriceTypes or price.capitalize() in validPriceTypes):
+        return price 
+        
+    price = price.replace(",", "") # Remove commas from the values more than 1,000
+    
+    if "WC" in price:
         return "WC"
     try:
         price = int(price)
@@ -106,7 +111,7 @@ def DetectPriceType(price, row) -> str:
         if (price not in validPriceTypes):
             print(f"WARNING: Invalid price type detected at row {row}")
             return "Unknown"
-    return price
+        return price
 
 def DownloadSheet():
 

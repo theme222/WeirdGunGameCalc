@@ -198,10 +198,13 @@ Data/DiffData.json
 
 perf.*
 CompileRelease.sh
-SheetData/
+SheetData
 TODO.*
 
 wggcalc
 wggcalc.exe
 NormalCompile.sh
 *Result*
+
+Web
+WasmCompile.sh
