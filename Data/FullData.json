@@ -212,6 +212,14 @@
         "Reload_Speed": -9
       },
       {
+        "Price_Type": "Season Pass 1",
+        "Name": "MCX",
+        "Category": "AR",
+        "Damage": 11,
+        "Detection_Radius": -4,
+        "Fire_Rate": -4
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M40",
         "Category": "Sniper",
@@ -341,6 +349,17 @@
         "Health": -5,
         "Reload_Speed": 7,
         "Spread": 20
+      },
+      {
+        "Price_Type": "Season Pass 1",
+        "Name": "Barret .50",
+        "Category": "Sniper",
+        "Damage": 23,
+        "Fire_Rate": 6,
+        "Movement_Speed": -13,
+        "Recoil": 400,
+        "Reload_Speed": -4,
+        "Spread": 45
       },
       {
         "Price_Type": "Coin",
@@ -526,6 +545,15 @@
         "Spread": 14
       },
       {
+        "Price_Type": "Season Pass 1",
+        "Name": "PM63",
+        "Category": "SMG",
+        "Fire_Rate": 12,
+        "Range": -6,
+        "Recoil": -16,
+        "Spread": 18
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M870",
         "Category": "Shotgun",
@@ -645,9 +673,9 @@
         "Price_Type": "WC",
         "Name": "Blunderbuss",
         "Category": "Shotgun",
-        "Damage": 45,
+        "Damage": 50,
         "Fire_Rate": -34,
-        "Pellets": 100,
+        "Pellets": 200,
         "Range": -30,
         "Spread": 60
       },
@@ -667,6 +695,14 @@
         "Damage": -2,
         "Fire_Rate": 5,
         "Range": 3
+      },
+      {
+        "Price_Type": "Season Pass 1",
+        "Name": "Pancake Hammer",
+        "Category": "Shotgun",
+        "Damage": -3,
+        "Movement_Speed": -3,
+        "Spread": -8
       },
       {
         "Price_Type": "Coin",
@@ -909,6 +945,14 @@
         "Spread": -16
       },
       {
+        "Price_Type": "WC",
+        "Name": "USS Iowa",
+        "Category": "Weird",
+        "Damage": 6,
+        "Pellets": 45,
+        "Reload_Speed": 4
+      },
+      {
         "Price_Type": "Limited",
         "Name": "Paintball",
         "Category": "Weird",
@@ -930,7 +974,7 @@
         "Price_Type": "Limited",
         "Name": "Spray Can",
         "Category": "Weird",
-        "Damage": -2,
+        "Damage": -6,
         "Fire_Rate": 25,
         "Movement_Speed": 2.5,
         "Range": -11
@@ -941,7 +985,7 @@
         "Category": "Weird",
         "Damage": 20,
         "Detection_Radius": 25,
-        "Fire_Rate": -7,
+        "Fire_Rate": -9,
         "Movement_Speed": -10,
         "Spread": 40
       },
@@ -1221,8 +1265,8 @@
         "Price_Type": "Robux",
         "Name": "Cyber 3517",
         "Category": "Sidearm",
-        "Damage": 30,
-        "Fire_Rate": -25,
+        "Damage": 27,
+        "Fire_Rate": -27,
         "Movement_Speed": -2,
         "Recoil": 60
       },
@@ -1478,6 +1522,15 @@
         "Recoil": -12
       },
       {
+        "Price_Type": "Season Pass 1",
+        "Name": "MCX",
+        "Category": "AR",
+        "Magazine_Size": 20,
+        "Reload_Time": 3.5,
+        "Damage": 11,
+        "Recoil": 29
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M40",
         "Category": "Sniper",
@@ -1583,7 +1636,6 @@
         "Movement_Speed": -10,
         "Range": -23,
         "Recoil": 100,
-        "Reload_Speed": 50,
         "Spread": 100
       },
       {
@@ -1623,6 +1675,18 @@
         "Range": -5,
         "Recoil": 36,
         "Spread": -12
+      },
+      {
+        "Price_Type": "Season Pass 1",
+        "Name": "Barret .50",
+        "Category": "Sniper",
+        "Magazine_Size": 10,
+        "Reload_Time": 6.5,
+        "Damage": 16,
+        "Fire_Rate": -12,
+        "Movement_Speed": -12,
+        "Range": -12,
+        "Recoil": 225
       },
       {
         "Price_Type": "Coin",
@@ -1835,6 +1899,16 @@
         "Recoil": 32
       },
       {
+        "Price_Type": "Season Pass 1",
+        "Name": "PM63",
+        "Category": "SMG",
+        "Magazine_Size": 25,
+        "Reload_Time": 1.8,
+        "Fire_Rate": 6.5,
+        "Range": 4,
+        "Spread": 10
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M870",
         "Category": "Shotgun",
@@ -2017,6 +2091,16 @@
         "Recoil": -17
       },
       {
+        "Price_Type": "Season Pass 1",
+        "Name": "Pancake Hammer",
+        "Category": "Shotgun",
+        "Magazine_Size": 10,
+        "Reload_Time": 2.4,
+        "Damage": 11,
+        "Pellets": 11,
+        "Range": -4.5
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M60",
         "Category": "LMG",
@@ -2058,10 +2142,10 @@
         "Reload_Time": 4,
         "Damage": 25,
         "Detection_Radius": 20,
-        "Fire_Rate": -10,
+        "Fire_Rate": -12,
         "Movement_Speed": -0.5,
         "Range": 25,
-        "Recoil": 10,
+        "Recoil": 35,
         "Spread": 10
       },
       {
@@ -2266,7 +2350,7 @@
         "Price_Type": "Limited",
         "Name": "X-Blaster",
         "Category": "BR",
-        "Magazine_Size": 22,
+        "Magazine_Size": 20,
         "Reload_Time": 3,
         "Damage": 22,
         "Range": -13,
@@ -2282,6 +2366,18 @@
         "Fire_Rate": -20,
         "Movement_Speed": -6,
         "Range": -8
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "USS Iowa",
+        "Category": "Weird",
+        "Magazine_Size": 21,
+        "Reload_Time": 4.2,
+        "Damage": 20,
+        "Fire_Rate": -35,
+        "Range": 25,
+        "Recoil": 88,
+        "Spread": 40
       },
       {
         "Price_Type": "Limited",
@@ -2398,6 +2494,17 @@
         "Movement_Speed": 3,
         "Range": -9,
         "Recoil": -16
+      },
+      {
+        "Price_Type": "Limited",
+        "Name": "Heart Attack",
+        "Category": "Weird",
+        "Magazine_Size": 38,
+        "Reload_Time": 3.5,
+        "Damage": 6.5,
+        "Health": 10,
+        "Range": -6,
+        "Recoil": 15
       },
       {
         "Price_Type": "Free",
@@ -2745,7 +2852,7 @@
         "Reload_Speed": 6
       },
       {
-        "Price_Type": "Verify discord",
+        "Price_Type": "Verify Discord",
         "Name": "10KG Dumbbell",
         "Category": "AR",
         "Movement_Speed": -10,
@@ -2769,6 +2876,14 @@
         "Movement_Speed": 5.5,
         "Recoil": -9.5,
         "Reload_Speed": 10
+      },
+      {
+        "Price_Type": "Season Pass 1",
+        "Name": "MCX",
+        "Category": "AR",
+        "Recoil": -17.5,
+        "Reload_Speed": -12,
+        "Spread": 11
       },
       {
         "Price_Type": "Coin",
@@ -2871,6 +2986,13 @@
         "Range": 10,
         "Recoil": 22,
         "Spread": -24
+      },
+      {
+        "Price_Type": "Season Pass 1",
+        "Name": "Barret .50",
+        "Category": "Sniper",
+        "Movement_Speed": -11,
+        "Recoil": -33
       },
       {
         "Price_Type": "Coin",
@@ -3034,6 +3156,14 @@
         "Spread": -11
       },
       {
+        "Price_Type": "Season Pass 1",
+        "Name": "PM63",
+        "Category": "SMG",
+        "Movement_Speed": 5,
+        "Range": -6.5,
+        "Spread": 13
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M870",
         "Category": "Shotgun",
@@ -3133,6 +3263,14 @@
         "Range": -3,
         "Recoil": -22,
         "Reload_Speed": 8
+      },
+      {
+        "Price_Type": "Season Pass 1",
+        "Name": "Pancake Hammer",
+        "Category": "Shotgun",
+        "Recoil": 80,
+        "Reload_Speed": -4,
+        "Spread": -18
       },
       {
         "Price_Type": "Coin",
@@ -3327,6 +3465,14 @@
         "Movement_Speed": 4,
         "Reload_Speed": -7,
         "Spread": 14
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "USS Iowa",
+        "Category": "Weird",
+        "Damage": 4.5,
+        "Fire_Rate": -3.5,
+        "Movement_Speed": -3
       },
       {
         "Price_Type": "WC",
@@ -3706,6 +3852,14 @@
         "Spread": 45
       },
       {
+        "Price_Type": "Season Pass 1",
+        "Name": "MCX",
+        "Category": "AR",
+        "Recoil": -9,
+        "Reload_Speed": -15,
+        "Spread": 14
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M40",
         "Category": "Sniper",
@@ -3806,6 +3960,15 @@
         "Movement_Speed": -8.5,
         "Recoil": -40,
         "Reload_Speed": 6
+      },
+      {
+        "Price_Type": "Season Pass 1",
+        "Name": "Barret .50",
+        "Category": "Sniper",
+        "Fire_Rate": 6,
+        "Movement_Speed": -9,
+        "Recoil": -14,
+        "Reload_Speed": 3.5
       },
       {
         "Price_Type": "Coin",
@@ -3981,6 +4144,14 @@
         "Spread": -19
       },
       {
+        "Price_Type": "Season Pass 1",
+        "Name": "PM63",
+        "Category": "SMG",
+        "Movement_Speed": 4.5,
+        "Recoil": 14,
+        "Reload_Speed": -20
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M870",
         "Category": "Shotgun",
@@ -4108,6 +4279,14 @@
         "Movement_Speed": -4.5,
         "Recoil": -26,
         "Reload_Speed": 3.5
+      },
+      {
+        "Price_Type": "Season Pass 1",
+        "Name": "Pancake Hammer",
+        "Category": "Shotgun",
+        "Fire_Rate": 7,
+        "Movement_Speed": 2,
+        "Range": -6
       },
       {
         "Price_Type": "Coin",
@@ -4283,7 +4462,8 @@
         "Price_Type": "Limited",
         "Name": "X-Blaster",
         "Category": "BR",
-        "Movement_Speed": 3.5,
+        "Movement_Speed": 4.5,
+        "Recoil": -5,
         "Reload_Speed": 4.5,
         "Spread": 11
       },
@@ -4294,6 +4474,15 @@
         "Fire_Rate": 9,
         "Movement_Speed": -0.5,
         "Range": -6
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "USS Iowa",
+        "Category": "Weird",
+        "Fire_Rate": 0.2,
+        "Health": 14,
+        "Movement_Speed": -0.2,
+        "Reload_Speed": 13
       },
       {
         "Price_Type": "Limited",
@@ -4307,15 +4496,18 @@
         "Price_Type": "WC",
         "Name": "Anvil",
         "Category": "Weird",
+        "Equip_Time": 50,
+        "Health": 11,
         "Movement_Speed": -40,
         "Recoil": -80,
-        "Reload_Speed": 15,
+        "Reload_Speed": 17,
         "Spread": -30
       },
       {
         "Price_Type": "WC",
         "Name": "SG-43",
         "Category": "Weird",
+        "Equip_Time": 75,
         "Fire_Rate": 17,
         "Health": 50,
         "Movement_Speed": -75,
@@ -4347,6 +4539,7 @@
         "Price_Type": "WC",
         "Name": "Taco",
         "Category": "Weird",
+        "Damage": 5,
         "Detection_Radius": 20,
         "Fire_Rate": -5,
         "Health": 10,
@@ -4544,14 +4737,14 @@
         "Name": "As-Val",
         "Category": "AR",
         "Damage": [
-          14.5,
-          12
+          14.8,
+          12.2
         ],
         "Dropoff_Studs": [
           170,
           225
         ],
-        "Fire_Rate": 750,
+        "Fire_Rate": 800,
         "Hipfire_Spread": 2,
         "ADS_Spread": 0.35,
         "Time_To_Aim": 0.5,
@@ -5015,6 +5208,7 @@
         "Price_Type": "WC",
         "Name": "Hex Spitter",
         "Category": "AR",
+        "Pellets": 2,
         "Damage": [
           20,
           18
@@ -5121,6 +5315,42 @@
         ]
       },
       {
+        "Price_Type": "Season Pass 1",
+        "Name": "MCX",
+        "Category": "AR",
+        "Damage": [
+          16.5,
+          10.7
+        ],
+        "Dropoff_Studs": [
+          190,
+          400
+        ],
+        "Fire_Rate": 777,
+        "Hipfire_Spread": 5,
+        "ADS_Spread": 0.3,
+        "Time_To_Aim": 0.5,
+        "Detection_Radius": 110,
+        "Suppression": 0.4,
+        "Equip_Time": 1,
+        "Recoil_Hip_Horizontal": [
+          -25,
+          25
+        ],
+        "Recoil_Hip_Vertical": [
+          90,
+          120
+        ],
+        "Recoil_Aim_Horizontal": [
+          -20,
+          20
+        ],
+        "Recoil_Aim_Vertical": [
+          72,
+          96
+        ]
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M40",
         "Category": "Sniper",
@@ -5170,8 +5400,8 @@
           600
         ],
         "Fire_Rate": 45,
-        "Hipfire_Spread": 3,
-        "ADS_Spread": 0.7,
+        "Hipfire_Spread": 2.85,
+        "ADS_Spread": 0.45,
         "Time_To_Aim": 0.7,
         "Detection_Radius": 215,
         "Suppression": 1,
@@ -5278,14 +5508,14 @@
           400,
           700
         ],
-        "Fire_Rate": 40,
+        "Fire_Rate": 35,
         "Hipfire_Spread": 12,
-        "ADS_Spread": 0.15,
+        "ADS_Spread": 0.2,
         "Time_To_Aim": 0.7,
         "Detection_Radius": 100,
         "Movement_Speed_Modifier": 10,
         "Suppression": 0.8,
-        "Health": -10,
+        "Health": -15,
         "Equip_Time": 1,
         "Recoil_Hip_Horizontal": [
           -21,
@@ -5309,14 +5539,14 @@
         "Name": "VSSR",
         "Category": "Sniper",
         "Damage": [
-          70,
-          40.6
+          64,
+          37.1
         ],
         "Dropoff_Studs": [
           170,
           380
         ],
-        "Fire_Rate": 32,
+        "Fire_Rate": 29,
         "Hipfire_Spread": 17,
         "ADS_Spread": 0.2,
         "Time_To_Aim": 0.85,
@@ -5561,6 +5791,43 @@
         "Recoil_Aim_Vertical": [
           38.5,
           49.5
+        ]
+      },
+      {
+        "Price_Type": "Season Pass 1",
+        "Name": "Barret .50",
+        "Category": "Sniper",
+        "Damage": [
+          68,
+          40.8
+        ],
+        "Dropoff_Studs": [
+          200,
+          430
+        ],
+        "Fire_Rate": 100,
+        "Hipfire_Spread": 12,
+        "ADS_Spread": 0.3,
+        "Time_To_Aim": 1.3,
+        "Detection_Radius": 300,
+        "Movement_Speed_Modifier": -15,
+        "Suppression": 1,
+        "Equip_Time": 1.5,
+        "Recoil_Hip_Horizontal": [
+          -32,
+          32
+        ],
+        "Recoil_Hip_Vertical": [
+          90,
+          120
+        ],
+        "Recoil_Aim_Horizontal": [
+          -27.2,
+          27.2
+        ],
+        "Recoil_Aim_Vertical": [
+          76.5,
+          102
         ]
       },
       {
@@ -6246,9 +6513,45 @@
         ]
       },
       {
+        "Price_Type": "Season Pass 1",
+        "Name": "PM63",
+        "Category": "SMG",
+        "Damage": [
+          18.8,
+          10.9
+        ],
+        "Dropoff_Studs": [
+          135,
+          172
+        ],
+        "Fire_Rate": 650,
+        "Hipfire_Spread": 1.2,
+        "ADS_Spread": 1.2,
+        "Time_To_Aim": 0.35,
+        "Detection_Radius": 100,
+        "Equip_Time": 0.4,
+        "Recoil_Hip_Horizontal": [
+          -16,
+          15
+        ],
+        "Recoil_Hip_Vertical": [
+          28,
+          37
+        ],
+        "Recoil_Aim_Horizontal": [
+          -12,
+          12
+        ],
+        "Recoil_Aim_Vertical": [
+          21,
+          27.8
+        ]
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M870",
         "Category": "Shotgun",
+        "Pellets": 8,
         "Damage": [
           112,
           16
@@ -6285,6 +6588,7 @@
         "Price_Type": "Coin",
         "Name": "Circuit Judge",
         "Category": "Shotgun",
+        "Pellets": 8,
         "Damage": [
           120,
           24
@@ -6321,6 +6625,7 @@
         "Price_Type": "Coin",
         "Name": "M1897 Trench Shotgun",
         "Category": "Shotgun",
+        "Pellets": 16,
         "Damage": [
           128,
           16
@@ -6357,6 +6662,7 @@
         "Price_Type": "Coin",
         "Name": "M1887",
         "Category": "Shotgun",
+        "Pellets": 10,
         "Damage": [
           120,
           10
@@ -6395,6 +6701,7 @@
         "Price_Type": "Coin",
         "Name": "Auto-5",
         "Category": "Shotgun",
+        "Pellets": 8,
         "Damage": [
           104,
           8
@@ -6432,6 +6739,7 @@
         "Price_Type": "Coin",
         "Name": "JSG12",
         "Category": "Shotgun",
+        "Pellets": 12,
         "Damage": [
           144,
           12
@@ -6469,6 +6777,7 @@
         "Price_Type": "Coin",
         "Name": "Spas-12",
         "Category": "Shotgun",
+        "Pellets": 6,
         "Damage": [
           114,
           6
@@ -6506,6 +6815,7 @@
         "Price_Type": "Coin",
         "Name": "Double Barrel",
         "Category": "Shotgun",
+        "Pellets": 10,
         "Damage": [
           110,
           10
@@ -6542,6 +6852,7 @@
         "Price_Type": "Coin",
         "Name": "Siberia-12",
         "Category": "Shotgun",
+        "Pellets": 12,
         "Damage": [
           48,
           0
@@ -6579,6 +6890,7 @@
         "Price_Type": "WC",
         "Name": "Blunderbuss",
         "Category": "Shotgun",
+        "Pellets": 15,
         "Damage": [
           225,
           90
@@ -6615,6 +6927,7 @@
         "Price_Type": "Limited",
         "Name": "MarrowMaker",
         "Category": "Shotgun",
+        "Pellets": 7,
         "Damage": [
           112,
           35
@@ -6651,6 +6964,7 @@
         "Price_Type": "Robux",
         "Name": "AUTO-12",
         "Category": "Shotgun",
+        "Pellets": 6,
         "Damage": [
           72,
           18
@@ -6682,6 +6996,35 @@
         "Recoil_Aim_Vertical": [
           6.3,
           10.2
+        ]
+      },
+      {
+        "Price_Type": "Season Pass 1",
+        "Name": "Pancake Hammer",
+        "Category": "Shotgun",
+        "Pellets": 2,
+        "Damage": [
+          90,
+          24
+        ],
+        "Dropoff_Studs": [
+          55,
+          100
+        ],
+        "Fire_Rate": 240,
+        "Hipfire_Spread": 4,
+        "ADS_Spread": 1.9,
+        "Time_To_Aim": 0.5,
+        "Detection_Radius": 250,
+        "Suppression": 0.3,
+        "Equip_Time": 0.7,
+        "Recoil_Hip_Horizontal": [
+          -11,
+          11
+        ],
+        "Recoil_Hip_Vertical": [
+          82,
+          90
         ]
       },
       {
@@ -7217,7 +7560,7 @@
         "Name": "FAL",
         "Category": "BR",
         "Damage": [
-          22.5,
+          20,
           14.1
         ],
         "Dropoff_Studs": [
@@ -7335,7 +7678,7 @@
           150,
           475
         ],
-        "Fire_Rate": 525,
+        "Fire_Rate": 510,
         "Hipfire_Spread": 8,
         "ADS_Spread": 0.25,
         "Time_To_Aim": 0.5,
@@ -7403,7 +7746,7 @@
         "Name": "FG-42",
         "Category": "BR",
         "Damage": [
-          17.5,
+          16.5,
           10.5
         ],
         "Dropoff_Studs": [
@@ -7426,12 +7769,12 @@
           108
         ],
         "Recoil_Aim_Horizontal": [
-          -29.3,
-          29.3
+          -31.2,
+          31.2
         ],
         "Recoil_Aim_Vertical": [
-          62.3,
-          81
+          66.4,
+          86.4
         ]
       },
       {
@@ -7446,7 +7789,7 @@
           135,
           200
         ],
-        "Fire_Rate": 335,
+        "Fire_Rate": 315,
         "Hipfire_Spread": 3.5,
         "ADS_Spread": 0.2,
         "Time_To_Aim": 0.5,
@@ -7454,16 +7797,16 @@
         "Suppression": 0.3,
         "Equip_Time": 0.7,
         "Recoil_Hip_Horizontal": [
-          -5,
-          5
+          -30,
+          30
         ],
         "Recoil_Hip_Vertical": [
           5,
           11
         ],
         "Recoil_Aim_Horizontal": [
-          -2.5,
-          2.5
+          -15,
+          15
         ],
         "Recoil_Aim_Vertical": [
           2.5,
@@ -7479,10 +7822,10 @@
           22
         ],
         "Dropoff_Studs": [
-          100,
-          150
+          130,
+          165
         ],
-        "Fire_Rate": 180,
+        "Fire_Rate": 185,
         "Hipfire_Spread": 10,
         "ADS_Spread": 0.5,
         "Time_To_Aim": 0.5,
@@ -7555,6 +7898,45 @@
         "Time_To_Aim": 0.5,
         "Detection_Radius": 100,
         "Movement_Speed_Modifier": -5
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "USS Iowa",
+        "Category": "Weird",
+        "Damage": [
+          9,
+          7.7
+        ],
+        "Dropoff_Studs": [
+          130,
+          300
+        ],
+        "Fire_Rate": 33,
+        "Hipfire_Spread": 8,
+        "ADS_Spread": 0.5,
+        "Time_To_Aim": 0.5,
+        "Detection_Radius": 300,
+        "Burst": 9,
+        "Movement_Speed_Modifier": -14,
+        "Suppression": 0.3,
+        "Health": 10,
+        "Equip_Time": 0.7,
+        "Recoil_Hip_Horizontal": [
+          -2,
+          2
+        ],
+        "Recoil_Hip_Vertical": [
+          3,
+          4.5
+        ],
+        "Recoil_Aim_Horizontal": [
+          -1,
+          1
+        ],
+        "Recoil_Aim_Vertical": [
+          1.5,
+          2.3
+        ]
       },
       {
         "Price_Type": "WC",
@@ -7701,8 +8083,8 @@
         "Name": "Willy Fischy",
         "Category": "Weird",
         "Damage": [
-          20,
-          19.8
+          25,
+          24.8
         ],
         "Dropoff_Studs": [
           1,
@@ -7713,6 +8095,7 @@
         "ADS_Spread": 6,
         "Time_To_Aim": 0.5,
         "Detection_Radius": 30,
+        "Movement_Speed_Modifier": 15,
         "Recoil_Hip_Horizontal": [
           -12,
           12
@@ -8019,6 +8402,7 @@
         "Price_Type": "Coin",
         "Name": "EG200",
         "Category": "Sidearm",
+        "Pellets": 13,
         "Damage": [
           117,
           26
@@ -8237,8 +8621,8 @@
         "Name": "Cyber 3517",
         "Category": "Sidearm",
         "Damage": [
-          45,
-          24.8
+          40,
+          22
         ],
         "Dropoff_Studs": [
           75,
@@ -8246,7 +8630,7 @@
         ],
         "Fire_Rate": 198,
         "Hipfire_Spread": 4,
-        "ADS_Spread": 0.2,
+        "ADS_Spread": 0.35,
         "Time_To_Aim": 0.5,
         "Detection_Radius": 200,
         "Equip_Time": 0.7,

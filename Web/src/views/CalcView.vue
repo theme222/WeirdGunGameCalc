@@ -1,10 +1,10 @@
 <script setup>
-import { ref, reactive, toRef } from 'vue';
+import { ref } from 'vue';
 import Filter from '@/components/Filter.vue';
-import { SquaresPlusIcon, TrashIcon } from '@heroicons/vue/24/solid';
+import { SquaresPlusIcon } from '@heroicons/vue/24/solid';
 import { TrashIcon as OutlineTrashIcon } from '@heroicons/vue/24/outline';
-import { addToast } from '@/libs/toast';
 import { addFilter, removeFilter, filterList, currentFilters } from '@/libs/filter';
+import { PARTCORELIST } from '@/libs/data';
 
 const selectedFilterToAdd = ref(filterList[0]);
 const currentlyRemoving = ref(false);
@@ -14,6 +14,7 @@ function toggleRemoveFilter() {
 }
 
 function submitQuery() {
+  console.log(PARTCORELIST);
   
 }
 
@@ -63,6 +64,7 @@ function submitQuery() {
               :removeCaller="removeFilter"
               :validStrings="filter.validStrings"
               :filterType="filter.filterType"
+              :options="filter.options"
               v-model="filter.writeable"
             />
           </div>
@@ -71,7 +73,7 @@ function submitQuery() {
     </div>
     
     <div class="w-full flex justify-center items-center">
-      <button class="btn btn-primary">Submit</button>
+      <button class="btn btn-primary" @click="submitQuery">Submit</button>
     </div>
   </main>
 </template>
