@@ -1,122 +1,139 @@
 ./wggcalc -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80 
 Current top 10 guns are: 
-[ Barrel: Paintball, Magazine: M40, Grip: Snake Sniper, Stock: FAL, Core: M1897 Trench Shotgun ]
-damage: 140.873 - 51.9337
-dropoffStuds: 80.6583 - 161.317
-fireRate: 160
-adsSpread: 1.78964
-hipfireSpread: 3.22136
+[ Barrel: Dragunov, Magazine: BAR, Grip: JSG12, Stock: FAL, Core: Auto-5 ]
+damage: 141.045 - 50.1323
+dropoffStuds: 81.7537 - 156.695
+pellets: 8
+fireRate: 167.2
+adsSpread: 1.79962
+hipfireSpread: 6.6302
+reloadTime: 4
+magazineSize: 20
+health: 8
+recoilHipVertical: 120.126 - 210.221
+recoilAimVertical: 48.0505 - 84.0884
+movementSpeed: 2.62
+
+[ Barrel: M1891, Magazine: BAR, Grip: JSG12, Stock: FAL, Core: Auto-5 ]
+damage: 141.045 - 48.6958
+dropoffStuds: 80.7262 - 154.725
+pellets: 8
+fireRate: 167.2
+adsSpread: 1.74561
+hipfireSpread: 6.43119
+reloadTime: 4.8
+magazineSize: 20
+health: 8
+recoilHipVertical: 96.876 - 169.533
+recoilAimVertical: 38.7504 - 67.8132
+movementSpeed: 2.62
+
+[ Barrel: M1891, Magazine: BAR, Grip: JSG12, Stock: FC200SH, Core: Auto-5 ]
+damage: 141.045 - 47.839
+dropoffStuds: 80.0209 - 153.373
+pellets: 8
+fireRate: 158.84
+adsSpread: 1.73397
+hipfireSpread: 6.38833
+reloadTime: 4.8
+magazineSize: 20
+health: 8
+recoilHipVertical: 74.52 - 130.41
+recoilAimVertical: 29.808 - 52.164
+movementSpeed: 3.9
+
+[ Barrel: Dragunov, Magazine: BAR, Grip: The Chief, Stock: FC200SH, Core: Auto-5 ]
+damage: 143.927 - 50.2959
+dropoffStuds: 81.0393 - 155.325
+pellets: 8
+fireRate: 158.84
+adsSpread: 1.79776
+hipfireSpread: 6.62333
+reloadTime: 4
+magazineSize: 20
+health: 8
+recoilHipVertical: 90.396 - 158.193
+recoilAimVertical: 36.1584 - 63.2772
+movementSpeed: 0.9
+
+[ Barrel: M1891, Magazine: BAR, Grip: The Chief, Stock: FC200SH, Core: Auto-5 ]
+damage: 143.927 - 48.8164
+dropoffStuds: 80.0209 - 153.373
+pellets: 8
+fireRate: 158.84
+adsSpread: 1.7438
+hipfireSpread: 6.42453
+reloadTime: 4.8
+magazineSize: 20
+health: 8
+recoilHipVertical: 72.9 - 127.575
+recoilAimVertical: 29.16 - 51.03
+movementSpeed: 0.9
+
+[ Barrel: M1891, Magazine: BAR, Grip: Pancake Hammer, Stock: FC200SH, Core: Auto-5 ]
+damage: 141.045 - 47.839
+dropoffStuds: 80.0209 - 153.373
+pellets: 8
+fireRate: 158.84
+adsSpread: 1.73397
+hipfireSpread: 6.38833
+reloadTime: 4.608
+magazineSize: 20
+health: 8
+recoilHipVertical: 97.2 - 170.1
+recoilAimVertical: 38.88 - 68.04
+movementSpeed: 0.9
+
+[ Barrel: Dragunov, Magazine: BAR, Grip: Pancake Hammer, Stock: FC200SH, Core: Auto-5 ]
+damage: 141.045 - 49.2888
+dropoffStuds: 81.0393 - 155.325
+pellets: 8
+fireRate: 158.84
+adsSpread: 1.78763
+hipfireSpread: 6.586
+reloadTime: 3.84
+magazineSize: 20
+health: 8
+recoilHipVertical: 120.528 - 210.924
+recoilAimVertical: 48.2112 - 84.3696
+movementSpeed: 0.9
+
+[ Barrel: Dragunov, Magazine: BAR, Grip: JSG12, Stock: FC200SH, Core: Auto-5 ]
+damage: 141.045 - 49.2888
+dropoffStuds: 81.0393 - 155.325
+pellets: 8
+fireRate: 158.84
+adsSpread: 1.78763
+hipfireSpread: 6.586
+reloadTime: 4
+magazineSize: 20
+health: 8
+recoilHipVertical: 92.4048 - 161.708
+recoilAimVertical: 36.9619 - 64.6834
+movementSpeed: 3.9
+
+[ Barrel: Spray Can, Magazine: Scar H, Grip: Auto-5, Stock: JSG12, Core: Circuit Judge ]
+damage: 141.212 - 24.0919
+dropoffStuds: 80.6429 - 132.824
+pellets: 8
+fireRate: 78.75
+adsSpread: 1.66718
+hipfireSpread: 4.50589
+reloadTime: 4.725
+magazineSize: 20
+recoilHipVertical: 90 - 111.375
+recoilAimVertical: 31.5 - 38.925
+movementSpeed: 5.5
+
+[ Barrel: Spray Can, Magazine: Scar H, Grip: Auto-5, Stock: M1 Carbine, Core: Circuit Judge ]
+damage: 141.212 - 27.8983
+dropoffStuds: 83.2638 - 137.14
+pellets: 8
+fireRate: 78.75
+adsSpread: 1.79429
+hipfireSpread: 4.84944
 reloadTime: 4.5
-magazineSize: 10
-recoilHipVertical: 57.096 - 85.644
-recoilAimVertical: 22.8384 - 34.2576
-movementSpeed: 1.12
-
-[ Barrel: M40, Magazine: BAR, Grip: Auto-5, Stock: UNP-40, Core: M1897 Trench Shotgun ]
-damage: 140.154 - 52.9684
-dropoffStuds: 80.1562 - 160.312
-fireRate: 155.232
-adsSpread: 1.74349
-hipfireSpread: 3.13829
-reloadTime: 4
 magazineSize: 20
-recoilHipVertical: 56.862 - 85.293
-recoilAimVertical: 22.7448 - 34.1172
-movementSpeed: 1.97
-
-[ Barrel: M40, Magazine: BAR, Grip: Auto-5, Stock: JSG12, Core: M1897 Trench Shotgun ]
-damage: 140.154 - 52.9684
-dropoffStuds: 80.1562 - 160.312
-fireRate: 155.232
-adsSpread: 1.64843
-hipfireSpread: 2.96717
-reloadTime: 4.2
-magazineSize: 20
-recoilHipVertical: 47.385 - 71.0775
-recoilAimVertical: 18.954 - 28.431
-movementSpeed: 2.5
-
-[ Barrel: M40, Magazine: BAR, Grip: Auto-5, Stock: MG42, Core: M1897 Trench Shotgun ]
-damage: 140.154 - 52.9684
-dropoffStuds: 80.1562 - 160.312
-fireRate: 155.232
-adsSpread: 1.65349
-hipfireSpread: 2.97628
-reloadTime: 4.4
-magazineSize: 20
-recoilHipVertical: 47.385 - 71.0775
-recoilAimVertical: 18.954 - 28.431
-movementSpeed: 2.125
-
-[ Barrel: M40, Magazine: BAR, Grip: The Chief, Stock: UNP-40, Core: M1897 Trench Shotgun ]
-damage: 146.699 - 55.4421
-dropoffStuds: 80.1562 - 160.312
-fireRate: 147.84
-adsSpread: 1.79764
-hipfireSpread: 3.23575
-reloadTime: 4
-magazineSize: 20
-recoilHipVertical: 85.293 - 127.94
-recoilAimVertical: 34.1172 - 51.1758
-movementSpeed: 1.97
-
-[ Barrel: M40, Magazine: BAR, Grip: JSG12, Stock: The Chief, Core: M1897 Trench Shotgun ]
-damage: 143.711 - 54.3128
-dropoffStuds: 80.1562 - 160.312
-fireRate: 147.84
-adsSpread: 1.79303
-hipfireSpread: 3.22745
-reloadTime: 3.72
-magazineSize: 20
-recoilHipVertical: 79.9227 - 119.884
-recoilAimVertical: 31.9691 - 47.9536
-movementSpeed: 2.5
-
-[ Barrel: M40, Magazine: BAR, Grip: QBZ-95, Stock: JSG12, Core: M1897 Trench Shotgun ]
-damage: 143.711 - 54.3128
-dropoffStuds: 80.1562 - 160.312
-fireRate: 147.84
-adsSpread: 1.75696
-hipfireSpread: 3.16253
-reloadTime: 4.41
-magazineSize: 20
-recoilHipVertical: 52.65 - 78.975
-recoilAimVertical: 21.06 - 31.59
-movementSpeed: 0.7
-
-[ Barrel: M40, Magazine: BAR, Grip: AKM, Stock: JSG12, Core: M1897 Trench Shotgun ]
-damage: 143.711 - 54.3128
-dropoffStuds: 80.1562 - 160.312
-fireRate: 147.84
-adsSpread: 1.79996
-hipfireSpread: 3.23993
-reloadTime: 4.0824
-magazineSize: 20
-recoilHipVertical: 61.074 - 91.611
-recoilAimVertical: 24.4296 - 36.6444
-movementSpeed: 2.5
-
-[ Barrel: M40, Magazine: BAR, Grip: JSG12, Stock: UNP-40, Core: M1897 Trench Shotgun ]
-damage: 143.711 - 54.3128
-dropoffStuds: 80.1562 - 160.312
-fireRate: 147.84
-adsSpread: 1.78681
-hipfireSpread: 3.21626
-reloadTime: 4
-magazineSize: 20
-recoilHipVertical: 87.1884 - 130.783
-recoilAimVertical: 34.8754 - 52.313
-movementSpeed: 4.97
-
-[ Barrel: M40, Magazine: BAR, Grip: JSG12, Stock: M870, Core: M1897 Trench Shotgun ]
-damage: 143.711 - 54.3128
-dropoffStuds: 80.1562 - 160.312
-fireRate: 147.84
-adsSpread: 1.7723
-hipfireSpread: 3.19014
-reloadTime: 4.2
-magazineSize: 20
-recoilHipVertical: 61.7585 - 92.6377
-recoilAimVertical: 24.7034 - 37.0551
-movementSpeed: 2.5
+recoilHipVertical: 102.6 - 126.968
+recoilAimVertical: 35.91 - 44.3745
 

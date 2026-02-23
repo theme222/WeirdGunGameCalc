@@ -1,122 +1,132 @@
 ./wggcalc -o InterestingBuilds/LowSpreadShogun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadAimMax 0.85 
 Current top 10 guns are: 
-[ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: JSG12, Stock: JSG12, Core: Pancake Hammer ]
-damage: 100.501 - 9.72383
-dropoffStuds: 43.5435 - 79.17
-fireRate: 253.44
-adsSpread: 0.845159
-hipfireSpread: 1.77928
-reloadTime: 5.67
-magazineSize: 60
-recoilHipVertical: 180.603 - 198.223
-recoilAimVertical: 0 - 0
-movementSpeed: 7
-
-[ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: JSG12, Stock: MG42, Core: Pancake Hammer ]
-damage: 100.501 - 9.72383
-dropoffStuds: 43.5435 - 79.17
-fireRate: 253.44
-adsSpread: 0.847752
-hipfireSpread: 1.78474
-reloadTime: 5.94
-magazineSize: 60
-recoilHipVertical: 180.603 - 198.223
-recoilAimVertical: 0 - 0
-movementSpeed: 6.625
-
-[ Barrel: Second Amendment, Magazine: Graphics Card, Grip: Auto-5, Stock: JSG12, Core: Pancake Hammer ]
-damage: 103.119 - 10.8316
-dropoffStuds: 44.022 - 80.04
-fireRate: 252.806
-adsSpread: 0.82467
-hipfireSpread: 1.73615
-reloadTime: 6.3
-magazineSize: 50
-recoilHipVertical: 107.969 - 118.503
-recoilAimVertical: 0 - 0
-movementSpeed: 1
-
-[ Barrel: Second Amendment, Magazine: Graphics Card, Grip: Auto-5, Stock: MG42, Core: Pancake Hammer ]
-damage: 103.119 - 10.8316
-dropoffStuds: 44.022 - 80.04
-fireRate: 252.806
-adsSpread: 0.8272
-hipfireSpread: 1.74147
-reloadTime: 6.6
-magazineSize: 50
-recoilHipVertical: 107.969 - 118.503
-recoilAimVertical: 0 - 0
-movementSpeed: 0.625
-
-[ Barrel: Second Amendment, Magazine: MAC-10, Grip: Auto-5, Stock: AWM, Core: Pancake Hammer ]
-damage: 103.119 - 12.5406
-dropoffStuds: 44.979 - 81.78
-fireRate: 250.589
-adsSpread: 0.839849
-hipfireSpread: 1.7681
-reloadTime: 1.85
-magazineSize: 30
-recoilHipVertical: 208.227 - 228.542
-recoilAimVertical: 0 - 0
-movementSpeed: 0.86
-
-[ Barrel: Second Amendment, Magazine: MAC-10, Grip: Auto-5, Stock: MG42, Core: Pancake Hammer ]
-damage: 103.119 - 12.5406
-dropoffStuds: 44.979 - 81.78
-fireRate: 250.589
-adsSpread: 0.8272
-hipfireSpread: 1.74147
-reloadTime: 2.2
-magazineSize: 30
-recoilHipVertical: 189.297 - 207.765
-recoilAimVertical: 0 - 0
-movementSpeed: 3.485
-
-[ Barrel: Second Amendment, Magazine: MAC-10, Grip: Auto-5, Stock: JSG12, Core: Pancake Hammer ]
-damage: 103.119 - 12.5406
-dropoffStuds: 44.979 - 81.78
-fireRate: 250.589
-adsSpread: 0.82467
-hipfireSpread: 1.73615
-reloadTime: 2.1
-magazineSize: 30
-recoilHipVertical: 189.297 - 207.765
-recoilAimVertical: 0 - 0
-movementSpeed: 3.86
-
-[ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: UNP-40, Core: Pancake Hammer ]
-damage: 103.119 - 8.26804
-dropoffStuds: 42.5865 - 77.43
-fireRate: 243.382
-adsSpread: 0.844022
-hipfireSpread: 1.77689
-reloadTime: 2
-magazineSize: 30
-recoilHipVertical: 157.327 - 172.676
-recoilAimVertical: 0 - 0
-movementSpeed: 2.615
-
-[ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: The Chief, Core: Pancake Hammer ]
-damage: 103.119 - 8.26804
-dropoffStuds: 42.5865 - 77.43
-fireRate: 243.382
-adsSpread: 0.846959
-hipfireSpread: 1.78307
-reloadTime: 1.86
-magazineSize: 30
-recoilHipVertical: 144.216 - 158.286
-recoilAimVertical: 0 - 0
-movementSpeed: 0.145
-
 [ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: MG42, Core: Pancake Hammer ]
-damage: 103.119 - 8.26804
+damage: 104.361 - 8.36767
 dropoffStuds: 42.5865 - 77.43
+pellets: 2
 fireRate: 243.382
-adsSpread: 0.80045
-hipfireSpread: 1.68516
+adsSpread: 0.84424
+hipfireSpread: 1.77735
 reloadTime: 2.2
 magazineSize: 30
 recoilHipVertical: 131.106 - 143.896
 recoilAimVertical: 0 - 0
 movementSpeed: 2.77
+
+[ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: JSG12, Core: Pancake Hammer ]
+damage: 104.361 - 8.36767
+dropoffStuds: 42.5865 - 77.43
+pellets: 2
+fireRate: 243.382
+adsSpread: 0.841686
+hipfireSpread: 1.77197
+reloadTime: 2.1
+magazineSize: 30
+recoilHipVertical: 131.106 - 143.896
+recoilAimVertical: 0 - 0
+movementSpeed: 3.145
+
+[ Barrel: Second Amendment, Magazine: Type 99, Grip: Auto-5, Stock: Auto-5, Core: Pancake Hammer ]
+damage: 104.719 - 23.1485
+dropoffStuds: 50.721 - 92.22
+pellets: 2
+fireRate: 232.848
+adsSpread: 0.843253
+hipfireSpread: 1.77527
+reloadTime: 3
+magazineSize: 30
+recoilHipVertical: 141.903 - 155.747
+recoilAimVertical: 0 - 0
+movementSpeed: 2
+
+[ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: M870 MCS, Core: Pancake Hammer ]
+damage: 104.361 - 8.36767
+dropoffStuds: 42.5865 - 77.43
+pellets: 2
+fireRate: 231.212
+adsSpread: 0.83147
+hipfireSpread: 1.75046
+reloadTime: 2.2
+magazineSize: 30
+recoilHipVertical: 98.3293 - 107.922
+recoilAimVertical: 0 - 0
+movementSpeed: 0.145
+
+[ Barrel: Second Amendment, Magazine: M1891, Grip: Auto-5, Stock: MG42, Core: Pancake Hammer ]
+damage: 106.938 - 27.1836
+dropoffStuds: 52.635 - 95.7
+pellets: 2
+fireRate: 227.304
+adsSpread: 0.80768
+hipfireSpread: 1.70038
+reloadTime: 3.85
+magazineSize: 6
+recoilHipVertical: 175.275 - 192.375
+recoilAimVertical: 0 - 0
+movementSpeed: 0.625
+
+[ Barrel: Second Amendment, Magazine: M1891, Grip: Auto-5, Stock: JSG12, Core: Pancake Hammer ]
+damage: 106.938 - 27.1836
+dropoffStuds: 52.635 - 95.7
+pellets: 2
+fireRate: 227.304
+adsSpread: 0.805237
+hipfireSpread: 1.69524
+reloadTime: 3.675
+magazineSize: 6
+recoilHipVertical: 175.275 - 192.375
+recoilAimVertical: 0 - 0
+movementSpeed: 1
+
+[ Barrel: Second Amendment, Magazine: FG-42, Grip: JSG12, Stock: JSG12, Core: Pancake Hammer ]
+damage: 109.54 - 18.7678
+dropoffStuds: 47.85 - 87
+pellets: 2
+fireRate: 226.406
+adsSpread: 0.832932
+hipfireSpread: 1.75354
+reloadTime: 3.675
+magazineSize: 20
+recoilHipVertical: 251.555 - 276.097
+recoilAimVertical: 0 - 0
+movementSpeed: 2
+
+[ Barrel: Second Amendment, Magazine: FG-42, Grip: JSG12, Stock: MG42, Core: Pancake Hammer ]
+damage: 109.54 - 18.7678
+dropoffStuds: 47.85 - 87
+pellets: 2
+fireRate: 226.406
+adsSpread: 0.835459
+hipfireSpread: 1.75886
+reloadTime: 3.85
+magazineSize: 20
+recoilHipVertical: 251.555 - 276.097
+recoilAimVertical: 0 - 0
+movementSpeed: 1.625
+
+[ Barrel: Second Amendment, Magazine: G11, Grip: JSG12, Stock: JSG12, Core: Pancake Hammer ]
+damage: 107.003 - 18.3332
+dropoffStuds: 47.85 - 87
+pellets: 2
+fireRate: 224.506
+adsSpread: 0.810964
+hipfireSpread: 1.70729
+reloadTime: 4.725
+magazineSize: 45
+recoilHipVertical: 260.155 - 285.536
+recoilAimVertical: 0 - 0
+movementSpeed: 1
+
+[ Barrel: Second Amendment, Magazine: G11, Grip: JSG12, Stock: MG42, Core: Pancake Hammer ]
+damage: 107.003 - 18.3332
+dropoffStuds: 47.85 - 87
+pellets: 2
+fireRate: 224.506
+adsSpread: 0.813425
+hipfireSpread: 1.71247
+reloadTime: 4.95
+magazineSize: 45
+recoilHipVertical: 260.155 - 285.536
+recoilAimVertical: 0 - 0
+movementSpeed: 0.625
 

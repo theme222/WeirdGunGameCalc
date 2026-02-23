@@ -1,19 +1,5 @@
 ./wggcalc -o InterestingBuilds/HipfireSecondarySemi.txt -i Sidearm --bc B17 Deagle --spreadHipMax 1 --magazineMin 20 --speedMin 5 --rangeMin 40 
 Current top 10 guns are: 
-[ Barrel: G3, Magazine: Scar H, Grip: Type 2a Nambu, Stock: None, Core: Type 14 ]
-damage: 34.0384 - 19.6281
-dropoffStuds: 40.6715 - 92.9633
-fireRate: 441
-adsSpread: 0.256313
-hipfireSpread: 0.717676
-reloadTime: 4.5
-magazineSize: 20
-health: -17.5
-recoilHipVertical: 12.7305 - 29.7045
-recoilAimVertical: 2.5461 - 5.9409
-movementSpeed: 6
-TTK: 0.272109 Seconds
-
 [ Barrel: G3, Magazine: Scar H, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
 damage: 34.6837 - 20.0002
 dropoffStuds: 40.6715 - 92.9633
@@ -25,6 +11,20 @@ magazineSize: 20
 health: -10
 recoilHipVertical: 10.35 - 24.15
 recoilAimVertical: 2.07 - 4.83
+movementSpeed: 6
+TTK: 0.272109 Seconds
+
+[ Barrel: G3, Magazine: Scar H, Grip: Type 2a Nambu, Stock: None, Core: Type 14 ]
+damage: 34.0384 - 19.6281
+dropoffStuds: 40.6715 - 92.9633
+fireRate: 441
+adsSpread: 0.256313
+hipfireSpread: 0.717676
+reloadTime: 4.5
+magazineSize: 20
+health: -17.5
+recoilHipVertical: 12.7305 - 29.7045
+recoilAimVertical: 2.5461 - 5.9409
 movementSpeed: 6
 TTK: 0.272109 Seconds
 
@@ -84,20 +84,6 @@ recoilAimVertical: 2.01 - 4.69
 movementSpeed: 9
 TTK: 0.289855 Seconds
 
-[ Barrel: Scar H, Magazine: Scar H, Grip: Cyber 3517, Stock: None, Core: Type 14 ]
-damage: 34.8127 - 19.9112
-dropoffStuds: 40.3396 - 92.2047
-fireRate: 405
-adsSpread: 0.238387
-hipfireSpread: 0.667484
-reloadTime: 4.5
-magazineSize: 20
-health: -10
-recoilHipVertical: 11.7 - 27.3
-recoilAimVertical: 2.34 - 5.46
-movementSpeed: 6
-TTK: 0.296296 Seconds
-
 [ Barrel: Deagle, Magazine: Scar H, Grip: X-Blaster, Stock: None, Core: Type 14 ]
 damage: 36.8395 - 20.9105
 dropoffStuds: 40.0167 - 91.4667
@@ -110,6 +96,20 @@ health: -8.05
 recoilHipVertical: 11.625 - 27.125
 recoilAimVertical: 2.325 - 5.425
 movementSpeed: 7.275
+TTK: 0.296296 Seconds
+
+[ Barrel: Scar H, Magazine: Scar H, Grip: Cyber 3517, Stock: None, Core: Type 14 ]
+damage: 34.8127 - 19.9112
+dropoffStuds: 40.3396 - 92.2047
+fireRate: 405
+adsSpread: 0.238387
+hipfireSpread: 0.667484
+reloadTime: 4.5
+magazineSize: 20
+health: -10
+recoilHipVertical: 11.7 - 27.3
+recoilAimVertical: 2.34 - 5.46
+movementSpeed: 6
 TTK: 0.296296 Seconds
 
 [ Barrel: Deagle, Magazine: Scar H, Grip: Mosin, Stock: None, Core: Type 14 ]

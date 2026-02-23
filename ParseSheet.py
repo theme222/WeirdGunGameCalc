@@ -238,7 +238,7 @@ def ParseCores(outputData):
             ]
     
             for i in range(2, 18):
-                if i == 1: # Damage x Pellet
+                if i == 2: # Damage x Pellet
                     pellet  = row[i].split(" > ")[0].split("x")
                     if len(pellet) == 2:
                         core["Pellets"] = int(pellet[1])

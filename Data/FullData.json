@@ -5207,6 +5207,7 @@
       "Price_Type": "WC",
       "Name": "Hex Spitter",
       "Category": "AR",
+      "Pellets": 2,
       "Damage": [
         20,
         18
@@ -6549,6 +6550,7 @@
       "Price_Type": "Coin",
       "Name": "M870",
       "Category": "Shotgun",
+      "Pellets": 8,
       "Damage": [
         112,
         16
@@ -6585,6 +6587,7 @@
       "Price_Type": "Coin",
       "Name": "Circuit Judge",
       "Category": "Shotgun",
+      "Pellets": 8,
       "Damage": [
         120,
         24
@@ -6621,6 +6624,7 @@
       "Price_Type": "Coin",
       "Name": "M1897 Trench Shotgun",
       "Category": "Shotgun",
+      "Pellets": 16,
       "Damage": [
         128,
         16
@@ -6657,6 +6661,7 @@
       "Price_Type": "Coin",
       "Name": "M1887",
       "Category": "Shotgun",
+      "Pellets": 10,
       "Damage": [
         120,
         10
@@ -6695,6 +6700,7 @@
       "Price_Type": "Coin",
       "Name": "Auto-5",
       "Category": "Shotgun",
+      "Pellets": 8,
       "Damage": [
         104,
         8
@@ -6732,6 +6738,7 @@
       "Price_Type": "Coin",
       "Name": "JSG12",
       "Category": "Shotgun",
+      "Pellets": 12,
       "Damage": [
         144,
         12
@@ -6769,6 +6776,7 @@
       "Price_Type": "Coin",
       "Name": "Spas-12",
       "Category": "Shotgun",
+      "Pellets": 6,
       "Damage": [
         114,
         6
@@ -6806,6 +6814,7 @@
       "Price_Type": "Coin",
       "Name": "Double Barrel",
       "Category": "Shotgun",
+      "Pellets": 10,
       "Damage": [
         110,
         10
@@ -6842,6 +6851,7 @@
       "Price_Type": "Coin",
       "Name": "Siberia-12",
       "Category": "Shotgun",
+      "Pellets": 12,
       "Damage": [
         48,
         0
@@ -6879,6 +6889,7 @@
       "Price_Type": "WC",
       "Name": "Blunderbuss",
       "Category": "Shotgun",
+      "Pellets": 15,
       "Damage": [
         225,
         90
@@ -6915,6 +6926,7 @@
       "Price_Type": "Limited",
       "Name": "MarrowMaker",
       "Category": "Shotgun",
+      "Pellets": 7,
       "Damage": [
         112,
         35
@@ -6951,6 +6963,7 @@
       "Price_Type": "Robux",
       "Name": "AUTO-12",
       "Category": "Shotgun",
+      "Pellets": 6,
       "Damage": [
         72,
         18
@@ -6988,6 +7001,7 @@
       "Price_Type": "Season Pass 1",
       "Name": "Pancake Hammer",
       "Category": "Shotgun",
+      "Pellets": 2,
       "Damage": [
         90,
         24
@@ -8387,6 +8401,7 @@
       "Price_Type": "Coin",
       "Name": "EG200",
       "Category": "Sidearm",
+      "Pellets": 13,
       "Damage": [
         117,
         26

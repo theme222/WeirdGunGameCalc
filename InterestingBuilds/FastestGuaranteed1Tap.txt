@@ -42,20 +42,6 @@ recoilAimVertical: 96.1211 - 128.161
 movementSpeed: -3.3
 TTK: 5.59701 Seconds
 
-[ Barrel: Sten gun, Magazine: Arisaka, Grip: AWM, Stock: AWM, Core: Lightning Shot ]
-damage: 42.0404 - 101.422
-dropoffStuds: 147.9 - 435
-fireRate: 21.44
-adsSpread: 0.130346
-hipfireSpread: 18.6209
-reloadTime: 3.808
-magazineSize: 5
-health: 1
-recoilHipVertical: 153.794 - 205.058
-recoilAimVertical: 76.8969 - 102.529
-movementSpeed: -3.3
-TTK: 5.59701 Seconds
-
 [ Barrel: Sten gun, Magazine: Arisaka, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
 damage: 42.0404 - 101.422
 dropoffStuds: 147.9 - 435
@@ -70,19 +56,19 @@ recoilAimVertical: 71.2008 - 94.9344
 movementSpeed: 4.7
 TTK: 5.59701 Seconds
 
-[ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Arisaka, Stock: FAL, Core: Lightning Shot ]
-damage: 44.6672 - 110.515
-dropoffStuds: 140.309 - 412.674
-fireRate: 21.12
-adsSpread: 0.149937
-hipfireSpread: 21.4196
-reloadTime: 5.4
-magazineSize: 60
-health: -3
-recoilHipVertical: 186.732 - 248.976
-recoilAimVertical: 93.366 - 124.488
-movementSpeed: -3.33
-TTK: 5.68182 Seconds
+[ Barrel: Sten gun, Magazine: Arisaka, Grip: AWM, Stock: AWM, Core: Lightning Shot ]
+damage: 42.0404 - 101.422
+dropoffStuds: 147.9 - 435
+fireRate: 21.44
+adsSpread: 0.130346
+hipfireSpread: 18.6209
+reloadTime: 3.808
+magazineSize: 5
+health: 1
+recoilHipVertical: 153.794 - 205.058
+recoilAimVertical: 76.8969 - 102.529
+movementSpeed: -3.3
+TTK: 5.59701 Seconds
 
 [ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
 damage: 44.6672 - 113.438
@@ -98,19 +84,19 @@ recoilAimVertical: 79.002 - 105.336
 movementSpeed: -3.5
 TTK: 5.68182 Seconds
 
-[ Barrel: Uzi, Magazine: Arisaka, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
-damage: 43.2891 - 101.729
-dropoffStuds: 156.4 - 460
-fireRate: 21.08
-adsSpread: 0.145223
-hipfireSpread: 20.7462
-reloadTime: 3.4
-magazineSize: 5
-health: -5
-recoilHipVertical: 114.84 - 153.12
-recoilAimVertical: 57.42 - 76.56
-movementSpeed: 5.9
-TTK: 5.6926 Seconds
+[ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Arisaka, Stock: FAL, Core: Lightning Shot ]
+damage: 44.6672 - 110.515
+dropoffStuds: 140.309 - 412.674
+fireRate: 21.12
+adsSpread: 0.149937
+hipfireSpread: 21.4196
+reloadTime: 5.4
+magazineSize: 60
+health: -3
+recoilHipVertical: 186.732 - 248.976
+recoilAimVertical: 93.366 - 124.488
+movementSpeed: -3.33
+TTK: 5.68182 Seconds
 
 [ Barrel: Uzi, Magazine: Arisaka, Grip: QBZ-95, Stock: AWM, Core: Lightning Shot ]
 damage: 43.2891 - 101.729
@@ -124,6 +110,20 @@ health: 1
 recoilHipVertical: 114.84 - 153.12
 recoilAimVertical: 57.42 - 76.56
 movementSpeed: -3.9
+TTK: 5.6926 Seconds
+
+[ Barrel: Uzi, Magazine: Arisaka, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
+damage: 43.2891 - 101.729
+dropoffStuds: 156.4 - 460
+fireRate: 21.08
+adsSpread: 0.145223
+hipfireSpread: 20.7462
+reloadTime: 3.4
+magazineSize: 5
+health: -5
+recoilHipVertical: 114.84 - 153.12
+recoilAimVertical: 57.42 - 76.56
+movementSpeed: 5.9
 TTK: 5.6926 Seconds
 
 [ Barrel: Uzi, Magazine: Arisaka, Grip: AWM, Stock: AWM, Core: Lightning Shot ]

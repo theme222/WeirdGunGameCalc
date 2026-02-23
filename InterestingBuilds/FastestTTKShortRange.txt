@@ -25,17 +25,17 @@ recoilAimVertical: 24 - 33
 movementSpeed: 2.5
 TTK: 0.209778 Seconds
 
-[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Fedorov, Core: Bicycle ]
-damage: 50.1181 - 19.6247
-dropoffStuds: 160.2 - 220.275
+[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Pancake Hammer, Core: Bicycle ]
+damage: 50.1181 - 17.7951
+dropoffStuds: 150.588 - 207.058
 fireRate: 280.768
 adsSpread: 0.717973
 hipfireSpread: 12.5645
-reloadTime: 3.21
+reloadTime: 3
 magazineSize: 30
-recoilHipVertical: 36 - 49.5
-recoilAimVertical: 21.6 - 29.7
-movementSpeed: 1
+recoilHipVertical: 40 - 55
+recoilAimVertical: 24 - 33
+movementSpeed: 5
 TTK: 0.2137 Seconds
 
 [ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: AR-8X, Core: Bicycle ]
@@ -51,17 +51,17 @@ recoilAimVertical: 24 - 33
 movementSpeed: 1
 TTK: 0.2137 Seconds
 
-[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Pancake Hammer, Core: Bicycle ]
-damage: 50.1181 - 17.7951
-dropoffStuds: 150.588 - 207.058
+[ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Fedorov, Core: Bicycle ]
+damage: 50.1181 - 19.6247
+dropoffStuds: 160.2 - 220.275
 fireRate: 280.768
 adsSpread: 0.717973
 hipfireSpread: 12.5645
-reloadTime: 3
+reloadTime: 3.21
 magazineSize: 30
-recoilHipVertical: 40 - 55
-recoilAimVertical: 24 - 33
-movementSpeed: 5
+recoilHipVertical: 36 - 49.5
+recoilAimVertical: 21.6 - 29.7
+movementSpeed: 1
 TTK: 0.2137 Seconds
 
 [ Barrel: M870 Breacher, Magazine: ZIPO-2222, Grip: Circuit Judge, Stock: Kriss Vector, Core: Bicycle ]

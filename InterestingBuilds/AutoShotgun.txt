@@ -1,139 +1,142 @@
 ./wggcalc -o InterestingBuilds/AutoShotgun.txt -i Shotgun --sort FIRERATE --fc Siberia-12 AUTO-12 --damageMin 60 --spreadAimMax 2 --speedMin 0 --rangeMin 50 --magazineMin 20 --recoilAimMax 100 
 Current top 10 guns are: 
-[ Barrel: MarrowMaker, Magazine: BAR, Grip: FG-42, Stock: JSG12, Core: Siberia-12 ]
-damage: 60.3992 - 10.098
-dropoffStuds: 52.1016 - 115.781
-pellets: 2
-fireRate: 600.146
-adsSpread: 1.89783
-hipfireSpread: 5.69349
-reloadTime: 4.326
-magazineSize: 20
-recoilHipVertical: 102.638 - 118.714
-recoilAimVertical: 83.0995 - 96.2075
-TTK: 0.0999757 Seconds
+[ Barrel: Paintball, Magazine: MP 40, Grip: JSG12, Stock: MG42, Core: Siberia-12 ]
+damage: 61.6343 - 8.01245
+dropoffStuds: 50.85 - 113
+pellets: 12
+fireRate: 570
+adsSpread: 1.99692
+hipfireSpread: 5.99076
+reloadTime: 2.75
+magazineSize: 32
+recoilHipVertical: 94.8391 - 109.693
+recoilAimVertical: 76.7854 - 88.8974
+movementSpeed: 1.125
+TTK: 0.105263 Seconds
 
-[ Barrel: MarrowMaker, Magazine: BAR, Grip: AUTO-12, Stock: JSG12, Core: Siberia-12 ]
-damage: 60.3992 - 8.58895
-dropoffStuds: 50.5385 - 112.308
-pellets: 2
-fireRate: 597.802
-adsSpread: 1.89783
-hipfireSpread: 5.69349
-reloadTime: 4.536
-magazineSize: 20
-recoilHipVertical: 87.399 - 101.088
-recoilAimVertical: 70.7616 - 81.9234
-TTK: 0.100368 Seconds
+[ Barrel: Paintball, Magazine: MP 40, Grip: JSG12, Stock: JSG12, Core: Siberia-12 ]
+damage: 61.6343 - 8.01245
+dropoffStuds: 50.85 - 113
+pellets: 12
+fireRate: 570
+adsSpread: 1.99139
+hipfireSpread: 5.97416
+reloadTime: 2.625
+magazineSize: 32
+recoilHipVertical: 94.8391 - 109.693
+recoilAimVertical: 76.7854 - 88.8974
+movementSpeed: 1.5
+TTK: 0.105263 Seconds
 
-[ Barrel: MarrowMaker, Magazine: BAR, Grip: SKS, Stock: JSG12, Core: Siberia-12 ]
-damage: 60.3992 - 10.098
-dropoffStuds: 52.1016 - 115.781
-pellets: 2
-fireRate: 593.113
-adsSpread: 1.89783
-hipfireSpread: 5.69349
-reloadTime: 4.326
-magazineSize: 20
-recoilHipVertical: 103.982 - 120.269
-recoilAimVertical: 84.1882 - 97.4678
-TTK: 0.101161 Seconds
+[ Barrel: M1891, Magazine: Type 99, Grip: Croissant, Stock: JSG12, Core: Siberia-12 ]
+damage: 61.1631 - 9.41912
+dropoffStuds: 52.47 - 116.6
+pellets: 12
+fireRate: 570
+adsSpread: 1.98298
+hipfireSpread: 5.94894
+reloadTime: 3.78
+magazineSize: 30
+recoilHipVertical: 67.1968 - 77.7216
+recoilAimVertical: 54.4051 - 62.9869
+TTK: 0.105263 Seconds
 
-[ Barrel: MarrowMaker, Magazine: BAR, Grip: L8, Stock: JSG12, Core: Siberia-12 ]
-damage: 60.3992 - 11.1543
-dropoffStuds: 53.1957 - 118.213
-pellets: 2
-fireRate: 586.08
-adsSpread: 1.89783
-hipfireSpread: 5.69349
-reloadTime: 4.2
-magazineSize: 20
-recoilHipVertical: 101.853 - 117.806
-recoilAimVertical: 82.4645 - 95.4723
-TTK: 0.102375 Seconds
-
-[ Barrel: MarrowMaker, Magazine: BAR, Grip: PineFire, Stock: M870, Core: Siberia-12 ]
-damage: 60.3992 - 10.098
-dropoffStuds: 52.1016 - 115.781
-pellets: 2
-fireRate: 586.08
-adsSpread: 1.98997
-hipfireSpread: 5.9699
-reloadTime: 4.62
-magazineSize: 20
-recoilHipVertical: 88.9089 - 102.834
-recoilAimVertical: 71.9841 - 83.3387
-movementSpeed: 0.85
-TTK: 0.102375 Seconds
-
-[ Barrel: MarrowMaker, Magazine: BAR, Grip: Arisaka, Stock: M870, Core: Siberia-12 ]
-damage: 60.3992 - 10.098
-dropoffStuds: 52.1016 - 115.781
-pellets: 2
-fireRate: 586.08
-adsSpread: 1.82314
-hipfireSpread: 5.46942
-reloadTime: 4.2
-magazineSize: 20
+[ Barrel: Scar H, Magazine: Type 99, Grip: Arisaka, Stock: Auto-5, Core: Siberia-12 ]
+damage: 63.2635 - 7.36387
+dropoffStuds: 50.562 - 112.36
+pellets: 12
+fireRate: 567
+adsSpread: 1.95907
+hipfireSpread: 5.87722
+reloadTime: 3
+magazineSize: 30
 health: -6
-recoilHipVertical: 95.2425 - 110.16
-recoilAimVertical: 77.112 - 89.2755
+recoilHipVertical: 100.795 - 116.582
+recoilAimVertical: 81.6077 - 94.4803
 movementSpeed: 1
-TTK: 0.102375 Seconds
+TTK: 0.10582 Seconds
 
-[ Barrel: MarrowMaker, Magazine: BAR, Grip: Arisaka, Stock: M40, Core: Siberia-12 ]
-damage: 60.3992 - 10.098
-dropoffStuds: 52.1016 - 115.781
-pellets: 2
-fireRate: 586.08
-adsSpread: 1.92866
-hipfireSpread: 5.78597
-reloadTime: 4
-magazineSize: 20
+[ Barrel: Dragunov, Magazine: STG-44, Grip: Arisaka, Stock: JSG12, Core: Siberia-12 ]
+damage: 61.9312 - 7.06016
+dropoffStuds: 50.13 - 111.4
+pellets: 12
+fireRate: 552
+adsSpread: 1.9547
+hipfireSpread: 5.8641
+reloadTime: 3.045
+magazineSize: 30
 health: -6
-recoilHipVertical: 106.448 - 123.12
-recoilAimVertical: 86.184 - 99.7785
-movementSpeed: 1
-TTK: 0.102375 Seconds
+recoilHipVertical: 102.92 - 119.04
+recoilAimVertical: 83.328 - 96.472
+TTK: 0.108696 Seconds
 
-[ Barrel: MarrowMaker, Magazine: BAR, Grip: C36C, Stock: JSG12, Core: Siberia-12 ]
-damage: 60.3992 - 10.098
-dropoffStuds: 52.1016 - 115.781
-pellets: 2
-fireRate: 586.08
-adsSpread: 1.89783
-hipfireSpread: 5.69349
-reloadTime: 3.906
-magazineSize: 20
-recoilHipVertical: 100.285 - 115.992
-recoilAimVertical: 81.1944 - 94.0019
-TTK: 0.102375 Seconds
+[ Barrel: Paintball, Magazine: STG-44, Grip: JSG12, Stock: JSG12, Core: Siberia-12 ]
+damage: 60.1424 - 7.81851
+dropoffStuds: 50.85 - 113
+pellets: 12
+fireRate: 552
+adsSpread: 1.94086
+hipfireSpread: 5.82257
+reloadTime: 3.045
+magazineSize: 30
+recoilHipVertical: 82.4688 - 95.3856
+recoilAimVertical: 66.7699 - 77.3021
+movementSpeed: 1.5
+TTK: 0.108696 Seconds
 
-[ Barrel: MarrowMaker, Magazine: BAR, Grip: Famas F1, Stock: JSG12, Core: Siberia-12 ]
-damage: 60.3992 - 10.098
-dropoffStuds: 52.1016 - 115.781
-pellets: 2
-fireRate: 586.08
-adsSpread: 1.89783
-hipfireSpread: 5.69349
-reloadTime: 3.8472
-magazineSize: 20
-recoilHipVertical: 101.853 - 117.806
-recoilAimVertical: 82.4645 - 95.4723
-TTK: 0.102375 Seconds
+[ Barrel: Paintball, Magazine: STG-44, Grip: JSG12, Stock: MG42, Core: Siberia-12 ]
+damage: 60.1424 - 7.81851
+dropoffStuds: 50.85 - 113
+pellets: 12
+fireRate: 552
+adsSpread: 1.94625
+hipfireSpread: 5.83875
+reloadTime: 3.19
+magazineSize: 30
+recoilHipVertical: 82.4688 - 95.3856
+recoilAimVertical: 66.7699 - 77.3021
+movementSpeed: 1.125
+TTK: 0.108696 Seconds
 
-[ Barrel: MarrowMaker, Magazine: BAR, Grip: Arisaka, Stock: Type 2a Nambu, Core: Siberia-12 ]
-damage: 60.3992 - 10.098
-dropoffStuds: 52.1016 - 115.781
-pellets: 2
-fireRate: 586.08
-adsSpread: 1.96137
-hipfireSpread: 5.8841
-reloadTime: 4
-magazineSize: 20
+[ Barrel: M870 Wingmaster, Magazine: AK-12, Grip: Arisaka, Stock: JSG12, Core: Siberia-12 ]
+damage: 65.6006 - 7.795
+dropoffStuds: 50.6779 - 112.618
+pellets: 10
+fireRate: 522
+adsSpread: 1.93904
+hipfireSpread: 5.81712
+reloadTime: 2.4255
+magazineSize: 30
 health: -6
-recoilHipVertical: 104.767 - 121.176
-recoilAimVertical: 84.8232 - 98.2031
-movementSpeed: 1.975
-TTK: 0.102375 Seconds
+recoilHipVertical: 94.62 - 109.44
+recoilAimVertical: 76.608 - 88.692
+TTK: 0.114943 Seconds
+
+[ Barrel: Scar H, Magazine: Type 99, Grip: Croissant, Stock: JSG12, Core: Siberia-12 ]
+damage: 66.463 - 7.73629
+dropoffStuds: 50.562 - 112.36
+pellets: 12
+fireRate: 513
+adsSpread: 1.93159
+hipfireSpread: 5.79477
+reloadTime: 3.15
+magazineSize: 30
+recoilHipVertical: 80.6362 - 93.2659
+recoilAimVertical: 65.2861 - 75.5843
+TTK: 0.116959 Seconds
+
+[ Barrel: M1891, Magazine: UNP-40, Grip: Arisaka, Stock: MG42, Core: Siberia-12 ]
+damage: 63.1043 - 8.5254
+dropoffStuds: 51.4305 - 114.29
+pellets: 12
+fireRate: 510
+adsSpread: 1.95247
+hipfireSpread: 5.85741
+reloadTime: 2.64
+magazineSize: 30
+health: -6
+recoilHipVertical: 83 - 96
+recoilAimVertical: 67.2 - 77.8
+movementSpeed: 0.6
+TTK: 0.117647 Seconds
 
