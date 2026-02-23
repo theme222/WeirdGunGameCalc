@@ -12,6 +12,11 @@ const currentlyRemoving = ref(false);
 function toggleRemoveFilter() {
   currentlyRemoving.value = !currentlyRemoving.value;
 }
+
+function submitQuery() {
+  
+}
+
 </script>
 
 <template>
@@ -49,9 +54,10 @@ function toggleRemoveFilter() {
           tag="div"
           class="w-full flex flex-col justify-center items-center gap-3 px-3 pb-4"
         >
-          <div v-for="filter in currentFilters.list" :key="filter.title" class="w-full"> 
+          <div v-for="filter in currentFilters.list" class="w-full"> 
             <Filter
               :id="filter.id"
+              :key="filter.id"
               :title="filter.title"
               :currentlyRemoving="currentlyRemoving"
               :removeCaller="removeFilter"

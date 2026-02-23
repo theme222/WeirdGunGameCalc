@@ -15,15 +15,15 @@ function lcsLength(a: string, b: string): number {
   for (let i = 1; i <= a.length; i++) {
     for (let j = 1; j <= b.length; j++) {
       if (a[i - 1] === b[j - 1]) {
-        curr[j] = prev[j - 1] + 1
+        curr[j] = prev[j - 1]! + 1
       } else {
-        curr[j] = Math.max(prev[j], curr[j - 1])
+        curr[j] = Math.max(prev[j]!, curr[j - 1]!)
       }
     }
     prev.set(curr)
   }
 
-  return prev[b.length]
+  return prev[b.length]!
 }
 
 
