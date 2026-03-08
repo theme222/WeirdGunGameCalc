@@ -957,7 +957,7 @@
       "Category": "Weird",
       "Damage": -3,
       "Movement_Speed": 2.5,
-      "Range": 13,
+      "Range": 3,
       "Recoil": -28
     },
     {
@@ -7001,10 +7001,10 @@
       "Price_Type": "Season Pass 1",
       "Name": "Pancake Hammer",
       "Category": "Shotgun",
-      "Pellets": 2,
+      "Pellets": 10,
       "Damage": [
         90,
-        24
+        20
       ],
       "Dropoff_Studs": [
         55,
@@ -7022,6 +7022,14 @@
         11
       ],
       "Recoil_Hip_Vertical": [
+        82,
+        90
+      ],
+      "Recoil_Aim_Horizontal": [
+        -11,
+        11
+      ],
+      "Recoil_Aim_Vertical": [
         82,
         90
       ]

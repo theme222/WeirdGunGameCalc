@@ -1,33 +1,5 @@
 ./wggcalc -o InterestingBuilds/AutoShotgun.txt -i Shotgun --sort FIRERATE --fc Siberia-12 AUTO-12 --damageMin 60 --spreadAimMax 2 --speedMin 0 --rangeMin 50 --magazineMin 20 --recoilAimMax 100 
 Current top 10 guns are: 
-[ Barrel: Paintball, Magazine: MP 40, Grip: JSG12, Stock: MG42, Core: Siberia-12 ]
-damage: 61.6343 - 8.01245
-dropoffStuds: 50.85 - 113
-pellets: 12
-fireRate: 570
-adsSpread: 1.99692
-hipfireSpread: 5.99076
-reloadTime: 2.75
-magazineSize: 32
-recoilHipVertical: 94.8391 - 109.693
-recoilAimVertical: 76.7854 - 88.8974
-movementSpeed: 1.125
-TTK: 0.105263 Seconds
-
-[ Barrel: Paintball, Magazine: MP 40, Grip: JSG12, Stock: JSG12, Core: Siberia-12 ]
-damage: 61.6343 - 8.01245
-dropoffStuds: 50.85 - 113
-pellets: 12
-fireRate: 570
-adsSpread: 1.99139
-hipfireSpread: 5.97416
-reloadTime: 2.625
-magazineSize: 32
-recoilHipVertical: 94.8391 - 109.693
-recoilAimVertical: 76.7854 - 88.8974
-movementSpeed: 1.5
-TTK: 0.105263 Seconds
-
 [ Barrel: M1891, Magazine: Type 99, Grip: Croissant, Stock: JSG12, Core: Siberia-12 ]
 damage: 61.1631 - 9.41912
 dropoffStuds: 52.47 - 116.6
@@ -68,34 +40,6 @@ magazineSize: 30
 health: -6
 recoilHipVertical: 102.92 - 119.04
 recoilAimVertical: 83.328 - 96.472
-TTK: 0.108696 Seconds
-
-[ Barrel: Paintball, Magazine: STG-44, Grip: JSG12, Stock: JSG12, Core: Siberia-12 ]
-damage: 60.1424 - 7.81851
-dropoffStuds: 50.85 - 113
-pellets: 12
-fireRate: 552
-adsSpread: 1.94086
-hipfireSpread: 5.82257
-reloadTime: 3.045
-magazineSize: 30
-recoilHipVertical: 82.4688 - 95.3856
-recoilAimVertical: 66.7699 - 77.3021
-movementSpeed: 1.5
-TTK: 0.108696 Seconds
-
-[ Barrel: Paintball, Magazine: STG-44, Grip: JSG12, Stock: MG42, Core: Siberia-12 ]
-damage: 60.1424 - 7.81851
-dropoffStuds: 50.85 - 113
-pellets: 12
-fireRate: 552
-adsSpread: 1.94625
-hipfireSpread: 5.83875
-reloadTime: 3.19
-magazineSize: 30
-recoilHipVertical: 82.4688 - 95.3856
-recoilAimVertical: 66.7699 - 77.3021
-movementSpeed: 1.125
 TTK: 0.108696 Seconds
 
 [ Barrel: M870 Wingmaster, Magazine: AK-12, Grip: Arisaka, Stock: JSG12, Core: Siberia-12 ]
@@ -139,4 +83,64 @@ recoilHipVertical: 83 - 96
 recoilAimVertical: 67.2 - 77.8
 movementSpeed: 0.6
 TTK: 0.117647 Seconds
+
+[ Barrel: M1891, Magazine: UNP-40, Grip: Arisaka, Stock: JSG12, Core: Siberia-12 ]
+damage: 63.1043 - 8.5254
+dropoffStuds: 51.4305 - 114.29
+pellets: 12
+fireRate: 510
+adsSpread: 1.94706
+hipfireSpread: 5.84118
+reloadTime: 2.52
+magazineSize: 30
+health: -6
+recoilHipVertical: 83 - 96
+recoilAimVertical: 67.2 - 77.8
+movementSpeed: 0.975
+TTK: 0.117647 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: Mas-38, Grip: Arisaka, Stock: FC200SH, Core: Siberia-12 ]
+damage: 67.6533 - 7.65851
+dropoffStuds: 50.4393 - 112.087
+pellets: 10
+fireRate: 495.9
+adsSpread: 1.97423
+hipfireSpread: 5.9227
+reloadTime: 2.94
+magazineSize: 32
+health: -6
+recoilHipVertical: 105.41 - 121.92
+recoilAimVertical: 85.344 - 98.806
+movementSpeed: 0.675
+TTK: 0.120992 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: UNP-40, Grip: Arisaka, Stock: JSG12, Core: Siberia-12 ]
+damage: 71.3482 - 7.58217
+dropoffStuds: 50.0279 - 111.173
+pellets: 10
+fireRate: 443.7
+adsSpread: 1.98952
+hipfireSpread: 5.96856
+reloadTime: 2.205
+magazineSize: 30
+health: -6
+recoilHipVertical: 83 - 96
+recoilAimVertical: 67.2 - 77.8
+movementSpeed: 0.975
+TTK: 0.135227 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: UNP-40, Grip: Arisaka, Stock: MG42, Core: Siberia-12 ]
+damage: 71.3482 - 7.58217
+dropoffStuds: 50.0279 - 111.173
+pellets: 10
+fireRate: 443.7
+adsSpread: 1.99513
+hipfireSpread: 5.9854
+reloadTime: 2.31
+magazineSize: 30
+health: -6
+recoilHipVertical: 83 - 96
+recoilAimVertical: 67.2 - 77.8
+movementSpeed: 0.6
+TTK: 0.135227 Seconds
 

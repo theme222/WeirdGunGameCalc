@@ -32,6 +32,7 @@ BANSEMI=(--bc "FC200SH" "M1 Carbine" "G11" "Loaf" "ZIPO-2222") # This is a shell
 ./wggcalc -o $IB/FastestHeadshotSniper.txt -i Sniper --speedMin 0 --damageMin 50 --spreadAimMax 0.15 --sort FIRERATE --rangeMin 200 --pelletMax 1 --magazineMin 10
 ./wggcalc -o $IB/Fastest1TapSniper.txt -i Sniper BR --damageMin 100 --spreadAimMax 0.149 --sort FIRERATE --rangeMin 300 --pelletMax 1 --speedMin -5  --magazineMin 5
 ./wggcalc -o $IB/FastestGuaranteed1Tap.txt -i Sniper BR --damageEndMin 100 --spreadAimMax 0.15 --sort FIRERATE --speedMin -5 --magazineMin 5
+./wggcalc -o $IB/Fastest1TapMediumRange.txt -i Sniper --damageMin 100 --speedMin -5 --rangeMin 150  --sort FIRERATE --spreadAimMax 0.3
 ####################### SNIPERS #######################
 
 ####################### SEMI AUTOS #######################

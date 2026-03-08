@@ -1,0 +1,137 @@
+./wggcalc -o InterestingBuilds/Fastest1TapMediumRange.txt -i Sniper --damageMin 100 --speedMin -5 --rangeMin 150 --sort FIRERATE --spreadAimMax 0.3 
+Current top 10 guns are: 
+[ Barrel: Scar H, Magazine: M870 Breacher, Grip: Double Barrel, Stock: Arisaka, Core: Barret .50 ]
+damage: 100.199 - 58.0255
+dropoffStuds: 184.45 - 396.568
+pellets: 2
+fireRate: 90
+adsSpread: 0.266602
+hipfireSpread: 10.6641
+reloadTime: 3.36
+magazineSize: 8
+health: -8
+recoilHipVertical: 291.6 - 388.8
+recoilAimVertical: 247.86 - 330.48
+movementSpeed: -4.2
+
+[ Barrel: Scar H, Magazine: Snake Sniper, Grip: M1891, Stock: Arisaka, Core: Barret .50 ]
+damage: 100.414 - 61.825
+dropoffStuds: 206.15 - 443.223
+fireRate: 89.1
+adsSpread: 0.277336
+hipfireSpread: 11.0934
+reloadTime: 6.64125
+magazineSize: 6
+health: -8
+recoilHipVertical: 146.88 - 195.84
+recoilAimVertical: 124.848 - 166.464
+movementSpeed: -4
+
+[ Barrel: VSSR, Magazine: Scar H, Grip: Arisaka, Stock: Arisaka, Core: Barret .50 ]
+damage: 100.032 - 67.0251
+dropoffStuds: 238.383 - 512.523
+fireRate: 88
+adsSpread: 0.255548
+hipfireSpread: 10.2219
+reloadTime: 5.1975
+magazineSize: 20
+health: -14
+recoilHipVertical: 81 - 108
+recoilAimVertical: 68.85 - 91.8
+movementSpeed: -3
+
+[ Barrel: VSSR, Magazine: M870 Breacher, Grip: Arisaka, Stock: Arisaka, Core: Barret .50 ]
+damage: 102.037 - 59.3242
+dropoffStuds: 185.3 - 398.395
+pellets: 2
+fireRate: 88
+adsSpread: 0.28074
+hipfireSpread: 11.2296
+reloadTime: 3.696
+magazineSize: 8
+health: -14
+recoilHipVertical: 97.2 - 129.6
+recoilAimVertical: 82.62 - 110.16
+movementSpeed: -1.2
+
+[ Barrel: Mosin, Magazine: M1 Garand, Grip: Type 2a Nambu, Stock: Arisaka, Core: Barret .50 ]
+damage: 100.748 - 63.189
+dropoffStuds: 213.6 - 459.24
+fireRate: 87.4
+adsSpread: 0.281562
+hipfireSpread: 11.2625
+reloadTime: 3.6708
+magazineSize: 8
+health: -15.5
+recoilHipVertical: 110.7 - 147.6
+recoilAimVertical: 94.095 - 125.46
+movementSpeed: -4
+
+[ Barrel: M110, Magazine: M870 Breacher, Grip: Arisaka, Stock: P90, Core: Barret .50 ]
+damage: 100.943 - 56.4826
+dropoffStuds: 177.225 - 381.034
+pellets: 2
+fireRate: 87.04
+adsSpread: 0.290941
+hipfireSpread: 11.6376
+reloadTime: 3.2
+magazineSize: 8
+health: -6
+recoilHipVertical: 214.704 - 286.272
+recoilAimVertical: 182.498 - 243.331
+movementSpeed: -3.4
+
+[ Barrel: Mosin, Magazine: Snake Sniper, Grip: Uzi, Stock: Arisaka, Core: Barret .50 ]
+damage: 102.4 - 59.3922
+dropoffStuds: 190 - 408.5
+fireRate: 86.526
+adsSpread: 0.27085
+hipfireSpread: 10.834
+reloadTime: 5.313
+magazineSize: 6
+health: -8
+recoilHipVertical: 150.552 - 200.736
+recoilAimVertical: 127.969 - 170.626
+movementSpeed: -3.8
+
+[ Barrel: Mosin, Magazine: Double Barrel, Grip: Arisaka, Stock: FG-42, Core: Barret .50 ]
+damage: 100.29 - 57.366
+dropoffStuds: 186 - 399.9
+pellets: 2
+fireRate: 86.1626
+adsSpread: 0.267546
+hipfireSpread: 10.7018
+reloadTime: 3.22
+magazineSize: 2
+health: -6
+recoilHipVertical: 203.4 - 271.2
+recoilAimVertical: 172.89 - 230.52
+movementSpeed: -4.45
+
+[ Barrel: BAR, Magazine: Scar H, Grip: Arisaka, Stock: Sten gun, Core: Barret .50 ]
+damage: 100.032 - 66.6623
+dropoffStuds: 236.196 - 507.821
+fireRate: 86.02
+adsSpread: 0.284452
+hipfireSpread: 11.3781
+reloadTime: 4.5
+magazineSize: 20
+health: -6
+recoilHipVertical: 186.3 - 248.4
+recoilAimVertical: 158.355 - 211.14
+movementSpeed: -3.9
+
+[ Barrel: M110, Magazine: M870 Breacher, Grip: Arisaka, Stock: Sten gun, Core: Barret .50 ]
+damage: 100.943 - 56.4826
+dropoffStuds: 177.225 - 381.034
+pellets: 2
+fireRate: 86.02
+adsSpread: 0.289099
+hipfireSpread: 11.564
+reloadTime: 3.2
+magazineSize: 8
+health: -6
+recoilHipVertical: 264.546 - 352.728
+recoilAimVertical: 224.864 - 299.819
+movementSpeed: -1.6
+
