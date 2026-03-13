@@ -1,4 +1,5 @@
-export const fullData_DATA = await fetch("/FullData.json").then(r => r.json());
+export const fullData_STRING = await fetch("/FullData.json").then(r => r.text());
+export const fullData_DATA = JSON.parse(fullData_STRING);
 
 export const PARTCORELIST = fullData_DATA.Data as PartCoreList;
 export const CATEGORIES = fullData_DATA.Categories;

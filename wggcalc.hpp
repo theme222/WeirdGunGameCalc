@@ -1424,8 +1424,11 @@ namespace Filter
 
 // Maybe make this a class or a struct? prob no tho
 inline PQ::AllSortPQ threadPQ[64];
-inline std::thread threads[64];
 inline uint64_t validGunInThread[64];
+
+#ifndef __EMSCRIPTEN__
+inline std::thread threads[64];
+#endif
 
 // namespace BruteForce { }
 // namespace Prune { }
@@ -1918,7 +1921,6 @@ namespace DynamicPrune
             if (!Filter::CoreFilter(corePtr)) continue;
             Gun currentGun = Gun(corePtr);
             currentGun.CopyCoreValues(Filter::currentFlags);
-            // std::cout << currentGun << '\n';
 
             // std::cout << IsValidInRange(currentGun, currentCoreCat, 3) << ' ' << IsValidInThreshold(currentGun, currentCoreCat, 3) << '\n';
             if (

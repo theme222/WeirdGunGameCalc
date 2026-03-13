@@ -35,10 +35,9 @@ const model = defineModel();
 //     value: string[] | number[];
 // }
 
-if (model.value.value.size != 0) {
+if (model.value.value.length != 0) {
   // pass
-}
-else if (props.filterType === 'stringarr') {
+} else if (props.filterType === 'stringarr') {
   model.value.value = [];
 } else if (['string', 'number', 'sorting'].includes(props.filterType)) {
   model.value.value = [null];
@@ -166,7 +165,7 @@ function removeInputFromList(index) {
         <select class="select max-w-20 mr-4" v-model="model.selectedOption">
           <option v-for="opt in options" :key="opt">{{ opt }}</option>
         </select>
-        <input class="input input-bordered max-w-20" v-model="model.value[0]" type="number" step="0.1" />
+        <input class="input input-bordered max-w-20" v-model="model.value[0]" type="number" step="0.1" placeholder="0" />
         <p v-if="model.selectedOption === 'from'">-</p>
         <input
           v-if="model.selectedOption === 'from'"

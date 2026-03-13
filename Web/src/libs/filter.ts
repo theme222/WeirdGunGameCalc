@@ -1,5 +1,5 @@
-import { reactive, ref, watch } from 'vue';
-import { addToast, removeToast } from './toast';
+import { reactive, watch } from 'vue';
+import { addToast } from './toast';
 import { PARTNAMES } from './data';
 import { onFilterChange } from './calc';
 
@@ -37,10 +37,10 @@ export const filterAndSortStrings = [
   'Damage End',
   'Fire Rate',
   'Pellets',
-  'Spread Hip',
   'Spread Aim',
-  'Recoil Hip',
+  'Spread Hip',
   'Recoil Aim',
+  'Recoil Hip',
   'Health',
   'Range Stud Start',
   'Range Stud End',
@@ -54,7 +54,7 @@ export const filterAndSortStrings = [
 ];
 
 export const numberRangeOptions = ['min', 'max', 'from'];
-export const sortTypeOptions = ['highest first', 'lowest first'];
+export const sortTypeOptions = ['Auto', 'Highest First', 'Lowest First'];
 
 export const filterList: Filter[] = [
   { title: 'Categories', filterType: 'stringarr', required: true, validStrings: categoryStrings },
@@ -71,6 +71,11 @@ export const filterList: Filter[] = [
   { title: 'Force Barrel', filterType: 'stringarr', validStrings: PARTNAMES },
   { title: 'Force Stock', filterType: 'stringarr', validStrings: PARTNAMES },
   { title: 'Force Grip', filterType: 'stringarr', validStrings: PARTNAMES },
+  { title: 'Ban Core', filterType: 'stringarr', validStrings: PARTNAMES },
+  { title: 'Ban Magazine', filterType: 'stringarr', validStrings: PARTNAMES },
+  { title: 'Ban Barrel', filterType: 'stringarr', validStrings: PARTNAMES },
+  { title: 'Ban Stock', filterType: 'stringarr', validStrings: PARTNAMES },
+  { title: 'Ban Grip', filterType: 'stringarr', validStrings: PARTNAMES },
 ];
 
 for (const filter of filterAndSortStrings) {
@@ -86,7 +91,7 @@ const savedData = sessionStorage.getItem(filterListKey);
 const startingFilters = savedData ? JSON.parse(savedData) : {
   list: [
     { title: 'Categories', filterType: 'stringarr', required: true, validStrings: categoryStrings, writeable: { value: ["AR", "SMG", "LMG"] } },
-    { title: 'Sort Type', filterType: 'sort', options: sortTypeOptions, required: true, validStrings: filterAndSortStrings, writeable: { selectedOption: "lowest first", value: ["TTK"] } },
+    { title: 'Sort Type', filterType: 'sort', options: sortTypeOptions, required: true, validStrings: filterAndSortStrings, writeable: { selectedOption: "Auto", value: ["TTK"] } },
     { title: 'Total Results', filterType: 'number', required: true, writeable: { value: [10] } },
   ]
 };
