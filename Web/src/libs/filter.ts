@@ -1,8 +1,10 @@
-import { reactive, ref } from 'vue';
+import { reactive, ref, watch } from 'vue';
 import { addToast, removeToast } from './toast';
 import { PARTNAMES } from './data';
+import { onFilterChange } from './calc';
 
-let filterId = 0;
+let filterId = 99;
+const filterListKey = 'wggcalcFilterList';
 
 export type FilterType = 'string' | 'number' | 'stringarr' | 'numberrange' | 'sort';
 
@@ -20,22 +22,39 @@ export interface FilterItem {
   filterType: FilterType;
   validStrings?: string[]; // only on filterType === 'string'
   options?: string[];
+  required?: boolean;
   writeable: {
     selectedOption?: string;
     value: string[] | number[];
   };
 }
 
-export const categoryStrings = ['AR', 'SMG', 'Sniper', 'BR', 'LMG', 'Shotgun', 'Sidearm'];
+export const categoryStrings = ['AR', 'SMG', 'Sniper', 'BR', 'LMG', 'Shotgun', 'Sidearm', 'Weird'];
 
 export const filterAndSortStrings = [
-  'TTK', 'Damage Start', 'Damage End', 'Fire Rate', 'Pellets', 'Spread Hip', 'Spread Aim', 'Recoil Hip',
-  'Recoil Aim', 'Health', 'Range Stud Start', 'Range Stud End',
-  'Detection Radius', 'Time To Aim', 'Burst', 'Speed', 'Magazine Size', 'Reload Time', 'DPS',
+  'TTK',
+  'Damage Start',
+  'Damage End',
+  'Fire Rate',
+  'Pellets',
+  'Spread Hip',
+  'Spread Aim',
+  'Recoil Hip',
+  'Recoil Aim',
+  'Health',
+  'Range Stud Start',
+  'Range Stud End',
+  'Detection Radius',
+  'Time To Aim',
+  'Burst',
+  'Speed',
+  'Magazine Size',
+  'Reload Time',
+  'DPS',
 ];
 
-export const numberRangeOptions = ['min', 'max', 'from']
-export const sortTypeOptions = ['highest first', 'lowest first']
+export const numberRangeOptions = ['min', 'max', 'from'];
+export const sortTypeOptions = ['highest first', 'lowest first'];
 
 export const filterList: Filter[] = [
   { title: 'Categories', filterType: 'stringarr', required: true, validStrings: categoryStrings },
@@ -58,11 +77,30 @@ for (const filter of filterAndSortStrings) {
   filterList.push({
     title: filter,
     filterType: 'numberrange',
-    options: numberRangeOptions 
+    options: numberRangeOptions,
   });
 }
 
-export const currentFilters = reactive<{ list: FilterItem[] }>({ list: [] });
+// TODO: For now this is good enough for session storage. However when implementing in localstorage it might be a good idea to do a more complex parser.
+const savedData = sessionStorage.getItem(filterListKey);
+const startingFilters = savedData ? JSON.parse(savedData) : {
+  list: [
+    { title: 'Categories', filterType: 'stringarr', required: true, validStrings: categoryStrings, writeable: { value: ["AR", "SMG", "LMG"] } },
+    { title: 'Sort Type', filterType: 'sort', options: sortTypeOptions, required: true, validStrings: filterAndSortStrings, writeable: { selectedOption: "lowest first", value: ["TTK"] } },
+    { title: 'Total Results', filterType: 'number', required: true, writeable: { value: [10] } },
+  ]
+};
+
+export const currentFilters = reactive<{ list: FilterItem[] }>(startingFilters);
+
+watch(
+  currentFilters,
+  (newState) => {
+    sessionStorage.setItem(filterListKey, JSON.stringify(newState));
+    onFilterChange();
+  },
+  { deep: true } // Crucial: This watches nested property changes in the list
+);
 
 export function addFilter(selectedFilterToAdd: Filter) {
   // check if filter already exists
@@ -75,7 +113,7 @@ export function addFilter(selectedFilterToAdd: Filter) {
     id: filterId++,
     writeable: {
       selectedOption: selectedFilterToAdd.options?.[0] || undefined, // Funky ahh syntax over here
-      value: selectedFilterToAdd.filterType === 'number' ? [0, 0] : []
+      value: [],
     },
     ...selectedFilterToAdd,
   });

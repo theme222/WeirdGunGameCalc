@@ -20,6 +20,7 @@ const props = defineProps({
   inputValidator: Function, // returns boolean
   removeCaller: Function,
   filterType: String,
+  required: Boolean,
   options: {
     type: Array,
     default: () => [],
@@ -34,7 +35,10 @@ const model = defineModel();
 //     value: string[] | number[];
 // }
 
-if (props.filterType === 'stringarr') {
+if (model.value.value.size != 0) {
+  // pass
+}
+else if (props.filterType === 'stringarr') {
   model.value.value = [];
 } else if (['string', 'number', 'sorting'].includes(props.filterType)) {
   model.value.value = [null];
@@ -43,7 +47,6 @@ if (props.filterType === 'stringarr') {
 }
 
 function updateSuggestions(word) {
-  console.log(props.validStrings);
   const result = stringSearch(props.validStrings, word, 5);
   suggestions.value = result.filter((item) => item.dist > 0).map((item) => item.value);
 }
@@ -75,14 +78,14 @@ function removeInputFromList(index) {
 
 <template>
   <div
-    class="w-full px-2 bg-base-100 flex justify-between items-center h-12 outline rounded-md"
+    class="w-full px-2 bg-base-100 flex justify-center items-center h-12 outline rounded-md gap-5"
     v-bind:class="[`text-${color}`, `outline-${color}`]"
   >
-    <h3 class="text-lg">{{ title }}</h3>
+    <h3 class="text-lg text-nowrap shrink-0">{{ title }}</h3>
 
-    <TransitionGroup tag="div" name="list" class="flex justify-end items-center gap-2">
+    <TransitionGroup tag="div" name="list" class="flex flex-1 min-w-0">
       <!-- CURRENTLY REMOVING -->
-      <div v-if="currentlyRemoving">
+      <div v-if="currentlyRemoving && !required" class="flex justify-end min-w-0 w-full">
         <button class="btn btn-sm btn-error" @click="removeFilter(id)">
           <TrashIcon class="size-4" />
           Remove
@@ -91,13 +94,14 @@ function removeInputFromList(index) {
       <!-- CURRENTLY REMOVING -->
 
       <!-- STRING FILTER -->
-      <div v-else-if="filterType === 'string'" class="dropdown dropdown-end">
+      <div v-else-if="filterType === 'string'" class="dropdown dropdown-end w-full min-w-0 flex justify-end">
         <input
           type="text"
           class="input"
           :class="[`input-${color}`]"
           placeholder="None"
           @input="handleInputChange"
+          @keyup.enter="model.value[0] = suggestions[0]"
           v-model="model.value[0]"
         />
         <SuggestionBox
@@ -109,34 +113,40 @@ function removeInputFromList(index) {
       <!-- STRING FILTER -->
 
       <!-- NUMBER FILTER -->
-      <div v-else-if="filterType === 'number'">
+      <div v-else-if="filterType === 'number'" class="w-full min-w-0 flex justify-end">
         <input
           type="number"
-          class="input"
+          class="input w-fit"
           :class="[`input-${color}`]"
           placeholder="None"
           @input="handleInputChange"
           v-model="model.value[0]"
+          step="1"
+          min="1"
         />
       </div>
       <!-- NUMBER FILTER -->
 
       <!-- STRINGARR FILTER -->
-      <div v-else-if="filterType === 'stringarr'" class="flex justify-end items-center gap-2">
-        <button
-          v-for="(str, index) in model.value"
-          class="btn btn-ghost"
-          @click="removeInputFromList(index)"
-        >
-          {{ str }}
-        </button>
-        <div class="dropdown dropdown-end">
+      <div v-else-if="filterType === 'stringarr'" class="flex justify-end items-center gap-2 w-full min-w-0">
+        <div class="overflow-x-auto flex items-center min-w-0 flex-1">
+          <button
+            v-for="(str, index) in model.value"
+            class="btn btn-ghost shrink-0"
+            :class="{ 'ml-auto': index === 0 }"
+            @click="removeInputFromList(index)"
+          >
+            {{ str }}
+          </button>
+        </div>
+        <div class="dropdown dropdown-end shrink-0">
           <input
             type="text"
             class="input w-40"
             :class="[`input-${color}`]"
             placeholder="None"
             @input="handleInputChange"
+            @keyup.enter="tempInput = suggestions[0]; addInputToList()"
             v-model="tempInput"
           />
           <SuggestionBox
@@ -145,30 +155,31 @@ function removeInputFromList(index) {
             :updateSuggestions="updateSuggestions"
           />
         </div>
-        <button @click="addInputToList" class="btn btn-ghost btn-sm btn-circle">
+        <button @click="addInputToList" class="btn btn-ghost btn-sm btn-circle shrink-0">
           <PlusCircleIcon class="size-6" />
         </button>
       </div>
       <!-- STRINGARR FILTER -->
 
       <!-- NUMBER RANGE FILTER -->
-      <div v-else-if="filterType === 'numberrange'" class="flex justify-end items-center gap-2">
+      <div v-else-if="filterType === 'numberrange'" class="flex justify-end items-center gap-2 min-w-0 w-full">
         <select class="select max-w-20 mr-4" v-model="model.selectedOption">
           <option v-for="opt in options" :key="opt">{{ opt }}</option>
         </select>
-        <input class="input input-bordered max-w-20" v-model="model.value[0]" type="number" />
+        <input class="input input-bordered max-w-20" v-model="model.value[0]" type="number" step="0.1" />
         <p v-if="model.selectedOption === 'from'">-</p>
         <input
           v-if="model.selectedOption === 'from'"
           class="input input-bordered max-w-20"
           v-model="model.value[1]"
           type="number"
+          step="0.1"
         />
       </div>
       <!-- NUMBER RANGE FILTER -->
 
       <!-- SORT FILTER -->
-      <div v-else-if="filterType === 'sort'" class="flex justify-end items-center gap-2">
+      <div v-else-if="filterType === 'sort'" class="flex justify-end items-center gap-2 w-full min-w-0">
         <select class="select max-w-35 mr-4" v-model="model.selectedOption">
           <option v-for="opt in options" :key="opt">{{ opt }}</option>
         </select>
@@ -179,6 +190,7 @@ function removeInputFromList(index) {
             :class="[`input-${color}`]"
             placeholder="None"
             @input="handleInputChange"
+            @keyup.enter="model.value[0] = suggestions[0]"
             v-model="model.value[0]"
           />
           <SuggestionBox

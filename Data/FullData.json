@@ -6,13 +6,13 @@
         "Name": "M-16",
         "Category": "AR",
         "Range": 8,
-        "Recoil": -15
+        "Recoil": -18
       },
       {
         "Price_Type": "Free",
         "Name": "AKM",
         "Category": "AR",
-        "Damage": 7,
+        "Damage": 7.5,
         "Detection_Radius": 5,
         "Recoil": 20
       },
@@ -20,7 +20,7 @@
         "Price_Type": "Coin",
         "Name": "C36C",
         "Category": "AR",
-        "Damage": 4.5,
+        "Damage": 5.5,
         "Reload_Speed": -10
       },
       {
@@ -63,8 +63,8 @@
         "Price_Type": "Coin",
         "Name": "Scar L",
         "Category": "AR",
-        "Damage": 4.5,
-        "Recoil": -10
+        "Damage": 5.5,
+        "Recoil": -16
       },
       {
         "Price_Type": "Coin",
@@ -218,6 +218,15 @@
         "Damage": 11,
         "Detection_Radius": -4,
         "Fire_Rate": -4
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "Lancer",
+        "Category": "AR",
+        "Damage": 9,
+        "Fire_Rate": -4,
+        "Health": 4,
+        "Spread": 23
       },
       {
         "Price_Type": "Coin",
@@ -419,7 +428,7 @@
         "Price_Type": "Coin",
         "Name": "UNP-40",
         "Category": "SMG",
-        "Damage": 12,
+        "Damage": 16,
         "Fire_Rate": -5,
         "Movement_Speed": 3.8,
         "Recoil": 15,
@@ -554,6 +563,14 @@
         "Spread": 18
       },
       {
+        "Price_Type": "Unknown",
+        "Name": "SMO3",
+        "Category": "SMG",
+        "Damage": 12,
+        "Movement_Speed": 2.5,
+        "Reload_Speed": 11
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M870",
         "Category": "Shotgun",
@@ -584,6 +601,7 @@
         "Name": "M870 Breacher",
         "Category": "Shotgun",
         "Damage": 20,
+        "Fire_Rate": -11,
         "Movement_Speed": 3,
         "Range": -10,
         "Spread": 30
@@ -958,7 +976,7 @@
         "Category": "Weird",
         "Damage": -3,
         "Movement_Speed": 2.5,
-        "Range": 13,
+        "Range": 3,
         "Recoil": -28
       },
       {
@@ -1294,6 +1312,14 @@
         "Damage": 15,
         "Pellets": 45,
         "Range": -8
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "Five-7",
+        "Category": "Sidearm",
+        "Fire_Rate": -10,
+        "Range": 10,
+        "Reload_Speed": 9
       }
     ],
     "Magazines": [
@@ -1529,6 +1555,18 @@
         "Reload_Time": 3.5,
         "Damage": 11,
         "Recoil": 29
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "Lancer",
+        "Category": "AR",
+        "Magazine_Size": 60,
+        "Reload_Time": 4,
+        "Damage": 3,
+        "Fire_Rate": 3,
+        "Health": 10,
+        "Range": -11,
+        "Spread": 26
       },
       {
         "Price_Type": "Coin",
@@ -1907,6 +1945,17 @@
         "Fire_Rate": 6.5,
         "Range": 4,
         "Spread": 10
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "SMO3",
+        "Category": "SMG",
+        "Magazine_Size": 30,
+        "Reload_Time": 1.4,
+        "Damage": 5,
+        "Movement_Speed": 3,
+        "Range": -3,
+        "Spread": 22
       },
       {
         "Price_Type": "Coin",
@@ -2702,6 +2751,17 @@
         "Damage": 24,
         "Fire_Rate": -6,
         "Range": -4.5
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "Five-7",
+        "Category": "Sidearm",
+        "Magazine_Size": 20,
+        "Reload_Time": 2,
+        "Equip_Time": 25,
+        "Fire_Rate": 11,
+        "Range": 9,
+        "Spread": 17
       }
     ],
     "Grips": [
@@ -2876,6 +2936,14 @@
         "Movement_Speed": 5.5,
         "Recoil": -9.5,
         "Reload_Speed": 10
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "Lancer",
+        "Category": "AR",
+        "Fire_Rate": 2,
+        "Health": 3,
+        "Reload_Speed": 9
       },
       {
         "Price_Type": "Season Pass 1",
@@ -3162,6 +3230,16 @@
         "Movement_Speed": 5,
         "Range": -6.5,
         "Spread": 13
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "SMO3",
+        "Category": "SMG",
+        "Health": 5,
+        "Movement_Speed": 4,
+        "Recoil": -12,
+        "Reload_Speed": 7,
+        "Spread": 22
       },
       {
         "Price_Type": "Coin",
@@ -3685,6 +3763,13 @@
         "Fire_Rate": 6,
         "Movement_Speed": 3,
         "Range": -1.5
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "Five-7",
+        "Category": "Sidearm",
+        "Fire_Rate": 4,
+        "Recoil": 34
       }
     ],
     "Stocks": [
@@ -3767,7 +3852,7 @@
         "Price_Type": "Coin",
         "Name": "The Chief",
         "Category": "AR",
-        "Recoil": 10,
+        "Recoil": 17,
         "Reload_Speed": -10,
         "Spread": -20
       },
@@ -3784,7 +3869,7 @@
         "Name": "Broza",
         "Category": "AR",
         "Recoil": 22,
-        "Reload_Speed": -5,
+        "Reload_Speed": -14,
         "Spread": -12
       },
       {
@@ -3860,6 +3945,14 @@
         "Spread": 14
       },
       {
+        "Price_Type": "Unknown",
+        "Name": "Lancer",
+        "Category": "AR",
+        "Health": 7,
+        "Movement_Speed": -7,
+        "Recoil": -9
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M40",
         "Category": "Sniper",
@@ -3877,7 +3970,7 @@
         "Price_Type": "Coin",
         "Name": "AWM",
         "Category": "Sniper",
-        "Recoil": 10,
+        "Recoil": 22,
         "Reload_Speed": -15,
         "Spread": -35
       },
@@ -4152,6 +4245,14 @@
         "Reload_Speed": -20
       },
       {
+        "Price_Type": "Unknown",
+        "Name": "SMO3",
+        "Category": "SMG",
+        "Damage": 3.5,
+        "Movement_Speed": 4,
+        "Recoil": 32
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M870",
         "Category": "Shotgun",
@@ -4171,8 +4272,8 @@
         "Price_Type": "Coin",
         "Name": "M1897 Trench Shotgun",
         "Category": "Shotgun",
-        "Fire_Rate": 18,
-        "Recoil": 22,
+        "Fire_Rate": 14,
+        "Recoil": 40,
         "Spread": 25
       },
       {
@@ -4593,8 +4694,8 @@
         "Name": "AKM",
         "Category": "AR",
         "Damage": [
-          19.5,
-          17.1
+          20.1,
+          17.6
         ],
         "Dropoff_Studs": [
           140,
@@ -4677,6 +4778,7 @@
         "ADS_Spread": 0.45,
         "Time_To_Aim": 0.5,
         "Detection_Radius": 95,
+        "Suppression": 0,
         "Equip_Time": 0.7,
         "Recoil_Hip_Horizontal": [
           -10,
@@ -4846,8 +4948,8 @@
         "Name": "Scar L",
         "Category": "AR",
         "Damage": [
-          17,
-          11.9
+          18.2,
+          12.7
         ],
         "Dropoff_Studs": [
           170,
@@ -4883,7 +4985,7 @@
         "Category": "AR",
         "Damage": [
           16.2,
-          13.4
+          13.6
         ],
         "Dropoff_Studs": [
           185,
@@ -5108,7 +5210,7 @@
         ],
         "Fire_Rate": 600,
         "Hipfire_Spread": 4,
-        "ADS_Spread": 1,
+        "ADS_Spread": 0.75,
         "Time_To_Aim": 0.5,
         "Detection_Radius": 200,
         "Suppression": 0.3,
@@ -5348,6 +5450,42 @@
         "Recoil_Aim_Vertical": [
           72,
           96
+        ]
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "Lancer",
+        "Category": "AR",
+        "Damage": [
+          16.2,
+          13.6
+        ],
+        "Dropoff_Studs": [
+          185,
+          325
+        ],
+        "Fire_Rate": 666,
+        "Hipfire_Spread": 4.5,
+        "ADS_Spread": 0.175,
+        "Time_To_Aim": 0.5,
+        "Detection_Radius": 145,
+        "Suppression": 0.3,
+        "Equip_Time": 0.7,
+        "Recoil_Hip_Horizontal": [
+          -14,
+          14
+        ],
+        "Recoil_Hip_Vertical": [
+          64,
+          87
+        ],
+        "Recoil_Aim_Horizontal": [
+          -7.7,
+          7.7
+        ],
+        "Recoil_Aim_Vertical": [
+          35.2,
+          47.9
         ]
       },
       {
@@ -5805,7 +5943,7 @@
           200,
           430
         ],
-        "Fire_Rate": 100,
+        "Fire_Rate": 90,
         "Hipfire_Spread": 12,
         "ADS_Spread": 0.3,
         "Time_To_Aim": 1.3,
@@ -5848,6 +5986,7 @@
         "Time_To_Aim": 0.3,
         "Detection_Radius": 70,
         "Movement_Speed_Modifier": 4.4,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -20,
@@ -5884,6 +6023,7 @@
         "Time_To_Aim": 0.35,
         "Detection_Radius": 80,
         "Movement_Speed_Modifier": 6,
+        "Suppression": 0,
         "Health": -8,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
@@ -5921,6 +6061,7 @@
         "Time_To_Aim": 0.35,
         "Detection_Radius": 90,
         "Movement_Speed_Modifier": 3.8,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -10,
@@ -5957,6 +6098,7 @@
         "Time_To_Aim": 0.3,
         "Detection_Radius": 75,
         "Movement_Speed_Modifier": 4.6,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -20,
@@ -5993,6 +6135,7 @@
         "Time_To_Aim": 0.35,
         "Detection_Radius": 90,
         "Movement_Speed_Modifier": 3.2,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -15,
@@ -6028,6 +6171,7 @@
         "ADS_Spread": 0.65,
         "Time_To_Aim": 0.3,
         "Detection_Radius": 90,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -21,
@@ -6064,6 +6208,7 @@
         "Time_To_Aim": 0.35,
         "Detection_Radius": 97,
         "Movement_Speed_Modifier": 3.8,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -20,
@@ -6100,6 +6245,7 @@
         "Time_To_Aim": 0.15,
         "Detection_Radius": 40,
         "Movement_Speed_Modifier": 9,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -25,
@@ -6135,6 +6281,7 @@
         "ADS_Spread": 0.6,
         "Time_To_Aim": 0.5,
         "Detection_Radius": 70,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -15,
@@ -6171,6 +6318,7 @@
         "Time_To_Aim": 0.35,
         "Detection_Radius": 110,
         "Movement_Speed_Modifier": 4.1,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -7.5,
@@ -6206,6 +6354,7 @@
         "ADS_Spread": 0.85,
         "Time_To_Aim": 0.8,
         "Detection_Radius": 80,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -50,
@@ -6242,6 +6391,7 @@
         "Time_To_Aim": 0.3,
         "Detection_Radius": 40,
         "Movement_Speed_Modifier": 8.5,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -5,
@@ -6278,6 +6428,7 @@
         "Time_To_Aim": 0.3,
         "Detection_Radius": 95,
         "Movement_Speed_Modifier": 2.3,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -25,
@@ -6314,6 +6465,7 @@
         "Time_To_Aim": 0.35,
         "Detection_Radius": 90,
         "Movement_Speed_Modifier": 3.3,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -5,
@@ -6350,6 +6502,8 @@
         "Time_To_Aim": 0.35,
         "Detection_Radius": 120,
         "Movement_Speed_Modifier": 3.5,
+        "Suppression": 0,
+        "Equip_Time": 0.3,
         "Recoil_Hip_Horizontal": [
           -8,
           8
@@ -6385,6 +6539,7 @@
         "Time_To_Aim": 0.35,
         "Detection_Radius": 60,
         "Movement_Speed_Modifier": 2.5,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -15,
@@ -6421,6 +6576,7 @@
         "Time_To_Aim": 0.25,
         "Detection_Radius": 85,
         "Movement_Speed_Modifier": 3.5,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -12,
@@ -6529,6 +6685,7 @@
         "ADS_Spread": 1.2,
         "Time_To_Aim": 0.35,
         "Detection_Radius": 100,
+        "Suppression": 0,
         "Equip_Time": 0.4,
         "Recoil_Hip_Horizontal": [
           -16,
@@ -6545,6 +6702,43 @@
         "Recoil_Aim_Vertical": [
           21,
           27.8
+        ]
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "SMO3",
+        "Category": "SMG",
+        "Damage": [
+          22,
+          13.6
+        ],
+        "Dropoff_Studs": [
+          112,
+          158
+        ],
+        "Fire_Rate": 511,
+        "Hipfire_Spread": 1.7,
+        "ADS_Spread": 0.45,
+        "Time_To_Aim": 0.5,
+        "Detection_Radius": 96,
+        "Movement_Speed_Modifier": 3.5,
+        "Suppression": 0,
+        "Equip_Time": 0.2,
+        "Recoil_Hip_Horizontal": [
+          -5,
+          5
+        ],
+        "Recoil_Hip_Vertical": [
+          10,
+          30
+        ],
+        "Recoil_Aim_Horizontal": [
+          -3.2,
+          3.2
+        ],
+        "Recoil_Aim_Vertical": [
+          6.5,
+          19.5
         ]
       },
       {
@@ -6831,6 +7025,7 @@
         "Detection_Radius": 250,
         "Burst": 2,
         "Suppression": 0.5,
+        "Equip_Time": 0.3,
         "Recoil_Hip_Horizontal": [
           -25,
           25
@@ -7002,10 +7197,10 @@
         "Price_Type": "Season Pass 1",
         "Name": "Pancake Hammer",
         "Category": "Shotgun",
-        "Pellets": 2,
+        "Pellets": 10,
         "Damage": [
           90,
-          24
+          20
         ],
         "Dropoff_Studs": [
           55,
@@ -7025,6 +7220,14 @@
         "Recoil_Hip_Vertical": [
           82,
           90
+        ],
+        "Recoil_Aim_Horizontal": [
+          -8,
+          8
+        ],
+        "Recoil_Aim_Vertical": [
+          65.6,
+          72
         ]
       },
       {
@@ -7351,6 +7554,7 @@
         "Movement_Speed_Modifier": 7.5,
         "Suppression": 0.3,
         "Health": -7.5,
+        "Equip_Time": 0.3,
         "Recoil_Hip_Horizontal": [
           -9,
           9
@@ -7827,7 +8031,7 @@
         ],
         "Fire_Rate": 185,
         "Hipfire_Spread": 10,
-        "ADS_Spread": 0.5,
+        "ADS_Spread": 0.375,
         "Time_To_Aim": 0.5,
         "Detection_Radius": 220,
         "Suppression": 1,
@@ -8166,6 +8370,7 @@
         "Time_To_Aim": 0.3,
         "Detection_Radius": 70,
         "Movement_Speed_Modifier": 4.4,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -2,
@@ -8201,6 +8406,7 @@
         "ADS_Spread": 0.45,
         "Time_To_Aim": 0.35,
         "Detection_Radius": 40,
+        "Suppression": 0,
         "Equip_Time": 0.2,
         "Recoil_Hip_Horizontal": [
           -4,
@@ -8237,6 +8443,7 @@
         "Time_To_Aim": 0.2,
         "Detection_Radius": 5,
         "Movement_Speed_Modifier": 10,
+        "Suppression": 0,
         "Equip_Time": 0.1,
         "Recoil_Hip_Horizontal": [
           -1,
@@ -8273,6 +8480,7 @@
         "Time_To_Aim": 0.3,
         "Detection_Radius": 60,
         "Movement_Speed_Modifier": 4.4,
+        "Suppression": 0,
         "Equip_Time": 0.2,
         "Recoil_Hip_Horizontal": [
           -6,
@@ -8309,6 +8517,7 @@
         "Time_To_Aim": 0.3,
         "Detection_Radius": 60,
         "Movement_Speed_Modifier": 3,
+        "Suppression": 0,
         "Equip_Time": 0.3,
         "Recoil_Hip_Horizontal": [
           -5,
@@ -8345,6 +8554,7 @@
         "Time_To_Aim": 0.3,
         "Detection_Radius": 35,
         "Movement_Speed_Modifier": 5.5,
+        "Suppression": 0,
         "Equip_Time": 0.3,
         "Recoil_Hip_Horizontal": [
           -6,
@@ -8380,6 +8590,7 @@
         "ADS_Spread": 0.45,
         "Time_To_Aim": 0.3,
         "Detection_Radius": 90,
+        "Suppression": 0,
         "Equip_Time": 0.7,
         "Recoil_Hip_Horizontal": [
           -22,
@@ -8454,6 +8665,7 @@
         "Time_To_Aim": 0.4,
         "Detection_Radius": 90,
         "Movement_Speed_Modifier": 4.4,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -3,
@@ -8490,6 +8702,7 @@
         "Time_To_Aim": 0.3,
         "Detection_Radius": 60,
         "Movement_Speed_Modifier": 9,
+        "Suppression": 0,
         "Health": -10,
         "Equip_Time": 0.7,
         "Recoil_Hip_Horizontal": [
@@ -8526,6 +8739,7 @@
         "ADS_Spread": 0.32,
         "Time_To_Aim": 0.4,
         "Detection_Radius": 90,
+        "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
           -4,
@@ -8562,6 +8776,7 @@
         "Time_To_Aim": 0.4,
         "Detection_Radius": 120,
         "Movement_Speed_Modifier": 2.2,
+        "Suppression": 0,
         "Equip_Time": 0.7,
         "Recoil_Hip_Horizontal": [
           -20,
@@ -8633,6 +8848,7 @@
         "ADS_Spread": 0.35,
         "Time_To_Aim": 0.5,
         "Detection_Radius": 200,
+        "Suppression": 0,
         "Equip_Time": 0.7,
         "Recoil_Hip_Horizontal": [
           -20,
@@ -8668,6 +8884,7 @@
         "ADS_Spread": 0.25,
         "Time_To_Aim": 0.5,
         "Detection_Radius": 115,
+        "Suppression": 0,
         "Equip_Time": 0.7,
         "Recoil_Hip_Horizontal": [
           -15,
@@ -8703,6 +8920,7 @@
         "ADS_Spread": 0.2,
         "Time_To_Aim": 0.5,
         "Detection_Radius": 150,
+        "Suppression": 0,
         "Equip_Time": 0.7,
         "Recoil_Hip_Horizontal": [
           -18,
@@ -8739,6 +8957,7 @@
         "Time_To_Aim": 0.3,
         "Detection_Radius": 40,
         "Burst": 4,
+        "Suppression": 0,
         "Equip_Time": 0.2,
         "Recoil_Hip_Horizontal": [
           -2,
@@ -8755,6 +8974,41 @@
         "Recoil_Aim_Vertical": [
           1.5,
           2
+        ]
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "Five-7",
+        "Category": "Sidearm",
+        "Damage": [
+          16.5,
+          12.4
+        ],
+        "Dropoff_Studs": [
+          45,
+          85
+        ],
+        "Fire_Rate": 550,
+        "Hipfire_Spread": 0.55,
+        "ADS_Spread": 0.25,
+        "Time_To_Aim": 0.25,
+        "Detection_Radius": 60,
+        "Equip_Time": 0.8,
+        "Recoil_Hip_Horizontal": [
+          -8,
+          8
+        ],
+        "Recoil_Hip_Vertical": [
+          5,
+          9
+        ],
+        "Recoil_Aim_Horizontal": [
+          -2.8,
+          2.8
+        ],
+        "Recoil_Aim_Vertical": [
+          1.7,
+          3.1
         ]
       }
     ]

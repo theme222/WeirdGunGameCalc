@@ -5,6 +5,7 @@ import { SquaresPlusIcon } from '@heroicons/vue/24/solid';
 import { TrashIcon as OutlineTrashIcon } from '@heroicons/vue/24/outline';
 import { addFilter, removeFilter, filterList, currentFilters } from '@/libs/filter';
 import { PARTCORELIST } from '@/libs/data';
+import { runCalc, runOnFilterChange } from '@/libs/calc';
 
 const selectedFilterToAdd = ref(filterList[0]);
 const currentlyRemoving = ref(false);
@@ -13,18 +14,13 @@ function toggleRemoveFilter() {
   currentlyRemoving.value = !currentlyRemoving.value;
 }
 
-function submitQuery() {
-  console.log(PARTCORELIST);
-  
-}
-
 </script>
 
 <template>
   <main class="grid grid-cols-1 gap-5 w-full">
     
     <div class="flex w-full justify-center items-center">
-      <div class="bg-base-200 border rounded-md w-full max-w-200 min-h-80 mx-10">
+      <div class="bg-base-200 border rounded-md w-full max-w-150 min-h-80 mx-10">
         <div class="flex items-center justify-between">
           <h2 class="font-semibold ml-3 my-5 text-2xl">Filter</h2>
           <div class="flex justify-center items-center mr-3 gap-8">
@@ -64,6 +60,7 @@ function submitQuery() {
               :removeCaller="removeFilter"
               :validStrings="filter.validStrings"
               :filterType="filter.filterType"
+              :required="filter.required || false"
               :options="filter.options"
               v-model="filter.writeable"
             />
@@ -72,9 +69,14 @@ function submitQuery() {
       </div>
     </div>
     
-    <div class="w-full flex justify-center items-center">
-      <button class="btn btn-primary" @click="submitQuery">Submit</button>
+    <div class="w-full flex justify-center items-center gap-5">
+      <button class="btn btn-primary" @click="runCalc">Submit</button>
+      <label for="updateOnChange" class="flex justify-center items-center gap-3">
+        <input type="checkbox" id="updateOnChange" name="updateOnChange" v-model="runOnFilterChange" class="checkbox"/>
+        <span>Auto Update On Change</span>
+      </label>
     </div>
+    
   </main>
 </template>
 
