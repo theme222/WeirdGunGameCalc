@@ -3,35 +3,35 @@ Current top 10 guns are:
 [ Barrel: Arisaka, Magazine: M40, Grip: Arisaka, Stock: AWM, Core: Barret .50 ]
 damage: 82.7905 - 56.2975
 dropoffStuds: 240 - 516
-fireRate: 100
+fireRate: 90
 adsSpread: 0.148322
 hipfireSpread: 5.93286
 reloadTime: 3.366
 magazineSize: 10
 health: -12
-recoilHipVertical: 170.775 - 227.7
-recoilAimVertical: 145.159 - 193.545
+recoilHipVertical: 189.405 - 252.54
+recoilAimVertical: 160.994 - 214.659
 movementSpeed: 3
-TTK: 0.6 Seconds
+TTK: 0.666667 Seconds
 
 [ Barrel: Arisaka, Magazine: Type 99, Grip: Arisaka, Stock: AWM, Core: Barret .50 ]
 damage: 75.7143 - 47.3669
 dropoffStuds: 212.8 - 457.52
-fireRate: 100
+fireRate: 90
 adsSpread: 0.144013
 hipfireSpread: 5.76051
 reloadTime: 2.244
 magazineSize: 30
 health: -12
-recoilHipVertical: 138.259 - 184.346
-recoilAimVertical: 117.521 - 156.694
+recoilHipVertical: 153.342 - 204.456
+recoilAimVertical: 130.341 - 173.788
 movementSpeed: 2
-TTK: 0.6 Seconds
+TTK: 0.666667 Seconds
 
 [ Barrel: Second Amendment, Magazine: M40, Grip: Arisaka, Stock: Arisaka, Core: Barret .50 ]
 damage: 92.545 - 59.0807
 dropoffStuds: 208.8 - 448.92
-fireRate: 88
+fireRate: 79.2
 adsSpread: 0.148322
 hipfireSpread: 5.93286
 reloadTime: 4.725
@@ -40,20 +40,7 @@ health: -14
 recoilHipVertical: 213.75 - 285
 recoilAimVertical: 181.688 - 242.25
 movementSpeed: 2
-TTK: 0.681818 Seconds
-
-[ Barrel: Spray Can, Magazine: Paintball, Grip: AWM, Stock: AWM, Core: Lee Enfield ]
-damage: 50.3879 - 39.2018
-dropoffStuds: 267 - 400.5
-fireRate: 73.75
-adsSpread: 0.144052
-hipfireSpread: 5.76208
-reloadTime: 5.9024
-magazineSize: 70
-recoilHipVertical: 106.92 - 142.56
-recoilAimVertical: 42.768 - 57.024
-movementSpeed: 2.5
-TTK: 0.813559 Seconds
+TTK: 0.757576 Seconds
 
 [ Barrel: Spray Can, Magazine: Paintball, Grip: Snake Sniper, Stock: AWM, Core: Lee Enfield ]
 damage: 50.3879 - 40.3204
@@ -63,9 +50,22 @@ adsSpread: 0.149932
 hipfireSpread: 5.99726
 reloadTime: 5.27
 magazineSize: 70
-recoilHipVertical: 120.78 - 161.04
-recoilAimVertical: 48.312 - 64.416
+recoilHipVertical: 133.956 - 178.608
+recoilAimVertical: 53.5824 - 71.4432
 movementSpeed: 1
+TTK: 0.813559 Seconds
+
+[ Barrel: Spray Can, Magazine: Paintball, Grip: AWM, Stock: AWM, Core: Lee Enfield ]
+damage: 50.3879 - 39.2018
+dropoffStuds: 267 - 400.5
+fireRate: 73.75
+adsSpread: 0.144052
+hipfireSpread: 5.76208
+reloadTime: 5.9024
+magazineSize: 70
+recoilHipVertical: 118.584 - 158.112
+recoilAimVertical: 47.4336 - 63.2448
+movementSpeed: 2.5
 TTK: 0.813559 Seconds
 
 [ Barrel: Spray Can, Magazine: Graphics Card, Grip: MG42, Stock: AWM, Core: Lee Enfield ]
@@ -76,8 +76,8 @@ adsSpread: 0.149763
 hipfireSpread: 5.99052
 reloadTime: 5.1
 magazineSize: 50
-recoilHipVertical: 78.5169 - 104.689
-recoilAimVertical: 31.4068 - 41.8757
+recoilHipVertical: 87.0824 - 116.11
+recoilAimVertical: 34.833 - 46.4439
 TTK: 0.815994 Seconds
 
 [ Barrel: Spray Can, Magazine: Graphics Card, Grip: Controller, Stock: AWM, Core: Lee Enfield ]
@@ -88,8 +88,8 @@ adsSpread: 0.147103
 hipfireSpread: 5.88414
 reloadTime: 5.1
 magazineSize: 50
-recoilHipVertical: 86.9022 - 115.87
-recoilAimVertical: 34.7609 - 46.3478
+recoilHipVertical: 96.3824 - 128.51
+recoilAimVertical: 38.553 - 51.404
 movementSpeed: 0.5
 TTK: 0.817578 Seconds
 
@@ -101,8 +101,8 @@ adsSpread: 0.147103
 hipfireSpread: 5.88414
 reloadTime: 5.1
 magazineSize: 50
-recoilHipVertical: 71.6562 - 95.5416
-recoilAimVertical: 28.6625 - 38.2166
+recoilHipVertical: 79.4732 - 105.964
+recoilAimVertical: 31.7893 - 42.3857
 movementSpeed: 2.5
 TTK: 0.817578 Seconds
 
@@ -114,8 +114,8 @@ adsSpread: 0.142463
 hipfireSpread: 5.69852
 reloadTime: 3.42125
 magazineSize: 20
-recoilHipVertical: 115.83 - 154.44
-recoilAimVertical: 46.332 - 61.776
+recoilHipVertical: 128.466 - 171.288
+recoilAimVertical: 51.3864 - 68.5152
 movementSpeed: 0.5
 TTK: 0.821833 Seconds
 
@@ -127,8 +127,8 @@ adsSpread: 0.149763
 hipfireSpread: 5.99052
 reloadTime: 1.7
 magazineSize: 30
-recoilHipVertical: 137.66 - 183.546
-recoilAimVertical: 55.0638 - 73.4184
+recoilHipVertical: 152.677 - 203.569
+recoilAimVertical: 61.0708 - 81.4277
 movementSpeed: 2.64
 TTK: 0.830565 Seconds
 

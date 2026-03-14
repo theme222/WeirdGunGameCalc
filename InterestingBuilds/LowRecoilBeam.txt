@@ -1,75 +1,5 @@
 ./wggcalc -o InterestingBuilds/LowRecoilBeam.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 45 --spreadAimMax 0.4 --rangeMin 150 --speedMin 0 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
-[ Barrel: Mustard, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.3942 - 10.4774
-dropoffStuds: 180 - 385
-fireRate: 1540.19
-adsSpread: 0.360663
-hipfireSpread: 10.8199
-reloadTime: 6.2
-magazineSize: 70
-health: -7.5
-recoilHipVertical: 17.568 - 19.3248
-recoilAimVertical: 6.1488 - 6.67584
-movementSpeed: 1.5
-TTK: 0.233737 Seconds
-
-[ Barrel: Mustard, Magazine: Graphics Card, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.685 - 10.3694
-dropoffStuds: 165.6 - 354.2
-fireRate: 1487.98
-adsSpread: 0.305878
-hipfireSpread: 9.17635
-reloadTime: 6
-magazineSize: 50
-health: -7.5
-recoilHipVertical: 13.5274 - 14.8801
-recoilAimVertical: 4.73458 - 5.1404
-movementSpeed: 1.5
-TTK: 0.241938 Seconds
-
-[ Barrel: M870 Breacher, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 17.393 - 12.1869
-dropoffStuds: 162 - 346.5
-fireRate: 1232.16
-adsSpread: 0.334993
-hipfireSpread: 10.0498
-reloadTime: 6.2
-magazineSize: 70
-health: -7.5
-recoilHipVertical: 17.568 - 19.3248
-recoilAimVertical: 6.1488 - 6.67584
-movementSpeed: 3.75
-TTK: 0.243476 Seconds
-
-[ Barrel: M870 MCS, Magazine: Paintball, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 16.7183 - 11.8961
-dropoffStuds: 169.2 - 361.9
-fireRate: 1232.16
-adsSpread: 0.229104
-hipfireSpread: 6.87313
-reloadTime: 6.82
-magazineSize: 70
-health: -7.5
-recoilHipVertical: 17.568 - 19.3248
-recoilAimVertical: 6.1488 - 6.67584
-movementSpeed: 1.5
-TTK: 0.243476 Seconds
-
-[ Barrel: Snake Sniper, Magazine: Graphics Card, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 16.796 - 11.86
-dropoffStuds: 165.6 - 354.2
-fireRate: 1218.96
-adsSpread: 0.262337
-hipfireSpread: 7.87011
-reloadTime: 6.42
-magazineSize: 50
-health: -12.5
-recoilHipVertical: 13.5274 - 14.8801
-recoilAimVertical: 4.73458 - 5.1404
-movementSpeed: 1.5
-TTK: 0.246112 Seconds
-
 [ Barrel: Mustard, Magazine: Paintball, Grip: Lewis, Stock: Roto-Fire, Core: Burton ]
 damage: 14.3942 - 10.2424
 dropoffStuds: 169.2 - 361.9
@@ -84,58 +14,129 @@ recoilAimVertical: 5.04 - 5.472
 movementSpeed: 1
 TTK: 0.246439 Seconds
 
-[ Barrel: DP-27, Magazine: Graphics Card, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 16.8266 - 11.8816
+[ Barrel: Mustard, Magazine: Graphics Card, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 14.685 - 10.3694
 dropoffStuds: 165.6 - 354.2
-fireRate: 1214.2
-adsSpread: 0.240566
-hipfireSpread: 7.21699
+fireRate: 1448.66
+adsSpread: 0.305878
+hipfireSpread: 9.17635
 reloadTime: 6
 magazineSize: 50
 health: -7.5
-recoilHipVertical: 17.1797 - 18.8977
-recoilAimVertical: 6.01291 - 6.5283
-movementSpeed: 0.5
-TTK: 0.247077 Seconds
+recoilHipVertical: 15.5232 - 17.0755
+recoilAimVertical: 5.43312 - 5.89882
+movementSpeed: 1.5
+TTK: 0.248506 Seconds
+
+[ Barrel: Mustard, Magazine: Paintball, Grip: Lewis, Stock: Pancake Hammer, Core: Burton ]
+damage: 14.3942 - 10.2424
+dropoffStuds: 169.2 - 361.9
+fireRate: 1428.24
+adsSpread: 0.288817
+hipfireSpread: 8.66453
+reloadTime: 6.2
+magazineSize: 70
+health: -7.5
+recoilHipVertical: 14.4 - 15.84
+recoilAimVertical: 5.04 - 5.472
+movementSpeed: 3
+TTK: 0.252058 Seconds
+
+[ Barrel: Snake Sniper, Magazine: Graphics Card, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 16.796 - 11.86
+dropoffStuds: 165.6 - 354.2
+fireRate: 1186.74
+adsSpread: 0.262337
+hipfireSpread: 7.87011
+reloadTime: 6.42
+magazineSize: 50
+health: -12.5
+recoilHipVertical: 15.5232 - 17.0755
+recoilAimVertical: 5.43312 - 5.89882
+movementSpeed: 1.5
+TTK: 0.252794 Seconds
+
+[ Barrel: Mustard, Magazine: Paintball, Grip: Lewis, Stock: Kriss Vector, Core: Burton ]
+damage: 14.3942 - 10.2816
+dropoffStuds: 171 - 365.75
+fireRate: 1418.74
+adsSpread: 0.375032
+hipfireSpread: 11.2509
+reloadTime: 6.2
+magazineSize: 70
+health: -7.5
+recoilHipVertical: 12.528 - 13.7808
+recoilAimVertical: 4.3848 - 4.76064
+movementSpeed: 3.645
+TTK: 0.253746 Seconds
+
+[ Barrel: Mustard, Magazine: Graphics Card, Grip: Lewis, Stock: Lee Enfield, Core: Burton ]
+damage: 14.685 - 10.1536
+dropoffStuds: 157.32 - 336.49
+fireRate: 1415.88
+adsSpread: 0.293692
+hipfireSpread: 8.81076
+reloadTime: 6
+magazineSize: 50
+health: -7.5
+recoilHipVertical: 15.5232 - 17.0755
+recoilAimVertical: 5.43312 - 5.89882
+movementSpeed: 1.5
+TTK: 0.254259 Seconds
+
+[ Barrel: Mustard, Magazine: Paintball, Grip: Lewis, Stock: FG-42, Core: Burton ]
+damage: 14.3942 - 10.4774
+dropoffStuds: 180 - 385
+fireRate: 1414.67
+adsSpread: 0.288817
+hipfireSpread: 8.66453
+reloadTime: 6.2
+magazineSize: 70
+health: -7.5
+recoilHipVertical: 16.272 - 17.8992
+recoilAimVertical: 5.6952 - 6.18336
+movementSpeed: 4.05
+TTK: 0.254476 Seconds
+
+[ Barrel: Mustard, Magazine: Graphics Card, Grip: Lewis, Stock: Roto-Fire, Core: Burton ]
+damage: 14.685 - 10.1105
+dropoffStuds: 155.664 - 332.948
+fireRate: 1411.29
+adsSpread: 0.244947
+hipfireSpread: 7.3484
+reloadTime: 6
+magazineSize: 50
+health: -7.5
+recoilHipVertical: 11.088 - 12.1968
+recoilAimVertical: 3.8808 - 4.21344
+movementSpeed: 1
+TTK: 0.255085 Seconds
 
 [ Barrel: Mustard, Magazine: Paintball, Grip: Negev, Stock: M1897 Trench Shotgun, Core: Burton ]
 damage: 14.3942 - 10.4774
 dropoffStuds: 180 - 385
-fireRate: 1446.44
+fireRate: 1408.21
 adsSpread: 0.332314
 hipfireSpread: 9.96941
 reloadTime: 6.2
 magazineSize: 70
 health: -7.5
-recoilHipVertical: 14.03 - 15.433
-recoilAimVertical: 4.9105 - 5.3314
+recoilHipVertical: 16.1 - 17.71
+recoilAimVertical: 5.635 - 6.118
 movementSpeed: 5
-TTK: 0.248886 Seconds
+TTK: 0.255643 Seconds
 
-[ Barrel: Negev, Magazine: Mega Soaker, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.685 - 10.3294
-dropoffStuds: 163.8 - 350.35
-fireRate: 1441
-adsSpread: 0.273222
-hipfireSpread: 8.19667
-reloadTime: 5.4
-magazineSize: 60
-health: -7.5
-recoilHipVertical: 14.7571 - 16.2328
-recoilAimVertical: 5.16499 - 5.60771
-TTK: 0.249827 Seconds
-
-[ Barrel: Mustard, Magazine: Paintball, Grip: M1887, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.3942 - 10.4774
-dropoffStuds: 180 - 385
-fireRate: 1439.75
-adsSpread: 0.363813
-hipfireSpread: 10.9144
-reloadTime: 5.735
+[ Barrel: Mustard, Magazine: Paintball, Grip: M1891, Stock: Spas-12, Core: Burton ]
+damage: 14.3942 - 10.3991
+dropoffStuds: 176.4 - 377.3
+fireRate: 1408.21
+adsSpread: 0.368481
+hipfireSpread: 11.0544
+reloadTime: 7.13
 magazineSize: 70
-health: -3.75
-recoilHipVertical: 12.2 - 13.42
-recoilAimVertical: 4.27 - 4.636
-movementSpeed: 2
-TTK: 0.250044 Seconds
+health: -7.5
+recoilHipVertical: 10 - 11
+recoilAimVertical: 3.5 - 3.8
+movementSpeed: 7.7
+TTK: 0.255643 Seconds
 

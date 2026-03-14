@@ -22,8 +22,8 @@ adsSpread: 0.840934
 hipfireSpread: 2.64293
 reloadTime: 0.4625
 magazineSize: 5
-recoilHipVertical: 41.7582 - 64.0292
-recoilAimVertical: 16.7033 - 25.6117
+recoilHipVertical: 46.3136 - 71.0142
+recoilAimVertical: 18.5255 - 28.4057
 movementSpeed: 0.6
 
 [ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: JSG12, Core: MarrowMaker ]

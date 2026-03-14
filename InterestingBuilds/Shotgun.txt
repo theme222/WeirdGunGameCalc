@@ -28,20 +28,6 @@ recoilHipVertical: 96.876 - 169.533
 recoilAimVertical: 38.7504 - 67.8132
 movementSpeed: 2.62
 
-[ Barrel: M1891, Magazine: BAR, Grip: JSG12, Stock: FC200SH, Core: Auto-5 ]
-damage: 141.045 - 47.839
-dropoffStuds: 80.0209 - 153.373
-pellets: 8
-fireRate: 158.84
-adsSpread: 1.73397
-hipfireSpread: 6.38833
-reloadTime: 4.8
-magazineSize: 20
-health: 8
-recoilHipVertical: 74.52 - 130.41
-recoilAimVertical: 29.808 - 52.164
-movementSpeed: 3.9
-
 [ Barrel: Dragunov, Magazine: BAR, Grip: The Chief, Stock: FC200SH, Core: Auto-5 ]
 damage: 143.927 - 50.2959
 dropoffStuds: 81.0393 - 155.325
@@ -56,6 +42,20 @@ recoilHipVertical: 90.396 - 158.193
 recoilAimVertical: 36.1584 - 63.2772
 movementSpeed: 0.9
 
+[ Barrel: M1891, Magazine: BAR, Grip: JSG12, Stock: FC200SH, Core: Auto-5 ]
+damage: 141.045 - 47.839
+dropoffStuds: 80.0209 - 153.373
+pellets: 8
+fireRate: 158.84
+adsSpread: 1.73397
+hipfireSpread: 6.38833
+reloadTime: 4.8
+magazineSize: 20
+health: 8
+recoilHipVertical: 74.52 - 130.41
+recoilAimVertical: 29.808 - 52.164
+movementSpeed: 3.9
+
 [ Barrel: M1891, Magazine: BAR, Grip: The Chief, Stock: FC200SH, Core: Auto-5 ]
 damage: 143.927 - 48.8164
 dropoffStuds: 80.0209 - 153.373
@@ -68,34 +68,6 @@ magazineSize: 20
 health: 8
 recoilHipVertical: 72.9 - 127.575
 recoilAimVertical: 29.16 - 51.03
-movementSpeed: 0.9
-
-[ Barrel: M1891, Magazine: BAR, Grip: Pancake Hammer, Stock: FC200SH, Core: Auto-5 ]
-damage: 141.045 - 47.839
-dropoffStuds: 80.0209 - 153.373
-pellets: 8
-fireRate: 158.84
-adsSpread: 1.73397
-hipfireSpread: 6.38833
-reloadTime: 4.608
-magazineSize: 20
-health: 8
-recoilHipVertical: 97.2 - 170.1
-recoilAimVertical: 38.88 - 68.04
-movementSpeed: 0.9
-
-[ Barrel: Dragunov, Magazine: BAR, Grip: Pancake Hammer, Stock: FC200SH, Core: Auto-5 ]
-damage: 141.045 - 49.2888
-dropoffStuds: 81.0393 - 155.325
-pellets: 8
-fireRate: 158.84
-adsSpread: 1.78763
-hipfireSpread: 6.586
-reloadTime: 3.84
-magazineSize: 20
-health: 8
-recoilHipVertical: 120.528 - 210.924
-recoilAimVertical: 48.2112 - 84.3696
 movementSpeed: 0.9
 
 [ Barrel: Dragunov, Magazine: BAR, Grip: JSG12, Stock: FC200SH, Core: Auto-5 ]
@@ -112,18 +84,33 @@ recoilHipVertical: 92.4048 - 161.708
 recoilAimVertical: 36.9619 - 64.6834
 movementSpeed: 3.9
 
-[ Barrel: Spray Can, Magazine: Scar H, Grip: Auto-5, Stock: JSG12, Core: Circuit Judge ]
-damage: 141.212 - 24.0919
-dropoffStuds: 80.6429 - 132.824
+[ Barrel: Dragunov, Magazine: BAR, Grip: Pancake Hammer, Stock: FC200SH, Core: Auto-5 ]
+damage: 141.045 - 49.2888
+dropoffStuds: 81.0393 - 155.325
 pellets: 8
-fireRate: 78.75
-adsSpread: 1.66718
-hipfireSpread: 4.50589
-reloadTime: 4.725
+fireRate: 158.84
+adsSpread: 1.78763
+hipfireSpread: 6.586
+reloadTime: 3.84
 magazineSize: 20
-recoilHipVertical: 90 - 111.375
-recoilAimVertical: 31.5 - 38.925
-movementSpeed: 5.5
+health: 8
+recoilHipVertical: 120.528 - 210.924
+recoilAimVertical: 48.2112 - 84.3696
+movementSpeed: 0.9
+
+[ Barrel: M1891, Magazine: BAR, Grip: Pancake Hammer, Stock: FC200SH, Core: Auto-5 ]
+damage: 141.045 - 47.839
+dropoffStuds: 80.0209 - 153.373
+pellets: 8
+fireRate: 158.84
+adsSpread: 1.73397
+hipfireSpread: 6.38833
+reloadTime: 4.608
+magazineSize: 20
+health: 8
+recoilHipVertical: 97.2 - 170.1
+recoilAimVertical: 38.88 - 68.04
+movementSpeed: 0.9
 
 [ Barrel: Spray Can, Magazine: Scar H, Grip: Auto-5, Stock: M1 Carbine, Core: Circuit Judge ]
 damage: 141.212 - 27.8983
@@ -136,4 +123,17 @@ reloadTime: 4.5
 magazineSize: 20
 recoilHipVertical: 102.6 - 126.968
 recoilAimVertical: 35.91 - 44.3745
+
+[ Barrel: Spray Can, Magazine: Scar H, Grip: Auto-5, Stock: The Chief, Core: Circuit Judge ]
+damage: 141.212 - 24.0919
+dropoffStuds: 80.6429 - 132.824
+pellets: 8
+fireRate: 78.75
+adsSpread: 1.76275
+hipfireSpread: 4.7642
+reloadTime: 4.185
+magazineSize: 20
+recoilHipVertical: 105.3 - 130.309
+recoilAimVertical: 36.855 - 45.5422
+movementSpeed: 2.5
 

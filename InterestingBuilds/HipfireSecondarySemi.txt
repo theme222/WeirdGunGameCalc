@@ -1,5 +1,33 @@
 ./wggcalc -o InterestingBuilds/HipfireSecondarySemi.txt -i Sidearm --bc B17 Deagle --spreadHipMax 1 --magazineMin 20 --speedMin 5 --rangeMin 40 
 Current top 10 guns are: 
+[ Barrel: G3, Magazine: Scar H, Grip: Type 2a Nambu, Stock: None, Core: Type 14 ]
+damage: 34.0384 - 19.6281
+dropoffStuds: 40.6715 - 92.9633
+fireRate: 441
+adsSpread: 0.256313
+hipfireSpread: 0.717676
+reloadTime: 4.5
+magazineSize: 20
+health: -17.5
+recoilHipVertical: 12.7305 - 29.7045
+recoilAimVertical: 2.5461 - 5.9409
+movementSpeed: 6
+TTK: 0.272109 Seconds
+
+[ Barrel: G3, Magazine: Scar H, Grip: MP 40, Stock: None, Core: Type 14 ]
+damage: 33.7964 - 19.4886
+dropoffStuds: 40.6715 - 92.9633
+fireRate: 441
+adsSpread: 0.332824
+hipfireSpread: 0.931907
+reloadTime: 4.5
+magazineSize: 20
+health: -10
+recoilHipVertical: 13.455 - 31.395
+recoilAimVertical: 2.691 - 6.279
+movementSpeed: 6
+TTK: 0.272109 Seconds
+
 [ Barrel: G3, Magazine: Fedorov, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
 damage: 33.6949 - 19.2303
 dropoffStuds: 40.178 - 91.8355
@@ -25,34 +53,6 @@ magazineSize: 20
 health: -10
 recoilHipVertical: 10.35 - 24.15
 recoilAimVertical: 2.07 - 4.83
-movementSpeed: 6
-TTK: 0.272109 Seconds
-
-[ Barrel: G3, Magazine: Scar H, Grip: MP 40, Stock: None, Core: Type 14 ]
-damage: 33.7964 - 19.4886
-dropoffStuds: 40.6715 - 92.9633
-fireRate: 441
-adsSpread: 0.332824
-hipfireSpread: 0.931907
-reloadTime: 4.5
-magazineSize: 20
-health: -10
-recoilHipVertical: 13.455 - 31.395
-recoilAimVertical: 2.691 - 6.279
-movementSpeed: 6
-TTK: 0.272109 Seconds
-
-[ Barrel: G3, Magazine: Scar H, Grip: Type 2a Nambu, Stock: None, Core: Type 14 ]
-damage: 34.0384 - 19.6281
-dropoffStuds: 40.6715 - 92.9633
-fireRate: 441
-adsSpread: 0.256313
-hipfireSpread: 0.717676
-reloadTime: 4.5
-magazineSize: 20
-health: -17.5
-recoilHipVertical: 12.7305 - 29.7045
-recoilAimVertical: 2.5461 - 5.9409
 movementSpeed: 6
 TTK: 0.272109 Seconds
 

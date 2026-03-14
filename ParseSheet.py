@@ -96,6 +96,9 @@ def FormatNumber(value: str, doubleNum=False):
 def DetectPriceType(price, row) -> str:
     price = price.strip()
     
+    if (price == ""): # No data so we just return coin
+        return "Coin"
+        
     if (price in validPriceTypes or price.capitalize() in validPriceTypes):
         return price 
         

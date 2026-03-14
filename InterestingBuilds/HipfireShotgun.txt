@@ -53,58 +53,31 @@ recoilHipVertical: 100.177 - 118.104
 recoilAimVertical: 65.0627 - 76.7676
 movementSpeed: 3.1
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: JSG12, Stock: M870 MCS, Core: JSG12 ]
-damage: 159.811 - -30.5572
-dropoffStuds: 40.6725 - 81.345
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Siberia-12, Stock: M870 MCS, Core: JSG12 ]
+damage: 165.987 - -36.6813
+dropoffStuds: 39.6557 - 79.3114
 pellets: 12
-fireRate: 62.7
-adsSpread: 1.92456
-hipfireSpread: 1.92456
+fireRate: 64.8945
+adsSpread: 1.88542
+hipfireSpread: 1.88542
 reloadTime: 0.55
 magazineSize: 5
 recoilHipVertical: 100.177 - 118.104
 recoilAimVertical: 65.0627 - 76.7676
 movementSpeed: 3.1
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Mas-38, Stock: M870 MCS, Core: JSG12 ]
-damage: 165.987 - -45.579
-dropoffStuds: 37.8254 - 75.6509
-pellets: 12
-fireRate: 65.1453
-adsSpread: 1.90948
-hipfireSpread: 1.90948
-reloadTime: 0.55
-magazineSize: 5
-recoilHipVertical: 100.177 - 118.104
-recoilAimVertical: 65.0627 - 76.7676
-movementSpeed: 4.4
-
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Arisaka, Stock: M870 MCS, Core: JSG12 ]
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: QBZ-95, Stock: M870 MCS, Core: JSG12 ]
 damage: 165.987 - -31.7382
 dropoffStuds: 40.6725 - 81.345
 pellets: 12
 fireRate: 62.7
-adsSpread: 1.93354
-hipfireSpread: 1.93354
-reloadTime: 0.55
-magazineSize: 5
-health: -6
-recoilHipVertical: 100.177 - 118.104
-recoilAimVertical: 65.0627 - 76.7676
-movementSpeed: 7.1
-
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Hell-Trooper-23, Stock: M870 MCS, Core: JSG12 ]
-damage: 165.987 - -42.6131
-dropoffStuds: 38.4355 - 76.871
-pellets: 12
-fireRate: 62.7
-adsSpread: 1.85463
-hipfireSpread: 1.85463
-reloadTime: 0.53075
+adsSpread: 1.81421
+hipfireSpread: 1.81421
+reloadTime: 0.5775
 magazineSize: 5
 recoilHipVertical: 100.177 - 118.104
 recoilAimVertical: 65.0627 - 76.7676
-movementSpeed: 5.2
+movementSpeed: 1.3
 
 [ Barrel: Second Amendment, Magazine: Kolibri, Grip: PPSh-41, Stock: M870 MCS, Core: JSG12 ]
 damage: 165.987 - -31.7382
@@ -119,13 +92,39 @@ recoilHipVertical: 100.177 - 118.104
 recoilAimVertical: 65.0627 - 76.7676
 movementSpeed: 3.1
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Siberia-12, Stock: M870 MCS, Core: JSG12 ]
-damage: 165.987 - -36.6813
-dropoffStuds: 39.6557 - 79.3114
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Hell-Trooper-23, Stock: M870 MCS, Core: JSG12 ]
+damage: 165.987 - -42.6131
+dropoffStuds: 38.4355 - 76.871
 pellets: 12
-fireRate: 64.8945
-adsSpread: 1.88542
-hipfireSpread: 1.88542
+fireRate: 62.7
+adsSpread: 1.85463
+hipfireSpread: 1.85463
+reloadTime: 0.53075
+magazineSize: 5
+recoilHipVertical: 100.177 - 118.104
+recoilAimVertical: 65.0627 - 76.7676
+movementSpeed: 5.2
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Mas-38, Stock: M870 MCS, Core: JSG12 ]
+damage: 165.987 - -45.579
+dropoffStuds: 37.8254 - 75.6509
+pellets: 12
+fireRate: 65.1453
+adsSpread: 1.90948
+hipfireSpread: 1.90948
+reloadTime: 0.55
+magazineSize: 5
+recoilHipVertical: 100.177 - 118.104
+recoilAimVertical: 65.0627 - 76.7676
+movementSpeed: 4.4
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: JSG12, Stock: M870 MCS, Core: JSG12 ]
+damage: 159.811 - -30.5572
+dropoffStuds: 40.6725 - 81.345
+pellets: 12
+fireRate: 62.7
+adsSpread: 1.92456
+hipfireSpread: 1.92456
 reloadTime: 0.55
 magazineSize: 5
 recoilHipVertical: 100.177 - 118.104

@@ -4,85 +4,16 @@ Current top 10 guns are:
 damage: 16.7595 - 12.5639
 dropoffStuds: 194.4 - 415.8
 pellets: 2
-fireRate: 1253.04
+fireRate: 1219.92
 adsSpread: 0.743402
 hipfireSpread: 22.3021
 reloadTime: 3.75
 magazineSize: 30
 health: -7.5
-recoilHipVertical: 4.4447 - 4.88917
-recoilAimVertical: 1.55565 - 1.68899
+recoilHipVertical: 5.10048 - 5.61053
+recoilAimVertical: 1.78517 - 1.93818
 movementSpeed: 0.5
-TTK: 0.239418 Seconds
-
-[ Barrel: Mustard, Magazine: Graphics Card, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.685 - 10.3694
-dropoffStuds: 165.6 - 354.2
-fireRate: 1487.98
-adsSpread: 0.305878
-hipfireSpread: 9.17635
-reloadTime: 6
-magazineSize: 50
-health: -7.5
-recoilHipVertical: 13.5274 - 14.8801
-recoilAimVertical: 4.73458 - 5.1404
-movementSpeed: 1.5
-TTK: 0.241938 Seconds
-
-[ Barrel: Mustard, Magazine: P90, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.3215 - 10.5512
-dropoffStuds: 185.85 - 397.513
-fireRate: 1474.93
-adsSpread: 0.427621
-hipfireSpread: 12.8286
-reloadTime: 4
-magazineSize: 50
-health: -7.5
-recoilHipVertical: 19.3248 - 21.2573
-recoilAimVertical: 6.76368 - 7.34342
-movementSpeed: 1.3
-TTK: 0.244079 Seconds
-
-[ Barrel: Mustard, Magazine: MAC-10, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 14.685 - 10.4493
-dropoffStuds: 169.2 - 361.9
-fireRate: 1474.93
-adsSpread: 0.305878
-hipfireSpread: 9.17635
-reloadTime: 2
-magazineSize: 30
-health: -7.5
-recoilHipVertical: 23.7168 - 26.0885
-recoilAimVertical: 8.30088 - 9.01238
-movementSpeed: 4.36
-TTK: 0.244079 Seconds
-
-[ Barrel: Mustard, Magazine: Hex Spitter, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: As-Val ]
-damage: 16.7419 - 13.639
-dropoffStuds: 160.65 - 212.625
-pellets: 2
-fireRate: 1224.66
-adsSpread: 0.636691
-hipfireSpread: 3.63824
-reloadTime: 4.6
-magazineSize: 35
-recoilHipVertical: 50.508 - 67.344
-recoilAimVertical: 25.254 - 33.672
-TTK: 0.244965 Seconds
-
-[ Barrel: DP-27, Magazine: Graphics Card, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 16.8266 - 11.8816
-dropoffStuds: 165.6 - 354.2
-fireRate: 1214.2
-adsSpread: 0.240566
-hipfireSpread: 7.21699
-reloadTime: 6
-magazineSize: 50
-health: -7.5
-recoilHipVertical: 17.1797 - 18.8977
-recoilAimVertical: 6.01291 - 6.5283
-movementSpeed: 0.5
-TTK: 0.247077 Seconds
+TTK: 0.245918 Seconds
 
 [ Barrel: Burton, Magazine: Type 99, Grip: PPSh-41, Stock: Arisaka, Core: MG42 ]
 damage: 14.3133 - 9.22557
@@ -98,47 +29,116 @@ recoilAimVertical: 21.7226 - 31.1494
 movementSpeed: 0.3
 TTK: 0.247097 Seconds
 
-[ Barrel: Shower, Magazine: DP-27, Grip: M1 Garand, Stock: M1897 Trench Shotgun, Core: Burton ]
+[ Barrel: Mustard, Magazine: Graphics Card, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 14.685 - 10.3694
+dropoffStuds: 165.6 - 354.2
+fireRate: 1448.66
+adsSpread: 0.305878
+hipfireSpread: 9.17635
+reloadTime: 6
+magazineSize: 50
+health: -7.5
+recoilHipVertical: 15.5232 - 17.0755
+recoilAimVertical: 5.43312 - 5.89882
+movementSpeed: 1.5
+TTK: 0.248506 Seconds
+
+[ Barrel: UNP-40, Magazine: MAC-10, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Mas-38 ]
+damage: 20.0889 - 12.3455
+dropoffStuds: 150.4 - 178.6
+fireRate: 957.68
+adsSpread: 0.596237
+hipfireSpread: 3.31243
+reloadTime: 2.3
+magazineSize: 30
+recoilHipVertical: 21.735 - 65.205
+recoilAimVertical: 8.694 - 26.082
+movementSpeed: 12.3
+TTK: 0.250606 Seconds
+
+[ Barrel: Shower, Magazine: DP-27, Grip: Lewis, Stock: FG-42, Core: Burton ]
 damage: 16.6823 - 12.3699
 dropoffStuds: 189 - 404.25
 pellets: 2
-fireRate: 1210.24
-adsSpread: 0.786195
-hipfireSpread: 23.5859
+fireRate: 1196.96
+adsSpread: 0.717771
+hipfireSpread: 21.5331
 reloadTime: 6
 magazineSize: 47
 health: -7.5
-recoilHipVertical: 3.416 - 3.7576
-recoilAimVertical: 1.1956 - 1.29808
-movementSpeed: 2.5
-TTK: 0.247885 Seconds
+recoilHipVertical: 4.55616 - 5.01178
+recoilAimVertical: 1.59466 - 1.73134
+movementSpeed: 2.05
+TTK: 0.250636 Seconds
 
-[ Barrel: Shower, Magazine: DP-27, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 16.6823 - 12.3699
-dropoffStuds: 189 - 404.25
-pellets: 2
-fireRate: 1206.84
-adsSpread: 0.735793
-hipfireSpread: 22.0738
-reloadTime: 6.9
-magazineSize: 47
-health: -7.5
-recoilHipVertical: 3.416 - 3.7576
-recoilAimVertical: 1.1956 - 1.29808
-movementSpeed: 5.5
-TTK: 0.248583 Seconds
-
-[ Barrel: DP-27, Magazine: MAC-10, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
-damage: 16.8266 - 11.9732
+[ Barrel: Mustard, Magazine: MAC-10, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 14.685 - 10.4493
 dropoffStuds: 169.2 - 361.9
-fireRate: 1203.54
-adsSpread: 0.240566
-hipfireSpread: 7.21699
+fireRate: 1435.95
+adsSpread: 0.305878
+hipfireSpread: 9.17635
 reloadTime: 2
 magazineSize: 30
 health: -7.5
-recoilHipVertical: 30.1203 - 33.1324
-recoilAimVertical: 10.5421 - 11.4457
-movementSpeed: 3.36
-TTK: 0.249264 Seconds
+recoilHipVertical: 27.216 - 29.9376
+recoilAimVertical: 9.5256 - 10.3421
+movementSpeed: 4.36
+TTK: 0.250706 Seconds
+
+[ Barrel: Mustard, Magazine: P90, Grip: Lewis, Stock: M1897 Trench Shotgun, Core: Burton ]
+damage: 14.3215 - 10.5512
+dropoffStuds: 185.85 - 397.513
+fireRate: 1435.95
+adsSpread: 0.427621
+hipfireSpread: 12.8286
+reloadTime: 4
+magazineSize: 50
+health: -7.5
+recoilHipVertical: 22.176 - 24.3936
+recoilAimVertical: 7.7616 - 8.42688
+movementSpeed: 1.3
+TTK: 0.250706 Seconds
+
+[ Barrel: Mustard, Magazine: MAC-10, Grip: Lewis, Stock: Spas-12, Core: Burton ]
+damage: 14.685 - 10.3646
+dropoffStuds: 165.816 - 354.662
+fireRate: 1435.95
+adsSpread: 0.274194
+hipfireSpread: 8.22582
+reloadTime: 2
+magazineSize: 30
+health: -7.5
+recoilHipVertical: 19.44 - 21.384
+recoilAimVertical: 6.804 - 7.3872
+movementSpeed: 1.36
+TTK: 0.250706 Seconds
+
+[ Barrel: Burton, Magazine: Maple Badger, Grip: PPSh-41, Stock: Arisaka, Core: MG42 ]
+damage: 14.3529 - 8.80744
+dropoffStuds: 150 - 325
+fireRate: 1435.07
+adsSpread: 0.767153
+hipfireSpread: 7.67153
+reloadTime: 1.97064
+magazineSize: 30
+health: 5
+recoilHipVertical: 42.93 - 61.56
+recoilAimVertical: 21.465 - 30.78
+movementSpeed: 1.3
+TTK: 0.25086 Seconds
+
+[ Barrel: Shower, Magazine: Type 99, Grip: Lewis, Stock: Lee Enfield, Core: Burton ]
+damage: 16.7595 - 12.3542
+dropoffStuds: 184.68 - 395.01
+pellets: 2
+fireRate: 1192.32
+adsSpread: 0.713993
+hipfireSpread: 21.4198
+reloadTime: 3.75
+magazineSize: 30
+health: -7.5
+recoilHipVertical: 5.10048 - 5.61053
+recoilAimVertical: 1.78517 - 1.93818
+movementSpeed: 0.5
+TTK: 0.25161 Seconds
 

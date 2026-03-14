@@ -26,32 +26,6 @@ recoilHipVertical: 219.6 - 292.8
 recoilAimVertical: 109.8 - 146.4
 movementSpeed: -2
 
-[ Barrel: Car Muffler, Magazine: Hecate II, Grip: Arisaka, Stock: M1897 Trench Shotgun, Core: AWM ]
-damage: 100.182 - 87.8599
-dropoffStuds: 385 - 577.5
-fireRate: 23.9328
-adsSpread: 0.106108
-hipfireSpread: 31.8323
-reloadTime: 5.5
-magazineSize: 5
-health: -21
-recoilHipVertical: 267.912 - 357.216
-recoilAimVertical: 133.956 - 178.608
-movementSpeed: -5
-
-[ Barrel: Car Muffler, Magazine: Hecate II, Grip: M1891, Stock: Skorpion vz. 61, Core: AWM ]
-damage: 100.182 - 87.8599
-dropoffStuds: 385 - 577.5
-fireRate: 23.76
-adsSpread: 0.139405
-hipfireSpread: 41.8216
-reloadTime: 5.75575
-magazineSize: 5
-health: -15
-recoilHipVertical: 296.46 - 395.28
-recoilAimVertical: 148.23 - 197.64
-movementSpeed: -4.5
-
 [ Barrel: Car Muffler, Magazine: Hecate II, Grip: M1891, Stock: Arisaka, Core: AWM ]
 damage: 100.182 - 87.8599
 dropoffStuds: 385 - 577.5
@@ -78,18 +52,31 @@ recoilHipVertical: 307.44 - 409.92
 recoilAimVertical: 153.72 - 204.96
 movementSpeed: -5
 
-[ Barrel: Car Muffler, Magazine: Hecate II, Grip: M1891, Stock: Paintball, Core: AWM ]
+[ Barrel: Car Muffler, Magazine: Hecate II, Grip: M1891, Stock: Uzi, Core: AWM ]
 damage: 100.182 - 87.8599
 dropoffStuds: 385 - 577.5
 fireRate: 23.76
-adsSpread: 0.148655
-hipfireSpread: 44.5965
-reloadTime: 5.88225
+adsSpread: 0.124077
+hipfireSpread: 37.2232
+reloadTime: 6.578
 magazineSize: 5
 health: -15
-recoilHipVertical: 219.6 - 292.8
-recoilAimVertical: 109.8 - 146.4
-movementSpeed: -3
+recoilHipVertical: 267.912 - 357.216
+recoilAimVertical: 133.956 - 178.608
+movementSpeed: -4.5
+
+[ Barrel: Car Muffler, Magazine: Hecate II, Grip: M1891, Stock: Skorpion vz. 61, Core: AWM ]
+damage: 100.182 - 87.8599
+dropoffStuds: 385 - 577.5
+fireRate: 23.76
+adsSpread: 0.139405
+hipfireSpread: 41.8216
+reloadTime: 5.75575
+magazineSize: 5
+health: -15
+recoilHipVertical: 296.46 - 395.28
+recoilAimVertical: 148.23 - 197.64
+movementSpeed: -4.5
 
 [ Barrel: Car Muffler, Magazine: Hecate II, Grip: M1891, Stock: M1891, Core: AWM ]
 damage: 100.182 - 87.8599
@@ -104,18 +91,18 @@ recoilHipVertical: 252.54 - 336.72
 recoilAimVertical: 126.27 - 168.36
 movementSpeed: -5
 
-[ Barrel: Car Muffler, Magazine: Hecate II, Grip: M1891, Stock: Uzi, Core: AWM ]
+[ Barrel: Car Muffler, Magazine: Hecate II, Grip: M1891, Stock: Paintball, Core: AWM ]
 damage: 100.182 - 87.8599
 dropoffStuds: 385 - 577.5
 fireRate: 23.76
-adsSpread: 0.124077
-hipfireSpread: 37.2232
-reloadTime: 6.578
+adsSpread: 0.148655
+hipfireSpread: 44.5965
+reloadTime: 5.88225
 magazineSize: 5
 health: -15
-recoilHipVertical: 267.912 - 357.216
-recoilAimVertical: 133.956 - 178.608
-movementSpeed: -4.5
+recoilHipVertical: 219.6 - 292.8
+recoilAimVertical: 109.8 - 146.4
+movementSpeed: -3
 
 [ Barrel: M2000, Magazine: Snake Sniper, Grip: Circuit Judge, Stock: AWM, Core: Arisaka ]
 damage: 100.507 - 91.0089
@@ -126,7 +113,20 @@ hipfireSpread: 8.57274
 reloadTime: 4.675
 magazineSize: 6
 health: -15
-recoilHipVertical: 166.954 - 190.142
-recoilAimVertical: 75.1291 - 85.5637
+recoilHipVertical: 185.167 - 210.884
+recoilAimVertical: 83.325 - 94.898
 movementSpeed: -2
+
+[ Barrel: Mosin, Magazine: Hecate II, Grip: Lee Enfield, Stock: Arisaka, Core: AWM ]
+damage: 104.695 - 89.2421
+dropoffStuds: 308 - 462
+fireRate: 23.598
+adsSpread: 0.132798
+hipfireSpread: 39.8395
+reloadTime: 4.83
+magazineSize: 5
+health: -8
+recoilHipVertical: 180 - 240
+recoilAimVertical: 90 - 120
+movementSpeed: -4
 

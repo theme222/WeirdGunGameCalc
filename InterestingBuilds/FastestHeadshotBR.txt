@@ -3,41 +3,28 @@ Current top 10 guns are:
 [ Barrel: Spray Can, Magazine: Scar H, Grip: The Chief, Stock: M1897 Trench Shotgun, Core: Winchester ]
 damage: 67.8985 - 54.4831
 dropoffStuds: 207.459 - 385.281
-fireRate: 83.1
+fireRate: 81.3
 adsSpread: 0.148698
 hipfireSpread: 11.2806
 reloadTime: 4.5
 magazineSize: 20
-recoilHipVertical: 164.7 - 191.464
-recoilAimVertical: 82.35 - 95.7319
+recoilHipVertical: 189 - 219.712
+recoilAimVertical: 94.5 - 109.856
 movementSpeed: 2.5
-TTK: 0.722022 Seconds
+TTK: 0.738007 Seconds
 
-[ Barrel: Mustard, Magazine: Scar H, Grip: PPSh-41, Stock: AWM, Core: Winchester ]
-damage: 67.0207 - 55.091
-dropoffStuds: 233.1 - 432.9
-fireRate: 80.25
-adsSpread: 0.136118
-hipfireSpread: 10.3262
-reloadTime: 4.51519
-magazineSize: 20
-recoilHipVertical: 110 - 127.875
-recoilAimVertical: 55 - 63.9375
-TTK: 0.747663 Seconds
-
-[ Barrel: Spray Can, Magazine: Scar H, Grip: Type 2a Nambu, Stock: Fedorov, Core: Winchester ]
-damage: 69.0805 - 55.4316
+[ Barrel: Spray Can, Magazine: Scar H, Grip: M1 Garand, Stock: SMO3, Core: Winchester ]
+damage: 67.9314 - 54.5095
 dropoffStuds: 207.459 - 385.281
-fireRate: 80.25
+fireRate: 81
 adsSpread: 0.148661
 hipfireSpread: 11.2778
-reloadTime: 4.815
+reloadTime: 4.5
 magazineSize: 20
-health: -7.5
-recoilHipVertical: 110.7 - 128.689
-recoilAimVertical: 55.35 - 64.3444
-movementSpeed: 0.5
-TTK: 0.747663 Seconds
+recoilHipVertical: 132 - 153.45
+recoilAimVertical: 66 - 76.725
+movementSpeed: 2.3
+TTK: 0.740741 Seconds
 
 [ Barrel: Mustard, Magazine: Scar H, Grip: PPSh-41, Stock: FAL, Core: Winchester ]
 damage: 67.0207 - 55.6875
@@ -50,6 +37,18 @@ magazineSize: 20
 recoilHipVertical: 130 - 151.125
 recoilAimVertical: 65 - 75.5625
 movementSpeed: 0.2
+TTK: 0.747663 Seconds
+
+[ Barrel: Mustard, Magazine: Scar H, Grip: PPSh-41, Stock: AWM, Core: Winchester ]
+damage: 67.0207 - 55.091
+dropoffStuds: 233.1 - 432.9
+fireRate: 80.25
+adsSpread: 0.136118
+hipfireSpread: 10.3262
+reloadTime: 4.51519
+magazineSize: 20
+recoilHipVertical: 122 - 141.825
+recoilAimVertical: 61 - 70.9125
 TTK: 0.747663 Seconds
 
 [ Barrel: Spray Can, Magazine: Scar H, Grip: APS, Stock: Fedorov, Core: Winchester ]
@@ -65,6 +64,19 @@ recoilAimVertical: 41.04 - 47.709
 movementSpeed: 0.5
 TTK: 0.747663 Seconds
 
+[ Barrel: Spray Can, Magazine: Scar H, Grip: PPSh-41, Stock: SMO3, Core: Winchester ]
+damage: 67.9314 - 54.5095
+dropoffStuds: 207.459 - 385.281
+fireRate: 80.25
+adsSpread: 0.138307
+hipfireSpread: 10.4922
+reloadTime: 5.175
+magazineSize: 20
+recoilHipVertical: 132 - 153.45
+recoilAimVertical: 66 - 76.725
+movementSpeed: 5.3
+TTK: 0.747663 Seconds
+
 [ Barrel: Spray Can, Magazine: Scar H, Grip: The Chief, Stock: Fedorov, Core: Winchester ]
 damage: 67.8985 - 54.4831
 dropoffStuds: 207.459 - 385.281
@@ -75,6 +87,20 @@ reloadTime: 4.815
 magazineSize: 20
 recoilHipVertical: 121.5 - 141.244
 recoilAimVertical: 60.75 - 70.6219
+movementSpeed: 0.5
+TTK: 0.747663 Seconds
+
+[ Barrel: Spray Can, Magazine: Scar H, Grip: Type 2a Nambu, Stock: Fedorov, Core: Winchester ]
+damage: 69.0805 - 55.4316
+dropoffStuds: 207.459 - 385.281
+fireRate: 80.25
+adsSpread: 0.148661
+hipfireSpread: 11.2778
+reloadTime: 4.815
+magazineSize: 20
+health: -7.5
+recoilHipVertical: 110.7 - 128.689
+recoilAimVertical: 55.35 - 64.3444
 movementSpeed: 0.5
 TTK: 0.747663 Seconds
 
@@ -103,30 +129,4 @@ recoilHipVertical: 124 - 144.15
 recoilAimVertical: 62 - 72.075
 movementSpeed: 1.5
 TTK: 0.758458 Seconds
-
-[ Barrel: Spray Can, Magazine: M110, Grip: The Chief, Stock: M1897 Trench Shotgun, Core: Winchester ]
-damage: 67.3374 - 54.7803
-dropoffStuds: 216.804 - 402.636
-fireRate: 78.945
-adsSpread: 0.148698
-hipfireSpread: 11.2806
-reloadTime: 3.8
-magazineSize: 10
-recoilHipVertical: 147.571 - 171.552
-recoilAimVertical: 73.7856 - 85.7758
-movementSpeed: 2.5
-TTK: 0.760023 Seconds
-
-[ Barrel: Spray Can, Magazine: Scar H, Grip: The Chief, Stock: FG-42, Core: Winchester ]
-damage: 67.8985 - 54.4831
-dropoffStuds: 207.459 - 385.281
-fireRate: 78.75
-adsSpread: 0.119077
-hipfireSpread: 9.03343
-reloadTime: 4.5
-magazineSize: 20
-recoilHipVertical: 152.55 - 177.339
-recoilAimVertical: 76.275 - 88.6697
-movementSpeed: 5.5
-TTK: 0.761905 Seconds
 
