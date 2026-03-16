@@ -2,59 +2,8 @@ import { reactive, watch } from 'vue';
 import { addToast } from './toast';
 import { PARTNAMES } from './data';
 import { onFilterChange } from './calc';
-
-let filterId = 99;
-const filterListKey = 'wggcalcFilterList';
-
-export type FilterType = 'string' | 'number' | 'stringarr' | 'numberrange' | 'sort';
-
-export interface Filter {
-  title: string;
-  filterType: FilterType;
-  validStrings?: string[]; // only on filterType === 'string'
-  options?: string[];
-  required?: boolean;
-}
-
-export interface FilterItem {
-  id: number;
-  title: string;
-  filterType: FilterType;
-  validStrings?: string[]; // only on filterType === 'string'
-  options?: string[];
-  required?: boolean;
-  writeable: {
-    selectedOption?: string;
-    value: string[] | number[];
-  };
-}
-
-export const categoryStrings = ['AR', 'SMG', 'Sniper', 'BR', 'LMG', 'Shotgun', 'Sidearm', 'Weird'];
-
-export const filterAndSortStrings = [
-  'TTK',
-  'Damage Start',
-  'Damage End',
-  'Fire Rate',
-  'Pellets',
-  'Spread Aim',
-  'Spread Hip',
-  'Recoil Aim',
-  'Recoil Hip',
-  'Health',
-  'Range Stud Start',
-  'Range Stud End',
-  'Detection Radius',
-  'Time To Aim',
-  'Burst',
-  'Speed',
-  'Magazine Size',
-  'Reload Time',
-  'DPS',
-];
-
-export const numberRangeOptions = ['min', 'max', 'from'];
-export const sortTypeOptions = ['Auto', 'Highest First', 'Lowest First'];
+import type { Filter, FilterItem } from './types';
+import { categoryStrings, sortTypeOptions, filterAndSortStrings, numberRangeOptions } from './filter.const';
 
 export const filterList: Filter[] = [
   { title: 'Categories', filterType: 'stringarr', required: true, validStrings: categoryStrings },
@@ -78,6 +27,33 @@ export const filterList: Filter[] = [
   { title: 'Ban Grip', filterType: 'stringarr', validStrings: PARTNAMES },
 ];
 
+function getFilterItem(title: string, writeableOverride?: FilterItem["writeable"]): FilterItem | undefined {
+  let index = null
+  for (let i = 0; i < filterList.length; i++) {
+    if (filterList[i]!.title === title) {
+      index = i;
+      break;
+    }
+  }
+  
+  if (index === null) return undefined;
+  const selectedFilterToAdd = filterList[index]!;
+  
+  const filter: FilterItem = {
+    id: index,
+    writeable: {
+      selectedOption: selectedFilterToAdd.options?.[0] || undefined, // Funky ahh syntax over here
+      value: [],
+    },
+    ...selectedFilterToAdd,
+  };
+  
+  if (writeableOverride) 
+    filter.writeable = writeableOverride;
+  
+  return filter;
+}
+
 for (const filter of filterAndSortStrings) {
   filterList.push({
     title: filter,
@@ -86,25 +62,104 @@ for (const filter of filterAndSortStrings) {
   });
 }
 
-// TODO: For now this is good enough for session storage. However when implementing in localstorage it might be a good idea to do a more complex parser.
-const savedData = sessionStorage.getItem(filterListKey);
-const startingFilters = savedData ? JSON.parse(savedData) : {
-  list: [
-    { title: 'Categories', filterType: 'stringarr', required: true, validStrings: categoryStrings, writeable: { value: ["AR", "SMG", "LMG"] } },
-    { title: 'Sort Type', filterType: 'sort', options: sortTypeOptions, required: true, validStrings: filterAndSortStrings, writeable: { selectedOption: "Auto", value: ["TTK"] } },
-    { title: 'Total Results', filterType: 'number', required: true, writeable: { value: [10] } },
-  ]
-};
+function sortFilterList() {
+  
+}
 
-export const currentFilters = reactive<{ list: FilterItem[] }>(startingFilters);
+function getFiltersFromURL(): { list: FilterItem[] } {
+  const params = new URLSearchParams(window.location.search);
+
+  const defaultState = [
+    getFilterItem('Categories', { value: ["AR", "SMG", "LMG"] })!,
+    getFilterItem('Sort Type', { selectedOption: "Auto", value: ["TTK"] })!,
+    getFilterItem('Total Results', { value: [10] })!,
+  ];
+
+  // Thx chatgpt
+  const hydratedList: FilterItem[] = [];
+
+  for (const [key, value] of params.entries()) {
+    try {
+      // Convert underscores back to spaces to find the matching filter
+      const originalTitle = key.replace(/_/g, ' ');
+      const baseFilter = getFilterItem(originalTitle);
+      
+      if (!baseFilter) continue;
+  
+      let parsedSelectedOption = undefined;
+      let parsedValues: any[] = [];
+  
+      // Check if it has our custom "selectedOption:Values" format
+      if (value.includes(':')) {
+        const parts = value.split(':');
+        parsedSelectedOption = parts[0];
+        parsedValues = parts[1] ? parts[1].split(',') : [];
+      } else {
+        parsedValues = value ? value.split(',') : [];
+      }
+  
+      // Vue v-model needs actual numbers for number inputs, not strings.
+      if (baseFilter.filterType === 'number' || baseFilter.filterType === 'numberrange') {
+        parsedValues = parsedValues.map(v => Number(v));
+      }
+      
+      baseFilter.writeable = { selectedOption: parsedSelectedOption, value: parsedValues }
+      hydratedList.push(baseFilter);
+    }
+    catch (e) {
+      console.error(e);
+    }
+  }
+  
+  // default state contains filters that are required. 
+  // Individually check required filters and add them if not present.
+  for (const filter of defaultState) {
+    if (!hydratedList.some(f => f.title === filter.title)) {
+      hydratedList.push(filter);
+    }
+  }
+  
+  hydratedList.sort((a, b) => a.id - b.id);
+  return { list: hydratedList };
+}
+
+export const currentFilters = reactive<{ list: FilterItem[] }>(getFiltersFromURL());
 
 watch(
   currentFilters,
   (newState) => {
-    sessionStorage.setItem(filterListKey, JSON.stringify(newState));
+    // order the currentFilters by the id
+    currentFilters.list = newState.list.sort((a, b) => a.id - b.id);
+    
+    const url = new URL(window.location.href);
+    
+    // 1. Clear out all previous filter parameters so removed filters disappear
+    filterList.forEach(f => url.searchParams.delete(f.title.replace(/\s+/g, '_')));
+
+    // 2. Build the new clean parameters
+    newState.list.forEach(filter => {
+      const key = filter.title.replace(/\s+/g, '_');
+      let valStr = '';
+      
+      if (filter.writeable.selectedOption) 
+        valStr += filter.writeable.selectedOption + ':';
+      
+      // Add the array values joined by commas (e.g., "AR,SMG")
+      if (filter.writeable.value && filter.writeable.value.length > 0) 
+        valStr += filter.writeable.value.join(',');
+
+      if (valStr)
+        url.searchParams.set(key, valStr);
+    });
+
+    let finalUrl = url.toString();
+    // This is because URLSearchParams is being a little bitch and not allowing , and : to exist
+    finalUrl = finalUrl.replace(/%2C/g, ',').replace(/%3A/g, ':');
+    window.history.replaceState({}, '', finalUrl);
+    
     onFilterChange();
   },
-  { deep: true } // Crucial: This watches nested property changes in the list
+  { deep: true }
 );
 
 export function addFilter(selectedFilterToAdd: Filter) {
@@ -114,24 +169,12 @@ export function addFilter(selectedFilterToAdd: Filter) {
     return;
   }
 
-  currentFilters.list.push({
-    id: filterId++,
-    writeable: {
-      selectedOption: selectedFilterToAdd.options?.[0] || undefined, // Funky ahh syntax over here
-      value: [],
-    },
-    ...selectedFilterToAdd,
-  });
-
-  console.log(currentFilters);
+  currentFilters.list.push(getFilterItem(selectedFilterToAdd.title)!);
   addToast(`Added ${selectedFilterToAdd.title} to filters`, 'info');
 }
 
 export function removeFilter(id: number) {
   const index = currentFilters.list.findIndex((filter) => filter.id === id);
-  const filterToRemove = currentFilters.list[index];
-  if (index !== -1) {
+  if (index !== -1) 
     currentFilters.list.splice(index, 1);
-    addToast(`Removed ${filterToRemove?.title} from filters`, 'info');
-  }
 }

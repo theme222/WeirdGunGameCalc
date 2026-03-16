@@ -1861,9 +1861,9 @@ namespace DynamicPrune
 
         float threshold = currentBestThreshold_a.load();
         if (PQ::sortPriority == PQ::HIGHEST)
-            return gunValue >= threshold;
+            return gunValue > threshold;
         else if (PQ::sortPriority == PQ::LOWEST)
-            return gunValue <= threshold;
+            return gunValue < threshold;
         else
             throw std::runtime_error("Invalid sort priority");
     }

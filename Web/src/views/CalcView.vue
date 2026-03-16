@@ -51,26 +51,26 @@ function toggleRemoveFilter() {
           tag="div"
           class="w-full flex flex-col justify-center items-center gap-3 px-3 pb-4"
         >
-          <div v-for="filter in currentFilters.list" class="w-full"> 
-            <Filter
-              :id="filter.id"
-              :key="filter.id"
-              :title="filter.title"
-              :currentlyRemoving="currentlyRemoving"
-              :removeCaller="removeFilter"
-              :validStrings="filter.validStrings"
-              :filterType="filter.filterType"
-              :required="filter.required || false"
-              :options="filter.options"
-              v-model="filter.writeable"
-            />
-          </div>
+          <Filter
+            v-for="filter in currentFilters.list"
+            class="w-full"
+            :id="filter.id"
+            :key="filter.id"
+            :title="filter.title"
+            :currentlyRemoving="currentlyRemoving"
+            :removeCaller="removeFilter"
+            :validStrings="filter.validStrings"
+            :filterType="filter.filterType"
+            :required="filter.required || false"
+            :options="filter.options"
+            v-model="filter.writeable"
+          />
         </TransitionGroup>
       </div>
     </div>
     
     <div class="w-full flex justify-center items-center gap-5">
-      <button class="btn btn-primary" @click="runCalc">Submit</button>
+      <button class="btn btn-primary" @click="runCalc">LEMME SEE THEM GUNS</button>
       <label for="updateOnChange" class="flex justify-center items-center gap-3">
         <input type="checkbox" id="updateOnChange" name="updateOnChange" v-model="runOnFilterChange" class="checkbox"/>
         <span>Auto Update On Change</span>

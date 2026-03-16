@@ -8,7 +8,8 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "target": "ES2020",
-    "module": "NodeNext"
+    "target": "ESNext",
+    "moduleResolution": "bundler",
+    "module": "ESNext"
   }
 }
