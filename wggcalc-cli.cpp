@@ -100,6 +100,9 @@ int main(int argc, char* argv[])
     app.add_option("--timeToAim", Input::timeToAimRange, "Time to aim range to filter")->group(GROUP_FILTERS);
     app.add_option("--timeToAimMin", Input::timeToAimRange.first)->group(GROUP_FILTERS);
     app.add_option("--timeToAimMax", Input::timeToAimRange.second)->group(GROUP_FILTERS);
+    app.add_option("--equipTime", Input::equipTimeRange, "Equip time range to filter")->group(GROUP_FILTERS);
+    app.add_option("--equipTimeMin", Input::equipTimeRange.first)->group(GROUP_FILTERS);
+    app.add_option("--equipTimeMax", Input::equipTimeRange.second)->group(GROUP_FILTERS);
     app.add_option("--reload", Input::reloadRange, "Reload time to filter")->group(GROUP_FILTERS);
     app.add_option("--reloadMin", Input::reloadRange.first)->group(GROUP_FILTERS);
     app.add_option("--reloadMax", Input::reloadRange.second)->group(GROUP_FILTERS);

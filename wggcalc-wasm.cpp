@@ -49,7 +49,7 @@ namespace Clear { // Define functions that will be used to clear filters and oth
         howManyTopGunsToDisplay = 10;
         playerMaxHealth = 100;
     
-        static_assert(TOTALFILTERCOUNT == 19, "Update ClearInput");
+        static_assert(TOTALFILTERCOUNT == 20, "Update ClearInput");
         damageRange = NILRANGE_P;
         damageEndRange = NILRANGE_P;
         magazineRange = NILRANGE_P;
@@ -61,6 +61,7 @@ namespace Clear { // Define functions that will be used to clear filters and oth
         fireRateRange = NILRANGE_P;
         healthRange = NILRANGE_P;
         pelletRange = NILRANGE_P;
+        equipTimeRange = NILRANGE_P;
         timeToAimRange = NILRANGE_P;
         reloadRange = NILRANGE_P;
         detectionRadiusRange = NILRANGE_P;
@@ -232,6 +233,12 @@ void RunCalc()
     
 }
 
+std::string GetVersion()
+{
+    return __WGGCALC_VERSION__;
+}
+
+
 namespace AddFilter 
 {
     void Required(int total, std::string sortType, std::string priority, std::vector<std::string> categories) 
@@ -244,56 +251,21 @@ namespace AddFilter
     
     void ForceBan(std::string title, std::vector<std::string> partList) 
     {
-        if (title == "Force Core")
-            Input::forceCore = partList;
-        else if (title == "Force Magazine")
-            Input::forceMagazine = partList;
-        else if (title == "Force Barrel")
-            Input::forceBarrel = partList;
-        else if (title == "Force Stock")
-            Input::forceStock = partList;
-        else if (title == "Force Grip")
-            Input::forceGrip = partList;
-        else if (title == "Ban Core")
-            Input::banCore = partList;
-        else if (title == "Ban Magazine")
-            Input::banMagazine = partList;
-        else if (title == "Ban Barrel")
-            Input::banBarrel = partList;
-        else if (title == "Ban Stock")
-            Input::banStock = partList;
-        else if (title == "Ban Grip")
-            Input::banGrip = partList;
-        else 
-            throw std::invalid_argument("Invalid filter: " + title);
+        if (title == "Force Core") Input::forceCore = partList;
+        else if (title == "Force Magazine") Input::forceMagazine = partList;
+        else if (title == "Force Barrel") Input::forceBarrel = partList;
+        else if (title == "Force Stock") Input::forceStock = partList;
+        else if (title == "Force Grip") Input::forceGrip = partList;
+        else if (title == "Ban Core") Input::banCore = partList;
+        else if (title == "Ban Magazine") Input::banMagazine = partList;
+        else if (title == "Ban Barrel") Input::banBarrel = partList;
+        else if (title == "Ban Stock") Input::banStock = partList;
+        else if (title == "Ban Grip") Input::banGrip = partList;
+        else throw std::invalid_argument("Invalid filter: " + title);
     }
     
     void Range(std::string title, std::string type, float num1, float num2)
     {
-        /*
-         export const filterAndSortStrings = [
-           'TTK',
-           'Damage Start',
-           'Damage End',
-           'Fire Rate',
-           'Pellets',
-           'Spread Hip',
-           'Spread Aim',
-           'Recoil Hip',
-           'Recoil Aim',
-           'Health',
-           'Range Stud Start',
-           'Range Stud End',
-           'Detection Radius',
-           'Time To Aim',
-           'Burst',
-           'Speed',
-           'Magazine Size',
-           'Reload Time',
-           'DPS',
-         ];
-         */
-        
         fpair pair = std::make_pair(num1, num2);
         
         // Invalidate the other number if its only min or max
@@ -301,46 +273,27 @@ namespace AddFilter
         else if (type == "max") pair.first = NILMIN;
         
         // This is what peak c++ looks like
-        if (title == "TTK")
-            Input::TTKRange = pair;
-        else if (title == "Damage Start")
-            Input::damageRange = pair;
-        else if (title == "Damage End")
-            Input::damageEndRange = pair;
-        else if (title == "Fire Rate")
-            Input::fireRateRange = pair;
-        else if (title == "Pellets")
-            Input::pelletRange = pair;
-        else if (title == "Spread Hip")
-            Input::spreadHipRange = pair;
-        else if (title == "Spread Aim")
-            Input::spreadAimRange = pair;
-        else if (title == "Recoil Hip")
-            Input::recoilHipRange = pair;
-        else if (title == "Recoil Aim")
-            Input::recoilAimRange = pair;
-        else if (title == "Health")
-            Input::healthRange = pair;
-        else if (title == "Range Stud Start")
-            Input::dropoffStudsRange = pair;
-        else if (title == "Range Stud End")
-            Input::dropoffStudsEndRange = pair;
-        else if (title == "Detection Radius")
-            Input::detectionRadiusRange = pair;
-        else if (title == "Time To Aim")
-            Input::timeToAimRange = pair;
-        else if (title == "Burst")
-            Input::burstRange = pair;
-        else if (title == "Speed")
-            Input::movementSpeedRange = pair;
-        else if (title == "Magazine Size")
-            Input::magazineRange = pair;
-        else if (title == "Reload Time")
-            Input::reloadRange = pair;
-        else if (title == "DPS")
-            Input::DPSRange = pair;
-        else 
-            throw std::invalid_argument("Invalid filter: " + title);
+        if (title == "TTK") Input::TTKRange = pair;
+        else if (title == "DAMAGE") Input::damageRange = pair;
+        else if (title == "DAMAGEEND") Input::damageEndRange = pair;
+        else if (title == "FIRERATE") Input::fireRateRange = pair;
+        else if (title == "PELLETS") Input::pelletRange = pair;
+        else if (title == "SPREADAIM") Input::spreadAimRange = pair;
+        else if (title == "SPREADHIP") Input::spreadHipRange = pair;
+        else if (title == "RECOILAIM") Input::recoilAimRange = pair;
+        else if (title == "RECOILHIP") Input::recoilHipRange = pair;
+        else if (title == "HEALTH") Input::healthRange = pair;
+        else if (title == "RANGE") Input::dropoffStudsRange = pair;
+        else if (title == "RANGEEND") Input::dropoffStudsEndRange = pair;
+        else if (title == "DETECTIONRADIUS") Input::detectionRadiusRange = pair;
+        else if (title == "TIMETOAIM") Input::timeToAimRange = pair;
+        else if (title == "EQUIPTIME") Input::equipTimeRange = pair;
+        else if (title == "BURST") Input::burstRange = pair;
+        else if (title == "SPEED") Input::movementSpeedRange = pair;
+        else if (title == "MAGAZINESIZE") Input::magazineRange = pair;
+        else if (title == "RELOAD") Input::reloadRange = pair;
+        else if (title == "DPS") Input::DPSRange = pair;
+        else throw std::invalid_argument("Invalid filter: " + title);
     }
 }
 
@@ -349,19 +302,12 @@ EMSCRIPTEN_BINDINGS(types)
     emscripten::register_vector<std::string>("VectorString");
 }
 
-EMSCRIPTEN_BINDINGS(clear) 
+EMSCRIPTEN_BINDINGS(util) 
 {
     emscripten::function("Clear", &Clear::Clear);
-}
-
-EMSCRIPTEN_BINDINGS(intializer) 
-{
-   emscripten::function("InitDataset", &InitDataset);
-}
-
-EMSCRIPTEN_BINDINGS(run) 
-{
+    emscripten::function("InitDataset", &InitDataset);
     emscripten::function("RunCalc", &RunCalc);
+    emscripten::function("GetVersion", &GetVersion);
 }
 
 EMSCRIPTEN_BINDINGS(setup) 

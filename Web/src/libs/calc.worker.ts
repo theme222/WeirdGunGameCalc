@@ -5,7 +5,7 @@ import { type FilterItem } from './types.js';
 import { filterAndSortStrings } from './filter.const.js';
 
 function sortTypeJSToWasm(sortType: string): string {
-  const WasmSortList = [
+  const wasmSortList = [
     'TTK',
     'DAMAGE',
     'DAMAGEEND',
@@ -20,6 +20,7 @@ function sortTypeJSToWasm(sortType: string): string {
     'RANGEEND',
     'DETECTIONRADIUS',
     'TIMETOAIM',
+    'EQUIPTIME',
     'BURST',
     'SPEED',
     'MAGAZINESIZE',
@@ -27,7 +28,7 @@ function sortTypeJSToWasm(sortType: string): string {
     'DPS',
   ];
   
-  return WasmSortList[filterAndSortStrings.indexOf(sortType)!]!;
+  return wasmSortList[filterAndSortStrings.indexOf(sortType)]!;
 }
 
 function sortPriorityJSToWasm(priority: string): string  {
@@ -153,7 +154,7 @@ self.onmessage = async (e) => {
       }
       console.log(filter, minValue, maxValue)
       
-      await WasmCalc.addFilterRange(filter.title, filter.writeable.selectedOption as string, minValue, maxValue);
+      await WasmCalc.addFilterRange(sortTypeJSToWasm(filter.title), filter.writeable.selectedOption as string, minValue, maxValue);
     }
     else if (filter.filterType === "stringarr")
       await WasmCalc.addFilterForceBan(filter.title, filter.writeable.value as string[]);

@@ -16,7 +16,7 @@
 // #include <variant>
 // #include <iomanip>
 
-// COMPILATION TARGETS: EMSCRIPTEN, WINDOWS, LINUX
+// COMPILATION TARGETS: WASM, WINDOWS, LINUX
 
 #ifndef __WGGCALC_HPP__
 #define __WGGCALC_HPP__
@@ -42,7 +42,7 @@ namespace Input
     inline std::filesystem::path fileDir = "Data";
     inline std::string outpath = "Results.txt";
     #endif
-    
+
     inline std::string sortType = "TTK";
     inline std::string method = "DYNAMICPRUNE";
     inline std::string sortPriority = "AUTO"; // HIGHEST, LOWEST, AUTO
@@ -79,11 +79,11 @@ namespace Input
     #else
     inline uint64_t threadsToMake = std::clamp(std::thread::hardware_concurrency(), 1u, 64u);
     #endif
-    
+
     inline uint64_t howManyTopGunsToDisplay = 10;
     inline int playerMaxHealth = 100;
 
-    const int TOTALFILTERCOUNT = 19;
+    const int TOTALFILTERCOUNT = 20;
     inline fpair damageRange = NILRANGE;
     inline fpair damageEndRange = NILRANGE;
     inline fpair magazineRange = NILRANGE;
@@ -96,6 +96,7 @@ namespace Input
     inline fpair healthRange = NILRANGE;
     inline fpair pelletRange = NILRANGE;
     inline fpair timeToAimRange = NILRANGE;
+    inline fpair equipTimeRange = NILRANGE;
     inline fpair reloadRange = NILRANGE;
     inline fpair detectionRadiusRange = NILRANGE;
     inline fpair dropoffStudsRange = NILRANGE;
@@ -134,7 +135,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     inline bool isPrimaryCategory(int category_fast) { return category_fast < Fast::primaryCategoryCount; }
     inline bool isSecondaryCategory(int category_fast) { return category_fast >= Fast::primaryCategoryCount; }
-    
+
     // 0: core, 1: magazine, 2: barrel, 3: stock, 4: grip
     inline std::vector<bool> forceParts_fast[5];
     inline std::vector<bool> banParts_fast[5];
@@ -149,9 +150,9 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     inline multiFlags banPriceType_fast = 0;
 
-    const int TOTALMULTFLAGS = 20;
-    const int TOTALPROPERTYFLAGS = 20;
-    const int TOTALPARTFLAGS = 14;
+    const int TOTALMULTFLAGS = 21;
+    const int TOTALPROPERTYFLAGS = 21;
+    const int TOTALPARTFLAGS = 15;
     enum MultFlags {
         DAMAGE = 1<<0, // Part property
         DAMAGEEND = 1<<1, // Gun property exclusive
@@ -161,29 +162,30 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         MAGAZINESIZE = 1<<5, // Can't be modified // Magazine property
         FIRERATE = 1<<6, // Part property
         TIMETOAIM = 1<<7, // Can't be modified // Core property
-        MOVEMENTSPEEDMODIFIER = 1<<8, // Part property
-        SPREADAIM = 1<<9, // Part property (spread)
-        SPREADHIP = 1<<10, // Part property (spread)
-        RECOILAIM = 1<<11, // Part property (recoil)
-        RECOILHIP = 1<<12, // Part property (recoil)
-        PELLETS = 1<<13, // Part property
-        HEALTH = 1<<14, // Part property
-        DETECTIONRADIUS = 1<<15, // Part property
-        FALLOFFFACTOR = 1<<16, // Can't be filtered // Part property (range)
-        BURST = 1<<17, // Can't be modified // Core property
-        TTK = 1<<18, // Gun property exclusive
-        DPS = 1<<19, // Gun property exclusive
+        EQUIPTIME = 1<<8, // Part property
+        MOVEMENTSPEED = 1<<9, // Part property
+        SPREADAIM = 1<<10, // Part property (spread)
+        SPREADHIP = 1<<11, // Part property (spread)
+        RECOILAIM = 1<<12, // Part property (recoil)
+        RECOILHIP = 1<<13, // Part property (recoil)
+        PELLETS = 1<<14, // Part property
+        HEALTH = 1<<15, // Part property
+        DETECTIONRADIUS = 1<<16, // Part property
+        FALLOFFFACTOR = 1<<17, // Can't be filtered // Part property (range)
+        BURST = 1<<18, // Can't be modified // Core property
+        TTK = 1<<19, // Gun property exclusive
+        DPS = 1<<20, // Gun property exclusive
     };
 
     constexpr bool MoreIsBetter(MultFlags propertyFlag)
     {
-        static_assert(TOTALMULTFLAGS == 20, "MoreIsBetter must be updated to contain all flags");
+        static_assert(TOTALMULTFLAGS == 21, "MoreIsBetter must be updated to contain all flags");
         switch (propertyFlag)
         {
             case DAMAGE:
             case DAMAGEEND:
             case DPS:
-            case MOVEMENTSPEEDMODIFIER:
+            case MOVEMENTSPEED:
             case HEALTH:
             case FIRERATE:
             case PELLETS:
@@ -194,12 +196,13 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
                 return true;
             case TTK:
             case RELOAD:
+            case SPREADHIP:
             case RECOILAIM:
             case RECOILHIP:
             case SPREADAIM:
-            case SPREADHIP:
-            case DETECTIONRADIUS:
             case TIMETOAIM:
+            case EQUIPTIME:
+            case DETECTIONRADIUS:
             case BURST: // Debatable but I gotta pick something. (Only applies during sorting not a property that gets modified)
                 return false;
             default:
@@ -215,7 +218,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     constexpr PropertyType GetPropertyType(MultFlags flag)
     {
-        static_assert(TOTALMULTFLAGS == 20, "PropertyType must be updated to contain all flags");
+        static_assert(TOTALMULTFLAGS == 21, "PropertyType must be updated to contain all flags");
         switch (flag)
         {
             //// non trivial / non-applicable / not on part properties ////
@@ -224,7 +227,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             case DPS:
             case DAMAGEEND:
             // Unchangeable //
-            case MAGAZINESIZE:
+            case MAGAZINESIZE: // TODO THEY BOUTA CHANGE THIS ONE
             case TIMETOAIM:
             case BURST:
                 return NONAPPLICABLE;
@@ -241,10 +244,11 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             case SPREADHIP:
             case RECOILAIM:
             case RECOILHIP:
+            case EQUIPTIME:
                 return MULTIPLIER;
             //// adders ////
             case HEALTH:
-            case MOVEMENTSPEEDMODIFIER:
+            case MOVEMENTSPEED:
                 return ADDER;
             default:
                 throw std::invalid_argument("Invalid property flag");
@@ -427,6 +431,7 @@ public:
     float timeToAim = 0;
     float movementSpeedModifier = 0;
     float health = 0;
+    float equipTime = 0;
     float pellets = 1;
     float burst = 1;
     float detectionRadius = 0;
@@ -441,8 +446,8 @@ public:
         category_fast = Fast::fastifyCategory[category];
         if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
         name_fast = Fast::fastifyName[name];
-        
-        if (jsonObject.contains("Price_Type")) 
+
+        if (jsonObject.contains("Price_Type"))
         {
             if (jsonObject["Price_Type"] == "Coin" || jsonObject["Price_Type"] == "Free") // I had to pick something
                 priceType_fast = Fast::COIN;
@@ -453,7 +458,7 @@ public:
             else
                 priceType_fast = Fast::SPECIAL;
         }
-    
+
         // Second damage stat will now be calculated using the falloff factor since range stat effects that
         if (!jsonObject.contains("Damage"))
             {}
@@ -461,18 +466,18 @@ public:
             damage = jsonObject["Damage"][0];
         else
             damage = jsonObject["Damage"];
-    
+
         if (jsonObject.contains("Dropoff_Studs"))
         {
             dropoffStuds.first = jsonObject["Dropoff_Studs"][0];
             dropoffStuds.second = jsonObject["Dropoff_Studs"][1];
         }
-    
+
         if (jsonObject.contains("Falloff_Factor")) // Falloff_Factor is not a publicly available property so there only exists data from #update-log channel on discord
             falloffFactor = jsonObject["Falloff_Factor"];
         else if (jsonObject.contains("Damage") && jsonObject["Damage"].is_array())
             falloffFactor = ((float)jsonObject["Damage"][1] - (float)jsonObject["Damage"][0]) / (float)jsonObject["Damage"][0];
-    
+
         if (jsonObject.contains("Fire_Rate"))
             fireRate = jsonObject["Fire_Rate"];
         if (jsonObject.contains("Hipfire_Spread"))
@@ -491,7 +496,9 @@ public:
             detectionRadius = jsonObject["Detection_Radius"];
         if (jsonObject.contains("Health"))
             health = jsonObject["Health"];
-    
+        if (jsonObject.contains("Equip_Time"))
+            equipTime = jsonObject["Equip_Time"];
+
         if (jsonObject.contains("Recoil_Hip_Horizontal"))
         {
             recoilHipHorizontal.first = jsonObject["Recoil_Hip_Horizontal"][0];
@@ -532,6 +539,7 @@ public:
     float reloadSpeed = 0;
     float movementSpeed = 0;
     float health = 0;
+    float equipTime = 0;
     float pellets = 0;
     float detectionRadius = 0;
     float range = 0;
@@ -562,6 +570,7 @@ public:
         part.spread = 1;
         part.recoil = 1;
         part.reloadSpeed = 1;
+        part.equipTime = 1;
         part.pellets = 1;
         part.detectionRadius = 1;
         part.range = 1;
@@ -574,40 +583,27 @@ public:
         category_fast = Fast::fastifyCategory[category];
         if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
         name_fast = Fast::fastifyName[name];
-    
-        
-        if (jsonObject.contains("Price_Type")) 
+
+
+        if (jsonObject.contains("Price_Type"))
         {
-            if (jsonObject["Price_Type"] == "Coin")
-                priceType_fast = Fast::COIN;
-            else if (jsonObject["Price_Type"] == "WC")
-                priceType_fast = Fast::WC;
-            else if (jsonObject["Price_Type"] == "Robux")
-                priceType_fast = Fast::ROBUX;
-            else
-                priceType_fast = Fast::SPECIAL;
+            if (jsonObject["Price_Type"] == "Coin") priceType_fast = Fast::COIN;
+            else if (jsonObject["Price_Type"] == "WC") priceType_fast = Fast::WC;
+            else if (jsonObject["Price_Type"] == "Robux") priceType_fast = Fast::ROBUX;
+            else priceType_fast = Fast::SPECIAL;
         }
-        
-        if (jsonObject.contains("Damage"))
-            damage = jsonObject["Damage"];
-        if (jsonObject.contains("Fire_Rate"))
-            fireRate = jsonObject["Fire_Rate"];
-        if (jsonObject.contains("Spread"))
-            spread = jsonObject["Spread"];
-        if (jsonObject.contains("Recoil"))
-            recoil = jsonObject["Recoil"];
-        if (jsonObject.contains("Pellets"))
-            pellets = jsonObject["Pellets"];
-        if (jsonObject.contains("Movement_Speed"))
-            movementSpeed = jsonObject["Movement_Speed"];
-        if (jsonObject.contains("Reload_Speed"))
-            reloadSpeed = jsonObject["Reload_Speed"];
-        if (jsonObject.contains("Health"))
-            health = jsonObject["Health"];
-        if (jsonObject.contains("Detection_Radius"))
-            detectionRadius = jsonObject["Detection_Radius"];
-        if (jsonObject.contains("Range"))
-            range = jsonObject["Range"];
+
+        if (jsonObject.contains("Damage")) damage = jsonObject["Damage"];
+        if (jsonObject.contains("Fire_Rate")) fireRate = jsonObject["Fire_Rate"];
+        if (jsonObject.contains("Spread")) spread = jsonObject["Spread"];
+        if (jsonObject.contains("Recoil")) recoil = jsonObject["Recoil"];
+        if (jsonObject.contains("Equip_Time")) equipTime = jsonObject["Equip_Time"];
+        if (jsonObject.contains("Pellets")) pellets = jsonObject["Pellets"];
+        if (jsonObject.contains("Movement_Speed")) movementSpeed = jsonObject["Movement_Speed"];
+        if (jsonObject.contains("Reload_Speed")) reloadSpeed = jsonObject["Reload_Speed"];
+        if (jsonObject.contains("Health")) health = jsonObject["Health"];
+        if (jsonObject.contains("Detection_Radius")) detectionRadius = jsonObject["Detection_Radius"];
+        if (jsonObject.contains("Range")) range = jsonObject["Range"];
     }
 
 
@@ -623,6 +619,7 @@ public:
             sameName = true;
         }
 
+        static_assert(Fast::TOTALPARTFLAGS == 15, "ApplyPenalty must be updated to contain all part flags");
         if ((damage > 0 && MoreIsBetter(DAMAGE)) || (damage < 0 && !MoreIsBetter(DAMAGE)) || sameName)
             damage *= penalty;
         if ((fireRate > 0 && MoreIsBetter(FIRERATE)) || (fireRate < 0 && !MoreIsBetter(FIRERATE)) || sameName)
@@ -633,7 +630,7 @@ public:
             recoil *= penalty;
         if ((reloadSpeed > 0 && MoreIsBetter(RELOAD)) || (reloadSpeed < 0 && !MoreIsBetter(RELOAD)) || sameName)
             reloadSpeed *= penalty;
-        if ((movementSpeed > 0 && MoreIsBetter(MOVEMENTSPEEDMODIFIER)) || (movementSpeed < 0 && !MoreIsBetter(MOVEMENTSPEEDMODIFIER)) || sameName)
+        if ((movementSpeed > 0 && MoreIsBetter(MOVEMENTSPEED)) || (movementSpeed < 0 && !MoreIsBetter(MOVEMENTSPEED)) || sameName)
             movementSpeed *= penalty;
         if ((health > 0 && MoreIsBetter(HEALTH)) || (health < 0 && !MoreIsBetter(HEALTH)) || sameName)
             health *= penalty;
@@ -648,7 +645,7 @@ public:
 
     virtual float GetMult(Fast::MultFlags multFlag) const
     {
-        static_assert(Fast::TOTALPARTFLAGS == 14, "GetMult must be updated to contain all part flags");
+        static_assert(Fast::TOTALPARTFLAGS == 15, "GetMult must be updated to contain all part flags");
         using namespace Fast;
         switch(multFlag)
         {
@@ -664,10 +661,12 @@ public:
                 return recoil;
             case RELOAD:
                 return reloadSpeed;
-            case MOVEMENTSPEEDMODIFIER:
+            case MOVEMENTSPEED:
                 return movementSpeed;
             case HEALTH:
                 return health;
+            case EQUIPTIME:
+                return equipTime;
             case PELLETS:
                 return pellets;
             case DETECTIONRADIUS:
@@ -689,8 +688,7 @@ class Barrel : public Part
 public:
     Barrel() = default;
     Barrel(const json &jsonObject) : Part(jsonObject)
-    {
-    }
+    { }
 };
 
 class Magazine : public Part
@@ -710,7 +708,7 @@ public:
 
     float GetMult(Fast::MultFlags multFlag) const override
     {
-        if (multFlag == Fast::MAGAZINESIZE) throw std::runtime_error("Magazine size cannot get mult");
+        if (multFlag == Fast::MAGAZINESIZE) throw std::runtime_error("Magazine size cannot get mult"); // TODO THIS MIGHT ALSO CHANGE
         return Part::GetMult(multFlag);
     }
 };
@@ -720,8 +718,7 @@ class Grip : public Part
 public:
     Grip() = default;
     Grip(const json &jsonObject) : Part(jsonObject)
-    {
-    }
+    { }
 };
 
 class Stock : public Part
@@ -729,8 +726,7 @@ class Stock : public Part
 public:
     Stock() = default;
     Stock(const json &jsonObject) : Part(jsonObject)
-    {
-    }
+    { }
 };
 
 
@@ -754,6 +750,7 @@ public:
     float health;
     float fireRate;
     float timeToAim;
+    float equipTime;
     float movementSpeedModifier;
     float hipfireSpread;
     float adsSpread;
@@ -773,52 +770,32 @@ public:
 
     float GetProperty(Fast::MultFlags propertyFlag) const
     {
-        static_assert(Fast::TOTALPROPERTYFLAGS == 20, "GetProperty must be updated to contain all property flags");
+        static_assert(Fast::TOTALPROPERTYFLAGS == 21, "GetProperty must be updated to contain all property flags");
 
         switch (propertyFlag)
         {
-            case Fast::DAMAGE:
-                return damage;
-            case Fast::DAMAGEEND:
-                return damageEnd();
-            case Fast::DROPOFFSTUDS:
-                return dropoffStuds.first;
-            case Fast::DROPOFFSTUDSEND:
-                return dropoffStuds.second;
-            case Fast::RELOAD:
-                return reloadTime;
-            case Fast::MAGAZINESIZE:
-                return magazineSize;
-            case Fast::FIRERATE:
-                return fireRate;
-            case Fast::TIMETOAIM:
-                return timeToAim;
-            case Fast::MOVEMENTSPEEDMODIFIER:
-                return movementSpeedModifier;
-            case Fast::SPREADAIM:
-                return adsSpread;
-            case Fast::SPREADHIP:
-                return hipfireSpread;
-            case Fast::RECOILAIM:
-                return recoilAimVertical.second;
-            case Fast::RECOILHIP:
-                return recoilHipVertical.second;
-            case Fast::PELLETS:
-                return pellets;
-            case Fast::HEALTH:
-                return health;
-            case Fast::DETECTIONRADIUS:
-                return detectionRadius;
-            case Fast::FALLOFFFACTOR:
-                return falloffFactor;
-            case Fast::BURST:
-                return burst;
-            case Fast::TTK:
-                return TTKM();
-            case Fast::DPS:
-                return DPM(); // this looks so dumb xd
-            default:
-                throw std::invalid_argument("Invalid property flag");
+            case Fast::DAMAGE: return damage;
+            case Fast::DAMAGEEND: return damageEnd();
+            case Fast::DROPOFFSTUDS: return dropoffStuds.first;
+            case Fast::DROPOFFSTUDSEND: return dropoffStuds.second;
+            case Fast::RELOAD: return reloadTime;
+            case Fast::MAGAZINESIZE: return magazineSize;
+            case Fast::FIRERATE: return fireRate;
+            case Fast::TIMETOAIM: return timeToAim;
+            case Fast::EQUIPTIME: return equipTime;
+            case Fast::MOVEMENTSPEED: return movementSpeedModifier;
+            case Fast::SPREADAIM: return adsSpread;
+            case Fast::SPREADHIP: return hipfireSpread;
+            case Fast::RECOILAIM: return recoilAimVertical.second;
+            case Fast::RECOILHIP: return recoilHipVertical.second;
+            case Fast::PELLETS: return pellets;
+            case Fast::HEALTH: return health;
+            case Fast::DETECTIONRADIUS: return detectionRadius;
+            case Fast::FALLOFFFACTOR: return falloffFactor;
+            case Fast::BURST: return burst;
+            case Fast::TTK: return TTKM();
+            case Fast::DPS: return DPM(); // this looks so dumb xd
+            default: throw std::invalid_argument("Invalid property flag");
         }
     }
 
@@ -840,15 +817,17 @@ public:
     // Core and magazine copy functions are seperated for prune algorithm
     void CopyCoreValues(multiFlags flags)
     {
+        static_assert(Fast::TOTALPROPERTYFLAGS == 21, "CopyCoreValues must be updated to contain all property flags");
         using namespace Fast;
         if (flags & DAMAGE) damage = core->damage;
         if (flags & PELLETS) pellets = core->pellets;
         if (flags & BURST) burst = core->burst;
-        if (flags & DROPOFFSTUDS) dropoffStuds = core->dropoffStuds;
+        if (flags & (DROPOFFSTUDS | DROPOFFSTUDSEND)) dropoffStuds = core->dropoffStuds;
         if (flags & FALLOFFFACTOR) falloffFactor = core->falloffFactor;
         if (flags & FIRERATE) fireRate = core->fireRate;
         if (flags & TIMETOAIM) timeToAim = core->timeToAim;
-        if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier = core->movementSpeedModifier;
+        if (flags & EQUIPTIME) equipTime = core->equipTime;
+        if (flags & MOVEMENTSPEED) movementSpeedModifier = core->movementSpeedModifier;
         if (flags & HEALTH) health = core->health;
         if (flags & DETECTIONRADIUS) detectionRadius = core->detectionRadius;
         if (flags & SPREADAIM) adsSpread = core->adsSpread;
@@ -910,8 +889,9 @@ public:
             if (part == this->stock) damage *= 1 + ClampQuadratic(pellets, DAMAGE); // Extra mult for scope
         }
         if (flags & FIRERATE) fireRate *= GetPartialMult(FIRERATE, part, direct);
-        if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier += GetPartialAdd(MOVEMENTSPEEDMODIFIER, part, direct);
+        if (flags & MOVEMENTSPEED) movementSpeedModifier += GetPartialAdd(MOVEMENTSPEED, part, direct);
         if (flags & HEALTH) health += GetPartialAdd(HEALTH, part, direct);
+        if (flags & EQUIPTIME) equipTime *= GetPartialMult(EQUIPTIME, part, direct);
         if (flags & RELOAD) reloadTime *= GetPartialMult(RELOAD, part, direct);
         if (flags & DETECTIONRADIUS) detectionRadius *= GetPartialMult(DETECTIONRADIUS, part, direct);
 
@@ -927,12 +907,10 @@ public:
             hipfireSpread *= mult;
         }
 
-        if (flags & DROPOFFSTUDS)
-        {
-            dropoffStuds.first *= GetPartialMult(DROPOFFSTUDS, part, direct);
-            dropoffStuds.second *= GetPartialMult(DROPOFFSTUDS, part, direct);
-        }
+        if (flags & DROPOFFSTUDS) dropoffStuds.first *= GetPartialMult(DROPOFFSTUDS, part, direct);
+        if (flags & DROPOFFSTUDSEND) dropoffStuds.second *= GetPartialMult(DROPOFFSTUDSEND, part, direct);
         if (flags & FALLOFFFACTOR) falloffFactor *= GetPartialFalloff(FALLOFFFACTOR, part, direct);
+
         if (flags & RECOILHIP)
         {
             float recoilMult = GetPartialMult(RECOILHIP, part, direct);
@@ -1040,8 +1018,9 @@ public:
             damage *= mult;
         }
         if (flags & FIRERATE) fireRate *= GetTotalMult(FIRERATE, direct);
-        if (flags & MOVEMENTSPEEDMODIFIER) movementSpeedModifier += GetTotalAdd(MOVEMENTSPEEDMODIFIER, direct);
+        if (flags & MOVEMENTSPEED) movementSpeedModifier += GetTotalAdd(MOVEMENTSPEED, direct);
         if (flags & HEALTH) health += GetTotalAdd(HEALTH, direct);
+        if (flags & EQUIPTIME) equipTime *= GetTotalMult(EQUIPTIME, direct);
         if (flags & RELOAD) reloadTime *= GetTotalMult(RELOAD, direct);
         if (flags & DETECTIONRADIUS) detectionRadius *= GetTotalMult(DETECTIONRADIUS, direct);
         if ((flags & (SPREADAIM | SPREADHIP)))
@@ -1062,11 +1041,8 @@ public:
             adsSpread *= mult;
             hipfireSpread *= mult;
         }
-        if (flags & DROPOFFSTUDS)
-        {
-            dropoffStuds.first *= GetTotalMult(DROPOFFSTUDS, direct);
-            dropoffStuds.second *= GetTotalMult(DROPOFFSTUDS, direct);
-        }
+        if (flags & DROPOFFSTUDS) dropoffStuds.first *= GetTotalMult(DROPOFFSTUDS, direct);
+        if (flags & DROPOFFSTUDSEND) dropoffStuds.second *= GetTotalMult(DROPOFFSTUDSEND, direct);
         if (flags & FALLOFFFACTOR) falloffFactor *= GetTotalFalloff(FALLOFFFACTOR, direct);
         if (flags & RECOILHIP)
         {
@@ -1096,113 +1072,6 @@ public:
         CalculateGunStats(ALLMULTFLAG, false);
     }
 };
-
-
-inline std::ostream &operator<<(std::ostream &os, const fpair &fp)
-{
-    os << fp.first << " - " << fp.second;
-    return os;
-}
-
-inline std::ostream &operator<<(std::ostream &os, const Gun &gun)
-{
-    using Input::detailed;
-    std::string barrelName = gun.barrel ? gun.barrel->name : "None";
-    std::string magazineName = gun.magazine ? gun.magazine->name : "None";
-    std::string gripName = gun.grip ? gun.grip->name : "None";
-    std::string stockName = gun.stock ? gun.stock->name : "None";
-    std::string coreName = gun.core ? gun.core->name : "None";
-
-    os << "[ Barrel: " << barrelName << ", Magazine: " << magazineName << ", Grip: " << gripName << ", Stock: " << stockName << ", Core: " << coreName << " ]\n";
-    os << "damage: " << gun.damage << " - " << gun.damageEnd() << "\n";
-    os << "dropoffStuds: " << gun.dropoffStuds << "\n";
-    if (Input::detailed) os << "falloffFactor: " << gun.falloffFactor << "\n";
-    if (gun.pellets != 1 || Input::detailed) os << "pellets: " << gun.pellets << "\n";
-    if (gun.burst != 1 || Input::detailed) os << "burst: " << gun.burst << "\n";
-    if (Input::timeToAimRange != fpair(NILRANGE) || Input::detailed) os << "timeToAim: " << gun.timeToAim << "\n";
-    os << "fireRate: " << gun.fireRate << "\n";
-    os << "adsSpread: " << gun.adsSpread << "\n";
-    os << "hipfireSpread: " << gun.hipfireSpread << "\n";
-    os << "reloadTime: " << gun.reloadTime << "\n";
-    os << "magazineSize: " << gun.magazineSize << "\n";
-    if (gun.health != 0 || Input::detailed) os << "health: " << gun.health << "\n";
-    os << "recoilHipVertical: " << gun.recoilHipVertical << "\n";
-    os << "recoilAimVertical: " << gun.recoilAimVertical << "\n";
-    if (gun.movementSpeedModifier != 0 || Input::detailed) os << "movementSpeed: " << gun.movementSpeedModifier << "\n";
-    if (Input::detectionRadiusRange != fpair(NILRANGE) || Input::detailed) os << "detectionRadius: " << gun.detectionRadius << "\n";
-    if (gun.TTKS() != 0 || Input::detailed) os << "TTK: " << gun.TTKS() << " Seconds\n";
-    if (Input::sortType == "DPS" || Input::detailed) os << "DPS: " << gun.DPS() << "\n";
-    return os;
-}
-
-inline std::ostream &operator<<(std::ostream &os, const Part &part)
-{
-    os << "Name: " << part.name << "\n"
-       << "Damage: " << part.damage << "\n"
-       << "Range: " << part.range << "\n"
-       << "Fire Rate: " << part.fireRate << "\n"
-       << "Spread: " << part.spread << "\n"
-       << "Recoil: " << part.recoil << "\n"
-       << "Movement Speed: " << part.movementSpeed << "\n"
-       << "Reload Speed: " << part.reloadSpeed << "\n"
-       << "Health: " << part.health << "\n"
-       << "Pellets: " << part.pellets << "\n"
-       << "Detection Radius: " << part.detectionRadius << "\n"
-       << "Falloff Factor: " << part.rangeFalloff << "\n";
-    return os;
-}
-
-inline std::ostream &operator<<(std::ostream &os, const std::pair<Part, Part> &pair)
-{
-    os << pair.first << "\n"
-       << pair.second << "\n";
-    return os;
-}
-
-inline Part operator*(Part part1, Part part2) // Used in highlow
-{
-    part1.damage *= part2.damage;
-    part1.fireRate *= part2.fireRate;
-    part1.spread *= part2.spread;
-    part1.recoil *= part2.recoil;
-    part1.movementSpeed += part2.movementSpeed;
-    part1.reloadSpeed *= part2.reloadSpeed;
-    part1.health += part2.health;
-    part1.pellets *= part2.pellets;
-    part1.detectionRadius *= part2.detectionRadius;
-    part1.range *= part2.range;
-    part1.rangeFalloff *= part2.rangeFalloff;
-    return part1;
-}
-
-
-namespace Data // Contains the real information read from FullData.json
-{
-    // This is now a uint64_t so I don't need to typecast it the moment I try to multiply these things together.
-    inline uint64_t barrelCount;
-    inline uint64_t magazineCount;
-    inline uint64_t gripCount;
-    inline uint64_t stockCount;
-    inline uint64_t coreCount;
-
-    inline std::vector<Barrel> barrelList;
-    inline std::vector<Magazine> magazineList;
-    inline std::vector<Grip> gripList;
-    inline std::vector<Stock> stockList;
-    inline std::vector<Core> coreList;
-
-    // template<typename T>
-    // inline T& GetPartByName(std::string& name, std::vector<T>& list) // Basic linear search
-    // {
-    //     int fastName = Fast::fastifyName[name];
-    //     for (T& part : list)
-    //         if (part.name_fast == fastName)
-    //             return part;
-    //     throw std::runtime_error("Part not found");
-    // }
-}
-
-inline uint64_t totalCombinations;
 
 namespace PQ
 {
@@ -1261,7 +1130,7 @@ namespace PQ
     {
         std::string type = Input::sortType;
         using namespace Fast;
-        static_assert(Fast::TOTALPROPERTYFLAGS == 20, "InitializeCurrentSortingType must be updated to contain all property flags");
+        static_assert(Fast::TOTALPROPERTYFLAGS == 21, "InitializeCurrentSortingType must be updated to contain all property flags");
         if (type == "TTK") currentSortingType = TTK;
         else if (type == "DAMAGE") currentSortingType = DAMAGE;
         else if (type == "DAMAGEEND") currentSortingType = DAMAGEEND;
@@ -1276,8 +1145,9 @@ namespace PQ
         else if (type == "RANGEEND") currentSortingType = DROPOFFSTUDSEND;
         else if (type == "DETECTIONRADIUS") currentSortingType = DETECTIONRADIUS;
         else if (type == "TIMETOAIM") currentSortingType = TIMETOAIM;
+        else if (type == "EQUIPTIME") currentSortingType = EQUIPTIME;
         else if (type == "BURST") currentSortingType = BURST;
-        else if (type == "SPEED") currentSortingType = MOVEMENTSPEEDMODIFIER;
+        else if (type == "SPEED") currentSortingType = MOVEMENTSPEED;
         else if (type == "MAGAZINE") currentSortingType = MAGAZINESIZE;
         else if (type == "RELOAD") currentSortingType = RELOAD;
         else if (type == "DPS") currentSortingType = DPS;
@@ -1292,6 +1162,105 @@ namespace PQ
 
 }
 
+inline std::ostream &operator<<(std::ostream &os, const fpair &fp)
+{
+    os << fp.first << " - " << fp.second;
+    return os;
+}
+
+inline std::ostream &operator<<(std::ostream &os, const Gun &gun)
+{
+    using Input::detailed;
+    std::string barrelName = gun.barrel ? gun.barrel->name : "None";
+    std::string magazineName = gun.magazine ? gun.magazine->name : "None";
+    std::string gripName = gun.grip ? gun.grip->name : "None";
+    std::string stockName = gun.stock ? gun.stock->name : "None";
+    std::string coreName = gun.core ? gun.core->name : "None";
+
+    os << "[ Barrel: " << barrelName << ", Magazine: " << magazineName << ", Grip: " << gripName << ", Stock: " << stockName << ", Core: " << coreName << " ]\n";
+    os << "damage: " << gun.damage << " - " << gun.damageEnd() << "\n";
+    os << "dropoffStuds: " << gun.dropoffStuds << "\n";
+    if (detailed) os << "falloffFactor: " << gun.falloffFactor << "\n";
+    if (gun.pellets != 1 || detailed) os << "pellets: " << gun.pellets << "\n";
+    if (gun.burst != 1 || detailed) os << "burst: " << gun.burst << "\n";
+    if (Input::timeToAimRange != NILRANGE_P || PQ::currentSortingType == Fast::TIMETOAIM || detailed) os << "timeToAim: " << gun.timeToAim << "\n";
+    os << "fireRate: " << gun.fireRate << "\n";
+    os << "adsSpread: " << gun.adsSpread << "\n";
+    os << "hipfireSpread: " << gun.hipfireSpread << "\n";
+    os << "reloadTime: " << gun.reloadTime << "\n";
+    os << "magazineSize: " << gun.magazineSize << "\n";
+    if (Input::equipTimeRange != NILRANGE_P || PQ::currentSortingType == Fast::EQUIPTIME || detailed) os << "equipTime: " << gun.equipTime << "\n";
+    if (gun.health != 0 || detailed) os << "health: " << gun.health << "\n";
+    os << "recoilHipVertical: " << gun.recoilHipVertical << "\n";
+    os << "recoilAimVertical: " << gun.recoilAimVertical << "\n";
+    if (gun.movementSpeedModifier != 0 || detailed) os << "movementSpeed: " << gun.movementSpeedModifier << "\n";
+    if (Input::detectionRadiusRange != NILRANGE_P || PQ::currentSortingType == Fast::DETECTIONRADIUS || detailed) os << "detectionRadius: " << gun.detectionRadius << "\n";
+    if (gun.TTKS() != 0 || detailed) os << "TTK: " << gun.TTKS() << " Seconds\n";
+    if (Input::DPSRange != NILRANGE_P || PQ::currentSortingType == Fast::DPS || detailed) os << "DPS: " << gun.DPS() << "\n";
+    return os;
+}
+
+inline std::ostream &operator<<(std::ostream &os, const Part &part)
+{
+    os << "Name: " << part.name << "\n"
+       << "Damage: " << part.damage << "\n"
+       << "Range: " << part.range << "\n"
+       << "Fire Rate: " << part.fireRate << "\n"
+       << "Spread: " << part.spread << "\n"
+       << "Recoil: " << part.recoil << "\n"
+       << "Movement Speed: " << part.movementSpeed << "\n"
+       << "Reload Speed: " << part.reloadSpeed << "\n"
+       << "Health: " << part.health << "\n"
+       << "Equip Time: " << part.equipTime << "\n"
+       << "Pellets: " << part.pellets << "\n"
+       << "Detection Radius: " << part.detectionRadius << "\n"
+       << "Falloff Factor: " << part.rangeFalloff << "\n";
+    return os;
+}
+
+inline std::ostream &operator<<(std::ostream &os, const std::pair<Part, Part> &pair)
+{
+    os << pair.first << "\n"
+       << pair.second << "\n";
+    return os;
+}
+
+inline Part operator*(Part part1, Part part2) // Used in highlow
+{
+    part1.damage *= part2.damage;
+    part1.fireRate *= part2.fireRate;
+    part1.spread *= part2.spread;
+    part1.recoil *= part2.recoil;
+    part1.movementSpeed += part2.movementSpeed;
+    part1.reloadSpeed *= part2.reloadSpeed;
+    part1.health += part2.health;
+    part1.pellets *= part2.pellets;
+    part1.detectionRadius *= part2.detectionRadius;
+    part1.range *= part2.range;
+    part1.rangeFalloff *= part2.rangeFalloff;
+    return part1;
+}
+
+
+namespace Data // Contains the real information read from FullData.json
+{
+    // This is now a uint64_t so I don't need to typecast it the moment I try to multiply these things together.
+    inline uint64_t barrelCount;
+    inline uint64_t magazineCount;
+    inline uint64_t gripCount;
+    inline uint64_t stockCount;
+    inline uint64_t coreCount;
+
+    inline std::vector<Barrel> barrelList;
+    inline std::vector<Magazine> magazineList;
+    inline std::vector<Grip> gripList;
+    inline std::vector<Stock> stockList;
+    inline std::vector<Core> coreList;
+
+}
+
+inline uint64_t totalCombinations;
+
 namespace Filter
 {
     using namespace Fast;
@@ -1304,13 +1273,14 @@ namespace Filter
         if (Input::damageRange != NILRANGE_P) currentFlags |= DAMAGE | PELLETS;
         if (Input::damageEndRange != NILRANGE_P) currentFlags |= DAMAGE | PELLETS | FALLOFFFACTOR;
         if (Input::magazineRange != NILRANGE_P) currentFlags |= MAGAZINESIZE;
-        if (Input::movementSpeedRange != NILRANGE_P) currentFlags |= MOVEMENTSPEEDMODIFIER;
+        if (Input::movementSpeedRange != NILRANGE_P) currentFlags |= MOVEMENTSPEED;
         if (Input::spreadHipRange != NILRANGE_P) currentFlags |= SPREADHIP | PELLETS;
         if (Input::spreadAimRange != NILRANGE_P) currentFlags |= SPREADAIM | PELLETS;
         if (Input::recoilHipRange != NILRANGE_P) currentFlags |= RECOILHIP;
         if (Input::recoilAimRange != NILRANGE_P) currentFlags |= RECOILAIM;
         if (Input::fireRateRange != NILRANGE_P) currentFlags |= FIRERATE;
         if (Input::healthRange != NILRANGE_P) currentFlags |= HEALTH;
+        if (Input::equipTimeRange != NILRANGE_P) currentFlags |= EQUIPTIME;
         if (Input::reloadRange != NILRANGE_P) currentFlags |= RELOAD;
         if (Input::detectionRadiusRange != NILRANGE_P) currentFlags |= DETECTIONRADIUS;
         if (Input::dropoffStudsRange != NILRANGE_P) currentFlags |= DROPOFFSTUDS;
@@ -1320,7 +1290,7 @@ namespace Filter
         if (Input::DPSRange != NILRANGE_P) currentFlags |= DAMAGE | PELLETS | FIRERATE;
         if (Input::timeToAimRange != NILRANGE_P) currentFlags |= TIMETOAIM;
 
-        static_assert(Input::TOTALFILTERCOUNT == 19, "Update IntializeMultFlag");
+        static_assert(Input::TOTALFILTERCOUNT == 20, "Update IntializeMultFlag");
 
         switch (PQ::currentSortingType)
         {
@@ -1397,7 +1367,7 @@ namespace Filter
     inline bool FilterGunStatsOnRange(const Gun& gun)
     {
         using Fast::RangeFilter;
-        static_assert(Input::TOTALFILTERCOUNT == 19, "FilterGunStatsOnRange needs to be updated");
+        static_assert(Input::TOTALFILTERCOUNT == 20, "FilterGunStatsOnRange needs to be updated");
         if (!RangeFilter(gun.timeToAim, Input::timeToAimRange)) return false;
         if (!RangeFilter(gun.magazineSize, Input::magazineRange)) return false;
         if (!RangeFilter(gun.pellets, Input::pelletRange)) return false;
@@ -1410,6 +1380,7 @@ namespace Filter
         if (!RangeFilter(gun.movementSpeedModifier, Input::movementSpeedRange)) return false;
         if (!RangeFilter(gun.fireRate, Input::fireRateRange)) return false;
         if (!RangeFilter(gun.health, Input::healthRange)) return false;
+        if (!RangeFilter(gun.equipTime, Input::equipTimeRange)) return false;
         if (!RangeFilter(gun.reloadTime, Input::reloadRange)) return false;
         if (!RangeFilter(gun.detectionRadius, Input::detectionRadiusRange)) return false;
         if (!RangeFilter(gun.dropoffStuds.first, Input::dropoffStudsRange)) return false;
@@ -1484,13 +1455,15 @@ namespace DynamicPrune
         inline void SetHighLowParts(Gun& gun, Part* partToCheck, Part& lowestMultPart, Part& highestMultPart)
         {
             using namespace Fast;
+            static_assert(TOTALPARTFLAGS == 15, "update SetHighLowParts to contain all part flags");
             if (gun.GetPartialMult(DAMAGE, partToCheck, false) < lowestMultPart.damage) lowestMultPart.damage = gun.GetPartialMult(DAMAGE, partToCheck, false);
             if (gun.GetPartialMult(FIRERATE, partToCheck, false) < lowestMultPart.fireRate) lowestMultPart.fireRate = gun.GetPartialMult(FIRERATE, partToCheck, false);
             if (gun.GetPartialMult(SPREADAIM, partToCheck, false) < lowestMultPart.spread) lowestMultPart.spread = gun.GetPartialMult(SPREADAIM, partToCheck, false);
             if (gun.GetPartialMult(RECOILAIM, partToCheck, false) < lowestMultPart.recoil) lowestMultPart.recoil = gun.GetPartialMult(RECOILAIM, partToCheck, false);
             if (gun.GetPartialMult(RELOAD, partToCheck, false) < lowestMultPart.reloadSpeed) lowestMultPart.reloadSpeed = gun.GetPartialMult(RELOAD, partToCheck, false);
-            if (gun.GetPartialAdd(MOVEMENTSPEEDMODIFIER, partToCheck, false) < lowestMultPart.movementSpeed) lowestMultPart.movementSpeed = gun.GetPartialAdd(MOVEMENTSPEEDMODIFIER, partToCheck, false);
+            if (gun.GetPartialAdd(MOVEMENTSPEED, partToCheck, false) < lowestMultPart.movementSpeed) lowestMultPart.movementSpeed = gun.GetPartialAdd(MOVEMENTSPEED, partToCheck, false);
             if (gun.GetPartialAdd(HEALTH, partToCheck, false) < lowestMultPart.health) lowestMultPart.health = gun.GetPartialAdd(HEALTH, partToCheck, false);
+            if (gun.GetPartialMult(EQUIPTIME, partToCheck, false) < lowestMultPart.equipTime) lowestMultPart.equipTime = gun.GetPartialMult(EQUIPTIME, partToCheck, false);
             if (gun.GetPartialMult(PELLETS, partToCheck, false) < lowestMultPart.pellets) lowestMultPart.pellets = gun.GetPartialMult(PELLETS, partToCheck, false);
             if (gun.GetPartialMult(DETECTIONRADIUS, partToCheck, false) < lowestMultPart.detectionRadius) lowestMultPart.detectionRadius = gun.GetPartialMult(DETECTIONRADIUS, partToCheck, false);
             if (gun.GetPartialMult(DROPOFFSTUDS, partToCheck, false) < lowestMultPart.range) lowestMultPart.range = gun.GetPartialMult(DROPOFFSTUDS, partToCheck, false);
@@ -1501,8 +1474,9 @@ namespace DynamicPrune
             if (gun.GetPartialMult(SPREADAIM, partToCheck, false) > highestMultPart.spread) highestMultPart.spread = gun.GetPartialMult(SPREADAIM, partToCheck, false);
             if (gun.GetPartialMult(RECOILAIM, partToCheck, false) > highestMultPart.recoil) highestMultPart.recoil = gun.GetPartialMult(RECOILAIM, partToCheck, false);
             if (gun.GetPartialMult(RELOAD, partToCheck, false) > highestMultPart.reloadSpeed) highestMultPart.reloadSpeed = gun.GetPartialMult(RELOAD, partToCheck, false);
-            if (gun.GetPartialAdd(MOVEMENTSPEEDMODIFIER, partToCheck, false) > highestMultPart.movementSpeed) highestMultPart.movementSpeed = gun.GetPartialAdd(MOVEMENTSPEEDMODIFIER, partToCheck, false);
+            if (gun.GetPartialAdd(MOVEMENTSPEED, partToCheck, false) > highestMultPart.movementSpeed) highestMultPart.movementSpeed = gun.GetPartialAdd(MOVEMENTSPEED, partToCheck, false);
             if (gun.GetPartialAdd(HEALTH, partToCheck, false) > highestMultPart.health) highestMultPart.health = gun.GetPartialAdd(HEALTH, partToCheck, false);
+            if (gun.GetPartialMult(EQUIPTIME, partToCheck, false) > highestMultPart.equipTime) highestMultPart.equipTime = gun.GetPartialMult(EQUIPTIME, partToCheck, false);
             if (gun.GetPartialMult(PELLETS, partToCheck, false) > highestMultPart.pellets) highestMultPart.pellets = gun.GetPartialMult(PELLETS, partToCheck, false);
             if (gun.GetPartialMult(DETECTIONRADIUS, partToCheck, false) > highestMultPart.detectionRadius) highestMultPart.detectionRadius = gun.GetPartialMult(DETECTIONRADIUS, partToCheck, false);
             if (gun.GetPartialMult(DROPOFFSTUDS, partToCheck, false) > highestMultPart.range) highestMultPart.range = gun.GetPartialMult(DROPOFFSTUDS, partToCheck, false);
@@ -1576,7 +1550,7 @@ namespace DynamicPrune
     // Global variables shared across threads
     #ifdef __EMSCRIPTEN__
     // Emulating std::atomic methods because I can't be bothered to give a danm
-    class AtomicEmulator 
+    class AtomicEmulator
     {
         float value;
     public:
@@ -1766,9 +1740,10 @@ namespace DynamicPrune
         if (!ValueOffsetFilterMult(RECOILAIM, Input::recoilAimRange, gun, lowPPC, highPPC)) return false;
         if (!ValueOffsetFilterMult(RELOAD, Input::reloadRange, gun, lowPPC, highPPC) && gun.magazine != nullptr) return false;
         if (!ValueOffsetFilterMult(DETECTIONRADIUS, Input::detectionRadiusRange, gun, lowPPC, highPPC)) return false;
+        if (!ValueOffsetFilterMult(EQUIPTIME, Input::equipTimeRange, gun, lowPPC, highPPC)) return false;
         if (!ValueOffsetFilterMult(DROPOFFSTUDS, Input::dropoffStudsRange, gun, lowPPC, highPPC)) return false;
         if (!ValueOffsetFilterMult(DROPOFFSTUDSEND, Input::dropoffStudsEndRange, gun, lowPPC, highPPC)) return false;
-        if (!ValueOffsetFilterAdd(MOVEMENTSPEEDMODIFIER, Input::movementSpeedRange, gun, lowPPC, highPPC)) return false;
+        if (!ValueOffsetFilterAdd(MOVEMENTSPEED, Input::movementSpeedRange, gun, lowPPC, highPPC)) return false;
         if (!ValueOffsetFilterAdd(HEALTH, Input::healthRange, gun, lowPPC, highPPC)) return false;
         return true;
     }
@@ -2023,11 +1998,11 @@ namespace DynamicPrune
         for (int s = 0; s < stockCount + 1; s++)
         {
             Stock *stockPtr = args.stockList_penalized.data() + s;
-            if (Fast::isSecondaryCategory(args.currentCoreCat)) 
+            if (Fast::isSecondaryCategory(args.currentCoreCat))
             {
                 if (stockPtr->name_fast != Fast::fastifyNoneName()) continue;
             }
-            else 
+            else
             {
                 if (!Filter::StockFilter(stockPtr)) continue;
             }

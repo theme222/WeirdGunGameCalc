@@ -15,6 +15,7 @@ export const filterAndSortStrings = [
   'Range Stud End',
   'Detection Radius',
   'Time To Aim',
+  'Equip Time',
   'Burst',
   'Speed',
   'Magazine Size',
