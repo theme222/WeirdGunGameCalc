@@ -46,7 +46,7 @@ jobs:
           -s MODULARIZE=1 \
           -s EXPORT_NAME='createModule' \
           -s EXPORT_ES6=1 \
-          --emit-tsd wggcalc.d.ts \
+          --emit-tsd Web/src/libs/wggcalc.d.ts \
           -O3 -flto -Werror
 
       - name: Upload compiled files
@@ -71,7 +71,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: wasm-build-artifacts
-          path: .
+          path: ./Web
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
