@@ -1,4 +1,3 @@
-// @ts-ignore
 import createModule, { type EmbindModule as EmbindModule_WASM, type Gun as Gun_WASM, type fpair as fpair_WASM } from './wggcalc.js';
 import { fullData_STRING } from './data.js';
 import { type FilterItem, type fpair, Gun } from './types.js';
