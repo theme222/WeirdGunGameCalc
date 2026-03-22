@@ -35,3 +35,6 @@ coverage
 # Vitest
 __screenshots__/
 public/FullData.json
+
+
+src/libs/wggcalc*

@@ -1,7 +1,6 @@
 import { reactive, watch } from 'vue';
 import { addToast } from './toast';
 import { PARTNAMES } from './data';
-import { onFilterChange } from './calc';
 import type { Filter, FilterItem } from './types';
 import { categoryStrings, sortTypeOptions, filterAndSortStrings, numberRangeOptions } from './filter.const';
 
@@ -27,7 +26,7 @@ export const filterList: Filter[] = [
   { title: 'Ban Grip', filterType: 'stringarr', validStrings: PARTNAMES },
 ];
 
-function getFilterItem(title: string, writeableOverride?: FilterItem["writeable"]): FilterItem | undefined {
+export function getFilterItem(title: string, writeableOverride?: FilterItem["writeable"]): FilterItem | undefined {
   let index = null
   for (let i = 0; i < filterList.length; i++) {
     if (filterList[i]!.title === title) {
@@ -60,10 +59,6 @@ for (const filter of filterAndSortStrings) {
     filterType: 'numberrange',
     options: numberRangeOptions,
   });
-}
-
-function sortFilterList() {
-  
 }
 
 function getFiltersFromURL(): { list: FilterItem[] } {
@@ -157,7 +152,7 @@ watch(
     finalUrl = finalUrl.replace(/%2C/g, ',').replace(/%3A/g, ':');
     window.history.replaceState({}, '', finalUrl);
     
-    onFilterChange();
+
   },
   { deep: true }
 );

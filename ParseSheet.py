@@ -159,7 +159,7 @@ def ParsePartsv2(outputData):
                 "Category": currentCategory,
             }
     
-            propertyList = [
+            propertyList = [ # Call it Magazine_Cap when adding it.
                 "Magazine_Size",
                 "Reload_Time",
                 "Damage",

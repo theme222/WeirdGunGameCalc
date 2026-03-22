@@ -145,3 +145,24 @@ export function getAlertClass(color: string) {
       return 'alert-base-content';
   }
 }
+
+export function getTooltipClass(color: string) {
+  switch(color) {
+    case 'primary':
+      return 'tooltip-primary';
+    case 'secondary':
+      return 'tooltip-secondary';
+    case 'accent':
+      return 'tooltip-accent';
+    case 'info':
+      return 'tooltip-info';
+    case 'success':
+      return 'tooltip-success';
+    case 'warning':
+      return 'tooltip-warning';
+    case 'error':
+      return 'tooltip-error';
+    default:
+      return 'tooltip-base-content';
+  }
+}

@@ -1,4 +1,4 @@
-export const categoryStrings = ['AR', 'SMG', 'Sniper', 'BR', 'LMG', 'Shotgun', 'Sidearm', 'Weird'];
+export const categoryStrings = ['AR', 'SMG', 'Sniper', 'BR', 'LMG', 'Shotgun', 'Sidearm', 'Weird'] as const;
 
 export const filterAndSortStrings = [
   'TTK',
@@ -21,7 +21,8 @@ export const filterAndSortStrings = [
   'Magazine Size',
   'Reload Time',
   'DPS',
-];
+] as const;
 
-export const numberRangeOptions = ['min', 'max', 'from'];
-export const sortTypeOptions = ['Auto', 'Highest First', 'Lowest First'];
+
+export const numberRangeOptions = ['min', 'max', 'from'] as const;
+export const sortTypeOptions = ['Auto', 'Highest First', 'Lowest First'] as const;

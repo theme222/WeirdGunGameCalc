@@ -103,141 +103,152 @@ namespace Clear { // Define functions that will be used to clear filters and oth
     }
 }
 
-void InitDataset(std::string JSONString) // Initialize dataset and other non changing info
-{
-    Input::debug = DEBUG;
-    json fullDataJSON = json::parse(JSONString);
-    
-    json &categoriesJSON = fullDataJSON["Categories"];
-    json &dataJSON = fullDataJSON["Data"];
-    json &penaltiesJSON = fullDataJSON["Penalties"];
-
-    for (auto &[key, value] : categoriesJSON["Primary"].items())
-        Fast::fastifyCategory[key] = value;
-
-    for (auto &[key, value] : categoriesJSON["Secondary"].items())
-        Fast::fastifyCategory[key] = value;
-
-    Fast::categoryCount = Fast::fastifyCategory.size();
-    Fast::primaryCategoryCount = categoriesJSON["Primary"].size();
-    Fast::secondaryCategoryCount = categoriesJSON["Secondary"].size();
-
-    Data::barrelCount = dataJSON["Barrels"].size();
-    Data::barrelList.reserve(Data::barrelCount + 1);
-
-    for (json &element : dataJSON["Barrels"])
-        Data::barrelList.push_back(element);
-
-    Data::magazineCount = dataJSON["Magazines"].size();
-    Data::magazineList.reserve(Data::magazineCount + 1);
-
-    for (json &element : dataJSON["Magazines"])
-        Data::magazineList.push_back(element);
-
-    Data::gripCount = dataJSON["Grips"].size();
-    Data::gripList.reserve(Data::gripCount + 1);
-
-    for (json &element : dataJSON["Grips"])
-        Data::gripList.push_back(element);
-
-    Data::stockCount = dataJSON["Stocks"].size();
-    Data::stockList.reserve(Data::stockCount + 1);
-
-    for (json &element : dataJSON["Stocks"])
-        Data::stockList.push_back(element);
-
-    Data::coreCount = dataJSON["Cores"].size();
-    Data::coreList.reserve(Data::coreCount + 1);
-
-    for (json &element : dataJSON["Cores"])
-        Data::coreList.push_back(element);
-
-    // Add the "None" part for help with secondaries. The +1 to reserve is for "None" part
-    // Although it is not a part of the count because it isn't an actual part and I don't want it to be used in PRUNE or BRUTEFORCE.
-    // This was added to help with secondary weapons because they don't have a stock.
-    Data::barrelList.push_back(Part::ToNone(Barrel()));
-    Data::magazineList.push_back(Part::ToNone(Magazine()));
-    Data::gripList.push_back(Part::ToNone(Grip()));
-    Data::stockList.push_back(Part::ToNone(Stock()));
-
-    Fast::penalties.resize(Fast::categoryCount);
-    for (int i = 0; i < Fast::categoryCount; i++)
-        Fast::penalties[i].resize(Fast::categoryCount);
-
-    for (int i = 0; i < Fast::categoryCount; i++)
-        for (int j = 0; j < Fast::categoryCount; j++)
-            Fast::penalties[i][j] = penaltiesJSON[i][j];
-
-    puts("Initializing required data");
-
-    Fast::InitializeClampQuadratic();
-    DynamicPrune::HighLow::InitializeBestPossible();
-    DynamicPrune::HighLow::InitializeHighestAndLowestMultParts();
-}
-
-void RunCalc() 
-{
-    Input::FormatInputs();
-    PQ::InitializeCurrentSortingType();
-    Fast::InitializeCategoriesFBParts();
-    Filter::InitializeMultFlag();
-    DynamicPrune::InitializeThreshold();
-    
-    puts("Running calculator!");
-    std::cout << "Sorting " << Input::sortType << " by: " << (PQ::sortPriority ? "HIGHEST": "LOWEST") << '\n';
-
-    totalCombinations = Data::barrelCount * Data::magazineCount * Data::gripCount * Data::stockCount * Data::coreCount;
-    printf("Barrels detected: %" PRId64 ", Magazines detected: %" PRId64 ", Grips detected: %" PRId64 ", Stocks detected: %" PRId64 ", Cores detected: %" PRId64 "\n", Data::barrelCount, Data::magazineCount, Data::gripCount, Data::stockCount, Data::coreCount);
-    printf("Total of %" PRId64 " possibilities \n", totalCombinations);
-
-    DynamicPrune::Run(0);
-
-    uint64_t totalValidGuns = 0;
-    for (int i = 0; i < Input::threadsToMake; i++)
-        totalValidGuns += validGunInThread[i];
-    printf("Total valid gun combinations based on filters: %" PRId64 " / %" PRId64 "\n", totalValidGuns, Data::coreCount * Data::magazineCount * Data::barrelCount * Data::gripCount * Data::stockCount);
-
-    PQ::topGuns = PQ::AllSortPQ();
-
-    // Combine all thread pqs into topguns
-    for (int i = 0; i < Input::threadsToMake; i++)
+namespace Util {
+    void InitDataset(std::string JSONString) // Initialize dataset and other non changing info
     {
-        for (int j = 0; j < Input::howManyTopGunsToDisplay && !threadPQ[i].empty(); j++)
+        Input::debug = DEBUG;
+        json fullDataJSON = json::parse(JSONString);
+        
+        json &categoriesJSON = fullDataJSON["Categories"];
+        json &dataJSON = fullDataJSON["Data"];
+        json &penaltiesJSON = fullDataJSON["Penalties"];
+    
+        for (auto &[key, value] : categoriesJSON["Primary"].items())
+            Fast::fastifyCategory[key] = value;
+    
+        for (auto &[key, value] : categoriesJSON["Secondary"].items())
+            Fast::fastifyCategory[key] = value;
+    
+        Fast::categoryCount = Fast::fastifyCategory.size();
+        Fast::primaryCategoryCount = categoriesJSON["Primary"].size();
+        Fast::secondaryCategoryCount = categoriesJSON["Secondary"].size();
+    
+        Data::barrelCount = dataJSON["Barrels"].size();
+        Data::barrelList.reserve(Data::barrelCount + 1);
+    
+        for (json &element : dataJSON["Barrels"])
+            Data::barrelList.push_back(element);
+    
+        Data::magazineCount = dataJSON["Magazines"].size();
+        Data::magazineList.reserve(Data::magazineCount + 1);
+    
+        for (json &element : dataJSON["Magazines"])
+            Data::magazineList.push_back(element);
+    
+        Data::gripCount = dataJSON["Grips"].size();
+        Data::gripList.reserve(Data::gripCount + 1);
+    
+        for (json &element : dataJSON["Grips"])
+            Data::gripList.push_back(element);
+    
+        Data::stockCount = dataJSON["Stocks"].size();
+        Data::stockList.reserve(Data::stockCount + 1);
+    
+        for (json &element : dataJSON["Stocks"])
+            Data::stockList.push_back(element);
+    
+        Data::coreCount = dataJSON["Cores"].size();
+        Data::coreList.reserve(Data::coreCount + 1);
+    
+        for (json &element : dataJSON["Cores"])
+            Data::coreList.push_back(element);
+    
+        // Add the "None" part for help with secondaries. The +1 to reserve is for "None" part
+        // Although it is not a part of the count because it isn't an actual part and I don't want it to be used in PRUNE or BRUTEFORCE.
+        // This was added to help with secondary weapons because they don't have a stock.
+        Data::barrelList.push_back(Part::ToNone(Barrel()));
+        Data::magazineList.push_back(Part::ToNone(Magazine()));
+        Data::gripList.push_back(Part::ToNone(Grip()));
+        Data::stockList.push_back(Part::ToNone(Stock()));
+    
+        Fast::penalties.resize(Fast::categoryCount);
+        for (int i = 0; i < Fast::categoryCount; i++)
+            Fast::penalties[i].resize(Fast::categoryCount);
+    
+        for (int i = 0; i < Fast::categoryCount; i++)
+            for (int j = 0; j < Fast::categoryCount; j++)
+                Fast::penalties[i][j] = penaltiesJSON[i][j];
+    
+        puts("Initializing required data");
+    
+        Fast::InitializeClampQuadratic();
+        DynamicPrune::HighLow::InitializeBestPossible();
+        DynamicPrune::HighLow::InitializeHighestAndLowestMultParts();
+    }
+    
+    std::vector<Gun> RunCalc() 
+    {
+        Input::FormatInputs();
+        PQ::InitializeCurrentSortingType();
+        Fast::InitializeCategoriesFBParts();
+        Filter::InitializeMultFlag();
+        DynamicPrune::InitializeThreshold();
+        
+        puts("Running calculator!");
+        std::cout << "Sorting " << Input::sortType << " by: " << (PQ::sortPriority ? "HIGHEST": "LOWEST") << '\n';
+    
+        totalCombinations = Data::barrelCount * Data::magazineCount * Data::gripCount * Data::stockCount * Data::coreCount;
+        printf("Barrels detected: %" PRId64 ", Magazines detected: %" PRId64 ", Grips detected: %" PRId64 ", Stocks detected: %" PRId64 ", Cores detected: %" PRId64 "\n", Data::barrelCount, Data::magazineCount, Data::gripCount, Data::stockCount, Data::coreCount);
+        printf("Total of %" PRId64 " possibilities \n", totalCombinations);
+    
+        DynamicPrune::Run(0);
+    
+        uint64_t totalValidGuns = 0;
+        for (int i = 0; i < Input::threadsToMake; i++)
+            totalValidGuns += validGunInThread[i];
+        printf("Total valid gun combinations based on filters: %" PRId64 " / %" PRId64 "\n", totalValidGuns, Data::coreCount * Data::magazineCount * Data::barrelCount * Data::gripCount * Data::stockCount);
+    
+        PQ::topGuns = PQ::AllSortPQ();
+    
+        // Combine all thread pqs into topguns
+        for (int i = 0; i < Input::threadsToMake; i++)
         {
-            PQ::topGuns.push(threadPQ[i].top());
-            threadPQ[i].pop();
+            for (int j = 0; j < Input::howManyTopGunsToDisplay && !threadPQ[i].empty(); j++)
+            {
+                PQ::topGuns.push(threadPQ[i].top());
+                threadPQ[i].pop();
+            }
         }
-    }
-
-    // Dump all the pqs into a vector
-    std::vector<Gun> outputGuns;
-    int max = PQ::topGuns.size();
-    for (int i = 0; i < max; i++)
-    {
-        outputGuns.push_back(PQ::topGuns.top());
-        PQ::topGuns.pop();
-    }
-
-    std::cout << "Current top " << Input::howManyTopGunsToDisplay << " guns are: \n";
-    int endSize = outputGuns.size()-1-Input::howManyTopGunsToDisplay;
-    // Reverse out the answer
-    for (int i = outputGuns.size()-1; i >= 0; i--)
-    {
-        if (i == endSize) break;
-        Gun g = outputGuns[i];
-        // Recalculate all values just in case
-        g.CopyAllValues();
-        g.CalculateAllGunStats();
-        std::cout << g << '\n';
+    
+        // Dump all the pqs into a vector
+        std::vector<Gun> resultGuns;
+        int max = PQ::topGuns.size();
+        for (int i = 0; i < max; i++)
+        {
+            resultGuns.push_back(PQ::topGuns.top());
+            PQ::topGuns.pop();
+        }
+    
+        std::cout << "Current top " << Input::howManyTopGunsToDisplay << " guns are: \n";
+        int endSize = resultGuns.size()-1-Input::howManyTopGunsToDisplay;
+        // Reverse out the answer
+        std::vector<Gun> reversedGuns;
+        for (int i = resultGuns.size()-1; i >= 0; i--)
+        {
+            if (i == endSize) break;
+            Gun g = resultGuns[i];
+            // Recalculate all values just in case
+            g.CopyAllValues();
+            g.CalculateAllGunStats();
+            std::cout << g << '\n';
+            reversedGuns.push_back(g);
+        }
+        
+        return reversedGuns;
     }
     
+    std::string GetVersion()
+    {
+        return __WGGCALC_VERSION__;
+    }
+    
+    std::string GetBarrelName(const Gun& gun) { return gun.barrel->name; }
+    std::string GetMagazineName(const Gun& gun) { return gun.magazine->name; }
+    std::string GetGripName(const Gun& gun) { return gun.grip->name; }
+    std::string GetStockName(const Gun& gun) { return gun.stock->name; }
+    std::string GetCoreName(const Gun& gun) { return gun.core->name; }
+   
 }
-
-std::string GetVersion()
-{
-    return __WGGCALC_VERSION__;
-}
-
 
 namespace AddFilter 
 {
@@ -290,7 +301,7 @@ namespace AddFilter
         else if (title == "EQUIPTIME") Input::equipTimeRange = pair;
         else if (title == "BURST") Input::burstRange = pair;
         else if (title == "SPEED") Input::movementSpeedRange = pair;
-        else if (title == "MAGAZINESIZE") Input::magazineRange = pair;
+        else if (title == "MAGAZINE") Input::magazineRange = pair;
         else if (title == "RELOAD") Input::reloadRange = pair;
         else if (title == "DPS") Input::DPSRange = pair;
         else throw std::invalid_argument("Invalid filter: " + title);
@@ -300,14 +311,54 @@ namespace AddFilter
 EMSCRIPTEN_BINDINGS(types) 
 {
     emscripten::register_vector<std::string>("VectorString");
+    emscripten::value_object<fpair>("fpair")
+        .field("first", &fpair::first)
+        .field("second", &fpair::second);
+    
+    emscripten::class_<Gun>("Gun")
+        
+        // Parts
+        .property("barrel", &Util::GetBarrelName)
+        .property("magazine", &Util::GetMagazineName)
+        .property("grip", &Util::GetGripName)
+        .property("stock", &Util::GetStockName)
+        .property("core", &Util::GetCoreName)
+        
+        // Stats 
+        .property("damage", &Gun::damage)
+        .property("damageEnd", &Gun::damageEnd)
+        .property("dropoffStuds", &Gun::dropoffStuds)
+        .property("falloffFactor", &Gun::falloffFactor)
+        .property("pellets", &Gun::pellets)
+        .property("burst", &Gun::burst)
+        .property("reloadTime", &Gun::reloadTime)
+        .property("magazineSize", &Gun::magazineSize)
+        .property("health", &Gun::health)
+        .property("fireRate", &Gun::fireRate)
+        .property("timeToAim", &Gun::timeToAim)
+        .property("equipTime", &Gun::equipTime)
+        .property("movementSpeedModifier", &Gun::movementSpeedModifier)
+        .property("hipfireSpread", &Gun::hipfireSpread)
+        .property("adsSpread", &Gun::adsSpread)
+        .property("detectionRadius", &Gun::detectionRadius)
+        .property("recoilHipHorizontal", &Gun::recoilHipHorizontal)
+        .property("recoilHipVertical", &Gun::recoilHipVertical)
+        .property("recoilAimHorizontal", &Gun::recoilAimHorizontal)
+        .property("recoilAimVertical", &Gun::recoilAimVertical)
+        .property("TTKM", &Gun::TTKM)
+        .property("TTKS", &Gun::TTKS)
+        .property("DPM", &Gun::DPM)
+        .property("DPS", &Gun::DPS);
+    
+    emscripten::register_vector<Gun>("VectorGun");
 }
 
 EMSCRIPTEN_BINDINGS(util) 
 {
     emscripten::function("Clear", &Clear::Clear);
-    emscripten::function("InitDataset", &InitDataset);
-    emscripten::function("RunCalc", &RunCalc);
-    emscripten::function("GetVersion", &GetVersion);
+    emscripten::function("InitDataset", &Util::InitDataset);
+    emscripten::function("RunCalc", &Util::RunCalc);
+    emscripten::function("GetVersion", &Util::GetVersion);
 }
 
 EMSCRIPTEN_BINDINGS(setup) 

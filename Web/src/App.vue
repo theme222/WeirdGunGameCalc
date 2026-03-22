@@ -3,6 +3,9 @@ import { useRouter } from 'vue-router'
 import Title from './components/Title.vue';
 import ViewportIndicator from './components/ViewportIndicator.vue';
 import ToastContainer from './structure/ToastContainer.vue';
+import Footer from './components/Footer.vue';
+import { onMounted } from 'vue';
+import { post } from './libs/calc';
 
 const isDev = import.meta.env.DEV;
 
@@ -18,4 +21,5 @@ const isDev = import.meta.env.DEV;
     <ToastContainer />
   </main>
   <ViewportIndicator v-if="isDev"/>
+  <Footer />
 </template>
