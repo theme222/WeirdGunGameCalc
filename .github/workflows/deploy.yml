@@ -46,7 +46,7 @@ jobs:
           -s MODULARIZE=1 \
           -s EXPORT_NAME='createModule' \
           -s EXPORT_ES6=1 \
-          --emit-tsd Web/src/libs/wggcalc.d.ts \
+          --emit-tsd wggcalc.d.ts \
           -O3 -flto -Werror
 
       - name: Upload compiled files
