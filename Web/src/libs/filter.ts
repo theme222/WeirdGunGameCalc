@@ -61,7 +61,7 @@ for (const filter of filterAndSortStrings) {
   });
 }
 
-function getFiltersFromURL(): { list: FilterItem[] } {
+export function getFiltersFromURL(): { list: FilterItem[] } {
   const params = new URLSearchParams(window.location.search);
 
   const defaultState = [

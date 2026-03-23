@@ -1,5 +1,5 @@
 <script setup>
-import { ref, markRaw } from 'vue';
+import { ref, markRaw, onMounted } from 'vue';
 import Filter from '@/components/Filter.vue';
 import Result from '@/components/Result.vue';
 import { SquaresPlusIcon } from '@heroicons/vue/24/solid';
@@ -9,6 +9,7 @@ import { PARTCORELIST } from '@/libs/data';
 import { runCalc, runOnFilterChange } from '@/libs/calc';
 import { latestResult, isCalculating } from '@/libs/calc';
 import { statsToCompare } from '@/libs/result';
+import { getFiltersFromURL } from '@/libs/filter';
 
 const selectedFilterToAdd = ref(filterList[0]);
 const currentlyRemoving = ref(false);
@@ -16,6 +17,10 @@ const currentlyRemoving = ref(false);
 function toggleRemoveFilter() {
   currentlyRemoving.value = !currentlyRemoving.value;
 }
+
+onMounted(() => {
+  currentFilters.list = getFiltersFromURL().list; // This is incase we go to and from the calc page
+})
 
 </script>
 
