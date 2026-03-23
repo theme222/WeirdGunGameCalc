@@ -86,7 +86,7 @@ function removeInputFromList(index) {
     <TransitionGroup tag="div" name="list" class="flex flex-1 min-w-0">
       <!-- CURRENTLY REMOVING -->
       <div v-if="currentlyRemoving && !required" class="flex justify-end min-w-0 w-full">
-        <button class="btn btn-sm btn-error" @click="removeFilter(id)">
+        <button class="btn btn-error" @click="removeFilter(id)">
           <TrashIcon class="size-4" />
           Remove
         </button>
@@ -117,7 +117,7 @@ function removeInputFromList(index) {
 
       <!-- STRINGARR FILTER -->
       <div v-else-if="filterType === 'stringarr'" class="flex justify-end items-center gap-2 w-full min-w-0">
-        <div class="overflow-x-auto flex items-center min-w-0 flex-1 min-w-10">
+        <div class="overflow-x-auto flex items-center flex-1 min-w-10">
           <button
             v-for="(str, index) in model.value"
             class="btn btn-xs md:btn-md btn-ghost shrink-0"

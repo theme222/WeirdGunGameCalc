@@ -2,6 +2,7 @@
 import { ref, markRaw, onMounted } from 'vue';
 import Filter from '@/components/Filter.vue';
 import Result from '@/components/Result.vue';
+import HelpModal from '@/components/HelpModal.vue';
 import { SquaresPlusIcon } from '@heroicons/vue/24/solid';
 import { TrashIcon as OutlineTrashIcon } from '@heroicons/vue/24/outline';
 import { addFilter, removeFilter, filterList, currentFilters } from '@/libs/filter';
@@ -134,6 +135,8 @@ onMounted(() => {
   </div>
   
 </main>
+
+<HelpModal />
 </template>
 
 <style scoped>

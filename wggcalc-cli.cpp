@@ -7,6 +7,7 @@
 
 #include <fstream>
 #include <chrono>
+#include <cinttypes>
 
 #define chrono std::chrono
 using json = nlohmann::json;
@@ -234,9 +235,9 @@ int main(int argc, char* argv[])
     std::cout << "Sorting " << Input::sortType << " by: " << (PQ::sortPriority ? "HIGHEST": "LOWEST") << '\n';
 
     totalCombinations = Data::barrelCount * Data::magazineCount * Data::gripCount * Data::stockCount * Data::coreCount;
-    printf("Barrels detected: %lu, Magazines detected: %lu, Grips detected: %lu, Stocks detected: %lu, Cores detected: %lu\n", Data::barrelCount, Data::magazineCount, Data::gripCount, Data::stockCount, Data::coreCount);
-    printf("Total of %lu possibilities \n", totalCombinations);
-    printf("Starting %s with %lu threads\n", Input::method.c_str(), Input::threadsToMake);
+    printf("Barrels detected: %" PRIu64  ", Magazines detected: %" PRIu64 ", Grips detected: %" PRIu64 ", Stocks detected: %" PRIu64 ", Cores detected: %" PRIu64 " \n", Data::barrelCount, Data::magazineCount, Data::gripCount, Data::stockCount, Data::coreCount);
+    printf("Total of %" PRIu64 " possibilities \n", totalCombinations);
+    printf("Starting %s with %" PRIu64 " threads\n", Input::method.c_str(), Input::threadsToMake);
 
     auto start = chrono::steady_clock::now();
 
@@ -283,7 +284,7 @@ int main(int argc, char* argv[])
     uint64_t totalValidGuns = 0;
     for (int i = 0; i < Input::threadsToMake; i++)
         totalValidGuns += validGunInThread[i];
-    printf("Total valid gun combinations based on filters: %lu / %lu\n", totalValidGuns, Data::coreCount * Data::magazineCount * Data::barrelCount * Data::gripCount * Data::stockCount);
+    printf("Total valid gun combinations based on filters: %" PRIu64 " / %" PRIu64 "\n", totalValidGuns, Data::coreCount * Data::magazineCount * Data::barrelCount * Data::gripCount * Data::stockCount);
 
     PQ::topGuns = PQ::AllSortPQ();
 
