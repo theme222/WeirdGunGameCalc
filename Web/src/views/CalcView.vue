@@ -5,7 +5,6 @@ import Result from '@/components/Result.vue';
 import { SquaresPlusIcon } from '@heroicons/vue/24/solid';
 import { TrashIcon as OutlineTrashIcon } from '@heroicons/vue/24/outline';
 import { addFilter, removeFilter, filterList, currentFilters } from '@/libs/filter';
-import { PARTCORELIST } from '@/libs/data';
 import { runCalc, runOnFilterChange } from '@/libs/calc';
 import { latestResult, isCalculating } from '@/libs/calc';
 import { statsToCompare } from '@/libs/result';
@@ -27,21 +26,21 @@ onMounted(() => {
 <template>
 <div class="flex flex-col items-center w-full py-8 gap-1">
   <h1 class="font-bold text-3xl text-white rounded">WGGCALC</h1>
-  <h2 class="opacity-50 text-sm">Lets go ruin the loadouts channel for the rest of eternity <span class="italic">together</span></h2>
+  <h2 class="opacity-50 text-sm text-center">Lets go ruin the loadouts channel for the rest of eternity <span class="italic">together</span></h2>
 </div>
 <main class="w-full flex justify-center items-start gap-6 flex-wrap mb-5">
   
   <div class="flex flex-col justify-center items-center gap-5 ">
-    <div class="bg-base-200 border rounded-md min-h-80 w-180 mx-10 p-3 max-w-[95vw]">
+    <div class="bg-base-200 border rounded-md min-h-80 w-180 p-3 max-w-[95vw]">
       <div class="flex items-center justify-between mb-3">
         <h2 class="font-semibold text-2xl">Filter</h2>
         <div class="flex justify-center items-center gap-6">
-          <select class="select min-w-20" v-model="selectedFilterToAdd">
+          <select class="select min-w-20 select-sm sm:select-md" v-model="selectedFilterToAdd">
             <option v-for="filter in filterList" :key="filter.title" :value="filter">
               {{ filter.title }}
             </option>
           </select>
-          <button class="btn btn-success" @click="addFilter(selectedFilterToAdd)">
+          <button class="btn btn-success btn-sm sm:btn-md" @click="addFilter(selectedFilterToAdd)">
             <SquaresPlusIcon class="size-6" />
             <span
               class="absolute -z-10 opacity-0 sm:z-0 sm:static sm:opacity-100 transition-opacity duration-400"
@@ -49,7 +48,7 @@ onMounted(() => {
             >
           </button>
           <button
-            class="btn btn-circle"
+            class="btn btn-circle btn-sm sm:btn-md"
             :class="{ 'btn-error': currentlyRemoving, 'btn-ghost': !currentlyRemoving }"
             @click="toggleRemoveFilter"
           >
@@ -81,15 +80,18 @@ onMounted(() => {
     </div>
     
     <div class="w-full flex justify-center items-center gap-5">
-      <button class="btn btn-primary" @click="runCalc">LEMME SEE THEM GUNS</button>
+      <button class="btn btn-primary btn-sm sm:btn-md" @click="runCalc">
+        <span class="hidden sm:inline">LEMME SEE THEM GUNS</span>
+        <span class="inline sm:hidden">RUN</span>
+      </button>
       <label for="updateOnChange" class="flex justify-center items-center gap-3">
         <input type="checkbox" id="updateOnChange" name="updateOnChange" v-model="runOnFilterChange" class="checkbox"/>
-        <span>Auto Update On Change</span>
+        <span class="text-sm">Auto Update On Change</span>
       </label>
     </div>
   </div>
       
-  <div class="flex flex-col justify-center items-center max-w-200 mx-4">
+  <div class="flex flex-col justify-center items-center max-w-200">
     <div class="bg-base-200 border rounded-md max-w-[95vw] min-w-0 w-180 shrink h-191 px-3 overflow-y-scroll relative">
       <div class="flex justify-between items-center sticky top-0 bg-base-200 py-4 z-2">
         <h2 class="font-semibold text-2xl w-full">Results ({{ latestResult.success ? latestResult.data.length : 0 }})</h2>
@@ -111,7 +113,7 @@ onMounted(() => {
           name="list"
           tag="div"
           class="w-full overflow-y-auto flex flex-col items-center gap-3 mb-3"
-          v-if="latestResult.success"
+          v-if="latestResult.success && latestResult.data.length > 0"
         >
           <Result 
             v-for="(gun, index) in latestResult.data" 
@@ -120,8 +122,8 @@ onMounted(() => {
             :id="index"
           />
         </TransitionGroup>
-        <div class="w-full h-160 flex justify-center items-center px-70 py-60">
-          <img src="/noguns.jpg" class="w-full h-full opacity-5 select-none" />
+        <div v-else class="w-full h-160 flex justify-center items-center">
+          <img src="/noguns.jpg" class="w-60 h-70 opacity-5 select-none" />
         </div>
       </div>
       <div v-else class="w-full overflow-y-auto flex flex-col items-center gap-3 mb-3" >

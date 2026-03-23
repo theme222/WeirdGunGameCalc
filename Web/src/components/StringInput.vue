@@ -31,7 +31,7 @@ function handleInputChange(event) {
 </script>
 
 <template>
-<div class="dropdown dropdown-end shrink-0">
+<div class="dropdown dropdown-end shrink">
   <input
     type="text"
     :class="[`input input-xs sm:input-md input-${color}`]"

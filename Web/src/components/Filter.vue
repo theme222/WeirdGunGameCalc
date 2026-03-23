@@ -78,7 +78,7 @@ function removeInputFromList(index) {
 
 <template>
   <div
-    class="w-full px-2 bg-base-100 flex justify-center items-center h-12 outline rounded-md gap-5"
+    class="w-full p-2 bg-base-100 flex justify-center items-center outline rounded-md gap-5"
     v-bind:class="[`text-${color}`, `outline-${color}`]"
   >
     <h3 class="md:text-lg text-nowrap shrink-0">{{ title }}</h3>
@@ -117,7 +117,7 @@ function removeInputFromList(index) {
 
       <!-- STRINGARR FILTER -->
       <div v-else-if="filterType === 'stringarr'" class="flex justify-end items-center gap-2 w-full min-w-0">
-        <div class="overflow-x-auto flex items-center min-w-0 flex-1">
+        <div class="overflow-x-auto flex items-center min-w-0 flex-1 min-w-10">
           <button
             v-for="(str, index) in model.value"
             class="btn btn-xs md:btn-md btn-ghost shrink-0"
@@ -132,6 +132,7 @@ function removeInputFromList(index) {
           :validStrings="validStrings"
           :onEnter="addInputToList"
           :color="color"
+          class="max-w-45"
         />
         <button @click="addInputToList" class="btn btn-ghost btn-sm btn-circle shrink-0">
           <PlusCircleIcon class="size-6" />
@@ -165,13 +166,14 @@ function removeInputFromList(index) {
 
       <!-- SORT FILTER -->
       <div v-else-if="filterType === 'sort'" class="flex justify-end items-center gap-2 w-full min-w-0">
-        <select class="select select-xs sm:select-md max-w-35 mr-4" v-model="model.selectedOption">
+        <select class="select select-xs sm:select-md max-w-35 mr-4 w-fit shrink-0" v-model="model.selectedOption">
           <option v-for="opt in options" :key="opt">{{ opt }}</option>
         </select>
         <StringInput
           v-model="model.value[0]"
           :validStrings="validStrings"
           :color="color"
+          class="max-w-35"
         />
       </div>
       <!-- SORT FILTER -->
