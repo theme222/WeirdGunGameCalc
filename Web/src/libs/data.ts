@@ -16,6 +16,7 @@ export const PARTNAMES: string[] = [];
   for (const pn of PARTCORELIST.Grips) nameSet.add(pn.Name);
   for (const pn of PARTCORELIST.Stocks) nameSet.add(pn.Name);
   for (const pn of PARTCORELIST.Cores) nameSet.add(pn.Name);
-  for (const pn of nameSet) PARTNAMES.push(pn);
+  const sorted = Array.from(nameSet).sort();
+  for (const pn of sorted) PARTNAMES.push(pn);
 }
 

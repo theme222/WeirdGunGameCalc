@@ -19,8 +19,6 @@ const colorMap = {
   'core': 'primary',
 };
 
-console.log(statsToCompare)
-
 </script>
 
 <template>

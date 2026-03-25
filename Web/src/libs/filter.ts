@@ -26,6 +26,15 @@ export const filterList: Filter[] = [
   { title: 'Ban Grip', filterType: 'stringarr', validStrings: PARTNAMES },
 ];
 
+for (const filter of filterAndSortStrings) {
+  filterList.push({
+    title: filter,
+    filterType: 'numberrange',
+    options: numberRangeOptions,
+  });
+}
+  
+
 export function getFilterItem(title: string, writeableOverride?: FilterItem["writeable"]): FilterItem | undefined {
   let index = null
   for (let i = 0; i < filterList.length; i++) {
@@ -51,14 +60,6 @@ export function getFilterItem(title: string, writeableOverride?: FilterItem["wri
     filter.writeable = writeableOverride;
   
   return filter;
-}
-
-for (const filter of filterAndSortStrings) {
-  filterList.push({
-    title: filter,
-    filterType: 'numberrange',
-    options: numberRangeOptions,
-  });
 }
 
 export function getFiltersFromURL(): { list: FilterItem[] } {
@@ -157,15 +158,21 @@ watch(
   { deep: true }
 );
 
-export function addFilter(selectedFilterToAdd: Filter) {
+export function addFilter(selectedFilterToAdd: string) {
   // check if filter already exists
-  if (currentFilters.list.some((filter) => filter.title === selectedFilterToAdd.title)) {
-    addToast(`Filter ${selectedFilterToAdd.title} already exists`, 'warning');
+  if (currentFilters.list.some((filter) => filter.title === selectedFilterToAdd)) {
+    addToast(`Filter ${selectedFilterToAdd} already exists`, 'warning');
     return;
   }
 
-  currentFilters.list.push(getFilterItem(selectedFilterToAdd.title)!);
-  addToast(`Added ${selectedFilterToAdd.title} to filters`, 'info');
+  const filterItem = getFilterItem(selectedFilterToAdd);
+  if (!filterItem) {
+    addToast(`Filter ${selectedFilterToAdd} not found`, 'warning');
+    return;
+  }
+  
+  currentFilters.list.push(filterItem);
+  addToast(`Added ${selectedFilterToAdd} to filters`, 'info');
 }
 
 export function removeFilter(id: number) {

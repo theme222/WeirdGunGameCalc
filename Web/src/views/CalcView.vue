@@ -10,8 +10,10 @@ import { runCalc, runOnFilterChange } from '@/libs/calc';
 import { latestResult, isCalculating } from '@/libs/calc';
 import { statsToCompare } from '@/libs/result';
 import { getFiltersFromURL } from '@/libs/filter';
+import StringInput from '@/components/StringInput.vue';
+import { filterTitles } from '@/libs/filter.const';
 
-const selectedFilterToAdd = ref(filterList[0]);
+const selectedFilterToAdd = ref('');
 const currentlyRemoving = ref(false);
 
 function toggleRemoveFilter() {
@@ -36,11 +38,7 @@ onMounted(() => {
       <div class="flex items-center justify-between mb-3">
         <h2 class="font-semibold text-2xl">Filter</h2>
         <div class="flex justify-center items-center gap-6">
-          <select class="select min-w-20 select-sm sm:select-md" v-model="selectedFilterToAdd">
-            <option v-for="filter in filterList" :key="filter.title" :value="filter">
-              {{ filter.title }}
-            </option>
-          </select>
+          <StringInput v-model="selectedFilterToAdd" :validStrings="filterTitles"/>
           <button class="btn btn-success btn-sm sm:btn-md" @click="addFilter(selectedFilterToAdd)">
             <SquaresPlusIcon class="size-6" />
             <span

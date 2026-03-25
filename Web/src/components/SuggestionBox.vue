@@ -1,4 +1,9 @@
 <script setup>
+import { ref, watch } from 'vue';
+
+const currentIndex = defineModel();
+const suggestionsListRef = ref(null);
+
 const props = defineProps({
   suggestions: {
     type: Array,
@@ -13,18 +18,26 @@ const props = defineProps({
     required: true
   }
 })
+
+watch(currentIndex, () => {
+  // Handle currentIndex changing by scrolling to the selected item.
+  suggestionsListRef.value.children[currentIndex.value]?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+})
+
 </script>
 
 <template>
-<ul v-if="suggestions && suggestions.length > 0" tabindex="-1" class="dropdown-content rounded-box z-1 w-52 p-2 shadow-sm text-ellipsis bg-base-100 ">
+<ul ref="suggestionsListRef" v-if="suggestions.length > 0" tabindex="-1" class="dropdown-content rounded-box z-30 w-52 shadow-sm text-ellipsis bg-base-100 border max-h-52 overflow-y-scroll">
   <li
-    v-for="word in suggestions"
+    v-for="(word, index) in suggestions"
     :key="word"
-    class="cursor-pointer py-1 border-b border-white"
+    :class="{ 'font-black bg-primary': index === currentIndex, 'bg-base-100': index % 2 == 0, 'bg-base-300': index % 2 == 1 }"
+    class="cursor-pointer py-2 px-4 hover:font-bold text-xs sm:text-base"
     @click="
       onSelectSuggestion(word);
       updateSuggestions(word);
     "
+    @mouseenter="() => currentIndex = index"
   >
     {{ word }}
   </li>
