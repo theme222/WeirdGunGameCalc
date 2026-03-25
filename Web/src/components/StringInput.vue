@@ -41,6 +41,7 @@ onMounted(() => {
 <div class="dropdown dropdown-end shrink">
   <input
     type="text"
+    ref="inputRef"
     :class="[`input input-xs sm:input-md input-${color}`]"
     placeholder="None"
     @input="handleInputChange"
@@ -51,7 +52,7 @@ onMounted(() => {
   />
   <SuggestionBox
     :suggestions="suggestions"
-    :onSelectSuggestion="(selected) => (model = selected)"
+    :onSelectSuggestion="(selected) => {model = selected; inputRef.focus()}"
     :updateSuggestions="updateSuggestions"
     v-model="suggestionIndex"
   />

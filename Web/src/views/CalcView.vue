@@ -12,6 +12,8 @@ import { statsToCompare } from '@/libs/result';
 import { getFiltersFromURL } from '@/libs/filter';
 import StringInput from '@/components/StringInput.vue';
 import { filterTitles } from '@/libs/filter.const';
+import Title from '@/components/Title.vue';
+
 
 const selectedFilterToAdd = ref('');
 const currentlyRemoving = ref(false);
@@ -27,10 +29,8 @@ onMounted(() => {
 </script>
 
 <template>
-<div class="flex flex-col items-center w-full py-8 gap-1">
-  <h1 class="font-bold text-3xl text-white rounded">WGGCALC</h1>
-  <h2 class="opacity-50 text-sm text-center">Lets go ruin the loadouts channel for the rest of eternity <span class="italic">together</span></h2>
-</div>
+<Title :title="'WGGCALC'" :subtitle="'Lets go ruin the loadouts channel for the rest of eternity'"/>
+
 <main class="w-full flex justify-center items-start gap-6 flex-wrap mb-5">
   
   <div class="flex flex-col justify-center items-center gap-5 ">
@@ -38,7 +38,7 @@ onMounted(() => {
       <div class="flex items-center justify-between mb-3">
         <h2 class="font-semibold text-2xl">Filter</h2>
         <div class="flex justify-center items-center gap-6">
-          <StringInput v-model="selectedFilterToAdd" :validStrings="filterTitles"/>
+          <StringInput v-model="selectedFilterToAdd" :validStrings="filterTitles" :onEnter="() => addFilter(selectedFilterToAdd)"/>
           <button class="btn btn-success btn-sm sm:btn-md" @click="addFilter(selectedFilterToAdd)">
             <SquaresPlusIcon class="size-6" />
             <span
