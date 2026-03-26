@@ -60,5 +60,41 @@ export const filterTitles = [
   "Total Results"
 ] as const;
 
+export const filterDescriptions: {[key in typeof filterTitles[number]]: string} = {
+  "Ban Barrel": "Ban the calculator from using a list of barrels",
+  "Ban Core": "Ban the calculator from using a list of cores",
+  "Ban Grip": "Ban the calculator from using a list of grips",
+  "Ban Magazine": "Ban the calculator from using a list of magazines",
+  "Ban Stock": "Ban the calculator from using a list of stocks",
+  "Burst": "Burst range to filter",
+  "Categories": "Categories to include in the calculation",
+  "DPS": "DPS range to filter",
+  "Damage End": "Damage range to filter (END)",
+  "Damage Start": "Damage range to filter (START)",
+  "Detection Radius": "Detection radius range to filter",
+  "Equip Time": "Equip time range to filter",
+  "Fire Rate": "Fire rate range to filter",
+  "Force Barrel": "Force the calculator to use a list of barrels",
+  "Force Core": "Force the calculator to use a list of cores",
+  "Force Grip": "Force the calculator to use a list of grips",
+  "Force Magazine": "Force the calculator to use a list of magazines",
+  "Force Stock": "Force the calculator to use a list of stocks",
+  "Health": "Health range to filter",
+  "Magazine Size": "Magazine size range to filter",
+  "Pellets": "Pellet range to filter",
+  "Range Stud End": "Dropoff studs range to filter (END)",
+  "Range Stud Start": "Dropoff studs range to filter (START)",
+  "Recoil Aim": "Recoil range to filter (AIM END)",
+  "Recoil Hip": "Recoil range to filter (HIP END)",
+  "Reload Time": "Reload time range to filter",
+  "Sort Type": "The property and priority to sort the results by",
+  "Speed": "Movement speed range to filter",
+  "Spread Aim": "Spread range to filter (AIM)",
+  "Spread Hip": "Spread range to filter (HIP)",
+  "TTK": "TTK range to filter",
+  "Time To Aim": "Time to aim range to filter",
+  "Total Results": "Number of top guns to display"
+};
+
 export const numberRangeOptions = ['min', 'max', 'from'] as const;
 export const sortTypeOptions = ['Auto', 'Highest First', 'Lowest First'] as const;

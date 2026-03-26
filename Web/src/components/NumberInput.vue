@@ -5,7 +5,7 @@ const model = defineModel();
 const props = defineProps({
   color: String,
   step: Number, // true step value
-  scrollStep: Number, // step value for scroll or arrow
+  scrollStep: Number, // step value for scroll
   min: {
     type: Number,
     optional: true

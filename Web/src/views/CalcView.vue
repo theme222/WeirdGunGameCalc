@@ -111,7 +111,7 @@ onMounted(() => {
         <TransitionGroup
           name="list"
           tag="div"
-          class="w-full overflow-y-auto flex flex-col items-center gap-3 mb-3"
+          class="w-full overflow-y-auto flex flex-col items-center gap-3 mb-3 relative"
           v-if="latestResult.success && latestResult.data.length > 0"
         >
           <Result 

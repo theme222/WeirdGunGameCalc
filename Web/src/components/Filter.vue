@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
 import { stringSearch } from '@/libs/search';
 import { TrashIcon } from '@heroicons/vue/24/solid';
 import { removeFilter } from '@/libs/filter';
@@ -8,7 +8,7 @@ import { addToast } from '@/libs/toast';
 import SuggestionBox from './SuggestionBox.vue';
 import NumberInput from './NumberInput.vue';
 import StringInput from './StringInput.vue';
-
+import { filterDescriptions } from '@/libs/filter.const';
 
 const props = defineProps({
   id: Number,
@@ -46,15 +46,6 @@ if (model.value.value.length != 0) {
   model.value.value = [0, 0];
 }
 
-function updateSuggestions(word) {
-  const result = stringSearch(props.validStrings, word, 5);
-  suggestions.value = result.filter((item) => item.dist > 0).map((item) => item.value);
-}
-
-function handleInputChange(event) {
-  updateSuggestions(event.target.value);
-}
-
 function addInputToList() {
   if (!tempInput.value) return; // undefined null or empty string
 
@@ -79,11 +70,13 @@ function removeInputFromList(index) {
 <template>
   <div
     class="w-full p-2 bg-base-100 flex justify-center items-center outline rounded-md gap-5"
-    v-bind:class="[`text-${color}`, `outline-${color}`]"
+    :class="[`outline-${color}`]"
   >
-    <h3 class="md:text-lg text-nowrap shrink-0">{{ title }}</h3>
+    <div class="tooltip" :data-tip="filterDescriptions[title] || 'Unknown filter'">
+      <h3 class="md:text-lg text-nowrap shrink-0">{{ title }}</h3>
+    </div>
 
-    <TransitionGroup tag="div" name="list" class="flex flex-1 min-w-0">
+    <TransitionGroup tag="div" name="list" class="flex flex-1 min-w-0 relative">
       <!-- CURRENTLY REMOVING -->
       <div v-if="currentlyRemoving && !required" class="flex justify-end min-w-0 w-full">
         <button class="btn btn-error" @click="removeFilter(id)">
@@ -118,7 +111,7 @@ function removeInputFromList(index) {
       <!-- STRINGARR FILTER -->
       <div v-else-if="filterType === 'stringarr'" class="flex justify-end items-center gap-2 w-full min-w-0 relative">
         <div class="flex-1 min-w-10 h-full">
-          <div class="overflow-x-auto flex h-full items-center bg-base-100 hover:z-100 hover:absolute hover:top-0 hover:left-0 hover:w-fit ">
+          <div class="overflow-x-auto flex h-full items-center bg-base-100 hover:z-100 hover:absolute hover:top-0 hover:left-0 hover:w-fit hover:flex-wrap hover:h-fit">
             <button
               v-for="(str, index) in model.value"
               class="btn btn-xs md:btn-md btn-ghost hover:btn-error italic shrink-0"
@@ -143,7 +136,11 @@ function removeInputFromList(index) {
 
       <!-- NUMBER RANGE FILTER -->
       <div v-else-if="filterType === 'numberrange'" class="flex justify-end items-center gap-2 min-w-0 w-full">
-        <select class="select select-xs sm:select-md max-w-20 mr-4" v-model="model.selectedOption">
+        <select 
+          class="select select-xs sm:select-md max-w-20 mr-4" 
+          :class="[`select-${color}`]"
+          v-model="model.selectedOption"
+        >
           <option v-for="opt in options" :key="opt">{{ opt }}</option>
         </select>
         <NumberInput
@@ -167,7 +164,11 @@ function removeInputFromList(index) {
 
       <!-- SORT FILTER -->
       <div v-else-if="filterType === 'sort'" class="flex justify-end items-center gap-2 w-full min-w-0">
-        <select class="select select-xs sm:select-md max-w-35 mr-4 w-fit shrink-0" v-model="model.selectedOption">
+        <select 
+          class="select select-xs sm:select-md max-w-35 mr-4 w-fit shrink-0" 
+          :class="[`select-${color}`]"
+          v-model="model.selectedOption"
+        >
           <option v-for="opt in options" :key="opt">{{ opt }}</option>
         </select>
         <StringInput
