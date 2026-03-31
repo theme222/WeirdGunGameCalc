@@ -37,7 +37,7 @@ function getResultsListComputed() {
   <div class="flex flex-col justify-center items-center gap-5">
     
     <div class="flex justify-center items-center gap-2">
-      <StringInput :validStrings="PARTNAMES" v-model="currentQuery"/>
+      <StringInput :validStrings="PARTNAMES" :onEnter="queryPart" v-model="currentQuery"/>
       <button class="btn btn-info btn-square text-white" @click="queryPart"><MagnifyingGlassIcon class="size-5"/></button>
     </div>
     

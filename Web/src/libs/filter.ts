@@ -114,6 +114,10 @@ export function getFiltersFromURL(): { list: FilterItem[] } {
 
 export const currentFilters = reactive<{ list: FilterItem[] }>(getFiltersFromURL());
 
+export function ensureURLCorrectness(url: string) {
+  return url.replace(/%2C/g, ',').replace(/%3A/g, ':');
+}
+
 watch(
   currentFilters,
   (newState) => {
@@ -143,7 +147,7 @@ watch(
 
     let finalUrl = url.toString();
     // This is because URLSearchParams is being a little bitch and not allowing , and : to exist
-    finalUrl = finalUrl.replace(/%2C/g, ',').replace(/%3A/g, ':');
+    finalUrl = ensureURLCorrectness(finalUrl);
     window.history.replaceState({}, '', finalUrl);
     
 
