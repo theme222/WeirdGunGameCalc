@@ -116,15 +116,15 @@ recoilHipVertical: 162 - 184.5
 recoilAimVertical: 72.9 - 83.025
 movementSpeed: -0.5
 
-[ Barrel: Mosin, Magazine: Hecate II, Grip: M1891, Stock: Arisaka, Core: AWM ]
+[ Barrel: Mosin, Magazine: Hecate II, Grip: M1891, Stock: Paintball, Core: AWM ]
 damage: 100.05 - 87.7439
 dropoffStuds: 385 - 577.5
 fireRate: 21.0672
-adsSpread: 0.13
-hipfireSpread: 39
-reloadTime: 5.5545
+adsSpread: 0.1456
+hipfireSpread: 43.68
+reloadTime: 4.9197
 magazineSize: 5
-health: -8
 recoilHipVertical: 180 - 240
 recoilAimVertical: 90 - 120
+movementSpeed: -5
 
