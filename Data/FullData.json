@@ -12,7 +12,7 @@
         "Price_Type": "Free",
         "Name": "AKM",
         "Category": "AR",
-        "Damage": 7.5,
+        "Damage": 8.5,
         "Detection_Radius": 5,
         "Recoil": 20
       },
@@ -20,7 +20,7 @@
         "Price_Type": "Coin",
         "Name": "C36C",
         "Category": "AR",
-        "Damage": 5.5,
+        "Damage": 6.5,
         "Reload_Speed": -10
       },
       {
@@ -28,6 +28,7 @@
         "Name": "AUG",
         "Category": "AR",
         "Damage": -3.5,
+        "Fire_Rate": 4,
         "Movement_Speed": 2.5,
         "Range": 5,
         "Recoil": -5,
@@ -47,6 +48,7 @@
         "Price_Type": "Coin",
         "Name": "Famas F1",
         "Category": "AR",
+        "Damage": 3,
         "Fire_Rate": 9,
         "Range": -5,
         "Spread": 15
@@ -55,15 +57,15 @@
         "Price_Type": "Coin",
         "Name": "STG-44",
         "Category": "AR",
-        "Range": 4,
+        "Range": 6,
         "Recoil": 12,
-        "Spread": -11
+        "Spread": -19
       },
       {
         "Price_Type": "Coin",
         "Name": "Scar L",
         "Category": "AR",
-        "Damage": 5.5,
+        "Damage": 6.5,
         "Recoil": -16
       },
       {
@@ -104,6 +106,7 @@
         "Price_Type": "Coin",
         "Name": "Broza",
         "Category": "AR",
+        "Damage": 4,
         "Fire_Rate": 5.5,
         "Range": 3,
         "Spread": 12
@@ -288,7 +291,7 @@
         "Category": "Sniper",
         "Damage": 20,
         "Detection_Radius": -50,
-        "Fire_Rate": -12,
+        "Fire_Rate": -18,
         "Movement_Speed": -7,
         "Range": 9,
         "Recoil": -28,
@@ -300,7 +303,7 @@
         "Category": "Sniper",
         "Damage": 25,
         "Detection_Radius": 20,
-        "Fire_Rate": -25,
+        "Fire_Rate": -20,
         "Movement_Speed": -8,
         "Range": 10,
         "Recoil": 55,
@@ -429,7 +432,7 @@
         "Name": "UNP-40",
         "Category": "SMG",
         "Damage": 16,
-        "Fire_Rate": -5,
+        "Fire_Rate": -6.5,
         "Movement_Speed": 3.8,
         "Recoil": 15,
         "Spread": 15
@@ -439,6 +442,7 @@
         "Name": "Skorpion vz. 61",
         "Category": "SMG",
         "Damage": -5,
+        "Fire_Rate": 17,
         "Movement_Speed": 9,
         "Range": -5
       },
@@ -497,9 +501,9 @@
         "Price_Type": "Coin",
         "Name": "MP18",
         "Category": "SMG",
-        "Damage": 8,
+        "Damage": 13.5,
         "Fire_Rate": -2,
-        "Range": 2,
+        "Range": 5,
         "Recoil": 32
       },
       {
@@ -509,19 +513,19 @@
         "Damage": -3,
         "Fire_Rate": 20,
         "Movement_Speed": 3.3,
-        "Range": -10,
+        "Range": -12,
         "Recoil": -15
       },
       {
         "Price_Type": "Coin",
         "Name": "P90",
         "Category": "SMG",
-        "Damage": -7.5,
+        "Damage": -5,
         "Fire_Rate": 15,
         "Movement_Speed": 2.5,
         "Range": 2,
         "Recoil": 20,
-        "Spread": 25
+        "Spread": -18
       },
       {
         "Price_Type": "Coin",
@@ -569,6 +573,24 @@
         "Damage": 12,
         "Movement_Speed": 2.5,
         "Reload_Speed": 11
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "M3 Grease Gun",
+        "Category": "SMG",
+        "Damage": 5,
+        "Fire_Rate": 5,
+        "Range": 5,
+        "Recoil": 36
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "USA180",
+        "Category": "SMG",
+        "Damage": -12,
+        "Fire_Rate": 30,
+        "Range": -7,
+        "Spread": 25
       },
       {
         "Price_Type": "Coin",
@@ -651,6 +673,7 @@
         "Price_Type": "Coin",
         "Name": "JSG12",
         "Category": "Shotgun",
+        "Magazine_Cap": 15,
         "Movement_Speed": 3,
         "Range": 15,
         "Recoil": 16,
@@ -726,16 +749,16 @@
         "Price_Type": "Coin",
         "Name": "M60",
         "Category": "LMG",
-        "Damage": 8.5,
+        "Damage": 11,
         "Detection_Radius": 5,
-        "Movement_Speed": -3,
+        "Movement_Speed": -6,
         "Recoil": -10
       },
       {
         "Price_Type": "Coin",
         "Name": "Type 99",
         "Category": "LMG",
-        "Damage": 8,
+        "Damage": 10,
         "Movement_Speed": -2,
         "Reload_Speed": 5,
         "Spread": -15
@@ -963,6 +986,14 @@
         "Spread": -16
       },
       {
+        "Price_Type": "Unknown",
+        "Name": "G43",
+        "Category": "BR",
+        "Fire_Rate": 3,
+        "Recoil": -22,
+        "Reload_Speed": 11
+      },
+      {
         "Price_Type": "WC",
         "Name": "USS Iowa",
         "Category": "Weird",
@@ -993,7 +1024,7 @@
         "Name": "Spray Can",
         "Category": "Weird",
         "Damage": -6,
-        "Fire_Rate": 25,
+        "Fire_Rate": 20,
         "Movement_Speed": 2.5,
         "Range": -11
       },
@@ -1031,7 +1062,7 @@
         "Name": "Mustard",
         "Category": "Weird",
         "Damage": -5,
-        "Fire_Rate": 25,
+        "Fire_Rate": 20,
         "Spread": 40
       },
       {
@@ -1102,9 +1133,10 @@
         "Price_Type": "WC",
         "Name": "Eclair",
         "Category": "Weird",
-        "Damage": -20,
+        "Damage": 2,
         "Detection_Radius": 20,
         "Fire_Rate": 15,
+        "Range": -4,
         "Recoil": 15,
         "Spread": 30
       },
@@ -1151,10 +1183,19 @@
         "Reload_Speed": 10
       },
       {
+        "Price_Type": "Limited",
+        "Name": "AK2D",
+        "Category": "Weird",
+        "Damage": 10,
+        "Fire_Rate": -1,
+        "Recoil": 45
+      },
+      {
         "Price_Type": "Free",
         "Name": "M1911",
         "Category": "Sidearm",
         "Damage": 18,
+        "Fire_Rate": -5,
         "Range": -11,
         "Recoil": 25
       },
@@ -1320,6 +1361,16 @@
         "Fire_Rate": -10,
         "Range": 10,
         "Reload_Speed": 9
+      },
+      {
+        "Price_Type": "Robux",
+        "Name": "Infinity",
+        "Category": "Sidearm",
+        "Damage": -2,
+        "Fire_Rate": 25,
+        "Magazine_Cap": 25,
+        "Range": -10,
+        "Reload_Speed": -6
       }
     ],
     "Magazines": [
@@ -1329,7 +1380,7 @@
         "Category": "AR",
         "Magazine_Size": 30,
         "Reload_Time": 2.4,
-        "Damage": 7,
+        "Damage": 8.5,
         "Detection_Radius": 5
       },
       {
@@ -1346,6 +1397,7 @@
         "Category": "AR",
         "Magazine_Size": 30,
         "Reload_Time": 2,
+        "Fire_Rate": 3.5,
         "Recoil": -11,
         "Spread": 3
       },
@@ -1387,7 +1439,7 @@
         "Category": "AR",
         "Magazine_Size": 30,
         "Reload_Time": 2.9,
-        "Damage": 10,
+        "Damage": 14,
         "Fire_Rate": -8,
         "Spread": -13
       },
@@ -1397,8 +1449,9 @@
         "Category": "AR",
         "Magazine_Size": 40,
         "Reload_Time": 3,
+        "Damage": 5.5,
         "Recoil": -20,
-        "Spread": 15
+        "Spread": 5
       },
       {
         "Price_Type": "Coin",
@@ -1406,7 +1459,7 @@
         "Category": "AR",
         "Magazine_Size": 30,
         "Reload_Time": 2.9,
-        "Damage": 9,
+        "Damage": 11,
         "Range": 2,
         "Recoil": 32
       },
@@ -1458,6 +1511,7 @@
         "Magazine_Size": 20,
         "Reload_Time": 1.9,
         "Damage": 6,
+        "Fire_Rate": 5,
         "Range": -2
       },
       {
@@ -1732,7 +1786,7 @@
         "Category": "SMG",
         "Magazine_Size": 30,
         "Reload_Time": 2,
-        "Fire_Rate": 20,
+        "Fire_Rate": 16.5,
         "Movement_Speed": 4.4,
         "Range": -6,
         "Recoil": 35
@@ -1818,12 +1872,12 @@
         "Name": "NP5",
         "Category": "SMG",
         "Magazine_Size": 30,
-        "Reload_Time": 2,
+        "Reload_Time": 2.5,
         "Fire_Rate": 15,
         "Movement_Speed": 3.3,
         "Range": -11,
-        "Recoil": -10,
-        "Spread": -5
+        "Recoil": 21,
+        "Spread": -11
       },
       {
         "Price_Type": "Coin",
@@ -1875,7 +1929,7 @@
         "Magazine_Size": 30,
         "Reload_Time": 2.4,
         "Damage": -4,
-        "Fire_Rate": 21,
+        "Fire_Rate": 19,
         "Movement_Speed": 3.3,
         "Range": -10,
         "Recoil": -15
@@ -1902,7 +1956,7 @@
         "Movement_Speed": -0.2,
         "Range": 5,
         "Recoil": 10,
-        "Spread": 40
+        "Spread": -11
       },
       {
         "Price_Type": "Coin",
@@ -1956,6 +2010,26 @@
         "Movement_Speed": 3,
         "Range": -3,
         "Spread": 22
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "M3 Grease Gun",
+        "Category": "SMG",
+        "Magazine_Size": 30,
+        "Reload_Time": 2.2,
+        "Damage": 13.5,
+        "Movement_Speed": 2,
+        "Recoil": 38
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "USA180",
+        "Category": "SMG",
+        "Magazine_Size": 177,
+        "Reload_Time": 10,
+        "Damage": -9,
+        "Movement_Speed": -3,
+        "Spread": 28
       },
       {
         "Price_Type": "Coin",
@@ -2074,8 +2148,7 @@
         "Category": "Shotgun",
         "Magazine_Size": 2,
         "Reload_Time": 3.5,
-        "Damage": 35,
-        "Fire_Rate": -13,
+        "Damage": 20,
         "Pellets": 80,
         "Range": -7,
         "Recoil": 100
@@ -2177,7 +2250,7 @@
         "Category": "LMG",
         "Magazine_Size": 47,
         "Reload_Time": 4.8,
-        "Damage": 7,
+        "Damage": 8.5,
         "Fire_Rate": 4,
         "Movement_Speed": -2,
         "Range": 5,
@@ -2412,9 +2485,18 @@
         "Magazine_Size": 50,
         "Reload_Time": 5.5,
         "Damage": 25,
-        "Fire_Rate": -20,
+        "Fire_Rate": -18,
         "Movement_Speed": -6,
         "Range": -8
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "G43",
+        "Category": "BR",
+        "Magazine_Size": 10,
+        "Reload_Time": 1.5,
+        "Damage": 10,
+        "Fire_Rate": 10
       },
       {
         "Price_Type": "WC",
@@ -2495,7 +2577,7 @@
         "Name": "Screwdriver",
         "Category": "Weird",
         "Magazine_Size": 1,
-        "Reload_Time": 8,
+        "Reload_Time": 9,
         "Damage": 100,
         "Movement_Speed": -10,
         "Range": -14,
@@ -2554,6 +2636,16 @@
         "Health": 10,
         "Range": -6,
         "Recoil": 15
+      },
+      {
+        "Price_Type": "Limited",
+        "Name": "AK2D",
+        "Category": "Weird",
+        "Magazine_Size": 30,
+        "Reload_Time": 2.2,
+        "Damage": 8,
+        "Fire_Rate": -1,
+        "Spread": 25
       },
       {
         "Price_Type": "Free",
@@ -2762,6 +2854,16 @@
         "Fire_Rate": 11,
         "Range": 9,
         "Spread": 17
+      },
+      {
+        "Price_Type": "Robux",
+        "Name": "Infinity",
+        "Category": "Sidearm",
+        "Magazine_Size": 999999,
+        "Reload_Time": 67,
+        "Damage": -30,
+        "Fire_Rate": 10,
+        "Range": -10
       }
     ],
     "Grips": [
@@ -2821,6 +2923,7 @@
         "Price_Type": "Coin",
         "Name": "Scar L",
         "Category": "AR",
+        "Magazine_Cap": 13,
         "Recoil": -25,
         "Spread": 25
       },
@@ -3042,7 +3145,7 @@
         "Name": "Musket",
         "Category": "Sniper",
         "Damage": 10,
-        "Fire_Rate": -15,
+        "Fire_Rate": -1.5,
         "Reload_Speed": 10,
         "Spread": 40
       },
@@ -3168,7 +3271,7 @@
         "Price_Type": "Coin",
         "Name": "PPSh-41",
         "Category": "SMG",
-        "Fire_Rate": 10,
+        "Fire_Rate": 7.5,
         "Reload_Speed": 15,
         "Spread": -10
       },
@@ -3242,6 +3345,23 @@
         "Spread": 22
       },
       {
+        "Price_Type": "Unknown",
+        "Name": "M3 Grease Gun",
+        "Category": "SMG",
+        "Fire_Rate": -3.5,
+        "Magazine_Cap": 12,
+        "Movement_Speed": 3.2,
+        "Spread": -13
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "USA180",
+        "Category": "SMG",
+        "Damage": -4,
+        "Reload_Speed": -12,
+        "Spread": -23
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M870",
         "Category": "Shotgun",
@@ -3286,6 +3406,7 @@
         "Price_Type": "Coin",
         "Name": "JSG12",
         "Category": "Shotgun",
+        "Fire_Rate": -9,
         "Movement_Speed": 3,
         "Recoil": 38,
         "Spread": -18
@@ -3537,6 +3658,14 @@
         "Spread": 18
       },
       {
+        "Price_Type": "Unknown",
+        "Name": "G43",
+        "Category": "BR",
+        "Damage": 5,
+        "Magazine_Cap": -20,
+        "Recoil": -17
+      },
+      {
         "Price_Type": "Limited",
         "Name": "Paintball",
         "Category": "Weird",
@@ -3617,6 +3746,14 @@
         "Category": "Weird",
         "Range": -5,
         "Recoil": -20
+      },
+      {
+        "Price_Type": "Limited",
+        "Name": "AK2D",
+        "Category": "Weird",
+        "Damage": 1,
+        "Fire_Rate": 2.5,
+        "Recoil": 35
       },
       {
         "Price_Type": "Free",
@@ -3770,6 +3907,15 @@
         "Category": "Sidearm",
         "Fire_Rate": 4,
         "Recoil": 34
+      },
+      {
+        "Price_Type": "Robux",
+        "Name": "Infinity",
+        "Category": "Sidearm",
+        "Fire_Rate": 15,
+        "Magazine_Cap": 16,
+        "Range": -4,
+        "Reload_Speed": 7
       }
     ],
     "Stocks": [
@@ -3791,7 +3937,7 @@
         "Price_Type": "Coin",
         "Name": "C36C",
         "Category": "AR",
-        "Recoil": -5,
+        "Recoil": -10,
         "Reload_Speed": -5,
         "Spread": -5
       },
@@ -3845,6 +3991,7 @@
         "Name": "QBZ-95",
         "Category": "AR",
         "Health": 6,
+        "Magazine_Cap": 16,
         "Recoil": 10,
         "Reload_Speed": 3.6
       },
@@ -4050,8 +4197,9 @@
         "Price_Type": "Robux",
         "Name": "Snake Sniper",
         "Category": "Sniper",
+        "Magazine_Cap": 20,
         "Movement_Speed": -8.5,
-        "Recoil": -40,
+        "Recoil": -25,
         "Reload_Speed": 6
       },
       {
@@ -4253,6 +4401,22 @@
         "Recoil": 32
       },
       {
+        "Price_Type": "Unknown",
+        "Name": "M3 Grease Gun",
+        "Category": "SMG",
+        "Movement_Speed": 6,
+        "Range": 6.5,
+        "Recoil": 19
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "USA180",
+        "Category": "SMG",
+        "Damage": -4,
+        "Fire_Rate": 7.5,
+        "Movement_Speed": 4
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M870",
         "Category": "Shotgun",
@@ -4272,15 +4436,16 @@
         "Price_Type": "Coin",
         "Name": "M1897 Trench Shotgun",
         "Category": "Shotgun",
-        "Fire_Rate": 14,
+        "Fire_Rate": 3,
+        "Magazine_Cap": 25,
         "Recoil": 40,
-        "Spread": 25
+        "Spread": 15
       },
       {
         "Price_Type": "Coin",
         "Name": "M870 MCS",
         "Category": "Shotgun",
-        "Fire_Rate": -5,
+        "Fire_Rate": -15,
         "Recoil": -25,
         "Reload_Speed": 10,
         "Spread": -20
@@ -4317,15 +4482,15 @@
         "Price_Type": "Coin",
         "Name": "Spas-12 Folded",
         "Category": "Shotgun",
-        "Movement_Speed": 4,
-        "Recoil": 20,
-        "Reload_Speed": -15,
-        "Spread": 20
+        "Movement_Speed": 8,
+        "Recoil": 43,
+        "Reload_Speed": -15
       },
       {
         "Price_Type": "Coin",
         "Name": "JSG12",
         "Category": "Shotgun",
+        "Fire_Rate": -12,
         "Movement_Speed": 3,
         "Reload_Speed": 5,
         "Spread": -19
@@ -4428,6 +4593,7 @@
         "Price_Type": "Coin",
         "Name": "M1919 .30 Cal",
         "Category": "LMG",
+        "Magazine_Cap": -7,
         "Movement_Speed": -7,
         "Recoil": -32,
         "Spread": 19
@@ -4436,6 +4602,7 @@
         "Price_Type": "Coin",
         "Name": "Negev",
         "Category": "LMG",
+        "Fire_Rate": 7,
         "Movement_Speed": -3,
         "Recoil": -20,
         "Reload_Speed": 8
@@ -4461,9 +4628,9 @@
         "Price_Type": "Coin",
         "Name": "Burton",
         "Category": "LMG",
-        "Movement_Speed": 4,
+        "Movement_Speed": 6,
         "Recoil": 26,
-        "Reload_Speed": -5
+        "Reload_Speed": -11
       },
       {
         "Price_Type": "Coin",
@@ -4577,12 +4744,21 @@
         "Range": -6
       },
       {
+        "Price_Type": "Unknown",
+        "Name": "G43",
+        "Category": "BR",
+        "Damage": 2,
+        "Range": 8,
+        "Reload_Speed": 12
+      },
+      {
         "Price_Type": "WC",
         "Name": "USS Iowa",
         "Category": "Weird",
-        "Fire_Rate": 0.2,
+        "Fire_Rate": 3.5,
         "Health": 14,
-        "Movement_Speed": -0.2,
+        "Magazine_Cap": -15,
+        "Movement_Speed": -5.2,
         "Reload_Speed": 13
       },
       {
@@ -4611,6 +4787,7 @@
         "Equip_Time": 75,
         "Fire_Rate": 17,
         "Health": 50,
+        "Magazine_Cap": 30,
         "Movement_Speed": -75,
         "Recoil": -85,
         "Reload_Speed": 12,
@@ -4620,12 +4797,14 @@
         "Price_Type": "WC",
         "Name": "Speed Coil",
         "Category": "Weird",
-        "Fire_Rate": 5,
+        "Damage": -3,
+        "Fire_Rate": 10,
         "Health": -10,
-        "Movement_Speed": 10,
+        "Magazine_Cap": -24,
+        "Movement_Speed": 25,
         "Recoil": -40,
-        "Reload_Speed": -15,
-        "Spread": 250
+        "Reload_Speed": -18,
+        "Spread": 40
       },
       {
         "Price_Type": "WC",
@@ -4682,10 +4861,19 @@
         "Price_Type": "Limited",
         "Name": "Mega Soaker",
         "Category": "Weird",
+        "Magazine_Cap": 30,
         "Movement_Speed": 8,
         "Range": -2,
         "Recoil": 35,
         "Spread": 25
+      },
+      {
+        "Price_Type": "Limited",
+        "Name": "AK2D",
+        "Category": "Weird",
+        "Damage": 3,
+        "Fire_Rate": 1.5,
+        "Recoil": 43
       }
     ],
     "Cores": [
@@ -4698,7 +4886,7 @@
           17.6
         ],
         "Dropoff_Studs": [
-          140,
+          170,
           325
         ],
         "Fire_Rate": 600,
@@ -4770,7 +4958,7 @@
           11.1
         ],
         "Dropoff_Studs": [
-          125,
+          150,
           250
         ],
         "Fire_Rate": 750,
@@ -4811,7 +4999,7 @@
         ],
         "Fire_Rate": 680,
         "Hipfire_Spread": 1,
-        "ADS_Spread": 0.125,
+        "ADS_Spread": 0.085,
         "Time_To_Aim": 0.5,
         "Detection_Radius": 75,
         "Movement_Speed_Modifier": 2.5,
@@ -4948,8 +5136,8 @@
         "Name": "Scar L",
         "Category": "AR",
         "Damage": [
-          18.2,
-          12.7
+          19.5,
+          13.7
         ],
         "Dropoff_Studs": [
           170,
@@ -4993,7 +5181,7 @@
         ],
         "Fire_Rate": 666,
         "Hipfire_Spread": 4.5,
-        "ADS_Spread": 0.175,
+        "ADS_Spread": 0.1,
         "Time_To_Aim": 0.5,
         "Detection_Radius": 145,
         "Suppression": 0.3,
@@ -5020,8 +5208,8 @@
         "Name": "QBZ-95",
         "Category": "AR",
         "Damage": [
-          15.5,
-          13
+          17.5,
+          14.7
         ],
         "Dropoff_Studs": [
           200,
@@ -5029,7 +5217,7 @@
         ],
         "Fire_Rate": 650,
         "Hipfire_Spread": 3.5,
-        "ADS_Spread": 0.2,
+        "ADS_Spread": 0.1,
         "Time_To_Aim": 0.5,
         "Detection_Radius": 120,
         "Suppression": 0.3,
@@ -5093,8 +5281,8 @@
         "Name": "AK-12",
         "Category": "AR",
         "Damage": [
-          16.5,
-          14
+          17,
+          14.5
         ],
         "Dropoff_Studs": [
           155,
@@ -5129,8 +5317,8 @@
         "Name": "Broza",
         "Category": "AR",
         "Damage": [
-          15,
-          12.3
+          16,
+          13.1
         ],
         "Dropoff_Studs": [
           150,
@@ -5138,7 +5326,7 @@
         ],
         "Fire_Rate": 725,
         "Hipfire_Spread": 4,
-        "ADS_Spread": 0.25,
+        "ADS_Spread": 0.35,
         "Time_To_Aim": 0.55,
         "Detection_Radius": 120,
         "Suppression": 0.3,
@@ -5165,14 +5353,14 @@
         "Name": "Hell-Trooper-23",
         "Category": "AR",
         "Damage": [
-          16.5,
-          13.2
+          18,
+          14.4
         ],
         "Dropoff_Studs": [
-          155,
+          190,
           290
         ],
-        "Fire_Rate": 650,
+        "Fire_Rate": 640,
         "Hipfire_Spread": 5,
         "ADS_Spread": 0.6,
         "Time_To_Aim": 0.5,
@@ -5573,7 +5761,7 @@
           500,
           750
         ],
-        "Fire_Rate": 30,
+        "Fire_Rate": 28,
         "Hipfire_Spread": 15,
         "ADS_Spread": 0.05,
         "Time_To_Aim": 0.8,
@@ -5651,7 +5839,7 @@
         "ADS_Spread": 0.2,
         "Time_To_Aim": 0.7,
         "Detection_Radius": 100,
-        "Movement_Speed_Modifier": 10,
+        "Movement_Speed_Modifier": 12,
         "Suppression": 0.8,
         "Health": -15,
         "Equip_Time": 1,
@@ -5721,7 +5909,7 @@
           525,
           700
         ],
-        "Fire_Rate": 18,
+        "Fire_Rate": 21,
         "Hipfire_Spread": 15,
         "ADS_Spread": 0.13,
         "Time_To_Aim": 0.9,
@@ -5795,7 +5983,7 @@
           400,
           500
         ],
-        "Fire_Rate": 15,
+        "Fire_Rate": 17,
         "Hipfire_Spread": 15,
         "ADS_Spread": 0.12,
         "Time_To_Aim": 1,
@@ -5936,8 +6124,8 @@
         "Name": "Barret .50",
         "Category": "Sniper",
         "Damage": [
-          68,
-          40.8
+          66.5,
+          37.3
         ],
         "Dropoff_Studs": [
           200,
@@ -5956,8 +6144,8 @@
           32
         ],
         "Recoil_Hip_Vertical": [
-          90,
-          120
+          150,
+          180
         ],
         "Recoil_Aim_Horizontal": [
           -27.2,
@@ -6195,11 +6383,11 @@
         "Name": "UNP-40",
         "Category": "SMG",
         "Damage": [
-          21,
-          13.7
+          19.7,
+          12.8
         ],
         "Dropoff_Studs": [
-          125,
+          140,
           150
         ],
         "Fire_Rate": 600,
@@ -6309,7 +6497,7 @@
           10.5
         ],
         "Dropoff_Studs": [
-          160,
+          135,
           190
         ],
         "Fire_Rate": 700,
@@ -6317,7 +6505,7 @@
         "ADS_Spread": 0.45,
         "Time_To_Aim": 0.35,
         "Detection_Radius": 110,
-        "Movement_Speed_Modifier": 4.1,
+        "Movement_Speed_Modifier": 6.5,
         "Suppression": 0,
         "Equip_Time": 0.5,
         "Recoil_Hip_Horizontal": [
@@ -6415,8 +6603,8 @@
         "Name": "PPSh-41",
         "Category": "SMG",
         "Damage": [
-          12.5,
-          7.5
+          14,
+          8.4
         ],
         "Dropoff_Studs": [
           125,
@@ -6452,8 +6640,8 @@
         "Name": "Kriss Vector",
         "Category": "SMG",
         "Damage": [
-          11.5,
-          6.9
+          12.5,
+          7.5
         ],
         "Dropoff_Studs": [
           110,
@@ -6526,8 +6714,8 @@
         "Name": "P90",
         "Category": "SMG",
         "Damage": [
-          11,
-          7.7
+          12,
+          8.5
         ],
         "Dropoff_Studs": [
           150,
@@ -6739,6 +6927,78 @@
         "Recoil_Aim_Vertical": [
           6.5,
           19.5
+        ]
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "M3 Grease Gun",
+        "Category": "SMG",
+        "Damage": [
+          25,
+          15
+        ],
+        "Dropoff_Studs": [
+          130,
+          160
+        ],
+        "Fire_Rate": 450,
+        "Hipfire_Spread": 3,
+        "ADS_Spread": 0.45,
+        "Time_To_Aim": 0.5,
+        "Detection_Radius": 150,
+        "Suppression": 0.1,
+        "Equip_Time": 0.6,
+        "Recoil_Hip_Horizontal": [
+          -22,
+          22
+        ],
+        "Recoil_Hip_Vertical": [
+          70,
+          75
+        ],
+        "Recoil_Aim_Horizontal": [
+          -15.4,
+          15.4
+        ],
+        "Recoil_Aim_Vertical": [
+          49,
+          52.5
+        ]
+      },
+      {
+        "Price_Type": "Unknown",
+        "Name": "USA180",
+        "Category": "SMG",
+        "Damage": [
+          7.5,
+          5.3
+        ],
+        "Dropoff_Studs": [
+          100,
+          135
+        ],
+        "Fire_Rate": 1500,
+        "Hipfire_Spread": 3,
+        "ADS_Spread": 0.65,
+        "Time_To_Aim": 0.3,
+        "Detection_Radius": 15,
+        "Suppression": 0.3,
+        "Equip_Time": 0.7,
+        "Recoil_Hip_Horizontal": [
+          -2,
+          2
+        ],
+        "Recoil_Hip_Vertical": [
+          2,
+          3
+        ],
+        "Recoil_Aim_Horizontal": [
+          -1.6,
+          1.6
+        ],
+        "Recoil_Aim_Vertical": [
+          -1.6,
+          2.4
         ]
       },
       {
@@ -7170,7 +7430,7 @@
         ],
         "Fire_Rate": 300,
         "Hipfire_Spread": 5.5,
-        "ADS_Spread": 2,
+        "ADS_Spread": 2.2,
         "Time_To_Aim": 1,
         "Detection_Radius": 200,
         "Movement_Speed_Modifier": -5,
@@ -7199,7 +7459,7 @@
         "Category": "Shotgun",
         "Pellets": 10,
         "Damage": [
-          90,
+          80,
           20
         ],
         "Dropoff_Studs": [
@@ -7235,8 +7495,8 @@
         "Name": "M60",
         "Category": "LMG",
         "Damage": [
-          19.5,
-          11.2
+          21,
+          12.1
         ],
         "Dropoff_Studs": [
           190,
@@ -7387,8 +7647,8 @@
         "Name": "M1919 .30 Cal",
         "Category": "LMG",
         "Damage": [
-          22.7,
-          16.3
+          25,
+          18
         ],
         "Dropoff_Studs": [
           190,
@@ -7399,7 +7659,7 @@
         "ADS_Spread": 0.5,
         "Time_To_Aim": 1.25,
         "Detection_Radius": 165,
-        "Movement_Speed_Modifier": -12,
+        "Movement_Speed_Modifier": -15,
         "Suppression": 0.9,
         "Health": 20,
         "Equip_Time": 1,
@@ -7577,16 +7837,16 @@
         "Name": "Lewis",
         "Category": "LMG",
         "Damage": [
-          19,
-          11.4
+          20,
+          12
         ],
         "Dropoff_Studs": [
           200,
           425
         ],
-        "Fire_Rate": 600,
+        "Fire_Rate": 635,
         "Hipfire_Spread": 6,
-        "ADS_Spread": 0.6,
+        "ADS_Spread": 0.45,
         "Time_To_Aim": 1.25,
         "Detection_Radius": 155,
         "Movement_Speed_Modifier": -6,
@@ -7662,7 +7922,7 @@
         ],
         "Fire_Rate": 300,
         "Hipfire_Spread": 5,
-        "ADS_Spread": 0.45,
+        "ADS_Spread": 0.3,
         "Time_To_Aim": 0.7,
         "Detection_Radius": 120,
         "Movement_Speed_Modifier": -5,
@@ -7764,8 +8024,8 @@
         "Name": "FAL",
         "Category": "BR",
         "Damage": [
-          20,
-          14.1
+          20.5,
+          12.8
         ],
         "Dropoff_Studs": [
           120,
@@ -7773,7 +8033,7 @@
         ],
         "Fire_Rate": 650,
         "Hipfire_Spread": 6,
-        "ADS_Spread": 0.3,
+        "ADS_Spread": 0.15,
         "Time_To_Aim": 0.85,
         "Detection_Radius": 120,
         "Movement_Speed_Modifier": -5,
@@ -7814,6 +8074,7 @@
         "Time_To_Aim": 0.5,
         "Detection_Radius": 210,
         "Suppression": 0.5,
+        "Health": 5,
         "Equip_Time": 0.7,
         "Recoil_Hip_Horizontal": [
           -20,
@@ -7912,8 +8173,8 @@
         "Name": "M110",
         "Category": "BR",
         "Damage": [
-          48,
-          33.6
+          52,
+          36.4
         ],
         "Dropoff_Studs": [
           120,
@@ -8054,6 +8315,43 @@
         ]
       },
       {
+        "Price_Type": "Unknown",
+        "Name": "G43",
+        "Category": "BR",
+        "Damage": [
+          42,
+          31.5
+        ],
+        "Dropoff_Studs": [
+          180,
+          300
+        ],
+        "Fire_Rate": 215,
+        "Hipfire_Spread": 3,
+        "ADS_Spread": 0.25,
+        "Time_To_Aim": 0.5,
+        "Detection_Radius": 250,
+        "Suppression": 0.3,
+        "Health": 10,
+        "Equip_Time": 0.8,
+        "Recoil_Hip_Horizontal": [
+          -13,
+          13
+        ],
+        "Recoil_Hip_Vertical": [
+          24,
+          36
+        ],
+        "Recoil_Aim_Horizontal": [
+          -5.2,
+          5.2
+        ],
+        "Recoil_Aim_Vertical": [
+          9.6,
+          14.4
+        ]
+      },
+      {
         "Price_Type": "Limited",
         "Name": "Paintball",
         "Category": "Weird",
@@ -8101,7 +8399,8 @@
         "ADS_Spread": 1,
         "Time_To_Aim": 0.5,
         "Detection_Radius": 100,
-        "Movement_Speed_Modifier": -5
+        "Movement_Speed_Modifier": -5,
+        "Equip_Time": 0.3
       },
       {
         "Price_Type": "WC",
@@ -8160,6 +8459,7 @@
         "Time_To_Aim": 0.7,
         "Detection_Radius": 120,
         "Suppression": 0.3,
+        "Equip_Time": 0.3,
         "Recoil_Hip_Horizontal": [
           -10,
           10
@@ -8182,8 +8482,8 @@
         "Name": "Loaf",
         "Category": "Weird",
         "Damage": [
-          21,
-          16.8
+          28,
+          22.4
         ],
         "Dropoff_Studs": [
           150,
@@ -8195,6 +8495,7 @@
         "Time_To_Aim": 0.6,
         "Detection_Radius": 55,
         "Suppression": 0.8,
+        "Equip_Time": 0.3,
         "Recoil_Hip_Horizontal": [
           -6,
           6
@@ -8230,6 +8531,7 @@
         "Time_To_Aim": 0.5,
         "Detection_Radius": 120,
         "Suppression": 0.3,
+        "Equip_Time": 0.3,
         "Recoil_Hip_Horizontal": [
           -15,
           15
@@ -8265,6 +8567,7 @@
         "Time_To_Aim": 0.5,
         "Detection_Radius": 250,
         "Suppression": 0.5,
+        "Equip_Time": 0.3,
         "Recoil_Hip_Horizontal": [
           -20,
           20
@@ -8300,6 +8603,8 @@
         "Time_To_Aim": 0.5,
         "Detection_Radius": 30,
         "Movement_Speed_Modifier": 15,
+        "Suppression": 0,
+        "Equip_Time": 0.3,
         "Recoil_Hip_Horizontal": [
           -12,
           12
@@ -8335,6 +8640,7 @@
         "Time_To_Aim": 0.5,
         "Detection_Radius": 50,
         "Suppression": 0.3,
+        "Equip_Time": 0.3,
         "Recoil_Hip_Horizontal": [
           -8,
           8
@@ -8350,6 +8656,42 @@
         "Recoil_Aim_Vertical": [
           14.3,
           20.3
+        ]
+      },
+      {
+        "Price_Type": "Limited",
+        "Name": "AK2D",
+        "Category": "Weird",
+        "Damage": [
+          18.5,
+          11.1
+        ],
+        "Dropoff_Studs": [
+          145,
+          200
+        ],
+        "Fire_Rate": 700,
+        "Hipfire_Spread": 2.5,
+        "ADS_Spread": 0.4,
+        "Time_To_Aim": 0.65,
+        "Detection_Radius": 120,
+        "Suppression": 0.3,
+        "Equip_Time": 0.7,
+        "Recoil_Hip_Horizontal": [
+          -36,
+          36
+        ],
+        "Recoil_Hip_Vertical": [
+          64,
+          76
+        ],
+        "Recoil_Aim_Horizontal": [
+          -32.4,
+          32.4
+        ],
+        "Recoil_Aim_Vertical": [
+          57.6,
+          68.4
         ]
       },
       {
@@ -8981,8 +9323,8 @@
         "Name": "Five-7",
         "Category": "Sidearm",
         "Damage": [
-          16.5,
-          12.4
+          17.2,
+          12.9
         ],
         "Dropoff_Studs": [
           45,
@@ -9017,8 +9359,8 @@
     [
       1.0,
       0.7,
-      0.79,
       0.75,
+      0.7,
       0.75,
       1.0,
       0.8,

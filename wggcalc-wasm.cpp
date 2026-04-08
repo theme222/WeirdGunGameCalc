@@ -104,8 +104,11 @@ namespace Clear { // Define functions that will be used to clear filters and oth
 }
 
 namespace Util {
+    
     void InitDataset(std::string JSONString) // Initialize dataset and other non changing info
     {
+        puts("Initializing Dataset...");
+        
         Input::debug = DEBUG;
         json fullDataJSON = json::parse(JSONString);
         
@@ -169,8 +172,6 @@ namespace Util {
             for (int j = 0; j < Fast::categoryCount; j++)
                 Fast::penalties[i][j] = penaltiesJSON[i][j];
     
-        puts("Initializing required data");
-    
         Fast::InitializeClampQuadratic();
         DynamicPrune::HighLow::InitializeBestPossible();
         DynamicPrune::HighLow::InitializeHighestAndLowestMultParts();
@@ -182,6 +183,7 @@ namespace Util {
         PQ::InitializeCurrentSortingType();
         Fast::InitializeCategoriesFBParts();
         Filter::InitializeMultFlag();
+        Data::Heuristic::SortPartListsWithHeuristic();
         DynamicPrune::InitializeThreshold();
         
         puts("Running calculator!");

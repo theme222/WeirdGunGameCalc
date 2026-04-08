@@ -224,6 +224,7 @@ int main(int argc, char* argv[])
     Fast::InitializeCategoriesFBParts();
     Fast::InitializeClampQuadratic();
     Filter::InitializeMultFlag();
+    Data::Heuristic::SortPartListsWithHeuristic(); // In practice this doesn't seem to either help or hurt performance...
     DynamicPrune::HighLow::InitializeBestPossible();
     DynamicPrune::HighLow::InitializeHighestAndLowestMultParts();
     DynamicPrune::InitializeThreshold();

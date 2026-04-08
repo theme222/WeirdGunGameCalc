@@ -1,133 +1,137 @@
 ./wggcalc -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
-[ Barrel: Tommy, Magazine: MP 40, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 33.5598 - 21.1091
-dropoffStuds: 112.8 - 173.9
-fireRate: 499.589
-adsSpread: 0.51909
-hipfireSpread: 2.59545
-reloadTime: 2.875
-magazineSize: 32
-recoilHipVertical: 59.6275 - 82.4263
-recoilAimVertical: 20.8696 - 28.7615
-movementSpeed: 7.3
-TTK: 0.240197 Seconds
-
-[ Barrel: PP-19 Bizon, Magazine: MP 40, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 34.1813 - 21.0215
-dropoffStuds: 108 - 166.5
-fireRate: 490.251
-adsSpread: 0.51909
-hipfireSpread: 2.59545
-reloadTime: 2.875
-magazineSize: 32
-recoilHipVertical: 59.6275 - 82.4263
-recoilAimVertical: 20.8696 - 28.7615
-movementSpeed: 6
-TTK: 0.244772 Seconds
-
-[ Barrel: Tommy, Magazine: MP 40, Grip: PPSh-41, Stock: Spas-12, Core: MP18 ]
-damage: 33.5598 - 20.8601
+[ Barrel: Tommy, Magazine: M3 Grease Gun, Grip: Type 2a Nambu, Stock: Spas-12, Core: MP18 ]
+damage: 33.4702 - 20.8044
 dropoffStuds: 110.544 - 170.422
-fireRate: 487.961
-adsSpread: 0.46532
-hipfireSpread: 2.3266
-reloadTime: 2.875
-magazineSize: 32
-recoilHipVertical: 48.875 - 67.5625
-recoilAimVertical: 17.1062 - 23.575
-movementSpeed: 4.3
-TTK: 0.245921 Seconds
+fireRate: 466.948
+adsSpread: 0.56
+hipfireSpread: 2.8
+reloadTime: 2.2
+magazineSize: 30
+health: -7.5
+recoilHipVertical: 72.1395 - 99.7223
+recoilAimVertical: 25.2488 - 34.7967
+movementSpeed: 6.3
+TTK: 0.256988 Seconds
 
-[ Barrel: Tommy, Magazine: MP 40, Grip: P90, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 33.5598 - 21.1091
+[ Barrel: PP-19 Bizon, Magazine: M3 Grease Gun, Grip: Infinity, Stock: APS, Core: MP18 ]
+damage: 33.7099 - 20.2124
+dropoffStuds: 103.68 - 159.84
+fireRate: 464.1
+adsSpread: 0.65
+hipfireSpread: 3.25
+reloadTime: 2.354
+magazineSize: 33
+recoilHipVertical: 76.245 - 105.398
+recoilAimVertical: 26.6857 - 36.777
+movementSpeed: 8
+TTK: 0.258565 Seconds
+
+[ Barrel: PP-19 Bizon, Magazine: M3 Grease Gun, Grip: Type 2a Nambu, Stock: Spas-12, Core: MP18 ]
+damage: 34.0959 - 20.7064
+dropoffStuds: 105.84 - 163.17
+fireRate: 458.22
+adsSpread: 0.56
+hipfireSpread: 2.8
+reloadTime: 2.2
+magazineSize: 30
+health: -7.5
+recoilHipVertical: 72.1395 - 99.7223
+recoilAimVertical: 25.2488 - 34.7967
+movementSpeed: 5
+TTK: 0.261883 Seconds
+
+[ Barrel: SMO3, Magazine: MP 40, Grip: Infinity, Stock: Spas-12, Core: MP18 ]
+damage: 33.488 - 21.0546
+dropoffStuds: 112.896 - 174.048
+fireRate: 458.111
+adsSpread: 0.504
+hipfireSpread: 2.52
+reloadTime: 2.96925
+magazineSize: 36
+recoilHipVertical: 39.1 - 54.05
+recoilAimVertical: 13.685 - 18.86
+movementSpeed: 3
+TTK: 0.261945 Seconds
+
+[ Barrel: Type 2a Nambu, Magazine: MP 40, Grip: Infinity, Stock: Spas-12, Core: MP18 ]
+damage: 33.787 - 20.8035
+dropoffStuds: 108.945 - 167.956
+fireRate: 458.111
+adsSpread: 0.61992
+hipfireSpread: 3.0996
+reloadTime: 2.675
+magazineSize: 36
+recoilHipVertical: 39.1 - 54.05
+recoilAimVertical: 13.685 - 18.86
+movementSpeed: 3.5
+TTK: 0.261945 Seconds
+
+[ Barrel: Tommy, Magazine: M3 Grease Gun, Grip: Type 2a Nambu, Stock: Kriss Vector, Core: MP18 ]
+damage: 33.4702 - 20.4319
+dropoffStuds: 107.16 - 165.205
+fireRate: 457.96
+adsSpread: 0.65
+hipfireSpread: 3.25
+reloadTime: 2.2
+magazineSize: 30
+health: -7.5
+recoilHipVertical: 57.7116 - 79.7778
+recoilAimVertical: 20.1991 - 27.8374
+movementSpeed: 12.6
+TTK: 0.262032 Seconds
+
+[ Barrel: Tommy, Magazine: M3 Grease Gun, Grip: Type 2a Nambu, Stock: Roto-Fire, Core: MP18 ]
+damage: 33.4702 - 20.3077
+dropoffStuds: 106.032 - 163.466
+fireRate: 454.964
+adsSpread: 0.5
+hipfireSpread: 2.5
+reloadTime: 2.2
+magazineSize: 30
+health: -7.5
+recoilHipVertical: 72.1395 - 99.7223
+recoilAimVertical: 25.2488 - 34.7967
+movementSpeed: 8.8
+TTK: 0.263757 Seconds
+
+[ Barrel: Tommy, Magazine: M3 Grease Gun, Grip: Type 2a Nambu, Stock: AR-8X, Core: MP18 ]
+damage: 33.4702 - 21.0528
 dropoffStuds: 112.8 - 173.9
-fireRate: 485.964
-adsSpread: 0.645278
-hipfireSpread: 3.22639
+fireRate: 451.968
+adsSpread: 0.57
+hipfireSpread: 2.85
+reloadTime: 2.2
+magazineSize: 30
+health: -7.5
+recoilHipVertical: 72.1395 - 99.7223
+recoilAimVertical: 25.2488 - 34.7967
+movementSpeed: 7.3
+TTK: 0.265505 Seconds
+
+[ Barrel: Uzi, Magazine: MP 40, Grip: Circuit Judge, Stock: Spas-12, Core: MP18 ]
+damage: 33.4357 - 20.5442
+dropoffStuds: 108.192 - 166.796
+fireRate: 451.892
+adsSpread: 0.57834
+hipfireSpread: 2.8917
 reloadTime: 2.5
 magazineSize: 32
-recoilHipVertical: 53.0685 - 73.3594
-recoilAimVertical: 18.574 - 25.5977
-movementSpeed: 7.3
-TTK: 0.246932 Seconds
+recoilHipVertical: 39.1 - 54.05
+recoilAimVertical: 13.685 - 18.86
+movementSpeed: 4.5
+TTK: 0.26555 Seconds
 
-[ Barrel: MP 40, Magazine: Maple Badger, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 33.6 - 21.84
-dropoffStuds: 120 - 185
-fireRate: 484.108
-adsSpread: 0.576448
-hipfireSpread: 2.88224
-reloadTime: 1.84
+[ Barrel: PP-19 Bizon, Magazine: M3 Grease Gun, Grip: PPSh-41, Stock: APS, Core: MP18 ]
+damage: 33.7099 - 20.7316
+dropoffStuds: 108 - 166.5
+fireRate: 451.5
+adsSpread: 0.585
+hipfireSpread: 2.925
+reloadTime: 2.53
 magazineSize: 30
-recoilHipVertical: 49.776 - 68.808
-recoilAimVertical: 17.4216 - 24.0096
-movementSpeed: 6.7
-TTK: 0.247879 Seconds
-
-[ Barrel: M1911, Magazine: Maple Badger, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 34.387 - 21.0276
-dropoffStuds: 106.8 - 164.65
-fireRate: 484.108
-adsSpread: 0.576448
-hipfireSpread: 2.88224
-reloadTime: 1.84
-magazineSize: 30
-recoilHipVertical: 51.85 - 71.675
-recoilAimVertical: 18.1475 - 25.01
-movementSpeed: 3.5
-TTK: 0.247879 Seconds
-
-[ Barrel: Car Muffler, Magazine: Maple Badger, Grip: PPSh-41, Stock: M1897 Trench Shotgun, Core: MP18 ]
-damage: 33.6 - 21.84
-dropoffStuds: 120 - 185
-fireRate: 484.108
-adsSpread: 0.576448
-hipfireSpread: 2.88224
-reloadTime: 2.024
-magazineSize: 30
-health: -15
-recoilHipVertical: 50.6056 - 69.9548
-recoilAimVertical: 17.712 - 24.4098
-movementSpeed: 5.5
-TTK: 0.247879 Seconds
-
-[ Barrel: M870 Breacher, Magazine: MP18, Grip: Circuit Judge, Stock: M40, Core: STG-44 ]
-damage: 34.0241 - 27.9935
-dropoffStuds: 122.85 - 245.7
-fireRate: 482.5
-adsSpread: 0.617957
-hipfireSpread: 8.4969
-reloadTime: 2.2
-magazineSize: 32
-recoilHipVertical: 56.73 - 68.076
-recoilAimVertical: 31.2015 - 37.4418
-movementSpeed: 2.25
-TTK: 0.248705 Seconds
-
-[ Barrel: M870 Breacher, Magazine: MP18, Grip: Circuit Judge, Stock: M870, Core: STG-44 ]
-damage: 34.0241 - 27.9935
-dropoffStuds: 122.85 - 245.7
-fireRate: 482.5
-adsSpread: 0.637603
-hipfireSpread: 8.76704
-reloadTime: 2.31
-magazineSize: 32
-recoilHipVertical: 54.1375 - 64.965
-recoilAimVertical: 29.7756 - 35.7307
-movementSpeed: 2.25
-TTK: 0.248705 Seconds
-
-[ Barrel: M870 Breacher, Magazine: MP18, Grip: Circuit Judge, Stock: Type 2a Nambu, Core: STG-44 ]
-damage: 34.0241 - 27.9935
-dropoffStuds: 122.85 - 245.7
-fireRate: 482.5
-adsSpread: 0.644604
-hipfireSpread: 8.8633
-reloadTime: 2.2
-magazineSize: 32
-recoilHipVertical: 56.181 - 67.4172
-recoilAimVertical: 30.8996 - 37.0795
-movementSpeed: 3.435
-TTK: 0.248705 Seconds
+recoilHipVertical: 76.245 - 105.398
+recoilAimVertical: 26.6857 - 36.777
+movementSpeed: 8
+TTK: 0.265781 Seconds
 

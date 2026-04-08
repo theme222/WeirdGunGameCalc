@@ -1,122 +1,142 @@
 ./wggcalc -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80 
 Current top 10 guns are: 
-[ Barrel: Paintball, Magazine: M40, Grip: Snake Sniper, Stock: FAL, Core: M1897 Trench Shotgun ]
-damage: 140.873 - 51.9337
-dropoffStuds: 80.6583 - 161.317
-fireRate: 160
-adsSpread: 1.78964
-hipfireSpread: 3.22136
-reloadTime: 4.5
-magazineSize: 10
-recoilHipVertical: 57.096 - 85.644
-recoilAimVertical: 22.8384 - 34.2576
-movementSpeed: 1.12
-
-[ Barrel: M40, Magazine: BAR, Grip: Auto-5, Stock: UNP-40, Core: M1897 Trench Shotgun ]
-damage: 140.154 - 52.9684
-dropoffStuds: 80.1562 - 160.312
-fireRate: 158.76
-adsSpread: 1.74349
-hipfireSpread: 3.13829
+[ Barrel: Chauchat, Magazine: BAR, Grip: Arisaka, Stock: Siberia-12, Core: Auto-5 ]
+damage: 142.025 - 51.4841
+dropoffStuds: 81.9375 - 157.047
+pellets: 8
+fireRate: 149.226
+adsSpread: 1.77849
+hipfireSpread: 6.55232
 reloadTime: 4
 magazineSize: 20
-recoilHipVertical: 46.332 - 69.498
-recoilAimVertical: 18.5328 - 27.7992
-movementSpeed: 1.97
+health: 2
+recoilHipVertical: 75.6 - 132.3
+recoilAimVertical: 30.24 - 52.92
+movementSpeed: 0.5
 
-[ Barrel: M40, Magazine: BAR, Grip: Auto-5, Stock: JSG12, Core: M1897 Trench Shotgun ]
-damage: 140.154 - 52.9684
-dropoffStuds: 80.1562 - 160.312
-fireRate: 158.76
-adsSpread: 1.64843
-hipfireSpread: 2.96717
-reloadTime: 4.2
-magazineSize: 20
-recoilHipVertical: 38.61 - 57.915
-recoilAimVertical: 15.444 - 23.166
-movementSpeed: 2.5
-
-[ Barrel: M40, Magazine: BAR, Grip: Auto-5, Stock: MG42, Core: M1897 Trench Shotgun ]
-damage: 140.154 - 52.9684
-dropoffStuds: 80.1562 - 160.312
-fireRate: 158.76
-adsSpread: 1.65349
-hipfireSpread: 2.97628
+[ Barrel: Chauchat, Magazine: BAR, Grip: Quad-Jolly, Stock: MG42, Core: Auto-5 ]
+damage: 142.025 - 50.126
+dropoffStuds: 80.7084 - 154.691
+pellets: 8
+fireRate: 147.663
+adsSpread: 1.69813
+hipfireSpread: 6.25625
 reloadTime: 4.4
 magazineSize: 20
-recoilHipVertical: 38.61 - 57.915
-recoilAimVertical: 15.444 - 23.166
-movementSpeed: 2.125
+health: 8
+recoilHipVertical: 67.5 - 118.125
+recoilAimVertical: 27 - 47.25
+movementSpeed: 1.075
 
-[ Barrel: M40, Magazine: BAR, Grip: JSG12, Stock: UNP-40, Core: M1897 Trench Shotgun ]
-damage: 143.711 - 54.3128
-dropoffStuds: 80.1562 - 160.312
-fireRate: 151.2
-adsSpread: 1.78681
-hipfireSpread: 3.21626
+[ Barrel: Chauchat, Magazine: BAR, Grip: Quad-Jolly, Stock: UNP-40, Core: Auto-5 ]
+damage: 142.025 - 50.126
+dropoffStuds: 80.7084 - 154.691
+pellets: 8
+fireRate: 147.663
+adsSpread: 1.79113
+hipfireSpread: 6.5989
 reloadTime: 4
 magazineSize: 20
-recoilHipVertical: 71.0424 - 106.564
-recoilAimVertical: 28.417 - 42.6254
-movementSpeed: 4.97
+health: 8
+recoilHipVertical: 81 - 141.75
+recoilAimVertical: 32.4 - 56.7
+movementSpeed: 0.92
 
-[ Barrel: M40, Magazine: BAR, Grip: JSG12, Stock: AWM, Core: M1897 Trench Shotgun ]
-damage: 143.711 - 54.3128
-dropoffStuds: 80.1562 - 160.312
-fireRate: 151.2
-adsSpread: 1.72048
-hipfireSpread: 3.09686
-reloadTime: 3.7
-magazineSize: 20
-recoilHipVertical: 65.1222 - 97.6833
-recoilAimVertical: 26.0489 - 39.0733
-movementSpeed: 2.5
-
-[ Barrel: M40, Magazine: BAR, Grip: The Chief, Stock: JSG12, Core: M1897 Trench Shotgun ]
-damage: 146.699 - 55.4421
-dropoffStuds: 80.1562 - 160.312
-fireRate: 151.2
-adsSpread: 1.69962
-hipfireSpread: 3.05932
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: Sten gun, Core: Auto-5 ]
+damage: 146.369 - 49.3812
+dropoffStuds: 80.0494 - 153.428
+pellets: 7
+fireRate: 147.355
+adsSpread: 1.70378
+hipfireSpread: 6.27707
 reloadTime: 4.2
 magazineSize: 20
-recoilHipVertical: 57.915 - 86.8725
-recoilAimVertical: 23.166 - 34.749
-movementSpeed: 2.5
+health: 8
+recoilHipVertical: 90.9144 - 159.1
+recoilAimVertical: 36.3658 - 63.6401
+movementSpeed: 1.9
 
-[ Barrel: M40, Magazine: BAR, Grip: QBZ-95, Stock: JSG12, Core: M1897 Trench Shotgun ]
-damage: 143.711 - 54.3128
-dropoffStuds: 80.1562 - 160.312
-fireRate: 151.2
-adsSpread: 1.75696
-hipfireSpread: 3.16253
-reloadTime: 4.41
+[ Barrel: Chauchat, Magazine: BAR, Grip: NP9, Stock: P90, Core: Auto-5 ]
+damage: 142.025 - 51.4841
+dropoffStuds: 81.9375 - 157.047
+pellets: 8
+fireRate: 145.815
+adsSpread: 1.7892
+hipfireSpread: 6.59179
+reloadTime: 4
 magazineSize: 20
-recoilHipVertical: 42.9 - 64.35
-recoilAimVertical: 17.16 - 25.74
-movementSpeed: 0.7
+health: 8
+recoilHipVertical: 89.208 - 156.114
+recoilAimVertical: 35.6832 - 62.4456
+movementSpeed: 1.375
 
-[ Barrel: M40, Magazine: BAR, Grip: JSG12, Stock: M870, Core: M1897 Trench Shotgun ]
-damage: 143.711 - 54.3128
-dropoffStuds: 80.1562 - 160.312
-fireRate: 151.2
-adsSpread: 1.7723
-hipfireSpread: 3.19014
+[ Barrel: Chauchat, Magazine: BAR, Grip: Arisaka, Stock: P90, Core: Auto-5 ]
+damage: 142.025 - 51.4841
+dropoffStuds: 81.9375 - 157.047
+pellets: 8
+fireRate: 145.815
+adsSpread: 1.77562
+hipfireSpread: 6.54175
+reloadTime: 4
+magazineSize: 20
+health: 2
+recoilHipVertical: 75.6 - 132.3
+recoilAimVertical: 30.24 - 52.92
+movementSpeed: 2.45
+
+[ Barrel: Chauchat, Magazine: BAR, Grip: UNP-40, Stock: P90, Core: Auto-5 ]
+damage: 142.025 - 51.4841
+dropoffStuds: 81.9375 - 157.047
+pellets: 8
+fireRate: 145.815
+adsSpread: 1.68829
+hipfireSpread: 6.22002
+reloadTime: 3.87
+magazineSize: 20
+health: 8
+recoilHipVertical: 105.84 - 185.22
+recoilAimVertical: 42.336 - 74.088
+movementSpeed: 0.0749999
+
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: MG42, Core: Auto-5 ]
+damage: 146.369 - 49.3812
+dropoffStuds: 80.0494 - 153.428
+pellets: 7
+fireRate: 145.464
+adsSpread: 1.50143
+hipfireSpread: 5.53158
+reloadTime: 4.62
+magazineSize: 20
+health: 8
+recoilHipVertical: 65.88 - 115.29
+recoilAimVertical: 26.352 - 46.116
+movementSpeed: 0.625
+
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: UNP-40, Core: Auto-5 ]
+damage: 146.369 - 49.3812
+dropoffStuds: 80.0494 - 153.428
+pellets: 7
+fireRate: 145.464
+adsSpread: 1.58366
+hipfireSpread: 5.83454
 reloadTime: 4.2
 magazineSize: 20
-recoilHipVertical: 50.3217 - 75.4825
-recoilAimVertical: 20.1287 - 30.193
-movementSpeed: 2.5
+health: 8
+recoilHipVertical: 79.056 - 138.348
+recoilAimVertical: 31.6224 - 55.3392
+movementSpeed: 0.47
 
-[ Barrel: M40, Magazine: BAR, Grip: AKM, Stock: JSG12, Core: M1897 Trench Shotgun ]
-damage: 143.711 - 54.3128
-dropoffStuds: 80.1562 - 160.312
-fireRate: 151.2
-adsSpread: 1.79996
-hipfireSpread: 3.23993
-reloadTime: 4.0824
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: Uzi, Core: Auto-5 ]
+damage: 146.369 - 49.3812
+dropoffStuds: 80.0494 - 153.428
+pellets: 7
+fireRate: 145.464
+adsSpread: 1.71579
+hipfireSpread: 6.32132
+reloadTime: 4.368
 magazineSize: 20
-recoilHipVertical: 49.764 - 74.646
-recoilAimVertical: 19.9056 - 29.8584
-movementSpeed: 2.5
+health: 8
+recoilHipVertical: 80.3736 - 140.654
+recoilAimVertical: 32.1494 - 56.2615
+movementSpeed: 2.875
 

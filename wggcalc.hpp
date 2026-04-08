@@ -7,6 +7,7 @@
 #include <algorithm>
 #include <queue>
 #include <sys/types.h>
+#include <unistd.h>
 #include <vector>
 #include <cmath>
 #include <cinttypes>
@@ -150,9 +151,9 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     inline multiFlags banPriceType_fast = 0;
 
-    const int TOTALMULTFLAGS = 21;
-    const int TOTALPROPERTYFLAGS = 21;
-    const int TOTALPARTFLAGS = 16;
+    const int TOTALMULTFLAGS = 21; // How many enums there are
+    const int TOTALPROPERTYFLAGS = 21; // How many enums exist on a gun
+    const int TOTALPARTFLAGS = 16; // How many enums exist on a part
     enum MultFlags {
         DAMAGE = 1<<0, // Part property
         DAMAGEEND = 1<<1, // Gun property exclusive
@@ -210,6 +211,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         }
     }
 
+    // In the document I actually called it Additive, Multiplicative and I only specified them on the modifiers but not the base stats lol
     enum PropertyType {
         NONAPPLICABLE,
         MULTIPLIER,
@@ -244,7 +246,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             case RECOILAIM:
             case RECOILHIP:
             case EQUIPTIME:
-            case MAGAZINESIZE: 
+            case MAGAZINESIZE:
                 return MULTIPLIER;
             //// adders ////
             case HEALTH:
@@ -731,11 +733,11 @@ public:
 class Gun
 {
 public:
-    Barrel *barrel = nullptr;
-    Magazine *magazine = nullptr;
-    Grip *grip = nullptr;
-    Stock *stock = nullptr;
-    Core *core = nullptr;
+    const Barrel *barrel = nullptr;
+    const Magazine *magazine = nullptr;
+    const Grip *grip = nullptr;
+    const Stock *stock = nullptr;
+    const Core *core = nullptr;
 
     float damage;
     inline float damageEnd() const { return (damage * falloffFactor) + damage; }
@@ -763,8 +765,8 @@ public:
     inline float DPS() const { return DPM() / 60; }
 
     Gun() {}
-    Gun(Core *core) : core(core) {}
-    Gun(Barrel *barrel, Magazine *magazine, Grip *grip, Stock *stock, Core *core) : barrel(barrel), magazine(magazine), grip(grip), stock(stock), core(core) {}
+    Gun(const Core *core) : core(core) {}
+    Gun(const Barrel *barrel, const Magazine *magazine, const Grip *grip, const Stock *stock, const Core *core) : barrel(barrel), magazine(magazine), grip(grip), stock(stock), core(core) {}
 
     float GetProperty(Fast::MultFlags propertyFlag) const
     {
@@ -797,7 +799,7 @@ public:
         }
     }
 
-    float CalculatePenalty(Fast::MultFlags propertyFlag, Part *part, bool direct)
+    float CalculatePenalty(Fast::MultFlags propertyFlag, const Part *part, bool direct)
     {
         float baseMult = part->GetMult(propertyFlag);
         if (direct)
@@ -856,35 +858,42 @@ public:
     }
 
     // Used by Prune algorithm //
-    float GetPartialFalloff(Fast::MultFlags propertyFlag, Part *part, bool direct)
+    float GetPartialFalloff(Fast::MultFlags propertyFlag, const Part *part, bool direct)
     {
         return 1 - (CalculatePenalty(propertyFlag, part, direct) / 100);
     }
 
-    float GetPartialMult(Fast::MultFlags propertyFlag, Part *part, bool direct)
+    float GetPartialMult(Fast::MultFlags propertyFlag, const Part *part, bool direct)
     {
         return CalculatePenalty(propertyFlag, part, direct) / 100 + 1;
     }
 
-    float GetPartialAdd(Fast::MultFlags propertyFlag, Part *part, bool direct)
+    float GetPartialAdd(Fast::MultFlags propertyFlag, const Part *part, bool direct)
     {
         return CalculatePenalty(propertyFlag, part, direct);
     }
 
-    void CalculatePartialGunStats(multiFlags flags, Part *part, bool direct)
+    void CalculatePartialGunStats(multiFlags flags, const Part *part, bool direct)
     {
         // Direct is used to determine if the stats should be pulled directly from the part
         // without calculating penalty. (used in dynamicprune)
         if (part == nullptr) throw std::runtime_error("Part is null");
 
         using namespace Fast;
+
+        bool pelletsChanged = false;
+
         if (flags & PELLETS)
-            pellets = ceilf(pellets * GetPartialMult(PELLETS, part, direct));
+        {
+            float pelletMult = GetPartialMult(PELLETS, part, direct);
+            pellets = ceilf(pellets * pelletMult);
+            pelletsChanged = pelletMult != 1;
+        }
         if (flags & DAMAGE)
         {
             if (core->name_fast != part->name_fast && part->name_fast != Fast::fastifyNoneName())
-                damage *= 1 + (CalculatePenalty(DAMAGE, part, direct) / 100) + ClampQuadratic(pellets, DAMAGE);
-            if (part == this->stock) damage *= 1 + ClampQuadratic(pellets, DAMAGE); // Extra mult for scope
+                damage *= 1 + (CalculatePenalty(DAMAGE, part, direct) / 100) + (pelletsChanged ? ClampQuadratic(pellets, DAMAGE): 0);
+            // if (part == this->stock) damage *= 1 + ClampQuadratic(pellets, DAMAGE); // Extra mult for scope
         }
         if (flags & FIRERATE) fireRate *= GetPartialMult(FIRERATE, part, direct);
         if (flags & MOVEMENTSPEED) movementSpeedModifier += GetPartialAdd(MOVEMENTSPEED, part, direct);
@@ -898,9 +907,8 @@ public:
         {
             float mult = 1;
             if (core->name_fast != part->name_fast && part->name_fast != Fast::fastifyNoneName())
-                mult *= 1 + (CalculatePenalty(SPREADHIP, part, direct) / 100) + ClampQuadratic(pellets, SPREADHIP);
-            if (part == this->stock)
-                mult *= 1 + ClampQuadratic(pellets, SPREADHIP); // Applies extra mult for scope on stock run
+                mult *= 1 + (CalculatePenalty(SPREADHIP, part, direct) / 100) + (pelletsChanged ? ClampQuadratic(pellets, SPREADHIP) : 0);
+            // if (part == this->stock) mult *= 1 + ClampQuadratic(pellets, SPREADHIP); // Applies extra mult for scope on stock run
 
             adsSpread *= mult;
             hipfireSpread *= mult;
@@ -975,6 +983,7 @@ public:
     void CalculateGunStats(multiFlags flags, bool direct)
     {
         float previousPelletCount[4] = {-1000, -1000, -1000, -1000}; // Magazine Barrel Grip Stock
+        bool previousPelletChanged[4] = {false, false, false, false};
         using namespace Fast;
         if (flags & PELLETS)
         {
@@ -983,37 +992,54 @@ public:
             // (There are no sights or stocks that affect pellets so it is impossible to discern without asking a dev)
             // Update: Due to the new magazine size modifier we can determine that the stock applies stats before the sight. (Thx infinity gun.)
 
-            pellets *= GetPartialMult(PELLETS, magazine, direct);
+            float magPelletMod = GetPartialMult(PELLETS, magazine, direct);
+            pellets *= magPelletMod;
             pellets = ceilf(pellets);
             previousPelletCount[0] = pellets;
-            pellets *= GetPartialMult(PELLETS, barrel, direct);
+            previousPelletChanged[0] = magPelletMod != 1;
+
+            float barrelPelletMod = GetPartialMult(PELLETS, barrel, direct);
+            pellets *= barrelPelletMod;
             pellets = ceilf(pellets);
             previousPelletCount[1] = pellets;
-            pellets *= GetPartialMult(PELLETS, stock, direct);
+            previousPelletChanged[1] = barrelPelletMod != 1;
+
+            float stockPelletMod = GetPartialMult(PELLETS, stock, direct);
+            pellets *= stockPelletMod;
             pellets = ceilf(pellets);
             previousPelletCount[2] = pellets;
-            pellets *= GetPartialMult(PELLETS, grip, direct);
+            previousPelletChanged[2] = stockPelletMod != 1;
+
+            float gripPelletMod = GetPartialMult(PELLETS, grip, direct);
+            pellets *= gripPelletMod;
             pellets = ceilf(pellets);
             previousPelletCount[3] = pellets;
+            previousPelletChanged[3] = gripPelletMod != 1;
+
         }
         if (flags & DAMAGE)
         {
             float mult = 1;
 
+            // We include a ternary on ClampQuadratic to implement the new update changes of it only applying when the part has a pellet modifier
             // MAGAZINE
-            if (core->name_fast != magazine->name_fast || magazine->name_fast == Fast::fastifyNoneName())
-                mult *= 1 + (CalculatePenalty(DAMAGE, magazine, direct) / 100) + ClampQuadratic(previousPelletCount[0], DAMAGE);
+            if (core->name_fast != magazine->name_fast && magazine->name_fast != Fast::fastifyNoneName())
+                mult *= 1 + (CalculatePenalty(DAMAGE, magazine, direct) / 100)
+                    + (previousPelletChanged[0] ? ClampQuadratic(previousPelletCount[0], DAMAGE): 0);
             // BARREL
-            if (core->name_fast != barrel->name_fast || barrel->name_fast == Fast::fastifyNoneName())
-                mult *= 1 + (CalculatePenalty(DAMAGE, barrel, direct) / 100) + ClampQuadratic(previousPelletCount[1], DAMAGE);
+            if (core->name_fast != barrel->name_fast && barrel->name_fast != Fast::fastifyNoneName())
+                mult *= 1 + (CalculatePenalty(DAMAGE, barrel, direct) / 100)
+                    + (previousPelletChanged[1] ? ClampQuadratic(previousPelletCount[1], DAMAGE) : 0);
             // STOCK
-            if (core->name_fast != stock->name_fast || stock->name_fast == Fast::fastifyNoneName())
-                mult *= 1 + (CalculatePenalty(DAMAGE, stock, direct) / 100) + ClampQuadratic(previousPelletCount[2], DAMAGE);
+            if (core->name_fast != stock->name_fast && stock->name_fast != Fast::fastifyNoneName())
+                mult *= 1 + (CalculatePenalty(DAMAGE, stock, direct) / 100)
+                    + (previousPelletChanged[2] ? ClampQuadratic(previousPelletCount[2], DAMAGE): 0);
             // SCOPE
-            mult *= 1 + ClampQuadratic(previousPelletCount[2], DAMAGE); // Extra mult for scope
+            // mult *= 1 + ClampQuadratic(previousPelletCount[2], DAMAGE); // Extra mult for scope
             // GRIP
-            if (core->name_fast != grip->name_fast || grip->name_fast == Fast::fastifyNoneName())
-                mult *= 1 + (CalculatePenalty(DAMAGE, grip, direct) / 100) + ClampQuadratic(previousPelletCount[3], DAMAGE);
+            if (core->name_fast != grip->name_fast && grip->name_fast != Fast::fastifyNoneName())
+                mult *= 1 + (CalculatePenalty(DAMAGE, grip, direct) / 100)
+                    + (previousPelletChanged[3] ? ClampQuadratic(previousPelletCount[3], DAMAGE): 0);
 
             damage *= mult;
         }
@@ -1022,8 +1048,8 @@ public:
         if (flags & HEALTH) health += GetTotalAdd(HEALTH, direct);
         if (flags & EQUIPTIME) equipTime *= GetTotalMult(EQUIPTIME, direct);
         if (flags & RELOAD) reloadTime *= GetTotalMult(RELOAD, direct);
-        
-        if (flags & MAGAZINESIZE) 
+
+        if (flags & MAGAZINESIZE)
         {
             // MAGAZINE (This doesn't exist in game but reload mod exists on mag so idk lol)
             magazineSize = round(magazineSize * GetPartialMult(MAGAZINESIZE, magazine, direct));
@@ -1034,22 +1060,27 @@ public:
             // GRIP
             magazineSize = round(magazineSize * GetPartialMult(MAGAZINESIZE, grip, direct));
         }
-        
+
         if (flags & DETECTIONRADIUS) detectionRadius *= GetTotalMult(DETECTIONRADIUS, direct);
-        if ((flags & (SPREADAIM | SPREADHIP)))
+        if (flags & (SPREADAIM | SPREADHIP))
         {
             // Mult is identical for both ADS and hipfire
             float mult = 1;
 
-            if (core->name_fast != magazine->name_fast || magazine->name_fast == Fast::fastifyNoneName())
-                mult *= 1 + (CalculatePenalty(SPREADHIP, magazine, direct) / 100) + ClampQuadratic(previousPelletCount[0], SPREADHIP);
-            if (core->name_fast != barrel->name_fast || barrel->name_fast == Fast::fastifyNoneName())
-                mult *= 1 + (CalculatePenalty(SPREADHIP, barrel, direct) / 100) + ClampQuadratic(previousPelletCount[1], SPREADHIP);
-            if (core->name_fast != stock->name_fast || stock->name_fast == Fast::fastifyNoneName())
-                mult *= 1 + (CalculatePenalty(SPREADHIP, stock, direct) / 100) + ClampQuadratic(previousPelletCount[2], SPREADHIP);
-            mult *= 1 + ClampQuadratic(previousPelletCount[2], SPREADHIP); // Extra mult for scope
-            if (core->name_fast != grip->name_fast || grip->name_fast == Fast::fastifyNoneName())
-                mult *= 1 + (CalculatePenalty(SPREADHIP, grip, direct) / 100) + ClampQuadratic(previousPelletCount[3], SPREADHIP);
+            // We include a ternary on ClampQuadratic to implement the new update changes of it only applying when the part has a pellet modifier
+            if (core->name_fast != magazine->name_fast && magazine->name_fast != Fast::fastifyNoneName())
+                mult *= 1 + (CalculatePenalty(SPREADHIP, magazine, direct) / 100)
+                    + (previousPelletChanged[0] ? ClampQuadratic(previousPelletCount[0], SPREADHIP): 0);
+            if (core->name_fast != barrel->name_fast && barrel->name_fast != Fast::fastifyNoneName())
+                mult *= 1 + (CalculatePenalty(SPREADHIP, barrel, direct) / 100)
+                    + (previousPelletChanged[1] ? ClampQuadratic(previousPelletCount[1], SPREADHIP): 0);
+            if (core->name_fast != stock->name_fast && stock->name_fast != Fast::fastifyNoneName())
+                mult *= 1 + (CalculatePenalty(SPREADHIP, stock, direct) / 100)
+                    + (previousPelletChanged[2] ? ClampQuadratic(previousPelletCount[2], SPREADHIP): 0);
+            // mult *= 1 + ClampQuadratic(previousPelletCount[2], SPREADHIP); // Extra mult for scope
+            if (core->name_fast != grip->name_fast && grip->name_fast != Fast::fastifyNoneName())
+                mult *= 1 + (CalculatePenalty(SPREADHIP, grip, direct) / 100)
+                    + (previousPelletChanged[3] ? ClampQuadratic(previousPelletCount[3], SPREADHIP): 0);
 
             adsSpread *= mult;
             hipfireSpread *= mult;
@@ -1109,29 +1140,13 @@ namespace PQ
         bool operator()(const Gun& gun1, const Gun& gun2) const {
             float gun1Property = gun1.GetProperty(currentSortingType);
             float gun2Property = gun2.GetProperty(currentSortingType);
-            switch (sortPriority)
-            {
-                case HIGHEST:
-                    return gun1Property > gun2Property;
-                case LOWEST:
-                    return gun1Property < gun2Property;
-                default:
-                    throw std::runtime_error("Invalid sorting priority");
-            }
+            if (sortPriority == HIGHEST) return gun1Property > gun2Property;
+            else return gun1Property < gun2Property; // Lowest
         }
 
         bool operator()(float val1, float val2) const {
-            // Compare on value instead of guns (Used in DYNAMICPRUNE)
-            // Returns true if gun1 is better than value
-            switch (sortPriority)
-            {
-                case HIGHEST:
-                    return val1 > val2;
-                case LOWEST:
-                    return val1 < val2;
-                default:
-                    throw std::runtime_error("Invalid sorting priority");
-            }
+            if (sortPriority == HIGHEST) return val1 > val2;
+            else return val1 < val2; // Lowest
         }
     };
 
@@ -1259,22 +1274,6 @@ inline Part operator*(Part part1, Part part2) // Used in highlow
 }
 
 
-namespace Data // Contains the real information read from FullData.json
-{
-    // This is now a uint64_t so I don't need to typecast it the moment I try to multiply these things together.
-    inline uint64_t barrelCount;
-    inline uint64_t magazineCount;
-    inline uint64_t gripCount;
-    inline uint64_t stockCount;
-    inline uint64_t coreCount;
-
-    inline std::vector<Barrel> barrelList;
-    inline std::vector<Magazine> magazineList;
-    inline std::vector<Grip> gripList;
-    inline std::vector<Stock> stockList;
-    inline std::vector<Core> coreList;
-
-}
 
 inline uint64_t totalCombinations;
 
@@ -1406,6 +1405,137 @@ namespace Filter
         if (!RangeFilter(gun.TTKM(), Input::TTKRange)) return false;
         if (!RangeFilter(gun.DPM(), Input::DPSRange)) return false;
         return true;
+    }
+
+}
+
+namespace Data // Contains the real information read from FullData.json
+{
+    // This is now a uint64_t so I don't need to typecast it the moment I try to multiply these things together.
+    inline uint64_t barrelCount;
+    inline uint64_t magazineCount;
+    inline uint64_t gripCount;
+    inline uint64_t stockCount;
+    inline uint64_t coreCount;
+
+    inline std::vector<Barrel> barrelList;
+    inline std::vector<Magazine> magazineList;
+    inline std::vector<Grip> gripList;
+    inline std::vector<Stock> stockList;
+    inline std::vector<Core> coreList;
+
+    namespace Heuristic  // Contains the "heuristic" of sorting the list based on its relation to the current sorting method.
+    {
+
+        // Many properties are multiply which means if that property is 0 any modifiers will also become zero and thus can't be sorted
+        // We shall generate a sample core with every single stat set to 100 i guess?
+        inline Core GetSampleCore()
+        {
+            // I didn't really wanna put this as a static core method because it really doesn't have that much of a usecase
+            Core sc; // Sample Core
+
+            sc.category_fast = NILINT;
+            sc.name_fast = NILINT;
+
+            sc.damage = 100;
+            sc.falloffFactor = -100;
+            sc.dropoffStuds = fpair(100, 200);
+            sc.fireRate = 100;
+            sc.hipfireSpread = 100;
+            sc.adsSpread = 100;
+            sc.timeToAim = 100;
+            sc.movementSpeedModifier = 100;
+            sc.health = 100;
+            sc.equipTime = 100;
+            sc.pellets = 100;
+            sc.burst = 100;
+            sc.detectionRadius = 100;
+            sc.recoilHipHorizontal = fpair(100, 200);
+            sc.recoilHipVertical = fpair(100, 200);
+            sc.recoilAimHorizontal = fpair(100, 200);
+            sc.recoilAimVertical = fpair(100, 200);
+            return sc;
+        }
+
+        // Since the magazine size and reload stat stem from this we will have to mock this part as well
+        inline Magazine GetSampleMagazine()
+        {
+            Magazine sm; // Sample Magazine
+            sm.magazineSize = 100;
+            sm.reloadTime = 100;
+            return sm;
+        }
+
+        inline void SortPartListsWithHeuristic() // O(n log n) so no worries
+        {
+            Core sampleCore = GetSampleCore();
+            Magazine sampleMagazine = GetSampleMagazine();
+            
+            Gun sampleGunWithCore1(&sampleCore), sampleGunWithCore2(&sampleCore);
+            sampleGunWithCore1.CopyCoreValues(PQ::currentSortingType);
+            sampleGunWithCore2.CopyCoreValues(PQ::currentSortingType);
+            
+            Gun sampleGunWithCoreMag1(&sampleCore), sampleGunWithCoreMag2(&sampleCore);
+            sampleGunWithCoreMag1.magazine = &sampleMagazine;
+            sampleGunWithCoreMag2.magazine = &sampleMagazine;
+            sampleGunWithCoreMag1.CopyCoreValues(PQ::currentSortingType);
+            sampleGunWithCoreMag2.CopyCoreValues(PQ::currentSortingType);
+            sampleGunWithCoreMag1.CopyMagazineValues(PQ::currentSortingType);
+            sampleGunWithCoreMag2.CopyMagazineValues(PQ::currentSortingType);
+            
+            PQ::AllSortStruct sorter;
+            
+            std::sort(coreList.begin(), coreList.end(), [&](const Core& core1, const Core& core2) -> bool {
+                Gun gun1(&core1), gun2(&core2);
+                gun1.CopyCoreValues(Filter::currentFlags);
+                gun2.CopyCoreValues(Filter::currentFlags);
+                return sorter(gun2, gun1); // reversed so it is high to low
+            });
+
+            // Sorting magazine list
+            std::sort(magazineList.begin(), magazineList.end(), [&](const Magazine& mag1, const Magazine& mag2) -> bool {
+                Gun gun1 = sampleGunWithCore1, gun2 = sampleGunWithCore2;
+                gun1.magazine = &mag1;
+                gun2.magazine = &mag2;
+                
+                gun1.CopyMagazineValues(Filter::currentFlags);
+                gun2.CopyMagazineValues(Filter::currentFlags);
+                return sorter(gun2, gun1);
+            });
+            
+            // Setting barrel, stock and grip as a member var with (gun.barrel = b) 
+            // when calling CalculatePartialGunStats doesn't do anything 
+            // since we have to specify the part in the args anyways
+             
+            // Sorting barrel list
+            std::sort(barrelList.begin(), barrelList.end(), [&](const Barrel& barrel1, const Barrel& barrel2) -> bool {
+                Gun gun1 = sampleGunWithCoreMag1, gun2 = sampleGunWithCoreMag2;
+                gun1.CalculatePartialGunStats(Filter::currentFlags, &barrel1, true);
+                gun2.CalculatePartialGunStats(Filter::currentFlags, &barrel2, true);
+                
+                return sorter(gun2, gun1);
+            });
+
+
+            // Sorting stock list
+            std::sort(stockList.begin(), stockList.end(), [&](const Stock& stock1, const Stock& stock2) -> bool {
+                Gun gun1 = sampleGunWithCoreMag1, gun2 = sampleGunWithCoreMag2;
+                gun1.CalculatePartialGunStats(Filter::currentFlags, &stock1, true);
+                gun2.CalculatePartialGunStats(Filter::currentFlags, &stock2, true);
+                
+                return sorter(gun2, gun1);
+            });
+
+
+            // Sorting grip list
+            std::sort(gripList.begin(), gripList.end(), [&](const Grip& grip1, const Grip& grip2) -> bool {
+                Gun gun1 = sampleGunWithCoreMag1, gun2 = sampleGunWithCoreMag2;
+                gun1.CalculatePartialGunStats(Filter::currentFlags, &grip1, true);
+                gun2.CalculatePartialGunStats(Filter::currentFlags, &grip2, true);
+                
+                return sorter(gun2, gun1);
+            });
+        }
     }
 
 }
@@ -1606,22 +1736,23 @@ namespace DynamicPrune
             currentPelletCount = ceilf(currentPelletCount);
 
             if (multType != Fast::PELLETS)
-                finalMult *= bestPossiblePartList[currentStep].GetMult(multType) + ClampQuadratic(currentPelletCount, multType);
+                finalMult *= bestPossiblePartList[currentStep].GetMult(multType)
+                    + (bestPossiblePartList[currentStep].pellets != 1 ? ClampQuadratic(currentPelletCount, multType): 0);
         }
         // Passing multType as pellets gets you the best possible pellet count.
         return multType == Fast::PELLETS ? currentPelletCount : finalMult;
     }
-    
+
     inline float ApplyMagazineLadder(const Gun& gun, int coreCategory, int partComboStep, const std::vector<Part> &bestPossiblePartList)
     {
-        // Returns the final magazine size 
+        // Returns the final magazine size
         float currentMagazine = gun.magazineSize;
         for (int currentStep = partComboStep; currentStep >= 0; currentStep--)
         {
             currentMagazine *= bestPossiblePartList[currentStep].magazineCap;
             currentMagazine = round(currentMagazine);
         }
-        return currentMagazine; 
+        return currentMagazine;
     }
 
     inline bool ValueOffsetFilter(float valMin, float valMax, const fpair &range) // Checks two numbers against a range. Yes it is different that RangeFilter.
@@ -1763,7 +1894,7 @@ namespace DynamicPrune
 
             if (!ValueOffsetFilter(minDPS, maxDPS, Input::DPSRange)) return false;
         }
-        
+
         if (Input::magazineRange != NILRANGE_P && gun.magazine != nullptr)
         {
             float minMagazine = ApplyMagazineLadder(gun, coreCategory, partComboStep, lowPP);
@@ -1852,17 +1983,17 @@ namespace DynamicPrune
             case SPREADHIP: // high spreadHip -> high spread\\ -> normal
                 gunValue = gun.hipfireSpread * ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, SPREADAIM);
                 break;
-                
+
             case MAGAZINESIZE: // high magazineSize -> high magazineCap\\ -> normal
                 if (gun.magazine == nullptr) return true; // Magazine has not been init so we let it pass
                 gunValue = ApplyMagazineLadder(gun, coreCategory, partComboStep, normalPP);
                 break;
-                
+
             case RELOAD:
                 if (gun.magazine == nullptr) return true; // Magazine has not been init so we let it pass
                 gunValue = gun.reloadTime * normalPPC.reloadSpeed;
                 break;
-            
+
             default:
             {
                 switch (GetPropertyType(PQ::currentSortingType))

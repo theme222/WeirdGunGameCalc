@@ -4,7 +4,7 @@ set -e # Stops on error
 # This are commands for my setup specifically. You can config these example commands and run them in any order you want.
 
 # You don't need to recompile obviously.
-make linux
+# make linux
 
 # This doesn't need to be re ran every time because it saves it's results in Data already.
 python ParseSheet.py
@@ -15,7 +15,7 @@ BANSEMI=(--bc "FC200SH" "M1 Carbine" "G11" "Loaf" "ZIPO-2222") # This is a shell
 # You can look at the example results in the corresponding output paths.
 
 ####################### AUTOMATICS #######################
-./wggcalc -o $IB/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 "${BANSEMI[@]}"
+./wggcalc -o $IB/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --reloadMax 2.5 "${BANSEMI[@]}"
 ./wggcalc -o $IB/FastestTTKMediumRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.6 --recoilAimMax 30 --rangeMin 200 --pelletMax 1 "${BANSEMI[@]}"
 ./wggcalc -o $IB/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 "${BANSEMI[@]}"
 ./wggcalc -o $IB/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 "${BANSEMI[@]}"

@@ -1,122 +1,136 @@
 ./wggcalc -o InterestingBuilds/HipfireShotgun.txt -i Shotgun --sort RECOILHIP --damageMin 100 --speedMin 0 --spreadHipMax 2 --fireRateMin 50 
 Current top 10 guns are: 
-[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Auto-5, Stock: M870 MCS, Core: M1897 Trench Shotgun ]
-damage: 100.653 - -0.629087
+[ Barrel: M1919 Tripod, Magazine: Kolibri, Grip: 10KG Dumbbell, Stock: Speed Coil, Core: JSG12 ]
+damage: 118.728 - -25.205
+dropoffStuds: 39.7375 - 79.475
+pellets: 12
+fireRate: 82.5
+adsSpread: 1.81729
+hipfireSpread: 1.81729
+reloadTime: 0.615
+magazineSize: 4
+health: -2.5
+recoilHipVertical: 24.6806 - 29.0971
+recoilAimVertical: 16.0294 - 18.9131
+movementSpeed: 0.1
+
+[ Barrel: AR-8X, Magazine: Kolibri, Grip: Auto-5, Stock: M870 MCS, Core: M1897 Trench Shotgun ]
+damage: 106.08 - -0.663003
 dropoffStuds: 51 - 102
-fireRate: 159.6
-adsSpread: 1.04846
-hipfireSpread: 1.88722
-reloadTime: 0.55
+pellets: 16
+fireRate: 142.8
+adsSpread: 1.08063
+hipfireSpread: 1.94514
+reloadTime: 0.594
 magazineSize: 5
-recoilHipVertical: 14.3856 - 21.5784
-recoilAimVertical: 5.75424 - 8.63136
+recoilHipVertical: 19.98 - 29.97
+recoilAimVertical: 7.992 - 11.988
+movementSpeed: 5.4
+
+[ Barrel: M870 MCS, Magazine: Kolibri, Grip: Auto-5, Stock: M870 MCS, Core: M1897 Trench Shotgun ]
+damage: 120.931 - -8.05703
+dropoffStuds: 47.94 - 95.88
+pellets: 16
+fireRate: 142.8
+adsSpread: 1.0948
+hipfireSpread: 1.97064
+reloadTime: 0.605
+magazineSize: 5
+recoilHipVertical: 19.98 - 29.97
+recoilAimVertical: 7.992 - 11.988
 movementSpeed: 2.6
 
-[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Auto-5, Stock: MG42, Core: M1897 Trench Shotgun ]
-damage: 100.653 - -0.629087
-dropoffStuds: 51 - 102
-fireRate: 168
-adsSpread: 1.06474
-hipfireSpread: 1.91652
-reloadTime: 0.55
-magazineSize: 5
-recoilHipVertical: 19.1808 - 28.7712
-recoilAimVertical: 7.67232 - 11.5085
-movementSpeed: 5.225
-
-[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Auto-5, Stock: FC200SH, Core: M1897 Trench Shotgun ]
-damage: 100.653 - 1.49785
-dropoffStuds: 52.071 - 104.142
-fireRate: 159.6
-adsSpread: 1.09013
-hipfireSpread: 1.96224
-reloadTime: 0.5
-magazineSize: 5
-recoilHipVertical: 19.1808 - 28.7712
-recoilAimVertical: 7.67232 - 11.5085
-movementSpeed: 4
-
-[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Auto-5, Stock: JSG12, Core: M1897 Trench Shotgun ]
-damage: 100.653 - -0.629087
-dropoffStuds: 51 - 102
-fireRate: 168
-adsSpread: 1.06148
-hipfireSpread: 1.91066
-reloadTime: 0.525
-magazineSize: 5
-recoilHipVertical: 19.1808 - 28.7712
-recoilAimVertical: 7.67232 - 11.5085
-movementSpeed: 5.6
-
 [ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Tap, Stock: M870 MCS, Core: JSG12 ]
-damage: 116.109 - -6.28925
+damage: 110.16 - -5.967
 dropoffStuds: 46.75 - 93.5
-fireRate: 71.25
-adsSpread: 1.80517
-hipfireSpread: 1.80517
+pellets: 12
+fireRate: 63.75
+adsSpread: 1.75522
+hipfireSpread: 1.75522
 reloadTime: 0.55
 magazineSize: 5
 recoilHipVertical: 26.5734 - 31.3286
 recoilAimVertical: 17.2587 - 20.3636
 movementSpeed: 0.0999999
 
-[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Auto-5, Stock: AWM, Core: M1897 Trench Shotgun ]
-damage: 100.653 - -0.629087
-dropoffStuds: 51 - 102
-fireRate: 168
-adsSpread: 1.08102
-hipfireSpread: 1.94583
-reloadTime: 0.4625
-magazineSize: 5
-recoilHipVertical: 21.0989 - 31.6483
-recoilAimVertical: 8.43955 - 12.6593
-movementSpeed: 2.6
+[ Barrel: M1919 Tripod, Magazine: Kolibri, Grip: Obreez, Stock: Speed Coil, Core: JSG12 ]
+damage: 118.728 - -6.4311
+dropoffStuds: 46.75 - 93.5
+pellets: 12
+fireRate: 82.5
+adsSpread: 1.97577
+hipfireSpread: 1.97577
+reloadTime: 0.5535
+magazineSize: 4
+health: -2.5
+recoilHipVertical: 27.3775 - 32.2766
+recoilAimVertical: 17.7809 - 20.9798
+movementSpeed: 6.1
 
-[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: The Chief, Stock: M870 MCS, Core: M1897 Trench Shotgun ]
-damage: 105.354 - -0.658465
+[ Barrel: AR-8X, Magazine: Kolibri, Grip: Auto-5, Stock: DP-27, Core: M1897 Trench Shotgun ]
+damage: 106.08 - -0.663003
 dropoffStuds: 51 - 102
-fireRate: 152
-adsSpread: 1.08102
-hipfireSpread: 1.94583
-reloadTime: 0.55
+pellets: 16
+fireRate: 156.24
+adsSpread: 1.10765
+hipfireSpread: 1.99377
+reloadTime: 0.54
 magazineSize: 5
-recoilHipVertical: 21.5784 - 32.3676
-recoilAimVertical: 8.63136 - 12.947
-movementSpeed: 2.6
-
-[ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: JSG12, Stock: M870 MCS, Core: M1897 Trench Shotgun ]
-damage: 103.208 - -0.645053
-dropoffStuds: 51 - 102
-fireRate: 152
-adsSpread: 1.0745
-hipfireSpread: 1.93411
-reloadTime: 0.55
-magazineSize: 5
-recoilHipVertical: 22.0579 - 33.0869
-recoilAimVertical: 8.82317 - 13.2348
-movementSpeed: 5.6
+recoilHipVertical: 22.644 - 33.966
+recoilAimVertical: 9.0576 - 13.5864
+movementSpeed: 1.9
 
 [ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: Mega Soaker, Stock: M870 MCS, Core: JSG12 ]
-damage: 116.109 - -6.28925
+damage: 110.16 - -5.967
 dropoffStuds: 46.75 - 93.5
-fireRate: 71.25
-adsSpread: 1.75828
-hipfireSpread: 1.75828
+pellets: 12
+fireRate: 63.75
+adsSpread: 1.70943
+hipfireSpread: 1.70943
 reloadTime: 0.55
 magazineSize: 5
 recoilHipVertical: 28.8511 - 34.014
 recoilAimVertical: 18.738 - 22.1091
 movementSpeed: 7.1
 
+[ Barrel: M1919 Tripod, Magazine: Kolibri, Grip: M60, Stock: Speed Coil, Core: JSG12 ]
+damage: 118.728 - -6.4311
+dropoffStuds: 46.75 - 93.5
+pellets: 12
+fireRate: 82.5
+adsSpread: 1.8754
+hipfireSpread: 1.8754
+reloadTime: 0.538125
+magazineSize: 4
+health: -2.5
+recoilHipVertical: 29.0119 - 34.2035
+recoilAimVertical: 18.8425 - 22.2323
+movementSpeed: 7.6
+
 [ Barrel: Cirrus - Hand, Magazine: Kolibri, Grip: AUTO-12, Stock: AUTO-12, Core: JSG12 ]
-damage: 116.109 - -9.9612
+damage: 110.16 - -9.45081
 dropoffStuds: 45.3475 - 90.695
+pellets: 12
 fireRate: 77.6475
-adsSpread: 1.96097
-hipfireSpread: 1.96097
+adsSpread: 1.90785
+hipfireSpread: 1.90785
 reloadTime: 0.5589
 magazineSize: 5
 recoilHipVertical: 29.2156 - 34.4436
 recoilAimVertical: 18.9747 - 22.3883
 movementSpeed: 0.6
+
+[ Barrel: M1919 Tripod, Magazine: Kolibri, Grip: Auto-5, Stock: Speed Coil, Core: JSG12 ]
+damage: 115.76 - -6.27032
+dropoffStuds: 46.75 - 93.5
+pellets: 12
+fireRate: 86.625
+adsSpread: 1.6905
+hipfireSpread: 1.6905
+reloadTime: 0.5125
+magazineSize: 4
+health: -2.5
+recoilHipVertical: 29.4205 - 34.6853
+recoilAimVertical: 19.1079 - 22.5454
+movementSpeed: 10.1
 
