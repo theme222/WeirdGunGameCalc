@@ -183,7 +183,7 @@ namespace Util {
         PQ::InitializeCurrentSortingType();
         Fast::InitializeCategoriesFBParts();
         Filter::InitializeMultFlag();
-        Data::Heuristic::SortPartListsWithHeuristic();
+        // Data::Heuristic::SortPartListsWithHeuristic();
         DynamicPrune::InitializeThreshold();
         
         puts("Running calculator!");

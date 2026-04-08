@@ -1437,23 +1437,23 @@ namespace Data // Contains the real information read from FullData.json
             sc.category_fast = NILINT;
             sc.name_fast = NILINT;
 
-            sc.damage = 100;
-            sc.falloffFactor = -100;
-            sc.dropoffStuds = fpair(100, 200);
-            sc.fireRate = 100;
-            sc.hipfireSpread = 100;
-            sc.adsSpread = 100;
-            sc.timeToAim = 100;
-            sc.movementSpeedModifier = 100;
-            sc.health = 100;
-            sc.equipTime = 100;
-            sc.pellets = 100;
-            sc.burst = 100;
-            sc.detectionRadius = 100;
-            sc.recoilHipHorizontal = fpair(100, 200);
-            sc.recoilHipVertical = fpair(100, 200);
-            sc.recoilAimHorizontal = fpair(100, 200);
-            sc.recoilAimVertical = fpair(100, 200);
+            sc.damage = 1;
+            sc.falloffFactor = -0.1;
+            sc.dropoffStuds = fpair(1, 2);
+            sc.fireRate = 1;
+            sc.hipfireSpread = 1;
+            sc.adsSpread = 1;
+            sc.timeToAim = 1;
+            sc.movementSpeedModifier = 0;
+            sc.health = 0;
+            sc.equipTime = 1;
+            sc.pellets = 1;
+            sc.burst = 1;
+            sc.detectionRadius = 1;
+            sc.recoilHipHorizontal = fpair(1, 2);
+            sc.recoilHipVertical = fpair(1, 2);
+            sc.recoilAimHorizontal = fpair(1, 2);
+            sc.recoilAimVertical = fpair(1, 2);
             return sc;
         }
 
@@ -1472,16 +1472,18 @@ namespace Data // Contains the real information read from FullData.json
             Magazine sampleMagazine = GetSampleMagazine();
             
             Gun sampleGunWithCore1(&sampleCore), sampleGunWithCore2(&sampleCore);
-            sampleGunWithCore1.CopyCoreValues(PQ::currentSortingType);
-            sampleGunWithCore2.CopyCoreValues(PQ::currentSortingType);
+            sampleGunWithCore1.CopyCoreValues(Filter::currentFlags);
+            sampleGunWithCore2.CopyCoreValues(Filter::currentFlags);
             
             Gun sampleGunWithCoreMag1(&sampleCore), sampleGunWithCoreMag2(&sampleCore);
             sampleGunWithCoreMag1.magazine = &sampleMagazine;
             sampleGunWithCoreMag2.magazine = &sampleMagazine;
-            sampleGunWithCoreMag1.CopyCoreValues(PQ::currentSortingType);
-            sampleGunWithCoreMag2.CopyCoreValues(PQ::currentSortingType);
-            sampleGunWithCoreMag1.CopyMagazineValues(PQ::currentSortingType);
-            sampleGunWithCoreMag2.CopyMagazineValues(PQ::currentSortingType);
+            sampleGunWithCoreMag1.CopyCoreValues(Filter::currentFlags);
+            sampleGunWithCoreMag2.CopyCoreValues(Filter::currentFlags);
+            sampleGunWithCoreMag1.CopyMagazineValues(Filter::currentFlags);
+            sampleGunWithCoreMag2.CopyMagazineValues(Filter::currentFlags);
+            sampleGunWithCoreMag1.CalculatePartialGunStats(Filter::currentFlags, &sampleMagazine, true);
+            sampleGunWithCoreMag2.CalculatePartialGunStats(Filter::currentFlags, &sampleMagazine, true);
             
             PQ::AllSortStruct sorter;
             
@@ -1500,6 +1502,9 @@ namespace Data // Contains the real information read from FullData.json
                 
                 gun1.CopyMagazineValues(Filter::currentFlags);
                 gun2.CopyMagazineValues(Filter::currentFlags);
+                gun1.CalculatePartialGunStats(Filter::currentFlags, &mag1, true);
+                gun2.CalculatePartialGunStats(Filter::currentFlags, &mag2, true);
+                std::cout << gun1;
                 return sorter(gun2, gun1);
             });
             
