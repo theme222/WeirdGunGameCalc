@@ -1,5 +1,19 @@
 ./wggcalc -o InterestingBuilds/AutoShotgun.txt -i Shotgun --sort FIRERATE --fc Siberia-12 AUTO-12 --damageMin 60 --spreadAimMax 2 --speedMin 0 --rangeMin 50 --magazineMin 20 --recoilAimMax 100 
 Current top 10 guns are: 
+[ Barrel: M870 Wingmaster, Magazine: Type 99, Grip: Arisaka, Stock: Spas-12, Core: Siberia-12 ]
+damage: 60.4931 - 6.55237
+dropoffStuds: 50.0182 - 111.152
+pellets: 10
+fireRate: 605.52
+adsSpread: 1.83545
+hipfireSpread: 5.50636
+reloadTime: 3.15
+magazineSize: 21
+health: -6
+recoilHipVertical: 83.996 - 97.152
+recoilAimVertical: 68.0064 - 78.7336
+TTK: 0.0990884 Seconds
+
 [ Barrel: MarrowMaker, Magazine: BAR, Grip: Arisaka, Stock: M870, Core: Siberia-12 ]
 damage: 60.1949 - 10.0638
 dropoffStuds: 52.1016 - 115.781
@@ -126,19 +140,5 @@ magazineSize: 20
 recoilHipVertical: 93.6344 - 108.3
 recoilAimVertical: 75.81 - 87.7681
 movementSpeed: 0.47
-TTK: 0.109469 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: Scar H, Grip: Maple Badger, Stock: Auto-5, Core: Siberia-12 ]
-damage: 60.937 - 8.0059
-dropoffStuds: 51.3279 - 114.062
-pellets: 10
-fireRate: 548.1
-adsSpread: 1.84749
-hipfireSpread: 5.54246
-reloadTime: 4.89037
-magazineSize: 20
-recoilHipVertical: 103.75 - 120
-recoilAimVertical: 84 - 97.25
-movementSpeed: 0.925
 TTK: 0.109469 Seconds
 

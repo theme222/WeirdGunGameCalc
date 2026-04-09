@@ -3,9 +3,8 @@
 
 # --- Variables ---
 CXX = clang++
-CXXFLAGS = -std=c++20 -Iinclude -O3 -flto -Werror -march=x86-64-v3 -pthread
-LINUX_STATIC = -static-libgcc -static-libstdc++
-WIN_TARGET = --target=x86_64-w64-mingw32 -fuse-ld=lld -static
+CXXFLAGS = -std=c++20 -Iinclude -O3 -flto -Werror -march=x86-64-v3 -pthread -static
+WIN_TARGET = --target=x86_64-w64-mingw32 -fuse-ld=lld
 
 # --- Targets ---
 

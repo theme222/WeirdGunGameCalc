@@ -7,7 +7,7 @@ pellets: 12
 fireRate: 82.5
 adsSpread: 1.81729
 hipfireSpread: 1.81729
-reloadTime: 0.615
+reloadTime: 0.5625
 magazineSize: 4
 health: -2.5
 recoilHipVertical: 24.6806 - 29.0971
@@ -60,7 +60,7 @@ pellets: 12
 fireRate: 82.5
 adsSpread: 1.97577
 hipfireSpread: 1.97577
-reloadTime: 0.5535
+reloadTime: 0.50625
 magazineSize: 4
 health: -2.5
 recoilHipVertical: 27.3775 - 32.2766
@@ -100,7 +100,7 @@ pellets: 12
 fireRate: 82.5
 adsSpread: 1.8754
 hipfireSpread: 1.8754
-reloadTime: 0.538125
+reloadTime: 0.492187
 magazineSize: 4
 health: -2.5
 recoilHipVertical: 29.0119 - 34.2035
@@ -127,7 +127,7 @@ pellets: 12
 fireRate: 86.625
 adsSpread: 1.6905
 hipfireSpread: 1.6905
-reloadTime: 0.5125
+reloadTime: 0.46875
 magazineSize: 4
 health: -2.5
 recoilHipVertical: 29.4205 - 34.6853

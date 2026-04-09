@@ -42,20 +42,6 @@ recoilAimVertical: 2.64 - 3.3
 movementSpeed: -120
 TTK: 0.239111 Seconds
 
-[ Barrel: M1917 WC, Magazine: Lancer, Grip: Uzi, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.5625 - 18.3327
-dropoffStuds: 184.319 - 368.638
-fireRate: 727.126
-adsSpread: 0.2268
-hipfireSpread: 4.0824
-reloadTime: 5.152
-magazineSize: 78
-health: 102.5
-recoilHipVertical: 6.4944 - 8.118
-recoilAimVertical: 3.2472 - 4.059
-movementSpeed: -115.45
-TTK: 0.24755 Seconds
-
 [ Barrel: M1917 WC, Magazine: Lancer, Grip: Kriss Vector, Stock: SG-43, Core: M1919 .30 Cal ]
 damage: 25.5625 - 18.3327
 dropoffStuds: 184.319 - 368.638
@@ -69,6 +55,20 @@ recoilHipVertical: 4.86816 - 6.0852
 recoilAimVertical: 2.43408 - 3.0426
 movementSpeed: -117.075
 TTK: 0.244413 Seconds
+
+[ Barrel: M1917 WC, Magazine: Lancer, Grip: Broza, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25.5625 - 18.3327
+dropoffStuds: 184.319 - 368.638
+fireRate: 739.329
+adsSpread: 0.2268
+hipfireSpread: 4.0824
+reloadTime: 5.46112
+magazineSize: 78
+health: 102.5
+recoilHipVertical: 5.28 - 6.6
+recoilAimVertical: 2.64 - 3.3
+movementSpeed: -120
+TTK: 0.243464 Seconds
 
 [ Barrel: M1917 WC, Magazine: Lancer, Grip: P90, Stock: SG-43, Core: M1919 .30 Cal ]
 damage: 25.5625 - 18.3327
@@ -98,6 +98,20 @@ recoilAimVertical: 2.64 - 3.3
 movementSpeed: -116.8
 TTK: 0.232193 Seconds
 
+[ Barrel: M1917 WC, Magazine: Lancer, Grip: Uzi, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25.5625 - 18.3327
+dropoffStuds: 184.319 - 368.638
+fireRate: 727.126
+adsSpread: 0.2268
+hipfireSpread: 4.0824
+reloadTime: 5.152
+magazineSize: 78
+health: 102.5
+recoilHipVertical: 6.4944 - 8.118
+recoilAimVertical: 3.2472 - 4.059
+movementSpeed: -115.45
+TTK: 0.24755 Seconds
+
 [ Barrel: M1917 WC, Magazine: Lancer, Grip: M1897 Trench Shotgun, Stock: SG-43, Core: M1919 .30 Cal ]
 damage: 25.5625 - 18.3327
 dropoffStuds: 184.319 - 368.638
@@ -125,18 +139,4 @@ recoilHipVertical: 5.28 - 6.6
 recoilAimVertical: 2.64 - 3.3
 movementSpeed: -122.5
 TTK: 0.24525 Seconds
-
-[ Barrel: M1917 WC, Magazine: Lancer, Grip: Broza, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.5625 - 18.3327
-dropoffStuds: 184.319 - 368.638
-fireRate: 739.329
-adsSpread: 0.2268
-hipfireSpread: 4.0824
-reloadTime: 5.46112
-magazineSize: 78
-health: 102.5
-recoilHipVertical: 5.28 - 6.6
-recoilAimVertical: 2.64 - 3.3
-movementSpeed: -120
-TTK: 0.243464 Seconds
 

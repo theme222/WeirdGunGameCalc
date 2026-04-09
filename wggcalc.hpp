@@ -1,5 +1,6 @@
 // This is the header file for wggcalc. Whole lotta inlines
 #include <iostream>
+#include <pthread.h>
 #include <stdexcept>
 #include <string>
 #include <map>
@@ -1153,12 +1154,13 @@ namespace PQ
     typedef std::priority_queue<Gun, std::vector<Gun>, AllSortStruct> AllSortPQ;
 
     inline AllSortPQ topGuns;
-
+    const int TOTALSORTFLAGS = 20;
+    
     inline void InitializeCurrentSortingType()
     {
         std::string type = Input::sortType;
         using namespace Fast;
-        static_assert(Fast::TOTALPROPERTYFLAGS == 21, "InitializeCurrentSortingType must be updated to contain all property flags");
+        static_assert(TOTALSORTFLAGS == 20, "InitializeCurrentSortingType must be updated to contain all property flags");
         if (type == "TTK") currentSortingType = TTK;
         else if (type == "DAMAGE") currentSortingType = DAMAGE;
         else if (type == "DAMAGEEND") currentSortingType = DAMAGEEND;
@@ -1424,124 +1426,99 @@ namespace Data // Contains the real information read from FullData.json
     inline std::vector<Stock> stockList;
     inline std::vector<Core> coreList;
 
-    namespace Heuristic  // Contains the "heuristic" of sorting the list based on its relation to the current sorting method.
-    {
-
-        // Many properties are multiply which means if that property is 0 any modifiers will also become zero and thus can't be sorted
-        // We shall generate a sample core with every single stat set to 100 i guess?
-        inline Core GetSampleCore()
-        {
-            // I didn't really wanna put this as a static core method because it really doesn't have that much of a usecase
-            Core sc; // Sample Core
-
-            sc.category_fast = NILINT;
-            sc.name_fast = NILINT;
-
-            sc.damage = 1;
-            sc.falloffFactor = -0.1;
-            sc.dropoffStuds = fpair(1, 2);
-            sc.fireRate = 1;
-            sc.hipfireSpread = 1;
-            sc.adsSpread = 1;
-            sc.timeToAim = 1;
-            sc.movementSpeedModifier = 0;
-            sc.health = 0;
-            sc.equipTime = 1;
-            sc.pellets = 1;
-            sc.burst = 1;
-            sc.detectionRadius = 1;
-            sc.recoilHipHorizontal = fpair(1, 2);
-            sc.recoilHipVertical = fpair(1, 2);
-            sc.recoilAimHorizontal = fpair(1, 2);
-            sc.recoilAimVertical = fpair(1, 2);
-            return sc;
-        }
-
-        // Since the magazine size and reload stat stem from this we will have to mock this part as well
-        inline Magazine GetSampleMagazine()
-        {
-            Magazine sm; // Sample Magazine
-            sm.magazineSize = 100;
-            sm.reloadTime = 100;
-            return sm;
-        }
-
-        inline void SortPartListsWithHeuristic() // O(n log n) so no worries
-        {
-            Core sampleCore = GetSampleCore();
-            Magazine sampleMagazine = GetSampleMagazine();
+    // We'll get em next time
+    // namespace Heuristic  // Contains the "heuristic" of sorting the list based on its relation to the current sorting method.
+    // {
+    //     using namespace Fast;
+    //     inline float GetPropertyHeuristic(Fast::MultFlags flag, const Part& part)
+    //     {
+    //         float val = part.GetMult(flag);
+    //         PropertyType propertyType = GetPropertyType(flag);
+    //         if (propertyType == MULTIPLIER) return 1 + val / 100.f;
+    //         else if (propertyType == ADDER) return val;
+    //         else return 1;
+    //     }
+        
+    //     inline float GetHeuristic(const Magazine& mag) // Specifically to handle mag size and reload
+    //     {
             
-            Gun sampleGunWithCore1(&sampleCore), sampleGunWithCore2(&sampleCore);
-            sampleGunWithCore1.CopyCoreValues(Filter::currentFlags);
-            sampleGunWithCore2.CopyCoreValues(Filter::currentFlags);
-            
-            Gun sampleGunWithCoreMag1(&sampleCore), sampleGunWithCoreMag2(&sampleCore);
-            sampleGunWithCoreMag1.magazine = &sampleMagazine;
-            sampleGunWithCoreMag2.magazine = &sampleMagazine;
-            sampleGunWithCoreMag1.CopyCoreValues(Filter::currentFlags);
-            sampleGunWithCoreMag2.CopyCoreValues(Filter::currentFlags);
-            sampleGunWithCoreMag1.CopyMagazineValues(Filter::currentFlags);
-            sampleGunWithCoreMag2.CopyMagazineValues(Filter::currentFlags);
-            sampleGunWithCoreMag1.CalculatePartialGunStats(Filter::currentFlags, &sampleMagazine, true);
-            sampleGunWithCoreMag2.CalculatePartialGunStats(Filter::currentFlags, &sampleMagazine, true);
-            
-            PQ::AllSortStruct sorter;
-            
-            std::sort(coreList.begin(), coreList.end(), [&](const Core& core1, const Core& core2) -> bool {
-                Gun gun1(&core1), gun2(&core2);
-                gun1.CopyCoreValues(Filter::currentFlags);
-                gun2.CopyCoreValues(Filter::currentFlags);
-                return sorter(gun2, gun1); // reversed so it is high to low
-            });
+    //     }
 
-            // Sorting magazine list
-            std::sort(magazineList.begin(), magazineList.end(), [&](const Magazine& mag1, const Magazine& mag2) -> bool {
-                Gun gun1 = sampleGunWithCore1, gun2 = sampleGunWithCore2;
-                gun1.magazine = &mag1;
-                gun2.magazine = &mag2;
+    //     inline float GetHeuristic(const Part& part) // A very rough value determining how good a part is to the stat
+    //     {
+    //         static_assert(PQ::TOTALSORTFLAGS == 20, "Update GetHeuristic to contain all sorting flags");
+    //         #define GPH GetPropertyHeuristic
+            
+    //         switch (PQ::currentSortingType)
+    //         {
+    //             case DPS:
+    //             case TTK: 
+    //                 return GPH(DAMAGE, part) * GPH(PELLETS, part) * GPH(FIRERATE, part);
+    //             case DAMAGE: return GPH(DAMAGE, part) * GPH(PELLETS, part);
+    //             case DAMAGEEND: return GPH(DAMAGE, part) * GPH(PELLETS, part) * GPH(DROPOFFSTUDS, part);
+    //             default: return GPH(PQ::currentSortingType, part);
+    //         }
+    //     }
+         
+    //     inline void SortPartListsWithHeuristic() // O(n log n) so no worries
+    //     {
+    //         PQ::AllSortStruct sorter;
+            
+    //         std::sort(coreList.begin(), coreList.end(), [&](const Core& core1, const Core& core2) -> bool {
+    //             Gun gun1(&core1), gun2(&core2);
+    //             gun1.CopyCoreValues(Filter::currentFlags);
+    //             gun2.CopyCoreValues(Filter::currentFlags);
+    //             return sorter(gun2, gun1); // reversed so it is high to low
+    //         });
+
+    //         // Sorting magazine list
+    //         std::sort(magazineList.begin(), magazineList.end(), [&](const Magazine& mag1, const Magazine& mag2) -> bool {
+    //             Gun gun1 = sampleGunWithCore1, gun2 = sampleGunWithCore2;
+    //             gun1.magazine = &mag1;
+    //             gun2.magazine = &mag2;
                 
-                gun1.CopyMagazineValues(Filter::currentFlags);
-                gun2.CopyMagazineValues(Filter::currentFlags);
-                gun1.CalculatePartialGunStats(Filter::currentFlags, &mag1, true);
-                gun2.CalculatePartialGunStats(Filter::currentFlags, &mag2, true);
-                std::cout << gun1;
-                return sorter(gun2, gun1);
-            });
+    //             gun1.CopyMagazineValues(Filter::currentFlags);
+    //             gun2.CopyMagazineValues(Filter::currentFlags);
+    //             gun1.CalculatePartialGunStats(Filter::currentFlags, &mag1, true);
+    //             gun2.CalculatePartialGunStats(Filter::currentFlags, &mag2, true);
+    //             std::cout << gun1;
+    //             return sorter(gun2, gun1);
+    //         });
             
-            // Setting barrel, stock and grip as a member var with (gun.barrel = b) 
-            // when calling CalculatePartialGunStats doesn't do anything 
-            // since we have to specify the part in the args anyways
+    //         // Setting barrel, stock and grip as a member var with (gun.barrel = b) 
+    //         // when calling CalculatePartialGunStats doesn't do anything 
+    //         // since we have to specify the part in the args anyways
              
-            // Sorting barrel list
-            std::sort(barrelList.begin(), barrelList.end(), [&](const Barrel& barrel1, const Barrel& barrel2) -> bool {
-                Gun gun1 = sampleGunWithCoreMag1, gun2 = sampleGunWithCoreMag2;
-                gun1.CalculatePartialGunStats(Filter::currentFlags, &barrel1, true);
-                gun2.CalculatePartialGunStats(Filter::currentFlags, &barrel2, true);
+    //         // Sorting barrel list
+    //         std::sort(barrelList.begin(), barrelList.end(), [&](const Barrel& barrel1, const Barrel& barrel2) -> bool {
+    //             Gun gun1 = sampleGunWithCoreMag1, gun2 = sampleGunWithCoreMag2;
+    //             gun1.CalculatePartialGunStats(Filter::currentFlags, &barrel1, true);
+    //             gun2.CalculatePartialGunStats(Filter::currentFlags, &barrel2, true);
                 
-                return sorter(gun2, gun1);
-            });
+    //             return sorter(gun2, gun1);
+    //         });
 
 
-            // Sorting stock list
-            std::sort(stockList.begin(), stockList.end(), [&](const Stock& stock1, const Stock& stock2) -> bool {
-                Gun gun1 = sampleGunWithCoreMag1, gun2 = sampleGunWithCoreMag2;
-                gun1.CalculatePartialGunStats(Filter::currentFlags, &stock1, true);
-                gun2.CalculatePartialGunStats(Filter::currentFlags, &stock2, true);
+    //         // Sorting stock list
+    //         std::sort(stockList.begin(), stockList.end(), [&](const Stock& stock1, const Stock& stock2) -> bool {
+    //             Gun gun1 = sampleGunWithCoreMag1, gun2 = sampleGunWithCoreMag2;
+    //             gun1.CalculatePartialGunStats(Filter::currentFlags, &stock1, true);
+    //             gun2.CalculatePartialGunStats(Filter::currentFlags, &stock2, true);
                 
-                return sorter(gun2, gun1);
-            });
+    //             return sorter(gun2, gun1);
+    //         });
 
 
-            // Sorting grip list
-            std::sort(gripList.begin(), gripList.end(), [&](const Grip& grip1, const Grip& grip2) -> bool {
-                Gun gun1 = sampleGunWithCoreMag1, gun2 = sampleGunWithCoreMag2;
-                gun1.CalculatePartialGunStats(Filter::currentFlags, &grip1, true);
-                gun2.CalculatePartialGunStats(Filter::currentFlags, &grip2, true);
+    //         // Sorting grip list
+    //         std::sort(gripList.begin(), gripList.end(), [&](const Grip& grip1, const Grip& grip2) -> bool {
+    //             Gun gun1 = sampleGunWithCoreMag1, gun2 = sampleGunWithCoreMag2;
+    //             gun1.CalculatePartialGunStats(Filter::currentFlags, &grip1, true);
+    //             gun2.CalculatePartialGunStats(Filter::currentFlags, &grip2, true);
                 
-                return sorter(gun2, gun1);
-            });
-        }
-    }
+    //             return sorter(gun2, gun1);
+    //         });
+    //     }
+    // }
 
 }
 

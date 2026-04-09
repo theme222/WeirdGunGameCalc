@@ -1,31 +1,5 @@
 ./wggcalc -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --reloadMax 2.5 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
-[ Barrel: Uzi, Magazine: Type 2a Nambu, Grip: P90, Stock: Spas-12, Core: PPSh-41 ]
-damage: 14.7 - 7.57485
-dropoffStuds: 101.43 - 113.602
-fireRate: 1813.22
-adsSpread: 0.93296
-hipfireSpread: 4.26496
-reloadTime: 2.5
-magazineSize: 30
-recoilHipVertical: 20.292 - 40.584
-recoilAimVertical: 16.2336 - 32.4672
-movementSpeed: 6.3
-TTK: 0.198542 Seconds
-
-[ Barrel: Uzi, Magazine: Type 2a Nambu, Grip: Kriss Vector, Stock: Spas-12, Core: PPSh-41 ]
-damage: 14.7 - 7.57485
-dropoffStuds: 101.43 - 113.602
-fireRate: 1762.38
-adsSpread: 0.89964
-hipfireSpread: 4.11264
-reloadTime: 2.5
-magazineSize: 30
-recoilHipVertical: 20.064 - 40.128
-recoilAimVertical: 16.0512 - 32.1024
-movementSpeed: 10.8
-TTK: 0.204269 Seconds
-
 [ Barrel: Uzi, Magazine: Type 2a Nambu, Grip: P90, Stock: AR-8X, Core: PPSh-41 ]
 damage: 14.7 - 7.71456
 dropoffStuds: 103.5 - 115.92
@@ -38,19 +12,6 @@ recoilHipVertical: 20.292 - 40.584
 recoilAimVertical: 16.2336 - 32.4672
 movementSpeed: 7.3
 TTK: 0.205123 Seconds
-
-[ Barrel: Uzi, Magazine: Type 2a Nambu, Grip: Auto-5, Stock: Spas-12, Core: PPSh-41 ]
-damage: 14.3325 - 7.38548
-dropoffStuds: 101.43 - 113.602
-fireRate: 1749.67
-adsSpread: 0.72471
-hipfireSpread: 3.31296
-reloadTime: 2.5
-magazineSize: 30
-recoilHipVertical: 21.318 - 42.636
-recoilAimVertical: 17.0544 - 34.1088
-movementSpeed: 6.3
-TTK: 0.205753 Seconds
 
 [ Barrel: Uzi, Magazine: Type 2a Nambu, Grip: P90, Stock: MAC-10, Core: PPSh-41 ]
 damage: 14.7 - 7.71456
@@ -130,4 +91,43 @@ recoilHipVertical: 20.292 - 40.584
 recoilAimVertical: 16.2336 - 32.4672
 movementSpeed: 13.8
 TTK: 0.212362 Seconds
+
+[ Barrel: Uzi, Magazine: Type 2a Nambu, Grip: Auto-5, Stock: AR-8X, Core: PPSh-41 ]
+damage: 14.3325 - 7.52169
+dropoffStuds: 103.5 - 115.92
+fireRate: 1693.54
+adsSpread: 0.737651
+hipfireSpread: 3.37212
+reloadTime: 2.5
+magazineSize: 30
+recoilHipVertical: 21.318 - 42.636
+recoilAimVertical: 17.0544 - 34.1088
+movementSpeed: 7.3
+TTK: 0.212573 Seconds
+
+[ Barrel: Uzi, Magazine: Type 2a Nambu, Grip: Kriss Vector, Stock: MAC-10, Core: PPSh-41 ]
+damage: 14.7 - 7.71456
+dropoffStuds: 103.5 - 115.92
+fireRate: 1688.07
+adsSpread: 0.93177
+hipfireSpread: 4.25952
+reloadTime: 2.5
+magazineSize: 30
+recoilHipVertical: 20.064 - 40.128
+recoilAimVertical: 16.0512 - 32.1024
+movementSpeed: 18.4
+TTK: 0.213261 Seconds
+
+[ Barrel: Spray Can, Magazine: Type 2a Nambu, Grip: P90, Stock: USA180, Core: PPSh-41 ]
+damage: 12.6336 - 6.46335
+dropoffStuds: 100.125 - 112.14
+fireRate: 1966.93
+adsSpread: 0.98
+hipfireSpread: 4.48
+reloadTime: 2.5
+magazineSize: 30
+recoilHipVertical: 20.292 - 40.584
+recoilAimVertical: 16.2336 - 32.4672
+movementSpeed: 11.8
+TTK: 0.213531 Seconds
 

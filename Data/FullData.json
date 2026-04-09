@@ -4499,8 +4499,9 @@
         "Price_Type": "Coin",
         "Name": "Spas-12",
         "Category": "Shotgun",
-        "Fire_Rate": 14,
-        "Movement_Speed": -3,
+        "Fire_Rate": 16,
+        "Magazine_Cap": -30,
+        "Movement_Speed": 4,
         "Range": -2,
         "Spread": 12
       },
@@ -4803,7 +4804,7 @@
         "Magazine_Cap": -24,
         "Movement_Speed": 25,
         "Recoil": -40,
-        "Reload_Speed": -18,
+        "Reload_Speed": -25,
         "Spread": 40
       },
       {

@@ -6,7 +6,7 @@ dropoffStuds: 300 - 500
 fireRate: 23.7281
 adsSpread: 0.108859
 hipfireSpread: 16.3288
-reloadTime: 7.0848
+reloadTime: 6.48
 magazineSize: 5
 health: -10
 recoilHipVertical: 637.875 - 911.25
@@ -19,7 +19,7 @@ dropoffStuds: 300 - 500
 fireRate: 23.7281
 adsSpread: 0.13195
 hipfireSpread: 19.7925
-reloadTime: 7.0848
+reloadTime: 6.48
 magazineSize: 5
 health: -17.5
 recoilHipVertical: 581.175 - 830.25
@@ -45,12 +45,25 @@ dropoffStuds: 522.5 - 783.75
 fireRate: 21.8434
 adsSpread: 0.077616
 hipfireSpread: 23.2848
-reloadTime: 4.961
+reloadTime: 4.5375
 magazineSize: 5
 health: -10
 recoilHipVertical: 113.832 - 151.776
 recoilAimVertical: 56.916 - 75.888
 movementSpeed: 8
+
+[ Barrel: Mosin, Magazine: Lightning Shot, Grip: Infinity, Stock: Spas-12, Core: Arisaka ]
+damage: 100.05 - 89.4367
+dropoffStuds: 376.32 - 658.56
+fireRate: 21.5463
+adsSpread: 0.1456
+hipfireSpread: 8.736
+reloadTime: 8.8596
+magazineSize: 5
+health: -15
+recoilHipVertical: 162 - 184.5
+recoilAimVertical: 72.9 - 83.025
+movementSpeed: 2.4
 
 [ Barrel: Mosin, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Mosin, Core: Arisaka ]
 damage: 100.05 - 88.044
@@ -63,6 +76,19 @@ magazineSize: 7
 health: -15
 recoilHipVertical: 200.88 - 228.78
 recoilAimVertical: 90.396 - 102.951
+
+[ Barrel: Mosin, Magazine: Lightning Shot, Grip: M1 Garand, Stock: Spas-12, Core: Arisaka ]
+damage: 100.05 - 89.8449
+dropoffStuds: 392 - 686
+fireRate: 21.406
+adsSpread: 0.1456
+hipfireSpread: 8.736
+reloadTime: 8.28
+magazineSize: 5
+health: -15
+recoilHipVertical: 162 - 184.5
+recoilAimVertical: 72.9 - 83.025
+movementSpeed: -0.6
 
 [ Barrel: Mosin, Magazine: Lightning Shot, Grip: Lewis, Stock: FG-42, Core: Arisaka ]
 damage: 100.05 - 90.045
@@ -90,19 +116,6 @@ recoilHipVertical: 233.28 - 265.68
 recoilAimVertical: 104.976 - 119.556
 movementSpeed: -4.8
 
-[ Barrel: Mosin, Magazine: Lightning Shot, Grip: Infinity, Stock: Spas-12, Core: Arisaka ]
-damage: 100.05 - 89.4367
-dropoffStuds: 376.32 - 658.56
-fireRate: 21.3104
-adsSpread: 0.1456
-hipfireSpread: 8.736
-reloadTime: 8.8596
-magazineSize: 8
-health: -15
-recoilHipVertical: 162 - 184.5
-recoilAimVertical: 72.9 - 83.025
-movementSpeed: -3
-
 [ Barrel: Mosin, Magazine: Lightning Shot, Grip: Infinity, Stock: Roto-Fire, Core: Arisaka ]
 damage: 100.05 - 89.0205
 dropoffStuds: 360.96 - 631.68
@@ -115,16 +128,4 @@ health: -15
 recoilHipVertical: 162 - 184.5
 recoilAimVertical: 72.9 - 83.025
 movementSpeed: -0.5
-
-[ Barrel: Mosin, Magazine: Hecate II, Grip: M1891, Stock: Paintball, Core: AWM ]
-damage: 100.05 - 87.7439
-dropoffStuds: 385 - 577.5
-fireRate: 21.0672
-adsSpread: 0.1456
-hipfireSpread: 43.68
-reloadTime: 4.9197
-magazineSize: 5
-recoilHipVertical: 180 - 240
-recoilAimVertical: 90 - 120
-movementSpeed: -5
 

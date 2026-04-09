@@ -6,7 +6,7 @@ dropoffStuds: 152.54 - 469.354
 fireRate: 611.325
 adsSpread: 0.32025
 hipfireSpread: 6.405
-reloadTime: 3.772
+reloadTime: 3.45
 magazineSize: 21
 health: 16.25
 recoilHipVertical: 9.80064 - 10.7807
@@ -20,7 +20,7 @@ dropoffStuds: 150.433 - 462.87
 fireRate: 611.325
 adsSpread: 0.243289
 hipfireSpread: 4.86578
-reloadTime: 2.829
+reloadTime: 2.5875
 magazineSize: 23
 health: 16.25
 recoilHipVertical: 13.1034 - 14.4137
@@ -34,7 +34,7 @@ dropoffStuds: 151.84 - 467.201
 fireRate: 605.212
 adsSpread: 0.254919
 hipfireSpread: 5.09838
-reloadTime: 2.0746
+reloadTime: 1.8975
 magazineSize: 23
 health: 16.25
 recoilHipVertical: 12.1512 - 13.3663
@@ -42,32 +42,32 @@ recoilAimVertical: 6.0756 - 6.68316
 movementSpeed: -6.5
 TTK: 0.198278 Seconds
 
-[ Barrel: M1917 WC, Magazine: AR-8X, Grip: Musket, Stock: Speed Coil, Core: SKS ]
-damage: 33.6784 - 22.3324
-dropoffStuds: 152.26 - 468.493
-fireRate: 602.155
-adsSpread: 0.35868
-hipfireSpread: 7.1736
-reloadTime: 2.48952
-magazineSize: 23
-health: 16.25
-recoilHipVertical: 11.5536 - 12.709
-recoilAimVertical: 5.7768 - 6.35448
-movementSpeed: -3.8
-TTK: 0.199284 Seconds
-
 [ Barrel: M1917 WC, Magazine: Maple Badger, Grip: Snake Sniper, Stock: Speed Coil, Core: SKS ]
 damage: 33.6474 - 22.2745
 dropoffStuds: 151.84 - 467.201
 fireRate: 602.155
 adsSpread: 0.203935
 hipfireSpread: 4.0787
-reloadTime: 1.5088
+reloadTime: 1.38
 magazineSize: 23
 health: 16.25
 recoilHipVertical: 12.1512 - 13.3663
 recoilAimVertical: 6.0756 - 6.68316
 movementSpeed: -6.5
+TTK: 0.199284 Seconds
+
+[ Barrel: M1917 WC, Magazine: AR-8X, Grip: Musket, Stock: Speed Coil, Core: SKS ]
+damage: 33.6784 - 22.3324
+dropoffStuds: 152.26 - 468.493
+fireRate: 602.155
+adsSpread: 0.35868
+hipfireSpread: 7.1736
+reloadTime: 2.277
+magazineSize: 23
+health: 16.25
+recoilHipVertical: 11.5536 - 12.709
+recoilAimVertical: 5.7768 - 6.35448
+movementSpeed: -3.8
 TTK: 0.199284 Seconds
 
 [ Barrel: M1917 WC, Magazine: The Chief, Grip: M1891, Stock: Speed Coil, Core: SKS ]
@@ -76,7 +76,7 @@ dropoffStuds: 153.38 - 471.938
 fireRate: 596.959
 adsSpread: 0.33306
 hipfireSpread: 6.6612
-reloadTime: 5.69336
+reloadTime: 5.20734
 magazineSize: 27
 health: 16.25
 recoilHipVertical: 12.45 - 13.695
@@ -90,7 +90,7 @@ dropoffStuds: 150.644 - 463.52
 fireRate: 596.042
 adsSpread: 0.2562
 hipfireSpread: 5.124
-reloadTime: 2.7347
+reloadTime: 2.50125
 magazineSize: 23
 health: 16.25
 recoilHipVertical: 13.1472 - 14.4619
@@ -104,7 +104,7 @@ dropoffStuds: 153.38 - 471.938
 fireRate: 594.208
 adsSpread: 0.2562
 hipfireSpread: 5.124
-reloadTime: 4.95075
+reloadTime: 4.52812
 magazineSize: 27
 health: 16.25
 recoilHipVertical: 12.45 - 13.695
@@ -118,7 +118,7 @@ dropoffStuds: 152.54 - 469.354
 fireRate: 589.929
 adsSpread: 0.232886
 hipfireSpread: 4.65772
-reloadTime: 3.772
+reloadTime: 3.45
 magazineSize: 21
 health: 16.25
 recoilHipVertical: 12.2508 - 13.4759
@@ -132,7 +132,7 @@ dropoffStuds: 152.041 - 467.82
 fireRate: 583.737
 adsSpread: 0.297206
 hipfireSpread: 5.94412
-reloadTime: 3.28
+reloadTime: 3
 magazineSize: 38
 health: -5
 recoilHipVertical: 12.7512 - 14.0263

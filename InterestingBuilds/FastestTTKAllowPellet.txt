@@ -6,7 +6,7 @@ dropoffStuds: 172.9 - 345.8
 fireRate: 759
 adsSpread: 0.6783
 hipfireSpread: 12.2094
-reloadTime: 4.6494
+reloadTime: 4.2525
 magazineSize: 46
 health: 10
 recoilHipVertical: 31.9334 - 39.9168
@@ -20,7 +20,7 @@ dropoffStuds: 157.248 - 336.336
 fireRate: 1229.58
 adsSpread: 0.425653
 hipfireSpread: 12.7696
-reloadTime: 7.79
+reloadTime: 7.125
 magazineSize: 76
 health: -17.5
 recoilHipVertical: 11.232 - 12.3552
@@ -34,7 +34,7 @@ dropoffStuds: 219.45 - 438.9
 fireRate: 486.2
 adsSpread: 0.6825
 hipfireSpread: 12.285
-reloadTime: 3.936
+reloadTime: 3.6
 magazineSize: 36
 health: 10
 recoilHipVertical: 47.9002 - 59.8752
@@ -48,7 +48,7 @@ dropoffStuds: 165.473 - 330.947
 fireRate: 727.238
 adsSpread: 0.6888
 hipfireSpread: 12.3984
-reloadTime: 4.8257
+reloadTime: 4.41375
 magazineSize: 41
 health: 10
 recoilHipVertical: 54.978 - 68.7225
@@ -62,7 +62,7 @@ dropoffStuds: 165.6 - 354.2
 fireRate: 1209.06
 adsSpread: 0.34713
 hipfireSpread: 10.4139
-reloadTime: 4.76256
+reloadTime: 4.356
 magazineSize: 38
 health: -17.5
 recoilHipVertical: 33.264 - 36.5904
@@ -76,7 +76,7 @@ dropoffStuds: 172.368 - 344.736
 fireRate: 722.502
 adsSpread: 0.6888
 hipfireSpread: 12.3984
-reloadTime: 4.51
+reloadTime: 4.125
 magazineSize: 38
 health: 10
 recoilHipVertical: 54.978 - 68.7225
@@ -90,7 +90,7 @@ dropoffStuds: 174.8 - 349.6
 fireRate: 721.05
 adsSpread: 0.682689
 hipfireSpread: 12.2884
-reloadTime: 4.92
+reloadTime: 4.5
 magazineSize: 38
 health: 10
 recoilHipVertical: 29.2723 - 36.5904
@@ -104,7 +104,7 @@ dropoffStuds: 195.776 - 391.552
 fireRate: 721.05
 adsSpread: 0.6384
 hipfireSpread: 11.4912
-reloadTime: 4.92
+reloadTime: 4.5
 magazineSize: 38
 health: 10
 recoilHipVertical: 51.2266 - 64.0332
@@ -118,7 +118,7 @@ dropoffStuds: 174.8 - 349.6
 fireRate: 721.05
 adsSpread: 0.6783
 hipfireSpread: 12.2094
-reloadTime: 5.166
+reloadTime: 4.725
 magazineSize: 38
 health: 10
 recoilHipVertical: 29.2723 - 36.5904
@@ -126,17 +126,17 @@ recoilAimVertical: 14.6362 - 18.2952
 movementSpeed: 2
 TTK: 0.249636 Seconds
 
-[ Barrel: Uzi, Magazine: Graphics Card, Grip: Negev, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 25.0381 - 16.8609
-dropoffStuds: 160.816 - 321.632
-fireRate: 716.774
-adsSpread: 0.663337
-hipfireSpread: 11.9401
-reloadTime: 4.92
-magazineSize: 38
-health: 10
-recoilHipVertical: 23.3772 - 29.2215
-recoilAimVertical: 11.6886 - 14.6108
-movementSpeed: 10.1
-TTK: 0.251125 Seconds
+[ Barrel: Barret .50, Magazine: Paintball, Grip: M1891, Stock: Spas-12, Core: Burton ]
+damage: 17.0567 - 12.3226
+dropoffStuds: 176.4 - 377.3
+fireRate: 1196.67
+adsSpread: 0.373682
+hipfireSpread: 11.2105
+reloadTime: 6.90184
+magazineSize: 49
+health: -7.5
+recoilHipVertical: 50 - 55
+recoilAimVertical: 17.5 - 19
+movementSpeed: 0.7
+TTK: 0.250695 Seconds
 

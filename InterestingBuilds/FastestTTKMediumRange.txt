@@ -6,7 +6,7 @@ dropoffStuds: 201.6 - 431.2
 fireRate: 954.518
 adsSpread: 0.440855
 hipfireSpread: 13.2257
-reloadTime: 7.54072
+reloadTime: 6.897
 magazineSize: 76
 health: -17.5
 recoilHipVertical: 43.2 - 47.52
@@ -14,27 +14,13 @@ recoilAimVertical: 15.12 - 16.416
 movementSpeed: 1.5
 TTK: 0.251436 Seconds
 
-[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: Negev, Stock: Speed Coil, Core: Burton ]
-damage: 20.2592 - 15.408
-dropoffStuds: 201.6 - 431.2
-fireRate: 896.417
-adsSpread: 0.406051
-hipfireSpread: 12.1815
-reloadTime: 7.54072
-magazineSize: 76
-health: -17.5
-recoilHipVertical: 34.5 - 37.95
-recoilAimVertical: 12.075 - 13.11
-movementSpeed: 5
-TTK: 0.267732 Seconds
-
 [ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: M1891, Stock: Speed Coil, Core: Burton ]
 damage: 20.2592 - 15.408
 dropoffStuds: 201.6 - 431.2
 fireRate: 896.417
 adsSpread: 0.502729
 hipfireSpread: 15.0819
-reloadTime: 8.67183
+reloadTime: 7.93155
 magazineSize: 76
 health: -17.5
 recoilHipVertical: 30 - 33
@@ -42,19 +28,19 @@ recoilAimVertical: 10.5 - 11.4
 movementSpeed: 10.7
 TTK: 0.267732 Seconds
 
-[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: M1897 Trench Shotgun, Stock: Speed Coil, Core: Burton ]
+[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: Negev, Stock: Speed Coil, Core: Burton ]
 damage: 20.2592 - 15.408
 dropoffStuds: 201.6 - 431.2
-fireRate: 892.267
-adsSpread: 0.464058
-hipfireSpread: 13.9217
-reloadTime: 7.91776
+fireRate: 896.417
+adsSpread: 0.406051
+hipfireSpread: 12.1815
+reloadTime: 6.897
 magazineSize: 76
 health: -17.5
-recoilHipVertical: 30 - 33
-recoilAimVertical: 10.5 - 11.4
-movementSpeed: 7.5
-TTK: 0.268978 Seconds
+recoilHipVertical: 34.5 - 37.95
+recoilAimVertical: 12.075 - 13.11
+movementSpeed: 5
+TTK: 0.267732 Seconds
 
 [ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: M1887, Stock: Speed Coil, Core: Burton ]
 damage: 20.2592 - 15.408
@@ -62,12 +48,26 @@ dropoffStuds: 201.6 - 431.2
 fireRate: 892.267
 adsSpread: 0.444722
 hipfireSpread: 13.3417
-reloadTime: 6.97517
+reloadTime: 6.37973
 magazineSize: 76
 health: -13.75
 recoilHipVertical: 30 - 33
 recoilAimVertical: 10.5 - 11.4
 movementSpeed: 2
+TTK: 0.268978 Seconds
+
+[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: M1897 Trench Shotgun, Stock: Speed Coil, Core: Burton ]
+damage: 20.2592 - 15.408
+dropoffStuds: 201.6 - 431.2
+fireRate: 892.267
+adsSpread: 0.464058
+hipfireSpread: 13.9217
+reloadTime: 7.24185
+magazineSize: 76
+health: -17.5
+recoilHipVertical: 30 - 33
+recoilAimVertical: 10.5 - 11.4
+movementSpeed: 7.5
 TTK: 0.268978 Seconds
 
 [ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: M1 Garand, Stock: Speed Coil, Core: Burton ]
@@ -76,7 +76,7 @@ dropoffStuds: 201.6 - 431.2
 fireRate: 886.457
 adsSpread: 0.386715
 hipfireSpread: 11.6014
-reloadTime: 7.54072
+reloadTime: 6.897
 magazineSize: 76
 health: -17.5
 recoilHipVertical: 30 - 33
@@ -90,7 +90,7 @@ dropoffStuds: 201.6 - 431.2
 fireRate: 870.479
 adsSpread: 0.361579
 hipfireSpread: 10.8474
-reloadTime: 8.67183
+reloadTime: 7.93155
 magazineSize: 76
 health: -17.5
 recoilHipVertical: 30 - 33
@@ -104,7 +104,7 @@ dropoffStuds: 215.46 - 430.92
 fireRate: 652.08
 adsSpread: 0.5656
 hipfireSpread: 10.1808
-reloadTime: 4.01472
+reloadTime: 3.672
 magazineSize: 36
 health: 10
 recoilHipVertical: 29.2191 - 36.5239
@@ -118,7 +118,7 @@ dropoffStuds: 201.6 - 431.2
 fireRate: 867.782
 adsSpread: 0.433121
 hipfireSpread: 12.9936
-reloadTime: 7.54072
+reloadTime: 6.897
 magazineSize: 76
 health: -17.5
 recoilHipVertical: 27.855 - 30.6405
@@ -132,7 +132,7 @@ dropoffStuds: 206.01 - 440.633
 fireRate: 1081.77
 adsSpread: 0.2646
 hipfireSpread: 7.938
-reloadTime: 4.97904
+reloadTime: 4.554
 magazineSize: 36
 health: 7.5
 recoilHipVertical: 5.376 - 5.9136

@@ -1,30 +1,30 @@
 ./wggcalc -o InterestingBuilds/F2PNewbieFriendlyTTK.txt -i SMG AR LMG --banPriceType ROBUX LIMITED SPECIAL --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.8 --recoilAimMax 35 --rangeMin 150 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
-[ Barrel: MG42, Magazine: DP-27, Grip: The Chief, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 26.9033 - 18.1726
-dropoffStuds: 155.61 - 311.22
-fireRate: 772.2
-adsSpread: 0.79625
-hipfireSpread: 14.3325
-reloadTime: 3.936
-magazineSize: 36
-health: 10
-recoilHipVertical: 51.8918 - 64.8648
-recoilAimVertical: 25.9459 - 32.4324
-movementSpeed: 1
-TTK: 0.2331 Seconds
-
 [ Barrel: MG42, Magazine: DP-27, Grip: AWM, Stock: Speed Coil, Core: M1919 .30 Cal ]
 damage: 26.3113 - 17.7727
 dropoffStuds: 155.61 - 311.22
 fireRate: 772.2
 adsSpread: 0.76832
 hipfireSpread: 13.8298
-reloadTime: 4.40832
+reloadTime: 4.032
 magazineSize: 36
 health: 10
 recoilHipVertical: 41.5135 - 51.8918
 recoilAimVertical: 20.7567 - 25.9459
+movementSpeed: 1
+TTK: 0.2331 Seconds
+
+[ Barrel: MG42, Magazine: DP-27, Grip: The Chief, Stock: Speed Coil, Core: M1919 .30 Cal ]
+damage: 26.9033 - 18.1726
+dropoffStuds: 155.61 - 311.22
+fireRate: 772.2
+adsSpread: 0.79625
+hipfireSpread: 14.3325
+reloadTime: 3.6
+magazineSize: 36
+health: 10
+recoilHipVertical: 51.8918 - 64.8648
+recoilAimVertical: 25.9459 - 32.4324
 movementSpeed: 1
 TTK: 0.2331 Seconds
 
@@ -34,7 +34,7 @@ dropoffStuds: 160.816 - 321.632
 fireRate: 763.231
 adsSpread: 0.720195
 hipfireSpread: 12.9635
-reloadTime: 4.92
+reloadTime: 4.5
 magazineSize: 38
 health: 10
 recoilHipVertical: 29.2723 - 36.5904
@@ -48,7 +48,7 @@ dropoffStuds: 155.61 - 311.22
 fireRate: 756.756
 adsSpread: 0.78841
 hipfireSpread: 14.1914
-reloadTime: 3.936
+reloadTime: 3.6
 magazineSize: 36
 health: 10
 recoilHipVertical: 48.4324 - 60.5405
@@ -62,7 +62,7 @@ dropoffStuds: 164.312 - 328.624
 fireRate: 753.858
 adsSpread: 0.798
 hipfireSpread: 14.364
-reloadTime: 4.92
+reloadTime: 4.5
 magazineSize: 38
 health: 10
 recoilHipVertical: 36.5904 - 45.738
@@ -76,7 +76,7 @@ dropoffStuds: 199.5 - 399
 fireRate: 749.892
 adsSpread: 0.798
 hipfireSpread: 14.364
-reloadTime: 4.01472
+reloadTime: 3.672
 magazineSize: 36
 health: 10
 recoilHipVertical: 34.4881 - 43.1101
@@ -90,7 +90,7 @@ dropoffStuds: 157.32 - 314.64
 fireRate: 744.484
 adsSpread: 0.798
 hipfireSpread: 14.364
-reloadTime: 4.92
+reloadTime: 4.5
 magazineSize: 38
 health: 10
 recoilHipVertical: 36.5904 - 45.738
@@ -104,7 +104,7 @@ dropoffStuds: 161.5 - 323
 fireRate: 744.452
 adsSpread: 0.798
 hipfireSpread: 14.364
-reloadTime: 4.1
+reloadTime: 3.75
 magazineSize: 36
 health: 10
 recoilHipVertical: 53.3821 - 66.7276
@@ -118,7 +118,7 @@ dropoffStuds: 175.56 - 351.12
 fireRate: 743.314
 adsSpread: 0.798
 hipfireSpread: 14.364
-reloadTime: 3.936
+reloadTime: 3.6
 magazineSize: 36
 health: 10
 recoilHipVertical: 38.4266 - 48.0332
@@ -132,7 +132,7 @@ dropoffStuds: 176.557 - 353.115
 fireRate: 737.954
 adsSpread: 0.740943
 hipfireSpread: 13.337
-reloadTime: 3.28
+reloadTime: 3
 magazineSize: 38
 health: 10
 recoilHipVertical: 52.272 - 65.34

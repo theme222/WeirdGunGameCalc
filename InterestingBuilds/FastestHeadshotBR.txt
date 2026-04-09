@@ -40,18 +40,19 @@ recoilAimVertical: 62 - 72.075
 movementSpeed: 4.5
 TTK: 0.778276 Seconds
 
-[ Barrel: Infinity, Magazine: Scar H, Grip: Infinity, Stock: G43, Core: Winchester ]
-damage: 67.1731 - 54.5888
-dropoffStuds: 217.51 - 403.948
-fireRate: 76.5506
-adsSpread: 0.145
-hipfireSpread: 11
-reloadTime: 5.18248
-magazineSize: 25
+[ Barrel: Uzi, Magazine: Scar H, Grip: Infinity, Stock: Spas-12, Core: Winchester ]
+damage: 69.552 - 55.3684
+dropoffStuds: 201.756 - 374.691
+fireRate: 76.7184
+adsSpread: 0.145348
+hipfireSpread: 11.0264
+reloadTime: 4.815
+magazineSize: 15
 health: 5
 recoilHipVertical: 100 - 116.25
 recoilAimVertical: 50 - 58.125
-TTK: 0.783795 Seconds
+movementSpeed: 5.2
+TTK: 0.782081 Seconds
 
 [ Barrel: Infinity, Magazine: Scar H, Grip: Infinity, Stock: SMO3, Core: Winchester ]
 damage: 67.4695 - 53.7305
@@ -66,6 +67,33 @@ recoilHipVertical: 132 - 153.45
 recoilAimVertical: 66 - 76.725
 movementSpeed: 2.8
 TTK: 0.783795 Seconds
+
+[ Barrel: Infinity, Magazine: Scar H, Grip: Infinity, Stock: G43, Core: Winchester ]
+damage: 67.1731 - 54.5888
+dropoffStuds: 217.51 - 403.948
+fireRate: 76.5506
+adsSpread: 0.145
+hipfireSpread: 11
+reloadTime: 5.18248
+magazineSize: 25
+health: 5
+recoilHipVertical: 100 - 116.25
+recoilAimVertical: 50 - 58.125
+TTK: 0.783795 Seconds
+
+[ Barrel: Infinity, Magazine: Scar H, Grip: The Chief, Stock: Spas-12, Core: Winchester ]
+damage: 67.4366 - 53.9684
+dropoffStuds: 205.594 - 381.818
+fireRate: 76.446
+adsSpread: 0.12992
+hipfireSpread: 9.856
+reloadTime: 4.3245
+magazineSize: 16
+health: 5
+recoilHipVertical: 135 - 156.938
+recoilAimVertical: 67.5 - 78.4688
+movementSpeed: 2.4
+TTK: 0.784868 Seconds
 
 [ Barrel: Dominus, Magazine: Scar H, Grip: Mas-38, Stock: Roto-Fire, Core: Winchester ]
 damage: 67.2 - 53.6332
@@ -95,20 +123,6 @@ recoilAimVertical: 45.2 - 52.545
 movementSpeed: 4.75
 TTK: 0.788885 Seconds
 
-[ Barrel: SMO3, Magazine: FAL, Grip: Infinity, Stock: FG-42, Core: Winchester ]
-damage: 66.7744 - 52.8853
-dropoffStuds: 201.6 - 374.4
-fireRate: 76.0567
-adsSpread: 0.145
-hipfireSpread: 11
-reloadTime: 2.3754
-magazineSize: 22
-health: 5
-recoilHipVertical: 101.248 - 117.701
-recoilAimVertical: 50.624 - 58.8504
-movementSpeed: 2.25
-TTK: 0.788885 Seconds
-
 [ Barrel: Car Muffler, Magazine: FAL, Grip: Infinity, Stock: FG-42, Core: Winchester ]
 damage: 67.76 - 53.6659
 dropoffStuds: 201.6 - 374.4
@@ -121,19 +135,5 @@ health: -10
 recoilHipVertical: 123.523 - 143.595
 recoilAimVertical: 61.7613 - 71.7975
 movementSpeed: 2.5
-TTK: 0.788885 Seconds
-
-[ Barrel: Type 99, Magazine: G43, Grip: Infinity, Stock: FG-42, Core: Winchester ]
-damage: 66.836 - 52.9341
-dropoffStuds: 201.6 - 374.4
-fireRate: 76.0567
-adsSpread: 0.126512
-hipfireSpread: 9.5975
-reloadTime: 1.68525
-magazineSize: 11
-health: 5
-recoilHipVertical: 90.4 - 105.09
-recoilAimVertical: 45.2 - 52.545
-movementSpeed: 1
 TTK: 0.788885 Seconds
 
