@@ -1,11 +1,11 @@
 import { ref, reactive, watch } from "vue";
-import { filterAndSortStrings } from "./filter.const";
+import { filterPropStrings, propertyStrings } from "./filter.const";
 import { currentFilters, getFilterItem } from "./filter";
 import { latestResult } from "./calc";
 import type { fpair, Gun } from "./types";
 
-export const statsToCompare = reactive(filterAndSortStrings.map((stat) => ({ stat, show: false })));
-const statsToShowDefault: (typeof filterAndSortStrings)[number][] = ['TTK', 'Damage Start', 'Fire Rate', 'Magazine Size', 'Range Stud Start', 'Range Stud End', 'Spread Aim', 'Spread Hip', 'Speed', 'Health', 'Recoil Aim', 'Recoil Hip']; // Truly one of the typescript moments of all time
+export const statsToCompare = reactive(filterPropStrings.map((stat) => ({ stat, show: false })));
+const statsToShowDefault: (typeof filterPropStrings)[number][] = ['TTK', 'Damage Start', 'Fire Rate', 'Magazine Size', 'DropoffStuds End', 'DropoffStuds Start', 'Spread Aim', 'Spread Hip', 'Speed', 'Health', 'Recoil Aim', 'Recoil Hip']; // Truly one of the typescript moments of all time
 statsToShowDefault.forEach((stat) => statsToCompare.find((s) => s.stat === stat)!.show = true);
 
 export const currentSortingType = ref('TTK');
@@ -15,11 +15,12 @@ watch(latestResult, () => {
   currentSortingType.value = currentFilters.list.find((filter) => filter.title === 'Sort Type')!.writeable.value[0] as string; 
 })
 
-export function getFilterAsProperty(gun: Gun, filterName: (typeof filterAndSortStrings)[number]): fpair | number {
+export function getFilterAsProperty(gun: Gun, filterName: (typeof propertyStrings)[number]): fpair | number {
    switch (filterName) {
      case 'TTK': return gun.TTKS;
      case 'Damage Start': return gun.damage[0];
      case 'Damage End': return gun.damage[1];
+     case 'Damage': return gun.damage;
      case 'Fire Rate': return gun.fireRate;
      case 'Pellets': return gun.pellets;
      case 'Spread Aim': return gun.adsSpread;
@@ -27,8 +28,9 @@ export function getFilterAsProperty(gun: Gun, filterName: (typeof filterAndSortS
      case 'Recoil Aim': return gun.recoilAimVertical;
      case 'Recoil Hip': return gun.recoilHipVertical;
      case 'Health': return gun.health;
-     case 'Range Stud Start': return gun.dropoffStuds[0];
-     case 'Range Stud End': return gun.dropoffStuds[1];
+     case 'DropoffStuds Start': return gun.dropoffStuds[0];
+     case 'DropoffStuds End': return gun.dropoffStuds[1];
+     case 'DropoffStuds': return gun.dropoffStuds;
      case 'Detection Radius': return gun.detectionRadius;
      case 'Time To Aim': return gun.timeToAim;
      case 'Equip Time': return gun.equipTime;

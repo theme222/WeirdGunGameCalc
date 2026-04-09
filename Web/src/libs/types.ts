@@ -1,4 +1,4 @@
-import type { filterAndSortStrings } from "./filter.const";
+import type { filterPropStrings } from "./filter.const";
 
 export type FilterType = 'string' | 'number' | 'stringarr' | 'numberrange' | 'sort';
 

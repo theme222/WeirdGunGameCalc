@@ -2,7 +2,7 @@ import { reactive, watch } from 'vue';
 import { addToast } from './toast';
 import { PARTNAMES } from './data';
 import type { Filter, FilterItem, FilterType } from './types';
-import { categoryStrings, sortTypeOptions, filterAndSortStrings, numberRangeOptions } from './filter.const';
+import { categoryStrings, sortTypeOptions, filterPropStrings, numberRangeOptions, propertyStrings } from './filter.const';
 
 export const filterList: Filter[] = [
   { title: 'Categories', filterType: 'stringarr', required: true, validStrings: categoryStrings },
@@ -11,7 +11,7 @@ export const filterList: Filter[] = [
     filterType: 'sort',
     options: sortTypeOptions,
     required: true,
-    validStrings: filterAndSortStrings,
+    validStrings: filterPropStrings,
   },
   { title: 'Total Results', filterType: 'number', required: true },
   { title: 'Force Core', filterType: 'stringarr', validStrings: PARTNAMES },
@@ -24,7 +24,7 @@ export const filterList: Filter[] = [
   { title: 'Ban Barrel', filterType: 'stringarr', validStrings: PARTNAMES },
   { title: 'Ban Stock', filterType: 'stringarr', validStrings: PARTNAMES },
   { title: 'Ban Grip', filterType: 'stringarr', validStrings: PARTNAMES },
-  ...filterAndSortStrings.map(fTitle => ({title: fTitle, filterType: 'numberrange' as FilterType, options: numberRangeOptions}))
+  ...filterPropStrings.map(fTitle => ({title: fTitle, filterType: 'numberrange' as FilterType, options: numberRangeOptions}))
 ] as const;
 
 

@@ -1,7 +1,7 @@
 import createModule, { type EmbindModule as EmbindModule_WASM, type Gun as Gun_WASM, type fpair as fpair_WASM } from './wggcalc.js';
 import { fullData_STRING } from './data.js';
 import { type FilterItem, type fpair, Gun } from './types.js';
-import { filterAndSortStrings } from './filter.const.js';
+import { filterPropStrings } from './filter.const.js';
 
 function sortTypeJSToWasm(sortType: string): string | undefined {
   const wasmSortList = [
@@ -27,7 +27,7 @@ function sortTypeJSToWasm(sortType: string): string | undefined {
     'TIMETOAIM',
   ];
   
-  return wasmSortList[filterAndSortStrings.indexOf(sortType as any)] ?? undefined;
+  return wasmSortList[filterPropStrings.indexOf(sortType as any)] ?? undefined;
 }
 
 function sortPriorityJSToWasm(priority: string): string  {

@@ -1,6 +1,6 @@
 export const categoryStrings = [ "AR", "BR", "LMG", "SMG", "Shotgun", "Sidearm", "Sniper", "Weird" ] as const;
 
-export const filterAndSortStrings = [
+export const filterPropStrings = [ // Sorted by text
   "Burst",
   "DPS",
   "Damage End",
@@ -11,8 +11,8 @@ export const filterAndSortStrings = [
   "Health",
   "Magazine Size",
   "Pellets",
-  "Range Stud End",
-  "Range Stud Start",
+  "DropoffStuds End",
+  "DropoffStuds Start",
   "Recoil Aim",
   "Recoil Hip",
   "Reload Time",
@@ -22,6 +22,31 @@ export const filterAndSortStrings = [
   "TTK",
   "Time To Aim",
 ] as const;
+
+export const propertyStrings = [ // Sorted by order of how I want it to show up in the part list
+  "Damage",
+  "Damage Start",
+  "Damage End",
+  "DropoffStuds",
+  "DropoffStuds Start",
+  "DropoffStuds End",
+  "Pellets",
+  "Fire Rate",
+  "Spread Aim",
+  "Spread Hip",
+  "Detection Radius",
+  "Equip Time",
+  "Magazine Size",
+  "Reload Time",
+  "Recoil Aim",
+  "Recoil Hip",
+  "Health",
+  "Speed",
+  "Burst",
+  "Time To Aim",
+  "TTK",
+  "DPS",
+] as const
 
 // I tried going [...].sort() but I lose the const assertation so gonna have to just hard code this :/
 export const filterTitles = [
@@ -36,6 +61,8 @@ export const filterTitles = [
   "Damage End",
   "Damage Start",
   "Detection Radius",
+  "DropoffStuds End",
+  "DropoffStuds Start",
   "Equip Time",
   "Fire Rate",
   "Force Barrel",
@@ -46,8 +73,6 @@ export const filterTitles = [
   "Health",
   "Magazine Size",
   "Pellets",
-  "Range Stud End",
-  "Range Stud Start",
   "Recoil Aim",
   "Recoil Hip",
   "Reload Time",
@@ -82,8 +107,8 @@ export const filterDescriptions: {[key in typeof filterTitles[number]]: string} 
   "Health": "Health range to filter",
   "Magazine Size": "Magazine size range to filter",
   "Pellets": "Pellet range to filter",
-  "Range Stud End": "Dropoff studs range to filter (END)",
-  "Range Stud Start": "Dropoff studs range to filter (START)",
+  "DropoffStuds End": "Dropoff studs range to filter (END)",
+  "DropoffStuds Start": "Dropoff studs range to filter (START)",
   "Recoil Aim": "Recoil range to filter (AIM END)",
   "Recoil Hip": "Recoil range to filter (HIP END)",
   "Reload Time": "Reload time range to filter",

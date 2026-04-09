@@ -44,7 +44,7 @@ function getResultsListComputed() {
     <div v-if="getResultsListComputed().length > 0" class="flex flex-col gap-5 p-2 border bg-base-200 min-h-20 max-w-[95vw] flex-wrap rounded-md">
       <div v-for="[type, part] in getResultsListComputed()" :key="type" class="flex flex-col p-5 border bg-base-200 rounded-md">
         <h3 class="text-xl mb-2 font-bold">{{ type }}</h3>
-        <ul class="grid grid-cols-2 list-disc px-3">
+        <ul class="grid grid-cols-2 list-disc px-3 gap-x-8">
           <li v-for="[key, value] in Object.entries(part)" :key="key" >{{ key }}: {{ value }}</li>
         </ul>
       </div>
