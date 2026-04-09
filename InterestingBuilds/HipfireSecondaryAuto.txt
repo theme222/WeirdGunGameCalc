@@ -1,132 +1,132 @@
 ./wggcalc -o InterestingBuilds/HipfireSecondaryAuto.txt -i Sidearm --fc B17 --spreadHipMax 1 --magazineMin 30 --speedMin 0 --rangeMin 20 
 Current top 10 guns are: 
-[ Barrel: Car Muffler, Magazine: MP 40, Grip: PPSh-41, Stock: None, Core: B17 ]
-damage: 11.2968 - 6.1619
-dropoffStuds: 20 - 95
-fireRate: 1225.5
-adsSpread: 0.395072
-hipfireSpread: 0.965732
-reloadTime: 3.1625
-magazineSize: 32
-health: -15
-recoilHipVertical: 42.09 - 58.926
-recoilAimVertical: 25.254 - 35.3556
-movementSpeed: 2
-TTK: 0.391677 Seconds
-
-[ Barrel: G3, Magazine: MAC-10, Grip: The Chief, Stock: None, Core: B17 ]
-damage: 10.1555 - 5.67587
-dropoffStuds: 20.3886 - 96.8458
+[ Barrel: MP18, Magazine: Mas-38, Grip: Infinity, Stock: None, Core: B17 ]
+damage: 10.0544 - 5.6169
+dropoffStuds: 20.5176 - 97.4586
 fireRate: 1352.4
-adsSpread: 0.386764
-hipfireSpread: 0.945424
-reloadTime: 2
-magazineSize: 30
-recoilHipVertical: 75.4515 - 105.632
-recoilAimVertical: 45.2709 - 63.3793
-movementSpeed: 0.3
+adsSpread: 0.399375
+hipfireSpread: 0.97625
+reloadTime: 2.996
+magazineSize: 37
+recoilHipVertical: 50.292 - 70.4088
+recoilAimVertical: 30.1752 - 42.2453
+movementSpeed: 2.625
 TTK: 0.39929 Seconds
 
-[ Barrel: M1891, Magazine: MAC-10, Grip: PPSh-41, Stock: None, Core: B17 ]
-damage: 9.24889 - 5.23823
-dropoffStuds: 20.68 - 98.23
-fireRate: 1483.5
-adsSpread: 0.373832
-hipfireSpread: 0.913811
-reloadTime: 2.76
-magazineSize: 30
-recoilHipVertical: 40.5 - 56.7
-recoilAimVertical: 24.3 - 34.02
-movementSpeed: 3.3
-TTK: 0.404449 Seconds
+[ Barrel: P90, Magazine: P90, Grip: Infinity, Stock: None, Core: B17 ]
+damage: 8.151 - 4.49793
+dropoffStuds: 20.2188 - 96.0393
+fireRate: 1765.54
+adsSpread: 0.357137
+hipfireSpread: 0.873001
+reloadTime: 4.28
+magazineSize: 58
+recoilHipVertical: 39.6 - 55.44
+recoilAimVertical: 23.76 - 33.264
+movementSpeed: 1.675
+TTK: 0.407808 Seconds
 
-[ Barrel: Dragunov, Magazine: MAC-10, Grip: PPSh-41, Stock: None, Core: B17 ]
-damage: 9.24889 - 5.34296
-dropoffStuds: 21.1218 - 100.329
-fireRate: 1483.5
-adsSpread: 0.382753
-hipfireSpread: 0.935618
-reloadTime: 2.3
-magazineSize: 30
-recoilHipVertical: 50.22 - 70.308
-recoilAimVertical: 30.132 - 42.1848
-movementSpeed: 3.3
-TTK: 0.404449 Seconds
+[ Barrel: Car Muffler, Magazine: P90, Grip: PPSh-41, Stock: None, Core: B17 ]
+damage: 9.438 - 5.30888
+dropoffStuds: 20.75 - 98.5625
+fireRate: 1457.62
+adsSpread: 0.381909
+hipfireSpread: 0.933556
+reloadTime: 5.06
+magazineSize: 50
+health: -15
+recoilHipVertical: 40.26 - 56.364
+recoilAimVertical: 24.156 - 33.8184
+movementSpeed: 1.8
+TTK: 0.411629 Seconds
 
-[ Barrel: Scar H, Magazine: MAC-10, Grip: PPSh-41, Stock: None, Core: B17 ]
-damage: 10.1417 - 5.57288
-dropoffStuds: 20.022 - 95.1045
-fireRate: 1335.15
-adsSpread: 0.357901
-hipfireSpread: 0.87487
-reloadTime: 2.3
-magazineSize: 30
+[ Barrel: MP 40, Magazine: P90, Grip: PPSh-41, Stock: None, Core: B17 ]
+damage: 9.2235 - 5.18822
+dropoffStuds: 20.75 - 98.5625
+fireRate: 1457.62
+adsSpread: 0.381909
+hipfireSpread: 0.933556
+reloadTime: 4.6
+magazineSize: 50
+recoilHipVertical: 39.6 - 55.44
+recoilAimVertical: 23.76 - 33.264
+movementSpeed: 2.2
+TTK: 0.411629 Seconds
+
+[ Barrel: SMO3, Magazine: P90, Grip: PPSh-41, Stock: None, Core: B17 ]
+damage: 9.3522 - 5.26061
+dropoffStuds: 20.75 - 98.5625
+fireRate: 1457.62
+adsSpread: 0.381909
+hipfireSpread: 0.933556
+reloadTime: 5.106
+magazineSize: 50
+recoilHipVertical: 33 - 46.2
+recoilAimVertical: 19.8 - 27.72
+movementSpeed: 1.675
+TTK: 0.411629 Seconds
+
+[ Barrel: AWM, Magazine: MP 40, Grip: Infinity, Stock: None, Core: B17 ]
+damage: 10.0347 - 5.64683
+dropoffStuds: 20.64 - 98.04
+fireRate: 1311
+adsSpread: 0.364219
+hipfireSpread: 0.890312
+reloadTime: 2.675
+magazineSize: 37
+recoilHipVertical: 60.375 - 84.525
+recoilAimVertical: 36.225 - 50.715
+TTK: 0.411899 Seconds
+
+[ Barrel: Dominus, Magazine: P90, Grip: Auto-5, Stock: None, Core: B17 ]
+damage: 8.3655 - 4.70559
+dropoffStuds: 20.75 - 98.5625
+fireRate: 1595.83
+adsSpread: 0.391529
+hipfireSpread: 0.957072
+reloadTime: 4.36
+magazineSize: 50
+recoilHipVertical: 38.2602 - 53.5643
+recoilAimVertical: 22.9561 - 32.1386
+movementSpeed: 4.8
+TTK: 0.413577 Seconds
+
+[ Barrel: Dominus, Magazine: P90, Grip: Controller, Stock: None, Core: B17 ]
+damage: 8.58 - 4.82625
+dropoffStuds: 20.75 - 98.5625
+fireRate: 1591.97
+adsSpread: 0.39603
+hipfireSpread: 0.968073
+reloadTime: 4.36
+magazineSize: 50
+recoilHipVertical: 46.6488 - 65.3083
+recoilAimVertical: 27.9893 - 39.185
+movementSpeed: 2.8
+TTK: 0.414581 Seconds
+
+[ Barrel: P90, Magazine: Paintball, Grip: The Chief, Stock: None, Core: B17 ]
+damage: 8.35256 - 4.61289
+dropoffStuds: 20.3 - 96.425
+fireRate: 1575.3
+adsSpread: 0.384676
+hipfireSpread: 0.94032
+reloadTime: 6.2
+magazineSize: 70
 recoilHipVertical: 48.6 - 68.04
 recoilAimVertical: 29.16 - 40.824
-movementSpeed: 3.3
-TTK: 0.404449 Seconds
+movementSpeed: 1.875
+TTK: 0.418968 Seconds
 
-[ Barrel: AWM, Magazine: MAC-10, Grip: PPSh-41, Stock: None, Core: B17 ]
-damage: 9.47782 - 5.25373
-dropoffStuds: 20.21 - 95.9975
-fireRate: 1483.5
-adsSpread: 0.373832
-hipfireSpread: 0.913811
-reloadTime: 2.3
-magazineSize: 30
-recoilHipVertical: 70.875 - 99.225
-recoilAimVertical: 42.525 - 59.535
-movementSpeed: 3.3
-TTK: 0.404449 Seconds
-
-[ Barrel: Car Muffler, Magazine: Maple Badger, Grip: The Chief, Stock: None, Core: B17 ]
-damage: 11.2841 - 6.15497
-dropoffStuds: 20 - 95
-fireRate: 1182
-adsSpread: 0.386764
-hipfireSpread: 0.945424
-reloadTime: 1.76
-magazineSize: 30
-health: -15
-recoilHipVertical: 49.41 - 69.174
-recoilAimVertical: 29.646 - 41.5044
-movementSpeed: 2
-TTK: 0.406091 Seconds
-
-[ Barrel: M1891, Magazine: Graphics Card, Grip: PPSh-41, Stock: None, Core: B17 ]
-damage: 9.24889 - 5.16256
-dropoffStuds: 20.24 - 96.14
-fireRate: 1470.6
-adsSpread: 0.373832
-hipfireSpread: 0.913811
-reloadTime: 8.28
-magazineSize: 50
-recoilHipVertical: 23.1 - 32.34
-recoilAimVertical: 13.86 - 19.404
-TTK: 0.407997 Seconds
-
-[ Barrel: Dragunov, Magazine: Graphics Card, Grip: PPSh-41, Stock: None, Core: B17 ]
-damage: 9.24889 - 5.26926
-dropoffStuds: 20.6724 - 98.1939
-fireRate: 1470.6
-adsSpread: 0.382753
-hipfireSpread: 0.935618
-reloadTime: 6.9
-magazineSize: 50
-recoilHipVertical: 28.644 - 40.1016
-recoilAimVertical: 17.1864 - 24.061
-TTK: 0.407997 Seconds
-
-[ Barrel: Car Muffler, Magazine: MP 40, Grip: Controller, Stock: None, Core: B17 ]
-damage: 11.2968 - 6.1619
-dropoffStuds: 20 - 95
-fireRate: 1174.2
-adsSpread: 0.375956
-hipfireSpread: 0.919003
-reloadTime: 2.75
-magazineSize: 32
-health: -15
-recoilHipVertical: 47.9826 - 67.1756
-recoilAimVertical: 28.7896 - 40.3054
-TTK: 0.408789 Seconds
+[ Barrel: M3 Grease Gun, Magazine: Mas-38, Grip: Infinity, Stock: None, Core: B17 ]
+damage: 9.47237 - 5.29174
+dropoffStuds: 20.5176 - 97.4586
+fireRate: 1431.75
+adsSpread: 0.399375
+hipfireSpread: 0.97625
+reloadTime: 2.996
+magazineSize: 37
+recoilHipVertical: 51.816 - 72.5424
+recoilAimVertical: 31.0896 - 43.5254
+movementSpeed: 2.625
+TTK: 0.419068 Seconds
 

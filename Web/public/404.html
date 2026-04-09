@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      console.log("Redirecting...");
+      const redirect =
+        window.location.pathname + // path
+        window.location.search + // specific query
+        window.location.hash; // section in the html
+
+      sessionStorage.setItem("redirect", redirect);
+      window.location.replace("/");
+    </script>
+  </head>
+</html>

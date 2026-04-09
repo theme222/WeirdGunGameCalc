@@ -16,24 +16,6 @@ CORESHEETGID = '911413911'
 
 OUTPUTFILE = Path('Data') / 'FullData.json'
 
-
-translatePropertyName_part = {
-    # These will get processed case by case (also will be uncaptilizing everything incase of issues)
-    # 'Reload_Time',
-    'reload': 'Reload_Speed',
-    'recoil': 'Recoil',
-    'magazine': 'Magazine_Size',
-    'fire rate': 'Fire_Rate',
-    'movement speed': 'Movement_Speed',
-    'health': 'Health',
-    'damage': 'Damage',
-    'spread': 'Spread',
-    'pellets': 'Pellets',
-    'detection radius': 'Detection_Radius',
-    'range': 'Range',
-    'equip time': 'Equip_Time'
-}
-
 validPartCategories = ['AR', 'Sniper', 'SMG', 'LMG', 'Shotgun', 'BR', 'Weird', 'Sidearm']
 validPartTypes = ['Barrels', 'Magazines', 'Grips', 'Stocks']
 validPriceTypes = ['Coin', 'WC', 'Follow', 'Robux', 'Free', 'Spin', 'Limited', 'Missions', 'Verify discord', 'Season Pass 1', 'Unknown'] # The calculator will only detect "Coin" "WC" "Robux". Anything else will be turned into "Special"
@@ -119,7 +101,7 @@ def DetectPriceType(price, row) -> str:
 def DownloadSheet():
 
     os.system(f'rm -f {SHEETFOLDER}/*')
-    os.system(f'wget -O {PARTSHEET} "https://docs.google.com/spreadsheets/d/{SHEETID}/export?format=csv&id={SHEETID}&gid={PARTSHEETGID}"')
+    # os.system(f'wget -O {PARTSHEET} "https://docs.google.com/spreadsheets/d/{SHEETID}/export?format=csv&id={SHEETID}&gid={PARTSHEETGID}"')
     os.system(f'wget -O {CORESHEET} "https://docs.google.com/spreadsheets/d/{SHEETID}/export?format=csv&id={SHEETID}&gid={CORESHEETGID}"')
     os.system(f'wget -O {PARTSHEET2} "https://docs.google.com/spreadsheets/d/{SHEETID}/export?format=csv&id={SHEETID}&gid={PARTSHEET2GID}"')
     
@@ -135,7 +117,7 @@ def ParsePartsv2(outputData):
     for row in data:
         try: 
             if len(row) == 0: continue
-            assert len(row) == 15, f"invalid row length {row} expected 15"
+            assert len(row) == 16, f"invalid row length {row} expected 16"
     
             name = row[1].strip()
             
@@ -162,7 +144,7 @@ def ParsePartsv2(outputData):
                 "Category": currentCategory,
             }
     
-            propertyList = [
+            propertyList = [ # Call it Magazine_Cap when adding it.
                 "Magazine_Size",
                 "Reload_Time",
                 "Damage",
@@ -170,6 +152,7 @@ def ParsePartsv2(outputData):
                 "Equip_Time",
                 "Fire_Rate",
                 "Health",
+                "Magazine_Cap",
                 "Movement_Speed",
                 "Pellets",
                 "Range",
@@ -178,7 +161,7 @@ def ParsePartsv2(outputData):
                 "Spread",
             ]
     
-            for i in range(2, 15):
+            for i in range(2, 16):
                 property = row[i].strip()
                 if property == '': continue
     
@@ -286,7 +269,7 @@ current_categories = {
 }
 
 current_penalties = [
-    [1.00, 0.70, 0.79, 0.75, 0.75, 1.00, 0.80, 0.65],
+    [1.00, 0.70, 0.75, 0.70, 0.75, 1.00, 0.80, 0.65],
     [0.70, 1.00, 0.60, 0.60, 0.80, 1.00, 0.85, 0.50],
     [0.80, 0.60, 1.00, 0.65, 0.65, 1.00, 0.70, 0.70],
     [0.70, 0.50, 0.65, 1.00, 0.75, 1.00, 0.60, 0.65],
@@ -318,8 +301,9 @@ def main():
     # ParseParts(outputData)
     ParsePartsv2(outputData)
     ParseCores(outputData)
-    SaveData(outputData)
-    Penalties() # so this can be ran in one file instead of two. (I don't think I'll be running FileFormatter anymore)
+    # Penalties()
+    fullData = {"Data": outputData, "Penalties": current_penalties, "Categories": current_categories}
+    SaveData(fullData)
     # Compare()
 
 

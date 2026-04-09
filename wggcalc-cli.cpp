@@ -7,133 +7,11 @@
 
 #include <fstream>
 #include <chrono>
+#include <cinttypes>
 
 #define chrono std::chrono
 using json = nlohmann::json;
 
-Core::Core(const json &jsonObject) : category(jsonObject["Category"]), name(jsonObject["Name"])
-{
-    category_fast = Fast::fastifyCategory[category];
-    if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
-    name_fast = Fast::fastifyName[name];
-    
-    if (jsonObject.contains("Price_Type")) 
-    {
-        if (jsonObject["Price_Type"] == "Coin" || jsonObject["Price_Type"] == "Free") // I had to pick something
-            priceType_fast = Fast::COIN;
-        else if (jsonObject["Price_Type"] == "WC")
-            priceType_fast = Fast::WC;
-        else if (jsonObject["Price_Type"] == "Robux")
-            priceType_fast = Fast::ROBUX;
-        else
-            priceType_fast = Fast::SPECIAL;
-    }
-
-    // Second damage stat will now be calculated using the falloff factor since range stat effects that
-    if (!jsonObject.contains("Damage"))
-        {}
-    else if (jsonObject["Damage"].is_array())
-        damage = jsonObject["Damage"][0];
-    else
-        damage = jsonObject["Damage"];
-
-    if (jsonObject.contains("Dropoff_Studs"))
-    {
-        dropoffStuds.first = jsonObject["Dropoff_Studs"][0];
-        dropoffStuds.second = jsonObject["Dropoff_Studs"][1];
-    }
-
-    if (jsonObject.contains("Falloff_Factor")) // Falloff_Factor is not a publicly available property so there only exists data from #update-log channel on discord
-        falloffFactor = jsonObject["Falloff_Factor"];
-    else if (jsonObject.contains("Damage") && jsonObject["Damage"].is_array())
-        falloffFactor = ((float)jsonObject["Damage"][1] - (float)jsonObject["Damage"][0]) / (float)jsonObject["Damage"][0];
-
-    if (jsonObject.contains("Fire_Rate"))
-        fireRate = jsonObject["Fire_Rate"];
-    if (jsonObject.contains("Hipfire_Spread"))
-        hipfireSpread = jsonObject["Hipfire_Spread"];
-    if (jsonObject.contains("ADS_Spread"))
-        adsSpread = jsonObject["ADS_Spread"];
-    if (jsonObject.contains("Time_To_Aim"))
-        timeToAim = jsonObject["Time_To_Aim"];
-    if (jsonObject.contains("Movement_Speed_Modifier"))
-        movementSpeedModifier = jsonObject["Movement_Speed_Modifier"];
-    if (jsonObject.contains("Pellets"))
-        pellets = jsonObject["Pellets"];
-    if (jsonObject.contains("Burst"))
-        burst = jsonObject["Burst"];
-    if (jsonObject.contains("Detection_Radius"))
-        detectionRadius = jsonObject["Detection_Radius"];
-    if (jsonObject.contains("Health"))
-        health = jsonObject["Health"];
-
-    if (jsonObject.contains("Recoil_Hip_Horizontal"))
-    {
-        recoilHipHorizontal.first = jsonObject["Recoil_Hip_Horizontal"][0];
-        recoilHipHorizontal.second = jsonObject["Recoil_Hip_Horizontal"][1];
-    }
-    if (jsonObject.contains("Recoil_Hip_Vertical"))
-    {
-        recoilHipVertical.first = jsonObject["Recoil_Hip_Vertical"][0];
-        recoilHipVertical.second = jsonObject["Recoil_Hip_Vertical"][1];
-    }
-    if (jsonObject.contains("Recoil_Aim_Horizontal"))
-    {
-        recoilAimHorizontal.first = jsonObject["Recoil_Aim_Horizontal"][0];
-        recoilAimHorizontal.second = jsonObject["Recoil_Aim_Horizontal"][1];
-    }
-    if (jsonObject.contains("Recoil_Aim_Vertical"))
-    {
-        recoilAimVertical.first = jsonObject["Recoil_Aim_Vertical"][0];
-        recoilAimVertical.second = jsonObject["Recoil_Aim_Vertical"][1];
-    }
-
-}
-
-Part::Part(const json &jsonObject): category(jsonObject["Category"]), name(jsonObject["Name"])
-{
-    category_fast = Fast::fastifyCategory[category];
-    if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
-    name_fast = Fast::fastifyName[name];
-
-    
-    if (jsonObject.contains("Price_Type")) 
-    {
-        if (jsonObject["Price_Type"] == "Coin")
-            priceType_fast = Fast::COIN;
-        else if (jsonObject["Price_Type"] == "WC")
-            priceType_fast = Fast::WC;
-        else if (jsonObject["Price_Type"] == "Robux")
-            priceType_fast = Fast::ROBUX;
-        else
-            priceType_fast = Fast::SPECIAL;
-    }
-    
-    if (jsonObject.contains("Damage"))
-        damage = jsonObject["Damage"];
-    if (jsonObject.contains("Fire_Rate"))
-        fireRate = jsonObject["Fire_Rate"];
-    if (jsonObject.contains("Spread"))
-        spread = jsonObject["Spread"];
-    if (jsonObject.contains("Recoil"))
-        recoil = jsonObject["Recoil"];
-    if (jsonObject.contains("Pellets"))
-        pellets = jsonObject["Pellets"];
-    if (jsonObject.contains("Movement_Speed"))
-        movementSpeed = jsonObject["Movement_Speed"];
-    if (jsonObject.contains("Reload_Speed"))
-        reloadSpeed = jsonObject["Reload_Speed"];
-    if (jsonObject.contains("Health"))
-        health = jsonObject["Health"];
-    if (jsonObject.contains("Detection_Radius"))
-        detectionRadius = jsonObject["Detection_Radius"];
-    if (jsonObject.contains("Range"))
-        range = jsonObject["Range"];
-}
-
-/*
-TTK DAMAGE DAMAGEEND FIRERATE PELLETS SPREADAIM SPREADHIP RECOILAIM RECOILHIP HEALTH RANGE RANGEEND DETECTIONRADIUS TIMETOAIM BURST SPEED MAGAZINE RELOAD DPS
- */
 
 int main(int argc, char* argv[])
 {
@@ -223,6 +101,9 @@ int main(int argc, char* argv[])
     app.add_option("--timeToAim", Input::timeToAimRange, "Time to aim range to filter")->group(GROUP_FILTERS);
     app.add_option("--timeToAimMin", Input::timeToAimRange.first)->group(GROUP_FILTERS);
     app.add_option("--timeToAimMax", Input::timeToAimRange.second)->group(GROUP_FILTERS);
+    app.add_option("--equipTime", Input::equipTimeRange, "Equip time range to filter")->group(GROUP_FILTERS);
+    app.add_option("--equipTimeMin", Input::equipTimeRange.first)->group(GROUP_FILTERS);
+    app.add_option("--equipTimeMax", Input::equipTimeRange.second)->group(GROUP_FILTERS);
     app.add_option("--reload", Input::reloadRange, "Reload time to filter")->group(GROUP_FILTERS);
     app.add_option("--reloadMin", Input::reloadRange.first)->group(GROUP_FILTERS);
     app.add_option("--reloadMax", Input::reloadRange.second)->group(GROUP_FILTERS);
@@ -255,64 +136,63 @@ int main(int argc, char* argv[])
 
     // The operator overloads go c++azy (Python actually has this with Pathlib but we don't talk about that)
     std::filesystem::path fullDataPath = Input::fileDir / "FullData.json";
-    std::filesystem::path penaltiesPath = Input::fileDir / "Penalties.json";
-    std::filesystem::path categoriesPath = Input::fileDir / "Categories.json";
 
-    if (!std::filesystem::exists(fullDataPath) || !std::filesystem::exists(penaltiesPath) || !std::filesystem::exists(categoriesPath))
+    if (!std::filesystem::exists(fullDataPath))
     {
-        std::cerr << "Files " << fullDataPath << ", " << penaltiesPath << ", and " << categoriesPath << " are required but don't exist (Did you install this in the correct folder?)\n";
+        std::cerr << "Files " << fullDataPath << " is required but don't exist (Did you install this in the correct folder?)\n";
         throw std::invalid_argument("Required files not found");
     }
 
     if (Input::testInstall)
         std::cout << "Attempting to load database...\n";
 
-    std::cout << "Loading from json files " << fullDataPath << ", " << penaltiesPath << ", and " << categoriesPath << "\n";
+    std::cout << "Loading from json file " << fullDataPath << "\n";
 
-    std::ifstream Categories(categoriesPath);
-    json categories = json::parse(Categories);
+    std::ifstream FullData(fullDataPath);
+    json fullDataJSON = json::parse(FullData);
+    
+    json &categoriesJSON = fullDataJSON["Categories"];
+    json &dataJSON = fullDataJSON["Data"];
+    json &penaltiesJSON = fullDataJSON["Penalties"];
 
-    for (auto &[key, value] : categories["Primary"].items())
+    for (auto &[key, value] : categoriesJSON["Primary"].items())
         Fast::fastifyCategory[key] = value;
 
-    for (auto &[key, value] : categories["Secondary"].items())
+    for (auto &[key, value] : categoriesJSON["Secondary"].items())
         Fast::fastifyCategory[key] = value;
 
     Fast::categoryCount = Fast::fastifyCategory.size();
-    Fast::primaryCategoryCount = categories["Primary"].size();
-    Fast::secondaryCategoryCount = categories["Secondary"].size();
+    Fast::primaryCategoryCount = categoriesJSON["Primary"].size();
+    Fast::secondaryCategoryCount = categoriesJSON["Secondary"].size();
 
-    std::ifstream FullData(fullDataPath);
-    json data = json::parse(FullData);
-
-    Data::barrelCount = data["Barrels"].size();
+    Data::barrelCount = dataJSON["Barrels"].size();
     Data::barrelList.reserve(Data::barrelCount + 1);
 
-    for (json &element : data["Barrels"])
+    for (json &element : dataJSON["Barrels"])
         Data::barrelList.push_back(element);
 
-    Data::magazineCount = data["Magazines"].size();
+    Data::magazineCount = dataJSON["Magazines"].size();
     Data::magazineList.reserve(Data::magazineCount + 1);
 
-    for (json &element : data["Magazines"])
+    for (json &element : dataJSON["Magazines"])
         Data::magazineList.push_back(element);
 
-    Data::gripCount = data["Grips"].size();
+    Data::gripCount = dataJSON["Grips"].size();
     Data::gripList.reserve(Data::gripCount + 1);
 
-    for (json &element : data["Grips"])
+    for (json &element : dataJSON["Grips"])
         Data::gripList.push_back(element);
 
-    Data::stockCount = data["Stocks"].size();
+    Data::stockCount = dataJSON["Stocks"].size();
     Data::stockList.reserve(Data::stockCount + 1);
 
-    for (json &element : data["Stocks"])
+    for (json &element : dataJSON["Stocks"])
         Data::stockList.push_back(element);
 
-    Data::coreCount = data["Cores"].size();
+    Data::coreCount = dataJSON["Cores"].size();
     Data::coreList.reserve(Data::coreCount + 1);
 
-    for (json &element : data["Cores"])
+    for (json &element : dataJSON["Cores"])
         Data::coreList.push_back(element);
 
     // Add the "None" part for help with secondaries. The +1 to reserve is for "None" part
@@ -323,16 +203,13 @@ int main(int argc, char* argv[])
     Data::gripList.push_back(Part::ToNone(Grip()));
     Data::stockList.push_back(Part::ToNone(Stock()));
 
-    std::ifstream Penalties(penaltiesPath);
-    json penalties = json::parse(Penalties);
-
     Fast::penalties.resize(Fast::categoryCount);
     for (int i = 0; i < Fast::categoryCount; i++)
         Fast::penalties[i].resize(Fast::categoryCount);
 
     for (int i = 0; i < Fast::categoryCount; i++)
         for (int j = 0; j < Fast::categoryCount; j++)
-            Fast::penalties[i][j] = penalties[i][j];
+            Fast::penalties[i][j] = penaltiesJSON[i][j];
 
     if (Input::testInstall)
     {
@@ -347,6 +224,7 @@ int main(int argc, char* argv[])
     Fast::InitializeCategoriesFBParts();
     Fast::InitializeClampQuadratic();
     Filter::InitializeMultFlag();
+    // Data::Heuristic::SortPartListsWithHeuristic(); // Yea I can't seem to get this to work. I think my logic is wrong or something... 
     DynamicPrune::HighLow::InitializeBestPossible();
     DynamicPrune::HighLow::InitializeHighestAndLowestMultParts();
     DynamicPrune::InitializeThreshold();
@@ -358,9 +236,9 @@ int main(int argc, char* argv[])
     std::cout << "Sorting " << Input::sortType << " by: " << (PQ::sortPriority ? "HIGHEST": "LOWEST") << '\n';
 
     totalCombinations = Data::barrelCount * Data::magazineCount * Data::gripCount * Data::stockCount * Data::coreCount;
-    printf("Barrels detected: %lu, Magazines detected: %lu, Grips detected: %lu, Stocks detected: %lu, Cores detected: %lu\n", Data::barrelCount, Data::magazineCount, Data::gripCount, Data::stockCount, Data::coreCount);
-    printf("Total of %lu possibilities \n", totalCombinations);
-    printf("Starting %s with %lu threads\n", Input::method.c_str(), Input::threadsToMake);
+    printf("Barrels detected: %" PRIu64  ", Magazines detected: %" PRIu64 ", Grips detected: %" PRIu64 ", Stocks detected: %" PRIu64 ", Cores detected: %" PRIu64 " \n", Data::barrelCount, Data::magazineCount, Data::gripCount, Data::stockCount, Data::coreCount);
+    printf("Total of %" PRIu64 " possibilities \n", totalCombinations);
+    printf("Starting %s with %" PRIu64 " threads\n", Input::method.c_str(), Input::threadsToMake);
 
     auto start = chrono::steady_clock::now();
 
@@ -407,7 +285,7 @@ int main(int argc, char* argv[])
     uint64_t totalValidGuns = 0;
     for (int i = 0; i < Input::threadsToMake; i++)
         totalValidGuns += validGunInThread[i];
-    printf("Total valid gun combinations based on filters: %lu / %lu\n", totalValidGuns, Data::coreCount * Data::magazineCount * Data::barrelCount * Data::gripCount * Data::stockCount);
+    printf("Total valid gun combinations based on filters: %" PRIu64 " / %" PRIu64 "\n", totalValidGuns, Data::coreCount * Data::magazineCount * Data::barrelCount * Data::gripCount * Data::stockCount);
 
     PQ::topGuns = PQ::AllSortPQ();
 

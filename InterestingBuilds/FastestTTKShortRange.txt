@@ -1,135 +1,133 @@
-./wggcalc -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
+./wggcalc -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --reloadMax 2.5 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
-[ Barrel: Mustard, Magazine: Mega Soaker, Grip: Arisaka, Stock: Roto-Fire, Core: MG42 ]
-damage: 12.5337 - 6.93862
-dropoffStuds: 128.31 - 278.005
-fireRate: 1937.7
-adsSpread: 0.991481
-hipfireSpread: 9.91481
-reloadTime: 5.4
-magazineSize: 60
-health: 7
-recoilHipVertical: 44.52 - 63.84
-recoilAimVertical: 22.26 - 31.92
-movementSpeed: 1.4
-TTK: 0.216752 Seconds
-
-[ Barrel: Kriss Vector, Magazine: NP5, Grip: P90, Stock: Fedorov, Core: PPSh-41 ]
-damage: 12.7474 - 6.52157
-dropoffStuds: 100.125 - 112.14
-fireRate: 1936.19
-adsSpread: 0.95425
-hipfireSpread: 4.36229
-reloadTime: 2.14
-magazineSize: 30
-recoilHipVertical: 18.9957 - 37.9914
-recoilAimVertical: 15.1966 - 30.3931
-movementSpeed: 6.9
-TTK: 0.216921 Seconds
-
-[ Barrel: Kriss Vector, Magazine: NP5, Grip: M1887, Stock: Fedorov, Core: PPSh-41 ]
-damage: 12.7474 - 6.52157
-dropoffStuds: 100.125 - 112.14
-fireRate: 1927.14
-adsSpread: 0.979697
-hipfireSpread: 4.47861
-reloadTime: 2.0009
-magazineSize: 30
-health: 3.25
-recoilHipVertical: 21.3435 - 42.687
-recoilAimVertical: 17.0748 - 34.1496
-movementSpeed: 1.4
-TTK: 0.217939 Seconds
-
-[ Barrel: Kriss Vector, Magazine: Graphics Card, Grip: MG42, Stock: Spas-12, Core: PPSh-41 ]
-damage: 12.7474 - 6.56868
-dropoffStuds: 101.43 - 113.602
-fireRate: 1914.12
-adsSpread: 0.919777
-hipfireSpread: 4.20469
-reloadTime: 6
-magazineSize: 50
-recoilHipVertical: 20.224 - 40.4481
-recoilAimVertical: 16.1792 - 32.3585
-movementSpeed: 0.0999999
-TTK: 0.219422 Seconds
-
-[ Barrel: Kriss Vector, Magazine: NP5, Grip: M1 Garand, Stock: Fedorov, Core: PPSh-41 ]
-damage: 12.7474 - 6.52157
-dropoffStuds: 100.125 - 112.14
-fireRate: 1910.86
-adsSpread: 0.852463
-hipfireSpread: 3.89697
-reloadTime: 2.14
-magazineSize: 30
-recoilHipVertical: 21.3435 - 42.687
-recoilAimVertical: 17.0748 - 34.1496
-movementSpeed: 3.9
-TTK: 0.219797 Seconds
-
-[ Barrel: APS, Magazine: MP18, Grip: Circuit Judge, Stock: M110, Core: Bicycle ]
-damage: 50.3445 - 13.4291
-dropoffStuds: 118.3 - 162.662
-fireRate: 272.825
-adsSpread: 0.662956
-hipfireSpread: 11.6017
-reloadTime: 2.42
-magazineSize: 32
-recoilHipVertical: 40.992 - 56.364
-recoilAimVertical: 24.5952 - 33.8184
-TTK: 0.219921 Seconds
-
-[ Barrel: M870 MCS, Magazine: Mega Soaker, Grip: M1891, Stock: Pancake Hammer, Core: MG42 ]
-damage: 14.5574 - 7.66901
-dropoffStuds: 120.611 - 261.325
-fireRate: 1636.85
-adsSpread: 0.945817
-hipfireSpread: 9.45817
-reloadTime: 6.831
-magazineSize: 60
-health: 13
-recoilHipVertical: 44.52 - 63.84
-recoilAimVertical: 22.26 - 31.92
-movementSpeed: 0.2
-TTK: 0.219935 Seconds
-
-[ Barrel: Kriss Vector, Magazine: Graphics Card, Grip: P90, Stock: P90, Core: PPSh-41 ]
-damage: 12.7474 - 6.68983
+[ Barrel: Uzi, Magazine: Type 2a Nambu, Grip: P90, Stock: AR-8X, Core: PPSh-41 ]
+damage: 14.7 - 7.71456
 dropoffStuds: 103.5 - 115.92
-fireRate: 1902.89
-adsSpread: 0.894297
-hipfireSpread: 4.08822
-reloadTime: 6
-magazineSize: 50
-recoilHipVertical: 19.5722 - 39.1443
-recoilAimVertical: 15.6577 - 31.3155
-movementSpeed: 8.6
-TTK: 0.220717 Seconds
-
-[ Barrel: Kriss Vector, Magazine: Type 2a Nambu, Grip: P90, Stock: P90, Core: PPSh-41 ]
-damage: 12.7474 - 6.57766
-dropoffStuds: 101.25 - 113.4
-fireRate: 1902.89
-adsSpread: 0.894297
-hipfireSpread: 4.08822
+fireRate: 1755.05
+adsSpread: 0.94962
+hipfireSpread: 4.34112
 reloadTime: 2.5
 magazineSize: 30
-recoilHipVertical: 19.318 - 38.636
-recoilAimVertical: 15.4544 - 30.9088
-movementSpeed: 11.6
-TTK: 0.220717 Seconds
+recoilHipVertical: 20.292 - 40.584
+recoilAimVertical: 16.2336 - 32.4672
+movementSpeed: 7.3
+TTK: 0.205123 Seconds
 
-[ Barrel: Uzi, Magazine: Graphics Card, Grip: M1891, Stock: FG-42, Core: MG42 ]
-damage: 14.3198 - 7.86649
-dropoffStuds: 126.96 - 275.08
-fireRate: 1630.33
-adsSpread: 0.961713
-hipfireSpread: 9.61713
-reloadTime: 6.9
-magazineSize: 50
-health: 13
-recoilHipVertical: 46.1153 - 66.1276
-recoilAimVertical: 23.0576 - 33.0638
-movementSpeed: 0.85
-TTK: 0.220814 Seconds
+[ Barrel: Uzi, Magazine: Type 2a Nambu, Grip: P90, Stock: MAC-10, Core: PPSh-41 ]
+damage: 14.7 - 7.71456
+dropoffStuds: 103.5 - 115.92
+fireRate: 1736.77
+adsSpread: 0.96628
+hipfireSpread: 4.41728
+reloadTime: 2.5
+magazineSize: 30
+recoilHipVertical: 20.292 - 40.584
+recoilAimVertical: 16.2336 - 32.4672
+movementSpeed: 13.9
+TTK: 0.207282 Seconds
+
+[ Barrel: Uzi, Magazine: Type 2a Nambu, Grip: P90, Stock: Plunger, Core: PPSh-41 ]
+damage: 14.7 - 7.57485
+dropoffStuds: 101.43 - 113.602
+fireRate: 1728.46
+adsSpread: 0.833
+hipfireSpread: 3.808
+reloadTime: 2.5
+magazineSize: 30
+recoilHipVertical: 20.292 - 40.584
+recoilAimVertical: 16.2336 - 32.4672
+movementSpeed: 7.3
+TTK: 0.208278 Seconds
+
+[ Barrel: Uzi, Magazine: Type 2a Nambu, Grip: P90, Stock: Circuit Judge, Core: PPSh-41 ]
+damage: 14.7 - 7.71456
+dropoffStuds: 103.5 - 115.92
+fireRate: 1713.83
+adsSpread: 0.95795
+hipfireSpread: 4.3792
+reloadTime: 2.06125
+magazineSize: 30
+recoilHipVertical: 20.292 - 40.584
+recoilAimVertical: 16.2336 - 32.4672
+movementSpeed: 9.3
+TTK: 0.210056 Seconds
+
+[ Barrel: Kriss Vector, Magazine: Type 2a Nambu, Grip: Type 2a Nambu, Stock: VSSR, Core: PPSh-41 ]
+damage: 14.3948 - 7.38617
+dropoffStuds: 100.188 - 112.211
+fireRate: 1710
+adsSpread: 0.98
+hipfireSpread: 4.48
+reloadTime: 2.5
+magazineSize: 30
+health: -7.5
+recoilHipVertical: 19.5467 - 39.0933
+recoilAimVertical: 15.6373 - 31.2747
+movementSpeed: 6.6
+TTK: 0.210526 Seconds
+
+[ Barrel: Uzi, Magazine: Type 2a Nambu, Grip: Kriss Vector, Stock: AR-8X, Core: PPSh-41 ]
+damage: 14.7 - 7.71456
+dropoffStuds: 103.5 - 115.92
+fireRate: 1705.84
+adsSpread: 0.915705
+hipfireSpread: 4.18608
+reloadTime: 2.5
+magazineSize: 30
+recoilHipVertical: 20.064 - 40.128
+recoilAimVertical: 16.0512 - 32.1024
+movementSpeed: 11.8
+TTK: 0.21104 Seconds
+
+[ Barrel: Uzi, Magazine: Type 2a Nambu, Grip: P90, Stock: Maple Badger, Core: PPSh-41 ]
+damage: 14.7 - 7.71456
+dropoffStuds: 103.5 - 115.92
+fireRate: 1695.22
+adsSpread: 0.94129
+hipfireSpread: 4.30304
+reloadTime: 2.5
+magazineSize: 30
+recoilHipVertical: 20.292 - 40.584
+recoilAimVertical: 16.2336 - 32.4672
+movementSpeed: 13.8
+TTK: 0.212362 Seconds
+
+[ Barrel: Uzi, Magazine: Type 2a Nambu, Grip: Auto-5, Stock: AR-8X, Core: PPSh-41 ]
+damage: 14.3325 - 7.52169
+dropoffStuds: 103.5 - 115.92
+fireRate: 1693.54
+adsSpread: 0.737651
+hipfireSpread: 3.37212
+reloadTime: 2.5
+magazineSize: 30
+recoilHipVertical: 21.318 - 42.636
+recoilAimVertical: 17.0544 - 34.1088
+movementSpeed: 7.3
+TTK: 0.212573 Seconds
+
+[ Barrel: Uzi, Magazine: Type 2a Nambu, Grip: Kriss Vector, Stock: MAC-10, Core: PPSh-41 ]
+damage: 14.7 - 7.71456
+dropoffStuds: 103.5 - 115.92
+fireRate: 1688.07
+adsSpread: 0.93177
+hipfireSpread: 4.25952
+reloadTime: 2.5
+magazineSize: 30
+recoilHipVertical: 20.064 - 40.128
+recoilAimVertical: 16.0512 - 32.1024
+movementSpeed: 18.4
+TTK: 0.213261 Seconds
+
+[ Barrel: Spray Can, Magazine: Type 2a Nambu, Grip: P90, Stock: USA180, Core: PPSh-41 ]
+damage: 12.6336 - 6.46335
+dropoffStuds: 100.125 - 112.14
+fireRate: 1966.93
+adsSpread: 0.98
+hipfireSpread: 4.48
+reloadTime: 2.5
+magazineSize: 30
+recoilHipVertical: 20.292 - 40.584
+recoilAimVertical: 16.2336 - 32.4672
+movementSpeed: 11.8
+TTK: 0.213531 Seconds
 

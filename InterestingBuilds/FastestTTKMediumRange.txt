@@ -1,131 +1,142 @@
 ./wggcalc -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.6 --recoilAimMax 30 --rangeMin 200 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
-[ Barrel: SMO3, Magazine: Burton, Grip: PPSh-41, Stock: Fedorov, Core: Bicycle ]
-damage: 33.6582 - 16.8861
-dropoffStuds: 200 - 275
-fireRate: 444.435
-adsSpread: 0.435437
-hipfireSpread: 7.62014
-reloadTime: 4.78049
-magazineSize: 40
-recoilHipVertical: 36 - 49.5
-recoilAimVertical: 21.6 - 29.7
+[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: Lewis, Stock: Speed Coil, Core: Burton ]
+damage: 20.2592 - 15.408
+dropoffStuds: 201.6 - 431.2
+fireRate: 954.518
+adsSpread: 0.440855
+hipfireSpread: 13.2257
+reloadTime: 6.897
+magazineSize: 76
+health: -17.5
+recoilHipVertical: 43.2 - 47.52
+recoilAimVertical: 15.12 - 16.416
+movementSpeed: 1.5
+TTK: 0.251436 Seconds
+
+[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: M1891, Stock: Speed Coil, Core: Burton ]
+damage: 20.2592 - 15.408
+dropoffStuds: 201.6 - 431.2
+fireRate: 896.417
+adsSpread: 0.502729
+hipfireSpread: 15.0819
+reloadTime: 7.93155
+magazineSize: 76
+health: -17.5
+recoilHipVertical: 30 - 33
+recoilAimVertical: 10.5 - 11.4
+movementSpeed: 10.7
+TTK: 0.267732 Seconds
+
+[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: Negev, Stock: Speed Coil, Core: Burton ]
+damage: 20.2592 - 15.408
+dropoffStuds: 201.6 - 431.2
+fireRate: 896.417
+adsSpread: 0.406051
+hipfireSpread: 12.1815
+reloadTime: 6.897
+magazineSize: 76
+health: -17.5
+recoilHipVertical: 34.5 - 37.95
+recoilAimVertical: 12.075 - 13.11
+movementSpeed: 5
+TTK: 0.267732 Seconds
+
+[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: M1887, Stock: Speed Coil, Core: Burton ]
+damage: 20.2592 - 15.408
+dropoffStuds: 201.6 - 431.2
+fireRate: 892.267
+adsSpread: 0.444722
+hipfireSpread: 13.3417
+reloadTime: 6.37973
+magazineSize: 76
+health: -13.75
+recoilHipVertical: 30 - 33
+recoilAimVertical: 10.5 - 11.4
+movementSpeed: 2
+TTK: 0.268978 Seconds
+
+[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: M1897 Trench Shotgun, Stock: Speed Coil, Core: Burton ]
+damage: 20.2592 - 15.408
+dropoffStuds: 201.6 - 431.2
+fireRate: 892.267
+adsSpread: 0.464058
+hipfireSpread: 13.9217
+reloadTime: 7.24185
+magazineSize: 76
+health: -17.5
+recoilHipVertical: 30 - 33
+recoilAimVertical: 10.5 - 11.4
+movementSpeed: 7.5
+TTK: 0.268978 Seconds
+
+[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: M1 Garand, Stock: Speed Coil, Core: Burton ]
+damage: 20.2592 - 15.408
+dropoffStuds: 201.6 - 431.2
+fireRate: 886.457
+adsSpread: 0.386715
+hipfireSpread: 11.6014
+reloadTime: 6.897
+magazineSize: 76
+health: -17.5
+recoilHipVertical: 30 - 33
+recoilAimVertical: 10.5 - 11.4
+movementSpeed: 4.5
+TTK: 0.270741 Seconds
+
+[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: PPSh-41, Stock: Speed Coil, Core: Burton ]
+damage: 20.2592 - 15.408
+dropoffStuds: 201.6 - 431.2
+fireRate: 870.479
+adsSpread: 0.361579
+hipfireSpread: 10.8474
+reloadTime: 7.93155
+magazineSize: 76
+health: -17.5
+recoilHipVertical: 30 - 33
+recoilAimVertical: 10.5 - 11.4
+movementSpeed: 7.5
+TTK: 0.27571 Seconds
+
+[ Barrel: Burton, Magazine: DP-27, Grip: Snake Sniper, Stock: Speed Coil, Core: M1919 .30 Cal ]
+damage: 25.2588 - 19.0775
+dropoffStuds: 215.46 - 430.92
+fireRate: 652.08
+adsSpread: 0.5656
+hipfireSpread: 10.1808
+reloadTime: 3.672
+magazineSize: 36
+health: 10
+recoilHipVertical: 29.2191 - 36.5239
+recoilAimVertical: 14.6095 - 18.2619
+movementSpeed: 6.5
+TTK: 0.27604 Seconds
+
+[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: P90, Stock: Speed Coil, Core: Burton ]
+damage: 20.2592 - 15.408
+dropoffStuds: 201.6 - 431.2
+fireRate: 867.782
+adsSpread: 0.433121
+hipfireSpread: 12.9936
+reloadTime: 6.897
+magazineSize: 76
+health: -17.5
+recoilHipVertical: 27.855 - 30.6405
+recoilAimVertical: 9.74925 - 10.5849
+movementSpeed: 7.5
+TTK: 0.276567 Seconds
+
+[ Barrel: M1917 WC, Magazine: DP-27, Grip: Musket, Stock: Speed Coil, Core: Burton ]
+damage: 16.7087 - 12.7782
+dropoffStuds: 206.01 - 440.633
+fireRate: 1081.77
+adsSpread: 0.2646
+hipfireSpread: 7.938
+reloadTime: 4.554
+magazineSize: 36
+health: 7.5
+recoilHipVertical: 5.376 - 5.9136
+recoilAimVertical: 1.8816 - 2.04288
 movementSpeed: 0.5
-TTK: 0.270006 Seconds
-
-[ Barrel: SMO3, Magazine: Paintball, Grip: PPSh-41, Stock: Fedorov, Core: Bicycle ]
-damage: 34.0016 - 17.0584
-dropoffStuds: 200 - 275
-fireRate: 444.435
-adsSpread: 0.435437
-hipfireSpread: 7.62014
-reloadTime: 8.4683
-magazineSize: 70
-recoilHipVertical: 36 - 49.5
-recoilAimVertical: 21.6 - 29.7
-movementSpeed: 0.5
-TTK: 0.270006 Seconds
-
-[ Barrel: SMO3, Magazine: Burton, Grip: M1897 Trench Shotgun, Stock: Fedorov, Core: Bicycle ]
-damage: 33.6582 - 16.8861
-dropoffStuds: 200 - 275
-fireRate: 444.435
-adsSpread: 0.57978
-hipfireSpread: 10.1462
-reloadTime: 4.3648
-magazineSize: 40
-recoilHipVertical: 36 - 49.5
-recoilAimVertical: 21.6 - 29.7
-movementSpeed: 0.5
-TTK: 0.270006 Seconds
-
-[ Barrel: SMO3, Magazine: Paintball, Grip: M1897 Trench Shotgun, Stock: Fedorov, Core: Bicycle ]
-damage: 34.0016 - 17.0584
-dropoffStuds: 200 - 275
-fireRate: 444.435
-adsSpread: 0.57978
-hipfireSpread: 10.1462
-reloadTime: 7.73193
-magazineSize: 70
-recoilHipVertical: 36 - 49.5
-recoilAimVertical: 21.6 - 29.7
-movementSpeed: 0.5
-TTK: 0.270006 Seconds
-
-[ Barrel: FC200SH, Magazine: Type 2a Nambu, Grip: M1897 Trench Shotgun, Stock: Spas-12, Core: Bicycle ]
-damage: 33.6141 - 17.4516
-dropoffStuds: 201.096 - 276.507
-fireRate: 443.735
-adsSpread: 0.550425
-hipfireSpread: 9.63243
-reloadTime: 2.835
-magazineSize: 30
-recoilHipVertical: 30.4 - 41.8
-recoilAimVertical: 18.24 - 25.08
-TTK: 0.270431 Seconds
-
-[ Barrel: FC200SH, Magazine: Type 2a Nambu, Grip: M1891, Stock: Spas-12, Core: Bicycle ]
-damage: 33.6141 - 17.4516
-dropoffStuds: 201.096 - 276.507
-fireRate: 443.735
-adsSpread: 0.596103
-hipfireSpread: 10.4318
-reloadTime: 3.105
-magazineSize: 30
-recoilHipVertical: 30.4 - 41.8
-recoilAimVertical: 18.24 - 25.08
-movementSpeed: 4
-TTK: 0.270431 Seconds
-
-[ Barrel: FC200SH, Magazine: Type 2a Nambu, Grip: PPSh-41, Stock: Spas-12, Core: Bicycle ]
-damage: 33.6141 - 17.4516
-dropoffStuds: 201.096 - 276.507
-fireRate: 443.735
-adsSpread: 0.413389
-hipfireSpread: 7.23431
-reloadTime: 3.105
-magazineSize: 30
-recoilHipVertical: 30.4 - 41.8
-recoilAimVertical: 18.24 - 25.08
-TTK: 0.270431 Seconds
-
-[ Barrel: FC200SH, Magazine: Graphics Card, Grip: M1891, Stock: Spas-12, Core: Bicycle ]
-damage: 33.6141 - 17.7455
-dropoffStuds: 205.565 - 282.652
-fireRate: 443.735
-adsSpread: 0.596103
-hipfireSpread: 10.4318
-reloadTime: 7.452
-magazineSize: 50
-recoilHipVertical: 30.8 - 42.35
-recoilAimVertical: 18.48 - 25.41
-movementSpeed: 1
-TTK: 0.270431 Seconds
-
-[ Barrel: Snake Sniper, Magazine: P90, Grip: PPSh-41, Stock: Tommy, Core: Bicycle ]
-damage: 33.5305 - 17.6575
-dropoffStuds: 210 - 288.75
-fireRate: 435.072
-adsSpread: 0.563585
-hipfireSpread: 9.86273
-reloadTime: 5.1681
-magazineSize: 50
-health: -5
-recoilHipVertical: 33.88 - 46.585
-recoilAimVertical: 20.328 - 27.951
-movementSpeed: 0.3
-TTK: 0.275816 Seconds
-
-[ Barrel: SMO3, Magazine: Paintball, Grip: P90, Stock: Fedorov, Core: Bicycle ]
-damage: 34.0016 - 17.0584
-dropoffStuds: 200 - 275
-fireRate: 432.314
-adsSpread: 0.541289
-hipfireSpread: 9.47255
-reloadTime: 7.36374
-magazineSize: 70
-recoilHipVertical: 32.04 - 44.055
-recoilAimVertical: 19.224 - 26.433
-movementSpeed: 0.5
-TTK: 0.277576 Seconds
+TTK: 0.277324 Seconds
 

@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: dark --default;
+}
+
+body {
+  font-family: 'Nunito', ui-rounded, sans-serif;
+}

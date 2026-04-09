@@ -204,7 +204,8 @@ TODO.*
 wggcalc
 wggcalc.exe
 NormalCompile.sh
-*Result*
+Result*
+!Web/**/Result*
 
-Web
 WasmCompile.sh
+.zed

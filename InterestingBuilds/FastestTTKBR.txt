@@ -1,142 +1,142 @@
 ./wggcalc -o InterestingBuilds/FastestTTKBR.txt -i BR --speedMin -10 --spreadAimMax 0.6 --recoilAimMax 7.5 --magazineMin 20 --rangeMin 150 --pelletMax 1 
 Current top 10 guns are: 
-[ Barrel: Roto-Fire, Magazine: Scar H, Grip: VSSR, Stock: Dragunov, Core: SKS ]
-damage: 50.2655 - 33.2029
-dropoffStuds: 151.156 - 465.094
-fireRate: 351.975
-adsSpread: 0.192991
-hipfireSpread: 3.85982
-reloadTime: 4.95
-magazineSize: 20
-health: 5
-recoilHipVertical: 12.665 - 13.9315
-recoilAimVertical: 6.3325 - 6.96575
-movementSpeed: -8.5
-TTK: 0.170467 Seconds
+[ Barrel: M1917 WC, Magazine: Fedorov, Grip: Scar L, Stock: Speed Coil, Core: SKS ]
+damage: 35.696 - 23.6966
+dropoffStuds: 152.54 - 469.354
+fireRate: 611.325
+adsSpread: 0.32025
+hipfireSpread: 6.405
+reloadTime: 3.45
+magazineSize: 21
+health: 16.25
+recoilHipVertical: 9.80064 - 10.7807
+recoilAimVertical: 4.90032 - 5.39035
+movementSpeed: -5
+TTK: 0.196295 Seconds
 
-[ Barrel: VSSR, Magazine: Scar H, Grip: Musket, Stock: Dragunov, Core: SKS ]
-damage: 51.0357 - 34.7603
-dropoffStuds: 159.999 - 492.305
-fireRate: 337.535
-adsSpread: 0.286662
-hipfireSpread: 5.73325
-reloadTime: 5.9895
-magazineSize: 20
-health: 5
-recoilHipVertical: 12.954 - 14.2494
-recoilAimVertical: 6.477 - 7.1247
+[ Barrel: M1917 WC, Magazine: Type 99, Grip: Cyber 3517, Stock: Speed Coil, Core: SKS ]
+damage: 34.0919 - 22.431
+dropoffStuds: 150.433 - 462.87
+fireRate: 611.325
+adsSpread: 0.243289
+hipfireSpread: 4.86578
+reloadTime: 2.5875
+magazineSize: 23
+health: 16.25
+recoilHipVertical: 13.1034 - 14.4137
+recoilAimVertical: 6.55169 - 7.20686
 movementSpeed: -9
-TTK: 0.177759 Seconds
+TTK: 0.196295 Seconds
 
-[ Barrel: M40, Magazine: FAL, Grip: APS, Stock: Speed Coil, Core: SKS ]
-damage: 33.8302 - 23.1737
-dropoffStuds: 157.625 - 485
-fireRate: 595.258
-adsSpread: 0.594159
-hipfireSpread: 11.8832
-reloadTime: 1.802
-magazineSize: 20
+[ Barrel: M1917 WC, Magazine: AK2D, Grip: Snake Sniper, Stock: Speed Coil, Core: SKS ]
+damage: 33.5232 - 22.1923
+dropoffStuds: 151.84 - 467.201
+fireRate: 605.212
+adsSpread: 0.254919
+hipfireSpread: 5.09838
+reloadTime: 1.8975
+magazineSize: 23
+health: 16.25
+recoilHipVertical: 12.1512 - 13.3663
+recoilAimVertical: 6.0756 - 6.68316
+movementSpeed: -6.5
+TTK: 0.198278 Seconds
+
+[ Barrel: M1917 WC, Magazine: AR-8X, Grip: Musket, Stock: Speed Coil, Core: SKS ]
+damage: 33.6784 - 22.3324
+dropoffStuds: 152.26 - 468.493
+fireRate: 602.155
+adsSpread: 0.35868
+hipfireSpread: 7.1736
+reloadTime: 2.277
+magazineSize: 23
+health: 16.25
+recoilHipVertical: 11.5536 - 12.709
+recoilAimVertical: 5.7768 - 6.35448
+movementSpeed: -3.8
+TTK: 0.199284 Seconds
+
+[ Barrel: M1917 WC, Magazine: Maple Badger, Grip: Snake Sniper, Stock: Speed Coil, Core: SKS ]
+damage: 33.6474 - 22.2745
+dropoffStuds: 151.84 - 467.201
+fireRate: 602.155
+adsSpread: 0.203935
+hipfireSpread: 4.0787
+reloadTime: 1.38
+magazineSize: 23
+health: 16.25
+recoilHipVertical: 12.1512 - 13.3663
+recoilAimVertical: 6.0756 - 6.68316
+movementSpeed: -6.5
+TTK: 0.199284 Seconds
+
+[ Barrel: M1917 WC, Magazine: The Chief, Grip: M1891, Stock: Speed Coil, Core: SKS ]
+damage: 34.2682 - 22.8247
+dropoffStuds: 153.38 - 471.938
+fireRate: 596.959
+adsSpread: 0.33306
+hipfireSpread: 6.6612
+reloadTime: 5.20734
+magazineSize: 27
+health: 16.25
+recoilHipVertical: 12.45 - 13.695
+recoilAimVertical: 6.225 - 6.8475
+movementSpeed: -1.6
+TTK: 0.201019 Seconds
+
+[ Barrel: M1917 WC, Magazine: L8, Grip: Mosin, Stock: Speed Coil, Core: SKS ]
+damage: 33.7715 - 22.2263
+dropoffStuds: 150.644 - 463.52
+fireRate: 596.042
+adsSpread: 0.2562
+hipfireSpread: 5.124
+reloadTime: 2.50125
+magazineSize: 23
+health: 16.25
+recoilHipVertical: 13.1472 - 14.4619
+recoilAimVertical: 6.5736 - 7.23096
+movementSpeed: -2.45
+TTK: 0.201328 Seconds
+
+[ Barrel: M1917 WC, Magazine: The Chief, Grip: M1 Garand, Stock: Speed Coil, Core: SKS ]
+damage: 34.2682 - 22.8247
+dropoffStuds: 153.38 - 471.938
+fireRate: 594.208
+adsSpread: 0.2562
+hipfireSpread: 5.124
+reloadTime: 4.52812
+magazineSize: 27
+health: 16.25
+recoilHipVertical: 12.45 - 13.695
+recoilAimVertical: 6.225 - 6.8475
+movementSpeed: -8
+TTK: 0.20195 Seconds
+
+[ Barrel: M1917 WC, Magazine: Fedorov, Grip: M3 Grease Gun, Stock: Speed Coil, Core: SKS ]
+damage: 35.696 - 23.6966
+dropoffStuds: 152.54 - 469.354
+fireRate: 589.929
+adsSpread: 0.232886
+hipfireSpread: 4.65772
+reloadTime: 3.45
+magazineSize: 21
+health: 16.25
+recoilHipVertical: 12.2508 - 13.4759
+recoilAimVertical: 6.1254 - 6.73794
+movementSpeed: -2.76
+TTK: 0.203414 Seconds
+
+[ Barrel: G3, Magazine: P90, Grip: Tap, Stock: Speed Coil, Core: SKS ]
+damage: 33.8957 - 22.5128
+dropoffStuds: 152.041 - 467.82
+fireRate: 583.737
+adsSpread: 0.297206
+hipfireSpread: 5.94412
+reloadTime: 3
+magazineSize: 38
 health: -5
-recoilHipVertical: 11.7363 - 12.91
-recoilAimVertical: 5.86817 - 6.45499
-movementSpeed: 7.5
-TTK: 0.201593 Seconds
-
-[ Barrel: M1891, Magazine: FAL, Grip: M1 Garand, Stock: Speed Coil, Core: SKS ]
-damage: 36.9623 - 24.6908
-dropoffStuds: 152.1 - 468
-fireRate: 592.515
-adsSpread: 0.563917
-hipfireSpread: 11.2783
-reloadTime: 2.04
-magazineSize: 20
-health: -5
-recoilHipVertical: 13.44 - 14.784
-recoilAimVertical: 6.72 - 7.392
-movementSpeed: 4.5
-TTK: 0.202527 Seconds
-
-[ Barrel: M1891, Magazine: FAL, Grip: PPSh-41, Stock: Speed Coil, Core: SKS ]
-damage: 36.9623 - 24.6908
-dropoffStuds: 152.1 - 468
-fireRate: 587.029
-adsSpread: 0.52464
-hipfireSpread: 10.4928
-reloadTime: 2.346
-magazineSize: 20
-health: -5
-recoilHipVertical: 13.44 - 14.784
-recoilAimVertical: 6.72 - 7.392
-movementSpeed: 7.5
-TTK: 0.204419 Seconds
-
-[ Barrel: M1891, Magazine: Restroom, Grip: P90, Stock: Fedorov, Core: SKS ]
-damage: 33.6323 - 22.4664
-dropoffStuds: 152.1 - 468
-fireRate: 586.47
-adsSpread: 0.235031
-hipfireSpread: 4.70061
-reloadTime: 3.7236
-magazineSize: 35
-health: 5
-recoilHipVertical: 13.2912 - 14.6203
-recoilAimVertical: 6.6456 - 7.31016
-movementSpeed: -2
-TTK: 0.204614 Seconds
-
-[ Barrel: M1891, Magazine: FG-42, Grip: P90, Stock: Speed Coil, Core: SKS ]
-damage: 34.9643 - 23.3561
-dropoffStuds: 152.1 - 468
-fireRate: 585.971
-adsSpread: 0.562159
-hipfireSpread: 11.2432
-reloadTime: 3.57
-magazineSize: 20
-health: -5
-recoilHipVertical: 12.9589 - 14.2548
-recoilAimVertical: 6.47946 - 7.12741
-movementSpeed: 8
-TTK: 0.204788 Seconds
-
-[ Barrel: M1891, Magazine: Restroom, Grip: FG-42, Stock: Fedorov, Core: SKS ]
-damage: 33.6323 - 22.4664
-dropoffStuds: 152.1 - 468
-fireRate: 581.438
-adsSpread: 0.209961
-hipfireSpread: 4.19921
-reloadTime: 3.83531
-magazineSize: 35
-health: 5
-recoilHipVertical: 12.384 - 13.6224
-recoilAimVertical: 6.192 - 6.8112
-movementSpeed: -2
-TTK: 0.206385 Seconds
-
-[ Barrel: M1891, Magazine: FG-42, Grip: FG-42, Stock: Speed Coil, Core: SKS ]
-damage: 34.9643 - 23.3561
-dropoffStuds: 152.1 - 468
-fireRate: 580.944
-adsSpread: 0.502195
-hipfireSpread: 10.0439
-reloadTime: 3.6771
-magazineSize: 20
-health: -5
-recoilHipVertical: 12.0744 - 13.2818
-recoilAimVertical: 6.0372 - 6.64092
-movementSpeed: 8
-TTK: 0.20656 Seconds
-
-[ Barrel: M40, Magazine: G3, Grip: FG-42, Stock: Speed Coil, Core: SKS ]
-damage: 34.8027 - 23.8399
-dropoffStuds: 157.625 - 485
-fireRate: 579.673
-adsSpread: 0.594159
-hipfireSpread: 11.8832
-reloadTime: 2.6265
-magazineSize: 20
-health: -5
-recoilHipVertical: 11.9565 - 13.1521
-recoilAimVertical: 5.97825 - 6.57607
-movementSpeed: 8
-TTK: 0.207013 Seconds
+recoilHipVertical: 12.7512 - 14.0263
+recoilAimVertical: 6.3756 - 7.01316
+movementSpeed: 16.8
+TTK: 0.205572 Seconds
 

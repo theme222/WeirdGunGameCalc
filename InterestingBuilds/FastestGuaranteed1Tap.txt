@@ -1,95 +1,11 @@
 ./wggcalc -o InterestingBuilds/FastestGuaranteed1Tap.txt -i Sniper BR --damageEndMin 100 --spreadAimMax 0.15 --sort FIRERATE --speedMin -5 --magazineMin 5 
 Current top 10 guns are: 
-[ Barrel: B17, Magazine: Arisaka, Grip: AWM, Stock: AWM, Core: Lightning Shot ]
-damage: 42.0404 - 102.473
-dropoffStuds: 144.5 - 425
-fireRate: 22
-adsSpread: 0.140405
-hipfireSpread: 20.0579
-reloadTime: 3.808
-magazineSize: 5
-health: 1
-recoilHipVertical: 163.693 - 218.258
-recoilAimVertical: 81.8467 - 109.129
-movementSpeed: -4.5
-TTK: 5.45455 Seconds
-
-[ Barrel: Spray Can, Magazine: AWM, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
-damage: 48.1563 - 104.951
-dropoffStuds: 173.995 - 511.75
-fireRate: 21.75
-adsSpread: 0.145974
-hipfireSpread: 20.8534
-reloadTime: 4.25
-magazineSize: 5
-health: -3
-recoilHipVertical: 153.72 - 204.96
-recoilAimVertical: 76.86 - 102.48
-movementSpeed: -2
-TTK: 5.51724 Seconds
-
-[ Barrel: Sten gun, Magazine: Arisaka, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
-damage: 42.0404 - 101.422
-dropoffStuds: 147.9 - 435
-fireRate: 21.44
-adsSpread: 0.14808
-hipfireSpread: 21.1543
-reloadTime: 3.4
-magazineSize: 5
-health: -5
-recoilHipVertical: 157.936 - 210.582
-recoilAimVertical: 78.9682 - 105.291
-movementSpeed: 4.7
-TTK: 5.59701 Seconds
-
-[ Barrel: Sten gun, Magazine: Arisaka, Grip: The Chief, Stock: AWM, Core: Lightning Shot ]
-damage: 42.9145 - 103.531
-dropoffStuds: 147.9 - 435
-fireRate: 21.44
-adsSpread: 0.147194
-hipfireSpread: 21.0277
-reloadTime: 3.4
-magazineSize: 5
-health: 1
-recoilHipVertical: 213.214 - 284.285
-recoilAimVertical: 106.607 - 142.143
-movementSpeed: -3.3
-TTK: 5.59701 Seconds
-
-[ Barrel: Sten gun, Magazine: Arisaka, Grip: AWM, Stock: AWM, Core: Lightning Shot ]
-damage: 42.0404 - 101.422
-dropoffStuds: 147.9 - 435
-fireRate: 21.44
-adsSpread: 0.130346
-hipfireSpread: 18.6209
-reloadTime: 3.808
-magazineSize: 5
-health: 1
-recoilHipVertical: 170.571 - 227.428
-recoilAimVertical: 85.2856 - 113.714
-movementSpeed: -3.3
-TTK: 5.59701 Seconds
-
-[ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Arisaka, Stock: FAL, Core: Lightning Shot ]
-damage: 44.6672 - 110.515
-dropoffStuds: 140.309 - 412.674
-fireRate: 21.12
-adsSpread: 0.149937
-hipfireSpread: 21.4196
-reloadTime: 5.4
-magazineSize: 60
-health: -3
-recoilHipVertical: 186.732 - 248.976
-recoilAimVertical: 93.366 - 124.488
-movementSpeed: -3.33
-TTK: 5.68182 Seconds
-
 [ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
-damage: 44.6672 - 113.438
+damage: 42.522 - 107.99
 dropoffStuds: 134.589 - 395.85
 fireRate: 21.12
-adsSpread: 0.12664
-hipfireSpread: 18.0914
+adsSpread: 0.122736
+hipfireSpread: 17.5337
 reloadTime: 4.59
 magazineSize: 60
 health: -3
@@ -98,45 +14,129 @@ recoilAimVertical: 87.6204 - 116.827
 movementSpeed: -3.5
 TTK: 5.68182 Seconds
 
-[ Barrel: Uzi, Magazine: Arisaka, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
-damage: 43.2891 - 101.729
-dropoffStuds: 156.4 - 460
-fireRate: 21.08
-adsSpread: 0.145223
-hipfireSpread: 20.7462
-reloadTime: 3.4
+[ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Arisaka, Stock: FAL, Core: Lightning Shot ]
+damage: 42.522 - 105.208
+dropoffStuds: 140.309 - 412.674
+fireRate: 21.12
+adsSpread: 0.14549
+hipfireSpread: 20.7842
+reloadTime: 5.4
+magazineSize: 60
+health: -3
+recoilHipVertical: 186.732 - 248.976
+recoilAimVertical: 93.366 - 124.488
+movementSpeed: -3.33
+TTK: 5.68182 Seconds
+
+[ Barrel: PP-19 Bizon, Magazine: Arisaka, Grip: AWM, Stock: AWM, Core: Lightning Shot ]
+damage: 42.16 - 100.13
+dropoffStuds: 153 - 450
+fireRate: 20.6
+adsSpread: 0.136182
+hipfireSpread: 19.4545
+reloadTime: 3.808
+magazineSize: 5
+health: 1
+recoilHipVertical: 171.947 - 229.262
+recoilAimVertical: 85.9734 - 114.631
+movementSpeed: -3
+TTK: 5.82524 Seconds
+
+[ Barrel: Scar H, Magazine: Graphics Card, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
+damage: 45.1 - 100.81
+dropoffStuds: 169.694 - 499.1
+fireRate: 20.52
+adsSpread: 0.1487
+hipfireSpread: 21.2428
+reloadTime: 5.1
+magazineSize: 50
+health: -3
+recoilHipVertical: 101.455 - 135.274
+recoilAimVertical: 50.7276 - 67.6368
+movementSpeed: -4.5
+TTK: 5.84795 Seconds
+
+[ Barrel: M870 MCS, Magazine: Arisaka, Grip: AKM, Stock: AWM, Core: Lightning Shot ]
+damage: 43.36 - 100.812
+dropoffStuds: 159.8 - 470
+fireRate: 20
+adsSpread: 0.148371
+hipfireSpread: 21.1958
+reloadTime: 3.63528
+magazineSize: 5
+health: 1
+recoilHipVertical: 147.747 - 196.996
+recoilAimVertical: 73.8734 - 98.4979
+movementSpeed: -4.5
+TTK: 6 Seconds
+
+[ Barrel: M870 MCS, Magazine: Arisaka, Grip: Hell-Trooper-23, Stock: AWM, Core: Lightning Shot ]
+damage: 43.36 - 103.972
+dropoffStuds: 151.011 - 444.15
+fireRate: 20
+adsSpread: 0.148371
+hipfireSpread: 21.1958
+reloadTime: 3.6091
+magazineSize: 5
+health: 1
+recoilHipVertical: 127.368 - 169.824
+recoilAimVertical: 63.684 - 84.912
+movementSpeed: -2.4
+TTK: 6 Seconds
+
+[ Barrel: M870 MCS, Magazine: Arisaka, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
+damage: 43.36 - 100.812
+dropoffStuds: 159.8 - 470
+fireRate: 20
+adsSpread: 0.140901
+hipfireSpread: 20.1287
+reloadTime: 3.74
 magazineSize: 5
 health: -5
 recoilHipVertical: 127.368 - 169.824
 recoilAimVertical: 63.684 - 84.912
-movementSpeed: 5.9
-TTK: 5.6926 Seconds
+movementSpeed: 3.5
+TTK: 6 Seconds
 
-[ Barrel: Uzi, Magazine: Arisaka, Grip: AWM, Stock: AWM, Core: Lightning Shot ]
-damage: 43.2891 - 101.729
-dropoffStuds: 156.4 - 460
-fireRate: 21.08
-adsSpread: 0.127831
-hipfireSpread: 18.2616
-reloadTime: 3.808
+[ Barrel: M870 MCS, Magazine: Arisaka, Grip: AWM, Stock: AWM, Core: Lightning Shot ]
+damage: 43.36 - 100.812
+dropoffStuds: 159.8 - 470
+fireRate: 20
+adsSpread: 0.123925
+hipfireSpread: 17.7036
+reloadTime: 4.1888
 magazineSize: 5
 health: 1
 recoilHipVertical: 137.557 - 183.41
 recoilAimVertical: 68.7787 - 91.705
-movementSpeed: -2.1
-TTK: 5.6926 Seconds
+movementSpeed: -4.5
+TTK: 6 Seconds
 
-[ Barrel: Uzi, Magazine: Arisaka, Grip: QBZ-95, Stock: AWM, Core: Lightning Shot ]
-damage: 43.2891 - 101.729
-dropoffStuds: 156.4 - 460
-fireRate: 21.08
-adsSpread: 0.149224
-hipfireSpread: 21.3177
-reloadTime: 3.57
+[ Barrel: M870 MCS, Magazine: Arisaka, Grip: UNP-40, Stock: AWM, Core: Lightning Shot ]
+damage: 43.36 - 100.812
+dropoffStuds: 159.8 - 470
+fireRate: 20
+adsSpread: 0.149389
+hipfireSpread: 21.3413
+reloadTime: 3.6278
 magazineSize: 5
 health: 1
-recoilHipVertical: 127.368 - 169.824
-recoilAimVertical: 63.684 - 84.912
-movementSpeed: -3.9
-TTK: 5.6926 Seconds
+recoilHipVertical: 178.315 - 237.754
+recoilAimVertical: 89.1576 - 118.877
+movementSpeed: -3
+TTK: 6 Seconds
+
+[ Barrel: Circuit Judge, Magazine: Arisaka, Grip: AWM, Stock: AWM, Core: Lightning Shot ]
+damage: 43.36 - 100.812
+dropoffStuds: 159.8 - 470
+fireRate: 20
+adsSpread: 0.136182
+hipfireSpread: 19.4545
+reloadTime: 3.46528
+magazineSize: 5
+health: 1
+recoilHipVertical: 171.947 - 229.262
+recoilAimVertical: 85.9734 - 114.631
+movementSpeed: -4.5
+TTK: 6 Seconds
 

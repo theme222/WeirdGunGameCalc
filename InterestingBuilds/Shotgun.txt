@@ -1,139 +1,142 @@
 ./wggcalc -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80 
 Current top 10 guns are: 
-[ Barrel: Dragunov, Magazine: BAR, Grip: JSG12, Stock: FAL, Core: Auto-5 ]
-damage: 141.045 - 50.1323
-dropoffStuds: 81.7537 - 156.695
+[ Barrel: Chauchat, Magazine: BAR, Grip: Arisaka, Stock: Siberia-12, Core: Auto-5 ]
+damage: 142.025 - 51.4841
+dropoffStuds: 81.9375 - 157.047
 pellets: 8
-fireRate: 167.2
-adsSpread: 1.79962
-hipfireSpread: 6.6302
+fireRate: 149.226
+adsSpread: 1.77849
+hipfireSpread: 6.55232
+reloadTime: 4
+magazineSize: 20
+health: 2
+recoilHipVertical: 75.6 - 132.3
+recoilAimVertical: 30.24 - 52.92
+movementSpeed: 0.5
+
+[ Barrel: Chauchat, Magazine: BAR, Grip: Quad-Jolly, Stock: MG42, Core: Auto-5 ]
+damage: 142.025 - 50.126
+dropoffStuds: 80.7084 - 154.691
+pellets: 8
+fireRate: 147.663
+adsSpread: 1.69813
+hipfireSpread: 6.25625
+reloadTime: 4.4
+magazineSize: 20
+health: 8
+recoilHipVertical: 67.5 - 118.125
+recoilAimVertical: 27 - 47.25
+movementSpeed: 1.075
+
+[ Barrel: Chauchat, Magazine: BAR, Grip: Quad-Jolly, Stock: UNP-40, Core: Auto-5 ]
+damage: 142.025 - 50.126
+dropoffStuds: 80.7084 - 154.691
+pellets: 8
+fireRate: 147.663
+adsSpread: 1.79113
+hipfireSpread: 6.5989
 reloadTime: 4
 magazineSize: 20
 health: 8
-recoilHipVertical: 120.126 - 210.221
-recoilAimVertical: 48.0505 - 84.0884
-movementSpeed: 2.62
+recoilHipVertical: 81 - 141.75
+recoilAimVertical: 32.4 - 56.7
+movementSpeed: 0.92
 
-[ Barrel: M1891, Magazine: BAR, Grip: JSG12, Stock: FAL, Core: Auto-5 ]
-damage: 141.045 - 48.6958
-dropoffStuds: 80.7262 - 154.725
-pellets: 8
-fireRate: 167.2
-adsSpread: 1.74561
-hipfireSpread: 6.43119
-reloadTime: 4.8
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: Sten gun, Core: Auto-5 ]
+damage: 146.369 - 49.3812
+dropoffStuds: 80.0494 - 153.428
+pellets: 7
+fireRate: 147.355
+adsSpread: 1.70378
+hipfireSpread: 6.27707
+reloadTime: 4.2
 magazineSize: 20
 health: 8
-recoilHipVertical: 96.876 - 169.533
-recoilAimVertical: 38.7504 - 67.8132
-movementSpeed: 2.62
+recoilHipVertical: 90.9144 - 159.1
+recoilAimVertical: 36.3658 - 63.6401
+movementSpeed: 1.9
 
-[ Barrel: Dragunov, Magazine: BAR, Grip: The Chief, Stock: FC200SH, Core: Auto-5 ]
-damage: 143.927 - 50.2959
-dropoffStuds: 81.0393 - 155.325
+[ Barrel: Chauchat, Magazine: BAR, Grip: UNP-40, Stock: P90, Core: Auto-5 ]
+damage: 142.025 - 51.4841
+dropoffStuds: 81.9375 - 157.047
 pellets: 8
-fireRate: 158.84
-adsSpread: 1.79776
-hipfireSpread: 6.62333
+fireRate: 145.815
+adsSpread: 1.68829
+hipfireSpread: 6.22002
+reloadTime: 3.87
+magazineSize: 20
+health: 8
+recoilHipVertical: 105.84 - 185.22
+recoilAimVertical: 42.336 - 74.088
+movementSpeed: 0.0749999
+
+[ Barrel: Chauchat, Magazine: BAR, Grip: Arisaka, Stock: P90, Core: Auto-5 ]
+damage: 142.025 - 51.4841
+dropoffStuds: 81.9375 - 157.047
+pellets: 8
+fireRate: 145.815
+adsSpread: 1.77562
+hipfireSpread: 6.54175
+reloadTime: 4
+magazineSize: 20
+health: 2
+recoilHipVertical: 75.6 - 132.3
+recoilAimVertical: 30.24 - 52.92
+movementSpeed: 2.45
+
+[ Barrel: Chauchat, Magazine: BAR, Grip: NP9, Stock: P90, Core: Auto-5 ]
+damage: 142.025 - 51.4841
+dropoffStuds: 81.9375 - 157.047
+pellets: 8
+fireRate: 145.815
+adsSpread: 1.7892
+hipfireSpread: 6.59179
 reloadTime: 4
 magazineSize: 20
 health: 8
-recoilHipVertical: 90.396 - 158.193
-recoilAimVertical: 36.1584 - 63.2772
-movementSpeed: 0.9
+recoilHipVertical: 89.208 - 156.114
+recoilAimVertical: 35.6832 - 62.4456
+movementSpeed: 1.375
 
-[ Barrel: M1891, Magazine: BAR, Grip: JSG12, Stock: FC200SH, Core: Auto-5 ]
-damage: 141.045 - 47.839
-dropoffStuds: 80.0209 - 153.373
-pellets: 8
-fireRate: 158.84
-adsSpread: 1.73397
-hipfireSpread: 6.38833
-reloadTime: 4.8
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: NP9, Core: Auto-5 ]
+damage: 146.369 - 49.3812
+dropoffStuds: 80.0494 - 153.428
+pellets: 7
+fireRate: 145.464
+adsSpread: 1.69176
+hipfireSpread: 6.23282
+reloadTime: 4.2
 magazineSize: 20
 health: 8
-recoilHipVertical: 74.52 - 130.41
-recoilAimVertical: 29.808 - 52.164
-movementSpeed: 3.9
+recoilHipVertical: 85.644 - 149.877
+recoilAimVertical: 34.2576 - 59.9508
+movementSpeed: 0.99
 
-[ Barrel: M1891, Magazine: BAR, Grip: The Chief, Stock: FC200SH, Core: Auto-5 ]
-damage: 143.927 - 48.8164
-dropoffStuds: 80.0209 - 153.373
-pellets: 8
-fireRate: 158.84
-adsSpread: 1.7438
-hipfireSpread: 6.42453
-reloadTime: 4.8
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: UNP-40, Core: Auto-5 ]
+damage: 146.369 - 49.3812
+dropoffStuds: 80.0494 - 153.428
+pellets: 7
+fireRate: 145.464
+adsSpread: 1.58366
+hipfireSpread: 5.83454
+reloadTime: 4.2
 magazineSize: 20
 health: 8
-recoilHipVertical: 72.9 - 127.575
-recoilAimVertical: 29.16 - 51.03
-movementSpeed: 0.9
+recoilHipVertical: 79.056 - 138.348
+recoilAimVertical: 31.6224 - 55.3392
+movementSpeed: 0.47
 
-[ Barrel: Dragunov, Magazine: BAR, Grip: JSG12, Stock: FC200SH, Core: Auto-5 ]
-damage: 141.045 - 49.2888
-dropoffStuds: 81.0393 - 155.325
-pellets: 8
-fireRate: 158.84
-adsSpread: 1.78763
-hipfireSpread: 6.586
-reloadTime: 4
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: Uzi, Core: Auto-5 ]
+damage: 146.369 - 49.3812
+dropoffStuds: 80.0494 - 153.428
+pellets: 7
+fireRate: 145.464
+adsSpread: 1.71579
+hipfireSpread: 6.32132
+reloadTime: 4.368
 magazineSize: 20
 health: 8
-recoilHipVertical: 92.4048 - 161.708
-recoilAimVertical: 36.9619 - 64.6834
-movementSpeed: 3.9
-
-[ Barrel: Dragunov, Magazine: BAR, Grip: Pancake Hammer, Stock: FC200SH, Core: Auto-5 ]
-damage: 141.045 - 49.2888
-dropoffStuds: 81.0393 - 155.325
-pellets: 8
-fireRate: 158.84
-adsSpread: 1.78763
-hipfireSpread: 6.586
-reloadTime: 3.84
-magazineSize: 20
-health: 8
-recoilHipVertical: 120.528 - 210.924
-recoilAimVertical: 48.2112 - 84.3696
-movementSpeed: 0.9
-
-[ Barrel: M1891, Magazine: BAR, Grip: Pancake Hammer, Stock: FC200SH, Core: Auto-5 ]
-damage: 141.045 - 47.839
-dropoffStuds: 80.0209 - 153.373
-pellets: 8
-fireRate: 158.84
-adsSpread: 1.73397
-hipfireSpread: 6.38833
-reloadTime: 4.608
-magazineSize: 20
-health: 8
-recoilHipVertical: 97.2 - 170.1
-recoilAimVertical: 38.88 - 68.04
-movementSpeed: 0.9
-
-[ Barrel: Spray Can, Magazine: Scar H, Grip: Auto-5, Stock: M1 Carbine, Core: Circuit Judge ]
-damage: 141.212 - 27.8983
-dropoffStuds: 83.2638 - 137.14
-pellets: 8
-fireRate: 78.75
-adsSpread: 1.79429
-hipfireSpread: 4.84944
-reloadTime: 4.5
-magazineSize: 20
-recoilHipVertical: 102.6 - 126.968
-recoilAimVertical: 35.91 - 44.3745
-
-[ Barrel: Spray Can, Magazine: Scar H, Grip: Auto-5, Stock: The Chief, Core: Circuit Judge ]
-damage: 141.212 - 24.0919
-dropoffStuds: 80.6429 - 132.824
-pellets: 8
-fireRate: 78.75
-adsSpread: 1.76275
-hipfireSpread: 4.7642
-reloadTime: 4.185
-magazineSize: 20
-recoilHipVertical: 105.3 - 130.309
-recoilAimVertical: 36.855 - 45.5422
-movementSpeed: 2.5
+recoilHipVertical: 80.3736 - 140.654
+recoilAimVertical: 32.1494 - 56.2615
+movementSpeed: 2.875
 

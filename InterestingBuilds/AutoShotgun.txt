@@ -1,146 +1,144 @@
 ./wggcalc -o InterestingBuilds/AutoShotgun.txt -i Shotgun --sort FIRERATE --fc Siberia-12 AUTO-12 --damageMin 60 --spreadAimMax 2 --speedMin 0 --rangeMin 50 --magazineMin 20 --recoilAimMax 100 
 Current top 10 guns are: 
-[ Barrel: M1891, Magazine: Type 99, Grip: Croissant, Stock: JSG12, Core: Siberia-12 ]
-damage: 61.1631 - 9.41912
-dropoffStuds: 52.47 - 116.6
-pellets: 12
-fireRate: 570
-adsSpread: 1.98298
-hipfireSpread: 5.94894
-reloadTime: 3.78
-magazineSize: 30
-recoilHipVertical: 67.1968 - 77.7216
-recoilAimVertical: 54.4051 - 62.9869
-TTK: 0.105263 Seconds
-
-[ Barrel: Scar H, Magazine: Type 99, Grip: Arisaka, Stock: Auto-5, Core: Siberia-12 ]
-damage: 63.2635 - 7.36387
-dropoffStuds: 50.562 - 112.36
-pellets: 12
-fireRate: 567
-adsSpread: 1.95907
-hipfireSpread: 5.87722
-reloadTime: 3
-magazineSize: 30
-health: -6
-recoilHipVertical: 100.795 - 116.582
-recoilAimVertical: 81.6077 - 94.4803
-movementSpeed: 1
-TTK: 0.10582 Seconds
-
-[ Barrel: Dragunov, Magazine: STG-44, Grip: Arisaka, Stock: JSG12, Core: Siberia-12 ]
-damage: 61.9312 - 7.06016
-dropoffStuds: 50.13 - 111.4
-pellets: 12
-fireRate: 552
-adsSpread: 1.9547
-hipfireSpread: 5.8641
-reloadTime: 3.045
-magazineSize: 30
-health: -6
-recoilHipVertical: 102.92 - 119.04
-recoilAimVertical: 83.328 - 96.472
-TTK: 0.108696 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: AK-12, Grip: Arisaka, Stock: JSG12, Core: Siberia-12 ]
-damage: 65.6006 - 7.795
-dropoffStuds: 50.6779 - 112.618
+[ Barrel: M870 Wingmaster, Magazine: Type 99, Grip: Arisaka, Stock: Spas-12, Core: Siberia-12 ]
+damage: 60.4931 - 6.55237
+dropoffStuds: 50.0182 - 111.152
 pellets: 10
-fireRate: 522
-adsSpread: 1.93904
-hipfireSpread: 5.81712
-reloadTime: 2.4255
-magazineSize: 30
-health: -6
-recoilHipVertical: 94.62 - 109.44
-recoilAimVertical: 76.608 - 88.692
-TTK: 0.114943 Seconds
-
-[ Barrel: Scar H, Magazine: Type 99, Grip: Croissant, Stock: JSG12, Core: Siberia-12 ]
-damage: 66.463 - 7.73629
-dropoffStuds: 50.562 - 112.36
-pellets: 12
-fireRate: 513
-adsSpread: 1.93159
-hipfireSpread: 5.79477
+fireRate: 605.52
+adsSpread: 1.83545
+hipfireSpread: 5.50636
 reloadTime: 3.15
-magazineSize: 30
-recoilHipVertical: 80.6362 - 93.2659
-recoilAimVertical: 65.2861 - 75.5843
-TTK: 0.116959 Seconds
+magazineSize: 21
+health: -6
+recoilHipVertical: 83.996 - 97.152
+recoilAimVertical: 68.0064 - 78.7336
+TTK: 0.0990884 Seconds
 
-[ Barrel: M1891, Magazine: UNP-40, Grip: Arisaka, Stock: MG42, Core: Siberia-12 ]
-damage: 63.1043 - 8.5254
-dropoffStuds: 51.4305 - 114.29
+[ Barrel: MarrowMaker, Magazine: BAR, Grip: Arisaka, Stock: M870, Core: Siberia-12 ]
+damage: 60.1949 - 10.0638
+dropoffStuds: 52.1016 - 115.781
+pellets: 18
+fireRate: 586.08
+adsSpread: 1.9236
+hipfireSpread: 5.77079
+reloadTime: 4.2
+magazineSize: 20
+health: -6
+recoilHipVertical: 95.2425 - 110.16
+recoilAimVertical: 77.112 - 89.2755
+movementSpeed: 1
+TTK: 0.102375 Seconds
+
+[ Barrel: M870 MCS, Magazine: BAR, Grip: Kriss Vector, Stock: Auto-5, Core: Siberia-12 ]
+damage: 61.731 - 8.56518
+dropoffStuds: 50.2313 - 111.625
 pellets: 12
-fireRate: 510
-adsSpread: 1.95247
-hipfireSpread: 5.85741
-reloadTime: 2.64
-magazineSize: 30
-health: -6
-recoilHipVertical: 83 - 96
-recoilAimVertical: 67.2 - 77.8
-movementSpeed: 0.6
-TTK: 0.117647 Seconds
+fireRate: 568.814
+adsSpread: 1.81764
+hipfireSpread: 5.45292
+reloadTime: 4.4
+magazineSize: 20
+recoilHipVertical: 103.31 - 119.491
+recoilAimVertical: 83.6438 - 96.8377
+movementSpeed: 0.425
+TTK: 0.105483 Seconds
 
-[ Barrel: M1891, Magazine: UNP-40, Grip: Arisaka, Stock: JSG12, Core: Siberia-12 ]
-damage: 63.1043 - 8.5254
-dropoffStuds: 51.4305 - 114.29
+[ Barrel: M870 Wingmaster, Magazine: Scar H, Grip: Kriss Vector, Stock: Auto-5, Core: Siberia-12 ]
+damage: 60.937 - 8.0059
+dropoffStuds: 51.3279 - 114.062
+pellets: 10
+fireRate: 562.351
+adsSpread: 1.99529
+hipfireSpread: 5.98586
+reloadTime: 4.725
+magazineSize: 20
+recoilHipVertical: 95.6575 - 110.64
+recoilAimVertical: 77.448 - 89.6645
+movementSpeed: 0.925
+TTK: 0.106695 Seconds
+
+[ Barrel: M870 MCS, Magazine: BAR, Grip: PineFire, Stock: Auto-5, Core: Siberia-12 ]
+damage: 61.731 - 8.56518
+dropoffStuds: 50.2313 - 111.625
 pellets: 12
-fireRate: 510
-adsSpread: 1.94706
-hipfireSpread: 5.84118
-reloadTime: 2.52
-magazineSize: 30
-health: -6
-recoilHipVertical: 83 - 96
-recoilAimVertical: 67.2 - 77.8
-movementSpeed: 0.975
-TTK: 0.117647 Seconds
+fireRate: 554.4
+adsSpread: 1.683
+hipfireSpread: 5.049
+reloadTime: 4.84
+magazineSize: 20
+recoilHipVertical: 104.599 - 120.982
+recoilAimVertical: 84.6871 - 98.0455
+movementSpeed: 1.35
+TTK: 0.108225 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: Mas-38, Grip: Arisaka, Stock: FC200SH, Core: Siberia-12 ]
-damage: 67.6533 - 7.65851
-dropoffStuds: 50.4393 - 112.087
-pellets: 10
-fireRate: 495.9
-adsSpread: 1.97423
-hipfireSpread: 5.9227
-reloadTime: 2.94
-magazineSize: 32
-health: -6
-recoilHipVertical: 105.41 - 121.92
-recoilAimVertical: 85.344 - 98.806
-movementSpeed: 0.675
-TTK: 0.120992 Seconds
+[ Barrel: M870 MCS, Magazine: BAR, Grip: Banana, Stock: Auto-5, Core: Siberia-12 ]
+damage: 61.731 - 8.56518
+dropoffStuds: 50.2313 - 111.625
+pellets: 12
+fireRate: 554.4
+adsSpread: 1.93545
+hipfireSpread: 5.80635
+reloadTime: 4.4
+magazineSize: 20
+recoilHipVertical: 89.64 - 103.68
+recoilAimVertical: 72.576 - 84.024
+movementSpeed: 2.5
+TTK: 0.108225 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: UNP-40, Grip: Arisaka, Stock: JSG12, Core: Siberia-12 ]
-damage: 71.3482 - 7.58217
-dropoffStuds: 50.0279 - 111.173
+[ Barrel: M870 Wingmaster, Magazine: Scar H, Grip: PineFire, Stock: Auto-5, Core: Siberia-12 ]
+damage: 60.937 - 8.0059
+dropoffStuds: 51.3279 - 114.062
 pellets: 10
-fireRate: 443.7
-adsSpread: 1.98952
-hipfireSpread: 5.96856
-reloadTime: 2.205
-magazineSize: 30
-health: -6
-recoilHipVertical: 83 - 96
-recoilAimVertical: 67.2 - 77.8
-movementSpeed: 0.975
-TTK: 0.135227 Seconds
+fireRate: 548.1
+adsSpread: 1.84749
+hipfireSpread: 5.54246
+reloadTime: 5.1975
+magazineSize: 20
+recoilHipVertical: 96.8506 - 112.02
+recoilAimVertical: 78.414 - 90.7829
+movementSpeed: 1.85
+TTK: 0.109469 Seconds
 
-[ Barrel: M870 Wingmaster, Magazine: UNP-40, Grip: Arisaka, Stock: MG42, Core: Siberia-12 ]
-damage: 71.3482 - 7.58217
-dropoffStuds: 50.0279 - 111.173
+[ Barrel: M870 Wingmaster, Magazine: Scar H, Grip: Arisaka, Stock: Auto-5, Core: Siberia-12 ]
+damage: 60.937 - 8.0059
+dropoffStuds: 51.3279 - 114.062
 pellets: 10
-fireRate: 443.7
-adsSpread: 1.99513
-hipfireSpread: 5.9854
-reloadTime: 2.31
-magazineSize: 30
+fireRate: 548.1
+adsSpread: 1.69045
+hipfireSpread: 5.07135
+reloadTime: 4.725
+magazineSize: 20
 health: -6
-recoilHipVertical: 83 - 96
-recoilAimVertical: 67.2 - 77.8
-movementSpeed: 0.6
-TTK: 0.135227 Seconds
+recoilHipVertical: 103.75 - 120
+recoilAimVertical: 84 - 97.25
+movementSpeed: 2
+TTK: 0.109469 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: Scar H, Grip: ZIPO-2222, Stock: Auto-5, Core: Siberia-12 ]
+damage: 60.937 - 6.68262
+dropoffStuds: 50.0447 - 111.21
+pellets: 10
+fireRate: 548.1
+adsSpread: 1.84749
+hipfireSpread: 5.54246
+reloadTime: 4.38716
+magazineSize: 20
+recoilHipVertical: 103.75 - 120
+recoilAimVertical: 84 - 97.25
+movementSpeed: 0.925
+TTK: 0.109469 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: Scar H, Grip: Tommy, Stock: Auto-5, Core: Siberia-12 ]
+damage: 60.937 - 8.0059
+dropoffStuds: 51.3279 - 114.062
+pellets: 10
+fireRate: 548.1
+adsSpread: 1.84749
+hipfireSpread: 5.54246
+reloadTime: 5.1975
+magazineSize: 20
+recoilHipVertical: 93.6344 - 108.3
+recoilAimVertical: 75.81 - 87.7681
+movementSpeed: 0.47
+TTK: 0.109469 Seconds
 

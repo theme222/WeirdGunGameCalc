@@ -2,7 +2,8 @@
 > A tool to bruteforce all combinations of guns in the roblox game "Weird Gun Game"
 
 ## About
-`Updated to Lancer/SMO3/Five-7!`<br/>
+
+`Updated to USA180 Update`<br/>
 
 Made using c++ this tool reads data from Data/FullData.json and calculates all possible combinations of guns in [Weird Gun Game](https://www.roblox.com/games/94590879393563/Weird-Gun-Game-UPDATE). Please note that I am not affiliated with the [Redscape Interactive Projects](https://www.roblox.com/communities/35232296/Redscape-Interactive-Projects#!/about)
 group and don't have *direct* access to the source code of the game. This is
@@ -24,6 +25,10 @@ download the latest version of the sheet as a csv and format +
 update the data placing it in the `Data` folder.
 
 ## Usage
+
+**WeirdGunGameCalc has been adapted to run on the web! Try it out [here](https://wggcalc.tongsima.com)!**
+
+*Following line this will be information on the installation of the CLI version of wggcalc.*
 
 If you are unfamilliar with programmer *slang* and want the easy step by step guide go [here](https://scribehow.com/shared/How_to_Download_and_Run_Weird_Gun_Game_Calculator__5Ys-2XhCR5-tHUvSz9-y_g)
 
@@ -140,13 +145,13 @@ The directory structure should look like this:
 ### Run
 ```sh
 # Replace wggcalc with wggcalc.exe if on Windows
-g++ -Iinclude -std=c++20 wggcalc-cli.cpp -o wggcalc -O3 -ffast-math -flto -Werror -static
+g++ -Iinclude -std=c++20 wggcalc-cli.cpp -o wggcalc -O3 -flto -Werror -static -march=native -pthread
 ```
 No idea how to use cmake lol
 
 ## Algorithm Analysis
 
-There are currently **3 methods** inside of the calculator: **Bruteforce**, **Prune**, and **DynamicPrune**.
+Historically there have been a total of **3 methods** inside of the calculator: **Bruteforce**, **Prune**, and **DynamicPrune**.
 
 **TL;DR**
 
