@@ -22,5 +22,5 @@ function pushKeepQuery(url) {
   <button class="w-full cursor-pointer hover:bg-base-100 py-2 px-10 transition-colors duration-200" @click="pushKeepQuery('/calc')"> Calculator </button>
   <button class="w-full cursor-pointer hover:bg-base-100 py-2 px-10 transition-colors duration-200" @click="pushKeepQuery('/part')"> Part Query </button>
 </div>
-<div class="fixed top-0 left-0 w-screen h-screen z-49" :class="{ 'pointer-events-none': !drawerOpen }" @click="drawerOpen = false"></div>
+<!-- <div class="fixed top-0 left-0 w-screen h-screen z-49" :class="{ 'pointer-events-none': !drawerOpen }" @click="drawerOpen = false"></div> -->
 </template>

@@ -4,7 +4,7 @@ import Filter from '@/components/Filter.vue';
 import Result from '@/components/Result.vue';
 import HelpModal from '@/components/HelpModal.vue';
 import { SquaresPlusIcon } from '@heroicons/vue/24/solid';
-import { TrashIcon as OutlineTrashIcon } from '@heroicons/vue/24/outline';
+import { TrashIcon as OutlineTrashIcon, NumberedListIcon } from '@heroicons/vue/24/outline';
 import { addFilter, removeFilter, filterList, currentFilters } from '@/libs/filter';
 import { runCalc, runOnFilterChange } from '@/libs/calc';
 import { latestResult, isCalculating } from '@/libs/calc';
@@ -29,7 +29,11 @@ onMounted(() => {
 </script>
 
 <template>
-<Title :title="'WGGCALC'" :subtitle="'Lets go ruin the loadouts channel for the rest of eternity'"/>
+
+<div class="flex flex-col items-center w-full py-8 gap-1">
+  <h1 class="font-bold text-3xl text-white rounded">WGGCALC</h1>
+  <h2 class="opacity-50 text-sm text-center">Lets go ruin the loadouts channel for the rest of eternity</h2>
+</div>
 
 <main class="w-full flex justify-center items-start gap-6 flex-wrap mb-5">
   
@@ -38,7 +42,12 @@ onMounted(() => {
       <div class="flex items-center justify-between mb-3">
         <h2 class="font-semibold text-2xl">Filter</h2>
         <div class="flex justify-center items-center gap-6">
-          <StringInput v-model="selectedFilterToAdd" :validStrings="filterTitles" :onEnter="() => addFilter(selectedFilterToAdd)"/>
+          <StringInput 
+            v-model="selectedFilterToAdd" 
+            :validStrings="filterTitles" 
+            :onEnter="() => addFilter(selectedFilterToAdd)" 
+            :onSelectSuggestion="addFilter"
+            :placeholder="'Type in a filter here...'"/>
           <button class="btn btn-success btn-sm sm:btn-md" @click="addFilter(selectedFilterToAdd)">
             <SquaresPlusIcon class="size-6" />
             <span
@@ -80,7 +89,7 @@ onMounted(() => {
     
     <div class="w-full flex justify-center items-center gap-5">
       <button class="btn btn-primary btn-sm sm:btn-md" @click="runCalc">
-        <span class="hidden sm:inline">LEMME SEE THEM GUNS</span>
+        <span class="hidden sm:inline">CALCULATE</span>
         <span class="inline sm:hidden">RUN</span>
       </button>
       <label for="updateOnChange" class="flex justify-center items-center gap-3">
@@ -91,11 +100,14 @@ onMounted(() => {
   </div>
       
   <div class="flex flex-col justify-center items-center max-w-200">
-    <div class="bg-base-200 border rounded-md max-w-[95vw] min-w-0 w-180 shrink h-191 px-3 overflow-y-scroll relative">
+    <div class="bg-base-200 border rounded-md max-w-[95vw] min-w-0 w-180 shrink h-171 px-3 overflow-y-scroll relative">
       <div class="flex justify-between items-center sticky top-0 bg-base-200 py-4 z-2">
-        <h2 class="font-semibold text-2xl w-full">Results ({{ latestResult.success ? latestResult.data.length : 0 }})</h2>
+        <h2 class="font-semibold text-xl sm:text-2xl w-full">Results ({{ latestResult.success ? latestResult.data.length : 0 }}) <span class="opacity-50 text-sm ml-2">click the results to view details</span></h2>
         <details class="dropdown dropdown-end">
-          <summary class="btn btn-soft m-1 w-39">Stats to Compare</summary>
+          <summary class="btn btn-soft btn-warning m-1">
+            <span class="hidden sm:block text-nowrap">Edit Stat Visibility</span>
+            <NumberedListIcon class="size-4 block sm:hidden" />
+          </summary>
           <div class="dropdown-content bg-base-200 rounded-box w-52">
             <div class="flex flex-col gap-2 p-3">
               <label v-for="(stat, index) in statsToCompare" :key="index" class="flex items-center gap-2 cursor-pointer" :for="stat.stat">
@@ -126,7 +138,7 @@ onMounted(() => {
         </div>
       </div>
       <div v-else class="w-full overflow-y-auto flex flex-col items-center gap-3 mb-3" >
-        <div v-for="(_, index) in [...Array(10)]" class="skeleton h-14 w-full" :key="index"></div>
+        <div v-for="(_, index) in [...Array(10)]" class="skeleton h-12 w-full" :key="index"></div>
       </div>
     </div>
 

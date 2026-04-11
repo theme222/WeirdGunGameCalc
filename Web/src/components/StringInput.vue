@@ -15,6 +15,14 @@ const props = defineProps({
     type: Function,
     default: () => {},
   },
+  onSelectSuggestion: {
+    type: Function,
+    default: (selected) => {},
+  },
+  placeholder: {
+    type: String,
+    default: 'None',
+  },
 });
 
 const inputRef = ref(null);
@@ -43,7 +51,7 @@ onMounted(() => {
     type="text"
     ref="inputRef"
     :class="[`input input-xs sm:input-md input-${color}`]"
-    placeholder="None"
+    :placeholder="placeholder"
     @input="handleInputChange"
     @keyup.enter="() => {model = suggestions[suggestionIndex]; onEnter()}"
     @keyup.down="suggestionIndex = Math.min(suggestionIndex + 1, suggestions.length - 1)"
@@ -52,7 +60,7 @@ onMounted(() => {
   />
   <SuggestionBox
     :suggestions="suggestions"
-    :onSelectSuggestion="(selected) => {model = selected; inputRef.focus()}"
+    :onSelectSuggestion="(selected) => {model = selected; inputRef.focus(); onSelectSuggestion(selected)}"
     :updateSuggestions="updateSuggestions"
     v-model="suggestionIndex"
   />

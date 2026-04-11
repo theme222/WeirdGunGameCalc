@@ -1,14 +1,12 @@
 <script setup>
-import { computed, ref } from 'vue';
-import { stringSearch } from '@/libs/search';
+import { ref } from 'vue';
 import { TrashIcon } from '@heroicons/vue/24/solid';
 import { removeFilter } from '@/libs/filter';
-import { PlusCircleIcon } from '@heroicons/vue/24/outline';
 import { addToast } from '@/libs/toast';
-import SuggestionBox from './SuggestionBox.vue';
 import NumberInput from './NumberInput.vue';
 import StringInput from './StringInput.vue';
 import { filterDescriptions } from '@/libs/filter.const';
+import { PlusIcon } from '@heroicons/vue/24/solid';
 
 const props = defineProps({
   id: Number,
@@ -126,10 +124,11 @@ function removeInputFromList(index) {
           :validStrings="validStrings"
           :onEnter="addInputToList"
           :color="color"
+          :onSelectSuggestion="addInputToList"
           class="max-w-45"
         />
         <button @click="addInputToList" class="btn btn-ghost btn-sm btn-circle shrink-0">
-          <PlusCircleIcon class="size-6" />
+          <PlusIcon class="size-5" />
         </button>
       </div>
       <!-- STRINGARR FILTER -->

@@ -5,7 +5,7 @@ import Toast from "@/components/Toast.vue"
 
 
 <template>
-  <div class="toast toast-top toast-end">
+  <div class="toast toast-top toast-end z-30">
     <Toast
       v-for="t in toastState.toasts"
       :key="t.id"

@@ -56,6 +56,34 @@ recoilAimVertical: 50.7276 - 67.6368
 movementSpeed: -4.5
 TTK: 5.84795 Seconds
 
+[ Barrel: M870 MCS, Magazine: Arisaka, Grip: AWM, Stock: AWM, Core: Lightning Shot ]
+damage: 43.36 - 100.812
+dropoffStuds: 159.8 - 470
+fireRate: 20
+adsSpread: 0.123925
+hipfireSpread: 17.7036
+reloadTime: 4.1888
+magazineSize: 5
+health: 1
+recoilHipVertical: 137.557 - 183.41
+recoilAimVertical: 68.7787 - 91.705
+movementSpeed: -4.5
+TTK: 6 Seconds
+
+[ Barrel: Circuit Judge, Magazine: Arisaka, Grip: AWM, Stock: AWM, Core: Lightning Shot ]
+damage: 43.36 - 100.812
+dropoffStuds: 159.8 - 470
+fireRate: 20
+adsSpread: 0.136182
+hipfireSpread: 19.4545
+reloadTime: 3.46528
+magazineSize: 5
+health: 1
+recoilHipVertical: 171.947 - 229.262
+recoilAimVertical: 85.9734 - 114.631
+movementSpeed: -4.5
+TTK: 6 Seconds
+
 [ Barrel: M870 MCS, Magazine: Arisaka, Grip: AKM, Stock: AWM, Core: Lightning Shot ]
 damage: 43.36 - 100.812
 dropoffStuds: 159.8 - 470
@@ -68,6 +96,20 @@ health: 1
 recoilHipVertical: 147.747 - 196.996
 recoilAimVertical: 73.8734 - 98.4979
 movementSpeed: -4.5
+TTK: 6 Seconds
+
+[ Barrel: M870 MCS, Magazine: Arisaka, Grip: UNP-40, Stock: AWM, Core: Lightning Shot ]
+damage: 43.36 - 100.812
+dropoffStuds: 159.8 - 470
+fireRate: 20
+adsSpread: 0.149389
+hipfireSpread: 21.3413
+reloadTime: 3.6278
+magazineSize: 5
+health: 1
+recoilHipVertical: 178.315 - 237.754
+recoilAimVertical: 89.1576 - 118.877
+movementSpeed: -3
 TTK: 6 Seconds
 
 [ Barrel: M870 MCS, Magazine: Arisaka, Grip: Hell-Trooper-23, Stock: AWM, Core: Lightning Shot ]
@@ -96,47 +138,5 @@ health: -5
 recoilHipVertical: 127.368 - 169.824
 recoilAimVertical: 63.684 - 84.912
 movementSpeed: 3.5
-TTK: 6 Seconds
-
-[ Barrel: M870 MCS, Magazine: Arisaka, Grip: AWM, Stock: AWM, Core: Lightning Shot ]
-damage: 43.36 - 100.812
-dropoffStuds: 159.8 - 470
-fireRate: 20
-adsSpread: 0.123925
-hipfireSpread: 17.7036
-reloadTime: 4.1888
-magazineSize: 5
-health: 1
-recoilHipVertical: 137.557 - 183.41
-recoilAimVertical: 68.7787 - 91.705
-movementSpeed: -4.5
-TTK: 6 Seconds
-
-[ Barrel: M870 MCS, Magazine: Arisaka, Grip: UNP-40, Stock: AWM, Core: Lightning Shot ]
-damage: 43.36 - 100.812
-dropoffStuds: 159.8 - 470
-fireRate: 20
-adsSpread: 0.149389
-hipfireSpread: 21.3413
-reloadTime: 3.6278
-magazineSize: 5
-health: 1
-recoilHipVertical: 178.315 - 237.754
-recoilAimVertical: 89.1576 - 118.877
-movementSpeed: -3
-TTK: 6 Seconds
-
-[ Barrel: Circuit Judge, Magazine: Arisaka, Grip: AWM, Stock: AWM, Core: Lightning Shot ]
-damage: 43.36 - 100.812
-dropoffStuds: 159.8 - 470
-fireRate: 20
-adsSpread: 0.136182
-hipfireSpread: 19.4545
-reloadTime: 3.46528
-magazineSize: 5
-health: 1
-recoilHipVertical: 171.947 - 229.262
-recoilAimVertical: 85.9734 - 114.631
-movementSpeed: -4.5
 TTK: 6 Seconds
 

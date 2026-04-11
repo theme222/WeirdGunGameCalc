@@ -37,8 +37,8 @@ function minimizeStatList(stats) {
 
 <template>
   <div
-    class="rounded-md bg-base-100 border p-3 overflow-y-hidden w-full"
-    :class="collapseVal ? 'h-fit' : 'h-14'"
+    class="rounded-md bg-base-100 border px-3 py-2 overflow-y-hidden w-full"
+    :class="collapseVal ? 'h-fit' : 'h-12'"
   >
     <input
       type="checkbox"

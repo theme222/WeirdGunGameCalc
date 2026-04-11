@@ -14,20 +14,6 @@ recoilHipVertical: 75.6 - 132.3
 recoilAimVertical: 30.24 - 52.92
 movementSpeed: 0.5
 
-[ Barrel: Chauchat, Magazine: BAR, Grip: Quad-Jolly, Stock: MG42, Core: Auto-5 ]
-damage: 142.025 - 50.126
-dropoffStuds: 80.7084 - 154.691
-pellets: 8
-fireRate: 147.663
-adsSpread: 1.69813
-hipfireSpread: 6.25625
-reloadTime: 4.4
-magazineSize: 20
-health: 8
-recoilHipVertical: 67.5 - 118.125
-recoilAimVertical: 27 - 47.25
-movementSpeed: 1.075
-
 [ Barrel: Chauchat, Magazine: BAR, Grip: Quad-Jolly, Stock: UNP-40, Core: Auto-5 ]
 damage: 142.025 - 50.126
 dropoffStuds: 80.7084 - 154.691
@@ -41,6 +27,20 @@ health: 8
 recoilHipVertical: 81 - 141.75
 recoilAimVertical: 32.4 - 56.7
 movementSpeed: 0.92
+
+[ Barrel: Chauchat, Magazine: BAR, Grip: Quad-Jolly, Stock: MG42, Core: Auto-5 ]
+damage: 142.025 - 50.126
+dropoffStuds: 80.7084 - 154.691
+pellets: 8
+fireRate: 147.663
+adsSpread: 1.69813
+hipfireSpread: 6.25625
+reloadTime: 4.4
+magazineSize: 20
+health: 8
+recoilHipVertical: 67.5 - 118.125
+recoilAimVertical: 27 - 47.25
+movementSpeed: 1.075
 
 [ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: Sten gun, Core: Auto-5 ]
 damage: 146.369 - 49.3812
@@ -98,20 +98,6 @@ recoilHipVertical: 89.208 - 156.114
 recoilAimVertical: 35.6832 - 62.4456
 movementSpeed: 1.375
 
-[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: NP9, Core: Auto-5 ]
-damage: 146.369 - 49.3812
-dropoffStuds: 80.0494 - 153.428
-pellets: 7
-fireRate: 145.464
-adsSpread: 1.69176
-hipfireSpread: 6.23282
-reloadTime: 4.2
-magazineSize: 20
-health: 8
-recoilHipVertical: 85.644 - 149.877
-recoilAimVertical: 34.2576 - 59.9508
-movementSpeed: 0.99
-
 [ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: UNP-40, Core: Auto-5 ]
 damage: 146.369 - 49.3812
 dropoffStuds: 80.0494 - 153.428
@@ -139,4 +125,18 @@ health: 8
 recoilHipVertical: 80.3736 - 140.654
 recoilAimVertical: 32.1494 - 56.2615
 movementSpeed: 2.875
+
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: NP9, Core: Auto-5 ]
+damage: 146.369 - 49.3812
+dropoffStuds: 80.0494 - 153.428
+pellets: 7
+fireRate: 145.464
+adsSpread: 1.69176
+hipfireSpread: 6.23282
+reloadTime: 4.2
+magazineSize: 20
+health: 8
+recoilHipVertical: 85.644 - 149.877
+recoilAimVertical: 34.2576 - 59.9508
+movementSpeed: 0.99
 

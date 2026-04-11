@@ -6801,6 +6801,7 @@
         "ADS_Spread": 0.45,
         "Time_To_Aim": 0.5,
         "Detection_Radius": 80,
+        "Movement_Speed_Modifier": 3.5,
         "Suppression": 0.1,
         "Equip_Time": 0.7,
         "Recoil_Hip_Horizontal": [
