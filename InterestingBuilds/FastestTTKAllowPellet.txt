@@ -84,17 +84,17 @@ recoilAimVertical: 27.489 - 34.3613
 movementSpeed: 3
 TTK: 0.249134 Seconds
 
-[ Barrel: M1 Garand, Magazine: Graphics Card, Grip: Lewis, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 25.6929 - 17.9233
-dropoffStuds: 174.8 - 349.6
+[ Barrel: AWM, Magazine: Graphics Card, Grip: Lewis, Stock: Speed Coil, Core: M1919 .30 Cal ]
+damage: 25.22 - 18.5087
+dropoffStuds: 195.776 - 391.552
 fireRate: 721.05
-adsSpread: 0.682689
-hipfireSpread: 12.2884
+adsSpread: 0.6384
+hipfireSpread: 11.4912
 reloadTime: 4.5
 magazineSize: 38
 health: 10
-recoilHipVertical: 29.2723 - 36.5904
-recoilAimVertical: 14.6362 - 18.2952
+recoilHipVertical: 51.2266 - 64.0332
+recoilAimVertical: 25.6133 - 32.0166
 movementSpeed: 4
 TTK: 0.249636 Seconds
 
@@ -112,17 +112,17 @@ recoilAimVertical: 14.6362 - 18.2952
 movementSpeed: 2
 TTK: 0.249636 Seconds
 
-[ Barrel: AWM, Magazine: Graphics Card, Grip: Lewis, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 25.22 - 18.5087
-dropoffStuds: 195.776 - 391.552
+[ Barrel: M1 Garand, Magazine: Graphics Card, Grip: Lewis, Stock: Speed Coil, Core: M1919 .30 Cal ]
+damage: 25.6929 - 17.9233
+dropoffStuds: 174.8 - 349.6
 fireRate: 721.05
-adsSpread: 0.6384
-hipfireSpread: 11.4912
+adsSpread: 0.682689
+hipfireSpread: 12.2884
 reloadTime: 4.5
 magazineSize: 38
 health: 10
-recoilHipVertical: 51.2266 - 64.0332
-recoilAimVertical: 25.6133 - 32.0166
+recoilHipVertical: 29.2723 - 36.5904
+recoilAimVertical: 14.6362 - 18.2952
 movementSpeed: 4
 TTK: 0.249636 Seconds
 

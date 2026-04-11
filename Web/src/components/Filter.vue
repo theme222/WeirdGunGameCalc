@@ -109,7 +109,7 @@ function removeInputFromList(index) {
       <!-- STRINGARR FILTER -->
       <div v-else-if="filterType === 'stringarr'" class="flex justify-end items-center gap-2 w-full min-w-0 relative">
         <div class="flex-1 min-w-10 h-full">
-          <div class="overflow-x-auto flex h-full items-center bg-base-100 hover:z-100 hover:absolute hover:top-0 hover:left-0 hover:w-fit hover:flex-wrap hover:h-fit">
+          <div class="flex h-full items-center bg-base-100 hover:z-100 hover:absolute hover:top-0 hover:left-0 hover:w-fit hover:flex-wrap hover:h-fit">
             <button
               v-for="(str, index) in model.value"
               class="btn btn-xs md:btn-md btn-ghost hover:btn-error italic shrink-0"

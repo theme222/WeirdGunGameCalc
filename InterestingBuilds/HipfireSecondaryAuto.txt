@@ -26,20 +26,6 @@ recoilAimVertical: 23.76 - 33.264
 movementSpeed: 1.675
 TTK: 0.407808 Seconds
 
-[ Barrel: Car Muffler, Magazine: P90, Grip: PPSh-41, Stock: None, Core: B17 ]
-damage: 9.438 - 5.30888
-dropoffStuds: 20.75 - 98.5625
-fireRate: 1457.62
-adsSpread: 0.381909
-hipfireSpread: 0.933556
-reloadTime: 5.06
-magazineSize: 50
-health: -15
-recoilHipVertical: 40.26 - 56.364
-recoilAimVertical: 24.156 - 33.8184
-movementSpeed: 1.8
-TTK: 0.411629 Seconds
-
 [ Barrel: MP 40, Magazine: P90, Grip: PPSh-41, Stock: None, Core: B17 ]
 damage: 9.2235 - 5.18822
 dropoffStuds: 20.75 - 98.5625
@@ -64,6 +50,20 @@ magazineSize: 50
 recoilHipVertical: 33 - 46.2
 recoilAimVertical: 19.8 - 27.72
 movementSpeed: 1.675
+TTK: 0.411629 Seconds
+
+[ Barrel: Car Muffler, Magazine: P90, Grip: PPSh-41, Stock: None, Core: B17 ]
+damage: 9.438 - 5.30888
+dropoffStuds: 20.75 - 98.5625
+fireRate: 1457.62
+adsSpread: 0.381909
+hipfireSpread: 0.933556
+reloadTime: 5.06
+magazineSize: 50
+health: -15
+recoilHipVertical: 40.26 - 56.364
+recoilAimVertical: 24.156 - 33.8184
+movementSpeed: 1.8
 TTK: 0.411629 Seconds
 
 [ Barrel: AWM, Magazine: MP 40, Grip: Infinity, Stock: None, Core: B17 ]

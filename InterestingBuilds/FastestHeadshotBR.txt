@@ -109,6 +109,20 @@ recoilAimVertical: 62 - 72.075
 movementSpeed: 5.9
 TTK: 0.786118 Seconds
 
+[ Barrel: Car Muffler, Magazine: G43, Grip: Infinity, Stock: FG-42, Core: Winchester ]
+damage: 67.76 - 53.6659
+dropoffStuds: 201.6 - 374.4
+fireRate: 76.0567
+adsSpread: 0.145
+hipfireSpread: 11
+reloadTime: 1.7655
+magazineSize: 11
+health: -10
+recoilHipVertical: 110.288 - 128.21
+recoilAimVertical: 55.144 - 64.1049
+movementSpeed: 5
+TTK: 0.788885 Seconds
+
 [ Barrel: SMO3, Magazine: G43, Grip: Infinity, Stock: FG-42, Core: Winchester ]
 damage: 66.7744 - 52.8853
 dropoffStuds: 201.6 - 374.4
@@ -121,19 +135,5 @@ health: 5
 recoilHipVertical: 90.4 - 105.09
 recoilAimVertical: 45.2 - 52.545
 movementSpeed: 4.75
-TTK: 0.788885 Seconds
-
-[ Barrel: Car Muffler, Magazine: FAL, Grip: Infinity, Stock: FG-42, Core: Winchester ]
-damage: 67.76 - 53.6659
-dropoffStuds: 201.6 - 374.4
-fireRate: 76.0567
-adsSpread: 0.145
-hipfireSpread: 11
-reloadTime: 2.354
-magazineSize: 22
-health: -10
-recoilHipVertical: 123.523 - 143.595
-recoilAimVertical: 61.7613 - 71.7975
-movementSpeed: 2.5
 TTK: 0.788885 Seconds
 

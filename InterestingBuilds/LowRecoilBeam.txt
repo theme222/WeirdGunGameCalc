@@ -1,19 +1,5 @@
 ./wggcalc -o InterestingBuilds/LowRecoilBeam.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 45 --spreadAimMax 0.4 --rangeMin 150 --speedMin 0 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
-[ Barrel: M1897 Trench Shotgun, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
-damage: 14.406 - 9.96778
-dropoffStuds: 156.996 - 335.797
-fireRate: 1398.25
-adsSpread: 0.275712
-hipfireSpread: 8.27137
-reloadTime: 5.6885
-magazineSize: 49
-health: -7.5
-recoilHipVertical: 14.4 - 15.84
-recoilAimVertical: 5.04 - 5.472
-movementSpeed: 4.5
-TTK: 0.257464 Seconds
-
 [ Barrel: Eclair, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
 damage: 14.6941 - 10.4526
 dropoffStuds: 169.344 - 362.208
@@ -25,6 +11,20 @@ magazineSize: 49
 health: -7.5
 recoilHipVertical: 16.56 - 18.216
 recoilAimVertical: 5.796 - 6.2928
+movementSpeed: 4.5
+TTK: 0.257464 Seconds
+
+[ Barrel: M1897 Trench Shotgun, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
+damage: 14.406 - 9.96778
+dropoffStuds: 156.996 - 335.797
+fireRate: 1398.25
+adsSpread: 0.275712
+hipfireSpread: 8.27137
+reloadTime: 5.6885
+magazineSize: 49
+health: -7.5
+recoilHipVertical: 14.4 - 15.84
+recoilAimVertical: 5.04 - 5.472
 movementSpeed: 4.5
 TTK: 0.257464 Seconds
 

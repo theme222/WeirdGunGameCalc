@@ -85,6 +85,34 @@ recoilAimVertical: 72.576 - 84.024
 movementSpeed: 2.5
 TTK: 0.108225 Seconds
 
+[ Barrel: M870 Wingmaster, Magazine: Scar H, Grip: ZIPO-2222, Stock: Auto-5, Core: Siberia-12 ]
+damage: 60.937 - 6.68262
+dropoffStuds: 50.0447 - 111.21
+pellets: 10
+fireRate: 548.1
+adsSpread: 1.84749
+hipfireSpread: 5.54246
+reloadTime: 4.38716
+magazineSize: 20
+recoilHipVertical: 103.75 - 120
+recoilAimVertical: 84 - 97.25
+movementSpeed: 0.925
+TTK: 0.109469 Seconds
+
+[ Barrel: M870 Wingmaster, Magazine: Scar H, Grip: Maple Badger, Stock: Auto-5, Core: Siberia-12 ]
+damage: 60.937 - 8.0059
+dropoffStuds: 51.3279 - 114.062
+pellets: 10
+fireRate: 548.1
+adsSpread: 1.84749
+hipfireSpread: 5.54246
+reloadTime: 4.89037
+magazineSize: 20
+recoilHipVertical: 103.75 - 120
+recoilAimVertical: 84 - 97.25
+movementSpeed: 0.925
+TTK: 0.109469 Seconds
+
 [ Barrel: M870 Wingmaster, Magazine: Scar H, Grip: PineFire, Stock: Auto-5, Core: Siberia-12 ]
 damage: 60.937 - 8.0059
 dropoffStuds: 51.3279 - 114.062
@@ -112,33 +140,5 @@ health: -6
 recoilHipVertical: 103.75 - 120
 recoilAimVertical: 84 - 97.25
 movementSpeed: 2
-TTK: 0.109469 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: Scar H, Grip: ZIPO-2222, Stock: Auto-5, Core: Siberia-12 ]
-damage: 60.937 - 6.68262
-dropoffStuds: 50.0447 - 111.21
-pellets: 10
-fireRate: 548.1
-adsSpread: 1.84749
-hipfireSpread: 5.54246
-reloadTime: 4.38716
-magazineSize: 20
-recoilHipVertical: 103.75 - 120
-recoilAimVertical: 84 - 97.25
-movementSpeed: 0.925
-TTK: 0.109469 Seconds
-
-[ Barrel: M870 Wingmaster, Magazine: Scar H, Grip: Tommy, Stock: Auto-5, Core: Siberia-12 ]
-damage: 60.937 - 8.0059
-dropoffStuds: 51.3279 - 114.062
-pellets: 10
-fireRate: 548.1
-adsSpread: 1.84749
-hipfireSpread: 5.54246
-reloadTime: 5.1975
-magazineSize: 20
-recoilHipVertical: 93.6344 - 108.3
-recoilAimVertical: 75.81 - 87.7681
-movementSpeed: 0.47
 TTK: 0.109469 Seconds
 

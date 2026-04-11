@@ -22,7 +22,7 @@
 
 #ifndef __WGGCALC_HPP__
 #define __WGGCALC_HPP__
-#define __WGGCALC_VERSION__ "2.0.0"
+#define __WGGCALC_VERSION__ "2.0.1"
 
 using fpair = std::pair<float, float>;
 using json = nlohmann::json;
@@ -173,11 +173,44 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         PELLETS = 1<<14, // Part property
         HEALTH = 1<<15, // Part property
         DETECTIONRADIUS = 1<<16, // Part property
-        FALLOFFFACTOR = 1<<17, // Can't be filtered // Part property (range)
+        FALLOFFFACTOR = 1<<17, // Can't be filtered // Part property (Look man I need it for rangeFalloff ik its technically only on the core)
         BURST = 1<<18, // Can't be modified // Core property
         TTK = 1<<19, // Gun property exclusive
         DPS = 1<<20, // Gun property exclusive
     };
+    
+    constexpr bool IsPartProperty(MultFlags flag)
+    {
+        return flag & (
+            DAMAGE | // Part property
+            DROPOFFSTUDS | // Part property (range)
+            DROPOFFSTUDSEND | // Part property (range)
+            RELOAD | // Part property
+            MAGAZINESIZE | // Part property (Magazine)
+            FIRERATE | // Part property
+            EQUIPTIME | // Part property
+            MOVEMENTSPEED | // Part property
+            SPREADAIM | // Part property (spread)
+            SPREADHIP | // Part property (spread)
+            RECOILAIM | // Part property (recoil)
+            RECOILHIP | // Part property (recoil)
+            PELLETS | // Part property
+            HEALTH | // Part property
+            DETECTIONRADIUS // Part property
+        );
+    }
+    
+    constexpr bool IsCoreProperty(MultFlags flag)
+    {
+        return !IsPartProperty(flag);
+        
+    //     DAMAGEEND = 1<<1, // Gun property exclusive
+    //     TIMETOAIM = 1<<7, // Can't be modified // Core property
+    //     FALLOFFFACTOR = 1<<17, // Can't be filtered // Core property 
+    //     BURST = 1<<18, // Can't be modified // Core property
+    //     TTK = 1<<19, // Gun property exclusive
+    //     DPS = 1<<20, // Gun property exclusive
+    }
 
     constexpr bool MoreIsBetter(MultFlags propertyFlag)
     {
@@ -257,8 +290,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
                 throw std::invalid_argument("Invalid property flag");
         }
     }
-
-
+    
     // 1, 50, 0.01, 0.25
     inline float reverseQuadraticDamage[51];
     // 1, 55, 0.005, 0.20
@@ -681,7 +713,7 @@ public:
                 return pellets;
             case DETECTIONRADIUS:
                 return detectionRadius;
-            case FALLOFFFACTOR:
+            case FALLOFFFACTOR: // Is this needed (yes)
             case DROPOFFSTUDS:
             case DROPOFFSTUDSEND:
                 return range;
@@ -1268,13 +1300,13 @@ inline Part operator*(Part part1, Part part2) // Used in highlow
     part1.reloadSpeed *= part2.reloadSpeed;
     part1.magazineCap *= part2.magazineCap;
     part1.health += part2.health;
+    part1.equipTime *= part2.equipTime;
     part1.pellets *= part2.pellets;
     part1.detectionRadius *= part2.detectionRadius;
     part1.range *= part2.range;
     part1.rangeFalloff *= part2.rangeFalloff;
     return part1;
 }
-
 
 
 inline uint64_t totalCombinations;
@@ -1289,7 +1321,7 @@ namespace Filter
     {
         if (Input::pelletRange != NILRANGE_P) currentFlags |= PELLETS;
         if (Input::damageRange != NILRANGE_P) currentFlags |= DAMAGE | PELLETS;
-        if (Input::damageEndRange != NILRANGE_P) currentFlags |= DAMAGE | PELLETS | FALLOFFFACTOR;
+        if (Input::damageEndRange != NILRANGE_P) currentFlags |= DAMAGE | PELLETS | FALLOFFFACTOR | DROPOFFSTUDS;
         if (Input::magazineRange != NILRANGE_P) currentFlags |= MAGAZINESIZE;
         if (Input::movementSpeedRange != NILRANGE_P) currentFlags |= MOVEMENTSPEED;
         if (Input::spreadHipRange != NILRANGE_P) currentFlags |= SPREADHIP | PELLETS;
@@ -1317,7 +1349,7 @@ namespace Filter
                 currentFlags |= DAMAGE | PELLETS | FIRERATE;
                 break;
             case DAMAGEEND:
-                currentFlags |= DROPOFFSTUDS;
+                currentFlags |= DROPOFFSTUDS | FALLOFFFACTOR;
             case DAMAGE:
                 currentFlags |= DAMAGE | PELLETS;
                 break;
@@ -1427,98 +1459,82 @@ namespace Data // Contains the real information read from FullData.json
     inline std::vector<Core> coreList;
 
     // We'll get em next time
-    // namespace Heuristic  // Contains the "heuristic" of sorting the list based on its relation to the current sorting method.
-    // {
-    //     using namespace Fast;
-    //     inline float GetPropertyHeuristic(Fast::MultFlags flag, const Part& part)
-    //     {
-    //         float val = part.GetMult(flag);
-    //         PropertyType propertyType = GetPropertyType(flag);
-    //         if (propertyType == MULTIPLIER) return 1 + val / 100.f;
-    //         else if (propertyType == ADDER) return val;
-    //         else return 1;
-    //     }
+    namespace Heuristic  // Contains the "heuristic" of sorting the list based on its relation to the current sorting method.
+    {
+        using namespace Fast;
+        #define MUL(a) (1 + (a/100))
         
-    //     inline float GetHeuristic(const Magazine& mag) // Specifically to handle mag size and reload
-    //     {
+        inline float GetHeuristic(const Part& part) // A very rough value determining how good a part is to the stat
+        {
+            static_assert(PQ::TOTALSORTFLAGS == 20, "Update GetHeuristic to contain all sorting flags");
             
-    //     }
+            switch (PQ::currentSortingType)
+            {
+                case DAMAGE:
+                    return MUL(part.damage) * MUL(part.pellets);
+                case DAMAGEEND:
+                    return MUL(part.damage) * MUL(part.pellets) * MUL(part.range); // Not perfectly accurate
+                case TIMETOAIM: 
+                case FALLOFFFACTOR: 
+                case BURST: 
+                    return 1.f;
+                case TTK: // QUADRUPLE CHECK THIS PLEASE I KNOW YOU ARE READING THIS PLEASE PLEASE PLEASE
+                    return MUL(-part.damage) * MUL(-part.pellets) * MUL(-part.fireRate);
+                case DPS:
+                    return MUL(part.damage) * MUL(part.pellets) * MUL(part.fireRate);
+                default: 
+                    if (Fast::IsPartProperty(PQ::currentSortingType)) return part.GetMult(PQ::currentSortingType);
+                    else throw std::runtime_error("GetHeuristic called with invalid sorting type");
+            }
+        }
+        
+        inline float GetHeuristic(const Magazine& mag) // Specifically to handle mag size and reload
+        {
+            switch (PQ::currentSortingType)
+            {
+                case MAGAZINESIZE:
+                    return mag.magazineSize * MUL(mag.magazineCap);
+                case RELOAD:
+                    return mag.reloadTime * MUL(mag.reloadSpeed);
+                default:
+                    return GetHeuristic((Part)mag);
+            }
+        }
 
-    //     inline float GetHeuristic(const Part& part) // A very rough value determining how good a part is to the stat
-    //     {
-    //         static_assert(PQ::TOTALSORTFLAGS == 20, "Update GetHeuristic to contain all sorting flags");
-    //         #define GPH GetPropertyHeuristic
-            
-    //         switch (PQ::currentSortingType)
-    //         {
-    //             case DPS:
-    //             case TTK: 
-    //                 return GPH(DAMAGE, part) * GPH(PELLETS, part) * GPH(FIRERATE, part);
-    //             case DAMAGE: return GPH(DAMAGE, part) * GPH(PELLETS, part);
-    //             case DAMAGEEND: return GPH(DAMAGE, part) * GPH(PELLETS, part) * GPH(DROPOFFSTUDS, part);
-    //             default: return GPH(PQ::currentSortingType, part);
-    //         }
-    //     }
          
-    //     inline void SortPartListsWithHeuristic() // O(n log n) so no worries
-    //     {
-    //         PQ::AllSortStruct sorter;
+        inline void SortPartListsWithHeuristic() // O(n log n) so no worries
+        {
+            puts("Sorting part lists with heuristic");
+            PQ::AllSortStruct sorter;
             
-    //         std::sort(coreList.begin(), coreList.end(), [&](const Core& core1, const Core& core2) -> bool {
-    //             Gun gun1(&core1), gun2(&core2);
-    //             gun1.CopyCoreValues(Filter::currentFlags);
-    //             gun2.CopyCoreValues(Filter::currentFlags);
-    //             return sorter(gun2, gun1); // reversed so it is high to low
-    //         });
+            std::sort(coreList.begin(), coreList.end(), [&](const Core& core1, const Core& core2) -> bool {
+                Gun gun1(&core1), gun2(&core2);
+                gun1.CopyCoreValues(Filter::currentFlags);
+                gun2.CopyCoreValues(Filter::currentFlags);
+                return sorter(gun1, gun2); // reversed so it is high to low
+            });
 
-    //         // Sorting magazine list
-    //         std::sort(magazineList.begin(), magazineList.end(), [&](const Magazine& mag1, const Magazine& mag2) -> bool {
-    //             Gun gun1 = sampleGunWithCore1, gun2 = sampleGunWithCore2;
-    //             gun1.magazine = &mag1;
-    //             gun2.magazine = &mag2;
-                
-    //             gun1.CopyMagazineValues(Filter::currentFlags);
-    //             gun2.CopyMagazineValues(Filter::currentFlags);
-    //             gun1.CalculatePartialGunStats(Filter::currentFlags, &mag1, true);
-    //             gun2.CalculatePartialGunStats(Filter::currentFlags, &mag2, true);
-    //             std::cout << gun1;
-    //             return sorter(gun2, gun1);
-    //         });
-            
-    //         // Setting barrel, stock and grip as a member var with (gun.barrel = b) 
-    //         // when calling CalculatePartialGunStats doesn't do anything 
-    //         // since we have to specify the part in the args anyways
+            // Sorting magazine list
+            std::sort(magazineList.begin(), magazineList.end(), [&](const Magazine& mag1, const Magazine& mag2) -> bool {
+                return sorter(GetHeuristic(mag1), GetHeuristic(mag2));
+            });
              
-    //         // Sorting barrel list
-    //         std::sort(barrelList.begin(), barrelList.end(), [&](const Barrel& barrel1, const Barrel& barrel2) -> bool {
-    //             Gun gun1 = sampleGunWithCoreMag1, gun2 = sampleGunWithCoreMag2;
-    //             gun1.CalculatePartialGunStats(Filter::currentFlags, &barrel1, true);
-    //             gun2.CalculatePartialGunStats(Filter::currentFlags, &barrel2, true);
-                
-    //             return sorter(gun2, gun1);
-    //         });
+            // Sorting barrel list
+            std::sort(barrelList.begin(), barrelList.end(), [&](const Barrel& barrel1, const Barrel& barrel2) -> bool {
+                return sorter(GetHeuristic(barrel1), GetHeuristic(barrel2));
+            });
 
+            // Sorting stock list
+            std::sort(stockList.begin(), stockList.end(), [&](const Stock& stock1, const Stock& stock2) -> bool {
+                return sorter(GetHeuristic(stock1), GetHeuristic(stock2));
+            });
 
-    //         // Sorting stock list
-    //         std::sort(stockList.begin(), stockList.end(), [&](const Stock& stock1, const Stock& stock2) -> bool {
-    //             Gun gun1 = sampleGunWithCoreMag1, gun2 = sampleGunWithCoreMag2;
-    //             gun1.CalculatePartialGunStats(Filter::currentFlags, &stock1, true);
-    //             gun2.CalculatePartialGunStats(Filter::currentFlags, &stock2, true);
-                
-    //             return sorter(gun2, gun1);
-    //         });
-
-
-    //         // Sorting grip list
-    //         std::sort(gripList.begin(), gripList.end(), [&](const Grip& grip1, const Grip& grip2) -> bool {
-    //             Gun gun1 = sampleGunWithCoreMag1, gun2 = sampleGunWithCoreMag2;
-    //             gun1.CalculatePartialGunStats(Filter::currentFlags, &grip1, true);
-    //             gun2.CalculatePartialGunStats(Filter::currentFlags, &grip2, true);
-                
-    //             return sorter(gun2, gun1);
-    //         });
-    //     }
-    // }
+            // Sorting grip list
+            std::sort(gripList.begin(), gripList.end(), [&](const Grip& grip1, const Grip& grip2) -> bool {
+                return sorter(GetHeuristic(grip1), GetHeuristic(grip2));
+            });
+        }
+    }
 
 }
 
@@ -1826,7 +1842,16 @@ namespace DynamicPrune
             }
 
             float highDamage = (damage * maxDamageMult * highFalloffFactor) + (damage * maxDamageMult);
-            float lowDamage = (damage * minDamageMult * lowFalloffFactor) + (damage * minDamageMult);
+           
+            // Lowest ending damage needs to consider 3 scenarios: 
+            // falloff in range (-inf, -1] | We want high damage to allow falloff to turn the whole thing negative
+            // and falloff in range (-1, 0] | We want low damage to make falloff bring it near zero 
+            // and falloff in range [0, inf) | We want low damage to not make falloff go so high 
+             
+            float lowDamage = lowFalloffFactor <= -1 ? 
+                (damage * maxDamageMult * lowFalloffFactor) + (damage * maxDamageMult) : 
+                (damage * minDamageMult * lowFalloffFactor) + (damage * minDamageMult);
+            
             if (!ValueOffsetFilter(lowDamage, highDamage, Input::damageEndRange)) return false;
         }
 
@@ -1932,7 +1957,7 @@ namespace DynamicPrune
             case DPS: // high DPS -> high damage\\ high firerate -> normal
             {
                 float bestDamage = gun.damage;
-                float bestFireRate = gun.fireRate * antiPPC.fireRate;
+                float bestFireRate = gun.fireRate * normalPPC.fireRate;
 
                 float damageMult = ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, DAMAGE);
                 bestDamage *= damageMult;
@@ -1948,15 +1973,24 @@ namespace DynamicPrune
                 gunValue =  gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, DAMAGE);
                 break;
 
-            case DAMAGEEND: // high damageEnd -> high damage\\ (high or low) falloffFactor -> normal
+            case DAMAGEEND: // Uhhhhhhh 
             {
                 float bestBaseDamage = gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, DAMAGE);
+                float worstBaseDamage = gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, antiPP, DAMAGE);
+                
                 float bestFalloffFactor;
-                if (gun.falloffFactor > 0)
-                    bestFalloffFactor = gun.falloffFactor * normalPPC.rangeFalloff;
-                else
-                    bestFalloffFactor = gun.falloffFactor * antiPPC.rangeFalloff;
-                gunValue = (bestBaseDamage * bestFalloffFactor) + bestBaseDamage;
+                if (gun.falloffFactor > 0) bestFalloffFactor = gun.falloffFactor * normalPPC.rangeFalloff;
+                else bestFalloffFactor = gun.falloffFactor * antiPPC.rangeFalloff;
+                
+                
+                if (PQ::sortPriority == PQ::HIGHEST) gunValue = (bestBaseDamage * bestFalloffFactor) + bestBaseDamage;
+                
+                // This is where it will be very confusing
+                else // if (PQ::sortPriority == PQ::LOWEST)
+                    gunValue = bestFalloffFactor <= -1 ?
+                        (worstBaseDamage * bestFalloffFactor) + worstBaseDamage : // Highest damage
+                        (bestBaseDamage * bestFalloffFactor) + bestBaseDamage; // Lowest damage
+                break;
             }
 
             case SPREADAIM: // high spreadAim -> high spread\\ -> normal
@@ -1994,8 +2028,10 @@ namespace DynamicPrune
                 }
             }
         }
+        
 
         float threshold = currentBestThreshold_a.load();
+        
         if (PQ::sortPriority == PQ::HIGHEST)
             return gunValue > threshold;
         else if (PQ::sortPriority == PQ::LOWEST)

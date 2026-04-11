@@ -126,17 +126,17 @@ recoilAimVertical: 6.1254 - 6.73794
 movementSpeed: -2.76
 TTK: 0.203414 Seconds
 
-[ Barrel: G3, Magazine: P90, Grip: Tap, Stock: Speed Coil, Core: SKS ]
+[ Barrel: G3, Magazine: P90, Grip: Barret .50, Stock: Speed Coil, Core: SKS ]
 damage: 33.8957 - 22.5128
 dropoffStuds: 152.041 - 467.82
 fireRate: 583.737
-adsSpread: 0.297206
-hipfireSpread: 5.94412
+adsSpread: 0.25844
+hipfireSpread: 5.1688
 reloadTime: 3
 magazineSize: 38
 health: -5
-recoilHipVertical: 12.7512 - 14.0263
-recoilAimVertical: 6.3756 - 7.01316
-movementSpeed: 16.8
+recoilHipVertical: 13.1064 - 14.4171
+recoilAimVertical: 6.55321 - 7.20853
+movementSpeed: 10.8
 TTK: 0.205572 Seconds
 

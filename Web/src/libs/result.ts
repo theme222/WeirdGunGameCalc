@@ -5,7 +5,7 @@ import { latestResult } from "./calc";
 import type { fpair, Gun } from "./types";
 
 export const statsToCompare = reactive(filterPropStrings.map((stat) => ({ stat, show: false })));
-const statsToShowDefault: (typeof filterPropStrings)[number][] = ['TTK', 'Damage Start', 'Fire Rate', 'Magazine Size', 'DropoffStuds End', 'DropoffStuds Start', 'Spread Aim', 'Spread Hip', 'Speed', 'Health', 'Recoil Aim', 'Recoil Hip']; // Truly one of the typescript moments of all time
+const statsToShowDefault: (typeof filterPropStrings)[number][] = ['TTK', 'Damage Start', 'Damage End', 'Fire Rate', 'Magazine Size', 'DropoffStuds End', 'DropoffStuds Start', 'Spread Aim', 'Spread Hip', 'Speed', 'Health', 'Recoil Aim', 'Recoil Hip', 'Reload Time']; // Truly one of the typescript moments of all time
 statsToShowDefault.forEach((stat) => statsToCompare.find((s) => s.stat === stat)!.show = true);
 
 export const currentSortingType = ref('TTK');
