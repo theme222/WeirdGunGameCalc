@@ -56,20 +56,6 @@ recoilHipVertical: 90.9144 - 159.1
 recoilAimVertical: 36.3658 - 63.6401
 movementSpeed: 1.9
 
-[ Barrel: Chauchat, Magazine: BAR, Grip: UNP-40, Stock: P90, Core: Auto-5 ]
-damage: 142.025 - 51.4841
-dropoffStuds: 81.9375 - 157.047
-pellets: 8
-fireRate: 145.815
-adsSpread: 1.68829
-hipfireSpread: 6.22002
-reloadTime: 3.87
-magazineSize: 20
-health: 8
-recoilHipVertical: 105.84 - 185.22
-recoilAimVertical: 42.336 - 74.088
-movementSpeed: 0.0749999
-
 [ Barrel: Chauchat, Magazine: BAR, Grip: NP9, Stock: P90, Core: Auto-5 ]
 damage: 142.025 - 51.4841
 dropoffStuds: 81.9375 - 157.047
@@ -98,19 +84,19 @@ recoilHipVertical: 75.6 - 132.3
 recoilAimVertical: 30.24 - 52.92
 movementSpeed: 2.45
 
-[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: NP9, Core: Auto-5 ]
-damage: 146.369 - 49.3812
-dropoffStuds: 80.0494 - 153.428
-pellets: 7
-fireRate: 145.464
-adsSpread: 1.69176
-hipfireSpread: 6.23282
-reloadTime: 4.2
+[ Barrel: Chauchat, Magazine: BAR, Grip: UNP-40, Stock: P90, Core: Auto-5 ]
+damage: 142.025 - 51.4841
+dropoffStuds: 81.9375 - 157.047
+pellets: 8
+fireRate: 145.815
+adsSpread: 1.68829
+hipfireSpread: 6.22002
+reloadTime: 3.87
 magazineSize: 20
 health: 8
-recoilHipVertical: 85.644 - 149.877
-recoilAimVertical: 34.2576 - 59.9508
-movementSpeed: 0.99
+recoilHipVertical: 105.84 - 185.22
+recoilAimVertical: 42.336 - 74.088
+movementSpeed: 0.0749999
 
 [ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: MP 40, Core: Auto-5 ]
 damage: 146.369 - 49.3812
@@ -139,4 +125,18 @@ health: 8
 recoilHipVertical: 79.056 - 138.348
 recoilAimVertical: 31.6224 - 55.3392
 movementSpeed: 0.47
+
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: NP9, Core: Auto-5 ]
+damage: 146.369 - 49.3812
+dropoffStuds: 80.0494 - 153.428
+pellets: 7
+fireRate: 145.464
+adsSpread: 1.69176
+hipfireSpread: 6.23282
+reloadTime: 4.2
+magazineSize: 20
+health: 8
+recoilHipVertical: 85.644 - 149.877
+recoilAimVertical: 34.2576 - 59.9508
+movementSpeed: 0.99
 

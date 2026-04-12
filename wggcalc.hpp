@@ -1511,6 +1511,13 @@ namespace Data // Contains the real information read from FullData.json
                 Gun gun1(&core1), gun2(&core2);
                 gun1.CopyCoreValues(Filter::currentFlags);
                 gun2.CopyCoreValues(Filter::currentFlags);
+                
+                // Define some random stats for the magazine size 
+                gun1.magazine = magazineList.data();
+                gun2.magazine = magazineList.data();
+                gun1.CopyMagazineValues(Filter::currentFlags);
+                gun2.CopyMagazineValues(Filter::currentFlags);
+                
                 return sorter(gun1, gun2); // reversed so it is high to low
             });
 
@@ -2031,6 +2038,7 @@ namespace DynamicPrune
         
 
         float threshold = currentBestThreshold_a.load();
+        // std::cout << "value: " << gunValue << " threshold: " << threshold << '\n';
         
         if (PQ::sortPriority == PQ::HIGHEST)
             return gunValue > threshold;

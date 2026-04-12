@@ -98,19 +98,19 @@ recoilHipVertical: 72.675 - 116.28
 recoilAimVertical: 29.07 - 46.512
 movementSpeed: 0.625
 
-[ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: MG42, Core: Spas-12 ]
+[ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: The Chief, Core: Spas-12 ]
 damage: 124.377 - -23.4182
 dropoffStuds: 38.715 - 89.0445
 pellets: 6
 fireRate: 223.1
-adsSpread: 0.784582
-hipfireSpread: 3.13833
-reloadTime: 2.75
+adsSpread: 0.83045
+hipfireSpread: 3.3218
+reloadTime: 2.325
 magazineSize: 30
 health: 6
-recoilHipVertical: 103.455 - 165.528
-recoilAimVertical: 41.382 - 66.2112
-movementSpeed: 2.77
+recoilHipVertical: 121.042 - 193.668
+recoilAimVertical: 48.4169 - 77.4671
+movementSpeed: 0.145
 
 [ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: FAL, Core: Spas-12 ]
 damage: 124.377 - -18.9843
@@ -126,17 +126,17 @@ recoilHipVertical: 134.491 - 215.186
 recoilAimVertical: 53.7966 - 86.0746
 movementSpeed: 0.265
 
-[ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: The Chief, Core: Spas-12 ]
+[ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: MG42, Core: Spas-12 ]
 damage: 124.377 - -23.4182
 dropoffStuds: 38.715 - 89.0445
 pellets: 6
 fireRate: 223.1
-adsSpread: 0.83045
-hipfireSpread: 3.3218
-reloadTime: 2.325
+adsSpread: 0.784582
+hipfireSpread: 3.13833
+reloadTime: 2.75
 magazineSize: 30
 health: 6
-recoilHipVertical: 121.042 - 193.668
-recoilAimVertical: 48.4169 - 77.4671
-movementSpeed: 0.145
+recoilHipVertical: 103.455 - 165.528
+recoilAimVertical: 41.382 - 66.2112
+movementSpeed: 2.77
 
