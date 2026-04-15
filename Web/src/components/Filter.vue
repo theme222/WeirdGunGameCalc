@@ -102,6 +102,7 @@ function removeInputFromList(index) {
           :step="1"
           :scrollStep="1"
           :min="0"
+          class="max-w-35"
         />
       </div>
       <!-- NUMBER FILTER -->
@@ -109,7 +110,7 @@ function removeInputFromList(index) {
       <!-- STRINGARR FILTER -->
       <div v-else-if="filterType === 'stringarr'" class="flex justify-end items-center gap-2 w-full min-w-0 relative">
         <div class="flex-1 min-w-10 h-full">
-          <div class="flex h-full items-center bg-base-100 hover:z-100 hover:absolute hover:top-0 hover:left-0 hover:w-fit hover:flex-wrap hover:h-fit">
+          <div class="flex h-full items-center bg-base-100 overflow-x-clip hover:z-100 hover:absolute hover:top-0 hover:left-0 hover:w-fit hover:flex-wrap hover:h-fit">
             <button
               v-for="(str, index) in model.value"
               class="btn btn-xs md:btn-md btn-ghost hover:btn-error italic shrink-0"
@@ -143,7 +144,7 @@ function removeInputFromList(index) {
           <option v-for="opt in options" :key="opt">{{ opt }}</option>
         </select>
         <NumberInput
-          class="max-w-20"
+          class="max-w-23"
           v-model="model.value[0]"
           :color="color"
           :step="0.001"
@@ -151,7 +152,7 @@ function removeInputFromList(index) {
         />
         <p v-if="model.selectedOption === 'from'">-</p>
         <NumberInput
-          class="max-w-20"
+          class="max-w-23"
           v-if="model.selectedOption === 'from'"
           v-model="model.value[1]"
           :color="color"

@@ -46,3 +46,7 @@ export function getFilterAsProperty(gun: Gun, filterName: (typeof propertyString
    if (typeof value === 'number') return parseFloat(value.toFixed(3)).toString();
    return `${parseFloat(value[0].toFixed(3))} - ${parseFloat(value[1].toFixed(3))}`;
  }
+ 
+ export function ffvNumber(value: number): number { // Format filter value as number
+   return parseFloat(value.toFixed(3));
+ }

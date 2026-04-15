@@ -92,6 +92,33 @@ recoilHipVertical: 57.5 - 69
 recoilAimVertical: 31.625 - 37.95
 TTK: 0.265928 Seconds
 
+[ Barrel: M870 MCS, Magazine: Roto-Fire, Grip: Double Barrel, Stock: Speed Coil, Core: M1919 .30 Cal ]
+damage: 34.318 - 23.3176
+dropoffStuds: 164.312 - 328.624
+fireRate: 451
+adsSpread: 0.62125
+hipfireSpread: 11.1825
+reloadTime: 4.5375
+magazineSize: 38
+health: 10
+recoilHipVertical: 47.52 - 59.4
+recoilAimVertical: 23.76 - 29.7
+movementSpeed: 2
+TTK: 0.266075 Seconds
+
+[ Barrel: Type 99, Magazine: Roto-Fire, Grip: Double Barrel, Stock: Speed Coil, Core: M1919 .30 Cal ]
+damage: 34.1628 - 23.8319
+dropoffStuds: 174.8 - 349.6
+fireRate: 451
+adsSpread: 0.595
+hipfireSpread: 10.71
+reloadTime: 4.33125
+magazineSize: 38
+health: 10
+recoilHipVertical: 47.52 - 59.4
+recoilAimVertical: 23.76 - 29.7
+TTK: 0.266075 Seconds
+
 [ Barrel: M870 MCS, Magazine: Roto-Fire, Grip: Type 2a Nambu, Stock: Speed Coil, Core: M1919 .30 Cal ]
 damage: 33.7576 - 22.9368
 dropoffStuds: 164.312 - 328.624
@@ -103,34 +130,6 @@ magazineSize: 38
 health: 2.5
 recoilHipVertical: 32.472 - 40.59
 recoilAimVertical: 16.236 - 20.295
-movementSpeed: 4
-TTK: 0.266075 Seconds
-
-[ Barrel: Type 99, Magazine: Roto-Fire, Grip: G43, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 33.718 - 23.5217
-dropoffStuds: 174.8 - 349.6
-fireRate: 451
-adsSpread: 0.595
-hipfireSpread: 10.71
-reloadTime: 4.33125
-magazineSize: 30
-health: 10
-recoilHipVertical: 22.5852 - 28.2315
-recoilAimVertical: 11.2926 - 14.1158
-movementSpeed: 2
-TTK: 0.266075 Seconds
-
-[ Barrel: M870 MCS, Magazine: Roto-Fire, Grip: G43, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 33.8713 - 23.0141
-dropoffStuds: 164.312 - 328.624
-fireRate: 451
-adsSpread: 0.62125
-hipfireSpread: 11.1825
-reloadTime: 4.5375
-magazineSize: 30
-health: 10
-recoilHipVertical: 22.5852 - 28.2315
-recoilAimVertical: 11.2926 - 14.1158
 movementSpeed: 4
 TTK: 0.266075 Seconds
 

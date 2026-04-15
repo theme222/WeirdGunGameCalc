@@ -26,6 +26,19 @@ recoilHipVertical: 216.281 - 259.537
 recoilAimVertical: 110.303 - 147.071
 movementSpeed: -4
 
+[ Barrel: M2000, Magazine: Snake Sniper, Grip: Arisaka, Stock: Speed Coil, Core: Barret .50 ]
+damage: 100.789 - 58.9669
+dropoffStuds: 209 - 449.35
+fireRate: 71.28
+adsSpread: 0.276091
+hipfireSpread: 11.0436
+reloadTime: 4.125
+magazineSize: 5
+health: -16
+recoilHipVertical: 189.72 - 227.664
+recoilAimVertical: 96.7572 - 129.01
+movementSpeed: 6
+
 [ Barrel: M2000, Magazine: Snake Sniper, Grip: AWM, Stock: Speed Coil, Core: Barret .50 ]
 damage: 100.789 - 58.9669
 dropoffStuds: 209 - 449.35
@@ -39,31 +52,18 @@ recoilHipVertical: 204.898 - 245.877
 recoilAimVertical: 104.498 - 139.33
 movementSpeed: -2
 
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Pancake Hammer, Stock: Speed Coil, Core: Barret .50 ]
+[ Barrel: M2000, Magazine: Snake Sniper, Grip: AKM, Stock: Speed Coil, Core: Barret .50 ]
 damage: 100.789 - 58.9669
 dropoffStuds: 209 - 449.35
 fireRate: 71.28
-adsSpread: 0.296715
-hipfireSpread: 11.8686
-reloadTime: 4.026
+adsSpread: 0.290727
+hipfireSpread: 11.6291
+reloadTime: 4.0095
 magazineSize: 5
 health: -10
-recoilHipVertical: 341.496 - 409.795
-recoilAimVertical: 174.163 - 232.217
+recoilHipVertical: 220.075 - 264.09
+recoilAimVertical: 112.238 - 149.651
 movementSpeed: -2
-
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Snake Sniper, Stock: Speed Coil, Core: Barret .50 ]
-damage: 100.789 - 63.1491
-dropoffStuds: 229.9 - 494.285
-fireRate: 71.28
-adsSpread: 0.252806
-hipfireSpread: 10.1123
-reloadTime: 4.125
-magazineSize: 5
-health: -10
-recoilHipVertical: 231.458 - 277.75
-recoilAimVertical: 118.044 - 157.392
-movementSpeed: -3.5
 
 [ Barrel: M2000, Magazine: Snake Sniper, Grip: Burton, Stock: Speed Coil, Core: Barret .50 ]
 damage: 100.789 - 58.1305
@@ -104,29 +104,29 @@ recoilHipVertical: 237.15 - 284.58
 recoilAimVertical: 120.947 - 161.262
 movementSpeed: -4.5
 
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Arisaka, Stock: Speed Coil, Core: Barret .50 ]
+[ Barrel: M2000, Magazine: Snake Sniper, Grip: Pancake Hammer, Stock: Speed Coil, Core: Barret .50 ]
 damage: 100.789 - 58.9669
 dropoffStuds: 209 - 449.35
 fireRate: 71.28
-adsSpread: 0.276091
-hipfireSpread: 11.0436
-reloadTime: 4.125
-magazineSize: 5
-health: -16
-recoilHipVertical: 189.72 - 227.664
-recoilAimVertical: 96.7572 - 129.01
-movementSpeed: 6
-
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: AKM, Stock: Speed Coil, Core: Barret .50 ]
-damage: 100.789 - 58.9669
-dropoffStuds: 209 - 449.35
-fireRate: 71.28
-adsSpread: 0.290727
-hipfireSpread: 11.6291
-reloadTime: 4.0095
+adsSpread: 0.296715
+hipfireSpread: 11.8686
+reloadTime: 4.026
 magazineSize: 5
 health: -10
-recoilHipVertical: 220.075 - 264.09
-recoilAimVertical: 112.238 - 149.651
+recoilHipVertical: 341.496 - 409.795
+recoilAimVertical: 174.163 - 232.217
 movementSpeed: -2
+
+[ Barrel: M2000, Magazine: Snake Sniper, Grip: Snake Sniper, Stock: Speed Coil, Core: Barret .50 ]
+damage: 100.789 - 63.1491
+dropoffStuds: 229.9 - 494.285
+fireRate: 71.28
+adsSpread: 0.252806
+hipfireSpread: 10.1123
+reloadTime: 4.125
+magazineSize: 5
+health: -10
+recoilHipVertical: 231.458 - 277.75
+recoilAimVertical: 118.044 - 157.392
+movementSpeed: -3.5
 

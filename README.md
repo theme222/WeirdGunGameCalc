@@ -143,9 +143,9 @@ The directory structure should look like this:
 ```
 
 ### Run
+Replace wggcalc with wggcalc.exe if on Windows
 ```sh
-# Replace wggcalc with wggcalc.exe if on Windows
-g++ -Iinclude -std=c++20 wggcalc-cli.cpp -o wggcalc -O3 -flto -Werror -static -march=native -pthread
+g++ -Iinclude -std=c++20 wggcalc-cli.cpp -o wggcalc -O3 -flto -Werror -march=native -pthread
 ```
 No idea how to use cmake lol
 

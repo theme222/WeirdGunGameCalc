@@ -133,7 +133,7 @@ onMounted(() => {
             :id="index"
           />
         </TransitionGroup>
-        <div v-else class="w-full h-160 flex justify-center items-center">
+        <div v-else class="w-full h-150 flex justify-center items-center">
           <img src="/noguns.jpg" class="w-60 h-70 opacity-5 select-none" />
         </div>
       </div>

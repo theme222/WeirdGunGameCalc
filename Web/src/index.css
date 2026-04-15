@@ -6,3 +6,24 @@
 body {
   font-family: 'Nunito', ui-rounded, sans-serif;
 }
+
+/* Remove arrows from number inputs*/
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Remove arrows from number inputs*/
+
+.cursor-ew-resize-lock * { 
+  /* Used in NumberInput.vue */
+  cursor: ew-resize !important; 
+}

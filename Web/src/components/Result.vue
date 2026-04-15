@@ -51,9 +51,9 @@ function minimizeStatList(stats) {
       class="font-semibold flex justify-between items-center pb-2 gap-8 cursor-pointer relative"
       :for="`collapse-val-${props.id}`"
     >
-      <div class="flex items-center gap-2 shrink-0">
+      <div class="flex items-center  shrink-0">
         <div class="text-2xl font-light opacity-30 tabular-nums">{{ props.id + 1 }}</div>
-        <div class="font-black rounded-md tooltip tooltip-right md:text-lg mr-4" data-tip="sort">
+        <div class="font-black rounded-md tooltip tooltip-right md:text-lg mx-4" data-tip="sort">
           {{ currentSortingType }}:
           {{ ffv(getFilterAsProperty(toRaw(props.gun), currentSortingType)) }}
         </div>
@@ -65,7 +65,7 @@ function minimizeStatList(stats) {
           :data-tip="key"
         >
           <!-- <p class="status bg-white status-sm mr-2 hidden md:inline-block"/> -->
-          <div>{{ props.gun[key] }}</div>
+          <div v-if="props.gun[key] != 'None'" class="ml-2">{{ props.gun[key] }}</div>
         </div>
       </div>
       <div class="sticky right-0 flex justify-end items-center size-5">
