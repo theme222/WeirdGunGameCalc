@@ -98,44 +98,48 @@ recoilAimVertical: 2.511 - 5.859
 movementSpeed: 7.5
 TTK: 0.317642 Seconds
 
-[ Barrel: Dominus, Magazine: Five-7, Grip: Snake Sniper, Stock: None, Core: Type 14 ]
-damage: 25.5 - 14.5209
-dropoffStuds: 40.0575 - 91.56
-fireRate: 559.44
-adsSpread: 0.280566
-hipfireSpread: 0.785585
-reloadTime: 2.18
+[ Barrel: Volley, Magazine: BAR, Grip: X-Blaster, Stock: None, Core: Type 14 ]
+damage: 35.1472 - 20.2288
+dropoffStuds: 40.3988 - 92.34
+pellets: 7
+fireRate: 376.2
+adsSpread: 0.342262
+hipfireSpread: 0.958335
+reloadTime: 4
 magazineSize: 20
-health: -10
-recoilHipVertical: 9.0768 - 21.1792
-recoilAimVertical: 1.81536 - 4.23584
-movementSpeed: 12.5
-TTK: 0.32175 Seconds
+health: -8.05
+recoilHipVertical: 14.985 - 34.965
+recoilAimVertical: 2.997 - 6.993
+movementSpeed: 10.775
+TTK: 0.318979 Seconds
 
-[ Barrel: Dominus, Magazine: Paintball, Grip: Circuit Judge, Stock: None, Core: Luger ]
-damage: 16.6992 - 8.3496
-dropoffStuds: 40 - 100
-fireRate: 925.12
-adsSpread: 0.555638
-hipfireSpread: 0.555638
-reloadTime: 6.758
-magazineSize: 70
-recoilHipVertical: 1.24 - 2.48
-recoilAimVertical: 0.372 - 0.744
-movementSpeed: 5
-TTK: 0.324282 Seconds
-
-[ Barrel: Deagle, Magazine: BAR, Grip: Kriss Vector, Stock: None, Core: Type 14 ]
-damage: 34.9988 - 20.3569
-dropoffStuds: 40.95 - 93.6
-fireRate: 367.092
-adsSpread: 0.297
-hipfireSpread: 0.8316
+[ Barrel: Volley, Magazine: BAR, Grip: Snake Sniper, Stock: None, Core: Type 14 ]
+damage: 35.1472 - 20.5964
+dropoffStuds: 41.3438 - 94.5
+pellets: 7
+fireRate: 376.2
+adsSpread: 0.255246
+hipfireSpread: 0.71469
 reloadTime: 4
 magazineSize: 20
 health: -10
-recoilHipVertical: 11.425 - 26.6584
-recoilAimVertical: 2.28501 - 5.33169
-movementSpeed: 7.875
-TTK: 0.326894 Seconds
+recoilHipVertical: 18.2817 - 42.6573
+recoilAimVertical: 3.65634 - 8.53146
+movementSpeed: 7
+TTK: 0.318979 Seconds
+
+[ Barrel: Volley, Magazine: BAR, Grip: L8, Stock: None, Core: Type 14 ]
+damage: 35.1472 - 20.1293
+dropoffStuds: 40.1428 - 91.755
+pellets: 7
+fireRate: 376.2
+adsSpread: 0.290053
+hipfireSpread: 0.812148
+reloadTime: 4
+magazineSize: 20
+health: -10
+recoilHipVertical: 13.7188 - 32.0105
+recoilAimVertical: 2.74375 - 6.40209
+movementSpeed: 8.5
+TTK: 0.318979 Seconds
 

@@ -1,132 +1,129 @@
 ./wggcalc -o InterestingBuilds/Fastest1TapMediumRange.txt -i Sniper --damageMin 100 --speedMin -5 --rangeMin 150 --sort FIRERATE --spreadAimMax 0.3 
 Current top 10 guns are: 
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: MG42, Stock: Speed Coil, Core: Barret .50 ]
-damage: 100.789 - 58.9669
-dropoffStuds: 209 - 449.35
-fireRate: 73.561
-adsSpread: 0.298045
-hipfireSpread: 11.9218
-reloadTime: 4.125
-magazineSize: 5
-health: -10
-recoilHipVertical: 195.412 - 234.494
-recoilAimVertical: 99.6599 - 132.88
-movementSpeed: -4.5
+[ Barrel: M40, Magazine: Fat Cat, Grip: Controller, Stock: Speed Coil, Core: Barret .50 ]
+damage: 232.218 - 155.743
+dropoffStuds: 250 - 537.5
+fireRate: 112.167
+adsSpread: 0.29568
+hipfireSpread: 11.8272
+reloadTime: 12
+magazineSize: 1
+health: 5
+recoilHipVertical: 97.47 - 116.964
+recoilAimVertical: 49.7097 - 66.2796
+movementSpeed: -2
 
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Controller, Stock: Speed Coil, Core: Barret .50 ]
-damage: 100.789 - 58.9669
-dropoffStuds: 209 - 449.35
-fireRate: 73.4184
-adsSpread: 0.292723
-hipfireSpread: 11.7089
-reloadTime: 4.125
-magazineSize: 5
-health: -10
-recoilHipVertical: 216.281 - 259.537
-recoilAimVertical: 110.303 - 147.071
+[ Barrel: M40, Magazine: Fat Cat, Grip: Auto-5, Stock: Speed Coil, Core: Barret .50 ]
+damage: 226.413 - 151.85
+dropoffStuds: 250 - 537.5
+fireRate: 112.167
+adsSpread: 0.29568
+hipfireSpread: 11.8272
+reloadTime: 12
+magazineSize: 1
+health: 5
+recoilHipVertical: 80.37 - 96.444
+recoilAimVertical: 40.9887 - 54.6516
+
+[ Barrel: Spray Can, Magazine: Fat Cat, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
+damage: 242.539 - 124.326
+dropoffStuds: 178 - 382.7
+fireRate: 111.672
+adsSpread: 0.273
+hipfireSpread: 10.92
+reloadTime: 12
+magazineSize: 1
+health: 5
+recoilHipVertical: 124.2 - 149.04
+recoilAimVertical: 63.342 - 84.456
+movementSpeed: -1.5
+
+[ Barrel: M40, Magazine: Fat Cat, Grip: Pancake Hammer, Stock: Speed Coil, Core: Barret .50 ]
+damage: 232.218 - 155.743
+dropoffStuds: 250 - 537.5
+fireRate: 108.9
+adsSpread: 0.299712
+hipfireSpread: 11.9885
+reloadTime: 11.712
+magazineSize: 1
+health: 5
+recoilHipVertical: 153.9 - 184.68
+recoilAimVertical: 78.489 - 104.652
+
+[ Barrel: M40, Magazine: Fat Cat, Grip: Burton, Stock: Speed Coil, Core: Barret .50 ]
+damage: 232.218 - 154.214
+dropoffStuds: 245 - 526.75
+fireRate: 108.9
+adsSpread: 0.29568
+hipfireSpread: 11.8272
+reloadTime: 11.616
+magazineSize: 1
+health: 5
+recoilHipVertical: 85.5 - 102.6
+recoilAimVertical: 43.605 - 58.14
+movementSpeed: -3
+
+[ Barrel: M40, Magazine: Fat Cat, Grip: M1919 .30 Cal, Stock: Speed Coil, Core: Barret .50 ]
+damage: 232.218 - 155.743
+dropoffStuds: 250 - 537.5
+fireRate: 108.9
+adsSpread: 0.292992
+hipfireSpread: 11.7197
+reloadTime: 10.176
+magazineSize: 1
+health: 5
+recoilHipVertical: 106.875 - 128.25
+recoilAimVertical: 54.5062 - 72.675
+movementSpeed: -2.5
+
+[ Barrel: M40, Magazine: Fat Cat, Grip: Roto-Fire, Stock: Speed Coil, Core: Barret .50 ]
+damage: 232.218 - 153.449
+dropoffStuds: 242.5 - 521.375
+fireRate: 108.9
+adsSpread: 0.290304
+hipfireSpread: 11.6122
+reloadTime: 11.082
+magazineSize: 1
+health: 5
+recoilHipVertical: 85.5 - 102.6
+recoilAimVertical: 43.605 - 58.14
 movementSpeed: -4
 
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Arisaka, Stock: Speed Coil, Core: Barret .50 ]
-damage: 100.789 - 58.9669
-dropoffStuds: 209 - 449.35
-fireRate: 71.28
-adsSpread: 0.276091
-hipfireSpread: 11.0436
-reloadTime: 4.125
-magazineSize: 5
-health: -16
-recoilHipVertical: 189.72 - 227.664
-recoilAimVertical: 96.7572 - 129.01
-movementSpeed: 6
+[ Barrel: M40, Magazine: Fat Cat, Grip: M60, Stock: Speed Coil, Core: Barret .50 ]
+damage: 232.218 - 155.743
+dropoffStuds: 250 - 537.5
+fireRate: 108.9
+adsSpread: 0.29568
+hipfireSpread: 11.8272
+reloadTime: 12.6
+magazineSize: 1
+health: 5
+recoilHipVertical: 75.24 - 90.288
+recoilAimVertical: 38.3724 - 51.1632
+movementSpeed: -2.5
 
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: AWM, Stock: Speed Coil, Core: Barret .50 ]
-damage: 100.789 - 58.9669
-dropoffStuds: 209 - 449.35
-fireRate: 71.28
-adsSpread: 0.242827
-hipfireSpread: 9.71309
-reloadTime: 4.62
-magazineSize: 5
-health: -10
-recoilHipVertical: 204.898 - 245.877
-recoilAimVertical: 104.498 - 139.33
-movementSpeed: -2
+[ Barrel: M40, Magazine: Fat Cat, Grip: AKM, Stock: Speed Coil, Core: Barret .50 ]
+damage: 232.218 - 155.743
+dropoffStuds: 250 - 537.5
+fireRate: 108.9
+adsSpread: 0.293664
+hipfireSpread: 11.7466
+reloadTime: 11.664
+magazineSize: 1
+health: 5
+recoilHipVertical: 99.18 - 119.016
+recoilAimVertical: 50.5818 - 67.4424
 
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: AKM, Stock: Speed Coil, Core: Barret .50 ]
-damage: 100.789 - 58.9669
-dropoffStuds: 209 - 449.35
-fireRate: 71.28
-adsSpread: 0.290727
-hipfireSpread: 11.6291
-reloadTime: 4.0095
-magazineSize: 5
-health: -10
-recoilHipVertical: 220.075 - 264.09
-recoilAimVertical: 112.238 - 149.651
-movementSpeed: -2
-
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Burton, Stock: Speed Coil, Core: Barret .50 ]
-damage: 100.789 - 58.1305
-dropoffStuds: 204.82 - 440.363
-fireRate: 71.28
-adsSpread: 0.292723
-hipfireSpread: 11.7089
-reloadTime: 3.993
-magazineSize: 5
-health: -10
-recoilHipVertical: 189.72 - 227.664
-recoilAimVertical: 96.7572 - 129.01
-movementSpeed: -5
-
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: M60, Stock: Speed Coil, Core: Barret .50 ]
-damage: 100.789 - 58.9669
-dropoffStuds: 209 - 449.35
-fireRate: 71.28
-adsSpread: 0.292723
-hipfireSpread: 11.7089
-reloadTime: 4.33125
-magazineSize: 5
-health: -10
-recoilHipVertical: 166.954 - 200.344
-recoilAimVertical: 85.1463 - 113.528
-movementSpeed: -4.5
-
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: M1919 .30 Cal, Stock: Speed Coil, Core: Barret .50 ]
-damage: 100.789 - 58.9669
-dropoffStuds: 209 - 449.35
-fireRate: 71.28
-adsSpread: 0.290062
-hipfireSpread: 11.6025
-reloadTime: 3.498
-magazineSize: 5
-health: -10
-recoilHipVertical: 237.15 - 284.58
-recoilAimVertical: 120.947 - 161.262
-movementSpeed: -4.5
-
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Pancake Hammer, Stock: Speed Coil, Core: Barret .50 ]
-damage: 100.789 - 58.9669
-dropoffStuds: 209 - 449.35
-fireRate: 71.28
-adsSpread: 0.296715
-hipfireSpread: 11.8686
-reloadTime: 4.026
-magazineSize: 5
-health: -10
-recoilHipVertical: 341.496 - 409.795
-recoilAimVertical: 174.163 - 232.217
-movementSpeed: -2
-
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Snake Sniper, Stock: Speed Coil, Core: Barret .50 ]
-damage: 100.789 - 63.1491
-dropoffStuds: 229.9 - 494.285
-fireRate: 71.28
-adsSpread: 0.252806
-hipfireSpread: 10.1123
-reloadTime: 4.125
-magazineSize: 5
-health: -10
-recoilHipVertical: 231.458 - 277.75
-recoilAimVertical: 118.044 - 157.392
-movementSpeed: -3.5
+[ Barrel: M40, Magazine: Fat Cat, Grip: M249 SAW, Stock: Speed Coil, Core: Barret .50 ]
+damage: 232.218 - 155.743
+dropoffStuds: 250 - 537.5
+fireRate: 108.9
+adsSpread: 0.292992
+hipfireSpread: 11.7197
+reloadTime: 12
+magazineSize: 1
+health: 5
+recoilHipVertical: 91.485 - 109.782
+recoilAimVertical: 46.6573 - 62.2098
+movementSpeed: -4
 

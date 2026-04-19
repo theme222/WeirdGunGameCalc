@@ -1,18 +1,19 @@
 ./wggcalc -o InterestingBuilds/F2PNewbieFriendlyTTK.txt -i SMG AR LMG --banPriceType ROBUX LIMITED SPECIAL --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.8 --recoilAimMax 35 --rangeMin 150 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
-[ Barrel: MG42, Magazine: DP-27, Grip: AWM, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 26.3113 - 17.7727
-dropoffStuds: 155.61 - 311.22
-fireRate: 772.2
-adsSpread: 0.76832
-hipfireSpread: 13.8298
-reloadTime: 4.032
+[ Barrel: Volley, Magazine: DP-27, Grip: USS Iowa, Stock: Speed Coil, Core: M1919 .30 Cal ]
+damage: 33.6865 - 24.7259
+dropoffStuds: 199.5 - 399
+pellets: 7
+fireRate: 524.381
+adsSpread: 0.738316
+hipfireSpread: 13.2897
+reloadTime: 3.6
 magazineSize: 36
 health: 10
-recoilHipVertical: 41.5135 - 51.8918
-recoilAimVertical: 20.7567 - 25.9459
-movementSpeed: 1
-TTK: 0.2331 Seconds
+recoilHipVertical: 54.7008 - 68.376
+recoilAimVertical: 27.3504 - 34.188
+movementSpeed: 5
+TTK: 0.228841 Seconds
 
 [ Barrel: MG42, Magazine: DP-27, Grip: The Chief, Stock: Speed Coil, Core: M1919 .30 Cal ]
 damage: 26.9033 - 18.1726
@@ -25,6 +26,20 @@ magazineSize: 36
 health: 10
 recoilHipVertical: 51.8918 - 64.8648
 recoilAimVertical: 25.9459 - 32.4324
+movementSpeed: 1
+TTK: 0.2331 Seconds
+
+[ Barrel: MG42, Magazine: DP-27, Grip: AWM, Stock: Speed Coil, Core: M1919 .30 Cal ]
+damage: 26.3113 - 17.7727
+dropoffStuds: 155.61 - 311.22
+fireRate: 772.2
+adsSpread: 0.76832
+hipfireSpread: 13.8298
+reloadTime: 4.032
+magazineSize: 36
+health: 10
+recoilHipVertical: 41.5135 - 51.8918
+recoilAimVertical: 20.7567 - 25.9459
 movementSpeed: 1
 TTK: 0.2331 Seconds
 
@@ -125,18 +140,4 @@ recoilHipVertical: 53.3821 - 66.7276
 recoilAimVertical: 26.691 - 33.3638
 movementSpeed: 1
 TTK: 0.241788 Seconds
-
-[ Barrel: Kriss Vector, Magazine: DP-27, Grip: Lewis, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 25.5219 - 17.9184
-dropoffStuds: 175.56 - 351.12
-fireRate: 743.314
-adsSpread: 0.798
-hipfireSpread: 14.364
-reloadTime: 3.6
-magazineSize: 36
-health: 10
-recoilHipVertical: 38.4266 - 48.0332
-recoilAimVertical: 19.2133 - 24.0166
-movementSpeed: 4.145
-TTK: 0.242159 Seconds
 

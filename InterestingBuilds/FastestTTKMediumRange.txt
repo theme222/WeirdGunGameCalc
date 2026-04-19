@@ -1,5 +1,33 @@
 ./wggcalc -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.6 --recoilAimMax 30 --rangeMin 200 --pelletMax 1 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
+[ Barrel: M1891, Magazine: P90, Grip: G43, Stock: Speed Coil, Core: Hotdog ]
+damage: 33.3661 - 26.1209
+dropoffStuds: 201.6 - 315
+fireRate: 528
+adsSpread: 0.420525
+hipfireSpread: 4.6725
+reloadTime: 3.6
+magazineSize: 30
+health: -10
+recoilHipVertical: 40.5372 - 45.4674
+recoilAimVertical: 26.3492 - 29.5264
+movementSpeed: 24.8
+TTK: 0.227273 Seconds
+
+[ Barrel: FC200SH, Magazine: P90, Grip: Dragunov, Stock: Speed Coil, Core: Hotdog ]
+damage: 34.4783 - 26.8325
+dropoffStuds: 201.096 - 314.212
+fireRate: 486.552
+adsSpread: 0.5607
+hipfireSpread: 6.23
+reloadTime: 3.24
+magazineSize: 38
+health: -10
+recoilHipVertical: 41.0256 - 46.0152
+recoilAimVertical: 26.6666 - 29.8822
+movementSpeed: 24.8
+TTK: 0.246633 Seconds
+
 [ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: Lewis, Stock: Speed Coil, Core: Burton ]
 damage: 20.2592 - 15.408
 dropoffStuds: 201.6 - 431.2
@@ -14,129 +42,100 @@ recoilAimVertical: 15.12 - 16.416
 movementSpeed: 1.5
 TTK: 0.251436 Seconds
 
-[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: M1891, Stock: Speed Coil, Core: Burton ]
-damage: 20.2592 - 15.408
-dropoffStuds: 201.6 - 431.2
-fireRate: 896.417
-adsSpread: 0.502729
-hipfireSpread: 15.0819
-reloadTime: 7.93155
-magazineSize: 76
-health: -17.5
-recoilHipVertical: 30 - 33
-recoilAimVertical: 10.5 - 11.4
-movementSpeed: 10.7
-TTK: 0.267732 Seconds
+[ Barrel: Fat Cat, Magazine: Drill, Grip: Infinity, Stock: Speed Coil, Core: QBZ-95 ]
+damage: 20.3955 - 17.341
+dropoffStuds: 211.2 - 396
+fireRate: 932.238
+adsSpread: 0.2618
+hipfireSpread: 9.163
+reloadTime: 7.62375
+magazineSize: 91
+health: -18
+recoilHipVertical: 33.6 - 40.8
+recoilAimVertical: 18.48 - 22.44
+TTK: 0.257445 Seconds
 
-[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: Negev, Stock: Speed Coil, Core: Burton ]
-damage: 20.2592 - 15.408
-dropoffStuds: 201.6 - 431.2
-fireRate: 896.417
-adsSpread: 0.406051
-hipfireSpread: 12.1815
-reloadTime: 6.897
-magazineSize: 76
-health: -17.5
-recoilHipVertical: 34.5 - 37.95
-recoilAimVertical: 12.075 - 13.11
-movementSpeed: 5
-TTK: 0.267732 Seconds
-
-[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: M1897 Trench Shotgun, Stock: Speed Coil, Core: Burton ]
-damage: 20.2592 - 15.408
-dropoffStuds: 201.6 - 431.2
-fireRate: 892.267
-adsSpread: 0.464058
-hipfireSpread: 13.9217
-reloadTime: 7.24185
-magazineSize: 76
-health: -17.5
-recoilHipVertical: 30 - 33
-recoilAimVertical: 10.5 - 11.4
-movementSpeed: 7.5
-TTK: 0.268978 Seconds
-
-[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: M1887, Stock: Speed Coil, Core: Burton ]
-damage: 20.2592 - 15.408
-dropoffStuds: 201.6 - 431.2
-fireRate: 892.267
-adsSpread: 0.444722
-hipfireSpread: 13.3417
-reloadTime: 6.37973
-magazineSize: 76
-health: -13.75
-recoilHipVertical: 30 - 33
-recoilAimVertical: 10.5 - 11.4
-movementSpeed: 2
-TTK: 0.268978 Seconds
-
-[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: M1 Garand, Stock: Speed Coil, Core: Burton ]
-damage: 20.2592 - 15.408
-dropoffStuds: 201.6 - 431.2
-fireRate: 886.457
-adsSpread: 0.386715
-hipfireSpread: 11.6014
-reloadTime: 6.897
-magazineSize: 76
-health: -17.5
-recoilHipVertical: 30 - 33
-recoilAimVertical: 10.5 - 11.4
-movementSpeed: 4.5
-TTK: 0.270741 Seconds
-
-[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: PPSh-41, Stock: Speed Coil, Core: Burton ]
-damage: 20.2592 - 15.408
-dropoffStuds: 201.6 - 431.2
-fireRate: 870.479
-adsSpread: 0.361579
-hipfireSpread: 10.8474
-reloadTime: 7.93155
-magazineSize: 76
-health: -17.5
-recoilHipVertical: 30 - 33
-recoilAimVertical: 10.5 - 11.4
-movementSpeed: 7.5
-TTK: 0.27571 Seconds
-
-[ Barrel: Burton, Magazine: DP-27, Grip: Snake Sniper, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 25.2588 - 19.0775
-dropoffStuds: 215.46 - 430.92
-fireRate: 652.08
-adsSpread: 0.5656
-hipfireSpread: 10.1808
-reloadTime: 3.672
+[ Barrel: M1891, Magazine: DP-27, Grip: Tap, Stock: Speed Coil, Core: Hotdog ]
+damage: 35.3623 - 27.6836
+dropoffStuds: 201.6 - 315
+fireRate: 457.6
+adsSpread: 0.543375
+hipfireSpread: 6.0375
+reloadTime: 4.32
 magazineSize: 36
-health: 10
-recoilHipVertical: 29.2191 - 36.5239
-recoilAimVertical: 14.6095 - 18.2619
-movementSpeed: 6.5
-TTK: 0.27604 Seconds
+health: -10
+recoilHipVertical: 34.8096 - 39.0432
+recoilAimVertical: 22.6262 - 25.3546
+movementSpeed: 18
+TTK: 0.262238 Seconds
 
-[ Barrel: Barret .50, Magazine: M1919 .30 Cal, Grip: P90, Stock: Speed Coil, Core: Burton ]
-damage: 20.2592 - 15.408
-dropoffStuds: 201.6 - 431.2
-fireRate: 867.782
-adsSpread: 0.433121
-hipfireSpread: 12.9936
-reloadTime: 6.897
-magazineSize: 76
-health: -17.5
-recoilHipVertical: 27.855 - 30.6405
-recoilAimVertical: 9.74925 - 10.5849
-movementSpeed: 7.5
-TTK: 0.276567 Seconds
-
-[ Barrel: M1917 WC, Magazine: DP-27, Grip: Musket, Stock: Speed Coil, Core: Burton ]
-damage: 16.7087 - 12.7782
-dropoffStuds: 206.01 - 440.633
-fireRate: 1081.77
-adsSpread: 0.2646
-hipfireSpread: 7.938
-reloadTime: 4.554
+[ Barrel: M1891, Magazine: DP-27, Grip: Drill, Stock: Speed Coil, Core: Hotdog ]
+damage: 35.3623 - 27.6836
+dropoffStuds: 201.6 - 315
+fireRate: 457.6
+adsSpread: 0.4725
+hipfireSpread: 5.25
+reloadTime: 4.4928
 magazineSize: 36
-health: 7.5
-recoilHipVertical: 5.376 - 5.9136
-recoilAimVertical: 1.8816 - 2.04288
-movementSpeed: 0.5
-TTK: 0.277324 Seconds
+health: -10
+recoilHipVertical: 40.2797 - 45.1786
+recoilAimVertical: 26.1818 - 29.3389
+movementSpeed: 23
+TTK: 0.262238 Seconds
+
+[ Barrel: M1891, Magazine: DP-27, Grip: Banana, Stock: Speed Coil, Core: Hotdog ]
+damage: 35.3623 - 27.6836
+dropoffStuds: 201.6 - 315
+fireRate: 457.6
+adsSpread: 0.543375
+hipfireSpread: 6.0375
+reloadTime: 4.32
+magazineSize: 36
+health: -10
+recoilHipVertical: 39.7824 - 44.6208
+recoilAimVertical: 25.8586 - 28.9766
+movementSpeed: 28
+TTK: 0.262238 Seconds
+
+[ Barrel: M1891, Magazine: DP-27, Grip: AirStrike, Stock: Speed Coil, Core: Hotdog ]
+damage: 35.3623 - 27.6836
+dropoffStuds: 201.6 - 315
+fireRate: 457.6
+adsSpread: 0.524475
+hipfireSpread: 5.8275
+reloadTime: 3.8016
+magazineSize: 36
+health: -10
+recoilHipVertical: 41.0256 - 46.0152
+recoilAimVertical: 26.6666 - 29.8822
+movementSpeed: 23
+TTK: 0.262238 Seconds
+
+[ Barrel: M1891, Magazine: DP-27, Grip: M1911, Stock: Speed Coil, Core: Hotdog ]
+damage: 35.3623 - 27.6836
+dropoffStuds: 201.6 - 315
+fireRate: 457.6
+adsSpread: 0.4725
+hipfireSpread: 5.25
+reloadTime: 4.4928
+magazineSize: 36
+health: -10
+recoilHipVertical: 40.2797 - 45.1786
+recoilAimVertical: 26.1818 - 29.3389
+movementSpeed: 23
+TTK: 0.262238 Seconds
+
+[ Barrel: M1891, Magazine: DP-27, Grip: FAL, Stock: Speed Coil, Core: Hotdog ]
+damage: 35.3623 - 27.6836
+dropoffStuds: 201.6 - 315
+fireRate: 457.6
+adsSpread: 0.571725
+hipfireSpread: 6.3525
+reloadTime: 4.32
+magazineSize: 36
+health: -10
+recoilHipVertical: 40.777 - 45.7363
+recoilAimVertical: 26.505 - 29.7011
+movementSpeed: 25
+TTK: 0.262238 Seconds
 

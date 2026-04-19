@@ -1,5 +1,61 @@
 ./wggcalc -o InterestingBuilds/LowSpreadShogun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadAimMax 0.85 
 Current top 10 guns are: 
+[ Barrel: Second Amendment, Magazine: Magic Mag, Grip: Auto-5, Stock: MG42, Core: Spas-12 ]
+damage: 116.914 - -8.24554
+dropoffStuds: 43.5 - 100.05
+pellets: 6
+fireRate: 304.92
+adsSpread: 0.845
+hipfireSpread: 3.38
+reloadTime: 0.99
+magazineSize: 3
+health: 6
+recoilHipVertical: 85.5 - 136.8
+recoilAimVertical: 34.2 - 54.72
+movementSpeed: 0.625
+
+[ Barrel: Second Amendment, Magazine: Magic Mag, Grip: Auto-5, Stock: JSG12, Core: Spas-12 ]
+damage: 116.914 - -8.24554
+dropoffStuds: 43.5 - 100.05
+pellets: 6
+fireRate: 268.33
+adsSpread: 0.8424
+hipfireSpread: 3.3696
+reloadTime: 0.945
+magazineSize: 3
+health: 6
+recoilHipVertical: 85.5 - 136.8
+recoilAimVertical: 34.2 - 54.72
+movementSpeed: 1
+
+[ Barrel: Second Amendment, Magazine: Magic Mag, Grip: The Chief, Stock: MG42, Core: Auto-5 ]
+damage: 111.691 - -4.81129
+dropoffStuds: 52.2 - 100.05
+pellets: 8
+fireRate: 250.8
+adsSpread: 0.827836
+hipfireSpread: 3.04992
+reloadTime: 0.99
+magazineSize: 3
+health: 8
+recoilHipVertical: 102.6 - 179.55
+recoilAimVertical: 41.04 - 71.82
+movementSpeed: 0.625
+
+[ Barrel: Second Amendment, Magazine: Magic Mag, Grip: Pancake Hammer, Stock: MG42, Core: Auto-5 ]
+damage: 109.393 - -4.71233
+dropoffStuds: 52.2 - 100.05
+pellets: 8
+fireRate: 250.8
+adsSpread: 0.822819
+hipfireSpread: 3.03144
+reloadTime: 0.9504
+magazineSize: 3
+health: 8
+recoilHipVertical: 136.8 - 239.4
+recoilAimVertical: 54.72 - 95.76
+movementSpeed: 0.625
+
 [ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Auto-5, Stock: MG42, Core: Spas-12 ]
 damage: 118.158 - -19.7175
 dropoffStuds: 39.585 - 91.0455
@@ -70,73 +126,17 @@ recoilHipVertical: 77.1637 - 123.462
 recoilAimVertical: 30.8655 - 49.3848
 movementSpeed: 2.77
 
-[ Barrel: Second Amendment, Magazine: MAC-10, Grip: Auto-5, Stock: MG42, Core: Spas-12 ]
-damage: 124.377 - -16.7608
-dropoffStuds: 40.89 - 94.047
-pellets: 6
-fireRate: 225.082
-adsSpread: 0.845
-hipfireSpread: 3.38
-reloadTime: 2.2
-magazineSize: 30
-health: 6
-recoilHipVertical: 115.425 - 184.68
-recoilAimVertical: 46.17 - 73.872
-movementSpeed: 3.485
-
-[ Barrel: Second Amendment, Magazine: Horizontal, Grip: Auto-5, Stock: MG42, Core: Spas-12 ]
-damage: 118.158 - -8.33325
-dropoffStuds: 43.5 - 100.05
-pellets: 6
-fireRate: 223.608
-adsSpread: 0.845
-hipfireSpread: 3.38
-reloadTime: 2.09
-magazineSize: 20
-health: 6
-recoilHipVertical: 72.675 - 116.28
-recoilAimVertical: 29.07 - 46.512
-movementSpeed: 0.625
-
-[ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: The Chief, Core: Spas-12 ]
-damage: 124.377 - -23.4182
-dropoffStuds: 38.715 - 89.0445
-pellets: 6
-fireRate: 223.1
-adsSpread: 0.83045
-hipfireSpread: 3.3218
-reloadTime: 2.325
-magazineSize: 30
-health: 6
-recoilHipVertical: 121.042 - 193.668
-recoilAimVertical: 48.4169 - 77.4671
-movementSpeed: 0.145
-
-[ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: FAL, Core: Spas-12 ]
-damage: 124.377 - -18.9843
-dropoffStuds: 39.8764 - 91.7158
-pellets: 6
-fireRate: 223.1
-adsSpread: 0.809206
-hipfireSpread: 3.23683
-reloadTime: 2.5
-magazineSize: 30
-health: 6
-recoilHipVertical: 134.491 - 215.186
-recoilAimVertical: 53.7966 - 86.0746
-movementSpeed: 0.265
-
-[ Barrel: Second Amendment, Magazine: NP5, Grip: Auto-5, Stock: MG42, Core: Spas-12 ]
-damage: 124.377 - -23.4182
-dropoffStuds: 38.715 - 89.0445
-pellets: 6
-fireRate: 223.1
-adsSpread: 0.784582
-hipfireSpread: 3.13833
-reloadTime: 2.75
-magazineSize: 30
-health: 6
-recoilHipVertical: 103.455 - 165.528
-recoilAimVertical: 41.382 - 66.2112
-movementSpeed: 2.77
+[ Barrel: Second Amendment, Magazine: Magic Mag, Grip: JSG12, Stock: FAL, Core: Auto-5 ]
+damage: 109.393 - -1.28915
+dropoffStuds: 53.766 - 103.051
+pellets: 8
+fireRate: 228.228
+adsSpread: 0.848643
+hipfireSpread: 3.12658
+reloadTime: 0.9
+magazineSize: 3
+health: 8
+recoilHipVertical: 136.344 - 238.602
+recoilAimVertical: 54.5376 - 95.4408
+movementSpeed: 1.12
 

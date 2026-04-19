@@ -1,5 +1,33 @@
 ./wggcalc -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
+[ Barrel: Fat Cat, Magazine: MP18, Grip: Fat Cat, Stock: Speed Coil, Core: SMO3 ]
+damage: 33.9946 - 21.2615
+dropoffStuds: 112.112 - 158.158
+fireRate: 488.184
+adsSpread: 0.63
+hipfireSpread: 2.38
+reloadTime: 1.65
+magazineSize: 30
+health: -10
+recoilHipVertical: 7.32 - 21.96
+recoilAimVertical: 4.758 - 14.274
+movementSpeed: 1.5
+TTK: 0.245809 Seconds
+
+[ Barrel: Fat Cat, Magazine: Graphics Card, Grip: Mas-38, Stock: Speed Coil, Core: MP18 ]
+damage: 34.047 - 21.6534
+dropoffStuds: 112.939 - 174.115
+fireRate: 478.526
+adsSpread: 0.595
+hipfireSpread: 2.975
+reloadTime: 4.5
+magazineSize: 38
+health: -10
+recoilHipVertical: 15.708 - 21.714
+recoilAimVertical: 5.4978 - 7.5768
+movementSpeed: 0.5
+TTK: 0.25077 Seconds
+
 [ Barrel: PP-19 Bizon, Magazine: M3 Grease Gun, Grip: Infinity, Stock: APS, Core: MP18 ]
 damage: 33.7099 - 20.2124
 dropoffStuds: 103.68 - 159.84
@@ -68,68 +96,45 @@ recoilAimVertical: 26.6857 - 36.777
 movementSpeed: 8
 TTK: 0.265781 Seconds
 
-[ Barrel: APS, Magazine: MP 40, Grip: Circuit Judge, Stock: G43, Core: STG-44 ]
-damage: 33.9364 - 27.5973
-dropoffStuds: 103.74 - 207.48
-fireRate: 451.25
-adsSpread: 0.5994
-hipfireSpread: 8.24175
-reloadTime: 2.8
-magazineSize: 32
-recoilHipVertical: 57.5 - 69
-recoilAimVertical: 31.625 - 37.95
-TTK: 0.265928 Seconds
-
-[ Barrel: APS, Magazine: MP 40, Grip: Circuit Judge, Stock: L8, Core: STG-44 ]
-damage: 33.4019 - 27.0027
-dropoffStuds: 101.4 - 202.8
-fireRate: 451.25
-adsSpread: 0.497502
-hipfireSpread: 6.84065
-reloadTime: 2.5
-magazineSize: 32
-recoilHipVertical: 57.5 - 69
-recoilAimVertical: 31.625 - 37.95
-TTK: 0.265928 Seconds
-
-[ Barrel: M870 MCS, Magazine: Roto-Fire, Grip: Double Barrel, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 34.318 - 23.3176
-dropoffStuds: 164.312 - 328.624
-fireRate: 451
-adsSpread: 0.62125
-hipfireSpread: 11.1825
-reloadTime: 4.5375
+[ Barrel: Fat Cat, Magazine: Graphics Card, Grip: NP9, Stock: Speed Coil, Core: MP18 ]
+damage: 34.047 - 22.4642
+dropoffStuds: 121.44 - 187.22
+fireRate: 451.44
+adsSpread: 0.616
+hipfireSpread: 3.08
+reloadTime: 4.5
 magazineSize: 38
-health: 10
-recoilHipVertical: 47.52 - 59.4
-recoilAimVertical: 23.76 - 29.7
-movementSpeed: 2
-TTK: 0.266075 Seconds
+health: -10
+recoilHipVertical: 18.5354 - 25.6225
+recoilAimVertical: 6.4874 - 8.94062
+movementSpeed: 3
+TTK: 0.265816 Seconds
 
-[ Barrel: Type 99, Magazine: Roto-Fire, Grip: Double Barrel, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 34.1628 - 23.8319
-dropoffStuds: 174.8 - 349.6
-fireRate: 451
-adsSpread: 0.595
-hipfireSpread: 10.71
-reloadTime: 4.33125
+[ Barrel: Fat Cat, Magazine: Graphics Card, Grip: UNP-40, Stock: Speed Coil, Core: MP18 ]
+damage: 34.047 - 22.4642
+dropoffStuds: 121.44 - 187.22
+fireRate: 451.44
+adsSpread: 0.56
+hipfireSpread: 2.8
+reloadTime: 4.275
 magazineSize: 38
-health: 10
-recoilHipVertical: 47.52 - 59.4
-recoilAimVertical: 23.76 - 29.7
-TTK: 0.266075 Seconds
+health: -10
+recoilHipVertical: 21.9912 - 30.3996
+recoilAimVertical: 7.69692 - 10.6075
+movementSpeed: 1
+TTK: 0.265816 Seconds
 
-[ Barrel: M870 MCS, Magazine: Roto-Fire, Grip: Type 2a Nambu, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 33.7576 - 22.9368
-dropoffStuds: 164.312 - 328.624
-fireRate: 451
-adsSpread: 0.62125
-hipfireSpread: 11.1825
-reloadTime: 4.5375
+[ Barrel: Fat Cat, Magazine: Graphics Card, Grip: Sten gun, Stock: Speed Coil, Core: MP18 ]
+damage: 34.047 - 22.4642
+dropoffStuds: 121.44 - 187.22
+fireRate: 451.44
+adsSpread: 0.581
+hipfireSpread: 2.905
+reloadTime: 4.5
 magazineSize: 38
-health: 2.5
-recoilHipVertical: 32.472 - 40.59
-recoilAimVertical: 16.236 - 20.295
-movementSpeed: 4
-TTK: 0.266075 Seconds
+health: -10
+recoilHipVertical: 20.1062 - 27.7939
+recoilAimVertical: 7.03718 - 9.6983
+movementSpeed: 0.5
+TTK: 0.265816 Seconds
 

@@ -14,6 +14,20 @@ recoilAimVertical: 15.9667 - 19.9584
 movementSpeed: 5
 TTK: 0.237154 Seconds
 
+[ Barrel: Fat Cat, Magazine: Paintball, Grip: Uzi, Stock: Speed Coil, Core: Scar L ]
+damage: 25.0245 - 18.3257
+dropoffStuds: 187 - 379.5
+fireRate: 741.077
+adsSpread: 0.4956
+hipfireSpread: 8.26
+reloadTime: 4.65
+magazineSize: 53
+health: -10
+recoilHipVertical: 40.59 - 47.97
+recoilAimVertical: 20.295 - 23.985
+movementSpeed: 0.25
+TTK: 0.24289 Seconds
+
 [ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: Lewis, Stock: Speed Coil, Core: Burton ]
 damage: 17.1108 - 12.1121
 dropoffStuds: 157.248 - 336.336
@@ -27,6 +41,75 @@ recoilHipVertical: 11.232 - 12.3552
 recoilAimVertical: 3.9312 - 4.26816
 movementSpeed: 7.5
 TTK: 0.243986 Seconds
+
+[ Barrel: Barret .50, Magazine: Drill, Grip: Musket, Stock: Spas-12, Core: Burton ]
+damage: 16.7295 - 12.0862
+dropoffStuds: 176.4 - 377.3
+fireRate: 1220.9
+adsSpread: 0.637745
+hipfireSpread: 19.1323
+reloadTime: 10.1156
+magazineSize: 76
+health: -15.5
+recoilHipVertical: 50 - 55
+recoilAimVertical: 17.5 - 19
+movementSpeed: 2.5
+TTK: 0.245721 Seconds
+
+[ Barrel: Fat Cat, Magazine: Paintball, Grip: Arisaka, Stock: Speed Coil, Core: Scar L ]
+damage: 25.0245 - 18.3257
+dropoffStuds: 187 - 379.5
+fireRate: 730.125
+adsSpread: 0.436624
+hipfireSpread: 7.27706
+reloadTime: 4.65
+magazineSize: 53
+health: -16
+recoilHipVertical: 33 - 39
+recoilAimVertical: 16.5 - 19.5
+movementSpeed: 0.6
+TTK: 0.246533 Seconds
+
+[ Barrel: Fat Cat, Magazine: Paintball, Grip: Skorpion vz. 61, Stock: Speed Coil, Core: Scar L ]
+damage: 25.0245 - 18.3257
+dropoffStuds: 187 - 379.5
+fireRate: 730.125
+adsSpread: 0.64428
+hipfireSpread: 10.738
+reloadTime: 4.30125
+magazineSize: 53
+health: -10
+recoilHipVertical: 41.25 - 48.75
+recoilAimVertical: 20.625 - 24.375
+movementSpeed: 1.75
+TTK: 0.246533 Seconds
+
+[ Barrel: Fat Cat, Magazine: Paintball, Grip: Banana, Stock: Speed Coil, Core: Scar L ]
+damage: 25.0245 - 18.3257
+dropoffStuds: 187 - 379.5
+fireRate: 730.125
+adsSpread: 0.56994
+hipfireSpread: 9.499
+reloadTime: 4.65
+magazineSize: 53
+health: -10
+recoilHipVertical: 26.4 - 31.2
+recoilAimVertical: 13.2 - 15.6
+TTK: 0.246533 Seconds
+
+[ Barrel: Fat Cat, Magazine: Paintball, Grip: PineFire, Stock: Speed Coil, Core: Scar L ]
+damage: 25.0245 - 18.3257
+dropoffStuds: 187 - 379.5
+fireRate: 730.125
+adsSpread: 0.4956
+hipfireSpread: 8.26
+reloadTime: 5.115
+magazineSize: 53
+health: -10
+recoilHipVertical: 29.865 - 35.295
+recoilAimVertical: 14.9325 - 17.6475
+movementSpeed: 0.5
+TTK: 0.246533 Seconds
 
 [ Barrel: BAR, Magazine: DP-27, Grip: The Chief, Stock: Speed Coil, Core: M1919 .30 Cal ]
 damage: 33.6291 - 25.5783
@@ -55,88 +138,4 @@ recoilHipVertical: 54.978 - 68.7225
 recoilAimVertical: 27.489 - 34.3613
 movementSpeed: 6
 TTK: 0.247512 Seconds
-
-[ Barrel: Barret .50, Magazine: Graphics Card, Grip: Lewis, Stock: Speed Coil, Core: Burton ]
-damage: 16.8827 - 11.9212
-dropoffStuds: 165.6 - 354.2
-fireRate: 1209.06
-adsSpread: 0.34713
-hipfireSpread: 10.4139
-reloadTime: 4.356
-magazineSize: 38
-health: -17.5
-recoilHipVertical: 33.264 - 36.5904
-recoilAimVertical: 11.6424 - 12.6403
-movementSpeed: 13.5
-TTK: 0.248127 Seconds
-
-[ Barrel: AWM, Magazine: MG42, Grip: M1 Garand, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 25.22 - 17.8251
-dropoffStuds: 172.368 - 344.736
-fireRate: 722.502
-adsSpread: 0.6888
-hipfireSpread: 12.3984
-reloadTime: 4.125
-magazineSize: 38
-health: 10
-recoilHipVertical: 54.978 - 68.7225
-recoilAimVertical: 27.489 - 34.3613
-movementSpeed: 3
-TTK: 0.249134 Seconds
-
-[ Barrel: M1 Garand, Magazine: Graphics Card, Grip: Lewis, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 25.6929 - 17.9233
-dropoffStuds: 174.8 - 349.6
-fireRate: 721.05
-adsSpread: 0.682689
-hipfireSpread: 12.2884
-reloadTime: 4.5
-magazineSize: 38
-health: 10
-recoilHipVertical: 29.2723 - 36.5904
-recoilAimVertical: 14.6362 - 18.2952
-movementSpeed: 4
-TTK: 0.249636 Seconds
-
-[ Barrel: Type 99, Magazine: Graphics Card, Grip: Lewis, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 26.675 - 18.6085
-dropoffStuds: 174.8 - 349.6
-fireRate: 721.05
-adsSpread: 0.6783
-hipfireSpread: 12.2094
-reloadTime: 4.725
-magazineSize: 38
-health: 10
-recoilHipVertical: 29.2723 - 36.5904
-recoilAimVertical: 14.6362 - 18.2952
-movementSpeed: 2
-TTK: 0.249636 Seconds
-
-[ Barrel: AWM, Magazine: Graphics Card, Grip: Lewis, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 25.22 - 18.5087
-dropoffStuds: 195.776 - 391.552
-fireRate: 721.05
-adsSpread: 0.6384
-hipfireSpread: 11.4912
-reloadTime: 4.5
-magazineSize: 38
-health: 10
-recoilHipVertical: 51.2266 - 64.0332
-recoilAimVertical: 25.6133 - 32.0166
-movementSpeed: 4
-TTK: 0.249636 Seconds
-
-[ Barrel: Barret .50, Magazine: Paintball, Grip: M1891, Stock: Spas-12, Core: Burton ]
-damage: 17.0567 - 12.3226
-dropoffStuds: 176.4 - 377.3
-fireRate: 1196.67
-adsSpread: 0.373682
-hipfireSpread: 11.2105
-reloadTime: 6.90184
-magazineSize: 49
-health: -7.5
-recoilHipVertical: 50 - 55
-recoilAimVertical: 17.5 - 19
-movementSpeed: 0.7
-TTK: 0.250695 Seconds
 

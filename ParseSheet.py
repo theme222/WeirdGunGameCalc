@@ -84,6 +84,12 @@ def DetectPriceType(price, row) -> str:
     if (price in validPriceTypes or price.capitalize() in validPriceTypes):
         return price 
         
+    if (price == 'Weird Boxes'):
+        return "WC"
+        
+    if (price == 'Exclusive Weird Boxes'):
+        return "Robux"
+        
     price = price.replace(",", "") # Remove commas from the values more than 1,000
     
     if "WC" in price:

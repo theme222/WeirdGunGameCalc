@@ -1191,6 +1191,94 @@
         "Recoil": 45
       },
       {
+        "Price_Type": "WC",
+        "Name": "Bottle",
+        "Category": "Weird",
+        "Detection_Radius": -50,
+        "Fire_Rate": 3
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "Super Honk",
+        "Category": "Weird",
+        "Damage": 9999,
+        "Detection_Radius": 9999,
+        "Fire_Rate": -95,
+        "Recoil": 9999,
+        "Spread": 9999
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "Block Cannon",
+        "Category": "Weird",
+        "Damage": 60,
+        "Detection_Radius": 200,
+        "Fire_Rate": -60,
+        "Health": 25,
+        "Movement_Speed": -30,
+        "Recoil": 500
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "Spear",
+        "Category": "Weird",
+        "Damage": 70,
+        "Fire_Rate": -7,
+        "Range": -99.9
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "Volley",
+        "Category": "Weird",
+        "Damage": 20,
+        "Fire_Rate": -5,
+        "Pellets": 600,
+        "Recoil": 85
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "2+2=4",
+        "Category": "Weird",
+        "Damage": 2,
+        "Fire_Rate": 2,
+        "Reload_Speed": 4
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "Drill",
+        "Category": "Weird",
+        "Damage": -15,
+        "Fire_Rate": 100,
+        "Range": -95,
+        "Spread": 85
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "Fat Cat",
+        "Category": "Weird",
+        "Damage": 35,
+        "Fire_Rate": -10,
+        "Movement_Speed": -30,
+        "Range": 10
+      },
+      {
+        "Price_Type": "Robux",
+        "Name": "Hotdog",
+        "Category": "Weird",
+        "Damage": 2,
+        "Health": 6,
+        "Magazine_Cap": 6,
+        "Movement_Speed": -4
+      },
+      {
+        "Price_Type": "Robux",
+        "Name": "AirStrike",
+        "Category": "Weird",
+        "Damage": 4,
+        "Magazine_Cap": 15,
+        "Pellets": 50
+      },
+      {
         "Price_Type": "Free",
         "Name": "M1911",
         "Category": "Sidearm",
@@ -2648,6 +2736,69 @@
         "Spread": 25
       },
       {
+        "Price_Type": "WC",
+        "Name": "Magic Mag",
+        "Category": "Weird",
+        "Magazine_Size": 3,
+        "Reload_Time": 0.9,
+        "Damage": -6,
+        "Fire_Rate": 50
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "Magazine",
+        "Category": "Weird",
+        "Magazine_Size": 37,
+        "Reload_Time": 3,
+        "Damage": 1,
+        "Detection_Radius": -10,
+        "Fire_Rate": 6,
+        "Spread": 21
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "Drill",
+        "Category": "Weird",
+        "Magazine_Size": 108,
+        "Reload_Time": 9.5,
+        "Damage": -11,
+        "Fire_Rate": 32,
+        "Health": -8,
+        "Movement_Speed": 5,
+        "Spread": 87
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "Fat Cat",
+        "Category": "Weird",
+        "Magazine_Size": 1,
+        "Reload_Time": 16,
+        "Damage": 300,
+        "Health": 15,
+        "Movement_Speed": -10
+      },
+      {
+        "Price_Type": "Robux",
+        "Name": "Hotdog",
+        "Category": "Weird",
+        "Magazine_Size": 27,
+        "Reload_Time": 1.7,
+        "Fire_Rate": 3,
+        "Health": 7,
+        "Movement_Speed": 3
+      },
+      {
+        "Price_Type": "Robux",
+        "Name": "AirStrike",
+        "Category": "Weird",
+        "Magazine_Size": 15,
+        "Reload_Time": 3,
+        "Damage": 10,
+        "Fire_Rate": 5,
+        "Pellets": 50,
+        "Spread": 30
+      },
+      {
         "Price_Type": "Free",
         "Name": "M1911",
         "Category": "Sidearm",
@@ -3754,6 +3905,35 @@
         "Damage": 1,
         "Fire_Rate": 2.5,
         "Recoil": 35
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "Drill",
+        "Category": "Weird",
+        "Recoil": -19,
+        "Reload_Speed": 4
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "Fat Cat",
+        "Category": "Weird",
+        "Magazine_Cap": 23,
+        "Movement_Speed": 3
+      },
+      {
+        "Price_Type": "Robux",
+        "Name": "Hotdog",
+        "Category": "Weird",
+        "Health": 2,
+        "Movement_Speed": 2
+      },
+      {
+        "Price_Type": "Robux",
+        "Name": "AirStrike",
+        "Category": "Weird",
+        "Recoil": -17.5,
+        "Reload_Speed": -12,
+        "Spread": 11
       },
       {
         "Price_Type": "Free",
@@ -4875,6 +5055,29 @@
         "Damage": 3,
         "Fire_Rate": 1.5,
         "Recoil": 43
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "Fat Cat",
+        "Category": "Weird",
+        "Health": 5,
+        "Movement_Speed": 9,
+        "Spread": 43
+      },
+      {
+        "Price_Type": "Robux",
+        "Name": "Hotdog",
+        "Category": "Weird",
+        "Health": 6,
+        "Movement_Speed": 4
+      },
+      {
+        "Price_Type": "Robux",
+        "Name": "AirStrike",
+        "Category": "Weird",
+        "Movement_Speed": -3,
+        "Pellets": 15,
+        "Spread": -11
       }
     ],
     "Cores": [
@@ -8694,6 +8897,189 @@
         "Recoil_Aim_Vertical": [
           57.6,
           68.4
+        ]
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "Drill",
+        "Category": "Weird",
+        "Damage": [
+          34,
+          20
+        ],
+        "Dropoff_Studs": [
+          18,
+          45
+        ],
+        "Fire_Rate": 850,
+        "Hipfire_Spread": 3,
+        "ADS_Spread": 0.25,
+        "Time_To_Aim": 0.1,
+        "Detection_Radius": 50,
+        "Suppression": 0,
+        "Equip_Time": 0.1,
+        "Recoil_Hip_Horizontal": [
+          -2,
+          2
+        ],
+        "Recoil_Hip_Vertical": [
+          2,
+          3
+        ],
+        "Recoil_Aim_Horizontal": [
+          -1.6,
+          1.6
+        ],
+        "Recoil_Aim_Vertical": [
+          1.6,
+          2.4
+        ]
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "Plank",
+        "Category": "Weird",
+        "Damage": [
+          22,
+          13.8
+        ],
+        "Dropoff_Studs": [
+          140,
+          290
+        ],
+        "Fire_Rate": 450,
+        "Hipfire_Spread": 5,
+        "ADS_Spread": 0.6,
+        "Time_To_Aim": 0.5,
+        "Detection_Radius": 240,
+        "Suppression": 0.1,
+        "Equip_Time": 0.7,
+        "Recoil_Hip_Horizontal": [
+          -14,
+          14
+        ],
+        "Recoil_Hip_Vertical": [
+          15,
+          22
+        ],
+        "Recoil_Aim_Horizontal": [
+          -6.3,
+          6.3
+        ],
+        "Recoil_Aim_Vertical": [
+          6.7,
+          9.9
+        ]
+      },
+      {
+        "Price_Type": "WC",
+        "Name": "Fat Cat",
+        "Category": "Weird",
+        "Damage": [
+          58.5,
+          45
+        ],
+        "Dropoff_Studs": [
+          140,
+          250
+        ],
+        "Fire_Rate": 165,
+        "Hipfire_Spread": 8,
+        "ADS_Spread": 0.35,
+        "Time_To_Aim": 0.5,
+        "Detection_Radius": 180,
+        "Movement_Speed_Modifier": -30,
+        "Suppression": 0,
+        "Health": 15,
+        "Equip_Time": 0.7,
+        "Recoil_Hip_Horizontal": [
+          -10,
+          10
+        ],
+        "Recoil_Hip_Vertical": [
+          63,
+          86
+        ],
+        "Recoil_Aim_Horizontal": [
+          -5.5,
+          5.5
+        ],
+        "Recoil_Aim_Vertical": [
+          34.7,
+          47.3
+        ]
+      },
+      {
+        "Price_Type": "Robux",
+        "Name": "Hotdog",
+        "Category": "Weird",
+        "Damage": [
+          33.6,
+          24
+        ],
+        "Dropoff_Studs": [
+          160,
+          250
+        ],
+        "Fire_Rate": 400,
+        "Hipfire_Spread": 5,
+        "ADS_Spread": 0.45,
+        "Time_To_Aim": 0.5,
+        "Detection_Radius": 243,
+        "Suppression": 0,
+        "Equip_Time": 0.7,
+        "Recoil_Hip_Horizontal": [
+          -20,
+          20
+        ],
+        "Recoil_Hip_Vertical": [
+          74,
+          83
+        ],
+        "Recoil_Aim_Horizontal": [
+          -13,
+          13
+        ],
+        "Recoil_Aim_Vertical": [
+          48.1,
+          53.9
+        ]
+      },
+      {
+        "Price_Type": "Robux",
+        "Name": "AirStrike",
+        "Category": "Weird",
+        "Damage": [
+          35,
+          45.5
+        ],
+        "Dropoff_Studs": [
+          200,
+          350
+        ],
+        "Fire_Rate": 40,
+        "Hipfire_Spread": 5,
+        "ADS_Spread": 0.25,
+        "Time_To_Aim": 0.8,
+        "Detection_Radius": 350,
+        "Burst": 2,
+        "Suppression": 0,
+        "Equip_Time": 0.7,
+        "Recoil_Hip_Horizontal": [
+          -2,
+          2
+        ],
+        "Recoil_Hip_Vertical": [
+          2,
+          3
+        ],
+        "Recoil_Aim_Horizontal": [
+          -0.7,
+          0.7
+        ],
+        "Recoil_Aim_Vertical": [
+          0.7,
+          1
         ]
       },
       {
