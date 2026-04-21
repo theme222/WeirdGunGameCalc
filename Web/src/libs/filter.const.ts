@@ -3,6 +3,7 @@ export const categoryStrings = [ "AR", "BR", "LMG", "SMG", "Shotgun", "Sidearm",
 export const filterPropStrings = [ // Sorted by text
   "Burst",
   "DPS",
+  "DPS End",
   "Damage End",
   "Damage Start",
   "Detection Radius",
@@ -20,6 +21,7 @@ export const filterPropStrings = [ // Sorted by text
   "Spread Aim",
   "Spread Hip",
   "TTK",
+  "TTK End",
   "Time To Aim",
 ] as const;
 
@@ -45,7 +47,9 @@ export const propertyStrings = [ // Sorted by order of how I want it to show up 
   "Burst",
   "Time To Aim",
   "TTK",
+  "TTK End",
   "DPS",
+  "DPS End"
 ] as const
 
 // I tried going [...].sort() but I lose the const assertation so gonna have to just hard code this :/
@@ -58,6 +62,7 @@ export const filterTitles = [
   "Burst",
   "Categories",
   "DPS",
+  "DPS End",
   "Damage End",
   "Damage Start",
   "Detection Radius",
@@ -81,6 +86,7 @@ export const filterTitles = [
   "Spread Aim",
   "Spread Hip",
   "TTK",
+  "TTK End",
   "Time To Aim",
   "Total Results"
 ] as const;
@@ -94,6 +100,7 @@ export const filterDescriptions: {[key in typeof filterTitles[number]]: string} 
   "Burst": "Burst range to filter",
   "Categories": "Categories to include in the calculation",
   "DPS": "DPS range to filter",
+  "DPS End": "DPS using the end damage",  
   "Damage End": "Damage range to filter (END)",
   "Damage Start": "Damage range to filter (START)",
   "Detection Radius": "Detection radius range to filter",
@@ -117,6 +124,7 @@ export const filterDescriptions: {[key in typeof filterTitles[number]]: string} 
   "Spread Aim": "Spread range to filter (AIM)",
   "Spread Hip": "Spread range to filter (HIP)",
   "TTK": "TTK range to filter",
+  "TTK End": "TTK using the end damage",  
   "Time To Aim": "Time to aim range to filter",
   "Total Results": "Number of top guns to display"
 };

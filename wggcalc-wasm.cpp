@@ -49,7 +49,7 @@ namespace Clear { // Define functions that will be used to clear filters and oth
         howManyTopGunsToDisplay = 10;
         playerMaxHealth = 100;
     
-        static_assert(TOTALFILTERCOUNT == 20, "Update ClearInput");
+        static_assert(TOTALFILTERCOUNT == 22, "Update ClearInput");
         damageRange = NILRANGE_P;
         damageEndRange = NILRANGE_P;
         magazineRange = NILRANGE_P;
@@ -69,7 +69,9 @@ namespace Clear { // Define functions that will be used to clear filters and oth
         dropoffStudsEndRange = NILRANGE_P;
         burstRange = NILRANGE_P;
         TTKRange = NILRANGE_P;
+        TTKEndRange = NILRANGE_P;
         DPSRange = NILRANGE_P;
+        DPSEndRange = NILRANGE_P;
     }
     
     void ClearFast() 
@@ -287,6 +289,7 @@ namespace AddFilter
         
         // This is what peak c++ looks like
         if (title == "TTK") Input::TTKRange = pair;
+        else if (title == "TTKEND") Input::TTKEndRange = pair;
         else if (title == "DAMAGE") Input::damageRange = pair;
         else if (title == "DAMAGEEND") Input::damageEndRange = pair;
         else if (title == "FIRERATE") Input::fireRateRange = pair;
@@ -306,6 +309,7 @@ namespace AddFilter
         else if (title == "MAGAZINE") Input::magazineRange = pair;
         else if (title == "RELOAD") Input::reloadRange = pair;
         else if (title == "DPS") Input::DPSRange = pair;
+        else if (title == "DPSEND") Input::DPSEndRange = pair;
         else throw std::invalid_argument("Invalid filter: " + title);
     }
 }
@@ -347,10 +351,10 @@ EMSCRIPTEN_BINDINGS(types)
         .property("recoilHipVertical", &Gun::recoilHipVertical)
         .property("recoilAimHorizontal", &Gun::recoilAimHorizontal)
         .property("recoilAimVertical", &Gun::recoilAimVertical)
-        .property("TTKM", &Gun::TTKM)
         .property("TTKS", &Gun::TTKS)
-        .property("DPM", &Gun::DPM)
-        .property("DPS", &Gun::DPS);
+        .property("TTKSEnd", &Gun::TTKSEnd)
+        .property("DPS", &Gun::DPS)
+        .property("DPSEnd", &Gun::DPSEnd);
     
     emscripten::register_vector<Gun>("VectorGun");
 }

@@ -22,7 +22,7 @@
 
 #ifndef __WGGCALC_HPP__
 #define __WGGCALC_HPP__
-#define __WGGCALC_VERSION__ "2.0.1"
+#define __WGGCALC_VERSION__ "2.0.2"
 
 using fpair = std::pair<float, float>;
 using json = nlohmann::json;
@@ -85,7 +85,7 @@ namespace Input
     inline uint64_t howManyTopGunsToDisplay = 10;
     inline int playerMaxHealth = 100;
 
-    const int TOTALFILTERCOUNT = 20;
+    const int TOTALFILTERCOUNT = 22;
     inline fpair damageRange = NILRANGE;
     inline fpair damageEndRange = NILRANGE;
     inline fpair magazineRange = NILRANGE;
@@ -105,7 +105,9 @@ namespace Input
     inline fpair dropoffStudsEndRange = NILRANGE;
     inline fpair burstRange = NILRANGE;
     inline fpair TTKRange = NILRANGE;
+    inline fpair TTKEndRange = NILRANGE;
     inline fpair DPSRange = NILRANGE;
+    inline fpair DPSEndRange = NILRANGE;
 
     inline void FormatInputs()
     {
@@ -115,10 +117,10 @@ namespace Input
         forcingStock = !forceStock.empty();
         forcingGrip = !forceGrip.empty();
         detailed = detailed || debug;
-        if (TTKRange.first != NILMIN) TTKRange.first /= 60.f;
-        if (TTKRange.second != NILMAX) TTKRange.second /= 60.f;
-        if (DPSRange.first != NILMIN) DPSRange.first *= 60.f;
-        if (DPSRange.second != NILMAX) DPSRange.second *= 60.f;
+        // if (TTKRange.first != NILMIN) TTKRange.first /= 60.f;
+        // if (TTKRange.second != NILMAX) TTKRange.second /= 60.f;
+        // if (DPSRange.first != NILMIN) DPSRange.first *= 60.f;
+        // if (DPSRange.second != NILMAX) DPSRange.second *= 60.f;
     }
 
 }
@@ -152,12 +154,14 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     inline multiFlags banPriceType_fast = 0;
 
-    const int TOTALMULTFLAGS = 21; // How many enums there are
-    const int TOTALPROPERTYFLAGS = 21; // How many enums exist on a gun
+    const int TOTALMULTFLAGS = 23; // How many enums there are
+    const int TOTALGUNFLAGS = 23; // How many enums exist on a gun
+    const int TOTALCOREFLAGS = 16; // How many enums exist on a core
     const int TOTALPARTFLAGS = 16; // How many enums exist on a part
+
     enum MultFlags {
         DAMAGE = 1<<0, // Part property
-        DAMAGEEND = 1<<1, // Gun property exclusive
+        DAMAGEEND = 1<<1, // Gun property exclusive THIS IS NOT A CORE FLAG
         DROPOFFSTUDS = 1<<2, // Part property (range)
         DROPOFFSTUDSEND = 1<<3, // Part property (range)
         RELOAD = 1<<4, // Part property
@@ -176,11 +180,40 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         FALLOFFFACTOR = 1<<17, // Can't be filtered // Part property (Look man I need it for rangeFalloff ik its technically only on the core)
         BURST = 1<<18, // Can't be modified // Core property
         TTK = 1<<19, // Gun property exclusive
-        DPS = 1<<20, // Gun property exclusive
+        TTKEND = 1<<20, // Gun property exclusive
+        DPS = 1<<21, // Gun property exclusive
+        DPSEND = 1<<22, // Gun property exclusive
     };
-    
+
+    constexpr multiFlags GetDependencies(Fast::MultFlags flag) // Get the base mult flags from more complex flags
+    {
+        switch (flag)
+        {
+            case TTK:
+            case DPS:
+                return GetDependencies(DAMAGE) | FIRERATE;
+
+            case TTKEND:
+            case DPSEND:
+                return GetDependencies(TTK) | GetDependencies(DAMAGEEND);
+
+            case DAMAGEEND:
+                return GetDependencies(DAMAGE) | DROPOFFSTUDS | FALLOFFFACTOR;
+            case DAMAGE:
+                return DAMAGE | PELLETS;
+            case SPREADAIM:
+                return SPREADAIM | PELLETS;
+            case SPREADHIP:
+                return SPREADHIP | PELLETS;
+            default: // Trivial properties
+                return flag;
+        }
+
+    }
+
     constexpr bool IsPartProperty(MultFlags flag)
     {
+        static_assert(TOTALPARTFLAGS == 16, "IsPartProperty must be updated to contain all flags");
         return flag & (
             DAMAGE | // Part property
             DROPOFFSTUDS | // Part property (range)
@@ -199,27 +232,39 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             DETECTIONRADIUS // Part property
         );
     }
-    
+
     constexpr bool IsCoreProperty(MultFlags flag)
     {
-        return !IsPartProperty(flag);
-        
-    //     DAMAGEEND = 1<<1, // Gun property exclusive
-    //     TIMETOAIM = 1<<7, // Can't be modified // Core property
-    //     FALLOFFFACTOR = 1<<17, // Can't be filtered // Core property 
-    //     BURST = 1<<18, // Can't be modified // Core property
-    //     TTK = 1<<19, // Gun property exclusive
-    //     DPS = 1<<20, // Gun property exclusive
+        static_assert(TOTALCOREFLAGS == 16, "IsCoreProperty must be updated to contain all flags");
+        return flag & (
+            DAMAGE |
+            DROPOFFSTUDS |
+            DROPOFFSTUDSEND |
+            FIRERATE |
+            TIMETOAIM |
+            EQUIPTIME |
+            MOVEMENTSPEED |
+            SPREADAIM |
+            SPREADHIP |
+            RECOILAIM |
+            RECOILHIP |
+            PELLETS |
+            HEALTH |
+            DETECTIONRADIUS |
+            FALLOFFFACTOR |
+            BURST
+        );
     }
 
     constexpr bool MoreIsBetter(MultFlags propertyFlag)
     {
-        static_assert(TOTALMULTFLAGS == 21, "MoreIsBetter must be updated to contain all flags");
+        static_assert(TOTALMULTFLAGS == 23, "MoreIsBetter must be updated to contain all flags");
         switch (propertyFlag)
         {
             case DAMAGE:
             case DAMAGEEND:
             case DPS:
+            case DPSEND:
             case MOVEMENTSPEED:
             case HEALTH:
             case FIRERATE:
@@ -230,6 +275,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             case MAGAZINESIZE:
                 return true;
             case TTK:
+            case TTKEND:
             case RELOAD:
             case SPREADHIP:
             case RECOILAIM:
@@ -254,13 +300,15 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     constexpr PropertyType GetPropertyType(MultFlags flag)
     {
-        static_assert(TOTALMULTFLAGS == 21, "PropertyType must be updated to contain all flags");
+        static_assert(TOTALMULTFLAGS == 23, "PropertyType must be updated to contain all flags");
         switch (flag)
         {
             //// non trivial / non-applicable / not on part properties ////
             // Shouldn't get called //
             case TTK:
+            case TTKEND:
             case DPS:
+            case DPSEND:
             case DAMAGEEND:
             // Unchangeable //
             case TIMETOAIM:
@@ -290,7 +338,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
                 throw std::invalid_argument("Invalid property flag");
         }
     }
-    
+
     // 1, 50, 0.01, 0.25
     inline float reverseQuadraticDamage[51];
     // 1, 55, 0.005, 0.20
@@ -773,7 +821,9 @@ public:
     const Core *core = nullptr;
 
     float damage;
-    inline float damageEnd() const { return (damage * falloffFactor) + damage; }
+    inline float effectiveDamage() const { return std::max(0.f, damage); }
+    inline float damageEnd() const { return damage * (falloffFactor + 1); }
+    inline float effectiveDamageEnd() const { return std::max(0.f, damageEnd()); }
     fpair dropoffStuds;
     float falloffFactor;
     float pellets;
@@ -792,10 +842,20 @@ public:
     fpair recoilHipVertical;
     fpair recoilAimHorizontal;
     fpair recoilAimVertical;
-    inline float TTKM() const { return (ceilf(Input::playerMaxHealth / damage) - 1) / fireRate; }
-    inline float TTKS() const { return TTKM() * 60; }
-    inline float DPM() const { return damage * fireRate; } // DPS = DPM / 60
-    inline float DPS() const { return DPM() / 60; }
+    inline float TTKS() const { return (ceilf(Input::playerMaxHealth / effectiveDamage()) - 1) / fireRate * 60; }
+    inline float TTKSEnd() const { return (ceilf(Input::playerMaxHealth / effectiveDamageEnd()) - 1) / fireRate * 60; }
+    inline float DPS() const { return effectiveDamage() * fireRate / 60; }
+    inline float DPSEnd() const { return effectiveDamageEnd() * fireRate / 60; }
+
+    // I honestly don't think using the M version is worth the time save vs code bloat
+    // inline float TTKM() const { return (ceilf(Input::playerMaxHealth / damage) - 1) / fireRate; }
+    // inline float TTKS() const { return TTKM() * 60; }
+    // inline float TTKENDM() const { return (ceilf(Input::playerMaxHealth / damageEnd()) - 1) / fireRate; }
+    // inline float TTKENDS() const { return TTKENDM() * 60; }
+    // inline float DPM() const { return damage * fireRate; } // DPS = DPM / 60
+    // inline float DPS() const { return DPM() / 60; }
+    // inline float DPMEND() const { return damageEnd() * fireRate; }
+    // inline float DPSEND() const { return DPMEND() / 60; }
 
     Gun() {}
     Gun(const Core *core) : core(core) {}
@@ -803,7 +863,7 @@ public:
 
     float GetProperty(Fast::MultFlags propertyFlag) const
     {
-        static_assert(Fast::TOTALPROPERTYFLAGS == 21, "GetProperty must be updated to contain all property flags");
+        static_assert(Fast::TOTALGUNFLAGS == 23, "GetProperty must be updated to contain all property flags");
 
         switch (propertyFlag)
         {
@@ -826,8 +886,10 @@ public:
             case Fast::DETECTIONRADIUS: return detectionRadius;
             case Fast::FALLOFFFACTOR: return falloffFactor;
             case Fast::BURST: return burst;
-            case Fast::TTK: return TTKM();
-            case Fast::DPS: return DPM(); // this looks so dumb xd
+            case Fast::TTK: return TTKS();
+            case Fast::TTKEND: return TTKSEnd();
+            case Fast::DPS: return DPS();
+            case Fast::DPSEND: return DPSEnd();
             default: throw std::invalid_argument("Invalid property flag");
         }
     }
@@ -837,7 +899,7 @@ public:
         float baseMult = part->GetMult(propertyFlag);
         if (direct)
             return baseMult;
-        if (part->name_fast == core->name_fast) // This actually evaluates first weirdly enough (This also technically can never return due to iterator optimizations)
+        if (part->name_fast == core->name_fast) // This actually evaluates first weirdly enough
             return 0;
         if (!Fast::MoreIsBetter(propertyFlag) && baseMult > 0)
             return baseMult;
@@ -850,7 +912,7 @@ public:
     // Core and magazine copy functions are seperated for prune algorithm
     void CopyCoreValues(multiFlags flags)
     {
-        static_assert(Fast::TOTALPROPERTYFLAGS == 21, "CopyCoreValues must be updated to contain all property flags");
+        static_assert(Fast::TOTALCOREFLAGS == 16, "CopyCoreValues must be updated to contain all property flags");
         using namespace Fast;
         if (flags & DAMAGE) damage = core->damage;
         if (flags & PELLETS) pellets = core->pellets;
@@ -910,6 +972,9 @@ public:
     {
         // Direct is used to determine if the stats should be pulled directly from the part
         // without calculating penalty. (used in dynamicprune)
+        static_assert(Fast::TOTALCOREFLAGS == 16, "Update CalculatePartialGunStats");
+        static_assert(Fast::TOTALPARTFLAGS == 16, "Update CalculatePartialGunStats");
+
         if (part == nullptr) throw std::runtime_error("Part is null");
 
         using namespace Fast;
@@ -1186,14 +1251,15 @@ namespace PQ
     typedef std::priority_queue<Gun, std::vector<Gun>, AllSortStruct> AllSortPQ;
 
     inline AllSortPQ topGuns;
-    const int TOTALSORTFLAGS = 20;
-    
+    const int TOTALSORTFLAGS = 22;
+
     inline void InitializeCurrentSortingType()
     {
         std::string type = Input::sortType;
         using namespace Fast;
-        static_assert(TOTALSORTFLAGS == 20, "InitializeCurrentSortingType must be updated to contain all property flags");
+        static_assert(TOTALSORTFLAGS == 22, "InitializeCurrentSortingType must be updated to contain all property flags");
         if (type == "TTK") currentSortingType = TTK;
+        else if (type == "TTKEND") currentSortingType = TTKEND;
         else if (type == "DAMAGE") currentSortingType = DAMAGE;
         else if (type == "DAMAGEEND") currentSortingType = DAMAGEEND;
         else if (type == "FIRERATE") currentSortingType = FIRERATE;
@@ -1213,6 +1279,7 @@ namespace PQ
         else if (type == "MAGAZINE") currentSortingType = MAGAZINESIZE;
         else if (type == "RELOAD") currentSortingType = RELOAD;
         else if (type == "DPS") currentSortingType = DPS;
+        else if (type == "DPSEND") currentSortingType = DPSEND;
         else throw std::invalid_argument("Invalid sorting type");
 
         // Initialize sort priority
@@ -1258,7 +1325,9 @@ inline std::ostream &operator<<(std::ostream &os, const Gun &gun)
     if (gun.movementSpeedModifier != 0 || detailed) os << "movementSpeed: " << gun.movementSpeedModifier << "\n";
     if (Input::detectionRadiusRange != NILRANGE_P || PQ::currentSortingType == Fast::DETECTIONRADIUS || detailed) os << "detectionRadius: " << gun.detectionRadius << "\n";
     if (gun.TTKS() != 0 || detailed) os << "TTK: " << gun.TTKS() << " Seconds\n";
+    if (((Input::TTKEndRange != NILRANGE_P || PQ::currentSortingType == Fast::TTKEND) && gun.TTKSEnd() != 0) || detailed) os << "TTK (End damage): " << gun.TTKSEnd() << " Seconds\n";
     if (Input::DPSRange != NILRANGE_P || PQ::currentSortingType == Fast::DPS || detailed) os << "DPS: " << gun.DPS() << "\n";
+    if (Input::DPSEndRange != NILRANGE_P || PQ::currentSortingType == Fast::DPSEND || detailed) os << "DPS (End damage): " << gun.DPSEnd() << "\n";
     return os;
 }
 
@@ -1319,51 +1388,32 @@ namespace Filter
 
     inline void InitializeMultFlag()
     {
-        if (Input::pelletRange != NILRANGE_P) currentFlags |= PELLETS;
-        if (Input::damageRange != NILRANGE_P) currentFlags |= DAMAGE | PELLETS;
-        if (Input::damageEndRange != NILRANGE_P) currentFlags |= DAMAGE | PELLETS | FALLOFFFACTOR | DROPOFFSTUDS;
-        if (Input::magazineRange != NILRANGE_P) currentFlags |= MAGAZINESIZE;
-        if (Input::movementSpeedRange != NILRANGE_P) currentFlags |= MOVEMENTSPEED;
-        if (Input::spreadHipRange != NILRANGE_P) currentFlags |= SPREADHIP | PELLETS;
-        if (Input::spreadAimRange != NILRANGE_P) currentFlags |= SPREADAIM | PELLETS;
-        if (Input::recoilHipRange != NILRANGE_P) currentFlags |= RECOILHIP;
-        if (Input::recoilAimRange != NILRANGE_P) currentFlags |= RECOILAIM;
-        if (Input::fireRateRange != NILRANGE_P) currentFlags |= FIRERATE;
-        if (Input::healthRange != NILRANGE_P) currentFlags |= HEALTH;
-        if (Input::equipTimeRange != NILRANGE_P) currentFlags |= EQUIPTIME;
-        if (Input::reloadRange != NILRANGE_P) currentFlags |= RELOAD;
-        if (Input::detectionRadiusRange != NILRANGE_P) currentFlags |= DETECTIONRADIUS;
-        if (Input::dropoffStudsRange != NILRANGE_P) currentFlags |= DROPOFFSTUDS;
-        if (Input::dropoffStudsEndRange != NILRANGE_P) currentFlags |= DROPOFFSTUDSEND;
-        if (Input::burstRange != NILRANGE_P) currentFlags |= BURST;
-        if (Input::TTKRange != NILRANGE_P) currentFlags |= DAMAGE | PELLETS | FIRERATE;
-        if (Input::DPSRange != NILRANGE_P) currentFlags |= DAMAGE | PELLETS | FIRERATE;
-        if (Input::timeToAimRange != NILRANGE_P) currentFlags |= TIMETOAIM;
+        static_assert(Input::TOTALFILTERCOUNT == 22, "Update IntializeMultFlag");
 
-        static_assert(Input::TOTALFILTERCOUNT == 20, "Update IntializeMultFlag");
+        if (Input::pelletRange != NILRANGE_P) currentFlags |= GetDependencies(PELLETS);
+        if (Input::damageRange != NILRANGE_P) currentFlags |= GetDependencies(DAMAGE);
+        if (Input::damageEndRange != NILRANGE_P) currentFlags |= GetDependencies(DAMAGEEND);
+        if (Input::magazineRange != NILRANGE_P) currentFlags |= GetDependencies(MAGAZINESIZE);
+        if (Input::movementSpeedRange != NILRANGE_P) currentFlags |= GetDependencies(MOVEMENTSPEED);
+        if (Input::spreadHipRange != NILRANGE_P) currentFlags |= GetDependencies(SPREADHIP);
+        if (Input::spreadAimRange != NILRANGE_P) currentFlags |= GetDependencies(SPREADAIM);
+        if (Input::recoilHipRange != NILRANGE_P) currentFlags |= GetDependencies(RECOILHIP);
+        if (Input::recoilAimRange != NILRANGE_P) currentFlags |= GetDependencies(RECOILAIM);
+        if (Input::fireRateRange != NILRANGE_P) currentFlags |= GetDependencies(FIRERATE);
+        if (Input::healthRange != NILRANGE_P) currentFlags |= GetDependencies(HEALTH);
+        if (Input::equipTimeRange != NILRANGE_P) currentFlags |= GetDependencies(EQUIPTIME);
+        if (Input::reloadRange != NILRANGE_P) currentFlags |= GetDependencies(RELOAD);
+        if (Input::detectionRadiusRange != NILRANGE_P) currentFlags |= GetDependencies(DETECTIONRADIUS);
+        if (Input::dropoffStudsRange != NILRANGE_P) currentFlags |= GetDependencies(DROPOFFSTUDS);
+        if (Input::dropoffStudsEndRange != NILRANGE_P) currentFlags |= GetDependencies(DROPOFFSTUDSEND);
+        if (Input::burstRange != NILRANGE_P) currentFlags |= GetDependencies(BURST);
+        if (Input::TTKRange != NILRANGE_P) currentFlags |= GetDependencies(TTK);
+        if (Input::TTKEndRange != NILRANGE_P) currentFlags |= GetDependencies(TTKEND);
+        if (Input::DPSRange != NILRANGE_P) currentFlags |= GetDependencies(DPS);
+        if (Input::DPSEndRange != NILRANGE_P) currentFlags |= GetDependencies(DPSEND);
+        if (Input::timeToAimRange != NILRANGE_P) currentFlags |= GetDependencies(TIMETOAIM);
 
-        switch (PQ::currentSortingType)
-        {
-            case TTK:
-            case DPS:
-                currentFlags |= DAMAGE | PELLETS | FIRERATE;
-                break;
-            case DAMAGEEND:
-                currentFlags |= DROPOFFSTUDS | FALLOFFFACTOR;
-            case DAMAGE:
-                currentFlags |= DAMAGE | PELLETS;
-                break;
-            case SPREADAIM:
-                currentFlags |= SPREADAIM | PELLETS;
-                break;
-            case SPREADHIP:
-                currentFlags |= SPREADHIP | PELLETS;
-                break;
-            default: // Trivial properties
-                currentFlags |= PQ::currentSortingType;
-                break;
-        }
-
+        currentFlags |= GetDependencies(PQ::currentSortingType);
     }
 
     inline bool CoreFilter(Core *core) // These filters require no gun calculation and can be immediately checked on the part itself
@@ -1417,7 +1467,7 @@ namespace Filter
     inline bool FilterGunStatsOnRange(const Gun& gun)
     {
         using Fast::RangeFilter;
-        static_assert(Input::TOTALFILTERCOUNT == 20, "FilterGunStatsOnRange needs to be updated");
+        static_assert(Input::TOTALFILTERCOUNT == 22, "FilterGunStatsOnRange needs to be updated");
         if (!RangeFilter(gun.timeToAim, Input::timeToAimRange)) return false;
         if (!RangeFilter(gun.magazineSize, Input::magazineRange)) return false;
         if (!RangeFilter(gun.pellets, Input::pelletRange)) return false;
@@ -1436,8 +1486,10 @@ namespace Filter
         if (!RangeFilter(gun.dropoffStuds.first, Input::dropoffStudsRange)) return false;
         if (!RangeFilter(gun.dropoffStuds.second, Input::dropoffStudsEndRange)) return false;
         if (!RangeFilter(gun.burst, Input::burstRange)) return false;
-        if (!RangeFilter(gun.TTKM(), Input::TTKRange)) return false;
-        if (!RangeFilter(gun.DPM(), Input::DPSRange)) return false;
+        if (!RangeFilter(gun.TTKS(), Input::TTKRange)) return false;
+        if (!RangeFilter(gun.TTKSEnd(), Input::TTKEndRange)) return false;
+        if (!RangeFilter(gun.DPS(), Input::DPSRange)) return false;
+        if (!RangeFilter(gun.DPSEnd(), Input::DPSEndRange)) return false;
         return true;
     }
 
@@ -1458,36 +1510,40 @@ namespace Data // Contains the real information read from FullData.json
     inline std::vector<Stock> stockList;
     inline std::vector<Core> coreList;
 
-    // We'll get em next time
     namespace Heuristic  // Contains the "heuristic" of sorting the list based on its relation to the current sorting method.
     {
         using namespace Fast;
         #define MUL(a) (1 + (a/100))
-        
+
+        // Trust me I wanted to use GetDependencies and make this look so beautiful but its just not possible
         inline float GetHeuristic(const Part& part) // A very rough value determining how good a part is to the stat
         {
-            static_assert(PQ::TOTALSORTFLAGS == 20, "Update GetHeuristic to contain all sorting flags");
-            
+            static_assert(PQ::TOTALSORTFLAGS == 22, "Update GetHeuristic to contain all sorting flags");
+
             switch (PQ::currentSortingType)
             {
                 case DAMAGE:
                     return MUL(part.damage) * MUL(part.pellets);
                 case DAMAGEEND:
                     return MUL(part.damage) * MUL(part.pellets) * MUL(part.range); // Not perfectly accurate
-                case TIMETOAIM: 
-                case FALLOFFFACTOR: 
-                case BURST: 
+                case TIMETOAIM:
+                case FALLOFFFACTOR:
+                case BURST:
                     return 1.f;
                 case TTK: // QUADRUPLE CHECK THIS PLEASE I KNOW YOU ARE READING THIS PLEASE PLEASE PLEASE
                     return MUL(-part.damage) * MUL(-part.pellets) * MUL(-part.fireRate);
+                case TTKEND:
+                    return MUL(-part.damage) * MUL(-part.pellets) * MUL(-part.fireRate) * MUL(-part.range);
                 case DPS:
                     return MUL(part.damage) * MUL(part.pellets) * MUL(part.fireRate);
-                default: 
+                case DPSEND:
+                    return MUL(part.damage) * MUL(part.pellets) * MUL(part.fireRate) * MUL(part.range);
+                default:
                     if (Fast::IsPartProperty(PQ::currentSortingType)) return part.GetMult(PQ::currentSortingType);
                     else throw std::runtime_error("GetHeuristic called with invalid sorting type");
             }
         }
-        
+
         inline float GetHeuristic(const Magazine& mag) // Specifically to handle mag size and reload
         {
             switch (PQ::currentSortingType)
@@ -1501,31 +1557,31 @@ namespace Data // Contains the real information read from FullData.json
             }
         }
 
-         
+
         inline void SortPartListsWithHeuristic() // O(n log n) so no worries
         {
             puts("Sorting part lists with heuristic");
             PQ::AllSortStruct sorter;
-            
+
             std::sort(coreList.begin(), coreList.end(), [&](const Core& core1, const Core& core2) -> bool {
                 Gun gun1(&core1), gun2(&core2);
                 gun1.CopyCoreValues(Filter::currentFlags);
                 gun2.CopyCoreValues(Filter::currentFlags);
-                
-                // Define some random stats for the magazine size 
+
+                // Define some random stats for the magazine size
                 gun1.magazine = magazineList.data();
                 gun2.magazine = magazineList.data();
                 gun1.CopyMagazineValues(Filter::currentFlags);
                 gun2.CopyMagazineValues(Filter::currentFlags);
-                
-                return sorter(gun1, gun2); // reversed so it is high to low
+
+                return sorter(gun1, gun2);
             });
 
             // Sorting magazine list
             std::sort(magazineList.begin(), magazineList.end(), [&](const Magazine& mag1, const Magazine& mag2) -> bool {
                 return sorter(GetHeuristic(mag1), GetHeuristic(mag2));
             });
-             
+
             // Sorting barrel list
             std::sort(barrelList.begin(), barrelList.end(), [&](const Barrel& barrel1, const Barrel& barrel2) -> bool {
                 return sorter(GetHeuristic(barrel1), GetHeuristic(barrel2));
@@ -1722,6 +1778,7 @@ namespace DynamicPrune
     inline std::atomic<float> currentBestThreshold_a; // Keep track of the current best property value and dynamically adjust it as it gets ran.
     #endif
 
+    #define _CLAMP0(a) (a < 0 ? 0.f: a)
 
     inline void InitializeThreshold()
     {
@@ -1790,6 +1847,8 @@ namespace DynamicPrune
 
     inline bool IsValidInRange(const Gun& gun, int coreCategory, int partComboStep) // PPC Stands for PossiblePartCombo
     {
+        static_assert(Input::TOTALFILTERCOUNT == 22, "Update IsValidInRange");
+
         const Part& lowPPC = HighLow::bestPossibleCombo[coreCategory][0][partComboStep]; // lowPPC
         const Part& highPPC = HighLow::bestPossibleCombo[coreCategory][1][partComboStep]; // highPPC
 
@@ -1798,13 +1857,59 @@ namespace DynamicPrune
 
         using namespace Fast;
 
-        float minDamageMult = NILMIN;
-        float maxDamageMult = NILMAX;
-        if (Input::damageRange != NILRANGE_P || Input::damageEndRange != NILRANGE_P || Input::DPSRange != NILRANGE_P || Input::TTKRange != NILRANGE_P)
+        // PRE CALCULATIONS FOR SHARED VALUES BETWEEN DIFFERENT RANGE CHECKS //
+
+        float minDamage = NILMIN;
+        float maxDamage = NILMAX;
+        if
+        (
+            Input::damageRange != NILRANGE_P ||
+            Input::damageEndRange != NILRANGE_P ||
+            Input::TTKRange != NILRANGE_P ||
+            Input::TTKEndRange != NILRANGE_P ||
+            Input::DPSRange != NILRANGE_P ||
+            Input::DPSEndRange != NILRANGE_P
+        )
         {
-            minDamageMult = ApplyPelletLadder(gun, coreCategory, partComboStep, lowPP, DAMAGE);
-            maxDamageMult = ApplyPelletLadder(gun, coreCategory, partComboStep, highPP, DAMAGE);
-            // std::cout << "Damage Range: " << minDamageMult << " - " << maxDamageMult << '\n';
+            minDamage = gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, lowPP, DAMAGE);
+            maxDamage = gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, highPP, DAMAGE);
+        }
+
+        float minDamageEnd = NILMIN;
+        float maxDamageEnd = NILMAX;
+        if
+        (
+            Input::damageEndRange != NILRANGE_P ||
+            Input::TTKEndRange != NILRANGE_P ||
+            Input::DPSEndRange != NILRANGE_P
+        )
+        {
+            float highFalloffFactor;
+            float lowFalloffFactor;
+
+            if (gun.falloffFactor > 0)
+            {
+                highFalloffFactor = gun.falloffFactor * highPPC.rangeFalloff;
+                lowFalloffFactor = gun.falloffFactor * lowPPC.rangeFalloff;
+            }
+            else
+            {
+                lowFalloffFactor = gun.falloffFactor * highPPC.rangeFalloff;
+                highFalloffFactor = gun.falloffFactor * lowPPC.rangeFalloff;
+            }
+
+            maxDamageEnd = maxDamage * (highFalloffFactor + 1);
+
+            // Lowest ending damage needs to consider 3 scenarios:
+            // falloff in range (-inf, -1] | We want high damage to allow falloff to turn the whole thing negative
+            // and falloff in range (-1, 0] | We want low damage to make falloff bring it near zero
+            // and falloff in range [0, inf) | We want low damage to not make falloff go so high
+
+            // maxDamageEnd = lowFalloffFactor <= -1 ?
+            //     (maxDamage * lowFalloffFactor) + (maxDamage) :
+            //     (minDamage * lowFalloffFactor) + (minDamage);
+
+            minDamageEnd = (lowFalloffFactor <= -1 ? maxDamage : minDamage) * (lowFalloffFactor + 1);
         }
 
         float minSpreadMult = NILMIN;
@@ -1817,6 +1922,8 @@ namespace DynamicPrune
             // std::cout << "Spread Range: " << minSpreadMult << " - " << maxSpreadMult << '\n';
         }
 
+        // PRE CALCULATIONS FOR SHARED VALUES BETWEEN DIFFERENT RANGE CHECKS //
+
         // Pellets
         if (Input::pelletRange != NILRANGE_P)
         {
@@ -1828,40 +1935,11 @@ namespace DynamicPrune
 
         // Damage
         if (Input::damageRange != NILRANGE_P)
-            if (!ValueOffsetFilter(gun.damage * minDamageMult, gun.damage * maxDamageMult, Input::damageRange)) return false;
+            if (!ValueOffsetFilter(minDamage, maxDamage, Input::damageRange)) return false;
 
         // DamageEnd
         if (Input::damageEndRange != NILRANGE_P)
-        {
-            float damage = gun.damage;
-
-            float highFalloffFactor;
-            float lowFalloffFactor;
-            if (gun.falloffFactor > 0)
-            {
-                highFalloffFactor = gun.falloffFactor * highPPC.rangeFalloff;
-                lowFalloffFactor = gun.falloffFactor * lowPPC.rangeFalloff;
-            }
-            else
-            {
-                lowFalloffFactor = gun.falloffFactor * highPPC.rangeFalloff;
-                highFalloffFactor = gun.falloffFactor * lowPPC.rangeFalloff;
-            }
-
-            float highDamage = (damage * maxDamageMult * highFalloffFactor) + (damage * maxDamageMult);
-           
-            // Lowest ending damage needs to consider 3 scenarios: 
-            // falloff in range (-inf, -1] | We want high damage to allow falloff to turn the whole thing negative
-            // and falloff in range (-1, 0] | We want low damage to make falloff bring it near zero 
-            // and falloff in range [0, inf) | We want low damage to not make falloff go so high 
-             
-            float lowDamage = lowFalloffFactor <= -1 ? 
-                (damage * maxDamageMult * lowFalloffFactor) + (damage * maxDamageMult) : 
-                (damage * minDamageMult * lowFalloffFactor) + (damage * minDamageMult);
-            
-            if (!ValueOffsetFilter(lowDamage, highDamage, Input::damageEndRange)) return false;
-        }
-
+            if (!ValueOffsetFilter(minDamageEnd, maxDamageEnd, Input::damageEndRange)) return false;
 
         // hipspread
         if (Input::spreadHipRange != NILRANGE_P)
@@ -1880,47 +1958,68 @@ namespace DynamicPrune
         // TTK
         if (Input::TTKRange != NILRANGE_P)
         {
-            float minDamage = gun.damage * minDamageMult;
-            float maxDamage = gun.damage * maxDamageMult;
-
             float minFireRate = gun.fireRate * lowPPC.fireRate;
             float maxFireRate = gun.fireRate * highPPC.fireRate;
 
             // inline float TTKM() const { return (ceilf(Input::playerMaxHealth / damage) - 1) / fireRate; }
-            float minTTK = (ceilf(Input::playerMaxHealth / maxDamage) - 1) / maxFireRate;
-            float maxTTK = (ceilf(Input::playerMaxHealth / minDamage) - 1) / minFireRate;
+            float minTTK = (ceilf(Input::playerMaxHealth / _CLAMP0(maxDamage)) - 1) / maxFireRate * 60;
+            float maxTTK = (ceilf(Input::playerMaxHealth / _CLAMP0(minDamage)) - 1) / minFireRate * 60;
 
             if (!ValueOffsetFilter(minTTK, maxTTK, Input::TTKRange)) return false;
+        }
+
+        // TTKEND
+        if (Input::TTKEndRange != NILRANGE_P)
+        {
+            float minFireRate = gun.fireRate * lowPPC.fireRate;
+            float maxFireRate = gun.fireRate * highPPC.fireRate;
+
+            float minTTK = (ceilf(Input::playerMaxHealth / _CLAMP0(maxDamageEnd)) - 1) / maxFireRate * 60;
+            float maxTTK = (ceilf(Input::playerMaxHealth / _CLAMP0(minDamageEnd)) - 1) / minFireRate * 60;
+
+            if (!ValueOffsetFilter(minTTK, maxTTK, Input::TTKEndRange)) return false;
         }
 
         // DPS
         if (Input::DPSRange != NILRANGE_P)
         {
-            float minDamage = gun.damage * minDamageMult;
-            float maxDamage = gun.damage * maxDamageMult;
-
             float minFireRate = gun.fireRate * lowPPC.fireRate;
             float maxFireRate = gun.fireRate * highPPC.fireRate;
 
-            // inline float DPM() const { return damage * fireRate; }
-            float minDPS = minDamage * minFireRate;
-            float maxDPS = maxDamage * maxFireRate;
+            float minDPS = _CLAMP0(minDamage) * minFireRate / 60;
+            float maxDPS = _CLAMP0(maxDamage) * maxFireRate / 60;
 
             if (!ValueOffsetFilter(minDPS, maxDPS, Input::DPSRange)) return false;
         }
 
-        if (Input::magazineRange != NILRANGE_P && gun.magazine != nullptr)
+        // DPSEND
+        if (Input::DPSEndRange != NILRANGE_P)
         {
-            float minMagazine = ApplyMagazineLadder(gun, coreCategory, partComboStep, lowPP);
-            float maxMagazine = ApplyMagazineLadder(gun, coreCategory, partComboStep, highPP);
-            if (!ValueOffsetFilter(minMagazine, maxMagazine, Input::magazineRange)) return false;
+            float minFireRate = gun.fireRate * lowPPC.fireRate;
+            float maxFireRate = gun.fireRate * highPPC.fireRate;
+
+            float minDPS = _CLAMP0(minDamageEnd) * minFireRate / 60;
+            float maxDPS = _CLAMP0(maxDamageEnd) * maxFireRate / 60;
+
+            if (!ValueOffsetFilter(minDPS, maxDPS, Input::DPSEndRange)) return false;
+        }
+
+        if (gun.magazine != nullptr) // Magazine must be copied over for these stats
+        {
+            if (Input::magazineRange != NILRANGE_P)
+            {
+                float minMagazine = ApplyMagazineLadder(gun, coreCategory, partComboStep, lowPP);
+                float maxMagazine = ApplyMagazineLadder(gun, coreCategory, partComboStep, highPP);
+                if (!ValueOffsetFilter(minMagazine, maxMagazine, Input::magazineRange)) return false;
+            }
+
+            if (!ValueOffsetFilterMult(RELOAD, Input::reloadRange, gun, lowPPC, highPPC)) return false;
         }
 
         // Trivial Values
         if (!ValueOffsetFilterMult(FIRERATE, Input::fireRateRange, gun, lowPPC, highPPC)) return false;
         if (!ValueOffsetFilterMult(RECOILHIP, Input::recoilHipRange, gun, lowPPC, highPPC)) return false;
         if (!ValueOffsetFilterMult(RECOILAIM, Input::recoilAimRange, gun, lowPPC, highPPC)) return false;
-        if (!ValueOffsetFilterMult(RELOAD, Input::reloadRange, gun, lowPPC, highPPC) && gun.magazine != nullptr) return false;
         if (!ValueOffsetFilterMult(DETECTIONRADIUS, Input::detectionRadiusRange, gun, lowPPC, highPPC)) return false;
         if (!ValueOffsetFilterMult(EQUIPTIME, Input::equipTimeRange, gun, lowPPC, highPPC)) return false;
         if (!ValueOffsetFilterMult(DROPOFFSTUDS, Input::dropoffStudsRange, gun, lowPPC, highPPC)) return false;
@@ -1932,7 +2031,9 @@ namespace DynamicPrune
 
     inline bool IsValidInThreshold(const Gun& gun, int coreCategory, int partComboStep)
     {
-        // Low High is objective (Value becomes less or more), Normal Anti is subjective (Based on what the priority is. Normal goes along with priority anti goes against)
+        static_assert(PQ::TOTALSORTFLAGS == 22, "Update IsValidInThreshold");
+
+        // Low, High is objective (Value becomes less or more), Normal, Anti is subjective (Based on what the priority is. Normal goes along with priority anti goes against)
         float gunValue;
         const Part& lowPPC = HighLow::bestPossibleCombo[coreCategory][0][partComboStep];
         const Part& highPPC = HighLow::bestPossibleCombo[coreCategory][1][partComboStep];
@@ -1949,26 +2050,59 @@ namespace DynamicPrune
         using namespace Fast;
         switch(PQ::currentSortingType)
         {
-            // Apply pellet ladder if it is a non trivial property
             case TTK: // low TTK -> high damage\\ high firerate -> anti
             {
-                float bestDamage = gun.damage;
+                float bestDamage = gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, antiPP, DAMAGE);
                 float bestFireRate = gun.fireRate * antiPPC.fireRate;
 
-                float damageMult = ApplyPelletLadder(gun, coreCategory, partComboStep, antiPP, DAMAGE);
-                bestDamage *= damageMult;
-                gunValue = (ceilf(Input::playerMaxHealth / bestDamage) - 1) / bestFireRate;
+                gunValue = (ceilf(Input::playerMaxHealth / _CLAMP0(bestDamage)) - 1) / bestFireRate * 60;
+                break;
+            }
+
+            case TTKEND: // Just a note for future me, if you have a bug its probably here.
+            {
+                float highestBaseDamage = gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, highPP, DAMAGE);
+                float lowestBaseDamage = gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, lowPP, DAMAGE);
+
+                float bestFalloffFactor;
+                // Swap the if else here too?
+                if (gun.falloffFactor > 0) bestFalloffFactor = gun.falloffFactor * antiPPC.rangeFalloff;
+                else bestFalloffFactor = gun.falloffFactor * normalPPC.rangeFalloff;
+
+                float bestDamageEnd;
+                // Swap the if else because damage is inverse proportional to ttk
+                if (PQ::sortPriority == PQ::HIGHEST) bestDamageEnd = (bestFalloffFactor <= -1 ? highestBaseDamage : lowestBaseDamage) * (bestFalloffFactor + 1);
+                else bestDamageEnd = highestBaseDamage * (bestFalloffFactor + 1);
+
+                float bestFireRate = gun.fireRate * antiPPC.fireRate;
+                gunValue = (ceilf(Input::playerMaxHealth / _CLAMP0(bestDamageEnd)) - 1) / bestFireRate * 60;
                 break;
             }
 
             case DPS: // high DPS -> high damage\\ high firerate -> normal
             {
-                float bestDamage = gun.damage;
+                float bestDamage = gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, DAMAGE);
                 float bestFireRate = gun.fireRate * normalPPC.fireRate;
 
-                float damageMult = ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, DAMAGE);
-                bestDamage *= damageMult;
-                gunValue = bestDamage * bestFireRate;
+                gunValue = _CLAMP0(bestDamage) * bestFireRate / 60;
+                break;
+            }
+
+            case DPSEND: // high DPS -> high damage\\ high firerate -> normal
+            {
+                float highestBaseDamage = gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, highPP, DAMAGE);
+                float lowestBaseDamage = gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, lowPP, DAMAGE);
+
+                float bestFalloffFactor;
+                if (gun.falloffFactor > 0) bestFalloffFactor = gun.falloffFactor * normalPPC.rangeFalloff;
+                else bestFalloffFactor = gun.falloffFactor * antiPPC.rangeFalloff;
+
+                float bestDamageEnd;
+                if (PQ::sortPriority == PQ::HIGHEST) bestDamageEnd = highestBaseDamage * (bestFalloffFactor + 1);
+                else bestDamageEnd = (bestFalloffFactor <= -1 ? highestBaseDamage : lowestBaseDamage) * (bestFalloffFactor + 1);
+
+                float bestFireRate = gun.fireRate * normalPPC.fireRate;
+                gunValue = _CLAMP0(bestDamageEnd) * bestFireRate / 60;
                 break;
             }
 
@@ -1977,26 +2111,21 @@ namespace DynamicPrune
                 break;
 
             case DAMAGE: // high damage -> high damage\\ -> normal
-                gunValue =  gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, DAMAGE);
+                gunValue = gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, DAMAGE);
                 break;
 
-            case DAMAGEEND: // Uhhhhhhh 
+            case DAMAGEEND: // Uhhhhhhh
             {
-                float bestBaseDamage = gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, normalPP, DAMAGE);
-                float worstBaseDamage = gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, antiPP, DAMAGE);
-                
+                float highestBaseDamage = gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, highPP, DAMAGE);
+                float lowestBaseDamage = gun.damage * ApplyPelletLadder(gun, coreCategory, partComboStep, lowPP, DAMAGE);
+
                 float bestFalloffFactor;
                 if (gun.falloffFactor > 0) bestFalloffFactor = gun.falloffFactor * normalPPC.rangeFalloff;
                 else bestFalloffFactor = gun.falloffFactor * antiPPC.rangeFalloff;
-                
-                
-                if (PQ::sortPriority == PQ::HIGHEST) gunValue = (bestBaseDamage * bestFalloffFactor) + bestBaseDamage;
-                
-                // This is where it will be very confusing
-                else // if (PQ::sortPriority == PQ::LOWEST)
-                    gunValue = bestFalloffFactor <= -1 ?
-                        (worstBaseDamage * bestFalloffFactor) + worstBaseDamage : // Highest damage
-                        (bestBaseDamage * bestFalloffFactor) + bestBaseDamage; // Lowest damage
+
+                if (PQ::sortPriority == PQ::HIGHEST) gunValue = highestBaseDamage * (bestFalloffFactor + 1);
+                else gunValue = (bestFalloffFactor <= -1 ? highestBaseDamage : lowestBaseDamage) * (bestFalloffFactor + 1);
+
                 break;
             }
 
@@ -2035,11 +2164,11 @@ namespace DynamicPrune
                 }
             }
         }
-        
+
 
         float threshold = currentBestThreshold_a.load();
         // std::cout << "value: " << gunValue << " threshold: " << threshold << '\n';
-        
+
         if (PQ::sortPriority == PQ::HIGHEST)
             return gunValue > threshold;
         else if (PQ::sortPriority == PQ::LOWEST)
@@ -2255,12 +2384,6 @@ namespace DynamicPrune
                 printf("%" PRId32 ": Expected Threshold: %f\n", args.threadId, expectedThreshold);
             if (PQ::AllSortStruct()(currentGun.GetProperty(PQ::currentSortingType), expectedThreshold))
             {
-                // if (threadPQ[args.threadId].size() == Input::howManyTopGunsToDisplay && !PQ::AllSortStruct()(currentGun, threadPQ[args.threadId].top()))
-                // {
-                //     // This should theoretically never run. (Threshold in the first if statement should have contained the best value of the top of all priority queues. If this runs then somewhere it fucked up)
-                //     puts("WARNING: Unexpected atomicity reorder. Please look into this.");
-                // }
-
                 // Here the current gun contains pointers to components that will go out of scope.
                 // We need to return the pointers to the original components.
 

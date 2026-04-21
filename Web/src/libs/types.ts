@@ -108,11 +108,10 @@ export class Gun {
   recoilHipVertical: fpair = [0, 0];
   recoilAimHorizontal: fpair = [0, 0];
   recoilAimVertical: fpair = [0, 0];
-  TTKM: number = 0;
   TTKS: number = 0;
-  DPM: number = 0;
+  TTKSEnd: number = 0;
   DPS: number = 0;
- 
+  DPSEnd: number = 0;
 }
 
 export type WorkerAction = "calculate" | "queryVersion" | "startup";

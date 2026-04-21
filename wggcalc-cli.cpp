@@ -37,7 +37,7 @@ int main(int argc, char* argv[])
     
     // app.add_option_group(GROUP_GENERAL);
     app.add_option("-t, --threads", Input::threadsToMake, "Number of threads to use (Default: AUTODETECT)")->check(CLI::Range(1u, 64u))->group(GROUP_GENERAL);
-    app.add_option("-s, --sort", Input::sortType, "Sorting type (TTK DAMAGE DAMAGEEND FIRERATE PELLETS SPREADAIM SPREADHIP RECOILAIM RECOILHIP HEALTH RANGE RANGEEND DETECTIONRADIUS TIMETOAIM BURST SPEED MAGAZINE RELOAD DPS) (Default: TTK)")->group(GROUP_GENERAL);
+    app.add_option("-s, --sort", Input::sortType, "Sorting type (TTK TTKEND DAMAGE DAMAGEEND FIRERATE PELLETS SPREADAIM SPREADHIP RECOILAIM RECOILHIP HEALTH RANGE RANGEEND DETECTIONRADIUS TIMETOAIM BURST SPEED MAGAZINE RELOAD DPS DPSEND) (Default: TTK)")->group(GROUP_GENERAL);
     app.add_option("-n, --number", Input::howManyTopGunsToDisplay, "Number of top guns to display (Default: 10)")->group(GROUP_GENERAL);
     app.add_option("-m, --method", Input::method, "Method to use for calculation (BRUTEFORCE, PRUNE, DYNAMICPRUNE) (Default: DYNAMICPRUNE)")->group(GROUP_GENERAL);
     app.add_option("-i, --include", Input::includeCategories, "Categories to include in the calculation (AR, Sniper, LMG, SMG, Shotgun, Weird)")->group(GROUP_GENERAL);
@@ -119,12 +119,18 @@ int main(int argc, char* argv[])
     app.add_option("--burst", Input::burstRange, "Burst range to filter")->group(GROUP_FILTERS);
     app.add_option("--burstMin", Input::burstRange.first)->group(GROUP_FILTERS);
     app.add_option("--burstMax", Input::burstRange.second)->group(GROUP_FILTERS);
-    app.add_option("--TTK", Input::TTKRange, "TTK range to filter")->group(GROUP_FILTERS); // Input is TTKS but gets turned into TTKM internally
-    app.add_option("--TTKMin", Input::TTKRange.first)->group(GROUP_FILTERS);
-    app.add_option("--TTKMax", Input::TTKRange.second)->group(GROUP_FILTERS);
-    app.add_option("--DPS", Input::DPSRange, "DPS range to filter")->group(GROUP_FILTERS); // Input is DPS but gets turned into DPM internally
-    app.add_option("--DPSMin", Input::DPSRange.first)->group(GROUP_FILTERS);
-    app.add_option("--DPSMax", Input::DPSRange.second)->group(GROUP_FILTERS);
+    app.add_option("--TTK, --TTKStart", Input::TTKRange, "TTK range to filter")->group(GROUP_FILTERS); 
+    app.add_option("--TTKMin, --TTKStartMin", Input::TTKRange.first)->group(GROUP_FILTERS);
+    app.add_option("--TTKMax, --TTKStartMax", Input::TTKRange.second)->group(GROUP_FILTERS);
+    app.add_option("--TTKEnd", Input::TTKEndRange, "TTK end range to filter")->group(GROUP_FILTERS); 
+    app.add_option("--TTKEndMin", Input::TTKEndRange.first)->group(GROUP_FILTERS);
+    app.add_option("--TTKEndMax", Input::TTKEndRange.second)->group(GROUP_FILTERS);
+    app.add_option("--DPS, --DPSStart", Input::DPSRange, "DPS range to filter")->group(GROUP_FILTERS); 
+    app.add_option("--DPSMin, --DPSStartMin", Input::DPSRange.first)->group(GROUP_FILTERS);
+    app.add_option("--DPSMax, --DPSStartMax", Input::DPSRange.second)->group(GROUP_FILTERS);
+    app.add_option("--DPSEnd, --DPSEndStart", Input::DPSEndRange, "DPS end range to filter")->group(GROUP_FILTERS); 
+    app.add_option("--DPSEndMin, --DPSEndStartMin", Input::DPSEndRange.first)->group(GROUP_FILTERS);
+    app.add_option("--DPSEndMax, --DPSEndStartMax", Input::DPSEndRange.second)->group(GROUP_FILTERS);
 
     CLI11_PARSE(app, argc, argv);
 

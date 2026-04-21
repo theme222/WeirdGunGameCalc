@@ -7,6 +7,7 @@ function sortTypeJSToWasm(sortType: string): string | undefined {
   const wasmSortList = [
     'BURST',
     'DPS',
+    'DPSEND',
     'DAMAGEEND',
     'DAMAGE',
     'DETECTIONRADIUS',
@@ -24,6 +25,7 @@ function sortTypeJSToWasm(sortType: string): string | undefined {
     'SPREADAIM',
     'SPREADHIP',
     'TTK',
+    'TTKEND',
     'TIMETOAIM',
   ];
   
@@ -69,10 +71,10 @@ function gunObjectWasmToJS(wasmObject: Gun_WASM ): Gun { // Frees wasmObject
   g.recoilHipVertical = fpairObjectWasmToJS(wasmObject["recoilHipVertical"]);
   g.recoilAimHorizontal = fpairObjectWasmToJS(wasmObject["recoilAimHorizontal"]);
   g.recoilAimVertical = fpairObjectWasmToJS(wasmObject["recoilAimVertical"]);
-  g.TTKM = wasmObject["TTKM"];
   g.TTKS = wasmObject["TTKS"];
-  g.DPM = wasmObject["DPM"];
+  g.TTKSEnd = wasmObject["TTKSEnd"];
   g.DPS = wasmObject["DPS"];
+  g.DPSEnd = wasmObject["DPSEnd"];
   
   wasmObject["delete"]();
   return g;

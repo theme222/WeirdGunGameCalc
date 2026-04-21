@@ -108,7 +108,7 @@ onMounted(() => {
             <span class="hidden sm:block text-nowrap">Edit Stat Visibility</span>
             <NumberedListIcon class="size-4 block sm:hidden" />
           </summary>
-          <div class="dropdown-content bg-base-200 rounded-box w-52">
+          <div class="dropdown-content bg-base-200 rounded-box w-52 h-120 overflow-y-auto">
             <div class="flex flex-col gap-2 p-3">
               <label v-for="(stat, index) in statsToCompare" :key="index" class="flex items-center gap-2 cursor-pointer" :for="stat.stat">
                 <input type="checkbox" :id="stat.stat" :value="stat.stat" class="checkbox" v-model="stat.show" />

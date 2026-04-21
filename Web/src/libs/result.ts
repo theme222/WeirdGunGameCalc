@@ -18,6 +18,7 @@ watch(latestResult, () => {
 export function getFilterAsProperty(gun: Gun, filterName: (typeof propertyStrings)[number]): fpair | number {
    switch (filterName) {
      case 'TTK': return gun.TTKS;
+     case 'TTK End': return gun.TTKSEnd;
      case 'Damage Start': return gun.damage[0];
      case 'Damage End': return gun.damage[1];
      case 'Damage': return gun.damage;
@@ -39,6 +40,7 @@ export function getFilterAsProperty(gun: Gun, filterName: (typeof propertyString
      case 'Magazine Size': return gun.magazineSize;
      case 'Reload Time': return gun.reloadTime;
      case 'DPS': return gun.DPS;
+     case 'DPS End': return gun.DPSEnd;
    }
  }
  
