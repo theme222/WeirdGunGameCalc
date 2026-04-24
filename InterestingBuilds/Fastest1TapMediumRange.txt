@@ -38,17 +38,18 @@ recoilHipVertical: 124.2 - 149.04
 recoilAimVertical: 63.342 - 84.456
 movementSpeed: -1.5
 
-[ Barrel: M40, Magazine: Fat Cat, Grip: Pancake Hammer, Stock: Speed Coil, Core: Barret .50 ]
+[ Barrel: M40, Magazine: Fat Cat, Grip: M60, Stock: Speed Coil, Core: Barret .50 ]
 damage: 232.218 - 155.743
 dropoffStuds: 250 - 537.5
 fireRate: 108.9
-adsSpread: 0.299712
-hipfireSpread: 11.9885
-reloadTime: 11.712
+adsSpread: 0.29568
+hipfireSpread: 11.8272
+reloadTime: 12.6
 magazineSize: 1
 health: 5
-recoilHipVertical: 153.9 - 184.68
-recoilAimVertical: 78.489 - 104.652
+recoilHipVertical: 75.24 - 90.288
+recoilAimVertical: 38.3724 - 51.1632
+movementSpeed: -2.5
 
 [ Barrel: M40, Magazine: Fat Cat, Grip: Burton, Stock: Speed Coil, Core: Barret .50 ]
 damage: 232.218 - 154.214
@@ -63,18 +64,30 @@ recoilHipVertical: 85.5 - 102.6
 recoilAimVertical: 43.605 - 58.14
 movementSpeed: -3
 
-[ Barrel: M40, Magazine: Fat Cat, Grip: M1919 .30 Cal, Stock: Speed Coil, Core: Barret .50 ]
+[ Barrel: M40, Magazine: Fat Cat, Grip: M249 SAW, Stock: Speed Coil, Core: Barret .50 ]
 damage: 232.218 - 155.743
 dropoffStuds: 250 - 537.5
 fireRate: 108.9
 adsSpread: 0.292992
 hipfireSpread: 11.7197
-reloadTime: 10.176
+reloadTime: 12
 magazineSize: 1
 health: 5
-recoilHipVertical: 106.875 - 128.25
-recoilAimVertical: 54.5062 - 72.675
-movementSpeed: -2.5
+recoilHipVertical: 91.485 - 109.782
+recoilAimVertical: 46.6573 - 62.2098
+movementSpeed: -4
+
+[ Barrel: M40, Magazine: Fat Cat, Grip: Pancake Hammer, Stock: Speed Coil, Core: Barret .50 ]
+damage: 232.218 - 155.743
+dropoffStuds: 250 - 537.5
+fireRate: 108.9
+adsSpread: 0.299712
+hipfireSpread: 11.9885
+reloadTime: 11.712
+magazineSize: 1
+health: 5
+recoilHipVertical: 153.9 - 184.68
+recoilAimVertical: 78.489 - 104.652
 
 [ Barrel: M40, Magazine: Fat Cat, Grip: Roto-Fire, Stock: Speed Coil, Core: Barret .50 ]
 damage: 232.218 - 153.449
@@ -89,19 +102,6 @@ recoilHipVertical: 85.5 - 102.6
 recoilAimVertical: 43.605 - 58.14
 movementSpeed: -4
 
-[ Barrel: M40, Magazine: Fat Cat, Grip: M60, Stock: Speed Coil, Core: Barret .50 ]
-damage: 232.218 - 155.743
-dropoffStuds: 250 - 537.5
-fireRate: 108.9
-adsSpread: 0.29568
-hipfireSpread: 11.8272
-reloadTime: 12.6
-magazineSize: 1
-health: 5
-recoilHipVertical: 75.24 - 90.288
-recoilAimVertical: 38.3724 - 51.1632
-movementSpeed: -2.5
-
 [ Barrel: M40, Magazine: Fat Cat, Grip: AKM, Stock: Speed Coil, Core: Barret .50 ]
 damage: 232.218 - 155.743
 dropoffStuds: 250 - 537.5
@@ -114,16 +114,16 @@ health: 5
 recoilHipVertical: 99.18 - 119.016
 recoilAimVertical: 50.5818 - 67.4424
 
-[ Barrel: M40, Magazine: Fat Cat, Grip: M249 SAW, Stock: Speed Coil, Core: Barret .50 ]
+[ Barrel: M40, Magazine: Fat Cat, Grip: M1919 .30 Cal, Stock: Speed Coil, Core: Barret .50 ]
 damage: 232.218 - 155.743
 dropoffStuds: 250 - 537.5
 fireRate: 108.9
 adsSpread: 0.292992
 hipfireSpread: 11.7197
-reloadTime: 12
+reloadTime: 10.176
 magazineSize: 1
 health: 5
-recoilHipVertical: 91.485 - 109.782
-recoilAimVertical: 46.6573 - 62.2098
-movementSpeed: -4
+recoilHipVertical: 106.875 - 128.25
+recoilAimVertical: 54.5062 - 72.675
+movementSpeed: -2.5
 

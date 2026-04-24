@@ -27,6 +27,7 @@ function sortTypeJSToWasm(sortType: string): string | undefined {
     'TTK',
     'TTKEND',
     'TIMETOAIM',
+    'TTE'
   ];
   
   return wasmSortList[filterPropStrings.indexOf(sortType as any)] ?? undefined;
@@ -75,6 +76,7 @@ function gunObjectWasmToJS(wasmObject: Gun_WASM ): Gun { // Frees wasmObject
   g.TTKSEnd = wasmObject["TTKSEnd"];
   g.DPS = wasmObject["DPS"];
   g.DPSEnd = wasmObject["DPSEnd"];
+  g.TTE = wasmObject["TTE"];
   
   wasmObject["delete"]();
   return g;

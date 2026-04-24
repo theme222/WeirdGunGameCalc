@@ -112,6 +112,7 @@ export class Gun {
   TTKSEnd: number = 0;
   DPS: number = 0;
   DPSEnd: number = 0;
+  TTE: number = 0;
 }
 
 export type WorkerAction = "calculate" | "queryVersion" | "startup";

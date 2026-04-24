@@ -35,6 +35,7 @@ watch(data, async (newData: WorkerResult) => {
       latestResult.endTime = newData.endTime;
       
       if (newData.success) addToast(`Calculation finished (took ${newData.endTime - newData.startTime}ms)`, "success");
+      
       break;
     }
     case 'queryVersion': {

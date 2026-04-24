@@ -1,4 +1,4 @@
-./wggcalc -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --reloadMax 2.5 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
+./wggcalc -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --TTKMin 0.001 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --reloadMax 2.5 --TTEMin 2 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
 Current top 10 guns are: 
 [ Barrel: MG42, Magazine: Scar L, Grip: Infinity, Stock: Speed Coil, Core: Hotdog ]
 damage: 34.3846 - 21.9197
@@ -8,6 +8,7 @@ adsSpread: 0.9261
 hipfireSpread: 10.29
 reloadTime: 2.4075
 magazineSize: 35
+Time to empty: 2.98639
 health: -10
 recoilHipVertical: 46.176 - 51.792
 recoilAimVertical: 30.0144 - 33.6336
@@ -22,6 +23,7 @@ adsSpread: 0.7137
 hipfireSpread: 7.93
 reloadTime: 2.403
 magazineSize: 30
+Time to empty: 2.58417
 recoilHipVertical: 44.992 - 50.464
 recoilAimVertical: 29.2448 - 32.7712
 TTK: 0.178219 Seconds
@@ -34,10 +36,25 @@ adsSpread: 0.7137
 hipfireSpread: 7.93
 reloadTime: 2.38075
 magazineSize: 35
+Time to empty: 3.02972
 recoilHipVertical: 44.992 - 50.464
 recoilAimVertical: 29.2448 - 32.7712
 movementSpeed: 6.3
 TTK: 0.178219 Seconds
+
+[ Barrel: MG42, Magazine: Type 2a Nambu, Grip: Banana, Stock: Kriss Vector, Core: Hotdog ]
+damage: 33.6 - 20.0726
+dropoffStuds: 106.704 - 166.725
+fireRate: 658.692
+adsSpread: 0.94185
+hipfireSpread: 10.465
+reloadTime: 2.5
+magazineSize: 30
+Time to empty: 2.6416
+recoilHipVertical: 46.7917 - 52.4826
+recoilAimVertical: 30.4146 - 34.082
+movementSpeed: 4.3
+TTK: 0.182179 Seconds
 
 [ Barrel: MG42, Magazine: Type 2a Nambu, Grip: Mega Soaker, Stock: Kriss Vector, Core: Hotdog ]
 damage: 33.6 - 20.0726
@@ -47,6 +64,7 @@ adsSpread: 0.91728
 hipfireSpread: 10.192
 reloadTime: 2.5
 magazineSize: 30
+Time to empty: 2.6416
 recoilHipVertical: 44.4521 - 49.8584
 recoilAimVertical: 28.8939 - 32.3779
 movementSpeed: 1.3
@@ -60,22 +78,10 @@ adsSpread: 0.99099
 hipfireSpread: 11.011
 reloadTime: 2.5
 magazineSize: 30
+Time to empty: 2.6416
 recoilHipVertical: 47.9615 - 53.7946
 recoilAimVertical: 31.175 - 34.9341
 movementSpeed: 1.3
-TTK: 0.182179 Seconds
-
-[ Barrel: MG42, Magazine: Type 2a Nambu, Grip: Banana, Stock: Kriss Vector, Core: Hotdog ]
-damage: 33.6 - 20.0726
-dropoffStuds: 106.704 - 166.725
-fireRate: 658.692
-adsSpread: 0.94185
-hipfireSpread: 10.465
-reloadTime: 2.5
-magazineSize: 30
-recoilHipVertical: 46.7917 - 52.4826
-recoilAimVertical: 30.4146 - 34.082
-movementSpeed: 4.3
 TTK: 0.182179 Seconds
 
 [ Barrel: Infinity, Magazine: Sten gun, Grip: Infinity, Stock: Speed Coil, Core: Hotdog ]
@@ -86,6 +92,7 @@ adsSpread: 0.7056
 hipfireSpread: 7.84
 reloadTime: 2.26305
 magazineSize: 35
+Time to empty: 3.13136
 health: -10
 recoilHipVertical: 44.4 - 49.8
 recoilAimVertical: 28.86 - 32.34
@@ -100,6 +107,7 @@ adsSpread: 0.91728
 hipfireSpread: 10.192
 reloadTime: 2.115
 magazineSize: 30
+Time to empty: 2.67086
 health: -10
 recoilHipVertical: 44.4 - 49.8
 recoilAimVertical: 28.86 - 32.34
@@ -114,6 +122,7 @@ adsSpread: 0.813735
 hipfireSpread: 9.0415
 reloadTime: 2.5
 magazineSize: 30
+Time to empty: 2.67328
 recoilHipVertical: 44.992 - 50.464
 recoilAimVertical: 29.2448 - 32.7712
 movementSpeed: 6.3
@@ -127,6 +136,7 @@ adsSpread: 0.950625
 hipfireSpread: 10.5625
 reloadTime: 2.5
 magazineSize: 30
+Time to empty: 2.69653
 recoilHipVertical: 44.992 - 50.464
 recoilAimVertical: 29.2448 - 32.7712
 movementSpeed: 1.8

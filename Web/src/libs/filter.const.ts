@@ -23,6 +23,7 @@ export const filterPropStrings = [ // Sorted by text
   "TTK",
   "TTK End",
   "Time To Aim",
+  "TTE"
 ] as const;
 
 export const propertyStrings = [ // Sorted by order of how I want it to show up in the part list
@@ -49,7 +50,8 @@ export const propertyStrings = [ // Sorted by order of how I want it to show up 
   "TTK",
   "TTK End",
   "DPS",
-  "DPS End"
+  "DPS End",
+  "TTE"
 ] as const
 
 // I tried going [...].sort() but I lose the const assertation so gonna have to just hard code this :/
@@ -88,6 +90,7 @@ export const filterTitles = [
   "TTK",
   "TTK End",
   "Time To Aim",
+  "Time To Empty",
   "Total Results"
 ] as const;
 
@@ -99,33 +102,34 @@ export const filterDescriptions: {[key in typeof filterTitles[number]]: string} 
   "Ban Stock": "Ban the calculator from using a list of stocks",
   "Burst": "Burst range to filter",
   "Categories": "Categories to include in the calculation",
-  "DPS": "DPS range to filter",
-  "DPS End": "DPS using the end damage",  
-  "Damage End": "Damage range to filter (END)",
-  "Damage Start": "Damage range to filter (START)",
-  "Detection Radius": "Detection radius range to filter",
-  "Equip Time": "Equip time range to filter",
-  "Fire Rate": "Fire rate range to filter",
+  "DPS": "Damage per second",
+  "DPS End": "Damage per second using the ending damage",  
+  "Damage End": "Total ending damage (not per pellet)",
+  "Damage Start": "Total starting damage (not per pellet)",
+  "Detection Radius": "Dectection radius",
+  "Equip Time": "Equip time in seconds",
+  "Fire Rate": "Fire rate in rounds per minute",
   "Force Barrel": "Force the calculator to use a list of barrels",
   "Force Core": "Force the calculator to use a list of cores",
   "Force Grip": "Force the calculator to use a list of grips",
   "Force Magazine": "Force the calculator to use a list of magazines",
   "Force Stock": "Force the calculator to use a list of stocks",
-  "Health": "Health range to filter",
-  "Magazine Size": "Magazine size range to filter",
-  "Pellets": "Pellet range to filter",
-  "DropoffStuds End": "Dropoff studs range to filter (END)",
-  "DropoffStuds Start": "Dropoff studs range to filter (START)",
-  "Recoil Aim": "Recoil range to filter (AIM END)",
-  "Recoil Hip": "Recoil range to filter (HIP END)",
-  "Reload Time": "Reload time range to filter",
+  "Health": "Health boost percentage",
+  "Magazine Size": "Magazine size",
+  "Pellets": "Pellet count",
+  "DropoffStuds End": "Dropoff studs ending range",
+  "DropoffStuds Start": "Dropoff studs starting range",
+  "Recoil Aim": "Vertical ending recoil aiming",
+  "Recoil Hip": "Vertical ending recoil hipfire",
+  "Reload Time": "Reload time in seconds",
   "Sort Type": "The property and priority to sort the results by",
-  "Speed": "Movement speed range to filter",
-  "Spread Aim": "Spread range to filter (AIM)",
-  "Spread Hip": "Spread range to filter (HIP)",
-  "TTK": "TTK range to filter",
-  "TTK End": "TTK using the end damage",  
-  "Time To Aim": "Time to aim range to filter",
+  "Speed": "Movement speed percentage",
+  "Spread Aim": "Aiming spread",
+  "Spread Hip": "Hipfire spread",
+  "TTK": "Time to kill in seconds",
+  "TTK End": "Time to kill in seconds using the ending damage",  
+  "Time To Aim": "Time to aim in seconds",
+  "Time To Empty": "Total time to empty the magazine in seconds",
   "Total Results": "Number of top guns to display"
 };
 

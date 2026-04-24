@@ -55,7 +55,7 @@ function minimizeStatList(stats) {
         <div class="text-2xl font-light opacity-30 tabular-nums">{{ props.id + 1 }}</div>
         <div class="font-black rounded-md tooltip tooltip-right md:text-lg mx-4" data-tip="sort">
           {{ currentSortingType }}:
-          {{ ffv(getFilterAsProperty(toRaw(props.gun), currentSortingType)) }}
+          {{ ffv(getFilterAsProperty(props.gun, currentSortingType)) }}
         </div>
         <div
           class="font-black rounded-md tooltip tooltip-right text-sm flex items-center"

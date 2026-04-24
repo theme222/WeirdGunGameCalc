@@ -131,6 +131,9 @@ int main(int argc, char* argv[])
     app.add_option("--DPSEnd, --DPSEndStart", Input::DPSEndRange, "DPS end range to filter")->group(GROUP_FILTERS); 
     app.add_option("--DPSEndMin, --DPSEndStartMin", Input::DPSEndRange.first)->group(GROUP_FILTERS);
     app.add_option("--DPSEndMax, --DPSEndStartMax", Input::DPSEndRange.second)->group(GROUP_FILTERS);
+    app.add_option("--TTE", Input::TTERange, "Time to empty range to filter (Magazine dump time)")->group(GROUP_FILTERS); 
+    app.add_option("--TTEMin", Input::TTERange.first)->group(GROUP_FILTERS);
+    app.add_option("--TTEMax", Input::TTERange.second)->group(GROUP_FILTERS);
 
     CLI11_PARSE(app, argc, argv);
 

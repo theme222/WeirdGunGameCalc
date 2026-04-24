@@ -49,7 +49,7 @@ namespace Clear { // Define functions that will be used to clear filters and oth
         howManyTopGunsToDisplay = 10;
         playerMaxHealth = 100;
     
-        static_assert(TOTALFILTERCOUNT == 22, "Update ClearInput");
+        static_assert(TOTALFILTERCOUNT == 23, "Update ClearInput");
         damageRange = NILRANGE_P;
         damageEndRange = NILRANGE_P;
         magazineRange = NILRANGE_P;
@@ -72,6 +72,7 @@ namespace Clear { // Define functions that will be used to clear filters and oth
         TTKEndRange = NILRANGE_P;
         DPSRange = NILRANGE_P;
         DPSEndRange = NILRANGE_P;
+        TTERange = NILRANGE_P;
     }
     
     void ClearFast() 
@@ -310,6 +311,7 @@ namespace AddFilter
         else if (title == "RELOAD") Input::reloadRange = pair;
         else if (title == "DPS") Input::DPSRange = pair;
         else if (title == "DPSEND") Input::DPSEndRange = pair;
+        else if (title == "TTE") Input::TTERange = pair;
         else throw std::invalid_argument("Invalid filter: " + title);
     }
 }
@@ -354,7 +356,8 @@ EMSCRIPTEN_BINDINGS(types)
         .property("TTKS", &Gun::TTKS)
         .property("TTKSEnd", &Gun::TTKSEnd)
         .property("DPS", &Gun::DPS)
-        .property("DPSEnd", &Gun::DPSEnd);
+        .property("DPSEnd", &Gun::DPSEnd)
+        .property("TTE", &Gun::TTE);
     
     emscripten::register_vector<Gun>("VectorGun");
 }

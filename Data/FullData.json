@@ -8904,8 +8904,8 @@
         "Name": "Drill",
         "Category": "Weird",
         "Damage": [
-          34,
-          20
+          20,
+          6
         ],
         "Dropoff_Studs": [
           18,

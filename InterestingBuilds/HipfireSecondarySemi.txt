@@ -42,20 +42,6 @@ recoilAimVertical: 2.0832 - 4.8608
 movementSpeed: 5
 TTK: 0.311891 Seconds
 
-[ Barrel: M1891, Magazine: Five-7, Grip: Infinity, Stock: None, Core: Type 14 ]
-damage: 25.5 - 14.6826
-dropoffStuds: 40.2864 - 92.0832
-fireRate: 574.425
-adsSpread: 0.255937
-hipfireSpread: 0.716625
-reloadTime: 2.568
-magazineSize: 23
-health: -10
-recoilHipVertical: 6 - 14
-recoilAimVertical: 1.2 - 2.8
-movementSpeed: 9
-TTK: 0.313357 Seconds
-
 [ Barrel: Dragunov, Magazine: Five-7, Grip: Infinity, Stock: None, Core: Type 14 ]
 damage: 25.5 - 14.9651
 dropoffStuds: 41.1471 - 94.0504
@@ -67,6 +53,20 @@ magazineSize: 23
 health: -10
 recoilHipVertical: 7.44 - 17.36
 recoilAimVertical: 1.488 - 3.472
+movementSpeed: 9
+TTK: 0.313357 Seconds
+
+[ Barrel: M1891, Magazine: Five-7, Grip: Infinity, Stock: None, Core: Type 14 ]
+damage: 25.5 - 14.6826
+dropoffStuds: 40.2864 - 92.0832
+fireRate: 574.425
+adsSpread: 0.255937
+hipfireSpread: 0.716625
+reloadTime: 2.568
+magazineSize: 23
+health: -10
+recoilHipVertical: 6 - 14
+recoilAimVertical: 1.2 - 2.8
 movementSpeed: 9
 TTK: 0.313357 Seconds
 

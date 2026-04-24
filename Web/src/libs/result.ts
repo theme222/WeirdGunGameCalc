@@ -19,6 +19,7 @@ export function getFilterAsProperty(gun: Gun, filterName: (typeof propertyString
    switch (filterName) {
      case 'TTK': return gun.TTKS;
      case 'TTK End': return gun.TTKSEnd;
+     case 'TTE': return gun.TTE;
      case 'Damage Start': return gun.damage[0];
      case 'Damage End': return gun.damage[1];
      case 'Damage': return gun.damage;

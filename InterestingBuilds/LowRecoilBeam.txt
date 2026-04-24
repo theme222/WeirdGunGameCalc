@@ -14,20 +14,6 @@ recoilAimVertical: 2.1 - 2.28
 movementSpeed: 2.5
 TTK: 0.256805 Seconds
 
-[ Barrel: M1897 Trench Shotgun, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
-damage: 14.406 - 9.96778
-dropoffStuds: 156.996 - 335.797
-fireRate: 1398.25
-adsSpread: 0.275712
-hipfireSpread: 8.27137
-reloadTime: 5.6885
-magazineSize: 49
-health: -7.5
-recoilHipVertical: 14.4 - 15.84
-recoilAimVertical: 5.04 - 5.472
-movementSpeed: 4.5
-TTK: 0.257464 Seconds
-
 [ Barrel: Eclair, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
 damage: 14.6941 - 10.4526
 dropoffStuds: 169.344 - 362.208
@@ -39,6 +25,20 @@ magazineSize: 49
 health: -7.5
 recoilHipVertical: 16.56 - 18.216
 recoilAimVertical: 5.796 - 6.2928
+movementSpeed: 4.5
+TTK: 0.257464 Seconds
+
+[ Barrel: M1897 Trench Shotgun, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
+damage: 14.406 - 9.96778
+dropoffStuds: 156.996 - 335.797
+fireRate: 1398.25
+adsSpread: 0.275712
+hipfireSpread: 8.27137
+reloadTime: 5.6885
+magazineSize: 49
+health: -7.5
+recoilHipVertical: 14.4 - 15.84
+recoilAimVertical: 5.04 - 5.472
 movementSpeed: 4.5
 TTK: 0.257464 Seconds
 
@@ -111,20 +111,6 @@ recoilAimVertical: 2.73 - 2.964
 movementSpeed: 10.5
 TTK: 0.262719 Seconds
 
-[ Barrel: Siberia-12, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
-damage: 14.406 - 10.2277
-dropoffStuds: 168.462 - 360.322
-fireRate: 1361.78
-adsSpread: 0.241813
-hipfireSpread: 7.2544
-reloadTime: 6.2
-magazineSize: 49
-health: -7.5
-recoilHipVertical: 14.4 - 15.84
-recoilAimVertical: 5.04 - 5.472
-movementSpeed: 4.5
-TTK: 0.264361 Seconds
-
 [ Barrel: Dominus, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
 damage: 14.406 - 10.4076
 dropoffStuds: 176.4 - 377.3
@@ -137,5 +123,19 @@ health: -7.5
 recoilHipVertical: 17.856 - 19.6416
 recoilAimVertical: 6.2496 - 6.78528
 movementSpeed: 9.5
+TTK: 0.264361 Seconds
+
+[ Barrel: Siberia-12, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
+damage: 14.406 - 10.2277
+dropoffStuds: 168.462 - 360.322
+fireRate: 1361.78
+adsSpread: 0.241813
+hipfireSpread: 7.2544
+reloadTime: 6.2
+magazineSize: 49
+health: -7.5
+recoilHipVertical: 14.4 - 15.84
+recoilAimVertical: 5.04 - 5.472
+movementSpeed: 4.5
 TTK: 0.264361 Seconds
 

@@ -1,0 +1,145 @@
+./wggcalc -o InterestingBuilds/FastestTTKGauranteed.txt -i SMG AR LMG Weird -s TTKEND --magazineMin 30 --speedMin 0 --TTKMin 0.001 --spreadAimMax 0.4 --recoilAimMax 12 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
+Current top 10 guns are: 
+[ Barrel: Spear, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: AirStrike, Core: AirStrike ]
+damage: 71.4243 - 116.613
+dropoffStuds: 0.188998 - 0.330746
+pellets: 2
+burst: 2
+fireRate: 37.2
+adsSpread: 0.268476
+hipfireSpread: 5.36951
+reloadTime: 4
+magazineSize: 35
+health: -7.5
+recoilHipVertical: 3.3948 - 5.0922
+recoilAimVertical: 1.18818 - 1.6974
+TTK: 1.6129 Seconds
+
+[ Barrel: Spear, Magazine: Hex Spitter, Grip: P90, Stock: AirStrike, Core: AirStrike ]
+damage: 67.3815 - 110.013
+dropoffStuds: 0.188998 - 0.330746
+pellets: 2
+burst: 2
+fireRate: 39.804
+adsSpread: 0.300693
+hipfireSpread: 6.01386
+reloadTime: 4
+magazineSize: 35
+recoilHipVertical: 2.4564 - 3.6846
+recoilAimVertical: 0.85974 - 1.2282
+TTK: 1.50739 Seconds
+
+[ Barrel: Spear, Magazine: Hex Spitter, Grip: Blunderbuss, Stock: AirStrike, Core: AirStrike ]
+damage: 68.3887 - 111.657
+dropoffStuds: 0.188998 - 0.330746
+pellets: 3
+burst: 2
+fireRate: 33.108
+adsSpread: 0.274532
+hipfireSpread: 5.49063
+reloadTime: 4.36
+magazineSize: 35
+recoilHipVertical: 2.76 - 4.14
+recoilAimVertical: 0.966 - 1.38
+movementSpeed: 2
+TTK: 1.81225 Seconds
+
+[ Barrel: Spear, Magazine: Hex Spitter, Grip: Musket, Stock: AirStrike, Core: AirStrike ]
+damage: 74.1196 - 121.014
+dropoffStuds: 0.188998 - 0.330746
+pellets: 2
+burst: 2
+fireRate: 36.642
+adsSpread: 0.375866
+hipfireSpread: 7.51732
+reloadTime: 4.4
+magazineSize: 35
+recoilHipVertical: 2.76 - 4.14
+recoilAimVertical: 0.966 - 1.38
+TTK: 1.63747 Seconds
+
+[ Barrel: Spear, Magazine: Hex Spitter, Grip: PPSh-41, Stock: AirStrike, Core: AirStrike ]
+damage: 67.3815 - 110.013
+dropoffStuds: 0.188998 - 0.330746
+pellets: 2
+burst: 2
+fireRate: 39.99
+adsSpread: 0.241628
+hipfireSpread: 4.83256
+reloadTime: 4.6
+magazineSize: 35
+recoilHipVertical: 2.76 - 4.14
+recoilAimVertical: 0.966 - 1.38
+TTK: 1.50038 Seconds
+
+[ Barrel: Spear, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: AirStrike, Core: AirStrike ]
+damage: 74.1196 - 121.014
+dropoffStuds: 0.188998 - 0.330746
+pellets: 2
+burst: 2
+fireRate: 37.2
+adsSpread: 0.362442
+hipfireSpread: 7.24884
+reloadTime: 4
+magazineSize: 35
+recoilHipVertical: 2.76 - 4.14
+recoilAimVertical: 0.966 - 1.38
+TTK: 1.6129 Seconds
+
+[ Barrel: Spear, Magazine: Hex Spitter, Grip: M1897 Trench Shotgun, Stock: AirStrike, Core: AirStrike ]
+damage: 67.3815 - 110.013
+dropoffStuds: 0.188998 - 0.330746
+pellets: 2
+burst: 2
+fireRate: 40.92
+adsSpread: 0.322171
+hipfireSpread: 6.44342
+reloadTime: 4.2
+magazineSize: 35
+recoilHipVertical: 2.76 - 4.14
+recoilAimVertical: 0.966 - 1.38
+TTK: 1.46628 Seconds
+
+[ Barrel: Spear, Magazine: Hex Spitter, Grip: MP 40, Stock: AirStrike, Core: AirStrike ]
+damage: 70.7505 - 115.513
+dropoffStuds: 0.188998 - 0.330746
+pellets: 2
+burst: 2
+fireRate: 37.2
+adsSpread: 0.349018
+hipfireSpread: 6.98037
+reloadTime: 4
+magazineSize: 35
+recoilHipVertical: 3.588 - 5.382
+recoilAimVertical: 1.2558 - 1.794
+TTK: 1.6129 Seconds
+
+[ Barrel: Spear, Magazine: Hex Spitter, Grip: Infinity, Stock: AirStrike, Core: AirStrike ]
+damage: 67.3815 - 111.718
+dropoffStuds: 0.181438 - 0.317516
+pellets: 2
+burst: 2
+fireRate: 42.78
+adsSpread: 0.268476
+hipfireSpread: 5.36951
+reloadTime: 4.28
+magazineSize: 41
+recoilHipVertical: 2.76 - 4.14
+recoilAimVertical: 0.966 - 1.38
+TTK: 1.40252 Seconds
+
+[ Barrel: Spear, Magazine: Hex Spitter, Grip: M1891, Stock: AirStrike, Core: AirStrike ]
+damage: 67.3815 - 110.013
+dropoffStuds: 0.188998 - 0.330746
+pellets: 2
+burst: 2
+fireRate: 40.92
+adsSpread: 0.349018
+hipfireSpread: 6.98037
+reloadTime: 4.6
+magazineSize: 35
+recoilHipVertical: 2.76 - 4.14
+recoilAimVertical: 0.966 - 1.38
+movementSpeed: 4
+TTK: 1.46628 Seconds
+

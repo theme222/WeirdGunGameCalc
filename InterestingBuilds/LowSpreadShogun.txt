@@ -28,20 +28,6 @@ recoilHipVertical: 85.5 - 136.8
 recoilAimVertical: 34.2 - 54.72
 movementSpeed: 1
 
-[ Barrel: Second Amendment, Magazine: Magic Mag, Grip: The Chief, Stock: MG42, Core: Auto-5 ]
-damage: 111.691 - -4.81129
-dropoffStuds: 52.2 - 100.05
-pellets: 8
-fireRate: 250.8
-adsSpread: 0.827836
-hipfireSpread: 3.04992
-reloadTime: 0.99
-magazineSize: 3
-health: 8
-recoilHipVertical: 102.6 - 179.55
-recoilAimVertical: 41.04 - 71.82
-movementSpeed: 0.625
-
 [ Barrel: Second Amendment, Magazine: Magic Mag, Grip: Pancake Hammer, Stock: MG42, Core: Auto-5 ]
 damage: 109.393 - -4.71233
 dropoffStuds: 52.2 - 100.05
@@ -54,6 +40,20 @@ magazineSize: 3
 health: 8
 recoilHipVertical: 136.8 - 239.4
 recoilAimVertical: 54.72 - 95.76
+movementSpeed: 0.625
+
+[ Barrel: Second Amendment, Magazine: Magic Mag, Grip: The Chief, Stock: MG42, Core: Auto-5 ]
+damage: 111.691 - -4.81129
+dropoffStuds: 52.2 - 100.05
+pellets: 8
+fireRate: 250.8
+adsSpread: 0.827836
+hipfireSpread: 3.04992
+reloadTime: 0.99
+magazineSize: 3
+health: 8
+recoilHipVertical: 102.6 - 179.55
+recoilAimVertical: 41.04 - 71.82
 movementSpeed: 0.625
 
 [ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Auto-5, Stock: MG42, Core: Spas-12 ]
@@ -126,17 +126,17 @@ recoilHipVertical: 77.1637 - 123.462
 recoilAimVertical: 30.8655 - 49.3848
 movementSpeed: 2.77
 
-[ Barrel: Second Amendment, Magazine: Magic Mag, Grip: JSG12, Stock: FAL, Core: Auto-5 ]
-damage: 109.393 - -1.28915
-dropoffStuds: 53.766 - 103.051
+[ Barrel: Second Amendment, Magazine: Magic Mag, Grip: JSG12, Stock: AWM, Core: Auto-5 ]
+damage: 109.393 - -4.71233
+dropoffStuds: 52.2 - 100.05
 pellets: 8
 fireRate: 228.228
-adsSpread: 0.848643
-hipfireSpread: 3.12658
-reloadTime: 0.9
+adsSpread: 0.835477
+hipfireSpread: 3.07807
+reloadTime: 0.8325
 magazineSize: 3
 health: 8
-recoilHipVertical: 136.344 - 238.602
-recoilAimVertical: 54.5376 - 95.4408
-movementSpeed: 1.12
+recoilHipVertical: 127.954 - 223.919
+recoilAimVertical: 51.1814 - 89.5675
+movementSpeed: 1
 

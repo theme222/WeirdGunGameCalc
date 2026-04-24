@@ -13,6 +13,20 @@ recoilAimVertical: 5.3257 - 7.32283
 movementSpeed: -10
 TTK: 0.195377 Seconds
 
+[ Barrel: M1917 WC, Magazine: Fedorov, Grip: Scar L, Stock: Speed Coil, Core: SKS ]
+damage: 35.696 - 23.6966
+dropoffStuds: 152.54 - 469.354
+fireRate: 611.325
+adsSpread: 0.32025
+hipfireSpread: 6.405
+reloadTime: 3.45
+magazineSize: 21
+health: 16.25
+recoilHipVertical: 9.80064 - 10.7807
+recoilAimVertical: 4.90032 - 5.39035
+movementSpeed: -5
+TTK: 0.196295 Seconds
+
 [ Barrel: M1917 WC, Magazine: Type 99, Grip: Cyber 3517, Stock: Speed Coil, Core: SKS ]
 damage: 34.0919 - 22.431
 dropoffStuds: 150.433 - 462.87
@@ -39,20 +53,6 @@ health: 16.25
 recoilHipVertical: 12.2508 - 13.4759
 recoilAimVertical: 6.1254 - 6.73794
 movementSpeed: -2
-TTK: 0.196295 Seconds
-
-[ Barrel: M1917 WC, Magazine: Fedorov, Grip: Scar L, Stock: Speed Coil, Core: SKS ]
-damage: 35.696 - 23.6966
-dropoffStuds: 152.54 - 469.354
-fireRate: 611.325
-adsSpread: 0.32025
-hipfireSpread: 6.405
-reloadTime: 3.45
-magazineSize: 21
-health: 16.25
-recoilHipVertical: 9.80064 - 10.7807
-recoilAimVertical: 4.90032 - 5.39035
-movementSpeed: -5
 TTK: 0.196295 Seconds
 
 [ Barrel: M1917 WC, Magazine: AK2D, Grip: Snake Sniper, Stock: Speed Coil, Core: SKS ]
@@ -83,20 +83,6 @@ recoilAimVertical: 6 - 6.6
 movementSpeed: 2.55
 TTK: 0.198278 Seconds
 
-[ Barrel: M1917 WC, Magazine: Maple Badger, Grip: Snake Sniper, Stock: Speed Coil, Core: SKS ]
-damage: 33.6474 - 22.2745
-dropoffStuds: 151.84 - 467.201
-fireRate: 602.155
-adsSpread: 0.203935
-hipfireSpread: 4.0787
-reloadTime: 1.38
-magazineSize: 23
-health: 16.25
-recoilHipVertical: 12.1512 - 13.3663
-recoilAimVertical: 6.0756 - 6.68316
-movementSpeed: -6.5
-TTK: 0.199284 Seconds
-
 [ Barrel: M1917 WC, Magazine: AR-8X, Grip: Musket, Stock: Speed Coil, Core: SKS ]
 damage: 33.6784 - 22.3324
 dropoffStuds: 152.26 - 468.493
@@ -109,6 +95,20 @@ health: 16.25
 recoilHipVertical: 11.5536 - 12.709
 recoilAimVertical: 5.7768 - 6.35448
 movementSpeed: -3.8
+TTK: 0.199284 Seconds
+
+[ Barrel: M1917 WC, Magazine: Maple Badger, Grip: Snake Sniper, Stock: Speed Coil, Core: SKS ]
+damage: 33.6474 - 22.2745
+dropoffStuds: 151.84 - 467.201
+fireRate: 602.155
+adsSpread: 0.203935
+hipfireSpread: 4.0787
+reloadTime: 1.38
+magazineSize: 23
+health: 16.25
+recoilHipVertical: 12.1512 - 13.3663
+recoilAimVertical: 6.0756 - 6.68316
+movementSpeed: -6.5
 TTK: 0.199284 Seconds
 
 [ Barrel: M1917 WC, Magazine: The Chief, Grip: M1891, Stock: Speed Coil, Core: SKS ]

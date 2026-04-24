@@ -1,18 +1,5 @@
 ./wggcalc -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper BR --damageMin 100 --spreadAimMax 0.149 --sort FIRERATE --rangeMin 300 --pelletMax 1 --speedMin -5 --magazineMin 5 
 Current top 10 guns are: 
-[ Barrel: Barret .50, Magazine: Lightning Shot, Grip: Type 2a Nambu, Stock: Speed Coil, Core: M40 ]
-damage: 101.974 - 89.1811
-dropoffStuds: 300 - 500
-fireRate: 23.7281
-adsSpread: 0.13195
-hipfireSpread: 19.7925
-reloadTime: 6.48
-magazineSize: 5
-health: -17.5
-recoilHipVertical: 581.175 - 830.25
-recoilAimVertical: 290.588 - 415.125
-movementSpeed: -5
-
 [ Barrel: Barret .50, Magazine: Lightning Shot, Grip: The Chief, Stock: Speed Coil, Core: M40 ]
 damage: 100.498 - 87.8899
 dropoffStuds: 300 - 500
@@ -24,6 +11,19 @@ magazineSize: 5
 health: -10
 recoilHipVertical: 637.875 - 911.25
 recoilAimVertical: 318.938 - 455.625
+movementSpeed: -5
+
+[ Barrel: Barret .50, Magazine: Lightning Shot, Grip: Type 2a Nambu, Stock: Speed Coil, Core: M40 ]
+damage: 101.974 - 89.1811
+dropoffStuds: 300 - 500
+fireRate: 23.7281
+adsSpread: 0.13195
+hipfireSpread: 19.7925
+reloadTime: 6.48
+magazineSize: 5
+health: -17.5
+recoilHipVertical: 581.175 - 830.25
+recoilAimVertical: 290.588 - 415.125
 movementSpeed: -5
 
 [ Barrel: Mosin, Magazine: Hecate II, Grip: Lee Enfield, Stock: Arisaka, Core: AWM ]

@@ -56,6 +56,20 @@ recoilAimVertical: 17.5 - 19
 movementSpeed: 2.5
 TTK: 0.245721 Seconds
 
+[ Barrel: Fat Cat, Magazine: Paintball, Grip: PineFire, Stock: Speed Coil, Core: Scar L ]
+damage: 25.0245 - 18.3257
+dropoffStuds: 187 - 379.5
+fireRate: 730.125
+adsSpread: 0.4956
+hipfireSpread: 8.26
+reloadTime: 5.115
+magazineSize: 53
+health: -10
+recoilHipVertical: 29.865 - 35.295
+recoilAimVertical: 14.9325 - 17.6475
+movementSpeed: 0.5
+TTK: 0.246533 Seconds
+
 [ Barrel: Fat Cat, Magazine: Paintball, Grip: Arisaka, Stock: Speed Coil, Core: Scar L ]
 damage: 25.0245 - 18.3257
 dropoffStuds: 187 - 379.5
@@ -68,20 +82,6 @@ health: -16
 recoilHipVertical: 33 - 39
 recoilAimVertical: 16.5 - 19.5
 movementSpeed: 0.6
-TTK: 0.246533 Seconds
-
-[ Barrel: Fat Cat, Magazine: Paintball, Grip: Skorpion vz. 61, Stock: Speed Coil, Core: Scar L ]
-damage: 25.0245 - 18.3257
-dropoffStuds: 187 - 379.5
-fireRate: 730.125
-adsSpread: 0.64428
-hipfireSpread: 10.738
-reloadTime: 4.30125
-magazineSize: 53
-health: -10
-recoilHipVertical: 41.25 - 48.75
-recoilAimVertical: 20.625 - 24.375
-movementSpeed: 1.75
 TTK: 0.246533 Seconds
 
 [ Barrel: Fat Cat, Magazine: Paintball, Grip: Banana, Stock: Speed Coil, Core: Scar L ]
@@ -97,18 +97,18 @@ recoilHipVertical: 26.4 - 31.2
 recoilAimVertical: 13.2 - 15.6
 TTK: 0.246533 Seconds
 
-[ Barrel: Fat Cat, Magazine: Paintball, Grip: PineFire, Stock: Speed Coil, Core: Scar L ]
+[ Barrel: Fat Cat, Magazine: Paintball, Grip: Skorpion vz. 61, Stock: Speed Coil, Core: Scar L ]
 damage: 25.0245 - 18.3257
 dropoffStuds: 187 - 379.5
 fireRate: 730.125
-adsSpread: 0.4956
-hipfireSpread: 8.26
-reloadTime: 5.115
+adsSpread: 0.64428
+hipfireSpread: 10.738
+reloadTime: 4.30125
 magazineSize: 53
 health: -10
-recoilHipVertical: 29.865 - 35.295
-recoilAimVertical: 14.9325 - 17.6475
-movementSpeed: 0.5
+recoilHipVertical: 41.25 - 48.75
+recoilAimVertical: 20.625 - 24.375
+movementSpeed: 1.75
 TTK: 0.246533 Seconds
 
 [ Barrel: BAR, Magazine: DP-27, Grip: The Chief, Stock: Speed Coil, Core: M1919 .30 Cal ]
