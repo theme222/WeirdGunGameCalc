@@ -1,4 +1,4 @@
-./wggcalc -o InterestingBuilds/F2PNewbieFriendlyTTK.txt -i SMG AR LMG --banPriceType ROBUX LIMITED SPECIAL --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.8 --recoilAimMax 35 --rangeMin 150 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
+./wggcalc -o InterestingBuilds/F2PNewbieFriendlyTTK.txt -i SMG AR LMG --banPriceType ROBUX LIMITED SPECIAL --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.8 --recoilAimMax 35 --rangeMin 150 --ffm Auto 
 Current top 10 guns are: 
 [ Barrel: Volley, Magazine: DP-27, Grip: USS Iowa, Stock: Speed Coil, Core: M1919 .30 Cal ]
 damage: 33.6865 - 24.7259
@@ -99,20 +99,6 @@ recoilAimVertical: 17.2441 - 21.5551
 movementSpeed: 2
 TTK: 0.240035 Seconds
 
-[ Barrel: PP-19 Bizon, Magazine: Graphics Card, Grip: Lewis, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 25.6686 - 17.1302
-dropoffStuds: 157.32 - 314.64
-fireRate: 744.484
-adsSpread: 0.798
-hipfireSpread: 14.364
-reloadTime: 4.5
-magazineSize: 38
-health: 10
-recoilHipVertical: 36.5904 - 45.738
-recoilAimVertical: 18.2952 - 22.869
-movementSpeed: 5.625
-TTK: 0.241778 Seconds
-
 [ Barrel: M3 Grease Gun, Magazine: Graphics Card, Grip: Lewis, Stock: Speed Coil, Core: M1919 .30 Cal ]
 damage: 25.0381 - 17.7127
 dropoffStuds: 180.481 - 360.962
@@ -125,6 +111,20 @@ health: 10
 recoilHipVertical: 39.8104 - 49.7629
 recoilAimVertical: 19.9052 - 24.8815
 movementSpeed: 4
+TTK: 0.241778 Seconds
+
+[ Barrel: PP-19 Bizon, Magazine: Graphics Card, Grip: Lewis, Stock: Speed Coil, Core: M1919 .30 Cal ]
+damage: 25.6686 - 17.1302
+dropoffStuds: 157.32 - 314.64
+fireRate: 744.484
+adsSpread: 0.798
+hipfireSpread: 14.364
+reloadTime: 4.5
+magazineSize: 38
+health: 10
+recoilHipVertical: 36.5904 - 45.738
+recoilAimVertical: 18.2952 - 22.869
+movementSpeed: 5.625
 TTK: 0.241778 Seconds
 
 [ Barrel: B17, Magazine: Lewis, Grip: Lewis, Stock: Speed Coil, Core: M1919 .30 Cal ]

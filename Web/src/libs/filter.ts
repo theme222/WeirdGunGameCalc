@@ -1,6 +1,6 @@
 import { reactive, watch } from 'vue';
 import { addToast } from './toast';
-import { PARTNAMES } from './data';
+import { FIRINGMODES, PARTNAMES } from './data';
 import type { Filter, FilterItem, FilterType } from './types';
 import { categoryStrings, sortTypeOptions, filterPropStrings, numberRangeOptions, propertyStrings } from './filter.const';
 
@@ -14,11 +14,14 @@ export const filterList: Filter[] = [
     validStrings: filterPropStrings,
   },
   { title: 'Total Results', filterType: 'number', required: true },
+  { title: 'Default Max Health', filterType: 'number' },
+  { title: 'Force Firing Mode', filterType: 'stringarr', validStrings: FIRINGMODES },
   { title: 'Force Core', filterType: 'stringarr', validStrings: PARTNAMES },
   { title: 'Force Magazine', filterType: 'stringarr', validStrings: PARTNAMES },
   { title: 'Force Barrel', filterType: 'stringarr', validStrings: PARTNAMES },
   { title: 'Force Stock', filterType: 'stringarr', validStrings: PARTNAMES },
   { title: 'Force Grip', filterType: 'stringarr', validStrings: PARTNAMES },
+  { title: 'Ban Firing Mode', filterType: 'stringarr', validStrings: FIRINGMODES },
   { title: 'Ban Core', filterType: 'stringarr', validStrings: PARTNAMES },
   { title: 'Ban Magazine', filterType: 'stringarr', validStrings: PARTNAMES },
   { title: 'Ban Barrel', filterType: 'stringarr', validStrings: PARTNAMES },

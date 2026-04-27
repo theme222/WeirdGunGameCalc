@@ -1,4 +1,4 @@
-./wggcalc -o InterestingBuilds/FastestHeadshotBR.txt -i BR --speedMin 0 --damageMin 66.67 --spreadAimMax 0.15 --sort FIRERATE --rangeMin 200 --pelletMax 1 --magazineMin 10 
+./wggcalc -o InterestingBuilds/FastestHeadshotBR.txt -i BR --speedMin 0 --damageMin 66.67 --spreadAimMax 0.15 --sort FIRERATE --rangeMin 200 --pelletMax 1 --magazineMin 10 --ffm Semi 
 Current top 10 guns are: 
 [ Barrel: Infinity, Magazine: Scar H, Grip: Infinity, Stock: AK2D, Core: Winchester ]
 damage: 67.8317 - 54.019

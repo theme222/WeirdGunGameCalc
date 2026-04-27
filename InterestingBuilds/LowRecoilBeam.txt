@@ -1,4 +1,4 @@
-./wggcalc -o InterestingBuilds/LowRecoilBeam.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 45 --spreadAimMax 0.4 --rangeMin 150 --speedMin 0 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
+./wggcalc -o InterestingBuilds/LowRecoilBeam.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 45 --spreadAimMax 0.4 --rangeMin 150 --speedMin 0 --ffm Auto 
 Current top 10 guns are: 
 [ Barrel: Fat Cat, Magazine: Paintball, Grip: Circuit Judge, Stock: Speed Coil, Core: Burton ]
 damage: 20.2795 - 15.3131
@@ -111,20 +111,6 @@ recoilAimVertical: 2.73 - 2.964
 movementSpeed: 10.5
 TTK: 0.262719 Seconds
 
-[ Barrel: Dominus, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
-damage: 14.406 - 10.4076
-dropoffStuds: 176.4 - 377.3
-fireRate: 1361.78
-adsSpread: 0.246333
-hipfireSpread: 7.38999
-reloadTime: 6.758
-magazineSize: 49
-health: -7.5
-recoilHipVertical: 17.856 - 19.6416
-recoilAimVertical: 6.2496 - 6.78528
-movementSpeed: 9.5
-TTK: 0.264361 Seconds
-
 [ Barrel: Siberia-12, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
 damage: 14.406 - 10.2277
 dropoffStuds: 168.462 - 360.322
@@ -137,5 +123,19 @@ health: -7.5
 recoilHipVertical: 14.4 - 15.84
 recoilAimVertical: 5.04 - 5.472
 movementSpeed: 4.5
+TTK: 0.264361 Seconds
+
+[ Barrel: Dominus, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
+damage: 14.406 - 10.4076
+dropoffStuds: 176.4 - 377.3
+fireRate: 1361.78
+adsSpread: 0.246333
+hipfireSpread: 7.38999
+reloadTime: 6.758
+magazineSize: 49
+health: -7.5
+recoilHipVertical: 17.856 - 19.6416
+recoilAimVertical: 6.2496 - 6.78528
+movementSpeed: 9.5
 TTK: 0.264361 Seconds
 

@@ -1,4 +1,4 @@
-./wggcalc -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
+./wggcalc -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 --ffm Auto 
 Current top 10 guns are: 
 [ Barrel: Fat Cat, Magazine: MP18, Grip: Fat Cat, Stock: Speed Coil, Core: SMO3 ]
 damage: 33.9946 - 21.2615
@@ -96,18 +96,18 @@ recoilAimVertical: 26.6857 - 36.777
 movementSpeed: 8
 TTK: 0.265781 Seconds
 
-[ Barrel: Fat Cat, Magazine: Graphics Card, Grip: Sten gun, Stock: Speed Coil, Core: MP18 ]
-damage: 34.047 - 22.4642
-dropoffStuds: 121.44 - 187.22
+[ Barrel: Fat Cat, Magazine: Graphics Card, Grip: Hell-Trooper-23, Stock: Speed Coil, Core: MP18 ]
+damage: 34.047 - 21.8272
+dropoffStuds: 114.761 - 176.923
 fireRate: 451.44
-adsSpread: 0.581
-hipfireSpread: 2.905
-reloadTime: 4.5
+adsSpread: 0.5992
+hipfireSpread: 2.996
+reloadTime: 4.32
 magazineSize: 38
 health: -10
-recoilHipVertical: 20.1062 - 27.7939
-recoilAimVertical: 7.03718 - 9.6983
-movementSpeed: 0.5
+recoilHipVertical: 15.708 - 21.714
+recoilAimVertical: 5.4978 - 7.5768
+movementSpeed: 0.9
 TTK: 0.265816 Seconds
 
 [ Barrel: Fat Cat, Magazine: Graphics Card, Grip: UNP-40, Stock: Speed Coil, Core: MP18 ]

@@ -62,6 +62,8 @@ int main(int argc, char* argv[])
     app.add_option("--bs, --banStock", Input::banStock, "Ban the calculator from using a list of stocks")->group(GROUP_FB);
     app.add_option("--bc, --banCore", Input::banCore, "Ban the calculator from using a list of cores")->group(GROUP_FB);
     
+    app.add_option("--ffm, --forceFiringMode", Input::forceFiringMode, "Force the calculator to use cores that have a specific list of firing modes")->group(GROUP_FB);
+    app.add_option("--bfm, --banFiringMode", Input::banFiringMode, "Ban the calculator from using cores that have a specific list of firing modes")->group(GROUP_FB);
     app.add_option("--banPriceType", Input::banPriceType, "Ban the calculator from using a part / core with a cost type (COIN, WC, ROBUX, LIMITED, SPECIAL)")->group(GROUP_FB); // SPECIAL will ban parts that are obtained in abnormal ways (wheel spin, verification, following, etc.)
 
     // app.add_option_group(GROUP_FILTERS);

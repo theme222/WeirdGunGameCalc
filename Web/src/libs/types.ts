@@ -1,9 +1,9 @@
-import type { filterPropStrings } from "./filter.const";
+import type { filterPropStrings, filterTitles } from "./filter.const";
 
 export type FilterType = 'string' | 'number' | 'stringarr' | 'numberrange' | 'sort';
 
 export interface Filter {
-  title: string;
+  title: typeof filterTitles[number];
   filterType: FilterType;
   readonly validStrings?: readonly string[]; // only on filterType === 'string'
   readonly options?: readonly string[];
@@ -12,7 +12,7 @@ export interface Filter {
 
 export interface FilterItem {
   id: number; // I think this can just be the index inside of the filter List
-  title: string;
+  title: typeof filterTitles[number];
   filterType: FilterType;
   readonly validStrings?: readonly string[]; // only on filterType === 'string'
   readonly options?: readonly string[];
@@ -55,6 +55,7 @@ export interface Core {
   Price_Type: string,
   Name: string,
   Category: string,
+  Firing_Mode: string,
   Damage?: fpair,
   Dropoff_Studs?: fpair, 
   Fire_Rate?: number,

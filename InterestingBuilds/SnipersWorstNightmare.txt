@@ -1,4 +1,4 @@
-./wggcalc -o InterestingBuilds/SnipersWorstNightmare.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 75 --spreadAimMax 0.4 --rangeMin 175 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 -s HEALTH --TTKMax 0.25 
+./wggcalc -o InterestingBuilds/SnipersWorstNightmare.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 75 --spreadAimMax 0.4 --rangeMin 175 -s HEALTH --TTKMax 0.25 --ffm Auto 
 Current top 10 guns are: 
 [ Barrel: M1917 WC, Magazine: Lancer, Grip: M1887, Stock: SG-43, Core: M1919 .30 Cal ]
 damage: 25.5625 - 18.3327

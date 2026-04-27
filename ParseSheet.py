@@ -15,10 +15,12 @@ CORESHEET = SHEETFOLDER / 'cores.csv'
 CORESHEETGID = '911413911'
 
 OUTPUTFILE = Path('Data') / 'FullData.json'
+OUTPUTFILEWEB = Path('Web') / 'public' / 'FullData.json'
 
 validPartCategories = ['AR', 'Sniper', 'SMG', 'LMG', 'Shotgun', 'BR', 'Weird', 'Sidearm']
 validPartTypes = ['Barrels', 'Magazines', 'Grips', 'Stocks']
 validPriceTypes = ['Coin', 'WC', 'Follow', 'Robux', 'Free', 'Spin', 'Limited', 'Missions', 'Verify discord', 'Season Pass 1', 'Unknown'] # The calculator will only detect "Coin" "WC" "Robux". Anything else will be turned into "Special"
+validFiringModes = ['Auto', 'Semi', 'Bolt Action', 'Pump Action', 'Burst']
 
 def FindSameName(obj, name):
     for value in obj:
@@ -150,7 +152,7 @@ def ParsePartsv2(outputData):
                 "Category": currentCategory,
             }
     
-            propertyList = [ # Call it Magazine_Cap when adding it.
+            propertyList = [
                 "Magazine_Size",
                 "Reload_Time",
                 "Damage",
@@ -196,7 +198,7 @@ def ParseCores(outputData):
     for row in data:
         try:
             if len(row) == 0: continue
-            assert len(row) == 18, f"invalid row length {len(row)} expected 18"
+            assert len(row) == 19, f"invalid row length {len(row)} expected 19"
             
             name = row[1].strip()
     
@@ -208,7 +210,11 @@ def ParseCores(outputData):
                 "Price_Type": DetectPriceType(row[0], row),
                 "Name": name,
                 "Category": currentCategory,
+                "Firing_Mode": row[18]
             }
+            
+            if (core["Firing_Mode"] not in validFiringModes):
+                raise Exception(f"Invalid firing mode: {core['Firing_Mode']}")
     
             propertyList = [
                 "Damage",
@@ -226,7 +232,7 @@ def ParseCores(outputData):
                 "Recoil_Hip_Horizontal",
                 "Recoil_Hip_Vertical",
                 "Recoil_Aim_Horizontal",
-                "Recoil_Aim_Vertical"
+                "Recoil_Aim_Vertical",
             ]
     
             for i in range(2, 18):
@@ -235,10 +241,10 @@ def ParseCores(outputData):
                     if len(pellet) == 2:
                         core["Pellets"] = int(pellet[1])
     
-                formattedVal = FormatNumber(row[i], doubleNum=(i <= 3 or i >= 14))
+                formattedVal = FormatNumber(row[i], doubleNum=(i in [1,2,3,14,15,16,17]))
                 if formattedVal is not None:
                     core[propertyList[i-2]] = formattedVal
-    
+                
             outputData["Cores"].append(core)
         
         except Exception as e:
@@ -247,6 +253,9 @@ def ParseCores(outputData):
 
 def SaveData(outputData):
     with open(OUTPUTFILE, 'w') as file:
+        json.dump(outputData, file, indent=2)
+        
+    with open(OUTPUTFILEWEB, 'w') as file:
         json.dump(outputData, file, indent=2)
 
 def Compare():
@@ -284,22 +293,6 @@ current_penalties = [
     [0.80, 0.85, 0.70, 0.60, 0.85, 1.00, 1.00, 0.65],
     [0.65, 0.50, 0.75, 0.65, 0.50, 1.00, 0.65, 1.00],
 ]
-
-def Penalties():
-
-    """
-    It doesn't really look that good when dumping from a script but you can look at the current penalties in this python script instead haha
-    The penalties will get accessed based on this string to index conversion table.
-    """
-
-    print("Running Penalties")
-
-    with open("Data/Categories.json", 'w') as file:
-        json.dump(current_categories, file, indent=2)
-
-    with open("Data/Penalties.json", 'w') as file:
-        json.dump(current_penalties, file)
-
 
 def main():
     DownloadSheet()

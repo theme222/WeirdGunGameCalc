@@ -1,18 +1,5 @@
 ./wggcalc -o InterestingBuilds/FastestGuaranteed1Tap.txt -i Sniper BR --damageEndMin 100 --spreadAimMax 0.15 --sort FIRERATE --speedMin -5 --magazineMin 5 
 Current top 10 guns are: 
-[ Barrel: Spear, Magazine: M40, Grip: Snake Sniper, Stock: AK2D, Core: Arisaka ]
-damage: 117.807 - 100.852
-dropoffStuds: 0.527993 - 0.923988
-fireRate: 33.0382
-adsSpread: 0.13528
-hipfireSpread: 8.1168
-reloadTime: 4.5
-magazineSize: 10
-health: -15
-recoilHipVertical: 157.014 - 178.822
-recoilAimVertical: 70.6563 - 80.4697
-movementSpeed: 10.5
-
 [ Barrel: Spear, Magazine: M40, Grip: The Chief, Stock: AK2D, Core: Arisaka ]
 damage: 120.281 - 101.046
 dropoffStuds: 0.479994 - 0.839989
@@ -26,17 +13,17 @@ recoilHipVertical: 173.745 - 197.876
 recoilAimVertical: 78.1853 - 89.0443
 movementSpeed: 12
 
-[ Barrel: Spear, Magazine: M40, Grip: Snake Sniper, Stock: G43, Core: Arisaka ]
-damage: 116.32 - 100.717
-dropoffStuds: 0.563897 - 0.986819
-fireRate: 32.55
+[ Barrel: Spear, Magazine: M40, Grip: Snake Sniper, Stock: AK2D, Core: Arisaka ]
+damage: 117.807 - 100.852
+dropoffStuds: 0.527993 - 0.923988
+fireRate: 33.0382
 adsSpread: 0.13528
 hipfireSpread: 8.1168
-reloadTime: 5.04
+reloadTime: 4.5
 magazineSize: 10
 health: -15
-recoilHipVertical: 109.8 - 125.05
-recoilAimVertical: 49.41 - 56.2725
+recoilHipVertical: 157.014 - 178.822
+recoilAimVertical: 70.6563 - 80.4697
 movementSpeed: 10.5
 
 [ Barrel: Spear, Magazine: M40, Grip: Double Barrel, Stock: MG42, Core: Arisaka ]
@@ -51,32 +38,6 @@ health: -15
 recoilHipVertical: 162 - 184.5
 recoilAimVertical: 72.9 - 83.025
 movementSpeed: 12.8
-
-[ Barrel: Spear, Magazine: M40, Grip: Type 2a Nambu, Stock: FAL, Core: Arisaka ]
-damage: 118.494 - 100.349
-dropoffStuds: 0.500394 - 0.875689
-fireRate: 32.55
-adsSpread: 0.137149
-hipfireSpread: 8.22894
-reloadTime: 4.5
-magazineSize: 10
-health: -22.5
-recoilHipVertical: 143.91 - 163.897
-recoilAimVertical: 64.7595 - 73.7539
-movementSpeed: 12.17
-
-[ Barrel: Spear, Magazine: M40, Grip: G43, Stock: FAL, Core: Arisaka ]
-damage: 119.237 - 100.979
-dropoffStuds: 0.500394 - 0.875689
-fireRate: 32.55
-adsSpread: 0.137149
-hipfireSpread: 8.22894
-reloadTime: 4.5
-magazineSize: 8
-health: -15
-recoilHipVertical: 100.093 - 113.995
-recoilAimVertical: 45.0421 - 51.2979
-movementSpeed: 12.17
 
 [ Barrel: Spear, Magazine: M40, Grip: G43, Stock: AWM, Core: Arisaka ]
 damage: 119.237 - 100.169
@@ -103,6 +64,45 @@ health: -15
 recoilHipVertical: 76.995 - 87.6888
 recoilAimVertical: 34.6478 - 39.4599
 movementSpeed: 14.8
+
+[ Barrel: Spear, Magazine: M40, Grip: Type 2a Nambu, Stock: FAL, Core: Arisaka ]
+damage: 118.494 - 100.349
+dropoffStuds: 0.500394 - 0.875689
+fireRate: 32.55
+adsSpread: 0.137149
+hipfireSpread: 8.22894
+reloadTime: 4.5
+magazineSize: 10
+health: -22.5
+recoilHipVertical: 143.91 - 163.897
+recoilAimVertical: 64.7595 - 73.7539
+movementSpeed: 12.17
+
+[ Barrel: Spear, Magazine: M40, Grip: Snake Sniper, Stock: G43, Core: Arisaka ]
+damage: 116.32 - 100.717
+dropoffStuds: 0.563897 - 0.986819
+fireRate: 32.55
+adsSpread: 0.13528
+hipfireSpread: 8.1168
+reloadTime: 5.04
+magazineSize: 10
+health: -15
+recoilHipVertical: 109.8 - 125.05
+recoilAimVertical: 49.41 - 56.2725
+movementSpeed: 10.5
+
+[ Barrel: Spear, Magazine: M40, Grip: G43, Stock: FAL, Core: Arisaka ]
+damage: 119.237 - 100.979
+dropoffStuds: 0.500394 - 0.875689
+fireRate: 32.55
+adsSpread: 0.137149
+hipfireSpread: 8.22894
+reloadTime: 4.5
+magazineSize: 8
+health: -15
+recoilHipVertical: 100.093 - 113.995
+recoilAimVertical: 45.0421 - 51.2979
+movementSpeed: 12.17
 
 [ Barrel: Spear, Magazine: M40, Grip: The Chief, Stock: G43, Core: Arisaka ]
 damage: 118.763 - 101.062

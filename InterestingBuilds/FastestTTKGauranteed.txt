@@ -1,145 +1,152 @@
-./wggcalc -o InterestingBuilds/FastestTTKGauranteed.txt -i SMG AR LMG Weird -s TTKEND --magazineMin 30 --speedMin 0 --TTKMin 0.001 --spreadAimMax 0.4 --recoilAimMax 12 --bc FC200SH M1 Carbine G11 Loaf ZIPO-2222 
+./wggcalc -o InterestingBuilds/FastestTTKGauranteed.txt -i SMG AR LMG Weird -s TTKEND --magazineMin 30 --speedMin 0 --TTKEndMin 0.001 --spreadAimMax 0.4 --recoilAimMax 12 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: Spear, Magazine: Hex Spitter, Grip: Type 2a Nambu, Stock: AirStrike, Core: AirStrike ]
-damage: 71.4243 - 116.613
-dropoffStuds: 0.188998 - 0.330746
+[ Barrel: Shower, Magazine: P90, Grip: PPSh-41, Stock: Spas-12, Core: QBZ-95 ]
+damage: 17.2751 - 14.5615
+dropoffStuds: 203.35 - 381.281
 pellets: 2
-burst: 2
-fireRate: 37.2
-adsSpread: 0.268476
-hipfireSpread: 5.36951
-reloadTime: 4
+fireRate: 1053.57
+adsSpread: 0.381533
+hipfireSpread: 13.3537
+reloadTime: 5.75
 magazineSize: 35
-health: -7.5
-recoilHipVertical: 3.3948 - 5.0922
-recoilAimVertical: 1.18818 - 1.6974
-TTK: 1.6129 Seconds
+recoilHipVertical: 15.4 - 18.7
+recoilAimVertical: 8.47 - 10.285
+movementSpeed: 2.6
+TTK: 0.284746 Seconds
+TTK (End damage): 0.341695 Seconds
 
-[ Barrel: Spear, Magazine: Hex Spitter, Grip: P90, Stock: AirStrike, Core: AirStrike ]
-damage: 67.3815 - 110.013
-dropoffStuds: 0.188998 - 0.330746
+[ Barrel: Shower, Magazine: P90, Grip: Mas-38, Stock: Spas-12, Core: QBZ-95 ]
+damage: 17.2751 - 14.3716
+dropoffStuds: 189.116 - 354.592
 pellets: 2
-burst: 2
-fireRate: 39.804
-adsSpread: 0.300693
-hipfireSpread: 6.01386
-reloadTime: 4
+fireRate: 1042.35
+adsSpread: 0.366066
+hipfireSpread: 12.8123
+reloadTime: 5
 magazineSize: 35
-recoilHipVertical: 2.4564 - 3.6846
-recoilAimVertical: 0.85974 - 1.2282
-TTK: 1.50739 Seconds
+recoilHipVertical: 15.4 - 18.7
+recoilAimVertical: 8.47 - 10.285
+movementSpeed: 4.1
+TTK: 0.287811 Seconds
+TTK (End damage): 0.345374 Seconds
 
-[ Barrel: Spear, Magazine: Hex Spitter, Grip: Blunderbuss, Stock: AirStrike, Core: AirStrike ]
-damage: 68.3887 - 111.657
-dropoffStuds: 0.188998 - 0.330746
-pellets: 3
-burst: 2
-fireRate: 33.108
-adsSpread: 0.274532
-hipfireSpread: 5.49063
-reloadTime: 4.36
-magazineSize: 35
-recoilHipVertical: 2.76 - 4.14
-recoilAimVertical: 0.966 - 1.38
-movementSpeed: 2
-TTK: 1.81225 Seconds
-
-[ Barrel: Spear, Magazine: Hex Spitter, Grip: Musket, Stock: AirStrike, Core: AirStrike ]
-damage: 74.1196 - 121.014
-dropoffStuds: 0.188998 - 0.330746
+[ Barrel: Shower, Magazine: Graphics Card, Grip: Mas-38, Stock: Spas-12, Core: QBZ-95 ]
+damage: 17.7181 - 14.3766
+dropoffStuds: 167.698 - 314.433
 pellets: 2
-burst: 2
-fireRate: 36.642
-adsSpread: 0.375866
-hipfireSpread: 7.51732
-reloadTime: 4.4
+fireRate: 1033.29
+adsSpread: 0.398982
+hipfireSpread: 13.9644
+reloadTime: 7.5
 magazineSize: 35
-recoilHipVertical: 2.76 - 4.14
-recoilAimVertical: 0.966 - 1.38
-TTK: 1.63747 Seconds
+recoilHipVertical: 10.78 - 13.09
+recoilAimVertical: 5.929 - 7.1995
+movementSpeed: 4.3
+TTK: 0.290336 Seconds
+TTK (End damage): 0.348403 Seconds
 
-[ Barrel: Spear, Magazine: Hex Spitter, Grip: PPSh-41, Stock: AirStrike, Core: AirStrike ]
-damage: 67.3815 - 110.013
-dropoffStuds: 0.188998 - 0.330746
+[ Barrel: Shower, Magazine: P90, Grip: Infinity, Stock: Pancake Hammer, Core: QBZ-95 ]
+damage: 17.2751 - 14.3423
+dropoffStuds: 187.248 - 351.09
 pellets: 2
-burst: 2
-fireRate: 39.99
-adsSpread: 0.241628
-hipfireSpread: 4.83256
-reloadTime: 4.6
+fireRate: 1032.7
+adsSpread: 0.368276
+hipfireSpread: 12.8896
+reloadTime: 5.35
+magazineSize: 55
+recoilHipVertical: 15.4 - 18.7
+recoilAimVertical: 8.47 - 10.285
+movementSpeed: 1.2
+TTK: 0.290502 Seconds
+TTK (End damage): 0.348602 Seconds
+
+[ Barrel: Spear, Magazine: Mega Soaker, Grip: Hex Spitter, Stock: Speed Coil, Core: M-16 ]
+damage: 25.0648 - 16.8727
+dropoffStuds: 0.163798 - 0.318496
+fireRate: 859.32
+adsSpread: 0.3675
+hipfireSpread: 2.646
+reloadTime: 4.05
+magazineSize: 46
+health: -10
+recoilHipVertical: 18.9 - 22.68
+recoilAimVertical: 9.45 - 11.34
+movementSpeed: 23
+TTK: 0.209468 Seconds
+TTK (End damage): 0.349113 Seconds
+
+[ Barrel: Spear, Magazine: Mega Soaker, Grip: Mega Soaker, Stock: Speed Coil, Core: M-16 ]
+damage: 25.0648 - 16.8727
+dropoffStuds: 0.163798 - 0.318496
+fireRate: 859.32
+adsSpread: 0.392
+hipfireSpread: 2.8224
+reloadTime: 4.05
+magazineSize: 46
+health: -10
+recoilHipVertical: 19.152 - 22.9824
+recoilAimVertical: 9.576 - 11.4912
+movementSpeed: 30
+TTK: 0.209468 Seconds
+TTK (End damage): 0.349113 Seconds
+
+[ Barrel: Spear, Magazine: Mega Soaker, Grip: G11, Stock: Speed Coil, Core: M-16 ]
+damage: 25.0648 - 16.8727
+dropoffStuds: 0.163798 - 0.318496
+fireRate: 859.32
+adsSpread: 0.35
+hipfireSpread: 2.52
+reloadTime: 4.293
+magazineSize: 46
+health: -10
+recoilHipVertical: 17.892 - 21.4704
+recoilAimVertical: 8.946 - 10.7352
+movementSpeed: 24
+TTK: 0.209468 Seconds
+TTK (End damage): 0.349113 Seconds
+
+[ Barrel: Spear, Magazine: Mega Soaker, Grip: Barret .50, Stock: Speed Coil, Core: M-16 ]
+damage: 25.0648 - 16.8727
+dropoffStuds: 0.163798 - 0.318496
+fireRate: 859.32
+adsSpread: 0.35
+hipfireSpread: 2.52
+reloadTime: 4.05
+magazineSize: 46
+health: -10
+recoilHipVertical: 19.3788 - 23.2546
+recoilAimVertical: 9.6894 - 11.6273
+movementSpeed: 17
+TTK: 0.209468 Seconds
+TTK (End damage): 0.349113 Seconds
+
+[ Barrel: Spear, Magazine: Mega Soaker, Grip: VSSR, Stock: Speed Coil, Core: M-16 ]
+damage: 25.0648 - 16.9874
+dropoffStuds: 0.166091 - 0.322955
+fireRate: 859.32
+adsSpread: 0.392
+hipfireSpread: 2.8224
+reloadTime: 4.05
+magazineSize: 46
+health: -10
+recoilHipVertical: 19.908 - 23.8896
+recoilAimVertical: 9.954 - 11.9448
+movementSpeed: 26
+TTK: 0.209468 Seconds
+TTK (End damage): 0.349113 Seconds
+
+[ Barrel: Shower, Magazine: P90, Grip: MG42, Stock: Spas-12, Core: QBZ-95 ]
+damage: 17.2751 - 14.5615
+dropoffStuds: 203.35 - 381.281
+pellets: 2
+fireRate: 1027.39
+adsSpread: 0.372253
+hipfireSpread: 13.0289
+reloadTime: 5
 magazineSize: 35
-recoilHipVertical: 2.76 - 4.14
-recoilAimVertical: 0.966 - 1.38
-TTK: 1.50038 Seconds
-
-[ Barrel: Spear, Magazine: Hex Spitter, Grip: Circuit Judge, Stock: AirStrike, Core: AirStrike ]
-damage: 74.1196 - 121.014
-dropoffStuds: 0.188998 - 0.330746
-pellets: 2
-burst: 2
-fireRate: 37.2
-adsSpread: 0.362442
-hipfireSpread: 7.24884
-reloadTime: 4
-magazineSize: 35
-recoilHipVertical: 2.76 - 4.14
-recoilAimVertical: 0.966 - 1.38
-TTK: 1.6129 Seconds
-
-[ Barrel: Spear, Magazine: Hex Spitter, Grip: M1897 Trench Shotgun, Stock: AirStrike, Core: AirStrike ]
-damage: 67.3815 - 110.013
-dropoffStuds: 0.188998 - 0.330746
-pellets: 2
-burst: 2
-fireRate: 40.92
-adsSpread: 0.322171
-hipfireSpread: 6.44342
-reloadTime: 4.2
-magazineSize: 35
-recoilHipVertical: 2.76 - 4.14
-recoilAimVertical: 0.966 - 1.38
-TTK: 1.46628 Seconds
-
-[ Barrel: Spear, Magazine: Hex Spitter, Grip: MP 40, Stock: AirStrike, Core: AirStrike ]
-damage: 70.7505 - 115.513
-dropoffStuds: 0.188998 - 0.330746
-pellets: 2
-burst: 2
-fireRate: 37.2
-adsSpread: 0.349018
-hipfireSpread: 6.98037
-reloadTime: 4
-magazineSize: 35
-recoilHipVertical: 3.588 - 5.382
-recoilAimVertical: 1.2558 - 1.794
-TTK: 1.6129 Seconds
-
-[ Barrel: Spear, Magazine: Hex Spitter, Grip: Infinity, Stock: AirStrike, Core: AirStrike ]
-damage: 67.3815 - 111.718
-dropoffStuds: 0.181438 - 0.317516
-pellets: 2
-burst: 2
-fireRate: 42.78
-adsSpread: 0.268476
-hipfireSpread: 5.36951
-reloadTime: 4.28
-magazineSize: 41
-recoilHipVertical: 2.76 - 4.14
-recoilAimVertical: 0.966 - 1.38
-TTK: 1.40252 Seconds
-
-[ Barrel: Spear, Magazine: Hex Spitter, Grip: M1891, Stock: AirStrike, Core: AirStrike ]
-damage: 67.3815 - 110.013
-dropoffStuds: 0.188998 - 0.330746
-pellets: 2
-burst: 2
-fireRate: 40.92
-adsSpread: 0.349018
-hipfireSpread: 6.98037
-reloadTime: 4.6
-magazineSize: 35
-recoilHipVertical: 2.76 - 4.14
-recoilAimVertical: 0.966 - 1.38
-movementSpeed: 4
-TTK: 1.46628 Seconds
+recoilHipVertical: 15.862 - 19.261
+recoilAimVertical: 8.7241 - 10.5936
+movementSpeed: 0.0999999
+TTK: 0.292003 Seconds
+TTK (End damage): 0.350403 Seconds
 

@@ -38,7 +38,9 @@ if (model.value.value.length != 0) {
   // pass
 } else if (props.filterType === 'stringarr') {
   model.value.value = [];
-} else if (['string', 'number', 'sorting'].includes(props.filterType)) {
+} else if (props.filterType === 'number') {
+  model.value.value = [0];
+} else if (['string', 'sorting'].includes(props.filterType)) {
   model.value.value = [null];
 } else if (props.filterType === 'numberrange') {
   model.value.value = [0, 0];

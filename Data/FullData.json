@@ -5085,6 +5085,7 @@
         "Price_Type": "Free",
         "Name": "AKM",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           20.1,
           17.6
@@ -5121,6 +5122,7 @@
         "Price_Type": "Free",
         "Name": "M-16",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           16,
           13.6
@@ -5157,6 +5159,7 @@
         "Price_Type": "Coin",
         "Name": "C36C",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           15.3,
           11.1
@@ -5193,6 +5196,7 @@
         "Price_Type": "Coin",
         "Name": "AUG",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           15,
           12.8
@@ -5230,6 +5234,7 @@
         "Price_Type": "Coin",
         "Name": "As-Val",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           14.8,
           12.2
@@ -5266,6 +5271,7 @@
         "Price_Type": "Coin",
         "Name": "Famas F1",
         "Category": "AR",
+        "Firing_Mode": "Burst",
         "Damage": [
           15.5,
           12.4
@@ -5303,6 +5309,7 @@
         "Price_Type": "Coin",
         "Name": "STG-44",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           23,
           19.6
@@ -5339,6 +5346,7 @@
         "Price_Type": "Coin",
         "Name": "Scar L",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           19.5,
           13.7
@@ -5375,6 +5383,7 @@
         "Price_Type": "Coin",
         "Name": "L8",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           16.2,
           13.6
@@ -5411,6 +5420,7 @@
         "Price_Type": "Coin",
         "Name": "QBZ-95",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           17.5,
           14.7
@@ -5447,6 +5457,7 @@
         "Price_Type": "Coin",
         "Name": "The Chief",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           17.5,
           15.4
@@ -5484,6 +5495,7 @@
         "Price_Type": "Coin",
         "Name": "AK-12",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           17,
           14.5
@@ -5520,6 +5532,7 @@
         "Price_Type": "Coin",
         "Name": "Broza",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           16,
           13.1
@@ -5556,6 +5569,7 @@
         "Price_Type": "Coin",
         "Name": "Hell-Trooper-23",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           18,
           14.4
@@ -5592,6 +5606,7 @@
         "Price_Type": "Coin",
         "Name": "APS",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           25.5,
           10.2
@@ -5628,6 +5643,7 @@
         "Price_Type": "Coin",
         "Name": "FC200SH",
         "Category": "AR",
+        "Firing_Mode": "Semi",
         "Damage": [
           22.5,
           18
@@ -5665,6 +5681,7 @@
         "Price_Type": "WC",
         "Name": "AR-8X",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           15.9,
           10.7
@@ -5702,6 +5719,7 @@
         "Price_Type": "WC",
         "Name": "Hex Spitter",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Pellets": 2,
         "Damage": [
           20,
@@ -5739,6 +5757,7 @@
         "Price_Type": "Spin",
         "Name": "G11",
         "Category": "AR",
+        "Firing_Mode": "Burst",
         "Damage": [
           17.5,
           13.6
@@ -5776,6 +5795,7 @@
         "Price_Type": "Limited",
         "Name": "PineFire",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           13.5,
           9.5
@@ -5812,6 +5832,7 @@
         "Price_Type": "Season Pass 1",
         "Name": "MCX",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           16.5,
           10.7
@@ -5848,6 +5869,7 @@
         "Price_Type": "Coin",
         "Name": "Lancer",
         "Category": "AR",
+        "Firing_Mode": "Auto",
         "Damage": [
           16.2,
           13.6
@@ -5884,6 +5906,7 @@
         "Price_Type": "Coin",
         "Name": "M40",
         "Category": "Sniper",
+        "Firing_Mode": "Bolt Action",
         "Damage": [
           55,
           48.1
@@ -5921,6 +5944,7 @@
         "Price_Type": "Coin",
         "Name": "M1891",
         "Category": "Sniper",
+        "Firing_Mode": "Bolt Action",
         "Damage": [
           53,
           45.1
@@ -5957,6 +5981,7 @@
         "Price_Type": "Coin",
         "Name": "AWM",
         "Category": "Sniper",
+        "Firing_Mode": "Bolt Action",
         "Damage": [
           60,
           54
@@ -5994,6 +6019,7 @@
         "Price_Type": "Coin",
         "Name": "Lee Enfield",
         "Category": "Sniper",
+        "Firing_Mode": "Bolt Action",
         "Damage": [
           52,
           41.6
@@ -6030,6 +6056,7 @@
         "Price_Type": "Coin",
         "Name": "Arisaka",
         "Category": "Sniper",
+        "Firing_Mode": "Bolt Action",
         "Damage": [
           58,
           52.2
@@ -6068,6 +6095,7 @@
         "Price_Type": "Coin",
         "Name": "VSSR",
         "Category": "Sniper",
+        "Firing_Mode": "Bolt Action",
         "Damage": [
           64,
           37.1
@@ -6105,6 +6133,7 @@
         "Price_Type": "Coin",
         "Name": "M2000",
         "Category": "Sniper",
+        "Firing_Mode": "Bolt Action",
         "Damage": [
           65,
           52
@@ -6142,6 +6171,7 @@
         "Price_Type": "Coin",
         "Name": "Mosin",
         "Category": "Sniper",
+        "Firing_Mode": "Bolt Action",
         "Damage": [
           66,
           41.3
@@ -6179,6 +6209,7 @@
         "Price_Type": "Coin",
         "Name": "Hecate II",
         "Category": "Sniper",
+        "Firing_Mode": "Bolt Action",
         "Damage": [
           80,
           56
@@ -6216,6 +6247,7 @@
         "Price_Type": "Coin",
         "Name": "Lightning Shot",
         "Category": "Sniper",
+        "Firing_Mode": "Bolt Action",
         "Damage": [
           40,
           90
@@ -6254,6 +6286,7 @@
         "Price_Type": "WC",
         "Name": "Musket",
         "Category": "Sniper",
+        "Firing_Mode": "Bolt Action",
         "Damage": [
           110,
           60.5
@@ -6290,6 +6323,7 @@
         "Price_Type": "Robux",
         "Name": "Snake Sniper",
         "Category": "Sniper",
+        "Firing_Mode": "Bolt Action",
         "Damage": [
           60,
           48
@@ -6327,6 +6361,7 @@
         "Price_Type": "Season Pass 1",
         "Name": "Barret .50",
         "Category": "Sniper",
+        "Firing_Mode": "Semi",
         "Damage": [
           66.5,
           37.3
@@ -6364,6 +6399,7 @@
         "Price_Type": "Coin",
         "Name": "MAC-10",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           14.3,
           7.9
@@ -6401,6 +6437,7 @@
         "Price_Type": "Coin",
         "Name": "Type 2a Nambu",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           21,
           9.5
@@ -6439,6 +6476,7 @@
         "Price_Type": "Coin",
         "Name": "Tommy",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           16,
           9.6
@@ -6476,6 +6514,7 @@
         "Price_Type": "Coin",
         "Name": "NP9",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           12.2,
           7.6
@@ -6513,6 +6552,7 @@
         "Price_Type": "Coin",
         "Name": "MP 40",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           23.2,
           12.8
@@ -6550,6 +6590,7 @@
         "Price_Type": "Coin",
         "Name": "Sten gun",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           19.5,
           10.2
@@ -6586,6 +6627,7 @@
         "Price_Type": "Coin",
         "Name": "UNP-40",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           19.7,
           12.8
@@ -6623,6 +6665,7 @@
         "Price_Type": "Coin",
         "Name": "Skorpion vz. 61",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           15.5,
           8.1
@@ -6660,6 +6703,7 @@
         "Price_Type": "Coin",
         "Name": "NP5",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           16,
           9.2
@@ -6696,6 +6740,7 @@
         "Price_Type": "Coin",
         "Name": "Mas-38",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           16.5,
           10.5
@@ -6733,6 +6778,7 @@
         "Price_Type": "Coin",
         "Name": "PP-19 Bizon",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           16.5,
           9.5
@@ -6769,6 +6815,7 @@
         "Price_Type": "Coin",
         "Name": "ZIPO-2222",
         "Category": "SMG",
+        "Firing_Mode": "Semi",
         "Damage": [
           30,
           12.8
@@ -6806,6 +6853,7 @@
         "Price_Type": "Coin",
         "Name": "PPSh-41",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           14,
           8.4
@@ -6843,6 +6891,7 @@
         "Price_Type": "Coin",
         "Name": "Kriss Vector",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           12.5,
           7.5
@@ -6880,6 +6929,7 @@
         "Price_Type": "Coin",
         "Name": "MP18",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           26,
           16.9
@@ -6917,6 +6967,7 @@
         "Price_Type": "Coin",
         "Name": "P90",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           12,
           8.5
@@ -6954,6 +7005,7 @@
         "Price_Type": "Coin",
         "Name": "Uzi",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           19.2,
           10.6
@@ -6991,6 +7043,7 @@
         "Price_Type": "Coin",
         "Name": "Maple Badger",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           15.5,
           7.8
@@ -7028,6 +7081,7 @@
         "Price_Type": "WC",
         "Name": "M1 Carbine",
         "Category": "SMG",
+        "Firing_Mode": "Semi",
         "Damage": [
           26,
           15.6
@@ -7065,6 +7119,7 @@
         "Price_Type": "Season Pass 1",
         "Name": "PM63",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           18.8,
           10.9
@@ -7101,6 +7156,7 @@
         "Price_Type": "Coin",
         "Name": "SMO3",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           22,
           13.6
@@ -7138,6 +7194,7 @@
         "Price_Type": "Coin",
         "Name": "M3 Grease Gun",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           25,
           15
@@ -7174,6 +7231,7 @@
         "Price_Type": "Coin",
         "Name": "USA180",
         "Category": "SMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           7.5,
           5.3
@@ -7210,6 +7268,7 @@
         "Price_Type": "Coin",
         "Name": "M870",
         "Category": "Shotgun",
+        "Firing_Mode": "Pump Action",
         "Pellets": 8,
         "Damage": [
           112,
@@ -7247,6 +7306,7 @@
         "Price_Type": "Coin",
         "Name": "Circuit Judge",
         "Category": "Shotgun",
+        "Firing_Mode": "Pump Action",
         "Pellets": 8,
         "Damage": [
           120,
@@ -7284,6 +7344,7 @@
         "Price_Type": "Coin",
         "Name": "M1897 Trench Shotgun",
         "Category": "Shotgun",
+        "Firing_Mode": "Pump Action",
         "Pellets": 16,
         "Damage": [
           128,
@@ -7321,6 +7382,7 @@
         "Price_Type": "Coin",
         "Name": "M1887",
         "Category": "Shotgun",
+        "Firing_Mode": "Pump Action",
         "Pellets": 10,
         "Damage": [
           120,
@@ -7360,6 +7422,7 @@
         "Price_Type": "Coin",
         "Name": "Auto-5",
         "Category": "Shotgun",
+        "Firing_Mode": "Pump Action",
         "Pellets": 8,
         "Damage": [
           104,
@@ -7398,6 +7461,7 @@
         "Price_Type": "Coin",
         "Name": "JSG12",
         "Category": "Shotgun",
+        "Firing_Mode": "Pump Action",
         "Pellets": 12,
         "Damage": [
           144,
@@ -7436,6 +7500,7 @@
         "Price_Type": "Coin",
         "Name": "Spas-12",
         "Category": "Shotgun",
+        "Firing_Mode": "Semi",
         "Pellets": 6,
         "Damage": [
           114,
@@ -7474,6 +7539,7 @@
         "Price_Type": "Coin",
         "Name": "Double Barrel",
         "Category": "Shotgun",
+        "Firing_Mode": "Burst",
         "Pellets": 10,
         "Damage": [
           110,
@@ -7512,6 +7578,7 @@
         "Price_Type": "Coin",
         "Name": "Siberia-12",
         "Category": "Shotgun",
+        "Firing_Mode": "Auto",
         "Pellets": 12,
         "Damage": [
           48,
@@ -7550,6 +7617,7 @@
         "Price_Type": "WC",
         "Name": "Blunderbuss",
         "Category": "Shotgun",
+        "Firing_Mode": "Pump Action",
         "Pellets": 15,
         "Damage": [
           225,
@@ -7587,6 +7655,7 @@
         "Price_Type": "Limited",
         "Name": "MarrowMaker",
         "Category": "Shotgun",
+        "Firing_Mode": "Semi",
         "Pellets": 7,
         "Damage": [
           112,
@@ -7624,6 +7693,7 @@
         "Price_Type": "Robux",
         "Name": "AUTO-12",
         "Category": "Shotgun",
+        "Firing_Mode": "Auto",
         "Pellets": 6,
         "Damage": [
           72,
@@ -7662,6 +7732,7 @@
         "Price_Type": "Season Pass 1",
         "Name": "Pancake Hammer",
         "Category": "Shotgun",
+        "Firing_Mode": "Auto",
         "Pellets": 10,
         "Damage": [
           80,
@@ -7699,6 +7770,7 @@
         "Price_Type": "Coin",
         "Name": "M60",
         "Category": "LMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           21,
           12.1
@@ -7737,6 +7809,7 @@
         "Price_Type": "Coin",
         "Name": "Type 99",
         "Category": "LMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           16.5,
           9.1
@@ -7775,6 +7848,7 @@
         "Price_Type": "Coin",
         "Name": "DP-27",
         "Category": "LMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           21,
           13.7
@@ -7813,6 +7887,7 @@
         "Price_Type": "Coin",
         "Name": "BAR",
         "Category": "LMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           25,
           15
@@ -7851,6 +7926,7 @@
         "Price_Type": "Coin",
         "Name": "M1919 .30 Cal",
         "Category": "LMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           25,
           18
@@ -7889,6 +7965,7 @@
         "Price_Type": "Coin",
         "Name": "Negev",
         "Category": "LMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           14,
           10.1
@@ -7927,6 +8004,7 @@
         "Price_Type": "Coin",
         "Name": "MG42",
         "Category": "LMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           13.2,
           8.1
@@ -7965,6 +8043,7 @@
         "Price_Type": "Coin",
         "Name": "Chauchat",
         "Category": "LMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           33,
           21.5
@@ -8003,6 +8082,7 @@
         "Price_Type": "Coin",
         "Name": "Burton",
         "Category": "LMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           14.7,
           10.7
@@ -8041,6 +8121,7 @@
         "Price_Type": "Coin",
         "Name": "Lewis",
         "Category": "LMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           20,
           12
@@ -8079,6 +8160,7 @@
         "Price_Type": "Robux",
         "Name": "M249 SAW",
         "Category": "LMG",
+        "Firing_Mode": "Auto",
         "Damage": [
           15.7,
           10.2
@@ -8117,6 +8199,7 @@
         "Price_Type": "Coin",
         "Name": "M1Garand",
         "Category": "BR",
+        "Firing_Mode": "Semi",
         "Damage": [
           40,
           25
@@ -8155,6 +8238,7 @@
         "Price_Type": "Coin",
         "Name": "SKS",
         "Category": "BR",
+        "Firing_Mode": "Semi",
         "Damage": [
           32,
           19.2
@@ -8192,6 +8276,7 @@
         "Price_Type": "Coin",
         "Name": "Fedorov",
         "Category": "BR",
+        "Firing_Mode": "Auto",
         "Damage": [
           27.5,
           22
@@ -8228,6 +8313,7 @@
         "Price_Type": "Coin",
         "Name": "FAL",
         "Category": "BR",
+        "Firing_Mode": "Auto",
         "Damage": [
           20.5,
           12.8
@@ -8265,6 +8351,7 @@
         "Price_Type": "Coin",
         "Name": "Winchester",
         "Category": "BR",
+        "Firing_Mode": "Semi",
         "Damage": [
           56,
           44.8
@@ -8302,6 +8389,7 @@
         "Price_Type": "Coin",
         "Name": "Dragunov",
         "Category": "BR",
+        "Firing_Mode": "Semi",
         "Damage": [
           39.5,
           22.7
@@ -8340,6 +8428,7 @@
         "Price_Type": "Coin",
         "Name": "G3",
         "Category": "BR",
+        "Firing_Mode": "Auto",
         "Damage": [
           26,
           15.6
@@ -8377,6 +8466,7 @@
         "Price_Type": "Coin",
         "Name": "M110",
         "Category": "BR",
+        "Firing_Mode": "Semi",
         "Damage": [
           52,
           36.4
@@ -8415,6 +8505,7 @@
         "Price_Type": "WC",
         "Name": "FG-42",
         "Category": "BR",
+        "Firing_Mode": "Auto",
         "Damage": [
           16.5,
           10.5
@@ -8451,6 +8542,7 @@
         "Price_Type": "Limited",
         "Name": "X-Blaster",
         "Category": "BR",
+        "Firing_Mode": "Auto",
         "Damage": [
           32,
           11.2
@@ -8487,6 +8579,7 @@
         "Price_Type": "Limited",
         "Name": "Roto-Fire",
         "Category": "BR",
+        "Firing_Mode": "Auto",
         "Damage": [
           40,
           22
@@ -8523,6 +8616,7 @@
         "Price_Type": "Coin",
         "Name": "G43",
         "Category": "BR",
+        "Firing_Mode": "Semi",
         "Damage": [
           42,
           31.5
@@ -8560,6 +8654,7 @@
         "Price_Type": "Limited",
         "Name": "Paintball",
         "Category": "Weird",
+        "Firing_Mode": "Auto",
         "Damage": [
           22,
           13.8
@@ -8596,6 +8691,7 @@
         "Price_Type": "WC",
         "Name": "Stat Randomizer",
         "Category": "Weird",
+        "Firing_Mode": "Bolt Action",
         "Dropoff_Studs": [
           100,
           777
@@ -8611,6 +8707,7 @@
         "Price_Type": "WC",
         "Name": "USS Iowa",
         "Category": "Weird",
+        "Firing_Mode": "Burst",
         "Damage": [
           9,
           7.7
@@ -8650,6 +8747,7 @@
         "Price_Type": "WC",
         "Name": "Gaming Rig",
         "Category": "Weird",
+        "Firing_Mode": "Auto",
         "Damage": [
           16.5,
           13.2
@@ -8686,6 +8784,7 @@
         "Price_Type": "WC",
         "Name": "Loaf",
         "Category": "Weird",
+        "Firing_Mode": "Semi",
         "Damage": [
           28,
           22.4
@@ -8722,6 +8821,7 @@
         "Price_Type": "WC",
         "Name": "Words as Weapons",
         "Category": "Weird",
+        "Firing_Mode": "Auto",
         "Damage": [
           17,
           14.9
@@ -8758,6 +8858,7 @@
         "Price_Type": "WC",
         "Name": "Bicycle",
         "Category": "Weird",
+        "Firing_Mode": "Auto",
         "Damage": [
           29.5,
           14.8
@@ -8794,6 +8895,7 @@
         "Price_Type": "WC",
         "Name": "Willy Fischy",
         "Category": "Weird",
+        "Firing_Mode": "Auto",
         "Damage": [
           25,
           24.8
@@ -8831,6 +8933,7 @@
         "Price_Type": "Limited",
         "Name": "Mega Soaker",
         "Category": "Weird",
+        "Firing_Mode": "Auto",
         "Damage": [
           8.5,
           5.9
@@ -8867,6 +8970,7 @@
         "Price_Type": "Limited",
         "Name": "AK2D",
         "Category": "Weird",
+        "Firing_Mode": "Auto",
         "Damage": [
           18.5,
           11.1
@@ -8903,6 +9007,7 @@
         "Price_Type": "WC",
         "Name": "Drill",
         "Category": "Weird",
+        "Firing_Mode": "Auto",
         "Damage": [
           20,
           6
@@ -8939,6 +9044,7 @@
         "Price_Type": "WC",
         "Name": "Plank",
         "Category": "Weird",
+        "Firing_Mode": "Auto",
         "Damage": [
           22,
           13.8
@@ -8975,6 +9081,7 @@
         "Price_Type": "WC",
         "Name": "Fat Cat",
         "Category": "Weird",
+        "Firing_Mode": "Auto",
         "Damage": [
           58.5,
           45
@@ -9013,6 +9120,7 @@
         "Price_Type": "Robux",
         "Name": "Hotdog",
         "Category": "Weird",
+        "Firing_Mode": "Auto",
         "Damage": [
           33.6,
           24
@@ -9049,6 +9157,7 @@
         "Price_Type": "Robux",
         "Name": "AirStrike",
         "Category": "Weird",
+        "Firing_Mode": "Burst",
         "Damage": [
           35,
           45.5
@@ -9086,6 +9195,7 @@
         "Price_Type": "Free",
         "Name": "M1911",
         "Category": "Sidearm",
+        "Firing_Mode": "Semi",
         "Damage": [
           23.5,
           13.4
@@ -9123,6 +9233,7 @@
         "Price_Type": "Coin",
         "Name": "Makarov",
         "Category": "Sidearm",
+        "Firing_Mode": "Semi",
         "Damage": [
           21,
           14.7
@@ -9159,6 +9270,7 @@
         "Price_Type": "Coin",
         "Name": "Kolibri",
         "Category": "Sidearm",
+        "Firing_Mode": "Semi",
         "Damage": [
           10,
           8
@@ -9196,6 +9308,7 @@
         "Price_Type": "Coin",
         "Name": "Tec-9",
         "Category": "Sidearm",
+        "Firing_Mode": "Semi",
         "Damage": [
           20,
           13
@@ -9233,6 +9346,7 @@
         "Price_Type": "Coin",
         "Name": "T10",
         "Category": "Sidearm",
+        "Firing_Mode": "Semi",
         "Damage": [
           20,
           13.5
@@ -9270,6 +9384,7 @@
         "Price_Type": "Coin",
         "Name": "ZIPO-22",
         "Category": "Sidearm",
+        "Firing_Mode": "Semi",
         "Damage": [
           35,
           6.3
@@ -9307,6 +9422,7 @@
         "Price_Type": "Coin",
         "Name": "B17",
         "Category": "Sidearm",
+        "Firing_Mode": "Auto",
         "Damage": [
           8.8,
           4.8
@@ -9343,6 +9459,7 @@
         "Price_Type": "Coin",
         "Name": "EG200",
         "Category": "Sidearm",
+        "Firing_Mode": "Semi",
         "Pellets": 13,
         "Damage": [
           117,
@@ -9381,6 +9498,7 @@
         "Price_Type": "Coin",
         "Name": "Beretta",
         "Category": "Sidearm",
+        "Firing_Mode": "Semi",
         "Damage": [
           21,
           11.6
@@ -9418,6 +9536,7 @@
         "Price_Type": "Coin",
         "Name": "Type 14",
         "Category": "Sidearm",
+        "Firing_Mode": "Semi",
         "Damage": [
           25.5,
           12.8
@@ -9456,6 +9575,7 @@
         "Price_Type": "Coin",
         "Name": "Luger",
         "Category": "Sidearm",
+        "Firing_Mode": "Semi",
         "Damage": [
           16,
           8
@@ -9492,6 +9612,7 @@
         "Price_Type": "Coin",
         "Name": "Deagle",
         "Category": "Sidearm",
+        "Firing_Mode": "Semi",
         "Damage": [
           38,
           19
@@ -9529,6 +9650,7 @@
         "Price_Type": "Coin",
         "Name": "Obreez",
         "Category": "Sidearm",
+        "Firing_Mode": "Bolt Action",
         "Damage": [
           57,
           37.1
@@ -9565,6 +9687,7 @@
         "Price_Type": "Robux",
         "Name": "Cyber 3517",
         "Category": "Sidearm",
+        "Firing_Mode": "Semi",
         "Damage": [
           40,
           22
@@ -9601,6 +9724,7 @@
         "Price_Type": "Robux",
         "Name": "Raygun",
         "Category": "Sidearm",
+        "Firing_Mode": "Auto",
         "Damage": [
           40,
           22
@@ -9637,6 +9761,7 @@
         "Price_Type": "Limited",
         "Name": "Lobotomizer .44",
         "Category": "Sidearm",
+        "Firing_Mode": "Semi",
         "Damage": [
           40,
           22
@@ -9673,6 +9798,7 @@
         "Price_Type": "Limited",
         "Name": "Quad-Jolly",
         "Category": "Sidearm",
+        "Firing_Mode": "Burst",
         "Damage": [
           10,
           5
@@ -9710,6 +9836,7 @@
         "Price_Type": "Coin",
         "Name": "Five-7",
         "Category": "Sidearm",
+        "Firing_Mode": "Semi",
         "Damage": [
           17.2,
           12.9
@@ -9723,6 +9850,7 @@
         "ADS_Spread": 0.25,
         "Time_To_Aim": 0.25,
         "Detection_Radius": 60,
+        "Suppression": 0,
         "Equip_Time": 0.8,
         "Recoil_Hip_Horizontal": [
           -8,
@@ -9739,6 +9867,43 @@
         "Recoil_Aim_Vertical": [
           1.7,
           3.1
+        ]
+      },
+      {
+        "Price_Type": "Robux",
+        "Name": "Infinity",
+        "Category": "Sidearm",
+        "Firing_Mode": "Auto",
+        "Damage": [
+          15,
+          10.5
+        ],
+        "Dropoff_Studs": [
+          20,
+          60
+        ],
+        "Fire_Rate": 540,
+        "Hipfire_Spread": 2,
+        "ADS_Spread": 0.85,
+        "Time_To_Aim": 0.3,
+        "Detection_Radius": 75,
+        "Suppression": 0,
+        "Equip_Time": 0.7,
+        "Recoil_Hip_Horizontal": [
+          -10,
+          10
+        ],
+        "Recoil_Hip_Vertical": [
+          44,
+          53
+        ],
+        "Recoil_Aim_Horizontal": [
+          -5,
+          5
+        ],
+        "Recoil_Aim_Vertical": [
+          22,
+          26.5
         ]
       }
     ]

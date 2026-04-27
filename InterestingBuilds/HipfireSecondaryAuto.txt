@@ -1,4 +1,4 @@
-./wggcalc -o InterestingBuilds/HipfireSecondaryAuto.txt -i Sidearm --fc B17 --spreadHipMax 1 --magazineMin 30 --speedMin 0 --rangeMin 20 
+./wggcalc -o InterestingBuilds/HipfireSecondaryAuto.txt -i Sidearm --ffm Auto --spreadHipMax 1 --magazineMin 30 --speedMin 0 --rangeMin 20 
 Current top 10 guns are: 
 [ Barrel: Volley, Magazine: Mas-38, Grip: PPSh-41, Stock: None, Core: B17 ]
 damage: 11.1858 - 6.2539

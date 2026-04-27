@@ -35,6 +35,8 @@ namespace Clear { // Define functions that will be used to clear filters and oth
         forcingStock = false;
         forceGrip.clear();
         forcingGrip = false;
+        forceFiringMode.clear();
+        forcingFiringMode = false;
     
         banBarrel.clear();
         banMagazine.clear();
@@ -42,6 +44,7 @@ namespace Clear { // Define functions that will be used to clear filters and oth
         banStock.clear();
         banGrip.clear();
         banPriceType.clear(); // Can either be COIN, WC, ROBUX, or SPECIAL
+        banFiringMode.clear();
     
         includeCategories.clear();
         threadsToMake = 1;
@@ -88,6 +91,8 @@ namespace Clear { // Define functions that will be used to clear filters and oth
         }
         
         banPriceType_fast = 0;
+        forceFiringMode_fast.clear();
+        banFiringMode_fast.clear();
     }
     
     void ClearFilter()
@@ -193,15 +198,15 @@ namespace Util {
         std::cout << "Sorting " << Input::sortType << " by: " << (PQ::sortPriority ? "HIGHEST": "LOWEST") << '\n';
     
         totalCombinations = Data::barrelCount * Data::magazineCount * Data::gripCount * Data::stockCount * Data::coreCount;
-        printf("Barrels detected: %" PRId64 ", Magazines detected: %" PRId64 ", Grips detected: %" PRId64 ", Stocks detected: %" PRId64 ", Cores detected: %" PRId64 "\n", Data::barrelCount, Data::magazineCount, Data::gripCount, Data::stockCount, Data::coreCount);
-        printf("Total of %" PRId64 " possibilities \n", totalCombinations);
+        printf("Barrels detected: %" PRIu64 ", Magazines detected: %" PRIu64 ", Grips detected: %" PRIu64 ", Stocks detected: %" PRIu64 ", Cores detected: %" PRIu64 "\n", Data::barrelCount, Data::magazineCount, Data::gripCount, Data::stockCount, Data::coreCount);
+        printf("Total of %" PRIu64 " possibilities \n", totalCombinations);
     
         DynamicPrune::Run(0);
     
         uint64_t totalValidGuns = 0;
         for (int i = 0; i < Input::threadsToMake; i++)
             totalValidGuns += validGunInThread[i];
-        printf("Total valid gun combinations based on filters: %" PRId64 " / %" PRId64 "\n", totalValidGuns, Data::coreCount * Data::magazineCount * Data::barrelCount * Data::gripCount * Data::stockCount);
+        printf("Total valid gun combinations based on filters: %" PRIu64 " / %" PRIu64 "\n", totalValidGuns, totalCombinations);
     
         PQ::topGuns = PQ::AllSortPQ();
     
@@ -257,9 +262,10 @@ namespace Util {
 
 namespace AddFilter 
 {
-    void Required(int total, std::string sortType, std::string priority, std::vector<std::string> categories) 
+    void Miscellaneous(int total, int playerMaxHealth, std::string sortType, std::string priority, std::vector<std::string> categories) 
     {
         Input::howManyTopGunsToDisplay = total;
+        Input::playerMaxHealth = playerMaxHealth;
         Input::sortType = sortType;
         Input::sortPriority = priority;
         Input::includeCategories = categories;
@@ -277,6 +283,8 @@ namespace AddFilter
         else if (title == "Ban Barrel") Input::banBarrel = partList;
         else if (title == "Ban Stock") Input::banStock = partList;
         else if (title == "Ban Grip") Input::banGrip = partList;
+        else if (title == "Force Firing Mode") Input::forceFiringMode = partList;
+        else if (title == "Ban Firing Mode") Input::banFiringMode = partList;
         else throw std::invalid_argument("Invalid filter: " + title);
     }
     
@@ -372,7 +380,7 @@ EMSCRIPTEN_BINDINGS(util)
 
 EMSCRIPTEN_BINDINGS(setup) 
 {
-    emscripten::function("AddFilterRequired", &AddFilter::Required);
+    emscripten::function("AddFilterMiscellaneous", &AddFilter::Miscellaneous);
     emscripten::function("AddFilterForceBan", &AddFilter::ForceBan);
     emscripten::function("AddFilterRange", &AddFilter::Range);
 }

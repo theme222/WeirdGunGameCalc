@@ -1,4 +1,4 @@
-./wggcalc -o InterestingBuilds/FastestTTKBR.txt -i BR --speedMin -10 --spreadAimMax 0.6 --recoilAimMax 7.5 --magazineMin 20 --rangeMin 150 --pelletMax 1 
+./wggcalc -o InterestingBuilds/FastestTTKBR.txt -i BR --speedMin -10 --spreadAimMax 0.6 --recoilAimMax 7.5 --magazineMin 20 --rangeMin 150 --pelletMax 1 --ffm Semi 
 Current top 10 guns are: 
 [ Barrel: Fat Cat, Magazine: Restroom, Grip: DP-27, Stock: Speed Coil, Core: M1Garand ]
 damage: 52.38 - 34.7018

@@ -22,7 +22,7 @@
 
 #ifndef __WGGCALC_HPP__
 #define __WGGCALC_HPP__
-#define __WGGCALC_VERSION__ "2.0.2"
+#define __WGGCALC_VERSION__ "2.1.0"
 
 using fpair = std::pair<float, float>;
 using json = nlohmann::json;
@@ -67,6 +67,8 @@ namespace Input
     inline bool forcingStock = false;
     inline std::vector<std::string> forceGrip;
     inline bool forcingGrip = false;
+    inline std::vector<std::string> forceFiringMode;
+    inline bool forcingFiringMode = false;
 
     inline std::vector<std::string> banBarrel;
     inline std::vector<std::string> banMagazine;
@@ -74,6 +76,7 @@ namespace Input
     inline std::vector<std::string> banStock;
     inline std::vector<std::string> banGrip;
     inline std::vector<std::string> banPriceType; // Can either be COIN, WC, ROBUX, or SPECIAL
+    inline std::vector<std::string> banFiringMode;
 
     inline std::vector<std::string> includeCategories;
 
@@ -118,6 +121,7 @@ namespace Input
         forcingCore = !forceCore.empty();
         forcingStock = !forceStock.empty();
         forcingGrip = !forceGrip.empty();
+        forcingFiringMode = !forceFiringMode.empty();
         detailed = detailed || debug;
         // if (TTKRange.first != NILMIN) TTKRange.first /= 60.f;
         // if (TTKRange.second != NILMAX) TTKRange.second /= 60.f;
@@ -145,6 +149,8 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
     // 0: core, 1: magazine, 2: barrel, 3: stock, 4: grip
     inline std::vector<bool> forceParts_fast[5];
     inline std::vector<bool> banParts_fast[5];
+    inline std::vector<bool> forceFiringMode_fast;
+    inline std::vector<bool> banFiringMode_fast;
 
     enum PriceType {
         COIN = 1<<0,
@@ -467,11 +473,19 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     inline std::map<std::string, int> fastifyName = {};
     inline int fastifyNoneName() {return fastifyName.size() - 1;} // Returns the name_fast of the "None" part which is always the last part added.
+    
+    inline std::map<std::string, int> fastifyFiringMode = {}; // Technically this could be hard coded in but I really don't wanna bother recompiling it every time a new one gets added
 
-    inline void PartExists(std::string partName)
+    inline void PartExists(std::string &partName)
     {
         if (!fastifyName.contains(partName))
             throw std::invalid_argument("Part " + partName + " doesn't exist");
+    }
+    
+    inline void FiringModeExists(std::string &firingMode)
+    {
+        if (!fastifyFiringMode.contains(firingMode))
+            throw std::invalid_argument("Firing mode " + firingMode + " doesn't exist");
     }
 
     inline void InitializeCategoriesFBParts()
@@ -495,59 +509,74 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             banParts_fast[i].resize(fastifyName.size(), false);
         }
 
-        for (auto core: forceCore)
+        for (auto &core: forceCore)
         {
             PartExists(core);
             forceParts_fast[0][fastifyName[core]] = true;
         }
-        for (auto magazine: forceMagazine)
+        for (auto &magazine: forceMagazine)
         {
             PartExists(magazine);
             forceParts_fast[1][fastifyName[magazine]] = true;
         }
-        for (auto barrel: forceBarrel)
+        for (auto &barrel: forceBarrel)
         {
             PartExists(barrel);
             forceParts_fast[2][fastifyName[barrel]] = true;
         }
-        for (auto stock: forceStock)
+        for (auto &stock: forceStock)
         {
             PartExists(stock);
             forceParts_fast[3][fastifyName[stock]] = true;
         }
-        for (auto grip: forceGrip)
+        for (auto &grip: forceGrip)
         {
             PartExists(grip);
             forceParts_fast[4][fastifyName[grip]] = true;
         }
 
-        for (auto core: banCore)
+        for (auto &core: banCore)
         {
             PartExists(core);
             banParts_fast[0][fastifyName[core]] = true;
         }
-        for (auto magazine: banMagazine)
+        for (auto &magazine: banMagazine)
         {
             PartExists(magazine);
             banParts_fast[1][fastifyName[magazine]] = true;
         }
-        for (auto barrel: banBarrel)
+        for (auto &barrel: banBarrel)
         {
             PartExists(barrel);
             banParts_fast[2][fastifyName[barrel]] = true;
         }
-        for (auto stock: banStock)
+        for (auto &stock: banStock)
         {
             PartExists(stock);
             banParts_fast[3][fastifyName[stock]] = true;
         }
-        for (auto grip: banGrip)
+        for (auto &grip: banGrip)
         {
             PartExists(grip);
             banParts_fast[4][fastifyName[grip]] = true;
         }
+        
+        forceFiringMode_fast.resize(fastifyFiringMode.size(), false);
+        banFiringMode_fast.resize(fastifyFiringMode.size(), false);
+        
+        for (auto &firingMode: forceFiringMode) 
+        {
+            FiringModeExists(firingMode);
+            forceFiringMode_fast[fastifyFiringMode[firingMode]] = true;
+        }
+        
+        for (auto &firingMode: banFiringMode)
+        {
+            FiringModeExists(firingMode);
+            banFiringMode_fast[fastifyFiringMode[firingMode]] = true;
+        }
 
-        for (auto priceType: banPriceType)
+        for (auto &priceType: banPriceType)
         {
             if (priceType == "COIN")
                 banPriceType_fast |= COIN;
@@ -584,9 +613,11 @@ class Core
 public:
     std::string category;
     std::string name;
+    std::string firingMode;
 
     int category_fast;
     int name_fast;
+    int firingMode_fast;
     Fast::PriceType priceType_fast = Fast::COIN;
 
     float damage = 0;
@@ -608,11 +639,13 @@ public:
     fpair recoilAimVertical = fpair(0, 0);
 
     Core() {}
-    Core(const json &jsonObject) : category(jsonObject["Category"]), name(jsonObject["Name"])
+    Core(const json &jsonObject) : category(jsonObject["Category"]), name(jsonObject["Name"]), firingMode(jsonObject["Firing_Mode"])
     {
         category_fast = Fast::fastifyCategory[category];
         if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
         name_fast = Fast::fastifyName[name];
+        if (!Fast::fastifyFiringMode.contains(firingMode)) Fast::fastifyFiringMode[firingMode] = Fast::fastifyFiringMode.size();
+        firingMode_fast = Fast::fastifyFiringMode[firingMode];
 
         if (jsonObject.contains("Price_Type"))
         {
@@ -1475,6 +1508,7 @@ namespace Filter
 
     inline void InitializeMultFlag()
     {
+        currentFlags = 0;
         for (int i = 0; i < Fast::TOTALMULTFLAGS; i++)
         {
             MultFlags flag = MultFlags(1 << i);
@@ -1487,49 +1521,50 @@ namespace Filter
 
     inline bool CoreFilter(Core *core) // These filters require no gun calculation and can be immediately checked on the part itself
     {
-        if (Fast::banParts_fast[0][core->name_fast]) return false;
-        if (Input::forcingCore && !Fast::forceParts_fast[0][core->name_fast]) return false;
-        if (Fast::banPriceType_fast & core->priceType_fast) return false;
-        if (!Input::forcingCore && !Fast::includeCategories_fast[core->category_fast]) return false;
-        if (!Fast::RangeFilter(core->timeToAim, Input::timeToAimRange)) return false;
-        if (!Fast::RangeFilter(core->burst, Input::burstRange)) return false;
+        if (Fast::banParts_fast[0][core->name_fast]) return false; // banning core
+        if (Input::forcingCore && !Fast::forceParts_fast[0][core->name_fast]) return false; // forcing core
+        if (Fast::banPriceType_fast & core->priceType_fast) return false; //  banning price type
+        if (!Input::forcingCore && !Fast::includeCategories_fast[core->category_fast]) return false; // forcing category
+        if (Input::forcingFiringMode && !Fast::forceFiringMode_fast[core->firingMode_fast]) return false; // forcing firing mode
+        if (Fast::banFiringMode_fast[core->firingMode_fast]) return false; // banning firing mode
+        if (!Fast::RangeFilter(core->timeToAim, Input::timeToAimRange)) return false; // time to aim check
+        if (!Fast::RangeFilter(core->burst, Input::burstRange)) return false; // burst check
         return true;
     }
 
     inline bool MagazineFilter(Magazine *magazine)
     {
-        if (Fast::banParts_fast[1][magazine->name_fast]) return false;
-        if (Input::forcingMagazine && !Fast::forceParts_fast[1][magazine->name_fast]) return false;
-        if (Fast::banPriceType_fast & magazine->priceType_fast) return false;
-        if (!Fast::forceParts_fast[1][Fast::fastifyNoneName()] && magazine->name_fast == Fast::fastifyNoneName()) return false;
-        // if (!Fast::RangeFilter(magazine->magazineSize, Input::magazineRange)) return false;
+        if (Fast::banParts_fast[1][magazine->name_fast]) return false; // banning magazine
+        if (Input::forcingMagazine && !Fast::forceParts_fast[1][magazine->name_fast]) return false; // forcing magazine
+        if (Fast::banPriceType_fast & magazine->priceType_fast) return false; // banning price type
+        if (!Fast::forceParts_fast[1][Fast::fastifyNoneName()] && magazine->name_fast == Fast::fastifyNoneName()) return false; // we aren't forcing none but it is none 
         return true;
     }
 
     inline bool BarrelFilter(Barrel *barrel)
     {
-        if (Fast::banParts_fast[2][barrel->name_fast]) return false;
-        if (Input::forcingBarrel && !Fast::forceParts_fast[2][barrel->name_fast]) return false;
-        if (Fast::banPriceType_fast & barrel->priceType_fast) return false;
-        if (!Fast::forceParts_fast[2][Fast::fastifyNoneName()] && barrel->name_fast == Fast::fastifyNoneName()) return false;
+        if (Fast::banParts_fast[2][barrel->name_fast]) return false; // banning barrels
+        if (Input::forcingBarrel && !Fast::forceParts_fast[2][barrel->name_fast]) return false; // forcing barrels
+        if (Fast::banPriceType_fast & barrel->priceType_fast) return false; // banning price type
+        if (!Fast::forceParts_fast[2][Fast::fastifyNoneName()] && barrel->name_fast == Fast::fastifyNoneName()) return false; // we aren't forcing none but it is none
         return true;
     }
 
     inline bool StockFilter(Stock *stock)
     {
-        if (Fast::banParts_fast[3][stock->name_fast]) return false;
-        if (Input::forcingStock && !Fast::forceParts_fast[3][stock->name_fast]) return false;
-        if (Fast::banPriceType_fast & stock->priceType_fast) return false;
-        if (!Fast::forceParts_fast[3][Fast::fastifyNoneName()] && stock->name_fast == Fast::fastifyNoneName()) return false;
+        if (Fast::banParts_fast[3][stock->name_fast]) return false; // banning stock
+        if (Input::forcingStock && !Fast::forceParts_fast[3][stock->name_fast]) return false; // forcing stock
+        if (Fast::banPriceType_fast & stock->priceType_fast) return false; // banning price type
+        if (!Fast::forceParts_fast[3][Fast::fastifyNoneName()] && stock->name_fast == Fast::fastifyNoneName()) return false; // we aren't forcing none but it is none
         return true;
     }
 
     inline bool GripFilter(Grip *grip)
     {
-        if (Fast::banParts_fast[4][grip->name_fast]) return false;
-        if (Input::forcingGrip && !Fast::forceParts_fast[4][grip->name_fast]) return false;
-        if (Fast::banPriceType_fast & grip->priceType_fast) return false;
-        if (!Fast::forceParts_fast[4][Fast::fastifyNoneName()] && grip->name_fast == Fast::fastifyNoneName()) return false;
+        if (Fast::banParts_fast[4][grip->name_fast]) return false; // banning grip
+        if (Input::forcingGrip && !Fast::forceParts_fast[4][grip->name_fast]) return false; // forcing grip
+        if (Fast::banPriceType_fast & grip->priceType_fast) return false; // banning price type
+        if (!Fast::forceParts_fast[4][Fast::fastifyNoneName()] && grip->name_fast == Fast::fastifyNoneName()) return false; // we aren't forcing none but it is none
         return true;
     }
 
@@ -1622,17 +1657,21 @@ namespace Data // Contains the real information read from FullData.json
         {
             puts("Sorting part lists with heuristic");
             PQ::AllSortStruct sorter;
+            
+            Magazine magForSorting;
+            magForSorting.magazineCap = 50;
+            magForSorting.reloadTime = 5;
 
             std::sort(coreList.begin(), coreList.end(), [&](const Core& core1, const Core& core2) -> bool {
                 Gun gun1(&core1), gun2(&core2);
-                gun1.CopyCoreValues(Filter::currentFlags);
-                gun2.CopyCoreValues(Filter::currentFlags);
+                gun1.CopyCoreValues(ALLMULTFLAG);
+                gun2.CopyCoreValues(ALLMULTFLAG);
 
                 // Define some random stats for the magazine size
-                gun1.magazine = magazineList.data();
-                gun2.magazine = magazineList.data();
-                gun1.CopyMagazineValues(Filter::currentFlags);
-                gun2.CopyMagazineValues(Filter::currentFlags);
+                gun1.magazine = &magForSorting;
+                gun2.magazine = &magForSorting;
+                gun1.CopyMagazineValues(ALLMULTFLAG);
+                gun2.CopyMagazineValues(ALLMULTFLAG);
 
                 return sorter(gun1, gun2);
             });
@@ -2092,15 +2131,24 @@ namespace DynamicPrune
     {
         fpair minMaxValue = GetLowHighPotential(PQ::currentSortingType, essentials);
         float gunValue = PQ::sortPriority == PQ::HIGHEST ? minMaxValue.second : minMaxValue.first;
-
+        
+        // Check if the current threshold already reached the filter's range 
+        const fpair &correspondingRange = Fast::GetInputRange(PQ::currentSortingType);
+        
         float threshold = currentBestThreshold_a.load();
-
+        
         if (PQ::sortPriority == PQ::HIGHEST)
+        {
+            if (threshold == correspondingRange.second && threshold != NILMAX) return false; // No longer need to compute
             return gunValue > threshold;
+        }
         else if (PQ::sortPriority == PQ::LOWEST)
+        {
+            if (threshold == correspondingRange.first && threshold != NILMIN) return false; // No longer need to compute
             return gunValue < threshold;
-        else
-            throw std::runtime_error("Invalid sort priority");
+        }
+        else throw std::runtime_error("Invalid sort priority");
+        
     }
 
     inline void ReplaceNewestThreshold(const Gun& gun) // https://en.cppreference.com/w/cpp/atomic/atomic/compare_exchange.html

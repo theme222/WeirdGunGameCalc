@@ -138,13 +138,13 @@ class WggCalcManager {
     vector["delete"]();
   }
   
-  async addFilterRequired(total: number, sortType: string, sortPriority: string, categories: string[]) {
+  async addFilterMiscellaneous(total: number, defaultMaxHealth: number, sortType: string, sortPriority: string, categories: string[]) {
     await this.ensureReady();
     
     const vector = new this.instance!["VectorString"]();
     categories.forEach(p => vector["push_back"](p));
     
-    this.instance!["AddFilterRequired"](total, sortType, sortPriority, vector);
+    this.instance!["AddFilterMiscellaneous"](total, defaultMaxHealth, sortType, sortPriority, vector);
     vector["delete"]();
   } 
 
@@ -215,14 +215,16 @@ async function handleCalculate(filterList: FilterItem[]) {
     const sortType = sortTypeJSToWasm(filterList.find(f => f.title === "Sort Type")?.writeable.value[0] as string);
     const sortPriority = sortPriorityJSToWasm(filterList.find(f => f.title === "Sort Type")?.writeable.selectedOption as string);
     const categories = filterList.find(f => f.title === "Categories")?.writeable.value as string[];
+    const defaultMaxHealth = filterList.find(f => f.title === "Default Max Health")?.writeable.value[0] as number ?? 100;
     
     if (totalVal <= 0) throw new Error("Total Results must be greater than 0");
     if (sortType === undefined) throw new Error("Sort Type is invalid");
     if (sortPriority === undefined) throw new Error("Sort Priority is invalid");
     if (categories.length === 0) throw new Error("Categories must not be empty");
+    if (defaultMaxHealth <= 0) throw new Error("Default Max Health must be greater than 0");
     
     if (totalVal && sortType && sortPriority && categories) {
-      await WasmCalc.addFilterRequired(totalVal, sortType, sortPriority, categories);
+      await WasmCalc.addFilterMiscellaneous(totalVal, defaultMaxHealth, sortType, sortPriority, categories);
     }
     
     for (const filter of filterList) {
