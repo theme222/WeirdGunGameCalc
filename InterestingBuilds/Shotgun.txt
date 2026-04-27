@@ -1,4 +1,4 @@
-./wggcalc -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80 
+./wggcalc -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80 --bfm Auto 
 Current top 10 guns are: 
 [ Barrel: Chauchat, Magazine: BAR, Grip: Arisaka, Stock: Siberia-12, Core: Auto-5 ]
 damage: 142.025 - 51.4841
@@ -14,20 +14,6 @@ recoilHipVertical: 75.6 - 132.3
 recoilAimVertical: 30.24 - 52.92
 movementSpeed: 0.5
 
-[ Barrel: Chauchat, Magazine: BAR, Grip: Quad-Jolly, Stock: MG42, Core: Auto-5 ]
-damage: 142.025 - 50.126
-dropoffStuds: 80.7084 - 154.691
-pellets: 8
-fireRate: 147.663
-adsSpread: 1.69813
-hipfireSpread: 6.25625
-reloadTime: 4.4
-magazineSize: 20
-health: 8
-recoilHipVertical: 67.5 - 118.125
-recoilAimVertical: 27 - 47.25
-movementSpeed: 1.075
-
 [ Barrel: Chauchat, Magazine: BAR, Grip: Quad-Jolly, Stock: UNP-40, Core: Auto-5 ]
 damage: 142.025 - 50.126
 dropoffStuds: 80.7084 - 154.691
@@ -41,6 +27,20 @@ health: 8
 recoilHipVertical: 81 - 141.75
 recoilAimVertical: 32.4 - 56.7
 movementSpeed: 0.92
+
+[ Barrel: Chauchat, Magazine: BAR, Grip: Quad-Jolly, Stock: MG42, Core: Auto-5 ]
+damage: 142.025 - 50.126
+dropoffStuds: 80.7084 - 154.691
+pellets: 8
+fireRate: 147.663
+adsSpread: 1.69813
+hipfireSpread: 6.25625
+reloadTime: 4.4
+magazineSize: 20
+health: 8
+recoilHipVertical: 67.5 - 118.125
+recoilAimVertical: 27 - 47.25
+movementSpeed: 1.075
 
 [ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: Sten gun, Core: Auto-5 ]
 damage: 146.369 - 49.3812
@@ -56,20 +56,6 @@ recoilHipVertical: 90.9144 - 159.1
 recoilAimVertical: 36.3658 - 63.6401
 movementSpeed: 1.9
 
-[ Barrel: Chauchat, Magazine: BAR, Grip: Arisaka, Stock: P90, Core: Auto-5 ]
-damage: 142.025 - 51.4841
-dropoffStuds: 81.9375 - 157.047
-pellets: 8
-fireRate: 145.815
-adsSpread: 1.77562
-hipfireSpread: 6.54175
-reloadTime: 4
-magazineSize: 20
-health: 2
-recoilHipVertical: 75.6 - 132.3
-recoilAimVertical: 30.24 - 52.92
-movementSpeed: 2.45
-
 [ Barrel: Chauchat, Magazine: BAR, Grip: NP9, Stock: P90, Core: Auto-5 ]
 damage: 142.025 - 51.4841
 dropoffStuds: 81.9375 - 157.047
@@ -83,6 +69,20 @@ health: 8
 recoilHipVertical: 89.208 - 156.114
 recoilAimVertical: 35.6832 - 62.4456
 movementSpeed: 1.375
+
+[ Barrel: Chauchat, Magazine: BAR, Grip: Arisaka, Stock: P90, Core: Auto-5 ]
+damage: 142.025 - 51.4841
+dropoffStuds: 81.9375 - 157.047
+pellets: 8
+fireRate: 145.815
+adsSpread: 1.77562
+hipfireSpread: 6.54175
+reloadTime: 4
+magazineSize: 20
+health: 2
+recoilHipVertical: 75.6 - 132.3
+recoilAimVertical: 30.24 - 52.92
+movementSpeed: 2.45
 
 [ Barrel: Chauchat, Magazine: BAR, Grip: UNP-40, Stock: P90, Core: Auto-5 ]
 damage: 142.025 - 51.4841

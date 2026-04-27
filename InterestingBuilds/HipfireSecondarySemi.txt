@@ -1,142 +1,145 @@
-./wggcalc -o InterestingBuilds/HipfireSecondarySemi.txt -i Sidearm --bfm Semi --spreadHipMax 1 --magazineMin 20 --speedMin 5 --rangeMin 40 
+./wggcalc -o InterestingBuilds/HipfireSecondarySemi.txt -i Sidearm --bfm Auto --spreadHipMax 1 --magazineMin 20 --speedMin 5 --rangeMin 40 
 Current top 10 guns are: 
-[ Barrel: Dominus, Magazine: Graphics Card, Grip: Infinity, Stock: None, Core: Quad-Jolly ]
-damage: 10 - 4.384
-dropoffStuds: 44.16 - 88.32
-burst: 4
-fireRate: 183.54
-adsSpread: 0.327
-hipfireSpread: 0.872
-reloadTime: 6.9978
-magazineSize: 58
-recoilHipVertical: 2.8644 - 3.8192
-recoilAimVertical: 1.4322 - 1.9096
-movementSpeed: 5
-TTK: 2.94214 Seconds
-
-[ Barrel: Dominus, Magazine: Scar H, Grip: Infinity, Stock: None, Core: Quad-Jolly ]
-damage: 11.3 - 5.84413
-dropoffStuds: 51.432 - 102.864
-burst: 4
-fireRate: 161
-adsSpread: 0.327
-hipfireSpread: 0.872
-reloadTime: 5.24835
-magazineSize: 23
-recoilHipVertical: 4.65 - 6.2
-recoilAimVertical: 2.325 - 3.1
-movementSpeed: 5
-TTK: 2.98137 Seconds
-
-[ Barrel: Dominus, Magazine: MAC-10, Grip: Infinity, Stock: None, Core: Quad-Jolly ]
-damage: 10 - 4.488
-dropoffStuds: 45.12 - 90.24
-burst: 4
-fireRate: 180.924
-adsSpread: 0.327
-hipfireSpread: 0.872
-reloadTime: 2.3326
-magazineSize: 35
-recoilHipVertical: 5.022 - 6.696
-recoilAimVertical: 2.511 - 3.348
-movementSpeed: 8.3
-TTK: 2.98468 Seconds
-
-[ Barrel: Dominus, Magazine: NP5, Grip: Infinity, Stock: None, Core: Quad-Jolly ]
-damage: 10 - 4.228
-dropoffStuds: 42.72 - 85.44
-burst: 4
-fireRate: 179.112
-adsSpread: 0.300023
-hipfireSpread: 0.80006
-reloadTime: 2.91575
-magazineSize: 35
-recoilHipVertical: 4.5012 - 6.0016
-recoilAimVertical: 2.2506 - 3.0008
-movementSpeed: 7.475
-TTK: 3.01487 Seconds
-
-[ Barrel: Dominus, Magazine: B17, Grip: Infinity, Stock: None, Core: Quad-Jolly ]
-damage: 10 - 4.592
-dropoffStuds: 46.08 - 92.16
-burst: 4
-fireRate: 178.71
-adsSpread: 0.36297
-hipfireSpread: 0.96792
-reloadTime: 1.98271
+[ Barrel: Deagle, Magazine: Scar H, Grip: X-Blaster, Stock: None, Core: Type 14 ]
+damage: 35.1543 - 19.9539
+dropoffStuds: 40.0167 - 91.4667
+fireRate: 405
+adsSpread: 0.295
+hipfireSpread: 0.826
+reloadTime: 4.5
 magazineSize: 20
-recoilHipVertical: 3.72 - 4.96
-recoilAimVertical: 1.86 - 2.48
+health: -8.05
+recoilHipVertical: 11.625 - 27.125
+recoilAimVertical: 2.325 - 5.425
+movementSpeed: 7.275
+TTK: 0.296296 Seconds
+
+[ Barrel: Deagle, Magazine: Scar H, Grip: Mosin, Stock: None, Core: Type 14 ]
+damage: 35.1543 - 20.0944
+dropoffStuds: 40.3677 - 92.269
+fireRate: 394.875
+adsSpread: 0.25
+hipfireSpread: 0.7
+reloadTime: 4.5
+magazineSize: 20
+health: -10
+recoilHipVertical: 11.625 - 27.125
+recoilAimVertical: 2.325 - 5.425
+movementSpeed: 6.5
+TTK: 0.303894 Seconds
+
+[ Barrel: Deagle, Magazine: Scar H, Grip: Dragunov, Stock: None, Core: Type 14 ]
+damage: 35.1543 - 20.0554
+dropoffStuds: 40.2702 - 92.0461
+fireRate: 384.75
+adsSpread: 0.25
+hipfireSpread: 0.7
+reloadTime: 4.5
+magazineSize: 20
+health: -10
+recoilHipVertical: 10.416 - 24.304
+recoilAimVertical: 2.0832 - 4.8608
 movementSpeed: 5
-TTK: 3.02166 Seconds
+TTK: 0.311891 Seconds
 
-[ Barrel: Dominus, Magazine: Type 2a Nambu, Grip: Infinity, Stock: None, Core: Quad-Jolly ]
-damage: 10 - 4.28
-dropoffStuds: 43.2 - 86.4
-burst: 4
-fireRate: 177.905
-adsSpread: 0.327
-hipfireSpread: 0.872
-reloadTime: 2.91575
-magazineSize: 35
-recoilHipVertical: 3.0504 - 4.0672
-recoilAimVertical: 1.5252 - 2.0336
-movementSpeed: 7.25
-TTK: 3.03533 Seconds
-
-[ Barrel: Infinity, Magazine: M1 Carbine, Grip: Fat Cat, Stock: None, Core: Quad-Jolly ]
-damage: 11.711 - 4.9479
-dropoffStuds: 42.75 - 85.5
-burst: 4
-fireRate: 156.25
-adsSpread: 0.3
-hipfireSpread: 0.8
-reloadTime: 2.632
-magazineSize: 23
-recoilHipVertical: 3.96 - 5.28
-recoilAimVertical: 1.98 - 2.64
-movementSpeed: 5.25
-TTK: 3.072 Seconds
-
-[ Barrel: Dominus, Magazine: MP18, Grip: Infinity, Stock: None, Core: Quad-Jolly ]
-damage: 11.35 - 4.91682
-dropoffStuds: 43.68 - 87.36
-burst: 4
-fireRate: 155.365
-adsSpread: 0.327
-hipfireSpread: 0.872
-reloadTime: 2.56586
-magazineSize: 37
-recoilHipVertical: 4.5384 - 6.0512
-recoilAimVertical: 2.2692 - 3.0256
-movementSpeed: 5
-TTK: 3.0895 Seconds
-
-[ Barrel: Lipstick, Magazine: Paintball, Grip: Infinity, Stock: None, Core: Quad-Jolly ]
-damage: 10.094 - 4.84512
-dropoffStuds: 48 - 96
-burst: 4
-fireRate: 174.714
-adsSpread: 0.354
-hipfireSpread: 0.944
-reloadTime: 6.89936
-magazineSize: 81
-recoilHipVertical: 3.36 - 4.48
-recoilAimVertical: 1.68 - 2.24
-movementSpeed: 5
-TTK: 3.09077 Seconds
-
-[ Barrel: Spray Can, Magazine: MAC-10, Grip: Infinity, Stock: None, Core: Quad-Jolly ]
-damage: 9.4 - 3.64878
-dropoffStuds: 40.1568 - 80.3136
-burst: 4
-fireRate: 193.847
-adsSpread: 0.3
-hipfireSpread: 0.8
+[ Barrel: Dragunov, Magazine: Five-7, Grip: Infinity, Stock: None, Core: Type 14 ]
+damage: 25.5 - 14.9651
+dropoffStuds: 41.1471 - 94.0504
+fireRate: 574.425
+adsSpread: 0.26208
+hipfireSpread: 0.733824
 reloadTime: 2.14
-magazineSize: 35
-recoilHipVertical: 4.05 - 5.4
-recoilAimVertical: 2.025 - 2.7
-movementSpeed: 5.8
-TTK: 3.09523 Seconds
+magazineSize: 23
+health: -10
+recoilHipVertical: 7.44 - 17.36
+recoilAimVertical: 1.488 - 3.472
+movementSpeed: 9
+TTK: 0.313357 Seconds
+
+[ Barrel: M1891, Magazine: Five-7, Grip: Infinity, Stock: None, Core: Type 14 ]
+damage: 25.5 - 14.6826
+dropoffStuds: 40.2864 - 92.0832
+fireRate: 574.425
+adsSpread: 0.255937
+hipfireSpread: 0.716625
+reloadTime: 2.568
+magazineSize: 23
+health: -10
+recoilHipVertical: 6 - 14
+recoilAimVertical: 1.2 - 2.8
+movementSpeed: 9
+TTK: 0.313357 Seconds
+
+[ Barrel: Chauchat, Magazine: Scar H, Grip: Circuit Judge, Stock: None, Core: Type 14 ]
+damage: 33.7568 - 19.7077
+dropoffStuds: 41.2528 - 94.292
+fireRate: 382.5
+adsSpread: 0.3375
+hipfireSpread: 0.945
+reloadTime: 4.5
+magazineSize: 20
+health: -10
+recoilHipVertical: 9.375 - 21.875
+recoilAimVertical: 1.875 - 4.375
+movementSpeed: 6
+TTK: 0.313726 Seconds
+
+[ Barrel: Deagle, Magazine: BAR, Grip: Quad-Jolly, Stock: None, Core: Type 14 ]
+damage: 34.9988 - 20.1373
+dropoffStuds: 40.3358 - 92.196
+fireRate: 377.784
+adsSpread: 0.275
+hipfireSpread: 0.77
+reloadTime: 4
+magazineSize: 20
+health: -10
+recoilHipVertical: 12.555 - 29.295
+recoilAimVertical: 2.511 - 5.859
+movementSpeed: 7.5
+TTK: 0.317642 Seconds
+
+[ Barrel: Volley, Magazine: BAR, Grip: X-Blaster, Stock: None, Core: Type 14 ]
+damage: 35.1472 - 20.2288
+dropoffStuds: 40.3988 - 92.34
+pellets: 7
+fireRate: 376.2
+adsSpread: 0.342262
+hipfireSpread: 0.958335
+reloadTime: 4
+magazineSize: 20
+health: -8.05
+recoilHipVertical: 14.985 - 34.965
+recoilAimVertical: 2.997 - 6.993
+movementSpeed: 10.775
+TTK: 0.318979 Seconds
+
+[ Barrel: Volley, Magazine: BAR, Grip: L8, Stock: None, Core: Type 14 ]
+damage: 35.1472 - 20.1293
+dropoffStuds: 40.1428 - 91.755
+pellets: 7
+fireRate: 376.2
+adsSpread: 0.290053
+hipfireSpread: 0.812148
+reloadTime: 4
+magazineSize: 20
+health: -10
+recoilHipVertical: 13.7188 - 32.0105
+recoilAimVertical: 2.74375 - 6.40209
+movementSpeed: 8.5
+TTK: 0.318979 Seconds
+
+[ Barrel: Volley, Magazine: BAR, Grip: Snake Sniper, Stock: None, Core: Type 14 ]
+damage: 35.1472 - 20.5964
+dropoffStuds: 41.3438 - 94.5
+pellets: 7
+fireRate: 376.2
+adsSpread: 0.255246
+hipfireSpread: 0.71469
+reloadTime: 4
+magazineSize: 20
+health: -10
+recoilHipVertical: 18.2817 - 42.6573
+recoilAimVertical: 3.65634 - 8.53146
+movementSpeed: 7
+TTK: 0.318979 Seconds
 

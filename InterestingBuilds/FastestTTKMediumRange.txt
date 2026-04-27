@@ -55,34 +55,6 @@ recoilHipVertical: 33.6 - 40.8
 recoilAimVertical: 18.48 - 22.44
 TTK: 0.257445 Seconds
 
-[ Barrel: M1891, Magazine: DP-27, Grip: Drill, Stock: Speed Coil, Core: Hotdog ]
-damage: 35.3623 - 27.6836
-dropoffStuds: 201.6 - 315
-fireRate: 457.6
-adsSpread: 0.4725
-hipfireSpread: 5.25
-reloadTime: 4.4928
-magazineSize: 36
-health: -10
-recoilHipVertical: 40.2797 - 45.1786
-recoilAimVertical: 26.1818 - 29.3389
-movementSpeed: 23
-TTK: 0.262238 Seconds
-
-[ Barrel: M1891, Magazine: DP-27, Grip: Banana, Stock: Speed Coil, Core: Hotdog ]
-damage: 35.3623 - 27.6836
-dropoffStuds: 201.6 - 315
-fireRate: 457.6
-adsSpread: 0.543375
-hipfireSpread: 6.0375
-reloadTime: 4.32
-magazineSize: 36
-health: -10
-recoilHipVertical: 39.7824 - 44.6208
-recoilAimVertical: 25.8586 - 28.9766
-movementSpeed: 28
-TTK: 0.262238 Seconds
-
 [ Barrel: M1891, Magazine: DP-27, Grip: Tap, Stock: Speed Coil, Core: Hotdog ]
 damage: 35.3623 - 27.6836
 dropoffStuds: 201.6 - 315
@@ -97,7 +69,35 @@ recoilAimVertical: 22.6262 - 25.3546
 movementSpeed: 18
 TTK: 0.262238 Seconds
 
-[ Barrel: M1891, Magazine: DP-27, Grip: M1911, Stock: Speed Coil, Core: Hotdog ]
+[ Barrel: M1891, Magazine: DP-27, Grip: FAL, Stock: Speed Coil, Core: Hotdog ]
+damage: 35.3623 - 27.6836
+dropoffStuds: 201.6 - 315
+fireRate: 457.6
+adsSpread: 0.571725
+hipfireSpread: 6.3525
+reloadTime: 4.32
+magazineSize: 36
+health: -10
+recoilHipVertical: 40.777 - 45.7363
+recoilAimVertical: 26.505 - 29.7011
+movementSpeed: 25
+TTK: 0.262238 Seconds
+
+[ Barrel: M1891, Magazine: DP-27, Grip: AirStrike, Stock: Speed Coil, Core: Hotdog ]
+damage: 35.3623 - 27.6836
+dropoffStuds: 201.6 - 315
+fireRate: 457.6
+adsSpread: 0.524475
+hipfireSpread: 5.8275
+reloadTime: 3.8016
+magazineSize: 36
+health: -10
+recoilHipVertical: 41.0256 - 46.0152
+recoilAimVertical: 26.6666 - 29.8822
+movementSpeed: 23
+TTK: 0.262238 Seconds
+
+[ Barrel: M1891, Magazine: DP-27, Grip: Drill, Stock: Speed Coil, Core: Hotdog ]
 damage: 35.3623 - 27.6836
 dropoffStuds: 201.6 - 315
 fireRate: 457.6
@@ -111,17 +111,17 @@ recoilAimVertical: 26.1818 - 29.3389
 movementSpeed: 23
 TTK: 0.262238 Seconds
 
-[ Barrel: M1891, Magazine: DP-27, Grip: FAL, Stock: Speed Coil, Core: Hotdog ]
+[ Barrel: M1891, Magazine: DP-27, Grip: Mega Soaker, Stock: Speed Coil, Core: Hotdog ]
 damage: 35.3623 - 27.6836
 dropoffStuds: 201.6 - 315
 fireRate: 457.6
-adsSpread: 0.571725
-hipfireSpread: 6.3525
+adsSpread: 0.5292
+hipfireSpread: 5.88
 reloadTime: 4.32
 magazineSize: 36
 health: -10
-recoilHipVertical: 40.777 - 45.7363
-recoilAimVertical: 26.505 - 29.7011
+recoilHipVertical: 37.7933 - 42.3898
+recoilAimVertical: 24.5656 - 27.5278
 movementSpeed: 25
 TTK: 0.262238 Seconds
 

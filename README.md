@@ -96,6 +96,8 @@ FORCE / BAN PARTS:
     --bc, --banCore TEXT ...            Ban the calculator from using a list of cores 
     --banPriceType TEXT ...             Ban the calculator from using a part / core with a
                                         cost type (COIN, WC, ROBUX, LIMITED, SPECIAL)
+    --ffm --forceFiringMode             Force the calculator to use a list of firing modes
+    --bfm --banFiringMode               Ban the calculator from using a list of firing modes
     
 # Filters here also contain a min and max version (removed for brevity). 
 # For example --speed -> --speedMin --speedMax
@@ -117,7 +119,9 @@ FORCE / BAN PARTS:
 --rangeEnd              [FLOAT,FLOAT] Dropoff studs range to filter (END)
 --burst                 [FLOAT,FLOAT] Burst range to filter
 --TTK                   [FLOAT,FLOAT] TTK range to filter
+--TTKEnd                [FLOAT,FLOAT] TTK end range to filter
 --DPS                   [FLOAT,FLOAT] DPS range to filter
+--DPSEnd                [FLOAT,FLOAT] DPS end range to filter
 ```
 
 ## Compile from source

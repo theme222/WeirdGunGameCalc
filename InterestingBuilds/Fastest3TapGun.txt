@@ -96,18 +96,18 @@ recoilAimVertical: 26.6857 - 36.777
 movementSpeed: 8
 TTK: 0.265781 Seconds
 
-[ Barrel: Fat Cat, Magazine: Graphics Card, Grip: Hell-Trooper-23, Stock: Speed Coil, Core: MP18 ]
-damage: 34.047 - 21.8272
-dropoffStuds: 114.761 - 176.923
+[ Barrel: Fat Cat, Magazine: Graphics Card, Grip: Arisaka, Stock: Speed Coil, Core: MP18 ]
+damage: 34.047 - 22.4642
+dropoffStuds: 121.44 - 187.22
 fireRate: 451.44
-adsSpread: 0.5992
-hipfireSpread: 2.996
-reloadTime: 4.32
+adsSpread: 0.6286
+hipfireSpread: 3.143
+reloadTime: 4.5
 magazineSize: 38
-health: -10
+health: -16
 recoilHipVertical: 15.708 - 21.714
 recoilAimVertical: 5.4978 - 7.5768
-movementSpeed: 0.9
+movementSpeed: 3.3
 TTK: 0.265816 Seconds
 
 [ Barrel: Fat Cat, Magazine: Graphics Card, Grip: UNP-40, Stock: Speed Coil, Core: MP18 ]
@@ -124,17 +124,17 @@ recoilAimVertical: 7.69692 - 10.6075
 movementSpeed: 1
 TTK: 0.265816 Seconds
 
-[ Barrel: Fat Cat, Magazine: Graphics Card, Grip: NP9, Stock: Speed Coil, Core: MP18 ]
+[ Barrel: Fat Cat, Magazine: Graphics Card, Grip: Sten gun, Stock: Speed Coil, Core: MP18 ]
 damage: 34.047 - 22.4642
 dropoffStuds: 121.44 - 187.22
 fireRate: 451.44
-adsSpread: 0.616
-hipfireSpread: 3.08
+adsSpread: 0.581
+hipfireSpread: 2.905
 reloadTime: 4.5
 magazineSize: 38
 health: -10
-recoilHipVertical: 18.5354 - 25.6225
-recoilAimVertical: 6.4874 - 8.94062
-movementSpeed: 3
+recoilHipVertical: 20.1062 - 27.7939
+recoilAimVertical: 7.03718 - 9.6983
+movementSpeed: 0.5
 TTK: 0.265816 Seconds
 

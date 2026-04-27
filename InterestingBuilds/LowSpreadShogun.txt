@@ -1,4 +1,4 @@
-./wggcalc -o InterestingBuilds/LowSpreadShogun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadAimMax 0.85 
+./wggcalc -o InterestingBuilds/LowSpreadShogun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadAimMax 0.85 --bfm Auto 
 Current top 10 guns are: 
 [ Barrel: Second Amendment, Magazine: Magic Mag, Grip: Auto-5, Stock: MG42, Core: Spas-12 ]
 damage: 116.914 - -8.24554
@@ -28,20 +28,6 @@ recoilHipVertical: 85.5 - 136.8
 recoilAimVertical: 34.2 - 54.72
 movementSpeed: 1
 
-[ Barrel: Second Amendment, Magazine: Magic Mag, Grip: Pancake Hammer, Stock: MG42, Core: Auto-5 ]
-damage: 109.393 - -4.71233
-dropoffStuds: 52.2 - 100.05
-pellets: 8
-fireRate: 250.8
-adsSpread: 0.822819
-hipfireSpread: 3.03144
-reloadTime: 0.9504
-magazineSize: 3
-health: 8
-recoilHipVertical: 136.8 - 239.4
-recoilAimVertical: 54.72 - 95.76
-movementSpeed: 0.625
-
 [ Barrel: Second Amendment, Magazine: Magic Mag, Grip: The Chief, Stock: MG42, Core: Auto-5 ]
 damage: 111.691 - -4.81129
 dropoffStuds: 52.2 - 100.05
@@ -54,6 +40,20 @@ magazineSize: 3
 health: 8
 recoilHipVertical: 102.6 - 179.55
 recoilAimVertical: 41.04 - 71.82
+movementSpeed: 0.625
+
+[ Barrel: Second Amendment, Magazine: Magic Mag, Grip: Pancake Hammer, Stock: MG42, Core: Auto-5 ]
+damage: 109.393 - -4.71233
+dropoffStuds: 52.2 - 100.05
+pellets: 8
+fireRate: 250.8
+adsSpread: 0.822819
+hipfireSpread: 3.03144
+reloadTime: 0.9504
+magazineSize: 3
+health: 8
+recoilHipVertical: 136.8 - 239.4
+recoilAimVertical: 54.72 - 95.76
 movementSpeed: 0.625
 
 [ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Auto-5, Stock: MG42, Core: Spas-12 ]
@@ -126,17 +126,17 @@ recoilHipVertical: 77.1637 - 123.462
 recoilAimVertical: 30.8655 - 49.3848
 movementSpeed: 2.77
 
-[ Barrel: Second Amendment, Magazine: Magic Mag, Grip: JSG12, Stock: AWM, Core: Auto-5 ]
+[ Barrel: Second Amendment, Magazine: Magic Mag, Grip: JSG12, Stock: MG42, Core: Auto-5 ]
 damage: 109.393 - -4.71233
 dropoffStuds: 52.2 - 100.05
 pellets: 8
 fireRate: 228.228
-adsSpread: 0.835477
-hipfireSpread: 3.07807
-reloadTime: 0.8325
+adsSpread: 0.822819
+hipfireSpread: 3.03144
+reloadTime: 0.99
 magazineSize: 3
 health: 8
-recoilHipVertical: 127.954 - 223.919
-recoilAimVertical: 51.1814 - 89.5675
-movementSpeed: 1
+recoilHipVertical: 104.88 - 183.54
+recoilAimVertical: 41.952 - 73.416
+movementSpeed: 3.625
 

@@ -1,4 +1,4 @@
-./wggcalc -o InterestingBuilds/HipfireShotgun.txt -i Shotgun --sort RECOILHIP --damageMin 100 --speedMin 0 --spreadHipMax 2 --fireRateMin 50 
+./wggcalc -o InterestingBuilds/HipfireShotgun.txt -i Shotgun --sort RECOILHIP --damageMin 100 --speedMin 0 --spreadHipMax 2 --fireRateMin 50 --bfm Auto 
 Current top 10 guns are: 
 [ Barrel: M1919 Tripod, Magazine: Kolibri, Grip: 10KG Dumbbell, Stock: Speed Coil, Core: JSG12 ]
 damage: 118.728 - -25.205

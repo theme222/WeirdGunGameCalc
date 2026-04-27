@@ -42,20 +42,6 @@ recoilAimVertical: 3.036 - 3.795
 movementSpeed: -122.5
 TTK: 0.232193 Seconds
 
-[ Barrel: M1917 WC, Magazine: Lancer, Grip: MG42, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.5625 - 18.3327
-dropoffStuds: 184.319 - 368.638
-fireRate: 746.507
-adsSpread: 0.197316
-hipfireSpread: 3.55169
-reloadTime: 5.152
-magazineSize: 78
-health: 102.5
-recoilHipVertical: 5.4384 - 6.798
-recoilAimVertical: 2.7192 - 3.399
-movementSpeed: -122.5
-TTK: 0.241123 Seconds
-
 [ Barrel: M1917 WC, Magazine: Lancer, Grip: Lewis, Stock: SG-43, Core: M1919 .30 Cal ]
 damage: 25.5625 - 18.3327
 dropoffStuds: 184.319 - 368.638
@@ -69,6 +55,20 @@ recoilHipVertical: 7.6032 - 9.504
 recoilAimVertical: 3.8016 - 4.752
 movementSpeed: -126
 TTK: 0.218059 Seconds
+
+[ Barrel: M1917 WC, Magazine: Lancer, Grip: SKS, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25.5625 - 18.3327
+dropoffStuds: 184.319 - 368.638
+fireRate: 729.997
+adsSpread: 0.2268
+hipfireSpread: 4.0824
+reloadTime: 5.30656
+magazineSize: 78
+health: 102.5
+recoilHipVertical: 4.74144 - 5.9268
+recoilAimVertical: 2.37072 - 2.9634
+movementSpeed: -120
+TTK: 0.246576 Seconds
 
 [ Barrel: M1917 WC, Magazine: Lancer, Grip: M1 Garand, Stock: SG-43, Core: M1919 .30 Cal ]
 damage: 25.5625 - 18.3327
@@ -98,6 +98,20 @@ recoilAimVertical: 3.1416 - 3.927
 movementSpeed: -118.3
 TTK: 0.244532 Seconds
 
+[ Barrel: M1917 WC, Magazine: Lancer, Grip: MG42, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25.5625 - 18.3327
+dropoffStuds: 184.319 - 368.638
+fireRate: 746.507
+adsSpread: 0.197316
+hipfireSpread: 3.55169
+reloadTime: 5.152
+magazineSize: 78
+health: 102.5
+recoilHipVertical: 5.4384 - 6.798
+recoilAimVertical: 2.7192 - 3.399
+movementSpeed: -122.5
+TTK: 0.241123 Seconds
+
 [ Barrel: M1917 WC, Magazine: Lancer, Grip: G3, Stock: SG-43, Core: M1919 .30 Cal ]
 damage: 25.5625 - 18.3327
 dropoffStuds: 184.319 - 368.638
@@ -125,18 +139,4 @@ recoilHipVertical: 4.65168 - 5.8146
 recoilAimVertical: 2.32584 - 2.9073
 movementSpeed: -120
 TTK: 0.242522 Seconds
-
-[ Barrel: M1917 WC, Magazine: Lancer, Grip: SKS, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.5625 - 18.3327
-dropoffStuds: 184.319 - 368.638
-fireRate: 729.997
-adsSpread: 0.2268
-hipfireSpread: 4.0824
-reloadTime: 5.30656
-magazineSize: 78
-health: 102.5
-recoilHipVertical: 4.74144 - 5.9268
-recoilAimVertical: 2.37072 - 2.9634
-movementSpeed: -120
-TTK: 0.246576 Seconds
 

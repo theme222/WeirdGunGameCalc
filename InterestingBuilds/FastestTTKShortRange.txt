@@ -1,4 +1,4 @@
-./wggcalc -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --TTKMin 0.001 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --reloadMax 2.5 --TTEMin 2.5 --ffm Auto -t 1 
+./wggcalc -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --TTKMin 0.001 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --reloadMax 2.5 --TTEMin 2.5 --ffm Auto 
 Current top 10 guns are: 
 [ Barrel: MG42, Magazine: Scar L, Grip: Infinity, Stock: Speed Coil, Core: Hotdog ]
 damage: 34.3846 - 21.9197
@@ -42,18 +42,18 @@ recoilAimVertical: 29.2448 - 32.7712
 movementSpeed: 6.3
 TTK: 0.178219 Seconds
 
-[ Barrel: MG42, Magazine: Type 2a Nambu, Grip: Banana, Stock: Kriss Vector, Core: Hotdog ]
+[ Barrel: MG42, Magazine: Type 2a Nambu, Grip: FAL, Stock: Kriss Vector, Core: Hotdog ]
 damage: 33.6 - 20.0726
 dropoffStuds: 106.704 - 166.725
 fireRate: 658.692
-adsSpread: 0.94185
-hipfireSpread: 10.465
+adsSpread: 0.99099
+hipfireSpread: 11.011
 reloadTime: 2.5
 magazineSize: 30
 Time to empty: 2.6416
-recoilHipVertical: 46.7917 - 52.4826
-recoilAimVertical: 30.4146 - 34.082
-movementSpeed: 4.3
+recoilHipVertical: 47.9615 - 53.7946
+recoilAimVertical: 31.175 - 34.9341
+movementSpeed: 1.3
 TTK: 0.182179 Seconds
 
 [ Barrel: MG42, Magazine: Type 2a Nambu, Grip: Mega Soaker, Stock: Kriss Vector, Core: Hotdog ]
@@ -70,18 +70,18 @@ recoilAimVertical: 28.8939 - 32.3779
 movementSpeed: 1.3
 TTK: 0.182179 Seconds
 
-[ Barrel: MG42, Magazine: Type 2a Nambu, Grip: FAL, Stock: Kriss Vector, Core: Hotdog ]
+[ Barrel: MG42, Magazine: Type 2a Nambu, Grip: Banana, Stock: Kriss Vector, Core: Hotdog ]
 damage: 33.6 - 20.0726
 dropoffStuds: 106.704 - 166.725
 fireRate: 658.692
-adsSpread: 0.99099
-hipfireSpread: 11.011
+adsSpread: 0.94185
+hipfireSpread: 10.465
 reloadTime: 2.5
 magazineSize: 30
 Time to empty: 2.6416
-recoilHipVertical: 47.9615 - 53.7946
-recoilAimVertical: 31.175 - 34.9341
-movementSpeed: 1.3
+recoilHipVertical: 46.7917 - 52.4826
+recoilAimVertical: 30.4146 - 34.082
+movementSpeed: 4.3
 TTK: 0.182179 Seconds
 
 [ Barrel: Infinity, Magazine: Sten gun, Grip: Lee Enfield, Stock: Speed Coil, Core: Hotdog ]

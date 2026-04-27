@@ -130,10 +130,10 @@ int main(int argc, char* argv[])
     app.add_option("--DPS, --DPSStart", Input::DPSRange, "DPS range to filter")->group(GROUP_FILTERS); 
     app.add_option("--DPSMin, --DPSStartMin", Input::DPSRange.first)->group(GROUP_FILTERS);
     app.add_option("--DPSMax, --DPSStartMax", Input::DPSRange.second)->group(GROUP_FILTERS);
-    app.add_option("--DPSEnd, --DPSEndStart", Input::DPSEndRange, "DPS end range to filter")->group(GROUP_FILTERS); 
-    app.add_option("--DPSEndMin, --DPSEndStartMin", Input::DPSEndRange.first)->group(GROUP_FILTERS);
-    app.add_option("--DPSEndMax, --DPSEndStartMax", Input::DPSEndRange.second)->group(GROUP_FILTERS);
-    app.add_option("--TTE", Input::TTERange, "Time to empty range to filter (Magazine dump time)")->group(GROUP_FILTERS); 
+    app.add_option("--DPSEnd", Input::DPSEndRange, "DPS end range to filter")->group(GROUP_FILTERS); 
+    app.add_option("--DPSEndMin", Input::DPSEndRange.first)->group(GROUP_FILTERS);
+    app.add_option("--DPSEndMax", Input::DPSEndRange.second)->group(GROUP_FILTERS);
+    app.add_option("--TTE", Input::TTERange, "Time to empty range to filter (Magazine dump time) to filter")->group(GROUP_FILTERS); 
     app.add_option("--TTEMin", Input::TTERange.first)->group(GROUP_FILTERS);
     app.add_option("--TTEMax", Input::TTERange.second)->group(GROUP_FILTERS);
 
