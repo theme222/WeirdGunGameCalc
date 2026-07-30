@@ -14,6 +14,10 @@ have stats that are different from the game please notify me on discord
 
 ## Dataset
 
+*The current maintainer of the dataset is MIA. The data that is currently being
+used is genorously provided by @opacef on discord but there are no guarantees it
+is up to date or is correct.*
+
 Previously data was read from a list of .txt files that contained the partlist
 originally provided by @zyadak. This was then verified later by reading roblox
 memory using @emma.5829's script. Currently however, the data has been merged

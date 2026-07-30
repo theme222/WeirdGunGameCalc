@@ -7,7 +7,7 @@ set -e # Stops on error
 make linux
 
 # # This doesn't need to be re ran every time because it saves it's results in Data already.
-python ParseSheet.py
+# python ParseSheet.py
 
 IB="InterestingBuilds"
 

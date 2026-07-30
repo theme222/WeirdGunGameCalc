@@ -1,152 +1,140 @@
 ./wggcalc -o InterestingBuilds/FastestTTKGauranteed.txt -i SMG AR LMG Weird -s TTKEND --magazineMin 30 --speedMin 0 --TTKEndMin 0.001 --spreadAimMax 0.4 --recoilAimMax 12 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: Shower, Magazine: P90, Grip: PPSh-41, Stock: Spas-12, Core: QBZ-95 ]
-damage: 17.2751 - 14.5615
-dropoffStuds: 203.35 - 381.281
+[ Barrel: Shower, Magazine: Mega Soaker, Grip: Type 2a Nambu, Stock: Spas-12, Core: QBZ-95 ]
+damage: 17.5265 - 14.4087
+dropoffStuds: 178.36 - 334.425
 pellets: 2
-fireRate: 1053.57
-adsSpread: 0.381533
-hipfireSpread: 13.3537
-reloadTime: 5.75
-magazineSize: 35
-recoilHipVertical: 15.4 - 18.7
-recoilAimVertical: 8.47 - 10.285
-movementSpeed: 2.6
-TTK: 0.284746 Seconds
-TTK (End damage): 0.341695 Seconds
+fireRate: 1035.63
+adsSpread: 0.372009
+hipfireSpread: 13.0203
+reloadTime: 6.75
+magazineSize: 60
+health: -7.5
+recoilHipVertical: 14.4648 - 17.5644
+recoilAimVertical: 7.95564 - 9.66042
+movementSpeed: 2.25
+TTK: 0.289678 Seconds
+TTK (End damage): 0.347613 Seconds
 
-[ Barrel: Shower, Magazine: P90, Grip: Mas-38, Stock: Spas-12, Core: QBZ-95 ]
-damage: 17.2751 - 14.3716
-dropoffStuds: 189.116 - 354.592
-pellets: 2
-fireRate: 1042.35
-adsSpread: 0.366066
-hipfireSpread: 12.8123
-reloadTime: 5
-magazineSize: 35
-recoilHipVertical: 15.4 - 18.7
-recoilAimVertical: 8.47 - 10.285
-movementSpeed: 4.1
-TTK: 0.287811 Seconds
-TTK (End damage): 0.345374 Seconds
+[ Barrel: Drill, Magazine: FC200SH, Grip: P90, Stock: Spas-12, Core: AUG ]
+damage: 14.3608 - 10.1813
+dropoffStuds: 13.6416 - 17.052
+fireRate: 1549.28
+adsSpread: 0.23276
+hipfireSpread: 2.73836
+reloadTime: 2.984
+magazineSize: 30
+recoilHipVertical: 60 - 75
+recoilAimVertical: 9 - 11.3
+TTK: 0.232366 Seconds
+TTK (End damage): 0.348549 Seconds
 
-[ Barrel: Shower, Magazine: Graphics Card, Grip: Mas-38, Stock: Spas-12, Core: QBZ-95 ]
-damage: 17.7181 - 14.3766
-dropoffStuds: 167.698 - 314.433
-pellets: 2
-fireRate: 1033.29
-adsSpread: 0.398982
-hipfireSpread: 13.9644
-reloadTime: 7.5
-magazineSize: 35
-recoilHipVertical: 10.78 - 13.09
-recoilAimVertical: 5.929 - 7.1995
-movementSpeed: 4.3
-TTK: 0.290336 Seconds
-TTK (End damage): 0.348403 Seconds
+[ Barrel: Drill, Magazine: Paintball, Grip: M1891, Stock: Spas-12, Core: AUG ]
+damage: 12.9115 - 8.43804
+dropoffStuds: 11.76 - 14.7
+fireRate: 1885.42
+adsSpread: 0.270168
+hipfireSpread: 3.17845
+reloadTime: 7.13
+magazineSize: 70
+recoilHipVertical: 60 - 75
+recoilAimVertical: 9 - 11.3
+movementSpeed: 2.3
+TTK: 0.222763 Seconds
+TTK (End damage): 0.350055 Seconds
 
-[ Barrel: Shower, Magazine: P90, Grip: Infinity, Stock: Pancake Hammer, Core: QBZ-95 ]
-damage: 17.2751 - 14.3423
-dropoffStuds: 187.248 - 351.09
-pellets: 2
-fireRate: 1032.7
-adsSpread: 0.368276
-hipfireSpread: 12.8896
-reloadTime: 5.35
-magazineSize: 55
-recoilHipVertical: 15.4 - 18.7
-recoilAimVertical: 8.47 - 10.285
-movementSpeed: 1.2
-TTK: 0.290502 Seconds
-TTK (End damage): 0.348602 Seconds
+[ Barrel: Drill, Magazine: FC200SH, Grip: M1891, Stock: AR-8X, Core: AUG ]
+damage: 14.3608 - 10.2632
+dropoffStuds: 13.92 - 17.4
+fireRate: 1538.15
+adsSpread: 0.274992
+hipfireSpread: 3.23521
+reloadTime: 3.68
+magazineSize: 30
+recoilHipVertical: 60 - 75
+recoilAimVertical: 9 - 11.3
+movementSpeed: 0.8
+TTK: 0.234048 Seconds
+TTK (End damage): 0.351072 Seconds
 
-[ Barrel: Spear, Magazine: Mega Soaker, Grip: Hex Spitter, Stock: Speed Coil, Core: M-16 ]
-damage: 25.0648 - 16.8727
-dropoffStuds: 0.163798 - 0.318496
-fireRate: 859.32
-adsSpread: 0.3675
-hipfireSpread: 2.646
-reloadTime: 4.05
-magazineSize: 46
-health: -10
-recoilHipVertical: 18.9 - 22.68
-recoilAimVertical: 9.45 - 11.34
-movementSpeed: 23
-TTK: 0.209468 Seconds
-TTK (End damage): 0.349113 Seconds
+[ Barrel: Drill, Magazine: FC200SH, Grip: Kriss Vector, Stock: Spas-12, Core: AUG ]
+damage: 14.3608 - 10.1813
+dropoffStuds: 13.6416 - 17.052
+fireRate: 1538.08
+adsSpread: 0.243151
+hipfireSpread: 2.8606
+reloadTime: 3.2
+magazineSize: 30
+recoilHipVertical: 54.6 - 68.25
+recoilAimVertical: 8.19 - 10.283
+movementSpeed: 0.375
+TTK: 0.234058 Seconds
+TTK (End damage): 0.351087 Seconds
 
-[ Barrel: Spear, Magazine: Mega Soaker, Grip: Mega Soaker, Stock: Speed Coil, Core: M-16 ]
-damage: 25.0648 - 16.8727
-dropoffStuds: 0.163798 - 0.318496
-fireRate: 859.32
-adsSpread: 0.392
-hipfireSpread: 2.8224
-reloadTime: 4.05
-magazineSize: 46
-health: -10
-recoilHipVertical: 19.152 - 22.9824
-recoilAimVertical: 9.576 - 11.4912
-movementSpeed: 30
-TTK: 0.209468 Seconds
-TTK (End damage): 0.349113 Seconds
+[ Barrel: Drill, Magazine: FC200SH, Grip: M1891, Stock: Fedorov, Core: AUG ]
+damage: 14.3608 - 10.2632
+dropoffStuds: 13.92 - 17.4
+fireRate: 1536.69
+adsSpread: 0.241222
+hipfireSpread: 2.8379
+reloadTime: 3.9376
+magazineSize: 30
+recoilHipVertical: 55.2 - 69
+recoilAimVertical: 8.28 - 10.396
+movementSpeed: 0.8
+TTK: 0.23427 Seconds
+TTK (End damage): 0.351404 Seconds
 
-[ Barrel: Spear, Magazine: Mega Soaker, Grip: G11, Stock: Speed Coil, Core: M-16 ]
-damage: 25.0648 - 16.8727
-dropoffStuds: 0.163798 - 0.318496
-fireRate: 859.32
-adsSpread: 0.35
-hipfireSpread: 2.52
-reloadTime: 4.293
-magazineSize: 46
-health: -10
-recoilHipVertical: 17.892 - 21.4704
-recoilAimVertical: 8.946 - 10.7352
-movementSpeed: 24
-TTK: 0.209468 Seconds
-TTK (End damage): 0.349113 Seconds
+[ Barrel: Drill, Magazine: FC200SH, Grip: Circuit Judge, Stock: G43, Core: AUG ]
+damage: 15.6119 - 11.4424
+dropoffStuds: 14.8109 - 18.5136
+fireRate: 1360
+adsSpread: 0.250499
+hipfireSpread: 2.94705
+reloadTime: 3.584
+magazineSize: 30
+recoilHipVertical: 60 - 75
+recoilAimVertical: 9 - 11.3
+TTK: 0.264706 Seconds
+TTK (End damage): 0.352941 Seconds
 
-[ Barrel: Spear, Magazine: Mega Soaker, Grip: Barret .50, Stock: Speed Coil, Core: M-16 ]
-damage: 25.0648 - 16.8727
-dropoffStuds: 0.163798 - 0.318496
-fireRate: 859.32
-adsSpread: 0.35
-hipfireSpread: 2.52
-reloadTime: 4.05
-magazineSize: 46
-health: -10
-recoilHipVertical: 19.3788 - 23.2546
-recoilAimVertical: 9.6894 - 11.6273
-movementSpeed: 17
-TTK: 0.209468 Seconds
-TTK (End damage): 0.349113 Seconds
+[ Barrel: Drill, Magazine: FC200SH, Grip: Circuit Judge, Stock: M-16, Core: AUG ]
+damage: 15.366 - 11.157
+dropoffStuds: 14.4768 - 18.096
+fireRate: 1360
+adsSpread: 0.250499
+hipfireSpread: 2.94705
+reloadTime: 3.2
+magazineSize: 30
+recoilHipVertical: 51 - 63.75
+recoilAimVertical: 7.65 - 9.605
+TTK: 0.264706 Seconds
+TTK (End damage): 0.352941 Seconds
 
-[ Barrel: Spear, Magazine: Mega Soaker, Grip: VSSR, Stock: Speed Coil, Core: M-16 ]
-damage: 25.0648 - 16.9874
-dropoffStuds: 0.166091 - 0.322955
-fireRate: 859.32
-adsSpread: 0.392
-hipfireSpread: 2.8224
-reloadTime: 4.05
-magazineSize: 46
-health: -10
-recoilHipVertical: 19.908 - 23.8896
-recoilAimVertical: 9.954 - 11.9448
-movementSpeed: 26
-TTK: 0.209468 Seconds
-TTK (End damage): 0.349113 Seconds
+[ Barrel: Drill, Magazine: FC200SH, Grip: Circuit Judge, Stock: L8, Core: AUG ]
+damage: 15.366 - 11.157
+dropoffStuds: 14.4768 - 18.096
+fireRate: 1360
+adsSpread: 0.207914
+hipfireSpread: 2.44605
+reloadTime: 3.2
+magazineSize: 30
+recoilHipVertical: 60 - 75
+recoilAimVertical: 9 - 11.3
+TTK: 0.264706 Seconds
+TTK (End damage): 0.352941 Seconds
 
-[ Barrel: Shower, Magazine: P90, Grip: MG42, Stock: Spas-12, Core: QBZ-95 ]
-damage: 17.2751 - 14.5615
-dropoffStuds: 203.35 - 381.281
-pellets: 2
-fireRate: 1027.39
-adsSpread: 0.372253
-hipfireSpread: 13.0289
-reloadTime: 5
-magazineSize: 35
-recoilHipVertical: 15.862 - 19.261
-recoilAimVertical: 8.7241 - 10.5936
-movementSpeed: 0.0999999
-TTK: 0.292003 Seconds
-TTK (End damage): 0.350403 Seconds
+[ Barrel: Drill, Magazine: Paintball, Grip: Circuit Judge, Stock: AR-8X, Core: AUG ]
+damage: 13.8153 - 9.12256
+dropoffStuds: 12 - 15
+fireRate: 1696.27
+adsSpread: 0.285569
+hipfireSpread: 3.35964
+reloadTime: 6.2
+magazineSize: 70
+recoilHipVertical: 60 - 75
+recoilAimVertical: 9 - 11.3
+movementSpeed: 0.5
+TTK: 0.247602 Seconds
+TTK (End damage): 0.353717 Seconds
 

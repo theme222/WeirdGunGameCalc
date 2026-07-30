@@ -1,131 +1,123 @@
 ./wggcalc -o InterestingBuilds/Fastest1TapSniper.txt -i Sniper BR --damageMin 100 --spreadAimMax 0.149 --sort FIRERATE --rangeMin 300 --pelletMax 1 --speedMin -5 --magazineMin 5 
 Current top 10 guns are: 
-[ Barrel: Barret .50, Magazine: Lightning Shot, Grip: The Chief, Stock: Speed Coil, Core: M40 ]
-damage: 100.498 - 87.8899
-dropoffStuds: 300 - 500
-fireRate: 23.7281
-adsSpread: 0.108859
-hipfireSpread: 16.3288
-reloadTime: 6.48
-magazineSize: 5
-health: -10
-recoilHipVertical: 637.875 - 911.25
-recoilAimVertical: 318.938 - 455.625
+[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: FG-42, Core: AWM ]
+damage: 100.386 - 87.191
+dropoffStuds: 300.713 - 451.069
+fireRate: 25.0144
+adsSpread: 0.07
+hipfireSpread: 21
+reloadTime: 5.445
+magazineSize: 20
+recoilHipVertical: 127.125 - 169.5
+recoilAimVertical: 63.5625 - 84.75
+movementSpeed: -2.45
+
+[ Barrel: Fat Cat, Magazine: M1 Garand, Grip: Musket, Stock: Speed Coil, Core: AWM ]
+damage: 101.069 - 89.7805
+dropoffStuds: 437.026 - 655.538
+fireRate: 24.7594
+adsSpread: 0.08967
+hipfireSpread: 26.901
+reloadTime: 2.475
+magazineSize: 6
+health: -20
+recoilHipVertical: 54 - 72
+recoilAimVertical: 27 - 36
 movementSpeed: -5
 
-[ Barrel: Barret .50, Magazine: Lightning Shot, Grip: Type 2a Nambu, Stock: Speed Coil, Core: M40 ]
-damage: 101.974 - 89.1811
-dropoffStuds: 300 - 500
-fireRate: 23.7281
-adsSpread: 0.13195
-hipfireSpread: 19.7925
-reloadTime: 6.48
-magazineSize: 5
-health: -17.5
-recoilHipVertical: 581.175 - 830.25
-recoilAimVertical: 290.588 - 415.125
+[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: Siberia-12, Core: AWM ]
+damage: 100.386 - 87.191
+dropoffStuds: 300.713 - 451.069
+fireRate: 24.7144
+adsSpread: 0.06706
+hipfireSpread: 20.118
+reloadTime: 5.445
+magazineSize: 20
+recoilHipVertical: 126 - 168
+recoilAimVertical: 63 - 84
 movementSpeed: -5
 
-[ Barrel: Mosin, Magazine: Hecate II, Grip: Lee Enfield, Stock: Arisaka, Core: AWM ]
-damage: 100.05 - 85.2826
-dropoffStuds: 308 - 462
-fireRate: 22.0248
-adsSpread: 0.13
-hipfireSpread: 39
-reloadTime: 4.83
-magazineSize: 5
-health: -8
-recoilHipVertical: 180 - 240
-recoilAimVertical: 90 - 120
-movementSpeed: -4
+[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: M870 Breacher, Core: AWM ]
+damage: 100.386 - 87.191
+dropoffStuds: 300.713 - 451.069
+fireRate: 24.7144
+adsSpread: 0.0805
+hipfireSpread: 24.15
+reloadTime: 4.7916
+magazineSize: 20
+recoilHipVertical: 129.375 - 172.5
+recoilAimVertical: 64.6875 - 86.25
+movementSpeed: -2
 
-[ Barrel: M2000, Magazine: Snake Sniper, Grip: Musket, Stock: Speed Coil, Core: AWM ]
-damage: 100.031 - 90.5783
-dropoffStuds: 522.5 - 783.75
-fireRate: 21.8434
-adsSpread: 0.077616
-hipfireSpread: 23.2848
-reloadTime: 4.5375
-magazineSize: 5
-health: -10
-recoilHipVertical: 113.832 - 151.776
-recoilAimVertical: 56.916 - 75.888
-movementSpeed: 8
+[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: Circuit Judge, Core: AWM ]
+damage: 100.386 - 87.191
+dropoffStuds: 300.713 - 451.069
+fireRate: 24.6856
+adsSpread: 0.0805
+hipfireSpread: 24.15
+reloadTime: 4.56291
+magazineSize: 20
+recoilHipVertical: 112.5 - 150
+recoilAimVertical: 56.25 - 75
+movementSpeed: -5
 
-[ Barrel: Mosin, Magazine: Lightning Shot, Grip: Infinity, Stock: Spas-12, Core: Arisaka ]
-damage: 100.05 - 89.4367
-dropoffStuds: 376.32 - 658.56
-fireRate: 21.5463
-adsSpread: 0.1456
-hipfireSpread: 8.736
-reloadTime: 8.8596
-magazineSize: 5
-health: -15
-recoilHipVertical: 162 - 184.5
-recoilAimVertical: 72.9 - 83.025
-movementSpeed: 2.4
+[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: STG-44, Core: AWM ]
+damage: 100.386 - 87.191
+dropoffStuds: 300.713 - 451.069
+fireRate: 24.6664
+adsSpread: 0.0651
+hipfireSpread: 19.53
+reloadTime: 5.7717
+magazineSize: 20
+recoilHipVertical: 112.5 - 150
+recoilAimVertical: 56.25 - 75
+movementSpeed: -5
 
-[ Barrel: Mosin, Magazine: Lightning Shot, Grip: Lee Enfield, Stock: Mosin, Core: Arisaka ]
-damage: 100.05 - 88.044
-dropoffStuds: 320 - 560
-fireRate: 21.4512
-adsSpread: 0.14365
-hipfireSpread: 8.619
-reloadTime: 8.28
-magazineSize: 7
-health: -15
-recoilHipVertical: 200.88 - 228.78
-recoilAimVertical: 90.396 - 102.951
+[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: MAC-10, Core: AWM ]
+damage: 100.386 - 87.191
+dropoffStuds: 300.713 - 451.069
+fireRate: 24.6425
+adsSpread: 0.084
+hipfireSpread: 25.2
+reloadTime: 5.445
+magazineSize: 22
+recoilHipVertical: 112.5 - 150
+recoilAimVertical: 56.25 - 75
+movementSpeed: -2.24
 
-[ Barrel: Mosin, Magazine: Lightning Shot, Grip: M1 Garand, Stock: Spas-12, Core: Arisaka ]
-damage: 100.05 - 89.8449
-dropoffStuds: 392 - 686
-fireRate: 21.406
-adsSpread: 0.1456
-hipfireSpread: 8.736
-reloadTime: 8.28
-magazineSize: 5
-health: -15
-recoilHipVertical: 162 - 184.5
-recoilAimVertical: 72.9 - 83.025
-movementSpeed: -0.6
+[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: Maple Badger, Core: AWM ]
+damage: 100.386 - 87.191
+dropoffStuds: 300.713 - 451.069
+fireRate: 24.6425
+adsSpread: 0.084
+hipfireSpread: 25.2
+reloadTime: 5.28165
+magazineSize: 20
+recoilHipVertical: 112.5 - 150
+recoilAimVertical: 56.25 - 75
+movementSpeed: -2.3
 
-[ Barrel: Mosin, Magazine: Lightning Shot, Grip: Lewis, Stock: FG-42, Core: Arisaka ]
-damage: 100.05 - 90.045
-dropoffStuds: 400 - 700
-fireRate: 21.3525
-adsSpread: 0.1482
-hipfireSpread: 8.892
-reloadTime: 8.28
-magazineSize: 7
-health: -15
-recoilHipVertical: 263.606 - 300.218
-recoilAimVertical: 118.623 - 135.098
-movementSpeed: -3.45
+[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: Mosin, Core: AWM ]
+damage: 100.386 - 87.191
+dropoffStuds: 300.713 - 451.069
+fireRate: 24.4745
+adsSpread: 0.0595
+hipfireSpread: 17.85
+reloadTime: 5.445
+magazineSize: 20
+recoilHipVertical: 139.5 - 186
+recoilAimVertical: 69.75 - 93
+movementSpeed: -5
 
-[ Barrel: Mosin, Magazine: Lightning Shot, Grip: Lewis, Stock: Pancake Hammer, Core: Arisaka ]
-damage: 100.05 - 89.4447
-dropoffStuds: 376 - 658
-fireRate: 21.3422
-adsSpread: 0.1482
-hipfireSpread: 8.892
-reloadTime: 8.28
-magazineSize: 7
-health: -15
-recoilHipVertical: 233.28 - 265.68
-recoilAimVertical: 104.976 - 119.556
-movementSpeed: -4.8
-
-[ Barrel: Mosin, Magazine: Lightning Shot, Grip: Infinity, Stock: Roto-Fire, Core: Arisaka ]
-damage: 100.05 - 89.0205
-dropoffStuds: 360.96 - 631.68
-fireRate: 21.163
-adsSpread: 0.13
-hipfireSpread: 7.8
-reloadTime: 8.8596
-magazineSize: 8
-health: -15
-recoilHipVertical: 162 - 184.5
-recoilAimVertical: 72.9 - 83.025
-movementSpeed: -0.5
+[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: M1897 Trench Shotgun, Core: AWM ]
+damage: 100.386 - 87.191
+dropoffStuds: 300.713 - 451.069
+fireRate: 24.4265
+adsSpread: 0.0805
+hipfireSpread: 24.15
+reloadTime: 5.445
+magazineSize: 23
+recoilHipVertical: 157.5 - 210
+recoilAimVertical: 78.75 - 105
+movementSpeed: -5
 

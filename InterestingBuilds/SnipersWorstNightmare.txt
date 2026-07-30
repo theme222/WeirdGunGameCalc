@@ -1,142 +1,142 @@
 ./wggcalc -o InterestingBuilds/SnipersWorstNightmare.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 75 --spreadAimMax 0.4 --rangeMin 175 -s HEALTH --TTKMax 0.25 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: M1917 WC, Magazine: Lancer, Grip: M1887, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.5625 - 18.3327
-dropoffStuds: 184.319 - 368.638
-fireRate: 771.63
-adsSpread: 0.26082
-hipfireSpread: 4.69476
-reloadTime: 4.7656
-magazineSize: 78
-health: 106.25
-recoilHipVertical: 5.28 - 6.6
-recoilAimVertical: 2.64 - 3.3
-movementSpeed: -125.5
-TTK: 0.233273 Seconds
+[ Barrel: M1917 WC, Magazine: M60, Grip: M1887, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25 - 18.0567
+dropoffStuds: 178.542 - 376.922
+fireRate: 731.704
+adsSpread: 0.1863
+hipfireSpread: 3.3534
+reloadTime: 7.7441
+magazineSize: 98
+health: 103.75
+recoilHipVertical: 6.4416 - 8.052
+recoilAimVertical: 3.2208 - 4.026
+movementSpeed: -119.5
+TTK: 0.246001 Seconds
 
-[ Barrel: M1917 WC, Magazine: Lancer, Grip: Lancer, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.5625 - 18.3327
-dropoffStuds: 184.319 - 368.638
-fireRate: 728.562
-adsSpread: 0.2268
-hipfireSpread: 4.0824
-reloadTime: 5.61568
-magazineSize: 78
-health: 104.75
-recoilHipVertical: 5.28 - 6.6
-recoilAimVertical: 2.64 - 3.3
+[ Barrel: M1917 WC, Magazine: Type 11, Grip: DP-27, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25 - 18.63
+dropoffStuds: 196.2 - 414.2
+fireRate: 732.183
+adsSpread: 0.18
+hipfireSpread: 3.24
+reloadTime: 5.6028
+magazineSize: 130
+health: 102
+recoilHipVertical: 3.8544 - 4.818
+recoilAimVertical: 1.9272 - 2.409
+movementSpeed: -115
+TTK: 0.24584 Seconds
+
+[ Barrel: M1917 WC, Magazine: M60, Grip: M1897 Trench Shotgun, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25 - 18.0567
+dropoffStuds: 178.542 - 376.922
+fireRate: 731.704
+adsSpread: 0.1701
+hipfireSpread: 3.0618
+reloadTime: 8.7906
+magazineSize: 98
+health: 100
+recoilHipVertical: 9.6624 - 12.078
+recoilAimVertical: 4.8312 - 6.039
+movementSpeed: -114
+TTK: 0.246001 Seconds
+
+[ Barrel: M1917 WC, Magazine: M60, Grip: M1891, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25 - 18.0567
+dropoffStuds: 178.542 - 376.922
+fireRate: 735.107
+adsSpread: 0.2106
+hipfireSpread: 3.7908
+reloadTime: 9.6278
+magazineSize: 98
+health: 100
+recoilHipVertical: 6.4416 - 8.052
+recoilAimVertical: 3.2208 - 4.026
+movementSpeed: -110.8
+TTK: 0.244862 Seconds
+
+[ Barrel: M1917 WC, Magazine: M60, Grip: Lewis, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25 - 18.0567
+dropoffStuds: 178.542 - 376.922
+fireRate: 748.72
+adsSpread: 0.18468
+hipfireSpread: 3.32424
+reloadTime: 8.372
+magazineSize: 98
+health: 100
+recoilHipVertical: 9.2759 - 11.5949
+recoilAimVertical: 4.63795 - 5.79744
 movementSpeed: -120
-TTK: 0.247062 Seconds
+TTK: 0.24041 Seconds
 
-[ Barrel: M1917 WC, Magazine: Lancer, Grip: Negev, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.5625 - 18.3327
-dropoffStuds: 184.319 - 368.638
-fireRate: 775.219
-adsSpread: 0.23814
-hipfireSpread: 4.28652
-reloadTime: 5.152
-magazineSize: 78
-health: 102.5
-recoilHipVertical: 6.072 - 7.59
-recoilAimVertical: 3.036 - 3.795
-movementSpeed: -122.5
-TTK: 0.232193 Seconds
+[ Barrel: M1917 WC, Magazine: M60, Grip: M1 Garand, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25 - 18.0567
+dropoffStuds: 178.542 - 376.922
+fireRate: 726.939
+adsSpread: 0.162
+hipfireSpread: 2.916
+reloadTime: 8.372
+magazineSize: 98
+health: 100
+recoilHipVertical: 6.4416 - 8.052
+recoilAimVertical: 3.2208 - 4.026
+movementSpeed: -117
+TTK: 0.247614 Seconds
 
-[ Barrel: M1917 WC, Magazine: Lancer, Grip: Lewis, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.5625 - 18.3327
-dropoffStuds: 184.319 - 368.638
-fireRate: 825.464
-adsSpread: 0.258552
-hipfireSpread: 4.65394
-reloadTime: 5.152
-magazineSize: 78
-health: 102.5
-recoilHipVertical: 7.6032 - 9.504
-recoilAimVertical: 3.8016 - 4.752
-movementSpeed: -126
-TTK: 0.218059 Seconds
+[ Barrel: M1917 WC, Magazine: M60, Grip: Negev, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25 - 18.0567
+dropoffStuds: 178.542 - 376.922
+fireRate: 735.107
+adsSpread: 0.1863
+hipfireSpread: 3.3534
+reloadTime: 8.372
+magazineSize: 98
+health: 100
+recoilHipVertical: 7.40784 - 9.2598
+recoilAimVertical: 3.70392 - 4.6299
+movementSpeed: -116.5
+TTK: 0.244862 Seconds
 
-[ Barrel: M1917 WC, Magazine: Lancer, Grip: SKS, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.5625 - 18.3327
-dropoffStuds: 184.319 - 368.638
-fireRate: 729.997
-adsSpread: 0.2268
-hipfireSpread: 4.0824
-reloadTime: 5.30656
-magazineSize: 78
-health: 102.5
-recoilHipVertical: 4.74144 - 5.9268
-recoilAimVertical: 2.37072 - 2.9634
-movementSpeed: -120
-TTK: 0.246576 Seconds
+[ Barrel: M1917 WC, Magazine: MG15, Grip: SMO3, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25 - 18.2478
+dropoffStuds: 184.428 - 389.348
+fireRate: 728.588
+adsSpread: 0.2196
+hipfireSpread: 3.9528
+reloadTime: 9.016
+magazineSize: 98
+health: 98.9
+recoilHipVertical: 7.15619 - 8.94524
+recoilAimVertical: 3.5781 - 4.47262
+movementSpeed: -112.4
+TTK: 0.247053 Seconds
 
-[ Barrel: M1917 WC, Magazine: Lancer, Grip: M1 Garand, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.5625 - 18.3327
-dropoffStuds: 184.319 - 368.638
-fireRate: 766.605
-adsSpread: 0.2268
-hipfireSpread: 4.0824
-reloadTime: 5.152
-magazineSize: 78
-health: 102.5
-recoilHipVertical: 5.28 - 6.6
-recoilAimVertical: 2.64 - 3.3
-movementSpeed: -123
-TTK: 0.234801 Seconds
+[ Barrel: M1917 WC, Magazine: Type 11, Grip: SMO3, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25 - 18.63
+dropoffStuds: 196.2 - 414.2
+fireRate: 750.957
+adsSpread: 0.2196
+hipfireSpread: 3.9528
+reloadTime: 6.44
+magazineSize: 130
+health: 98.9
+recoilHipVertical: 4.86816 - 6.0852
+recoilAimVertical: 2.43408 - 3.0426
+movementSpeed: -112.4
+TTK: 0.239694 Seconds
 
-[ Barrel: M1917 WC, Magazine: Lancer, Grip: Winchester, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.5625 - 18.3327
-dropoffStuds: 184.319 - 368.638
-fireRate: 736.099
-adsSpread: 0.240408
-hipfireSpread: 4.32734
-reloadTime: 5.152
-magazineSize: 78
-health: 102.5
-recoilHipVertical: 6.2832 - 7.854
-recoilAimVertical: 3.1416 - 3.927
-movementSpeed: -118.3
-TTK: 0.244532 Seconds
-
-[ Barrel: M1917 WC, Magazine: Lancer, Grip: MG42, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.5625 - 18.3327
-dropoffStuds: 184.319 - 368.638
-fireRate: 746.507
-adsSpread: 0.197316
-hipfireSpread: 3.55169
-reloadTime: 5.152
-magazineSize: 78
-health: 102.5
-recoilHipVertical: 5.4384 - 6.798
-recoilAimVertical: 2.7192 - 3.399
-movementSpeed: -122.5
-TTK: 0.241123 Seconds
-
-[ Barrel: M1917 WC, Magazine: Lancer, Grip: G3, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.5625 - 18.3327
-dropoffStuds: 184.319 - 368.638
-fireRate: 729.997
-adsSpread: 0.2268
-hipfireSpread: 4.0824
-reloadTime: 4.75787
-magazineSize: 78
-health: 102.5
-recoilHipVertical: 6.2832 - 7.854
-recoilAimVertical: 3.1416 - 3.927
-movementSpeed: -122
-TTK: 0.246576 Seconds
-
-[ Barrel: M1917 WC, Magazine: Lancer, Grip: FG-42, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25.5625 - 18.3327
-dropoffStuds: 184.319 - 368.638
-fireRate: 742.2
-adsSpread: 0.2268
-hipfireSpread: 4.0824
-reloadTime: 5.30656
-magazineSize: 78
-health: 102.5
-recoilHipVertical: 4.65168 - 5.8146
-recoilAimVertical: 2.32584 - 2.9073
-movementSpeed: -120
-TTK: 0.242522 Seconds
+[ Barrel: M1917 WC, Magazine: MG15, Grip: M1887, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25 - 18.2478
+dropoffStuds: 184.428 - 389.348
+fireRate: 783.232
+adsSpread: 0.207
+hipfireSpread: 3.726
+reloadTime: 8.3398
+magazineSize: 98
+health: 98.75
+recoilHipVertical: 7.7616 - 9.702
+recoilAimVertical: 3.8808 - 4.851
+movementSpeed: -120.5
+TTK: 0.229817 Seconds
 

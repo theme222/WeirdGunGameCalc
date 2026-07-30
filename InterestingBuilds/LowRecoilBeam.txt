@@ -1,141 +1,141 @@
 ./wggcalc -o InterestingBuilds/LowRecoilBeam.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 45 --spreadAimMax 0.4 --rangeMin 150 --speedMin 0 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: Fat Cat, Magazine: Paintball, Grip: Circuit Judge, Stock: Speed Coil, Core: Burton ]
-damage: 20.2795 - 15.3131
-dropoffStuds: 198 - 423.5
-fireRate: 934.56
-adsSpread: 0.33453
-hipfireSpread: 10.0359
-reloadTime: 4.65
-magazineSize: 53
-health: -17.5
-recoilHipVertical: 6 - 6.6
-recoilAimVertical: 2.1 - 2.28
-movementSpeed: 2.5
-TTK: 0.256805 Seconds
-
-[ Barrel: Eclair, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
-damage: 14.6941 - 10.4526
-dropoffStuds: 169.344 - 362.208
-fireRate: 1398.25
-adsSpread: 0.293792
-hipfireSpread: 8.81375
-reloadTime: 6.2
-magazineSize: 49
+[ Barrel: MG42, Magazine: Type 11, Grip: Snake Sniper, Stock: MG42, Core: Burton ]
+damage: 14.7 - 10.2104
+dropoffStuds: 151.632 - 324.324
+fireRate: 1269
+adsSpread: 0.38178
+hipfireSpread: 3.8178
+reloadTime: 5.5
+magazineSize: 100
 health: -7.5
-recoilHipVertical: 16.56 - 18.216
-recoilAimVertical: 5.796 - 6.2928
-movementSpeed: 4.5
-TTK: 0.257464 Seconds
+recoilHipVertical: 15.86 - 17.446
+recoilAimVertical: 5.551 - 6.0268
+movementSpeed: 2.5
+TTK: 0.283688 Seconds
 
-[ Barrel: M1897 Trench Shotgun, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
-damage: 14.406 - 9.96778
+[ Barrel: MG42, Magazine: Type 11, Grip: Lightning Shot, Stock: MG42, Core: Burton ]
+damage: 14.7 - 10.2104
+dropoffStuds: 151.632 - 324.324
+fireRate: 1249.96
+adsSpread: 0.3402
+hipfireSpread: 3.402
+reloadTime: 5.5
+magazineSize: 100
+health: -7.5
+recoilHipVertical: 17.94 - 19.734
+recoilAimVertical: 6.279 - 6.8172
+TTK: 0.288008 Seconds
+
+[ Barrel: MG42, Magazine: Type 11, Grip: Lightning Shot, Stock: Type 2a Nambu, Core: Burton ]
+damage: 14.7 - 10.2104
+dropoffStuds: 151.632 - 324.324
+fireRate: 1249.96
+adsSpread: 0.39758
+hipfireSpread: 3.9758
+reloadTime: 5
+magazineSize: 100
+health: -14
+recoilHipVertical: 15.258 - 16.7838
+recoilAimVertical: 5.34029 - 5.79803
+movementSpeed: 0.725
+TTK: 0.288008 Seconds
+
+[ Barrel: Type 99, Magazine: Type 11, Grip: Type 2a Nambu, Stock: Spas-12, Core: Burton ]
+damage: 16.7481 - 12.0996
+dropoffStuds: 176.4 - 377.3
+fireRate: 1038.7
+adsSpread: 0.364354
+hipfireSpread: 3.64354
+reloadTime: 5.25
+magazineSize: 100
+health: -15
+recoilHipVertical: 12.3 - 13.53
+recoilAimVertical: 4.305 - 4.674
+movementSpeed: 4.45
+TTK: 0.288823 Seconds
+
+[ Barrel: M870 MCS, Magazine: Type 11, Grip: Type 2a Nambu, Stock: Spas-12, Core: Burton ]
+damage: 16.8242 - 11.8745
+dropoffStuds: 165.816 - 354.662
+fireRate: 1038.7
+adsSpread: 0.399718
+hipfireSpread: 3.99718
+reloadTime: 5.5
+magazineSize: 100
+health: -15
+recoilHipVertical: 12.3 - 13.53
+recoilAimVertical: 4.305 - 4.674
+movementSpeed: 6.45
+TTK: 0.288823 Seconds
+
+[ Barrel: MG15, Magazine: Type 11, Grip: AWM, Stock: Spas-12, Core: Burton ]
+damage: 14.4795 - 10.0186
 dropoffStuds: 156.996 - 335.797
-fireRate: 1398.25
-adsSpread: 0.275712
-hipfireSpread: 8.27137
-reloadTime: 5.6885
-magazineSize: 49
+fireRate: 1241.25
+adsSpread: 0.395136
+hipfireSpread: 3.95136
+reloadTime: 5.264
+magazineSize: 100
 health: -7.5
-recoilHipVertical: 14.4 - 15.84
-recoilAimVertical: 5.04 - 5.472
-movementSpeed: 4.5
-TTK: 0.257464 Seconds
+recoilHipVertical: 14.364 - 15.8004
+recoilAimVertical: 5.0274 - 5.45832
+movementSpeed: 0.5
+TTK: 0.290031 Seconds
 
-[ Barrel: Negev, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
-damage: 14.406 - 10.4076
-dropoffStuds: 176.4 - 377.3
-fireRate: 1398.25
-adsSpread: 0.282492
-hipfireSpread: 8.47476
-reloadTime: 6.2
-magazineSize: 49
+[ Barrel: MG15, Magazine: Type 11, Grip: M1 Garand, Stock: Mosin, Core: Burton ]
+damage: 14.4795 - 10.1061
+dropoffStuds: 160.2 - 342.65
+fireRate: 1218.88
+adsSpread: 0.396
+hipfireSpread: 3.96
+reloadTime: 4.7
+magazineSize: 100
 health: -7.5
-recoilHipVertical: 14.4 - 15.84
-recoilAimVertical: 5.04 - 5.472
-TTK: 0.257464 Seconds
+recoilHipVertical: 16.492 - 18.1412
+recoilAimVertical: 5.7722 - 6.26696
+movementSpeed: 0.5
+TTK: 0.295353 Seconds
 
-[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: Negev, Stock: Speed Coil, Core: Burton ]
-damage: 17.1108 - 12.1121
-dropoffStuds: 157.248 - 336.336
-fireRate: 1154.74
-adsSpread: 0.392049
-hipfireSpread: 11.7615
-reloadTime: 7.125
-magazineSize: 76
-health: -17.5
-recoilHipVertical: 8.97 - 9.867
-recoilAimVertical: 3.1395 - 3.4086
-movementSpeed: 11
-TTK: 0.2598 Seconds
+[ Barrel: Type 99, Magazine: Type 11, Grip: Type 2a Nambu, Stock: Lee Enfield, Core: Burton ]
+damage: 16.7481 - 11.9629
+dropoffStuds: 171 - 365.75
+fireRate: 1015.2
+adsSpread: 0.39038
+hipfireSpread: 3.9038
+reloadTime: 5.25
+magazineSize: 100
+health: -15
+recoilHipVertical: 17.22 - 18.942
+recoilAimVertical: 6.027 - 6.5436
+movementSpeed: 7.45
+TTK: 0.295508 Seconds
 
-[ Barrel: Fat Cat, Magazine: Paintball, Grip: Musket, Stock: Speed Coil, Core: Burton ]
-damage: 20.3738 - 15.3843
-dropoffStuds: 198 - 423.5
-fireRate: 920.542
-adsSpread: 0.34692
-hipfireSpread: 10.4076
-reloadTime: 5.115
-magazineSize: 53
-health: -17.5
-recoilHipVertical: 6 - 6.6
-recoilAimVertical: 2.1 - 2.28
-movementSpeed: 2.5
-TTK: 0.260716 Seconds
-
-[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: Infinity, Stock: Speed Coil, Core: Burton ]
-damage: 17.1108 - 11.9122
-dropoffStuds: 150.958 - 322.883
-fireRate: 1149.39
-adsSpread: 0.37338
-hipfireSpread: 11.2014
-reloadTime: 7.62375
-magazineSize: 82
-health: -17.5
-recoilHipVertical: 7.8 - 8.58
-recoilAimVertical: 2.73 - 2.964
-movementSpeed: 13.5
-TTK: 0.261008 Seconds
-
-[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: M1 Garand, Stock: Speed Coil, Core: Burton ]
-damage: 17.1108 - 12.1121
-dropoffStuds: 157.248 - 336.336
-fireRate: 1141.91
-adsSpread: 0.37338
-hipfireSpread: 11.2014
-reloadTime: 7.125
-magazineSize: 76
-health: -17.5
-recoilHipVertical: 7.8 - 8.58
-recoilAimVertical: 2.73 - 2.964
-movementSpeed: 10.5
-TTK: 0.262719 Seconds
-
-[ Barrel: Siberia-12, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
-damage: 14.406 - 10.2277
-dropoffStuds: 168.462 - 360.322
-fireRate: 1361.78
-adsSpread: 0.241813
-hipfireSpread: 7.2544
-reloadTime: 6.2
-magazineSize: 49
+[ Barrel: MG15, Magazine: Type 11, Grip: MG42, Stock: FG-42, Core: Burton ]
+damage: 14.4795 - 10.1061
+dropoffStuds: 160.2 - 342.65
+fireRate: 1217.88
+adsSpread: 0.3915
+hipfireSpread: 3.915
+reloadTime: 4.841
+magazineSize: 100
 health: -7.5
-recoilHipVertical: 14.4 - 15.84
-recoilAimVertical: 5.04 - 5.472
-movementSpeed: 4.5
-TTK: 0.264361 Seconds
+recoilHipVertical: 15.029 - 16.5319
+recoilAimVertical: 5.26015 - 5.71102
+movementSpeed: 0.0500002
+TTK: 0.295595 Seconds
 
-[ Barrel: Dominus, Magazine: Paintball, Grip: Lewis, Stock: Spas-12, Core: Burton ]
-damage: 14.406 - 10.4076
-dropoffStuds: 176.4 - 377.3
-fireRate: 1361.78
-adsSpread: 0.246333
-hipfireSpread: 7.38999
-reloadTime: 6.758
-magazineSize: 49
+[ Barrel: MG15, Magazine: Type 11, Grip: Controller, Stock: Pancake Hammer, Core: Burton ]
+damage: 14.4795 - 9.8437
+dropoffStuds: 150.588 - 322.091
+fireRate: 1217.74
+adsSpread: 0.396
+hipfireSpread: 3.96
+reloadTime: 4.7
+magazineSize: 100
 health: -7.5
-recoilHipVertical: 17.856 - 19.6416
-recoilAimVertical: 6.2496 - 6.78528
-movementSpeed: 9.5
-TTK: 0.264361 Seconds
+recoilHipVertical: 15.162 - 16.6782
+recoilAimVertical: 5.3067 - 5.76156
+movementSpeed: 3
+TTK: 0.295629 Seconds
 

@@ -1,144 +1,140 @@
 ./wggcalc -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --TTKMin 0.001 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --reloadMax 2.5 --TTEMin 2.5 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: MG42, Magazine: Scar L, Grip: Infinity, Stock: Speed Coil, Core: Hotdog ]
-damage: 34.3846 - 21.9197
-dropoffStuds: 119.808 - 187.2
-fireRate: 683.1
+[ Barrel: Fat Cat, Magazine: Scar L, Grip: Circuit Judge, Stock: Speed Coil, Core: Hotdog ]
+damage: 50.3046 - 33.0803
+dropoffStuds: 130.944 - 204.6
+fireRate: 364.56
+adsSpread: 0.893025
+hipfireSpread: 9.9225
+reloadTime: 2.25
+magazineSize: 30
+Time to empty: 4.77288
+health: -20
+recoilHipVertical: 35.52 - 39.84
+recoilAimVertical: 23.088 - 25.872
+TTK: 0.164582 Seconds
+
+[ Barrel: Fat Cat, Magazine: Scar L, Grip: Musket, Stock: Speed Coil, Core: Hotdog ]
+damage: 50.3046 - 33.0803
+dropoffStuds: 130.944 - 204.6
+fireRate: 359.092
 adsSpread: 0.9261
 hipfireSpread: 10.29
-reloadTime: 2.4075
-magazineSize: 35
-Time to empty: 2.98639
-health: -10
-recoilHipVertical: 46.176 - 51.792
-recoilAimVertical: 30.0144 - 33.6336
-movementSpeed: 18
-TTK: 0.17567 Seconds
+reloadTime: 2.475
+magazineSize: 30
+Time to empty: 4.84556
+health: -20
+recoilHipVertical: 35.52 - 39.84
+recoilAimVertical: 23.088 - 25.872
+TTK: 0.167088 Seconds
 
-[ Barrel: M1897 Trench Shotgun, Magazine: Type 2a Nambu, Grip: Lee Enfield, Stock: Negev, Core: Hotdog ]
-damage: 33.6 - 19.5341
-dropoffStuds: 102.528 - 160.2
-fireRate: 673.33
-adsSpread: 0.7137
-hipfireSpread: 7.93
+[ Barrel: PM63, Magazine: Type 2a Nambu, Grip: Lee Enfield, Stock: Spas-12, Core: Hotdog ]
+damage: 33.6 - 20.2416
+dropoffStuds: 110.102 - 172.034
+fireRate: 640.443
+adsSpread: 0.773136
+hipfireSpread: 8.5904
+reloadTime: 2.2
+magazineSize: 30
+Time to empty: 2.71687
+recoilHipVertical: 47.2416 - 52.9872
+recoilAimVertical: 30.707 - 34.4098
+TTK: 0.18737 Seconds
+
+[ Barrel: M1897 Trench Shotgun, Magazine: Type 2a Nambu, Grip: AUTO-12, Stock: Spas-12, Core: Hotdog ]
+damage: 33.6 - 21.2853
+dropoffStuds: 121.829 - 190.358
+fireRate: 636.284
+adsSpread: 0.61488
+hipfireSpread: 6.832
 reloadTime: 2.403
 magazineSize: 30
-Time to empty: 2.58417
-recoilHipVertical: 44.992 - 50.464
-recoilAimVertical: 29.2448 - 32.7712
-TTK: 0.178219 Seconds
+Time to empty: 2.73463
+recoilHipVertical: 43.8672 - 49.2024
+recoilAimVertical: 28.5137 - 31.9519
+TTK: 0.188595 Seconds
 
-[ Barrel: M1897 Trench Shotgun, Magazine: Type 2a Nambu, Grip: Infinity, Stock: Kriss Vector, Core: Hotdog ]
-damage: 33.6 - 20.8
-dropoffStuds: 116.882 - 182.628
-fireRate: 673.33
-adsSpread: 0.7137
-hipfireSpread: 7.93
-reloadTime: 2.38075
-magazineSize: 35
-Time to empty: 3.02972
-recoilHipVertical: 44.992 - 50.464
-recoilAimVertical: 29.2448 - 32.7712
-movementSpeed: 6.3
-TTK: 0.178219 Seconds
-
-[ Barrel: MG42, Magazine: Type 2a Nambu, Grip: FAL, Stock: Kriss Vector, Core: Hotdog ]
-damage: 33.6 - 20.0726
-dropoffStuds: 106.704 - 166.725
-fireRate: 658.692
-adsSpread: 0.99099
-hipfireSpread: 11.011
-reloadTime: 2.5
+[ Barrel: MG42, Magazine: Scar L, Grip: M1 Garand, Stock: Speed Coil, Core: Hotdog ]
+damage: 34.3846 - 20.9608
+dropoffStuds: 109.824 - 171.6
+fireRate: 632.772
+adsSpread: 0.9261
+hipfireSpread: 10.29
+reloadTime: 2.25
 magazineSize: 30
-Time to empty: 2.6416
-recoilHipVertical: 47.9615 - 53.7946
-recoilAimVertical: 31.175 - 34.9341
-movementSpeed: 1.3
-TTK: 0.182179 Seconds
+Time to empty: 2.74981
+health: -20
+recoilHipVertical: 46.176 - 51.792
+recoilAimVertical: 30.0144 - 33.6336
+movementSpeed: 20
+TTK: 0.189642 Seconds
 
-[ Barrel: MG42, Magazine: Type 2a Nambu, Grip: Mega Soaker, Stock: Kriss Vector, Core: Hotdog ]
-damage: 33.6 - 20.0726
-dropoffStuds: 106.704 - 166.725
-fireRate: 658.692
-adsSpread: 0.91728
-hipfireSpread: 10.192
-reloadTime: 2.5
+[ Barrel: MG42, Magazine: Type 2a Nambu, Grip: AUTO-12, Stock: Mas-38, Core: Hotdog ]
+damage: 33.6 - 20.3303
+dropoffStuds: 108.95 - 170.235
+fireRate: 627.912
+adsSpread: 0.63
+hipfireSpread: 7
+reloadTime: 2.4975
 magazineSize: 30
-Time to empty: 2.6416
-recoilHipVertical: 44.4521 - 49.8584
-recoilAimVertical: 28.8939 - 32.3779
-movementSpeed: 1.3
-TTK: 0.182179 Seconds
+Time to empty: 2.77109
+recoilHipVertical: 46.7624 - 52.4498
+recoilAimVertical: 30.3956 - 34.0607
+movementSpeed: 2.5
+TTK: 0.19111 Seconds
 
-[ Barrel: MG42, Magazine: Type 2a Nambu, Grip: Banana, Stock: Kriss Vector, Core: Hotdog ]
-damage: 33.6 - 20.0726
-dropoffStuds: 106.704 - 166.725
-fireRate: 658.692
-adsSpread: 0.94185
-hipfireSpread: 10.465
-reloadTime: 2.5
+[ Barrel: Spas-12, Magazine: Burton, Grip: M1887, Stock: Speed Coil, Core: Hotdog ]
+damage: 34.3503 - 22.5888
+dropoffStuds: 130.944 - 204.6
+fireRate: 627.542
+adsSpread: 0.983146
+hipfireSpread: 10.9238
+reloadTime: 2.3625
 magazineSize: 30
-Time to empty: 2.6416
-recoilHipVertical: 46.7917 - 52.4826
-recoilAimVertical: 30.4146 - 34.082
-movementSpeed: 4.3
-TTK: 0.182179 Seconds
-
-[ Barrel: Infinity, Magazine: Sten gun, Grip: Lee Enfield, Stock: Speed Coil, Core: Hotdog ]
-damage: 34.176 - 19.6112
-dropoffStuds: 100.224 - 156.6
-fireRate: 651.475
-adsSpread: 0.91728
-hipfireSpread: 10.192
-reloadTime: 2.115
-magazineSize: 30
-Time to empty: 2.67086
-health: -10
+Time to empty: 2.77272
+health: -15
 recoilHipVertical: 44.4 - 49.8
 recoilAimVertical: 28.86 - 32.34
-movementSpeed: 25
-TTK: 0.184197 Seconds
+movementSpeed: 23
+TTK: 0.191222 Seconds
 
-[ Barrel: Infinity, Magazine: Sten gun, Grip: Infinity, Stock: Speed Coil, Core: Hotdog ]
-damage: 34.176 - 21.5531
-dropoffStuds: 120.269 - 187.92
-fireRate: 651.475
-adsSpread: 0.7056
-hipfireSpread: 7.84
-reloadTime: 2.26305
-magazineSize: 35
-Time to empty: 3.13136
-health: -10
-recoilHipVertical: 44.4 - 49.8
-recoilAimVertical: 28.86 - 32.34
-movementSpeed: 25
-TTK: 0.184197 Seconds
-
-[ Barrel: Siberia-12, Magazine: Type 2a Nambu, Grip: Lee Enfield, Stock: Kriss Vector, Core: Hotdog ]
-damage: 33.6 - 19.6957
-dropoffStuds: 104.515 - 163.305
-fireRate: 650.885
-adsSpread: 0.813735
-hipfireSpread: 9.0415
-reloadTime: 2.5
+[ Barrel: M1897 Trench Shotgun, Magazine: Type 2a Nambu, Grip: Drill, Stock: Spas-12, Core: Hotdog ]
+damage: 33.6 - 21.644
+dropoffStuds: 125.597 - 196.245
+fireRate: 623.808
+adsSpread: 0.61488
+hipfireSpread: 6.832
+reloadTime: 2.314
 magazineSize: 30
-Time to empty: 2.67328
-recoilHipVertical: 44.992 - 50.464
-recoilAimVertical: 29.2448 - 32.7712
-movementSpeed: 6.3
-TTK: 0.184364 Seconds
+Time to empty: 2.78932
+recoilHipVertical: 45.5544 - 51.0948
+recoilAimVertical: 29.6104 - 33.1808
+TTK: 0.192367 Seconds
 
-[ Barrel: Negev, Magazine: Type 2a Nambu, Grip: Lee Enfield, Stock: Kriss Vector, Core: Hotdog ]
-damage: 33.6 - 20.2944
-dropoffStuds: 109.44 - 171
-fireRate: 645.274
-adsSpread: 0.950625
-hipfireSpread: 10.5625
-reloadTime: 2.5
+[ Barrel: M1897 Trench Shotgun, Magazine: Type 2a Nambu, Grip: M1911, Stock: Spas-12, Core: Hotdog ]
+damage: 33.6 - 21.8233
+dropoffStuds: 127.481 - 199.189
+fireRate: 623.808
+adsSpread: 0.61488
+hipfireSpread: 6.832
+reloadTime: 2.314
 magazineSize: 30
-Time to empty: 2.69653
-recoilHipVertical: 44.992 - 50.464
-recoilAimVertical: 29.2448 - 32.7712
-movementSpeed: 1.8
-TTK: 0.185967 Seconds
+Time to empty: 2.78932
+recoilHipVertical: 45.5544 - 51.0948
+recoilAimVertical: 29.6104 - 33.1808
+TTK: 0.192367 Seconds
+
+[ Barrel: M1897 Trench Shotgun, Magazine: Type 2a Nambu, Grip: FAL, Stock: Spas-12, Core: Hotdog ]
+damage: 33.6 - 21.644
+dropoffStuds: 125.597 - 196.245
+fireRate: 623.808
+adsSpread: 0.744005
+hipfireSpread: 8.26672
+reloadTime: 2.225
+magazineSize: 30
+Time to empty: 2.78932
+recoilHipVertical: 46.1168 - 51.7256
+recoilAimVertical: 29.9759 - 33.5905
+movementSpeed: 2
+TTK: 0.192367 Seconds
 

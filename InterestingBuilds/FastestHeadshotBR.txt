@@ -1,139 +1,141 @@
 ./wggcalc -o InterestingBuilds/FastestHeadshotBR.txt -i BR --speedMin 0 --damageMin 66.67 --spreadAimMax 0.15 --sort FIRERATE --rangeMin 200 --pelletMax 1 --magazineMin 10 --ffm Semi 
 Current top 10 guns are: 
-[ Barrel: Infinity, Magazine: Scar H, Grip: Infinity, Stock: AK2D, Core: Winchester ]
-damage: 67.8317 - 54.019
-dropoffStuds: 201.398 - 374.026
-fireRate: 77.6989
-adsSpread: 0.145
-hipfireSpread: 11
-reloadTime: 4.62722
-magazineSize: 25
-health: 5
-recoilHipVertical: 143 - 166.238
-recoilAimVertical: 71.5 - 83.1188
-TTK: 0.772212 Seconds
-
-[ Barrel: Car Muffler, Magazine: G43, Grip: Infinity, Stock: Fedorov, Core: Winchester ]
-damage: 67.76 - 53.6659
-dropoffStuds: 201.6 - 374.4
-fireRate: 77.5054
-adsSpread: 0.145
-hipfireSpread: 11
-reloadTime: 1.88909
-magazineSize: 11
-health: -10
-recoilHipVertical: 87.84 - 102.114
-recoilAimVertical: 43.92 - 51.057
-TTK: 0.774139 Seconds
-
-[ Barrel: Dominus, Magazine: Scar H, Grip: PPSh-41, Stock: Roto-Fire, Core: Winchester ]
-damage: 67.2 - 54.5207
-dropoffStuds: 219.114 - 406.926
-fireRate: 77.0935
-adsSpread: 0.146986
-hipfireSpread: 11.1507
-reloadTime: 5.64075
+[ Barrel: Lightning Shot, Magazine: Scar H, Grip: Type 2a Nambu, Stock: Winchester, Core: G43 ]
+damage: 67.9117 - 54.3426
+dropoffStuds: 220.18 - 366.966
+fireRate: 111.8
+adsSpread: 0.142053
+hipfireSpread: 1.70464
+reloadTime: 4.347
 magazineSize: 20
-health: 5
-recoilHipVertical: 124 - 144.15
-recoilAimVertical: 62 - 72.075
-movementSpeed: 4.5
-TTK: 0.778276 Seconds
+health: 2.5
+recoilHipVertical: 81.6966 - 122.545
+recoilAimVertical: 32.6786 - 49.018
+movementSpeed: 2.1
+TTK: 0.536673 Seconds
 
-[ Barrel: Uzi, Magazine: Scar H, Grip: Infinity, Stock: Spas-12, Core: Winchester ]
-damage: 69.552 - 55.3684
-dropoffStuds: 201.756 - 374.691
-fireRate: 76.7184
-adsSpread: 0.145348
-hipfireSpread: 11.0264
-reloadTime: 4.815
-magazineSize: 15
-health: 5
-recoilHipVertical: 100 - 116.25
-recoilAimVertical: 50 - 58.125
-movementSpeed: 5.2
-TTK: 0.782081 Seconds
+[ Barrel: Lightning Shot, Magazine: Scar H, Grip: Type 2a Nambu, Stock: Type 2a Nambu, Core: G43 ]
+damage: 67.9117 - 54.3426
+dropoffStuds: 220.18 - 366.966
+fireRate: 111.8
+adsSpread: 0.143209
+hipfireSpread: 1.71851
+reloadTime: 4.347
+magazineSize: 20
+health: -4
+recoilHipVertical: 55.7264 - 83.5896
+recoilAimVertical: 22.2906 - 33.4358
+movementSpeed: 0.65
+TTK: 0.536673 Seconds
 
-[ Barrel: Infinity, Magazine: Scar H, Grip: Infinity, Stock: SMO3, Core: Winchester ]
-damage: 67.4695 - 53.7305
-dropoffStuds: 201.398 - 374.026
-fireRate: 76.5506
-adsSpread: 0.145
-hipfireSpread: 11
-reloadTime: 4.62722
-magazineSize: 25
-health: 5
-recoilHipVertical: 132 - 153.45
-recoilAimVertical: 66 - 76.725
+[ Barrel: Lightning Shot, Magazine: Scar H, Grip: The Chief, Stock: Winchester, Core: G43 ]
+damage: 66.9635 - 53.5838
+dropoffStuds: 220.18 - 366.966
+fireRate: 111.8
+adsSpread: 0.13545
+hipfireSpread: 1.6254
+reloadTime: 4.347
+magazineSize: 20
+health: 10
+recoilHipVertical: 89.667 - 134.501
+recoilAimVertical: 35.8668 - 53.8002
+TTK: 0.536673 Seconds
+
+[ Barrel: Lightning Shot, Magazine: M110, Grip: Type 2a Nambu, Stock: Type 2a Nambu, Core: G43 ]
+damage: 67.3457 - 54.6457
+dropoffStuds: 230.098 - 383.496
+fireRate: 106.21
+adsSpread: 0.143209
+hipfireSpread: 1.71851
+reloadTime: 3.6708
+magazineSize: 10
+health: -4
+recoilHipVertical: 49.9308 - 74.8963
+recoilAimVertical: 19.9723 - 29.9585
+movementSpeed: 0.65
+TTK: 0.564919 Seconds
+
+[ Barrel: Lightning Shot, Magazine: M110, Grip: Type 2a Nambu, Stock: Winchester, Core: G43 ]
+damage: 67.3457 - 54.6457
+dropoffStuds: 230.098 - 383.496
+fireRate: 106.21
+adsSpread: 0.142053
+hipfireSpread: 1.70464
+reloadTime: 3.6708
+magazineSize: 10
+health: 2.5
+recoilHipVertical: 73.2002 - 109.8
+recoilAimVertical: 29.2801 - 43.9201
+movementSpeed: 2.1
+TTK: 0.564919 Seconds
+
+[ Barrel: Lightning Shot, Magazine: Dragunov, Grip: Arisaka, Stock: Winchester, Core: G43 ]
+damage: 68.1188 - 54.8141
+dropoffStuds: 224.147 - 373.578
+fireRate: 90.558
+adsSpread: 0.144847
+hipfireSpread: 1.73816
+reloadTime: 3.2844
+magazineSize: 10
+health: 4
+recoilHipVertical: 47.291 - 70.9366
+recoilAimVertical: 18.9164 - 28.3746
 movementSpeed: 2.8
-TTK: 0.783795 Seconds
+TTK: 0.662559 Seconds
 
-[ Barrel: Infinity, Magazine: Scar H, Grip: Infinity, Stock: G43, Core: Winchester ]
-damage: 67.1731 - 54.5888
-dropoffStuds: 217.51 - 403.948
-fireRate: 76.5506
-adsSpread: 0.145
-hipfireSpread: 11
-reloadTime: 5.18248
-magazineSize: 25
-health: 5
-recoilHipVertical: 100 - 116.25
-recoilAimVertical: 50 - 58.125
-TTK: 0.783795 Seconds
+[ Barrel: Lightning Shot, Magazine: Dragunov, Grip: Arisaka, Stock: Type 2a Nambu, Core: G43 ]
+damage: 68.1188 - 54.8141
+dropoffStuds: 224.147 - 373.578
+fireRate: 90.558
+adsSpread: 0.146026
+hipfireSpread: 1.75231
+reloadTime: 3.2844
+magazineSize: 10
+health: -2.5
+recoilHipVertical: 32.2579 - 48.3868
+recoilAimVertical: 12.9031 - 19.3547
+movementSpeed: 1.35
+TTK: 0.662559 Seconds
 
-[ Barrel: Infinity, Magazine: Scar H, Grip: The Chief, Stock: Spas-12, Core: Winchester ]
-damage: 67.4366 - 53.9684
-dropoffStuds: 205.594 - 381.818
-fireRate: 76.446
-adsSpread: 0.12992
-hipfireSpread: 9.856
-reloadTime: 4.3245
-magazineSize: 16
-health: 5
-recoilHipVertical: 135 - 156.938
-recoilAimVertical: 67.5 - 78.4688
-movementSpeed: 2.4
-TTK: 0.784868 Seconds
+[ Barrel: SKS, Magazine: Scar H, Grip: Type 2a Nambu, Stock: Lee Enfield, Core: Winchester ]
+damage: 67.2948 - 55.0947
+dropoffStuds: 228.088 - 423.593
+fireRate: 72.912
+adsSpread: 0.145986
+hipfireSpread: 11.0748
+reloadTime: 4.68
+magazineSize: 20
+health: -2.5
+recoilHipVertical: 194.586 - 226.206
+recoilAimVertical: 97.293 - 113.103
+movementSpeed: 2.1
+TTK: 0.82291 Seconds
 
-[ Barrel: Dominus, Magazine: Scar H, Grip: Mas-38, Stock: Roto-Fire, Core: Winchester ]
-damage: 67.2 - 53.6332
-dropoffStuds: 203.776 - 378.441
-fireRate: 76.3244
-adsSpread: 0.141455
-hipfireSpread: 10.731
+[ Barrel: Dominus, Magazine: Scar H, Grip: Type 2a Nambu, Stock: Spas-12, Core: Winchester ]
+damage: 67.2948 - 55.0768
+dropoffStuds: 228.438 - 424.242
+fireRate: 72.8448
+adsSpread: 0.148516
+hipfireSpread: 11.2668
 reloadTime: 4.905
 magazineSize: 20
-health: 5
-recoilHipVertical: 124 - 144.15
-recoilAimVertical: 62 - 72.075
-movementSpeed: 5.9
-TTK: 0.786118 Seconds
+health: -2.5
+recoilHipVertical: 152.52 - 177.305
+recoilAimVertical: 76.26 - 88.6523
+movementSpeed: 4.1
+TTK: 0.823669 Seconds
 
-[ Barrel: SMO3, Magazine: FAL, Grip: Infinity, Stock: FG-42, Core: Winchester ]
-damage: 66.7744 - 52.8853
-dropoffStuds: 201.6 - 374.4
-fireRate: 76.0567
-adsSpread: 0.145
-hipfireSpread: 11
-reloadTime: 2.3754
-magazineSize: 22
-health: 5
-recoilHipVertical: 101.248 - 117.701
-recoilAimVertical: 50.624 - 58.8504
-movementSpeed: 2.25
-TTK: 0.788885 Seconds
-
-[ Barrel: Type 99, Magazine: G43, Grip: Infinity, Stock: FG-42, Core: Winchester ]
-damage: 66.836 - 52.9341
-dropoffStuds: 201.6 - 374.4
-fireRate: 76.0567
-adsSpread: 0.126512
-hipfireSpread: 9.5975
-reloadTime: 1.68525
-magazineSize: 11
-health: 5
-recoilHipVertical: 90.4 - 105.09
-recoilAimVertical: 45.2 - 52.545
-movementSpeed: 1
-TTK: 0.788885 Seconds
+[ Barrel: Snake Sniper, Magazine: G43, Grip: Type 2a Nambu, Stock: Fedorov, Core: Winchester ]
+damage: 67.4546 - 53.9637
+dropoffStuds: 210 - 390
+fireRate: 72.4208
+adsSpread: 0.145986
+hipfireSpread: 11.0748
+reloadTime: 1.71735
+magazineSize: 10
+health: -7.5
+recoilHipVertical: 88.56 - 102.951
+recoilAimVertical: 44.28 - 51.4755
+movementSpeed: 0.0999999
+TTK: 0.828491 Seconds
 

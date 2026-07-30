@@ -1,141 +1,141 @@
 ./wggcalc -o InterestingBuilds/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: Type 99, Magazine: Mega Soaker, Grip: Lewis, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 25.3412 - 17.6071
-dropoffStuds: 172.9 - 345.8
-fireRate: 759
-adsSpread: 0.6783
-hipfireSpread: 12.2094
-reloadTime: 4.2525
-magazineSize: 46
-health: 10
-recoilHipVertical: 31.9334 - 39.9168
-recoilAimVertical: 15.9667 - 19.9584
-movementSpeed: 5
-TTK: 0.237154 Seconds
-
-[ Barrel: Fat Cat, Magazine: Paintball, Grip: Uzi, Stock: Speed Coil, Core: Scar L ]
-damage: 25.0245 - 18.3257
-dropoffStuds: 187 - 379.5
-fireRate: 741.077
-adsSpread: 0.4956
-hipfireSpread: 8.26
-reloadTime: 4.65
-magazineSize: 53
+[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: MG42, Stock: Speed Coil, Core: DP-27 ]
+damage: 25.026 - 14.5288
+dropoffStuds: 153.754 - 269.069
+fireRate: 754.053
+adsSpread: 0.649681
+hipfireSpread: 10.828
+reloadTime: 7.33875
+magazineSize: 76
 health: -10
-recoilHipVertical: 40.59 - 47.97
-recoilAimVertical: 20.295 - 23.985
-movementSpeed: 0.25
-TTK: 0.24289 Seconds
+recoilHipVertical: 46.8 - 54.6
+recoilAimVertical: 28.08 - 32.76
+TTK: 0.23871 Seconds
 
-[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: Lewis, Stock: Speed Coil, Core: Burton ]
-damage: 17.1108 - 12.1121
-dropoffStuds: 157.248 - 336.336
-fireRate: 1229.58
-adsSpread: 0.425653
-hipfireSpread: 12.7696
+[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: Burton, Stock: Speed Coil, Core: DP-27 ]
+damage: 25.026 - 14.3188
+dropoffStuds: 150.679 - 263.687
+fireRate: 725.051
+adsSpread: 0.634746
+hipfireSpread: 10.5791
+reloadTime: 6.84
+magazineSize: 76
+health: -10
+recoilHipVertical: 46.8 - 54.6
+recoilAimVertical: 28.08 - 32.76
+movementSpeed: 3
+TTK: 0.248258 Seconds
+
+[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: AUG, Stock: Speed Coil, Core: DP-27 ]
+damage: 25.026 - 14.5288
+dropoffStuds: 153.754 - 269.069
+fireRate: 725.051
+adsSpread: 0.66835
+hipfireSpread: 11.1392
 reloadTime: 7.125
 magazineSize: 76
-health: -17.5
-recoilHipVertical: 11.232 - 12.3552
-recoilAimVertical: 3.9312 - 4.26816
-movementSpeed: 7.5
-TTK: 0.243986 Seconds
+health: -10
+recoilHipVertical: 45.045 - 52.5525
+recoilAimVertical: 27.027 - 31.5315
+movementSpeed: 7.875
+TTK: 0.248258 Seconds
 
-[ Barrel: Barret .50, Magazine: Drill, Grip: Musket, Stock: Spas-12, Core: Burton ]
-damage: 16.7295 - 12.0862
-dropoffStuds: 176.4 - 377.3
-fireRate: 1220.9
-adsSpread: 0.637745
-hipfireSpread: 19.1323
-reloadTime: 10.1156
+[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: M60, Stock: Speed Coil, Core: DP-27 ]
+damage: 25.026 - 14.5288
+dropoffStuds: 153.754 - 269.069
+fireRate: 725.051
+adsSpread: 0.634746
+hipfireSpread: 10.5791
+reloadTime: 7.48125
 magazineSize: 76
-health: -15.5
-recoilHipVertical: 50 - 55
-recoilAimVertical: 17.5 - 19
-movementSpeed: 2.5
-TTK: 0.245721 Seconds
+health: -10
+recoilHipVertical: 39.78 - 46.41
+recoilAimVertical: 23.868 - 27.846
+movementSpeed: 3.5
+TTK: 0.248258 Seconds
 
-[ Barrel: Fat Cat, Magazine: Paintball, Grip: Arisaka, Stock: Speed Coil, Core: Scar L ]
-damage: 25.0245 - 18.3257
-dropoffStuds: 187 - 379.5
-fireRate: 730.125
-adsSpread: 0.436624
-hipfireSpread: 7.27706
-reloadTime: 4.65
-magazineSize: 53
+[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: Hecate II, Stock: Speed Coil, Core: DP-27 ]
+damage: 25.026 - 14.5288
+dropoffStuds: 153.754 - 269.069
+fireRate: 725.051
+adsSpread: 0.687019
+hipfireSpread: 11.4503
+reloadTime: 7.695
+magazineSize: 76
+health: -10
+recoilHipVertical: 37.44 - 43.68
+recoilAimVertical: 22.464 - 26.208
+movementSpeed: 2
+TTK: 0.248258 Seconds
+
+[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: Arisaka, Stock: Speed Coil, Core: DP-27 ]
+damage: 25.026 - 14.5288
+dropoffStuds: 153.754 - 269.069
+fireRate: 725.051
+adsSpread: 0.645201
+hipfireSpread: 10.7533
+reloadTime: 7.125
+magazineSize: 76
 health: -16
-recoilHipVertical: 33 - 39
-recoilAimVertical: 16.5 - 19.5
-movementSpeed: 0.6
-TTK: 0.246533 Seconds
+recoilHipVertical: 46.8 - 54.6
+recoilAimVertical: 28.08 - 32.76
+movementSpeed: 12.4
+TTK: 0.248258 Seconds
 
-[ Barrel: Fat Cat, Magazine: Paintball, Grip: Skorpion vz. 61, Stock: Speed Coil, Core: Scar L ]
-damage: 25.0245 - 18.3257
-dropoffStuds: 187 - 379.5
-fireRate: 730.125
-adsSpread: 0.64428
-hipfireSpread: 10.738
-reloadTime: 4.30125
-magazineSize: 53
+[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: QBZ-95, Stock: Speed Coil, Core: DP-27 ]
+damage: 25.026 - 14.5288
+dropoffStuds: 153.754 - 269.069
+fireRate: 725.051
+adsSpread: 0.629145
+hipfireSpread: 10.4858
+reloadTime: 7.48125
+magazineSize: 76
 health: -10
-recoilHipVertical: 41.25 - 48.75
-recoilAimVertical: 20.625 - 24.375
-movementSpeed: 1.75
-TTK: 0.246533 Seconds
+recoilHipVertical: 46.8 - 54.6
+recoilAimVertical: 28.08 - 32.76
+movementSpeed: 4.2
+TTK: 0.248258 Seconds
 
-[ Barrel: Fat Cat, Magazine: Paintball, Grip: Banana, Stock: Speed Coil, Core: Scar L ]
-damage: 25.0245 - 18.3257
-dropoffStuds: 187 - 379.5
-fireRate: 730.125
-adsSpread: 0.56994
-hipfireSpread: 9.499
-reloadTime: 4.65
-magazineSize: 53
+[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: M40, Stock: Speed Coil, Core: DP-27 ]
+damage: 25.026 - 14.5288
+dropoffStuds: 153.754 - 269.069
+fireRate: 725.051
+adsSpread: 0.687019
+hipfireSpread: 11.4503
+reloadTime: 6.555
+magazineSize: 76
 health: -10
-recoilHipVertical: 26.4 - 31.2
-recoilAimVertical: 13.2 - 15.6
-TTK: 0.246533 Seconds
-
-[ Barrel: Fat Cat, Magazine: Paintball, Grip: PineFire, Stock: Speed Coil, Core: Scar L ]
-damage: 25.0245 - 18.3257
-dropoffStuds: 187 - 379.5
-fireRate: 730.125
-adsSpread: 0.4956
-hipfireSpread: 8.26
-reloadTime: 5.115
-magazineSize: 53
-health: -10
-recoilHipVertical: 29.865 - 35.295
-recoilAimVertical: 14.9325 - 17.6475
-movementSpeed: 0.5
-TTK: 0.246533 Seconds
-
-[ Barrel: BAR, Magazine: DP-27, Grip: The Chief, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 33.6291 - 25.5783
-dropoffStuds: 219.45 - 438.9
-fireRate: 486.2
-adsSpread: 0.6825
-hipfireSpread: 12.285
-reloadTime: 3.6
-magazineSize: 36
-health: 10
-recoilHipVertical: 47.9002 - 59.8752
-recoilAimVertical: 23.9501 - 29.9376
-movementSpeed: 7.5
-TTK: 0.246812 Seconds
-
-[ Barrel: AWM, Magazine: MG42, Grip: Infinity, Stock: Speed Coil, Core: M1919 .30 Cal ]
-damage: 25.22 - 17.5293
-dropoffStuds: 165.473 - 330.947
-fireRate: 727.238
-adsSpread: 0.6888
-hipfireSpread: 12.3984
-reloadTime: 4.41375
-magazineSize: 41
-health: 10
-recoilHipVertical: 54.978 - 68.7225
-recoilAimVertical: 27.489 - 34.3613
+recoilHipVertical: 44.928 - 52.416
+recoilAimVertical: 26.9568 - 31.4496
 movementSpeed: 6
-TTK: 0.247512 Seconds
+TTK: 0.248258 Seconds
+
+[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: P08 Artillery, Stock: Speed Coil, Core: DP-27 ]
+damage: 25.026 - 14.5288
+dropoffStuds: 153.754 - 269.069
+fireRate: 725.051
+adsSpread: 0.653415
+hipfireSpread: 10.8902
+reloadTime: 7.695
+magazineSize: 76
+health: -10
+recoilHipVertical: 43.524 - 50.778
+recoilAimVertical: 26.1144 - 30.4668
+movementSpeed: 4
+TTK: 0.248258 Seconds
+
+[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: M3 Grease Gun, Stock: Speed Coil, Core: DP-27 ]
+damage: 25.026 - 14.5288
+dropoffStuds: 153.754 - 269.069
+fireRate: 717.801
+adsSpread: 0.683659
+hipfireSpread: 11.3943
+reloadTime: 7.125
+magazineSize: 82
+health: -10
+recoilHipVertical: 46.8 - 54.6
+recoilAimVertical: 28.08 - 32.76
+movementSpeed: 8.08
+TTK: 0.250766 Seconds
 
