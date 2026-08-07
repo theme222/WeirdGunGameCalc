@@ -13,18 +13,6 @@ recoilAimVertical: 25.5892 - 28.6748
 movementSpeed: 2
 TTK: 0.247934 Seconds
 
-[ Barrel: M40, Magazine: Scar L, Grip: Mega Soaker, Stock: Fedorov, Core: Hotdog ]
-damage: 33.6756 - 26.4594
-dropoffStuds: 200 - 312.5
-fireRate: 470.8
-adsSpread: 0.42336
-hipfireSpread: 4.704
-reloadTime: 3.21
-magazineSize: 40
-recoilHipVertical: 38.4682 - 43.1467
-recoilAimVertical: 25.0043 - 28.0194
-TTK: 0.254885 Seconds
-
 [ Barrel: M40, Magazine: Scar L, Grip: Banana, Stock: Fedorov, Core: Hotdog ]
 damage: 33.6756 - 26.4594
 dropoffStuds: 200 - 312.5
@@ -36,6 +24,18 @@ magazineSize: 40
 recoilHipVertical: 40.4928 - 45.4176
 recoilAimVertical: 26.3203 - 29.4941
 movementSpeed: 3
+TTK: 0.254885 Seconds
+
+[ Barrel: M40, Magazine: Scar L, Grip: Mega Soaker, Stock: Fedorov, Core: Hotdog ]
+damage: 33.6756 - 26.4594
+dropoffStuds: 200 - 312.5
+fireRate: 470.8
+adsSpread: 0.42336
+hipfireSpread: 4.704
+reloadTime: 3.21
+magazineSize: 40
+recoilHipVertical: 38.4682 - 43.1467
+recoilAimVertical: 25.0043 - 28.0194
 TTK: 0.254885 Seconds
 
 [ Barrel: M40, Magazine: Scar L, Grip: Quad-Jolly, Stock: VSSR, Core: Hotdog ]
@@ -102,19 +102,6 @@ recoilAimVertical: 24.8581 - 27.8555
 movementSpeed: 2
 TTK: 0.260983 Seconds
 
-[ Barrel: M40, Magazine: Scar L, Grip: G11, Stock: Maple Badger, Core: Hotdog ]
-damage: 33.6756 - 26.4594
-dropoffStuds: 200 - 312.5
-fireRate: 459.8
-adsSpread: 0.4536
-hipfireSpread: 5.04
-reloadTime: 3.021
-magazineSize: 40
-recoilHipVertical: 39.9304 - 44.7868
-recoilAimVertical: 25.9548 - 29.0844
-movementSpeed: 0.5
-TTK: 0.260983 Seconds
-
 [ Barrel: M40, Magazine: Scar L, Grip: VSSR, Stock: MAC-10, Core: Hotdog ]
 damage: 33.6756 - 26.6037
 dropoffStuds: 204 - 318.75
@@ -126,5 +113,18 @@ magazineSize: 46
 recoilHipVertical: 39.368 - 44.156
 recoilAimVertical: 25.5892 - 28.6748
 movementSpeed: 2.6
+TTK: 0.260983 Seconds
+
+[ Barrel: M40, Magazine: Scar L, Grip: G11, Stock: Maple Badger, Core: Hotdog ]
+damage: 33.6756 - 26.4594
+dropoffStuds: 200 - 312.5
+fireRate: 459.8
+adsSpread: 0.4536
+hipfireSpread: 5.04
+reloadTime: 3.021
+magazineSize: 40
+recoilHipVertical: 39.9304 - 44.7868
+recoilAimVertical: 25.9548 - 29.0844
+movementSpeed: 0.5
 TTK: 0.260983 Seconds
 

@@ -98,17 +98,18 @@ recoilAimVertical: 28.86 - 32.34
 movementSpeed: 23
 TTK: 0.191222 Seconds
 
-[ Barrel: M1897 Trench Shotgun, Magazine: Type 2a Nambu, Grip: Drill, Stock: Spas-12, Core: Hotdog ]
+[ Barrel: M1897 Trench Shotgun, Magazine: Type 2a Nambu, Grip: FAL, Stock: Spas-12, Core: Hotdog ]
 damage: 33.6 - 21.644
 dropoffStuds: 125.597 - 196.245
 fireRate: 623.808
-adsSpread: 0.61488
-hipfireSpread: 6.832
-reloadTime: 2.314
+adsSpread: 0.744005
+hipfireSpread: 8.26672
+reloadTime: 2.225
 magazineSize: 30
 Time to empty: 2.78932
-recoilHipVertical: 45.5544 - 51.0948
-recoilAimVertical: 29.6104 - 33.1808
+recoilHipVertical: 46.1168 - 51.7256
+recoilAimVertical: 29.9759 - 33.5905
+movementSpeed: 2
 TTK: 0.192367 Seconds
 
 [ Barrel: M1897 Trench Shotgun, Magazine: Type 2a Nambu, Grip: M1911, Stock: Spas-12, Core: Hotdog ]
@@ -124,17 +125,16 @@ recoilHipVertical: 45.5544 - 51.0948
 recoilAimVertical: 29.6104 - 33.1808
 TTK: 0.192367 Seconds
 
-[ Barrel: M1897 Trench Shotgun, Magazine: Type 2a Nambu, Grip: FAL, Stock: Spas-12, Core: Hotdog ]
-damage: 33.6 - 21.644
-dropoffStuds: 125.597 - 196.245
+[ Barrel: M1897 Trench Shotgun, Magazine: Type 2a Nambu, Grip: Lamp Shade, Stock: Spas-12, Core: Hotdog ]
+damage: 33.6 - 21.0462
+dropoffStuds: 119.317 - 186.433
 fireRate: 623.808
-adsSpread: 0.744005
-hipfireSpread: 8.26672
+adsSpread: 0.61488
+hipfireSpread: 6.832
 reloadTime: 2.225
 magazineSize: 30
 Time to empty: 2.78932
-recoilHipVertical: 46.1168 - 51.7256
-recoilAimVertical: 29.9759 - 33.5905
-movementSpeed: 2
+recoilHipVertical: 44.992 - 50.464
+recoilAimVertical: 29.2448 - 32.7712
 TTK: 0.192367 Seconds
 

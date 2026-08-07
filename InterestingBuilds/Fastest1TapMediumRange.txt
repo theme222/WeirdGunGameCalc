@@ -78,19 +78,6 @@ recoilHipVertical: 150 - 180
 recoilAimVertical: 76.5 - 102
 movementSpeed: -3.5
 
-[ Barrel: Dominus, Magazine: Fat Cat, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
-damage: 258.02 - 143.818
-dropoffStuds: 193.6 - 416.24
-fireRate: 107.727
-adsSpread: 0.29757
-hipfireSpread: 11.9028
-reloadTime: 13.08
-magazineSize: 1
-health: -10
-recoilHipVertical: 154.008 - 184.81
-recoilAimVertical: 78.5441 - 104.725
-movementSpeed: 6
-
 [ Barrel: Kriss Vector, Magazine: Fat Cat, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
 damage: 250.279 - 126.21
 dropoffStuds: 170.368 - 366.291
@@ -104,18 +91,18 @@ recoilHipVertical: 113.022 - 135.626
 recoilAimVertical: 57.6412 - 76.855
 movementSpeed: 2.98
 
-[ Barrel: M40, Magazine: Fat Cat, Grip: M1919 .30 Cal, Stock: Speed Coil, Core: Barret .50 ]
-damage: 245.119 - 154.709
-dropoffStuds: 220 - 473
-fireRate: 107.415
-adsSpread: 0.292992
-hipfireSpread: 11.7197
-reloadTime: 10.176
+[ Barrel: Dominus, Magazine: Fat Cat, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
+damage: 258.02 - 143.818
+dropoffStuds: 193.6 - 416.24
+fireRate: 107.727
+adsSpread: 0.29757
+hipfireSpread: 11.9028
+reloadTime: 13.08
 magazineSize: 1
 health: -10
-recoilHipVertical: 106.875 - 128.25
-recoilAimVertical: 54.5062 - 72.675
-movementSpeed: 2.5
+recoilHipVertical: 154.008 - 184.81
+recoilAimVertical: 78.5441 - 104.725
+movementSpeed: 6
 
 [ Barrel: M40, Magazine: Fat Cat, Grip: M249 SAW, Stock: Speed Coil, Core: Barret .50 ]
 damage: 245.119 - 154.709
@@ -129,4 +116,17 @@ health: -10
 recoilHipVertical: 91.485 - 109.782
 recoilAimVertical: 46.6573 - 62.2098
 movementSpeed: 1
+
+[ Barrel: M40, Magazine: Fat Cat, Grip: M1919 .30 Cal, Stock: Speed Coil, Core: Barret .50 ]
+damage: 245.119 - 154.709
+dropoffStuds: 220 - 473
+fireRate: 107.415
+adsSpread: 0.292992
+hipfireSpread: 11.7197
+reloadTime: 10.176
+magazineSize: 1
+health: -10
+recoilHipVertical: 106.875 - 128.25
+recoilAimVertical: 54.5062 - 72.675
+movementSpeed: 2.5
 

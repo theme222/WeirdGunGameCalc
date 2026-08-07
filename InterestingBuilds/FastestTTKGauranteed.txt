@@ -1,140 +1,142 @@
 ./wggcalc -o InterestingBuilds/FastestTTKGauranteed.txt -i SMG AR LMG Weird -s TTKEND --magazineMin 30 --speedMin 0 --TTKEndMin 0.001 --spreadAimMax 0.4 --recoilAimMax 12 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: Shower, Magazine: Mega Soaker, Grip: Type 2a Nambu, Stock: Spas-12, Core: QBZ-95 ]
-damage: 17.5265 - 14.4087
-dropoffStuds: 178.36 - 334.425
-pellets: 2
-fireRate: 1035.63
-adsSpread: 0.372009
-hipfireSpread: 13.0203
-reloadTime: 6.75
-magazineSize: 60
-health: -7.5
-recoilHipVertical: 14.4648 - 17.5644
-recoilAimVertical: 7.95564 - 9.66042
-movementSpeed: 2.25
-TTK: 0.289678 Seconds
-TTK (End damage): 0.347613 Seconds
+[ Barrel: Light Gun, Magazine: AUG, Grip: The Chief, Stock: AUG, Core: Gyrojet Carbine ]
+damage: 6.4272 - 52.0663
+dropoffStuds: 9.306 - 102.366
+fireRate: 274.833
+adsSpread: 0.382725
+hipfireSpread: 2.73375
+reloadTime: 3.3
+magazineSize: 42
+recoilHipVertical: 1.35 - 2.7
+recoilAimVertical: 0.405 - 0.81
+movementSpeed: 5
+TTK: 3.27472 Seconds
+TTK (End damage): 0.218314 Seconds
 
-[ Barrel: Drill, Magazine: FC200SH, Grip: P90, Stock: Spas-12, Core: AUG ]
-damage: 14.3608 - 10.1813
-dropoffStuds: 13.6416 - 17.052
-fireRate: 1549.28
-adsSpread: 0.23276
-hipfireSpread: 2.73836
-reloadTime: 2.984
-magazineSize: 30
-recoilHipVertical: 60 - 75
-recoilAimVertical: 9 - 11.3
-TTK: 0.232366 Seconds
-TTK (End damage): 0.348549 Seconds
+[ Barrel: Light Gun, Magazine: AUG, Grip: Hell-Trooper-23, Stock: AWM, Core: Gyrojet Carbine ]
+damage: 6.24 - 50.3408
+dropoffStuds: 9.3555 - 102.91
+fireRate: 274.833
+adsSpread: 0.390033
+hipfireSpread: 2.78595
+reloadTime: 2.80582
+magazineSize: 42
+recoilHipVertical: 1.22 - 2.44
+recoilAimVertical: 0.366 - 0.732
+movementSpeed: 5.5
+TTK: 3.49303 Seconds
+TTK (End damage): 0.218314 Seconds
 
-[ Barrel: Drill, Magazine: Paintball, Grip: M1891, Stock: Spas-12, Core: AUG ]
-damage: 12.9115 - 8.43804
-dropoffStuds: 11.76 - 14.7
-fireRate: 1885.42
-adsSpread: 0.270168
-hipfireSpread: 3.17845
-reloadTime: 7.13
-magazineSize: 70
-recoilHipVertical: 60 - 75
-recoilAimVertical: 9 - 11.3
-movementSpeed: 2.3
-TTK: 0.222763 Seconds
-TTK (End damage): 0.350055 Seconds
-
-[ Barrel: Drill, Magazine: FC200SH, Grip: M1891, Stock: AR-8X, Core: AUG ]
-damage: 14.3608 - 10.2632
-dropoffStuds: 13.92 - 17.4
-fireRate: 1538.15
-adsSpread: 0.274992
-hipfireSpread: 3.23521
-reloadTime: 3.68
-magazineSize: 30
-recoilHipVertical: 60 - 75
-recoilAimVertical: 9 - 11.3
-movementSpeed: 0.8
-TTK: 0.234048 Seconds
-TTK (End damage): 0.351072 Seconds
-
-[ Barrel: Drill, Magazine: FC200SH, Grip: Kriss Vector, Stock: Spas-12, Core: AUG ]
-damage: 14.3608 - 10.1813
-dropoffStuds: 13.6416 - 17.052
-fireRate: 1538.08
-adsSpread: 0.243151
-hipfireSpread: 2.8606
-reloadTime: 3.2
-magazineSize: 30
-recoilHipVertical: 54.6 - 68.25
-recoilAimVertical: 8.19 - 10.283
-movementSpeed: 0.375
-TTK: 0.234058 Seconds
-TTK (End damage): 0.351087 Seconds
-
-[ Barrel: Drill, Magazine: FC200SH, Grip: M1891, Stock: Fedorov, Core: AUG ]
-damage: 14.3608 - 10.2632
-dropoffStuds: 13.92 - 17.4
-fireRate: 1536.69
-adsSpread: 0.241222
-hipfireSpread: 2.8379
-reloadTime: 3.9376
-magazineSize: 30
-recoilHipVertical: 55.2 - 69
-recoilAimVertical: 8.28 - 10.396
-movementSpeed: 0.8
-TTK: 0.23427 Seconds
-TTK (End damage): 0.351404 Seconds
-
-[ Barrel: Drill, Magazine: FC200SH, Grip: Circuit Judge, Stock: G43, Core: AUG ]
-damage: 15.6119 - 11.4424
-dropoffStuds: 14.8109 - 18.5136
-fireRate: 1360
-adsSpread: 0.250499
-hipfireSpread: 2.94705
-reloadTime: 3.584
-magazineSize: 30
-recoilHipVertical: 60 - 75
-recoilAimVertical: 9 - 11.3
-TTK: 0.264706 Seconds
-TTK (End damage): 0.352941 Seconds
-
-[ Barrel: Drill, Magazine: FC200SH, Grip: Circuit Judge, Stock: M-16, Core: AUG ]
-damage: 15.366 - 11.157
-dropoffStuds: 14.4768 - 18.096
-fireRate: 1360
-adsSpread: 0.250499
-hipfireSpread: 2.94705
-reloadTime: 3.2
-magazineSize: 30
-recoilHipVertical: 51 - 63.75
-recoilAimVertical: 7.65 - 9.605
-TTK: 0.264706 Seconds
-TTK (End damage): 0.352941 Seconds
-
-[ Barrel: Drill, Magazine: FC200SH, Grip: Circuit Judge, Stock: L8, Core: AUG ]
-damage: 15.366 - 11.157
-dropoffStuds: 14.4768 - 18.096
-fireRate: 1360
-adsSpread: 0.207914
-hipfireSpread: 2.44605
-reloadTime: 3.2
-magazineSize: 30
-recoilHipVertical: 60 - 75
-recoilAimVertical: 9 - 11.3
-TTK: 0.264706 Seconds
-TTK (End damage): 0.352941 Seconds
-
-[ Barrel: Drill, Magazine: Paintball, Grip: Circuit Judge, Stock: AR-8X, Core: AUG ]
-damage: 13.8153 - 9.12256
-dropoffStuds: 12 - 15
-fireRate: 1696.27
-adsSpread: 0.285569
-hipfireSpread: 3.35964
-reloadTime: 6.2
-magazineSize: 70
-recoilHipVertical: 60 - 75
-recoilAimVertical: 9 - 11.3
+[ Barrel: Light Gun, Magazine: AUG, Grip: Hell-Trooper-23, Stock: Hex Spitter, Core: Gyrojet Carbine ]
+damage: 6.24 - 50.3408
+dropoffStuds: 9.3555 - 102.91
+fireRate: 274.833
+adsSpread: 0.38745
+hipfireSpread: 2.7675
+reloadTime: 2.8215
+magazineSize: 42
+recoilHipVertical: 1 - 2
+recoilAimVertical: 0.3 - 0.6
 movementSpeed: 0.5
-TTK: 0.247602 Seconds
-TTK (End damage): 0.353717 Seconds
+TTK: 3.49303 Seconds
+TTK (End damage): 0.218314 Seconds
+
+[ Barrel: Light Gun, Magazine: AUG, Grip: Type 2a Nambu, Stock: AWM, Core: Gyrojet Carbine ]
+damage: 6.4974 - 50.0235
+dropoffStuds: 9.9 - 108.9
+fireRate: 274.833
+adsSpread: 0.3936
+hipfireSpread: 2.81143
+reloadTime: 2.9535
+magazineSize: 42
+health: -7.5
+recoilHipVertical: 1.5006 - 3.0012
+recoilAimVertical: 0.45018 - 0.90036
+movementSpeed: 4.75
+TTK: 3.27472 Seconds
+TTK (End damage): 0.218314 Seconds
+
+[ Barrel: Light Gun, Magazine: Kriss Vector, Grip: The Chief, Stock: AWM, Core: Gyrojet Carbine ]
+damage: 6.4272 - 51.4401
+dropoffStuds: 9.35 - 102.85
+fireRate: 268.373
+adsSpread: 0.396375
+hipfireSpread: 2.83125
+reloadTime: 2.3628
+magazineSize: 30
+recoilHipVertical: 1.46171 - 2.92342
+recoilAimVertical: 0.438514 - 0.877028
+movementSpeed: 2.475
+TTK: 3.35354 Seconds
+TTK (End damage): 0.223569 Seconds
+
+[ Barrel: Light Gun, Magazine: Graphics Card, Grip: The Chief, Stock: AWM, Core: Gyrojet Carbine ]
+damage: 6.695 - 50.7293
+dropoffStuds: 10.12 - 111.32
+fireRate: 267.786
+adsSpread: 0.396375
+hipfireSpread: 2.83125
+reloadTime: 5.907
+magazineSize: 50
+recoilHipVertical: 1.26819 - 2.53638
+recoilAimVertical: 0.380457 - 0.760914
+TTK: 3.13683 Seconds
+TTK (End damage): 0.22406 Seconds
+
+[ Barrel: Light Gun, Magazine: NP5, Grip: The Chief, Stock: The Chief, Core: Gyrojet Carbine ]
+damage: 6.695 - 51.9525
+dropoffStuds: 9.79 - 107.69
+fireRate: 261.326
+adsSpread: 0.38535
+hipfireSpread: 2.7525
+reloadTime: 2.475
+magazineSize: 30
+recoilHipVertical: 1.91119 - 3.82239
+recoilAimVertical: 0.573358 - 1.14672
+movementSpeed: 2.475
+TTK: 3.21437 Seconds
+TTK (End damage): 0.229598 Seconds
+
+[ Barrel: Light Gun, Magazine: NP5, Grip: The Chief, Stock: AWM, Core: Gyrojet Carbine ]
+damage: 6.695 - 51.9525
+dropoffStuds: 9.79 - 107.69
+fireRate: 261.326
+adsSpread: 0.363674
+hipfireSpread: 2.59767
+reloadTime: 2.46125
+magazineSize: 30
+recoilHipVertical: 1.99287 - 3.98574
+recoilAimVertical: 0.597861 - 1.19572
+movementSpeed: 2.475
+TTK: 3.21437 Seconds
+TTK (End damage): 0.229598 Seconds
+
+[ Barrel: Light Gun, Magazine: NP5, Grip: The Chief, Stock: L8, Core: Gyrojet Carbine ]
+damage: 6.695 - 50.1422
+dropoffStuds: 10.1816 - 111.998
+fireRate: 261.326
+adsSpread: 0.399801
+hipfireSpread: 2.85572
+reloadTime: 2.75
+magazineSize: 30
+recoilHipVertical: 1.6335 - 3.267
+recoilAimVertical: 0.49005 - 0.9801
+movementSpeed: 2.475
+TTK: 3.21437 Seconds
+TTK (End damage): 0.229598 Seconds
+
+[ Barrel: Light Gun, Magazine: NP5, Grip: The Chief, Stock: MG42, Core: Gyrojet Carbine ]
+damage: 6.695 - 51.9525
+dropoffStuds: 9.79 - 107.69
+fireRate: 261.326
+adsSpread: 0.391371
+hipfireSpread: 2.79551
+reloadTime: 3.025
+magazineSize: 30
+recoilHipVertical: 1.6335 - 3.267
+recoilAimVertical: 0.49005 - 0.9801
+movementSpeed: 5.1
+TTK: 3.21437 Seconds
+TTK (End damage): 0.229598 Seconds
 

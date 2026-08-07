@@ -55,20 +55,6 @@ recoilAimVertical: 25.2158 - 29.4185
 movementSpeed: 6
 TTK: 0.244108 Seconds
 
-[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: Broza, Stock: Speed Coil, Core: DP-27 ]
-damage: 25.026 - 14.5288
-dropoffStuds: 153.754 - 269.069
-fireRate: 735.927
-adsSpread: 0.74676
-hipfireSpread: 12.446
-reloadTime: 7.5525
-magazineSize: 76
-health: -10
-recoilHipVertical: 46.8 - 54.6
-recoilAimVertical: 28.08 - 32.76
-movementSpeed: 7.5
-TTK: 0.244589 Seconds
-
 [ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: Lancer, Stock: Speed Coil, Core: DP-27 ]
 damage: 25.026 - 14.5288
 dropoffStuds: 153.754 - 269.069
@@ -83,19 +69,19 @@ recoilAimVertical: 28.08 - 32.76
 movementSpeed: 6
 TTK: 0.244589 Seconds
 
-[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: G43, Stock: Speed Coil, Core: DP-27 ]
-damage: 26.0896 - 15.1462
+[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: Broza, Stock: Speed Coil, Core: DP-27 ]
+damage: 25.026 - 14.5288
 dropoffStuds: 153.754 - 269.069
-fireRate: 725.051
+fireRate: 735.927
 adsSpread: 0.74676
 hipfireSpread: 12.446
-reloadTime: 7.125
-magazineSize: 61
+reloadTime: 7.5525
+magazineSize: 76
 health: -10
-recoilHipVertical: 40.0374 - 46.7103
-recoilAimVertical: 24.0224 - 28.0262
-movementSpeed: 6
-TTK: 0.248258 Seconds
+recoilHipVertical: 46.8 - 54.6
+recoilAimVertical: 28.08 - 32.76
+movementSpeed: 7.5
+TTK: 0.244589 Seconds
 
 [ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: Burton, Stock: Speed Coil, Core: DP-27 ]
 damage: 25.026 - 14.3188
@@ -137,5 +123,19 @@ health: -10
 recoilHipVertical: 40.716 - 47.502
 recoilAimVertical: 24.4296 - 28.5012
 movementSpeed: 3.3
+TTK: 0.248258 Seconds
+
+[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: G43, Stock: Speed Coil, Core: DP-27 ]
+damage: 26.0896 - 15.1462
+dropoffStuds: 153.754 - 269.069
+fireRate: 725.051
+adsSpread: 0.74676
+hipfireSpread: 12.446
+reloadTime: 7.125
+magazineSize: 61
+health: -10
+recoilHipVertical: 40.0374 - 46.7103
+recoilAimVertical: 24.0224 - 28.0262
+movementSpeed: 6
 TTK: 0.248258 Seconds
 

@@ -14,19 +14,6 @@ recoilAimVertical: 5.551 - 6.0268
 movementSpeed: 2.5
 TTK: 0.283688 Seconds
 
-[ Barrel: MG42, Magazine: Type 11, Grip: Lightning Shot, Stock: MG42, Core: Burton ]
-damage: 14.7 - 10.2104
-dropoffStuds: 151.632 - 324.324
-fireRate: 1249.96
-adsSpread: 0.3402
-hipfireSpread: 3.402
-reloadTime: 5.5
-magazineSize: 100
-health: -7.5
-recoilHipVertical: 17.94 - 19.734
-recoilAimVertical: 6.279 - 6.8172
-TTK: 0.288008 Seconds
-
 [ Barrel: MG42, Magazine: Type 11, Grip: Lightning Shot, Stock: Type 2a Nambu, Core: Burton ]
 damage: 14.7 - 10.2104
 dropoffStuds: 151.632 - 324.324
@@ -39,6 +26,19 @@ health: -14
 recoilHipVertical: 15.258 - 16.7838
 recoilAimVertical: 5.34029 - 5.79803
 movementSpeed: 0.725
+TTK: 0.288008 Seconds
+
+[ Barrel: MG42, Magazine: Type 11, Grip: Lightning Shot, Stock: MG42, Core: Burton ]
+damage: 14.7 - 10.2104
+dropoffStuds: 151.632 - 324.324
+fireRate: 1249.96
+adsSpread: 0.3402
+hipfireSpread: 3.402
+reloadTime: 5.5
+magazineSize: 100
+health: -7.5
+recoilHipVertical: 17.94 - 19.734
+recoilAimVertical: 6.279 - 6.8172
 TTK: 0.288008 Seconds
 
 [ Barrel: Type 99, Magazine: Type 11, Grip: Type 2a Nambu, Stock: Spas-12, Core: Burton ]

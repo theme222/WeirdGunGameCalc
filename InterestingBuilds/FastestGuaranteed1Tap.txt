@@ -1,5 +1,19 @@
 ./wggcalc -o InterestingBuilds/FastestGuaranteed1Tap.txt -i Sniper BR --damageEndMin 100 --spreadAimMax 0.15 --sort FIRERATE --speedMin -5 --magazineMin 5 
 Current top 10 guns are: 
+[ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
+damage: 37.2067 - 109.221
+dropoffStuds: 15.834 - 554.19
+fireRate: 21.12
+adsSpread: 0.122736
+hipfireSpread: 17.5337
+reloadTime: 4.59
+magazineSize: 60
+health: -3
+recoilHipVertical: 175.241 - 233.654
+recoilAimVertical: 87.6204 - 116.827
+movementSpeed: -3.5
+TTK: 5.68182 Seconds
+
 [ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Arisaka, Stock: FAL, Core: Lightning Shot ]
 damage: 37.2067 - 106.161
 dropoffStuds: 16.5069 - 577.743
@@ -14,20 +28,6 @@ recoilAimVertical: 93.366 - 124.488
 movementSpeed: -3.33
 TTK: 5.68182 Seconds
 
-[ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
-damage: 37.2067 - 109.221
-dropoffStuds: 15.834 - 554.19
-fireRate: 21.12
-adsSpread: 0.122736
-hipfireSpread: 17.5337
-reloadTime: 4.59
-magazineSize: 60
-health: -3
-recoilHipVertical: 158.004 - 210.672
-recoilAimVertical: 79.002 - 105.336
-movementSpeed: -3.5
-TTK: 5.68182 Seconds
-
 [ Barrel: Uzi, Magazine: Arisaka, Grip: Type 2a Nambu, Stock: AWM, Core: Lightning Shot ]
 damage: 37.2397 - 100.441
 dropoffStuds: 18.4 - 644
@@ -37,8 +37,8 @@ hipfireSpread: 20.9048
 reloadTime: 3.4
 magazineSize: 5
 health: -6.5
-recoilHipVertical: 141.253 - 188.338
-recoilAimVertical: 70.6266 - 94.1688
+recoilHipVertical: 156.663 - 208.884
+recoilAimVertical: 78.3313 - 104.442
 movementSpeed: -0.3
 TTK: 5.6926 Seconds
 
@@ -51,8 +51,8 @@ hipfireSpread: 21.1958
 reloadTime: 3.281
 magazineSize: 5
 health: 1
-recoilHipVertical: 114.84 - 153.12
-recoilAimVertical: 57.42 - 76.56
+recoilHipVertical: 127.368 - 169.824
+recoilAimVertical: 63.684 - 84.912
 TTK: 5.6926 Seconds
 
 [ Barrel: M1 Garand, Magazine: M60, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
@@ -64,8 +64,8 @@ hipfireSpread: 21.2309
 reloadTime: 5.525
 magazineSize: 75
 health: 1
-recoilHipVertical: 120.78 - 161.04
-recoilAimVertical: 60.39 - 80.52
+recoilHipVertical: 133.956 - 178.608
+recoilAimVertical: 66.978 - 89.304
 movementSpeed: -3.7
 TTK: 5.70342 Seconds
 
@@ -78,8 +78,8 @@ hipfireSpread: 19.4545
 reloadTime: 3.808
 magazineSize: 5
 health: 1
-recoilHipVertical: 155.034 - 206.712
-recoilAimVertical: 77.517 - 103.356
+recoilHipVertical: 171.947 - 229.262
+recoilAimVertical: 85.9734 - 114.631
 movementSpeed: -3
 TTK: 5.82524 Seconds
 
@@ -92,8 +92,8 @@ hipfireSpread: 21.2428
 reloadTime: 5.1
 magazineSize: 50
 health: -3
-recoilHipVertical: 91.476 - 121.968
-recoilAimVertical: 45.738 - 60.984
+recoilHipVertical: 101.455 - 135.274
+recoilAimVertical: 50.7276 - 67.6368
 movementSpeed: -4.5
 TTK: 5.84795 Seconds
 
@@ -120,8 +120,8 @@ hipfireSpread: 21.2428
 reloadTime: 2.04
 magazineSize: 30
 health: -3
-recoilHipVertical: 108.108 - 144.144
-recoilAimVertical: 54.054 - 72.072
+recoilHipVertical: 119.902 - 159.869
+recoilAimVertical: 59.9508 - 79.9344
 movementSpeed: -2.52
 TTK: 5.98444 Seconds
 
@@ -135,8 +135,8 @@ hipfireSpread: 19.725
 reloadTime: 3.808
 magazineSize: 5
 health: 1
-recoilHipVertical: 124.027 - 165.37
-recoilAimVertical: 62.0136 - 82.6848
+recoilHipVertical: 137.557 - 183.41
+recoilAimVertical: 68.7787 - 91.705
 movementSpeed: -4.5
 TTK: 6 Seconds
 

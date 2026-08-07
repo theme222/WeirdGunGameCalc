@@ -14,9 +14,9 @@ have stats that are different from the game please notify me on discord
 
 ## Dataset
 
-*The current maintainer of the dataset is MIA. The data that is currently being
+*The current maintainer of the dataset (@mncastorm) is MIA. The data that is currently being
 used is genorously provided by @opacef on discord but there are no guarantees it
-is up to date or is correct.*
+is complete or correct.*
 
 Previously data was read from a list of .txt files that contained the partlist
 originally provided by @zyadak. This was then verified later by reading roblox
@@ -42,7 +42,7 @@ to your operating system (Currently only supported on Linux and Windows) and
 place it in the directory of the repository. Run the binary / executable on
 the command line by running `./wggcalc` or `wggcalc.exe` depending on your
 operating system. Provide filters as flags by adding `--<filter_name> <value>`
-to the command. To test if you installed it correctly, run it with `--help`.
+to the command. To test if you installed it correctly, run it with `--testInstall`.
 
 Filters can contain both a minimum amount and a maximum amount. They can be added in 2 ways:
 1. Using the `--<filter_name> <min value> <max value>` flag.
@@ -56,7 +56,6 @@ You can also look for some example commands that I use to fill the
 `InterestingBuilds` directory in the `Commands.sh` file.
 
 This is the full list of flags supported:
-
 ```sh
 # Result of Calculator --help 
 OPTIONS:
@@ -79,7 +78,7 @@ GENERAL:
   -i, --include TEXT ...                Categories to include in the calculation (AR, Sniper, LMG, SMG, 
                                         Shotgun, Weird) 
   -p, --priority TEXT                   Sort direction priority (HIGHEST, LOWEST) (Default: AUTO) 
-    --mh, --defaultMaxHealth INT        Set the player max health for TTK calculation (Default: 100) 
+  --mh, --defaultMaxHealth INT          Set the player max health for TTK calculation (Default: 100) 
 
 TESTING:
     --detailed                          Display all stats of the gun including irrelevant ones 
@@ -255,7 +254,9 @@ DynamicPrune uses a DFS style approach instead of Prune's BFS to conserve memory
 since the graph is incredibly wide but only 5 layers deep. Thus reducing the
 memory requirement from `O(n^4 * sizeof(Gun))`.
 
-It also precomputes core penalty onto the part itself during each core iteration thus giving us a significant speedup while increasing memory to `O(n^2)` (technically O(n * t) where t is the number of threads).
+It also precomputes core penalty onto the part itself during each core iteration
+thus giving us a significant speedup while increasing memory to `O(n^2)`
+(technically O(n * t) where t is the number of threads).
 
 DynamicPrune uses an atomic variable `currentBestThreshold_a` to keep track of "The worst
 stat across all our priority queues." Since all the guns must be stored in

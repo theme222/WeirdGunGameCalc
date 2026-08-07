@@ -4482,7 +4482,7 @@
         "Category": "Sniper",
         "Reload_Speed": -15.0,
         "Spread": -35.0,
-        "Recoil": 10.0
+        "Recoil": 22.0
       },
       {
         "Price_Type": "Coin",
@@ -6100,6 +6100,117 @@
         "Health": 5.0
       },
       {
+        "Price_Type": "Limited",
+        "Name": "Gyrojet Carbine",
+        "Category": "AR",
+        "Firing_Mode": "Auto",
+        "Damage": [
+          5.0,
+          26.0
+        ],
+        "Dropoff_Studs": [
+          20.0,
+          220.0
+        ],
+        "Fire_Rate": 270.0,
+        "Hipfire_Spread": 5.0,
+        "ADS_Spread": 0.7,
+        "Time_To_Aim": 0.5,
+        "Detection_Radius": 120.0,
+        "Suppression": 0.0,
+        "Equip_Time": 0.7,
+        "Recoil_Hip_Horizontal": [
+         -1,
+         1
+        ],
+        "Recoil_Hip_Vertical": [
+         1,
+         2
+        ],
+        "Recoil_Aim_Horizontal": [
+         -0.3,
+         0.3
+        ],
+        "Recoil_Aim_Vertical": [
+         0.3,
+         0.6
+        ]
+      },
+      {
+        "Price_Type": "Coin",
+        "Name": "Malyuk",
+        "Category": "AR",
+        "Firing_Mode": "Auto",
+        "Damage": [
+          18.7,
+          10.3
+        ],
+        "Dropoff_Studs": [
+          200.0,
+          400.0
+        ],
+        "Fire_Rate": 660.0,
+        "Hipfire_Spread": 5.0,
+        "ADS_Spread": 0.6,
+        "Time_To_Aim": 0.7,
+        "Detection_Radius": 145.0,
+        "Suppression": 0.0,
+        "Equip_Time": 0.4,
+        "Recoil_Hip_Horizontal": [
+         -30,
+         30
+        ],
+        "Recoil_Hip_Vertical": [
+         89,
+         102
+        ],
+        "Recoil_Aim_Horizontal": [
+         -21,
+         21
+        ],
+        "Recoil_Aim_Vertical": [
+         62.3,
+         71.4
+        ]
+      },
+      {
+        "Price_Type": "Coin",
+        "Name": "RN-516",
+        "Category": "AR",
+        "Firing_Mode": "Auto",
+        "Damage": [
+          14.7,
+          10.3
+        ],
+        "Dropoff_Studs": [
+          175.0,
+          325.0
+        ],
+        "Fire_Rate": 850.0,
+        "Hipfire_Spread": 3.0,
+        "ADS_Spread": 0.2,
+        "Time_To_Aim": 0.55,
+        "Detection_Radius": 130.0,
+        "Suppression": 0.0,
+        "Equip_Time": 0.4,
+        "Recoil_Hip_Horizontal": [
+         -20,
+         20
+        ],
+        "Recoil_Hip_Vertical": [
+         92,
+         113
+        ],
+        "Recoil_Aim_Horizontal": [
+         -12,
+         12
+        ],
+        "Recoil_Aim_Vertical": [
+         55.2,
+         67.8
+        ]
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M40",
         "Category": "Sniper",
@@ -6592,6 +6703,44 @@
           102.0
         ],
         "Movement_Speed_Modifier": -15.0
+      },
+      {
+        "Price_Type": "Limited",
+        "Name": "Tankgewehr",
+        "Category": "Sniper",
+        "Firing_Mode": "Bolt Action",
+        "Damage": [
+          120.0,
+          84.0
+        ],
+        "Dropoff_Studs": [
+          800.0,
+          1200.0
+        ],
+        "Fire_Rate": 9.5,
+        "Hipfire_Spread": 20.0,
+        "ADS_Spread": 0.11,
+        "Time_To_Aim": 1.5,
+        "Detection_Radius": 150.0,
+        "Suppression": 0.0,
+        "Recoil_Hip_Horizontal": [
+         -40,
+         40
+        ],
+        "Recoil_Hip_Vertical": [
+         189,
+         230
+        ],
+        "Recoil_Aim_Horizontal": [
+         -32,
+         32
+        ],
+        "Recoil_Aim_Vertical": [
+         151.2,
+         184.0
+        ],
+        "Movement_Speed_Modifier": -22.0,
+        "Health": 10.0
       },
       {
         "Price_Type": "Coin",
@@ -7463,6 +7612,119 @@
         ]
       },
       {
+        "Price_Type": "Robux",
+        "Name": "ECHO11",
+        "Category": "SMG",
+        "Firing_Mode": "Auto",
+        "Damage": [
+          32.0,
+          17.6
+        ],
+        "Dropoff_Studs": [
+          140.0,
+          170.0
+        ],
+        "Fire_Rate": 325.0,
+        "Hipfire_Spread": 4.0,
+        "ADS_Spread": 0.85,
+        "Time_To_Aim": 0.2,
+        "Detection_Radius": 50.0,
+        "Suppression": 0.0,
+        "Equip_Time": 0.3,
+        "Recoil_Hip_Horizontal": [
+         -12,
+         12
+        ],
+        "Recoil_Hip_Vertical": [
+         -13,
+         23
+        ],
+        "Recoil_Aim_Horizontal": [
+         -6,
+         6
+        ],
+        "Recoil_Aim_Vertical": [
+         -6.5,
+         11.5
+        ],
+        "Movement_Speed_Modifier": 5.0
+      },
+      {
+        "Price_Type": "Coin",
+        "Name": "OwenGun",
+        "Category": "SMG",
+        "Firing_Mode": "Auto",
+        "Damage": [
+          17.3,
+          9.9
+        ],
+        "Dropoff_Studs": [
+          127.0,
+          162.0
+        ],
+        "Fire_Rate": 700.0,
+        "Hipfire_Spread": 2.1,
+        "ADS_Spread": 0.5,
+        "Time_To_Aim": 0.2,
+        "Detection_Radius": 85.0,
+        "Suppression": 0.3,
+        "Equip_Time": 0.3,
+        "Recoil_Hip_Horizontal": [
+         -2,
+         2
+        ],
+        "Recoil_Hip_Vertical": [
+         49,
+         55
+        ],
+        "Recoil_Aim_Horizontal": [
+         -1.3,
+         1.3
+        ],
+        "Recoil_Aim_Vertical": [
+         31.8,
+         35.7
+        ],
+        "Movement_Speed_Modifier": 4.0
+      },
+      {
+        "Price_Type": "Coin",
+        "Name": "M960A",
+        "Category": "SMG",
+        "Firing_Mode": "Auto",
+        "Damage": [
+          17.0,
+          14.5
+        ],
+        "Dropoff_Studs": [
+          155.0,
+          360.0
+        ],
+        "Fire_Rate": 700.0,
+        "Hipfire_Spread": 5.0,
+        "ADS_Spread": 0.35,
+        "Time_To_Aim": 0.5,
+        "Detection_Radius": 120.0,
+        "Suppression": 0.3,
+        "Equip_Time": 0.7,
+        "Recoil_Hip_Horizontal": [
+         -22,
+         22
+        ],
+        "Recoil_Hip_Vertical": [
+         70,
+         75
+        ],
+        "Recoil_Aim_Horizontal": [
+         -15.4,
+         15.4
+        ],
+        "Recoil_Aim_Vertical": [
+         49.0,
+         52.5
+        ]
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M870",
         "Category": "Shotgun",
@@ -7965,6 +8227,43 @@
         "Pellets": 10
       },
       {
+        "Price_Type": "Limited",
+        "Name": "Spas15",
+        "Category": "Shotgun",
+        "Firing_Mode": "Auto",
+        "Damage": [
+          16.0,
+          3.0
+        ],
+        "Dropoff_Studs": [
+          63.0,
+          104.0
+        ],
+        "Fire_Rate": 180.0,
+        "Hipfire_Spread": 4.0,
+        "ADS_Spread": 2.2,
+        "Time_To_Aim": 1.0,
+        "Detection_Radius": 120.0,
+        "Suppression": 0.0,
+        "Recoil_Hip_Horizontal": [
+         -20,
+         20
+        ],
+        "Recoil_Hip_Vertical": [
+         64,
+         85
+        ],
+        "Recoil_Aim_Horizontal": [
+         -14,
+         14
+        ],
+        "Recoil_Aim_Vertical": [
+         44.8,
+         59.5
+        ],
+        "Pellets": 6
+      },
+      {
         "Price_Type": "Coin",
         "Name": "M60",
         "Category": "LMG",
@@ -8433,78 +8732,121 @@
         "Health": 16.0
       },
       {
-        "Price_Type": "Coin",
+        "Price_Type": "Limited",
         "Name": "Type 11",
         "Category": "LMG",
         "Firing_Mode": "Auto",
         "Damage": [
-          23,
-          0
+          23.0,
+          18.4
         ],
         "Dropoff_Studs": [
-          0,
-          0
+          190.0,
+          290.0
         ],
-        "Fire_Rate": 0.0,
-        "Hipfire_Spread": 0.0,
-        "ADS_Spread": 0.0,
-        "Time_To_Aim": 0.0,
-        "Detection_Radius": 0.0,
+        "Fire_Rate": 510.0,
+        "Hipfire_Spread": 5.0,
+        "ADS_Spread": 0.375,
+        "Time_To_Aim": 0.7,
+        "Detection_Radius": 140.0,
         "Suppression": 0.9,
-        "Equip_Time": 0.0,
+        "Equip_Time": 0.8,
         "Recoil_Hip_Horizontal": [
-          0,
-          0
+         -12,
+         12
         ],
         "Recoil_Hip_Vertical": [
-          0,
-          0
+         43,
+         57
         ],
         "Recoil_Aim_Horizontal": [
-          0,
-          0
+         -4.8,
+         4.8
         ],
         "Recoil_Aim_Vertical": [
-          0,
-          0
-        ]
+         17.2,
+         22.8
+        ],
+        "Movement_Speed_Modifier": -6.5,
+        "Health": 12.0
       },
       {
-        "Price_Type": "Coin",
-        "Name": "Minigun",
+        "Price_Type": "Limited",
+        "Name": "M134 Minigun",
         "Category": "LMG",
         "Firing_Mode": "Auto",
         "Damage": [
-          0,
-          0
+          17.5,
+          11.4
         ],
         "Dropoff_Studs": [
-          0,
-          0
+          170.0,
+          280.0
         ],
-        "Fire_Rate": 0.0,
-        "Hipfire_Spread": 0.0,
-        "ADS_Spread": 0.0,
-        "Time_To_Aim": 0.0,
-        "Detection_Radius": 0.0,
+        "Fire_Rate": 1600.0,
+        "Hipfire_Spread": 8.0,
+        "ADS_Spread": 2.0,
+        "Time_To_Aim": 0.75,
+        "Detection_Radius": 500.0,
         "Suppression": 0.0,
-        "Equip_Time": 0.0,
+        "Equip_Time": 0.8,
         "Recoil_Hip_Horizontal": [
-          0,
-          0
+          -16,
+          16
         ],
         "Recoil_Hip_Vertical": [
-          0,
-          0
+          87,
+          107
         ],
         "Recoil_Aim_Horizontal": [
-          0,
-          0
+          -12.8,
+          12.8
         ],
         "Recoil_Aim_Vertical": [
-          0,
-          0
-        ]
+          69.6,
+          85.6
+        ],
+        "Movement_Speed_Modifier": -22.0,
+        "Health": 50.0
+      },
+      {
+        "Price_Type": "Limited",
+        "Name": "M2-Browning",
+        "Category": "LMG",
+        "Firing_Mode": "Auto",
+        "Damage": [
+          45.0,
+          22.5
+        ],
+        "Dropoff_Studs": [
+          150.0,
+          240.0
+        ],
+        "Fire_Rate": 250.0,
+        "Hipfire_Spread": 5.0,
+        "ADS_Spread": 0.3,
+        "Time_To_Aim": 1.5,
+        "Detection_Radius": 300.0,
+        "Suppression": 0.0,
+        "Equip_Time": 1.0,
+        "Recoil_Hip_Horizontal": [
+          -50.0,
+           50.0
+        ],
+        "Recoil_Hip_Vertical": [
+          100.0,
+          120.0
+        ],
+        "Recoil_Aim_Horizontal": [
+          -40.0,
+          40.0
+        ],
+        "Recoil_Aim_Vertical": [
+           80.0,
+           96.0
+        ],
+        "Movement_Speed_Modifier": -23.0,
+        "Health": 25.0
       },
       {
         "Price_Type": "Coin",
@@ -8521,7 +8863,7 @@
         ],
         "Fire_Rate": 300.0,
         "Hipfire_Spread": 5.0,
-        "ADS_Spread": 0.3,
+        "ADS_Spread": 0.3, 
         "Time_To_Aim": 0.7,
         "Detection_Radius": 120.0,
         "Suppression": 0.8,
@@ -8960,6 +9302,44 @@
           14.4
         ],
         "Health": 10.0
+      },
+      {
+        "Price_Type": "Coin",
+        "Name": "AR-10",
+        "Category": "BR",
+        "Firing_Mode": "Auto",
+        "Damage": [
+          19.2,
+          13.1
+        ],
+        "Dropoff_Studs": [
+          155.0,
+          400.0
+        ],
+        "Fire_Rate": 715.0,
+        "Hipfire_Spread": 5.0,
+        "ADS_Spread": 0.2,
+        "Time_To_Aim": 0.9,
+        "Detection_Radius": 85.0,
+        "Suppression": 0.0,
+        "Equip_Time": 0.8,
+        "Recoil_Hip_Horizontal": [
+         -30,
+         30
+        ],
+        "Recoil_Hip_Vertical": [
+         120,
+         145
+        ],
+        "Recoil_Aim_Horizontal": [
+         -25.5,
+         25.5
+        ],
+        "Recoil_Aim_Vertical": [
+         102,
+         123.3
+        ],
+        "Movement_Speed_Modifier": -6.0
       },
       {
         "Price_Type": "Limited",
@@ -9524,6 +9904,43 @@
           1.0
         ],
         "Burst": 2
+      },
+      {
+        "Price_Type": "Limited",
+        "Name": "Fire Flamer",
+        "Category": "Weird",
+        "Firing_Mode": "Auto",
+        "Damage": [
+          4.0,
+          2.0
+        ],
+        "Dropoff_Studs": [
+          120.0,
+          200.0
+        ],
+        "Fire_Rate": 750.0,
+        "Hipfire_Spread": 4.0,
+        "ADS_Spread": 0.6,
+        "Time_To_Aim": 0.9,
+        "Detection_Radius": 120.0,
+        "Suppression": 0.0,
+        "Recoil_Hip_Horizontal": [
+         -19.0,
+         19.0
+        ],
+        "Recoil_Hip_Vertical": [
+         53.0,
+         74.0
+        ],
+        "Recoil_Aim_Horizontal": [
+         -16.2,
+         16.2
+        ],
+        "Recoil_Aim_Vertical": [
+         45.1,
+         62.9
+        ],
+        "Pellets": 6
       },
       {
         "Price_Type": "Free",
@@ -10242,41 +10659,151 @@
       },
       {
         "Price_Type": "Coin",
-        "Name": "AR-10",
-        "Category": "BR",
-        "Firing_Mode": "Auto",
+        "Name": "Lex",
+        "Category": "Sidearm",
+        "Firing_Mode": "Semi",
         "Damage": [
-          19.2,
-          13.056000000000001
+          60.0,
+          30.0
         ],
         "Dropoff_Studs": [
-          155,
-          400
+          27.0,
+          89.0
         ],
-        "Fire_Rate": 715,
-        "Hipfire_Spread": 5.0,
-        "ADS_Spread": 0.2,
-        "Time_To_Aim": 0.9,
-        "Detection_Radius": 85,
+        "Fire_Rate": 60.0,
+        "Hipfire_Spread": 0.9,
+        "ADS_Spread": 0.35,
+        "Time_To_Aim": 0.3,
+        "Detection_Radius": 350.0,
         "Suppression": 0.0,
-        "Equip_Time": 0.8,
+        "Equip_Time": 0.7,
         "Recoil_Hip_Horizontal": [
-          -30,
-          30
+         -2,
+         2
         ],
         "Recoil_Hip_Vertical": [
-          120,
-          145
+         43,
+         59
         ],
         "Recoil_Aim_Horizontal": [
-          0,
-          0
+         -0.9,
+         0.9
         ],
         "Recoil_Aim_Vertical": [
-          0,
-          0
+         19.3,
+         26.5
+        ]
+      },
+      {
+        "Price_Type": "Limited",
+        "Name": "Peacemaker",
+        "Category": "Sidearm",
+        "Firing_Mode": "Pump Action",
+        "Damage": [
+          40.0,
+          22.0
         ],
-        "Movement_Speed_Modifier": -6
+        "Dropoff_Studs": [
+          70.0,
+          140.0
+        ],
+        "Fire_Rate": 150.0,
+        "Hipfire_Spread": 4.0,
+        "ADS_Spread": 0.25,
+        "Time_To_Aim": 0.5,
+        "Detection_Radius": 350.0,
+        "Suppression": 0.0,
+        "Equip_Time": 0.1,
+        "Recoil_Hip_Horizontal": [
+         -2,
+         2
+        ],
+        "Recoil_Hip_Vertical": [
+         34,
+         42
+        ],
+        "Recoil_Aim_Horizontal": [
+         -0.9,
+         0.9
+        ],
+        "Recoil_Aim_Vertical": [
+         15.3,
+         18.9
+        ]
+      },
+      {
+        "Price_Type": "Limited",
+        "Name": "Gyrojet",
+        "Category": "Sidearm",
+        "Firing_Mode": "Semi",
+        "Damage": [
+          3.0,
+          12.0
+        ],
+        "Dropoff_Studs": [
+          25.0,
+          250.0
+        ],
+        "Fire_Rate": 600.0,
+        "Hipfire_Spread": 5.0,
+        "ADS_Spread": 0.8,
+        "Time_To_Aim": 0.5,
+        "Detection_Radius": 70.0,
+        "Suppression": 0.0,
+        "Recoil_Hip_Horizontal": [
+          -1.0,
+          1.0
+        ],
+        "Recoil_Hip_Vertical": [
+          1.0,
+          2.0
+        ],
+        "Recoil_Aim_Horizontal": [
+         -0.3,
+          0.3
+         ],
+        "Recoil_Aim_Vertical": [
+          0.3,
+          0.6
+        ]
+      },
+      {
+        "Price_Type": "Coin",
+        "Name": "RSH",
+        "Category": "Sidearm",
+        "Firing_Mode": "Auto",
+        "Damage": [
+          62.0,
+          24.8
+        ],
+        "Dropoff_Studs": [
+          50.0,
+          100.0
+        ],
+        "Fire_Rate": 30.0,
+        "Hipfire_Spread": 6.0,
+        "ADS_Spread": 0.3,
+        "Time_To_Aim": 1.2,
+        "Detection_Radius": 300.0,
+        "Suppression": 0.0,
+        "Equip_Time": 0.9,
+        "Recoil_Hip_Horizontal": [
+         -25,
+         25
+        ],
+        "Recoil_Hip_Vertical": [
+         83,
+         112
+        ],
+        "Recoil_Aim_Horizontal": [
+         -18.8,
+         18.8
+        ],
+        "Recoil_Aim_Vertical": [
+         62.3,
+         84.0
+        ],
+        "Movement_Speed_Modifier": -3.0
       }
     ]
   },
