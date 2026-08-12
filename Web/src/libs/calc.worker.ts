@@ -22,6 +22,7 @@ function sortTypeJSToWasm(sortType: string): string | undefined {
     'RECOILHIP',
     'RELOAD',
     'SPEED',
+    'SPINUP',
     'SPREADAIM',
     'SPREADHIP',
     'TTK',
@@ -68,6 +69,7 @@ function gunObjectWasmToJS(wasmObject: Gun_WASM ): Gun { // Frees wasmObject
   g.hipfireSpread = wasmObject["hipfireSpread"];
   g.adsSpread = wasmObject["adsSpread"];
   g.detectionRadius = wasmObject["detectionRadius"];
+  g.spinUp = wasmObject["spinUp"];
   g.recoilHipHorizontal = fpairObjectWasmToJS(wasmObject["recoilHipHorizontal"]);
   g.recoilHipVertical = fpairObjectWasmToJS(wasmObject["recoilHipVertical"]);
   g.recoilAimHorizontal = fpairObjectWasmToJS(wasmObject["recoilAimHorizontal"]);

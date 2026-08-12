@@ -1,6 +1,6 @@
 export const categoryStrings = [ "AR", "BR", "LMG", "SMG", "Shotgun", "Sidearm", "Sniper", "Weird" ] as const;
 
-export const filterPropStrings = [ // Sorted by text
+export const filterPropStrings = [ // Sorted by alphabetical order
   "Burst",
   "DPS",
   "DPS End",
@@ -18,6 +18,7 @@ export const filterPropStrings = [ // Sorted by text
   "Recoil Hip",
   "Reload Time",
   "Speed",
+  "Spin Up",
   "Spread Aim",
   "Spread Hip",
   "TTK",
@@ -47,6 +48,7 @@ export const propertyStrings = [ // Sorted by order of how I want it to show up 
   "Speed",
   "Burst",
   "Time To Aim",
+  "Spin Up",
   "TTK",
   "TTK End",
   "DPS",
@@ -88,6 +90,7 @@ export const filterTitles = [
   "Reload Time",
   "Sort Type",
   "Speed",
+  "Spin Up",
   "Spread Aim",
   "Spread Hip",
   "TTE",
@@ -131,6 +134,7 @@ export const filterDescriptions: {[key in typeof filterTitles[number]]: string} 
   "Reload Time": "Reload time in seconds",
   "Sort Type": "The property and priority to sort the results by",
   "Speed": "Movement speed percentage",
+  "Spin Up": "Spin up time in seconds",
   "Spread Aim": "Aiming spread",
   "Spread Hip": "Hipfire spread",
   "TTE": "Time to empty the magazine in seconds",
