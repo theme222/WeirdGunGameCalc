@@ -33,7 +33,10 @@ function getResultsListComputed() {
 <template>
 <div class="flex flex-col items-center w-full py-8 px-4 gap-1">
   <h1 class="font-bold text-3xl text-white rounded">Part Query</h1>
-  <h2 class="opacity-50 text-sm text-center">Double check part stats here ( If they are different head over to the <a href="https://docs.google.com/spreadsheets/d/1Kc9aME3xlUC_vV5dFRe457OchqUOrwuiX_pQykjCF68/edit?gid=1702472906#gid=1702472906" class="link">sheet</a> and comment the issue there )</h2>
+  <h2 class="opacity-50 text-sm text-center">Double check part stats here 
+    (The data is currently in a highly inaccurate state and you can contact opacef to fix since the original spreadsheet is really outdated)
+    <!-- ( If they are different head over to the <a href="https://docs.google.com/spreadsheets/d/1Kc9aME3xlUC_vV5dFRe457OchqUOrwuiX_pQykjCF68/edit?gid=1702472906#gid=1702472906" class="link">sheet</a> and comment the issue there ) -->
+  </h2>
 </div>
 
 <main class="w-full flex justify-center items-start gap-6 flex-wrap mb-5">

@@ -13,6 +13,31 @@ recoilAimVertical: 25.5892 - 28.6748
 movementSpeed: 2
 TTK: 0.247934 Seconds
 
+[ Barrel: M40, Magazine: Restroom, Grip: G43, Stock: RN516, Core: Hotdog ]
+damage: 33.516 - 26.334
+dropoffStuds: 200 - 312.5
+fireRate: 484
+adsSpread: 0.468
+hipfireSpread: 5.2
+reloadTime: 3.074
+magazineSize: 34
+recoilHipVertical: 40.1441 - 45.0265
+recoilAimVertical: 26.0937 - 29.2401
+TTK: 0.247934 Seconds
+
+[ Barrel: M40, Magazine: ECHO11, Grip: Kriss Vector, Stock: Negev, Core: Hotdog ]
+damage: 35.7504 - 28.0896
+dropoffStuds: 200 - 312.5
+fireRate: 475.904
+adsSpread: 0.577044
+hipfireSpread: 6.4116
+reloadTime: 4.104
+magazineSize: 50
+recoilHipVertical: 40.9663 - 45.9487
+recoilAimVertical: 26.6281 - 29.839
+movementSpeed: 2
+TTK: 0.252152 Seconds
+
 [ Barrel: M40, Magazine: Scar L, Grip: Banana, Stock: Fedorov, Core: Hotdog ]
 damage: 33.6756 - 26.4594
 dropoffStuds: 200 - 312.5
@@ -51,6 +76,19 @@ recoilAimVertical: 25.5892 - 28.6748
 movementSpeed: 1
 TTK: 0.25729 Seconds
 
+[ Barrel: M40, Magazine: ECHO11, Grip: Kriss Vector, Stock: AUTO-12, Core: Hotdog ]
+damage: 35.7504 - 28.0896
+dropoffStuds: 200 - 312.5
+fireRate: 464.464
+adsSpread: 0.577044
+hipfireSpread: 6.4116
+reloadTime: 3.933
+magazineSize: 50
+recoilHipVertical: 39.3703 - 44.1585
+recoilAimVertical: 25.5907 - 28.6764
+movementSpeed: 2.5
+TTK: 0.258362 Seconds
+
 [ Barrel: M40, Magazine: Scar L, Grip: Kriss Vector, Stock: AUTO-12, Core: Hotdog ]
 damage: 33.6756 - 26.4594
 dropoffStuds: 200 - 312.5
@@ -63,68 +101,29 @@ recoilHipVertical: 36.6235 - 41.0777
 recoilAimVertical: 23.8053 - 26.6758
 TTK: 0.258362 Seconds
 
-[ Barrel: M40, Magazine: Scar L, Grip: P90, Stock: VSSR, Core: Hotdog ]
-damage: 33.6756 - 26.6037
+[ Barrel: M40, Magazine: ECHO11, Grip: Auto-5, Stock: VSSR, Core: Hotdog ]
+damage: 34.8566 - 27.5367
 dropoffStuds: 204 - 318.75
 fireRate: 462
-adsSpread: 0.474163
-hipfireSpread: 5.26848
-reloadTime: 2.73
-magazineSize: 40
-recoilHipVertical: 39.368 - 44.156
-recoilAimVertical: 25.5892 - 28.6748
-movementSpeed: 2
+adsSpread: 0.441907
+hipfireSpread: 4.91008
+reloadTime: 3.8
+magazineSize: 50
+recoilHipVertical: 38.0885 - 42.7209
+recoilAimVertical: 24.7576 - 27.7429
+movementSpeed: 0.5
 TTK: 0.25974 Seconds
 
-[ Barrel: M1891, Magazine: Restroom, Grip: M1891, Stock: Dragunov, Core: Hotdog ]
-damage: 33.6 - 26.3808
-dropoffStuds: 203.52 - 318
-fireRate: 459.8
-adsSpread: 0.570375
-hipfireSpread: 6.3375
-reloadTime: 4.21877
-magazineSize: 35
-recoilHipVertical: 40.256 - 45.152
-recoilAimVertical: 26.1664 - 29.3216
-movementSpeed: 2
-TTK: 0.260983 Seconds
-
-[ Barrel: M40, Magazine: Scar L, Grip: M1891, Stock: Dragunov, Core: Hotdog ]
-damage: 33.6756 - 26.8924
-dropoffStuds: 212 - 331.25
-fireRate: 459.8
-adsSpread: 0.4914
-hipfireSpread: 5.46
-reloadTime: 3.795
-magazineSize: 40
-recoilHipVertical: 38.2432 - 42.8944
-recoilAimVertical: 24.8581 - 27.8555
-movementSpeed: 2
-TTK: 0.260983 Seconds
-
-[ Barrel: M40, Magazine: Scar L, Grip: VSSR, Stock: MAC-10, Core: Hotdog ]
-damage: 33.6756 - 26.6037
+[ Barrel: M40, Magazine: ECHO11, Grip: Auto-5, Stock: MP18, Core: Hotdog ]
+damage: 34.8566 - 27.5367
 dropoffStuds: 204 - 318.75
-fireRate: 459.8
-adsSpread: 0.508032
-hipfireSpread: 5.6448
-reloadTime: 3
-magazineSize: 46
-recoilHipVertical: 39.368 - 44.156
-recoilAimVertical: 25.5892 - 28.6748
-movementSpeed: 2.6
-TTK: 0.260983 Seconds
-
-[ Barrel: M40, Magazine: Scar L, Grip: G11, Stock: Maple Badger, Core: Hotdog ]
-damage: 33.6756 - 26.4594
-dropoffStuds: 200 - 312.5
-fireRate: 459.8
-adsSpread: 0.4536
-hipfireSpread: 5.04
-reloadTime: 3.021
-magazineSize: 40
-recoilHipVertical: 39.9304 - 44.7868
-recoilAimVertical: 25.9548 - 29.0844
-movementSpeed: 0.5
-TTK: 0.260983 Seconds
+fireRate: 462
+adsSpread: 0.39456
+hipfireSpread: 4.384
+reloadTime: 4.332
+magazineSize: 50
+recoilHipVertical: 40.265 - 45.1621
+recoilAimVertical: 26.1723 - 29.3282
+movementSpeed: 6
+TTK: 0.25974 Seconds
 

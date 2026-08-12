@@ -1,141 +1,143 @@
 ./wggcalc -o InterestingBuilds/LowRecoilBeam.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 45 --spreadAimMax 0.4 --rangeMin 150 --speedMin 0 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: MG42, Magazine: Type 11, Grip: Snake Sniper, Stock: MG42, Core: Burton ]
-damage: 14.7 - 10.2104
-dropoffStuds: 151.632 - 324.324
-fireRate: 1269
-adsSpread: 0.38178
-hipfireSpread: 3.8178
-reloadTime: 5.5
-magazineSize: 100
-health: -7.5
-recoilHipVertical: 15.86 - 17.446
-recoilAimVertical: 5.551 - 6.0268
-movementSpeed: 2.5
-TTK: 0.283688 Seconds
+[ Barrel: Shower, Magazine: Mega Soaker, Grip: FG-42, Stock: STG-44, Core: QBZ-95 ]
+damage: 16.8322 - 13.8966
+dropoffStuds: 182 - 341.25
+pellets: 2
+fireRate: 1012.32
+adsSpread: 0.361251
+hipfireSpread: 12.6438
+reloadTime: 7.36965
+magazineSize: 60
+recoilHipVertical: 10.4429 - 12.6806
+recoilAimVertical: 5.74358 - 6.97435
+movementSpeed: 3
+TTK: 0.29635 Seconds
 
-[ Barrel: MG42, Magazine: Type 11, Grip: Lightning Shot, Stock: Type 2a Nambu, Core: Burton ]
-damage: 14.7 - 10.2104
-dropoffStuds: 151.632 - 324.324
-fireRate: 1249.96
-adsSpread: 0.39758
-hipfireSpread: 3.9758
-reloadTime: 5
-magazineSize: 100
-health: -14
-recoilHipVertical: 15.258 - 16.7838
-recoilAimVertical: 5.34029 - 5.79803
-movementSpeed: 0.725
-TTK: 0.288008 Seconds
+[ Barrel: Shower, Magazine: Mega Soaker, Grip: M1887, Stock: Type 2a Nambu, Core: QBZ-95 ]
+damage: 16.8322 - 13.8966
+dropoffStuds: 182 - 341.25
+pellets: 2
+fireRate: 1009.22
+adsSpread: 0.395821
+hipfireSpread: 13.8537
+reloadTime: 6.2775
+magazineSize: 60
+health: -3
+recoilHipVertical: 9.7314 - 11.8167
+recoilAimVertical: 5.35227 - 6.49919
+movementSpeed: 2.375
+TTK: 0.297258 Seconds
 
-[ Barrel: MG42, Magazine: Type 11, Grip: Lightning Shot, Stock: MG42, Core: Burton ]
-damage: 14.7 - 10.2104
-dropoffStuds: 151.632 - 324.324
-fireRate: 1249.96
-adsSpread: 0.3402
-hipfireSpread: 3.402
-reloadTime: 5.5
-magazineSize: 100
-health: -7.5
-recoilHipVertical: 17.94 - 19.734
-recoilAimVertical: 6.279 - 6.8172
-TTK: 0.288008 Seconds
-
-[ Barrel: Type 99, Magazine: Type 11, Grip: Type 2a Nambu, Stock: Spas-12, Core: Burton ]
-damage: 16.7481 - 12.0996
-dropoffStuds: 176.4 - 377.3
-fireRate: 1038.7
+[ Barrel: Type 99, Magazine: MG15, Grip: Type 2a Nambu, Stock: Spas-12, Core: Burton ]
+damage: 16.7481 - 11.8207
+dropoffStuds: 165.816 - 354.662
+fireRate: 1007.76
 adsSpread: 0.364354
 hipfireSpread: 3.64354
-reloadTime: 5.25
-magazineSize: 100
+reloadTime: 7.35
+magazineSize: 75
 health: -15
-recoilHipVertical: 12.3 - 13.53
-recoilAimVertical: 4.305 - 4.674
+recoilHipVertical: 18.081 - 19.8891
+recoilAimVertical: 6.32835 - 6.87078
 movementSpeed: 4.45
-TTK: 0.288823 Seconds
+TTK: 0.29769 Seconds
 
-[ Barrel: M870 MCS, Magazine: Type 11, Grip: Type 2a Nambu, Stock: Spas-12, Core: Burton ]
-damage: 16.8242 - 11.8745
-dropoffStuds: 165.816 - 354.662
-fireRate: 1038.7
+[ Barrel: M870 MCS, Magazine: MG15, Grip: Type 2a Nambu, Stock: Spas-12, Core: Burton ]
+damage: 16.8242 - 11.5775
+dropoffStuds: 155.867 - 333.382
+fireRate: 1007.76
 adsSpread: 0.399718
 hipfireSpread: 3.99718
-reloadTime: 5.5
-magazineSize: 100
+reloadTime: 7.7
+magazineSize: 75
 health: -15
-recoilHipVertical: 12.3 - 13.53
-recoilAimVertical: 4.305 - 4.674
+recoilHipVertical: 18.081 - 19.8891
+recoilAimVertical: 6.32835 - 6.87078
 movementSpeed: 6.45
-TTK: 0.288823 Seconds
+TTK: 0.29769 Seconds
 
-[ Barrel: MG15, Magazine: Type 11, Grip: AWM, Stock: Spas-12, Core: Burton ]
-damage: 14.4795 - 10.0186
-dropoffStuds: 156.996 - 335.797
-fireRate: 1241.25
-adsSpread: 0.395136
-hipfireSpread: 3.95136
-reloadTime: 5.264
-magazineSize: 100
-health: -7.5
-recoilHipVertical: 14.364 - 15.8004
-recoilAimVertical: 5.0274 - 5.45832
-movementSpeed: 0.5
-TTK: 0.290031 Seconds
-
-[ Barrel: MG15, Magazine: Type 11, Grip: M1 Garand, Stock: Mosin, Core: Burton ]
-damage: 14.4795 - 10.1061
-dropoffStuds: 160.2 - 342.65
-fireRate: 1218.88
-adsSpread: 0.396
-hipfireSpread: 3.96
-reloadTime: 4.7
-magazineSize: 100
-health: -7.5
-recoilHipVertical: 16.492 - 18.1412
-recoilAimVertical: 5.7722 - 6.26696
-movementSpeed: 0.5
-TTK: 0.295353 Seconds
-
-[ Barrel: Type 99, Magazine: Type 11, Grip: Type 2a Nambu, Stock: Lee Enfield, Core: Burton ]
-damage: 16.7481 - 11.9629
-dropoffStuds: 171 - 365.75
-fireRate: 1015.2
-adsSpread: 0.39038
-hipfireSpread: 3.9038
-reloadTime: 5.25
-magazineSize: 100
+[ Barrel: M870 MCS, Magazine: Graphics Card, Grip: Type 2a Nambu, Stock: Spas-12, Core: Burton ]
+damage: 16.8242 - 11.4785
+dropoffStuds: 152.551 - 326.289
+fireRate: 1007.76
+adsSpread: 0.399718
+hipfireSpread: 3.99718
+reloadTime: 6.6
+magazineSize: 50
 health: -15
-recoilHipVertical: 17.22 - 18.942
-recoilAimVertical: 6.027 - 6.5436
-movementSpeed: 7.45
-TTK: 0.295508 Seconds
+recoilHipVertical: 9.471 - 10.4181
+recoilAimVertical: 3.31485 - 3.59898
+movementSpeed: 6.45
+TTK: 0.29769 Seconds
 
-[ Barrel: MG15, Magazine: Type 11, Grip: MG42, Stock: FG-42, Core: Burton ]
-damage: 14.4795 - 10.1061
-dropoffStuds: 160.2 - 342.65
-fireRate: 1217.88
-adsSpread: 0.3915
-hipfireSpread: 3.915
-reloadTime: 4.841
-magazineSize: 100
-health: -7.5
-recoilHipVertical: 15.029 - 16.5319
-recoilAimVertical: 5.26015 - 5.71102
-movementSpeed: 0.0500002
-TTK: 0.295595 Seconds
+[ Barrel: Type 99, Magazine: Graphics Card, Grip: Type 2a Nambu, Stock: Spas-12, Core: Burton ]
+damage: 16.7481 - 11.7278
+dropoffStuds: 162.288 - 347.116
+fireRate: 1007.76
+adsSpread: 0.364354
+hipfireSpread: 3.64354
+reloadTime: 6.3
+magazineSize: 50
+health: -15
+recoilHipVertical: 9.471 - 10.4181
+recoilAimVertical: 3.31485 - 3.59898
+movementSpeed: 4.45
+TTK: 0.29769 Seconds
 
-[ Barrel: MG15, Magazine: Type 11, Grip: Controller, Stock: Pancake Hammer, Core: Burton ]
-damage: 14.4795 - 9.8437
-dropoffStuds: 150.588 - 322.091
-fireRate: 1217.74
-adsSpread: 0.396
-hipfireSpread: 3.96
-reloadTime: 4.7
-magazineSize: 100
-health: -7.5
-recoilHipVertical: 15.162 - 16.6782
-recoilAimVertical: 5.3067 - 5.76156
-movementSpeed: 3
-TTK: 0.295629 Seconds
+[ Barrel: Shower, Magazine: Mega Soaker, Grip: M1 Garand, Stock: Tommy, Core: QBZ-95 ]
+damage: 16.8322 - 13.8966
+dropoffStuds: 182 - 341.25
+pellets: 2
+fireRate: 1003.56
+adsSpread: 0.374296
+hipfireSpread: 13.1004
+reloadTime: 7.0875
+magazineSize: 60
+recoilHipVertical: 9.7314 - 11.8167
+recoilAimVertical: 5.35227 - 6.49919
+movementSpeed: 0.375
+TTK: 0.298934 Seconds
+
+[ Barrel: Shower, Magazine: Mega Soaker, Grip: M1 Garand, Stock: C36C, Core: QBZ-95 ]
+damage: 16.8322 - 13.8966
+dropoffStuds: 182 - 341.25
+pellets: 2
+fireRate: 1003.56
+adsSpread: 0.381321
+hipfireSpread: 13.3462
+reloadTime: 6.4125
+magazineSize: 60
+recoilHipVertical: 9.996 - 12.138
+recoilAimVertical: 5.4978 - 6.6759
+TTK: 0.298934 Seconds
+
+[ Barrel: Shower, Magazine: Mega Soaker, Grip: M1 Garand, Stock: Type 2a Nambu, Core: QBZ-95 ]
+damage: 16.8322 - 13.8966
+dropoffStuds: 182 - 341.25
+pellets: 2
+fireRate: 1003.56
+adsSpread: 0.344192
+hipfireSpread: 12.0467
+reloadTime: 6.75
+magazineSize: 60
+health: -6.5
+recoilHipVertical: 9.7314 - 11.8167
+recoilAimVertical: 5.35227 - 6.49919
+movementSpeed: 4.875
+TTK: 0.298934 Seconds
+
+[ Barrel: Type 99, Magazine: MG42, Grip: Type 2a Nambu, Stock: P90, Core: Burton ]
+damage: 16.7481 - 11.5716
+dropoffStuds: 152.434 - 326.039
+fireRate: 999.99
+adsSpread: 0.371529
+hipfireSpread: 3.71529
+reloadTime: 5.775
+magazineSize: 50
+health: -15
+recoilHipVertical: 17.1253 - 18.8378
+recoilAimVertical: 5.99385 - 6.50761
+movementSpeed: 4.1
+TTK: 0.300003 Seconds
 

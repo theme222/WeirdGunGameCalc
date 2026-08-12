@@ -42,20 +42,6 @@ recoilAimVertical: 30.8616 - 37.0339
 movementSpeed: 9.25
 TTK: 0.191166 Seconds
 
-[ Barrel: M870 Breacher, Magazine: Graphics Card, Grip: Mega Soaker, Stock: Speed Coil, Core: M2-Browning ]
-damage: 50.1975 - 16.8021
-dropoffStuds: 109.296 - 174.874
-fireRate: 309.225
-adsSpread: 0.61152
-hipfireSpread: 10.192
-reloadTime: 4.5
-magazineSize: 38
-health: 8
-recoilHipVertical: 35.112 - 42.1344
-recoilAimVertical: 28.0896 - 33.7075
-movementSpeed: 11.25
-TTK: 0.194033 Seconds
-
 [ Barrel: M870 Breacher, Magazine: Graphics Card, Grip: Lamp Shade, Stock: Speed Coil, Core: M2-Browning ]
 damage: 50.1975 - 15.1323
 dropoffStuds: 103.831 - 166.13
@@ -96,6 +82,20 @@ health: 8
 recoilHipVertical: 40.425 - 48.51
 recoilAimVertical: 32.34 - 38.808
 movementSpeed: 5.25
+TTK: 0.194033 Seconds
+
+[ Barrel: M870 Breacher, Magazine: Graphics Card, Grip: Mega Soaker, Stock: Speed Coil, Core: M2-Browning ]
+damage: 50.1975 - 16.8021
+dropoffStuds: 109.296 - 174.874
+fireRate: 309.225
+adsSpread: 0.61152
+hipfireSpread: 10.192
+reloadTime: 4.5
+magazineSize: 38
+health: 8
+recoilHipVertical: 35.112 - 42.1344
+recoilAimVertical: 28.0896 - 33.7075
+movementSpeed: 11.25
 TTK: 0.194033 Seconds
 
 [ Barrel: M870 Breacher, Magazine: Graphics Card, Grip: G43, Stock: Speed Coil, Core: M2-Browning ]

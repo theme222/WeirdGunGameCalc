@@ -34,11 +34,11 @@ dropoffStuds: 20 - 95
 fireRate: 1461.6
 adsSpread: 0.405889
 hipfireSpread: 0.992173
-reloadTime: 5.45
-magazineSize: 100
-health: -7.5
-recoilHipVertical: 45.756 - 64.0584
-recoilAimVertical: 27.4536 - 38.435
+reloadTime: 2.507
+magazineSize: 30
+health: -17.5
+recoilHipVertical: 57.6526 - 80.7136
+recoilAimVertical: 34.5915 - 48.4282
 movementSpeed: 7.25
 TTK: 0.410509 Seconds
 
@@ -48,11 +48,11 @@ dropoffStuds: 20 - 95
 fireRate: 1305
 adsSpread: 0.372375
 hipfireSpread: 0.91025
-reloadTime: 5.5
-magazineSize: 100
-health: -22.5
-recoilHipVertical: 45.018 - 63.0252
-recoilAimVertical: 27.0108 - 37.8151
+reloadTime: 2.53
+magazineSize: 30
+health: -32.5
+recoilHipVertical: 56.7227 - 79.4118
+recoilAimVertical: 34.0336 - 47.6471
 movementSpeed: 4.25
 TTK: 0.413793 Seconds
 
@@ -76,13 +76,40 @@ dropoffStuds: 20 - 95
 fireRate: 1291.95
 adsSpread: 0.372375
 hipfireSpread: 0.91025
-reloadTime: 5
-magazineSize: 100
-health: -7.5
-recoilHipVertical: 53.505 - 74.907
-recoilAimVertical: 32.103 - 44.9442
+reloadTime: 2.3
+magazineSize: 30
+health: -17.5
+recoilHipVertical: 67.4163 - 94.3828
+recoilAimVertical: 40.4498 - 56.6297
 movementSpeed: 2.25
 TTK: 0.417973 Seconds
+
+[ Barrel: Lex, Magazine: Mega Soaker, Grip: The Chief, Stock: None, Core: B17 ]
+damage: 11.2504 - 6.4567
+dropoffStuds: 20.748 - 98.553
+fireRate: 1144.8
+adsSpread: 0.376875
+hipfireSpread: 0.92125
+reloadTime: 6.642
+magazineSize: 51
+recoilHipVertical: 34.02 - 47.628
+recoilAimVertical: 20.412 - 28.5768
+movementSpeed: 3
+TTK: 0.419287 Seconds
+
+[ Barrel: Lex, Magazine: Mega Soaker, Grip: Type 2a Nambu, Stock: None, Core: B17 ]
+damage: 11.4904 - 6.59445
+dropoffStuds: 20.748 - 98.553
+fireRate: 1144.8
+adsSpread: 0.372375
+hipfireSpread: 0.91025
+reloadTime: 6.642
+magazineSize: 51
+health: -7.5
+recoilHipVertical: 30.996 - 43.3944
+recoilAimVertical: 18.5976 - 26.0366
+movementSpeed: 5.25
+TTK: 0.419287 Seconds
 
 [ Barrel: Deagle, Magazine: Mas-38, Grip: Quad-Jolly, Stock: None, Core: B17 ]
 damage: 11.1386 - 6.35321
@@ -97,45 +124,17 @@ recoilAimVertical: 35.433 - 49.6062
 movementSpeed: 1.625
 TTK: 0.419287 Seconds
 
-[ Barrel: SMO3, Magazine: MP 40, Grip: Type 2a Nambu, Stock: None, Core: B17 ]
-damage: 11.1113 - 6.0607
-dropoffStuds: 20 - 95
-fireRate: 1140
-adsSpread: 0.344447
-hipfireSpread: 0.841981
-reloadTime: 2.775
-magazineSize: 32
-health: -7.5
-recoilHipVertical: 42.435 - 59.409
-recoilAimVertical: 25.461 - 35.6454
-movementSpeed: 4.125
-TTK: 0.421053 Seconds
-
-[ Barrel: Car Muffler, Magazine: MP 40, Grip: Type 2a Nambu, Stock: None, Core: B17 ]
-damage: 11.2132 - 6.1163
-dropoffStuds: 20 - 95
-fireRate: 1140
-adsSpread: 0.344447
-hipfireSpread: 0.841981
-reloadTime: 2.75
-magazineSize: 32
-health: -22.5
-recoilHipVertical: 51.7707 - 72.479
-recoilAimVertical: 31.0624 - 43.4874
-movementSpeed: 4.25
-TTK: 0.421053 Seconds
-
-[ Barrel: Uzi, Magazine: FC200SH, Grip: Type 2a Nambu, Stock: None, Core: B17 ]
-damage: 10.0628 - 5.6366
-dropoffStuds: 20.3136 - 96.4896
-fireRate: 1281
-adsSpread: 0.38997
-hipfireSpread: 0.953259
-reloadTime: 3.2
+[ Barrel: Peacemaker, Magazine: QBZ-95, Grip: Type 2a Nambu, Stock: None, Core: B17 ]
+damage: 10.1231 - 5.67961
+dropoffStuds: 20.4135 - 96.9641
+fireRate: 1284
+adsSpread: 0.372375
+hipfireSpread: 0.91025
+reloadTime: 1.5
 magazineSize: 30
 health: -7.5
-recoilHipVertical: 36.9 - 51.66
-recoilAimVertical: 22.14 - 30.996
-movementSpeed: 2.75
-TTK: 0.421546 Seconds
+recoilHipVertical: 43.542 - 60.9588
+recoilAimVertical: 26.1252 - 36.5753
+movementSpeed: 2.25
+TTK: 0.420561 Seconds
 

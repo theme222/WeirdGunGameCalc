@@ -1,142 +1,142 @@
 ./wggcalc -o InterestingBuilds/SnipersWorstNightmare.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 75 --spreadAimMax 0.4 --rangeMin 175 -s HEALTH --TTKMax 0.25 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: M1917 WC, Magazine: M60, Grip: M1887, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25 - 18.0567
-dropoffStuds: 178.542 - 376.922
-fireRate: 731.704
-adsSpread: 0.1863
-hipfireSpread: 3.3534
-reloadTime: 7.7441
-magazineSize: 98
-health: 103.75
-recoilHipVertical: 6.4416 - 8.052
-recoilAimVertical: 3.2208 - 4.026
-movementSpeed: -119.5
-TTK: 0.246001 Seconds
+[ Barrel: M134 Minigun, Magazine: M134 Minigun, Grip: DIY Crossbow, Stock: SG-43, Core: M60 ]
+damage: 21 - 11.8811
+dropoffStuds: 183.274 - 356.902
+fireRate: 989.776
+adsSpread: 0.3388
+hipfireSpread: 2.904
+reloadTime: 19.04
+magazineSize: 650
+health: 126
+recoilHipVertical: 8.25 - 10.05
+recoilAimVertical: 4.95 - 6.03
+movementSpeed: -119
+TTK: 0.242479 Seconds
 
-[ Barrel: M1917 WC, Magazine: Type 11, Grip: DP-27, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25 - 18.63
-dropoffStuds: 196.2 - 414.2
-fireRate: 732.183
-adsSpread: 0.18
-hipfireSpread: 3.24
-reloadTime: 5.6028
-magazineSize: 130
-health: 102
-recoilHipVertical: 3.8544 - 4.818
-recoilAimVertical: 1.9272 - 2.409
-movementSpeed: -115
-TTK: 0.24584 Seconds
+[ Barrel: M134 Minigun, Magazine: M134 Minigun, Grip: X-Blaster, Stock: SG-43, Core: M60 ]
+damage: 21 - 11.6288
+dropoffStuds: 178.779 - 348.148
+fireRate: 1015.16
+adsSpread: 0.399784
+hipfireSpread: 3.42672
+reloadTime: 19.04
+magazineSize: 650
+health: 120.55
+recoilHipVertical: 8.25 - 10.05
+recoilAimVertical: 4.95 - 6.03
+movementSpeed: -116.025
+TTK: 0.236417 Seconds
 
-[ Barrel: M1917 WC, Magazine: M60, Grip: M1 Garand, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25 - 18.0567
-dropoffStuds: 178.542 - 376.922
-fireRate: 726.939
-adsSpread: 0.162
-hipfireSpread: 2.916
-reloadTime: 8.372
-magazineSize: 98
-health: 100
-recoilHipVertical: 6.4416 - 8.052
-recoilAimVertical: 3.2208 - 4.026
-movementSpeed: -117
-TTK: 0.247614 Seconds
+[ Barrel: M134 Minigun, Magazine: M134 Minigun, Grip: Lightning Shot, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25 - 17.9804
+dropoffStuds: 176.904 - 373.464
+fireRate: 805.027
+adsSpread: 0.17424
+hipfireSpread: 3.13632
+reloadTime: 19.04
+magazineSize: 650
+health: 120
+recoilHipVertical: 9.108 - 11.385
+recoilAimVertical: 4.554 - 5.6925
+movementSpeed: -133
+TTK: 0.223595 Seconds
 
-[ Barrel: M1917 WC, Magazine: M60, Grip: M1897 Trench Shotgun, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25 - 18.0567
-dropoffStuds: 178.542 - 376.922
-fireRate: 731.704
-adsSpread: 0.1701
-hipfireSpread: 3.0618
-reloadTime: 8.7906
-magazineSize: 98
-health: 100
-recoilHipVertical: 9.6624 - 12.078
-recoilAimVertical: 4.8312 - 6.039
-movementSpeed: -114
-TTK: 0.246001 Seconds
+[ Barrel: M134 Minigun, Magazine: M134 Minigun, Grip: Snake Sniper, Stock: SG-43, Core: M1919 .30 Cal ]
+damage: 25 - 17.9804
+dropoffStuds: 176.904 - 373.464
+fireRate: 817.286
+adsSpread: 0.195536
+hipfireSpread: 3.51965
+reloadTime: 19.04
+magazineSize: 650
+health: 120
+recoilHipVertical: 8.052 - 10.065
+recoilAimVertical: 4.026 - 5.0325
+movementSpeed: -130.5
+TTK: 0.220241 Seconds
 
-[ Barrel: M1917 WC, Magazine: M60, Grip: Negev, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25 - 18.0567
-dropoffStuds: 178.542 - 376.922
-fireRate: 735.107
-adsSpread: 0.1863
-hipfireSpread: 3.3534
-reloadTime: 8.372
-magazineSize: 98
-health: 100
-recoilHipVertical: 7.40784 - 9.2598
-recoilAimVertical: 3.70392 - 4.6299
-movementSpeed: -116.5
-TTK: 0.244862 Seconds
+[ Barrel: M134 Minigun, Magazine: M134 Minigun, Grip: RSH-12-Carbine, Stock: SG-43, Core: M60 ]
+damage: 21 - 11.493
+dropoffStuds: 176.358 - 343.434
+fireRate: 984.7
+adsSpread: 0.3388
+hipfireSpread: 2.904
+reloadTime: 19.04
+magazineSize: 650
+health: 118
+recoilHipVertical: 6.93 - 8.442
+recoilAimVertical: 4.158 - 5.0652
+movementSpeed: -125
+TTK: 0.243729 Seconds
 
-[ Barrel: M1917 WC, Magazine: M60, Grip: Lewis, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25 - 18.0567
-dropoffStuds: 178.542 - 376.922
-fireRate: 748.72
-adsSpread: 0.18468
-hipfireSpread: 3.32424
-reloadTime: 8.372
-magazineSize: 98
-health: 100
-recoilHipVertical: 9.2759 - 11.5949
-recoilAimVertical: 4.63795 - 5.79744
-movementSpeed: -120
-TTK: 0.24041 Seconds
+[ Barrel: M134 Minigun, Magazine: M134 Minigun, Grip: L8, Stock: SG-43, Core: M60 ]
+damage: 21 - 11.5173
+dropoffStuds: 176.79 - 344.276
+fireRate: 1015.16
+adsSpread: 0.3388
+hipfireSpread: 2.904
+reloadTime: 19.04
+magazineSize: 650
+health: 118
+recoilHipVertical: 7.44562 - 9.07012
+recoilAimVertical: 4.46737 - 5.44207
+movementSpeed: -119
+TTK: 0.236417 Seconds
 
-[ Barrel: M1917 WC, Magazine: M60, Grip: M1891, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25 - 18.0567
-dropoffStuds: 178.542 - 376.922
-fireRate: 735.107
-adsSpread: 0.2106
-hipfireSpread: 3.7908
-reloadTime: 9.6278
-magazineSize: 98
-health: 100
-recoilHipVertical: 6.4416 - 8.052
-recoilAimVertical: 3.2208 - 4.026
-movementSpeed: -110.8
-TTK: 0.244862 Seconds
+[ Barrel: M134 Minigun, Magazine: M134 Minigun, Grip: VSSR, Stock: SG-43, Core: M60 ]
+damage: 21 - 11.4542
+dropoffStuds: 175.666 - 342.087
+fireRate: 1015.16
+adsSpread: 0.379456
+hipfireSpread: 3.25248
+reloadTime: 19.04
+magazineSize: 650
+health: 118
+recoilHipVertical: 6.27 - 7.638
+recoilAimVertical: 3.762 - 4.5828
+movementSpeed: -121
+TTK: 0.236417 Seconds
 
-[ Barrel: M1917 WC, Magazine: Type 11, Grip: SMO3, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25 - 18.63
-dropoffStuds: 196.2 - 414.2
-fireRate: 750.957
-adsSpread: 0.2196
-hipfireSpread: 3.9528
-reloadTime: 6.44
-magazineSize: 130
-health: 98.9
-recoilHipVertical: 4.86816 - 6.0852
-recoilAimVertical: 2.43408 - 3.0426
-movementSpeed: -112.4
-TTK: 0.239694 Seconds
+[ Barrel: M134 Minigun, Magazine: M134 Minigun, Grip: Mosin, Stock: SG-43, Core: M60 ]
+damage: 21 - 11.8423
+dropoffStuds: 182.582 - 355.555
+fireRate: 989.776
+adsSpread: 0.3388
+hipfireSpread: 2.904
+reloadTime: 19.04
+magazineSize: 650
+health: 118
+recoilHipVertical: 8.25 - 10.05
+recoilAimVertical: 4.95 - 6.03
+movementSpeed: -116.6
+TTK: 0.242479 Seconds
 
-[ Barrel: M1917 WC, Magazine: MG15, Grip: SMO3, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25 - 18.2478
-dropoffStuds: 184.428 - 389.348
-fireRate: 728.588
-adsSpread: 0.2196
-hipfireSpread: 3.9528
-reloadTime: 9.016
-magazineSize: 98
-health: 98.9
-recoilHipVertical: 7.15619 - 8.94524
-recoilAimVertical: 3.5781 - 4.47262
-movementSpeed: -112.4
-TTK: 0.247053 Seconds
+[ Barrel: M134 Minigun, Magazine: M134 Minigun, Grip: Dragunov, Stock: SG-43, Core: M60 ]
+damage: 21 - 11.7113
+dropoffStuds: 180.248 - 351.01
+fireRate: 964.397
+adsSpread: 0.3388
+hipfireSpread: 2.904
+reloadTime: 19.04
+magazineSize: 650
+health: 118
+recoilHipVertical: 7.128 - 8.6832
+recoilAimVertical: 4.2768 - 5.20992
+movementSpeed: -119
+TTK: 0.24886 Seconds
 
-[ Barrel: M1917 WC, Magazine: MG15, Grip: M1887, Stock: SG-43, Core: M1919 .30 Cal ]
-damage: 25 - 18.2478
-dropoffStuds: 184.428 - 389.348
-fireRate: 783.232
-adsSpread: 0.207
-hipfireSpread: 3.726
-reloadTime: 8.3398
-magazineSize: 98
-health: 98.75
-recoilHipVertical: 7.7616 - 9.702
-recoilAimVertical: 3.8808 - 4.851
-movementSpeed: -120.5
-TTK: 0.229817 Seconds
+[ Barrel: M134 Minigun, Magazine: M134 Minigun, Grip: RSH, Stock: SG-43, Core: M60 ]
+damage: 21 - 11.687
+dropoffStuds: 179.816 - 350.168
+fireRate: 964.397
+adsSpread: 0.3388
+hipfireSpread: 2.904
+reloadTime: 19.04
+magazineSize: 650
+health: 118
+recoilHipVertical: 7.755 - 9.447
+recoilAimVertical: 4.653 - 5.6682
+movementSpeed: -119
+TTK: 0.24886 Seconds
 

@@ -1,5 +1,18 @@
 ./wggcalc -o InterestingBuilds/Fastest1TapMediumRange.txt -i Sniper --damageMin 100 --speedMin -5 --rangeMin 150 --sort FIRERATE --spreadAimMax 0.3 
 Current top 10 guns are: 
+[ Barrel: Spray Can, Magazine: Tankgewehr, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
+damage: 181.904 - 137.22
+dropoffStuds: 258.456 - 555.68
+fireRate: 115.422
+adsSpread: 0.273
+hipfireSpread: 10.92
+reloadTime: 10.5
+magazineSize: 1
+health: -20
+recoilHipVertical: 347.76 - 417.312
+recoilAimVertical: 177.358 - 236.477
+movementSpeed: 0.5
+
 [ Barrel: Spray Can, Magazine: Fat Cat, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
 damage: 242.539 - 123.38
 dropoffStuds: 172.304 - 370.454
@@ -26,6 +39,19 @@ recoilHipVertical: 165.186 - 198.223
 recoilAimVertical: 84.2449 - 112.326
 movementSpeed: -3
 
+[ Barrel: M40, Magazine: Tankgewehr, Grip: Auto-5, Stock: Speed Coil, Core: Barret .50 ]
+damage: 179.243 - 146.187
+dropoffStuds: 330 - 709.5
+fireRate: 110.637
+adsSpread: 0.29568
+hipfireSpread: 11.8272
+reloadTime: 10.5
+magazineSize: 1
+health: -20
+recoilHipVertical: 225.036 - 270.043
+recoilAimVertical: 114.768 - 153.024
+movementSpeed: 2
+
 [ Barrel: M40, Magazine: Fat Cat, Grip: Auto-5, Stock: Speed Coil, Core: Barret .50 ]
 damage: 238.991 - 150.841
 dropoffStuds: 220 - 473
@@ -38,6 +64,18 @@ health: -10
 recoilHipVertical: 80.37 - 96.444
 recoilAimVertical: 40.9887 - 54.6516
 movementSpeed: 5
+
+[ Barrel: M40, Magazine: Tankgewehr, Grip: Controller, Stock: Speed Coil, Core: Barret .50 ]
+damage: 183.839 - 149.935
+dropoffStuds: 330 - 709.5
+fireRate: 110.637
+adsSpread: 0.29568
+hipfireSpread: 11.8272
+reloadTime: 10.5
+magazineSize: 1
+health: -20
+recoilHipVertical: 272.916 - 327.499
+recoilAimVertical: 139.187 - 185.583
 
 [ Barrel: M40, Magazine: Fat Cat, Grip: Controller, Stock: Speed Coil, Core: Barret .50 ]
 damage: 245.119 - 154.709
@@ -65,6 +103,18 @@ recoilHipVertical: 100.602 - 120.722
 recoilAimVertical: 51.307 - 68.4094
 movementSpeed: 3
 
+[ Barrel: Mega Soaker, Magazine: Tankgewehr, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
+damage: 185.774 - 140.55
+dropoffStuds: 261.36 - 561.924
+fireRate: 109.651
+adsSpread: 0.273
+hipfireSpread: 10.92
+reloadTime: 10.5
+magazineSize: 1
+health: -20
+recoilHipVertical: 281.686 - 338.023
+recoilAimVertical: 143.66 - 191.546
+
 [ Barrel: Spray Can, Magazine: Fat Cat, Grip: Arisaka, Stock: Arisaka, Core: Barret .50 ]
 damage: 250.04 - 128.171
 dropoffStuds: 178 - 382.7
@@ -77,56 +127,4 @@ health: -4
 recoilHipVertical: 150 - 180
 recoilAimVertical: 76.5 - 102
 movementSpeed: -3.5
-
-[ Barrel: Kriss Vector, Magazine: Fat Cat, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
-damage: 250.279 - 126.21
-dropoffStuds: 170.368 - 366.291
-fireRate: 107.727
-adsSpread: 0.273
-hipfireSpread: 10.92
-reloadTime: 12
-magazineSize: 1
-health: -10
-recoilHipVertical: 113.022 - 135.626
-recoilAimVertical: 57.6412 - 76.855
-movementSpeed: 2.98
-
-[ Barrel: Dominus, Magazine: Fat Cat, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
-damage: 258.02 - 143.818
-dropoffStuds: 193.6 - 416.24
-fireRate: 107.727
-adsSpread: 0.29757
-hipfireSpread: 11.9028
-reloadTime: 13.08
-magazineSize: 1
-health: -10
-recoilHipVertical: 154.008 - 184.81
-recoilAimVertical: 78.5441 - 104.725
-movementSpeed: 6
-
-[ Barrel: M40, Magazine: Fat Cat, Grip: M249 SAW, Stock: Speed Coil, Core: Barret .50 ]
-damage: 245.119 - 154.709
-dropoffStuds: 220 - 473
-fireRate: 107.415
-adsSpread: 0.292992
-hipfireSpread: 11.7197
-reloadTime: 12
-magazineSize: 1
-health: -10
-recoilHipVertical: 91.485 - 109.782
-recoilAimVertical: 46.6573 - 62.2098
-movementSpeed: 1
-
-[ Barrel: M40, Magazine: Fat Cat, Grip: M1919 .30 Cal, Stock: Speed Coil, Core: Barret .50 ]
-damage: 245.119 - 154.709
-dropoffStuds: 220 - 473
-fireRate: 107.415
-adsSpread: 0.292992
-hipfireSpread: 11.7197
-reloadTime: 10.176
-magazineSize: 1
-health: -10
-recoilHipVertical: 106.875 - 128.25
-recoilAimVertical: 54.5062 - 72.675
-movementSpeed: 2.5
 

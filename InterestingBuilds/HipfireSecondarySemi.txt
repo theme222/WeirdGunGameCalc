@@ -1,5 +1,75 @@
 ./wggcalc -o InterestingBuilds/HipfireSecondarySemi.txt -i Sidearm --bfm Auto --spreadHipMax 1 --magazineMin 20 --speedMin 5 --rangeMin 40 
 Current top 10 guns are: 
+[ Barrel: Lex, Magazine: Paintball, Grip: Cyber 3517, Stock: None, Core: Type 14 ]
+damage: 34.6361 - 19.9494
+dropoffStuds: 40.299 - 92.112
+fireRate: 422.145
+adsSpread: 0.32745
+hipfireSpread: 0.91686
+reloadTime: 7.626
+magazineSize: 60
+health: -4
+recoilHipVertical: 7.8 - 18.2
+recoilAimVertical: 1.56 - 3.64
+movementSpeed: 8
+TTK: 0.284263 Seconds
+
+[ Barrel: Lex, Magazine: Five-7, Grip: Infinity, Stock: None, Core: Type 14 ]
+damage: 33.66 - 20.0157
+dropoffStuds: 41.7514 - 95.4317
+fireRate: 416.958
+adsSpread: 0.2925
+hipfireSpread: 0.819
+reloadTime: 2.6322
+magazineSize: 20
+health: -4
+recoilHipVertical: 6 - 14
+recoilAimVertical: 1.2 - 2.8
+movementSpeed: 11
+TTK: 0.287799 Seconds
+
+[ Barrel: Lex, Magazine: P08 Artillery, Grip: MP18, Stock: None, Core: Type 14 ]
+damage: 33.66 - 19.6221
+dropoffStuds: 40.7459 - 93.1334
+fireRate: 407.835
+adsSpread: 0.2275
+hipfireSpread: 0.637
+reloadTime: 3.075
+magazineSize: 27
+health: -4
+recoilHipVertical: 8.2656 - 19.2864
+recoilAimVertical: 1.65312 - 3.85728
+movementSpeed: 7
+TTK: 0.294237 Seconds
+
+[ Barrel: Lex, Magazine: P08 Artillery, Grip: Snake Sniper, Stock: None, Core: Type 14 ]
+damage: 33.66 - 19.416
+dropoffStuds: 40.2192 - 91.9296
+fireRate: 407.835
+adsSpread: 0.22
+hipfireSpread: 0.616
+reloadTime: 3.075
+magazineSize: 27
+health: -4
+recoilHipVertical: 8.1984 - 19.1296
+recoilAimVertical: 1.63968 - 3.82592
+movementSpeed: 7.5
+TTK: 0.294237 Seconds
+
+[ Barrel: Deagle, Magazine: Fedorov, Grip: Snake Sniper, Stock: None, Core: Type 14 ]
+damage: 34.1432 - 19.5422
+dropoffStuds: 40.4559 - 92.4706
+fireRate: 405
+adsSpread: 0.22
+hipfireSpread: 0.616
+reloadTime: 4
+magazineSize: 25
+health: -4
+recoilHipVertical: 13.9556 - 32.563
+recoilAimVertical: 2.79112 - 6.5126
+movementSpeed: 5.5
+TTK: 0.296296 Seconds
+
 [ Barrel: Deagle, Magazine: Fedorov, Grip: MP18, Stock: None, Core: Type 14 ]
 damage: 34.1432 - 19.7535
 dropoffStuds: 40.9856 - 93.6815
@@ -42,18 +112,18 @@ recoilAimVertical: 2.8365 - 6.6185
 movementSpeed: 5.5
 TTK: 0.296296 Seconds
 
-[ Barrel: Deagle, Magazine: Fedorov, Grip: Snake Sniper, Stock: None, Core: Type 14 ]
-damage: 34.1432 - 19.5422
-dropoffStuds: 40.4559 - 92.4706
+[ Barrel: Deagle, Magazine: Scar H, Grip: X-Blaster, Stock: None, Core: Type 14 ]
+damage: 35.1543 - 19.9539
+dropoffStuds: 40.0167 - 91.4667
 fireRate: 405
-adsSpread: 0.22
-hipfireSpread: 0.616
-reloadTime: 4
-magazineSize: 25
-health: -4
-recoilHipVertical: 13.9556 - 32.563
-recoilAimVertical: 2.79112 - 6.5126
-movementSpeed: 5.5
+adsSpread: 0.295
+hipfireSpread: 0.826
+reloadTime: 4.5
+magazineSize: 20
+health: -2.05
+recoilHipVertical: 11.625 - 27.125
+recoilAimVertical: 2.325 - 5.425
+movementSpeed: 9.275
 TTK: 0.296296 Seconds
 
 [ Barrel: Deagle, Magazine: FC200SH, Grip: Type 2a Nambu, Stock: None, Core: Type 14 ]
@@ -69,74 +139,4 @@ recoilHipVertical: 11.439 - 26.691
 recoilAimVertical: 2.2878 - 5.3382
 movementSpeed: 6.75
 TTK: 0.296296 Seconds
-
-[ Barrel: Deagle, Magazine: Scar H, Grip: X-Blaster, Stock: None, Core: Type 14 ]
-damage: 35.1543 - 19.9539
-dropoffStuds: 40.0167 - 91.4667
-fireRate: 405
-adsSpread: 0.295
-hipfireSpread: 0.826
-reloadTime: 4.5
-magazineSize: 20
-health: -2.05
-recoilHipVertical: 11.625 - 27.125
-recoilAimVertical: 2.325 - 5.425
-movementSpeed: 9.275
-TTK: 0.296296 Seconds
-
-[ Barrel: Deagle, Magazine: AR-10, Grip: Snake Sniper, Stock: None, Core: Type 14 ]
-damage: 34.4465 - 19.6141
-dropoffStuds: 40.2074 - 91.9027
-fireRate: 398.925
-adsSpread: 0.2772
-hipfireSpread: 0.77616
-reloadTime: 3.25
-magazineSize: 20
-health: -4
-recoilHipVertical: 11.346 - 26.474
-recoilAimVertical: 2.2692 - 5.2948
-movementSpeed: 5.5
-TTK: 0.300808 Seconds
-
-[ Barrel: Deagle, Magazine: AR-10, Grip: MP18, Stock: None, Core: Type 14 ]
-damage: 34.4465 - 19.8288
-dropoffStuds: 40.734 - 93.1062
-fireRate: 398.925
-adsSpread: 0.28665
-hipfireSpread: 0.80262
-reloadTime: 3.25
-magazineSize: 20
-health: -4
-recoilHipVertical: 11.439 - 26.691
-recoilAimVertical: 2.2878 - 5.3382
-movementSpeed: 5
-TTK: 0.300808 Seconds
-
-[ Barrel: Deagle, Magazine: Scar H, Grip: Mosin, Stock: None, Core: Type 14 ]
-damage: 35.1543 - 20.0944
-dropoffStuds: 40.3677 - 92.269
-fireRate: 394.875
-adsSpread: 0.25
-hipfireSpread: 0.7
-reloadTime: 4.5
-magazineSize: 20
-health: -4
-recoilHipVertical: 11.625 - 27.125
-recoilAimVertical: 2.325 - 5.425
-movementSpeed: 8.5
-TTK: 0.303894 Seconds
-
-[ Barrel: Deagle, Magazine: Scar H, Grip: Dragunov, Stock: None, Core: Type 14 ]
-damage: 35.1543 - 20.0554
-dropoffStuds: 40.2702 - 92.0461
-fireRate: 384.75
-adsSpread: 0.25
-hipfireSpread: 0.7
-reloadTime: 4.5
-magazineSize: 20
-health: -4
-recoilHipVertical: 10.416 - 24.304
-recoilAimVertical: 2.0832 - 4.8608
-movementSpeed: 7
-TTK: 0.311891 Seconds
 

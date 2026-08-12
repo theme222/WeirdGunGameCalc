@@ -1,18 +1,32 @@
 ./wggcalc -o InterestingBuilds/FastestGuaranteed1Tap.txt -i Sniper BR --damageEndMin 100 --spreadAimMax 0.15 --sort FIRERATE --speedMin -5 --magazineMin 5 
 Current top 10 guns are: 
-[ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
-damage: 37.2067 - 109.221
-dropoffStuds: 15.834 - 554.19
-fireRate: 21.12
-adsSpread: 0.122736
-hipfireSpread: 17.5337
-reloadTime: 4.59
-magazineSize: 60
-health: -3
-recoilHipVertical: 175.241 - 233.654
-recoilAimVertical: 87.6204 - 116.827
-movementSpeed: -3.5
-TTK: 5.68182 Seconds
+[ Barrel: Volley, Magazine: AirStrike, Grip: Fire Flamer, Stock: Fire Flamer, Core: AWM ]
+damage: 119.437 - 106.682
+dropoffStuds: 464.048 - 696.072
+pellets: 56
+fireRate: 22.05
+adsSpread: 0.10126
+hipfireSpread: 30.378
+reloadTime: 3
+magazineSize: 15
+health: 3
+recoilHipVertical: 142.155 - 189.54
+recoilAimVertical: 71.0775 - 94.77
+movementSpeed: -5
+
+[ Barrel: Volley, Magazine: JSG12, Grip: Fire Flamer, Stock: Fire Flamer, Core: AWM ]
+damage: 120.94 - 108.025
+dropoffStuds: 464.048 - 696.072
+pellets: 56
+fireRate: 21.63
+adsSpread: 0.0896998
+hipfireSpread: 26.91
+reloadTime: 7.5
+magazineSize: 15
+health: 3
+recoilHipVertical: 179.115 - 238.82
+recoilAimVertical: 89.5576 - 119.41
+movementSpeed: -5
 
 [ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Arisaka, Stock: FAL, Core: Lightning Shot ]
 damage: 37.2067 - 106.161
@@ -28,19 +42,19 @@ recoilAimVertical: 93.366 - 124.488
 movementSpeed: -3.33
 TTK: 5.68182 Seconds
 
-[ Barrel: Uzi, Magazine: Arisaka, Grip: Type 2a Nambu, Stock: AWM, Core: Lightning Shot ]
-damage: 37.2397 - 100.441
-dropoffStuds: 18.4 - 644
-fireRate: 21.08
-adsSpread: 0.146334
-hipfireSpread: 20.9048
-reloadTime: 3.4
-magazineSize: 5
-health: -6.5
-recoilHipVertical: 156.663 - 208.884
-recoilAimVertical: 78.3313 - 104.442
-movementSpeed: -0.3
-TTK: 5.6926 Seconds
+[ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
+damage: 37.2067 - 109.221
+dropoffStuds: 15.834 - 554.19
+fireRate: 21.12
+adsSpread: 0.122736
+hipfireSpread: 17.5337
+reloadTime: 4.59
+magazineSize: 60
+health: -3
+recoilHipVertical: 175.241 - 233.654
+recoilAimVertical: 87.6204 - 116.827
+movementSpeed: -3.5
+TTK: 5.68182 Seconds
 
 [ Barrel: Uzi, Magazine: Arisaka, Grip: Hell-Trooper-23, Stock: AWM, Core: Lightning Shot ]
 damage: 36.05 - 100.597
@@ -53,6 +67,20 @@ magazineSize: 5
 health: 1
 recoilHipVertical: 127.368 - 169.824
 recoilAimVertical: 63.684 - 84.912
+TTK: 5.6926 Seconds
+
+[ Barrel: Uzi, Magazine: Arisaka, Grip: Type 2a Nambu, Stock: AWM, Core: Lightning Shot ]
+damage: 37.2397 - 100.441
+dropoffStuds: 18.4 - 644
+fireRate: 21.08
+adsSpread: 0.146334
+hipfireSpread: 20.9048
+reloadTime: 3.4
+magazineSize: 5
+health: -6.5
+recoilHipVertical: 156.663 - 208.884
+recoilAimVertical: 78.3313 - 104.442
+movementSpeed: -0.3
 TTK: 5.6926 Seconds
 
 [ Barrel: M1 Garand, Magazine: M60, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
@@ -69,74 +97,44 @@ recoilAimVertical: 66.978 - 89.304
 movementSpeed: -3.7
 TTK: 5.70342 Seconds
 
-[ Barrel: PP-19 Bizon, Magazine: Arisaka, Grip: AWM, Stock: AWM, Core: Lightning Shot ]
-damage: 36.89 - 100.657
-dropoffStuds: 18 - 630
-fireRate: 20.6
-adsSpread: 0.136182
-hipfireSpread: 19.4545
-reloadTime: 3.808
-magazineSize: 5
-health: 1
-recoilHipVertical: 171.947 - 229.262
-recoilAimVertical: 85.9734 - 114.631
-movementSpeed: -3
-TTK: 5.82524 Seconds
+[ Barrel: Volley, Magazine: Fire Flamer, Grip: Arisaka, Stock: AirStrike, Core: AWM ]
+damage: 114.447 - 101.098
+dropoffStuds: 423.2 - 634.8
+pellets: 49
+fireRate: 21
+adsSpread: 0.137519
+hipfireSpread: 41.2557
+reloadTime: 8.5
+magazineSize: 100
+health: -1
+recoilHipVertical: 175.5 - 234
+recoilAimVertical: 87.75 - 117
 
-[ Barrel: Scar H, Magazine: Graphics Card, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
-damage: 39.4625 - 100.743
-dropoffStuds: 19.964 - 698.74
-fireRate: 20.52
-adsSpread: 0.1487
-hipfireSpread: 21.2428
-reloadTime: 5.1
-magazineSize: 50
-health: -3
-recoilHipVertical: 101.455 - 135.274
-recoilAimVertical: 50.7276 - 67.6368
-movementSpeed: -4.5
-TTK: 5.84795 Seconds
+[ Barrel: Volley, Magazine: Fire Flamer, Grip: Fire Flamer, Stock: FAL, Core: AWM ]
+damage: 117.674 - 104.138
+dropoffStuds: 427.95 - 641.926
+pellets: 84
+fireRate: 21
+adsSpread: 0.140647
+hipfireSpread: 42.1942
+reloadTime: 8.5
+magazineSize: 100
+health: 8
+recoilHipVertical: 228.15 - 304.2
+recoilAimVertical: 114.075 - 152.1
+movementSpeed: -4.83
 
-[ Barrel: Second Amendment, Magazine: AUG, Grip: Arisaka, Stock: Mosin, Core: Lightning Shot ]
-damage: 37.5984 - 111.039
-dropoffStuds: 15.66 - 548.1
-fireRate: 20.0883
-adsSpread: 0.149266
-hipfireSpread: 21.3237
-reloadTime: 3
-magazineSize: 42
-health: -3
-recoilHipVertical: 212.04 - 282.72
-recoilAimVertical: 106.02 - 141.36
-movementSpeed: -4.75
-TTK: 5.97363 Seconds
-
-[ Barrel: Scar H, Magazine: Kriss Vector, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
-damage: 37.884 - 100.527
-dropoffStuds: 18.445 - 645.575
-fireRate: 20.052
-adsSpread: 0.1487
-hipfireSpread: 21.2428
-reloadTime: 2.04
-magazineSize: 30
-health: -3
-recoilHipVertical: 119.902 - 159.869
-recoilAimVertical: 59.9508 - 79.9344
-movementSpeed: -2.52
-TTK: 5.98444 Seconds
-
-[ Barrel: Quad-Jolly, Magazine: Arisaka, Grip: AWM, Stock: AWM, Core: Lightning Shot ]
-damage: 38.0612 - 102.656
-dropoffStuds: 18.4 - 644
-pellets: 2
-fireRate: 20
-adsSpread: 0.138075
-hipfireSpread: 19.725
-reloadTime: 3.808
-magazineSize: 5
-health: 1
-recoilHipVertical: 137.557 - 183.41
-recoilAimVertical: 68.7787 - 91.705
-movementSpeed: -4.5
-TTK: 6 Seconds
+[ Barrel: Volley, Magazine: Fire Flamer, Grip: Fire Flamer, Stock: MG42, Core: AWM ]
+damage: 117.674 - 103.537
+dropoffStuds: 410.504 - 615.756
+pellets: 84
+fireRate: 21
+adsSpread: 0.146032
+hipfireSpread: 43.8097
+reloadTime: 9.35
+magazineSize: 100
+health: 8
+recoilHipVertical: 175.5 - 234
+recoilAimVertical: 87.75 - 117
+movementSpeed: -2.2
 
