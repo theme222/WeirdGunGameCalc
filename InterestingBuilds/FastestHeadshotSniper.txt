@@ -41,45 +41,17 @@ recoilAimVertical: 132.753 - 177.003
 movementSpeed: 0.1
 TTK: 0.647249 Seconds
 
-[ Barrel: Arisaka, Magazine: AK-12, Grip: Arisaka, Stock: AWM, Core: Barret .50 ]
-damage: 66.5 - 38.833
-dropoffStuds: 210.5 - 452.575
-fireRate: 90
-adsSpread: 0.147122
-hipfireSpread: 5.88487
-reloadTime: 1.6456
-magazineSize: 30
-health: -12
-recoilHipVertical: 287.896 - 345.475
-recoilAimVertical: 146.827 - 195.769
-movementSpeed: 3
-TTK: 0.666667 Seconds
-
-[ Barrel: Arisaka, Magazine: Type 99, Grip: Arisaka, Stock: AWM, Core: Barret .50 ]
-damage: 70.49 - 41.5189
-dropoffStuds: 212.8 - 457.52
-fireRate: 90
-adsSpread: 0.139838
-hipfireSpread: 5.59354
-reloadTime: 2.244
-magazineSize: 30
-health: -12
-recoilHipVertical: 255.57 - 306.685
-recoilAimVertical: 130.341 - 173.788
-movementSpeed: 2
-TTK: 0.666667 Seconds
-
-[ Barrel: M1891, Magazine: Mas-38, Grip: Arisaka, Stock: Winchester, Core: Barret .50 ]
-damage: 68.495 - 45.0117
-dropoffStuds: 245.76 - 528.384
+[ Barrel: AWM, Magazine: Mas-38, Grip: Arisaka, Stock: Winchester, Core: Barret .50 ]
+damage: 71.9197 - 45.7211
+dropoffStuds: 235.52 - 506.368
 fireRate: 90
 adsSpread: 0.149719
 hipfireSpread: 5.98877
-reloadTime: 3.22
+reloadTime: 2.8
 magazineSize: 32
 health: -6
-recoilHipVertical: 234.315 - 281.178
-recoilAimVertical: 119.501 - 159.334
+recoilHipVertical: 410.051 - 492.061
+recoilAimVertical: 209.126 - 278.835
 movementSpeed: 0.200001
 TTK: 0.666667 Seconds
 
@@ -97,20 +69,6 @@ recoilAimVertical: 145.791 - 194.388
 movementSpeed: 1.4
 TTK: 0.666667 Seconds
 
-[ Barrel: Arisaka, Magazine: M40, Grip: Arisaka, Stock: AWM, Core: Barret .50 ]
-damage: 77.14 - 50.0424
-dropoffStuds: 240 - 516
-fireRate: 90
-adsSpread: 0.144047
-hipfireSpread: 5.76186
-reloadTime: 3.366
-magazineSize: 10
-health: -12
-recoilHipVertical: 315.675 - 378.81
-recoilAimVertical: 160.994 - 214.659
-movementSpeed: 3
-TTK: 0.666667 Seconds
-
 [ Barrel: Arisaka, Magazine: Mas-38, Grip: Arisaka, Stock: AWM, Core: Barret .50 ]
 damage: 68.495 - 39.1408
 dropoffStuds: 204.8 - 440.32
@@ -125,17 +83,59 @@ recoilAimVertical: 163.57 - 218.094
 movementSpeed: 5.1
 TTK: 0.666667 Seconds
 
-[ Barrel: AWM, Magazine: Mas-38, Grip: Arisaka, Stock: Winchester, Core: Barret .50 ]
-damage: 71.9197 - 45.7211
-dropoffStuds: 235.52 - 506.368
+[ Barrel: Arisaka, Magazine: AK-12, Grip: Arisaka, Stock: AWM, Core: Barret .50 ]
+damage: 66.5 - 38.833
+dropoffStuds: 210.5 - 452.575
+fireRate: 90
+adsSpread: 0.147122
+hipfireSpread: 5.88487
+reloadTime: 1.6456
+magazineSize: 30
+health: -12
+recoilHipVertical: 287.896 - 345.475
+recoilAimVertical: 146.827 - 195.769
+movementSpeed: 3
+TTK: 0.666667 Seconds
+
+[ Barrel: M1891, Magazine: Mas-38, Grip: Arisaka, Stock: Winchester, Core: Barret .50 ]
+damage: 68.495 - 45.0117
+dropoffStuds: 245.76 - 528.384
 fireRate: 90
 adsSpread: 0.149719
 hipfireSpread: 5.98877
-reloadTime: 2.8
+reloadTime: 3.22
 magazineSize: 32
 health: -6
-recoilHipVertical: 410.051 - 492.061
-recoilAimVertical: 209.126 - 278.835
+recoilHipVertical: 234.315 - 281.178
+recoilAimVertical: 119.501 - 159.334
 movementSpeed: 0.200001
+TTK: 0.666667 Seconds
+
+[ Barrel: Arisaka, Magazine: M40, Grip: Arisaka, Stock: AWM, Core: Barret .50 ]
+damage: 77.14 - 50.0424
+dropoffStuds: 240 - 516
+fireRate: 90
+adsSpread: 0.144047
+hipfireSpread: 5.76186
+reloadTime: 3.366
+magazineSize: 10
+health: -12
+recoilHipVertical: 315.675 - 378.81
+recoilAimVertical: 160.994 - 214.659
+movementSpeed: 3
+TTK: 0.666667 Seconds
+
+[ Barrel: Arisaka, Magazine: Type 99, Grip: Arisaka, Stock: AWM, Core: Barret .50 ]
+damage: 70.49 - 41.5189
+dropoffStuds: 212.8 - 457.52
+fireRate: 90
+adsSpread: 0.139838
+hipfireSpread: 5.59354
+reloadTime: 2.244
+magazineSize: 30
+health: -12
+recoilHipVertical: 255.57 - 306.685
+recoilAimVertical: 130.341 - 173.788
+movementSpeed: 2
 TTK: 0.666667 Seconds
 

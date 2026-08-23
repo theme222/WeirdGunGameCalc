@@ -1,19 +1,5 @@
 ./wggcalc -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: Type 99, Magazine: Graphics Card, Grip: G43, Stock: Speed Coil, Core: M2-Browning ]
-damage: 50.0556 - 19.782
-dropoffStuds: 121.44 - 194.304
-fireRate: 309.225
-adsSpread: 0.357
-hipfireSpread: 5.95
-reloadTime: 4.725
-magazineSize: 30
-health: 5
-recoilHipVertical: 39.5241 - 47.4289
-recoilAimVertical: 31.6193 - 37.9431
-movementSpeed: 5
-TTK: 0.194033 Seconds
-
 [ Barrel: M870 MCS, Magazine: Graphics Card, Grip: G43, Stock: Speed Coil, Core: M2-Browning ]
 damage: 50.2832 - 18.0472
 dropoffStuds: 114.154 - 182.646
@@ -40,6 +26,20 @@ health: 5
 recoilHipVertical: 35.5717 - 42.686
 recoilAimVertical: 28.4574 - 34.1488
 movementSpeed: 1
+TTK: 0.194033 Seconds
+
+[ Barrel: Type 99, Magazine: Graphics Card, Grip: G43, Stock: Speed Coil, Core: M2-Browning ]
+damage: 50.0556 - 19.782
+dropoffStuds: 121.44 - 194.304
+fireRate: 309.225
+adsSpread: 0.357
+hipfireSpread: 5.95
+reloadTime: 4.725
+magazineSize: 30
+health: 5
+recoilHipVertical: 39.5241 - 47.4289
+recoilAimVertical: 31.6193 - 37.9431
+movementSpeed: 5
 TTK: 0.194033 Seconds
 
 [ Barrel: M60, Magazine: Graphics Card, Grip: Musket, Stock: Speed Coil, Core: M2-Browning ]

@@ -266,7 +266,7 @@
       "Damage": 11,
       "Range": -7,
       "Recoil": -16,
-      "Spin_up": 0.35
+      "Spin_Up": 0.35
     },
       {
         "Price_Type": "Coin",
@@ -1978,7 +1978,7 @@
       "Damage": 10,
       "Range": -11,
       "Fire_Rate": 8,
-      "Spin_up": 0.35
+      "Spin_Up": 0.35
     },
 
     {

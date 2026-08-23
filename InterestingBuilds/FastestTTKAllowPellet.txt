@@ -15,20 +15,6 @@ recoilAimVertical: 14.2155 - 17.8484
 movementSpeed: 2.5
 TTK: 0.235294 Seconds
 
-[ Barrel: M134 Minigun, Magazine: DP-27, Grip: Double Barrel, Stock: Speed Coil, Core: Type 11 ]
-damage: 25.568 - 20.1271
-dropoffStuds: 175.56 - 267.96
-fireRate: 742.374
-adsSpread: 0.63525
-hipfireSpread: 8.47
-reloadTime: 3.6
-magazineSize: 36
-health: 27
-recoilHipVertical: 58.9788 - 78.1812
-recoilAimVertical: 23.5915 - 31.2725
-movementSpeed: 0.5
-TTK: 0.242465 Seconds
-
 [ Barrel: M134 Minigun, Magazine: DP-27, Grip: Type 2a Nambu, Stock: Speed Coil, Core: Type 11 ]
 damage: 25.0717 - 19.7365
 dropoffStuds: 175.56 - 267.96
@@ -41,6 +27,20 @@ health: 19.5
 recoilHipVertical: 40.3022 - 53.4238
 recoilAimVertical: 16.1209 - 21.3695
 movementSpeed: 4.45
+TTK: 0.242465 Seconds
+
+[ Barrel: M134 Minigun, Magazine: DP-27, Grip: Double Barrel, Stock: Speed Coil, Core: Type 11 ]
+damage: 25.568 - 20.1271
+dropoffStuds: 175.56 - 267.96
+fireRate: 742.374
+adsSpread: 0.63525
+hipfireSpread: 8.47
+reloadTime: 3.6
+magazineSize: 36
+health: 27
+recoilHipVertical: 58.9788 - 78.1812
+recoilAimVertical: 23.5915 - 31.2725
+movementSpeed: 0.5
 TTK: 0.242465 Seconds
 
 [ Barrel: Type 99, Magazine: Burton, Grip: Arisaka, Stock: Type 2a Nambu, Core: MG42 ]
@@ -71,6 +71,20 @@ recoilAimVertical: 23.3995 - 33.554
 movementSpeed: 1.125
 TTK: 0.251046 Seconds
 
+[ Barrel: 2+2=4, Magazine: Fire Flamer, Grip: Lee Enfield, Stock: Fire Flamer, Core: QBZ-95 ]
+damage: 25.3897 - 20.4619
+dropoffStuds: 158.829 - 297.804
+pellets: 48
+fireRate: 714.867
+adsSpread: 0.457011
+hipfireSpread: 15.9954
+reloadTime: 8.09744
+magazineSize: 100
+health: 5
+recoilHipVertical: 45.36 - 55.08
+recoilAimVertical: 24.948 - 30.294
+TTK: 0.251795 Seconds
+
 [ Barrel: 2+2=4, Magazine: Fire Flamer, Grip: M1891, Stock: Fire Flamer, Core: QBZ-95 ]
 damage: 25.3897 - 21.1779
 dropoffStuds: 191.36 - 358.8
@@ -84,20 +98,6 @@ health: 5
 recoilHipVertical: 45.36 - 55.08
 recoilAimVertical: 24.948 - 30.294
 movementSpeed: 2.8
-TTK: 0.251795 Seconds
-
-[ Barrel: 2+2=4, Magazine: Fire Flamer, Grip: Lee Enfield, Stock: Fire Flamer, Core: QBZ-95 ]
-damage: 25.3897 - 20.4619
-dropoffStuds: 158.829 - 297.804
-pellets: 48
-fireRate: 714.867
-adsSpread: 0.457011
-hipfireSpread: 15.9954
-reloadTime: 8.09744
-magazineSize: 100
-health: 5
-recoilHipVertical: 45.36 - 55.08
-recoilAimVertical: 24.948 - 30.294
 TTK: 0.251795 Seconds
 
 [ Barrel: M134 Minigun, Magazine: PP-19 Bizon, Grip: Double Barrel, Stock: Speed Coil, Core: Type 11 ]

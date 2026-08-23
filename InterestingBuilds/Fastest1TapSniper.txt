@@ -37,18 +37,6 @@ recoilHipVertical: 54 - 72
 recoilAimVertical: 27 - 36
 movementSpeed: -5
 
-[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: M870 Breacher, Core: AWM ]
-damage: 100.386 - 87.191
-dropoffStuds: 300.713 - 451.069
-fireRate: 24.7144
-adsSpread: 0.0805
-hipfireSpread: 24.15
-reloadTime: 4.7916
-magazineSize: 20
-recoilHipVertical: 129.375 - 172.5
-recoilAimVertical: 64.6875 - 86.25
-movementSpeed: -2
-
 [ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: Siberia-12, Core: AWM ]
 damage: 100.386 - 87.191
 dropoffStuds: 300.713 - 451.069
@@ -60,6 +48,18 @@ magazineSize: 20
 recoilHipVertical: 126 - 168
 recoilAimVertical: 63 - 84
 movementSpeed: -5
+
+[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: M870 Breacher, Core: AWM ]
+damage: 100.386 - 87.191
+dropoffStuds: 300.713 - 451.069
+fireRate: 24.7144
+adsSpread: 0.0805
+hipfireSpread: 24.15
+reloadTime: 4.7916
+magazineSize: 20
+recoilHipVertical: 129.375 - 172.5
+recoilAimVertical: 64.6875 - 86.25
+movementSpeed: -2
 
 [ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: Circuit Judge, Core: AWM ]
 damage: 100.386 - 87.191
@@ -85,18 +85,6 @@ recoilHipVertical: 112.5 - 150
 recoilAimVertical: 56.25 - 75
 movementSpeed: -5
 
-[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: MAC-10, Core: AWM ]
-damage: 100.386 - 87.191
-dropoffStuds: 300.713 - 451.069
-fireRate: 24.6425
-adsSpread: 0.084
-hipfireSpread: 25.2
-reloadTime: 5.445
-magazineSize: 22
-recoilHipVertical: 112.5 - 150
-recoilAimVertical: 56.25 - 75
-movementSpeed: -2.24
-
 [ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: Maple Badger, Core: AWM ]
 damage: 100.386 - 87.191
 dropoffStuds: 300.713 - 451.069
@@ -108,6 +96,18 @@ magazineSize: 20
 recoilHipVertical: 112.5 - 150
 recoilAimVertical: 56.25 - 75
 movementSpeed: -2.3
+
+[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: MAC-10, Core: AWM ]
+damage: 100.386 - 87.191
+dropoffStuds: 300.713 - 451.069
+fireRate: 24.6425
+adsSpread: 0.084
+hipfireSpread: 25.2
+reloadTime: 5.445
+magazineSize: 22
+recoilHipVertical: 112.5 - 150
+recoilAimVertical: 56.25 - 75
+movementSpeed: -2.24
 
 [ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: Mosin, Core: AWM ]
 damage: 100.386 - 87.191

@@ -64,6 +64,19 @@ recoilHipVertical: 36.6235 - 41.0777
 recoilAimVertical: 23.8053 - 26.6758
 TTK: 0.258362 Seconds
 
+[ Barrel: M40, Magazine: ECHO11, Grip: Auto-5, Stock: VSSR, Core: Hotdog ]
+damage: 34.8566 - 27.5367
+dropoffStuds: 204 - 318.75
+fireRate: 462
+adsSpread: 0.441907
+hipfireSpread: 4.91008
+reloadTime: 3.8
+magazineSize: 50
+recoilHipVertical: 38.0885 - 42.7209
+recoilAimVertical: 24.7576 - 27.7429
+movementSpeed: 0.5
+TTK: 0.25974 Seconds
+
 [ Barrel: M40, Magazine: ECHO11, Grip: Auto-5, Stock: MP18, Core: Hotdog ]
 damage: 34.8566 - 27.5367
 dropoffStuds: 204 - 318.75
@@ -75,6 +88,19 @@ magazineSize: 50
 recoilHipVertical: 40.265 - 45.1621
 recoilAimVertical: 26.1723 - 29.3282
 movementSpeed: 6
+TTK: 0.25974 Seconds
+
+[ Barrel: M40, Magazine: ECHO11, Grip: Auto-5, Stock: Famas F1, Core: Hotdog ]
+damage: 34.8566 - 27.3874
+dropoffStuds: 200 - 312.5
+fireRate: 462
+adsSpread: 0.39456
+hipfireSpread: 4.384
+reloadTime: 4.066
+magazineSize: 50
+recoilHipVertical: 40.8092 - 45.7724
+recoilAimVertical: 26.5259 - 29.7245
+movementSpeed: 2.5
 TTK: 0.25974 Seconds
 
 [ Barrel: M40, Magazine: ECHO11, Grip: Auto-5, Stock: AK-12, Core: Hotdog ]
@@ -101,31 +127,5 @@ magazineSize: 40
 recoilHipVertical: 39.368 - 44.156
 recoilAimVertical: 25.5892 - 28.6748
 movementSpeed: 2
-TTK: 0.25974 Seconds
-
-[ Barrel: M40, Magazine: ECHO11, Grip: Auto-5, Stock: VSSR, Core: Hotdog ]
-damage: 34.8566 - 27.5367
-dropoffStuds: 204 - 318.75
-fireRate: 462
-adsSpread: 0.441907
-hipfireSpread: 4.91008
-reloadTime: 3.8
-magazineSize: 50
-recoilHipVertical: 38.0885 - 42.7209
-recoilAimVertical: 24.7576 - 27.7429
-movementSpeed: 0.5
-TTK: 0.25974 Seconds
-
-[ Barrel: M40, Magazine: ECHO11, Grip: Auto-5, Stock: Famas F1, Core: Hotdog ]
-damage: 34.8566 - 27.3874
-dropoffStuds: 200 - 312.5
-fireRate: 462
-adsSpread: 0.39456
-hipfireSpread: 4.384
-reloadTime: 4.066
-magazineSize: 50
-recoilHipVertical: 40.8092 - 45.7724
-recoilAimVertical: 26.5259 - 29.7245
-movementSpeed: 2.5
 TTK: 0.25974 Seconds
 

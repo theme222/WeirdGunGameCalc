@@ -85,6 +85,19 @@ recoilHipVertical: 25.2954 - 37.9431
 recoilAimVertical: 22.7659 - 34.1488
 TTK: 0.253087 Seconds
 
+[ Barrel: FC200SH, Magazine: The Chief, Grip: M1897 Trench Shotgun, Stock: G43, Core: Discharger ]
+damage: 33.3591 - 19.1809
+dropoffStuds: 163.022 - 271.703
+fireRate: 472.245
+adsSpread: 0.735
+hipfireSpread: 4.2
+reloadTime: 4.57229
+magazineSize: 36
+health: 4
+recoilHipVertical: 5.76 - 9.6
+recoilAimVertical: 5.184 - 8.64
+TTK: 0.254106 Seconds
+
 [ Barrel: FC200SH, Magazine: The Chief, Grip: M1897 Trench Shotgun, Stock: SMO3, Core: Discharger ]
 damage: 33.6957 - 18.3951
 dropoffStuds: 153.216 - 255.36
@@ -97,19 +110,6 @@ health: 4
 recoilHipVertical: 7.6032 - 12.672
 recoilAimVertical: 6.84288 - 11.4048
 movementSpeed: 3
-TTK: 0.254106 Seconds
-
-[ Barrel: FC200SH, Magazine: The Chief, Grip: M1897 Trench Shotgun, Stock: G43, Core: Discharger ]
-damage: 33.3591 - 19.1809
-dropoffStuds: 163.022 - 271.703
-fireRate: 472.245
-adsSpread: 0.735
-hipfireSpread: 4.2
-reloadTime: 4.57229
-magazineSize: 36
-health: 4
-recoilHipVertical: 5.76 - 9.6
-recoilAimVertical: 5.184 - 8.64
 TTK: 0.254106 Seconds
 
 [ Barrel: Fire Flamer, Magazine: Fire Flamer, Grip: Fire Flamer, Stock: STG-44, Core: AUG ]

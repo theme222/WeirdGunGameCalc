@@ -39,18 +39,6 @@ recoilHipVertical: 165.186 - 198.223
 recoilAimVertical: 84.2449 - 112.326
 movementSpeed: -3
 
-[ Barrel: M40, Magazine: Tankgewehr, Grip: Controller, Stock: Speed Coil, Core: Barret .50 ]
-damage: 183.839 - 149.935
-dropoffStuds: 330 - 709.5
-fireRate: 110.637
-adsSpread: 0.29568
-hipfireSpread: 11.8272
-reloadTime: 10.5
-magazineSize: 1
-health: -20
-recoilHipVertical: 272.916 - 327.499
-recoilAimVertical: 139.187 - 185.583
-
 [ Barrel: M40, Magazine: Fat Cat, Grip: Controller, Stock: Speed Coil, Core: Barret .50 ]
 damage: 245.119 - 154.709
 dropoffStuds: 220 - 473
@@ -76,6 +64,18 @@ health: -20
 recoilHipVertical: 225.036 - 270.043
 recoilAimVertical: 114.768 - 153.024
 movementSpeed: 2
+
+[ Barrel: M40, Magazine: Tankgewehr, Grip: Controller, Stock: Speed Coil, Core: Barret .50 ]
+damage: 183.839 - 149.935
+dropoffStuds: 330 - 709.5
+fireRate: 110.637
+adsSpread: 0.29568
+hipfireSpread: 11.8272
+reloadTime: 10.5
+magazineSize: 1
+health: -20
+recoilHipVertical: 272.916 - 327.499
+recoilAimVertical: 139.187 - 185.583
 
 [ Barrel: M40, Magazine: Fat Cat, Grip: Auto-5, Stock: Speed Coil, Core: Barret .50 ]
 damage: 238.991 - 150.841
