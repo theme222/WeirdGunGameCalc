@@ -1,19 +1,5 @@
 ./wggcalc -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --TTKMin 0.001 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --reloadMax 2.5 --TTEMin 2.5 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: Fat Cat, Magazine: Scar L, Grip: Circuit Judge, Stock: Speed Coil, Core: Hotdog ]
-damage: 50.3046 - 33.0803
-dropoffStuds: 130.944 - 204.6
-fireRate: 364.56
-adsSpread: 0.893025
-hipfireSpread: 9.9225
-reloadTime: 2.25
-magazineSize: 30
-Time to empty: 4.77288
-health: -20
-recoilHipVertical: 35.52 - 39.84
-recoilAimVertical: 23.088 - 25.872
-TTK: 0.164582 Seconds
-
 [ Barrel: Fat Cat, Magazine: Scar L, Grip: Musket, Stock: Speed Coil, Core: Hotdog ]
 damage: 50.3046 - 33.0803
 dropoffStuds: 130.944 - 204.6
@@ -28,24 +14,23 @@ recoilHipVertical: 35.52 - 39.84
 recoilAimVertical: 23.088 - 25.872
 TTK: 0.167088 Seconds
 
-[ Barrel: M134 Minigun, Magazine: AUG, Grip: Circuit Judge, Stock: Speed Coil, Core: Hotdog ]
-damage: 34.4172 - 22.3023
-dropoffStuds: 126.72 - 198
-fireRate: 655.036
-adsSpread: 0.926194
-hipfireSpread: 10.291
+[ Barrel: Fat Cat, Magazine: Scar L, Grip: Circuit Judge, Stock: Speed Coil, Core: Hotdog ]
+damage: 50.3046 - 33.0803
+dropoffStuds: 130.944 - 204.6
+fireRate: 349.978
+adsSpread: 0.760725
+hipfireSpread: 8.4525
 reloadTime: 2.25
-magazineSize: 32
-Time to empty: 2.83954
-health: 15
-recoilHipVertical: 44.4 - 49.8
-recoilAimVertical: 28.86 - 32.34
-movementSpeed: 13.5
-TTK: 0.183196 Seconds
+magazineSize: 30
+Time to empty: 4.97175
+health: -20
+recoilHipVertical: 35.52 - 39.84
+recoilAimVertical: 23.088 - 25.872
+TTK: 0.17144 Seconds
 
 [ Barrel: M134 Minigun, Magazine: AUG, Grip: Musket, Stock: Speed Coil, Core: Hotdog ]
-damage: 34.4172 - 22.3023
-dropoffStuds: 126.72 - 198
+damage: 34.7757 - 23.9813
+dropoffStuds: 145.024 - 226.6
 fireRate: 645.211
 adsSpread: 0.960498
 hipfireSpread: 10.6722
@@ -59,8 +44,8 @@ movementSpeed: 13.5
 TTK: 0.185986 Seconds
 
 [ Barrel: M134 Minigun, Magazine: AUG, Grip: Tankgewehr, Stock: Speed Coil, Core: Hotdog ]
-damage: 33.7914 - 21.8968
-dropoffStuds: 126.72 - 198
+damage: 34.1434 - 23.5453
+dropoffStuds: 145.024 - 226.6
 fireRate: 641.935
 adsSpread: 0.68607
 hipfireSpread: 7.623
@@ -72,32 +57,6 @@ recoilHipVertical: 44.4 - 49.8
 recoilAimVertical: 28.86 - 32.34
 movementSpeed: 2.5
 TTK: 0.186935 Seconds
-
-[ Barrel: PM63, Magazine: Type 2a Nambu, Grip: Lee Enfield, Stock: Spas-12, Core: Hotdog ]
-damage: 33.6 - 20.2416
-dropoffStuds: 110.102 - 172.034
-fireRate: 640.443
-adsSpread: 0.773136
-hipfireSpread: 8.5904
-reloadTime: 2.2
-magazineSize: 30
-Time to empty: 2.71687
-recoilHipVertical: 47.2416 - 52.9872
-recoilAimVertical: 30.707 - 34.4098
-TTK: 0.18737 Seconds
-
-[ Barrel: M1897 Trench Shotgun, Magazine: Type 2a Nambu, Grip: AUTO-12, Stock: Spas-12, Core: Hotdog ]
-damage: 33.6 - 21.2853
-dropoffStuds: 121.829 - 190.358
-fireRate: 636.284
-adsSpread: 0.61488
-hipfireSpread: 6.832
-reloadTime: 2.403
-magazineSize: 30
-Time to empty: 2.73463
-recoilHipVertical: 43.8672 - 49.2024
-recoilAimVertical: 28.5137 - 31.9519
-TTK: 0.188595 Seconds
 
 [ Barrel: MG42, Magazine: Scar L, Grip: M1 Garand, Stock: Speed Coil, Core: Hotdog ]
 damage: 34.3846 - 20.9608
@@ -114,6 +73,36 @@ recoilAimVertical: 30.0144 - 33.6336
 movementSpeed: 20
 TTK: 0.189642 Seconds
 
+[ Barrel: M134 Minigun, Magazine: AUG, Grip: USS Iowa, Stock: Speed Coil, Core: Hotdog ]
+damage: 33.5111 - 23.1093
+dropoffStuds: 145.024 - 226.6
+fireRate: 632.11
+adsSpread: 0.68607
+hipfireSpread: 7.623
+reloadTime: 2.25
+magazineSize: 32
+Time to empty: 2.94253
+health: 15
+recoilHipVertical: 44.4 - 49.8
+recoilAimVertical: 28.86 - 32.34
+movementSpeed: 10.5
+TTK: 0.18984 Seconds
+
+[ Barrel: M134 Minigun, Magazine: AUG, Grip: Circuit Judge, Stock: Speed Coil, Core: Hotdog ]
+damage: 34.7757 - 23.9813
+dropoffStuds: 145.024 - 226.6
+fireRate: 628.835
+adsSpread: 0.78898
+hipfireSpread: 8.76645
+reloadTime: 2.25
+magazineSize: 32
+Time to empty: 2.95785
+health: 15
+recoilHipVertical: 44.4 - 49.8
+recoilAimVertical: 28.86 - 32.34
+movementSpeed: 13.5
+TTK: 0.190829 Seconds
+
 [ Barrel: MG42, Magazine: Type 2a Nambu, Grip: AUTO-12, Stock: Mas-38, Core: Hotdog ]
 damage: 33.6 - 20.3303
 dropoffStuds: 108.95 - 170.235
@@ -128,18 +117,33 @@ recoilAimVertical: 30.3956 - 34.0607
 movementSpeed: 2.5
 TTK: 0.19111 Seconds
 
-[ Barrel: Spas-12, Magazine: Burton, Grip: M1887, Stock: Speed Coil, Core: Hotdog ]
-damage: 34.3503 - 22.5888
-dropoffStuds: 130.944 - 204.6
-fireRate: 627.542
-adsSpread: 0.983146
-hipfireSpread: 10.9238
-reloadTime: 2.3625
+[ Barrel: MG42, Magazine: Scar L, Grip: Quad-Jolly, Stock: Speed Coil, Core: Hotdog ]
+damage: 34.3846 - 20.7595
+dropoffStuds: 108.177 - 169.026
+fireRate: 621.054
+adsSpread: 0.9261
+hipfireSpread: 10.29
+reloadTime: 2.25
 magazineSize: 30
-Time to empty: 2.77272
-health: -15
-recoilHipVertical: 44.4 - 49.8
-recoilAimVertical: 28.86 - 32.34
-movementSpeed: 23
-TTK: 0.191222 Seconds
+Time to empty: 2.80169
+health: -20
+recoilHipVertical: 46.176 - 51.792
+recoilAimVertical: 30.0144 - 33.6336
+movementSpeed: 26
+TTK: 0.19322 Seconds
+
+[ Barrel: M134 Minigun, Magazine: Scar L, Grip: M1887, Stock: Speed Coil, Core: Hotdog ]
+damage: 34.3846 - 23.3815
+dropoffStuds: 140.8 - 220
+fireRate: 615.846
+adsSpread: 0.920477
+hipfireSpread: 10.2275
+reloadTime: 2.025
+magazineSize: 30
+Time to empty: 2.82538
+health: 20
+recoilHipVertical: 35.52 - 39.84
+recoilAimVertical: 23.088 - 25.872
+movementSpeed: 5.5
+TTK: 0.194854 Seconds
 

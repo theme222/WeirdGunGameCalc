@@ -15,32 +15,19 @@ recoilAimVertical: 14.2155 - 17.8484
 movementSpeed: 2.5
 TTK: 0.235294 Seconds
 
-[ Barrel: MG42, Magazine: M1919 .30 Cal, Grip: MG42, Stock: Speed Coil, Core: DP-27 ]
-damage: 25.026 - 14.5288
-dropoffStuds: 153.754 - 269.069
-fireRate: 754.053
-adsSpread: 0.649681
-hipfireSpread: 10.828
-reloadTime: 7.33875
-magazineSize: 76
-health: -10
-recoilHipVertical: 46.8 - 54.6
-recoilAimVertical: 28.08 - 32.76
-TTK: 0.23871 Seconds
-
-[ Barrel: M134 Minigun, Magazine: Burton, Grip: Negev, Stock: Speed Coil, Core: DP-27 ]
-damage: 20.5422 - 12.5164
-dropoffStuds: 176 - 308
-fireRate: 993.514
-adsSpread: 0.689628
-hipfireSpread: 11.4938
-reloadTime: 2.625
-magazineSize: 30
-health: 25
-recoilHipVertical: 41.4 - 48.3
-recoilAimVertical: 24.84 - 28.98
-movementSpeed: 3.5
-TTK: 0.241567 Seconds
+[ Barrel: M134 Minigun, Magazine: DP-27, Grip: Type 2a Nambu, Stock: Speed Coil, Core: Type 11 ]
+damage: 25.0717 - 19.7365
+dropoffStuds: 175.56 - 267.96
+fireRate: 742.374
+adsSpread: 0.54028
+hipfireSpread: 7.20374
+reloadTime: 3.6
+magazineSize: 36
+health: 19.5
+recoilHipVertical: 40.3022 - 53.4238
+recoilAimVertical: 16.1209 - 21.3695
+movementSpeed: 4.45
+TTK: 0.242465 Seconds
 
 [ Barrel: M134 Minigun, Magazine: DP-27, Grip: Double Barrel, Stock: Speed Coil, Core: Type 11 ]
 damage: 25.568 - 20.1271
@@ -56,87 +43,100 @@ recoilAimVertical: 23.5915 - 31.2725
 movementSpeed: 0.5
 TTK: 0.242465 Seconds
 
-[ Barrel: M134 Minigun, Magazine: DP-27, Grip: Type 2a Nambu, Stock: Speed Coil, Core: Type 11 ]
-damage: 25.0717 - 19.7365
-dropoffStuds: 175.56 - 267.96
-fireRate: 742.374
-adsSpread: 0.54028
-hipfireSpread: 7.20374
-reloadTime: 3.6
+[ Barrel: Type 99, Magazine: Burton, Grip: Arisaka, Stock: Type 2a Nambu, Core: MG42 ]
+damage: 14.3022 - 8.77635
+dropoffStuds: 150 - 325
+fireRate: 1434
+adsSpread: 0.607654
+hipfireSpread: 6.07654
+reloadTime: 4.41
+magazineSize: 40
+health: 0.5
+recoilHipVertical: 45.0765 - 64.638
+recoilAimVertical: 22.5382 - 32.319
+movementSpeed: 1.125
+TTK: 0.251046 Seconds
+
+[ Barrel: Type 99, Magazine: Burton, Grip: Arisaka, Stock: Mas-38, Core: MG42 ]
+damage: 14.3022 - 8.77635
+dropoffStuds: 150 - 325
+fireRate: 1434
+adsSpread: 0.693274
+hipfireSpread: 6.93274
+reloadTime: 4.19501
+magazineSize: 40
+health: 7
+recoilHipVertical: 46.799 - 67.108
+recoilAimVertical: 23.3995 - 33.554
+movementSpeed: 1.125
+TTK: 0.251046 Seconds
+
+[ Barrel: 2+2=4, Magazine: Fire Flamer, Grip: Lee Enfield, Stock: Fire Flamer, Core: QBZ-95 ]
+damage: 25.3897 - 20.4619
+dropoffStuds: 158.829 - 297.804
+pellets: 48
+fireRate: 714.867
+adsSpread: 0.457011
+hipfireSpread: 15.9954
+reloadTime: 8.09744
+magazineSize: 100
+health: 5
+recoilHipVertical: 45.36 - 55.08
+recoilAimVertical: 24.948 - 30.294
+TTK: 0.251795 Seconds
+
+[ Barrel: 2+2=4, Magazine: Fire Flamer, Grip: M1891, Stock: Fire Flamer, Core: QBZ-95 ]
+damage: 25.3897 - 21.1779
+dropoffStuds: 191.36 - 358.8
+pellets: 48
+fireRate: 714.867
+adsSpread: 0.457011
+hipfireSpread: 15.9954
+reloadTime: 10.166
+magazineSize: 100
+health: 5
+recoilHipVertical: 45.36 - 55.08
+recoilAimVertical: 24.948 - 30.294
+movementSpeed: 2.8
+TTK: 0.251795 Seconds
+
+[ Barrel: M134 Minigun, Magazine: PP-19 Bizon, Grip: Double Barrel, Stock: Speed Coil, Core: Type 11 ]
+damage: 25.0967 - 18.941
+dropoffStuds: 151.316 - 230.956
+fireRate: 713.821
+adsSpread: 0.63525
+hipfireSpread: 8.47
+reloadTime: 3
+magazineSize: 49
+health: 27
+recoilHipVertical: 54.7992 - 72.6408
+recoilAimVertical: 21.9197 - 29.0563
+movementSpeed: 2.5
+TTK: 0.252164 Seconds
+
+[ Barrel: M1917 WC, Magazine: Graphics Card, Grip: G43, Stock: Speed Coil, Core: BAR ]
+damage: 25.2806 - 14.1497
+dropoffStuds: 180.905 - 352.986
+fireRate: 711.218
+adsSpread: 0.567
+hipfireSpread: 12.6
+reloadTime: 5.175
+magazineSize: 30
+health: 16
+recoilHipVertical: 25.2954 - 37.9431
+recoilAimVertical: 22.7659 - 34.1488
+TTK: 0.253087 Seconds
+
+[ Barrel: FC200SH, Magazine: The Chief, Grip: M1 Garand, Stock: SMO3, Core: Discharger ]
+damage: 33.6957 - 18.3951
+dropoffStuds: 153.216 - 255.36
+fireRate: 469.596
+adsSpread: 0.7
+hipfireSpread: 4
+reloadTime: 3.888
 magazineSize: 36
-health: 19.5
-recoilHipVertical: 40.3022 - 53.4238
-recoilAimVertical: 16.1209 - 21.3695
-movementSpeed: 4.45
-TTK: 0.242465 Seconds
-
-[ Barrel: M134 Minigun, Magazine: Burton, Grip: M1887, Stock: Speed Coil, Core: DP-27 ]
-damage: 20.5422 - 12.5164
-dropoffStuds: 176 - 308
-fireRate: 988.914
-adsSpread: 0.689628
-hipfireSpread: 11.4938
-reloadTime: 2.42813
-magazineSize: 30
-health: 28.75
-recoilHipVertical: 36 - 42
-recoilAimVertical: 21.6 - 25.2
-movementSpeed: 0.5
-TTK: 0.24269 Seconds
-
-[ Barrel: M134 Minigun, Magazine: Burton, Grip: M1 Garand, Stock: Speed Coil, Core: DP-27 ]
-damage: 20.5422 - 12.5164
-dropoffStuds: 176 - 308
-fireRate: 982.474
-adsSpread: 0.599676
-hipfireSpread: 9.9946
-reloadTime: 2.625
-magazineSize: 30
-health: 25
-recoilHipVertical: 36 - 42
-recoilAimVertical: 21.6 - 25.2
-movementSpeed: 3
-TTK: 0.244281 Seconds
-
-[ Barrel: M134 Minigun, Magazine: Paintball, Grip: Negev, Stock: Speed Coil, Core: DP-27 ]
-damage: 20.4379 - 12.4529
-dropoffStuds: 176 - 308
-fireRate: 981.043
-adsSpread: 0.689628
-hipfireSpread: 11.4938
-reloadTime: 4.65
-magazineSize: 53
-health: 25
-recoilHipVertical: 41.4 - 48.3
-recoilAimVertical: 24.84 - 28.98
-movementSpeed: 3.5
-TTK: 0.244638 Seconds
-
-[ Barrel: M134 Minigun, Magazine: Paintball, Grip: M1887, Stock: Speed Coil, Core: DP-27 ]
-damage: 20.4379 - 12.4529
-dropoffStuds: 176 - 308
-fireRate: 976.501
-adsSpread: 0.689628
-hipfireSpread: 11.4938
-reloadTime: 4.30125
-magazineSize: 53
-health: 28.75
-recoilHipVertical: 36 - 42
-recoilAimVertical: 21.6 - 25.2
-movementSpeed: 0.5
-TTK: 0.245776 Seconds
-
-[ Barrel: M134 Minigun, Magazine: Paintball, Grip: M1 Garand, Stock: Speed Coil, Core: DP-27 ]
-damage: 20.4379 - 12.4529
-dropoffStuds: 176 - 308
-fireRate: 970.142
-adsSpread: 0.599676
-hipfireSpread: 9.9946
-reloadTime: 4.65
-magazineSize: 53
-health: 25
-recoilHipVertical: 36 - 42
-recoilAimVertical: 21.6 - 25.2
-movementSpeed: 3
-TTK: 0.247386 Seconds
+health: 4
+recoilHipVertical: 5.0688 - 8.448
+recoilAimVertical: 4.56192 - 7.6032
+TTK: 0.255539 Seconds
 

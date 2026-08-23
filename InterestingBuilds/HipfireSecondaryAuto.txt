@@ -42,6 +42,32 @@ recoilAimVertical: 34.5915 - 48.4282
 movementSpeed: 7.25
 TTK: 0.410509 Seconds
 
+[ Barrel: Peacemaker, Magazine: P90, Grip: Snake Sniper, Stock: None, Core: B17 ]
+damage: 9.1806 - 5.09782
+dropoffStuds: 20.2624 - 96.2463
+fireRate: 1452.53
+adsSpread: 0.36333
+hipfireSpread: 0.88814
+reloadTime: 3.6
+magazineSize: 50
+recoilHipVertical: 42.822 - 59.9508
+recoilAimVertical: 25.6932 - 35.9705
+movementSpeed: 1.5
+TTK: 0.413074 Seconds
+
+[ Barrel: Peacemaker, Magazine: P90, Grip: MP18, Stock: None, Core: B17 ]
+damage: 9.1806 - 5.15691
+dropoffStuds: 20.5277 - 97.5067
+fireRate: 1452.53
+adsSpread: 0.375716
+hipfireSpread: 0.918418
+reloadTime: 3.6
+magazineSize: 50
+recoilHipVertical: 43.173 - 60.4422
+recoilAimVertical: 25.9038 - 36.2653
+movementSpeed: 1
+TTK: 0.413074 Seconds
+
 [ Barrel: Car Muffler, Magazine: Type 11, Grip: Type 2a Nambu, Stock: None, Core: B17 ]
 damage: 10.0793 - 5.4978
 dropoffStuds: 20 - 95
@@ -54,6 +80,21 @@ health: -32.5
 recoilHipVertical: 56.7227 - 79.4118
 recoilAimVertical: 34.0336 - 47.6471
 movementSpeed: 4.25
+TTK: 0.413793 Seconds
+
+[ Barrel: USS Iowa, Magazine: Type 11, Grip: Type 2a Nambu, Stock: None, Core: B17 ]
+damage: 10.0102 - 5.46012
+dropoffStuds: 20 - 95
+pellets: 2
+fireRate: 1305
+adsSpread: 0.377552
+hipfireSpread: 0.922905
+reloadTime: 2.392
+magazineSize: 30
+health: -17.5
+recoilHipVertical: 46.494 - 65.0916
+recoilAimVertical: 27.8964 - 39.055
+movementSpeed: 2.25
 TTK: 0.413793 Seconds
 
 [ Barrel: SKS, Magazine: M3 Grease Gun, Grip: Type 2a Nambu, Stock: None, Core: B17 ]
@@ -84,57 +125,15 @@ recoilAimVertical: 40.4498 - 56.6297
 movementSpeed: 2.25
 TTK: 0.417973 Seconds
 
-[ Barrel: Lex, Magazine: Mega Soaker, Grip: The Chief, Stock: None, Core: B17 ]
-damage: 11.2504 - 6.4567
-dropoffStuds: 20.748 - 98.553
-fireRate: 1144.8
+[ Barrel: Lex, Magazine: Discharger, Grip: The Chief, Stock: None, Core: B17 ]
+damage: 12.6123 - 7.1397
+dropoffStuds: 20.292 - 96.387
+fireRate: 1003.61
 adsSpread: 0.376875
 hipfireSpread: 0.92125
-reloadTime: 6.642
-magazineSize: 51
-recoilHipVertical: 34.02 - 47.628
-recoilAimVertical: 20.412 - 28.5768
-movementSpeed: 3
-TTK: 0.419287 Seconds
-
-[ Barrel: Lex, Magazine: Mega Soaker, Grip: Type 2a Nambu, Stock: None, Core: B17 ]
-damage: 11.4904 - 6.59445
-dropoffStuds: 20.748 - 98.553
-fireRate: 1144.8
-adsSpread: 0.372375
-hipfireSpread: 0.91025
-reloadTime: 6.642
-magazineSize: 51
-health: -7.5
-recoilHipVertical: 30.996 - 43.3944
-recoilAimVertical: 18.5976 - 26.0366
-movementSpeed: 5.25
-TTK: 0.419287 Seconds
-
-[ Barrel: Deagle, Magazine: Mas-38, Grip: Quad-Jolly, Stock: None, Core: B17 ]
-damage: 11.1386 - 6.35321
-dropoffStuds: 21.1026 - 100.238
-fireRate: 1144.8
-adsSpread: 0.399375
-hipfireSpread: 0.97625
-reloadTime: 2.8
-magazineSize: 32
-recoilHipVertical: 59.055 - 82.677
-recoilAimVertical: 35.433 - 49.6062
-movementSpeed: 1.625
-TTK: 0.419287 Seconds
-
-[ Barrel: Peacemaker, Magazine: QBZ-95, Grip: Type 2a Nambu, Stock: None, Core: B17 ]
-damage: 10.1231 - 5.67961
-dropoffStuds: 20.4135 - 96.9641
-fireRate: 1284
-adsSpread: 0.372375
-hipfireSpread: 0.91025
-reloadTime: 1.5
-magazineSize: 30
-health: -7.5
-recoilHipVertical: 43.542 - 60.9588
-recoilAimVertical: 26.1252 - 36.5753
-movementSpeed: 2.25
-TTK: 0.420561 Seconds
+reloadTime: 5.535
+magazineSize: 43
+recoilHipVertical: 40.5 - 56.7
+recoilAimVertical: 24.3 - 34.02
+TTK: 0.41849 Seconds
 

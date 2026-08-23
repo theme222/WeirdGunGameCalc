@@ -1,19 +1,5 @@
 ./wggcalc -o InterestingBuilds/FastestTTKBR.txt -i BR --speedMin -10 --spreadAimMax 0.6 --recoilAimMax 7.5 --magazineMin 20 --rangeMin 150 --pelletMax 1 --ffm Semi 
 Current top 10 guns are: 
-[ Barrel: M40, Magazine: FAL, Grip: Tap, Stock: Fedorov, Core: SKS ]
-damage: 33.44 - 22.9064
-dropoffStuds: 157.625 - 485
-fireRate: 606.596
-adsSpread: 0.1909
-hipfireSpread: 3.818
-reloadTime: 2.14
-magazineSize: 20
-health: 5
-recoilHipVertical: 13.5122 - 14.8635
-recoilAimVertical: 6.75612 - 7.43173
-movementSpeed: -9.5
-TTK: 0.197825 Seconds
-
 [ Barrel: M40, Magazine: FAL, Grip: FG-42, Stock: M1919 .30 Cal, Core: SKS ]
 damage: 33.44 - 22.9064
 dropoffStuds: 157.625 - 485
@@ -28,18 +14,18 @@ recoilAimVertical: 6.71408 - 7.38549
 movementSpeed: -9.5
 TTK: 0.203532 Seconds
 
-[ Barrel: M40, Magazine: FAL, Grip: Mega Soaker, Stock: Negev, Core: SKS ]
+[ Barrel: M40, Magazine: FAL, Grip: Slugger, Stock: Negev, Core: SKS ]
 damage: 33.44 - 22.9064
 dropoffStuds: 157.625 - 485
 fireRate: 586.188
-adsSpread: 0.18592
-hipfireSpread: 3.7184
+adsSpread: 0.19256
+hipfireSpread: 3.8512
 reloadTime: 2.16
 magazineSize: 20
 health: 5
-recoilHipVertical: 13.1137 - 14.4251
-recoilAimVertical: 6.55687 - 7.21255
-movementSpeed: -5.5
+recoilHipVertical: 13.6314 - 14.9945
+recoilAimVertical: 6.81569 - 7.49726
+movementSpeed: -7.5
 TTK: 0.204713 Seconds
 
 [ Barrel: M40, Magazine: FAL, Grip: VSSR, Stock: Negev, Core: SKS ]
@@ -54,6 +40,20 @@ health: 5
 recoilHipVertical: 12.8549 - 14.1404
 recoilAimVertical: 6.42746 - 7.0702
 movementSpeed: -9.5
+TTK: 0.204713 Seconds
+
+[ Barrel: M40, Magazine: FAL, Grip: Mega Soaker, Stock: Negev, Core: SKS ]
+damage: 33.44 - 22.9064
+dropoffStuds: 157.625 - 485
+fireRate: 586.188
+adsSpread: 0.18592
+hipfireSpread: 3.7184
+reloadTime: 2.16
+magazineSize: 20
+health: 5
+recoilHipVertical: 13.1137 - 14.4251
+recoilAimVertical: 6.55687 - 7.21255
+movementSpeed: -5.5
 TTK: 0.204713 Seconds
 
 [ Barrel: M40, Magazine: FAL, Grip: AR-10, Stock: Negev, Core: SKS ]
@@ -118,7 +118,7 @@ dropoffStuds: 150.202 - 462.16
 fireRate: 570.758
 adsSpread: 0.257712
 hipfireSpread: 5.15424
-reloadTime: 4.4275
+reloadTime: 5.313
 magazineSize: 40
 health: 5
 recoilHipVertical: 13.6 - 14.96
