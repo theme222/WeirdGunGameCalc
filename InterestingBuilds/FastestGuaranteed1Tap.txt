@@ -1,140 +1,143 @@
 ./wggcalc -o InterestingBuilds/FastestGuaranteed1Tap.txt -i Sniper BR --damageEndMin 100 --spreadAimMax 0.15 --sort FIRERATE --speedMin -5 --magazineMin 5 
 Current top 10 guns are: 
-[ Barrel: Volley, Magazine: AirStrike, Grip: Fire Flamer, Stock: Fire Flamer, Core: AWM ]
-damage: 119.437 - 106.682
-dropoffStuds: 464.048 - 696.072
-pellets: 56
-fireRate: 22.05
-adsSpread: 0.10126
-hipfireSpread: 30.378
-reloadTime: 3
-magazineSize: 15
-health: 3
-recoilHipVertical: 142.155 - 189.54
-recoilAimVertical: 71.0775 - 94.77
-movementSpeed: -5
-
-[ Barrel: Volley, Magazine: JSG12, Grip: Fire Flamer, Stock: Fire Flamer, Core: AWM ]
-damage: 120.94 - 108.025
-dropoffStuds: 464.048 - 696.072
-pellets: 56
-fireRate: 21.63
-adsSpread: 0.0896998
-hipfireSpread: 26.91
-reloadTime: 7.5
-magazineSize: 15
-health: 3
-recoilHipVertical: 179.115 - 238.82
-recoilAimVertical: 89.5576 - 119.41
-movementSpeed: -5
-
-[ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Arisaka, Stock: FAL, Core: Lightning Shot ]
-damage: 37.2067 - 106.161
-dropoffStuds: 16.5069 - 577.743
-fireRate: 21.12
-adsSpread: 0.14549
-hipfireSpread: 20.7842
-reloadTime: 5.4
-magazineSize: 60
+[ Barrel: Light Gun, Magazine: Magic Mag, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
+damage: 41.6325 - 117.178
+dropoffStuds: 11 - 385
+fireRate: 24.1425
+adsSpread: 0.134875
+hipfireSpread: 26.975
+reloadTime: 0.8415
+magazineSize: 6
 health: -3
-recoilHipVertical: 186.732 - 248.976
-recoilAimVertical: 93.366 - 124.488
-movementSpeed: -3.33
-TTK: 5.68182 Seconds
+recoilHipVertical: 109.8 - 146.4
+recoilAimVertical: 54.9 - 73.2
+movementSpeed: -4.5
+TTK: 4.97049 Seconds
 
-[ Barrel: Second Amendment, Magazine: Mega Soaker, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
-damage: 37.2067 - 109.221
-dropoffStuds: 15.834 - 554.19
-fireRate: 21.12
-adsSpread: 0.122736
-hipfireSpread: 17.5337
-reloadTime: 4.59
-magazineSize: 60
-health: -3
-recoilHipVertical: 175.241 - 233.654
-recoilAimVertical: 87.6204 - 116.827
-movementSpeed: -3.5
-TTK: 5.68182 Seconds
+[ Barrel: Spear, Magazine: Magic Mag, Grip: Lee Enfield, Stock: AWM, Core: Lightning Shot ]
+damage: 36.8288 - 125.803
+dropoffStuds: 5.81 - 203.35
+fireRate: 22.8938
+adsSpread: 0.147875
+hipfireSpread: 29.575
+reloadTime: 0.6732
+magazineSize: 6
+health: 3
+recoilHipVertical: 109.8 - 146.4
+recoilAimVertical: 54.9 - 73.2
+movementSpeed: -2.5
+TTK: 5.2416 Seconds
 
-[ Barrel: Uzi, Magazine: Arisaka, Grip: Hell-Trooper-23, Stock: AWM, Core: Lightning Shot ]
-damage: 36.05 - 100.597
-dropoffStuds: 17.388 - 608.58
-fireRate: 21.08
-adsSpread: 0.148371
-hipfireSpread: 21.1958
-reloadTime: 3.281
-magazineSize: 5
-health: 1
-recoilHipVertical: 127.368 - 169.824
-recoilAimVertical: 63.684 - 84.912
-TTK: 5.6926 Seconds
+[ Barrel: Spear, Magazine: Magic Mag, Grip: M1891, Stock: AWM, Core: Lightning Shot ]
+damage: 36.8288 - 112.875
+dropoffStuds: 7 - 245
+fireRate: 22.8938
+adsSpread: 0.147875
+hipfireSpread: 29.575
+reloadTime: 0.87975
+magazineSize: 6
+health: 3
+recoilHipVertical: 109.8 - 146.4
+recoilAimVertical: 54.9 - 73.2
+movementSpeed: 1.5
+TTK: 5.2416 Seconds
 
-[ Barrel: Uzi, Magazine: Arisaka, Grip: Type 2a Nambu, Stock: AWM, Core: Lightning Shot ]
-damage: 37.2397 - 100.441
-dropoffStuds: 18.4 - 644
-fireRate: 21.08
-adsSpread: 0.146334
-hipfireSpread: 20.9048
-reloadTime: 3.4
-magazineSize: 5
-health: -6.5
-recoilHipVertical: 156.663 - 208.884
-recoilAimVertical: 78.3313 - 104.442
-movementSpeed: -0.3
-TTK: 5.6926 Seconds
+[ Barrel: Spear, Magazine: Magic Mag, Grip: Pistol Pistol, Stock: AWM, Core: Lightning Shot ]
+damage: 34.0666 - 104.409
+dropoffStuds: 7 - 245
+fireRate: 22.4775
+adsSpread: 0.125125
+hipfireSpread: 25.025
+reloadTime: 0.5355
+magazineSize: 6
+health: 3
+recoilHipVertical: 120.78 - 161.04
+recoilAimVertical: 60.39 - 80.52
+movementSpeed: -2.5
+TTK: 5.33867 Seconds
 
-[ Barrel: M1 Garand, Magazine: M60, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
-damage: 37.0825 - 100.6
-dropoffStuds: 18.2 - 637
-fireRate: 21.04
-adsSpread: 0.148617
-hipfireSpread: 21.2309
-reloadTime: 5.525
-magazineSize: 75
-health: 1
-recoilHipVertical: 133.956 - 178.608
-recoilAimVertical: 66.978 - 89.304
-movementSpeed: -3.7
-TTK: 5.70342 Seconds
+[ Barrel: Spear, Magazine: Magic Mag, Grip: Pistol Pistol, Stock: FAL, Core: Lightning Shot ]
+damage: 34.0666 - 101.42
+dropoffStuds: 7.2975 - 255.413
+fireRate: 22.4775
+adsSpread: 0.148321
+hipfireSpread: 29.6642
+reloadTime: 0.63
+magazineSize: 6
+health: 3
+recoilHipVertical: 128.7 - 171.6
+recoilAimVertical: 64.35 - 85.8
+movementSpeed: -2.33
+TTK: 5.33867 Seconds
 
-[ Barrel: Volley, Magazine: Fire Flamer, Grip: Arisaka, Stock: AirStrike, Core: AWM ]
-damage: 114.447 - 101.098
-dropoffStuds: 423.2 - 634.8
-pellets: 49
-fireRate: 21
-adsSpread: 0.137519
-hipfireSpread: 41.2557
-reloadTime: 8.5
-magazineSize: 100
-health: -1
-recoilHipVertical: 175.5 - 234
-recoilAimVertical: 87.75 - 117
+[ Barrel: Spear, Magazine: Magic Mag, Grip: M1 Garand, Stock: MG42, Core: Lightning Shot ]
+damage: 36.8288 - 112.875
+dropoffStuds: 7 - 245
+fireRate: 22.2277
+adsSpread: 0.14
+hipfireSpread: 28
+reloadTime: 0.99
+magazineSize: 6
+health: 3
+recoilHipVertical: 90 - 120
+recoilAimVertical: 45 - 60
+movementSpeed: -2.7
+TTK: 5.39866 Seconds
 
-[ Barrel: Volley, Magazine: Fire Flamer, Grip: Fire Flamer, Stock: FAL, Core: AWM ]
-damage: 117.674 - 104.138
-dropoffStuds: 427.95 - 641.926
-pellets: 84
-fireRate: 21
-adsSpread: 0.140647
-hipfireSpread: 42.1942
-reloadTime: 8.5
-magazineSize: 100
-health: 8
-recoilHipVertical: 228.15 - 304.2
-recoilAimVertical: 114.075 - 152.1
-movementSpeed: -4.83
+[ Barrel: Spray Can, Magazine: M870 Breacher, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
+damage: 39.232 - 101.903
+dropoffStuds: 15.13 - 529.55
+pellets: 2
+fireRate: 22.2
+adsSpread: 0.143494
+hipfireSpread: 28.6988
+reloadTime: 2.72
+magazineSize: 8
+health: -0.6
+recoilHipVertical: 164.7 - 219.6
+recoilAimVertical: 82.35 - 109.8
+movementSpeed: -0.2
+TTK: 5.40541 Seconds
 
-[ Barrel: Volley, Magazine: Fire Flamer, Grip: Fire Flamer, Stock: MG42, Core: AWM ]
-damage: 117.674 - 103.537
-dropoffStuds: 410.504 - 615.756
-pellets: 84
-fireRate: 21
-adsSpread: 0.146032
-hipfireSpread: 43.8097
-reloadTime: 9.35
-magazineSize: 100
-health: 8
-recoilHipVertical: 175.5 - 234
-recoilAimVertical: 87.75 - 117
-movementSpeed: -2.2
+[ Barrel: Spear, Magazine: Magic Mag, Grip: Negev, Stock: AWM, Core: Lightning Shot ]
+damage: 36.8288 - 112.875
+dropoffStuds: 7 - 245
+fireRate: 22.1445
+adsSpread: 0.130812
+hipfireSpread: 26.1625
+reloadTime: 0.765
+magazineSize: 6
+health: 3
+recoilHipVertical: 126.27 - 168.36
+recoilAimVertical: 63.135 - 84.18
+movementSpeed: -5
+TTK: 5.41895 Seconds
+
+[ Barrel: Spear, Magazine: Magic Mag, Grip: Auto-5, Stock: Siberia-12, Core: Lightning Shot ]
+damage: 35.908 - 110.053
+dropoffStuds: 7 - 245
+fireRate: 22.08
+adsSpread: 0.147532
+hipfireSpread: 29.5064
+reloadTime: 0.9
+magazineSize: 6
+health: 3
+recoilHipVertical: 94.752 - 126.336
+recoilAimVertical: 47.376 - 63.168
+movementSpeed: -2.5
+TTK: 5.43479 Seconds
+
+[ Barrel: Spear, Magazine: Magic Mag, Grip: Controller, Stock: Siberia-12, Core: Lightning Shot ]
+damage: 36.8288 - 112.875
+dropoffStuds: 7 - 245
+fireRate: 22.08
+adsSpread: 0.147532
+hipfireSpread: 29.5064
+reloadTime: 0.9
+magazineSize: 6
+health: 3
+recoilHipVertical: 114.912 - 153.216
+recoilAimVertical: 57.456 - 76.608
+movementSpeed: -4.5
+TTK: 5.43479 Seconds
 
