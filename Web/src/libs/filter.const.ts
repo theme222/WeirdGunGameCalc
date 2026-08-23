@@ -1,6 +1,7 @@
 export const categoryStrings = [ "AR", "BR", "LMG", "SMG", "Shotgun", "Sidearm", "Sniper", "Weird" ] as const;
 
 export const filterPropStrings = [ // Sorted by alphabetical order
+  "Blast Radius",
   "Burst",
   "DPS",
   "DPS End",
@@ -49,6 +50,7 @@ export const propertyStrings = [ // Sorted by order of how I want it to show up 
   "Burst",
   "Time To Aim",
   "Spin Up",
+  "Blast Radius",
   "TTK",
   "TTK End",
   "DPS",
@@ -64,6 +66,7 @@ export const filterTitles = [
   "Ban Grip",
   "Ban Magazine",
   "Ban Stock",
+  "Blast Radius",
   "Burst",
   "Categories",
   "DPS",
@@ -109,6 +112,7 @@ export const filterDescriptions: {[key in typeof filterTitles[number]]: string} 
   "Ban Magazine": "Ban the calculator from using a list of magazines",
   "Ban Stock": "Ban the calculator from using a list of stocks",
   "Burst": "Burst range to filter",
+  "Blast Radius": "Blast radius to filter (studs)",
   "Categories": "Categories to include in the calculation",
   "DPS": "Damage per second",
   "DPS End": "Damage per second using the ending damage",  

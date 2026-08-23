@@ -108,6 +108,7 @@ export class Gun {
   adsSpread: number = 0;
   detectionRadius: number = 0;
   spinUp: number = 0;
+  blastRadius: number = 0;
   recoilHipHorizontal: fpair = [0, 0];
   recoilHipVertical: fpair = [0, 0];
   recoilAimHorizontal: fpair = [0, 0];

@@ -124,6 +124,9 @@ int main(int argc, char* argv[])
     app.add_option("--spinUp", Input::spinUpRange, "Spin up range to filter")->group(GROUP_FILTERS);
     app.add_option("--spinUpMin", Input::spinUpRange.first)->group(GROUP_FILTERS);
     app.add_option("--spinUpMax", Input::spinUpRange.second)->group(GROUP_FILTERS);
+    app.add_option("--blastRadius", Input::blastRadiusRange, "Blast radius range to filter")->group(GROUP_FILTERS);
+    app.add_option("--blastRadiusMin", Input::blastRadiusRange.first)->group(GROUP_FILTERS);
+    app.add_option("--blastRadiusMax", Input::blastRadiusRange.second)->group(GROUP_FILTERS);
     app.add_option("--TTK, --TTKStart", Input::TTKRange, "TTK range to filter")->group(GROUP_FILTERS); 
     app.add_option("--TTKMin, --TTKStartMin", Input::TTKRange.first)->group(GROUP_FILTERS);
     app.add_option("--TTKMax, --TTKStartMax", Input::TTKRange.second)->group(GROUP_FILTERS);

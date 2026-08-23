@@ -89,7 +89,7 @@ namespace Input
     inline uint64_t howManyTopGunsToDisplay = 10;
     inline int playerMaxHealth = 100;
 
-    const int TOTALFILTERCOUNT = 24;
+    const int TOTALFILTERCOUNT = 25;
     inline fpair damageRange = NILRANGE;
     inline fpair damageEndRange = NILRANGE;
     inline fpair magazineRange = NILRANGE;
@@ -114,6 +114,7 @@ namespace Input
     inline fpair DPSEndRange = NILRANGE;
     inline fpair TTERange = NILRANGE;
     inline fpair spinUpRange = NILRANGE;
+    inline fpair blastRadiusRange = NILRANGE;
 
     inline void FormatInputs()
     {
@@ -163,10 +164,10 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     inline multiFlags banPriceType_fast = 0;
 
-    const int TOTALMULTFLAGS = 25; // How many enums there are
-    const int TOTALGUNFLAGS = 25; // How many enums exist on a gun
-    const int TOTALCOREFLAGS = 17; // How many enums exist on a core
-    const int TOTALPARTFLAGS = 17; // How many enums exist on a part
+    const int TOTALMULTFLAGS = 26; // How many enums there are
+    const int TOTALGUNFLAGS = 26; // How many enums exist on a gun
+    const int TOTALCOREFLAGS = 18; // How many enums exist on a core
+    const int TOTALPARTFLAGS = 18; // How many enums exist on a part
 
     enum MultFlags {
         DAMAGE = 1<<0, // Part property
@@ -194,11 +195,12 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         DPSEND = 1<<22, // Gun property exclusive
         TTE = 1<<23, // Gun property exclusive
         SPINUP = 1<<24, // Part property
+        BLASTRADIUS = 1<<25, // Part property
     };
 
     constexpr multiFlags GetDependencies(Fast::MultFlags flag) // Get the base mult flags from more complex flags
     {
-        static_assert(TOTALMULTFLAGS == 25, "GetDependencies must be updated to contain all flags");
+        static_assert(TOTALMULTFLAGS == 26, "GetDependencies must be updated to contain all flags");
 
         switch (flag)
         {
@@ -242,11 +244,12 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         PELLETS |
         HEALTH |
         DETECTIONRADIUS |
-        SPINUP
+        SPINUP |
+        BLASTRADIUS
     );
     constexpr bool IsPartProperty(MultFlags flag)
     {
-        static_assert(TOTALPARTFLAGS == 17, "IsPartProperty must be updated to contain all flags");
+        static_assert(TOTALPARTFLAGS == 18, "IsPartProperty must be updated to contain all flags");
         return flag & ALLPARTFLAGS;
     }
 
@@ -267,11 +270,12 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         DETECTIONRADIUS |
         FALLOFFFACTOR |
         BURST |
-        SPINUP
+        SPINUP |
+        BLASTRADIUS
     );
     constexpr bool IsCoreProperty(MultFlags flag)
     {
-        static_assert(TOTALCOREFLAGS == 17, "IsCoreProperty must be updated to contain all flags");
+        static_assert(TOTALCOREFLAGS == 18, "IsCoreProperty must be updated to contain all flags");
         return flag & ALLCOREFLAGS;
     }
 
@@ -299,11 +303,12 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
         DPS |
         DPSEND |
         TTE |
-        SPINUP
+        SPINUP |
+        BLASTRADIUS
     );
     constexpr bool IsFilterProperty(MultFlags flag)
     {
-        static_assert(Input::TOTALFILTERCOUNT == 24, "IsFilterProperty must be updated to contain all flags");
+        static_assert(Input::TOTALFILTERCOUNT == 25, "IsFilterProperty must be updated to contain all flags");
         return flag & ALLFILTERFLAGS;
     }
 
@@ -319,7 +324,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     constexpr bool MoreIsBetter(MultFlags propertyFlag)
     {
-        static_assert(TOTALMULTFLAGS == 25, "MoreIsBetter must be updated to contain all flags");
+        static_assert(TOTALMULTFLAGS == 26, "MoreIsBetter must be updated to contain all flags");
         switch (propertyFlag)
         {
             case DAMAGE:
@@ -335,6 +340,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             case FALLOFFFACTOR: // Range
             case MAGAZINESIZE:
             case TTE:
+            case BLASTRADIUS:
                 return true;
             case TTK:
             case TTKEND:
@@ -356,7 +362,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     constexpr fpair& GetInputRange(MultFlags propertyFlag)
     {
-        static_assert(TOTALMULTFLAGS == 25, "GetInputRange must be updated to contain all flags");
+        static_assert(TOTALMULTFLAGS == 26, "GetInputRange must be updated to contain all flags");
         switch (propertyFlag)
         {
             case DAMAGE: return Input::damageRange;
@@ -383,6 +389,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             case DPSEND: return Input::DPSEndRange;
             case TTE: return Input::TTERange;
             case SPINUP: return Input::spinUpRange;
+            case BLASTRADIUS: return Input::blastRadiusRange;
             default: throw std::invalid_argument("Invalid property flag");
         }
     }
@@ -397,7 +404,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
 
     constexpr PropertyType GetPropertyType(MultFlags flag)
     {
-        static_assert(TOTALMULTFLAGS == 25, "PropertyType must be updated to contain all flags");
+        static_assert(TOTALMULTFLAGS == 26, "PropertyType must be updated to contain all flags");
         switch (flag)
         {
             case TTK:
@@ -426,6 +433,7 @@ namespace Fast // Namespace to contain any indexing that uses the integer repres
             case RECOILAIM:
             case RECOILHIP:
             case EQUIPTIME:
+            case BLASTRADIUS:
                 return MULTIPLIER;
 
             case HEALTH:
@@ -643,6 +651,7 @@ public:
     float burst = 1;
     float detectionRadius = 0;
     float spinUp = 0;
+    float blastRadius = 5;
     fpair recoilHipHorizontal = fpair(0, 0);
     fpair recoilHipVertical = fpair(0, 0);
     fpair recoilAimHorizontal = fpair(0, 0);
@@ -651,6 +660,7 @@ public:
     Core() {}
     Core(const json &jsonObject) : category(jsonObject["Category"]), name(jsonObject["Name"]), firingMode(jsonObject["Firing_Mode"])
     {
+        static_assert(Fast::TOTALCOREFLAGS == 18, "TOTALCOREFLAGS must be updated to contain all flags");
         category_fast = Fast::fastifyCategory[category];
         if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
         name_fast = Fast::fastifyName[name];
@@ -710,6 +720,8 @@ public:
             equipTime = jsonObject["Equip_Time"];
         if (jsonObject.contains("Spin_Up"))
             spinUp = jsonObject["Spin_Up"];
+        if (jsonObject.contains("Blast_Radius"))
+            blastRadius += (float)jsonObject["Blast_Radius"]; // Additive on to the hidden stat
 
         if (jsonObject.contains("Recoil_Hip_Horizontal"))
         {
@@ -758,6 +770,7 @@ public:
     float range = 0;
     float rangeFalloff = 0; // Part of the range property but specifically calculated and stored for falloff calculation in highlow (combination parts). Normal parts don't have this property.
     float spinUp = 0;
+    float blastRadius = 0;
 
     // Init a default value part
     Part() {}
@@ -777,7 +790,8 @@ public:
     // Init an identity value part (Can be used to directly apply the * operator onto a gun).
     static Part Identity()
     {
-        // Health and Movement Speed are additive so the identity value is 0
+        // Health, Movement Speed, Spin Up are additive so the identity value is 0
+        static_assert(Fast::TOTALPARTFLAGS == 18, "Identity must be updated to contain all part flags");
         Part part;
         part.damage = 1;
         part.fireRate = 1;
@@ -790,11 +804,13 @@ public:
         part.detectionRadius = 1;
         part.range = 1;
         part.rangeFalloff = 1;
+        part.blastRadius = 1;
         return part;
     }
 
     Part(const json &jsonObject): category(jsonObject["Category"]), name(jsonObject["Name"])
     {
+        static_assert(Fast::TOTALPARTFLAGS == 18, "Part constructor must be updated to contain all part flags");
         category_fast = Fast::fastifyCategory[category];
         if (!Fast::fastifyName.contains(name)) Fast::fastifyName[name] = Fast::fastifyName.size();
         name_fast = Fast::fastifyName[name];
@@ -821,6 +837,7 @@ public:
         if (jsonObject.contains("Detection_Radius")) detectionRadius = jsonObject["Detection_Radius"];
         if (jsonObject.contains("Range")) range = jsonObject["Range"];
         if (jsonObject.contains("Spin_Up")) spinUp = jsonObject["Spin_Up"];
+        if (jsonObject.contains("Blast_Radius")) blastRadius = jsonObject["Blast_Radius"];
     }
 
 
@@ -836,37 +853,27 @@ public:
             sameName = true;
         }
 
-        static_assert(Fast::TOTALPARTFLAGS == 17, "ApplyPenalty must be updated to contain all part flags");
-        if ((damage > 0 && MoreIsBetter(DAMAGE)) || (damage < 0 && !MoreIsBetter(DAMAGE)) || sameName)
-            damage *= penalty;
-        if ((fireRate > 0 && MoreIsBetter(FIRERATE)) || (fireRate < 0 && !MoreIsBetter(FIRERATE)) || sameName)
-            fireRate *= penalty;
-        if ((spread > 0 && MoreIsBetter(SPREADAIM)) || (spread < 0 && !MoreIsBetter(SPREADAIM)) || sameName)
-            spread *= penalty;
-        if ((recoil > 0 && MoreIsBetter(RECOILAIM)) || (recoil < 0 && !MoreIsBetter(RECOILAIM)) || sameName)
-            recoil *= penalty;
-        if ((reloadSpeed > 0 && MoreIsBetter(RELOAD)) || (reloadSpeed < 0 && !MoreIsBetter(RELOAD)) || sameName)
-            reloadSpeed *= penalty;
-        if ((magazineCap > 0 && MoreIsBetter(MAGAZINESIZE)) || (magazineCap < 0 && !MoreIsBetter(MAGAZINESIZE)) || sameName)
-            magazineCap *= penalty;
-        if ((movementSpeed > 0 && MoreIsBetter(MOVEMENTSPEED)) || (movementSpeed < 0 && !MoreIsBetter(MOVEMENTSPEED)) || sameName)
-            movementSpeed *= penalty;
-        if ((health > 0 && MoreIsBetter(HEALTH)) || (health < 0 && !MoreIsBetter(HEALTH)) || sameName)
-            health *= penalty;
-        if ((pellets > 0 && MoreIsBetter(PELLETS)) || (pellets < 0 && !MoreIsBetter(PELLETS)) || sameName)
-            pellets *= penalty;
-        if ((detectionRadius > 0 && MoreIsBetter(DETECTIONRADIUS)) || (detectionRadius < 0 && !MoreIsBetter(DETECTIONRADIUS)) || sameName)
-            detectionRadius *= penalty;
-        if ((range > 0 && MoreIsBetter(DROPOFFSTUDS)) || (range < 0 && !MoreIsBetter(DROPOFFSTUDS)) || sameName)
-            range *= penalty;
-        if ((spinUp > 0 && MoreIsBetter(SPINUP)) || (spinUp < 0 && !MoreIsBetter(SPINUP)) || sameName)
-            spinUp *= penalty;
+        static_assert(Fast::TOTALPARTFLAGS == 18, "ApplyPenalty must be updated to contain all part flags");
+        auto PenaltyCondition = [&sameName](float value, MultFlags flag) { return (value > 0 && MoreIsBetter(flag)) || (value < 0 && !MoreIsBetter(flag)) || sameName; };
+        if (PenaltyCondition(damage, DAMAGE)) damage *= penalty;
+        if (PenaltyCondition(fireRate, FIRERATE)) fireRate *= penalty;
+        if (PenaltyCondition(spread, SPREADAIM)) spread *= penalty;
+        if (PenaltyCondition(recoil, RECOILAIM)) recoil *= penalty;
+        if (PenaltyCondition(reloadSpeed, RELOAD)) reloadSpeed *= penalty;
+        if (PenaltyCondition(magazineCap, MAGAZINESIZE)) magazineCap *= penalty;
+        if (PenaltyCondition(movementSpeed, MOVEMENTSPEED)) movementSpeed *= penalty;
+        if (PenaltyCondition(health, HEALTH)) health *= penalty;
+        if (PenaltyCondition(pellets, PELLETS)) pellets *= penalty;
+        if (PenaltyCondition(detectionRadius, DETECTIONRADIUS)) detectionRadius *= penalty;
+        if (PenaltyCondition(range, DROPOFFSTUDS)) range *= penalty;
+        if (PenaltyCondition(spinUp, SPINUP)) spinUp *= penalty;
+        if (PenaltyCondition(blastRadius, BLASTRADIUS)) blastRadius *= penalty;
         // if ((rangeFalloff > 0 && MoreIsBetter(FALLOFFFACTOR)) || sameName) rangeFalloff *= penalty;
     }
 
     float GetMult(Fast::MultFlags multFlag) const
     {
-        static_assert(Fast::TOTALPARTFLAGS == 17, "GetMult must be updated to contain all part flags");
+        static_assert(Fast::TOTALPARTFLAGS == 18, "GetMult must be updated to contain all part flags");
         using namespace Fast;
         switch(multFlag)
         {
@@ -900,6 +907,8 @@ public:
                 return range;
             case SPINUP:
                 return spinUp;
+            case BLASTRADIUS:
+                return blastRadius;
             default:
                 throw std::runtime_error("Property not found: " + std::to_string(multFlag)); // debug
         }
@@ -924,6 +933,7 @@ public:
     Magazine() = default;
     Magazine(const json &jsonObject) : Part(jsonObject)
     {
+        static_assert(Fast::TOTALPARTFLAGS == 18, "Magazine constructor must be updated to contain all part flags");
         if (jsonObject.contains("Reload_Time")) reloadTime = jsonObject["Reload_Time"];
         if (jsonObject.contains("Magazine_Size")) magazineSize = jsonObject["Magazine_Size"];
     }
@@ -982,6 +992,7 @@ public:
     float adsSpread;
     float detectionRadius;
     float spinUp;
+    float blastRadius;
     fpair recoilHipHorizontal;
     fpair recoilHipVertical;
     fpair recoilAimHorizontal;
@@ -999,7 +1010,7 @@ public:
     float GetProperty(Fast::MultFlags propertyFlag) const
     {
         // Guaranteed for all gun flags
-        static_assert(Fast::TOTALGUNFLAGS == 25, "GetProperty must be updated to contain all property flags");
+        static_assert(Fast::TOTALGUNFLAGS == 26, "GetProperty must be updated to contain all property flags");
 
         switch (propertyFlag)
         {
@@ -1028,6 +1039,7 @@ public:
             case Fast::DPSEND: return DPSEnd();
             case Fast::TTE: return TTE();
             case Fast::SPINUP: return spinUp;
+            case Fast::BLASTRADIUS: return blastRadius;
             default: throw std::invalid_argument("Invalid property flag");
         }
     }
@@ -1050,7 +1062,7 @@ public:
     // Core and magazine copy functions are seperated for prune algorithm
     void CopyCoreValues(multiFlags flags)
     {
-        static_assert(Fast::TOTALCOREFLAGS == 17, "CopyCoreValues must be updated to contain all property flags");
+        static_assert(Fast::TOTALCOREFLAGS == 18, "CopyCoreValues must be updated to contain all property flags");
         using namespace Fast;
         if (flags & DAMAGE) damage = core->damage;
         if (flags & PELLETS) pellets = core->pellets;
@@ -1066,6 +1078,7 @@ public:
         if (flags & SPREADAIM) adsSpread = core->adsSpread;
         if (flags & SPREADHIP) hipfireSpread = core->hipfireSpread;
         if (flags & SPINUP) spinUp = core->spinUp;
+        if (flags & BLASTRADIUS) blastRadius = core->blastRadius;
         if (flags & RECOILHIP)
         {
             recoilHipHorizontal = core->recoilHipHorizontal;
@@ -1080,6 +1093,7 @@ public:
 
     void CopyMagazineValues(multiFlags flags)
     {
+        static_assert(Fast::TOTALPARTFLAGS == 18, "CopyMagazineValues must be updated to contain all property flags");
         using namespace Fast;
         if (flags & MAGAZINESIZE) magazineSize = magazine->magazineSize;
         if (flags & RELOAD) reloadTime = magazine->reloadTime;
@@ -1111,8 +1125,7 @@ public:
     {
         // Direct is used to determine if the stats should be pulled directly from the part
         // without calculating penalty. (used in dynamicprune)
-        static_assert(Fast::TOTALCOREFLAGS == 17, "Update CalculatePartialGunStats");
-        static_assert(Fast::TOTALPARTFLAGS == 17, "Update CalculatePartialGunStats");
+        static_assert(Fast::TOTALCOREFLAGS == 18, "Update CalculatePartialGunStats");
 
         if (part == nullptr) throw std::runtime_error("Part is null");
 
@@ -1140,6 +1153,10 @@ public:
         if (flags & RELOAD) reloadTime *= GetPartialMult(RELOAD, part, direct);
         if (flags & MAGAZINESIZE) magazineSize = round(magazineSize * GetPartialMult(MAGAZINESIZE, part, direct));
         if (flags & DETECTIONRADIUS) detectionRadius *= GetPartialMult(DETECTIONRADIUS, part, direct);
+        if (flags & BLASTRADIUS) blastRadius *= GetPartialMult(BLASTRADIUS, part, direct);
+        if (flags & DROPOFFSTUDS) dropoffStuds.first *= GetPartialMult(DROPOFFSTUDS, part, direct);
+        if (flags & DROPOFFSTUDSEND) dropoffStuds.second *= GetPartialMult(DROPOFFSTUDSEND, part, direct);
+        if (flags & FALLOFFFACTOR) falloffFactor *= GetPartialFalloff(FALLOFFFACTOR, part, direct);
 
         if (flags & (SPREADAIM | SPREADHIP))
         {
@@ -1151,10 +1168,6 @@ public:
             adsSpread *= mult;
             hipfireSpread *= mult;
         }
-
-        if (flags & DROPOFFSTUDS) dropoffStuds.first *= GetPartialMult(DROPOFFSTUDS, part, direct);
-        if (flags & DROPOFFSTUDSEND) dropoffStuds.second *= GetPartialMult(DROPOFFSTUDSEND, part, direct);
-        if (flags & FALLOFFFACTOR) falloffFactor *= GetPartialFalloff(FALLOFFFACTOR, part, direct);
 
         if (flags & RECOILHIP)
         {
@@ -1179,47 +1192,37 @@ public:
     float GetTotalFalloff(Fast::MultFlags propertyFlag, bool direct)
     {
         float mult = 1;
-        if (barrel != nullptr)
-            mult *= 1 - (CalculatePenalty(propertyFlag, barrel, direct) / 100);
-        if (magazine != nullptr)
-            mult *= 1 - (CalculatePenalty(propertyFlag, magazine, direct) / 100);
-        if (stock != nullptr)
-            mult *= 1 - (CalculatePenalty(propertyFlag, stock, direct) / 100);
-        if (grip != nullptr)
-            mult *= 1 - (CalculatePenalty(propertyFlag, grip, direct) / 100);
+        if (barrel != nullptr) mult *= 1 - (CalculatePenalty(propertyFlag, barrel, direct) / 100);
+        if (magazine != nullptr) mult *= 1 - (CalculatePenalty(propertyFlag, magazine, direct) / 100);
+        if (stock != nullptr) mult *= 1 - (CalculatePenalty(propertyFlag, stock, direct) / 100);
+        if (grip != nullptr) mult *= 1 - (CalculatePenalty(propertyFlag, grip, direct) / 100);
         return mult;
     }
 
     float GetTotalMult(Fast::MultFlags propertyFlag, bool direct)
     {
         float mult = 1;
-        if (barrel != nullptr)
-            mult *= CalculatePenalty(propertyFlag, barrel, direct) / 100 + 1;
-        if (magazine != nullptr)
-            mult *= CalculatePenalty(propertyFlag, magazine, direct) / 100 + 1;
-        if (stock != nullptr)
-            mult *= CalculatePenalty(propertyFlag, stock, direct) / 100 + 1;
-        if (grip != nullptr)
-            mult *= CalculatePenalty(propertyFlag, grip, direct) / 100 + 1;
+        if (barrel != nullptr) mult *= CalculatePenalty(propertyFlag, barrel, direct) / 100 + 1;
+        if (magazine != nullptr) mult *= CalculatePenalty(propertyFlag, magazine, direct) / 100 + 1;
+        if (stock != nullptr) mult *= CalculatePenalty(propertyFlag, stock, direct) / 100 + 1;
+        if (grip != nullptr) mult *= CalculatePenalty(propertyFlag, grip, direct) / 100 + 1;
         return mult;
     }
 
     float GetTotalAdd(Fast::MultFlags propertyFlag, bool direct) // Speed is additive (bruh)
     {
         float add = 0;
-        if (barrel != nullptr)
-            add += CalculatePenalty(propertyFlag, barrel, direct);
-        if (magazine != nullptr)
-            add += CalculatePenalty(propertyFlag, magazine, direct);
-        if (stock != nullptr)
-            add += CalculatePenalty(propertyFlag, stock, direct);
-        if (grip != nullptr)
-            add += CalculatePenalty(propertyFlag, grip, direct);
+        if (barrel != nullptr) add += CalculatePenalty(propertyFlag, barrel, direct);
+        if (magazine != nullptr) add += CalculatePenalty(propertyFlag, magazine, direct);
+        if (stock != nullptr) add += CalculatePenalty(propertyFlag, stock, direct);
+        if (grip != nullptr) add += CalculatePenalty(propertyFlag, grip, direct);
         return add;
     }
 
     void CalculateGunStats(multiFlags flags, bool direct)
     {
+        static_assert(Fast::TOTALCOREFLAGS == 18, "Update CalculateGunStats");
+        
         float previousPelletCount[4] = {-1000, -1000, -1000, -1000}; // Magazine Barrel Grip Stock
         bool previousPelletChanged[4] = {false, false, false, false};
         using namespace Fast;
@@ -1287,6 +1290,7 @@ public:
         if (flags & SPINUP) spinUp += GetTotalAdd(SPINUP, direct);
         if (flags & EQUIPTIME) equipTime *= GetTotalMult(EQUIPTIME, direct);
         if (flags & RELOAD) reloadTime *= GetTotalMult(RELOAD, direct);
+        if (flags & BLASTRADIUS) blastRadius *= GetTotalMult(BLASTRADIUS, direct);
 
         if (flags & MAGAZINESIZE)
         {
@@ -1392,13 +1396,13 @@ namespace PQ
     typedef std::priority_queue<Gun, std::vector<Gun>, AllSortStruct> AllSortPQ;
 
     inline AllSortPQ topGuns;
-    const int TOTALSORTFLAGS = 23;
+    const int TOTALSORTFLAGS = 25;
 
     inline void InitializeCurrentSortingType()
     {
         std::string type = Input::sortType;
         using namespace Fast;
-        static_assert(TOTALSORTFLAGS == 23, "InitializeCurrentSortingType must be updated to contain all property flags");
+        static_assert(TOTALSORTFLAGS == 25, "InitializeCurrentSortingType must be updated to contain all property flags");
         if (type == "TTK") currentSortingType = TTK;
         else if (type == "TTKEND") currentSortingType = TTKEND;
         else if (type == "DAMAGE") currentSortingType = DAMAGE;
@@ -1423,6 +1427,7 @@ namespace PQ
         else if (type == "DPSEND") currentSortingType = DPSEND;
         else if (type == "TTE") currentSortingType = TTE;
         else if (type == "SPINUP") currentSortingType = SPINUP;
+        else if (type == "BLASTRADIUS") currentSortingType = BLASTRADIUS;
         else throw std::invalid_argument("Invalid sorting type");
 
         // Initialize sort priority
@@ -1477,7 +1482,7 @@ inline std::ostream &operator<<(std::ostream &os, const Gun &gun)
 
 inline std::ostream &operator<<(std::ostream &os, const Part &part)
 {
-    static_assert(Fast::TOTALPARTFLAGS == 17, "Part stream must be updated to contain all part flags");
+    static_assert(Fast::TOTALPARTFLAGS == 18, "Part stream must be updated to contain all part flags");
     os << "Name: " << part.name << "\n"
        << "Damage: " << part.damage << "\n"
        << "Range: " << part.range << "\n"
@@ -1492,7 +1497,8 @@ inline std::ostream &operator<<(std::ostream &os, const Part &part)
        << "Pellets: " << part.pellets << "\n"
        << "Detection Radius: " << part.detectionRadius << "\n"
        << "Falloff Factor: " << part.rangeFalloff << "\n"
-       << "Spin Up: " << part.spinUp << "\n";
+       << "Spin Up: " << part.spinUp << "\n"
+       << "Blast Radius: " << part.blastRadius << "\n";
     return os;
 }
 
@@ -1505,7 +1511,7 @@ inline std::ostream &operator<<(std::ostream &os, const std::pair<Part, Part> &p
 
 inline Part operator*(Part part1, Part part2) // Used in highlow
 {
-    static_assert(Fast::TOTALPARTFLAGS == 17, "Part multiplication must be updated to contain all part flags");
+    static_assert(Fast::TOTALPARTFLAGS == 18, "Part multiplication must be updated to contain all part flags");
     part1.damage *= part2.damage;
     part1.fireRate *= part2.fireRate;
     part1.spread *= part2.spread;
@@ -1520,6 +1526,7 @@ inline Part operator*(Part part1, Part part2) // Used in highlow
     part1.range *= part2.range;
     part1.rangeFalloff *= part2.rangeFalloff;
     part1.spinUp += part2.spinUp;
+    part1.blastRadius *= part2.blastRadius;
     return part1;
 }
 
@@ -1597,7 +1604,7 @@ namespace Filter
     inline bool FilterGunStatsOnRange(const Gun& gun)
     {
         using Fast::RangeFilter;
-        static_assert(Input::TOTALFILTERCOUNT == 24, "FilterGunStatsOnRange needs to be updated");
+        static_assert(Input::TOTALFILTERCOUNT == 25, "FilterGunStatsOnRange needs to be updated");
 
         for (int i = 0; i < Fast::TOTALMULTFLAGS; i++)
         {
@@ -1634,7 +1641,7 @@ namespace Data // Contains the real information read from FullData.json
         // Trust me I wanted to use GetDependencies and make this look so beautiful but its just not possible
         inline float GetHeuristic(const Part& part) // A very rough value determining how good a part is to the stat
         {
-            static_assert(PQ::TOTALSORTFLAGS == 23, "Update GetHeuristic to contain all sorting flags");
+            static_assert(PQ::TOTALSORTFLAGS == 25, "Update GetHeuristic to contain all sorting flags");
 
             switch (PQ::currentSortingType)
             {
@@ -1788,36 +1795,38 @@ namespace DynamicPrune
         inline void SetHighLowParts(Gun& gun, Part* partToCheck, Part& lowestMultPart, Part& highestMultPart)
         {
             using namespace Fast;
-            static_assert(TOTALPARTFLAGS == 17, "update SetHighLowParts to contain all part flags");
-            if (gun.GetPartialMult(DAMAGE, partToCheck, false) < lowestMultPart.damage) lowestMultPart.damage = gun.GetPartialMult(DAMAGE, partToCheck, false);
-            if (gun.GetPartialMult(FIRERATE, partToCheck, false) < lowestMultPart.fireRate) lowestMultPart.fireRate = gun.GetPartialMult(FIRERATE, partToCheck, false);
-            if (gun.GetPartialMult(SPREADAIM, partToCheck, false) < lowestMultPart.spread) lowestMultPart.spread = gun.GetPartialMult(SPREADAIM, partToCheck, false);
-            if (gun.GetPartialMult(RECOILAIM, partToCheck, false) < lowestMultPart.recoil) lowestMultPart.recoil = gun.GetPartialMult(RECOILAIM, partToCheck, false);
-            if (gun.GetPartialMult(RELOAD, partToCheck, false) < lowestMultPart.reloadSpeed) lowestMultPart.reloadSpeed = gun.GetPartialMult(RELOAD, partToCheck, false);
-            if (gun.GetPartialMult(MAGAZINESIZE, partToCheck, false) < lowestMultPart.magazineCap) lowestMultPart.magazineCap = gun.GetPartialMult(MAGAZINESIZE, partToCheck, false);
-            if (gun.GetPartialAdd(MOVEMENTSPEED, partToCheck, false) < lowestMultPart.movementSpeed) lowestMultPart.movementSpeed = gun.GetPartialAdd(MOVEMENTSPEED, partToCheck, false);
-            if (gun.GetPartialAdd(HEALTH, partToCheck, false) < lowestMultPart.health) lowestMultPart.health = gun.GetPartialAdd(HEALTH, partToCheck, false);
-            if (gun.GetPartialAdd(SPINUP, partToCheck, false) < lowestMultPart.spinUp) lowestMultPart.spinUp = gun.GetPartialAdd(SPINUP, partToCheck, false);
-            if (gun.GetPartialMult(EQUIPTIME, partToCheck, false) < lowestMultPart.equipTime) lowestMultPart.equipTime = gun.GetPartialMult(EQUIPTIME, partToCheck, false);
-            if (gun.GetPartialMult(PELLETS, partToCheck, false) < lowestMultPart.pellets) lowestMultPart.pellets = gun.GetPartialMult(PELLETS, partToCheck, false);
-            if (gun.GetPartialMult(DETECTIONRADIUS, partToCheck, false) < lowestMultPart.detectionRadius) lowestMultPart.detectionRadius = gun.GetPartialMult(DETECTIONRADIUS, partToCheck, false);
-            if (gun.GetPartialMult(DROPOFFSTUDS, partToCheck, false) < lowestMultPart.range) lowestMultPart.range = gun.GetPartialMult(DROPOFFSTUDS, partToCheck, false);
-            if (gun.GetPartialFalloff(FALLOFFFACTOR, partToCheck, false) < lowestMultPart.rangeFalloff) lowestMultPart.rangeFalloff = gun.GetPartialFalloff(FALLOFFFACTOR, partToCheck, false);
+            static_assert(TOTALPARTFLAGS == 18, "update SetHighLowParts to contain all part flags");
+            lowestMultPart.damage = std::min(lowestMultPart.damage, gun.GetPartialMult(DAMAGE, partToCheck, false));
+            lowestMultPart.fireRate = std::min(lowestMultPart.fireRate, gun.GetPartialMult(FIRERATE, partToCheck, false));
+            lowestMultPart.spread = std::min(lowestMultPart.spread, gun.GetPartialMult(SPREADAIM, partToCheck, false));
+            lowestMultPart.recoil = std::min(lowestMultPart.recoil, gun.GetPartialMult(RECOILAIM, partToCheck, false));
+            lowestMultPart.reloadSpeed = std::min(lowestMultPart.reloadSpeed, gun.GetPartialMult(RELOAD, partToCheck, false));
+            lowestMultPart.magazineCap = std::min(lowestMultPart.magazineCap, gun.GetPartialMult(MAGAZINESIZE, partToCheck, false));
+            lowestMultPart.movementSpeed = std::min(lowestMultPart.movementSpeed, gun.GetPartialAdd(MOVEMENTSPEED, partToCheck, false));
+            lowestMultPart.health = std::min(lowestMultPart.health, gun.GetPartialAdd(HEALTH, partToCheck, false));
+            lowestMultPart.spinUp = std::min(lowestMultPart.spinUp, gun.GetPartialAdd(SPINUP, partToCheck, false));
+            lowestMultPart.equipTime = std::min(lowestMultPart.equipTime, gun.GetPartialMult(EQUIPTIME, partToCheck, false));
+            lowestMultPart.pellets = std::min(lowestMultPart.pellets, gun.GetPartialMult(PELLETS, partToCheck, false));
+            lowestMultPart.detectionRadius = std::min(lowestMultPart.detectionRadius, gun.GetPartialMult(DETECTIONRADIUS, partToCheck, false));
+            lowestMultPart.range = std::min(lowestMultPart.range, gun.GetPartialMult(DROPOFFSTUDS, partToCheck, false));
+            lowestMultPart.rangeFalloff = std::min(lowestMultPart.rangeFalloff, gun.GetPartialFalloff(FALLOFFFACTOR, partToCheck, false));
+            lowestMultPart.blastRadius = std::min(lowestMultPart.blastRadius, gun.GetPartialMult(BLASTRADIUS, partToCheck, false));
 
-            if (gun.GetPartialMult(DAMAGE, partToCheck, false) > highestMultPart.damage) highestMultPart.damage = gun.GetPartialMult(DAMAGE, partToCheck, false);
-            if (gun.GetPartialMult(FIRERATE, partToCheck, false) > highestMultPart.fireRate) highestMultPart.fireRate = gun.GetPartialMult(FIRERATE, partToCheck, false);
-            if (gun.GetPartialMult(SPREADAIM, partToCheck, false) > highestMultPart.spread) highestMultPart.spread = gun.GetPartialMult(SPREADAIM, partToCheck, false);
-            if (gun.GetPartialMult(RECOILAIM, partToCheck, false) > highestMultPart.recoil) highestMultPart.recoil = gun.GetPartialMult(RECOILAIM, partToCheck, false);
-            if (gun.GetPartialMult(RELOAD, partToCheck, false) > highestMultPart.reloadSpeed) highestMultPart.reloadSpeed = gun.GetPartialMult(RELOAD, partToCheck, false);
-            if (gun.GetPartialMult(MAGAZINESIZE, partToCheck, false) > highestMultPart.magazineCap) highestMultPart.magazineCap = gun.GetPartialMult(MAGAZINESIZE, partToCheck, false);
-            if (gun.GetPartialAdd(MOVEMENTSPEED, partToCheck, false) > highestMultPart.movementSpeed) highestMultPart.movementSpeed = gun.GetPartialAdd(MOVEMENTSPEED, partToCheck, false);
-            if (gun.GetPartialAdd(HEALTH, partToCheck, false) > highestMultPart.health) highestMultPart.health = gun.GetPartialAdd(HEALTH, partToCheck, false);
-            if (gun.GetPartialAdd(SPINUP, partToCheck, false) > highestMultPart.spinUp) highestMultPart.spinUp = gun.GetPartialAdd(SPINUP, partToCheck, false);
-            if (gun.GetPartialMult(EQUIPTIME, partToCheck, false) > highestMultPart.equipTime) highestMultPart.equipTime = gun.GetPartialMult(EQUIPTIME, partToCheck, false);
-            if (gun.GetPartialMult(PELLETS, partToCheck, false) > highestMultPart.pellets) highestMultPart.pellets = gun.GetPartialMult(PELLETS, partToCheck, false);
-            if (gun.GetPartialMult(DETECTIONRADIUS, partToCheck, false) > highestMultPart.detectionRadius) highestMultPart.detectionRadius = gun.GetPartialMult(DETECTIONRADIUS, partToCheck, false);
-            if (gun.GetPartialMult(DROPOFFSTUDS, partToCheck, false) > highestMultPart.range) highestMultPart.range = gun.GetPartialMult(DROPOFFSTUDS, partToCheck, false);
-            if (gun.GetPartialFalloff(FALLOFFFACTOR, partToCheck, false) > highestMultPart.rangeFalloff) highestMultPart.rangeFalloff = gun.GetPartialFalloff(FALLOFFFACTOR, partToCheck, false);
+            highestMultPart.damage = std::max(highestMultPart.damage, gun.GetPartialMult(DAMAGE, partToCheck, false));
+            highestMultPart.fireRate = std::max(highestMultPart.fireRate, gun.GetPartialMult(FIRERATE, partToCheck, false));
+            highestMultPart.spread = std::max(highestMultPart.spread, gun.GetPartialMult(SPREADAIM, partToCheck, false));
+            highestMultPart.recoil = std::max(highestMultPart.recoil, gun.GetPartialMult(RECOILAIM, partToCheck, false));
+            highestMultPart.reloadSpeed = std::max(highestMultPart.reloadSpeed, gun.GetPartialMult(RELOAD, partToCheck, false));
+            highestMultPart.magazineCap = std::max(highestMultPart.magazineCap, gun.GetPartialMult(MAGAZINESIZE, partToCheck, false));
+            highestMultPart.movementSpeed = std::max(highestMultPart.movementSpeed, gun.GetPartialAdd(MOVEMENTSPEED, partToCheck, false));
+            highestMultPart.health = std::max(highestMultPart.health, gun.GetPartialAdd(HEALTH, partToCheck, false));
+            highestMultPart.spinUp = std::max(highestMultPart.spinUp, gun.GetPartialAdd(SPINUP, partToCheck, false));
+            highestMultPart.equipTime = std::max(highestMultPart.equipTime, gun.GetPartialMult(EQUIPTIME, partToCheck, false));
+            highestMultPart.pellets = std::max(highestMultPart.pellets, gun.GetPartialMult(PELLETS, partToCheck, false));
+            highestMultPart.detectionRadius = std::max(highestMultPart.detectionRadius, gun.GetPartialMult(DETECTIONRADIUS, partToCheck, false));
+            highestMultPart.range = std::max(highestMultPart.range, gun.GetPartialMult(DROPOFFSTUDS, partToCheck, false));
+            highestMultPart.rangeFalloff = std::max(highestMultPart.rangeFalloff, gun.GetPartialFalloff(FALLOFFFACTOR, partToCheck, false));
+            highestMultPart.blastRadius = std::max(highestMultPart.blastRadius, gun.GetPartialMult(BLASTRADIUS, partToCheck, false));
         }
 
         // Polymorphism is required due to the fact that sizeof(Magazine) is more than sizeof(Part) causing pointer arithmetic to be incorrect when iterating through the array.
@@ -2017,7 +2026,7 @@ namespace DynamicPrune
     {
         using namespace Fast;
 
-        static_assert(TOTALGUNFLAGS == 25, "GetLowHighPotential must be defined for all gun flags");
+        static_assert(TOTALGUNFLAGS == 26, "GetLowHighPotential must be defined for all gun flags");
         PropertyType propertyType = GetPropertyType(flag);
 
         float low, high;
@@ -2143,7 +2152,7 @@ namespace DynamicPrune
     {
         using namespace Fast;
 
-        static_assert(Input::TOTALFILTERCOUNT == 24, "IsValidInRange must be defined for all filters");
+        static_assert(Input::TOTALFILTERCOUNT == 25, "IsValidInRange must be defined for all filters");
 
         for (int i = 0; i < Fast::TOTALMULTFLAGS; i++)
         {

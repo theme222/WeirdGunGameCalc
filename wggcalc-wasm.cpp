@@ -52,7 +52,7 @@ namespace Clear { // Define functions that will be used to clear filters and oth
         howManyTopGunsToDisplay = 10;
         playerMaxHealth = 100;
     
-        static_assert(TOTALFILTERCOUNT == 24, "Update ClearInput");
+        static_assert(TOTALFILTERCOUNT == 25, "Update ClearInput");
         damageRange = NILRANGE_P;
         damageEndRange = NILRANGE_P;
         magazineRange = NILRANGE_P;
@@ -77,6 +77,7 @@ namespace Clear { // Define functions that will be used to clear filters and oth
         DPSEndRange = NILRANGE_P;
         TTERange = NILRANGE_P;
         spinUpRange = NILRANGE_P;
+        blastRadiusRange = NILRANGE_P;
     }
     
     void ClearFast() 
@@ -248,10 +249,7 @@ namespace Util {
         return reversedGuns;
     }
     
-    std::string GetVersion()
-    {
-        return __WGGCALC_VERSION__;
-    }
+    std::string GetVersion() { return __WGGCALC_VERSION__; }
     
     std::string GetBarrelName(const Gun& gun) { return gun.barrel->name; }
     std::string GetMagazineName(const Gun& gun) { return gun.magazine->name; }
@@ -291,7 +289,7 @@ namespace AddFilter
     
     void Range(std::string title, std::string type, float num1, float num2)
     {
-        static_assert(PQ::TOTALSORTFLAGS == 23, "Update Range");
+        static_assert(PQ::TOTALSORTFLAGS == 25, "Update Range");
         fpair pair = std::make_pair(num1, num2);
         
         // Invalidate the other number if its only min or max
@@ -323,6 +321,7 @@ namespace AddFilter
         else if (title == "DPSEND") Input::DPSEndRange = pair;
         else if (title == "TTE") Input::TTERange = pair;
         else if (title == "SPINUP") Input::spinUpRange = pair;
+        else if (title == "BLASTRADIUS") Input::blastRadiusRange = pair;
         else throw std::invalid_argument("Invalid filter: " + title);
     }
 }
@@ -361,6 +360,7 @@ EMSCRIPTEN_BINDINGS(types)
         .property("adsSpread", &Gun::adsSpread)
         .property("detectionRadius", &Gun::detectionRadius)
         .property("spinUp", &Gun::spinUp)
+        .property("blastRadius", &Gun::blastRadius)
         .property("recoilHipHorizontal", &Gun::recoilHipHorizontal)
         .property("recoilHipVertical", &Gun::recoilHipVertical)
         .property("recoilAimHorizontal", &Gun::recoilAimHorizontal)
