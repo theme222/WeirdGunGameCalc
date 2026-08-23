@@ -14,20 +14,6 @@ recoilAimVertical: 54.9 - 73.2
 movementSpeed: -4.5
 TTK: 4.97049 Seconds
 
-[ Barrel: Spear, Magazine: Magic Mag, Grip: Lee Enfield, Stock: AWM, Core: Lightning Shot ]
-damage: 36.8288 - 125.803
-dropoffStuds: 5.81 - 203.35
-fireRate: 22.8938
-adsSpread: 0.147875
-hipfireSpread: 29.575
-reloadTime: 0.6732
-magazineSize: 6
-health: 3
-recoilHipVertical: 109.8 - 146.4
-recoilAimVertical: 54.9 - 73.2
-movementSpeed: -2.5
-TTK: 5.2416 Seconds
-
 [ Barrel: Spear, Magazine: Magic Mag, Grip: M1891, Stock: AWM, Core: Lightning Shot ]
 damage: 36.8288 - 112.875
 dropoffStuds: 7 - 245
@@ -40,6 +26,20 @@ health: 3
 recoilHipVertical: 109.8 - 146.4
 recoilAimVertical: 54.9 - 73.2
 movementSpeed: 1.5
+TTK: 5.2416 Seconds
+
+[ Barrel: Spear, Magazine: Magic Mag, Grip: Lee Enfield, Stock: AWM, Core: Lightning Shot ]
+damage: 36.8288 - 125.803
+dropoffStuds: 5.81 - 203.35
+fireRate: 22.8938
+adsSpread: 0.147875
+hipfireSpread: 29.575
+reloadTime: 0.6732
+magazineSize: 6
+health: 3
+recoilHipVertical: 109.8 - 146.4
+recoilAimVertical: 54.9 - 73.2
+movementSpeed: -2.5
 TTK: 5.2416 Seconds
 
 [ Barrel: Spear, Magazine: Magic Mag, Grip: Pistol Pistol, Stock: AWM, Core: Lightning Shot ]
