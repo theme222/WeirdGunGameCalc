@@ -82,6 +82,8 @@ jobs:
         run: |
           bun install
           bun run build
+          # This overwrites any copied CNAME file with the correct dev subdomain
+          echo "dev.wggcalc.tongsima.com" > dist/CNAME
 
       - name: Deploy to Dev Repo
         uses: peaceiris/actions-gh-pages@v4
