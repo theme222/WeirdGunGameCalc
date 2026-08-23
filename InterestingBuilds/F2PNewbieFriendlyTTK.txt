@@ -43,6 +43,20 @@ recoilAimVertical: 22.5382 - 32.319
 movementSpeed: 1.125
 TTK: 0.251046 Seconds
 
+[ Barrel: 2+2=4, Magazine: Fire Flamer, Grip: Lee Enfield, Stock: Fire Flamer, Core: QBZ-95 ]
+damage: 25.3897 - 20.4619
+dropoffStuds: 158.829 - 297.804
+pellets: 48
+fireRate: 714.867
+adsSpread: 0.457011
+hipfireSpread: 15.9954
+reloadTime: 8.09744
+magazineSize: 100
+health: 5
+recoilHipVertical: 45.36 - 55.08
+recoilAimVertical: 24.948 - 30.294
+TTK: 0.251795 Seconds
+
 [ Barrel: 2+2=4, Magazine: Fire Flamer, Grip: M1891, Stock: Fire Flamer, Core: QBZ-95 ]
 damage: 25.3897 - 21.1779
 dropoffStuds: 191.36 - 358.8
@@ -56,20 +70,6 @@ health: 5
 recoilHipVertical: 45.36 - 55.08
 recoilAimVertical: 24.948 - 30.294
 movementSpeed: 2.8
-TTK: 0.251795 Seconds
-
-[ Barrel: 2+2=4, Magazine: Fire Flamer, Grip: Lee Enfield, Stock: Fire Flamer, Core: QBZ-95 ]
-damage: 25.3897 - 20.4619
-dropoffStuds: 158.829 - 297.804
-pellets: 48
-fireRate: 714.867
-adsSpread: 0.457011
-hipfireSpread: 15.9954
-reloadTime: 8.09744
-magazineSize: 100
-health: 5
-recoilHipVertical: 45.36 - 55.08
-recoilAimVertical: 24.948 - 30.294
 TTK: 0.251795 Seconds
 
 [ Barrel: M1917 WC, Magazine: Graphics Card, Grip: G43, Stock: Speed Coil, Core: BAR ]
