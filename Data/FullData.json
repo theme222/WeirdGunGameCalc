@@ -2993,7 +2993,7 @@
       "Recoil": 80,
       "Fire_Rate": -50,
       "Movement_Speed": -9,
-      "Blast_Radius": 50.0
+      "Blast_Radius": 70.0
     },
       {
         "Price_Type": "WC",
