@@ -1,5 +1,19 @@
 ./wggcalc -o InterestingBuilds/FastestTTKMediumRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --TTKMin 0.001 --spreadAimMax 0.6 --recoilAimMax 30 --rangeMin 200 --pelletMax 1 --ffm Auto 
 Current top 10 guns are: 
+[ Barrel: Malyuk, Magazine: AUG, Grip: Double Barrel, Stock: APS, Core: Discharger ]
+damage: 33.6666 - 17.9914
+dropoffStuds: 203.94 - 290.46
+fireRate: 494.325
+adsSpread: 0.585
+hipfireSpread: 4.68
+reloadTime: 3.36
+magazineSize: 42
+health: 7
+recoilHipVertical: 8.9154 - 14.859
+recoilAimVertical: 8.02386 - 13.3731
+movementSpeed: 0.5
+TTK: 0.242755 Seconds
+
 [ Barrel: M40, Magazine: Scar L, Grip: M1891, Stock: VSSR, Core: Hotdog ]
 damage: 33.6756 - 26.6037
 dropoffStuds: 204 - 318.75
@@ -13,119 +27,113 @@ recoilAimVertical: 25.5892 - 28.6748
 movementSpeed: 2
 TTK: 0.247934 Seconds
 
-[ Barrel: M40, Magazine: ECHO11, Grip: Kriss Vector, Stock: Negev, Core: Hotdog ]
-damage: 35.7504 - 28.0896
-dropoffStuds: 200 - 312.5
-fireRate: 475.904
-adsSpread: 0.577044
-hipfireSpread: 6.4116
-reloadTime: 4.104
+[ Barrel: Malyuk, Magazine: P90, Grip: Double Barrel, Stock: APS, Core: Discharger ]
+damage: 33.8402 - 18.206
+dropoffStuds: 205.425 - 292.575
+fireRate: 477.953
+adsSpread: 0.596375
+hipfireSpread: 4.771
+reloadTime: 4.032
 magazineSize: 50
-recoilHipVertical: 40.9663 - 45.9487
-recoilAimVertical: 26.6281 - 29.839
-movementSpeed: 2
-TTK: 0.252152 Seconds
-
-[ Barrel: M40, Magazine: Scar L, Grip: Quad-Jolly, Stock: VSSR, Core: Hotdog ]
-damage: 33.6756 - 26.4976
-dropoffStuds: 200.94 - 313.969
-fireRate: 466.4
-adsSpread: 0.42336
-hipfireSpread: 4.704
-reloadTime: 3
-magazineSize: 40
-recoilHipVertical: 39.368 - 44.156
-recoilAimVertical: 25.5892 - 28.6748
+health: 7
+recoilHipVertical: 10.431 - 17.385
+recoilAimVertical: 9.38792 - 15.6465
 movementSpeed: 1
-TTK: 0.25729 Seconds
+TTK: 0.251071 Seconds
 
-[ Barrel: M40, Magazine: ECHO11, Grip: Kriss Vector, Stock: AUTO-12, Core: Hotdog ]
-damage: 35.7504 - 28.0896
-dropoffStuds: 200 - 312.5
-fireRate: 464.464
-adsSpread: 0.577044
-hipfireSpread: 6.4116
-reloadTime: 3.933
-magazineSize: 50
-recoilHipVertical: 39.3703 - 44.1585
-recoilAimVertical: 25.5907 - 28.6764
-movementSpeed: 2.5
-TTK: 0.258362 Seconds
-
-[ Barrel: M40, Magazine: Scar L, Grip: Kriss Vector, Stock: AUTO-12, Core: Hotdog ]
-damage: 33.6756 - 26.4594
-dropoffStuds: 200 - 312.5
-fireRate: 464.464
-adsSpread: 0.44226
-hipfireSpread: 4.914
-reloadTime: 3.105
+[ Barrel: Malyuk, Magazine: P90, Grip: G43, Stock: APS, Core: Discharger ]
+damage: 33.4383 - 17.9898
+dropoffStuds: 205.425 - 292.575
+fireRate: 477.953
+adsSpread: 0.596375
+hipfireSpread: 4.771
+reloadTime: 4.032
 magazineSize: 40
-recoilHipVertical: 36.6235 - 41.0777
-recoilAimVertical: 23.8053 - 26.6758
-TTK: 0.258362 Seconds
+health: 7
+recoilHipVertical: 5.00689 - 8.34481
+recoilAimVertical: 4.5062 - 7.51033
+movementSpeed: 3
+TTK: 0.251071 Seconds
 
-[ Barrel: M40, Magazine: ECHO11, Grip: Auto-5, Stock: MP18, Core: Hotdog ]
-damage: 34.8566 - 27.5367
-dropoffStuds: 204 - 318.75
-fireRate: 462
-adsSpread: 0.39456
-hipfireSpread: 4.384
-reloadTime: 4.332
+[ Barrel: Malyuk, Magazine: P90, Grip: Type 2a Nambu, Stock: APS, Core: Discharger ]
+damage: 33.4785 - 18.0114
+dropoffStuds: 205.425 - 292.575
+fireRate: 477.953
+adsSpread: 0.4935
+hipfireSpread: 3.948
+reloadTime: 4.032
 magazineSize: 50
-recoilHipVertical: 40.265 - 45.1621
-recoilAimVertical: 26.1723 - 29.3282
-movementSpeed: 6
-TTK: 0.25974 Seconds
+health: -0.5
+recoilHipVertical: 7.12786 - 11.8798
+recoilAimVertical: 6.41508 - 10.6918
+movementSpeed: 5.25
+TTK: 0.251071 Seconds
 
-[ Barrel: M40, Magazine: ECHO11, Grip: Auto-5, Stock: AK-12, Core: Hotdog ]
-damage: 34.8566 - 27.3874
-dropoffStuds: 200 - 312.5
-fireRate: 462
-adsSpread: 0.422179
-hipfireSpread: 4.69088
-reloadTime: 3.8
-magazineSize: 50
-recoilHipVertical: 40.8092 - 45.7724
-recoilAimVertical: 26.5259 - 29.7245
-movementSpeed: 1.3
-TTK: 0.25974 Seconds
+[ Barrel: FC200SH, Magazine: L8, Grip: Circuit Judge, Stock: P90, Core: Discharger ]
+damage: 33.6179 - 17.5105
+dropoffStuds: 201.935 - 287.604
+fireRate: 474.33
+adsSpread: 0.527562
+hipfireSpread: 4.2205
+reloadTime: 3.132
+magazineSize: 30
+health: 7
+recoilHipVertical: 4.6332 - 7.722
+recoilAimVertical: 4.16988 - 6.9498
+movementSpeed: 0.75
+TTK: 0.252988 Seconds
 
-[ Barrel: M40, Magazine: Scar L, Grip: P90, Stock: VSSR, Core: Hotdog ]
-damage: 33.6756 - 26.6037
-dropoffStuds: 204 - 318.75
-fireRate: 462
-adsSpread: 0.474163
-hipfireSpread: 5.26848
-reloadTime: 2.73
-magazineSize: 40
-recoilHipVertical: 39.368 - 44.156
-recoilAimVertical: 25.5892 - 28.6748
-movementSpeed: 2
-TTK: 0.25974 Seconds
+[ Barrel: FC200SH, Magazine: The Chief, Grip: M1897 Trench Shotgun, Stock: SMO3, Core: Discharger ]
+damage: 33.6957 - 18.3951
+dropoffStuds: 210.672 - 300.048
+fireRate: 472.245
+adsSpread: 0.525
+hipfireSpread: 4.2
+reloadTime: 4.0824
+magazineSize: 36
+health: 7
+recoilHipVertical: 7.6032 - 12.672
+recoilAimVertical: 6.84288 - 11.4048
+movementSpeed: 3
+TTK: 0.254106 Seconds
 
-[ Barrel: M40, Magazine: ECHO11, Grip: Auto-5, Stock: VSSR, Core: Hotdog ]
-damage: 34.8566 - 27.5367
-dropoffStuds: 204 - 318.75
-fireRate: 462
-adsSpread: 0.441907
-hipfireSpread: 4.91008
-reloadTime: 3.8
-magazineSize: 50
-recoilHipVertical: 38.0885 - 42.7209
-recoilAimVertical: 24.7576 - 27.7429
-movementSpeed: 0.5
-TTK: 0.25974 Seconds
+[ Barrel: FC200SH, Magazine: The Chief, Grip: The Chief, Stock: Lee Enfield, Core: Discharger ]
+damage: 33.8188 - 17.6945
+dropoffStuds: 200.138 - 285.046
+fireRate: 472.245
+adsSpread: 0.45
+hipfireSpread: 3.6
+reloadTime: 3.888
+magazineSize: 36
+health: 7
+recoilHipVertical: 7.2576 - 12.096
+recoilAimVertical: 6.53184 - 10.8864
+TTK: 0.254106 Seconds
 
-[ Barrel: M40, Magazine: ECHO11, Grip: Auto-5, Stock: Famas F1, Core: Hotdog ]
-damage: 34.8566 - 27.3874
-dropoffStuds: 200 - 312.5
-fireRate: 462
-adsSpread: 0.39456
-hipfireSpread: 4.384
-reloadTime: 4.066
-magazineSize: 50
-recoilHipVertical: 40.8092 - 45.7724
-recoilAimVertical: 26.5259 - 29.7245
-movementSpeed: 2.5
-TTK: 0.25974 Seconds
+[ Barrel: FC200SH, Magazine: The Chief, Grip: APS, Stock: Lee Enfield, Core: Discharger ]
+damage: 33.4905 - 17.5228
+dropoffStuds: 200.138 - 285.046
+fireRate: 472.245
+adsSpread: 0.6
+hipfireSpread: 4.8
+reloadTime: 4.12128
+magazineSize: 36
+health: 7
+recoilHipVertical: 4.78464 - 7.9744
+recoilAimVertical: 4.30618 - 7.17696
+TTK: 0.254106 Seconds
+
+[ Barrel: FC200SH, Magazine: The Chief, Grip: Type 2a Nambu, Stock: Lee Enfield, Core: Discharger ]
+damage: 34.1882 - 17.8878
+dropoffStuds: 200.138 - 285.046
+fireRate: 472.245
+adsSpread: 0.4965
+hipfireSpread: 3.972
+reloadTime: 3.888
+magazineSize: 36
+health: -0.5
+recoilHipVertical: 6.61248 - 11.0208
+recoilAimVertical: 5.95123 - 9.91872
+movementSpeed: 2.25
+TTK: 0.254106 Seconds
 

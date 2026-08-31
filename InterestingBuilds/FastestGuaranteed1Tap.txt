@@ -113,20 +113,6 @@ recoilAimVertical: 63.135 - 84.18
 movementSpeed: -5
 TTK: 5.41895 Seconds
 
-[ Barrel: Spear, Magazine: Magic Mag, Grip: Auto-5, Stock: Siberia-12, Core: Lightning Shot ]
-damage: 35.908 - 110.053
-dropoffStuds: 7 - 245
-fireRate: 22.08
-adsSpread: 0.147532
-hipfireSpread: 29.5064
-reloadTime: 0.9
-magazineSize: 6
-health: 3
-recoilHipVertical: 94.752 - 126.336
-recoilAimVertical: 47.376 - 63.168
-movementSpeed: -2.5
-TTK: 5.43479 Seconds
-
 [ Barrel: Spear, Magazine: Magic Mag, Grip: Controller, Stock: Siberia-12, Core: Lightning Shot ]
 damage: 36.8288 - 112.875
 dropoffStuds: 7 - 245
@@ -139,5 +125,19 @@ health: 3
 recoilHipVertical: 114.912 - 153.216
 recoilAimVertical: 57.456 - 76.608
 movementSpeed: -4.5
+TTK: 5.43479 Seconds
+
+[ Barrel: Spear, Magazine: Magic Mag, Grip: Auto-5, Stock: Siberia-12, Core: Lightning Shot ]
+damage: 35.908 - 110.053
+dropoffStuds: 7 - 245
+fireRate: 22.08
+adsSpread: 0.147532
+hipfireSpread: 29.5064
+reloadTime: 0.9
+magazineSize: 6
+health: 3
+recoilHipVertical: 94.752 - 126.336
+recoilAimVertical: 47.376 - 63.168
+movementSpeed: -2.5
 TTK: 5.43479 Seconds
 

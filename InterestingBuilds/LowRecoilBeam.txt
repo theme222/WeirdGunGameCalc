@@ -1,143 +1,141 @@
 ./wggcalc -o InterestingBuilds/LowRecoilBeam.txt -i SMG AR LMG Weird --recoilAimMax 7 --magazineMin 45 --spreadAimMax 0.4 --rangeMin 150 --speedMin 0 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: M870 MCS, Magazine: MG15, Grip: Type 2a Nambu, Stock: Spas-12, Core: Burton ]
-damage: 16.8242 - 11.5775
-dropoffStuds: 155.867 - 333.382
-fireRate: 1021.44
-adsSpread: 0.399718
-hipfireSpread: 3.99718
-reloadTime: 7.7
-magazineSize: 53
-health: -15
-recoilHipVertical: 18.081 - 19.8891
-recoilAimVertical: 6.32835 - 6.87078
-movementSpeed: 6.45
-TTK: 0.293703 Seconds
+[ Barrel: As-Val, Magazine: AUG, Grip: Type 2a Nambu, Stock: Spas15, Core: Discharger ]
+damage: 25.2402 - 8.73622
+dropoffStuds: 150.151 - 213.851
+fireRate: 707.101
+adsSpread: 0.372375
+hipfireSpread: 2.979
+reloadTime: 3.36
+magazineSize: 51
+health: -0.5
+recoilHipVertical: 4.2435 - 7.0725
+recoilAimVertical: 3.81915 - 6.36525
+movementSpeed: 4.75
+TTK: 0.25456 Seconds
 
-[ Barrel: Type 99, Magazine: MG15, Grip: Type 2a Nambu, Stock: Spas-12, Core: Burton ]
-damage: 16.7481 - 11.8207
-dropoffStuds: 165.816 - 354.662
-fireRate: 1021.44
-adsSpread: 0.364354
-hipfireSpread: 3.64354
-reloadTime: 7.35
-magazineSize: 53
-health: -15
-recoilHipVertical: 18.081 - 19.8891
-recoilAimVertical: 6.32835 - 6.87078
-movementSpeed: 4.45
-TTK: 0.293703 Seconds
+[ Barrel: M870 Breacher, Magazine: DP-27, Grip: The Chief, Stock: Fire Flamer, Core: Discharger ]
+damage: 33.3583 - 13.0151
+dropoffStuds: 160.231 - 228.208
+pellets: 4
+fireRate: 458.35
+adsSpread: 0.391987
+hipfireSpread: 3.1359
+reloadTime: 4.8
+magazineSize: 47
+health: 9.8
+recoilHipVertical: 4.16623 - 6.94373
+recoilAimVertical: 3.74961 - 6.24935
+movementSpeed: 0.0999999
+TTK: 0.261809 Seconds
 
-[ Barrel: Shower, Magazine: Mega Soaker, Grip: FG-42, Stock: STG-44, Core: QBZ-95 ]
-damage: 16.8322 - 13.8966
-dropoffStuds: 182 - 341.25
-pellets: 2
-fireRate: 1012.32
-adsSpread: 0.361251
-hipfireSpread: 12.6438
-reloadTime: 7.36965
-magazineSize: 60
-recoilHipVertical: 10.4429 - 12.6806
-recoilAimVertical: 5.74358 - 6.97435
-movementSpeed: 3
-TTK: 0.29635 Seconds
+[ Barrel: Siberia-12, Magazine: AUG, Grip: Type 2a Nambu, Stock: USA180, Core: Discharger ]
+damage: 25.1114 - 8.92256
+dropoffStuds: 152.564 - 217.288
+fireRate: 687.112
+adsSpread: 0.398441
+hipfireSpread: 3.18753
+reloadTime: 3
+magazineSize: 48
+health: -0.5
+recoilHipVertical: 3.69 - 6.15
+recoilAimVertical: 3.321 - 5.535
+movementSpeed: 7.75
+TTK: 0.261966 Seconds
 
-[ Barrel: Shower, Magazine: Mega Soaker, Grip: M1887, Stock: Type 2a Nambu, Core: QBZ-95 ]
-damage: 16.8322 - 13.8966
-dropoffStuds: 182 - 341.25
-pellets: 2
-fireRate: 1009.22
-adsSpread: 0.395821
-hipfireSpread: 13.8537
-reloadTime: 6.2775
-magazineSize: 60
-health: -3
-recoilHipVertical: 9.7314 - 11.8167
-recoilAimVertical: 5.35227 - 6.49919
-movementSpeed: 2.375
-TTK: 0.297258 Seconds
+[ Barrel: P90, Magazine: Graphics Card, Grip: M1 Garand, Stock: Sten gun, Core: Discharger ]
+damage: 25.1175 - 9.0855
+dropoffStuds: 154.077 - 219.443
+fireRate: 684.83
+adsSpread: 0.393575
+hipfireSpread: 3.1486
+reloadTime: 6
+magazineSize: 50
+health: 7
+recoilHipVertical: 3.82536 - 6.3756
+recoilAimVertical: 3.44282 - 5.73804
+movementSpeed: 3.375
+TTK: 0.262839 Seconds
 
-[ Barrel: Shower, Magazine: Mega Soaker, Grip: M1 Garand, Stock: Type 2a Nambu, Core: QBZ-95 ]
-damage: 16.8322 - 13.8966
-dropoffStuds: 182 - 341.25
-pellets: 2
-fireRate: 1003.56
-adsSpread: 0.344192
-hipfireSpread: 12.0467
-reloadTime: 6.75
-magazineSize: 60
-health: -6.5
-recoilHipVertical: 9.7314 - 11.8167
-recoilAimVertical: 5.35227 - 6.49919
+[ Barrel: As-Val, Magazine: Paintball, Grip: The Chief, Stock: PP-19 Bizon, Core: Discharger ]
+damage: 25.2249 - 9.33416
+dropoffStuds: 156.327 - 222.648
+fireRate: 684.4
+adsSpread: 0.399356
+hipfireSpread: 3.19485
+reloadTime: 5.75825
+magazineSize: 70
+health: 7
+recoilHipVertical: 4.6575 - 7.7625
+recoilAimVertical: 4.19175 - 6.98625
+movementSpeed: 1.875
+TTK: 0.263004 Seconds
+
+[ Barrel: As-Val, Magazine: Paintball, Grip: The Chief, Stock: MG42, Core: Discharger ]
+damage: 25.2249 - 9.03051
+dropoffStuds: 153.45 - 218.55
+fireRate: 684.4
+adsSpread: 0.359531
+hipfireSpread: 2.87625
+reloadTime: 6.82
+magazineSize: 70
+health: 7
+recoilHipVertical: 4.6575 - 7.7625
+recoilAimVertical: 4.19175 - 6.98625
+movementSpeed: 2.625
+TTK: 0.263004 Seconds
+
+[ Barrel: As-Val, Magazine: Paintball, Grip: The Chief, Stock: M40, Core: Discharger ]
+damage: 25.2249 - 9.03051
+dropoffStuds: 153.45 - 218.55
+fireRate: 684.4
+adsSpread: 0.38055
+hipfireSpread: 3.0444
+reloadTime: 6.2
+magazineSize: 70
+health: 7
+recoilHipVertical: 4.33148 - 7.21912
+recoilAimVertical: 3.89833 - 6.49721
+TTK: 0.263004 Seconds
+
+[ Barrel: As-Val, Magazine: Paintball, Grip: The Chief, Stock: Type 2a Nambu, Core: Discharger ]
+damage: 25.2249 - 9.03051
+dropoffStuds: 153.45 - 218.55
+fireRate: 684.4
+adsSpread: 0.379444
+hipfireSpread: 3.03555
+reloadTime: 6.2
+magazineSize: 70
+health: 0.5
+recoilHipVertical: 3.85408 - 6.42347
+recoilAimVertical: 3.46867 - 5.78112
 movementSpeed: 4.875
-TTK: 0.298934 Seconds
+TTK: 0.263004 Seconds
 
-[ Barrel: Shower, Magazine: Mega Soaker, Grip: M1 Garand, Stock: C36C, Core: QBZ-95 ]
-damage: 16.8322 - 13.8966
-dropoffStuds: 182 - 341.25
-pellets: 2
-fireRate: 1003.56
-adsSpread: 0.381321
-hipfireSpread: 13.3462
-reloadTime: 6.4125
-magazineSize: 60
-recoilHipVertical: 9.996 - 12.138
-recoilAimVertical: 5.4978 - 6.6759
-TTK: 0.298934 Seconds
+[ Barrel: As-Val, Magazine: Paintball, Grip: The Chief, Stock: Type 11, Core: Discharger ]
+damage: 25.2249 - 9.03051
+dropoffStuds: 153.45 - 218.55
+fireRate: 684.4
+adsSpread: 0.3894
+hipfireSpread: 3.1152
+reloadTime: 6.324
+magazineSize: 70
+health: -1
+recoilHipVertical: 4.6575 - 7.7625
+recoilAimVertical: 4.19175 - 6.98625
+movementSpeed: 2.25
+TTK: 0.263004 Seconds
 
-[ Barrel: Shower, Magazine: Mega Soaker, Grip: M1 Garand, Stock: Tommy, Core: QBZ-95 ]
-damage: 16.8322 - 13.8966
-dropoffStuds: 182 - 341.25
-pellets: 2
-fireRate: 1003.56
-adsSpread: 0.374296
-hipfireSpread: 13.1004
-reloadTime: 7.0875
-magazineSize: 60
-recoilHipVertical: 9.7314 - 11.8167
-recoilAimVertical: 5.35227 - 6.49919
-movementSpeed: 0.375
-TTK: 0.298934 Seconds
-
-[ Barrel: MG42, Magazine: P90, Grip: M60, Stock: FAL, Core: Burton ]
-damage: 14.3325 - 9.92478
-dropoffStuds: 151.124 - 323.237
-fireRate: 1202.85
-adsSpread: 0.383102
-hipfireSpread: 3.83102
-reloadTime: 3.78
-magazineSize: 50
-health: -7.5
-recoilHipVertical: 16.807 - 18.4878
-recoilAimVertical: 5.88247 - 6.38668
-movementSpeed: 0.77
-TTK: 0.299289 Seconds
-
-[ Barrel: MG42, Magazine: P90, Grip: Snake Sniper, Stock: M40, Core: Burton ]
-damage: 14.3325 - 10.0974
-dropoffStuds: 156.56 - 334.865
-fireRate: 1202.85
-adsSpread: 0.397021
-hipfireSpread: 3.97021
-reloadTime: 3.6
-magazineSize: 50
-health: -7.5
-recoilHipVertical: 17.0717 - 18.7789
-recoilAimVertical: 5.9751 - 6.48725
-movementSpeed: 1.6
-TTK: 0.299289 Seconds
-
-[ Barrel: MG42, Magazine: P90, Grip: P08 Artillery, Stock: FAL, Core: Burton ]
-damage: 14.3325 - 9.92478
-dropoffStuds: 151.124 - 323.237
-fireRate: 1202.85
-adsSpread: 0.394369
-hipfireSpread: 3.94369
-reloadTime: 3.888
-magazineSize: 50
-health: -7.5
-recoilHipVertical: 18.3889 - 20.2278
-recoilAimVertical: 6.43611 - 6.98778
-movementSpeed: 1.27
-TTK: 0.299289 Seconds
+[ Barrel: As-Val, Magazine: Paintball, Grip: The Chief, Stock: M870, Core: Discharger ]
+damage: 25.2249 - 9.03051
+dropoffStuds: 153.45 - 218.55
+fireRate: 684.4
+adsSpread: 0.396038
+hipfireSpread: 3.1683
+reloadTime: 6.51
+magazineSize: 70
+health: 7
+recoilHipVertical: 4.16846 - 6.94744
+recoilAimVertical: 3.75162 - 6.25269
+TTK: 0.263004 Seconds
 

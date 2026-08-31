@@ -5,6 +5,7 @@ import { filterPropStrings } from './filter.const.js';
 
 function sortTypeJSToWasm(sortType: string): string | undefined {
   const wasmSortList = [
+    'BLASTRADIUS',
     'BURST',
     'DPS',
     'DPSEND',
@@ -22,6 +23,7 @@ function sortTypeJSToWasm(sortType: string): string | undefined {
     'RECOILHIP',
     'RELOAD',
     'SPEED',
+    'SPINUP',
     'SPREADAIM',
     'SPREADHIP',
     'TTK',
@@ -68,6 +70,8 @@ function gunObjectWasmToJS(wasmObject: Gun_WASM ): Gun { // Frees wasmObject
   g.hipfireSpread = wasmObject["hipfireSpread"];
   g.adsSpread = wasmObject["adsSpread"];
   g.detectionRadius = wasmObject["detectionRadius"];
+  g.spinUp = wasmObject["spinUp"];
+  g.blastRadius = wasmObject["blastRadius"];
   g.recoilHipHorizontal = fpairObjectWasmToJS(wasmObject["recoilHipHorizontal"]);
   g.recoilHipVertical = fpairObjectWasmToJS(wasmObject["recoilHipVertical"]);
   g.recoilAimHorizontal = fpairObjectWasmToJS(wasmObject["recoilAimHorizontal"]);

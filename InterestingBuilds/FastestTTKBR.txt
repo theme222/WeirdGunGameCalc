@@ -14,20 +14,6 @@ recoilAimVertical: 6.71408 - 7.38549
 movementSpeed: -9.5
 TTK: 0.203532 Seconds
 
-[ Barrel: M40, Magazine: FAL, Grip: Slugger, Stock: Negev, Core: SKS ]
-damage: 33.44 - 22.9064
-dropoffStuds: 157.625 - 485
-fireRate: 586.188
-adsSpread: 0.19256
-hipfireSpread: 3.8512
-reloadTime: 2.16
-magazineSize: 20
-health: 5
-recoilHipVertical: 13.6314 - 14.9945
-recoilAimVertical: 6.81569 - 7.49726
-movementSpeed: -7.5
-TTK: 0.204713 Seconds
-
 [ Barrel: M40, Magazine: FAL, Grip: VSSR, Stock: Negev, Core: SKS ]
 damage: 33.44 - 23.0855
 dropoffStuds: 160.305 - 493.245
@@ -42,6 +28,20 @@ recoilAimVertical: 6.42746 - 7.0702
 movementSpeed: -9.5
 TTK: 0.204713 Seconds
 
+[ Barrel: M40, Magazine: FAL, Grip: Slugger, Stock: Negev, Core: SKS ]
+damage: 33.44 - 22.9064
+dropoffStuds: 157.625 - 485
+fireRate: 586.188
+adsSpread: 0.19256
+hipfireSpread: 3.8512
+reloadTime: 2.16
+magazineSize: 20
+health: 5
+recoilHipVertical: 13.6314 - 14.9945
+recoilAimVertical: 6.81569 - 7.49726
+movementSpeed: -7.5
+TTK: 0.204713 Seconds
+
 [ Barrel: M40, Magazine: FAL, Grip: Mega Soaker, Stock: Negev, Core: SKS ]
 damage: 33.44 - 22.9064
 dropoffStuds: 157.625 - 485
@@ -54,6 +54,20 @@ health: 5
 recoilHipVertical: 13.1137 - 14.4251
 recoilAimVertical: 6.55687 - 7.21255
 movementSpeed: -5.5
+TTK: 0.204713 Seconds
+
+[ Barrel: M40, Magazine: FAL, Grip: M-16-CQB, Stock: Negev, Core: SKS ]
+damage: 33.44 - 23.2435
+dropoffStuds: 162.669 - 500.52
+fireRate: 586.188
+adsSpread: 0.166
+hipfireSpread: 3.32
+reloadTime: 2.3976
+magazineSize: 20
+health: 5
+recoilHipVertical: 13.5279 - 14.8806
+recoilAimVertical: 6.76393 - 7.44032
+movementSpeed: -7.5
 TTK: 0.204713 Seconds
 
 [ Barrel: M40, Magazine: FAL, Grip: AR-10, Stock: Negev, Core: SKS ]
@@ -125,18 +139,4 @@ recoilHipVertical: 13.6 - 14.96
 recoilAimVertical: 6.8 - 7.48
 movementSpeed: -4.6
 TTK: 0.210247 Seconds
-
-[ Barrel: FC200SH, Magazine: Drill, Grip: Musket, Stock: Dragunov, Core: SKS ]
-damage: 33.6201 - 22.3947
-dropoffStuds: 153.234 - 471.488
-fireRate: 569.114
-adsSpread: 0.5236
-hipfireSpread: 10.472
-reloadTime: 12.4146
-magazineSize: 108
-health: -3
-recoilHipVertical: 13.6 - 14.96
-recoilAimVertical: 6.8 - 7.48
-movementSpeed: 3
-TTK: 0.210854 Seconds
 

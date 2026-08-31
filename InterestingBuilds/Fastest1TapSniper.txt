@@ -12,18 +12,6 @@ recoilHipVertical: 127.125 - 169.5
 recoilAimVertical: 63.5625 - 84.75
 movementSpeed: -2.45
 
-[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: Malyuk, Core: AWM ]
-damage: 100.386 - 87.191
-dropoffStuds: 300.713 - 451.069
-fireRate: 25.0024
-adsSpread: 0.07
-hipfireSpread: 21
-reloadTime: 6.0984
-magazineSize: 17
-recoilHipVertical: 112.5 - 150
-recoilAimVertical: 56.25 - 75
-movementSpeed: -5
-
 [ Barrel: Fat Cat, Magazine: M1 Garand, Grip: Musket, Stock: Speed Coil, Core: AWM ]
 damage: 101.069 - 89.7805
 dropoffStuds: 437.026 - 655.538
@@ -73,41 +61,17 @@ recoilHipVertical: 112.5 - 150
 recoilAimVertical: 56.25 - 75
 movementSpeed: -5
 
-[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: STG-44, Core: AWM ]
+[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: Malyuk, Core: AWM ]
 damage: 100.386 - 87.191
 dropoffStuds: 300.713 - 451.069
 fireRate: 24.6664
-adsSpread: 0.0651
-hipfireSpread: 19.53
-reloadTime: 5.7717
-magazineSize: 20
+adsSpread: 0.07
+hipfireSpread: 21
+reloadTime: 6.0984
+magazineSize: 17
 recoilHipVertical: 112.5 - 150
 recoilAimVertical: 56.25 - 75
 movementSpeed: -5
-
-[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: MAC-10, Core: AWM ]
-damage: 100.386 - 87.191
-dropoffStuds: 300.713 - 451.069
-fireRate: 24.6425
-adsSpread: 0.084
-hipfireSpread: 25.2
-reloadTime: 5.445
-magazineSize: 22
-recoilHipVertical: 112.5 - 150
-recoilAimVertical: 56.25 - 75
-movementSpeed: -2.24
-
-[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: Maple Badger, Core: AWM ]
-damage: 100.386 - 87.191
-dropoffStuds: 300.713 - 451.069
-fireRate: 24.6425
-adsSpread: 0.084
-hipfireSpread: 25.2
-reloadTime: 5.28165
-magazineSize: 20
-recoilHipVertical: 112.5 - 150
-recoilAimVertical: 56.25 - 75
-movementSpeed: -2.3
 
 [ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: Mosin, Core: AWM ]
 damage: 100.386 - 87.191
@@ -119,5 +83,41 @@ reloadTime: 5.445
 magazineSize: 20
 recoilHipVertical: 139.5 - 186
 recoilAimVertical: 69.75 - 93
+movementSpeed: -5
+
+[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: M1897 Trench Shotgun, Core: AWM ]
+damage: 100.386 - 87.191
+dropoffStuds: 300.713 - 451.069
+fireRate: 24.4265
+adsSpread: 0.0805
+hipfireSpread: 24.15
+reloadTime: 5.445
+magazineSize: 23
+recoilHipVertical: 157.5 - 210
+recoilAimVertical: 78.75 - 105
+movementSpeed: -5
+
+[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: AK2D, Core: AWM ]
+damage: 101.892 - 88.4989
+dropoffStuds: 300.713 - 451.069
+fireRate: 24.3545
+adsSpread: 0.07
+hipfireSpread: 21
+reloadTime: 5.445
+magazineSize: 20
+recoilHipVertical: 160.875 - 214.5
+recoilAimVertical: 80.4375 - 107.25
+movementSpeed: -5
+
+[ Barrel: Light Gun, Magazine: M40, Grip: Musket, Stock: AK2D, Core: AWM ]
+damage: 101.021 - 89.3025
+dropoffStuds: 330 - 495
+fireRate: 24.3545
+adsSpread: 0.0623
+hipfireSpread: 18.69
+reloadTime: 5.445
+magazineSize: 10
+recoilHipVertical: 160.875 - 214.5
+recoilAimVertical: 80.4375 - 107.25
 movementSpeed: -5
 

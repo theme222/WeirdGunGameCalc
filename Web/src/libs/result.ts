@@ -34,7 +34,9 @@ export function getFilterAsProperty(gun: Gun, filterName: (typeof propertyString
      case 'DropoffStuds End': return gun.dropoffStuds[1];
      case 'DropoffStuds': return gun.dropoffStuds;
      case 'Detection Radius': return gun.detectionRadius;
+     case 'Spin Up': return gun.spinUp;
      case 'Time To Aim': return gun.timeToAim;
+     case 'Blast Radius': return gun.blastRadius;
      case 'Equip Time': return gun.equipTime;
      case 'Burst': return gun.burst;
      case 'Speed': return gun.movementSpeedModifier;

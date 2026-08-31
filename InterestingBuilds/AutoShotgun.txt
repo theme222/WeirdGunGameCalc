@@ -1,2 +1,145 @@
 ./wggcalc -o InterestingBuilds/AutoShotgun.txt -i Shotgun --sort FIRERATE --ffm Auto --damageMin 60 --spreadAimMax 2 --speedMin 0 --rangeMin 50 --magazineMin 20 --recoilAimMax 100 
 Current top 10 guns are: 
+[ Barrel: M40, Magazine: Mega Soaker, Grip: M1897 Trench Shotgun, Stock: Auto-5, Core: AUTO-12 ]
+damage: 63.3555 - 18.0365
+dropoffStuds: 51.1875 - 107.494
+pellets: 6
+fireRate: 436.59
+adsSpread: 1.8711
+hipfireSpread: 4.67775
+reloadTime: 5.67
+magazineSize: 60
+recoilHipVertical: 25.7985 - 41.769
+recoilAimVertical: 7.73955 - 12.5307
+movementSpeed: 3
+TTK: 0.137429 Seconds
+
+[ Barrel: P90, Magazine: Horizontal, Grip: M1897 Trench Shotgun, Stock: Auto-5, Core: AUTO-12 ]
+damage: 68.1098 - 17.6915
+dropoffStuds: 50.65 - 106.365
+pellets: 6
+fireRate: 433.523
+adsSpread: 1.83576
+hipfireSpread: 4.58939
+reloadTime: 1.995
+magazineSize: 20
+recoilHipVertical: 32.13 - 52.02
+recoilAimVertical: 9.639 - 15.606
+movementSpeed: 1.625
+TTK: 0.138401 Seconds
+
+[ Barrel: P90, Magazine: Type 11, Grip: M1897 Trench Shotgun, Stock: Auto-5, Core: AUTO-12 ]
+damage: 69.147 - 17.9609
+dropoffStuds: 50.65 - 106.365
+pellets: 6
+fireRate: 430.196
+adsSpread: 1.83576
+hipfireSpread: 4.58939
+reloadTime: 2.415
+magazineSize: 30
+health: -10
+recoilHipVertical: 47.628 - 77.112
+recoilAimVertical: 14.2884 - 23.1336
+movementSpeed: 1.625
+TTK: 0.139471 Seconds
+
+[ Barrel: P90, Magazine: Paintball, Grip: Auto-5, Stock: Auto-5, Core: AUTO-12 ]
+damage: 66.07 - 17.1617
+dropoffStuds: 50.65 - 106.365
+pellets: 6
+fireRate: 428.338
+adsSpread: 1.65043
+hipfireSpread: 4.12608
+reloadTime: 6.2
+magazineSize: 70
+recoilHipVertical: 22.68 - 36.72
+recoilAimVertical: 6.804 - 11.016
+movementSpeed: 1.625
+TTK: 0.140076 Seconds
+
+[ Barrel: USA180, Magazine: OwenGun, Grip: Auto-5, Stock: Auto-5, Core: AUTO-12 ]
+damage: 62.0249 - 16.1324
+dropoffStuds: 50.127 - 105.267
+pellets: 6
+fireRate: 426.075
+adsSpread: 1.8216
+hipfireSpread: 4.554
+reloadTime: 2.1
+magazineSize: 39
+recoilHipVertical: 18.9 - 30.6
+recoilAimVertical: 5.67 - 9.18
+movementSpeed: 1.3
+TTK: 0.14082 Seconds
+
+[ Barrel: P90, Magazine: Horizontal, Grip: Pistol Pistol, Stock: Auto-5, Core: AUTO-12 ]
+damage: 63.0016 - 16.3647
+dropoffStuds: 50.65 - 106.365
+pellets: 6
+fireRate: 425.641
+adsSpread: 1.92317
+hipfireSpread: 4.80794
+reloadTime: 1.33
+magazineSize: 20
+recoilHipVertical: 23.562 - 38.148
+recoilAimVertical: 7.0686 - 11.4444
+movementSpeed: 1.625
+TTK: 0.140964 Seconds
+
+[ Barrel: P90, Magazine: AUG, Grip: M1897 Trench Shotgun, Stock: Auto-5, Core: AUTO-12 ]
+damage: 67.0726 - 18.4648
+dropoffStuds: 51.7136 - 108.599
+pellets: 6
+fireRate: 425.538
+adsSpread: 1.70725
+hipfireSpread: 4.26813
+reloadTime: 3.15
+magazineSize: 42
+recoilHipVertical: 37.8 - 61.2
+recoilAimVertical: 11.34 - 18.36
+movementSpeed: 3.375
+TTK: 0.140998 Seconds
+
+[ Barrel: P90, Magazine: P90, Grip: Arisaka, Stock: Spas-12, Core: AUTO-12 ]
+damage: 69.147 - 18.634
+dropoffStuds: 51.2502 - 107.625
+pellets: 6
+fireRate: 425.374
+adsSpread: 1.84844
+hipfireSpread: 4.62109
+reloadTime: 3.6
+magazineSize: 35
+health: -6
+recoilHipVertical: 29.484 - 47.736
+recoilAimVertical: 8.8452 - 14.3208
+movementSpeed: 0.225
+TTK: 0.141052 Seconds
+
+[ Barrel: P90, Magazine: P90, Grip: M1897 Trench Shotgun, Stock: Auto-5, Core: AUTO-12 ]
+damage: 67.4183 - 19.1339
+dropoffStuds: 52.2961 - 109.822
+pellets: 6
+fireRate: 423.541
+adsSpread: 1.7045
+hipfireSpread: 4.26125
+reloadTime: 3.78
+magazineSize: 50
+recoilHipVertical: 44.226 - 71.604
+recoilAimVertical: 13.2678 - 21.4812
+movementSpeed: 4.225
+TTK: 0.141663 Seconds
+
+[ Barrel: P90, Magazine: Type 11, Grip: Pistol Pistol, Stock: Auto-5, Core: AUTO-12 ]
+damage: 63.961 - 16.6139
+dropoffStuds: 50.65 - 106.365
+pellets: 6
+fireRate: 422.374
+adsSpread: 1.92317
+hipfireSpread: 4.80794
+reloadTime: 1.61
+magazineSize: 30
+health: -10
+recoilHipVertical: 34.9272 - 56.5488
+recoilAimVertical: 10.4782 - 16.9646
+movementSpeed: 1.625
+TTK: 0.142054 Seconds
+

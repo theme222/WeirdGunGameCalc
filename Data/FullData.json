@@ -27,7 +27,7 @@
         "Price_Type": "Coin",
         "Name": "AUG",
         "Category": "AR",
-        "Fire_Rate": 4.0,
+        "Fire_Rate": 8.0,
         "Movement_Speed": 2.5,
         "Range": 5.0,
         "Recoil": -5.0,
@@ -60,7 +60,8 @@
         "Category": "AR",
         "Range": 6.0,
         "Spread": -19.0,
-        "Recoil": 12.0
+        "Recoil": 12.0,
+	"Fire_Rate": 5.0
       },
       {
         "Price_Type": "Coin",
@@ -153,17 +154,17 @@
         "Price_Type": "WC",
         "Name": "Hex Spitter",
         "Category": "AR",
-        "Damage": 7.0,
+        "Damage": 10.0,
         "Movement_Speed": 2.0,
         "Spread": -16.0,
-        "Health": -5.0,
+        "Health": -7.0,
         "Recoil": 25.0
       },
       {
         "Price_Type": "Spin",
         "Name": "G11",
         "Category": "AR",
-        "Fire_Rate": 4.0,
+        "Fire_Rate": 8.0,
         "Reload_Speed": -8.0,
         "Range": -6.0
       },
@@ -237,7 +238,7 @@
       "Price_Type": "Coin",
       "Name": "RN516",
       "Category": "AR",
-      "Damage": 10,
+      "Damage": 11,
       "Fire_Rate": -1,
       "Spread": 27
     },
@@ -253,7 +254,7 @@
       "Price_Type": "Coin",
       "Name": "Malyuk",
       "Category": "AR",
-      "Damage": 20,
+      "Damage": 22,
       "Range": 20,
       "Recoil": 27,
       "Reload_Speed": 12,
@@ -267,6 +268,13 @@
       "Range": -7,
       "Recoil": -16,
       "Spin_up": 0.35
+    },
+	    {
+      "Price_Type": "Coin",
+      "Name": "M-16-CQB",
+      "Category": "AR",
+	  "Fire_Rate": 8.5,
+	  "Detection_Radius": -15.0
     },
       {
         "Price_Type": "Coin",
@@ -505,7 +513,7 @@
         "Movement_Speed": 2.5,
         "Recoil": -14.0,
         "Spread": -16,
-        "Fire_Rate": -5.5,
+        "Fire_Rate": -4.0,
         "Range": -7.5
       },
       {
@@ -516,7 +524,7 @@
         "Movement_Speed": 3.3,
         "Spread": -20.0,
         "Range": 7,
-        "Fire_Rate": -5.0,
+        "Fire_Rate": -3.5,
         "Recoil": 17
       },
       {
@@ -543,11 +551,11 @@
         "Price_Type": "Coin",
         "Name": "PPSh-41",
         "Category": "SMG",
-        "Fire_Rate": 15.0,
+        "Fire_Rate": 18.0,
         "Movement_Speed": 2.3,
         "Range": -12.0,
         "Recoil": 15.0,
-        "Spread": 10.0
+        "Spread": 17.0
       },
       {
         "Price_Type": "Coin",
@@ -565,7 +573,7 @@
         "Fire_Rate": 20.0,
         "Movement_Speed": 3.3,
         "Recoil": -15.0,
-        "Damage": -3.0,
+        "Damage": -2.5,
         "Range": -12.0
       },
       {
@@ -573,10 +581,10 @@
         "Name": "P90",
         "Category": "SMG",
         "Fire_Rate": 15.0,
-        "Spread": 25.0,
+        "Spread": -18.0,
         "Movement_Speed": 2.5,
         "Range": 2.0,
-        "Damage": -5.0,
+        "Damage": -1.5,
         "Recoil": 20.0
       },
       {
@@ -1097,7 +1105,7 @@
         "Price_Type": "WC",
         "Name": "FG-42",
         "Category": "BR",
-        "Damage": 6.0,
+        "Damage": 8.0,
         "Fire_Rate": 4.0,
         "Range": 4.0,
         "Recoil": 32.0,
@@ -1980,7 +1988,6 @@
       "Fire_Rate": 8,
       "Spin_up": 0.35
     },
-
     {
       "Price_Type": "Limited",
       "Name": "Gyrojet Carbine",
@@ -1991,6 +1998,16 @@
       "Recoil": -50,
       "Fire_Rate": -5,
       "Spread": 40
+    },
+	{
+      "Price_Type": "Coin",
+      "Name": "M-16-CQB",
+      "Category": "AR",
+      "Magazine_Size": 31,
+      "Reload_Time": 1.6,
+      "Damage": 8.0,
+	  "Spread": -15,
+      "Range": -3
     },
       {
         "Price_Type": "Coin",
@@ -2296,7 +2313,7 @@
         "Category": "SMG",
         "Magazine_Size": 71.0,
         "Reload_Time": 5.5,
-        "Fire_Rate": 11.0,
+        "Fire_Rate": 13.0,
         "Movement_Speed": -1.0,
         "Range": -5.0,
         "Spread": 10.0
@@ -2407,7 +2424,8 @@
         "Category": "SMG",
         "Magazine_Size": 177.0,
         "Reload_Time": 10.0,
-        "Damage": -9.0,
+    		"Fire_Rate": 14.0,
+        "Damage": -5.0,
         "Movement_Speed": -3.0,
         "Spread": 28.0
       },
@@ -2419,7 +2437,8 @@
       "Reload_Time": 2.2,
       "Range": 7.5,
       "Recoil": 14,
-      "Spread": -13
+      "Spread": -13,
+	  "Fire_Rate": 2.0
     },
     {
       "Price_Type": "Coin",
@@ -2429,7 +2448,7 @@
       "Reload_Time": 2.1,
       "Damage": -1.5,
       "Range": 12,
-      "Fire_Rate": 6,
+      "Fire_Rate": 12,
       "Movement_Speed": 2
     },
     {
@@ -2437,7 +2456,7 @@
       "Name": "ECHO11",
       "Category": "SMG",
       "Magazine_Size": 50,
-      "Reload_Time": 3.8,
+      "Reload_Time": 4.5,
       "Damage": 12,
       "Recoil": -14,
       "Movement_Speed": 2.5,
@@ -2669,10 +2688,10 @@
         "Magazine_Size": 30.0,
         "Reload_Time": 3.0,
         "Damage": 7.5,
-        "Range": 8.0,
+        "Range": 8.5,
         "Spread": -17.0,
         "Movement_Speed": -1.0,
-        "Recoil": 1.2
+        "Recoil": 14.0
       },
       {
         "Price_Type": "Coin",
@@ -3766,6 +3785,14 @@
       "Reload_Speed": 10,
       "Magazine_Cap": 30
     },
+	{
+      "Price_Type": "Coin",
+      "Name": "M-16-CQB",
+      "Category": "AR",
+	  "Recoil": -27,
+      "Range": 4,
+	  "Reload_Speed": 11.0
+    },
       {
         "Price_Type": "Coin",
         "Name": "M40",
@@ -3969,7 +3996,7 @@
         "Price_Type": "Coin",
         "Name": "Mas-38",
         "Category": "SMG",
-        "Fire_Rate": 2.5,
+        "Fire_Rate": 1.5,
         "Movement_Speed": 2.0,
         "Spread": -15.0,
         "Range": -7.0
@@ -3996,9 +4023,9 @@
         "Price_Type": "Coin",
         "Name": "PPSh-41",
         "Category": "SMG",
-        "Fire_Rate": 5.0,
+        "Fire_Rate": 2.0,
         "Spread": 10,
-        "Reload_Speed": -5
+        "Reload_Speed": -6
       },
       {
         "Price_Type": "Coin",
@@ -4013,7 +4040,7 @@
         "Price_Type": "Coin",
         "Name": "Kriss Vector",
         "Category": "SMG",
-        "Fire_Rate": 4.0,
+        "Fire_Rate": 2.0,
         "Movement_Speed": 4.5,
         "Recoil": -12.0,
         "Spread": 17
@@ -4022,11 +4049,9 @@
         "Price_Type": "Coin",
         "Name": "P90",
         "Category": "SMG",
-        "Fire_Rate": 5,
-        "Recoil": 0,
+        "Damage": 2.0,
         "Spread": 12.0,
-        "Reload_Speed": -9,
-        "Movement_Speed": 4
+        "Movement_Speed": 5
       },
       {
         "Price_Type": "Coin",
@@ -4882,8 +4907,8 @@
         "Price_Type": "Coin",
         "Name": "STG-44",
         "Category": "AR",
-        "Fire_Rate": 4,
-        "Spread": -10.0,
+	"Equip_Time": -29.0,
+        "Spread": -16.0,
         "Reload_Speed": 6
       },
       {
@@ -5035,7 +5060,7 @@
       "Name": "Malyuk",
       "Category": "AR",
       "Reload_Speed": 12,
-      "Fire_Rate": 6,
+      "Fire_Rate": 4,
       "Magazine_Cap": -14
     },
     {
@@ -5175,7 +5200,7 @@
         "Price_Type": "Coin",
         "Name": "MAC-10",
         "Category": "SMG",
-        "Fire_Rate": 4.5,
+        "Fire_Rate": 2.0,
         "Movement_Speed": 4.6,
         "Spread": 20,
         "Magazine_Cap": 14
@@ -5310,7 +5335,7 @@
         "Recoil": -10,
         "Range": -7.5,
         "Spread": 30.0,
-        "Damage": -1
+        "Damage": -2
       },
       {
         "Price_Type": "Coin",
@@ -5335,9 +5360,9 @@
         "Price_Type": "Coin",
         "Name": "Maple Badger",
         "Category": "SMG",
-        "Fire_Rate": 4.5,
+        "Fire_Rate": 2.0,
         "Movement_Speed": 4.5,
-        "Reload_Speed": -5.0,
+        "Reload_Speed": 12.0,
         "Spread": 20
       },
       {
@@ -5380,7 +5405,7 @@
         "Fire_Rate": 7.5,
         "Movement_Speed": 4.0,
         "Magazine_Cap": 20,
-        "Damage": -2,
+        "Damage": -2.5,
         "Range": -6
       },
     {
@@ -5470,7 +5495,7 @@
         "Fire_Rate": 5.0,
         "Movement_Speed": 5.0,
         "Spread": -10.0,
-        "Damage": -5.0
+        "Damage": -2.5
       },
       {
         "Price_Type": "Coin",
@@ -5709,7 +5734,7 @@
         "Price_Type": "Coin",
         "Name": "Fedorov",
         "Category": "BR",
-        "Fire_Rate": 7.0,
+        "Fire_Rate": 5.0,
         "Recoil": 5.0,
         "Movement_Speed": -2.0,
         "Reload_Speed": 7.0
@@ -5779,7 +5804,7 @@
         "Price_Type": "Limited",
         "Name": "Roto-Fire",
         "Category": "BR",
-        "Fire_Rate": 6,
+        "Fire_Rate": 5.5,
         "Movement_Speed": -0.5,
         "Range": -6.0
       },
@@ -6056,8 +6081,8 @@
         "Category": "AR",
         "Firing_Mode": "Auto",
         "Damage": [
-          15.3,
-          11.1
+          15.6,
+          11.3
         ],
         "Dropoff_Studs": [
           150.0,
@@ -6617,8 +6642,8 @@
         "Category": "AR",
         "Firing_Mode": "Auto",
         "Damage": [
-          10.0,
-          9.0
+          20.0,
+          18.0
         ],
         "Dropoff_Studs": [
           150.0,
@@ -6881,8 +6906,8 @@
         "Category": "AR",
         "Firing_Mode": "Auto",
         "Damage": [
-          14.7,
-          10.3
+          15.0,
+          10.5
         ],
         "Dropoff_Studs": [
           175.0,
@@ -6922,12 +6947,12 @@
           10.2
         ],
         "Dropoff_Studs": [
-          120.0,
-          200.0
+          165.0,
+          235.0
         ],
         "Fire_Rate": 500.0,
         "Hipfire_Spread": 4.0,
-        "ADS_Spread": 0.7,
+        "ADS_Spread": 0.5,
         "Time_To_Aim": 0.6,
         "Detection_Radius": 160.0,
         "Suppression": 0.0  ,
@@ -6948,7 +6973,7 @@
           2.7,
           4.5
         ],
-        "Health": 4.0
+        "Health": 7.0
       },
       {
         "Price_Type": "Coin",
@@ -8472,14 +8497,14 @@
         "Category": "Shotgun",
         "Firing_Mode": "Pump Action",
         "Damage": [
-          14.0,
-          2.0
+          112.0,
+          16.0
         ],
         "Dropoff_Studs": [
           55.0,
           125.0
         ],
-        "Fire_Rate": 90.0,
+        "Fire_Rate": 80.0,
         "Hipfire_Spread": 5.0,
         "ADS_Spread": 1.95,
         "Time_To_Aim": 0.5,
@@ -8510,8 +8535,8 @@
         "Category": "Shotgun",
         "Firing_Mode": "Pump Action",
         "Damage": [
-          15.0,
-          3.0
+          120.0,
+          24.0
         ],
         "Dropoff_Studs": [
           85.0,
@@ -8548,14 +8573,14 @@
         "Category": "Shotgun",
         "Firing_Mode": "Pump Action",
         "Damage": [
-          7.5,
-          1.0
+          120.0,
+          16.0
         ],
         "Dropoff_Studs": [
           60.0,
           120.0
         ],
-        "Fire_Rate": 160.0,
+        "Fire_Rate": 120.0,
         "Hipfire_Spread": 4.5,
         "ADS_Spread": 2.7,
         "Time_To_Aim": 0.5,
@@ -8586,8 +8611,8 @@
         "Category": "Shotgun",
         "Firing_Mode": "Pump Action",
         "Damage": [
-          12.0,
-          1.0
+          120.0,
+          10.0
         ],
         "Dropoff_Studs": [
           75.0,
@@ -8626,17 +8651,17 @@
         "Category": "Shotgun",
         "Firing_Mode": "Pump Action",
         "Damage": [
-          13.0,
-          1.0
+          104.0,
+          8.0
         ],
         "Dropoff_Studs": [
           60.0,
           115.0
         ],
-        "Fire_Rate": 190.0,
+        "Fire_Rate": 175.0,
         "Hipfire_Spread": 7.0,
         "ADS_Spread": 2.1,
-        "Time_To_Aim": 0.75,
+        "Time_To_Aim": 0.5,
         "Detection_Radius": 130.0,
         "Suppression": 0.2,
         "Equip_Time": 0.7,
@@ -8665,8 +8690,8 @@
         "Category": "Shotgun",
         "Firing_Mode": "Pump Action",
         "Damage": [
-          12.0,
-          1.0
+          144.0,
+          12.0
         ],
         "Dropoff_Studs": [
           55.0,
@@ -8704,17 +8729,17 @@
         "Category": "Shotgun",
         "Firing_Mode": "Semi",
         "Damage": [
-          19.0,
-          1.0
+          114.0,
+          6.0
         ],
         "Dropoff_Studs": [
           50.0,
           115.0
         ],
-        "Fire_Rate": 220.0,
+        "Fire_Rate": 200.0,
         "Hipfire_Spread": 8.0,
         "ADS_Spread": 2.3,
-        "Time_To_Aim": 0.95,
+        "Time_To_Aim": 0.7,
         "Detection_Radius": 160.0,
         "Suppression": 0.2,
         "Equip_Time": 0.7,
@@ -8743,8 +8768,8 @@
         "Category": "Shotgun",
         "Firing_Mode": "Burst",
         "Damage": [
-          11.0,
-          1.0
+          110.0,
+          10.0
         ],
         "Dropoff_Studs": [
           60.0,
@@ -8782,8 +8807,8 @@
         "Category": "Shotgun",
         "Firing_Mode": "Auto",
         "Damage": [
-          4,
-          0
+          40.0,
+          0.0
         ],
         "Dropoff_Studs": [
           45.0,
@@ -8794,7 +8819,7 @@
         "ADS_Spread": 2.0,
         "Time_To_Aim": 0.9,
         "Detection_Radius": 200.0,
-        "Suppression": 0.5,
+        "Suppression": 0.2,
         "Equip_Time": 0.8,
         "Recoil_Hip_Horizontal": [
           -30.0,
@@ -8813,7 +8838,7 @@
           77.8
         ],
         "Movement_Speed_Modifier": -7.0,
-        "Pellets": 12
+        "Pellets": 10
       },
       {
         "Price_Type": "WC",
@@ -8821,8 +8846,8 @@
         "Category": "Shotgun",
         "Firing_Mode": "Pump Action",
         "Damage": [
-          15.0,
-          6.0
+          300.0,
+          120.0
         ],
         "Dropoff_Studs": [
           60.0,
@@ -8859,14 +8884,14 @@
         "Category": "Shotgun",
         "Firing_Mode": "Semi",
         "Damage": [
-          16.0,
-          3.2
+          112.0,
+          22.4
         ],
         "Dropoff_Studs": [
           50.0,
           115.0
         ],
-        "Fire_Rate": 100.0,
+        "Fire_Rate": 83.0,
         "Hipfire_Spread": 5.5,
         "ADS_Spread": 1.95,
         "Time_To_Aim": 0.5,
@@ -8897,8 +8922,8 @@
         "Category": "Shotgun",
         "Firing_Mode": "Auto",
         "Damage": [
-          12.0,
-          3.0
+          72.0,
+          18.0
         ],
         "Dropoff_Studs": [
           50.0,
@@ -8936,14 +8961,14 @@
         "Category": "Shotgun",
         "Firing_Mode": "Auto",
         "Damage": [
-          8.0,
-          2.0
+          80.0,
+          20.0
         ],
         "Dropoff_Studs": [
           55.0,
           100.0
         ],
-        "Fire_Rate": 240.0,
+        "Fire_Rate": 200.0,
         "Hipfire_Spread": 4.0,
         "ADS_Spread": 2.0,
         "Time_To_Aim": 0.5,
@@ -8974,14 +8999,14 @@
         "Category": "Shotgun",
         "Firing_Mode": "Auto",
         "Damage": [
-          16.0,
-          3.0
+          96.0,
+          18.0
         ],
         "Dropoff_Studs": [
           63.0,
           104.0
         ],
-        "Fire_Rate": 180.0,
+        "Fire_Rate": 160.0,
         "Hipfire_Spread": 4.0,
         "ADS_Spread": 2.2,
         "Time_To_Aim": 1.0,
@@ -10090,16 +10115,16 @@
         "Category": "BR",
         "Firing_Mode": "Auto",
         "Damage": [
-          42.0,
-          21.0
+          45.0,
+          22.5
         ],
         "Dropoff_Studs": [
           110.0,
           230.0
         ],
-        "Fire_Rate": 100.0,
+        "Fire_Rate": 120.0,
         "Hipfire_Spread": 4.0,
-        "ADS_Spread": 1.0,
+        "ADS_Spread": 0.7,
         "Time_To_Aim": 1.0,
         "Detection_Radius": 400.0,
         "Suppression": 0.0  ,
@@ -10121,7 +10146,8 @@
           104.0,
           120.0
         ],
-        "Health": 10
+        "Health": 10,
+	"Movement_Speed": -5
       },
       {
         "Price_Type": "Limited",
@@ -10579,8 +10605,8 @@
         "Category": "Weird",
         "Firing_Mode": "Auto",
         "Damage": [
-          58.5,
-          45.0
+          45.0,
+          31.5
         ],
         "Dropoff_Studs": [
           140.0,
@@ -10730,8 +10756,8 @@
         "Category": "Weird",
         "Firing_Mode": "Auto",
         "Damage": [
-          4.0,
-          2.0
+          16.0,
+          8.0
         ],
         "Dropoff_Studs": [
           120.0,
@@ -10759,7 +10785,7 @@
          45.1,
          62.9
         ],
-        "Pellets": 6
+        "Pellets": 4
       },
       {
         "Price_Type": "Free",
@@ -11031,8 +11057,8 @@
         "Category": "Sidearm",
         "Firing_Mode": "Semi",
         "Damage": [
-          9.0,
-          2.0
+          117.0,
+          26.0
         ],
         "Dropoff_Studs": [
           16,

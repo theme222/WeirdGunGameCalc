@@ -41,6 +41,7 @@ export interface Part {
   Reload_Speed?: number,
   Magazine_Cap?: number,
   Spread?: number,
+  Spin_Up?: number,
 }
 
 export interface Barrel extends Part {}
@@ -68,6 +69,7 @@ export interface Core {
   Suppression?: number,
   Health?: number,
   Equip_Time?: number,
+  Spin_Up?: number,
   Recoil_Hip_Horizontal?: fpair,
   Recoil_Hip_Vertical?: fpair,
   Recoil_Aim_Horizontal?: fpair,
@@ -105,6 +107,8 @@ export class Gun {
   hipfireSpread: number = 0;
   adsSpread: number = 0;
   detectionRadius: number = 0;
+  spinUp: number = 0;
+  blastRadius: number = 0;
   recoilHipHorizontal: fpair = [0, 0];
   recoilHipVertical: fpair = [0, 0];
   recoilAimHorizontal: fpair = [0, 0];

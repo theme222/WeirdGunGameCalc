@@ -1,2 +1,135 @@
 ./wggcalc -o InterestingBuilds/HipfireShotgun.txt -i Shotgun --sort RECOILHIP --damageMin 100 --speedMin 0 --spreadHipMax 2 --fireRateMin 50 --bfm Auto 
 Current top 10 guns are: 
+[ Barrel: Spear, Magazine: Kolibri, Grip: Auto-5, Stock: M870 MCS, Core: MarrowMaker ]
+damage: 106.743 - -55.2929
+dropoffStuds: 14.875 - 34.2125
+pellets: 7
+fireRate: 55.5581
+adsSpread: 0.703248
+hipfireSpread: 1.98352
+reloadTime: 0.55
+magazineSize: 5
+recoilHipVertical: 14.985 - 22.977
+recoilAimVertical: 5.994 - 9.1908
+movementSpeed: 12.6
+
+[ Barrel: Spear, Magazine: Kolibri, Grip: 10KG Dumbbell, Stock: M870 MCS, Core: M1897 Trench Shotgun ]
+damage: 117.3 - -104.535
+dropoffStuds: 15.1725 - 30.345
+pellets: 16
+fireRate: 76.5
+adsSpread: 1.04676
+hipfireSpread: 1.7446
+reloadTime: 0.66
+magazineSize: 5
+recoilHipVertical: 16.761 - 25.1415
+recoilAimVertical: 6.7044 - 10.0566
+movementSpeed: 2.6
+
+[ Barrel: Spear, Magazine: Kolibri, Grip: Obreez, Stock: M870 MCS, Core: M1897 Trench Shotgun ]
+damage: 117.3 - -75.5998
+dropoffStuds: 17.85 - 35.7
+pellets: 16
+fireRate: 76.5
+adsSpread: 1.13804
+hipfireSpread: 1.89674
+reloadTime: 0.594
+magazineSize: 5
+recoilHipVertical: 18.5925 - 27.8888
+recoilAimVertical: 7.437 - 11.1555
+movementSpeed: 8.6
+
+[ Barrel: Spear, Magazine: Kolibri, Grip: 10KG Dumbbell, Stock: M870, Core: M1897 Trench Shotgun ]
+damage: 117.3 - -104.535
+dropoffStuds: 15.1725 - 30.345
+pellets: 16
+fireRate: 90
+adsSpread: 1.11218
+hipfireSpread: 1.85363
+reloadTime: 0.63
+magazineSize: 5
+recoilHipVertical: 18.9958 - 28.4937
+recoilAimVertical: 7.59832 - 11.3975
+movementSpeed: 2.6
+
+[ Barrel: Spear, Magazine: Kolibri, Grip: 10KG Dumbbell, Stock: Type 2a Nambu, Core: M1897 Trench Shotgun ]
+damage: 117.3 - -104.535
+dropoffStuds: 15.1725 - 30.345
+pellets: 16
+fireRate: 90
+adsSpread: 1.14685
+hipfireSpread: 1.91142
+reloadTime: 0.6
+magazineSize: 5
+health: -6.5
+recoilHipVertical: 19.007 - 28.5105
+recoilAimVertical: 7.60279 - 11.4042
+movementSpeed: 6.825
+
+[ Barrel: M1919 Tripod, Magazine: Kolibri, Grip: 10KG Dumbbell, Stock: Speed Coil, Core: JSG12 ]
+damage: 118.728 - -42.4769
+dropoffStuds: 34.969 - 69.938
+pellets: 12
+fireRate: 85.6472
+adsSpread: 1.63556
+hipfireSpread: 1.63556
+reloadTime: 0.486
+magazineSize: 4
+health: -12.5
+recoilHipVertical: 24.6806 - 29.0971
+recoilAimVertical: 16.0294 - 18.9131
+movementSpeed: 5.1
+
+[ Barrel: Spear, Magazine: Kolibri, Grip: Hecate II, Stock: M870 MCS, Core: M1897 Trench Shotgun ]
+damage: 117.3 - -75.5998
+dropoffStuds: 17.85 - 35.7
+pellets: 16
+fireRate: 76.5
+adsSpread: 1.1563
+hipfireSpread: 1.92717
+reloadTime: 0.594
+magazineSize: 5
+recoilHipVertical: 19.425 - 29.1375
+recoilAimVertical: 7.77 - 11.655
+movementSpeed: 8.6
+
+[ Barrel: Spear, Magazine: Kolibri, Grip: M60, Stock: M870 MCS, Core: M1897 Trench Shotgun ]
+damage: 117.3 - -75.5998
+dropoffStuds: 17.85 - 35.7
+pellets: 16
+fireRate: 76.5
+adsSpread: 1.08023
+hipfireSpread: 1.80038
+reloadTime: 0.5775
+magazineSize: 5
+recoilHipVertical: 19.7025 - 29.5538
+recoilAimVertical: 7.881 - 11.8215
+movementSpeed: 10.1
+
+[ Barrel: Spear, Magazine: Kolibri, Grip: Auto-5, Stock: M870 MCS, Core: M1897 Trench Shotgun ]
+damage: 114.368 - -73.7098
+dropoffStuds: 17.85 - 35.7
+pellets: 16
+fireRate: 80.325
+adsSpread: 0.973728
+hipfireSpread: 1.62288
+reloadTime: 0.55
+magazineSize: 5
+recoilHipVertical: 19.98 - 29.97
+recoilAimVertical: 7.992 - 11.988
+movementSpeed: 12.6
+
+[ Barrel: M1919 Tripod, Magazine: Kolibri, Grip: AUTO-12, Stock: Speed Coil, Core: JSG12 ]
+damage: 118.728 - -25.6555
+dropoffStuds: 39.9058 - 79.8116
+pellets: 12
+fireRate: 87.3601
+adsSpread: 1.90181
+hipfireSpread: 1.90181
+reloadTime: 0.4374
+magazineSize: 4
+health: -12.5
+recoilHipVertical: 25.4978 - 30.0606
+recoilAimVertical: 16.5602 - 19.5394
+movementSpeed: 15.1
+
