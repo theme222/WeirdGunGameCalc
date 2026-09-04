@@ -56,32 +56,32 @@ recoilAimVertical: 2.325 - 5.425
 movementSpeed: 9.3
 TTK: 0.296296 Seconds
 
-[ Barrel: Deagle, Magazine: Scar H, Grip: M-16-CQB, Stock: None, Core: Type 14 ]
-damage: 35.1543 - 19.9539
-dropoffStuds: 40.0167 - 91.4667
+[ Barrel: Deagle, Magazine: Fedorov, Grip: Beretta, Stock: None, Core: Type 14 ]
+damage: 34.1432 - 19.3885
+dropoffStuds: 40.0706 - 91.5899
 fireRate: 405
 adsSpread: 0.25
 hipfireSpread: 0.7
-reloadTime: 4.995
-magazineSize: 20
+reloadTime: 4.16
+magazineSize: 25
 health: -4
-recoilHipVertical: 9.58481 - 22.3646
-recoilAimVertical: 1.91696 - 4.47291
-movementSpeed: 7
+recoilHipVertical: 11.439 - 26.691
+recoilAimVertical: 2.2878 - 5.3382
+movementSpeed: 9.3
 TTK: 0.296296 Seconds
 
-[ Barrel: Deagle, Magazine: Scar H, Grip: X-Blaster, Stock: None, Core: Type 14 ]
-damage: 35.1543 - 19.9539
-dropoffStuds: 40.0167 - 91.4667
+[ Barrel: Deagle, Magazine: Fedorov, Grip: MP18, Stock: None, Core: Type 14 ]
+damage: 34.1432 - 19.7535
+dropoffStuds: 40.9856 - 93.6815
 fireRate: 405
-adsSpread: 0.295
-hipfireSpread: 0.826
-reloadTime: 4.5
-magazineSize: 20
-health: -2.05
-recoilHipVertical: 11.625 - 27.125
-recoilAimVertical: 2.325 - 5.425
-movementSpeed: 9.275
+adsSpread: 0.2275
+hipfireSpread: 0.637
+reloadTime: 4
+magazineSize: 25
+health: -4
+recoilHipVertical: 14.07 - 32.8299
+recoilAimVertical: 2.81399 - 6.56599
+movementSpeed: 5
 TTK: 0.296296 Seconds
 
 [ Barrel: Deagle, Magazine: Scar H, Grip: Snake Sniper, Stock: None, Core: Type 14 ]
@@ -98,20 +98,6 @@ recoilAimVertical: 2.8365 - 6.6185
 movementSpeed: 5.5
 TTK: 0.296296 Seconds
 
-[ Barrel: Deagle, Magazine: Fedorov, Grip: Beretta, Stock: None, Core: Type 14 ]
-damage: 34.1432 - 19.3885
-dropoffStuds: 40.0706 - 91.5899
-fireRate: 405
-adsSpread: 0.25
-hipfireSpread: 0.7
-reloadTime: 4.16
-magazineSize: 25
-health: -4
-recoilHipVertical: 11.439 - 26.691
-recoilAimVertical: 2.2878 - 5.3382
-movementSpeed: 9.3
-TTK: 0.296296 Seconds
-
 [ Barrel: Deagle, Magazine: Fedorov, Grip: Snake Sniper, Stock: None, Core: Type 14 ]
 damage: 34.1432 - 19.5422
 dropoffStuds: 40.4559 - 92.4706
@@ -126,17 +112,31 @@ recoilAimVertical: 2.79112 - 6.5126
 movementSpeed: 5.5
 TTK: 0.296296 Seconds
 
-[ Barrel: Deagle, Magazine: Fedorov, Grip: MP18, Stock: None, Core: Type 14 ]
-damage: 34.1432 - 19.7535
-dropoffStuds: 40.9856 - 93.6815
+[ Barrel: Deagle, Magazine: Scar H, Grip: X-Blaster, Stock: None, Core: Type 14 ]
+damage: 35.1543 - 19.9539
+dropoffStuds: 40.0167 - 91.4667
 fireRate: 405
-adsSpread: 0.2275
-hipfireSpread: 0.637
-reloadTime: 4
-magazineSize: 25
+adsSpread: 0.295
+hipfireSpread: 0.826
+reloadTime: 4.5
+magazineSize: 20
+health: -2.05
+recoilHipVertical: 11.625 - 27.125
+recoilAimVertical: 2.325 - 5.425
+movementSpeed: 9.275
+TTK: 0.296296 Seconds
+
+[ Barrel: Deagle, Magazine: Scar H, Grip: M-16-CQB, Stock: None, Core: Type 14 ]
+damage: 35.1543 - 19.9539
+dropoffStuds: 40.0167 - 91.4667
+fireRate: 405
+adsSpread: 0.25
+hipfireSpread: 0.7
+reloadTime: 4.995
+magazineSize: 20
 health: -4
-recoilHipVertical: 14.07 - 32.8299
-recoilAimVertical: 2.81399 - 6.56599
-movementSpeed: 5
+recoilHipVertical: 9.58481 - 22.3646
+recoilAimVertical: 1.91696 - 4.47291
+movementSpeed: 7
 TTK: 0.296296 Seconds
 

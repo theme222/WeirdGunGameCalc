@@ -1,5 +1,33 @@
 ./wggcalc -o InterestingBuilds/LowSpreadShogun.txt -i Shotgun --sort FIRERATE --damageMin 100 --speedMin 0 --spreadAimMax 0.85 --bfm Auto 
 Current top 10 guns are: 
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: L8, Core: Spas-12 ]
+damage: 105.72 - -20.7882
+dropoffStuds: 38.0103 - 87.4237
+pellets: 6
+fireRate: 184.8
+adsSpread: 0.848209
+hipfireSpread: 2.95029
+reloadTime: 0.5
+magazineSize: 5
+health: 6
+recoilHipVertical: 63.27 - 101.232
+recoilAimVertical: 25.308 - 40.4928
+movementSpeed: 0.6
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: UNP-40, Core: Spas-12 ]
+damage: 105.72 - -24.4325
+dropoffStuds: 36.975 - 85.0425
+pellets: 6
+fireRate: 184.8
+adsSpread: 0.825102
+hipfireSpread: 2.86992
+reloadTime: 0.5
+magazineSize: 5
+health: 6
+recoilHipVertical: 75.924 - 121.478
+recoilAimVertical: 30.3696 - 48.5914
+movementSpeed: 3.07
+
 [ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: FAL, Core: Spas-12 ]
 damage: 105.72 - -20.5279
 dropoffStuds: 38.0843 - 87.5938
@@ -13,6 +41,48 @@ health: 6
 recoilHipVertical: 82.251 - 131.602
 recoilAimVertical: 32.9004 - 52.6406
 movementSpeed: 0.72
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: Type 2a Nambu, Core: Spas-12 ]
+damage: 105.72 - -24.4325
+dropoffStuds: 36.975 - 85.0425
+pellets: 6
+fireRate: 184.8
+adsSpread: 0.843877
+hipfireSpread: 2.93522
+reloadTime: 0.5
+magazineSize: 5
+health: -0.5
+recoilHipVertical: 53.8111 - 86.0978
+recoilAimVertical: 21.5245 - 34.4391
+movementSpeed: 4.825
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: AWM, Core: Spas-12 ]
+damage: 105.72 - -24.4325
+dropoffStuds: 36.975 - 85.0425
+pellets: 6
+fireRate: 184.8
+adsSpread: 0.794293
+hipfireSpread: 2.76276
+reloadTime: 0.4625
+magazineSize: 5
+health: 6
+recoilHipVertical: 77.1894 - 123.503
+recoilAimVertical: 30.8758 - 49.4012
+movementSpeed: 0.6
+
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: The Chief, Core: Spas-12 ]
+damage: 105.72 - -24.4325
+dropoffStuds: 36.975 - 85.0425
+pellets: 6
+fireRate: 184.8
+adsSpread: 0.827991
+hipfireSpread: 2.87997
+reloadTime: 0.465
+magazineSize: 5
+health: 6
+recoilHipVertical: 74.0259 - 118.441
+recoilAimVertical: 29.6104 - 47.3766
+movementSpeed: 0.6
 
 [ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: AUG, Core: Spas-12 ]
 damage: 105.72 - -32.2417
@@ -28,18 +98,18 @@ recoilHipVertical: 63.27 - 101.232
 recoilAimVertical: 25.308 - 40.4928
 movementSpeed: 2.35
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: The Chief, Core: Spas-12 ]
+[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: M870, Core: Spas-12 ]
 damage: 105.72 - -24.4325
 dropoffStuds: 36.975 - 85.0425
 pellets: 6
 fireRate: 184.8
-adsSpread: 0.827991
-hipfireSpread: 2.87997
-reloadTime: 0.465
+adsSpread: 0.818363
+hipfireSpread: 2.84648
+reloadTime: 0.525
 magazineSize: 5
 health: 6
-recoilHipVertical: 74.0259 - 118.441
-recoilAimVertical: 29.6104 - 47.3766
+recoilHipVertical: 53.7795 - 86.0472
+recoilAimVertical: 21.5118 - 34.4189
 movementSpeed: 0.6
 
 [ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: Type 11, Core: Spas-12 ]
@@ -56,62 +126,6 @@ recoilHipVertical: 63.27 - 101.232
 recoilAimVertical: 25.308 - 40.4928
 movementSpeed: 2.85
 
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: AWM, Core: Spas-12 ]
-damage: 105.72 - -24.4325
-dropoffStuds: 36.975 - 85.0425
-pellets: 6
-fireRate: 184.8
-adsSpread: 0.794293
-hipfireSpread: 2.76276
-reloadTime: 0.4625
-magazineSize: 5
-health: 6
-recoilHipVertical: 77.1894 - 123.503
-recoilAimVertical: 30.8758 - 49.4012
-movementSpeed: 0.6
-
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: M870, Core: Spas-12 ]
-damage: 105.72 - -24.4325
-dropoffStuds: 36.975 - 85.0425
-pellets: 6
-fireRate: 184.8
-adsSpread: 0.818363
-hipfireSpread: 2.84648
-reloadTime: 0.525
-magazineSize: 5
-health: 6
-recoilHipVertical: 53.7795 - 86.0472
-recoilAimVertical: 21.5118 - 34.4189
-movementSpeed: 0.6
-
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: L8, Core: Spas-12 ]
-damage: 105.72 - -20.7882
-dropoffStuds: 38.0103 - 87.4237
-pellets: 6
-fireRate: 184.8
-adsSpread: 0.848209
-hipfireSpread: 2.95029
-reloadTime: 0.5
-magazineSize: 5
-health: 6
-recoilHipVertical: 63.27 - 101.232
-recoilAimVertical: 25.308 - 40.4928
-movementSpeed: 0.6
-
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: Type 2a Nambu, Core: Spas-12 ]
-damage: 105.72 - -24.4325
-dropoffStuds: 36.975 - 85.0425
-pellets: 6
-fireRate: 184.8
-adsSpread: 0.843877
-hipfireSpread: 2.93522
-reloadTime: 0.5
-magazineSize: 5
-health: -0.5
-recoilHipVertical: 53.8111 - 86.0978
-recoilAimVertical: 21.5245 - 34.4391
-movementSpeed: 4.825
-
 [ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: MG42, Core: Spas-12 ]
 damage: 105.72 - -24.4325
 dropoffStuds: 36.975 - 85.0425
@@ -125,18 +139,4 @@ health: 6
 recoilHipVertical: 63.27 - 101.232
 recoilAimVertical: 25.308 - 40.4928
 movementSpeed: 3.225
-
-[ Barrel: Second Amendment, Magazine: Kolibri, Grip: Auto-5, Stock: UNP-40, Core: Spas-12 ]
-damage: 105.72 - -24.4325
-dropoffStuds: 36.975 - 85.0425
-pellets: 6
-fireRate: 184.8
-adsSpread: 0.825102
-hipfireSpread: 2.86992
-reloadTime: 0.5
-magazineSize: 5
-health: 6
-recoilHipVertical: 75.924 - 121.478
-recoilAimVertical: 30.3696 - 48.5914
-movementSpeed: 3.07
 

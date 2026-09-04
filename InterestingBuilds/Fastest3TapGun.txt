@@ -1,5 +1,19 @@
 ./wggcalc -o InterestingBuilds/Fastest3TapGun.txt -i SMG AR LMG --magazineMin 30 --speedMin 0 --damage 33.4 99.99 --spreadAimMax 0.65 --recoilAimMax 40 --pelletMax 1 --rangeMin 100 --ffm Auto 
 Current top 10 guns are: 
+[ Barrel: M870 MCS, Magazine: Graphics Card, Grip: G43, Stock: Speed Coil, Core: M2-Browning ]
+damage: 50.2832 - 18.0472
+dropoffStuds: 114.154 - 182.646
+fireRate: 309.225
+adsSpread: 0.39165
+hipfireSpread: 6.5275
+reloadTime: 4.95
+magazineSize: 30
+health: 5
+recoilHipVertical: 39.5241 - 47.4289
+recoilAimVertical: 31.6193 - 37.9431
+movementSpeed: 7
+TTK: 0.194033 Seconds
+
 [ Barrel: Type 99, Magazine: Graphics Card, Grip: G43, Stock: Speed Coil, Core: M2-Browning ]
 damage: 50.0556 - 19.782
 dropoffStuds: 121.44 - 194.304
@@ -28,20 +42,6 @@ recoilAimVertical: 28.4574 - 34.1488
 movementSpeed: 1
 TTK: 0.194033 Seconds
 
-[ Barrel: M870 MCS, Magazine: Graphics Card, Grip: G43, Stock: Speed Coil, Core: M2-Browning ]
-damage: 50.2832 - 18.0472
-dropoffStuds: 114.154 - 182.646
-fireRate: 309.225
-adsSpread: 0.39165
-hipfireSpread: 6.5275
-reloadTime: 4.95
-magazineSize: 30
-health: 5
-recoilHipVertical: 39.5241 - 47.4289
-recoilAimVertical: 31.6193 - 37.9431
-movementSpeed: 7
-TTK: 0.194033 Seconds
-
 [ Barrel: Discharger, Magazine: Graphics Card, Grip: Musket, Stock: Speed Coil, Core: M2-Browning ]
 damage: 51.0312 - 18.0071
 dropoffStuds: 112.939 - 180.703
@@ -54,20 +54,6 @@ health: 5
 recoilHipVertical: 40.656 - 48.7872
 recoilAimVertical: 32.5248 - 39.0298
 movementSpeed: 7
-TTK: 0.196988 Seconds
-
-[ Barrel: M60, Magazine: Graphics Card, Grip: Musket, Stock: Speed Coil, Core: M2-Browning ]
-damage: 52.3276 - 20.6799
-dropoffStuds: 121.44 - 194.304
-fireRate: 304.587
-adsSpread: 0.588
-hipfireSpread: 9.8
-reloadTime: 4.95
-magazineSize: 38
-health: 5
-recoilHipVertical: 41.58 - 49.896
-recoilAimVertical: 33.264 - 39.9168
-movementSpeed: 1
 TTK: 0.196988 Seconds
 
 [ Barrel: ECHO11, Magazine: Graphics Card, Grip: G43, Stock: Speed Coil, Core: M2-Browning ]
@@ -84,6 +70,20 @@ recoilAimVertical: 29.153 - 34.9836
 movementSpeed: 8.95
 TTK: 0.196988 Seconds
 
+[ Barrel: M60, Magazine: Graphics Card, Grip: Musket, Stock: Speed Coil, Core: M2-Browning ]
+damage: 52.3276 - 20.6799
+dropoffStuds: 121.44 - 194.304
+fireRate: 304.587
+adsSpread: 0.588
+hipfireSpread: 9.8
+reloadTime: 4.95
+magazineSize: 38
+health: 5
+recoilHipVertical: 41.58 - 49.896
+recoilAimVertical: 33.264 - 39.9168
+movementSpeed: 1
+TTK: 0.196988 Seconds
+
 [ Barrel: Discharger, Magazine: Graphics Card, Grip: USS Iowa, Stock: Speed Coil, Core: M2-Browning ]
 damage: 50.0862 - 17.6736
 dropoffStuds: 112.939 - 180.703
@@ -98,20 +98,6 @@ recoilAimVertical: 32.5248 - 39.0298
 movementSpeed: 4
 TTK: 0.201071 Seconds
 
-[ Barrel: Discharger, Magazine: Graphics Card, Grip: Circuit Judge, Stock: Speed Coil, Core: M2-Browning ]
-damage: 50.795 - 17.9237
-dropoffStuds: 112.939 - 180.703
-fireRate: 296.856
-adsSpread: 0.483
-hipfireSpread: 8.05
-reloadTime: 4.5
-magazineSize: 38
-health: 5
-recoilHipVertical: 40.656 - 48.7872
-recoilAimVertical: 32.5248 - 39.0298
-movementSpeed: 7
-TTK: 0.202118 Seconds
-
 [ Barrel: M60, Magazine: Graphics Card, Grip: Circuit Judge, Stock: Speed Coil, Core: M2-Browning ]
 damage: 52.0854 - 20.5841
 dropoffStuds: 121.44 - 194.304
@@ -124,6 +110,20 @@ health: 5
 recoilHipVertical: 41.58 - 49.896
 recoilAimVertical: 33.264 - 39.9168
 movementSpeed: 1
+TTK: 0.202118 Seconds
+
+[ Barrel: Discharger, Magazine: Graphics Card, Grip: Circuit Judge, Stock: Speed Coil, Core: M2-Browning ]
+damage: 50.795 - 17.9237
+dropoffStuds: 112.939 - 180.703
+fireRate: 296.856
+adsSpread: 0.483
+hipfireSpread: 8.05
+reloadTime: 4.5
+magazineSize: 38
+health: 5
+recoilHipVertical: 40.656 - 48.7872
+recoilAimVertical: 32.5248 - 39.0298
+movementSpeed: 7
 TTK: 0.202118 Seconds
 
 [ Barrel: ZIPO-2222, Magazine: Graphics Card, Grip: Circuit Judge, Stock: Speed Coil, Core: M2-Browning ]

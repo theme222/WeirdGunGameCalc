@@ -27,20 +27,6 @@ recoilHipVertical: 8.073 - 13.455
 recoilAimVertical: 7.2657 - 12.1095
 TTK: 0.231236 Seconds
 
-[ Barrel: PP-19 Bizon, Magazine: L8, Grip: Type 2a Nambu, Stock: APS, Core: Discharger ]
-damage: 33.3497 - 11.7791
-dropoffStuds: 151.47 - 215.73
-fireRate: 518.75
-adsSpread: 0.537875
-hipfireSpread: 4.303
-reloadTime: 2.9
-magazineSize: 30
-health: -0.5
-recoilHipVertical: 7.91505 - 13.1917
-recoilAimVertical: 7.12354 - 11.8726
-movementSpeed: 4.125
-TTK: 0.231325 Seconds
-
 [ Barrel: PP-19 Bizon, Magazine: L8, Grip: MP 40, Stock: APS, Core: Discharger ]
 damage: 33.3497 - 11.7791
 dropoffStuds: 151.47 - 215.73
@@ -55,33 +41,19 @@ recoilAimVertical: 8.1081 - 13.5135
 movementSpeed: 1.875
 TTK: 0.231325 Seconds
 
-[ Barrel: USS Iowa, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
-damage: 33.5157 - 11.5964
-dropoffStuds: 150.15 - 213.85
-pellets: 2
-fireRate: 513.6
-adsSpread: 0.691989
-hipfireSpread: 5.53591
-reloadTime: 2.4024
-magazineSize: 32
-health: 7
-recoilHipVertical: 7.137 - 11.895
-recoilAimVertical: 6.4233 - 10.7055
-TTK: 0.233645 Seconds
-
-[ Barrel: Car Muffler, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
-damage: 33.747 - 11.6764
-dropoffStuds: 150.15 - 213.85
-fireRate: 513.6
-adsSpread: 0.6825
-hipfireSpread: 5.46
-reloadTime: 2.541
-magazineSize: 32
-health: -8
-recoilHipVertical: 8.70714 - 14.5119
-recoilAimVertical: 7.83643 - 13.0607
-movementSpeed: 2
-TTK: 0.233645 Seconds
+[ Barrel: PP-19 Bizon, Magazine: L8, Grip: Type 2a Nambu, Stock: APS, Core: Discharger ]
+damage: 33.3497 - 11.7791
+dropoffStuds: 151.47 - 215.73
+fireRate: 518.75
+adsSpread: 0.537875
+hipfireSpread: 4.303
+reloadTime: 2.9
+magazineSize: 30
+health: -0.5
+recoilHipVertical: 7.91505 - 13.1917
+recoilAimVertical: 7.12354 - 11.8726
+movementSpeed: 4.125
+TTK: 0.231325 Seconds
 
 [ Barrel: SMO3, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
 damage: 33.4402 - 11.5703
@@ -108,6 +80,34 @@ magazineSize: 32
 recoilHipVertical: 8.92125 - 14.8688
 recoilAimVertical: 8.02913 - 13.3819
 movementSpeed: 2
+TTK: 0.233645 Seconds
+
+[ Barrel: Car Muffler, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
+damage: 33.747 - 11.6764
+dropoffStuds: 150.15 - 213.85
+fireRate: 513.6
+adsSpread: 0.6825
+hipfireSpread: 5.46
+reloadTime: 2.541
+magazineSize: 32
+health: -8
+recoilHipVertical: 8.70714 - 14.5119
+recoilAimVertical: 7.83643 - 13.0607
+movementSpeed: 2
+TTK: 0.233645 Seconds
+
+[ Barrel: USS Iowa, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
+damage: 33.5157 - 11.5964
+dropoffStuds: 150.15 - 213.85
+pellets: 2
+fireRate: 513.6
+adsSpread: 0.691989
+hipfireSpread: 5.53591
+reloadTime: 2.4024
+magazineSize: 32
+health: 7
+recoilHipVertical: 7.137 - 11.895
+recoilAimVertical: 6.4233 - 10.7055
 TTK: 0.233645 Seconds
 
 [ Barrel: Hex Spitter, Magazine: MP18, Grip: M1891, Stock: APS, Core: Discharger ]

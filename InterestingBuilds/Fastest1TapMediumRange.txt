@@ -1,18 +1,5 @@
 ./wggcalc -o InterestingBuilds/Fastest1TapMediumRange.txt -i Sniper --damageMin 100 --speedMin -5 --rangeMin 150 --sort FIRERATE --spreadAimMax 0.3 
 Current top 10 guns are: 
-[ Barrel: Spray Can, Magazine: Tankgewehr, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
-damage: 181.904 - 137.22
-dropoffStuds: 258.456 - 555.68
-fireRate: 115.422
-adsSpread: 0.273
-hipfireSpread: 10.92
-reloadTime: 10.5
-magazineSize: 1
-health: -20
-recoilHipVertical: 347.76 - 417.312
-recoilAimVertical: 177.358 - 236.477
-movementSpeed: 0.5
-
 [ Barrel: Spray Can, Magazine: Fat Cat, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
 damage: 242.539 - 123.38
 dropoffStuds: 172.304 - 370.454
@@ -26,6 +13,19 @@ recoilHipVertical: 124.2 - 149.04
 recoilAimVertical: 63.342 - 84.456
 movementSpeed: 3.5
 
+[ Barrel: Spray Can, Magazine: Tankgewehr, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
+damage: 181.904 - 137.22
+dropoffStuds: 258.456 - 555.68
+fireRate: 115.422
+adsSpread: 0.273
+hipfireSpread: 10.92
+reloadTime: 10.5
+magazineSize: 1
+health: -20
+recoilHipVertical: 347.76 - 417.312
+recoilAimVertical: 177.358 - 236.477
+movementSpeed: 0.5
+
 [ Barrel: MG15, Magazine: Fat Cat, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
 damage: 254.15 - 129.287
 dropoffStuds: 172.304 - 370.454
@@ -38,6 +38,31 @@ health: -10
 recoilHipVertical: 165.186 - 198.223
 recoilAimVertical: 84.2449 - 112.326
 movementSpeed: -3
+
+[ Barrel: M40, Magazine: Tankgewehr, Grip: Controller, Stock: Speed Coil, Core: Barret .50 ]
+damage: 183.839 - 149.935
+dropoffStuds: 330 - 709.5
+fireRate: 110.637
+adsSpread: 0.29568
+hipfireSpread: 11.8272
+reloadTime: 10.5
+magazineSize: 1
+health: -20
+recoilHipVertical: 272.916 - 327.499
+recoilAimVertical: 139.187 - 185.583
+
+[ Barrel: M40, Magazine: Tankgewehr, Grip: Auto-5, Stock: Speed Coil, Core: Barret .50 ]
+damage: 179.243 - 146.187
+dropoffStuds: 330 - 709.5
+fireRate: 110.637
+adsSpread: 0.29568
+hipfireSpread: 11.8272
+reloadTime: 10.5
+magazineSize: 1
+health: -20
+recoilHipVertical: 225.036 - 270.043
+recoilAimVertical: 114.768 - 153.024
+movementSpeed: 2
 
 [ Barrel: M40, Magazine: Fat Cat, Grip: Controller, Stock: Speed Coil, Core: Barret .50 ]
 damage: 245.119 - 154.709
@@ -65,30 +90,17 @@ recoilHipVertical: 80.37 - 96.444
 recoilAimVertical: 40.9887 - 54.6516
 movementSpeed: 5
 
-[ Barrel: M40, Magazine: Tankgewehr, Grip: Controller, Stock: Speed Coil, Core: Barret .50 ]
-damage: 183.839 - 149.935
-dropoffStuds: 330 - 709.5
-fireRate: 110.637
-adsSpread: 0.29568
-hipfireSpread: 11.8272
+[ Barrel: Mega Soaker, Magazine: Tankgewehr, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
+damage: 185.774 - 140.55
+dropoffStuds: 261.36 - 561.924
+fireRate: 109.651
+adsSpread: 0.273
+hipfireSpread: 10.92
 reloadTime: 10.5
 magazineSize: 1
 health: -20
-recoilHipVertical: 272.916 - 327.499
-recoilAimVertical: 139.187 - 185.583
-
-[ Barrel: M40, Magazine: Tankgewehr, Grip: Auto-5, Stock: Speed Coil, Core: Barret .50 ]
-damage: 179.243 - 146.187
-dropoffStuds: 330 - 709.5
-fireRate: 110.637
-adsSpread: 0.29568
-hipfireSpread: 11.8272
-reloadTime: 10.5
-magazineSize: 1
-health: -20
-recoilHipVertical: 225.036 - 270.043
-recoilAimVertical: 114.768 - 153.024
-movementSpeed: 2
+recoilHipVertical: 281.686 - 338.023
+recoilAimVertical: 143.66 - 191.546
 
 [ Barrel: Mega Soaker, Magazine: Fat Cat, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
 damage: 247.699 - 127.101
@@ -102,18 +114,6 @@ health: -10
 recoilHipVertical: 100.602 - 120.722
 recoilAimVertical: 51.307 - 68.4094
 movementSpeed: 3
-
-[ Barrel: Mega Soaker, Magazine: Tankgewehr, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
-damage: 185.774 - 140.55
-dropoffStuds: 261.36 - 561.924
-fireRate: 109.651
-adsSpread: 0.273
-hipfireSpread: 10.92
-reloadTime: 10.5
-magazineSize: 1
-health: -20
-recoilHipVertical: 281.686 - 338.023
-recoilAimVertical: 143.66 - 191.546
 
 [ Barrel: Spray Can, Magazine: Fat Cat, Grip: Arisaka, Stock: Arisaka, Core: Barret .50 ]
 damage: 250.04 - 128.171

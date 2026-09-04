@@ -28,18 +28,18 @@ recoilHipVertical: 6.88896 - 11.4816
 recoilAimVertical: 6.20006 - 10.3334
 TTK: 0.232446 Seconds
 
-[ Barrel: USS Iowa, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
-damage: 33.5157 - 11.5964
+[ Barrel: SMO3, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
+damage: 33.4402 - 11.5703
 dropoffStuds: 150.15 - 213.85
-pellets: 2
 fireRate: 513.6
-adsSpread: 0.691989
-hipfireSpread: 5.53591
-reloadTime: 2.4024
+adsSpread: 0.6825
+hipfireSpread: 5.46
+reloadTime: 2.5641
 magazineSize: 32
 health: 7
 recoilHipVertical: 7.137 - 11.895
 recoilAimVertical: 6.4233 - 10.7055
+movementSpeed: 1.875
 TTK: 0.233645 Seconds
 
 [ Barrel: Hex Spitter, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
@@ -55,18 +55,31 @@ recoilAimVertical: 8.02913 - 13.3819
 movementSpeed: 2
 TTK: 0.233645 Seconds
 
-[ Barrel: SMO3, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
+[ Barrel: AKM, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
 damage: 33.4402 - 11.5703
 dropoffStuds: 150.15 - 213.85
 fireRate: 513.6
 adsSpread: 0.6825
 hipfireSpread: 5.46
-reloadTime: 2.5641
+reloadTime: 2.31
+magazineSize: 32
+health: 7
+recoilHipVertical: 8.5644 - 14.274
+recoilAimVertical: 7.70796 - 12.8466
+TTK: 0.233645 Seconds
+
+[ Barrel: USS Iowa, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
+damage: 33.5157 - 11.5964
+dropoffStuds: 150.15 - 213.85
+pellets: 2
+fireRate: 513.6
+adsSpread: 0.691989
+hipfireSpread: 5.53591
+reloadTime: 2.4024
 magazineSize: 32
 health: 7
 recoilHipVertical: 7.137 - 11.895
 recoilAimVertical: 6.4233 - 10.7055
-movementSpeed: 1.875
 TTK: 0.233645 Seconds
 
 [ Barrel: Car Muffler, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
@@ -83,18 +96,19 @@ recoilAimVertical: 7.83643 - 13.0607
 movementSpeed: 2
 TTK: 0.233645 Seconds
 
-[ Barrel: AKM, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
-damage: 33.4402 - 11.5703
-dropoffStuds: 150.15 - 213.85
-fireRate: 513.6
-adsSpread: 0.6825
-hipfireSpread: 5.46
-reloadTime: 2.31
-magazineSize: 32
-health: 7
-recoilHipVertical: 8.5644 - 14.274
-recoilAimVertical: 7.70796 - 12.8466
-TTK: 0.233645 Seconds
+[ Barrel: Car Muffler, Magazine: Fedorov, Grip: Musket, Stock: Spas15, Core: Discharger ]
+damage: 33.6151 - 13.9624
+dropoffStuds: 168.036 - 239.324
+fireRate: 513.185
+adsSpread: 0.7
+hipfireSpread: 5.6
+reloadTime: 5.4208
+magazineSize: 30
+health: -8
+recoilHipVertical: 4.5018 - 7.503
+recoilAimVertical: 4.05162 - 6.7527
+movementSpeed: 2
+TTK: 0.233834 Seconds
 
 [ Barrel: Circuit Judge, Magazine: Fedorov, Grip: Musket, Stock: Spas15, Core: Discharger ]
 damage: 33.554 - 12.76
@@ -119,20 +133,6 @@ reloadTime: 4.928
 magazineSize: 30
 recoilHipVertical: 4.6125 - 7.6875
 recoilAimVertical: 4.15125 - 6.91875
-movementSpeed: 2
-TTK: 0.233834 Seconds
-
-[ Barrel: Car Muffler, Magazine: Fedorov, Grip: Musket, Stock: Spas15, Core: Discharger ]
-damage: 33.6151 - 13.9624
-dropoffStuds: 168.036 - 239.324
-fireRate: 513.185
-adsSpread: 0.7
-hipfireSpread: 5.6
-reloadTime: 5.4208
-magazineSize: 30
-health: -8
-recoilHipVertical: 4.5018 - 7.503
-recoilAimVertical: 4.05162 - 6.7527
 movementSpeed: 2
 TTK: 0.233834 Seconds
 

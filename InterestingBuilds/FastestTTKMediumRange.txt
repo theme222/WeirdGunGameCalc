@@ -27,6 +27,20 @@ recoilAimVertical: 25.5892 - 28.6748
 movementSpeed: 2
 TTK: 0.247934 Seconds
 
+[ Barrel: Malyuk, Magazine: P90, Grip: Type 2a Nambu, Stock: APS, Core: Discharger ]
+damage: 33.4785 - 18.0114
+dropoffStuds: 205.425 - 292.575
+fireRate: 477.953
+adsSpread: 0.4935
+hipfireSpread: 3.948
+reloadTime: 4.032
+magazineSize: 50
+health: -0.5
+recoilHipVertical: 7.12786 - 11.8798
+recoilAimVertical: 6.41508 - 10.6918
+movementSpeed: 5.25
+TTK: 0.251071 Seconds
+
 [ Barrel: Malyuk, Magazine: P90, Grip: Double Barrel, Stock: APS, Core: Discharger ]
 damage: 33.8402 - 18.206
 dropoffStuds: 205.425 - 292.575
@@ -55,20 +69,6 @@ recoilAimVertical: 4.5062 - 7.51033
 movementSpeed: 3
 TTK: 0.251071 Seconds
 
-[ Barrel: Malyuk, Magazine: P90, Grip: Type 2a Nambu, Stock: APS, Core: Discharger ]
-damage: 33.4785 - 18.0114
-dropoffStuds: 205.425 - 292.575
-fireRate: 477.953
-adsSpread: 0.4935
-hipfireSpread: 3.948
-reloadTime: 4.032
-magazineSize: 50
-health: -0.5
-recoilHipVertical: 7.12786 - 11.8798
-recoilAimVertical: 6.41508 - 10.6918
-movementSpeed: 5.25
-TTK: 0.251071 Seconds
-
 [ Barrel: FC200SH, Magazine: L8, Grip: Circuit Judge, Stock: P90, Core: Discharger ]
 damage: 33.6179 - 17.5105
 dropoffStuds: 201.935 - 287.604
@@ -82,19 +82,6 @@ recoilHipVertical: 4.6332 - 7.722
 recoilAimVertical: 4.16988 - 6.9498
 movementSpeed: 0.75
 TTK: 0.252988 Seconds
-
-[ Barrel: FC200SH, Magazine: The Chief, Grip: APS, Stock: Lee Enfield, Core: Discharger ]
-damage: 33.4905 - 17.5228
-dropoffStuds: 200.138 - 285.046
-fireRate: 472.245
-adsSpread: 0.6
-hipfireSpread: 4.8
-reloadTime: 4.12128
-magazineSize: 36
-health: 7
-recoilHipVertical: 4.78464 - 7.9744
-recoilAimVertical: 4.30618 - 7.17696
-TTK: 0.254106 Seconds
 
 [ Barrel: FC200SH, Magazine: The Chief, Grip: M1897 Trench Shotgun, Stock: SMO3, Core: Discharger ]
 damage: 33.6957 - 18.3951
@@ -110,17 +97,17 @@ recoilAimVertical: 6.84288 - 11.4048
 movementSpeed: 3
 TTK: 0.254106 Seconds
 
-[ Barrel: FC200SH, Magazine: The Chief, Grip: M2-Browning, Stock: Lee Enfield, Core: Discharger ]
-damage: 33.5726 - 17.5657
+[ Barrel: FC200SH, Magazine: The Chief, Grip: Type 2a Nambu, Stock: Lee Enfield, Core: Discharger ]
+damage: 34.1882 - 17.8878
 dropoffStuds: 200.138 - 285.046
 fireRate: 472.245
-adsSpread: 0.6
-hipfireSpread: 4.8
+adsSpread: 0.4965
+hipfireSpread: 3.972
 reloadTime: 3.888
 magazineSize: 36
-health: 9.25
-recoilHipVertical: 7.68768 - 12.8128
-recoilAimVertical: 6.91891 - 11.5315
+health: -0.5
+recoilHipVertical: 6.61248 - 11.0208
+recoilAimVertical: 5.95123 - 9.91872
 movementSpeed: 2.25
 TTK: 0.254106 Seconds
 
@@ -135,5 +122,19 @@ magazineSize: 36
 health: 7
 recoilHipVertical: 7.2576 - 12.096
 recoilAimVertical: 6.53184 - 10.8864
+TTK: 0.254106 Seconds
+
+[ Barrel: FC200SH, Magazine: The Chief, Grip: M2-Browning, Stock: Lee Enfield, Core: Discharger ]
+damage: 33.5726 - 17.5657
+dropoffStuds: 200.138 - 285.046
+fireRate: 472.245
+adsSpread: 0.6
+hipfireSpread: 4.8
+reloadTime: 3.888
+magazineSize: 36
+health: 9.25
+recoilHipVertical: 7.68768 - 12.8128
+recoilAimVertical: 6.91891 - 11.5315
+movementSpeed: 2.25
 TTK: 0.254106 Seconds
 
