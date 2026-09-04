@@ -267,7 +267,7 @@
       "Damage": 11,
       "Range": -7,
       "Recoil": -16,
-      "Spin_up": 0.35
+      "Spin_Up": 0.35
     },
 	    {
       "Price_Type": "Coin",
@@ -1962,7 +1962,7 @@
         "Damage": 1.0,
         "Fire_Rate": 4.5,
         "Health": 7.0,
-        "Movement_speed": -4.0,
+        "Movement_Speed": -4.0,
         "Range": -11.0,
         "Spread": 26.0
       },
@@ -1995,7 +1995,7 @@
       "Damage": 10,
       "Range": -11,
       "Fire_Rate": 8,
-      "Spin_up": 0.35
+      "Spin_Up": 0.35
     },
     {
       "Price_Type": "Limited",
@@ -4085,7 +4085,7 @@
       "Reload_Speed": -10,
       "Spread": 12,
       "Movement_Speed": 2.0,
-      "Magazine_cap": 10.0
+      "Magazine_Cap": 10.0
     },
     {
       "Price_Type": "Robux",
@@ -6726,7 +6726,7 @@
           23.0,
           26.0
         ],
-        "Movement_Speed": 3.0
+        "Movement_Speed_Modifier": 3.0
       },
       {
         "Price_Type": "Season Pass 1",
@@ -10125,7 +10125,7 @@
           120.0
         ],
         "Health": 10,
-	"Movement_Speed": -5
+	"Movement_Speed_Modifier": -5
       },
 	  	     {
         "Price_Type": "Robux",
