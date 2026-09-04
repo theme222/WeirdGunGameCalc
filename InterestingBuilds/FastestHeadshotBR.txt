@@ -14,20 +14,6 @@ recoilAimVertical: 22.2906 - 33.4358
 movementSpeed: 0.65
 TTK: 0.536673 Seconds
 
-[ Barrel: Lightning Shot, Magazine: Scar H, Grip: Type 2a Nambu, Stock: Winchester, Core: G43 ]
-damage: 67.9117 - 54.3426
-dropoffStuds: 220.18 - 366.966
-fireRate: 111.8
-adsSpread: 0.142053
-hipfireSpread: 1.70464
-reloadTime: 4.347
-magazineSize: 20
-health: 2.5
-recoilHipVertical: 81.6966 - 122.545
-recoilAimVertical: 32.6786 - 49.018
-movementSpeed: 2.1
-TTK: 0.536673 Seconds
-
 [ Barrel: Lightning Shot, Magazine: Scar H, Grip: The Chief, Stock: Winchester, Core: G43 ]
 damage: 66.9635 - 53.5838
 dropoffStuds: 220.18 - 366.966
@@ -41,19 +27,19 @@ recoilHipVertical: 89.667 - 134.501
 recoilAimVertical: 35.8668 - 53.8002
 TTK: 0.536673 Seconds
 
-[ Barrel: Lightning Shot, Magazine: M110, Grip: Type 2a Nambu, Stock: Winchester, Core: G43 ]
-damage: 67.3457 - 54.6457
-dropoffStuds: 230.098 - 383.496
-fireRate: 106.21
+[ Barrel: Lightning Shot, Magazine: Scar H, Grip: Type 2a Nambu, Stock: Winchester, Core: G43 ]
+damage: 67.9117 - 54.3426
+dropoffStuds: 220.18 - 366.966
+fireRate: 111.8
 adsSpread: 0.142053
 hipfireSpread: 1.70464
-reloadTime: 3.6708
-magazineSize: 10
+reloadTime: 4.347
+magazineSize: 20
 health: 2.5
-recoilHipVertical: 73.2002 - 109.8
-recoilAimVertical: 29.2801 - 43.9201
+recoilHipVertical: 81.6966 - 122.545
+recoilAimVertical: 32.6786 - 49.018
 movementSpeed: 2.1
-TTK: 0.564919 Seconds
+TTK: 0.536673 Seconds
 
 [ Barrel: Lightning Shot, Magazine: M110, Grip: Type 2a Nambu, Stock: Type 2a Nambu, Core: G43 ]
 damage: 67.3457 - 54.6457
@@ -69,19 +55,19 @@ recoilAimVertical: 19.9723 - 29.9585
 movementSpeed: 0.65
 TTK: 0.564919 Seconds
 
-[ Barrel: Lightning Shot, Magazine: Dragunov, Grip: Arisaka, Stock: Type 2a Nambu, Core: G43 ]
-damage: 68.1188 - 54.8141
-dropoffStuds: 224.147 - 373.578
-fireRate: 90.558
-adsSpread: 0.146026
-hipfireSpread: 1.75231
-reloadTime: 3.2844
+[ Barrel: Lightning Shot, Magazine: M110, Grip: Type 2a Nambu, Stock: Winchester, Core: G43 ]
+damage: 67.3457 - 54.6457
+dropoffStuds: 230.098 - 383.496
+fireRate: 106.21
+adsSpread: 0.142053
+hipfireSpread: 1.70464
+reloadTime: 3.6708
 magazineSize: 10
-health: -2.5
-recoilHipVertical: 32.2579 - 48.3868
-recoilAimVertical: 12.9031 - 19.3547
-movementSpeed: 1.35
-TTK: 0.662559 Seconds
+health: 2.5
+recoilHipVertical: 73.2002 - 109.8
+recoilAimVertical: 29.2801 - 43.9201
+movementSpeed: 2.1
+TTK: 0.564919 Seconds
 
 [ Barrel: Lightning Shot, Magazine: Dragunov, Grip: Arisaka, Stock: Winchester, Core: G43 ]
 damage: 68.1188 - 54.8141
@@ -95,6 +81,20 @@ health: 4
 recoilHipVertical: 47.291 - 70.9366
 recoilAimVertical: 18.9164 - 28.3746
 movementSpeed: 2.8
+TTK: 0.662559 Seconds
+
+[ Barrel: Lightning Shot, Magazine: Dragunov, Grip: Arisaka, Stock: Type 2a Nambu, Core: G43 ]
+damage: 68.1188 - 54.8141
+dropoffStuds: 224.147 - 373.578
+fireRate: 90.558
+adsSpread: 0.146026
+hipfireSpread: 1.75231
+reloadTime: 3.2844
+magazineSize: 10
+health: -2.5
+recoilHipVertical: 32.2579 - 48.3868
+recoilAimVertical: 12.9031 - 19.3547
+movementSpeed: 1.35
 TTK: 0.662559 Seconds
 
 [ Barrel: Dominus, Magazine: Scar H, Grip: Type 2a Nambu, Stock: Spas-12, Core: Winchester ]

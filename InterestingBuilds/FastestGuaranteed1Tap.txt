@@ -42,20 +42,6 @@ recoilAimVertical: 54.9 - 73.2
 movementSpeed: -2.5
 TTK: 5.2416 Seconds
 
-[ Barrel: Spear, Magazine: Magic Mag, Grip: Pistol Pistol, Stock: AWM, Core: Lightning Shot ]
-damage: 34.0666 - 104.409
-dropoffStuds: 7 - 245
-fireRate: 22.4775
-adsSpread: 0.125125
-hipfireSpread: 25.025
-reloadTime: 0.5355
-magazineSize: 6
-health: 3
-recoilHipVertical: 120.78 - 161.04
-recoilAimVertical: 60.39 - 80.52
-movementSpeed: -2.5
-TTK: 5.33867 Seconds
-
 [ Barrel: Spear, Magazine: Magic Mag, Grip: Pistol Pistol, Stock: FAL, Core: Lightning Shot ]
 damage: 34.0666 - 101.42
 dropoffStuds: 7.2975 - 255.413
@@ -68,6 +54,20 @@ health: 3
 recoilHipVertical: 128.7 - 171.6
 recoilAimVertical: 64.35 - 85.8
 movementSpeed: -2.33
+TTK: 5.33867 Seconds
+
+[ Barrel: Spear, Magazine: Magic Mag, Grip: Pistol Pistol, Stock: AWM, Core: Lightning Shot ]
+damage: 34.0666 - 104.409
+dropoffStuds: 7 - 245
+fireRate: 22.4775
+adsSpread: 0.125125
+hipfireSpread: 25.025
+reloadTime: 0.5355
+magazineSize: 6
+health: 3
+recoilHipVertical: 120.78 - 161.04
+recoilAimVertical: 60.39 - 80.52
+movementSpeed: -2.5
 TTK: 5.33867 Seconds
 
 [ Barrel: Spear, Magazine: Magic Mag, Grip: M1 Garand, Stock: MG42, Core: Lightning Shot ]

@@ -57,61 +57,6 @@ recoilAimVertical: 3.44282 - 5.73804
 movementSpeed: 3.375
 TTK: 0.262839 Seconds
 
-[ Barrel: As-Val, Magazine: Paintball, Grip: The Chief, Stock: PP-19 Bizon, Core: Discharger ]
-damage: 25.2249 - 9.33416
-dropoffStuds: 156.327 - 222.648
-fireRate: 684.4
-adsSpread: 0.399356
-hipfireSpread: 3.19485
-reloadTime: 5.75825
-magazineSize: 70
-health: 7
-recoilHipVertical: 4.6575 - 7.7625
-recoilAimVertical: 4.19175 - 6.98625
-movementSpeed: 1.875
-TTK: 0.263004 Seconds
-
-[ Barrel: As-Val, Magazine: Paintball, Grip: The Chief, Stock: MG42, Core: Discharger ]
-damage: 25.2249 - 9.03051
-dropoffStuds: 153.45 - 218.55
-fireRate: 684.4
-adsSpread: 0.359531
-hipfireSpread: 2.87625
-reloadTime: 6.82
-magazineSize: 70
-health: 7
-recoilHipVertical: 4.6575 - 7.7625
-recoilAimVertical: 4.19175 - 6.98625
-movementSpeed: 2.625
-TTK: 0.263004 Seconds
-
-[ Barrel: As-Val, Magazine: Paintball, Grip: The Chief, Stock: M40, Core: Discharger ]
-damage: 25.2249 - 9.03051
-dropoffStuds: 153.45 - 218.55
-fireRate: 684.4
-adsSpread: 0.38055
-hipfireSpread: 3.0444
-reloadTime: 6.2
-magazineSize: 70
-health: 7
-recoilHipVertical: 4.33148 - 7.21912
-recoilAimVertical: 3.89833 - 6.49721
-TTK: 0.263004 Seconds
-
-[ Barrel: As-Val, Magazine: Paintball, Grip: The Chief, Stock: Type 2a Nambu, Core: Discharger ]
-damage: 25.2249 - 9.03051
-dropoffStuds: 153.45 - 218.55
-fireRate: 684.4
-adsSpread: 0.379444
-hipfireSpread: 3.03555
-reloadTime: 6.2
-magazineSize: 70
-health: 0.5
-recoilHipVertical: 3.85408 - 6.42347
-recoilAimVertical: 3.46867 - 5.78112
-movementSpeed: 4.875
-TTK: 0.263004 Seconds
-
 [ Barrel: As-Val, Magazine: Paintball, Grip: The Chief, Stock: Type 11, Core: Discharger ]
 damage: 25.2249 - 9.03051
 dropoffStuds: 153.45 - 218.55
@@ -137,5 +82,60 @@ magazineSize: 70
 health: 7
 recoilHipVertical: 4.16846 - 6.94744
 recoilAimVertical: 3.75162 - 6.25269
+TTK: 0.263004 Seconds
+
+[ Barrel: As-Val, Magazine: Paintball, Grip: The Chief, Stock: Type 2a Nambu, Core: Discharger ]
+damage: 25.2249 - 9.03051
+dropoffStuds: 153.45 - 218.55
+fireRate: 684.4
+adsSpread: 0.379444
+hipfireSpread: 3.03555
+reloadTime: 6.2
+magazineSize: 70
+health: 0.5
+recoilHipVertical: 3.85408 - 6.42347
+recoilAimVertical: 3.46867 - 5.78112
+movementSpeed: 4.875
+TTK: 0.263004 Seconds
+
+[ Barrel: As-Val, Magazine: Paintball, Grip: The Chief, Stock: PP-19 Bizon, Core: Discharger ]
+damage: 25.2249 - 9.33416
+dropoffStuds: 156.327 - 222.648
+fireRate: 684.4
+adsSpread: 0.399356
+hipfireSpread: 3.19485
+reloadTime: 5.75825
+magazineSize: 70
+health: 7
+recoilHipVertical: 4.6575 - 7.7625
+recoilAimVertical: 4.19175 - 6.98625
+movementSpeed: 1.875
+TTK: 0.263004 Seconds
+
+[ Barrel: As-Val, Magazine: Paintball, Grip: The Chief, Stock: M40, Core: Discharger ]
+damage: 25.2249 - 9.03051
+dropoffStuds: 153.45 - 218.55
+fireRate: 684.4
+adsSpread: 0.38055
+hipfireSpread: 3.0444
+reloadTime: 6.2
+magazineSize: 70
+health: 7
+recoilHipVertical: 4.33148 - 7.21912
+recoilAimVertical: 3.89833 - 6.49721
+TTK: 0.263004 Seconds
+
+[ Barrel: As-Val, Magazine: Paintball, Grip: The Chief, Stock: MG42, Core: Discharger ]
+damage: 25.2249 - 9.03051
+dropoffStuds: 153.45 - 218.55
+fireRate: 684.4
+adsSpread: 0.359531
+hipfireSpread: 2.87625
+reloadTime: 6.82
+magazineSize: 70
+health: 7
+recoilHipVertical: 4.6575 - 7.7625
+recoilAimVertical: 4.19175 - 6.98625
+movementSpeed: 2.625
 TTK: 0.263004 Seconds
 

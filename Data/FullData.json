@@ -1157,6 +1157,15 @@
       "Movement_Speed": -8,
       "Health": 6
     },
+	    {
+      "Price_Type": "Robux",
+      "Name": "M32 Launcher",
+      "Category": "BR",
+      "Damage": 27,
+      "Fire_Rate": -12,
+	  "Range": -5,
+	  "Spread": 45
+    },
       {
         "Price_Type": "WC",
         "Name": "USS Iowa",
@@ -3014,6 +3023,17 @@
       "Movement_Speed": -9,
       "Blast_Radius": 70.0
     },
+		    {
+      "Price_Type": "Robux",
+      "Name": "M32 Launcher",
+      "Category": "BR",
+      "Magazine_Size": 6,
+      "Reload_Time": 3.8,
+      "Blast_Radius": 100.0,
+      "Damage": 40,
+      "Spread": 54,
+      "Fire_Rate": -55
+    },
       {
         "Price_Type": "WC",
         "Name": "USS Iowa",
@@ -3505,64 +3525,7 @@
       "Range": 7,
       "Recoil": 57,
       "Fire_Rate": -8
-    },
-      {
-        "Price_Type": "Coin",
-        "Name": "Notable Scopes",
-        "Category": "Sidearm"
-      },
-      {
-        "Price_Type": "Coin",
-        "Name": "Lightning Shot",
-        "Category": "Sidearm",
-        "Range": 32.0
-      },
-      {
-        "Price_Type": "WC",
-        "Name": "Spyglass",
-        "Category": "Sidearm",
-        "Range": 20.0
-      },
-      {
-        "Price_Type": "WC",
-        "Name": "Panzershreck",
-        "Category": "Sidearm",
-        "Health": 15.0,
-        "Movement_Speed": -10.0,
-        "Reload_Time": 25.0,
-        "Spread": 35.0
-      },
-      {
-        "Price_Type": "Robux",
-        "Name": "Raygun",
-        "Category": "Sidearm",
-        "Damage": 1.0,
-        "Range": -5.0,
-        "Spread": 10.0
-      },
-      {
-        "Price_Type": "Coin",
-        "Name": "Maple Badger",
-        "Category": "Sidearm",
-        "Spread": -5.0,
-        "Detection_Radius": 50.0,
-        "Range": -2.5,
-        "Reload_Time": 2.5
-      },
-      {
-        "Price_Type": "Season Pass 1",
-        "Name": "MCX",
-        "Category": "Sidearm",
-        "Range": 6.0,
-        "Spread": -5.0
-      },
-      {
-        "Price_Type": "Robux",
-        "Name": "Infinity",
-        "Category": "Sidearm",
-        "Magazine_Size": 5.0,
-        "Spread": 5.0
-      }
+    }
     ],
     "Grips": [
       {
@@ -4509,6 +4472,13 @@
       "Category": "BR",
       "Recoil": -21,
       "Spread": 16
+    },
+	    {
+      "Price_Type": "Robux",
+      "Name": "M32 Launcher",
+      "Category": "BR",
+      "Damage": 2.0,
+      "Spread": 23
     },
       {
         "Price_Type": "Limited",
@@ -5832,6 +5802,14 @@
       "Damage": 6,
       "Recoil": 45,
       "Movement_Speed": -6
+    },
+		    {
+      "Price_Type": "Robux",
+      "Name": "M32 Launcher",
+      "Category": "BR",
+      "Movement_Speed": 2,
+	  "Reload_Speed": -16,
+	  "Fire_Rate": -7
     },
       {
         "Price_Type": "Limited",
@@ -10148,6 +10126,45 @@
         ],
         "Health": 10,
 	"Movement_Speed": -5
+      },
+	  	     {
+        "Price_Type": "Robux",
+        "Name": "M32 Launcher",
+        "Category": "BR",
+        "Firing_Mode": "Auto",
+        "Damage": [
+          60.0,
+          33.0
+        ],
+        "Dropoff_Studs": [
+          130.0,
+          230.0
+        ],
+        "Fire_Rate": 50.0,
+        "Hipfire_Spread": 6.0,
+        "ADS_Spread": 0.6,
+        "Time_To_Aim": 0.8,
+        "Detection_Radius": 400.0,
+        "Suppression": 0.0  ,
+        "Equip_Time": 0.9,
+        "Blast_Radius": 20.0,
+        "Recoil_Hip_Horizontal": [
+         -20.0,
+          20.0
+        ],
+        "Recoil_Hip_Vertical": [
+          94.0,
+          103.0
+        ],
+        "Recoil_Aim_Horizontal": [
+          -16.0,
+          16.0
+        ],
+        "Recoil_Aim_Vertical": [
+          75.2,
+          82.4
+        ],
+        "Health": 14
       },
       {
         "Price_Type": "Limited",

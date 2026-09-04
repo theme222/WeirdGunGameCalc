@@ -42,6 +42,20 @@ recoilHipVertical: 103.85 - 181.738
 recoilAimVertical: 41.54 - 72.695
 movementSpeed: 1.075
 
+[ Barrel: Malyuk, Magazine: BAR, Grip: Controller, Stock: Type 2a Nambu, Core: Auto-5 ]
+damage: 142.519 - 50.5942
+dropoffStuds: 81.225 - 155.681
+pellets: 8
+fireRate: 134.034
+adsSpread: 1.78175
+hipfireSpread: 5.93916
+reloadTime: 4.48
+magazineSize: 20
+health: 1.5
+recoilHipVertical: 76.3439 - 133.602
+recoilAimVertical: 30.5376 - 53.4408
+movementSpeed: 1.725
+
 [ Barrel: Malyuk, Magazine: BAR, Grip: Controller, Stock: MG42, Core: Auto-5 ]
 damage: 142.519 - 50.5942
 dropoffStuds: 81.225 - 155.681
@@ -56,19 +70,19 @@ recoilHipVertical: 89.7636 - 157.086
 recoilAimVertical: 35.9054 - 62.8345
 movementSpeed: 0.125
 
-[ Barrel: Malyuk, Magazine: BAR, Grip: Controller, Stock: Type 2a Nambu, Core: Auto-5 ]
-damage: 142.519 - 50.5942
-dropoffStuds: 81.225 - 155.681
-pellets: 8
-fireRate: 134.034
-adsSpread: 1.78175
-hipfireSpread: 5.93916
-reloadTime: 4.48
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: Uzi, Core: Auto-5 ]
+damage: 146.048 - 49.2729
+dropoffStuds: 80.0494 - 153.428
+pellets: 6
+fireRate: 133.98
+adsSpread: 1.78752
+hipfireSpread: 5.9584
+reloadTime: 4.368
 magazineSize: 20
-health: 1.5
-recoilHipVertical: 76.3439 - 133.602
-recoilAimVertical: 30.5376 - 53.4408
-movementSpeed: 1.725
+health: 8
+recoilHipVertical: 92.2808 - 161.491
+recoilAimVertical: 36.9123 - 64.5966
+movementSpeed: 2.875
 
 [ Barrel: M870 Wingmaster, Magazine: BAR, Grip: MP18, Stock: MG42, Core: Auto-5 ]
 damage: 146.048 - 49.8077
@@ -84,33 +98,19 @@ recoilHipVertical: 76.26 - 133.455
 recoilAimVertical: 30.504 - 53.382
 movementSpeed: 0.125
 
-[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: Type 2a Nambu, Core: Auto-5 ]
-damage: 146.048 - 49.2729
-dropoffStuds: 80.0494 - 153.428
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: MP18, Stock: Type 2a Nambu, Core: Auto-5 ]
+damage: 146.048 - 49.8077
+dropoffStuds: 80.4496 - 154.195
 pellets: 6
 fireRate: 133.98
-adsSpread: 1.68741
-hipfireSpread: 5.6247
+adsSpread: 1.76795
+hipfireSpread: 5.89316
 reloadTime: 4.2
 magazineSize: 20
 health: 1.5
-recoilHipVertical: 64.3318 - 112.581
-recoilAimVertical: 25.7327 - 45.0323
-movementSpeed: 2.225
-
-[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: UNP-40, Core: Auto-5 ]
-damage: 146.048 - 49.2729
-dropoffStuds: 80.0494 - 153.428
-pellets: 6
-fireRate: 133.98
-adsSpread: 1.64987
-hipfireSpread: 5.49957
-reloadTime: 4.2
-magazineSize: 20
-health: 8
-recoilHipVertical: 90.768 - 158.844
-recoilAimVertical: 36.3072 - 63.5376
-movementSpeed: 0.47
+recoilHipVertical: 64.8591 - 113.503
+recoilAimVertical: 25.9437 - 45.4014
+movementSpeed: 1.725
 
 [ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: MG42, Core: Auto-5 ]
 damage: 146.048 - 49.2729
@@ -126,17 +126,17 @@ recoilHipVertical: 75.64 - 132.37
 recoilAimVertical: 30.256 - 52.948
 movementSpeed: 0.625
 
-[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: Uzi, Core: Auto-5 ]
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: UNP-40, Core: Auto-5 ]
 damage: 146.048 - 49.2729
 dropoffStuds: 80.0494 - 153.428
 pellets: 6
 fireRate: 133.98
-adsSpread: 1.78752
-hipfireSpread: 5.9584
-reloadTime: 4.368
+adsSpread: 1.64987
+hipfireSpread: 5.49957
+reloadTime: 4.2
 magazineSize: 20
 health: 8
-recoilHipVertical: 92.2808 - 161.491
-recoilAimVertical: 36.9123 - 64.5966
-movementSpeed: 2.875
+recoilHipVertical: 90.768 - 158.844
+recoilAimVertical: 36.3072 - 63.5376
+movementSpeed: 0.47
 

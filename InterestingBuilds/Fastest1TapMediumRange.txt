@@ -52,19 +52,6 @@ recoilHipVertical: 97.47 - 116.964
 recoilAimVertical: 49.7097 - 66.2796
 movementSpeed: 3
 
-[ Barrel: M40, Magazine: Tankgewehr, Grip: Auto-5, Stock: Speed Coil, Core: Barret .50 ]
-damage: 179.243 - 146.187
-dropoffStuds: 330 - 709.5
-fireRate: 110.637
-adsSpread: 0.29568
-hipfireSpread: 11.8272
-reloadTime: 10.5
-magazineSize: 1
-health: -20
-recoilHipVertical: 225.036 - 270.043
-recoilAimVertical: 114.768 - 153.024
-movementSpeed: 2
-
 [ Barrel: M40, Magazine: Fat Cat, Grip: Auto-5, Stock: Speed Coil, Core: Barret .50 ]
 damage: 238.991 - 150.841
 dropoffStuds: 220 - 473
@@ -90,17 +77,18 @@ health: -20
 recoilHipVertical: 272.916 - 327.499
 recoilAimVertical: 139.187 - 185.583
 
-[ Barrel: Mega Soaker, Magazine: Tankgewehr, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
-damage: 185.774 - 140.55
-dropoffStuds: 261.36 - 561.924
-fireRate: 109.651
-adsSpread: 0.273
-hipfireSpread: 10.92
+[ Barrel: M40, Magazine: Tankgewehr, Grip: Auto-5, Stock: Speed Coil, Core: Barret .50 ]
+damage: 179.243 - 146.187
+dropoffStuds: 330 - 709.5
+fireRate: 110.637
+adsSpread: 0.29568
+hipfireSpread: 11.8272
 reloadTime: 10.5
 magazineSize: 1
 health: -20
-recoilHipVertical: 281.686 - 338.023
-recoilAimVertical: 143.66 - 191.546
+recoilHipVertical: 225.036 - 270.043
+recoilAimVertical: 114.768 - 153.024
+movementSpeed: 2
 
 [ Barrel: Mega Soaker, Magazine: Fat Cat, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
 damage: 247.699 - 127.101
@@ -114,6 +102,18 @@ health: -10
 recoilHipVertical: 100.602 - 120.722
 recoilAimVertical: 51.307 - 68.4094
 movementSpeed: 3
+
+[ Barrel: Mega Soaker, Magazine: Tankgewehr, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
+damage: 185.774 - 140.55
+dropoffStuds: 261.36 - 561.924
+fireRate: 109.651
+adsSpread: 0.273
+hipfireSpread: 10.92
+reloadTime: 10.5
+magazineSize: 1
+health: -20
+recoilHipVertical: 281.686 - 338.023
+recoilAimVertical: 143.66 - 191.546
 
 [ Barrel: Spray Can, Magazine: Fat Cat, Grip: Arisaka, Stock: Arisaka, Core: Barret .50 ]
 damage: 250.04 - 128.171

@@ -97,18 +97,6 @@ recoilHipVertical: 157.5 - 210
 recoilAimVertical: 78.75 - 105
 movementSpeed: -5
 
-[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: AK2D, Core: AWM ]
-damage: 101.892 - 88.4989
-dropoffStuds: 300.713 - 451.069
-fireRate: 24.3545
-adsSpread: 0.07
-hipfireSpread: 21
-reloadTime: 5.445
-magazineSize: 20
-recoilHipVertical: 160.875 - 214.5
-recoilAimVertical: 80.4375 - 107.25
-movementSpeed: -5
-
 [ Barrel: Light Gun, Magazine: M40, Grip: Musket, Stock: AK2D, Core: AWM ]
 damage: 101.021 - 89.3025
 dropoffStuds: 330 - 495
@@ -120,4 +108,16 @@ magazineSize: 10
 recoilHipVertical: 160.875 - 214.5
 recoilAimVertical: 80.4375 - 107.25
 movementSpeed: -5
+
+[ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: P90, Core: AWM ]
+damage: 100.386 - 87.7452
+dropoffStuds: 313.342 - 470.014
+fireRate: 24.3545
+adsSpread: 0.06538
+hipfireSpread: 19.614
+reloadTime: 5.445
+magazineSize: 20
+recoilHipVertical: 131.625 - 175.5
+recoilAimVertical: 65.8125 - 87.75
+movementSpeed: -4.4
 

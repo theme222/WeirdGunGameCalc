@@ -28,6 +28,34 @@ recoilHipVertical: 35.52 - 39.84
 recoilAimVertical: 23.088 - 25.872
 TTK: 0.17144 Seconds
 
+[ Barrel: M32 Launcher, Magazine: MP18, Grip: Mega Soaker, Stock: VSSR, Core: Hotdog ]
+damage: 50.353 - 34.2169
+dropoffStuds: 141.086 - 220.447
+fireRate: 337.92
+adsSpread: 0.818496
+hipfireSpread: 9.0944
+reloadTime: 2.2
+magazineSize: 32
+Time to empty: 5.50426
+recoilHipVertical: 48.029 - 53.8703
+recoilAimVertical: 31.2188 - 34.9833
+TTK: 0.177557 Seconds
+
+[ Barrel: M32 Launcher, Magazine: MP18, Grip: RSH-12-Carbine, Stock: Type 2a Nambu, Core: Hotdog ]
+damage: 50.353 - 34.5462
+dropoffStuds: 143.853 - 224.77
+fireRate: 327.782
+adsSpread: 0.528525
+hipfireSpread: 5.8725
+reloadTime: 2.2
+magazineSize: 32
+Time to empty: 5.6745
+health: -6.5
+recoilHipVertical: 47.2706 - 53.0197
+recoilAimVertical: 30.7259 - 34.4309
+movementSpeed: 0.5
+TTK: 0.183048 Seconds
+
 [ Barrel: M134 Minigun, Magazine: AUG, Grip: Musket, Stock: Speed Coil, Core: Hotdog ]
 damage: 34.7757 - 23.9813
 dropoffStuds: 145.024 - 226.6
@@ -42,6 +70,19 @@ recoilHipVertical: 44.4 - 49.8
 recoilAimVertical: 28.86 - 32.34
 movementSpeed: 13.5
 TTK: 0.185986 Seconds
+
+[ Barrel: M32 Launcher, Magazine: MP18, Grip: Mega Soaker, Stock: Dragunov, Core: Hotdog ]
+damage: 50.353 - 34.8755
+dropoffStuds: 146.619 - 229.092
+fireRate: 321.024
+adsSpread: 0.7308
+hipfireSpread: 8.12
+reloadTime: 2.42
+magazineSize: 32
+Time to empty: 5.79396
+recoilHipVertical: 46.6567 - 52.3312
+recoilAimVertical: 30.3269 - 33.9837
+TTK: 0.186902 Seconds
 
 [ Barrel: M134 Minigun, Magazine: AUG, Grip: Tankgewehr, Stock: Speed Coil, Core: Hotdog ]
 damage: 34.1434 - 23.5453
@@ -102,48 +143,4 @@ recoilHipVertical: 44.4 - 49.8
 recoilAimVertical: 28.86 - 32.34
 movementSpeed: 13.5
 TTK: 0.190829 Seconds
-
-[ Barrel: MG42, Magazine: Type 2a Nambu, Grip: AUTO-12, Stock: Mas-38, Core: Hotdog ]
-damage: 33.6 - 20.3303
-dropoffStuds: 108.95 - 170.235
-fireRate: 627.912
-adsSpread: 0.63
-hipfireSpread: 7
-reloadTime: 2.4975
-magazineSize: 30
-Time to empty: 2.77109
-recoilHipVertical: 46.7624 - 52.4498
-recoilAimVertical: 30.3956 - 34.0607
-movementSpeed: 2.5
-TTK: 0.19111 Seconds
-
-[ Barrel: MG42, Magazine: Scar L, Grip: Quad-Jolly, Stock: Speed Coil, Core: Hotdog ]
-damage: 34.3846 - 20.7595
-dropoffStuds: 108.177 - 169.026
-fireRate: 621.054
-adsSpread: 0.9261
-hipfireSpread: 10.29
-reloadTime: 2.25
-magazineSize: 30
-Time to empty: 2.80169
-health: -20
-recoilHipVertical: 46.176 - 51.792
-recoilAimVertical: 30.0144 - 33.6336
-movementSpeed: 26
-TTK: 0.19322 Seconds
-
-[ Barrel: M134 Minigun, Magazine: Scar L, Grip: M1887, Stock: Speed Coil, Core: Hotdog ]
-damage: 34.3846 - 23.3815
-dropoffStuds: 140.8 - 220
-fireRate: 615.846
-adsSpread: 0.920477
-hipfireSpread: 10.2275
-reloadTime: 2.025
-magazineSize: 30
-Time to empty: 2.82538
-health: 20
-recoilHipVertical: 35.52 - 39.84
-recoilAimVertical: 23.088 - 25.872
-movementSpeed: 5.5
-TTK: 0.194854 Seconds
 
