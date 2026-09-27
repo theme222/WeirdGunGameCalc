@@ -202,11 +202,12 @@
         "Name": "Medal",
         "Category": "AR",
         "Detection_Radius": -15.0,
-        "Fire_Rate": 11,
+        "Fire_Rate": 13.5,
         "Movement_Speed": 4.0,
         "Recoil": -13.0,
         "Damage": -1,
-        "Equip_Time": 15.0
+        "Equip_Time": 15.0,
+        "Spread": 19.0
       },
       {
         "Price_Type": "Limited",
@@ -275,6 +276,14 @@
       "Category": "AR",
 	  "Fire_Rate": 8.5,
 	  "Detection_Radius": -15.0
+    },
+    {
+      "Price_Type": "Coin",
+      "Name": "M4 Carbine",
+      "Category": "AR",
+      "Fire_Rate": 11,
+      "Movement_Speed": 2,
+      "Spread": 20
     },
       {
         "Price_Type": "Coin",
@@ -462,7 +471,7 @@
         "Price_Type": "Coin",
         "Name": "NP9",
         "Category": "SMG",
-        "Fire_Rate": 8.0,
+        "Fire_Rate": 11.0,
         "Movement_Speed": 3.2,
         "Reload_Speed": -15.0,
         "Range": -6.0
@@ -473,6 +482,7 @@
         "Category": "SMG",
         "Damage": 10.0,
         "Movement_Speed": 3.2,
+        "Range": 5.0,
         "Recoil": 20.0
       },
       {
@@ -765,12 +775,12 @@
         "Price_Type": "Coin",
         "Name": "JSG12",
         "Category": "Shotgun",
-        "Magazine_Cap": 15.0,
+        "Magazine_Cap": 30.0,
         "Movement_Speed": 3.0,
         "Range": 15.0,
         "Recoil": 16.0,
-        "Reload_Speed": 7.0,
-        "Spread": 24.0
+        "Reload_Speed": 8.0,
+        "Spread": 12.0
       },
       {
         "Price_Type": "Coin",
@@ -1019,9 +1029,9 @@
     },
       {
         "Price_Type": "Coin",
-        "Name": "M1 Garand",
+        "Name": "M1Garand",
         "Category": "BR",
-        "Damage": 7.0,
+        "Damage": 8.5,
         "Spread": -17.0,
         "Detection_Radius": 10.0
       },
@@ -1049,7 +1059,7 @@
         "Price_Type": "Coin",
         "Name": "Fedorov",
         "Category": "BR",
-        "Damage": 7.0,
+        "Damage": 9.0,
         "Movement_Speed": 3.5,
         "Recoil": 18.0
       },
@@ -1161,10 +1171,20 @@
       "Price_Type": "Robux",
       "Name": "M32 Launcher",
       "Category": "BR",
-      "Damage": 27,
+      "Damage": 20,
       "Fire_Rate": -12,
 	  "Range": -5,
 	  "Spread": 45
+    },
+    {
+      "Price_Type": "Coin",
+      "Name": "XM25",
+      "Category": "BR",
+      "Damage": 20,
+      "Reload_Speed": 2,
+      "Fire_Rate": -18,
+      "Movement_Speed": -8,
+      "Health": 13
     },
       {
         "Price_Type": "WC",
@@ -1473,7 +1493,7 @@
       "Range": -7,
       "Spread": 200,
       "Health": 5,
-      "Pellets": 500
+      "Pellets": 250
     },
       {
         "Price_Type": "Free",
@@ -1728,7 +1748,7 @@
         "Category": "AR",
         "Magazine_Size": 30.0,
         "Reload_Time": 2.0,
-        "Fire_Rate": 3.5,
+        "Fire_Rate": 9.0,
         "Recoil": -11.0,
         "Spread": 3.0
       },
@@ -1738,10 +1758,10 @@
         "Category": "AR",
         "Magazine_Size": 42.0,
         "Reload_Time": 3,
-        "Movement_Speed": 2.5,
-        "Spread": -10.0,
-        "Range": 3.0,
         "Fire_Rate": 17,
+        "Movement_Speed": 2.5,
+        "Range": 3.0,
+        "Spread": -10.0,
         "Damage": -3
       },
       {
@@ -1822,7 +1842,7 @@
         "Category": "AR",
         "Magazine_Size": 50.0,
         "Reload_Time": 4.0,
-        "Fire_Rate": 4.0,
+        "Fire_Rate": 5.0,
         "Recoil": -10.0,
         "Range": -5.0
       },
@@ -1993,8 +2013,8 @@
       "Magazine_Size": 50,
       "Reload_Time": 4.5,
       "Damage": 10,
-      "Range": -11,
       "Fire_Rate": 8,
+      "Range": -11,
       "Spin_Up": 0.35
     },
     {
@@ -2170,8 +2190,9 @@
         "Magazine_Size": 10.0,
         "Reload_Time": 6.5,
         "Damage": 16.0,
-        "Fire_Rate": -12.0,
+        "Fire_Rate": 12.0,
         "Range": -19.0,
+        "Movement_Speed": -12.0,
         "Recoil": 225.0
       },
     {
@@ -2202,7 +2223,7 @@
         "Category": "SMG",
         "Magazine_Size": 30.0,
         "Reload_Time": 2.5,
-        "Fire_Rate": 14.0,
+        "Fire_Rate": 17.0,
         "Movement_Speed": 3.0,
         "Recoil": -24.0,
         "Range": -10.0
@@ -2336,8 +2357,8 @@
         "Fire_Rate": 19.0,
         "Movement_Speed": 3.3,
         "Recoil": -15.0,
-        "Damage": -4.0,
-        "Range": -15.0
+        "Damage": -3.0,
+        "Range": -10.0
       },
       {
         "Price_Type": "Coin",
@@ -2433,7 +2454,7 @@
         "Category": "SMG",
         "Magazine_Size": 177.0,
         "Reload_Time": 10.0,
-    		"Fire_Rate": 14.0,
+		"Fire_Rate": 14.0,
         "Damage": -5.0,
         "Movement_Speed": -3.0,
         "Spread": 28.0
@@ -2442,11 +2463,11 @@
       "Price_Type": "Coin",
       "Name": "M960A",
       "Category": "SMG",
-      "Magazine_Size": 30,
-      "Reload_Time": 2.2,
-      "Range": 7.5,
-      "Recoil": 14,
-      "Spread": -13,
+      "Magazine_Size": 100,
+      "Reload_Time": 6.0,
+      "Range": -9.5,
+      "Recoil": 10,
+      "Damage": 5.0,
 	  "Fire_Rate": 2.0
     },
     {
@@ -2500,8 +2521,8 @@
         "Magazine_Size": 6.0,
         "Reload_Time": 3.0,
         "Damage": 17.0,
-        "Pellets": 45.0,
         "Health": 8,
+        "Pellets": 45.0,
         "Range": -4.0,
         "Recoil": 35.0
       },
@@ -2524,12 +2545,12 @@
         "Magazine_Size": 8.0,
         "Reload_Time": 3.2,
         "Damage": 30.0,
+        "Health": 4,
         "Movement_Speed": 3.0,
         "Pellets": 150.0,
         "Range": -15.0,
         "Recoil": 50.0,
-        "Spread": 5.0,
-        "Health": 4
+        "Spread": 5.0
       },
       {
         "Price_Type": "Coin",
@@ -2542,8 +2563,7 @@
         "Pellets": 57.0,
         "Movement_Speed": -5.5,
         "Range": -6,
-        "Recoil": 23,
-        "Spread": 7.0
+        "Recoil": 23
       },
       {
         "Price_Type": "Coin",
@@ -2591,9 +2611,9 @@
         "Magazine_Size": 2.0,
         "Reload_Time": 3.5,
         "Damage": 15.0,
+        "Fire_Rate": 20.0,
         "Pellets": 80.0,
         "Range": 6.0,
-        "Fire_Rate": 20.0,
         "Recoil": 100.0
       },
       {
@@ -2611,14 +2631,13 @@
         "Price_Type": "Coin",
         "Name": "Siberia-12 Drum",
         "Category": "Shotgun",
-        "Magazine_Size": 20.0,
+        "Magazine_Size": 25.0,
         "Reload_Time": 5.5,
-        "Damage": 12.0,
-        "Fire_Rate": 2.0,
-        "Pellets": 55.0,
-        "Recoil": -17.0,
+        "Damage": 7.0,
+        "Fire_Rate": 7.0,
+        "Pellets": 35.0,
         "Movement_Speed": -2.0,
-        "Range": -5.5
+        "Range": -6.5
       },
       {
         "Price_Type": "WC",
@@ -2673,9 +2692,9 @@
       "Magazine_Size": 6,
       "Reload_Time": 2.2,
       "Damage": 4,
-      "Range": -9.5,
       "Fire_Rate": 18,
-      "Pellets": 45
+      "Pellets": 45,
+      "Range": -9.5
     },
       {
         "Price_Type": "Coin",
@@ -2683,10 +2702,10 @@
         "Category": "LMG",
         "Magazine_Size": 75.0,
         "Reload_Time": 6.5,
-        "Movement_Speed": 1.0,
-        "Spread": -10.0,
         "Fire_Rate": 6.5,
         "Health": 5,
+        "Movement_Speed": 1.0,
+        "Spread": -10.0,
         "Range": -9.0,
         "Recoil": 22.0
       },
@@ -2696,11 +2715,11 @@
         "Category": "LMG",
         "Magazine_Size": 30.0,
         "Reload_Time": 3.0,
-        "Damage": 7.5,
-        "Range": 8.5,
+        "Damage": 10.0,
+        "Range": 8.0,
         "Spread": -17.0,
         "Movement_Speed": -1.0,
-        "Recoil": 14.0
+        "Recoil": 19.0
       },
       {
         "Price_Type": "Coin",
@@ -2712,7 +2731,7 @@
         "Fire_Rate": 4.0,
         "Range": 5.0,
         "Movement_Speed": -2.0,
-        "Recoil": 27.0
+        "Recoil": 19.0
       },
       {
         "Price_Type": "Coin",
@@ -2795,7 +2814,7 @@
         "Magazine_Size": 47.0,
         "Reload_Time": 5.0,
         "Damage": 4.0,
-        "Fire_Rate": 7.0,
+        "Fire_Rate": 10.0,
         "Movement_Speed": -3.0,
         "Recoil": 18.0
       },
@@ -2850,14 +2869,14 @@
       "Magazine_Size": 75,
       "Reload_Time": 7.5,
       "Damage": 25,
-      "Recoil": 95,
+      "Health": 7,
       "Fire_Rate": -16,
       "Movement_Speed": -9,
-      "Health": 7
+      "Recoil": 95
     },
       {
         "Price_Type": "Coin",
-        "Name": "M1 Garand",
+        "Name": "M1Garand",
         "Category": "BR",
         "Magazine_Size": 8.0,
         "Reload_Time": 3.0,
@@ -3017,11 +3036,11 @@
       "Category": "BR",
       "Magazine_Size": 25,
       "Reload_Time": 5,
+      "Blast_Radius": 70.0,
       "Damage": 23,
-      "Recoil": 80,
-      "Fire_Rate": -50,
       "Movement_Speed": -9,
-      "Blast_Radius": 70.0
+      "Fire_Rate": -50,
+      "Recoil": 80
     },
 		    {
       "Price_Type": "Robux",
@@ -3033,6 +3052,18 @@
       "Damage": 40,
       "Spread": 54,
       "Fire_Rate": -55
+    },
+    {
+      "Price_Type": "Coin",
+      "Name": "XM25",
+      "Category": "BR",
+      "Magazine_Size": 5,
+      "Reload_Time": 4,
+      "Damage": 20,
+      "Range": 5,
+      "Fire_Rate": -30,
+      "Movement_Speed": -6,
+      "Blast_Radius": 100
     },
       {
         "Price_Type": "WC",
@@ -3113,7 +3144,7 @@
         "Name": "Screwdriver",
         "Category": "Weird",
         "Magazine_Size": 1.0,
-        "Reload_Time": 8.0,
+        "Reload_Time": 9.0,
         "Damage": 100.0,
         "Movement_Speed": -10.0,
         "Range": -14.0,
@@ -3199,7 +3230,7 @@
         "Magazine_Size": 37.0,
         "Reload_Time": 3.0,
         "Damage": 1.0,
-        "Detection_Radius": -10.0,
+        "Detection_Radius": -22.0,
         "Fire_Rate": 6.0,
         "Spread": 21.0
       },
@@ -3247,25 +3278,27 @@
         "Spread": 30.0
       },
     {
-      "Price_Type": "Limited",
-      "Name": "DIY Crossbow",
-      "Category": "Weird",
-      "Magazine_Size": 1,
-      "Reload_Time": 4.5,
-      "Range": 19,
-      "Recoil": -20
+        "Price_Type": "Limited",
+        "Name": "DIY Crossbow",
+        "Category": "Weird",
+        "Magazine_Size": 1,
+        "Reload_Time": 4.5,
+        "Range": 19,
+        "Recoil": -20,
+        "Spin_Up": 0.65
     },
     {
-      "Price_Type": "WC",
-      "Name": "Fire Flamer",
-      "Category": "Weird",
-      "Magazine_Size": 100,
-      "Reload_Time": 8.5,
-      "Damage": 8,
-      "Range": -8,
-      "Spread": 150,
-      "Health": 5,
-      "Pellets": 500
+        "Price_Type": "WC",
+        "Name": "Fire Flamer",
+        "Category": "Weird",
+        "Magazine_Size": 100,
+        "Reload_Time": 8.5,
+        "Damage": 8,
+        "Health": 5,
+        "Pellets": 250,
+        "Fire_Rate": -2.0,
+        "Range": -8,
+        "Spread": 150
     },
       {
         "Price_Type": "Free",
@@ -3345,7 +3378,7 @@
         "Name": "EG200",
         "Category": "Sidearm",
         "Magazine_Size": 6.0,
-        "Reload_Time": 2.5,
+        "Reload_Time": 2.3,
         "Damage": 20.0,
         "Pellets": 75.0,
         "Fire_Rate": -11.0,
@@ -3492,8 +3525,8 @@
       "Magazine_Size": 6,
       "Reload_Time": 2.4,
       "Damage": 23,
-      "Fire_Rate": -18,
-      "Health": 3
+      "Health": 3,
+      "Fire_Rate": -18
     },
     {
       "Price_Type": "Limited",
@@ -3523,8 +3556,8 @@
       "Reload_Time": 2,
       "Damage": 24,
       "Range": 7,
-      "Recoil": 57,
-      "Fire_Rate": -8
+      "Fire_Rate": -8,
+      "Recoil": 57
     }
     ],
     "Grips": [
@@ -3649,8 +3682,9 @@
         "Name": "FC200SH",
         "Category": "AR",
         "Movement_Speed": 3.0,
+        "Range": 10.0,
         "Recoil": -19.0,
-        "Fire_Rate": -4.0
+        "Fire_Rate": -1.0
       },
       {
         "Price_Type": "WC",
@@ -4359,9 +4393,9 @@
     },
       {
         "Price_Type": "Coin",
-        "Name": "M1 Garand",
+        "Name": "M1Garand",
         "Category": "BR",
-        "Fire_Rate": 8.0,
+        "Fire_Rate": 4.0,
         "Movement_Speed": -3.0
       },
       {
@@ -4370,7 +4404,7 @@
         "Category": "BR",
         "Fire_Rate": 2.0,
         "Recoil": -5.0,
-        "Reload_Speed": 6
+        "Reload_Speed": 3
       },
       {
         "Price_Type": "Coin",
@@ -4479,6 +4513,14 @@
       "Category": "BR",
       "Damage": 2.0,
       "Spread": 23
+    },
+    {
+      "Price_Type": "Coin",
+      "Name": "XM25",
+      "Category": "BR",
+      "Range": 12,
+      "Fire_Rate": -3,
+      "Magazine_Cap": 10
     },
       {
         "Price_Type": "Limited",
@@ -4615,7 +4657,7 @@
       "Category": "Weird",
       "Range": -3,
       "Health": 3,
-      "Pellets": 100
+      "Pellets": 50
     },
       {
         "Price_Type": "Free",
@@ -5029,7 +5071,7 @@
       "Price_Type": "Coin",
       "Name": "Malyuk",
       "Category": "AR",
-      "Reload_Speed": 12,
+      "Reload_Speed": -8,
       "Fire_Rate": 4,
       "Magazine_Cap": -14
     },
@@ -5041,6 +5083,14 @@
       "Range": -7,
       "Reload_Speed": 5,
       "Magazine_Cap": 10
+    },
+    {
+      "Price_Type": "Coin",
+      "Name": "M4 Carbine",
+      "Category": "AR",
+      "Reload_Speed": -12,
+      "Movement_Speed": 7,
+      "Spread": 13
     },
       {
         "Price_Type": "Coin",
@@ -5425,10 +5475,10 @@
         "Price_Type": "Coin",
         "Name": "M1897 Trench Shotgun",
         "Category": "Shotgun",
-        "Magazine_Cap": 25.0,
         "Fire_Rate": 3.0,
+        "Magazine_Cap": 30.0,
         "Recoil": 40.0,
-        "Spread": 15.0
+        "Spread": 5.0
       },
       {
         "Price_Type": "Coin",
@@ -5446,8 +5496,8 @@
         "Fire_Rate": 5.0,
         "Movement_Speed": 5.0,
         "Reload_Speed": -20.0,
-        "Recoil": 15.0,
-        "Spread": 15
+        "Recoil": 25.0,
+        "Spread": 5
       },
       {
         "Price_Type": "Coin",
@@ -5491,7 +5541,7 @@
         "Fire_Rate": 16.0,
         "Movement_Speed": -3.0,
         "Range": -2.0,
-        "Spread": 12.0,
+        "Spread": 6.0,
         "Magazine_Cap": -30.0
       },
       {
@@ -5540,9 +5590,9 @@
         "Price_Type": "Season Pass 1",
         "Name": "Pancake Hammer",
         "Category": "Shotgun",
-        "Fire_Rate": 7.0,
-        "Movement_Speed": 2.0,
-        "Range": -6.0
+        "Fire_Rate": 4.0,
+        "Movement_Speed": 4.0,
+        "Range": -2.0
       },
     {
       "Price_Type": "Limited",
@@ -5686,7 +5736,7 @@
     },
       {
         "Price_Type": "Coin",
-        "Name": "M1 Garand",
+        "Name": "M1Garand",
         "Category": "BR",
         "Range": 3.0,
         "Recoil": -14.0,
@@ -5811,6 +5861,15 @@
 	  "Reload_Speed": -16,
 	  "Fire_Rate": -7
     },
+    {
+      "Price_Type": "Coin",
+      "Name": "XM25",
+      "Category": "BR",
+      "Recoil": -13,
+      "Fire_Rate": -5,
+      "Movement_Speed": -9,
+      "Health": 15
+    },
       {
         "Price_Type": "Limited",
         "Name": "Paintball",
@@ -5916,9 +5975,9 @@
         "Price_Type": "WC",
         "Name": "Plunger",
         "Category": "Weird",
-        "Fire_Rate": 5.5,
+        "Fire_Rate": 3.0,
         "Movement_Speed": 4.0,
-        "Range": -7
+        "Range": -5
       },
       {
         "Price_Type": "Limited",
@@ -5975,7 +6034,7 @@
       "Category": "Weird",
       "Range": 4,
       "Recoil": -19,
-      "Pellets": 100
+      "Pellets": 50
     }
     ],
     "Cores": [
@@ -6059,11 +6118,11 @@
         "Category": "AR",
         "Firing_Mode": "Auto",
         "Damage": [
-          15.6,
-          11.3
+          15.8,
+          11.5
         ],
         "Dropoff_Studs": [
-          150.0,
+          165.0,
           250.0
         ],
         "Fire_Rate": 785.0,
@@ -6135,8 +6194,8 @@
         "Category": "AR",
         "Firing_Mode": "Auto",
         "Damage": [
-          14.8,
-          12.2
+          15.0,
+          12.4
         ],
         "Dropoff_Studs": [
           170.0,
@@ -6907,19 +6966,19 @@
          113
         ],
         "Recoil_Aim_Horizontal": [
-         -12,
-         12
+         -10,
+         10
         ],
         "Recoil_Aim_Vertical": [
-         55.2,
-         67.8
+         46.0,
+         56.5
         ]
       },
      {
         "Price_Type": "Coin",
         "Name": "Discharger",
         "Category": "AR",
-        "Firing_Mode": "Auto",
+        "Firing_Mode": "Semi",
         "Damage": [
           25.5,
           10.2
@@ -7953,7 +8012,7 @@
           125.0,
           140.0
         ],
-        "Fire_Rate": 1250.0,
+        "Fire_Rate": 1200.0,
         "Hipfire_Spread": 2.0,
         "ADS_Spread": 0.875,
         "Time_To_Aim": 0.3,
@@ -9482,8 +9541,8 @@
         "Category": "LMG",
         "Firing_Mode": "Auto",
         "Damage": [
-          23.0,
-          18.4
+          22.0,
+          17.6
         ],
         "Dropoff_Studs": [
           190.0,
@@ -9512,7 +9571,7 @@
          17.2,
          22.8
         ],
-        "Movement_Speed_Modifier": -6.5,
+        "Movement_Speed_Modifier": -7.5,
         "Health": 12.0
       },
       {
@@ -10131,7 +10190,7 @@
         "Price_Type": "Robux",
         "Name": "M32 Launcher",
         "Category": "BR",
-        "Firing_Mode": "Auto",
+        "Firing_Mode": "Semi",
         "Damage": [
           60.0,
           33.0
@@ -10140,7 +10199,7 @@
           130.0,
           230.0
         ],
-        "Fire_Rate": 50.0,
+        "Fire_Rate": 47.0,
         "Hipfire_Spread": 6.0,
         "ADS_Spread": 0.6,
         "Time_To_Aim": 0.8,
@@ -10165,6 +10224,45 @@
           82.4
         ],
         "Health": 14
+      },
+     {
+        "Price_Type": "Coin",
+        "Name": "XM25",
+        "Category": "BR",
+        "Firing_Mode": "Semi",
+        "Damage": [
+          50.0,
+          30.0
+        ],
+        "Dropoff_Studs": [
+          120.0,
+          235.0
+        ],
+        "Fire_Rate": 80.0,
+        "Hipfire_Spread": 6.0,
+        "ADS_Spread": 0.4,
+        "Time_To_Aim": 0.8,
+        "Detection_Radius": 440.0,
+        "Suppression": 0.0  ,
+        "Equip_Time": 0.9,
+        "Blast_Radius": 25.0,
+        "Recoil_Hip_Horizontal": [
+         -25.0,
+          25.0
+        ],
+        "Recoil_Hip_Vertical": [
+          85.0,
+          106.0
+        ],
+        "Recoil_Aim_Horizontal": [
+          -20.0,
+          20.0
+        ],
+        "Recoil_Aim_Vertical": [
+          68.0,
+          84.8
+        ],
+        "Health": 8
       },
       {
         "Price_Type": "Limited",
@@ -10661,8 +10759,8 @@
         "Category": "Weird",
         "Firing_Mode": "Auto",
         "Damage": [
-          33.6,
-          24.0
+          24.0,
+          14.4
         ],
         "Dropoff_Studs": [
           160.0,

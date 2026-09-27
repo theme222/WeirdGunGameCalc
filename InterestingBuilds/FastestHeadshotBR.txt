@@ -14,19 +14,6 @@ recoilAimVertical: 22.2906 - 33.4358
 movementSpeed: 0.65
 TTK: 0.536673 Seconds
 
-[ Barrel: Lightning Shot, Magazine: Scar H, Grip: The Chief, Stock: Winchester, Core: G43 ]
-damage: 66.9635 - 53.5838
-dropoffStuds: 220.18 - 366.966
-fireRate: 111.8
-adsSpread: 0.13545
-hipfireSpread: 1.6254
-reloadTime: 4.347
-magazineSize: 20
-health: 10
-recoilHipVertical: 89.667 - 134.501
-recoilAimVertical: 35.8668 - 53.8002
-TTK: 0.536673 Seconds
-
 [ Barrel: Lightning Shot, Magazine: Scar H, Grip: Type 2a Nambu, Stock: Winchester, Core: G43 ]
 damage: 67.9117 - 54.3426
 dropoffStuds: 220.18 - 366.966
@@ -39,6 +26,19 @@ health: 2.5
 recoilHipVertical: 81.6966 - 122.545
 recoilAimVertical: 32.6786 - 49.018
 movementSpeed: 2.1
+TTK: 0.536673 Seconds
+
+[ Barrel: Lightning Shot, Magazine: Scar H, Grip: The Chief, Stock: Winchester, Core: G43 ]
+damage: 66.9635 - 53.5838
+dropoffStuds: 220.18 - 366.966
+fireRate: 111.8
+adsSpread: 0.13545
+hipfireSpread: 1.6254
+reloadTime: 4.347
+magazineSize: 20
+health: 10
+recoilHipVertical: 89.667 - 134.501
+recoilAimVertical: 35.8668 - 53.8002
 TTK: 0.536673 Seconds
 
 [ Barrel: Lightning Shot, Magazine: M110, Grip: Type 2a Nambu, Stock: Type 2a Nambu, Core: G43 ]
@@ -101,8 +101,8 @@ TTK: 0.662559 Seconds
 damage: 67.2948 - 55.0768
 dropoffStuds: 228.438 - 424.242
 fireRate: 73.6512
-adsSpread: 0.148516
-hipfireSpread: 11.2668
+adsSpread: 0.14056
+hipfireSpread: 10.6632
 reloadTime: 4.905
 magazineSize: 14
 health: -2.5
@@ -129,8 +129,8 @@ TTK: 0.82291 Seconds
 damage: 67.068 - 53.7197
 dropoffStuds: 207.011 - 384.448
 fireRate: 72.6291
-adsSpread: 0.145348
-hipfireSpread: 11.0264
+adsSpread: 0.137561
+hipfireSpread: 10.4357
 reloadTime: 4.5
 magazineSize: 14
 health: 5

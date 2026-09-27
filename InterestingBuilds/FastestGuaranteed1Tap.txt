@@ -70,20 +70,6 @@ recoilAimVertical: 60.39 - 80.52
 movementSpeed: -2.5
 TTK: 5.33867 Seconds
 
-[ Barrel: Spear, Magazine: Magic Mag, Grip: M1 Garand, Stock: MG42, Core: Lightning Shot ]
-damage: 36.8288 - 112.875
-dropoffStuds: 7 - 245
-fireRate: 22.2277
-adsSpread: 0.14
-hipfireSpread: 28
-reloadTime: 0.99
-magazineSize: 6
-health: 3
-recoilHipVertical: 90 - 120
-recoilAimVertical: 45 - 60
-movementSpeed: -2.7
-TTK: 5.39866 Seconds
-
 [ Barrel: Spray Can, Magazine: M870 Breacher, Grip: Arisaka, Stock: AWM, Core: Lightning Shot ]
 damage: 39.232 - 101.903
 dropoffStuds: 15.13 - 529.55
@@ -127,17 +113,31 @@ recoilAimVertical: 57.456 - 76.608
 movementSpeed: -4.5
 TTK: 5.43479 Seconds
 
-[ Barrel: Spear, Magazine: Magic Mag, Grip: Auto-5, Stock: Siberia-12, Core: Lightning Shot ]
+[ Barrel: Spear, Magazine: Magic Mag, Grip: Controller, Stock: Auto-5, Core: Lightning Shot ]
 damage: 35.908 - 110.053
 dropoffStuds: 7 - 245
 fireRate: 22.08
-adsSpread: 0.147532
-hipfireSpread: 29.5064
+adsSpread: 0.14476
+hipfireSpread: 28.952
 reloadTime: 0.9
 magazineSize: 6
 health: 3
-recoilHipVertical: 94.752 - 126.336
-recoilAimVertical: 47.376 - 63.168
-movementSpeed: -2.5
+recoilHipVertical: 102.6 - 136.8
+recoilAimVertical: 51.3 - 68.4
+movementSpeed: -1.5
+TTK: 5.43479 Seconds
+
+[ Barrel: Spear, Magazine: Magic Mag, Grip: Auto-5, Stock: Auto-5, Core: Lightning Shot ]
+damage: 35.0103 - 107.302
+dropoffStuds: 7 - 245
+fireRate: 22.08
+adsSpread: 0.14476
+hipfireSpread: 28.952
+reloadTime: 0.9
+magazineSize: 6
+health: 3
+recoilHipVertical: 84.6 - 112.8
+recoilAimVertical: 42.3 - 56.4
+movementSpeed: 0.5
 TTK: 5.43479 Seconds
 

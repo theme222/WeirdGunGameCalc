@@ -81,6 +81,20 @@ recoilAimVertical: 25.272 - 35.3808
 movementSpeed: 7.875
 TTK: 0.412286 Seconds
 
+[ Barrel: Quad-Jolly, Magazine: OwenGun, Grip: The Chief, Stock: None, Core: B17 ]
+damage: 10.2727 - 5.68361
+dropoffStuds: 20.056 - 95.266
+pellets: 2
+fireRate: 1308
+adsSpread: 0.382115
+hipfireSpread: 0.934058
+reloadTime: 2.1
+magazineSize: 33
+recoilHipVertical: 40.5 - 56.7
+recoilAimVertical: 24.3 - 34.02
+movementSpeed: 1.5
+TTK: 0.412844 Seconds
+
 [ Barrel: Quad-Jolly, Magazine: OwenGun, Grip: AWM, Stock: None, Core: B17 ]
 damage: 10.0762 - 5.5749
 dropoffStuds: 20.056 - 95.266
@@ -93,20 +107,6 @@ magazineSize: 33
 recoilHipVertical: 32.4 - 45.36
 recoilAimVertical: 19.44 - 27.216
 movementSpeed: 1.5
-TTK: 0.412844 Seconds
-
-[ Barrel: Quad-Jolly, Magazine: OwenGun, Grip: AR-8X, Stock: None, Core: B17 ]
-damage: 10.0762 - 5.5749
-dropoffStuds: 20.056 - 95.266
-pellets: 2
-fireRate: 1308
-adsSpread: 0.408806
-hipfireSpread: 0.999303
-reloadTime: 2.1
-magazineSize: 33
-recoilHipVertical: 36.3 - 50.82
-recoilAimVertical: 21.78 - 30.492
-movementSpeed: 2.475
 TTK: 0.412844 Seconds
 
 [ Barrel: Quad-Jolly, Magazine: OwenGun, Grip: Type 2a Nambu, Stock: None, Core: B17 ]
@@ -124,17 +124,16 @@ recoilAimVertical: 22.14 - 30.996
 movementSpeed: 3.75
 TTK: 0.412844 Seconds
 
-[ Barrel: Quad-Jolly, Magazine: OwenGun, Grip: The Chief, Stock: None, Core: B17 ]
-damage: 10.2727 - 5.68361
-dropoffStuds: 20.056 - 95.266
+[ Barrel: Quad-Jolly, Magazine: OwenGun, Grip: Snake Sniper, Stock: None, Core: B17 ]
+damage: 10.0762 - 5.79996
+dropoffStuds: 21.0588 - 100.029
 pellets: 2
 fireRate: 1308
-adsSpread: 0.382115
-hipfireSpread: 0.934058
+adsSpread: 0.401506
+hipfireSpread: 0.981458
 reloadTime: 2.1
 magazineSize: 33
-recoilHipVertical: 40.5 - 56.7
-recoilAimVertical: 24.3 - 34.02
-movementSpeed: 1.5
+recoilHipVertical: 36.6 - 51.24
+recoilAimVertical: 21.96 - 30.744
 TTK: 0.412844 Seconds
 

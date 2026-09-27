@@ -8,6 +8,7 @@ make linux
 
 # # This doesn't need to be re ran every time because it saves it's results in Data already.
 # python ParseSheet.py
+python DataAssert.py
 
 IB="InterestingBuilds"
 

@@ -14,18 +14,18 @@ recoilAimVertical: 6.71408 - 7.38549
 movementSpeed: -9.5
 TTK: 0.203532 Seconds
 
-[ Barrel: M40, Magazine: FAL, Grip: VSSR, Stock: Negev, Core: SKS ]
-damage: 33.44 - 23.0855
-dropoffStuds: 160.305 - 493.245
+[ Barrel: M40, Magazine: FAL, Grip: M-16-CQB, Stock: Negev, Core: SKS ]
+damage: 33.44 - 23.2435
+dropoffStuds: 162.669 - 500.52
 fireRate: 586.188
-adsSpread: 0.18592
-hipfireSpread: 3.7184
-reloadTime: 2.16
+adsSpread: 0.166
+hipfireSpread: 3.32
+reloadTime: 2.3976
 magazineSize: 20
 health: 5
-recoilHipVertical: 12.8549 - 14.1404
-recoilAimVertical: 6.42746 - 7.0702
-movementSpeed: -9.5
+recoilHipVertical: 13.5279 - 14.8806
+recoilAimVertical: 6.76393 - 7.44032
+movementSpeed: -7.5
 TTK: 0.204713 Seconds
 
 [ Barrel: M40, Magazine: FAL, Grip: Slugger, Stock: Negev, Core: SKS ]
@@ -56,18 +56,18 @@ recoilAimVertical: 6.55687 - 7.21255
 movementSpeed: -5.5
 TTK: 0.204713 Seconds
 
-[ Barrel: M40, Magazine: FAL, Grip: M-16-CQB, Stock: Negev, Core: SKS ]
-damage: 33.44 - 23.2435
-dropoffStuds: 162.669 - 500.52
+[ Barrel: M40, Magazine: FAL, Grip: VSSR, Stock: Negev, Core: SKS ]
+damage: 33.44 - 23.0855
+dropoffStuds: 160.305 - 493.245
 fireRate: 586.188
-adsSpread: 0.166
-hipfireSpread: 3.32
-reloadTime: 2.3976
+adsSpread: 0.18592
+hipfireSpread: 3.7184
+reloadTime: 2.16
 magazineSize: 20
 health: 5
-recoilHipVertical: 13.5279 - 14.8806
-recoilAimVertical: 6.76393 - 7.44032
-movementSpeed: -7.5
+recoilHipVertical: 12.8549 - 14.1404
+recoilAimVertical: 6.42746 - 7.0702
+movementSpeed: -9.5
 TTK: 0.204713 Seconds
 
 [ Barrel: M40, Magazine: FAL, Grip: AR-10, Stock: Negev, Core: SKS ]

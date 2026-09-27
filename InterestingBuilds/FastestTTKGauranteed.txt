@@ -1,19 +1,5 @@
 ./wggcalc -o InterestingBuilds/FastestTTKGauranteed.txt -i SMG AR LMG Weird -s TTKEND --magazineMin 30 --speedMin 0 --TTKEndMin 0.001 --spreadAimMax 0.4 --recoilAimMax 12 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: Light Gun, Magazine: Kriss Vector, Grip: The Chief, Stock: AWM, Core: Gyrojet Carbine ]
-damage: 6.4272 - 51.4401
-dropoffStuds: 9.35 - 102.85
-fireRate: 268.373
-adsSpread: 0.396375
-hipfireSpread: 2.83125
-reloadTime: 2.3628
-magazineSize: 30
-recoilHipVertical: 1.46171 - 2.92342
-recoilAimVertical: 0.438514 - 0.877028
-movementSpeed: 2.475
-TTK: 3.35354 Seconds
-TTK (End damage): 0.223569 Seconds
-
 [ Barrel: Light Gun, Magazine: Graphics Card, Grip: The Chief, Stock: AWM, Core: Gyrojet Carbine ]
 damage: 6.695 - 50.7293
 dropoffStuds: 10.12 - 111.32
@@ -27,19 +13,19 @@ recoilAimVertical: 0.380457 - 0.760914
 TTK: 3.13683 Seconds
 TTK (End damage): 0.22406 Seconds
 
-[ Barrel: Light Gun, Magazine: NP5, Grip: The Chief, Stock: The Chief, Core: Gyrojet Carbine ]
-damage: 6.695 - 51.9525
-dropoffStuds: 9.79 - 107.69
-fireRate: 261.326
-adsSpread: 0.38535
-hipfireSpread: 2.7525
-reloadTime: 2.475
+[ Barrel: Light Gun, Magazine: Type 2a Nambu, Grip: The Chief, Stock: AWM, Core: Gyrojet Carbine ]
+damage: 6.695 - 51.5448
+dropoffStuds: 9.9 - 108.9
+fireRate: 264.85
+adsSpread: 0.396375
+hipfireSpread: 2.83125
+reloadTime: 2.46125
 magazineSize: 30
-recoilHipVertical: 1.91119 - 3.82239
-recoilAimVertical: 0.573358 - 1.14672
-movementSpeed: 2.475
-TTK: 3.21437 Seconds
-TTK (End damage): 0.229598 Seconds
+recoilHipVertical: 1.35054 - 2.70108
+recoilAimVertical: 0.405162 - 0.810324
+movementSpeed: 2.25
+TTK: 3.17161 Seconds
+TTK (End damage): 0.226544 Seconds
 
 [ Barrel: Light Gun, Magazine: NP5, Grip: The Chief, Stock: FAL, Core: Gyrojet Carbine ]
 damage: 6.695 - 50.1422
@@ -55,17 +41,45 @@ movementSpeed: 2.635
 TTK: 3.21437 Seconds
 TTK (End damage): 0.229598 Seconds
 
-[ Barrel: Light Gun, Magazine: NP5, Grip: The Chief, Stock: L8, Core: Gyrojet Carbine ]
-damage: 6.695 - 50.1422
-dropoffStuds: 10.1816 - 111.998
+[ Barrel: Light Gun, Magazine: NP5, Grip: AWM, Stock: AWM, Core: Gyrojet Carbine ]
+damage: 6.5 - 50.4394
+dropoffStuds: 9.79 - 107.69
 fireRate: 261.326
-adsSpread: 0.399801
-hipfireSpread: 2.85572
-reloadTime: 2.75
+adsSpread: 0.393253
+hipfireSpread: 2.80895
+reloadTime: 2.7566
+magazineSize: 30
+recoilHipVertical: 1.5943 - 3.18859
+recoilAimVertical: 0.478289 - 0.956578
+movementSpeed: 2.475
+TTK: 3.44397 Seconds
+TTK (End damage): 0.229598 Seconds
+
+[ Barrel: Light Gun, Magazine: NP5, Grip: Hell-Trooper-23, Stock: AWM, Core: Gyrojet Carbine ]
+damage: 6.5 - 52.856
+dropoffStuds: 9.25155 - 101.767
+fireRate: 261.326
+adsSpread: 0.397617
+hipfireSpread: 2.84012
+reloadTime: 2.33819
+magazineSize: 30
+recoilHipVertical: 1.4762 - 2.9524
+recoilAimVertical: 0.44286 - 0.88572
+movementSpeed: 5.475
+TTK: 3.44397 Seconds
+TTK (End damage): 0.229598 Seconds
+
+[ Barrel: Light Gun, Magazine: NP5, Grip: The Chief, Stock: MG42, Core: Gyrojet Carbine ]
+damage: 6.695 - 51.9525
+dropoffStuds: 9.79 - 107.69
+fireRate: 261.326
+adsSpread: 0.391371
+hipfireSpread: 2.79551
+reloadTime: 3.025
 magazineSize: 30
 recoilHipVertical: 1.6335 - 3.267
 recoilAimVertical: 0.49005 - 0.9801
-movementSpeed: 2.475
+movementSpeed: 5.1
 TTK: 3.21437 Seconds
 TTK (End damage): 0.229598 Seconds
 
@@ -83,48 +97,6 @@ movementSpeed: 2.475
 TTK: 3.21437 Seconds
 TTK (End damage): 0.229598 Seconds
 
-[ Barrel: Light Gun, Magazine: NP5, Grip: The Chief, Stock: MG42, Core: Gyrojet Carbine ]
-damage: 6.695 - 51.9525
-dropoffStuds: 9.79 - 107.69
-fireRate: 261.326
-adsSpread: 0.391371
-hipfireSpread: 2.79551
-reloadTime: 3.025
-magazineSize: 30
-recoilHipVertical: 1.6335 - 3.267
-recoilAimVertical: 0.49005 - 0.9801
-movementSpeed: 5.1
-TTK: 3.21437 Seconds
-TTK (End damage): 0.229598 Seconds
-
-[ Barrel: Light Gun, Magazine: NP5, Grip: Hell-Trooper-23, Stock: AWM, Core: Gyrojet Carbine ]
-damage: 6.5 - 52.856
-dropoffStuds: 9.25155 - 101.767
-fireRate: 261.326
-adsSpread: 0.397617
-hipfireSpread: 2.84012
-reloadTime: 2.33819
-magazineSize: 30
-recoilHipVertical: 1.4762 - 2.9524
-recoilAimVertical: 0.44286 - 0.88572
-movementSpeed: 5.475
-TTK: 3.44397 Seconds
-TTK (End damage): 0.229598 Seconds
-
-[ Barrel: Light Gun, Magazine: NP5, Grip: Hell-Trooper-23, Stock: Hex Spitter, Core: Gyrojet Carbine ]
-damage: 6.5 - 52.856
-dropoffStuds: 9.25155 - 101.767
-fireRate: 261.326
-adsSpread: 0.394984
-hipfireSpread: 2.82131
-reloadTime: 2.35125
-magazineSize: 30
-recoilHipVertical: 1.21 - 2.42
-recoilAimVertical: 0.363 - 0.726
-movementSpeed: 0.475
-TTK: 3.44397 Seconds
-TTK (End damage): 0.229598 Seconds
-
 [ Barrel: Light Gun, Magazine: NP5, Grip: QBZ-95, Stock: AWM, Core: Gyrojet Carbine ]
 damage: 6.5 - 50.4394
 dropoffStuds: 9.79 - 107.69
@@ -137,5 +109,33 @@ recoilHipVertical: 1.4762 - 2.9524
 recoilAimVertical: 0.44286 - 0.88572
 movementSpeed: 0.675
 TTK: 3.44397 Seconds
+TTK (End damage): 0.229598 Seconds
+
+[ Barrel: Light Gun, Magazine: NP5, Grip: The Chief, Stock: L8, Core: Gyrojet Carbine ]
+damage: 6.695 - 50.1422
+dropoffStuds: 10.1816 - 111.998
+fireRate: 261.326
+adsSpread: 0.399801
+hipfireSpread: 2.85572
+reloadTime: 2.75
+magazineSize: 30
+recoilHipVertical: 1.6335 - 3.267
+recoilAimVertical: 0.49005 - 0.9801
+movementSpeed: 2.475
+TTK: 3.21437 Seconds
+TTK (End damage): 0.229598 Seconds
+
+[ Barrel: Light Gun, Magazine: NP5, Grip: The Chief, Stock: The Chief, Core: Gyrojet Carbine ]
+damage: 6.695 - 51.9525
+dropoffStuds: 9.79 - 107.69
+fireRate: 261.326
+adsSpread: 0.38535
+hipfireSpread: 2.7525
+reloadTime: 2.475
+magazineSize: 30
+recoilHipVertical: 1.91119 - 3.82239
+recoilAimVertical: 0.573358 - 1.14672
+movementSpeed: 2.475
+TTK: 3.21437 Seconds
 TTK (End damage): 0.229598 Seconds
 

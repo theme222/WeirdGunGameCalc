@@ -12,7 +12,7 @@ recoilHipVertical: 127.125 - 169.5
 recoilAimVertical: 63.5625 - 84.75
 movementSpeed: -2.45
 
-[ Barrel: Fat Cat, Magazine: M1 Garand, Grip: Musket, Stock: Speed Coil, Core: AWM ]
+[ Barrel: Fat Cat, Magazine: M1Garand, Grip: Musket, Stock: Speed Coil, Core: AWM ]
 damage: 101.069 - 89.7805
 dropoffStuds: 437.026 - 655.538
 fireRate: 24.7594
@@ -29,12 +29,12 @@ movementSpeed: -5
 damage: 100.386 - 87.191
 dropoffStuds: 300.713 - 451.069
 fireRate: 24.7144
-adsSpread: 0.0805
-hipfireSpread: 24.15
+adsSpread: 0.0735
+hipfireSpread: 22.05
 reloadTime: 4.7916
 magazineSize: 20
-recoilHipVertical: 129.375 - 172.5
-recoilAimVertical: 64.6875 - 86.25
+recoilHipVertical: 140.625 - 187.5
+recoilAimVertical: 70.3125 - 93.75
 movementSpeed: -2
 
 [ Barrel: Light Gun, Magazine: Scar H, Grip: Musket, Stock: Siberia-12, Core: AWM ]
@@ -67,7 +67,7 @@ dropoffStuds: 300.713 - 451.069
 fireRate: 24.6664
 adsSpread: 0.07
 hipfireSpread: 21
-reloadTime: 6.0984
+reloadTime: 5.14008
 magazineSize: 17
 recoilHipVertical: 112.5 - 150
 recoilAimVertical: 56.25 - 75
@@ -89,10 +89,10 @@ movementSpeed: -5
 damage: 100.386 - 87.191
 dropoffStuds: 300.713 - 451.069
 fireRate: 24.4265
-adsSpread: 0.0805
-hipfireSpread: 24.15
+adsSpread: 0.0735
+hipfireSpread: 22.05
 reloadTime: 5.445
-magazineSize: 23
+magazineSize: 24
 recoilHipVertical: 157.5 - 210
 recoilAimVertical: 78.75 - 105
 movementSpeed: -5

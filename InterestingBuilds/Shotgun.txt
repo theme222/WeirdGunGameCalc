@@ -1,5 +1,33 @@
 ./wggcalc -o InterestingBuilds/Shotgun.txt -i Shotgun --sort FIRERATE --damageMin 140 --speedMin 0 --magazineMin 10 --spreadAimMax 1.8 --rangeMin 80 --bfm Auto 
 Current top 10 guns are: 
+[ Barrel: Chauchat, Magazine: BAR, Grip: Pancake Hammer, Stock: Pancake Hammer, Core: Auto-5 ]
+damage: 142.025 - 49.6732
+dropoffStuds: 80.2988 - 153.906
+pellets: 8
+fireRate: 136.136
+adsSpread: 1.75214
+hipfireSpread: 5.84045
+reloadTime: 3.84
+magazineSize: 20
+health: 8
+recoilHipVertical: 89.9 - 157.325
+recoilAimVertical: 35.96 - 62.93
+movementSpeed: 0.5
+
+[ Barrel: Chauchat, Magazine: BAR, Grip: The Chief, Stock: Pancake Hammer, Core: Auto-5 ]
+damage: 145.008 - 50.7164
+dropoffStuds: 80.2988 - 153.906
+pellets: 8
+fireRate: 136.136
+adsSpread: 1.76282
+hipfireSpread: 5.87606
+reloadTime: 4
+magazineSize: 20
+health: 8
+recoilHipVertical: 104.625 - 183.094
+recoilAimVertical: 41.85 - 73.2375
+movementSpeed: 0.5
+
 [ Barrel: Chauchat, Magazine: BAR, Grip: Quad-Jolly, Stock: MG42, Core: Auto-5 ]
 damage: 142.025 - 50.126
 dropoffStuds: 80.7084 - 154.691
@@ -70,73 +98,44 @@ recoilHipVertical: 76.3439 - 133.602
 recoilAimVertical: 30.5376 - 53.4408
 movementSpeed: 1.725
 
-[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: Uzi, Core: Auto-5 ]
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: Type 2a Nambu, Core: Auto-5 ]
 damage: 146.048 - 49.2729
 dropoffStuds: 80.0494 - 153.428
 pellets: 6
 fireRate: 133.98
-adsSpread: 1.78752
-hipfireSpread: 5.9584
-reloadTime: 4.368
-magazineSize: 20
-health: 8
-recoilHipVertical: 92.2808 - 161.491
-recoilAimVertical: 36.9123 - 64.5966
-movementSpeed: 2.875
-
-[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: MP18, Stock: MG42, Core: Auto-5 ]
-damage: 146.048 - 49.8077
-dropoffStuds: 80.4496 - 154.195
-pellets: 6
-fireRate: 133.98
-adsSpread: 1.63886
-hipfireSpread: 5.46285
-reloadTime: 4.62
-magazineSize: 20
-health: 8
-recoilHipVertical: 76.26 - 133.455
-recoilAimVertical: 30.504 - 53.382
-movementSpeed: 0.125
-
-[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: MG42, Core: Auto-5 ]
-damage: 146.048 - 49.2729
-dropoffStuds: 80.0494 - 153.428
-pellets: 6
-fireRate: 133.98
-adsSpread: 1.5642
-hipfireSpread: 5.214
-reloadTime: 4.62
-magazineSize: 20
-health: 8
-recoilHipVertical: 75.64 - 132.37
-recoilAimVertical: 30.256 - 52.948
-movementSpeed: 0.625
-
-[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: UNP-40, Core: Auto-5 ]
-damage: 146.048 - 49.2729
-dropoffStuds: 80.0494 - 153.428
-pellets: 6
-fireRate: 133.98
-adsSpread: 1.64987
-hipfireSpread: 5.49957
-reloadTime: 4.2
-magazineSize: 20
-health: 8
-recoilHipVertical: 90.768 - 158.844
-recoilAimVertical: 36.3072 - 63.5376
-movementSpeed: 0.47
-
-[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: MP18, Stock: Type 2a Nambu, Core: Auto-5 ]
-damage: 146.048 - 49.8077
-dropoffStuds: 80.4496 - 154.195
-pellets: 6
-fireRate: 133.98
-adsSpread: 1.76795
-hipfireSpread: 5.89316
+adsSpread: 1.68741
+hipfireSpread: 5.6247
 reloadTime: 4.2
 magazineSize: 20
 health: 1.5
-recoilHipVertical: 64.8591 - 113.503
-recoilAimVertical: 25.9437 - 45.4014
-movementSpeed: 1.725
+recoilHipVertical: 64.3318 - 112.581
+recoilAimVertical: 25.7327 - 45.0323
+movementSpeed: 2.225
+
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: Type 11, Core: Auto-5 ]
+damage: 146.048 - 49.2729
+dropoffStuds: 80.0494 - 153.428
+pellets: 6
+fireRate: 133.98
+adsSpread: 1.69415
+hipfireSpread: 5.64716
+reloadTime: 4.284
+magazineSize: 20
+recoilHipVertical: 75.64 - 132.37
+recoilAimVertical: 30.256 - 52.948
+movementSpeed: 0.25
+
+[ Barrel: M870 Wingmaster, Magazine: BAR, Grip: Snake Sniper, Stock: Winchester, Core: Auto-5 ]
+damage: 146.048 - 49.2729
+dropoffStuds: 80.0494 - 153.428
+pellets: 6
+fireRate: 133.98
+adsSpread: 1.76346
+hipfireSpread: 5.87818
+reloadTime: 4.2
+magazineSize: 20
+health: 8
+recoilHipVertical: 93.0372 - 162.815
+recoilAimVertical: 37.2149 - 65.126
+movementSpeed: 1.6
 

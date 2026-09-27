@@ -1,138 +1,138 @@
 ./wggcalc -o InterestingBuilds/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: PP-19 Bizon, Magazine: L8, Grip: Type 2a Nambu, Stock: APS, Core: Discharger ]
-damage: 33.3497 - 11.7791
-dropoffStuds: 151.47 - 215.73
-fireRate: 518.75
-adsSpread: 0.537875
-hipfireSpread: 4.303
-reloadTime: 2.9
-magazineSize: 30
-health: -0.5
-recoilHipVertical: 7.91505 - 13.1917
-recoilAimVertical: 7.12354 - 11.8726
-movementSpeed: 4.125
-TTK: 0.231325 Seconds
+[ Barrel: Type 99, Magazine: Burton, Grip: Arisaka, Stock: Type 2a Nambu, Core: MG42 ]
+damage: 14.3022 - 8.77635
+dropoffStuds: 150 - 325
+fireRate: 1434
+adsSpread: 0.607654
+hipfireSpread: 6.07654
+reloadTime: 4.41
+magazineSize: 40
+health: 0.5
+recoilHipVertical: 45.0765 - 64.638
+recoilAimVertical: 22.5382 - 32.319
+movementSpeed: 1.125
+TTK: 0.251046 Seconds
 
-[ Barrel: L8, Magazine: Hex Spitter, Grip: Infinity, Stock: APS, Core: Discharger ]
-damage: 33.3775 - 13.0524
-dropoffStuds: 160.915 - 229.181
+[ Barrel: Type 99, Magazine: Burton, Grip: Arisaka, Stock: Mas-38, Core: MG42 ]
+damage: 14.3022 - 8.77635
+dropoffStuds: 150 - 325
+fireRate: 1434
+adsSpread: 0.693274
+hipfireSpread: 6.93274
+reloadTime: 4.19501
+magazineSize: 40
+health: 7
+recoilHipVertical: 46.799 - 67.108
+recoilAimVertical: 23.3995 - 33.554
+movementSpeed: 1.125
+TTK: 0.251046 Seconds
+
+[ Barrel: M1917 WC, Magazine: Graphics Card, Grip: G43, Stock: Speed Coil, Core: BAR ]
+damage: 25.2806 - 14.1497
+dropoffStuds: 180.905 - 352.986
+fireRate: 711.218
+adsSpread: 0.567
+hipfireSpread: 12.6
+reloadTime: 5.175
+magazineSize: 30
+health: 16
+recoilHipVertical: 25.2954 - 37.9431
+recoilAimVertical: 22.7659 - 34.1488
+TTK: 0.253087 Seconds
+
+[ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: AWM, Core: RN516 ]
+damage: 16.7056 - 11.1426
+dropoffStuds: 155.75 - 289.25
 pellets: 2
-fireRate: 516.25
-adsSpread: 0.698037
-hipfireSpread: 5.58429
-reloadTime: 3.21
-magazineSize: 31
-health: 7
-recoilHipVertical: 6.88896 - 11.4816
-recoilAimVertical: 6.20006 - 10.3334
-TTK: 0.232446 Seconds
+fireRate: 1178.71
+adsSpread: 0.636404
+hipfireSpread: 9.54606
+reloadTime: 5.28609
+magazineSize: 50
+recoilHipVertical: 42.09 - 51.6975
+recoilAimVertical: 21.045 - 25.8488
+TTK: 0.254515 Seconds
 
-[ Barrel: SMO3, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
-damage: 33.4402 - 11.5703
-dropoffStuds: 150.15 - 213.85
-fireRate: 513.6
-adsSpread: 0.6825
-hipfireSpread: 5.46
-reloadTime: 2.5641
-magazineSize: 32
-health: 7
-recoilHipVertical: 7.137 - 11.895
-recoilAimVertical: 6.4233 - 10.7055
-movementSpeed: 1.875
-TTK: 0.233645 Seconds
-
-[ Barrel: Hex Spitter, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
-damage: 33.747 - 11.6764
-dropoffStuds: 150.15 - 213.85
-fireRate: 513.6
-adsSpread: 0.5733
-hipfireSpread: 4.5864
-reloadTime: 2.31
-magazineSize: 32
-recoilHipVertical: 8.92125 - 14.8688
-recoilAimVertical: 8.02913 - 13.3819
-movementSpeed: 2
-TTK: 0.233645 Seconds
-
-[ Barrel: AKM, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
-damage: 33.4402 - 11.5703
-dropoffStuds: 150.15 - 213.85
-fireRate: 513.6
-adsSpread: 0.6825
-hipfireSpread: 5.46
-reloadTime: 2.31
-magazineSize: 32
-health: 7
-recoilHipVertical: 8.5644 - 14.274
-recoilAimVertical: 7.70796 - 12.8466
-TTK: 0.233645 Seconds
-
-[ Barrel: USS Iowa, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
-damage: 33.5157 - 11.5964
-dropoffStuds: 150.15 - 213.85
+[ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: MG42, Core: RN516 ]
+damage: 16.7056 - 11.1426
+dropoffStuds: 155.75 - 289.25
 pellets: 2
-fireRate: 513.6
-adsSpread: 0.691989
-hipfireSpread: 5.53591
-reloadTime: 2.4024
-magazineSize: 32
-health: 7
-recoilHipVertical: 7.137 - 11.895
-recoilAimVertical: 6.4233 - 10.7055
-TTK: 0.233645 Seconds
+fireRate: 1178.71
+adsSpread: 0.684872
+hipfireSpread: 10.2731
+reloadTime: 6.49687
+magazineSize: 50
+recoilHipVertical: 34.5 - 42.375
+recoilAimVertical: 17.25 - 21.1875
+movementSpeed: 2.625
+TTK: 0.254515 Seconds
 
-[ Barrel: Car Muffler, Magazine: MP18, Grip: M1897 Trench Shotgun, Stock: APS, Core: Discharger ]
-damage: 33.747 - 11.6764
-dropoffStuds: 150.15 - 213.85
-fireRate: 513.6
-adsSpread: 0.6825
-hipfireSpread: 5.46
-reloadTime: 2.541
-magazineSize: 32
-health: -8
-recoilHipVertical: 8.70714 - 14.5119
-recoilAimVertical: 7.83643 - 13.0607
+[ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: L8, Core: RN516 ]
+damage: 16.7056 - 11.3652
+dropoffStuds: 161.98 - 300.82
+pellets: 2
+fireRate: 1178.71
+adsSpread: 0.699623
+hipfireSpread: 10.4943
+reloadTime: 5.90625
+magazineSize: 50
+recoilHipVertical: 34.5 - 42.375
+recoilAimVertical: 17.25 - 21.1875
+TTK: 0.254515 Seconds
+
+[ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: The Chief, Core: RN516 ]
+damage: 16.7056 - 11.1426
+dropoffStuds: 155.75 - 289.25
+pellets: 2
+fireRate: 1178.71
+adsSpread: 0.674336
+hipfireSpread: 10.115
+reloadTime: 5.31562
+magazineSize: 50
+recoilHipVertical: 40.365 - 49.5787
+recoilAimVertical: 20.1825 - 24.7894
+TTK: 0.254515 Seconds
+
+[ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: FAL, Core: RN516 ]
+damage: 16.7056 - 11.3652
+dropoffStuds: 161.98 - 300.82
+pellets: 2
+fireRate: 1178.71
+adsSpread: 0.660849
+hipfireSpread: 9.91273
+reloadTime: 5.90625
+magazineSize: 50
+recoilHipVertical: 44.85 - 55.0875
+recoilAimVertical: 22.425 - 27.5437
+movementSpeed: 0.16
+TTK: 0.254515 Seconds
+
+[ Barrel: FC200SH, Magazine: Discharger, Grip: The Chief, Stock: P90, Core: Hex Spitter ]
+damage: 25.1526 - 22.8776
+dropoffStuds: 160.18 - 320.36
+pellets: 2
+fireRate: 704.38
+adsSpread: 0.688125
+hipfireSpread: 2.40844
+reloadTime: 4.86
+magazineSize: 50
+recoilHipVertical: 47.385 - 63.18
+recoilAimVertical: 23.6925 - 31.59
+movementSpeed: 0.75
+TTK: 0.255544 Seconds
+
+[ Barrel: L8, Magazine: Discharger, Grip: The Chief, Stock: FC200SH, Core: Hex Spitter ]
+damage: 25.1526 - 22.7508
+dropoffStuds: 153.558 - 307.117
+pellets: 2
+fireRate: 702.108
+adsSpread: 0.57
+hipfireSpread: 1.995
+reloadTime: 4.5
+magazineSize: 40
+recoilHipVertical: 51.84 - 69.12
+recoilAimVertical: 25.92 - 34.56
 movementSpeed: 2
-TTK: 0.233645 Seconds
-
-[ Barrel: Car Muffler, Magazine: Fedorov, Grip: Musket, Stock: Spas15, Core: Discharger ]
-damage: 33.6151 - 13.9624
-dropoffStuds: 168.036 - 239.324
-fireRate: 513.185
-adsSpread: 0.7
-hipfireSpread: 5.6
-reloadTime: 5.4208
-magazineSize: 30
-health: -8
-recoilHipVertical: 4.5018 - 7.503
-recoilAimVertical: 4.05162 - 6.7527
-movementSpeed: 2
-TTK: 0.233834 Seconds
-
-[ Barrel: Circuit Judge, Magazine: Fedorov, Grip: Musket, Stock: Spas15, Core: Discharger ]
-damage: 33.554 - 12.76
-dropoffStuds: 157.954 - 224.965
-fireRate: 513.185
-adsSpread: 0.7
-hipfireSpread: 5.6
-reloadTime: 4.41056
-magazineSize: 30
-health: 7
-recoilHipVertical: 4.6125 - 7.6875
-recoilAimVertical: 4.15125 - 6.91875
-TTK: 0.233834 Seconds
-
-[ Barrel: Hex Spitter, Magazine: Fedorov, Grip: Musket, Stock: Spas15, Core: Discharger ]
-damage: 33.6151 - 13.9624
-dropoffStuds: 168.036 - 239.324
-fireRate: 513.185
-adsSpread: 0.588
-hipfireSpread: 4.704
-reloadTime: 4.928
-magazineSize: 30
-recoilHipVertical: 4.6125 - 7.6875
-recoilAimVertical: 4.15125 - 6.91875
-movementSpeed: 2
-TTK: 0.233834 Seconds
+TTK: 0.256371 Seconds
 
