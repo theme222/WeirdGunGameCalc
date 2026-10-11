@@ -3,7 +3,7 @@
 
 ## About
 
-`Data last updated at 11 Oct 2026`<br/>
+`Data last updated on 11 Oct 2026`<br/>
 
 This c++ tool reads data from `Data/FullData.json` and calculates all possible combinations of guns in [Weird Gun Game](https://www.roblox.com/games/94590879393563/). 
 Please note that I am not affiliated with the [Redscape Interactive Projects](https://www.roblox.com/communities/35232296/Redscape-Interactive-Projects#!/about)
