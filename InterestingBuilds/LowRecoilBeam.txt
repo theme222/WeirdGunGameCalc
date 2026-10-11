@@ -99,20 +99,6 @@ recoilAimVertical: 5.99385 - 6.50761
 movementSpeed: 4.1
 TTK: 0.300003 Seconds
 
-[ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: USA180, Core: AUG ]
-damage: 16.8309 - 13.3813
-dropoffStuds: 200.784 - 250.98
-pellets: 2
-fireRate: 996.012
-adsSpread: 0.358241
-hipfireSpread: 4.2146
-reloadTime: 5.90625
-magazineSize: 58
-recoilHipVertical: 22.5 - 28.125
-recoilAimVertical: 3.375 - 4.2375
-movementSpeed: 5.5
-TTK: 0.301201 Seconds
-
 [ Barrel: Shower, Magazine: Discharger, Grip: M1887, Stock: USA180, Core: AUG ]
 damage: 16.8309 - 13.3813
 dropoffStuds: 200.784 - 250.98
@@ -125,6 +111,20 @@ magazineSize: 58
 health: 3.5
 recoilHipVertical: 15 - 18.75
 recoilAimVertical: 2.25 - 2.825
+TTK: 0.301201 Seconds
+
+[ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: USA180, Core: AUG ]
+damage: 16.8309 - 13.3813
+dropoffStuds: 200.784 - 250.98
+pellets: 2
+fireRate: 996.012
+adsSpread: 0.358241
+hipfireSpread: 4.2146
+reloadTime: 5.90625
+magazineSize: 58
+recoilHipVertical: 22.5 - 28.125
+recoilAimVertical: 3.375 - 4.2375
+movementSpeed: 5.5
 TTK: 0.301201 Seconds
 
 [ Barrel: MG42, Magazine: P90, Grip: AWM, Stock: FC200SH, Core: Burton ]

@@ -57,20 +57,6 @@ recoilAimVertical: 14.2884 - 23.1336
 movementSpeed: 1.625
 TTK: 0.139471 Seconds
 
-[ Barrel: P90, Magazine: Paintball, Grip: Auto-5, Stock: Auto-5, Core: AUTO-12 ]
-damage: 66.07 - 17.1617
-dropoffStuds: 50.65 - 106.365
-pellets: 6
-fireRate: 428.338
-adsSpread: 1.65043
-hipfireSpread: 4.12608
-reloadTime: 6.2
-magazineSize: 70
-recoilHipVertical: 22.68 - 36.72
-recoilAimVertical: 6.804 - 11.016
-movementSpeed: 1.625
-TTK: 0.140076 Seconds
-
 [ Barrel: P90, Magazine: Paintball, Grip: Auto-5, Stock: M870 Breacher, Core: AUTO-12 ]
 damage: 67.7641 - 17.6017
 dropoffStuds: 50.65 - 106.365
@@ -82,6 +68,20 @@ reloadTime: 4.96
 magazineSize: 70
 recoilHipVertical: 28.35 - 45.9
 recoilAimVertical: 8.505 - 13.77
+movementSpeed: 1.625
+TTK: 0.140076 Seconds
+
+[ Barrel: P90, Magazine: Paintball, Grip: Auto-5, Stock: Auto-5, Core: AUTO-12 ]
+damage: 66.07 - 17.1617
+dropoffStuds: 50.65 - 106.365
+pellets: 6
+fireRate: 428.338
+adsSpread: 1.65043
+hipfireSpread: 4.12608
+reloadTime: 6.2
+magazineSize: 70
+recoilHipVertical: 22.68 - 36.72
+recoilAimVertical: 6.804 - 11.016
 movementSpeed: 1.625
 TTK: 0.140076 Seconds
 

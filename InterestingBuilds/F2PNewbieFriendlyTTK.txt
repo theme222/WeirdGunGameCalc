@@ -1,16 +1,18 @@
 ./wggcalc -o InterestingBuilds/F2PNewbieFriendlyTTK.txt -i SMG AR LMG --banPriceType ROBUX LIMITED SPECIAL --magazineMin 30 --speedMin 0 --damageMax 99.99 --spreadAimMax 0.8 --recoilAimMax 35 --rangeMin 150 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: Shower, Magazine: Discharger, Grip: OwenGun, Stock: Spas-12, Core: RN516 ]
-damage: 16.7056 - 11.1165
-dropoffStuds: 154.925 - 287.717
+[ Barrel: Shower, Magazine: Discharger, Grip: Arisaka, Stock: Spas-12, Core: RN516 ]
+damage: 16.7056 - 11.0314
+dropoffStuds: 152.635 - 283.465
 pellets: 2
 fireRate: 1224.98
-adsSpread: 0.787126
-hipfireSpread: 11.8069
-reloadTime: 6.01875
+adsSpread: 0.749685
+hipfireSpread: 11.2453
+reloadTime: 5.625
 magazineSize: 35
+health: -6
 recoilHipVertical: 23 - 28.25
 recoilAimVertical: 11.5 - 14.125
+movementSpeed: 2.6
 TTK: 0.244902 Seconds
 
 [ Barrel: Shower, Magazine: Discharger, Grip: M1 Carbine, Stock: Spas-12, Core: RN516 ]
@@ -27,19 +29,17 @@ recoilAimVertical: 14.835 - 18.2212
 movementSpeed: 0.75
 TTK: 0.244902 Seconds
 
-[ Barrel: Shower, Magazine: Discharger, Grip: Arisaka, Stock: Spas-12, Core: RN516 ]
-damage: 16.7056 - 11.0314
-dropoffStuds: 152.635 - 283.465
+[ Barrel: Shower, Magazine: Discharger, Grip: OwenGun, Stock: Spas-12, Core: RN516 ]
+damage: 16.7056 - 11.1165
+dropoffStuds: 154.925 - 287.717
 pellets: 2
 fireRate: 1224.98
-adsSpread: 0.749685
-hipfireSpread: 11.2453
-reloadTime: 5.625
+adsSpread: 0.787126
+hipfireSpread: 11.8069
+reloadTime: 6.01875
 magazineSize: 35
-health: -6
 recoilHipVertical: 23 - 28.25
 recoilAimVertical: 11.5 - 14.125
-movementSpeed: 2.6
 TTK: 0.244902 Seconds
 
 [ Barrel: Shower, Magazine: Discharger, Grip: NP9, Stock: Spas-12, Core: RN516 ]
@@ -70,19 +70,6 @@ recoilAimVertical: 20.1825 - 24.7894
 movementSpeed: 0.75
 TTK: 0.249831 Seconds
 
-[ Barrel: FC200SH, Magazine: Discharger, Grip: The Chief, Stock: Malyuk, Core: Hex Spitter ]
-damage: 25.1526 - 22.7515
-dropoffStuds: 152.19 - 304.38
-pellets: 2
-fireRate: 719.073
-adsSpread: 0.75
-hipfireSpread: 2.625
-reloadTime: 4.4712
-magazineSize: 43
-recoilHipVertical: 40.5 - 54
-recoilAimVertical: 20.25 - 27
-TTK: 0.250322 Seconds
-
 [ Barrel: FC200SH, Magazine: Discharger, Grip: The Chief, Stock: FG-42, Core: Hex Spitter ]
 damage: 25.1526 - 22.7515
 dropoffStuds: 152.19 - 304.38
@@ -95,6 +82,19 @@ magazineSize: 50
 recoilHipVertical: 45.765 - 61.02
 recoilAimVertical: 22.8825 - 30.51
 movementSpeed: 2.4
+TTK: 0.250322 Seconds
+
+[ Barrel: FC200SH, Magazine: Discharger, Grip: The Chief, Stock: Malyuk, Core: Hex Spitter ]
+damage: 25.1526 - 22.7515
+dropoffStuds: 152.19 - 304.38
+pellets: 2
+fireRate: 719.073
+adsSpread: 0.75
+hipfireSpread: 2.625
+reloadTime: 4.4712
+magazineSize: 43
+recoilHipVertical: 40.5 - 54
+recoilAimVertical: 20.25 - 27
 TTK: 0.250322 Seconds
 
 [ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: Sten gun, Core: RN516 ]
@@ -124,17 +124,17 @@ recoilHipVertical: 42.78 - 52.545
 recoilAimVertical: 21.39 - 26.2725
 TTK: 0.251001 Seconds
 
-[ Barrel: Type 99, Magazine: Burton, Grip: Arisaka, Stock: Type 2a Nambu, Core: MG42 ]
+[ Barrel: Type 99, Magazine: Burton, Grip: Arisaka, Stock: Mas-38, Core: MG42 ]
 damage: 14.3022 - 8.77635
 dropoffStuds: 150 - 325
 fireRate: 1434
-adsSpread: 0.607654
-hipfireSpread: 6.07654
-reloadTime: 4.41
+adsSpread: 0.693274
+hipfireSpread: 6.93274
+reloadTime: 4.19501
 magazineSize: 40
-health: 0.5
-recoilHipVertical: 45.0765 - 64.638
-recoilAimVertical: 22.5382 - 32.319
+health: 7
+recoilHipVertical: 46.799 - 67.108
+recoilAimVertical: 23.3995 - 33.554
 movementSpeed: 1.125
 TTK: 0.251046 Seconds
 

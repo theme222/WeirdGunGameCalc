@@ -285,6 +285,17 @@
       "Movement_Speed": 2,
       "Spread": 20
     },
+    {
+      "Price_Type": "Coin",
+      "Name": "M203",
+      "Category": "AR",
+      "Damage": 50,
+      "Recoil": 100,
+      "Reload_Speed": 200,
+      "Fire_Rate": -75,
+      "Magazine_Cap": -80,
+      "Blast_Radius": 250
+    },
       {
         "Price_Type": "Coin",
         "Name": "M40",
@@ -1721,6 +1732,17 @@
       "Range": 15,
       "Recoil": 70,
       "Fire_Rate": -15
+    },
+    {
+      "Price_Type": "Coin",
+      "Name": "ULTKR",
+      "Category": "Sidearm",
+      "Damage": 10,
+      "Movement_Speed": 15,
+      "Reload_Speed": -20,
+      "Fire_Rate": -50,
+      "Recoil": 46
+
     }
     ],
     "Magazines": [
@@ -3558,6 +3580,17 @@
       "Range": 7,
       "Fire_Rate": -8,
       "Recoil": 57
+    },
+    {
+      "Price_Type": "Coin",
+      "Name": "ULTKR",
+      "Category": "Sidearm",
+      "Magazine_Size": 6,
+      "Reload_Time": 2,
+      "Damage": 20,
+      "Movement_Speed": 15,
+      "Recoil": 57,
+      "Health": -15
     }
     ],
     "Grips": [
@@ -4867,6 +4900,15 @@
       "Recoil": -32,
       "Fire_Rate": -3,
       "Movement_Speed": -6
+    },
+    {
+      "Price_Type": "Coin",
+      "Name": "ULTKR",
+      "Category": "Sidearm",
+      "Reload_Speed": -10,
+      "Fire_Rate": -5,
+      "Movement_Speed": 15,
+      "Health": -15
     }
     ],
     "Stocks": [
@@ -7495,15 +7537,15 @@
         ],
         "Recoil_Hip_Vertical": [
           150.0,
-          180.0
+          185.0
         ],
         "Recoil_Aim_Horizontal": [
-          -27.2,
-          27.2
+          -30.4,
+          30.4
         ],
         "Recoil_Aim_Vertical": [
-          76.5,
-          102.0
+          142.5,
+          175.75
         ],
         "Movement_Speed_Modifier": -15.0
       },
@@ -11740,14 +11782,14 @@
           50.0,
           100.0
         ],
-        "Fire_Rate": 35.0,
+        "Fire_Rate": 15.0,
         "Hipfire_Spread": 6.0,
         "ADS_Spread": 0.3,
         "Time_To_Aim": 1.2,
         "Detection_Radius": 300.0,
         "Suppression": 0.0,
         "Equip_Time": 0.9,
-"Recoil_Hip_Horizontal": [
+        "Recoil_Hip_Horizontal": [
          -25,
          25
         ],
@@ -11764,6 +11806,44 @@
          135.0
         ],
         "Movement_Speed_Modifier": -3.0
+      },
+	        {
+        "Price_Type": "Coin",
+        "Name": "ULTKR",
+        "Category": "Sidearm",
+        "Firing_Mode": "Semi",
+        "Damage": [
+          62.0,
+          24.8
+        ],
+        "Dropoff_Studs": [
+          50.0,
+          100.0
+        ],
+        "Fire_Rate": 35.0,
+        "Hipfire_Spread": 6.0,
+        "ADS_Spread": 0.3,
+        "Time_To_Aim": 1.2,
+        "Detection_Radius": 300.0,
+        "Suppression": 0.0,
+        "Equip_Time": 0.9,
+        "Recoil_Hip_Horizontal": [
+         -25,
+         25
+        ],
+        "Recoil_Hip_Vertical": [
+         130,
+         150
+        ],
+        "Recoil_Aim_Horizontal": [
+         -18.8,
+         18.8
+        ],
+        "Recoil_Aim_Vertical": [
+         117.0,
+         135.0
+        ],
+        "Movement_Speed_Modifier": 15.0
       }
     ]
   },

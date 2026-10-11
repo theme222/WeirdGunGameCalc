@@ -1,19 +1,5 @@
 ./wggcalc -o InterestingBuilds/FastestTTKAllowPellet.txt -i SMG AR LMG --speedMin 0 --magazineMin 30 --spreadAimMax 0.7 --rangeMin 150 --recoilAimMax 35 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: Type 99, Magazine: Burton, Grip: Arisaka, Stock: Type 2a Nambu, Core: MG42 ]
-damage: 14.3022 - 8.77635
-dropoffStuds: 150 - 325
-fireRate: 1434
-adsSpread: 0.607654
-hipfireSpread: 6.07654
-reloadTime: 4.41
-magazineSize: 40
-health: 0.5
-recoilHipVertical: 45.0765 - 64.638
-recoilAimVertical: 22.5382 - 32.319
-movementSpeed: 1.125
-TTK: 0.251046 Seconds
-
 [ Barrel: Type 99, Magazine: Burton, Grip: Arisaka, Stock: Mas-38, Core: MG42 ]
 damage: 14.3022 - 8.77635
 dropoffStuds: 150 - 325
@@ -25,6 +11,20 @@ magazineSize: 40
 health: 7
 recoilHipVertical: 46.799 - 67.108
 recoilAimVertical: 23.3995 - 33.554
+movementSpeed: 1.125
+TTK: 0.251046 Seconds
+
+[ Barrel: Type 99, Magazine: Burton, Grip: Arisaka, Stock: Type 2a Nambu, Core: MG42 ]
+damage: 14.3022 - 8.77635
+dropoffStuds: 150 - 325
+fireRate: 1434
+adsSpread: 0.607654
+hipfireSpread: 6.07654
+reloadTime: 4.41
+magazineSize: 40
+health: 0.5
+recoilHipVertical: 45.0765 - 64.638
+recoilAimVertical: 22.5382 - 32.319
 movementSpeed: 1.125
 TTK: 0.251046 Seconds
 
@@ -41,19 +41,6 @@ recoilHipVertical: 25.2954 - 37.9431
 recoilAimVertical: 22.7659 - 34.1488
 TTK: 0.253087 Seconds
 
-[ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: AWM, Core: RN516 ]
-damage: 16.7056 - 11.1426
-dropoffStuds: 155.75 - 289.25
-pellets: 2
-fireRate: 1178.71
-adsSpread: 0.636404
-hipfireSpread: 9.54606
-reloadTime: 5.28609
-magazineSize: 50
-recoilHipVertical: 42.09 - 51.6975
-recoilAimVertical: 21.045 - 25.8488
-TTK: 0.254515 Seconds
-
 [ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: MG42, Core: RN516 ]
 damage: 16.7056 - 11.1426
 dropoffStuds: 155.75 - 289.25
@@ -68,17 +55,18 @@ recoilAimVertical: 17.25 - 21.1875
 movementSpeed: 2.625
 TTK: 0.254515 Seconds
 
-[ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: L8, Core: RN516 ]
+[ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: FAL, Core: RN516 ]
 damage: 16.7056 - 11.3652
 dropoffStuds: 161.98 - 300.82
 pellets: 2
 fireRate: 1178.71
-adsSpread: 0.699623
-hipfireSpread: 10.4943
+adsSpread: 0.660849
+hipfireSpread: 9.91273
 reloadTime: 5.90625
 magazineSize: 50
-recoilHipVertical: 34.5 - 42.375
-recoilAimVertical: 17.25 - 21.1875
+recoilHipVertical: 44.85 - 55.0875
+recoilAimVertical: 22.425 - 27.5437
+movementSpeed: 0.16
 TTK: 0.254515 Seconds
 
 [ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: The Chief, Core: RN516 ]
@@ -94,18 +82,30 @@ recoilHipVertical: 40.365 - 49.5787
 recoilAimVertical: 20.1825 - 24.7894
 TTK: 0.254515 Seconds
 
-[ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: FAL, Core: RN516 ]
+[ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: L8, Core: RN516 ]
 damage: 16.7056 - 11.3652
 dropoffStuds: 161.98 - 300.82
 pellets: 2
 fireRate: 1178.71
-adsSpread: 0.660849
-hipfireSpread: 9.91273
+adsSpread: 0.699623
+hipfireSpread: 10.4943
 reloadTime: 5.90625
 magazineSize: 50
-recoilHipVertical: 44.85 - 55.0875
-recoilAimVertical: 22.425 - 27.5437
-movementSpeed: 0.16
+recoilHipVertical: 34.5 - 42.375
+recoilAimVertical: 17.25 - 21.1875
+TTK: 0.254515 Seconds
+
+[ Barrel: Shower, Magazine: Discharger, Grip: M1897 Trench Shotgun, Stock: AWM, Core: RN516 ]
+damage: 16.7056 - 11.1426
+dropoffStuds: 155.75 - 289.25
+pellets: 2
+fireRate: 1178.71
+adsSpread: 0.636404
+hipfireSpread: 9.54606
+reloadTime: 5.28609
+magazineSize: 50
+recoilHipVertical: 42.09 - 51.6975
+recoilAimVertical: 21.045 - 25.8488
 TTK: 0.254515 Seconds
 
 [ Barrel: FC200SH, Magazine: Discharger, Grip: The Chief, Stock: P90, Core: Hex Spitter ]

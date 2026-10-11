@@ -26,41 +26,17 @@ recoilAimVertical: 19.2741 - 26.5019
 movementSpeed: 4
 TTK: 0.273841 Seconds
 
-[ Barrel: ECHO11, Magazine: P90, Grip: M-16-CQB, Stock: Spas-12, Core: Bicycle ]
-damage: 33.3645 - 18.2079
-dropoffStuds: 218.313 - 300.18
-fireRate: 429.618
-adsSpread: 0.56604
-hipfireSpread: 9.9057
-reloadTime: 3.996
-magazineSize: 35
-recoilHipVertical: 30.0643 - 41.3384
-recoilAimVertical: 18.0386 - 24.8031
-movementSpeed: 4
-TTK: 0.279318 Seconds
-
-[ Barrel: ECHO11, Magazine: P90, Grip: Hecate II, Stock: Spas-12, Core: Bicycle ]
+[ Barrel: ECHO11, Magazine: P90, Grip: P08 Artillery, Stock: Spas-12, Core: Bicycle ]
 damage: 33.3645 - 17.5764
 dropoffStuds: 209.916 - 288.634
 fireRate: 429.618
-adsSpread: 0.509436
-hipfireSpread: 8.91513
+adsSpread: 0.42453
+hipfireSpread: 7.42927
 reloadTime: 3.888
 magazineSize: 35
-recoilHipVertical: 30.888 - 42.471
-recoilAimVertical: 18.5328 - 25.4826
-TTK: 0.279318 Seconds
-
-[ Barrel: ECHO11, Magazine: P90, Grip: Obreez, Stock: Spas-12, Core: Bicycle ]
-damage: 33.3645 - 17.5764
-dropoffStuds: 209.916 - 288.634
-fireRate: 429.618
-adsSpread: 0.509436
-hipfireSpread: 8.91513
-reloadTime: 3.888
-magazineSize: 35
-recoilHipVertical: 30.888 - 42.471
-recoilAimVertical: 18.5328 - 25.4826
+recoilHipVertical: 35.4182 - 48.7001
+recoilAimVertical: 21.2509 - 29.22
+movementSpeed: 2
 TTK: 0.279318 Seconds
 
 [ Barrel: ECHO11, Magazine: P90, Grip: Drill, Stock: Spas-12, Core: Bicycle ]
@@ -76,17 +52,17 @@ recoilAimVertical: 20.0154 - 27.5212
 movementSpeed: 4
 TTK: 0.279318 Seconds
 
-[ Barrel: ECHO11, Magazine: P90, Grip: P08 Artillery, Stock: Spas-12, Core: Bicycle ]
+[ Barrel: ECHO11, Magazine: P90, Grip: M-16, Stock: Spas-12, Core: Bicycle ]
 damage: 33.3645 - 17.5764
 dropoffStuds: 209.916 - 288.634
 fireRate: 429.618
-adsSpread: 0.42453
-hipfireSpread: 7.42927
-reloadTime: 3.888
+adsSpread: 0.56604
+hipfireSpread: 9.9057
+reloadTime: 3.6
 magazineSize: 35
-recoilHipVertical: 35.4182 - 48.7001
-recoilAimVertical: 21.2509 - 29.22
-movementSpeed: 2
+recoilHipVertical: 32.9472 - 45.3024
+recoilAimVertical: 19.7683 - 27.1814
+movementSpeed: 4
 TTK: 0.279318 Seconds
 
 [ Barrel: ECHO11, Magazine: P90, Grip: M60, Stock: Spas-12, Core: Bicycle ]
@@ -100,6 +76,30 @@ magazineSize: 35
 recoilHipVertical: 35.0064 - 48.1338
 recoilAimVertical: 21.0038 - 28.8803
 movementSpeed: 1.5
+TTK: 0.279318 Seconds
+
+[ Barrel: ECHO11, Magazine: P90, Grip: Obreez, Stock: Spas-12, Core: Bicycle ]
+damage: 33.3645 - 17.5764
+dropoffStuds: 209.916 - 288.634
+fireRate: 429.618
+adsSpread: 0.509436
+hipfireSpread: 8.91513
+reloadTime: 3.888
+magazineSize: 35
+recoilHipVertical: 30.888 - 42.471
+recoilAimVertical: 18.5328 - 25.4826
+TTK: 0.279318 Seconds
+
+[ Barrel: ECHO11, Magazine: P90, Grip: Hecate II, Stock: Spas-12, Core: Bicycle ]
+damage: 33.3645 - 17.5764
+dropoffStuds: 209.916 - 288.634
+fireRate: 429.618
+adsSpread: 0.509436
+hipfireSpread: 8.91513
+reloadTime: 3.888
+magazineSize: 35
+recoilHipVertical: 30.888 - 42.471
+recoilAimVertical: 18.5328 - 25.4826
 TTK: 0.279318 Seconds
 
 [ Barrel: ECHO11, Magazine: P90, Grip: Type 99, Stock: Spas-12, Core: Bicycle ]

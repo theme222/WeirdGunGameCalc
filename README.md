@@ -3,26 +3,25 @@
 
 ## About
 
-`Data last updated at 27 Sep 2026`<br/>
+`Data last updated at 11 Oct 2026`<br/>
 
-Made using c++ this tool reads data from Data/FullData.json and calculates all possible combinations of guns in [Weird Gun Game](https://www.roblox.com/games/94590879393563/Weird-Gun-Game-UPDATE). Please note that I am not affiliated with the [Redscape Interactive Projects](https://www.roblox.com/communities/35232296/Redscape-Interactive-Projects#!/about)
+This c++ tool reads data from `Data/FullData.json` and calculates all possible combinations of guns in [Weird Gun Game](https://www.roblox.com/games/94590879393563/). 
+Please note that I am not affiliated with the [Redscape Interactive Projects](https://www.roblox.com/communities/35232296/Redscape-Interactive-Projects#!/about)
 group and don't have *direct* access to the source code of the game. This is
 purely a personal project in my attempt to learn c++. Any interesting builds
 will be updated in the `InterestingBuilds` folder. If you find any guns that
-have stats that are different from the game please notify me on discord
-@theme222 or open an issue here on github.
+have stats that are different from the game please notify me (@theme222) or
+opacef (@idontreallycare) on discord or open an issue here on github.
 
 ## Dataset
-
-*The current maintainer of the dataset (@mncastorm) is MIA. The data that is
-currently being used is genorously provided by @opacef on discord but there are
-no guarantees it is complete or correct.*
 
 Previously data was read from a list of .txt files that contained the partlist
 originally provided by @zyadak. This was then verified later by reading roblox
 memory using @emma.5829's script. The data was merged with @spiderkitty410's
 google sheet which you can find
 [here](https://docs.google.com/spreadsheets/d/1Kc9aME3xlUC_vV5dFRe457OchqUOrwuiX_pQykjCF68/edit?gid=911413911#gid=911413911)
+This sheet was previously maintained by @mncastorm has unfortunately gone inactive.
+A new independent maintainer for a separate (private) sheet is opacef (@idontreallycare).
 
 ## Usage
 

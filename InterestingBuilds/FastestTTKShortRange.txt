@@ -1,20 +1,5 @@
 ./wggcalc -o InterestingBuilds/FastestTTKShortRange.txt -i SMG AR LMG Weird --magazineMin 30 --speedMin 0 --TTKMin 0.001 --spreadAimMax 1 --recoilAimMax 35 --rangeMin 100 --pelletMax 1 --reloadMax 2.5 --TTEMin 2.5 --ffm Auto 
 Current top 10 guns are: 
-[ Barrel: M60, Magazine: Scar L, Grip: Mega Soaker, Stock: Speed Coil, Core: M2-Browning ]
-damage: 50.4501 - 22.1981
-dropoffStuds: 132 - 211.2
-fireRate: 271.25
-adsSpread: 0.49392
-hipfireSpread: 8.232
-reloadTime: 2.25
-magazineSize: 30
-Time to empty: 6.41475
-health: 5
-recoilHipVertical: 34.884 - 41.8608
-recoilAimVertical: 27.9072 - 33.4886
-movementSpeed: 3
-TTK: 0.221198 Seconds
-
 [ Barrel: M870 MCS, Magazine: Scar L, Grip: Tap, Stock: Speed Coil, Core: M2-Browning ]
 damage: 50.2229 - 20.4106
 dropoffStuds: 124.08 - 198.528
@@ -28,6 +13,21 @@ health: 5
 recoilHipVertical: 35.7 - 42.84
 recoilAimVertical: 28.56 - 34.272
 movementSpeed: 2
+TTK: 0.221198 Seconds
+
+[ Barrel: M60, Magazine: Scar L, Grip: Mega Soaker, Stock: Speed Coil, Core: M2-Browning ]
+damage: 50.4501 - 22.1981
+dropoffStuds: 132 - 211.2
+fireRate: 271.25
+adsSpread: 0.49392
+hipfireSpread: 8.232
+reloadTime: 2.25
+magazineSize: 30
+Time to empty: 6.41475
+health: 5
+recoilHipVertical: 34.884 - 41.8608
+recoilAimVertical: 27.9072 - 33.4886
+movementSpeed: 3
 TTK: 0.221198 Seconds
 
 [ Barrel: ECHO11, Magazine: MP 40, Grip: USS Iowa, Stock: APS, Core: Type 2a Nambu ]
@@ -60,19 +60,19 @@ recoilAimVertical: 21.3127 - 29.8641
 movementSpeed: 9
 TTK: 0.222638 Seconds
 
-[ Barrel: ECHO11, Magazine: Scar L, Grip: VSSR, Stock: Speed Coil, Core: M2-Browning ]
-damage: 50.1774 - 22.8871
-dropoffStuds: 135.855 - 217.369
+[ Barrel: ECHO11, Magazine: Scar L, Grip: Tap, Stock: Speed Coil, Core: M2-Browning ]
+damage: 50.1774 - 22.4434
+dropoffStuds: 133.716 - 213.946
 fireRate: 267.181
-adsSpread: 0.74088
-hipfireSpread: 12.348
+adsSpread: 0.760725
+hipfireSpread: 12.6787
 reloadTime: 2.25
 magazineSize: 30
 Time to empty: 6.51243
 health: 5
-recoilHipVertical: 35.7367 - 42.8841
-recoilAimVertical: 28.5894 - 34.3073
-movementSpeed: 6.95
+recoilHipVertical: 32.9154 - 39.4985
+recoilAimVertical: 26.3323 - 31.5988
+movementSpeed: 3.95
 TTK: 0.224567 Seconds
 
 [ Barrel: ECHO11, Magazine: Scar L, Grip: Mega Soaker, Stock: Speed Coil, Core: M2-Browning ]
@@ -90,19 +90,19 @@ recoilAimVertical: 28.5894 - 34.3073
 movementSpeed: 10.95
 TTK: 0.224567 Seconds
 
-[ Barrel: ECHO11, Magazine: Scar L, Grip: Tap, Stock: Speed Coil, Core: M2-Browning ]
-damage: 50.1774 - 22.4434
-dropoffStuds: 133.716 - 213.946
+[ Barrel: ECHO11, Magazine: Scar L, Grip: VSSR, Stock: Speed Coil, Core: M2-Browning ]
+damage: 50.1774 - 22.8871
+dropoffStuds: 135.855 - 217.369
 fireRate: 267.181
-adsSpread: 0.760725
-hipfireSpread: 12.6787
+adsSpread: 0.74088
+hipfireSpread: 12.348
 reloadTime: 2.25
 magazineSize: 30
 Time to empty: 6.51243
 health: 5
-recoilHipVertical: 32.9154 - 39.4985
-recoilAimVertical: 26.3323 - 31.5988
-movementSpeed: 3.95
+recoilHipVertical: 35.7367 - 42.8841
+recoilAimVertical: 28.5894 - 34.3073
+movementSpeed: 6.95
 TTK: 0.224567 Seconds
 
 [ Barrel: M60, Magazine: Scar L, Grip: DP-27, Stock: Speed Coil, Core: M2-Browning ]

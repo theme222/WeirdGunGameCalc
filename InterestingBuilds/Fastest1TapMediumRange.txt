@@ -9,8 +9,8 @@ hipfireSpread: 10.92
 reloadTime: 10.5
 magazineSize: 1
 health: -20
-recoilHipVertical: 347.76 - 417.312
-recoilAimVertical: 177.358 - 236.477
+recoilHipVertical: 347.76 - 428.904
+recoilAimVertical: 330.372 - 407.459
 movementSpeed: 0.5
 
 [ Barrel: Spray Can, Magazine: Fat Cat, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
@@ -22,8 +22,8 @@ hipfireSpread: 10.92
 reloadTime: 12
 magazineSize: 1
 health: -10
-recoilHipVertical: 124.2 - 149.04
-recoilAimVertical: 63.342 - 84.456
+recoilHipVertical: 124.2 - 153.18
+recoilAimVertical: 117.99 - 145.521
 movementSpeed: 3.5
 
 [ Barrel: MG15, Magazine: Fat Cat, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
@@ -35,22 +35,9 @@ hipfireSpread: 10.92
 reloadTime: 11.424
 magazineSize: 1
 health: -10
-recoilHipVertical: 165.186 - 198.223
-recoilAimVertical: 84.2449 - 112.326
+recoilHipVertical: 165.186 - 203.729
+recoilAimVertical: 156.927 - 193.543
 movementSpeed: -3
-
-[ Barrel: M40, Magazine: Tankgewehr, Grip: Auto-5, Stock: Speed Coil, Core: Barret .50 ]
-damage: 179.243 - 146.187
-dropoffStuds: 330 - 709.5
-fireRate: 110.637
-adsSpread: 0.29568
-hipfireSpread: 11.8272
-reloadTime: 10.5
-magazineSize: 1
-health: -20
-recoilHipVertical: 225.036 - 270.043
-recoilAimVertical: 114.768 - 153.024
-movementSpeed: 2
 
 [ Barrel: M40, Magazine: Fat Cat, Grip: Auto-5, Stock: Speed Coil, Core: Barret .50 ]
 damage: 238.991 - 150.841
@@ -61,12 +48,12 @@ hipfireSpread: 11.8272
 reloadTime: 12
 magazineSize: 1
 health: -10
-recoilHipVertical: 80.37 - 96.444
-recoilAimVertical: 40.9887 - 54.6516
+recoilHipVertical: 80.37 - 99.123
+recoilAimVertical: 76.3515 - 94.1668
 movementSpeed: 5
 
-[ Barrel: M40, Magazine: Tankgewehr, Grip: Controller, Stock: Speed Coil, Core: Barret .50 ]
-damage: 183.839 - 149.935
+[ Barrel: M40, Magazine: Tankgewehr, Grip: Auto-5, Stock: Speed Coil, Core: Barret .50 ]
+damage: 179.243 - 146.187
 dropoffStuds: 330 - 709.5
 fireRate: 110.637
 adsSpread: 0.29568
@@ -74,8 +61,9 @@ hipfireSpread: 11.8272
 reloadTime: 10.5
 magazineSize: 1
 health: -20
-recoilHipVertical: 272.916 - 327.499
-recoilAimVertical: 139.187 - 185.583
+recoilHipVertical: 225.036 - 277.544
+recoilAimVertical: 213.784 - 263.667
+movementSpeed: 2
 
 [ Barrel: M40, Magazine: Fat Cat, Grip: Controller, Stock: Speed Coil, Core: Barret .50 ]
 damage: 245.119 - 154.709
@@ -86,22 +74,21 @@ hipfireSpread: 11.8272
 reloadTime: 12
 magazineSize: 1
 health: -10
-recoilHipVertical: 97.47 - 116.964
-recoilAimVertical: 49.7097 - 66.2796
+recoilHipVertical: 97.47 - 120.213
+recoilAimVertical: 92.5965 - 114.202
 movementSpeed: 3
 
-[ Barrel: Mega Soaker, Magazine: Fat Cat, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
-damage: 247.699 - 127.101
-dropoffStuds: 174.24 - 374.616
-fireRate: 109.651
-adsSpread: 0.273
-hipfireSpread: 10.92
-reloadTime: 12
+[ Barrel: M40, Magazine: Tankgewehr, Grip: Controller, Stock: Speed Coil, Core: Barret .50 ]
+damage: 183.839 - 149.935
+dropoffStuds: 330 - 709.5
+fireRate: 110.637
+adsSpread: 0.29568
+hipfireSpread: 11.8272
+reloadTime: 10.5
 magazineSize: 1
-health: -10
-recoilHipVertical: 100.602 - 120.722
-recoilAimVertical: 51.307 - 68.4094
-movementSpeed: 3
+health: -20
+recoilHipVertical: 272.916 - 336.596
+recoilAimVertical: 259.27 - 319.767
 
 [ Barrel: Mega Soaker, Magazine: Tankgewehr, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
 damage: 185.774 - 140.55
@@ -112,8 +99,21 @@ hipfireSpread: 10.92
 reloadTime: 10.5
 magazineSize: 1
 health: -20
-recoilHipVertical: 281.686 - 338.023
-recoilAimVertical: 143.66 - 191.546
+recoilHipVertical: 281.686 - 347.412
+recoilAimVertical: 267.601 - 330.042
+
+[ Barrel: Mega Soaker, Magazine: Fat Cat, Grip: Lightning Shot, Stock: Speed Coil, Core: Barret .50 ]
+damage: 247.699 - 127.101
+dropoffStuds: 174.24 - 374.616
+fireRate: 109.651
+adsSpread: 0.273
+hipfireSpread: 10.92
+reloadTime: 12
+magazineSize: 1
+health: -10
+recoilHipVertical: 100.602 - 124.076
+recoilAimVertical: 95.5719 - 117.872
+movementSpeed: 3
 
 [ Barrel: Spray Can, Magazine: Fat Cat, Grip: Arisaka, Stock: Arisaka, Core: Barret .50 ]
 damage: 250.04 - 128.171
@@ -124,7 +124,7 @@ hipfireSpread: 9.96
 reloadTime: 16.8
 magazineSize: 1
 health: -4
-recoilHipVertical: 150 - 180
-recoilAimVertical: 76.5 - 102
+recoilHipVertical: 150 - 185
+recoilAimVertical: 142.5 - 175.75
 movementSpeed: -3.5
 
